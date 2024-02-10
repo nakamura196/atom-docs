@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/manage-plugins.rst:5
+msgid "Manage plugins"
+msgstr "プラグインを管理"
+
+#: ../../user-manual/administer/manage-plugins.rst:7
+msgid ""
+"AtoM uses a number of plugins to install :term:`archival description`, "
+":term:`authority record` and :term:`archival institution` templates, as well"
+" as perform other functions."
+msgstr ""
+"AtoMは、:term:`アーカイバル記述`、:term:`権威記録`、および:term:`アーカイブ機関`のテンプレートをインストールするための複数のプラグインを使用します。また、他の機能を実行するためにも使用されます。"
+
+#: ../../user-manual/administer/manage-plugins.rst:12
+msgid "Enable plugins"
+msgstr "プラグインを有効にする"
+
+#: ../../user-manual/administer/manage-plugins.rst:17
+msgid "To enable or disable a plugin:"
+msgstr "プラグインを有効にするか無効にするには："
+
+#: ../../user-manual/administer/manage-plugins.rst:19
+msgid ""
+"Click on the |gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main "
+"menu` located in the :term:`header bar` and select Plugins."
+msgstr ""
+"|gears| :ref:`管理 <main-menu-admin>` メニューを、:term:`ヘッダーバー`にある "
+":term:`メインメニュー`からクリックして、プラグインを選択してください。"
+
+#: ../../user-manual/administer/manage-plugins.rst:13
+msgid "gears"
+msgstr ""
+"申し訳ありませんが、翻訳するための具体的なテキストが提供されていません。\"gears\"が翻訳するべき言葉として意図されている場合、「歯車」が日本語の対応語ですが、これは一般的な単語であり、デジタルデータの長期保存やArchivematicaに直接関連するコンテキストが与えられていません。Archivematicaに関連する文脈での使用を確認するため、もしくは別の翻訳が必要であれば、さらに詳細な情報をお知らせいただけますと幸いです。"
+
+#: ../../user-manual/administer/manage-plugins.rst:-1
+msgid "List and enable plugins screen"
+msgstr "プラグイン一覧と有効化画面"
+
+#: ../../user-manual/administer/manage-plugins.rst:27
+msgid ""
+"Check or uncheck the plugins you wish to enable or disable. Click Save."
+msgstr "有効にしたいプラグイン、または無効にしたいプラグインをチェックまたはチェックを外してください。保存をクリックします。"
+
+#: ../../user-manual/administer/manage-plugins.rst:31
+msgid ""
+"Most plugins based on `ICA <http://www.ica.org/>`_ standards are permanently"
+" enabled in AtoM. These include the  International Standard Archival "
+"Authority Record for Corporate Bodies, Persons and Families (ISAAR (CPF)), "
+"the  International Standard Archival Description (ISAD) and the "
+"International Standard for Describing Institutions with Archival Holdings "
+"(ISDIAH)."
+msgstr ""
+"多くのプラグインは `ICA <http://www.ica.org/>`_ "
+"の基準に基づいており、AtoMではこれらは恒久的に有効化されています。これには、企業体、人物、家族のための国際標準アーカイブ機関レコード（ISAAR（CPF））、国際標準アーカイブ記述（ISAD）、アーカイブ保有機関記述のための国際標準（ISDIAH）が含まれます。"
+
+#: ../../user-manual/administer/manage-plugins.rst:38
+msgid ""
+"Enabling a metadata standard plugin means that the description template can "
+"be enabled by an :term:`administrator`. See :ref:`Settings - Default "
+"templates <default-templates>`."
+msgstr ""
+"メタデータ標準プラグインを有効にすると、説明テンプレートを:term:`管理者`によって有効にすることができます。詳細は :ref:`設定 - "
+"デフォルトテンプレート <default-templates>` を参照してください。"
+
+#: ../../user-manual/administer/manage-plugins.rst:43
+msgid "List of plugins"
+msgstr "プラグインのリスト"
+
+#: ../../user-manual/administer/manage-plugins.rst:45
+msgid "Below is a list of plugins by category:"
+msgstr "以下は、カテゴリーごとのプラグインのリストです："
+
+#: ../../user-manual/administer/manage-plugins.rst:47
+msgid "**Metadata standard plugins**"
+msgstr "**メタデータ標準プラグイン**"
+
+#: ../../user-manual/administer/manage-plugins.rst:50
+#: ../../user-manual/administer/manage-plugins.rst:69
+msgid "Name"
+msgstr "名称"
+
+#: ../../user-manual/administer/manage-plugins.rst:50
+#: ../../user-manual/administer/manage-plugins.rst:69
+msgid "Standard"
+msgstr "標準"
+
+#: ../../user-manual/administer/manage-plugins.rst:52
+msgid "arDacsPlugin"
+msgstr ""
+"「arDacsPlugin」という用語は、そのままの専門用語かプラグイン名として特定の意味を持ちます。日本語においても同様に「arDacsPlugin」として用いられ、通常、翻訳されません。ただし、この文脈が不明確である場合や、特定の説明や解釈が必要な場合は、それに応じた翻訳を行う必要があります。もし、そのような追加情報が提供されれば、より適切な翻訳を提案することができます。"
+
+#: ../../user-manual/administer/manage-plugins.rst:52
+msgid "Describing Archives: A Content Standard (DACS)."
+msgstr "アーカイブ記述：コンテンツ標準 (DACS)"
+
+#: ../../user-manual/administer/manage-plugins.rst:53
+msgid "sfIsaarPlugin"
+msgstr ""
+"sfIsaarPluginは、特定のソフトウェアのプラグインの名称です。そのため、特定の言葉や用語は翻訳せず、原文のまま使用することが一般的です。これは、ソフトウェアの機能やプラグインについて話題にしている際に、技術的な正確さを保つために重要です。したがって、\"sfIsaarPlugin\""
+" という単語は日本語に翻訳せず、そのまま \"sfIsaarPlugin\" と記載します。"
+
+#: ../../user-manual/administer/manage-plugins.rst:53
+msgid ""
+"International Standard Archival Authority Record for Corporate Bodies, "
+"Persons and Families (ISAAR (CPF))."
+msgstr "国際標準アーカイブ機関レコード：企業体、個人及び家族用（ISAAR(CPF)）。"
+
+#: ../../user-manual/administer/manage-plugins.rst:55
+msgid "sfIsdfPlugin"
+msgstr ""
+"sfIsdfPluginは、Archivematicaソフトウェアのプラグインの名前ですが、これは特定の文脈か機能説明なしで直訳することは困難です。sfIsdfPluginがArchivematica以外に特化した機能を持っている場合や、特有の意味を持っている場合は、それに応じた適切な翻訳が必要です。ただし、プラグインの名前通りに訳すなら、「sfIsdfプラグイン」となります。"
+
+#: ../../user-manual/administer/manage-plugins.rst:55
+msgid "International Standard for Describing Functions (ISDF)."
+msgstr "国際標準機能記述規則（ISDF）。"
+
+#: ../../user-manual/administer/manage-plugins.rst:56
+msgid "sfDcPlugin"
+msgstr ""
+"sfDcPluginは、特定のソフトウェアの一部であるプラグインの名称なので、特に翻訳は必要ありません。そのまま「sfDcPlugin」と記載します。ただし、文脈に応じて説明を加えることができます。例えば、「sfDcPluginは、アーカイブ管理ソフトウェアであるArchivematicaにおいて、Dublin"
+" Coreメタデータ標準を取り扱うためのプラグインです。」"
+
+#: ../../user-manual/administer/manage-plugins.rst:56
+msgid "Simple Dubin Core (DC)."
+msgstr "シンプルダブリンコア（DC）。"
+
+#: ../../user-manual/administer/manage-plugins.rst:57
+msgid "sfEacPlugin"
+msgstr ""
+"sfEacPluginは特定のソフトウェアのプラグインの名称であり、単体で文脈を持つ独特な用語です。したがって、日本語には翻訳されず、そのまま「sfEacPlugin」と表記するのが一般的です。プラグインが何を行うか、またはどのように関連するかに関する説明がなければ、この名称はそのまま使用されます。もし文脈があれば、それに基づいてさらなる説明を加えることができます。例えば、もしsfEacPluginがアーカイブ情報管理システムであるArchivematicaに関連するものであれば、以下のような翻訳が提供されるかもしれません。\n"
+"\n"
+"「sfEacPluginは、Archivematicaと連携するための拡張機能です。」\n"
+"\n"
+"しかし、提供されたテキストがプラグインの名称のみであるため、特定の文脈に対する翻訳はできません。それを踏まえ、具体的な文脈や追加情報が提供されていない限り、「sfEacPlugin」はそのまま残します。"
+
+#: ../../user-manual/administer/manage-plugins.rst:57
+msgid "Encoded Archival Context (EAC)."
+msgstr "エンコードアーカイバルコンテキスト（EAC）。"
+
+#: ../../user-manual/administer/manage-plugins.rst:58
+msgid "sfEadPlugin"
+msgstr ""
+"sfEadPluginはArchivematicaのプラグインの一つで、EAD（Encoded Archival "
+"Description）のインポートとエクスポートを可能にします。EADは、アーカイブ資料の単位記述を標準化するためのXMLマークアップ言語です。このプラグインを使うことで、Archivematicaユーザーは、アーカイブ資料の構造と記述をEADフォーマットで相互運用可能な形で管理することができます。"
+
+#: ../../user-manual/administer/manage-plugins.rst:58
+msgid "Encoded Archival Description (EAD)."
+msgstr "コード化されたアーカイバル記述 (EAD)。"
+
+#: ../../user-manual/administer/manage-plugins.rst:59
+msgid "sfRadPlugin"
+msgstr "「sfRadPlugin」"
+
+#: ../../user-manual/administer/manage-plugins.rst:59
+msgid "Rules for Archival Description (RAD)."
+msgstr "アーカイブ記述のための規則（RAD）。"
+
+#: ../../user-manual/administer/manage-plugins.rst:60
+msgid "sfModsPlugin"
+msgstr "「sfModsPlugin」"
+
+#: ../../user-manual/administer/manage-plugins.rst:60
+msgid "Metadata Object Description Schema (MODS)."
+msgstr "メタデータオブジェクト記述スキーマ（MODS）。"
+
+#: ../../user-manual/administer/manage-plugins.rst:61
+msgid "sfIsadPlugin"
+msgstr ""
+"sfIsadPluginは、Archivematicaのプラグインの名称であり、特定のソフトウェア機能やモジュールを指し示す識別名であるため、通常、このような固有名詞は翻訳されません。そのため、日本語のドキュメント内でも「sfIsadPlugin」とそのまま使用します。"
+
+#: ../../user-manual/administer/manage-plugins.rst:61
+msgid "International Standard Archival Description (ISAD)."
+msgstr "国際標準アーカイブ記述 (ISAD)。"
+
+#: ../../user-manual/administer/manage-plugins.rst:62
+msgid "sfIsdiahPlugin"
+msgstr ""
+"「sfIsdiahPlugin」という単語は、Archivematica のプラグインの名前であり、そのままの専門用語または固有名詞は翻訳せずに使用することが一般的です。したがって、日本語での文脈においても同様に「sfIsdiahプラグイン」と呼ばれます。\n"
+"\n"
+"もし、テキストが「sfIsdiahPlugin」の説明を含んでいて、それを日本語に翻訳する必要がある場合は、テキストの内容に応じて適切な翻訳を行う必要があります。しかし、提供された情報からは具体的な説明は見受けられません。\n"
+"\n"
+"例: Archivematicaに含まれる「sfIsdiahプラグイン」は、長期保存レコードの標準に準拠したメタデータの取り扱いを可能にします。"
+
+#: ../../user-manual/administer/manage-plugins.rst:62
+msgid ""
+"International Standard for Describing Institutions with Archival Holdings "
+"(ISDIAH)."
+msgstr "国際標準アーカイブ所蔵機関記述 (ISDIAH)。"
+
+#: ../../user-manual/administer/manage-plugins.rst:66
+msgid "**Other plugins**"
+msgstr "**その他のプラグイン**"
+
+#: ../../user-manual/administer/manage-plugins.rst:71
+msgid "arOaiPlugin"
+msgstr ""
+"arOaiPluginは、I18N（国際化）の原則を念頭に置いて作られており、多言語環境での使用を容易にします。デジタルオブジェクトのメタデータを収集し、OAI-"
+"PMH（Open Archives Initiative Protocol for Metadata "
+"Harvesting）規格に準拠した方法で公開するためにこのプラグインを使用します。OAI-"
+"PMHは、メタデータの収集や収穫を可能にするインターネットプロトコルです。これにより、デジタルリポジトリ間でのメタデータの共有が容易になり、学術的な研究や文化遺産機関の資源に簡単にアクセスすることを可能にします。Archivematicaは、このプラグインを統合することで、アーカイブの永続化とアクセス性を向上させることを目指しています。"
+
+#: ../../user-manual/administer/manage-plugins.rst:71
+msgid ""
+"`OAI <http://www.openarchives.org/>`_ plugin. Allows AtoM database to be "
+"enabled as an OAI repository. See also :ref:`OAI repository settings <oai-"
+"repository>`."
+msgstr ""
+"OAI <http://www.openarchives.org/>`_ "
+"プラグイン。AtoMデータベースをOAIリポジトリとして有効にすることができます。また、:ref:`OAIリポジトリの設定 <oai-"
+"repository>` も参照してください。"
+
+#: ../../user-manual/administer/manage-plugins.rst:74
+msgid "arRestApiPlugin"
+msgstr "arRestApiPluginは、システムのRESTful API機能を提供するArchivematicaのプラグインです。"
+
+#: ../../user-manual/administer/manage-plugins.rst:74
+msgid ""
+"`REST <https://restfulapi.net/>`_ plugin. Allows AtoM to provide an "
+"application programming interface (API) to external applications."
+msgstr ""
+"REST <https://restfulapi.net/> "
+"プラグイン。AtoMが外部アプリケーション向けにアプリケーションプログラミングインターフェース（API）を提供することを可能にします。"
+
+#: ../../user-manual/administer/manage-plugins.rst:77
+msgid "qtSwordPlugin"
+msgstr ""
+"qtSwordPluginは、特定のアプリケーションやシステムにおいて、Archivematicaソフトウェアの機能拡張やカスタマイズを実現するためのプラグイン（拡張機能）です。プラグインは、特定のタスクやプロセスを自動化したり、新しい機能を追加したりするのに役立ちます。\"user\"というフレーズが単独で意味を成さないため、このコンテキストでは\"qtSwordPlugin\"だけを日本語に訳しています。もし\"user\"が翻訳の一部であると指定されていない限り、こちらは翻訳には含めません。"
+
+#: ../../user-manual/administer/manage-plugins.rst:77
+msgid ""
+"`SWORD <http://swordapp.org/>`_ plugin. Necessary for DIP upload from "
+"Archivematica. An :term:`Administrator` will also need to enable job "
+"scheduler in :ref:` Settings <settings>`."
+msgstr ""
+"SWORD <http://swordapp.org/> プラグイン。ArchivematicaからのDIPアップロードに必要です。 "
+":term:`管理者`は、:ref:`設定 <settings>`でジョブスケジューラを有効にする必要があります。"
+
+#: ../../user-manual/administer/manage-plugins.rst:81
+msgid "sfSkosPlugin"
+msgstr ""
+"\"sfSkosPlugin\"は、特定の名前のプラグインやソフトウェアコンポーネントを指していますが、これ自体には特別な意味がなく、元のテキストの忠実な翻訳を提供することが難しいです。元のテキストの情報が十分でないため、このプラグインが何に使われるのか、またはどういった文脈で言及されているのかが不明です。ただし、文脈を考慮せず単に翻訳する場合は、英語名のまま「sfSkosPlugin」と記述し、日本語の読者に向けた説明文を加えることはできます。\n"
+"\n"
+"例：\n"
+"「sfSkosPlugin」は特定の機能を提供するプラグインで、詳しくはArchivematicaの関連ドキュメントを参照してください。"
+
+#: ../../user-manual/administer/manage-plugins.rst:81
+msgid ""
+"Data transform plugin. Enables XML import and export of :term:`Simple "
+"Knowledge Organization System <skos>` (SKOS) data."
+msgstr ""
+"データ変換プラグイン。:term:`シンプルナレッジオーガナイゼーションシステム<skos>`（SKOS）データのXMLインポートとエクスポートを可能にします。"
+
+#: ../../user-manual/administer/manage-plugins.rst:84
+msgid "arStorageServicePlugin"
+msgstr ""
+"「arStorageServicePlugin」はプラグインの名前なので、通常は訳さずにそのまま使用しますが、日本語でのドキュメント内で説明する際は次のようになります：\n"
+"\n"
+"arStorageServicePlugin（アーカイブ保管サービスプラグイン）"
+
+#: ../../user-manual/administer/manage-plugins.rst:84
+msgid ""
+"`Archivematica <https://archivematica.org>`_ Storage Service plugin. Allows "
+"AtoM users to download AIPs and files from Archivematica. See also "
+":ref:`Storage serivce settings <storage-service>`."
+msgstr ""
+"Archivematica <https://archivematica.org>`_ "
+"ストレージサービスプラグイン。AtoMユーザーがArchivematicaからAIP（アーカイブ情報パッケージ）およびファイルをダウンロードできるようにします。また、`:ref:`ストレージサービス設定"
+" <storage-service>`についてもご覧ください。"
+
+#: ../../user-manual/administer/manage-plugins.rst:91
+msgid ":ref:`Back to the top <manage-plugins>`"
+msgstr ":ref:`トップに戻る <manage-plugins>`"

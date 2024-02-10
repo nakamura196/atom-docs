@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/overview/technical-requirements.rst:5
+msgid "Technical Requirements"
+msgstr "技術的要件"
+
+#: ../../user-manual/overview/technical-requirements.rst:8
+msgid "Server-side requirements (for installation, hosting, etc.)"
+msgstr "サーバーサイド要件（インストール、ホスティングなどのための）"
+
+#: ../../user-manual/overview/technical-requirements.rst:10
+msgid ""
+"Details for the hardware and server environment, and the software "
+"dependencies (both required and recommended) have been documented in our "
+":ref:`Administator Manual <admin-manual-home>`. For further details, see: "
+":ref:`installation-requirements`."
+msgstr ""
+"ハードウェアやサーバー環境、ソフトウェア依存関係（必須および推奨どちらも）についての詳細は、当社の「管理者マニュアル<admin-manual-"
+"home>」に記載してあります。さらに詳細については、「インストール要件<installation-requirements>」をご覧ください。"
+
+#: ../../user-manual/overview/technical-requirements.rst:17
+msgid "Client-side requirements (for end users)"
+msgstr "クライアント側の要件（エンドユーザー向け）"
+
+#: ../../user-manual/overview/technical-requirements.rst:19
+msgid ""
+"AtoM has been designed with minimal assumptions about the technology "
+"available to users and contributors. All that is required is access to the "
+"internet and a web browser (any web browser will do, though use of a modern "
+"web browser is strongly encouraged). AtoM does, however, rely on \"client-"
+"side\" JavaScript to achieve certain effects when displaying content:"
+msgstr ""
+"AtoMは、ユーザーや貢献者が利用可能な技術について最小限の前提をもって設計されています。必要なのはインターネットへのアクセスとウェブブラウザ（どのウェブブラウザでも構いませんが、現代のウェブブラウザの使用を強く推奨します）。しかし、AtoMはコンテンツを表示する際に特定の効果を実現するために「クライアントサイド」のJavaScriptに依存しています。"
+
+#: ../../user-manual/overview/technical-requirements.rst:25
+msgid ""
+"on :term:`edit pages <edit page>`, :term:`fields <field>` are grouped into "
+":term:`information areas <information area>` that are \"collapsible\" (i.e.,"
+" fields can be displayed or hidden)"
+msgstr ""
+"用語「編集ページ<edit page>」では、用語「フィールド<field>」が「情報エリア<information "
+"area>」にグループ分けされており、「折り畳み可能」（つまり、フィールドを表示または非表示にできる）です。"
+
+#: ../../user-manual/overview/technical-requirements.rst:28
+msgid ""
+"Some :term:`drop-down menus <drop-down menu>` are collapsible (i.e. options "
+"in the list can be expanded to display more options or collapsed to hide "
+"them)"
+msgstr ""
+"一部の:term:`ドロップダウンメニュー <drop-down menu>` "
+"は折り畳み可能です（つまり、リスト内のオプションを展開してさらに多くのオプションを表示することも、折り畳んでそれらを隠すこともできます）。"
+
+#: ../../user-manual/overview/technical-requirements.rst:31
+msgid ""
+"Older browsers that do not support JavaScript will not be able to view these"
+" effects. They are still able to access AtoM unimpaired; it just won't look "
+"as nice. It is recommended, therefore, that users employ modern web browsers"
+" that support JavaScript (such as `Firefox <http://www.mozilla.org/en-"
+"US/firefox/fx/#desktop>`_, `Chrome "
+"<https://www.google.com/intl/en_uk/chrome/browser/>`_, `Opera "
+"<http://www.opera.com/browser/>`_, or `Safari "
+"<http://www.apple.com/safari/>`_.)"
+msgstr ""
+"JavaScriptをサポートしていない古いブラウザでは、これらの効果を表示することはできません。それでも、AtoMには問題なくアクセス可能ですが、見た目があまり良くありません。したがって、ユーザーにはJavaScriptをサポートする現代のWebブラウザを使用することをお勧めします（例えば、`Firefox"
+" <http://www.mozilla.org/en-US/firefox/fx/#desktop>`_、`Chrome "
+"<https://www.google.com/intl/en_uk/chrome/browser/>`_、`Opera "
+"<http://www.opera.com/browser/>`_、または`Safari "
+"<http://www.apple.com/safari/>`_など）。"
+
+#: ../../user-manual/overview/technical-requirements.rst:40
+msgid ""
+"The digital object multi-uploader requires Flash. This is a requirement that"
+" we are hoping to eliminate in future releases."
+msgstr "デジタルオブジェクトのマルチアップローダーにはFlashが必要です。これは私たちが将来のリリースで排除することを望んでいる要件です。"

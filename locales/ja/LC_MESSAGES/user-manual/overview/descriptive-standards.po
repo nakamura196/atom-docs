@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/overview/descriptive-standards.rst:5
+msgid "Descriptive standards"
+msgstr "説明標準"
+
+#: ../../user-manual/overview/descriptive-standards.rst:13
+msgid "AtoM is built around the ICA's descriptive standards"
+msgstr "AtoMは、ICAの記述基準を中心に構築されています。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:15
+msgid ""
+"At its core, AtoM was originally designed to provide archivists with a "
+"freely available, user-friendly access system that would facilitate "
+"international standards adoption. Consequently, AtoM implements a number of "
+"standards-based edit templates, which are based on the International Council"
+" on Archives'(`ICA <http://www.ica.org/>`__) international descriptive "
+"standards, including:"
+msgstr ""
+"その核となる部分で、AtoMは当初、アーキビストに国際標準の採用を促進する、自由に利用できるユーザーフレンドリーなアクセスシステムを提供するように設計されました。その結果、AtoMはいくつかの標準に基づいた編集テンプレートを実装しており、これらは国際アーカイブス評議会（`ICA"
+" <http://www.ica.org/>`__）の国際記述標準を基にしています。これには以下が含まれます："
+
+#: ../../user-manual/overview/descriptive-standards.rst:22
+msgid ""
+"General International Standard Archival Description (:ref:`ISAD <isad-"
+"template>`)"
+msgstr "一般国際標準アーカイブ記述（:ref:`ISAD <isad-template>`）"
+
+#: ../../user-manual/overview/descriptive-standards.rst:24
+msgid ""
+"International Standard Archival Authority Records (Corporate bodies, "
+"persons, and families) (:ref:`ISAAR-CPF <isaar-template>`)"
+msgstr "国際標準アーカイブ権威記録（法人、個人、家族）（:ref:`ISAAR-CPF <isaar-template>`）"
+
+#: ../../user-manual/overview/descriptive-standards.rst:26
+msgid ""
+"International Standard for Describing Institutions with Archival Holdings "
+"(:ref:`ISDIAH <isdiah-template>`)"
+msgstr "国際標準のアーカイブ所蔵機関記述 (:ref:`ISDIAH <isdiah-template>`)"
+
+#: ../../user-manual/overview/descriptive-standards.rst:28
+msgid ""
+"International Standard for Describing Functions (:ref:`ISDF <isdf-"
+"template>`)"
+msgstr "国際機能記述標準（:ref:`ISDF <isdf-template>`）"
+
+#: ../../user-manual/overview/descriptive-standards.rst:32
+msgid ""
+"While AtoM was originally designed around the `ICA's "
+"<http://www.ica.org/>`__ international descriptive standards (ISAD, ISAAR, "
+"ISDIAH and ISDF), it is intended to be flexible enough to accommodate other "
+"practices based on other (national or local) descriptive standards, "
+"including those intended for libraries, museums, and art galleries."
+msgstr ""
+"AtoMはもともと、国際アーカイブ評議会 (ICA) (http://www.ica.org/) の国際的な記述基準（ISAD, ISAAR, "
+"ISDIAH, "
+"ISDF）を中心に設計されましたが、他の（国内または地方の）記述基準に基づいている慣行にも十分な柔軟性を備えており、図書館、博物館、美術館を対象とした基準を含めて対応することを意図しています。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:41
+msgid "Support"
+msgstr "サポート"
+
+#: ../../user-manual/overview/descriptive-standards.rst:43
+msgid ""
+"\"Support\" means that users of another standard should be able to use AtoM "
+"to produce outputs that are compliant with that standard. This includes the "
+"ability to enter data in :term:`fields <field>` that represent all of the "
+":term:`data elements <data element>` required by the standard, interact with"
+" (view, edit, search) data in ways structured by and labeled according to "
+"the terms of the standard, and output (print, export) data in formats "
+"compliant with the standard."
+msgstr ""
+"「サポート」とは、他の標準を使用するユーザーが、その標準に準拠した出力をAtoMを使って生成できることを意味します。これには、標準で必要とされるすべての:term:`データ要素"
+" <data element>`を代表する:term:`フィールド "
+"<field>`にデータを入力する能力、標準の用語に従って構造化されラベル付けされた方法でデータと対話する（閲覧、編集、検索）能力、そして標準に準拠したフォーマットでデータを出力する（印刷、エクスポート）能力が含まれます。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:54
+msgid "Design principles"
+msgstr "設計原則"
+
+#: ../../user-manual/overview/descriptive-standards.rst:56
+msgid "To implement support for other standards:"
+msgstr "他の標準へのサポートを実装するために："
+
+#: ../../user-manual/overview/descriptive-standards.rst:58
+msgid ""
+"Map the data elements of the target standard to the related ICA standard and"
+" - via this \"metadata crosswalk\" - to the underlying database architecture"
+" in AtoM"
+msgstr ""
+"対象標準のデータ要素を関連するICA標準にマッピングし、この「メタデータクロスウォーク」を通じてAtoMの基盤となるデータベースアーキテクチャにマッピングしてください。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:61
+msgid ""
+"Use existing AtoM fields wherever the crosswalk establishes a direct "
+"correlation between elements in the ICA and target standards"
+msgstr "既存のAtoMフィールドを、ICA要素とターゲット基準間に直接相関関係があるとクロスウォークが確立している場所で使用してください。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:63
+msgid ""
+"Create \"custom fields\" for all other elements in the target standard using"
+" AtoM's \"property\" database table (where \"type\" is the name of the "
+"element and \"value\" is the data itself)"
+msgstr ""
+"AtoMの「property」データベーステーブルを使用して、ターゲット標準にある他のすべての要素に対して「カスタムフィールド」を作成します（ここで「type」は要素の名前であり、「value」はデータ自体です）。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:66
+msgid "Create additional PHP methods for managing the data as required"
+msgstr "必要に応じてデータ管理のための追加のPHPメソッドを作成する"
+
+#: ../../user-manual/overview/descriptive-standards.rst:67
+msgid ""
+"Add user interface templates (:term:`view <view page>` and :term:`edit <edit"
+" page>` pages) using page divisions and field labels based on the structure "
+"and terminology of the target standard"
+msgstr ""
+"ターゲット標準の構造と用語に基づいて、ページ分割とフィールドラベルを使用してユーザーインターフェーステンプレート（閲覧ページ（:term:`view "
+"<view page>`）および編集ページ（:term:`edit <edit page>`））を追加する。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:71
+msgid ""
+"Adding support for another standard requires a :term:`developer` to work on "
+"the underlying software code. Once support has been added, however, AtoM "
+"provides an interface allowing :term:`administrators <administrator>` to "
+"easily select their preferred standard and to switch between the various "
+"standards."
+msgstr ""
+"別の標準を追加するためには、:term:`開発者`が基盤となるソフトウェアコードの作業を行う必要があります。しかし、一度サポートが追加されると、AtoMは:term:`管理者`が好みの標準を簡単に選択し、様々な標準間で切り替えることができるインターフェイスを提供します。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:80
+msgid "Other (non-ICA) standards currently supported"
+msgstr "現在サポートされている他の（ICA以外の）標準"
+
+#: ../../user-manual/overview/descriptive-standards.rst:82
+msgid ""
+"Users of other descriptive standards should be aware that this manual is "
+"generally based on the ICA standards for its examples and screenshots. "
+"Standard-specific sections are noted below."
+msgstr ""
+"他の記述標準を利用しているユーザーは、このマニュアルが一般的にその例とスクリーンショットについてICA標準に基づいていることを認識しておく必要があります。標準固有のセクションは以下で注記されています。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:89
+msgid "Rules for Archival Description (RAD)"
+msgstr "アーカイブ記述規則 (RAD)"
+
+#: ../../user-manual/overview/descriptive-standards.rst:-1
+msgid "The Canadian Rules for Archival Description"
+msgstr "カナダのアーカイブ記述規則"
+
+#: ../../user-manual/overview/descriptive-standards.rst:96
+msgid ""
+"RAD is maintained by the `Canadian Council of Archives "
+"<http://cdncouncilarchives.ca/>`__ and is available at "
+"http://www.cdncouncilarchives.ca/archdesrules.html. RAD-specific sections of"
+" this manual are available at: Rules for Archival Description (:ref:`RAD "
+"<rad-template>`)."
+msgstr ""
+"RADは`カナダのアーカイブズ協議会 "
+"<http://cdncouncilarchives.ca/>`__によって維持されており、http://www.cdncouncilarchives.ca/archdesrules.htmlより入手可能です。このマニュアル内のRADに特化したセクションは、以下で利用できます：アーカイブ記述ルール（:ref:`RAD"
+" <rad-template>`）。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:105
+msgid "Describing Archives: A Content Standard (DACS)"
+msgstr "記録文書記述：基準（DACS）"
+
+#: ../../user-manual/overview/descriptive-standards.rst:-1
+msgid "The U.S. Describing Archives: A Content Standard (DACS)"
+msgstr "米国記述アーカイブ：コンテンツ基準 (DACS)"
+
+#: ../../user-manual/overview/descriptive-standards.rst:112
+msgid ""
+"DACS is maintained by the `Society of American Archivists "
+"<http://www2.archivists.org/>`__ and is available at "
+"http://files.archivists.org/pubs/DACS2E-2013.pdf (**PDF**). DACS-specific "
+"sections of this manual are available at: Describing Archives: A Content "
+"Standard (:ref:`DACS <dacs-template>`)"
+msgstr ""
+"DACSは、アメリカのアーキビスト協会（`Society of American Archivists "
+"<http://www2.archivists.org/>`__）によって維持されており、http://files.archivists.org/pubs/DACS2E-2013.pdf"
+" （**PDF**）で入手できます。このマニュアルのDACS固有のセクションは、「アーカイブの記述: コンテンツ標準」（:ref:`DACS "
+"<dacs-template>`）で利用可能です。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:121
+msgid "Dublin Core Metadata Element Set, Version 1.1"
+msgstr "ダブリンコアメタデータ要素セット、バージョン1.1"
+
+#: ../../user-manual/overview/descriptive-standards.rst:123
+msgid ""
+"AtoM implements unqualified `Dublin Core Metadata Element Set, Version 1.1. "
+"<http://dublincore.org/documents/dces/>`__. Dublin Core-specific sections of"
+" this manual are available at Dublin Core (:ref:`DC <dc-template>`)."
+msgstr ""
+"AtoMは、修飾されていない「ダブリンコア・メタデータ要素セット、バージョン1.1 "
+"<http://dublincore.org/documents/dces/>」を実装しています。このマニュアルのダブリンコアに関連するセクションは、ダブリンコア"
+" (:ref:`DC <dc-template>`) で利用可能です。"
+
+#: ../../user-manual/overview/descriptive-standards.rst:130
+msgid "Metadata Object Description Schema (MODS)"
+msgstr "メタデータ オブジェクト 記述 スキーマ (MODS)"
+
+#: ../../user-manual/overview/descriptive-standards.rst:132
+msgid ""
+"The MODS standard, maintained by the US Library of Congress `Network "
+"Development and MARC Standards Office "
+"<http://www.loc.gov/marc/ndmso.html>`__, is available at "
+"http://www.loc.gov/standards/mods/mods-outline.html. Currently AtoM supports"
+" the Digital Library Federation second level of adoption for MODS (see `DLF "
+"Aquifer MODS Guidelines Levels of Adoption <https://wiki.dlib.indian "
+"a.edu/display/DLFAquifer/MODS+Guidelines+Levels+of+Adoption>`__). MODS- "
+"specific sections of this manual are available at: Metadata Object "
+"Description Schema (:ref:`MODS <mods-template>`)."
+msgstr ""
+"米国議会図書館のネットワーク開発およびMARC基準事務所が維持するMODS標準は、http://www.loc.gov/standards/mods/mods-"
+"outline.htmlで入手可能です。現在、AtoMはデジタルライブラリ連盟のMODS採用の第二レベルをサポートしています（`DLF Aquifer "
+"MODSガイドライン採用レベル "
+"<https://wiki.dlib.indiana.edu/display/DLFAquifer/MODS+Guidelines+Levels+of+Adoption>`__を参照）。このマニュアル内のMODS特有のセクションは、メタデータオブジェクト記述スキーマ(:ref:`MODS"
+" <mods-template>`)で参照できます。"

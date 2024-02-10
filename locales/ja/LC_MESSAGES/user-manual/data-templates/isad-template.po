@@ -1,0 +1,1914 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/isad-template.rst:5
+msgid ""
+"General International Standard Archival Description (ISAD(G)) data entry and"
+" CSV template"
+msgstr "一般国際標準アーカイブ記述(ISAD(G))のデータ入力およびCSVテンプレート"
+
+#: ../../user-manual/data-templates/isad-template.rst:7
+msgid "On this page you will find:"
+msgstr "このページでは以下を見つけることができます："
+
+#: ../../user-manual/data-templates/isad-template.rst:9
+msgid ""
+"Link to downloadable CSV template using ISAD(G) General International "
+"Standard Archival Description"
+msgstr "ISAD(G) 一般国際標準アーカイブ記述を使用するダウンロード可能なCSVテンプレートへのリンク"
+
+#: ../../user-manual/data-templates/isad-template.rst:11
+msgid ""
+"Description of fields used when entering or importing :term:`archival "
+"descriptions <archival description>` using ISAD(G) in a :term:`CSV` file or "
+"entering the data manually."
+msgstr ""
+"ISAD(G)を用いて:term:`CSV`ファイルから:term:`アーカイブ記述<archival "
+"description>`を入力またはインポートする際、またはデータを手動で入力する際に使用されるフィールドの説明です。"
+
+#: ../../user-manual/data-templates/isad-template.rst:17
+msgid ":ref:`archival-descriptions`"
+msgstr "`:ref:`アーカイブ記述`"
+
+#: ../../user-manual/data-templates/isad-template.rst:18
+msgid ":ref:`csv-import`"
+msgstr ""
+":ref:`csv-import` という参照リンクを直接的なテキストに翻訳することはできませんが、この参照が何かの機能や項目名を指している場合、それが具体的に何を意味しているかを理解する必要があります。\n"
+"\n"
+"もし、これが「CSVインポート」という意味の機能や項目を指しているのであれば、それを日本語で以下のように翻訳できるでしょう：\n"
+"\n"
+"``:ref:`CSVインポート` ``\n"
+"\n"
+"しばしば、この種の参照はドキュメント内の特定のセクションや機能へのリンクとして使われます。上記の表記は、そのリンクが翻訳された後の日本語のセクション名に適合するようにするために使用されるかもしれませんが、正確な翻訳にはドキュメントのコンテキストが必要です。"
+
+#: ../../user-manual/data-templates/isad-template.rst:19
+msgid ":ref:`import-xml`"
+msgstr ""
+":ref:`import-xml` の部分は、通常文書内での参照リンクを示しますが、そのままテキストとしては直訳できません。`import-xml` はおそらく、XMLファイルをインポートするセクションへの参照でしょうが、対応するセクションのタイトルに依存するため、適切な日本語翻訳を提供するためには文脈が必要です。もし、`import-xml`が特定のセクション名であれば、「XMLのインポート」や「XMLファイルの取り込み」と訳すことができるでしょう。しかし、それを反映する日本語ドキュメント内の正確な参照ラベルが必要となります。したがって、以下のように仮訳しますが、実際の文脈に応じて調整が必要かもしれません。\n"
+"\n"
+"`:ref:`XMLのインポート``\n"
+"\n"
+"この参照が機能するためには、日本語ドキュメント内に同じラベル `.. _XMLのインポート:` を持つセクションが存在する必要があります。"
+
+#: ../../user-manual/data-templates/isad-template.rst:20
+msgid ":ref:`export-xml`"
+msgstr ""
+"Unfortunately, without more context, it is difficult to provide an accurate translation for this particular reference link. Typically, \":ref:`export-xml`\" seems to refer to a hyperlink within a document that directs the reader to a specific section, likely titled 'Export XML' or something similar. If I were to assume the section title to be 'Export XML,' then a simple translation could be:\n"
+"\n"
+":ref:`エクスポートXML`\n"
+"\n"
+"However, please note that in documents, such references are often left untranslated because they serve as functional links within the text. If this text is part of the code or markup for creating a hyperlink to a section within the documentation, it should probably be left as-is. If you could provide me with the actual title or more context I would be able to offer a more precise translation."
+
+#: ../../user-manual/data-templates/isad-template.rst:21
+msgid ":ref:`cli-import-export`"
+msgstr "CLIインポート・エクスポート"
+
+#: ../../user-manual/data-templates/isad-template.rst:24
+msgid "ISAD CSV template"
+msgstr "ISAD CSV テンプレート"
+
+#: ../../user-manual/data-templates/isad-template.rst:26
+msgid ""
+"To download the ISAD(G) CSV template for AtoM, please visit our `wiki page "
+"<https://wiki.accesstomemory.org/Resources/CSV_templates>`_."
+msgstr ""
+"AtoM用のISAD(G) CSVテンプレートをダウンロードするには、私たちの`ウィキページ "
+"<https://wiki.accesstomemory.org/Resources/CSV_templates>`_を訪れてください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:29
+msgid "Field descriptions"
+msgstr "フィールドの説明"
+
+#: ../../user-manual/data-templates/isad-template.rst:31
+msgid ""
+"ISAD is maintained by the `International Council on Archives "
+"<http://www.ica.org/>`_ and is available at:"
+msgstr ""
+"ISADは「国際アーカイブズ協議会（International Council on "
+"Archives）」によって管理されており、以下のウェブサイトで入手可能です: <http://www.ica.org/>。"
+
+#: ../../user-manual/data-templates/isad-template.rst:34
+msgid ""
+"http://www.ica.org/en/isadg-general-international-standard-archival-"
+"description-second-edition"
+msgstr ""
+"こちらがテキストの日本語訳になります：\n"
+"\n"
+"http://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition\n"
+"\n"
+"「http://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition」\n"
+"\n"
+"もし具体的なテキストのセクションがあり、それを日本語に翻訳する必要がある場合は、翻訳が必要な部分をお知らせください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:36
+msgid "Information below includes:"
+msgstr "以下の情報を含みます："
+
+#: ../../user-manual/data-templates/isad-template.rst:38
+msgid "**Template field** refers to the default label for that field in AtoM"
+msgstr "「テンプレートフィールド」とは、AtoMにおいてそのフィールドのためのデフォルトラベルを指します。"
+
+#: ../../user-manual/data-templates/isad-template.rst:39
+msgid "**CSV Column** refers to the title of the column in the CSV template"
+msgstr "CSVテンプレートにおける列のタイトルを「CSV列」と呼びます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:40
+msgid ""
+"**ISAD Rule** refers to the rule from the applicable standard and/or the "
+"instructions provided by AtoM."
+msgstr "「ISADルール」とは、適用可能な規格および／またはAtoMによって提供された指示からのルールを指します。"
+
+#: ../../user-manual/data-templates/isad-template.rst:42
+msgid "**EAD** refers to the field mapping to EAD"
+msgstr "EADはEADへのフィールドマッピングを指します。"
+
+#: ../../user-manual/data-templates/isad-template.rst:43
+msgid ""
+"**Notes** includes any other information needed for successful data entry or"
+" CSV import."
+msgstr "**メモ**には、データ入力やCSVインポートを成功させるために必要なその他の情報が含まれます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:46
+msgid "**Skip to**:"
+msgstr "**スキップ先**："
+
+#: ../../user-manual/data-templates/isad-template.rst:48
+msgid ":ref:`Identity area <template-isad-identity>`"
+msgstr ":ref:`アイデンティティ領域 <template-isad-identity>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:49
+msgid ":ref:`Context area <template-isad-context>`"
+msgstr ":ref:`コンテキスト領域 <template-isad-context>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:50
+msgid ":ref:`Content and structure area <template-isad-content>`"
+msgstr ":ref:`内容と構造領域 <template-isad-content>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:51
+msgid ":ref:`Conditions of access and use area <template-isad-conditions>`"
+msgstr ":ref:`アクセスおよび使用条件エリア <template-isad-conditions>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:52
+msgid ":ref:`Allied materials area <template-isad-allied>`"
+msgstr ":ref:`関連資料領域 <template-isad-allied>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:53
+msgid ":ref:`Notes area <template-isad-notes>`"
+msgstr ":ref:`メモ欄 <template-isad-notes>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:54
+msgid ":ref:`Access points <template-isad-access>`"
+msgstr ":ref:`アクセスポイント <template-isad-access>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:55
+msgid ":ref:`Description control area <template-isad-desc-control>`"
+msgstr ":ref:`記述管理領域 <template-isad-desc-control>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:56
+msgid ":ref:`Rights area <template-isad-rights>`"
+msgstr ":ref:`権利領域 <template-isad-rights>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:57
+msgid ":ref:`Administration area <template-isad-administration>`"
+msgstr ":ref:`管理エリア <template-isad-administration>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:63
+msgid "Identity area"
+msgstr "アイデンティティ領域"
+
+#: ../../user-manual/data-templates/isad-template.rst:71
+msgid "An image of the data entry fields in the Identity area."
+msgstr "データ入力フィールドがある「アイデンティティ」領域の画像です。"
+
+#: ../../user-manual/data-templates/isad-template.rst:71
+msgid ""
+"The data entry fields for the Identity area using the ISAD(G) template, "
+"including Identifier, Title, Dates, Level of description, Add new child "
+"levels and extent and medium."
+msgstr ""
+"ISAD(G)テンプレートを使用する「アイデンティティ」領域のデータ入力フィールドには、識別子、タイトル、日付、記述レベル、新しい子レベルの追加、および範囲と媒体が含まれます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:76
+msgid "Reference code"
+msgstr "参照コード"
+
+#: ../../user-manual/data-templates/isad-template.rst:78
+msgid "**Template field** Identifier"
+msgstr "**テンプレートフィールド** 識別子"
+
+#: ../../user-manual/data-templates/isad-template.rst:80
+msgid "**CSV Column** ``identifier``"
+msgstr "**CSV列** ``識別子``"
+
+#: ../../user-manual/data-templates/isad-template.rst:82
+msgid ""
+"**ISAD Rule** Provide a specific local reference code, control number, or "
+"other unique identifier. The country and repository code will be "
+"automatically added from the linked repository record to form a full "
+"reference code. (ISAD 3.1.1)"
+msgstr ""
+"**ISADルール** "
+"特定のローカル参照コード、管理番号、またはその他のユニークな識別子を提供してください。国とリポジトリコードは、関連付けられたリポジトリの記録から自動的に追加され、完全な参照コードを形成します。(ISAD"
+" 3.1.1)"
+
+#: ../../user-manual/data-templates/isad-template.rst:86
+#: ../../user-manual/data-templates/isad-template.rst:110
+#: ../../user-manual/data-templates/isad-template.rst:142
+#: ../../user-manual/data-templates/isad-template.rst:171
+#: ../../user-manual/data-templates/isad-template.rst:224
+#: ../../user-manual/data-templates/isad-template.rst:321
+#: ../../user-manual/data-templates/isad-template.rst:372
+#: ../../user-manual/data-templates/isad-template.rst:434
+#: ../../user-manual/data-templates/isad-template.rst:482
+#: ../../user-manual/data-templates/isad-template.rst:544
+#: ../../user-manual/data-templates/isad-template.rst:565
+#: ../../user-manual/data-templates/isad-template.rst:602
+#: ../../user-manual/data-templates/isad-template.rst:624
+#: ../../user-manual/data-templates/isad-template.rst:644
+#: ../../user-manual/data-templates/isad-template.rst:666
+#: ../../user-manual/data-templates/isad-template.rst:706
+#: ../../user-manual/data-templates/isad-template.rst:733
+#: ../../user-manual/data-templates/isad-template.rst:753
+#: ../../user-manual/data-templates/isad-template.rst:781
+#: ../../user-manual/data-templates/isad-template.rst:808
+#: ../../user-manual/data-templates/isad-template.rst:834
+#: ../../user-manual/data-templates/isad-template.rst:856
+#: ../../user-manual/data-templates/isad-template.rst:897
+#: ../../user-manual/data-templates/isad-template.rst:918
+#: ../../user-manual/data-templates/isad-template.rst:941
+#: ../../user-manual/data-templates/isad-template.rst:967
+#: ../../user-manual/data-templates/isad-template.rst:1000
+#: ../../user-manual/data-templates/isad-template.rst:1038
+#: ../../user-manual/data-templates/isad-template.rst:1070
+#: ../../user-manual/data-templates/isad-template.rst:1102
+#: ../../user-manual/data-templates/isad-template.rst:1147
+#: ../../user-manual/data-templates/isad-template.rst:1201
+#: ../../user-manual/data-templates/isad-template.rst:1223
+#: ../../user-manual/data-templates/isad-template.rst:1243
+#: ../../user-manual/data-templates/isad-template.rst:1264
+#: ../../user-manual/data-templates/isad-template.rst:1291
+#: ../../user-manual/data-templates/isad-template.rst:1317
+#: ../../user-manual/data-templates/isad-template.rst:1343
+#: ../../user-manual/data-templates/isad-template.rst:1378
+#: ../../user-manual/data-templates/isad-template.rst:1414
+#: ../../user-manual/data-templates/isad-template.rst:1439
+#: ../../user-manual/data-templates/isad-template.rst:1510
+msgid "**EAD**"
+msgstr ""
+"EADは「Encoded Archival "
+"Description」の略称で、アーカイブ資料の目録やコレクションガイドをデジタル形式で表現するための国際標準のXMLスキーマです。EADは、アーカイブの所蔵資料の構造と内容に関する情報を提供し、研究者や一般利用者が所望の資料や情報にたどり着くことを助けるために設計されています。"
+
+#: ../../user-manual/data-templates/isad-template.rst:95
+msgid ""
+"Depending on the \"inherit reference code\" settings in **Admin > Settings >"
+" Global**, this field can display to non-logged in users as \"Reference "
+"code.\" While editing the record, the full reference code including any "
+"identifiers :ref:`inherited <inherit-reference-code>` from higher levels "
+"will appear below the Identifier field."
+msgstr ""
+"\"管理 > 設定 > "
+"グローバル\"での\"参照コードの継承\"設定に応じて、このフィールドは非ログインユーザーに対して\"参照コード\"として表示されることがあります。レコードを編集する際、識別子フィールドの下には、上位レベルから"
+" :ref:`継承された<inherit-reference-code>` 任意の識別子を含む完全な参照コードが表示されます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:99
+#: ../../user-manual/data-templates/isad-template.rst:127
+#: ../../user-manual/data-templates/isad-template.rst:154
+#: ../../user-manual/data-templates/isad-template.rst:211
+#: ../../user-manual/data-templates/isad-template.rst:248
+#: ../../user-manual/data-templates/isad-template.rst:341
+#: ../../user-manual/data-templates/isad-template.rst:419
+#: ../../user-manual/data-templates/isad-template.rst:468
+#: ../../user-manual/data-templates/isad-template.rst:527
+#: ../../user-manual/data-templates/isad-template.rst:551
+#: ../../user-manual/data-templates/isad-template.rst:572
+#: ../../user-manual/data-templates/isad-template.rst:610
+#: ../../user-manual/data-templates/isad-template.rst:631
+#: ../../user-manual/data-templates/isad-template.rst:651
+#: ../../user-manual/data-templates/isad-template.rst:673
+#: ../../user-manual/data-templates/isad-template.rst:718
+#: ../../user-manual/data-templates/isad-template.rst:740
+#: ../../user-manual/data-templates/isad-template.rst:768
+#: ../../user-manual/data-templates/isad-template.rst:795
+#: ../../user-manual/data-templates/isad-template.rst:819
+#: ../../user-manual/data-templates/isad-template.rst:842
+#: ../../user-manual/data-templates/isad-template.rst:867
+#: ../../user-manual/data-templates/isad-template.rst:904
+#: ../../user-manual/data-templates/isad-template.rst:925
+#: ../../user-manual/data-templates/isad-template.rst:952
+#: ../../user-manual/data-templates/isad-template.rst:974
+#: ../../user-manual/data-templates/isad-template.rst:1008
+#: ../../user-manual/data-templates/isad-template.rst:1059
+#: ../../user-manual/data-templates/isad-template.rst:1091
+#: ../../user-manual/data-templates/isad-template.rst:1136
+#: ../../user-manual/data-templates/isad-template.rst:1168
+#: ../../user-manual/data-templates/isad-template.rst:1208
+#: ../../user-manual/data-templates/isad-template.rst:1230
+#: ../../user-manual/data-templates/isad-template.rst:1251
+#: ../../user-manual/data-templates/isad-template.rst:1277
+#: ../../user-manual/data-templates/isad-template.rst:1305
+#: ../../user-manual/data-templates/isad-template.rst:1330
+#: ../../user-manual/data-templates/isad-template.rst:1365
+#: ../../user-manual/data-templates/isad-template.rst:1400
+#: ../../user-manual/data-templates/isad-template.rst:1427
+#: ../../user-manual/data-templates/isad-template.rst:1447
+#: ../../user-manual/data-templates/isad-template.rst:1466
+#: ../../user-manual/data-templates/isad-template.rst:1529
+msgid ":ref:`Back to the top <isad-template>`"
+msgstr ":ref:`トップに戻る <isad-template>`"
+
+#: ../../user-manual/data-templates/isad-template.rst:102
+msgid "Alternative identifier"
+msgstr "代替識別子"
+
+#: ../../user-manual/data-templates/isad-template.rst:104
+msgid ""
+"**Template field** Add alternative identifier(s) (toggles open using link "
+"beneath identifier field)"
+msgstr "**テンプレートフィールド** 代替識別子を追加する（識別子フィールドの下にあるリンクを使用して開閉する）"
+
+#: ../../user-manual/data-templates/isad-template.rst:106
+msgid ""
+"**CSV Columns** ``alternativeIdentifiers`` and "
+"``alternativeIdentifierLabels``"
+msgstr "CSV列 ``alternativeIdentifiers`` および ``alternativeIdentifierLabels``"
+
+#: ../../user-manual/data-templates/isad-template.rst:108
+msgid "**ISAD Rule** N/A (see note below)"
+msgstr "**ISAD規則** 該当なし（以下の注記を参照）"
+
+#: ../../user-manual/data-templates/isad-template.rst:119
+msgid ""
+"The use of the alternative identifier fields is documented in full here:"
+msgstr "代替識別子フィールドの使用については、こちらで完全に文書化されています:"
+
+#: ../../user-manual/data-templates/isad-template.rst:121
+msgid ":ref:`add-alternative-id`"
+msgstr ":ref:`代替IDの追加`"
+
+#: ../../user-manual/data-templates/isad-template.rst:123
+msgid ""
+"In the CSV templates, the columns can accept multiple values, separated by a"
+" pipe ``|`` character. The label values will be matched 1:1 with the "
+"identifiers."
+msgstr ""
+"CSVテンプレートにおいて、列はパイプ``|``文字で区切られた複数の値を受け付けることができます。ラベル値は識別子と1：1で対応付けられます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:132
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/data-templates/isad-template.rst:134
+msgid "**Template field** Title"
+msgstr "**テンプレートフィールド** タイトル"
+
+#: ../../user-manual/data-templates/isad-template.rst:136
+msgid "**CSV Column** ``title``"
+msgstr "**CSVの列** ``タイトル``"
+
+#: ../../user-manual/data-templates/isad-template.rst:138
+msgid ""
+"**ISAD Rule** Provide either a formal title or a concise supplied title in "
+"accordance with the rules of multilevel description and national "
+"conventions. (ISAD 3.1.2)"
+msgstr "**ISADルール** 多層記述および国内の慣例に従い、正式なタイトルもしくは簡潔な付けられたタイトルを提供する。（ISAD 3.1.2）"
+
+#: ../../user-manual/data-templates/isad-template.rst:151
+msgid ""
+"The EAD tag ``<titleproper encodinganalog=\"title\">`` refers to the title "
+"of the finding aid, not the archival description."
+msgstr ""
+"EADタグ``<titleproper encodinganalog=\"title\">``は、アーカイブ記述ではなく、検索支援のタイトルを指します。"
+
+#: ../../user-manual/data-templates/isad-template.rst:159
+msgid "Date(s)"
+msgstr "日付(複数可)"
+
+#: ../../user-manual/data-templates/isad-template.rst:161
+msgid "**Template field** Date(s)"
+msgstr "**テンプレートフィールド** 日付(複数可)"
+
+#: ../../user-manual/data-templates/isad-template.rst:163
+msgid ""
+"**CSV Columns** ``eventDates``, ``eventTypes``, ``eventStartDates``, and "
+"``eventEndDates``"
+msgstr ""
+"CSVの列: ``eventDates``, ``eventTypes``, ``eventStartDates``, "
+"``eventEndDates``"
+
+#: ../../user-manual/data-templates/isad-template.rst:165
+msgid ""
+"**ISAD Rule** Identify and record the date(s) of the unit of description. "
+"Identify the type of date given. Record as a single date or a range of dates"
+" as appropriate.\" (ISAD 3.1.3) The Date Display field can be used to enter "
+"free-text date information, including typographical marks to express "
+"approximation, uncertainty, or qualification."
+msgstr ""
+"**ISAD規則** 説明単位の日付を特定し、記録する。与えられた日付の種類を特定する。適切に単一の日付または日付の範囲として記録する。（ISAD "
+"3.1.3）日付表示フィールドは、概算、不確実性、または限定を表現するための標記を含む、フリーテキストの日付情報の入力に使用できます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:180
+msgid ""
+"When entering data in the template, users can choose an event type from a "
+":term:`drop-down menu`. The event types in ISAD(G) are Creation and "
+"Accumulation. When importing descriptions via CSV, use the ``eventTypes`` "
+"column."
+msgstr ""
+"テンプレートにデータを入力する際、ユーザーは`:term:`ドロップダウンメニュー`からイベントタイプを選択することができます。ISAD(G) "
+"におけるイベントタイプは、創作と蓄積です。CSVを介して説明をインポートする場合は、``eventTypes``列を使用してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:184
+msgid ""
+"AtoM will also add a ``datechar`` attribute for different types of events. "
+"Here is an example for as accumulation event date in EAD XML:"
+msgstr ""
+"AtoMは、さまざまな種類のイベントに対して「datechar」という属性も追加します。以下は、EAD XMLの蓄積イベントの日付の例です："
+
+#: ../../user-manual/data-templates/isad-template.rst:194
+msgid ""
+"If multiple dates are being added, the content across all date fields must "
+"be written in the same order with the pipe character ``|`` used as a "
+"separator. For example, in a description with two dates where the first date"
+" is a creation event and the second date is an accumulation event, enter the"
+" following:"
+msgstr ""
+"複数の日付を追加する場合、すべての日付フィールドに記載される内容は同じ順序でなければならず、区切り文字としてパイプ文字「|」を使用する必要があります。たとえば、最初の日付が作成イベントで二番目の日付が蓄積イベントである記述においては、以下のように入力します："
+
+#: ../../user-manual/data-templates/isad-template.rst:200
+msgid "eventDates"
+msgstr "イベント日付"
+
+#: ../../user-manual/data-templates/isad-template.rst:200
+msgid "eventTypes"
+msgstr "イベントタイプ"
+
+#: ../../user-manual/data-templates/isad-template.rst:202
+msgid "2000-2001 | 1983-1984"
+msgstr "2000-2001年 | 1983-1984年"
+
+#: ../../user-manual/data-templates/isad-template.rst:202
+msgid "Creation | Accumulation"
+msgstr "創造 | 蓄積"
+
+#: ../../user-manual/data-templates/isad-template.rst:207
+msgid ""
+"The CSV columns in 2.2 were titled ``creationDates`` and "
+"``creationDatesType``. Prior to 2.2, there was one CSV column called "
+"``creatorDates``. We have added fallback code so if the old name is used the"
+" import will still succeed."
+msgstr ""
+"2.2でのCSVの列のタイトルは「creationDates」と「creationDatesType」でした。2.2より前では、1つのCSV列が「creatorDates」と呼ばれていました。もし古い名前が使用された場合でもインポートが成功するように、フォールバックコードを追加しました。"
+
+#: ../../user-manual/data-templates/isad-template.rst:216
+msgid "Level of description"
+msgstr "記述レベル"
+
+#: ../../user-manual/data-templates/isad-template.rst:218
+msgid "**Template field** Level of description"
+msgstr "**テンプレートフィールド** 記述のレベル"
+
+#: ../../user-manual/data-templates/isad-template.rst:220
+msgid "**CSV Column** ``levelOfDescription``"
+msgstr "**CSVカラム** ``levelOfDescription``"
+
+#: ../../user-manual/data-templates/isad-template.rst:222
+msgid ""
+"**ISAD Rule** Record the level of this unit of description. (ISAD 3.1.4)"
+msgstr "**ISAD規則** この記述単位のレベルを記録します。（ISAD 3.1.4）"
+
+#: ../../user-manual/data-templates/isad-template.rst:226
+msgid "At the parent level:"
+msgstr "親レベルで："
+
+#: ../../user-manual/data-templates/isad-template.rst:233
+msgid "At the child level:"
+msgstr "子レベルで："
+
+#: ../../user-manual/data-templates/isad-template.rst:242
+msgid ""
+"An :term:`administrator` can edit the values in the Levels of description "
+":term:`taxonomy` (see: :ref:`Add a new term <add-term>`). In CSV import, if "
+"a term is used that is not already in the taxonomy, it will be added to the "
+"Levels of description taxonomy."
+msgstr ""
+"管理者は、「説明レベル」の分類における値を編集できます（「新しい用語を追加する<add-"
+"term>」を参照）。CSVインポートでは、分類に既に存在しない用語が使用された場合、その用語は「説明レベル」の分類へ追加されます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:253
+msgid "Add new child levels"
+msgstr "新しい子階層を追加"
+
+#: ../../user-manual/data-templates/isad-template.rst:-1
+msgid "Add new child widget in ISAD"
+msgstr "ISADに新しい子ウィジェットを追加"
+
+#: ../../user-manual/data-templates/isad-template.rst:260
+msgid "**Template field** Identifier, Level, Title, Date"
+msgstr "**テンプレート項目** 識別子、階層、タイトル、日付"
+
+#: ../../user-manual/data-templates/isad-template.rst:262
+msgid "**CSV Column** N/A - See notes below"
+msgstr "**CSVカラム** 該当なし - 下記の注記を参照"
+
+#: ../../user-manual/data-templates/isad-template.rst:264
+msgid ""
+"**ISAD Rule** *Identifier*: Provide a specific local reference code, control"
+" number, or other unique identifier."
+msgstr "**ISAD ルール** *識別子*：特定のローカル参照コード、管理番号、または他のユニークな識別子を提供する。"
+
+#: ../../user-manual/data-templates/isad-template.rst:267
+msgid "*Level of description*: Record the level of this unit of description."
+msgstr "説明レベル：この記述単位のレベルを記録します。"
+
+#: ../../user-manual/data-templates/isad-template.rst:269
+msgid ""
+"*Title*: Provide either a formal title or a concise supplied title in "
+"accordance with the rules of multilevel description and national "
+"conventions."
+msgstr "*タイトル*: 多レベル記述規則と国内慣習に従って、正式なタイトルまたは簡潔な補足タイトルを提供してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:272
+msgid ""
+"*Date*: (Works similarly to the display date field for a date of creation; "
+"see :ref:`above <isad-dates>` for more information.)"
+msgstr ""
+"*日付*：（作成日の表示日付フィールドと同様に機能します。詳細については、上記の:ref:`上部 <isad-dates>`を参照してください。）"
+
+#: ../../user-manual/data-templates/isad-template.rst:275
+msgid "**EAD** See the EAD mappings in the related fields above."
+msgstr "**EAD** 上記関連フィールドにおけるEADマッピングを参照してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:279
+msgid ""
+"This widget has been added to help improve workflows when creating new "
+"descriptions via the :term:`user interface`. When entering descriptions "
+"through the form, users can add new :term:`child records <child record>` in "
+"this area while creating a parent record."
+msgstr ""
+"このウィジェットは、:term:`ユーザーインタフェース`を通じて新しい説明を作成する際のワークフローを改善するために追加されました。フォームを通じて説明を入力する際、ユーザーは親レコードを作成する間に、このエリアで新しい:term:`子レコード<child"
+" record>`を追加することができます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:284
+msgid ""
+"The *dates* field corresponds to a date of creation - if you would like a "
+"different kind of date, you will have to either navigate to the child "
+"description after saving the new :term:`parent record`, and change the date "
+"type, or simply ignore the date field in the widget, and add the correct "
+"date type manually to the child record after saving the new parent record."
+msgstr ""
+"*dates* フィールドは作成日に相当します。もし別の種類の日付が必要な場合は、新しい :term:`親レコード` "
+"を保存した後に、子レコードの説明に移動して日付の種類を変更するか、もしくはウィジェット内の日付フィールドを無視して、新しい親レコードを保存した後に手動で正しい日付の種類を子レコードに追加する必要があります。"
+
+#: ../../user-manual/data-templates/isad-template.rst:292
+msgid ""
+"To include child levels in the ISAD CSV for import, the ``parentId`` column "
+"must contain the legacy ID of the parent record. For example, if the parent "
+"record has the legacy ID *249* recorded in the ``legacyId`` column, the "
+"child record must have the number *249* in the ``parentId`` column, as shown"
+" in the table here:"
+msgstr ""
+"ISAD "
+"CSVのインポートで子のレベルを含めるためには、``parentId``列に親レコードのレガシーIDを含める必要があります。例えば、親レコードが``legacyId``列に*249*としてレガシーIDを記録している場合、子レコードは次の表に示すように``parentId``列に数値*249*を持たなければなりません："
+
+#: ../../user-manual/data-templates/isad-template.rst:299
+msgid "title"
+msgstr "タイトル"
+
+#: ../../user-manual/data-templates/isad-template.rst:299
+msgid "legacyId"
+msgstr ""
+"legacyIdは、過去のデータ管理システムまたはアーカイブから継続して使用される既存のアイデンティフィケーションコードを指します。これは、古いシステムのIDを新しいアーカイブシステムで引き続き参照する場合に用いられることが多いです。例えば、遺産番号や以前のシステムで使用されていたレコード番号などがこれに該当します。Archivematicaでは、これらのIDを重要なメタデータとして保持し、アクセスや検索性を確保するために使用します。"
+
+#: ../../user-manual/data-templates/isad-template.rst:299
+msgid "parentId"
+msgstr "「parentId」"
+
+#: ../../user-manual/data-templates/isad-template.rst:301
+msgid "ISAD Collection"
+msgstr "ISADコレクション"
+
+#: ../../user-manual/data-templates/isad-template.rst:301
+#: ../../user-manual/data-templates/isad-template.rst:303
+msgid "249"
+msgstr ""
+"申し訳ありませんが、いただいた内容ではテキストの文脈が不明で、適切な翻訳を提供することができません。\"249\" "
+"という数字だけを見ても、それが何に関連しているのか、何を意味しているのかがわかりません。もし追加の情報や具体的なテキストがあれば、それに基づいて翻訳を行うことができます。もう少し具体的な情報を提供していただけますか？"
+
+#: ../../user-manual/data-templates/isad-template.rst:303
+msgid "ISAD child level"
+msgstr ""
+"ISADは国際的なアーカイブ記述基準の一つであり、上位レベルの記述からより詳細な下位レベルの記述に対して「子レベル」という用語が使われていることから、「ISAD"
+" 子レベル」と翻訳できます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:303
+msgid "250"
+msgstr ""
+"Certainly! However, you haven't provided any text to translate. Could you "
+"please provide the text you want translated into Japanese?"
+
+#: ../../user-manual/data-templates/isad-template.rst:306
+msgid ""
+"Fill out subsequent fields following the same rules as described for parent "
+"records."
+msgstr "親レコードに記述されているのと同じルールに従って、後続のフィールドを埋めてください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:310
+msgid "Extent and medium"
+msgstr "範囲と媒体"
+
+#: ../../user-manual/data-templates/isad-template.rst:312
+msgid "**Template field** Extent and medium"
+msgstr "**テンプレートフィールド** 範囲と媒体"
+
+#: ../../user-manual/data-templates/isad-template.rst:314
+msgid "**CSV Column** ``extentAndMedium``"
+msgstr "**CSVのカラム** `extentAndMedium`"
+
+#: ../../user-manual/data-templates/isad-template.rst:316
+msgid ""
+"**ISAD Rule** \"Record the extent of the unit of description by giving the "
+"number of physical or logical units in arabic numerals and the unit of "
+"measurement. Give the specific medium (media) of the unit of description. "
+"Separate multiple extents with a linebreak. (ISAD 3.1.5)\""
+msgstr ""
+"**ISAD(国際標準アーカイブ記述規則)規則** "
+"「記述単位の範囲を、アラビア数字で物理的または論理的単位の数と測定単位を示して記録する。記述単位の具体的な媒体（複数形：メディア）を示す。複数の範囲がある場合は改行で区切る。（ISAD"
+" 3.1.5）」"
+
+#: ../../user-manual/data-templates/isad-template.rst:330
+msgid ""
+"AtoM will allow users to add additional EAD subelements to :term:`field` in "
+"the :term:`edit page` to accommodate all the possibilities in EAD for more "
+"granularity, such as ``<extent>``, ``<dimensions>``, ``<physfacet>``, and "
+"``<genreform>``. In the :term:`view page` the EAD tags will be hidden, but "
+"preserved during export and re-import."
+msgstr ""
+"AtoMでは、ユーザーはEADでより細かい情報を含めるために、`:term:`編集ページ`で:term:`フィールド`にEADのサブエレメントを追加できます。例えば、``<extent>``,"
+" ``<dimensions>``, ``<physfacet>``, 及び ``<genreform>`` "
+"などです。`:term:`表示ページ`ではEADタグは隠されますが、エクスポートと再インポートの際には保持されます。"
+
+#: ../../user-manual/data-templates/isad-template.rst
+msgid "A comparison of the edit and view pages for physical description"
+msgstr "物理的記述の編集ページと閲覧ページの比較"
+
+#: ../../user-manual/data-templates/isad-template.rst:346
+msgid "Context area"
+msgstr "コンテキスト領域"
+
+#: ../../user-manual/data-templates/isad-template.rst:354
+msgid "An image of the data entry fields in the Context area."
+msgstr "コンテキスト領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isad-template.rst:354
+msgid ""
+"The data entry fields for the Context area using the ISAD(G) template, "
+"including Name of creator(s), Repository, Archival history and Immediate "
+"source of acquisition or transfer."
+msgstr ""
+"ISAD(G)テンプレートを使用してコンテキストエリアのためのデータ入力フィールドには、作成者の名前、保管機関、アーカイブ履歴、および取得または移転の直接の情報源が含まれます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:360
+msgid "Name of creator(s)"
+msgstr "創作者の名前"
+
+#: ../../user-manual/data-templates/isad-template.rst:362
+msgid "**Template field** Name of creator(s)"
+msgstr "**テンプレートフィールド** 作成者の名前"
+
+#: ../../user-manual/data-templates/isad-template.rst:364
+msgid "**CSV Column** ``eventActors``"
+msgstr "**CSV列** ``イベントアクター``"
+
+#: ../../user-manual/data-templates/isad-template.rst:366
+msgid ""
+"**ISAD Rule** Record the name of the organization(s) or the individual(s) "
+"responsible for the creation, accumulation and maintenance of the records in"
+" the unit of description. Search for an existing name in the authority "
+"records by typing the first few characters of the name. Alternatively, type "
+"a new name to create and link to a new authority record. (ISAD 3.2.1)"
+msgstr ""
+"**ISAD規則** "
+"説明単位で記録されているレコードの創出、蓄積、保守に責任を持つ組織または個人の名称を記録する。権威記録において、既存の名称を数文字入力して検索する。あるいは、新しい名称を入力して新しい権威記録を作成し、リンクする。（ISAD"
+" 3.2.1）"
+
+#: ../../user-manual/data-templates/isad-template.rst:381
+msgid ""
+"This is the default export EAD when an Entity type has not been set for the "
+"actor on the related :term:`authority record`. The final EAD element can be "
+"more precise if the user has entered an Entity type on the related "
+":term:`authority record`. When the Entity type is set to **Person**, the EAD"
+" will export using ``<persname>`` instead of ``<name>``; when set to "
+"**Family**, the EAD will export using ``<famname>``  instead of ``<name>``; "
+"and when set to **Organization**, the EAD will export using ``<corpname>`` "
+"instead of ``<name>``. The ``<name>`` element is the default when no entity "
+"type is set. For more information on authority records and the ISAAR "
+"standard upon which the authority record template is based, see: "
+":ref:`authority-records` and :ref:`isaar-template`."
+msgstr ""
+"これは、関連する:term:`authority "
+"record`にアクターのエンティティタイプが設定されていない場合の、デフォルトのEADエクスポートです。ユーザーが関連する:term:`authority"
+" "
+"record`にエンティティタイプを入力した場合、最終的なEAD要素はより正確になることができます。エンティティタイプが**個人(Person)**に設定されている場合、EADは``<name>``の代わりに``<persname>``を使用してエクスポートされます；**家族(Family)**に設定されている場合は、``<name>``の代わりに``<famname>``を使用してエクスポートされます；そして**組織(Organization)**に設定されている場合は、``<name>``の代わりに``<corpname>``を使用してエクスポートされます。エンティティタイプが設定されていない場合のデフォルト要素は``<name>``です。アーソリティレコードと、アーソリティレコードテンプレートの基盤となるISAAR標準についての詳細は、以下を参照してください:"
+" :ref:`authority-records` 及び :ref:`isaar-template`。"
+
+#: ../../user-manual/data-templates/isad-template.rst:395
+msgid ""
+"If multiple creators are being added, the content in related fields must be "
+"written in the same order with the pipe character ``|`` as a separator. It "
+"is possible to use ``NULL`` to include an empty element in related fields. "
+"For example, in a description with two creators where the first creator does"
+" not have a biographical history but the second creator does, enter the "
+"following:"
+msgstr ""
+"複数のクリエイターが追加される場合、関連するフィールドの内容はパイプ文字「|」を区切り文字として同じ順序で記載する必要があります。「NULL」を使用して、関連するフィールドに空の要素を含めることができます。例えば、2人のクリエイターがいる説明で、最初のクリエイターには伝記歴がないが、2番目のクリエイターには伝記歴がある場合、次のように入力します："
+
+#: ../../user-manual/data-templates/isad-template.rst:402
+msgid "eventActors"
+msgstr "イベントアクター"
+
+#: ../../user-manual/data-templates/isad-template.rst:402
+msgid "eventActorHistories"
+msgstr "イベントアクター履歴"
+
+#: ../../user-manual/data-templates/isad-template.rst:404
+msgid "Creator 1 | Creator 2"
+msgstr "クリエーター1 | クリエーター2"
+
+#: ../../user-manual/data-templates/isad-template.rst:404
+msgid "NULL | Creator 2 bioghist"
+msgstr "NULL | クリエーター2の経歴歴史"
+
+#: ../../user-manual/data-templates/isad-template.rst:409
+msgid ""
+"When linking a :term:`creator` to an :term:`archival description`, you "
+"should only link at the highest level of description. AtoM will "
+"automatically inherit the creator name at lower levels. This conforms to "
+"ISAD(G)'s Multilevel Description Rule 2.4, *Non-repetition of information*: "
+"\"At the highest appropriate level, give information that is common to the "
+"component parts. Do not repeat information at a lower level of description "
+"that has already been given at a higher level.\" Linking a creator at all "
+"levels of description (instead of just at the parent level) in a large "
+"hierarchy can also impact performance."
+msgstr ""
+"アーカイブ記述に`クリエーター`をリンクする際には、記述の最上位レベルでのみリンクを行うべきです。AtoMは下位レベルで自動的にクリエーター名を継承します。これはISAD(G)の多層記述ルール2.4「情報の非反復」に準拠しています：「部品の共通する情報は、適切な最高レベルで提供する。既に上位レベルで提供された情報を下位レベルで繰り返さない。」大規模な階層においてすべての記述レベルでクリエーターをリンクする（親レベルのみでなく）、パフォーマンスにも影響を与えます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:422
+msgid "Biographical or Administative history"
+msgstr "経歴または管理歴"
+
+#: ../../user-manual/data-templates/isad-template.rst:424
+msgid "**Template field** N/A"
+msgstr "「テンプレートフィールド」 該当なし"
+
+#: ../../user-manual/data-templates/isad-template.rst:426
+msgid "**CSV Column** ``eventActorHistories``"
+msgstr "**CSV列** ``eventActorHistories``"
+
+#: ../../user-manual/data-templates/isad-template.rst:428
+msgid ""
+"**ISAD Rule** \"Record in narrative form or as a chronology the main life "
+"events, activities, achievements and/or roles of the entity being described."
+" This may include information on gender, nationality, family and religious "
+"or political affiliations. Wherever possible, supply dates as an integral "
+"component of the narrative description.\" (ISAAR 5.2.2)"
+msgstr ""
+"**ISADルール**「記述されている対象の、主要な生涯の出来事、活動、成果、および/または役割を、物語性を持った形式または年表として記録する。これには性別、国籍、家族、宗教的または政治的所属についての情報が含まれることもある。可能な限り、物語的記述の不可欠な要素として日付を提供すること。」（ISAAR"
+" 5.2.2）"
+
+#: ../../user-manual/data-templates/isad-template.rst:444
+msgid ""
+"When entering data manually, this field is written in the :term:`authority "
+"record`. If an authority record does not already exist, AtoM will create one"
+" when a new creator is entered. The user can then navigate to the authority "
+"record to enter the Biographical or Administrative history (see: "
+":ref:`Authority records <authority-records>`)."
+msgstr ""
+"手動でデータを入力する場合、このフィールドは :term:`authority "
+"record`（権威記録）に記入されます。権威記録がまだ存在しない場合、新しい作成者を入力するとAtoMが権威記録を作成します。その後、ユーザーは権威記録に移動して、伝記的または行政的な歴史を入力することができます（参照：:ref:`Authority"
+" records <authority-records>`）。"
+
+#: ../../user-manual/data-templates/isad-template.rst:450
+msgid ""
+"When importing descriptions by CSV, by default this column will create a "
+"Biographical history in the :term:`authority record`, regardless of whether "
+"the creator is a person, family, or organization. To specify the entity type"
+" when importing creators, users would need to :ref:`import authority records"
+" <csv-import-authority-records>` or manually edit the authority record."
+msgstr ""
+"CSVによる説明のインポート時、この列はデフォルトで:term:`権威レコード`内に経歴履歴を生成します。これは、作成者が個人であるか、家族であるか、組織であるかに関わらず適用されます。作成者をインポートする際にエンティティタイプを指定するには、ユーザーは:ref:`権威レコードのインポート"
+" <csv-import-authority-records>`を行うか、権威レコードを手動で編集する必要があります。"
+
+#: ../../user-manual/data-templates/isad-template.rst:459
+msgid ""
+"When roundtripping descriptions from one AtoM instance to another, creator "
+"names in the ``<origination>`` element are matched 1:1 in order with "
+"administrative or biographical histories included in ``<bioghist>``. It is "
+"therefore important that if some creators do not have related histories, "
+"they appear in the EAD **after** those that do, so the 1:1 mapping can work "
+"as expected. If an extra ``<bioghist>`` element is included that does not "
+"have a corresponding creator name, a stub :term:`authority record` will be "
+"created to hold the ``<bioghist>`` data."
+msgstr ""
+"AtoMインスタンス間で説明を往復する際に、``<origination>`` 要素内の作成者名は、``<bioghist>`` "
+"に含まれる管理上または伝記的歴史と1対1の順序でマッチされます。そのため、一部の作成者が関連する歴史を持たない場合、それらは期待通りに1対1のマッピングが機能するように、EAD内で**それらが存在するものの後に**現れることが重要です。対応する作成者名がない余分な``<bioghist>``"
+" 要素が含まれている場合、``<bioghist>`` データを保持するためにスタブ :term:`権限レコード` が作成されます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:471
+msgid "Repository"
+msgstr "リポジトリ"
+
+#: ../../user-manual/data-templates/isad-template.rst:473
+msgid "**Template field** Repository"
+msgstr "**テンプレート フィールド** リポジトリ"
+
+#: ../../user-manual/data-templates/isad-template.rst:475
+msgid "**CSV Column** ``repository``"
+msgstr "**CSVカラム** ``リポジトリ``"
+
+#: ../../user-manual/data-templates/isad-template.rst:477
+msgid ""
+"**ISAD Rule** Record the name of the organization which has custody of the "
+"archival material. Search for an existing name in the archival institution "
+"records by typing the first few characters of the name. Alternatively, type "
+"a new name to create and link to a new archival institution record."
+msgstr ""
+"**ISAD規則** "
+"アーカイブ資料を保管している組織の名前を記録します。名前の最初の数文字を入力して、アーカイブ機関のレコード内で既存の名前を検索します。あるいは、新しい名前を入力して、新しいアーカイブ機関のレコードを作成し、リンクします。"
+
+#: ../../user-manual/data-templates/isad-template.rst:492
+msgid ""
+"When an address is included in the related :term:`archival institution` "
+"(i.e. added to the Contact area of the linked repository record), the "
+"address will also appear in the EAD at the parent level. Because EAD does "
+"not include attributes for the ``<addressline>`` element, these will not "
+"roundtrip properly when exported from one AtoM instance and into another - "
+"all the information will appear in one field of the Contact area upon re-"
+"import. Below is an example of the EAD with an address included:"
+msgstr ""
+"関連する:term:`archival "
+"institution`（つまり、リンクされたリポジトリレコードの連絡先エリアに追加されたとき）にアドレスが含まれている場合、そのアドレスは親レベルのEADにも表示されます。EADは``<addressline>``要素に対する属性を含んでいないため、これらはAtoMインスタンスからエクスポートされた後、別のAtoMインスタンスに再インポートする際に適切に復元されません。つまり、すべての情報が再インポート時に連絡先エリアの一つのフィールドに表示されます。以下は、アドレスが含まれるEADの例です："
+
+#: ../../user-manual/data-templates/isad-template.rst:517
+msgid ""
+"When linking an :term:`archival institution` to an :term:`archival "
+"description`, you should only link at the highest level of description. AtoM"
+" will automatically inherit the repository name at lower levels. This "
+"conforms to ISAD(G)'s Multilevel Description Rule 2.4, *Non-repetition of "
+"information*: \"At the highest appropriate level, give information that is "
+"common to the component parts. Do not repeat information at a lower level of"
+" description that has already been given at a higher level.\" Linking a "
+"repository at all levels of description (instead of just at the parent "
+"level) in a large hierarchy can also impact performance."
+msgstr ""
+"アーカイブ機関(:term:`archival institution`)をアーカイブ記述(:term:`archival "
+"description`)にリンクする際には、記述の最上位レベルでのみリンクを行うべきです。AtoMは、下位レベルでリポジトリ名を自動的に引き継ぎます。これは、ISAD(G)の多段階記述ルール2.4、「情報の非繰り返し」に準拠しています：「最も適切な最高レベルで、部分要素に共通する情報を提供しなさい。一度高いレベルで提供された情報を、下位レベルの記述で繰り返さないでください。」大規模な階層構造において、親レベルのみでなく全ての記述レベルでリポジトリをリンクする（親レベルのみでリンクするのではなく）と、パフォーマンスに影響を与えることもあります。"
+
+#: ../../user-manual/data-templates/isad-template.rst:530
+msgid "Archival history"
+msgstr "アーカイバル・ヒストリー"
+
+#: ../../user-manual/data-templates/isad-template.rst:532
+msgid "**Template field** Archival history"
+msgstr "**テンプレートフィールド** アーカイブ履歴"
+
+#: ../../user-manual/data-templates/isad-template.rst:534
+msgid "**CSV Column** ``archivalHistory``"
+msgstr "CSV列 ``archivalHistory``"
+
+#: ../../user-manual/data-templates/isad-template.rst:536
+msgid ""
+"**ISAD Rule** Record the successive transfers of ownership, responsibility "
+"and/or custody of the unit of description and indicate those actions, such "
+"as history of the arrangement, production of contemporary finding aids, re- "
+"use of the records for other purposes or software migrations, that have "
+"contributed to its present structure and arrangement. Give the dates of "
+"these actions, insofar as they can be ascertained. If the archival history "
+"is unknown, record that information. (ISAD 3.2.3)"
+msgstr ""
+"**ISADルール** "
+"説明対象の単位について、所有権、責任、および/または保管の連続的な移転を記録し、配置の歴史、現代的な目録作成の生産、他の目的での記録の再利用、またはソフトウェア移行など、その現在の構造と配置に貢献した行動を示します。これらの行動の日付を、確認できる限り示してください。もしアーカイブの歴史が不明である場合には、その情報を記録してください。(ISAD"
+" 3.2.3)"
+
+#: ../../user-manual/data-templates/isad-template.rst:554
+msgid "Immediate source of acquisition or transfer"
+msgstr "取得又は移転の直接的な情報源"
+
+#: ../../user-manual/data-templates/isad-template.rst:556
+msgid "**Template field** Immediate source of acquisition or transfer"
+msgstr "**テンプレート項目** 入手または移転の直接的な出所"
+
+#: ../../user-manual/data-templates/isad-template.rst:558
+msgid "**CSV Column** ``acquisition``"
+msgstr "**CSV列** ``取得``"
+
+#: ../../user-manual/data-templates/isad-template.rst:560
+msgid ""
+"**ISAD Rule** Record the source from which the unit of description was "
+"acquired and the date and/or method of acquisition if any or all of this "
+"information is not confidential. If the source is unknown, record that "
+"information. Optionally, add accession numbers or codes. (ISAD 3.2.4)"
+msgstr ""
+"**ISADルール** "
+"説明単位が取得された情報源、取得日、および/または取得方法を記録します。これらの情報のいずれかまたは全部が機密でない限り。情報源が不明の場合は、その情報を記録します。オプションとして、アクセッション番号やコードを追加することができます。（ISAD"
+" 3.2.4）"
+
+#: ../../user-manual/data-templates/isad-template.rst:578
+msgid "Content and structure area"
+msgstr "コンテンツと構造エリア"
+
+#: ../../user-manual/data-templates/isad-template.rst:586
+msgid "An image of the data entry fields in the Content and structure area."
+msgstr "コンテンツと構造エリアにおけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isad-template.rst:586
+msgid ""
+"The data entry fields for the Content and structure area using the ISAD(G) "
+"template, including Scope and content, Appraisal, destruction and "
+"scheduling, Accruals, and System of arrangement."
+msgstr ""
+"ISAD(G)テンプレートを使用したコンテンツおよび構造エリアのデータ入力フィールドには、「範囲と内容」、「評価、破棄およびスケジューリング」、「増加分」、「配列体系」が含まれます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:591
+msgid "Scope and content"
+msgstr "範囲と内容"
+
+#: ../../user-manual/data-templates/isad-template.rst:593
+msgid "**Template field** Scope and content"
+msgstr "**テンプレート フィールド** 範囲と内容"
+
+#: ../../user-manual/data-templates/isad-template.rst:595
+msgid "**CSV Column** ``scopeAndContent``"
+msgstr "**CSV列** ``scopeAndContent``"
+
+#: ../../user-manual/data-templates/isad-template.rst:597
+msgid ""
+"**ISAD Rule** \"Give a summary of the scope (such as, time periods, "
+"geography) and content, (such as documentary forms, subject matter, "
+"administrative processes) of the unit of description, appropriate to the "
+"level of description. (ISAD 3.3.1)\""
+msgstr ""
+"**ISAD(国際標準アーカイブ記述規則)のルール** "
+"\"記述のレベルに応じて、記述単位の範囲（例えば、時期、地理的範囲）と内容（例えば、文書形式、主題、行政プロセス）についての要約を記述する。（ISAD "
+"3.3.1）\""
+
+#: ../../user-manual/data-templates/isad-template.rst:614
+msgid "Appraisal, destruction and scheduling"
+msgstr "鑑定、破棄、およびスケジューリング"
+
+#: ../../user-manual/data-templates/isad-template.rst:616
+msgid "**Template field** Appraisal, destruction and scheduling"
+msgstr "**テンプレートフィールド** 評価、廃棄およびスケジューリング"
+
+#: ../../user-manual/data-templates/isad-template.rst:618
+msgid "**CSV Column** ``appraisal``"
+msgstr "**CSV列** ``評価``"
+
+#: ../../user-manual/data-templates/isad-template.rst:620
+msgid ""
+"**ISAD Rule** Record appraisal, destruction and scheduling actions taken on "
+"or planned for the unit of description, especially if they may affect the "
+"interpretation of the material. (ISAD 3.3.2)"
+msgstr ""
+"**ISADルール** "
+"記述単位に対して実施された、あるいは予定されている記録評価、破棄、そしてスケジューリングの行動を記録すること。特に、それらが資料の解釈に影響を与える可能性がある場合には、この点が重要です。(ISAD"
+" 3.3.2)"
+
+#: ../../user-manual/data-templates/isad-template.rst:635
+msgid "Accruals"
+msgstr "アクルーアル"
+
+#: ../../user-manual/data-templates/isad-template.rst:637
+msgid "**Template field** Accruals"
+msgstr "**テンプレート項目** 追加資料"
+
+#: ../../user-manual/data-templates/isad-template.rst:639
+msgid "**CSV Column** ``accruals``"
+msgstr "**CSV列** ``増加分``"
+
+#: ../../user-manual/data-templates/isad-template.rst:641
+msgid ""
+"**ISAD Rule** Indicate if accruals are expected. Where appropriate, give an "
+"estimate of their quantity and frequency. (ISAD 3.3.3)"
+msgstr ""
+"**ISAD規則**追加の記録物が予想されるかどうかを示してください。適切な場合は、その数量と頻度の見積もりを示してください。（ISAD 3.3.3）"
+
+#: ../../user-manual/data-templates/isad-template.rst:655
+msgid "System of arrangement"
+msgstr "整理体系"
+
+#: ../../user-manual/data-templates/isad-template.rst:657
+msgid "**Template field** System of arrangement"
+msgstr "**テンプレート フィールド** 配置体系"
+
+#: ../../user-manual/data-templates/isad-template.rst:659
+msgid "**CSV Column** ``arrangement``"
+msgstr "**CSV列** `配置`"
+
+#: ../../user-manual/data-templates/isad-template.rst:661
+msgid ""
+"**ISAD Rule** Specify the internal structure, order and/or the system of "
+"classification of the unit of description. Note how these have been treated "
+"by the archivist. For electronic records, record or reference information on"
+" system design. (ISAD 3.3.4)"
+msgstr ""
+"**ISADルール** "
+"説明単位の内部構造、順序、および/または分類体系を特定します。これらがアーキビストによってどのように扱われたかについて記載します。電子記録の場合は、システム設計に関する情報を記録または参照します。（ISAD"
+" 3.3.4）"
+
+#: ../../user-manual/data-templates/isad-template.rst:679
+msgid "Conditions of access and use area"
+msgstr "アクセスおよび使用条件に関する領域"
+
+#: ../../user-manual/data-templates/isad-template.rst:688
+msgid ""
+"An image of the data entry fields in the Conditions of access and use\n"
+"area."
+msgstr "アクセスと利用の条件エリアにあるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isad-template.rst:688
+msgid ""
+"The data entry fields for the Conditions of access and use area in the "
+"ISAD(G) template, including Conditions governing access, Conditions "
+"governing reproduction, Language of material, Script of material, Lanuage "
+"and script notes, Physical characteristics and technical requirements, and "
+"Finding aids."
+msgstr ""
+"ISAD(G)テンプレートの「アクセスおよび使用条件」領域におけるデータ入力フィールドには、アクセスを管理する条件、複製を管理する条件、資料の言語、資料の書式、言語と書式に関する注記、物理的特性と技術的要件、そして検索補助ツールが含まれています。"
+
+#: ../../user-manual/data-templates/isad-template.rst:695
+msgid "Conditions governing access"
+msgstr "アクセスに関する条件"
+
+#: ../../user-manual/data-templates/isad-template.rst:697
+msgid "**Template field** Conditions governing access"
+msgstr "**テンプレート項目** アクセスを管理する条件"
+
+#: ../../user-manual/data-templates/isad-template.rst:699
+msgid "**CSV Column** ``accessConditions``"
+msgstr "**CSV列** ``accessConditions``"
+
+#: ../../user-manual/data-templates/isad-template.rst:701
+msgid ""
+"**ISAD Rule** Specify the law or legal status, contract, regulation or "
+"policy that affects access to the unit of description. Indicate the extent "
+"of the period of closure and the date at which the material will open when "
+"appropriate. (ISAD 3.4.1)"
+msgstr ""
+"**ISAD規則** "
+"説明単位にアクセスを影響する法律や法的地位、契約、規則、またはポリシーを明示してください。閉鎖の期間の範囲と、適切な場合に資料が公開される日付を示してください。"
+" (ISAD 3.4.1)"
+
+#: ../../user-manual/data-templates/isad-template.rst:715
+msgid ""
+":ref:`rights`, especially :ref:`rights-digital-object` and :ref:`rights-"
+"archival-description`."
+msgstr ""
+":ref:`rights`、特に :ref:`rights-digital-object` と :ref:`rights-archival-"
+"description` に関して。"
+
+#: ../../user-manual/data-templates/isad-template.rst:722
+msgid "Conditions governing reproduction"
+msgstr "再生産を管理する条件"
+
+#: ../../user-manual/data-templates/isad-template.rst:724
+msgid "**Template field** Conditions governing reproduction"
+msgstr "**テンプレート フィールド** 複製に関する条件"
+
+#: ../../user-manual/data-templates/isad-template.rst:726
+msgid "**CSV Column** ``reproductionConditions``"
+msgstr "CSV列 ``reproductionConditions``"
+
+#: ../../user-manual/data-templates/isad-template.rst:728
+msgid ""
+"**ISAD Rule** Give information about conditions, such as copyright, "
+"governing the reproduction of the unit of description after access has been "
+"provided. If the existence of such conditions is unknown, record this. If "
+"there are no conditions, no statement is necessary. (ISAD 3.4.2)"
+msgstr ""
+"**ISAD規則** "
+"アクセス提供後の説明単位の複製に関する条件（著作権など）について情報を提供してください。そのような条件の存在が不明の場合は、このことを記録してください。条件がない場合、記述は不要です。（ISAD"
+" 3.4.2）"
+
+#: ../../user-manual/data-templates/isad-template.rst:744
+msgid "Language of material"
+msgstr "資料の言語"
+
+#: ../../user-manual/data-templates/isad-template.rst:746
+msgid "**Template field** Language of material"
+msgstr "**テンプレートフィールド** 資料の言語"
+
+#: ../../user-manual/data-templates/isad-template.rst:748
+msgid "**CSV Column** ``language``"
+msgstr "**CSV列** `言語`"
+
+#: ../../user-manual/data-templates/isad-template.rst:750
+msgid ""
+"**ISAD Rule** Record the language(s) of the materials comprising the unit of"
+" description. (ISAD 3.4.3)"
+msgstr "**ISAD規則** 記述単位を構成する資料の言語を記録する。（ISAD 3.4.3）"
+
+#: ../../user-manual/data-templates/isad-template.rst:763
+msgid ""
+"Use a two-letter language code from `ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ when importing "
+"from CSV."
+msgstr ""
+"CSVからインポートする際には、`ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ "
+"に基づく2文字の言語コードを使用してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:772
+msgid "Script of material"
+msgstr "素材の台本"
+
+#: ../../user-manual/data-templates/isad-template.rst:774
+msgid "**Template field** Script of material"
+msgstr "**テンプレートフィールド** 資料の台本"
+
+#: ../../user-manual/data-templates/isad-template.rst:776
+msgid "**CSV Column** ``script``"
+msgstr "**CSV列** `スクリプト`"
+
+#: ../../user-manual/data-templates/isad-template.rst:778
+msgid ""
+"**ISAD Rule** Record the script(s) of the materials comprising the unit of "
+"description. (ISAD 3.4.3)"
+msgstr "**ISAD（国際標準アーカイブ記述規則）ルール** 説明単位を構成する資料のスクリプト（筆記体系）を記録する。（ISAD 3.4.3）"
+
+#: ../../user-manual/data-templates/isad-template.rst:791
+msgid ""
+"Use a four-letter script code from `ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ when importing from "
+"CSV."
+msgstr ""
+"CSVからインポートする際は、`ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ "
+"からの4文字のスクリプトコードを使用してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:799
+msgid "Language and script notes"
+msgstr "言語と文字に関する注意事項"
+
+#: ../../user-manual/data-templates/isad-template.rst:801
+msgid "**Template field** Language and script notes"
+msgstr "**テンプレートフィールド** 言語およびスクリプトに関する注意事項"
+
+#: ../../user-manual/data-templates/isad-template.rst:803
+msgid "**CSV Column** ``languageNote``"
+msgstr "**CSVカラム**``languageNote``"
+
+#: ../../user-manual/data-templates/isad-template.rst:805
+msgid ""
+"**ISAD Rule** \"Note any distinctive alphabets, scripts, symbol systems or "
+"abbreviations employed (ISAD 3.4.3)\""
+msgstr "**ISADルール** 「使用されている特有のアルファベット、筆記体、記号システムや略語について記録する（ISAD 3.4.3）」"
+
+#: ../../user-manual/data-templates/isad-template.rst:817
+msgid "Not intended to duplicate information from language or script, above."
+msgstr "上記の言語やスクリプトから情報を重複させることは意図していません。"
+
+#: ../../user-manual/data-templates/isad-template.rst:823
+msgid "Physical characteristics and technical requirements"
+msgstr "物理的特性と技術的要件"
+
+#: ../../user-manual/data-templates/isad-template.rst:825
+msgid "**Template field** Physical characteristics and technical requirements"
+msgstr "**テンプレートフィールド** 物理的特性と技術要件"
+
+#: ../../user-manual/data-templates/isad-template.rst:827
+msgid "**CSV Column** ``physicalCharacteristics``"
+msgstr "**CSV列** `物理的特性`"
+
+#: ../../user-manual/data-templates/isad-template.rst:829
+msgid ""
+"**ISAD Rule** Indicate any important physical conditions, such as "
+"preservation requirements, that affect the use of the unit of description. "
+"Note any software and/or hardware required to access the unit of "
+"description. (ISAD 3.4.4)"
+msgstr ""
+"**ISAD規則** "
+"説明単位の使用に影響を与える重要な物理的条件、例えば保存要件を示します。説明単位にアクセスするために必要なソフトウェアやハードウェアについて記述してください。（ISAD"
+" 3.4.4）"
+
+#: ../../user-manual/data-templates/isad-template.rst:845
+msgid "Finding aids"
+msgstr "アーカイブヘルプ"
+
+#: ../../user-manual/data-templates/isad-template.rst:847
+msgid "**Template field** Finding aids"
+msgstr "テンプレートフィールド 所在案内資料"
+
+#: ../../user-manual/data-templates/isad-template.rst:849
+msgid "**CSV Column** ``findingAids``"
+msgstr "**CSV列** ``findingAids``"
+
+#: ../../user-manual/data-templates/isad-template.rst:851
+msgid ""
+"**RAD Rule** Give information about any finding aids that the repository or "
+"records creator may have that provide information relating to the context "
+"and contents of the unit of description. If appropriate, include information"
+" on where to obtain a copy. (ISAD 3.4.5)"
+msgstr ""
+"**RADルール** "
+"記述単位のコンテキストや内容に関連する情報を提供する、リポジトリまたは記録作成者が持つ所蔵目録についての情報を提供してください。適切な場合には、コピーを入手する方法についての情報も含めてください。（ISAD"
+" 3.4.5）"
+
+#: ../../user-manual/data-templates/isad-template.rst:865
+msgid ":ref:`print-finding-aids`"
+msgstr ":ref:`プリント用所在案内を表示`"
+
+#: ../../user-manual/data-templates/isad-template.rst:872
+msgid "Allied materials area"
+msgstr "関連資料エリア"
+
+#: ../../user-manual/data-templates/isad-template.rst:880
+msgid "An image of the data entry fields in the Allied materials area"
+msgstr "連携資料エリアのデータ入力フィールドの画像"
+
+#: ../../user-manual/data-templates/isad-template.rst:880
+msgid ""
+"The data entry fields for the Allied materials area in the ISAD(G) template,"
+" including Existence and location of originals, Existence and location of "
+"copies, Related units of description, and Publication notes."
+msgstr ""
+"ISAD(G) "
+"テンプレートにおける「関連資料」エリアのデータ入力フィールドは、以下のものを含みます：「原本の存在と所在」、「複製本の存在と所在」、「関連する記述単位」、「出版ノート」。"
+
+#: ../../user-manual/data-templates/isad-template.rst:886
+msgid "Existence and location of originals"
+msgstr "原本の存在と所在地"
+
+#: ../../user-manual/data-templates/isad-template.rst:888
+msgid "**Template field** Existence and location of originals"
+msgstr "**テンプレート項目** オリジナルの存在と所在地"
+
+#: ../../user-manual/data-templates/isad-template.rst:890
+msgid "**CSV Column** ``locationOfOriginals``"
+msgstr "**CSV列** ``原本の所在地``"
+
+#: ../../user-manual/data-templates/isad-template.rst:892
+msgid ""
+"**ISAD Rule** \"If the original of the unit of description is available "
+"(either in the institution or elsewhere) record its location, together with "
+"any significant control numbers. If the originals no longer exist, or their "
+"location is unknown, give that information. (ISAD 3.5.1)\""
+msgstr ""
+"**ISADルール** "
+"「記述単位の原本が利用可能である場合（施設内または他所で）、その場所と重要な管理番号を記録してください。原本が存在しない場合、またはその場所が不明である場合は、その情報を記載してください。（ISAD"
+" 3.5.1）」"
+
+#: ../../user-manual/data-templates/isad-template.rst:908
+msgid "Existence and location of copies"
+msgstr "存在とコピーの場所"
+
+#: ../../user-manual/data-templates/isad-template.rst:910
+msgid "**Template field** Existence and location of copies"
+msgstr "**テンプレートフィールド** コピーの存在と所在地"
+
+#: ../../user-manual/data-templates/isad-template.rst:912
+msgid "**CSV Column** ``locationOfCopies``"
+msgstr "**CSVの列** ``locationOfCopies``"
+
+#: ../../user-manual/data-templates/isad-template.rst:914
+msgid ""
+"**ISAD Rule** \"If the copy of the unit of description is available (either "
+"in the institution or elsewhere) record its location, together with any "
+"significant control numbers. (ISAD 3.5.2)\""
+msgstr ""
+"**ISAD(国際標準アーカイブ記述規則)の規則** "
+"「記述単位のコピーが利用可能な場合（機関内または他所で）、その所在地および重要な管理番号を記録する。（ISAD 3.5.2）」"
+
+#: ../../user-manual/data-templates/isad-template.rst:928
+msgid "Related units of description"
+msgstr "関連する記述単位"
+
+#: ../../user-manual/data-templates/isad-template.rst:930
+msgid "**Template field** Related units of description"
+msgstr "**テンプレートフィールド** 関連する記述単位"
+
+#: ../../user-manual/data-templates/isad-template.rst:932
+msgid "**CSV Column** ``relatedUnitsOfDescription``"
+msgstr "**CSV列** ``関連記述単位``"
+
+#: ../../user-manual/data-templates/isad-template.rst:934
+msgid ""
+"**ISAD Rule** \"Record information about units of description in the same "
+"repository or elsewhere that are related by provenance or other "
+"association(s). Use appropriate introductory wording and explain the nature "
+"of the relationship . If the related unit of description is a finding aid, "
+"use the finding aids element of description (3.4.5) to make the reference to"
+" it. (ISAD 3.5.3)\""
+msgstr ""
+"**ISADルール** "
+"「同一のリポジトリ内、または他の場所にある由来やその他の関連性によって結びついている記述単位についての情報を記録します。適切な導入文を使用し、関係性の性質を説明してください。関連する記述単位が目録である場合は、その参照に記述要素の目録部分（3.4.5）を使用します。（ISAD"
+" 3.5.3）」"
+
+#: ../../user-manual/data-templates/isad-template.rst:950
+msgid ":ref:`link-related-descriptions`"
+msgstr ":ref:`関連する記述へのリンク`"
+
+#: ../../user-manual/data-templates/isad-template.rst:956
+msgid "Publication notes"
+msgstr "出版ノート"
+
+#: ../../user-manual/data-templates/isad-template.rst:958
+msgid "**Template field** Publication notes"
+msgstr "**テンプレートフィールド** 出版ノート"
+
+#: ../../user-manual/data-templates/isad-template.rst:960
+msgid "**CSV Column** ``publicationNote``"
+msgstr "**CSV列** `出版ノート`"
+
+#: ../../user-manual/data-templates/isad-template.rst:962
+msgid ""
+"**ISAD Rule** Record a citation to, and/or information about a publication "
+"that is about or based on the use, study, or analysis of the unit of "
+"description. Include references to published facsimiles or transcriptions. "
+"(ISAD 3.5.4)\""
+msgstr ""
+"**ISAD規則** "
+"説明対象の単位の使用、研究、または分析についての出版物に関する引用や情報を記録します。出版されたファクシミリや転写への参照を含めてください。(ISAD "
+"3.5.4)"
+
+#: ../../user-manual/data-templates/isad-template.rst:980
+msgid "Notes area"
+msgstr "ノート領域"
+
+#: ../../user-manual/data-templates/isad-template.rst:988
+msgid "An image of the data entry fields in the Notes area"
+msgstr "ノート領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isad-template.rst:988
+msgid "The data entry fields for the Notes area in the ISAD(G) template."
+msgstr "ISAD(G)テンプレートの「ノート（Notes）」エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isad-template.rst:991
+msgid "Notes"
+msgstr "注意事項"
+
+#: ../../user-manual/data-templates/isad-template.rst:993
+msgid "**Template field** Notes"
+msgstr "**テンプレートフィールド** 備考"
+
+#: ../../user-manual/data-templates/isad-template.rst:995
+msgid "**CSV Column** ``generalNote``"
+msgstr "CSVカラム: ``generalNote``"
+
+#: ../../user-manual/data-templates/isad-template.rst:997
+msgid ""
+"**ISAD Rule** Record specialized or other important information not "
+"accommodated by any of the defined elements of description. (ISAD 3.6.1)\""
+msgstr "**ISADルール** 記述のために定められた要素で対応できない特別な情報や他の重要な情報を記録する。（ISAD 3.6.1）"
+
+#: ../../user-manual/data-templates/isad-template.rst:1013
+msgid "Access points"
+msgstr "アクセスポイント"
+
+#: ../../user-manual/data-templates/isad-template.rst:1021
+msgid "An image of the data entry fields in the Access points area"
+msgstr "アクセスポイント領域のデータ入力フィールドの画像"
+
+#: ../../user-manual/data-templates/isad-template.rst:1021
+msgid ""
+"The data entry fields for the Access points area in the ISAD(G) template, "
+"including Subject access points, Place access points, and Name access points"
+" (subjects)."
+msgstr ""
+"ISAD(G)テンプレート内のアクセスポイント領域のデータ入力フィールドには、主題アクセスポイント、場所アクセスポイント、及び名称アクセスポイント（主題）が含まれます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1027
+msgid ":ref:`add-term-fly`"
+msgstr ""
+"`:ref:`add-term-fly`` は通常、Sphinxドキュメントツールを使用している際に、リンク可能な用語を参照するために使用されるマークアップです。これを特定の文章に直訳することはできません。もし、この \":ref:`add-term-fly`\" というテキストが特定の章やセクションへの参照を指していると仮定した場合、日本語のドキュメントでは同様に参照タグを設定することになりますが、参照する用語自体は日本語に翻訳される必要があります。\n"
+"\n"
+"例えば、英語のドキュメントで \"add-term-fly\" が「フライで用語を追加」というセクションを指しているとすると、日本語ドキュメントではそれに相当するセクションに対して同じ参照を設置し、そのセクションのタイトルを適切に日本語に翻訳することになります。\n"
+"\n"
+"つまり、マークアップの構造は保持され、参照用語は翻訳されます。\n"
+"\n"
+"例：\n"
+":ref:`フライで用語を追加`\n"
+"\n"
+"この翻訳では、実際のセクションタイトルやコンテキストが不明なため、具体的な翻訳を提供することはできませんが、上記のように変換されることになります。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1030
+msgid "Subject access points"
+msgstr "件名アクセスポイント"
+
+#: ../../user-manual/data-templates/isad-template.rst:1032
+msgid "**Template field** Subject access points"
+msgstr "**テンプレート フィールド** 主題アクセスポイント"
+
+#: ../../user-manual/data-templates/isad-template.rst:1034
+msgid "**CSV Column** ``subjectAccessPoints``"
+msgstr "**CSV列** ``subjectAccessPoints``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1036
+#: ../../user-manual/data-templates/isad-template.rst:1068
+#: ../../user-manual/data-templates/isad-template.rst:1100
+#: ../../user-manual/data-templates/isad-template.rst:1145
+msgid "**ISAD Rule** N/A"
+msgstr "**ISADルール** 該当なし"
+
+#: ../../user-manual/data-templates/isad-template.rst:1047
+#: ../../user-manual/data-templates/isad-template.rst:1079
+#: ../../user-manual/data-templates/isad-template.rst:1156
+msgid ""
+"This field is an auto-complete - as you type, AtoM will suggest matches with"
+" :term:`terms <term>` already in the related :term:`taxonomy`. If you do not"
+" explicitly pick a value from the :term:`drop-down menu` that appears, AtoM "
+"will create a new term in the taxonomy. **Warning**: this means if you are "
+"not careful, it is easy to accidentally create duplicate terms (e.g. by "
+"pressing enter instead of selecting the match from the drop-down)."
+msgstr ""
+"このフィールドはオートコンプリートです。入力すると、AtoMが関連する:term:`タクソノミー "
+"<term>`に既にある:term:`用語`に一致するものを提案します。表示される:term:`ドロップダウンメニュー`から明示的に値を選択しない場合、AtoMはタクソノミー内に新しい用語を作成します。**警告**:"
+" "
+"これは注意が必要であることを意味しており、うっかり重複した用語を作成してしまうことが容易です（例：ドロップダウンから一致するものを選択する代わりにエンターを押すことによって）。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1056
+#: ../../user-manual/data-templates/isad-template.rst:1088
+#: ../../user-manual/data-templates/isad-template.rst:1133
+#: ../../user-manual/data-templates/isad-template.rst:1165
+#: ../../user-manual/data-templates/isad-template.rst:1362
+#: ../../user-manual/data-templates/isad-template.rst:1397
+msgid ""
+"In the CSV template, this column can accept multiple values, separated by a "
+"pipe ``|`` character."
+msgstr "CSVテンプレートでは、この列にはパイプ「|」文字で区切られた複数の値を入力することができます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1062
+msgid "Place access points"
+msgstr "アクセスポイントを設置する"
+
+#: ../../user-manual/data-templates/isad-template.rst:1064
+msgid "**Template field** Place access points"
+msgstr "**テンプレートフィールド** アクセスポイントを配置"
+
+#: ../../user-manual/data-templates/isad-template.rst:1066
+msgid "**CSV Column** ``placeAccessPoints``"
+msgstr "**CSV列** ``placeAccessPoints``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1094
+msgid "Name access points (subjects)"
+msgstr "名前アクセスポイント（主題）"
+
+#: ../../user-manual/data-templates/isad-template.rst:1096
+msgid "**Template field** Name access points"
+msgstr "**テンプレートフィールド** アクセスポイント名"
+
+#: ../../user-manual/data-templates/isad-template.rst:1098
+msgid "**CSV Column** ``nameAccessPoints``"
+msgstr "**CSV列** ``nameAccessPoints``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1104
+msgid ""
+"If the entity type of the actor is not defined as either a person, family, "
+"or corporate body:"
+msgstr "アクターのエンティティタイプが個人、家族、または法人として定義されていない場合："
+
+#: ../../user-manual/data-templates/isad-template.rst:1114
+msgid ""
+"This is the default export EAD when an Entity type has not been set for the "
+"actor on the related :term:`authority record`. The final EAD element can be "
+"more precise, if the user has entered an Entity type on the related "
+":term:`authority record`. When the Entity type is set to **Person**, the EAD"
+" will export using ``<persname>`` instead of  ``<name>``; when set to "
+"**Family**, the EAD will export using ``<famname>``  instead of ``<name>``; "
+"and when set to **Organization**, the EAD will export using ``<corpname>`` "
+"instead of ``<name>``. The ``<name>`` element is the default when no entity "
+"type is set. For more information on authority records and the ISAAR "
+"standard upon which the authority record template is based, see: "
+":ref:`authority-records` and :ref:`isaar-template`."
+msgstr ""
+"関連する:term:`権威記録`に俳優のエンティティタイプが設定されていない場合、これがEADのデフォルトエクスポートになります。ユーザーが関連する:term:`権威記録`にエンティティタイプを入力していれば、最終的なEAD要素はより正確になることができます。エンティティタイプが**個人(Person)**に設定されている場合、EADは``<name>``の代わりに``<persname>``を使用してエクスポートされます。**家族(Family)**に設定されている場合は``<name>``の代わりに``<famname>``を使用してエクスポートされます。そして**組織(Organization)**に設定されている場合は``<name>``の代わりに``<corpname>``を使用してエクスポートされます。エンティティタイプが設定されていない場合のデフォルトは``<name>``要素です。権威記録および権威記録テンプレートの基礎となっているISAAR標準についての詳細は、:ref:`権威記録`および:ref:`isaar-"
+"template`を参照してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1126
+msgid ""
+"This field is an auto-complete - the :term:`drop-down <drop-down menu>` will"
+" suggest existing authority records as you type. Values in this column/field"
+" that are entered instead of selected from the drop-down will create new "
+":term:`authority records <authority record>`."
+msgstr ""
+"このフィールドは自動補完です。入力すると、既存の権限レコードがドロップダウンメニューで提案されます。ドロップダウンから選択する代わりにこの列/フィールドに入力された値は、新しい権限レコードを作成します。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1139
+msgid "Genre access points"
+msgstr "ジャンルアクセスポイント"
+
+#: ../../user-manual/data-templates/isad-template.rst:1141
+msgid "**Template field** Genre access points"
+msgstr "**テンプレート フィールド** ジャンルアクセスポイント"
+
+#: ../../user-manual/data-templates/isad-template.rst:1143
+msgid "**CSV Column** ``genreAccessPoints``"
+msgstr "**CSVカラム** ``ジャンルアクセスポイント``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1173
+msgid "Description control area"
+msgstr "説明管理エリア"
+
+#: ../../user-manual/data-templates/isad-template.rst:1181
+msgid "An image of the data entry fields in the Description control area"
+msgstr "説明制御領域にあるデータ入力フィールドの画像"
+
+#: ../../user-manual/data-templates/isad-template.rst:1181
+msgid ""
+"The data entry fields for the Description control are in the ISAD(G) "
+"template, including Description identifier, Institution identidier, Rules or"
+" conventions, Status, Level of detail, Dates of creation, revision and "
+"deletion, Language(s), Script(s), Sources and Archivist's notes."
+msgstr ""
+"説明制御のデータ入力フィールドは、ISAD(G)テンプレートに含まれており、記述識別子、機関識別子、規則または規約、ステータス、詳細レベル、作成・改訂・削除の日付、言語、スクリプト、情報源、およびアーキビストの注記が含まれます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1187
+msgid "Description identifier"
+msgstr "説明識別子"
+
+#: ../../user-manual/data-templates/isad-template.rst:1189
+msgid "**Template field** Description identifier"
+msgstr "**テンプレートフィールド** 説明識別子"
+
+#: ../../user-manual/data-templates/isad-template.rst:1191
+msgid "**CSV Column** ``descriptionIdentifier``"
+msgstr "**CSV列** ``descriptionIdentifier``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1193
+msgid ""
+"**ISAD Rule** \"Record a unique description identifier in accordance with "
+"local and/or national conventions. If the description is to be used "
+"internationally, record the code of the country in which the description was"
+" created in accordance with the latest version of ISO 3166- Codes for the "
+"representation of names of countries. Where the creator of the description "
+"is an international organisation, give the organisational identifier in "
+"place of the country code.\""
+msgstr ""
+"**ISAD規則**「地域または国の慣例に従って、ユニークな記述識別子を記録してください。記述が国際的に使用される場合は、記述が作成された国のコードを、最新版のISO"
+" 3166-国名コードの規格に従って記録してください。記述の作成者が国際機関である場合は、国のコードの代わりに機関の識別子を記載してください。」"
+
+#: ../../user-manual/data-templates/isad-template.rst:1212
+msgid "Institution identifier"
+msgstr "機関識別子"
+
+#: ../../user-manual/data-templates/isad-template.rst:1214
+msgid "**Template field** Institution identifier"
+msgstr "**テンプレート フィールド** 機関識別子"
+
+#: ../../user-manual/data-templates/isad-template.rst:1216
+msgid "**CSV Column** ``institutionIdentifier``"
+msgstr "**CSV列** ``institutionIdentifier``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1218
+msgid ""
+"**ISAD Rule** \"Record the full, authorised form of name(s) of the "
+"agency(ies) responsible for creating, modifying, or disseminating the "
+"description, or, alternatively, record a code for the agency in accordance "
+"with the national or international agency code standard.\""
+msgstr ""
+"**ISADルール** "
+"「説明の作成、変更、または配布に責任をもつ機関の全ての公認された形式の名前を記録するか、あるいは代わりに、国内または国際的な機関コード標準に従って機関のコードを記録してください。」"
+
+#: ../../user-manual/data-templates/isad-template.rst:1234
+msgid "Rules or conventions"
+msgstr "ルールまたは慣習"
+
+#: ../../user-manual/data-templates/isad-template.rst:1236
+msgid "**Template field** Rules or conventions"
+msgstr "**テンプレート フィールド** ルールまたは規約"
+
+#: ../../user-manual/data-templates/isad-template.rst:1238
+msgid "**CSV Column** ``rules``"
+msgstr "**CSV列** ``rules``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1240
+msgid ""
+"**ISAD Rule** \"Record the international, national and/or local rules or "
+"conventions followed in preparing the description. (ISAD 3.7.2)\""
+msgstr "**ISAD規則** 「記述を作成する際に遵守した国際的、国内的、またはローカルな規則や慣例を記録してください。（ISAD 3.7.2）」"
+
+#: ../../user-manual/data-templates/isad-template.rst:1255
+msgid "Status"
+msgstr "ステータス"
+
+#: ../../user-manual/data-templates/isad-template.rst:1257
+msgid "**Template field** Status"
+msgstr "**テンプレートフィールド** ステータス"
+
+#: ../../user-manual/data-templates/isad-template.rst:1259
+msgid "**CSV Column** ``descriptionStatus``"
+msgstr "**CSVカラム** ``descriptionStatus``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1261
+msgid ""
+"**ISAD Rule** \"Record the current status of the description, indicating "
+"whether it is a draft, finalized, and/or revised or deleted.\""
+msgstr "**ISADルール** \"説明の現在の状況を記録し、それが下書きであるか、最終化されているか、または改訂または削除されているかを示します。\""
+
+#: ../../user-manual/data-templates/isad-template.rst:1273
+msgid ""
+"AtoM uses a :term:`taxonomy` to determine the value of this field. The "
+"default terms are Final, Revised and Draft, but can be edited through the "
+":ref:`Manage taxonomy screen <add-term-taxonomy>`."
+msgstr ""
+"AtoMはこのフィールドの値を決定するために`:term:「分類法」`を使用します。デフォルトの用語は「Final」、「Revised」、「Draft」ですが、`:ref:「分類法の管理画面"
+" <add-term-taxonomy>」`を通じて編集することができます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1281
+msgid "Level of detail"
+msgstr "詳細度"
+
+#: ../../user-manual/data-templates/isad-template.rst:1283
+msgid "**Template field** Level of detail"
+msgstr "**テンプレート フィールド** 詳細のレベル"
+
+#: ../../user-manual/data-templates/isad-template.rst:1285
+msgid "**CSV Column** ``levelOfDetail``"
+msgstr "**CSVカラム** ``詳細度``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1287
+msgid ""
+"**ISAD Rule** \"Record whether the description consists of a minimal, "
+"partial, or full level of detail in accordance with relevant international "
+"and/or national guidelines and/or rules.\""
+msgstr ""
+"**ISAD規則** "
+"\"関連する国際的および／または国内のガイドラインおよび／または規則に従い、説明が最小限、部分的、あるいは完全な詳細レベルで構成されているかどうかを記録してください。\""
+
+#: ../../user-manual/data-templates/isad-template.rst:1300
+msgid ""
+"AtoM uses a :term:`taxonomy` to determine the value of this field. The "
+"default terms are Full, Partial and Minimal, but can be edited through the "
+":ref:`Manage taxonomy screen <add-term-taxonomy>`."
+msgstr ""
+"AtoMはこのフィールドの値を決定するために:term:`分類法`を使用します。デフォルトの用語は「Full（完全）」、「Partial（部分的）」、「Minimal（最小限）」ですが、:ref:`分類法の管理画面"
+" <add-term-taxonomy>`を通じて編集することができます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1309
+msgid "Dates of creation, revision and deletion"
+msgstr "作成、改訂、削除の日付"
+
+#: ../../user-manual/data-templates/isad-template.rst:1311
+msgid "**Template field** Dates of creation, revision and deletion"
+msgstr "**テンプレート フィールド** 作成日、改訂日、削除日"
+
+#: ../../user-manual/data-templates/isad-template.rst:1313
+msgid "**CSV Column** ``revisionHistory``"
+msgstr "**CSV列:** ``revisionHistory``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1315
+msgid ""
+"**ISAD Rule** \"Record the date(s) the entry was prepared and/or revised.\""
+msgstr "**ISAD規則** 「エントリーが作成または改訂された日付を記録します。」"
+
+#: ../../user-manual/data-templates/isad-template.rst:1327
+msgid ""
+"This is a free text field, allowing users to also write narrative notes "
+"about the revision history of the description."
+msgstr "これは自由記述フィールドであり、利用者が説明の改訂履歴についての解説ノートも記入することができます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1334
+msgid "Language of description"
+msgstr "記述の言語"
+
+#: ../../user-manual/data-templates/isad-template.rst:1336
+msgid "**Template field** Language of description"
+msgstr "**テンプレートフィールド** 記述の言語"
+
+#: ../../user-manual/data-templates/isad-template.rst:1338
+msgid "**CSV Column** ``languageOfDescription``"
+msgstr "**CSV列** ``descriptionOfLanguage``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1340
+msgid ""
+"**ISAD Rule** \"Indicate the language(s) used to create the description of "
+"the archival material.\""
+msgstr "**ISAD規則** 「アーカイブ資料の説明の作成に使用された言語を記載してください。」"
+
+#: ../../user-manual/data-templates/isad-template.rst:1354
+msgid ""
+"In CSV import, use a two-letter language code from `ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ . When entering "
+"data manually, AtoM will offer an autocomplete drop-down list as you type, "
+"which will be generated as a three-letter language code in the EAD."
+msgstr ""
+"CSVインポートでは、`ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ "
+"から二文字の言語コードを使用してください。手動でデータを入力する際には、AtoMがタイプするにつれてオートコンプリートのドロップダウンリストを提供し、それはEADで三文字の言語コードとして生成されます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1369
+msgid "Script of description"
+msgstr ""
+"In order to provide a meaningful translation, please provide the text you "
+"wish to have translated into Japanese."
+
+#: ../../user-manual/data-templates/isad-template.rst:1371
+msgid "**Template field** Script of description"
+msgstr "**テンプレート フィールド** 説明のスクリプト"
+
+#: ../../user-manual/data-templates/isad-template.rst:1373
+msgid "**CSV Column** ``scriptOfDescription``"
+msgstr "**CSV列** ``説明のスクリプト``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1375
+msgid ""
+"**ISAD Rule** \"Indicate the script(s) used to create the description of the"
+" archival material.\""
+msgstr "**ISAD規則**「アーカイブ資料の記述に使用された文字体系（スクリプト）を明記すること。」"
+
+#: ../../user-manual/data-templates/isad-template.rst:1389
+msgid ""
+"In CSV import, use a four-letter script code from `ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_. When entering data "
+"manually, AtoM will offer an autocomplete drop-down list as you type, which "
+"will be generated as a four-letter script code in the EAD."
+msgstr ""
+"CSVインポートでは、`ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ "
+"から4文字のスクリプトコードを使用してください。手動でデータを入力する場合、AtoMは入力時に自動補完のドロップダウンリストを提示し、EAD内で4文字のスクリプトコードとして生成されます。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1404
+msgid "Sources"
+msgstr "出典"
+
+#: ../../user-manual/data-templates/isad-template.rst:1406
+msgid "**Template field** Sources"
+msgstr "**テンプレートフィールド** ソース"
+
+#: ../../user-manual/data-templates/isad-template.rst:1408
+msgid "**CSV Column** ``sources``"
+msgstr "**CSVカラム** ``sources``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1410
+msgid ""
+"**ISAD Rule** \"Record citations for any external sources used in the "
+"archival description (such as the Scope and Content, Custodial History, or "
+"Notes fields).\""
+msgstr "**ISAD規則** 「アーカイブ記述に使用された外部ソース（範囲と内容、管理履歴、または注釈欄など）の引用を記録すること。」"
+
+#: ../../user-manual/data-templates/isad-template.rst:1423
+msgid ""
+"If there are sources to cite used used in a biographical sketch or "
+"administrative history, record these in the sources field for the "
+":term:`authority record`."
+msgstr "伝記的スケッチや行政史に使用された情報源がある場合は、それらを`:term:`権威レコード`の情報源フィールドに記録してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1430
+msgid "Archivist's notes"
+msgstr "アーキビストの注記"
+
+#: ../../user-manual/data-templates/isad-template.rst:1432
+msgid "**Template field** Archivist's notes"
+msgstr "**テンプレートフィールド** アーキビストのノート"
+
+#: ../../user-manual/data-templates/isad-template.rst:1434
+msgid "**CSV Column** ``archivistNote``"
+msgstr "**CSVの列** ``archivistNote``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1436
+msgid ""
+"**ISAD Rule** Record notes on sources consulted in preparing the description"
+" and who prepared it. (ISAD 3.7.1)"
+msgstr "**ISAD規則** 記述の準備に際して参照された情報源に関する注記およびそれを準備した者について記録すること。(ISAD 3.7.1)"
+
+#: ../../user-manual/data-templates/isad-template.rst:1452
+msgid "Rights area"
+msgstr "権利領域"
+
+#: ../../user-manual/data-templates/isad-template.rst:1454
+msgid ""
+"This area of the description allows users to enter a :term:`rights record` "
+"compliant with `PREMIS <http://www.loc.gov/standards/premis/>`_. These "
+"fields are separate from the ISAD Conditions and access of use area, above, "
+"and editing one area does not effect the other. Rights records cannot be "
+"imported with descriptions via CSV. Rights are located under the More tab "
+"visible on the archival view page for logged in users."
+msgstr ""
+"この説明の部分では、ユーザーは`PREMIS <http://www.loc.gov/standards/premis/>`_ に準拠した "
+":term:`権利記録` "
+"を入力することができます。これらのフィールドは、上記のISAD利用条件とアクセスエリアとは別になっており、一方のエリアを編集しても他方には影響しません。権利記録は、CSV経由での説明とともにインポートすることはできません。権利は、ログインユーザーがアーカイブビューページで「もっと見る」タブの下に位置しています。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1460
+msgid ""
+"At present, the PREMIS rights added to a record are only visible to "
+"authenticated (i.e. logged in) users."
+msgstr "現在、記録に追加されたPREMISの権利情報は認証された（つまりログインした）ユーザーのみが閲覧可能です。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1463
+msgid ""
+"For more information, see :ref:`rights`, especially :ref:`rights-archival-"
+"description`, and :ref:`premis-template`."
+msgstr ""
+"詳細については、:ref:`rights`、特に :ref:`rights-archival-description`、および "
+":ref:`premis-template` をご覧ください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1472
+msgid "Administration area"
+msgstr "管理エリア"
+
+#: ../../user-manual/data-templates/isad-template.rst:1480
+msgid "An image of the data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1480
+msgid "The data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1483
+msgid "Display standard"
+msgstr "表示標準"
+
+#: ../../user-manual/data-templates/isad-template.rst:1485
+msgid "**Template field** Display standard"
+msgstr "**テンプレートフィールド** 表示標準"
+
+#: ../../user-manual/data-templates/isad-template.rst:1487
+msgid "**CSV column** N/A"
+msgstr "CSV列  該当なし"
+
+#: ../../user-manual/data-templates/isad-template.rst:1489
+#: ../../user-manual/data-templates/isad-template.rst:1508
+msgid "**RAD Rule** N/A"
+msgstr "**RADルール** 該当なし"
+
+#: ../../user-manual/data-templates/isad-template.rst:1491
+msgid "**EAD** N/A"
+msgstr ""
+"\"EAD\" stands for \"Encoded Archival Description\", which is a standard for encoding descriptive information regarding archival materials. However, without additional context, the term \"N/A\" typically means \"Not Applicable.\" If you are looking for a translation of \"EAD N/A\" into Japanese, it would depend on the context in which it's used. If it's used to indicate that the EAD standard is not applicable in a certain scenario, then the translation could be:\n"
+"\n"
+"EAD 適用されません\n"
+"\n"
+"If you were asking for a translation of the entire sentence \"EAD N/A\" as a standalone item for a document, a literal translation isn't necessary because \"EAD\" is a specific acronym in the archival field that would likely remain the same in Japanese, and \"N/A\" (Not Applicable) is often used as is in various languages. However, if you need a more localized version, in Japanese it could be:\n"
+"\n"
+"EAD 非適用\n"
+"\n"
+"Or simply:\n"
+"\n"
+"EAD なし\n"
+"\n"
+"But for better accuracy and appropriate translation, more context regarding the usage of the term \"EAD N/A\" in the document would be required."
+
+#: ../../user-manual/data-templates/isad-template.rst:1495
+msgid ""
+"This fields allows the user to choose a different display standard from the "
+":ref:`default template <default-templates>` for the shown archival "
+"description only, with the option to also change the display standard for "
+"all existing children of the description. See: :ref:`change-display-"
+"standard`."
+msgstr ""
+"このフィールドを使用して、表示されるアーカイブ記述に対して、:ref:`デフォルトのテンプレート <default-templates>` "
+"から異なる表示基準を選択することができます。また、その記述のすべての既存の子項目に対する表示基準も変更するオプションがあります。詳細は "
+":ref:`change-display-standard` を参照してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1502
+msgid "Publication status"
+msgstr "公開ステータス"
+
+#: ../../user-manual/data-templates/isad-template.rst:1504
+msgid ""
+"**Template field** Publication status is available under the More tab "
+"located on the object view screen."
+msgstr "**テンプレート項目** 出版ステータスはオブジェクト表示画面にある「More（その他）」タブの下で利用可能です。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1506
+msgid "**CSV column** ``publicationsStatus``"
+msgstr "**CSV列** ``publicationsStatus``"
+
+#: ../../user-manual/data-templates/isad-template.rst:1519
+msgid ""
+"The :term:`publication status` refers to the public visibility of a "
+"description for unauthenticated (e.g. not logged in) users. The default "
+"terms available are \"Published\" (i.e. visible to public users), and "
+"\"Draft\" (e.g. not visible to public users). See: :ref:`publish-archival-"
+"description`."
+msgstr ""
+"「出版状況」は、非認証ユーザー（例: "
+"ログインしていないユーザー）に対する記述の公開可視性を指します。デフォルトで利用可能な状態は、「公開」（すなわち、一般ユーザーに可視）と「下書き」（例:"
+" 一般ユーザーには不可視）です。詳細については、「アーカイバル記述の公開」を参照してください。"
+
+#: ../../user-manual/data-templates/isad-template.rst:1524
+msgid ""
+"In the :ref:`Global Site Settings <global-settings>`, if the default "
+"publication status is set to draft, all imported descriptions will be set to"
+" draft and the EAD file will have the value \"draft\" in the <odd "
+"type=\"publicationStatus\"> tag."
+msgstr ""
+"グローバルサイト設定<global-"
+"settings>にて、もしデフォルトの公開ステータスがドラフトに設定されている場合、全てのインポートされた記述はドラフトに設定され、EADファイルは<odd"
+" type=\"publicationStatus\">タグに\"ドラフト\"の値を持つことになります。"

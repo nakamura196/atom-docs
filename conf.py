@@ -273,3 +273,9 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 # texinfo_no_detailmenu = False
+
+# 言語設定
+locale_dirs = ['locales/']  # 翻訳ファイルを格納するディレクトリ
+gettext_compact = False  # ファイル名を短くしない
+languages = ['en', 'ja']  # サポートする言語コード
+language = "ja"

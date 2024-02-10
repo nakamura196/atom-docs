@@ -1,0 +1,573 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/formatting.rst:5
+msgid "Formatting"
+msgstr "書式設定"
+
+#: ../../user-manual/add-edit-content/formatting.rst:15
+msgid ""
+"This page will capture custom methods for formatting content added to "
+":term:`edit pages <edit page>` or :term:`static pages <static page>`. Since "
+"the 2.2 release, AtoM has included additional security measures that escape "
+"HTML content added to edit pages - so inline HTML cannot be used in the "
+"forms to create external hyperlinks, or for stylistic changes such as "
+"bolding, italics, etc."
+msgstr ""
+"このページは、:term:`編集ページ<edit page>`や:term:`スタティックページ<static "
+"page>`に追加されたコンテンツのカスタム形式設定方法を記録します。2.2リリース以降、AtoMは追加されたセキュリティ対策を含んでおり、編集ページに追加されたHTMLコンテンツをエスケープ処理するため、フォーム内でのインラインHTMLは使用できません。したがって、外部ハイパーリンクを作成したり、太字、イタリック体などのスタイル変更を行うことはできません。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:24
+msgid ""
+"HTML *can* be added to static pages, but the following custom formatting "
+"syntax will work as well. Note that if htmlpurifier_ is enabled in AtoM, "
+"then the supported HTML elements on static pages will be limited by the "
+"htmlpurifier settings - for more information, see: :ref:`security-static-"
+"pages`."
+msgstr ""
+"HTMLは静的ページに*追加することができます*が、以下のカスタムフォーマット構文も同様に機能します。もしAtoMでhtmlpurifier_が有効になっている場合、静的ページでサポートされるHTML要素はhtmlpurifierの設定によって制限されることに注意してください。詳細については、:ref:`security-"
+"static-pages`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:30
+msgid ""
+"However, as of the 2.5 release, AtoM supports the use of Markdown_ in both "
+"edit pages and static pages, via a PHP library known as Parsedown_. Markdown"
+" is a lightweight markup syntax for text formatting, originally created by "
+"John Gruber. It is now widely used on the web - example uses include styling"
+" README files on GitHub_ and other code repositories, formatting text in "
+"online forums such as Reddit_, and in content management systems such as "
+"Wordpress_ or Grav_."
+msgstr ""
+"ただし、2.5リリース時点で、AtoMは編集ページおよび静的ページの両方で、Parsedown_として知られるPHPライブラリを介してMarkdown_の使用をサポートしています。Markdownは、テキストフォーマット用の軽量マークアップ構文で、もともとはジョン・グルーバーによって作成されました。現在ではウェブ上で広く使用されており、その使用例には、GitHub_や他のコードリポジトリでのREADMEファイルのスタイリング、Reddit_のようなオンラインフォーラムでのテキストフォーマット、Wordpress_やGrav_などのコンテンツ管理システムへの適用が含まれます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:38
+msgid ""
+"Markdown uses a series of reserved special characters and specific line "
+"breaks to indicate styling on user-added raw text in edit pages. When parsed"
+" by the Parsedown library, these elements are then rendered as styled "
+"content in view pages. For example, adding text ``**inside two asterisks**``"
+" in an edit page will be rendered as **bolded text** when saved in AtoM."
+msgstr ""
+"Markdownは、編集ページでユーザーが追加した生のテキストにスタイルを指定するために、一連の予約された特別な文字と特定の改行を使用します。Parsedownライブラリによって解析されると、これらの要素は表示ページでスタイルが適用されたコンテンツとしてレンダリングされます。例えば、編集ページでテキスト「**二つのアスタリスク**内部**」に追加すると、AtoMで保存されたときには**太字のテキスト**としてレンダリングされます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:44
+msgid ""
+"The following documentation will outline how Markdown can be used in AtoM. "
+"In each example, the syntax to be used in edit pages will be shown in an "
+"escaped block. Below that, an image of the escaped block, and how it will "
+"look when parsed and rendered on an AtoM view page, will also be shown. We "
+"encourage you to play around with it yourself to better understand the "
+"examples provided."
+msgstr ""
+"以下のドキュメントでは、AtoMでのMarkdownの使用方法について概説します。各例において、編集ページで使うべき構文がエスケープされたブロックで示されます。その下に、エスケープされたブロックの画像と、AtoMの表示ページでパースされレンダリングされた際の見え方も表示されます。提供された例をよりよく理解するために、自分自身で操作してみることをお勧めします。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:50
+msgid ""
+"Please note that not all available styling elements in the Markdown "
+"specification are currently supported in AtoM. In edit pages, formatting can"
+" be added to free-text edit :term:`fields <field>` - however, we do not "
+"recommend attempting to add it in any controlled value fields (i.e. fields "
+"with autocomplete or drop-down menus, such as the subject and place access "
+"point fields, the related descriptions field, the creator(s) field, or the "
+"repository field) when first creating new entities."
+msgstr ""
+"ご注意ください。Markdown仕様で使用可能な全てのスタイリング要素が、現在のAtoMではサポートされていません。編集ページでは、自由入力編集の項目（フィールド）にフォーマットを追加することが可能です。ただし、新規エンティティを作成する際、自動補完やドロップダウンメニューのあるコントロールされた値フィールド（例えば、主題や場所のアクセスポイントフィールド、関連する記述フィールド、作成者フィールド、リポジトリフィールドなど）には追加しようとしないことをお勧めします。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:60
+msgid ":ref:`styling-static-page`"
+msgstr ""
+"このテキストは参照用のラベルですが、通常の文書では、関連するセクションまたは見出しにリンクされているテキストが存在します。このラベル自体を文字通りに翻訳することはなく、文脈が不足しているため、正確な日本語の翻訳を提供することはできません。しかし、これがArchivematicaのドキュメント内の「スタイリング静的ページ」に関するセクションを参照している場合、以下のように記述できます：\n"
+"\n"
+"``:ref:`スタイリング静的ページ` ``\n"
+"\n"
+"これは、該当する日本語のドキュメント内の「スタイリング静的ページ」セクションへの参照リンクとして機能することを意味します。翻訳前にドキュメントの構造を理解し、適切な節またはセクションのタイトルを使用することが重要です。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:61
+msgid ":ref:`add-edit-content`"
+msgstr ":ref:`コンテンツの追加・編集`"
+
+#: ../../user-manual/add-edit-content/formatting.rst:63
+msgid "**Jump to:**"
+msgstr "**飛び先：**"
+
+#: ../../user-manual/add-edit-content/formatting.rst:65
+msgid ":ref:`formatting-settings`"
+msgstr ":ref:`フォーマット設定`"
+
+#: ../../user-manual/add-edit-content/formatting.rst:66
+msgid ":ref:`formatting-headers`"
+msgstr ""
+"このテキストは、ドキュメントの特定のセクションを参照していると思われるマークアップですが、文脈がなければ正確な日本語訳は困難です。もしこれが一般的な参照であり、ではなく「Formatting Headers」というセクションタイトルに関するものであるならば、以下のように翻訳することができます：\n"
+"\n"
+"```\n"
+":ref:`ヘッダーのフォーマット`\n"
+"```\n"
+"\n"
+"ただし、`:ref:`はreStructuredText（reST）ドキュメンテーションで使用される参照用の構文であり、通常は別の場所にあるドキュメントセクションへのリンクを作成するために使用されます。日本語訳にもそのまま残す必要があります。そのため、テキスト全体の文脈を理解することが重要になります。それに伴う詳細や、翻訳すべきドキュメントの全体的な流れをご提供いただければ、より正確な翻訳を提供することができます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:67
+msgid ":ref:`formatting-emphasis`"
+msgstr ":ref:`フォーマットの強調`"
+
+#: ../../user-manual/add-edit-content/formatting.rst:68
+msgid ":ref:`formatting-lists`"
+msgstr ""
+"`:ref:`formatting-lists`` は、特定のドキュメントの参照リンクを表しており、直訳はできません。通常、このような表記はドキュメント内部でのクロスリファレンシング（相互参照）に使用され、特定のセクションやタイトルへのリンクを生成するために使われます。したがって、もし翻訳するとするならば、原文の構造や意図を崩さずにそれに相当するセクションの名称に置き換える必要があります。\n"
+"\n"
+"仮に `formatting-lists` が「リストのフォーマット」というセクションを指していると想定すると、日本語のドキュメント内で同様の参照を行う場合は、参照先の日本語セクション名を使って以下のようになるかもしれません：\n"
+"\n"
+"`:ref:`リストのフォーマット``\n"
+"\n"
+"ただし、これはあくまで例であり、実際のドキュメントでは正しいセクション名や参照ラベルを使用する必要があります。また、翻訳の際には実際のドキュメント管理システムやフォーマットがどのように参照リンクを処理するかを理解し、適切に対応する必要があります。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:69
+msgid ":ref:`formatting-links`"
+msgstr ":ref:`フォーマットリンク`"
+
+#: ../../user-manual/add-edit-content/formatting.rst:70
+msgid ":ref:`formatting-images`"
+msgstr ""
+"`:ref:`formatting-images`` というテキスト断片は、RestructuredText (reST) 形式のドキュメントで使用されるクロスリファレンス構文です。このように単独で提示されると、翻訳が困難です。一般的な翻訳ではなく、脈絡を理解するためには対象となるセクションやその内容を具体的に知る必要があります。\n"
+"\n"
+"ただし、もし「formatting-images」が特定のセクションや見出しを指しており、単にそれを日本語に翻訳する必要があるのであれば、以下のように訳すことができます：\n"
+"\n"
+"`:ref:`画像のフォーマット` `\n"
+"\n"
+"しかし、これは `formatting-images` が文脈において「画像のフォーマット」という意味合いを持つことを前提としています。それに対するリンクを機能させるためには、実際のドキュメント内で適切なリファレンスラベルが設定されている必要があります。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:71
+msgid ":ref:`formatting-raw`"
+msgstr ""
+":ref:`formatting-raw` というマークダウンやreStructuredTextの参照リンクは、翻訳する際に特定の文脈やターゲットとなるドキュメントの構造に基づいて適切に翻訳される必要があります。\n"
+"\n"
+"ただし、提供されたテキストにはそのような文脈情報が含まれていません。通常、このような参照はドキュメント内の特定の節や章を指しており、それを適切な名称に置き換えます。仮に「formatting-raw」が「生フォーマットの書式設定」という章のタイトルであると仮定すると、日本語の翻訳は次のようになる可能性があります：\n"
+"\n"
+"``:ref:`生フォーマットの書式設定` ``\n"
+"\n"
+"ただし、適切な翻訳にはドキュメント全体の構造と、参照されているセクションの正確なタイトルの翻訳が必要であるため、より詳細な情報がないと、このリンクを適切に翻訳することはできません。また、翻訳ではリンクの参照部分 (`:ref:`) と実際の表示テキストの間を適切に調整する必要があります。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:72
+msgid ":ref:`formatting-blockquotes`"
+msgstr ":ref:`引用のフォーマット`"
+
+#: ../../user-manual/add-edit-content/formatting.rst:73
+msgid ":ref:`formatting-hr`"
+msgstr ":ref:`書式設定-hr`"
+
+#: ../../user-manual/add-edit-content/formatting.rst:78
+msgid "Enabling Markdown in AtoM"
+msgstr "AtoMでマークダウンを有効にする"
+
+#: ../../user-manual/add-edit-content/formatting.rst:80
+msgid ""
+"For AtoM to parse your content and render Markdown syntax, you will first "
+"need to ensure that the Markdown setting is enabled in AtoM - it can be "
+"found in **Admin > Settings > Markdown**. For more information, see:"
+msgstr ""
+"AtoMがコンテンツを解析してMarkdown構文をレンダリングするためには、まずAtoMのMarkdown設定が有効になっていることを確認する必要があります。それは"
+" **管理 > 設定 > Markdown** で見つけることができます。詳細については、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/formatting.rst:84
+msgid ":ref:`markdown-settings`"
+msgstr ""
+":ref:`markdown-settings` というテキストはおそらくリンクまたは参照を意味しているため、直訳することはできません。Markdown 形式で書かれたドキュメントでは、特定のセクションや設定へリンクするためにこのような構文が使用されます。リンク先が「Markdownの設定」というセクションを指している可能性があるため、「Markdownの設定」という日本語訳を以下に示しますが、文脈に応じて適切な訳語が異なる場合があります。\n"
+"\n"
+"`:ref:`markdown-settings` の日本語訳: `:ref:`マークダウンの設定``\n"
+"\n"
+"ただし、もし実際にドキュメント内で使用されているリンク用の識別子（ここでは \"markdown-settings\"）に対する日本語訳を作成する必要がある場合、識別子そのものは通常翻訳されません。代わりに、リンクテキスト（アンカーテキスト）を翻訳することになります。実際のドキュメント内ではクロス参照機能を正しく動作させるために、この識別子をそのまま残す必要があります。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:88
+msgid ""
+"After enabling or disabling this setting, a system administrator **must** "
+"rebuild the search index for the changes to take effect. For more "
+"information on how to rebuild AtoM's search index, see: :ref:`maintenance-"
+"populate-search-index`."
+msgstr ""
+"この設定を有効または無効にした後、システム管理者は変更を有効にするために必ず検索インデックスを再構築する**必要があります**。AtoMの検索インデックスを再構築する方法の詳細については、こちらを参照してください："
+" :ref:`maintenance-populate-search-index`。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:93
+msgid ""
+"Once enabled, AtoM will render any user-added content with Markdown syntax "
+"as formatted content in :term:`view pages <view page>`. Note that any "
+"incomplete elements (e.g. an attempt to bold content by putting it inside "
+"double asterisk characters, but forgetting to add the closing asterisks like"
+" so: ``**my content``) will be ignored and will remain rendered as plain "
+"text."
+msgstr ""
+"有効になると、AtoMはMarkdown構文で追加されたユーザーコンテンツを:term:`ビューページ<view "
+"page>`で整形して表示します。なお、不完全な要素（例えば、内容を太字にするために二重アスタリスク文字で囲むが、閉じるアスタリスクの追加を忘れた場合のような"
+" ``**私のコンテンツ``）は無視され、プレーンテキストとしてレンダリングされたまま残ります。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:102
+msgid "Headers"
+msgstr "ヘッダー"
+
+#: ../../user-manual/add-edit-content/formatting.rst:104
+msgid ""
+"Headers can be used to add section titles when organizing long text-based "
+"content. Once parsed by the Markdown library in AtoM, these are rendered for"
+" display as ``<h1>`` to ``<h6>`` HTML headings."
+msgstr ""
+"ヘッダーは、長いテキストベースのコンテンツを整理する際にセクションタイトルを追加するために使用できます。AtoM の Markdown "
+"ライブラリによって解析されると、これらは表示用に ``<h1>`` から ``<h6>`` までの HTML ヘッダーとしてレンダリングされます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:108
+msgid ""
+"You can add headers to AtoM by adding pound signs before text on its own "
+"line, like so:"
+msgstr "AtoMにヘッダーを追加するには、それ自体の行にテキストの前にパウンド記号を追加します。以下のようにします："
+
+#: ../../user-manual/add-edit-content/formatting.rst:120
+#: ../../user-manual/add-edit-content/formatting.rst:147
+#: ../../user-manual/add-edit-content/formatting.rst:253
+#: ../../user-manual/add-edit-content/formatting.rst:319
+#: ../../user-manual/add-edit-content/formatting.rst:393
+#: ../../user-manual/add-edit-content/formatting.rst:474
+#: ../../user-manual/add-edit-content/formatting.rst:510
+msgid "An image of how these will render in AtoM:"
+msgstr "これらがAtoMでどのようにレンダリングされるかの画像："
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown headers rendered in AtoM"
+msgstr "AtoMでレンダリングされるマークダウンヘッダーの例"
+
+#: ../../user-manual/add-edit-content/formatting.rst:127
+#: ../../user-manual/add-edit-content/formatting.rst:154
+#: ../../user-manual/add-edit-content/formatting.rst:260
+#: ../../user-manual/add-edit-content/formatting.rst:343
+#: ../../user-manual/add-edit-content/formatting.rst:401
+#: ../../user-manual/add-edit-content/formatting.rst:481
+#: ../../user-manual/add-edit-content/formatting.rst:517
+msgid ":ref:`Back to top <formatting>`"
+msgstr ":ref:`トップに戻る <formatting>`"
+
+#: ../../user-manual/add-edit-content/formatting.rst:132
+msgid "Emphasis and text styling"
+msgstr "強調とテキストスタイリング"
+
+#: ../../user-manual/add-edit-content/formatting.rst:134
+msgid ""
+"You can add bold, italics, strikethrough, and a combination of these "
+"elements to text, like so:"
+msgstr "テキストに太字、斜体、取り消し線を追加したり、これらの要素を組み合わせることができます。例えば、次のようにします："
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown text emphasis formatting rendered in AtoM"
+msgstr "「AtoMでレンダリングされるマークダウンテキストの強調フォーマットの例」"
+
+#: ../../user-manual/add-edit-content/formatting.rst:159
+msgid "Lists"
+msgstr "リスト"
+
+#: ../../user-manual/add-edit-content/formatting.rst:161
+msgid ""
+"Lists in AtoM using Markdown can be ordered (e.g. sequential numbering) or "
+"unordered (e.g. bullets). These generally need to be found at the start of a"
+" new line, with space above and below them for them to render properly."
+msgstr ""
+"AtoMでのMarkdownを使用したリストは、順序付け（例えば、連番）されることもあれば、順不同（例えば、箇条書き）であることもあります。これらは適切に表示されるためには、新しい行の始まりに配置され、それらの上下に空白が必要です。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:165
+msgid ""
+"The basic syntax for an unordered list is an asterisk followed by a space, "
+"and then the list item. Ordered lists require a number and a period, "
+"followed by a space before the list item:"
+msgstr ""
+"無順序リストの基本構文は、アスタリスクの後にスペースを置き、その後にリスト項目を記載します。順序付きリストには番号とピリオドが必要で、ピリオドの後にスペースを置き、その後にリスト項目を記載します："
+
+#: ../../user-manual/add-edit-content/formatting.rst:185
+msgid ""
+"You can insert properly indented paragraphs in the middle of a list while "
+"maintaining the list formatting, you can mix ordered and unordered list "
+"elements, and you can nest list elements as needed. To indent a list and add"
+" a nested list element, add 2 spaces before your next list character, like "
+"so:"
+msgstr ""
+"リストのフォーマットを保ちつつ、適切にインデントされた段落をリストの途中に挿入することができますし、順序付きと順序なしのリスト要素を混在させることもできます。また、必要に応じてリスト要素を入れ子にすることもできます。リストをインデントして入れ子のリスト要素を追加するには、次のリスト文字の前にスペースを2つ追加します。こんな感じで："
+
+#: ../../user-manual/add-edit-content/formatting.rst:210
+msgid "Here is how the above nested lists would display in AtoM:"
+msgstr "以下は、上記の入れ子になったリストがAtoMで表示される方法です。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown list formatting rendered in AtoM"
+msgstr "AtoMでレンダリングされたマークダウンリストフォーマットの例"
+
+#: ../../user-manual/add-edit-content/formatting.rst:217
+msgid ""
+"Note that spacing is very important to get right with nested lists. Note as "
+"well how the numbering resets in ordered list screenshot example - the "
+"actual number you add does not matter. Markdown will maintain the numbering "
+"order of the primary list based on the level of indentation and will "
+"continute the number after nesting."
+msgstr ""
+"ネストされたリストでのスペースの取り扱いには、非常に注意が必要です。また、順序付きリストのスクリーンショットの例での番号がリセットされる様子にも注意してください"
+" - 実際に追加する番号は重要ではありません。Markdownはインデントのレベルに基づいて主要リストの番号を維持し、ネストの後で番号を続けます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:223
+msgid "Below are some more detailed examples with a mix of list elements:"
+msgstr "以下は、いくつかのリスト要素を混在させたより詳細な例です："
+
+#: ../../user-manual/add-edit-content/formatting.rst:227
+msgid ""
+"In the escaped part of this example below, leading and trailing spaces are "
+"shown with with dots: ``⋅``. This is **just** to illustrate the number of "
+"spaces required for proper rendering - you do not need to use dot characters"
+" to indent lists - in fact, it won't work if you do! In the rendered version"
+" shown in the screenshot below, the dots have been removed, and spaces are "
+"used instead, as AtoM expects for proper rendering."
+msgstr ""
+"この例のエスケープされた部分では、先頭と末尾のスペースはドット「⋅」で表示されています。これは適切なレンダリングのために必要なスペースの数を示すための**単なる**例です"
+" - リストのインデントにドット文字を使用する必要はありません - "
+"実際、それを行うと機能しません！下に示されたレンダリングされたバージョンでは、ドットが取り除かれ、AtoMが適切なレンダリングのために期待するように代わりにスペースが使用されています。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:265
+msgid "Hyperlinks"
+msgstr "ハイパーリンク"
+
+#: ../../user-manual/add-edit-content/formatting.rst:267
+msgid ""
+"In many cases, users may wish to add a hyperlink to an external site to the "
+":term:`edit page` of an :term:`archival description` or other :term:`entity`"
+" in AtoM - for example, a link to an external finding aid in the \"Finding "
+"aids\" field; a link to an external holdings list on a :term:`repository` "
+"page, etc."
+msgstr ""
+"多くの場合、ユーザーは、外部のウェブサイトへのハイパーリンクをAtoMの「編集ページ」や「アーカイバルディスクリプション」またはその他の「エンティティ」に追加したいと考えることがあります。例えば、「ファインディングエイド」フィールドに外部のファインディングエイドへのリンクを追加したり、「リポジトリ」ページに外部の所蔵リストへのリンクを追加するなどです。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:272
+msgid ""
+"There are 2 main methods this can be accomplished - either in-line, or by "
+"adding a reference link. Inline links look like this:"
+msgstr ""
+"この目的を達成するには2つの主な方法があります - インラインで行うか、参照リンクを追加するかです。インラインリンクは以下のように見えます："
+
+#: ../../user-manual/add-edit-content/formatting.rst:279
+msgid ""
+"The above example will lead to \"display text in square brackets\" appearing"
+" as a hyperlink in the :term:`view page` of the :term:`entity` when saved."
+msgstr ""
+"上記の例では、保存時に「角括弧内のテキストを表示」が:term:`エンティティ`の:term:`ビューページ`でハイパーリンクとして表示されます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:282
+msgid ""
+"You can also separate the display text from the link, using the reference "
+"method, like so:"
+msgstr "参照方法を使用して、表示テキストをリンクから分離することもできます。例えば、次のようにします："
+
+#: ../../user-manual/add-edit-content/formatting.rst:291
+msgid ""
+"In the above example, the word \"hyperlink\" in the first sentence would "
+"appear as an external link. The reference text below, which tells AtoM the "
+"URL of the hyperlink, would not be displayed in the view page upon save."
+msgstr ""
+"上記の例では、最初の文にある「hyperlink」という単語が外部リンクとして表示されます。その下にある参照テキストは、AtoMにハイパーリンクのURLを伝えますが、保存後の表示ページには表示されません。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:295
+msgid ""
+"Below is a summary of some of the different linking options and formats "
+"available:"
+msgstr "以下は、利用可能ないくつかの異なるリンクオプションとフォーマットの要約です："
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown link formatting rendered in AtoM"
+msgstr "AtoMでレンダリングされたマークダウンのリンクフォーマットの例"
+
+#: ../../user-manual/add-edit-content/formatting.rst:328
+msgid ""
+"You can also link to existing pages in AtoM by simply providing the unique "
+"part of the path in the link. For example, if my AtoM site is located at "
+"``http://www.example.com``, and the URL for my global Settings page is "
+"normally found at ``http://www.example.com/settings/global``, then I could "
+"create a link directly to that page (for authenticated users with sufficient"
+" :term:`access permissions <access privilege>` to reach it) with the "
+"following:"
+msgstr ""
+"また、リンク内でパスのユニークな部分を提供することで、AtoM内の既存のページへ簡単にリンクを作成することができます。たとえば、私のAtoMサイトが``http://www.example.com``にあるとし、通常``http://www.example.com/settings/global``で見つけられる全体設定ページのURLがある場合、次のようにしてそのページへ直接リンクを作成することができます（それにアクセスするのに十分な:term:`アクセス権限"
+" <access privilege>`を持った認証済みユーザー向けに）。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:339
+msgid ""
+"When rendered, \"global settings page\" would appear as a hyperlink. When "
+"clicked, users would be redirected to "
+"``http://www.example.com/settings/global``."
+msgstr ""
+"レンダリングされると、「グローバル設定ページ」というテキストがハイパーリンクとして表示されます。クリックすると、ユーザーは``http://www.example.com/settings/global``"
+" へリダイレクトされます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:348
+msgid "Images"
+msgstr "画像"
+
+#: ../../user-manual/add-edit-content/formatting.rst:350
+msgid ""
+"You can also use Markdown to include images available on the web inside "
+"user-editable AtoM fields. Much like when you :ref:`link external web-based "
+"digital objects <link-digital-object>` to an :term:`archival description`, "
+"the following conditions must be met for the display of the image to "
+"succeed:"
+msgstr ""
+"Web上で利用可能な画像を、ユーザーが編集可能なAtoMフィールド内に含めるために、Markdownを使用することもできます。:term:`アーカイブ記述`に`:ref:`リンクされた外部Webベースのデジタルオブジェクト"
+" <link-digital-object>`の場合と同様に、画像の表示が成功するためには以下の条件が満たされている必要があります："
+
+#: ../../user-manual/add-edit-content/formatting.rst:356
+msgid ""
+"They must be available on the public web - any login requirements, "
+"firewalls, VPN restrictions, etc. will cause the link to fail."
+msgstr "それらは一般のウェブ上で利用可能でなければなりません - ログイン要求、ファイアウォール、VPNの制限などがあると、リンクは機能しません。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:358
+msgid ""
+"You must provide a link directly to the :term:`digital object` - that is, "
+"the link must end in the file extension (e.g. ``.jpg``, ``.png``, etc). This"
+" is often acheived by right-clicking on an image in a webpage and selecting "
+"\"view image\", and then using the URL provided on the resulting page."
+msgstr ""
+"デジタルオブジェクトへの直接リンクを提供する必要があります。つまり、リンクはファイル拡張子（たとえば、「.jpg」、「.png」など）で終わる必要があります。これは、Webページ上の画像を右クリックして「画像を表示」を選択し、その結果表示されたページのURLを使用することでよく達成されます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:362
+msgid ""
+"Your image URLs must be HTTP or HTTPS based - FTP links or internal network "
+"shares not available on the public web will not work."
+msgstr ""
+"画像のURLはHTTPまたはHTTPSベースである必要があります。公開Web上で利用できないFTPリンクや内部ネットワーク共有は機能しません。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:365
+msgid ""
+"Additionally, some formats (such as ``.svg``) will not render. We recommend "
+"JPEG and PNG formats for the best results."
+msgstr ""
+"また、一部のフォーマット（例えば "
+"``.svg``）はレンダリングされません。最良の結果を得るために、JPEGおよびPNGフォーマットの使用をお勧めします。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:368
+msgid ""
+"The syntax is similar to that for creating :ref:`hyperlinks <formatting-"
+"links>`, but is preceded by an exclamation mark. You can use the in-line "
+"style, or you can separate the target hyperlink to the image from the place "
+"where it is called, using the reference-style image link."
+msgstr ""
+"構文は、:ref:`ハイパーリンクの作成 <formatting-"
+"links>`のそれに似ていますが、先頭に感嘆符が付きます。インラインスタイルを使用することもできますし、参照スタイルの画像リンクを使って、画像へのターゲットハイパーリンクとそれが呼び出される場所を分けることもできます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:373
+msgid "The basic format for inline image linking is like so:"
+msgstr "インライン画像リンクの基本的なフォーマットは、次のようになっています:"
+
+#: ../../user-manual/add-edit-content/formatting.rst:379
+msgid "Some examples of both formats:"
+msgstr "両方のフォーマットの例："
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown image formatting rendered in AtoM"
+msgstr "AtoMでレンダリングされたマークダウン画像フォーマットの例"
+
+#: ../../user-manual/add-edit-content/formatting.rst:406
+msgid "Escaped content (code blocks and raw text)"
+msgstr "エスケープされたコンテンツ（コードブロックと生テキスト）"
+
+#: ../../user-manual/add-edit-content/formatting.rst:408
+msgid ""
+"Because Markdown is often used to help document programming code  (where "
+"spacing and proper indentation etc. can matter), it also includes a method "
+"to display individual strings, or whole blocks of text, in a raw or escaped "
+"format."
+msgstr ""
+"Markdownはプログラミングコードの文書化によく使われます（この場合、スペーシングや適切なインデントなどが重要になります）。そのため、Markdownには個々の文字列やテキストブロックを生の形式またはエスケープ形式で表示する方法が含まれています。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:412
+msgid ""
+"To escape text inline in a paragraph you can add back-ticks around it like "
+"so:"
+msgstr "文章内のテキストをインラインでエスケープするには、次のようにバックティックを使用して囲みます："
+
+#: ../../user-manual/add-edit-content/formatting.rst:418
+#: ../../user-manual/add-edit-content/formatting.rst:440
+msgid "This will display in AtoM as:"
+msgstr "AtoMには次のように表示されます："
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown inline escaping formatting rendered in AtoM"
+msgstr "AtoMでレンダリングされたマークダウンのインラインエスケープフォーマットの例"
+
+#: ../../user-manual/add-edit-content/formatting.rst:425
+msgid ""
+"You can also escape a whole block of text, by \"fencing\" it with three "
+"back-ticks on the lines above and below the content you want to escape. The "
+"escaped text is typically referred to as a code block in Markdown. An "
+"example:"
+msgstr ""
+"テキストのブロック全体をエスケープすることもできます。そのためには、エスケープしたい内容の上下にバックティックを３つずつ「フェンス」として配置します。Markdownでエスケープされたテキストは、通常「コードブロック」として参照されます。例："
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown codeb formatting rendered in AtoM"
+msgstr "AtoMでレンダリングされるマークダウンコードのフォーマットの例"
+
+#: ../../user-manual/add-edit-content/formatting.rst:447
+msgid ""
+"Note that within an escaped code block, all content is skipped by the parser"
+" - meaning both Markdown and HTML inside the block will not render."
+msgstr ""
+"エスケープされたコードブロック内では、パーサーによってすべてのコンテンツが読み飛ばされることに注意してください。つまり、ブロック内のMarkdownおよびHTMLはどちらもレンダリングされません。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:453
+msgid "Block quotes"
+msgstr "ブロック引用"
+
+#: ../../user-manual/add-edit-content/formatting.rst:455
+msgid ""
+"Block quotes can be a useful way of quoting content from other sources. On a"
+" new line, they can be created by adding a ``>`` character and a space "
+"before the content. For multiple paragraphs within a block quote, simply "
+"keep adding the ``>`` character on each new line, including any spaces."
+msgstr ""
+"ブロック引用は他のソースからのコンテンツを引用する便利な方法です。新しい行では、コンテンツの前に「>」文字とスペースを追加することで作成できます。ブロック引用内の複数の段落には、新しい行ごとに「>」文字を追加し続けるだけで、任意のスペースを含むことができます。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:460
+msgid ""
+"Note that other markdown added in a block quote will still render properly."
+msgstr "ブロック引用内に追加された他のマークダウンも引き続き正しく表示されることに注意してください。"
+
+#: ../../user-manual/add-edit-content/formatting.rst:462
+msgid "An example:"
+msgstr "例:"
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown block quote formatting rendered in AtoM"
+msgstr "Markdownブロック引用のフォーマットの例がAtoMでレンダリングされます"
+
+#: ../../user-manual/add-edit-content/formatting.rst:486
+msgid "Horizontal rules"
+msgstr "水平線"
+
+#: ../../user-manual/add-edit-content/formatting.rst:488
+msgid ""
+"A horizontal rule is simply a horizontal line, that can be used to separate "
+"sections of content. You can add these by simply adding 3 or more special "
+"characters (hyphens, asterisks, or underscores) on their own line. For "
+"example:"
+msgstr ""
+"水平線は、単純に水平の線のことであり、コンテンツのセクションを分割するために使用できます。これらは、単に3つ以上の特殊文字（ハイフン、アスタリスク、またはアンダースコア）をそれぞれ独立した行に追加することで追加できます。例えば："
+
+#: ../../user-manual/add-edit-content/formatting.rst:-1
+msgid "An example of markdown horizontal rule formatting rendered in AtoM"
+msgstr "AtoMでレンダリングされるマークダウン水平線フォーマットの例"

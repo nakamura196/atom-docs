@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:5
+msgid "Multilingual design principles"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:11
+msgid ""
+"AtoM is a multilingual application, which incorporates the following "
+"design principles:"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:14
+msgid ""
+"Both the :term:`user interface` and the :term:`database content` should "
+"exist in multiple languages."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:17
+msgid ""
+"Users should be able to switch the :term:`user interface` to their "
+"preferred language by navigating to the |globe2| :ref:`language menu "
+"<language-menu>` in the :term:`header bar` and selecting the language "
+"they  wish to translate content into."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:7
+msgid "globe2"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:22
+msgid ""
+"When switching the :term:`user interface` to a preferred language, "
+":term:`database content` should also switch, if a translation is "
+"available; if not, the content remains in the original source language."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:26
+msgid ""
+"Users with :term:`translator` :term:`access privilege` should be able to "
+"contribute translations of content (e.g., archival descriptions) from the"
+" source language to their assigned lanaguges using the translation "
+"interface available in AtoM."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:31
+msgid ""
+"The :term:`administrator` should be able to remove languages that are not"
+" needed in their application."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:34
+msgid ""
+"The :term:`administrator` should be able to add back :term:`supported "
+"language` that were removed."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:37
+msgid ""
+"The :term:`administrator` should be able to add new languages (that have "
+"an existing translation) from selecting the language from the drop-down "
+"list in the I18n languages section of the Admin Settings."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:41
+msgid ""
+"When installing AtoM, the :term:`administrator` specifies the "
+":term:`default language`. Any user can switch the :term:`current "
+"language` to display the :term:`user interface` and :term:`database "
+"content` in any of the other supported languages."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:49
+msgid ""
+"AtoM does not automatically generate translations of content from one "
+"language to another. It is up to the individual translators to create the"
+" translations of the content and the :term:`user interface` with the "
+"tools provided through the AtoM translation interface."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:56
+msgid ""
+"For information about how to translate the AtoM application into your "
+"language, or improve an existing translation of the AtoM application and "
+"submit it to Artefactual for inclusion in our next major release, please "
+"visit our `wiki instructions "
+"<https://wiki.accesstomemory.org/Resources/Translation>`__."
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:62
+msgid "**For more information, see the following sections in our User Manual:**"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:64
+msgid ":ref:`default-language`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:65
+msgid ":ref:`The language menu <language-menu>`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:66
+msgid ":ref:`Add/Remove languages <add-remove-languages>`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:67
+msgid ":ref:`User roles: Translator <user-translator>`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:68
+msgid ":ref:`Manage users and groups <manage-user-accounts>`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:69
+msgid ":ref:`translate-content`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:70
+msgid ":ref:`translate-interface`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:71
+msgid ":ref:`translate-static-pages`"
+msgstr ""
+
+#: ../../user-manual/translate/multilingual-design-principles.rst:73
+msgid ":ref:`Back to top <multilingual-design-principles>`"
+msgstr ""
+

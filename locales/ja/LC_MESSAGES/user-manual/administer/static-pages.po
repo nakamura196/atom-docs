@@ -1,0 +1,1477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/static-pages.rst:5
+msgid "Manage static pages"
+msgstr "静的ページの管理"
+
+#: ../../user-manual/administer/static-pages.rst:12
+msgid ""
+"In AtoM, :term:`static pages <static page>` are pages that are designed to "
+"look the same each time they are accessed; this is in contrast to dynamic "
+"pages, which can vary according to your network or institution and according"
+" to the content that is uploaded into AtoM. Examples of dynamic pages "
+"include: search results pages; :term:`view pages <view page>`; and "
+":term:`edit pages <edit page>`. By default, AtoM has three :term:`static "
+"pages <static page>` at installation: the :term:`Home page`, the "
+":term:`About page`, and a Privacy Policy page."
+msgstr ""
+"AtoMでは、:term:`static pages <static "
+"page>`（静的ページ）とはアクセスする度に同じ見た目をするように設計されたページを意味します。これは、ネットワークや機関、そしてAtoMにアップロードされた内容によって変わることがある動的ページとは対照的です。動的ページの例には、検索結果ページ、:term:`view"
+" pages <view page>`（閲覧ページ）、:term:`edit pages <edit "
+"page>`（編集ページ）があります。デフォルトでは、AtoMにはインストール時に三つの:term:`static pages <static "
+"page>`（静的ページ）があります。それは:term:`Home page`（ホームページ）、:term:`About "
+"page`（アバウトページ）、そしてプライバシーポリシーページです。"
+
+#: ../../user-manual/administer/static-pages.rst:21
+msgid ""
+"A default welcome message appears on the :term:`Home page` when first "
+"logging into AtoM."
+msgstr "AtoMに初めてログインする際、標準のウェルカムメッセージが:term:`ホームページ`に表示されます。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of the Home page"
+msgstr "ホームページの画像"
+
+#: ../../user-manual/administer/static-pages.rst:31
+msgid ":ref:`Home page <home-page>`"
+msgstr ":ref:`ホームページ <home-page>`"
+
+#: ../../user-manual/administer/static-pages.rst:33
+msgid ""
+"The :term:`About page` provides additional information about the application"
+" and the project. To access the :term:`About page`, click on the |info| "
+":ref:`Quick links menu <quick-links-menu>` in the :term:`main menu` located "
+"in the :term:`header bar` and select \"About\"."
+msgstr ""
+"「About page」は、アプリケーションとプロジェクトについての追加情報を提供します。:term:`About "
+"page`にアクセスするには、:term:`header bar`にある:term:`main menu`内の|info| :ref:`Quick "
+"links menu <quick-links-menu>`をクリックし、「About」を選択します。"
+
+#: ../../user-manual/administer/static-pages.rst:43
+msgid "info"
+msgstr ""
+"ご質問が不完全で、具体的な翻訳をするテキストが提供されていません。Archivematicaに関連するドキュメントの特定の部分を指定していただければ、その部分を日本語に翻訳いたします。もしテキストの提供が難しい場合は、Archivematicaについて一般的な説明やその使用法など、より具体的な質問をしていただければ対応いたします。どうぞ、更に詳細を教えてください。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of the About page"
+msgstr "「Aboutページの画像」"
+
+#: ../../user-manual/administer/static-pages.rst:47
+msgid ""
+"The Privacy Policy page (also accessible via the |info| :ref:`Quick links "
+"menu <quick-links-menu>`) was designed to assist site :term:`administrators "
+"<administrator>` in complying with proactive privacy policy disclosure "
+"regulations such as the European Union's General Data Protection Regulation "
+"(GDPR_), which requires that any information collected about a user through "
+"the use of a website must be disclosed to the user in advance, with the "
+"option to opt out and/or leave the site. It includes basic information on "
+"AtoM's data collection abilities and intents, and can be used in conjunction"
+" with AtoM's customizable Privacy notification banner - for more "
+"information, see:"
+msgstr ""
+"プライバシーポリシーページ（|info| :ref:`クイックリンクメニュー <quick-links-"
+"menu>`からもアクセス可能）は、ウェブサイトの使用によりユーザーに関して収集された情報を事前にユーザーに通知し、オプトアウトする選択肢やサイトを離れるオプションを提供することを要求している、ヨーロッパ連合の一般データ保護規則（GDPR）などの先進的なプライバシーポリシー開示規制の遵守をサイトの"
+" :term:`管理者 <administrator>` "
+"が支援するために設計されました。AtoMのデータ収集能力や意図についての基本情報を含み、AtoMのカスタマイズ可能なプライバシー通知バナーと共に使用することができます。詳細については、次を参照してください："
+
+#: ../../user-manual/administer/static-pages.rst:58
+msgid ":ref:`privacy-notification`"
+msgstr "`:ref:`プライバシー通知`"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of the default Privacy Policy static page in AtoM"
+msgstr "AtoMのデフォルトのプライバシーポリシー固定ページの画像"
+
+#: ../../user-manual/administer/static-pages.rst:65
+msgid "For more information on navigating in AtoM, see :ref:`access-content`."
+msgstr "AtoMでのナビゲーションの詳細については、 :ref:`access-content` を参照してください。"
+
+#: ../../user-manual/administer/static-pages.rst:67
+msgid ""
+"All static pages in AtoM, including the three default static pages described"
+" above, can be customized by logged-in administrators via the :term:`user "
+"interface`. New static pages can also be created, and all static pages "
+"(except the home page) can be deleted from the application."
+msgstr ""
+"AtoMの全ての静的ページ、上述のデフォルトの三つの静的ページを含め、ログインした管理者によって:term:`ユーザーインターフェース`を通じてカスタマイズすることができます。新しい静的ページも作成可能で、ホームページを除く全ての静的ページはアプリケーションから削除可能です。"
+
+#: ../../user-manual/administer/static-pages.rst:72
+msgid ""
+"**Below are instructions on how to edit and add static pages in AtoM:**"
+msgstr "**以下は、AtoMで静的ページを編集および追加する方法についての指示です：**"
+
+#: ../../user-manual/administer/static-pages.rst:74
+msgid ":ref:`security-static-pages`"
+msgstr ":ref:`セキュリティ-スタティックページ`"
+
+#: ../../user-manual/administer/static-pages.rst:75
+msgid ":ref:`edit-static-page`"
+msgstr ""
+"このテキストスニペットは、具体的なコンテキストが存在しないため、直訳することは困難です。しかし、もし「edit-static-page」がドキュメント内の特定の節を指しているラベルのようであれば、それは通常、文脈に基づいて参照されます。したがって、直訳すると次のようになります：\n"
+"\n"
+"``:ref:`edit-static-page`を編集``\n"
+"\n"
+"ただし、これは技術的なドキュメントでのラベル参照を示している可能性があり、実際の文書内でこのラベルは一つのセクションやページタイトルを指していて、そのセクションには独自のタイトルが付けられているでしょう。その場合、実際にはその節のタイトルに基づいて翻訳が行われる必要があります。例えば「固定ページの編集」セクションを参照している場合は、次のようになります：\n"
+"\n"
+"``「固定ページの編集」セクションを参照``\n"
+"\n"
+"慎重に翻訳するためには、実際のドキュメントやコンテキストを参照する必要があります。"
+
+#: ../../user-manual/administer/static-pages.rst:77
+msgid ":ref:`Edit the \"Home page\" <edit-home-page>`"
+msgstr ":ref:`\"ホームページ\"を編集<edit-home-page>`"
+
+#: ../../user-manual/administer/static-pages.rst:78
+msgid ":ref:`Edit other static pages <edit-other-static-page>`"
+msgstr ":ref:`他の静的ページを編集する <edit-other-static-page>`"
+
+#: ../../user-manual/administer/static-pages.rst:80
+msgid ":ref:`Add a new static page <add-static-page>`"
+msgstr ":ref:`新しい静的ページを追加する <add-static-page>`"
+
+#: ../../user-manual/administer/static-pages.rst:81
+msgid ":ref:`Add links to a new static page <add-links-static>`"
+msgstr ":ref:`新しい静的ページへリンクを追加する <add-links-static>`"
+
+#: ../../user-manual/administer/static-pages.rst:82
+msgid ":ref:`static-pages-menu`"
+msgstr ""
+"このテキストは、マークアップ言語（たぶんreStructuredTextまたは類似の形式）で記述された参照タグです。直訳はできますが、文脈がなければ、そのまま直訳するだけでは意味があまり伝わらない可能性があります。しかし、リクエストに応じて、そのまま直訳すると以下のようになります：\n"
+"\n"
+":ref:`静的ページメニュー`\n"
+"\n"
+"ただし、「static-pages-menu」というラベルを持つドキュメントのセクションやページへの参照であることを考えると、実際の日本語のドキュメントではこのラベルに対応した日本語の名前が必要になるでしょう。例えば、そのセクションが「静的ページのメニュー」というタイトルであれば、参照タグも以下のようになるかもしれません：\n"
+"\n"
+":ref:`静的ページのメニュー`"
+
+#: ../../user-manual/administer/static-pages.rst:83
+msgid ":ref:`Styling static pages <styling-static-page>`"
+msgstr ":ref:`スタイリング・スタティックページ <styling-static-page>`"
+
+#: ../../user-manual/administer/static-pages.rst:87
+msgid ""
+":term:`Static pages <static page>` can only be edited and added by an "
+"authenticated (i.e. logged-in) :term:`administrator`. For more information "
+"on user permissions, see :ref:`edit-user-permissions`."
+msgstr ""
+"「静的ページ<static "
+"page>」は認証された（つまり、ログインした）「管理者」のみが編集し追加することが可能です。ユーザー権限に関する詳しい情報は、:ref:`edit-"
+"user-permissions`を参照してください。"
+
+#: ../../user-manual/administer/static-pages.rst:94
+msgid "Static pages and security configuration"
+msgstr "静的ページとセキュリティ設定"
+
+#: ../../user-manual/administer/static-pages.rst:98
+msgid ""
+"As of version 2.2, AtoM now has advanced configuration settings that will "
+"allow a system administrator to enable htmlpurifier_ on static pages. "
+"htmlpurifier is:"
+msgstr ""
+"バージョン2.2以降、AtoMはシステム管理者が静的ページにhtmlpurifier_を有効にすることを可能にする進んだ設定を備えています。htmlpurifierとは："
+
+#: ../../user-manual/administer/static-pages.rst:101
+msgid ""
+"*...a standards-compliant HTML filter library written in PHP. HTML Purifier "
+"will not only remove all malicious code (better known as XSS) with a "
+"thoroughly audited, secure yet permissive whitelist, it will also make sure "
+"your documents are standards compliant, something only achievable with a "
+"comprehensive knowledge of W3C's specifications.*"
+msgstr ""
+"...PHPで書かれた標準準拠のHTMLフィルターライブラリです。HTML "
+"Purifierは、徹底的に監査された安全かつ寛容なホワイトリストを使用して、すべての悪意のあるコード（一般にXSSとして知られています）を除去するだけでなく、文書が標準に準拠していることも保証します。これはW3Cの仕様に関する包括的な知識があって初めて達成可能です。"
+
+#: ../../user-manual/administer/static-pages.rst:107
+msgid ""
+"By default, htmlpurifier is **not** turned on in AtoM, to allow a broad use "
+"of HTML and inline CSS on static pages. System administrators interested in "
+"enabling all possible security settings and mitigating the risk of XSS-based"
+" attack vectors can enable the library by altering the ``config/app.yml`` "
+"file. For more information, see:"
+msgstr ""
+"デフォルトでは、AtoMではhtmlpurifierは**オン**になっておらず、静的ページでのHTMLやインラインCSSを広く使用できるようにしています。可能な全てのセキュリティ設定を有効にし、XSSベースの攻撃ベクトルのリスクを軽減することに関心のあるシステム管理者は、``config/app.yml``"
+" ファイルを変更することでライブラリを有効にできます。詳細については、次をご覧ください："
+
+#: ../../user-manual/administer/static-pages.rst:113
+msgid ":ref:`config-app-yml`"
+msgstr ""
+"このテキストは参照リンクに関する記述であり、通常の文章としては成立していませんが、文脈に即して翻訳することを試みます。翻訳する際には、通常の文章の流れを保つために少し調整する必要があるかもしれません。以下のような訳になります。\n"
+"\n"
+"`:ref:`config-app-yml`` という表記は、通常マークアップ言語（例えばreStructuredText）におけるクロスリファレンス（相互参照）の構文です。なので、次のように文脈に応じて適切な言葉に置き換えることができます：\n"
+"\n"
+"「設定ファイル（app.yml）に関する詳細は、対応するセクションをご覧ください。」\n"
+"\n"
+"ただし、実際の文書や用途に応じて、このフレーズを適切に埋め込む必要があります。"
+
+#: ../../user-manual/administer/static-pages.rst:114
+msgid ":ref:`admin-security`"
+msgstr ":ref:`管理者向けセキュリティ`"
+
+#: ../../user-manual/administer/static-pages.rst:116
+msgid ""
+"When the configuration is set to ``true``, htmlpurifier_ will limit the "
+"available html elements to the following:"
+msgstr "構成が ``true`` に設定されている場合、htmlpurifier_ は利用可能なHTML要素を次のものに制限します："
+
+#: ../../user-manual/administer/static-pages.rst:119
+msgid "**Tags allowed**"
+msgstr "**タグ許可**"
+
+#: ../../user-manual/administer/static-pages.rst:138
+msgid "**Attributes allowed**"
+msgstr "**許可されている属性**"
+
+#: ../../user-manual/administer/static-pages.rst:146
+msgid ""
+"Any elements used that do not match these parameters when htmlpurifier is "
+"engaged will not render in the browser, meaning they will not be visible in "
+"your  static page. Make sure you review the content you have added to your "
+"static pages before engaging this security setting!"
+msgstr ""
+"htmlpurifierが有効化されている時に、これらのパラメータに一致しない要素はブラウザ上でレンダリングされません。つまり、静的ページ内でそれらは表示されないということです。このセキュリティ設定を有効にする前に、静的ページに追加したコンテンツを確認しておくことをお勧めします！"
+
+#: ../../user-manual/administer/static-pages.rst:151
+#: ../../user-manual/administer/static-pages.rst:341
+#: ../../user-manual/administer/static-pages.rst:439
+#: ../../user-manual/administer/static-pages.rst:485
+#: ../../user-manual/administer/static-pages.rst:661
+#: ../../user-manual/administer/static-pages.rst:942
+msgid ":ref:`Back to top <manage-static-pages>`"
+msgstr ":ref:`ページの先頭に戻る <manage-static-pages>`"
+
+#: ../../user-manual/administer/static-pages.rst:156
+msgid "Edit an existing static page"
+msgstr "既存の静的ページを編集する"
+
+#: ../../user-manual/administer/static-pages.rst:162
+msgid ""
+"In AtoM, :term:`static pages <static page>` can be edited by authenticated "
+"(i.e. logged-in) :term:`administrators <administrator>` to reflect your own "
+"institution's or :term:`network's <network>` requirements."
+msgstr ""
+"AtoMでは、認証された（つまりログインしている）:term:`管理者 <administrator>`が、ご自身の機関や:term:`ネットワーク "
+"<network>`の要件を反映するように:term:`静的ページ <static page>`を編集することができます。"
+
+#: ../../user-manual/administer/static-pages.rst:166
+msgid ""
+"This section contains instructions on how to edit :term:`static pages "
+"<static page>` in AtoM. There are potentially two ways to edit static pages."
+" The primary method is by clicking the the |gears| :ref:`Admin <main-menu-"
+"admin>` and selecting \"Static pages\" from the :term:`drop-down menu`. This"
+" option will route you to a \"List\" page, where all :term:`static pages "
+"<static page>` in the application will be listed. Navigate to the "
+":term:`static page` you wish to edit by clicking on the blue menu name."
+msgstr ""
+"このセクションには、AtoMで:term:`静的ページ <static "
+"page>`を編集する方法についての指示が含まれています。静的ページを編集する方法は主に2つあります。主要な方法は、|gears| :ref:`管理 "
+"<main-menu-"
+"admin>`をクリックし、:term:`ドロップダウンメニュー`から「静的ページ」を選択することです。このオプションを選ぶと、「リスト」ページに移動し、アプリケーション内のすべての:term:`静的ページ"
+" <static page>`が一覧表示されます。青いメニュー名をクリックして、編集したい:term:`静的ページ`にナビゲートします。"
+
+#: ../../user-manual/administer/static-pages.rst:158
+msgid "gears"
+msgstr "\"ギア\"または\"歯車\""
+
+#: ../../user-manual/administer/static-pages.rst:174
+msgid ""
+"Additionally, if to the target static page has been added to the |info| "
+":ref:`Quick links menu <quick-links-menu>` in the :term:`main menu`, you can"
+" use the Quick links menu to navigate to the static page you would like to "
+"modify - an \"Edit\" button will appear at the bottom of the static page."
+msgstr ""
+"さらに、ターゲットの静的ページが :term:`メインメニュー` の |info| `クイックリンクメニュー <quick-links-menu>` "
+"に追加されている場合、クイックリンクメニューを使用して変更したい静的ページにナビゲートできます。その静的ページの下部には「編集」ボタンが表示されます。"
+
+#: ../../user-manual/administer/static-pages.rst:179
+msgid ""
+"Below are instructions to edit to the :ref:`Home page <edit-home-page>` and "
+"other static pages in AtoM. For more information on navigating in AtoM, see "
+":ref:`Navigation in AtoM <navigate>`."
+msgstr ""
+"以下は、AtoM内の:ref:`ホームページ <edit-home-"
+"page>`や他の静的ページを編集するための指示です。AtoMでのナビゲーションに関する詳細は、:ref:`AtoMでのナビゲーション "
+"<navigate>`を参照してください。"
+
+#: ../../user-manual/administer/static-pages.rst:186
+msgid "Edit the \"Home page\""
+msgstr "「ホームページ」を編集"
+
+#: ../../user-manual/administer/static-pages.rst:188
+msgid "To edit the \"Home page\" in AtoM:"
+msgstr "AtoMの「ホームページ」を編集するには："
+
+#: ../../user-manual/administer/static-pages.rst:190
+msgid "Start by navigating to the :term:`Home page`. Do this by either:"
+msgstr "最初に、以下のいずれかの方法で :term:`ホームページ` へ移動します。"
+
+#: ../../user-manual/administer/static-pages.rst:192
+msgid ""
+"Clicking on the AtoM :term:`site logo` located in the top-left corner of the"
+" AtoM :term:`header bar`;"
+msgstr "AtoMの:term:`ヘッダーバー`; の左上にあるAtoM :term:`サイトロゴ`;をクリックします。"
+
+#: ../../user-manual/administer/static-pages.rst:194
+msgid ""
+"Clicking the |info| :ref:`Quick links menu <quick-links-menu>` in the "
+":term:`main menu` of the :term:`header bar` and selecting  \"Home\" from the"
+" :term:`drop-down menu`; **or**"
+msgstr ""
+"以下のテキストを日本語に翻訳しました。\n"
+"\n"
+"`:term:`ヘッダーバー`の:term:`メインメニュー`にある |info| :ref:`クイックリンクメニュー <quick-links-menu>`をクリックし、:term:`ドロップダウンメニュー`から「ホーム」を選択する; **または**"
+
+#: ../../user-manual/administer/static-pages.rst:197
+msgid ""
+"Clicking the |gears| :ref:`Admin <main-menu-admin>` menu in the "
+":term:`header bar` and selecting \"Static pages\" from the :term:`drop-down "
+"menu`. Once you are directed to the \"List page\" for :term:`static pages "
+"<static page>`, click on the \"Welcome\" blue menu."
+msgstr ""
+"ヘッダーバーの :term:`管理者 <main-menu-admin>` メニュー |gears| "
+"をクリックし、ドロップダウンメニューから「Static pages」を選択します。リダイレクトされた「List page」で、 :term:`静的ページ"
+" <static page>` の「Welcome」青いメニューをクリックします。"
+
+#: ../../user-manual/administer/static-pages.rst:202
+#: ../../user-manual/administer/static-pages.rst:268
+#: ../../user-manual/administer/static-pages.rst:364
+msgid "An image of the List static pages page in AtoM"
+msgstr "AtoMの「静的ページ一覧」ページの画像"
+
+#: ../../user-manual/administer/static-pages.rst:207
+msgid ""
+"All three options will direct you to the :term:`Home page` :term:`view "
+"page`."
+msgstr "すべての3つのオプションはあなたを`:term:`ホームページ` :term:`ビューページ`に誘導します。"
+
+#: ../../user-manual/administer/static-pages.rst:209
+msgid ""
+"To switch from the main :term:`view page` to :term:`edit mode`, click on the"
+" :term:`edit button` in the :term:`button block`. AtoM will redirect you to "
+"the :term:`edit page` of the Home page."
+msgstr ""
+"メインの:term:`ビューページ`から:term:`編集モード`に切り替えるには、:term:`ボタンブロック`内の:term:`編集ボタン`をクリックしてください。AtoMはあなたをホームページの:term:`編集ページ`にリダイレクトします。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of the Home page in edit mode"
+msgstr "編集モードでのホームページの画像"
+
+#: ../../user-manual/administer/static-pages.rst:218
+msgid ""
+"On loading, the `edit page` will display a \"Title\" :term:`field`, a "
+":term:`Slug` :term:`field` and a \"Content\" :term:`field`."
+msgstr ""
+"読み込み時、「編集ページ」には「タイトル」:term:`フィールド`、:term:`スラッグ` "
+":term:`フィールド`、および「コンテンツ」:term:`フィールド`が表示されます。"
+
+#: ../../user-manual/administer/static-pages.rst:223
+msgid ""
+"The :term:`Slug` :term:`field` is a page title referenced by AtoM code to "
+"manage URLs; it **cannot be changed** for the :term:`Home page` or the "
+":term:`About page`. However, it can be edited in any static pages that you "
+":ref:`add yourself <add-static-page>`."
+msgstr ""
+"`:term:`Slug` "
+":term:`フィールド`は、AtoMコードがURLを管理するために参照するページのタイトルです。これは`:term:`ホームページ`や`:term:`アバウトページ`では**変更することができません**。しかし、`:ref:`あなたが自分で追加する<add-"
+"static-page>`任意の静的ページで編集することができます。"
+
+#: ../../user-manual/administer/static-pages.rst:228
+msgid ""
+"Add and/or revise data as required. Editing the \"Title\" :term:`field` of "
+"the Home page will edit the static page's title, and will also affect the "
+"blue menu links shown in |gears| **Manage > Static pages**. For example, if "
+"you change \"Welcome\" to say \"Hello!\", the page title in Manage static "
+"pages will also change to \"Hello!\", as will the heading on the page."
+msgstr ""
+"必要に応じでデータの追加や修正を行います。ホームページの「タイトル」:term:`フィールド` "
+"を編集すると、スタティックページのタイトルが変更され、|gears| **管理 > スタティックページ** "
+"に表示される青いメニューリンクにも影響します。例えば、「Welcome」を「こんにちは！」に変更した場合、管理スタティックページのページタイトルも「こんにちは！」に変更され、ページ上の見出しも同様になります。"
+
+#: ../../user-manual/administer/static-pages.rst:234
+msgid ""
+"The main body content of the home page can be edited by changing the data in"
+" the \"Content\" section of the edit page."
+msgstr "ホームページのメインボディコンテンツは、編集ページの「コンテンツ」セクションのデータを変更することで編集できます。"
+
+#: ../../user-manual/administer/static-pages.rst:239
+#: ../../user-manual/administer/static-pages.rst:327
+msgid ""
+"Users can use Markdown_, and/or HTML_ and inline CSS_ code to the "
+"\"Content\" :term:`field` to format content, add hyperlinks, or further "
+"style the page contents. See :ref:`below <styling-static-page>` for "
+"information on how to style :term:`static pages <static page>`. See also: "
+":ref:`formatting`."
+msgstr ""
+"ユーザーは、\"Content\" "
+":term:`フィールド`にMarkdown_、および/またはHTML_とインラインCSS_コードを使用してコンテンツをフォーマットし、ハイパーリンクを追加したり、ページコンテンツのスタイルをさらに整えたりすることができます。:term:`スタティックページ<static"
+" page>`のスタイルをどのように設定するかについては、下記の:ref:`スタイリング-スタティック-ページ <styling-static-"
+"page>`を参照してください。また、:ref:`フォーマッティング`も参照してください。"
+
+#: ../../user-manual/administer/static-pages.rst:244
+#: ../../user-manual/administer/static-pages.rst:332
+msgid ""
+"You can quit the edit process at any time by clicking the \"Cancel\" button "
+"in the :term:`button block`; any data already entered will not be saved. "
+"Note that simply navigating away from the page by any other means, **without"
+" first clicking \"Save\"** will also result in no edits being saved."
+msgstr ""
+"編集プロセスは、`:term:`ボタンブロック`内の「キャンセル」ボタンをクリックすることでいつでも終了できます。既に入力されたデータは保存されません。また、「保存」をクリックせずに他の方法でページから移動しただけでは、編集内容が保存されないことに注意してください。"
+
+#: ../../user-manual/administer/static-pages.rst:248
+msgid ""
+"To save the changes made to the :term:`Home page`, click the Save button "
+"located in the :term:`button block` at the bottom of the edit page.  AtoM "
+"will reload the home page in :term:`view mode` so you can review the results"
+" of your edits."
+msgstr ""
+"「ホームページ」に行った変更を保存するには、編集ページの下部にある「ボタンブロック」内にある[保存]ボタンをクリックしてください。AtoMは「ビューモード」でホームページを再読み込みし、編集結果を確認できるようにします。"
+
+#: ../../user-manual/administer/static-pages.rst:256
+msgid "Edit other existing static pages"
+msgstr "他の既存の静的ページを編集する"
+
+#: ../../user-manual/administer/static-pages.rst:258
+msgid "To edit an existing static page in AtoM:"
+msgstr "AtoMで既存の静的ページを編集するには："
+
+#: ../../user-manual/administer/static-pages.rst:260
+msgid ""
+"Navigate to the static page you would like to edit. You can do this by:"
+msgstr "編集したい静的ページに移動します。これは以下の通り実施できます："
+
+#: ../../user-manual/administer/static-pages.rst:262
+msgid ""
+"Clicking the |gears| :ref:`Admin <main-menu-admin>` menu in the "
+":term:`header bar` and selecting \"Static pages\" from the :term:`drop-down "
+"menu`. Once you are directed to the \"List page\" for :term:`static pages "
+"<static page>`, click on the name of the static page you would like to edit."
+msgstr ""
+"|gears| :ref:`管理 <main-menu-admin>` メニューを :term:`ヘッダーバー` でクリックし、 "
+":term:`ドロップダウンメニュー` から「Static "
+"pages」（静的ページ）を選択してください。そうすると「静的ページのリストページ」に移動しますので、編集したい静的ページの名前をクリックしてください。"
+
+#: ../../user-manual/administer/static-pages.rst:273
+msgid ""
+"Alternatively, if a link to the static page has been added to the |info| "
+":ref:`Quick links menu <quick-links-menu>` found in the :term:`main menu` of"
+" the :term:`header bar`, you can open this menu and select the static page "
+"you woul like to edit from the :term:`drop-down menu`."
+msgstr ""
+"もしくは、静的ページへのリンクが、ヘッダーバーのメインメニューにある「クイックリンクメニュー<quick-links-"
+"menu>」に追加されている場合、このメニューを開いて、編集したい静的ページをドロップダウンメニューから選択できます。"
+
+#: ../../user-manual/administer/static-pages.rst:280
+msgid ""
+"New static pages are **not** automatically added to the |info| :ref:`Quick "
+"links menu <quick-links-menu>`. This must be done manually by an "
+":term:`administrator` via |gears| **Admin > Menus**. For more information, "
+"see:"
+msgstr ""
+"新しい静的ページは、|info| :ref:`クイックリンクメニュー <quick-links-"
+"menu>`に**自動的には**追加されません。これは、|gears| **管理 > "
+"メニュー**から管理者によって手動で行わなければなりません。詳しくは以下を参照してください:"
+
+#: ../../user-manual/administer/static-pages.rst:285
+msgid ":ref:`add-links-static`"
+msgstr ""
+"このテキストは、Archivematicaのドキュメントの中の特定のセクションを参照するreStructuredText形式のマークアップであるため、直訳は不適切です。ドキュメント内の特定のセクションタイトル \"add-links-static\" の日本語訳を提供する必要がありますが、セクションの内容が不明なため、正確な翻訳は提供できません。\n"
+"\n"
+"一般的に、“add-links-static”は命令形のフレーズであり、もしセクションのタイトルを直訳すると「静的リンクを追加」という意味になります。しかしながら、ドキュメントの文脈によって正確なタイトルが変わる可能性があるため、ドキュメント全体を見ないと確かな翻訳はできません。もしこのセクションが、静的なリンクをArchivematicaシステムに追加する方法について指導するものであれば、「静的リンクの追加」や「静的なリンクを追加する方法」といったタイトルがふさわしいでしょう。"
+
+#: ../../user-manual/administer/static-pages.rst:286
+#: ../../user-manual/administer/static-pages.rst:518
+msgid ":ref:`manage-menus`"
+msgstr ":ref:`管理メニュー`"
+
+#: ../../user-manual/administer/static-pages.rst:288
+msgid ""
+"The three default static pages included in AtoM at installation (Home, "
+"About, and Privacy Policy) all have links provided by default in the Quick "
+"links menu."
+msgstr ""
+"インストール時にAtoMにデフォルトで含まれている3つのデフォルト静的ページ（ホーム、アバウト、プライバシーポリシー）は、デフォルトで「クイックリンク」メニューにリンクが提供されています。"
+
+#: ../../user-manual/administer/static-pages.rst:292
+msgid ""
+"AtoM will redirect you to the static page. To switch from the main "
+":term:`view page` to :term:`edit mode`, click on the :term:`edit button` in "
+"the :term:`button block` at the bottom of the static page."
+msgstr ""
+"AtoMはあなたを静的ページにリダイレクトします。メインの「ビューページ」から「編集モード」に切り替えるには、静的ページの下部にある「ボタンブロック」の「編集ボタン」をクリックしてください。"
+
+#: ../../user-manual/administer/static-pages.rst:295
+msgid ""
+"On loading, the :term:`edit page` will display a \"Title\" :term:`field`, a "
+":term:`Slug` :term:`field` and a \"Content\" :term:`field`."
+msgstr ""
+"読み込み時に、`:term:`編集ページ`は「タイトル」:term:`フィールド`、:term:`スラッグ` "
+":term:`フィールド`、そして「コンテンツ」:term:`フィールド`が表示されます。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of the Privacy policy static page in edit mode"
+msgstr "編集モードにあるプライバシーポリシーの静的ページの画像"
+
+#: ../../user-manual/administer/static-pages.rst:305
+msgid ""
+"The \"Slug\" :term:`field` is a page title referenced by AtoM code to manage"
+" URLs; it **cannot be changed** for the :term:`Home page` or the "
+":term:`About page`. However, it can be edited in any static pages that you "
+":ref:`add yourself <add-static-page>`."
+msgstr ""
+"「スラッグ」という:term:`フィールド`は、AtoMコードによってURLを管理するために参照されるページタイトルであり、:term:`ホームページ`や:term:`アバウトページ`では**変更できません**。しかし、:ref:`自分で追加する<add-"
+"static-page>`すべての静的ページでも編集できます。"
+
+#: ../../user-manual/administer/static-pages.rst:310
+msgid ""
+"The \"Privacy Policy\" static page is also linked in the default "
+":ref:`privacy-notification` banner text. If you intend to use the Privacy "
+"notification and you make edits to the \"Privacy Policy\" static page slug, "
+"you will also need to update the default text included in the notification "
+"banner message. See: :ref:`privacy-notification`."
+msgstr ""
+"「プライバシーポリシー」スタティックページは、標準の :ref:`privacy-notification` "
+"バナーテキストにもリンクされています。プライバシー通知を使用するつもりで、「プライバシーポリシー」スタティックページのスラッグを編集する場合は、通知バナーメッセージに含まれる標準テキストも更新する必要があります。参照："
+" :ref:`privacy-notification`。"
+
+#: ../../user-manual/administer/static-pages.rst:316
+msgid ""
+"Add and/or revise data as required. Editing the \"Title\" :term:`field` of "
+"the :term:`static page` will edit the static page's title, and will also "
+"affect the blue menu links shown in |gears| **Manage > Static pages**. For "
+"example, if you change \"About\" to say \"Hello!\", the page title in Manage"
+" static pages will also change to \"Hello!\", as will the heading on the "
+"page."
+msgstr ""
+"必要に応じてデータを追加・修正してください。:term:`static page`の\"タイトル\" "
+":term:`field`を編集すると、静的ページのタイトルが変更され、|gears| **管理 > 静的ページ** "
+"に表示される青いメニューリンクも影響を受けます。たとえば、\"About\"を\"Hello!\"に変更すると、管理静的ページでのページタイトルも\"Hello!\"に変わり、ページ上の見出しも同様に変わります。"
+
+#: ../../user-manual/administer/static-pages.rst:322
+msgid ""
+"The main body content of the static page can be edited by changing the data "
+"in the \"Content\" section of the :term:`edit page`."
+msgstr ""
+"静的ページの主要な本文コンテンツは、`:term:`edit page`の「コンテンツ」セクションのデータを変更することによって編集できます。"
+
+#: ../../user-manual/administer/static-pages.rst:336
+msgid ""
+"To save the changes made to the :term:`static page`, click the Save button "
+"located in the :term:`button block` at the bottom of the page. AtoM will "
+"reload the static page in :term:`view mode` so you can review the results of"
+" your edits. Repeat steps 3-6 as needed."
+msgstr ""
+"変更を保存するには、ページの下部に位置する「ボタンブロック」内の「保存」ボタンをクリックしてください。AtoMは「ビューモード」で静的ページをリロードし、編集の結果を確認できます。必要に応じて、ステップ3から6を繰り返してください。"
+
+#: ../../user-manual/administer/static-pages.rst:346
+msgid "Add a new static page"
+msgstr "新しい静的ページを追加"
+
+#: ../../user-manual/administer/static-pages.rst:348
+msgid ""
+"In AtoM, new :term:`static pages <static page>` can be added at any time by "
+"any authenticated (i.e. logged-in) :term:`administrator`. Similar to both "
+"the :term:`Home page` and the :term:`About page`, you may wish to add a new "
+"static page in order to include permanent, or \"timeless\" content to your "
+"webpage. :term:`Static pages <static page>` may be customized to offers "
+"users instructions or help in navigating the site (i.e. a \"Help\" page), "
+"provide contact information (i.e. a \"Contact Us\" page), or feature website"
+" content, categories, and/or contributors."
+msgstr ""
+"AtoMでは、認証された（つまりログインした）:term:`管理者`によって、新しい:term:`静的ページ <static "
+"page>`をいつでも追加することができます。:term:`ホームページ`や:term:`アバウトページ`と同様に、ウェブページに恒久的、または「時代に左右されない」コンテンツを含めたい場合に新しい静的ページを追加することが望まれるかもしれません。:term:`静的ページ"
+" <static "
+"page>`はカスタマイズが可能で、サイトのナビゲーションに関する指示やヘルプ（例：「ヘルプ」ページ）、連絡先情報（例：「お問い合わせ」ページ）、またはウェブサイトのコンテンツ、カテゴリー、または貢献者の特集など、ユーザーに提供することができます。"
+
+#: ../../user-manual/administer/static-pages.rst:357
+msgid "To add a new static page in AtoM:"
+msgstr "AtoMで新しい静的ページを追加するには："
+
+#: ../../user-manual/administer/static-pages.rst:359
+msgid ""
+"Click the |gears| :ref:`Admin <main-menu-admin>` menu in the :term:`header "
+"bar` and select \"Static pages\" from the :term:`drop-down menu`."
+msgstr ""
+"|gears| の :ref:`管理者 <main-menu-admin>` メニューをクリックし、:term:`ヘッダーバー`で「静的ページ」を "
+":term:`ドロップダウンメニュー` から選択します。"
+
+#: ../../user-manual/administer/static-pages.rst:361
+msgid ""
+"You will be directed to a \"List pages\" page, where all existing "
+":term:`static pages <static page>` will be listed."
+msgstr ""
+"「リストページ」というページに移動します。ここには、すべての既存の:term:`静的ページ <static page>`が一覧表示されます。"
+
+#: ../../user-manual/administer/static-pages.rst:369
+msgid ""
+"Click on the :term:`Add new button` in the :term:`button block` to be "
+"directed to the :term:`edit page` for your new static page."
+msgstr "ボタンブロック内の「新規追加ボタン」をクリックすると、新しい静的ページの編集ページに移動します。"
+
+#: ../../user-manual/administer/static-pages.rst:371
+msgid ""
+"On loading, the `edit page` will display blank \"Title\", :term:`Slug` and "
+"\"Content\" :term:`fields <field>`. Add data as required."
+msgstr ""
+"読み込み時に、「edit page」には空の「Title」、「:term:`Slug`」、および「Content」:term:`fields "
+"<field>`が表示されます。必要に応じてデータを追加してください。"
+
+#: ../../user-manual/administer/static-pages.rst:374
+msgid "An image of a blank edit form for creating a new static page"
+msgstr "新しい静的ページを作成するための空の編集フォームの画像"
+
+#: ../../user-manual/administer/static-pages.rst:381
+msgid ""
+"The :term:`slug` indicates the word, or sequence of words that will be "
+"visible to users in the URL link when they are navigating on a specific "
+":term:`static page` (e.g.: the slug in the URL *www.artefactual.com/help* is"
+" *help*). The slug should be indicative of the content of that specific "
+"static page."
+msgstr ""
+"用語「スラッグ」は、ユーザーが特定の「スタティックページ」をナビゲートしているときにURLリンクに表示される単語または単語の並びを示します（例：URL "
+"*www.artefactual.com/help* におけるスラッグは "
+"*help*です）。スラッグは、その特定のスタティックページの内容を示すものであるべきです。"
+
+#: ../../user-manual/administer/static-pages.rst:387
+msgid ""
+"When creating a new :term:`static page`, the :term:`slug` :term:`field` can "
+"either be customized or left blank. If you choose to customize the "
+":term:`slug`, make the slug all lowercase, keep it short, and avoid accented"
+" characters (e.g.: ``é``, ``ñ``, ``û``) and punctuation (e.g.: ``!``,``;``, "
+"``...``)."
+msgstr ""
+"新しい:term:`static "
+"page`を作成する際、:term:`slug`:term:`field`はカスタマイズすることもできますし、空白のままにすることもできます。:term:`slug`をカスタマイズする場合、すべて小文字にし、短くし、アクセント文字（例:"
+" ``é``、``ñ``、``û``）や句読点（例: ``!``, ``;``, ``...``）は避けてください。"
+
+#: ../../user-manual/administer/static-pages.rst:393
+msgid ""
+"If you leave the :term:`field` blank, AtoM will automatically generate a "
+"slug based on the \"Title\" you have indicated for your page (e.g.: If your "
+"\"Title\" is *About Us*, the slug for that static page will automatically be"
+" generated as ``about-us``). Note that AtoM will automatically replace all "
+"accented characters with letters from the English alphabet and punctuation "
+"will either be removed or replaced by a dash \"-\" or percent-encoding "
+"(e.g.: If your \"Title\" is *Instructions & More*, the slug for that static "
+"page will automatically be generated as ``instructions%26more`` or "
+"``instructions-more``, unless otherwise indicated). The :term:`slug` will "
+"also appear in the once-blank \"Slug\" :term:`field` and can be viewed when "
+"switching from the :term:`view page` to the :term:`edit page` of that "
+":term:`static page`."
+msgstr ""
+"該当する`:term:`フィールド`を空白のままにしておくと、AtoMはあなたが指定したページの\"タイトル\"に基づいて、スラグを自動的に生成します（例:"
+" \"タイトル\"が*About Us*であれば、そのスタティックページのスラグは自動的に``about-"
+"us``として生成されます）。AtoMはアクセント付き文字を全て英語アルファベットの文字に置き換え、句読点は削除されるかダッシュ\"-\"またはパーセントエンコーディングに置き換えられることに注意してください（例:"
+" \"タイトル\"が*Instructions & "
+"More*であれば、そのスタティックページのスラグは``instructions%26more``または``instructions-"
+"more``として自動的に生成されますが、別途指示がない限り）。`:term:`スラグ`は、かつて空白だった\"スラグ\"の`:term:`フィールド`にも表示され、その`:term:`スタティックページ`の`:term:`閲覧ページ`から`:term:`編集ページ`に切り替えた時に確認することができます。"
+
+#: ../../user-manual/administer/static-pages.rst:408
+msgid ""
+"A :term:`slug` cannot be duplicated once it has been generated in AtoM. If "
+"you duplicate a slug, AtoM will automatically generate a \"-2 (or the next "
+"subsequent number) at the end of the slug to distinguish it from the other "
+"one in the same name (e.g.: Two slugs titled *information* will result in "
+"the second of the two becoming *information-2*). If you remove an AtoM "
+"automatically generated :term:`slug` from the slug :term:`field` of a "
+":term:`static page` you've created, AtoM will not re-generate the original "
+"slug, regardless of whether or not the \"Title\" of your page has changed; "
+"rather, it will generate a new slug in the form of a series of letters and "
+"numbers. **This should be avoided**, as it creates confusion because it does"
+" not accurately indicate the content of that :term:`static page`. To avoid "
+"this, simply enter a custom :term:`slug`."
+msgstr ""
+"Archivematicaで生成された一度生成された`:term:`スラッグ``は、AtoM内で複製することはできません。スラッグを複製しようとすると、AtoMは自動的に\"-2\"（またはその次の連番）をスラッグの末尾に追加して、同じ名前を持つ他のスラッグと区別します（例：*information*"
+" というタイトルのスラッグが2つある場合、2つ目のスラッグは *information-2* "
+"になります）。作成した`:term:`スタティックページ``のスラッグ`:term:`フィールド``からAtoMによって自動生成された`:term:`スラッグ``を削除した場合、ページの\"タイトル\"が変更されたかどうかにかかわらず、AtoMは元のスラッグを再生成することはありません。代わりに、一連の文字と数字からなる新しいスラッグを生成します。"
+" "
+"**これは避けるべきです**、なぜなら、それはその`:term:`スタティックページ``の内容を正確に示していないため混乱を招くからです。これを避けるためには、単純にカスタムの`:term:`スラッグ``を入力してください。"
+
+#: ../../user-manual/administer/static-pages.rst:421
+msgid ""
+"The \"Content\" section is where the main page content of your new static "
+"page should be added. You can add Markdown_, and/or HTML_ and inline CSS_ "
+"code to the \"Content\" :term:`field` to format content, add hyperlinks, or "
+"further style the page contents. See :ref:`below <styling-static-page>` for "
+"information on how to style :term:`static pages <static page>`. See also: "
+":ref:`formatting`."
+msgstr ""
+"「コンテンツ」セクションは、新しい静的ページのメインページの内容を追加する場所です。マークダウン、および/またはHTMLやインラインCSSのコードを「コンテンツ」:term:`フィールド`に追加して、コンテンツのフォーマット、ハイパーリンクの追加、またはページ内容のさらなるスタイリングを行うことができます。:term:`静的ページ"
+" <static page>`のスタイリング方法については、下記の:ref:`スタイリング静的ページ <styling-static-"
+"page>`をご覧ください。また、:ref:`フォーマット`に関しても参照してください。"
+
+#: ../../user-manual/administer/static-pages.rst:427
+msgid ""
+"You can quit the creation process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved. Note"
+" that simply navigating away from the page by any other means, **without "
+"first clicking \"Save\"** will also result in no new :term:`static page` "
+"being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを中止できます。これは :term:`button block` "
+"に位置しています。行った変更は保存されません。また、まず「保存」をクリックせずに、他の方法でページからナビゲートした場合も、新しい "
+":term:`static page` は作成されないことに注意してください。"
+
+#: ../../user-manual/administer/static-pages.rst:432
+msgid ""
+"When you are finished creating your new :term:`static page`, click the "
+"\"Save\" button in the :term:`button block`."
+msgstr "新しい「スタティックページ」の作成が完了したら、「ボタンブロック」内の「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/administer/static-pages.rst:435
+msgid ""
+"You will be directed to the :term:`view page` of the new :term:`static page`"
+" where you can view your changes. The page can be :ref:`edited <edit-static-"
+"page>` again at any time."
+msgstr ""
+"新しい :term:`静的ページ` の :term:`ビューページ` に移動されます。そこで変更内容を確認できます。このページは、いつでも "
+":ref:`編集 <edit-static-page>` することが可能です。"
+
+#: ../../user-manual/administer/static-pages.rst:444
+msgid "Add menu links to a new static page"
+msgstr "新しい静的ページへのメニューリンクを追加する"
+
+#: ../../user-manual/administer/static-pages.rst:446
+msgid ""
+"Once a new :term:`static page` has been created, a new menu link must also "
+"be created in order to allow users to navigate to the new static page. You "
+"can do this by either creating a link within one of the default "
+":term:`static pages <static page>` or by clicking Admin > Menus and clicking"
+" the :term:`Add new button` in the :term:`button block` or by linking the "
+"new :term:`static page` to an existing menu."
+msgstr ""
+"新しい:term:`スタティックページ`が作成されたら、ユーザーが新しいスタティックページへと移動できるように、新しいメニューリンクも作成する必要があります。これは、既定の:term:`スタティックページ"
+" <static page>`のいずれかにリンクを作成するか、またはAdmin > "
+"Menusをクリックして、:term:`ボタンブロック`内の:term:`新規ボタン`をクリックすること、または新しい:term:`スタティックページ`を既存のメニューにリンクさせることで行うことができます。"
+
+#: ../../user-manual/administer/static-pages.rst:453
+msgid ""
+"This example shows a newly created \"Contact Us\" :term:`static page` that "
+"has been added as a menu under the |info| :ref:`Quick links <quick-links-"
+"menu>` parent menu:"
+msgstr ""
+"この例では、新しく作成された「お問い合わせ」:term:`static page`が、|info| :ref:`クイックリンク <quick-"
+"links-menu>` 親メニューの下に追加されたメニューとして示されています:"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of Contact Us menu linked under Quick Links menu"
+msgstr "「クイックリンク」メニューの下にリンクされている「お問い合わせ」メニューの画像"
+
+#: ../../user-manual/administer/static-pages.rst:462
+msgid "Here is the result of the above:"
+msgstr "こちらが上記の結果です。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of new Contact Us menu"
+msgstr "新しい「お問い合わせ」メニューの画像"
+
+#: ../../user-manual/administer/static-pages.rst:469
+msgid "The information which will be needed when linking a new static page:"
+msgstr "新しい静的ページをリンクする際に必要となる情報は以下の通りです："
+
+#: ../../user-manual/administer/static-pages.rst:471
+msgid "Name: an internal name which is not visible to users."
+msgstr "名称：ユーザーには表示されない内部名です。"
+
+#: ../../user-manual/administer/static-pages.rst:473
+msgid "Label: how you wish the name of the page to appear in the menu."
+msgstr "ラベル：メニューに表示されるページの名前としてどのように表示させたいか。"
+
+#: ../../user-manual/administer/static-pages.rst:475
+msgid "Parent: which menu you wish the page to be linked from."
+msgstr "親：そのページをリンクさせたいメニューを選択してください。"
+
+#: ../../user-manual/administer/static-pages.rst:477
+msgid ""
+"Path: in the format ``staticpage/index?slug=yourSlug``. yourSlug is the slug"
+" you either created or had AtoM generate automatically for you when the page"
+" was created."
+msgstr ""
+"パス：形式は "
+"``staticpage/index?slug=yourSlug``です。yourSlugは、ページの作成時に自分で作成したか、またはAtoMが自動的に生成したスラッグです。"
+
+#: ../../user-manual/administer/static-pages.rst:481
+msgid "Description: an optional area to describe the purpose of the page."
+msgstr "説明：ページの目的を記述するための任意のエリアです。"
+
+#: ../../user-manual/administer/static-pages.rst:483
+#: ../../user-manual/administer/static-pages.rst:626
+msgid ""
+"For more information on managing menus in AtoM, see: :ref:`manage-menus`."
+msgstr "AtoMでメニューを管理する詳しい情報については、以下を参照してください： :ref:`manage-menus`。"
+
+#: ../../user-manual/administer/static-pages.rst:490
+msgid "Add a custom sidebar menu with links to your static pages"
+msgstr "独自のサイドバー メニューを追加し、静的ページへのリンクを配置します"
+
+#: ../../user-manual/administer/static-pages.rst:492
+msgid ""
+"If you have certain static pages that you would like to be prominent and "
+"readily available to users throughout the application, you can also create a"
+" custom Static pages menu. This involves working with both static pages, and"
+" the :ref:`manage-menus` module."
+msgstr ""
+"アプリケーション全体で目立たせ、ユーザーが簡単にアクセスできるようにしたい静的ページがある場合、カスタムの静的ページメニューを作成することもできます。これには、静的ページと"
+" :ref:`manage-menus` モジュールの両方を扱う作業が関わってきます。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An example of the Static pages menu, shown on a static page"
+msgstr "静的ページに表示される「静的ページメニュー」の例"
+
+#: ../../user-manual/administer/static-pages.rst:502
+msgid ""
+"When nodes are added as children to the ``staticPagesMenu`` in |gears| "
+"**Admin > Manage menus**, They become visible in the following places:"
+msgstr ""
+"|gears| **管理者 > メニューの管理** で `staticPagesMenu` "
+"に子ノードとして追加されると、それらは以下の場所で表示されるようになります："
+
+#: ../../user-manual/administer/static-pages.rst:505
+msgid ""
+"On the homepage's left-hand side, above the Browse and Popular this week "
+"links"
+msgstr "ホームページの左側で、「ブラウズ」と「今週の人気」リンクの上"
+
+#: ../../user-manual/administer/static-pages.rst:507
+msgid ""
+"On all :term:`archival description` pages, below the treeview (or below the "
+"Quick search menu, when the full-width treeview is in use - see: "
+":ref:`treeview-type` for more information)"
+msgstr ""
+"すべての「アーカイブ記述」ページにおいて、ツリービューの下方（もしくは全幅ツリービューを使用している場合は、クイックサーチメニューの下方 - "
+"詳細は：`ツリービュータイプ`を参照）で"
+
+#: ../../user-manual/administer/static-pages.rst:510
+msgid "As a sidebar menu on the left side of all static pages."
+msgstr "すべての静的ページの左側にあるサイドバーメニュー。"
+
+#: ../../user-manual/administer/static-pages.rst:512
+msgid ""
+"You can also give the new sidebar menu a custom heading. The following "
+"instructions will use the example of adding links to help pages, created "
+"using the static pages module."
+msgstr ""
+"新しいサイドバーメニューにカスタムの見出しを設定することも可能です。以下の説明では、スタティックページモジュールを使用して作成されたヘルプページへのリンクを追加する例を使用します。"
+
+#: ../../user-manual/administer/static-pages.rst:520
+msgid "**To add a custom sidebar menu wtih links to your static pages:**"
+msgstr "**静的ページへのリンクを含むカスタムサイドバーメニューを追加するには：**"
+
+#: ../../user-manual/administer/static-pages.rst:522
+msgid ""
+"Prepare the static pages you would like to use in the menu items. If you "
+"haven't created them yet, see above, :ref:`add-static-page` for guidance on "
+"creating new static pages, and below, :ref:`styling-static-page` for hints "
+"on how to use HTML and simple inline-CSS to style them."
+msgstr ""
+"メニューアイテムで使用する静的ページを準備してください。もしまだ作成していない場合は、上記の :ref:`add-static-page` "
+"を参照して、新しい静的ページの作成方法についてのガイドをご覧ください。また、下記の :ref:`styling-static-page` "
+"では、HTMLとシンプルなインラインCSSを使用してそれらをスタイルするためのヒントが記載されています。"
+
+#: ../../user-manual/administer/static-pages.rst:527
+msgid ""
+"You will need to know the :term:`slug` you have assigned to each static page"
+" you want to add to the new menu - you can either return to the :term:`edit "
+"page` of your static page, or navigate to the :term:`view page`, and look at"
+" the URL to identify the permalink (the unique part of the URL - for "
+"example, on the webpage http://www.example.com/about-us, ``about-us`` would "
+"be the slug. For further information, see :ref:`slugs-in-atom`)."
+msgstr ""
+"新しいメニューに追加したい各静的ページに割り当てた:term:`スラッグ`を把握しておく必要があります。これを把握するには、静的ページの:term:`編集ページ`に戻るか、:term:`表示ページ`へ遷移してURLを見ることで、パーマリンク（URLのユニークな部分"
+" - 例えば、ウェブページ http://www.example.com/about-us の場合、``about-us`` "
+"がスラッグになります）を確認してください。さらなる情報については、:ref:`slugs-in-atom`を参照してください。"
+
+#: ../../user-manual/administer/static-pages.rst:533
+msgid ""
+"Navigate to |gears| **Admin > Menus** and scroll down until you see the "
+"``staticPagesMenu`` node near the bottom. Click on it to enter :term:`edit "
+"mode`."
+msgstr ""
+"|gears| **管理 > "
+"メニュー**に移動し、ページを下にスクロールして、下の方にある``staticPagesMenu``ノードを探します。それをクリックして:term:`編集モード`に入ります。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of the staticPagesMenu node in Manage Menus"
+msgstr "管理メニュー内のstaticPagesMenuノードの画像"
+
+#: ../../user-manual/administer/static-pages.rst:542
+msgid ""
+"You can now edit the \"Label\" :term:`field` value, to give your new menu a "
+"custom header. In this example, we'll call our new menu \"Help pages.\""
+msgstr ""
+"これで、新しいメニューにカスタムヘッダーを設定するため「ラベル」:term:`フィールド`の値を編集できるようになりました。この例では、新しいメニューを「ヘルプページ」と呼ぶことにします。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of editing the staticPagesMenu Label value"
+msgstr "「staticPagesMenuラベルの値を編集する画像」"
+
+#: ../../user-manual/administer/static-pages.rst:550
+msgid ""
+"Save the page by clicking the \"Save\" button in the :term:`button block` at"
+" the bottom of the page. **Note:** you may be prevented from saving the "
+"first time - AtoM will prompt you for a Path value, even though none was "
+"there before. You can simply enter a ``/`` slash character in the field, and"
+" then click \"Save.\""
+msgstr ""
+"ページの下部にある「ボタンブロック」:term:`button block`の「保存」ボタンをクリックしてページを保存します。**注意:** "
+"最初の保存時に保存できないことがあります - "
+"AtoMがパスの値を求めてくる場合がありますが、以前は何も入力されていない場合でもこれが発生します。フィールドに単純に「/」スラッシュ文字を入力してから「保存」をクリックしてください。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid ""
+"An example of a save warning, and adding a slash to the Path field to\n"
+"resolve it."
+msgstr "保存警告の一例と、それを解決するためにパスフィールドにスラッシュを追加する方法です。"
+
+#: ../../user-manual/administer/static-pages.rst:562
+msgid ""
+"AtoM will return you to the Manage menus page. Now we'll add our static "
+"page(s) to this menu. Click the \"Add new\" button in the :term:`button "
+"block` located at the bottom of the Manage menus page."
+msgstr ""
+"AtoMはあなたを「メニュー管理」ページに戻します。それでは、私たちの静的ページをこのメニューに追加していきましょう。メニュー管理ページの下部にある「ボタンブロック」内の「新規追加」ボタンをクリックします。"
+
+#: ../../user-manual/administer/static-pages.rst:565
+msgid ""
+"AtoM will open a new :term:`edit page` for a menu item. For further "
+"information on working with menus, see: :ref:`manage-menus`."
+msgstr ""
+"AtoMはメニューアイテム用の新しい:term:`編集ページ`を開きます。メニューの操作に関する更なる情報は、次を参照してください: "
+":ref:`manage-menus`。"
+
+#: ../../user-manual/administer/static-pages.rst:567
+msgid ""
+"Fill out the menu edit page with the information about your static page:"
+msgstr "メニュー編集ページに、静的ページについての情報を記入してください："
+
+#: ../../user-manual/administer/static-pages.rst:569
+msgid ""
+"**Name:** This is an internal name used by AtoM, that will not be seen by "
+"AtoM users.  We suggest using `camelCase "
+"<https://en.wikipedia.org/wiki/CamelCase>`__ as part of a naming convention."
+" In this example, we've called our menu node ``searchHelp``."
+msgstr ""
+"**名前：** これはAtoMによって内部的に使用される名前であり、AtoMユーザーには表示されません。命名規則の一部として `キャメルケース "
+"<https://ja.wikipedia.org/wiki/キャメルケース>`__ の使用を推奨します。この例では、メニューノードを "
+"``searchHelp`` と呼んでいます。"
+
+#: ../../user-manual/administer/static-pages.rst:573
+msgid ""
+"**Label**: This is what public users will see in your sidebar menu. Note "
+"that the name does not need to be the same one you've given your static page"
+" - in our example, we've named our static page \"Searching in AtoM,\" but "
+"we've decided to call the menu link \"Search Help.\""
+msgstr ""
+"**ラベル**: これは公開ユーザーがサイドバーのメニューで見ることになる名称です。この名前はあなたが静的ページに付けた名前と同じである必要はありません"
+" - 私達の例では、静的ページの名前を「AtoMでの検索」としていますが、メニューリンクの名前は「検索ヘルプ」としています。"
+
+#: ../../user-manual/administer/static-pages.rst:577
+msgid ""
+"**Parent**: For your new menu node to show up in the sidebar menu, you must "
+"choose ``-staticPagesMenu`` from the drop-down list"
+msgstr ""
+"**親項目**: "
+"新しいメニューノードがサイドバーメニューに表示されるようにするには、ドロップダウンリストから``-staticPagesMenu``を選択する必要があります。"
+
+#: ../../user-manual/administer/static-pages.rst:579
+msgid ""
+"**Path**: This is where we'll use the :term:`slug` from your static page. We"
+" could just add the slug directly, but to make the routing more reliable, "
+"add it as follows: ``staticpage/index?slug=your-slug-here``, where ``your-"
+"slug-here`` is the slug you gave your static page."
+msgstr ""
+"**パス**: "
+"ここでは、静的ページの:term:`スラッグ`を使用します。スラッグを直接追加することも可能ですが、ルーティングをより確実にするために以下のように追加します:"
+" ``staticpage/index?slug=your-slug-here``。ここでの ``your-slug-here`` "
+"は、あなたの静的ページに指定したスラッグです。"
+
+#: ../../user-manual/administer/static-pages.rst:583
+msgid ""
+"**Description** This is not visible to public users - you can add a "
+"description to remind yourself and other :term:`administrators "
+"<administrator>` how and why this node was added to the Menus page, if you "
+"like."
+msgstr ""
+"**説明** これは公開ユーザーには見えません - "
+"メニューページにこのノードが追加された理由と方法を思い出すために、あなた自身や他の:term:`管理者<administrator>`に通知するために説明を加えることができます。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An example of a new menu page"
+msgstr "新しいメニューページの一例"
+
+#: ../../user-manual/administer/static-pages.rst:593
+msgid ""
+"You can quit the create process at any time, by clicking the \"Cancel\" "
+"button in the :term:`button block` at the bottom of the page. Note that "
+"navigating away from the page without first clicking \"Save\" will also "
+"result in a loss of all your changes."
+msgstr ""
+"いつでも作成プロセスを中止することができます。そのためには、ページの下部にある`:term:`button "
+"block`にある「キャンセル」ボタンをクリックしてください。なお、「保存」を先にクリックせずにページから離れると、すべての変更が失われることに注意してください。"
+
+#: ../../user-manual/administer/static-pages.rst:597
+msgid ""
+"When you are satisfied with the information entered, click the \"Save\" "
+"button located in the :term:`button block` at the bottom of the page. AtoM "
+"will redirect you to the Manage menus page."
+msgstr ""
+"情報の入力に満足したら、ページの下部にある `button block` "
+"に位置する「保存」ボタンをクリックしてください。AtoMはあなたを「メニュー管理」ページにリダイレクトします。"
+
+#: ../../user-manual/administer/static-pages.rst:600
+msgid ""
+"You can repeat steps 6-10 as needed, to add other static pages to your new "
+"menu."
+msgstr "必要に応じて、新しいメニューに他の静的ページを追加するために、ステップ6から10を繰り返すことができます。"
+
+#: ../../user-manual/administer/static-pages.rst:602
+msgid ""
+"You should now see your new sidebar menu on the home page, :term:`archival "
+"description` view pages, and when viewing any other :term:`static page`. "
+"Some examples images are included below."
+msgstr ""
+"ホームページに加えて、`:term:`アーカイブ記述`ビューページやその他の`:term:`静的ページ`を閲覧する際にも、新しいサイドバーメニューが表示されるはずです。以下に、いくつかの例示画像を含めています。"
+
+#: ../../user-manual/administer/static-pages.rst:608
+msgid ""
+"Some things to remember when working with static pages and new new Static "
+"pages sidebar menu:"
+msgstr "静的ページと新しい静的ページのサイドバーメニューを扱う際に覚えておくべきことがあります。"
+
+#: ../../user-manual/administer/static-pages.rst:611
+msgid ""
+"Because the presence of the menu affects the normal width of the static "
+"pages, you might want to review how your static pages look if you have added"
+" a lot of custom styling to them."
+msgstr ""
+"メニューの存在が静的ページの通常の幅に影響を与えるため、カスタムスタイリングを多く加えている場合は、その静的ページの見た目を確認することをお勧めします。"
+
+#: ../../user-manual/administer/static-pages.rst:614
+msgid ""
+"If you create a new static page, it is **not** automatically added to either"
+" the Quick links menu, OR the new Static pages Menu described above - you "
+"must add links yourself."
+msgstr ""
+"新しい静的ページを作成した場合、それは自動的に「クイックリンク」メニュー、**または** "
+"上記で説明した新しい「静的ページ」メニューに追加されるわけでは**ありません** – リンクは自分で追加する必要があります。"
+
+#: ../../user-manual/administer/static-pages.rst:617
+msgid ""
+"If you delete a static page that has been added to either of the above "
+"menus, the menu links will **not** automatically disappear - you must also "
+"manually delete the links from the ``staticPagesMenu`` in the Manage menus "
+"page. Otherwise, they will still be visible throughout the application - but"
+" they will lead to a broken page!"
+msgstr ""
+"もし上記のメニューのいずれかに追加された静的ページを削除した場合、メニューリンクは自動的には消えません。リンクも「staticPagesMenu」から「メニューの管理」ページで手動で削除する必要があります。さもないと、アプリケーション全体でリンクは依然として表示されますが、不正なページに繋がってしまいます！"
+
+#: ../../user-manual/administer/static-pages.rst:622
+msgid ""
+"If you decide you no longer want the Static pages menu to be visible, simply"
+" delete the child page nodes you have added - if the ``staticPagesMenu`` "
+"node in **Admin > Manage menus** has no children, the sidebar will no longer"
+" display in the user interface."
+msgstr ""
+"もし「Static pages」メニューを表示したくなくなったら、追加した子ページノードを削除するだけで大丈夫です。**管理 > メニュー管理** 内の"
+" ``staticPagesMenu`` ノードに子がいなければ、ユーザーインターフェースにサイドバーは表示されなくなります。"
+
+#: ../../user-manual/administer/static-pages.rst:631
+msgid "Examples of the Static pages menu in use"
+msgstr "使用例：スタティックページメニュー"
+
+#: ../../user-manual/administer/static-pages.rst:633
+msgid "**On the homepage**:"
+msgstr "**ホームページにて**:"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An example of the sidebar menu on the home page"
+msgstr "ホームページにおけるサイドバー・メニューの一例"
+
+#: ../../user-manual/administer/static-pages.rst:640
+msgid "**On an archival description (sidebar treeview)**:"
+msgstr "**アーカイブ記述（サイドバーやツリービュー）**："
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An example of the sidebar menu on an archival description"
+msgstr "アーカイブ記述におけるサイドバーメニューの例"
+
+#: ../../user-manual/administer/static-pages.rst:647
+msgid "**On an archival description (full-width treeview)**:"
+msgstr "**アーカイバル記述（全幅ツリービュー）上で**："
+
+#: ../../user-manual/administer/static-pages.rst:654
+msgid "**On annother static page**:"
+msgstr "**別のスタティックページにて**："
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An example of the sidebar menu on a static page"
+msgstr "静的ページ上のサイドバーメニューの例"
+
+#: ../../user-manual/administer/static-pages.rst:666
+msgid "Styling static pages"
+msgstr "静的ページのスタイリング"
+
+#: ../../user-manual/administer/static-pages.rst:668
+msgid ""
+"Basic styling of :term:`static pages <static page>` can be achieved in two "
+"ways."
+msgstr ":term:`静的ページ <static page>` の基本的なスタイリングは、2つの方法で実現できます。"
+
+#: ../../user-manual/administer/static-pages.rst:670
+msgid ""
+"The first method is to use AtoM's Markdown_ formatting to style content. For"
+" more information on formatting content using Markdown, see:"
+msgstr ""
+"最初の方法は、AtoMのMarkdown_フォーマットを使用してコンテンツのスタイル設定を行うことです。Markdownを使用してコンテンツをフォーマットする方法の詳細については、以下を参照してください："
+
+#: ../../user-manual/administer/static-pages.rst:673
+#: ../../user-manual/administer/static-pages.rst:696
+msgid ":ref:`formatting`"
+msgstr ":ref:`フォーマット`"
+
+#: ../../user-manual/administer/static-pages.rst:675
+msgid ""
+"The second method of styling AtoM static page content is by adding HTML_ and"
+" inline CSS_ code to the static page's editable area. There are plenty of "
+"online tutorials and resources out there for instruction on HTML and inline "
+"CSS use, but a few basic examples commonly employed by AtoM users have been "
+"included here as an example."
+msgstr ""
+"AtoM静的ページのコンテンツにスタイルを適用する二つ目の方法は、静的ページの編集可能エリアにHTML_およびインラインCSS_コードを追加することです。HTMLとインラインCSSの使用方法に関するオンラインチュートリアルやリソースはたくさんありますが、ここではAtoMユーザーによって一般的に使用されるいくつかの基本的な例を示しています。"
+
+#: ../../user-manual/administer/static-pages.rst:681
+msgid ""
+"You can use a mix of Markdown and HTML in static pages. Note that HTML "
+"content is **not** supported outside of static pages in AtoM."
+msgstr ""
+"静的ページ内では、MarkdownとHTMLを組み合わせて使用することができます。AtoM内の静的ページ以外ではHTMLコンテンツは**サポートされていない**ことに注意してください。"
+
+#: ../../user-manual/administer/static-pages.rst:684
+msgid "See below for instructions on how to use HTML to create and edit:"
+msgstr "以下に、HTMLを使用して作成および編集する方法についての説明を記します。"
+
+#: ../../user-manual/administer/static-pages.rst:686
+msgid ":ref:`Headers, subtitles, and emphasis <static-headers-subtitles>`"
+msgstr ":ref:`ヘッダー、サブタイトル、および強調 <static-headers-subtitles>`"
+
+#: ../../user-manual/administer/static-pages.rst:687
+msgid ":ref:`Hyperlinks <static-hyperlinks>`"
+msgstr ":ref:`ハイパーリンク <static-hyperlinks>`"
+
+#: ../../user-manual/administer/static-pages.rst:688
+msgid ":ref:`Images <static-image>`"
+msgstr ":ref:`画像 <static-image>`"
+
+#: ../../user-manual/administer/static-pages.rst:689
+msgid ":ref:`Boxes and dividers <static-boxes-dividers>`"
+msgstr ":ref:`ボックスと仕切り <static-boxes-dividers>`"
+
+#: ../../user-manual/administer/static-pages.rst:693
+msgid ""
+"Remember, if you enable Markdown formatting in AtoM, you don't need to write"
+" any HTML! For more information, see:"
+msgstr ""
+"もしAtoMでMarkdownのフォーマッティングを有効にする場合は、HTMLを書く必要はありません！詳細については、次を参照してください："
+
+#: ../../user-manual/administer/static-pages.rst:697
+msgid ":ref:`markdown-settings`"
+msgstr ""
+"`:ref:`markdown-"
+"settings`はマークダウン文法の参照リンクを表していて、そのまま日本語に翻訳することはできません。しかし、これを文脈に合わせて翻訳する場合、例えば「Markdownの設定に関する参照」という意味になります。ただし、これはドキュメント内でのリンクとして機能するため、実際の翻訳作業ではそのリンクが導く先の文書のタイトルや内容に応じた適切な日本語表現に置き換える必要があります。"
+
+#: ../../user-manual/administer/static-pages.rst:702
+msgid "Headers, subtitles, and emphasis"
+msgstr "ヘッダー、サブタイトル、および強調表示"
+
+#: ../../user-manual/administer/static-pages.rst:704
+msgid ""
+"To increase the size of a heading or subtitle, wrap the relevant text in "
+"``<h3> </h3>`` tags, like so:"
+msgstr ""
+"見出しやサブタイトルのサイズを大きくするには、対応するテキストを``<h3> </h3>``タグで囲んでください。例えば以下のようにします："
+
+#: ../../user-manual/administer/static-pages.rst:711
+msgid "This will produce the following results:"
+msgstr "これにより、以下の結果が得られます："
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of a larger heading"
+msgstr "「大きな見出しの画像」"
+
+#: ../../user-manual/administer/static-pages.rst:718
+msgid ""
+"For larger headings, use smaller numbers, such as ``<h2>`` or ``<h1>``. "
+"Similarly, for smaller headers, use ``<h4>`` or ``<h5>``."
+msgstr ""
+"大きな見出しには小さい数字を使って、例えば ``<h2>`` や ``<h1>`` を使用します。同様に、小さな見出しには ``<h4>`` や "
+"``<h5>`` を使用します。"
+
+#: ../../user-manual/administer/static-pages.rst:721
+msgid ""
+"To bold, italicize or underline headers and subtitles, simply wrap the "
+"relevant text in ``<strong></strong>`` for **bold**, ``<em> </em>`` for "
+"*italics*, or ``<u> </u>`` for underline. Typing ``<strong>Artefactual "
+"Systems Inc.</strong>`` will produce the following results:"
+msgstr ""
+"ヘッダーやサブタイトルを太字、イタリック体、または下線付きにするには、対応するテキストを ``<strong></strong>`` で囲むと "
+"**太字** に、``<em> </em>`` で *イタリック体* に、``<u> </u>`` "
+"で下線を引くことができます。``<strong>Artefactual Systems Inc.</strong>`` "
+"と入力すると、以下の結果が得られます："
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of a bolded subtitle"
+msgstr "太字のサブタイトルの画像"
+
+#: ../../user-manual/administer/static-pages.rst:733
+msgid ":ref:`Using markdown to add headings <formatting-headers>`"
+msgstr "`マークダウンを使用して見出しを追加する <formatting-headers>`"
+
+#: ../../user-manual/administer/static-pages.rst:734
+msgid ":ref:`Using markdown to add emphasis <formatting-emphasis>`"
+msgstr ":ref:`マークダウンを使用して強調を追加する <formatting-emphasis>`"
+
+#: ../../user-manual/administer/static-pages.rst:739
+msgid "Hyperlinks"
+msgstr "ハイパーリンク"
+
+#: ../../user-manual/administer/static-pages.rst:741
+msgid ""
+"To create external links on an AtoM static page, wrap the text you would "
+"like to act as a link in a hyperlink ``<a> </a>`` tag, and include the web "
+"address to which you would like the link to point, using the ``href=\" \"`` "
+"attribute - the http address would go in the quotations. Remember to close "
+"the element after the text you want to link."
+msgstr ""
+"AtoMの静的ページに外部リンクを作成するには、リンクとして機能させたいテキストをハイパーリンクの``<a> </a>``タグで囲み、``href=\""
+" "
+"\"``属性を使用してリンク先のウェブアドレスを含めます。httpアドレスは引用符の中に入れます。リンクにしたいテキストの後で要素を閉じることを忘れないでください。"
+
+#: ../../user-manual/administer/static-pages.rst:747
+msgid ""
+"For example, to include a link in the \"Contact Us\" page, the code would "
+"appear as such:"
+msgstr "例えば、「お問い合わせ」ページにリンクを含める場合、そのコードは以下のようになります："
+
+#: ../../user-manual/administer/static-pages.rst:755
+msgid "The above code would appear like this on the static page:"
+msgstr "上記のコードは、静的ページ上ではこのように表示されます："
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of a hyperlink"
+msgstr "ハイパーリンクのイメージ"
+
+#: ../../user-manual/administer/static-pages.rst:764
+msgid ":ref:`Using markdown to add hyperlinks <formatting-links>`"
+msgstr ":ref:`マークダウンを使用してハイパーリンクを追加する<formatting-links>`"
+
+#: ../../user-manual/administer/static-pages.rst:769
+msgid "Images"
+msgstr "画像"
+
+#: ../../user-manual/administer/static-pages.rst:771
+msgid ""
+"If you have access to the server on which your AtoM instance is located "
+"(i.e., if you are hosting it yourself, or can ask the hosting provider to "
+"include a file for you), you can place images in a directory on the host "
+"server, and use a local URL to point to them. Images can then be used via "
+"the HTML ``<img>`` image element, where the ``src=\" \"`` attribute points "
+"to the path of the image, similar to how the hyperlinks are used above. For "
+"example, if you wanted an image of email, named \"contact-image.jpg\" "
+"included on your static \"Contact Us\" page, the code might look like this:"
+msgstr ""
+"もしあなたがAtoMインスタンスが置かれているサーバーにアクセスできる場合（つまり、自分でホストしているか、またはホスティングプロバイダにファイルを追加してもらうことができる場合）、画像をホストサーバーのディレクトリに配置し、ローカルURLを使用して画像を指すことができます。HTMLの``<img>``画像要素を利用して、``src=\""
+" \"``属性が画像のパスを指すようにすると、上記ハイパーリンクの使用方法と似ています。例えば、\"お問い合わせ\"の静的ページ上に\"contact-"
+"image.jpg\"という名前のメールの画像を含めたい場合、コードはこのようになるかもしれません："
+
+#: ../../user-manual/administer/static-pages.rst:784
+msgid ""
+"...where ``/path/to`` represents the internal URL path to the location of "
+"``contact-image.jpg`` on your host server, or the path to a web-accessible "
+"image."
+msgstr ""
+"...ここで「/path/to」はホストサーバー上の「contact-"
+"image.jpg」の場所への内部URLパス、またはウェブアクセス可能な画像へのパスを表しています。"
+
+#: ../../user-manual/administer/static-pages.rst:787
+msgid ""
+"To center the image, you can wrap the ``<img>`` image element in a ``<div>``"
+" element, with a ``text-center\"`` class, like this:"
+msgstr ""
+"画像を中央に配置するには、以下のように ``<img>`` 画像要素を ``text-center\"`` クラス付きの ``<div>`` "
+"要素で囲むことができます。"
+
+#: ../../user-manual/administer/static-pages.rst:794
+msgid ""
+"You can also reuse some of the existing image classes from Bootstrap, to "
+"further style your images. For example, you can round the corners with the "
+"``img-rounded`` class:"
+msgstr ""
+"Bootstrapの既存の画像クラスを再利用して、あなたの画像にさらなるスタイルを加えることもできます。例えば、``img-rounded`` "
+"クラスを使って角を丸くすることができます。"
+
+#: ../../user-manual/administer/static-pages.rst:802
+msgid ""
+"Or if you're using a Bootstrap 5 theme, use the ``rounded`` class instead."
+msgstr "あるいは、Bootstrap 5のテーマを使用している場合は、代わりに``rounded``クラスを使用してください。"
+
+#: ../../user-manual/administer/static-pages.rst:808
+#: ../../user-manual/administer/static-pages.rst:827
+#: ../../user-manual/administer/static-pages.rst:847
+msgid "Produces:"
+msgstr "生成物："
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of a picture using the rounded class"
+msgstr "画像ファイルを丸みを帯びたクラスで使用している例"
+
+#: ../../user-manual/administer/static-pages.rst:815
+msgid "Make an image circular using the ``img-circle`` bootstrap class:"
+msgstr "``img-circle`` ブートストラップクラスを使用して画像を円形にする："
+
+#: ../../user-manual/administer/static-pages.rst:821
+msgid ""
+"Or if you're using a Bootstrap 5 theme, use the ``rounded-circle`` class "
+"instead."
+msgstr "もしBootstrap 5のテーマを使用している場合は、代わりに``rounded-circle``クラスを使用してください。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of a picture using the circle class"
+msgstr "\"サークルクラスを使用して作成された画像の写真\""
+
+#: ../../user-manual/administer/static-pages.rst:834
+msgid ""
+"Or give your images a frame, like on our digital object browse page, using "
+"the ``img-polaroid`` class:"
+msgstr ""
+"あるいは、``img-polaroid`` クラスを使用して、当社のデジタルオブジェクト閲覧ページのように、画像にフレームを付けてください："
+
+#: ../../user-manual/administer/static-pages.rst:841
+msgid ""
+"Or if you're using a Bootstrap 5 theme, use the ``img-thumbnail`` class "
+"instead."
+msgstr "もしBootstrap 5のテーマを使用している場合は、代わりに``img-thumbnail``クラスを使用してください。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of a picture using the polaroid class"
+msgstr "ポラロイドクラスを使用して写真の画像"
+
+#: ../../user-manual/administer/static-pages.rst:856
+msgid ""
+"Resuing existing Bootstrap CSS classes is a good way to style elements when "
+"you have the htmlpurifier_ setting engaged - see above, :ref:`security-"
+"static-pages` for more information."
+msgstr ""
+"既存のBootstrap CSSクラスを再利用することは、htmlpurifier_ 設定を有効にしている場合に要素をスタイルする良い方法です - "
+"詳細は上記の :ref:`security-static-pages` を参照してください。"
+
+#: ../../user-manual/administer/static-pages.rst:862
+msgid "To link to external images using Markdown instead of HTML, see:"
+msgstr "Markdownを使用してHTMLではなく外部画像へリンクするには、以下を参照してください："
+
+#: ../../user-manual/administer/static-pages.rst:864
+msgid ":ref:`formatting-images`"
+msgstr ""
+"`:ref:`formatting-images`` は、リファレンスリンクを示すマークアップ言語に特有の表記です。そのため、直接的な翻訳はありませんが、文書における参照部分を日本語で説明するなら以下のようになります。\n"
+"\n"
+"「画像のフォーマットに関するセクション参照」\n"
+"\n"
+"文脈によっては、「画像の整形」や「画像フォーマットの設定」などの節を参照してくださいと訳すことも可能です。実際の文書内での使用状況や目的に応じて適切な訳語を選んでください。"
+
+#: ../../user-manual/administer/static-pages.rst:869
+msgid "Boxes and dividers"
+msgstr "箱と仕切り"
+
+#: ../../user-manual/administer/static-pages.rst:871
+msgid ""
+"You can add styled boxes around text by wrapping content in the HTML "
+"``<div>`` element, and then using inline CSS to modify the appearance of the"
+" box. For colors, use the HTML or RGB values for the color you would like to"
+" use, rather than generic names such as \"red,\" \"blue,\" etc. - most "
+"browsers support a limited pallette of colors using names such as this, and "
+"the results may be inconsistent across browsers. There are many free HTML "
+"color wheels available that allow you to choose a color and copy its HTML# "
+"or RGB values; for example: http://www.colorpicker.com/"
+msgstr ""
+"テキストの周りにスタイルボックスを追加するには、コンテンツをHTMLの``<div>``要素で囲み、その後インラインCSSを使用してボックスの外見を変更します。色の使用については、「赤」、「青」などの一般的な名前ではなく、使用したい色のHTMLまたはRGB値を使用してください。このような名前を使ってブラウザがサポートしている色の範囲は限られており、ブラウザによって結果が一貫しない可能性があります。色を選択し、そのHTML#またはRGB値をコピーできる無料のHTMLカラーホイールが多数あります。例えば、http://www.colorpicker.com/"
+" などです。"
+
+#: ../../user-manual/administer/static-pages.rst:880
+msgid ""
+"For a small centered box with a green color, you might use code such as "
+"this:"
+msgstr "小さな中央揃えのボックスで緑色を使う場合、このようなコードを使用するかもしれません："
+
+#: ../../user-manual/administer/static-pages.rst:889
+msgid "This is how the box will appear:"
+msgstr "このようにボックスが表示されます："
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of a box"
+msgstr "箱の画像"
+
+#: ../../user-manual/administer/static-pages.rst:898
+msgid ""
+"The above example will **not** work if you have htmlpurifier_ engaged in "
+"AtoM. For more information, see the section above, :ref:`security-static-"
+"pages` for more information. The examples below, reusing existing Bootstrap "
+"classes, **will** work even when htmlpurifier is engaged."
+msgstr ""
+"上記の例は、AtoMでhtmlpurifier_が有効になっている場合には**機能しません**。詳細については、上記のセクション "
+":ref:`security-static-pages` "
+"をご覧ください。以下の例は、既存のBootstrapクラスを再利用しているため、htmlpurifierが有効になっていても**機能します**。"
+
+#: ../../user-manual/administer/static-pages.rst:903
+msgid ""
+"Another example of this is the light yellow box that appears on the AtoM "
+"demo's \"Welcome\" static page warning users that the data will reset every "
+"hour. This yellow box is reusing an existing style class from the Bootstrap "
+"CSS framework that AtoM uses - you can make use of existing Bootstrap "
+"classes to help with styling, like so:"
+msgstr ""
+"これの別の例は、AtoMデモの「Welcome」スタティックページに表示される、データが毎時リセットされることをユーザーに警告する薄黄色のボックスです。この黄色いボックスは、AtoMが使用しているBootstrap"
+" CSSフレームワークから既存のスタイルクラスを再利用しています - "
+"スタイリングの補助として、既存のBootstrapクラスをこのように利用することができます："
+
+#: ../../user-manual/administer/static-pages.rst:913
+msgid "And here is the result:"
+msgstr "そして、こちらが結果です："
+
+#: ../../user-manual/administer/static-pages.rst:920
+msgid ""
+"Other Bootstrap alert classes that can be used to style containers include "
+"``alert-success``, ``alert-info``, and ``alert-danger``:"
+msgstr ""
+"使用できる他のBootstrapアラートクラスには、``alert-success``、``alert-info``、そして``alert-"
+"danger``が含まれており、これらはコンテナのスタイルを設定するために利用されます。"
+
+#: ../../user-manual/administer/static-pages.rst:-1
+msgid "An image of various boxes styled with Bootstrap classes"
+msgstr "さまざまなボックスがBootstrapのクラスでスタイリングされた画像"
+
+#: ../../user-manual/administer/static-pages.rst:929
+msgid ""
+"If you are using a Bootstrap 5 theme, your alert will not have a background "
+"color by default. You can include an ``alert-primary`` class or one of the "
+"other alert classes listed above if you wish to apply a background color and"
+" border on your alert."
+msgstr ""
+"もしあなたがBootstrap "
+"5のテーマを使用している場合、デフォルトではアラートに背景色が設定されていません。アラートに背景色と境界線を適用したい場合は、``alert-"
+"primary`` クラスや上記リストにある他のアラートクラスのいずれかを含めることができます。"

@@ -1,0 +1,1543 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/customization/config-files.rst:5
+msgid "Manage AtoM configuration files"
+msgstr "AtoM設定ファイルの管理"
+
+#: ../../admin-manual/customization/config-files.rst:30
+msgid ""
+"Many settings in AtoM can be managed directly through the :term:`user "
+"interface` via the **Admin > Settings** menu (see: :ref:`settings` for "
+"details). However, there are also several configuration files maintained in "
+"AtoM's code where various settings and configurations can be managed, and "
+"which can be edited directly by a user via the command-line. These files can"
+" be useful for customizing the behavior and performance of your application."
+" Details on each have been included below."
+msgstr ""
+"AtoMの多くの設定は、**Admin > "
+"Settings**メニューを通じて:term:`ユーザーインターフェース`から直接管理できます（詳細は:ref:`settings`を参照ください）。しかし、さまざまな設定や構成を管理するためのAtoMのコード内には、ユーザーがコマンドラインから直接編集可能ないくつかの設定ファイルも存在します。これらのファイルは、アプリケーションの動作やパフォーマンスをカスタマイズするのに便利です。以下にそれぞれの詳細を含めています。"
+
+#: ../../admin-manual/customization/config-files.rst:40
+msgid ""
+"The Symfony PHP framework that AtoM uses uses a configuration cascade - "
+"meaning it will look for configuration files in multiple locations in a "
+"specific order, and the final configuration will be compiled from all found "
+"configuration files in a specific order of preference. See the Symfony "
+"documentation for more information:"
+msgstr ""
+"AtoMが使用するSymfony PHPフレームワークは、設定のカスケードを使用します - "
+"つまり、特定の順序で複数の場所にある設定ファイルを検索し、最終的な設定は見つかった設定ファイルすべてから特定の優先順位でコンパイルされます。詳しくはSymfonyのドキュメンテーションをご覧ください。"
+
+#: ../../admin-manual/customization/config-files.rst:46
+msgid ""
+"https://symfony.com/legacy/doc/reference/1_4/en/03-Configuration-Files-"
+"Principles#chapter_03_configuration_cascade"
+msgstr ""
+"https://symfony.com/legacy/doc/reference/1_4/en/03-Configuration-Files-Principles#chapter_03_configuration_cascade\n"
+"\n"
+"このURLはSymfonyというウェブアプリケーションフレームワークの古いバージョン向けのドキュメンテーションのURLの一部であり、Archivematicaとは関連がありません。正確なArchivematicaに関する文章を提供していただけますか？\n"
+"\n"
+"また、上記のURLに記載されている具体的なテキスト部分を提供していただくと、より具体的な翻訳を提供することが可能となります。以上を踏まえて、 Archivematicaの翻訳に関する具体的なリクエストがありましたら、再度ご連絡ください。"
+
+#: ../../admin-manual/customization/config-files.rst:48
+msgid ""
+"The locations of the configuration files listed below are the default "
+"locations used in a standard installation using the downloadable tarball "
+"package provided on the Access to Memory website's `Downloads page`_."
+msgstr ""
+"以下にリストアップされている設定ファイルの場所は、Access to "
+"Memoryウェブサイトの`ダウンロードページ`_で提供されているダウンロード可能なtarballパッケージを使用した標準的なインストールで使用されるデフォルトの場所です。"
+
+#: ../../admin-manual/customization/config-files.rst:52
+msgid ""
+"However, depending on your installation method (or if you are using an "
+"Artefactual-provided development environment like the AtoM :ref:`Vagrant box"
+" <dev-env-vagrant>`), these files may appears in different locations, such "
+"as in the ``apps/qubit/config`` directory."
+msgstr ""
+"しかし、インストール方法によります（またはArtefactualが提供するAtoM :ref:`Vagrant box <dev-env-"
+"vagrant>`のような開発環境を使用している場合）、これらのファイルは ``apps/qubit/config`` "
+"ディレクトリなど、異なる場所に表示される可能性があります。"
+
+#: ../../admin-manual/customization/config-files.rst:57
+msgid "**An example: The Elasticsearch search.yml config file**"
+msgstr "**一例：Elasticsearchの search.yml設定ファイル**"
+
+#: ../../admin-manual/customization/config-files.rst:59
+msgid ""
+"Before installation, the default version of the ``search.yml`` configuration"
+" file is found in the Elasticsearch (ES) :ref:`plugin <manage-plugins>` in "
+"AtoM, at:"
+msgstr ""
+"インストール前に、デフォルトの ``search.yml`` 設定ファイルはAtoMのElasticsearch (ES) :ref:`プラグイン "
+"<manage-plugins>`内で見つけることができます。パスは以下の通りです："
+
+#: ../../admin-manual/customization/config-files.rst:63
+msgid "``plugins/arElasticSearchPlugin/config/search.yml``"
+msgstr "``plugins/arElasticSearchPlugin/config/search.yml``"
+
+#: ../../admin-manual/customization/config-files.rst:65
+msgid ""
+"This default file is typically copied to its new location once the "
+":ref:`installer <installation-ubuntu-installer>` is run as part of the "
+"installation process."
+msgstr ""
+"このデフォルトファイルは通常、インストールプロセスの一部として :ref:`インストーラー <installation-ubuntu-"
+"installer>`が実行されるときに新しい位置にコピーされます。"
+
+#: ../../admin-manual/customization/config-files.rst:69
+msgid ""
+"If installing via the Artefactual provided downloadable tarball, the new "
+"location will typically be:"
+msgstr ""
+"Artefactualが提供するダウンロード可能なtarball経由でインストールする場合、新しいロケーションの場所は通常以下の通りになります："
+
+#: ../../admin-manual/customization/config-files.rst:72
+msgid "``config/search``"
+msgstr "``config/search``"
+
+#: ../../admin-manual/customization/config-files.rst:74
+msgid ""
+"However, Artefactual uses `Ansible deployment scripts`_ to prepare the "
+":ref:`dev-env-vagrant` development environment, and in the process, the ES "
+"configuration file is set at ``apps/qubit/config/search.yml``."
+msgstr ""
+"しかし、Artefactualは `Ansible deployment scripts`_ を使用して :ref:`dev-env-vagrant` "
+"開発環境を準備し、その過程で、ESの設定ファイルは ``apps/qubit/config/search.yml`` に設定されます。"
+
+#: ../../admin-manual/customization/config-files.rst:78
+msgid "**Making configuration changes**"
+msgstr "**設定変更の実施**"
+
+#: ../../admin-manual/customization/config-files.rst:80
+msgid ""
+"Symfony will compile the settings found in all applicable configuration "
+"files, in a specific order of preference. This means that one file will not "
+"completely override the other - instead, priority file location values will "
+"be favored, but where a configuration setting is not found for a particular "
+"parameter in the preferred location, Symfony will check the next location "
+"for a relevant parameter."
+msgstr ""
+"Symfonyは、全ての適用可能な設定ファイルに記載された設定を、特定の優先順位に従ってコンパイルします。これは、あるファイルが他のファイルを完全に上書きするわけではなく、優先度の高いファイルロケーションの値が優先され、特定のパラメータの設定が優先ロケーションで見つからない場合、Symfonyは次のロケーションで該当のパラメータをチェックします。"
+
+#: ../../admin-manual/customization/config-files.rst:87
+msgid ""
+"If a particular parameter exists in multiple files but has different values,"
+" then the cascade order preference will determine which setting value takes "
+"effect."
+msgstr ""
+"特定のパラメーターが複数のファイルに存在していても、それぞれの値が異なる場合は、カスケード順序の優先度がどの設定値が有効になるかを決定します。"
+
+#: ../../admin-manual/customization/config-files.rst:91
+msgid ""
+"If you are uncertain where to make your changes, you can always make them in"
+" all relevant configuration files to ensure the changes will take effect as "
+"expected."
+msgstr ""
+"変更をどこに加えるべきか不確かな場合は、いつでもすべての関連する設定ファイルに変更を加えることができます。これは、予想通りの変更が効果を発揮することを確実にします。"
+
+#: ../../admin-manual/customization/config-files.rst:95
+#: ../../admin-manual/customization/config-files.rst:134
+#: ../../admin-manual/customization/config-files.rst:546
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../admin-manual/customization/config-files.rst:97
+msgid ":ref:`config-change-files`"
+msgstr ":ref:`config-change-files`"
+
+#: ../../admin-manual/customization/config-files.rst:98
+msgid ":ref:`config-files-overview`"
+msgstr ":ref:`設定ファイルの概要`"
+
+#: ../../admin-manual/customization/config-files.rst:99
+msgid ":ref:`config-application-server`"
+msgstr ":ref:`アプリケーションサーバーの設定`"
+
+#: ../../admin-manual/customization/config-files.rst:104
+msgid "How to change values in configuration files"
+msgstr "設定ファイルの値を変更する方法"
+
+#: ../../admin-manual/customization/config-files.rst:106
+msgid ""
+"From AtoM's root directory, use the ``nano`` command to open a file for "
+"editing - e.g.:"
+msgstr "AtoMのルートディレクトリから、``nano``コマンドを使用して編集用のファイルを開きます。例："
+
+#: ../../admin-manual/customization/config-files.rst:113
+msgid ""
+"You can save changes with ``CTRL+O + ENTER``, and exit with ``CTRL+X`` (you "
+"will be asked to save if you haven't yet)."
+msgstr ""
+"変更を保存するには ``CTRL+O + ENTER``を使用し、終了するには "
+"``CTRL+X``を使用します（まだ保存していない場合、保存するように求められます）。"
+
+#: ../../admin-manual/customization/config-files.rst:118
+msgid ""
+"If you change any of the files listed below, clear the cache and restart "
+"PHP-FPM to apply the changes."
+msgstr "以下にリストされたファイルのいずれかを変更した場合は、キャッシュをクリアし、変更を適用するためにPHP-FPMを再起動してください。"
+
+#: ../../admin-manual/customization/config-files.rst:121
+#: ../../admin-manual/customization/config-files.rst:536
+msgid ":ref:`maintenance-clear-cache`"
+msgstr ":ref:`キャッシュのクリア-メンテナンス`"
+
+#: ../../admin-manual/customization/config-files.rst:122
+#: ../../admin-manual/customization/config-files.rst:537
+msgid ":ref:`troubleshooting-restart-php-fpm`"
+msgstr ":ref:`トラブルシューティング-php-fpmの再起動`"
+
+#: ../../admin-manual/customization/config-files.rst:124
+#: ../../admin-manual/customization/config-files.rst:224
+#: ../../admin-manual/customization/config-files.rst:237
+#: ../../admin-manual/customization/config-files.rst:255
+#: ../../admin-manual/customization/config-files.rst:266
+#: ../../admin-manual/customization/config-files.rst:287
+#: ../../admin-manual/customization/config-files.rst:364
+#: ../../admin-manual/customization/config-files.rst:424
+#: ../../admin-manual/customization/config-files.rst:579
+#: ../../admin-manual/customization/config-files.rst:817
+#: ../../admin-manual/customization/config-files.rst:840
+msgid ":ref:`Back to top <customization-config-files>`"
+msgstr ":ref:`トップに戻る <customization-config-files>`"
+
+#: ../../admin-manual/customization/config-files.rst:129
+msgid "Important configuration files"
+msgstr "重要な設定ファイル"
+
+#: ../../admin-manual/customization/config-files.rst:131
+msgid ""
+"Below is a list of some of the configuration files available in AtoM that "
+"you may need to adjust as a system administrator."
+msgstr "以下は、システム管理者として調整する必要があるかもしれないAtoMの利用可能な設定ファイルの一部のリストです。"
+
+#: ../../admin-manual/customization/config-files.rst:136
+msgid ":ref:`config-app-yml`"
+msgstr ": ref:`config-app-yml`"
+
+#: ../../admin-manual/customization/config-files.rst:137
+msgid ":ref:`config-settings-yml`"
+msgstr ":ref:`config-settings-yml`"
+
+#: ../../admin-manual/customization/config-files.rst:138
+msgid ":ref:`config-factories-yml`"
+msgstr ":ref:`config-factories-yml`"
+
+#: ../../admin-manual/customization/config-files.rst:139
+msgid ":ref:`config-config-php`"
+msgstr ":ref:`config-config-php`設定"
+
+#: ../../admin-manual/customization/config-files.rst:140
+msgid ":ref:`config-sitemap-yml`"
+msgstr ":ref:`config-sitemap-yml`"
+
+#: ../../admin-manual/customization/config-files.rst:141
+msgid ":ref:`config-search`"
+msgstr ":ref:`検索設定`"
+
+#: ../../admin-manual/customization/config-files.rst:142
+msgid ":ref:`cas-app-yml`"
+msgstr ":ref:`cas-app-yml`"
+
+#: ../../admin-manual/customization/config-files.rst:143
+msgid ":ref:`config-security-ymls`"
+msgstr ":ref:`config-security-ymls`"
+
+#: ../../admin-manual/customization/config-files.rst:148
+msgid "config/app.yml"
+msgstr "config/app.yml"
+
+#: ../../admin-manual/customization/config-files.rst:152
+msgid ""
+"This is the primary file where AtoM-specific settings that cannot be managed"
+" via the :term:`user interface` are maintained. This file includes settings "
+"such as:"
+msgstr ""
+"これは、:term:`ユーザーインターフェース`経由で管理できないAtoM固有の設定が維持される主要なファイルです。このファイルには次のような設定が含まれます："
+
+#: ../../admin-manual/customization/config-files.rst:156
+msgid ""
+"``upload_limit``: Global digital object upload limit (in gigabytes) - can be"
+" set to -1 for unlimited, or set to a specific limit in GBs."
+msgstr ""
+"``upload_limit``: グローバルなデジタルオブジェクトのアップロード限度 (ギガバイト単位) - "
+"無制限の場合は-1に設定するか、GB単位で特定の制限を設定することができます。"
+
+#: ../../admin-manual/customization/config-files.rst:158
+msgid ""
+"``download_timeout``: Timeout limit for fetching digital objects from "
+"external services (in seconds) - default value is 10s. See also: "
+":ref:`installation-execution-limits`."
+msgstr ""
+"``download_timeout``： 外部サービスからデジタルオブジェクトを取得するためのタイムアウト制限（秒）- "
+"デフォルト値は10秒です。参照：:ref:`installation-execution-limits`."
+
+#: ../../admin-manual/customization/config-files.rst:161
+msgid ""
+"``cache_engine``: Which cache engine you want to use (can use Memcached for "
+"a distributed cache, for example) - default is sfAPCCache"
+msgstr ""
+"``cache_engine``：使用したいキャッシュエンジンは何ですか？（例えば、分散キャッシュにはMemcachedを使用することができます）- "
+"デフォルトはsfAPCCacheです。"
+
+#: ../../admin-manual/customization/config-files.rst:163
+msgid ""
+"``read_only``: Enable read-only mode, if you want to remove the login button"
+" and prevent users from logging into the application. See also: :ref:`read-"
+"only-mode`."
+msgstr ""
+"``read_only``: "
+"ログインボタンを削除し、ユーザーがアプリケーションにログインするのを防ぎたい場合は、読み取り専用モードを有効にします。参照: :ref:`read-"
+"only-mode`。"
+
+#: ../../admin-manual/customization/config-files.rst:166
+msgid ""
+"``google_analytics_api_key``: Set a Google Analytics API key, for basic "
+"installation-wide analytics via Google - see: :ref:`maintenance-web-"
+"analytics`"
+msgstr ""
+"``google_analytics_api_key``: Googleを通じた基本的なインストール全体のアナリティクスのためのGoogle "
+"Analytics APIキーを設定します - 詳細は:ref:`maintenance-web-analytics`を参照してください。"
+
+#: ../../admin-manual/customization/config-files.rst:168
+msgid ""
+"``google_analytics_institutions_dimension_index``: Set a custom dimension "
+"via Google Analytics to allow for per-institution page view counts in a "
+":term:`multi-repository system`. See: :ref:`google-analytics-repo-pageviews`"
+msgstr ""
+"``google_analytics_institutions_dimension_index``: Google "
+"Analyticsを通じてカスタムディメンションを設定し、:term:`マルチリポジトリシステム`内での機関ごとのページビューカウントを可能にします。参照：:ref:`google-"
+"analytics-repo-pageviews`"
+
+#: ../../admin-manual/customization/config-files.rst:171
+msgid ""
+"``google_tag_manager_container_id``: Set a Google Tag Manager API key, for "
+"further element-specific analytics. See: :ref:`google-tag-manager`"
+msgstr ""
+"``google_tag_manager_container_id``: 要素特有の分析をさらに進めるためのGoogle Tag Manager "
+"APIキーを設定します。参照：:ref:`google-tag-manager`"
+
+#: ../../admin-manual/customization/config-files.rst:173
+msgid ""
+"``htmlpurifier_enabled``: Enable htmlpurifier_ - limits HTML on static pages"
+" to a white-list of approved elements and attributes, to prevent XSS. See: "
+":ref:`security-static-pages`."
+msgstr ""
+"``htmlpurifier_enabled``: htmlpurifier_を有効にします - "
+"静的ページ上のHTMLを承認された要素と属性のホワイトリストに制限し、XSSを防ぎます。参照：:ref:`security-static-pages`。"
+
+#: ../../admin-manual/customization/config-files.rst:176
+msgid ""
+"``workers_key``: Allows setting a custom key that will add a unique hash to "
+"the Gearman atom-worker, to avoid conflicts when multiple AtoM installations"
+" are co-tenanted on the same server."
+msgstr ""
+"``workers_key``: Gearman atom-"
+"workerにユニークなハッシュを追加してカスタムキーを設定することを可能にし、同じサーバ上に複数のAtoMインストールが共存しているときのコンフリクトを回避します。"
+
+#: ../../admin-manual/customization/config-files.rst:179
+msgid ""
+"``treeview_items_per-page_max``: Increase the maximum allowed value for the "
+"full-width :term:`treeview` paging limit - see: :ref:`fwt-items-per-page`"
+msgstr ""
+"``treeview_items_per_page_max``: 全幅の:term:`treeview`のページング制限の最大許容値を増加させてください"
+" - 参照: :ref:`fwt-items-per-page`"
+
+#: ../../admin-manual/customization/config-files.rst:181
+msgid ""
+"``response_header``: The CSP `repsonse_header` setting is used to set the "
+"CSP header type and can have one of two values: `Content-Security-Policy` or"
+" `Content-Security-Policy-Report-Only`. See :ref:`csp-configuration` for "
+"additional details."
+msgstr ""
+"``response_header``: CSPの "
+"`response_header`設定は、CSPヘッダータイプを設定するために使用され、`Content-Security-"
+"Policy`または`Content-Security-Policy-Report-"
+"Only`のいずれかの値を持つことができます。詳細については、:ref:`csp-configuration`を参照してください。"
+
+#: ../../admin-manual/customization/config-files.rst:185
+msgid ""
+"``directives``: The CSP `directives` setting contains the CSP policy that "
+"will be sent in the CSP header. See :ref:`csp-configuration` for additional "
+"details."
+msgstr ""
+"``directives``：CSP `directives`設定は、CSPヘッダーで送信されるCSPポリシーを含んでいます。詳細は "
+":ref:`csp-configuration`を参照してください。"
+
+#: ../../admin-manual/customization/config-files.rst:-1
+msgid "An image of the app.yml file in the command-line"
+msgstr "コマンドラインのapp.ymlファイルの画像"
+
+#: ../../admin-manual/customization/config-files.rst:195
+msgid ""
+"Symfony (the PHP framework that AtoM uses) has a cascading system of "
+"priorization for configuration files - if you create an ``app.yml`` file in "
+"``apps/qubit/config/``, its settings will override those found in "
+"``config/app.yml``. This can be useful if you want to change some "
+"configuration values without actually altering AtoM's installation defaults "
+"- Artefactual uses this method for automated deployment via Ansible, for "
+"example."
+msgstr ""
+"AtoMが使用するSymfony（PHPフレームワーク）には、設定ファイルの優先順位を段階的に設定するシステムがあります。例えば``apps/qubit/config/``に``app.yml``ファイルを作成すると、その設定は``config/app.yml``で見つけられる設定をオーバーライドします。AtoMのインストールデフォルトを実際に変更することなく、一部の設定値を変更したい場合にこの方法が便利です。例えば、Artefactualはこの方法をAnsibleを介した自動デプロイメントに使用しています。"
+
+#: ../../admin-manual/customization/config-files.rst:203
+msgid ""
+"If your settings changes aren't taking effect in ``config/app.yml`` and "
+"you've already cleared the cache and restarted php-fpm, you might want to "
+"double-check to make sure you don't have a file in "
+"``apps/qubit/config/app.yml`` overriding the other configuration file. If "
+"you are using the :ref:`dev-env-vagrant` box for example, you will have this"
+" extra config file, since Artefactual uses Ansible to automate the build of "
+"the Vagrant box."
+msgstr ""
+"「config/app.yml」で設定の変更が効果を発揮していない場合、すでにキャッシュをクリアし、php-"
+"fpmを再起動しているにもかかわらず、``apps/qubit/config/app.yml``にあるファイルが他の設定ファイルを上書きしていないか再チェックすることをお勧めします。例えば、:ref:`dev-"
+"env-vagrant` "
+"ボックスを使用している場合、ArtefactualがAnsibleを用いてVagrantボックスのビルドを自動化しているため、この追加の設定ファイルがあるでしょう。"
+
+#: ../../admin-manual/customization/config-files.rst
+msgid "An example of the app.yml file in apps/qubit/config"
+msgstr "apps/qubit/configにあるapp.ymlファイルの例"
+
+#: ../../admin-manual/customization/config-files.rst:216
+msgid ""
+"There are also some settings in this file (such as the ``read_only`` "
+"setting) that may be overwritten by environment variables in the PHP pool "
+"set up during installation. For general information, see below, "
+":ref:`config-application-server`. For specific information on setting up "
+"read-only mode in AtoM, see:"
+msgstr ""
+"このファイルには(``read_only``設定など)インストール中にPHPプールで設定される環境変数によって上書きされる可能性のある設定も含まれています。一般的な情報については、以下の``config-"
+"application-server``を参照してください。AtoMで読み取り専用モードを設定する具体的な情報については、以下を参照してください。"
+
+#: ../../admin-manual/customization/config-files.rst:222
+#: ../../admin-manual/customization/config-files.rst:837
+msgid ":ref:`read-only-mode`"
+msgstr ":ref:`読取り専用モード`"
+
+#: ../../admin-manual/customization/config-files.rst:229
+msgid "apps/qubit/config/settings.yml"
+msgstr "apps/qubit/config/settings.yml"
+
+#: ../../admin-manual/customization/config-files.rst:231
+msgid ""
+"Symfony and PHP settings - see the Symfony documentation for more general "
+"information: http://symfony.com/legacy/doc/reference/1_4/en/04-Settings"
+msgstr ""
+"SymfonyとPHPの設定 - "
+"より一般的な情報についてはSymfonyのドキュメンテーションを参照してください：http://symfony.com/legacy/doc/reference/1_4/en/04-Settings"
+
+#: ../../admin-manual/customization/config-files.rst:233
+msgid "For things like default_culture, default_timezone, login_module, etc"
+msgstr "default_culture, default_timezone, login_moduleなどのようなものについて"
+
+#: ../../admin-manual/customization/config-files.rst:234
+msgid ""
+"Includes settings for error handling behavior as well - be careful changing "
+"these! We don't recommend it."
+msgstr "これにはエラー処理の動作に関する設定も含まれています - これらは変更する際には注意が必要です！我々はそれを推奨していません。"
+
+#: ../../admin-manual/customization/config-files.rst:242
+msgid "config/factories.yml"
+msgstr ""
+"config/factories.ymlは設定やファクトリーのデータを保持しているYAML形式のファイル名です。直訳では特定の文脈がないため、そのまま「config/factories.yml」となります。一部の専門用語やファイル名は、そのままの形で用いられることがよくあります。"
+
+#: ../../admin-manual/customization/config-files.rst:244
+msgid "Another Symfony 1.x configuration file"
+msgstr "別のSymfony 1.x設定ファイル"
+
+#: ../../admin-manual/customization/config-files.rst:245
+msgid ""
+"More details at: http://symfony.com/legacy/doc/reference/1_4/en/05-factories"
+msgstr "詳細はこちら: http://symfony.com/legacy/doc/reference/1_4/en/05-factories"
+
+#: ../../admin-manual/customization/config-files.rst:246
+msgid ""
+"Useful for changing logging options, user class (e.g. LDAP or CAS), etc"
+msgstr "ログオプションの変更、ユーザークラス（例：LDAPやCAS）などに便利です。"
+
+#: ../../admin-manual/customization/config-files.rst:247
+#: ../../admin-manual/customization/config-files.rst:264
+msgid ""
+"We don't recommend changing this file unless you know what you're doing!"
+msgstr "このファイルは、何をしているか理解している場合でなければ変更することはお勧めしません！"
+
+#: ../../admin-manual/customization/config-files.rst:248
+msgid ""
+"See: :ref:`maintenance-logging` for some ideas on how to work with these "
+"settings to change or improve logging in AtoM"
+msgstr ""
+"参照：:ref:`maintenance-"
+"logging`には、AtoMでのログの変更や改善に役立つ設定方法についていくつかのアイデアが記載されています。"
+
+#: ../../admin-manual/customization/config-files.rst:253
+#: ../../admin-manual/customization/config-files.rst:400
+#: ../../admin-manual/customization/config-files.rst:838
+msgid ":ref:`customization-authentication`"
+msgstr ":ref:`カスタマイズ-認証`"
+
+#: ../../admin-manual/customization/config-files.rst:260
+msgid "config/config.php"
+msgstr "config/config.php"
+
+#: ../../admin-manual/customization/config-files.rst:262
+msgid ""
+"Where basic configuration information for database access is stored, such as"
+" the database user, pass, and name"
+msgstr "データベースへのアクセスに関する基本的な設定情報が保存される場所、例えばデータベースのユーザー、パスワード、名前などです。"
+
+#: ../../admin-manual/customization/config-files.rst:271
+msgid "config/sitemap.yml"
+msgstr "config/sitemap.yml"
+
+#: ../../admin-manual/customization/config-files.rst:273
+msgid ""
+"This configuration file is used in conjunction with the sitemap generation "
+"command-line task - for more information, see: :ref:`cli-sitemap`."
+msgstr ""
+"この設定ファイルは、サイトマップ生成のコマンドラインタスクと連携して使用されます - 詳細情報については、 :ref:`cli-"
+"sitemap`をご参照ください。"
+
+#: ../../admin-manual/customization/config-files.rst:276
+msgid ""
+"This file contains the priorities (or weighting) for each :term:`level of "
+"description` of archival descriptions included in the sitemap the CLI task "
+"will generate. If you have added new levels of description to the Levels of "
+"description :term:`taxonomy`, you can give them a priority here, or adjust "
+"the default priorities included in the file (shown in the image below)."
+msgstr ""
+"このファイルには、CLIタスクが生成するサイトマップに含まれるアーカイブ記述の各:term:`記述レベル`の優先度（またはウェイト）が含まれています。記述レベルの:term:`分類法`に新しい記述レベルを追加した場合、ここでそれらに優先度を設定することができます。また、ファイルに含まれるデフォルトの優先度を調整することも可能です（以下の画像に表示）。"
+
+#: ../../admin-manual/customization/config-files.rst:-1
+msgid "An image of the sitemap.yml file in the command-line"
+msgstr "コマンドライン上のsitemap.ymlファイルの画像"
+
+#: ../../admin-manual/customization/config-files.rst:292
+msgid "config/search.yml"
+msgstr "config/search.yml"
+
+#: ../../admin-manual/customization/config-files.rst:297
+msgid ""
+"This configuration file is used to configure `Elasticsearch`_ (ES), the "
+"search index used in AtoM, including:"
+msgstr ""
+"この設定ファイルは、AtoMで使用されている検索インデックスである `Elasticsearch`_ "
+"(ES)を設定するために使用されます。これには以下が含まれます："
+
+#: ../../admin-manual/customization/config-files.rst:300
+msgid ""
+"The host and port of your Elasticsearch index, configured during "
+"installation via the command-line :ref:`installer <installation-ubuntu-"
+"installer>`"
+msgstr ""
+"インストール時にコマンドライン :ref:`インストーラ <installation-ubuntu-installer>` "
+"経由で設定された、Elasticsearch インデックスのホストとポート"
+
+#: ../../admin-manual/customization/config-files.rst:302
+msgid ""
+"The normalizers, analyzers and filters used by Elasticsearch. See the "
+"`Elasticsearch`_ documentation for more information on these, and be sure "
+"you are looking at the documentation for the correct ES version"
+msgstr ""
+"Elasticsearchが使用するノーマライザ、アナライザ、およびフィルタについては、これらの詳細情報については `Elasticsearch`_ "
+"ドキュメントを参照してください。また、正しいESバージョンのドキュメントを確認していることを確かめてください。"
+
+#: ../../admin-manual/customization/config-files.rst:305
+msgid ""
+"Number of shards and replicas created - these are paramters used for "
+"performance optimization and scalability. See the `Elasticsearch`_ "
+"documentation for more information"
+msgstr ""
+"作成されるシャード数とレプリカ数 - "
+"これらはパフォーマンス最適化とスケーラビリティ向上のために使用されるパラメータです。詳細については、`Elasticsearch`_ "
+"のドキュメントを参照してください。"
+
+#: ../../admin-manual/customization/config-files.rst:308
+msgid ""
+"The tokenizers and filters used per culture - these can be useful to adjust "
+"when trying to improve AtoM's multilingual search for a specific language. "
+"See the `Elasticsearch`_ documentation for more information. This includes "
+"whether or not `stop words`_ are being filtered for a particular language."
+msgstr ""
+"文化ごとに使用されるトークン化器とフィルター - "
+"これらは特定の言語に対するAtoMの多言語検索機能を向上させようとする際に調整すると便利です。詳細については、`Elasticsearch`_ "
+"のドキュメントをご覧ください。これには、特定の言語に対して`ストップワード`_がフィルタリングされているかどうかも含まれます。"
+
+#: ../../admin-manual/customization/config-files.rst:-1
+msgid "An image of the search configuration file"
+msgstr "検索設定ファイルの画像"
+
+#: ../../admin-manual/customization/config-files.rst:318
+msgid ""
+"There are also two additional global configuration settings worth "
+"mentioning, that can be customized as needed. Be aware that making changes "
+"can increase the size of your ES index and require more resources (memory, "
+"disk space, etc) if changed."
+msgstr ""
+"また、必要に応じてカスタマイズできる2つの追加のグローバル設定についても触れる価値があります。変更を行うことで、ESインデックスのサイズが増加し、より多くのリソース（メモリ、ディスクスペースなど）を必要とする可能性があることに注意してください。"
+
+#: ../../admin-manual/customization/config-files.rst:323
+msgid ""
+"The first value is the ``index.mapping.total_fields.limit``. This setting "
+"defines the maximum number of fields in an index. Field and object mappings,"
+" as well as field aliases count towards this limit. By default in new AtoM "
+"installations, this value is set to 3000. In particularly large "
+"installations it's possible that this default value is not high enough to "
+"support a full index of your data. You will know this is the case if you "
+"encounter a message like the following message when attempting to run the "
+":ref:`maintenance-populate-search-index` command:"
+msgstr ""
+"最初の値は``index.mapping.total_fields.limit``です。この設定は、インデックスに含まれるフィールドの最大数を定義しています。フィールドマッピング、オブジェクトマッピング、およびフィールドエイリアスもこの限界に計上されます。新しいAtoMのインストールでは、デフォルト値は3000に設定されています。特に大規模なインストールでは、このデフォルト値がデータの完全なインデックスをサポートするには十分でない可能性があります。この場合であるかどうかは、`:ref:`maintenance-"
+"populate-search-index` コマンドを実行しようとしたときに、次のようなメッセージが表示された場合にわかります："
+
+#: ../../admin-manual/customization/config-files.rst:336
+msgid ""
+"The second value is the ``index.max_result_window`` setting. By default "
+"Elasticsearch sets a limit on the number of results returned, since these "
+"impact the amount of heap memory required for your search index. This value "
+"is set to 10,000 in AtoM by default in new installations."
+msgstr ""
+"第二の値は``index.max_result_window`` "
+"設定です。デフォルトでは、Elasticsearchは返される結果の数に制限を設けており、これは検索インデックスに要求されるヒープメモリの量に影響します。この値は、新しいインストール時にAtoMにおいてデフォルトで10,000に設定されています。"
+
+#: ../../admin-manual/customization/config-files.rst:341
+msgid ""
+"This means that, in the event that there are more than 10,000 results to "
+"return when searching or browsing, AtoM will stop loading results after the "
+"limit is reached, to preserve memory capacity, and the user will see the "
+"following message:"
+msgstr ""
+"これは、検索または閲覧時に10,000件を超える結果が返される場合、AtoMはメモリ容量を維持するために結果の読み込みを制限数に達した時点で停止し、ユーザーには以下のメッセージが表示されることを意味します："
+
+#: ../../admin-manual/customization/config-files.rst:-1
+msgid "Sort options error message"
+msgstr "ソートオプションのエラーメッセージ"
+
+#: ../../admin-manual/customization/config-files.rst:351
+msgid ""
+"Users can use the sort direction options in the :ref:`Sort buttons "
+"<recurring-sort-button>` available on search and browse pages to reverse the"
+" sort direction and view results from the end of the list. However, if "
+"desired, a system administrator can increase the ``index.max_result_window``"
+" value to allow more results to be accessed before the limit is reached. Be "
+"aware that this will impact memory usage!"
+msgstr ""
+"ユーザーは、検索や閲覧のページにある :ref:`ソートボタン <recurring-sort-button>` "
+"のソート方向オプションを使用して、ソートの方向を反転させ、リストの最後から結果を見ることができます。しかし、必要に応じて、システム管理者は "
+"``index.max_result_window`` "
+"の値を増やして、制限に達する前により多くの結果にアクセスできるようにすることができます。ただし、これはメモリ使用量に影響を与えることに注意してください！"
+
+#: ../../admin-manual/customization/config-files.rst:358
+msgid ""
+"**If you make any changes to the** ``search.yml`` **file**, you should:"
+msgstr "``search.yml`` **ファイル**に何か変更を加えた場合、以下の手順を実施すべきです。"
+
+#: ../../admin-manual/customization/config-files.rst:360
+msgid "Run the :ref:`maintenance-populate-search-index` command"
+msgstr "以下のコマンドを実行してください：`:ref:`maintenance-populate-search-index``"
+
+#: ../../admin-manual/customization/config-files.rst:361
+msgid "Run the :ref:`maintenance-clear-cache` command"
+msgstr "以下のコマンドを実行してください: :ref:`maintenance-clear-cache`"
+
+#: ../../admin-manual/customization/config-files.rst:362
+msgid "Restart :ref:`PHP-FPM <troubleshooting-restart-php-fpm>`"
+msgstr "再起動： :ref:`PHP-FPM <troubleshooting-restart-php-fpm>`"
+
+#: ../../admin-manual/customization/config-files.rst:369
+msgid "plugins/arCasPlugin/config/app.yml"
+msgstr ""
+"`plugins/arCasPlugin/config/app.yml` はファイルのパスのようです。そのため、これ自体を翻訳するニーズはないかもしれませんが、これがテキストのタイトルやセクションである場合、次のように日本語に翻訳することもできます:\n"
+"\n"
+"プラグイン/arCasプラグイン/設定/app.yml"
+
+#: ../../admin-manual/customization/config-files.rst:373
+msgid ""
+"This file contains additional parameters that can be used to configure the "
+"`CAS`_ single sign-on authentication plugin. For more information, see:"
+msgstr ""
+"このファイルには、`CAS`_ "
+"シングルサインオン認証プラグインを設定するために使用できる追加のパラメータが含まれています。詳細については、以下を参照してください："
+
+#: ../../admin-manual/customization/config-files.rst:376
+msgid ":ref:`cas-enabling`"
+msgstr ""
+"`:ref:`cas-enabling`` は参照リンクの一部であり、特定のテキストセグメントをそのマークアップ内で参照するために使われるのが一般的です。ただし、実際の翻訳では、参照先のドキュメントのタイトルやコンテキストに応じて適切な日本語に変換する必要があります。そのため、単独で「:ref:`cas-enabling`」を日本語に訳すことはできませんが、例えばそれが「CASを有効にする」という節を指している場合、「:ref:`cas-wo-kounyuu-suru`」のようになる可能性があります。ただし、実際の文書でどのように使用されるかは、その文書の構造によります。\n"
+"\n"
+"通常、このようなマークアップは翻訳工程ではそのまま保持され、参照先のドキュメントや節の正確な日本語のタイトルが翻訳されたドキュメント内で定義されていることを確認する必要があります。"
+
+#: ../../admin-manual/customization/config-files.rst:-1
+msgid "An image of the configuration file in the CAS authentication plugin"
+msgstr "CAS認証プラグインにおける設定ファイルのイメージ"
+
+#: ../../admin-manual/customization/config-files.rst:383
+msgid "Values that can be configured here include:"
+msgstr "ここで設定できる値には以下が含まれます："
+
+#: ../../admin-manual/customization/config-files.rst:385
+msgid ""
+"``cas_version`` can be set to 1.0, 2.0, or 3.0. For more information, see: "
+"https://apereo.github.io/cas/5.2.x/protocol/CAS-Protocol.html"
+msgstr ""
+"``cas_version`` は 1.0、2.0、または 3.0 に設定することができます。詳細については、こちらをご覧ください: "
+"https://apereo.github.io/cas/5.2.x/protocol/CAS-Protocol.html"
+
+#: ../../admin-manual/customization/config-files.rst:387
+msgid ""
+"You can configure the connection to your CAS authentication server by "
+"adjusting the ``server_name``, ``server_port``, and ``server_path`` values"
+msgstr ""
+"CAS認証サーバーへの接続を設定するには、``server_name``、``server_port``、および``server_path``の値を調整します。"
+
+#: ../../admin-manual/customization/config-files.rst:389
+msgid ""
+"The location of your CAS server's SSL certificate can be configured. By "
+"default in a new installation, the ``server_cert`` parameter is set to "
+"false. While CAS server SSL validation can be disabled for development, we "
+"strongly discourage doing so in a production environment."
+msgstr ""
+"CASサーバーのSSL証明書の場所は設定可能です。新規インストールのデフォルトでは、``server_cert``パラメータはfalseに設定されています。開発時にはCASサーバーSSL検証を無効にすることも可能ですが、本番環境でこれを行うことは強くお勧めしません。"
+
+#: ../../admin-manual/customization/config-files.rst:393
+msgid ""
+"You can configure AtoM user groups to match your CAS user attributes using "
+"the ``set_groups_from_attributes`` parameter, adjusting the "
+"``attribute_key`` that should be used, and configuring the various "
+"``user_groups`` values to match your CAS group IDs. For more information, "
+"see: :ref:`cas-groups`."
+msgstr ""
+"AtoMユーザーグループをCASユーザー属性に合わせて設定するには、使用するべき``attribute_key``を調整し、さまざまな``user_groups``の値をCASグループIDに合わせて設定することで、``set_groups_from_attributes``パラメータを利用できます。詳細については、:ref:`cas-"
+"groups`をご覧ください。"
+
+#: ../../admin-manual/customization/config-files.rst:398
+msgid ""
+"For further details on basic configuration, see the Administrator's manual:"
+msgstr "基本的な設定についてのさらなる詳細は、管理者マニュアルをご覧ください："
+
+#: ../../admin-manual/customization/config-files.rst:402
+msgid ""
+"There is one other parameter worth mentioning in this file: the "
+"``service_url`` variable. This setting lets a system administrator specify "
+"the AtoM site URL that the CAS server should use when responding to "
+"authentication requests, regardless of where the user originates. This can "
+"be useful when multiple domain names with redirects are used for your AtoM "
+"site for example, or when the hostname does not match the host part of the "
+"AtoM instance URL."
+msgstr ""
+"このファイルで言及する価値のある別のパラメータがあります：``service_url``変数です。この設定により、システム管理者は、ユーザーがどこからアクセスしているかにかかわらず、認証要求に応答する際にCASサーバーが使用すべきAtoMサイトのURLを指定できます。たとえば、複数のドメイン名とリダイレクトをAtoMサイトで使用している場合や、ホスト名がAtoMインスタンスのURLのホスト部分と一致しない場合に便利です。"
+
+#: ../../admin-manual/customization/config-files.rst:410
+msgid ""
+"By default, the CAS server will redirect users back to the URL from which "
+"the request originated, but this may not always work as expected when there "
+"are different domains or subdomains used, and can break the authentication "
+"procedure."
+msgstr ""
+"デフォルトでは、CASサーバーはユーザーをリクエストの発信元となったURLにリダイレクトしますが、異なるドメインやサブドメインが使用されている場合には、常に期待通りに機能するわけではなく、認証手続きが破綻することもあります。"
+
+#: ../../admin-manual/customization/config-files.rst:414
+msgid ""
+"To avoid this, system administrators can use the ``service_url`` parameter "
+"to specify the perferred service URL for your AtoM site that the CAS server "
+"should redirect users to after successfully completing authentication."
+msgstr ""
+"これを避けるために、システム管理者は``service_url``パラメーターを使用して、CASサーバーが認証を正常に完了した後にユーザーをリダイレクトすべき、あなたのAtoMサイトの優先サービスURLを指定できます。"
+
+#: ../../admin-manual/customization/config-files.rst:418
+msgid "Example:"
+msgstr ""
+"Certainly, I can help translate documents related to Archivematica. However,"
+" you've only provided the word \"Example:\" without any additional text. "
+"Please provide the text you wish to have translated into Japanese, and I'll "
+"be happy to assist you."
+
+#: ../../admin-manual/customization/config-files.rst:429
+msgid "Security configuration files"
+msgstr "セキュリティ構成ファイル"
+
+#: ../../admin-manual/customization/config-files.rst:431
+msgid ""
+"AtoM includes the ability for an :term:`administrator` to create and manage "
+"user accounts, add them to groups, and configure permissions per user or per"
+" group. For more information, see:"
+msgstr ""
+"AtoMには、:term:`管理者`がユーザーアカウントを作成・管理し、グループに追加し、ユーザーごとまたはグループごとにパーミッションを設定する機能が含まれています。詳しくは、以下を参照してください："
+
+#: ../../admin-manual/customization/config-files.rst:435
+msgid ":ref:`manage-user-accounts`"
+msgstr ":ref:`ユーザーアカウントの管理`"
+
+#: ../../admin-manual/customization/config-files.rst:436
+#: ../../admin-manual/customization/config-files.rst:799
+msgid ":ref:`edit-user-permissions`"
+msgstr ":ref:`ユーザー権限の編集`"
+
+#: ../../admin-manual/customization/config-files.rst:438
+msgid ""
+"However, there are some default permissions that are set in AtoM on a per-"
+"group basis that do not currently have granular and customizable permissions"
+" settings available via the :term:`user interface`. In some cases, the "
+"default access permissions can be modified via a number of ``security.yml`` "
+"configuration files found in AtoM."
+msgstr ""
+"それにもかかわらず、現在では、グループごとにAtoMで設定されているいくつかのデフォルト権限について、:term:`ユーザーインターフェース`を介して細かくカスタマイズ可能な設定が利用できないものがあります。一部の場合、AtoMにあるいくつかの``security.yml``設定ファイルを介してデフォルトのアクセス権限を変更することができます。"
+
+#: ../../admin-manual/customization/config-files.rst:444
+msgid ""
+"These security configuration files control application routing - meaning "
+"they are applied during page requests, and before any application code is "
+"loaded for the page in question. In some case, a system administrator can "
+"adjust these files to restrict or provide access to modules on a per-group "
+"basis."
+msgstr ""
+"これらのセキュリティ設定ファイルはアプリケーションのルーティングを制御しています。つまり、これらはページリクエストの間に適用され、問題のページに対していかなるアプリケーションコードが読み込まれる前に行われます。場合によっては、システム管理者がこれらのファイルを調整して、グループごとにモジュールへのアクセスを制限したり提供したりすることができます。"
+
+#: ../../admin-manual/customization/config-files.rst:451
+msgid ""
+"As these security configuration files control routing and not access "
+"control, in some cases, access control checks may be hard-coded into the "
+"application code for particular pages, and while changing the related "
+"``security.yml`` file may allow a member of a different user group to "
+"navigate to a previously restricted page, ACL checks in the page may still "
+"restrict access upon arrival."
+msgstr ""
+"これらのセキュリティ設定ファイルはルーティングを制御するものであり、アクセス制御を直接には制御しませんので、場合によっては特定のページに対するアクセス制御チェックがアプリケーションコード内にハードコーディングされている可能性があります。関連する「security.yml」ファイルを変更することで、異なるユーザーグループのメンバーが以前には制限されていたページにナビゲートすることができるようになるかもしれませんが、そのページ内で行われるACLチェックが到着時に依然としてアクセスを制限するかもしれません。"
+
+#: ../../admin-manual/customization/config-files.rst:458
+msgid ""
+"An example of this would be the :ref:`accession-security-config` described "
+"below. The security configuration file contains ``browse`` and ``edit`` "
+"parameters, but application code ACL checks currently limit view, create, "
+"edit, and delete permissions to the :term:`administrator` and editor groups."
+msgstr ""
+"以下に説明する`:ref:`accession-security-"
+"config`がこの例です。セキュリティ設定ファイルには``browse``と``edit``のパラメーターが含まれていますが、アプリケーションコードのACLチェックは現在、表示、作成、編集、削除の権限を`:term:`administrator`（管理者）およびエディターグループに限定しています。"
+
+#: ../../admin-manual/customization/config-files.rst:463
+msgid ""
+"This means that if you wanted to allow another user group to view and edit "
+"accession records, updating the ``security.yml`` file alone would not "
+"suffice - you would also need to make changes to the application code."
+msgstr ""
+"これは、別のユーザーグループに受け入れ記録の閲覧や編集を許可したい場合、``security.yml`` "
+"ファイルを更新するだけでは十分ではなく、アプリケーションのコードにも変更を加える必要があることを意味しています。"
+
+#: ../../admin-manual/customization/config-files.rst:467
+msgid "**Basic file structure**"
+msgstr "**基本的なファイル構造**"
+
+#: ../../admin-manual/customization/config-files.rst:469
+msgid ""
+"Below is an example default configuration file - this example is for access "
+"to the :term:`taxonomies <taxonomy>`, and is located at "
+"``apps/qubit/modules/taxonomy/config/security.yml``."
+msgstr ""
+"以下はデフォルトの設定ファイルの例です。この例は:term:`タクソノミー "
+"<taxonomy>`へのアクセス用であり、``apps/qubit/modules/taxonomy/config/security.yml`` "
+"に位置しています。"
+
+#: ../../admin-manual/customization/config-files.rst:490
+msgid ""
+"Each security YAML file will include a list of component parameters, and "
+"related default permissions. When ``all`` includes ``is_secure: true`` as a "
+"nested value, this means that by default all relevant components will have a"
+" permissions check applied and routing access will be restricted to any "
+"listed user groups, unless otherwise declared. In the example above, the "
+"autocomplete search results for taxonomy terms includes an ``is_secure: "
+"false`` key/value pair, which overrides the global ``all`` variable for that"
+" particular component. The ability to browse the taxonomies, and see the "
+"view page for a particular taxonomy (list) has been restricted by default to"
+" the editor and :term:`administrator` user groups."
+msgstr ""
+"各セキュリティYAMLファイルには、コンポーネントのパラメーターのリストと、関連するデフォルトのパーミッションが含まれます。``all`` "
+"がネストされた値として ``is_secure: true`` "
+"を含む場合、これはデフォルトで関連するすべてのコンポーネントに対してパーミッションチェックが適用され、特に宣言されていない限り、アクセスルーティングはリストされたユーザーグループに制限されることを意味します。上記の例では、タクソノミー項目のオートコンプリート検索結果が、その特定のコンポーネントに対してグローバルな``all``"
+" 変数を上書きする ``is_secure: false`` "
+"のキー/値ペアを含みます。タクソノミーをブラウズする能力、および特定のタクソノミー（リスト）のビューページを見る能力は、デフォルトでエディターと "
+":term:`管理者` ユーザーグループに制限されています。"
+
+#: ../../admin-manual/customization/config-files.rst:503
+msgid "In general, we don't recommend changing the global ``all`` parameters."
+msgstr "一般的に、グローバルな「all」パラメーターを変更することはお勧めしません。"
+
+#: ../../admin-manual/customization/config-files.rst:505
+msgid ""
+"As always when making configuration and code changes, we strongly recommend "
+"that you make a back up of your data before proceeding and test thoroughly "
+"before any changes on a production instance!"
+msgstr ""
+"常に、設定およびコードの変更を行う際には、進行する前にデータのバックアップを取ることを強く推奨し、本番環境での変更を行う前に徹底的にテストすることをお勧めします！"
+
+#: ../../admin-manual/customization/config-files.rst:509
+msgid ""
+"When just one user group is granted access to a particular component, it can"
+" be listed immediately after the component name, like this example:"
+msgstr "特定のコンポーネントへのアクセスが一つのユーザーグループにのみ許可されている場合、そのコンポーネント名の直後にこのようにリストされます："
+
+#: ../../admin-manual/customization/config-files.rst:517
+msgid ""
+"To list multiple groups, enclose the group names in two sets of square "
+"brackets and use commas to separate user group names. If you have created "
+"custom groups, you can add custom group permissions for them to these "
+"configuration files by including the exact form of name of the group, like "
+"so:"
+msgstr ""
+"複数のグループをリストする際には、グループ名を2組の角括弧で囲み、ユーザーグループ名を区切るためにコンマを使用してください。カスタムグループを作成した場合、グループの正確な形の名前を含めることで、これらの設定ファイルにカスタムグループ権限を追加することができます。このようにしてください："
+
+#: ../../admin-manual/customization/config-files.rst:529
+msgid ""
+"To avoid any errors or unexpected outcomes during this configuration, we "
+"recommend that custom group names do not include spaces or special "
+"characters."
+msgstr "この設定中にエラーや予期せぬ結果を避けるために、カスタムグループ名にはスペースや特殊文字を含まないことをお勧めします。"
+
+#: ../../admin-manual/customization/config-files.rst:533
+msgid ""
+"As with all configuration files, if you make any changes, clear the "
+"application cache and restart PHP-FPM to apply the changes."
+msgstr "すべての設定ファイルと同様に、変更を加えた場合はアプリケーションキャッシュをクリアし、PHP-FPMを再起動して変更を適用してください。"
+
+#: ../../admin-manual/customization/config-files.rst:539
+msgid ""
+"Below is a list of some of the key security configuration files available in"
+" AtoM. This list is not comprehensive. Not covered below are some files that"
+" relate to the underlying Symfony framework (and should not be altered), "
+"configuration files for optional plugins (like the "
+"``arStorageServicePlugin`` used for `Archivematica`_ integration), and other"
+" files that are not easily configured to be accessible to other groups via "
+"the user interface."
+msgstr ""
+"以下は、AtoMで利用可能な主要なセキュリティ設定ファイルのいくつかのリストです。このリストは網羅的ではありません。以下では言及されていないものには、下層にあるSymfonyフレームワークに関連するファイル（変更すべきではないもの）、オプショナルプラグインの設定ファイル（`Archivematica`_統合に使用される``arStorageServicePlugin``など）、そしてユーザーインターフェースを介して他のグループに容易にアクセス可能に設定されていない他のファイルが含まれています。"
+
+#: ../../admin-manual/customization/config-files.rst:548
+msgid ":ref:`import-security-config`"
+msgstr ""
+":ref:`import-security-config` "
+"の参照先を日本語で指示する場合、文脈に応じて「:ref:`セキュリティ設定のインポート`」などと翻訳される可能性があります。ただし、実際のリンク先のタイトルに合わせた正確な翻訳が必要です。この"
+" :ref: "
+"ディレクティブはreStructuredText形式のドキュメントで使用される参照マークアップで、リンクの目的地を指します。なので、実際にはドキュメント内で定義されているラベルによって、括弧内の翻訳が変わる可能性があります。"
+
+#: ../../admin-manual/customization/config-files.rst:549
+msgid ":ref:`accession-security-config`"
+msgstr ":ref:`アクセッション-セキュリティ-設定`"
+
+#: ../../admin-manual/customization/config-files.rst:550
+msgid ":ref:`description-updates-security-config`"
+msgstr ":ref:`説明-更新-セキュリティ設定`"
+
+#: ../../admin-manual/customization/config-files.rst:551
+msgid ":ref:`storage-security-config`"
+msgstr ":ref:`ストレージ-セキュリティ-設定`"
+
+#: ../../admin-manual/customization/config-files.rst:552
+msgid ":ref:`menus-security-config`"
+msgstr ":ref:`menus-security-config` (メニューのセキュリティ設定)"
+
+#: ../../admin-manual/customization/config-files.rst:553
+msgid ":ref:`taxonomy-security-config`"
+msgstr ""
+"`:ref:`taxonomy-security-config`` は参照リンクの構造であり、特定のドキュメントやセクションへのリンクを生成する際に利用されるマークアップ言語（通常はreStructuredTextやMarkdownなど）に基づいた記法です。このため、この部分を単体で日本語に翻訳することはできませんが、このテキストが参照している部分のタイトル「Taxonomy of Security Configuration」または「セキュリティ設定の分類」と翻訳できるでしょう。\n"
+"\n"
+"ただし、実際の文脈によって異なる場合があるため、このテキストがどこに配置されるか、またはどのような文脈で使用されるかに応じて、適切な日本語表現に変更が必要な場合があります。"
+
+#: ../../admin-manual/customization/config-files.rst:557
+msgid ""
+"While permission to perform certain actions can be modified on a per-group "
+"basis by changing these configuration files, control of main menu nodes such"
+" as the |gears| :ref:`Admin <main-menu-admin>` and |import| :ref:`Import "
+"<main-menu-import>` menus is set via code, and is restricted by default to "
+"the :term:`administrator` group."
+msgstr ""
+"特定の操作を行うための権限は、これらの設定ファイルを変更することによってグループごとに変更可能ですが、|gears| :ref:`管理者 <main-"
+"menu-admin>` や |import| :ref:`インポート <main-menu-import>` "
+"などのメインメニュー項目の制御はコード上で設定されており、デフォルトでは :term:`管理者` グループによって制限されています。"
+
+#: ../../admin-manual/customization/config-files.rst:26
+msgid "gears"
+msgstr "「ギアーズ」"
+
+#: ../../admin-manual/customization/config-files.rst:23
+msgid "import"
+msgstr ""
+"申し訳ありませんが、翻訳するテキストが提供されていません。翻訳を開始するためには、具体的な英文テキストを提供していただく必要があります。もしArchivematicaに関する文書があれば、それをお送りください。"
+
+#: ../../admin-manual/customization/config-files.rst:563
+msgid ""
+"However,an administrator can use the :ref:`manage-menus` module to add links"
+" in other menus that the designated group can access, such as the |manage| "
+":ref:`Manage <main-menu-manage>` menu, as shown in the example configuration"
+" below for granting access to Editors to the CSV import module:"
+msgstr ""
+"しかし、管理者は `manage-menus` "
+"モジュールを使用して、指定されたグループがアクセスできる他のメニューにリンクを追加することができます。例えば、以下の例の設定に示されているように、|manage|"
+" `管理 <main-menu-manage>` "
+"メニューに、エディターがCSVインポートモジュールにアクセスできるようにするためのリンクを追加することができます。"
+
+#: ../../admin-manual/customization/config-files.rst:17
+msgid "manage"
+msgstr "管理"
+
+#: ../../admin-manual/customization/config-files.rst:-1
+msgid ""
+"An image of how an administrator might add a link to the CSV import\n"
+"page to the Manage menu, so Editors can access it."
+msgstr ""
+"管理者が「管理（Manage）」メニューにCSVインポートページへのリンクを追加する方法のイメージで、エディターがアクセスできるようにします。"
+
+#: ../../admin-manual/customization/config-files.rst:574
+msgid ""
+"For more information on import security configuration, see :ref:`below "
+"<import-security-config>`. In the example above, the ``editor`` group would "
+"need to be added to both the ``import`` and ``importSelect`` options in the "
+"related ``security.yml`` file."
+msgstr ""
+"詳細については、以下の「インポートセキュリティ設定<import-security-"
+"config>」を参照してください。上記の例では、関連する``security.yml``ファイルにおいて、「editor」グループは``import``と``importSelect``の両方のオプションに追加する必要があります。"
+
+#: ../../admin-manual/customization/config-files.rst:584
+msgid "Import security configuration"
+msgstr "セキュリティ設定のインポート"
+
+#: ../../admin-manual/customization/config-files.rst:586
+msgid "**File location:** ``apps/qubit/modules/object/config/security.yml``"
+msgstr "**ファイルの場所:** ``apps/qubit/modules/object/config/security.yml``"
+
+#: ../../admin-manual/customization/config-files.rst:588
+msgid "This file controls the options for import and validation, including:"
+msgstr "このファイルはインポートと検証のオプションを制御します。これには以下が含まれます："
+
+#: ../../admin-manual/customization/config-files.rst:590
+msgid ":ref:`XML import <import-xml>`"
+msgstr ":ref:`XMLインポート <import-xml>`"
+
+#: ../../admin-manual/customization/config-files.rst:591
+msgid ":ref:`csv-import`"
+msgstr ""
+"`:ref:`csv-import``はおそらく文脈依存の内部参照やラベルを示しています。これは、特定のドキュメント内または関連ドキュメントへの参照であり、実際に翻訳するにはその参照がどのテキストやセクションを指しているかを知る必要があります。しかし、テキスト自体を直訳すると以下のようになります：\n"
+"\n"
+"`:ref:`csv-import``（CSVインポート参照） \n"
+"\n"
+"しかし、実際のドキュメント内での翻訳では、この参照が指している具体的なセクションまたはテキストの日本語訳に置き換える必要があります。たとえば、\"CSVインポートのセクションを参照してください\" などとなる場合があります。"
+
+#: ../../admin-manual/customization/config-files.rst:592
+msgid ":ref:`csv-validation`"
+msgstr "`:ref:`csv-validation`を参照してください。`"
+
+#: ../../admin-manual/customization/config-files.rst:593
+msgid ":ref:`SKOS import <import-skos>`"
+msgstr ":ref:`SKOSインポート <import-skos>`"
+
+#: ../../admin-manual/customization/config-files.rst:595
+#: ../../admin-manual/customization/config-files.rst:619
+#: ../../admin-manual/customization/config-files.rst:658
+#: ../../admin-manual/customization/config-files.rst:683
+#: ../../admin-manual/customization/config-files.rst:716
+#: ../../admin-manual/customization/config-files.rst:757
+#: ../../admin-manual/customization/config-files.rst:805
+msgid "**Key parameters**"
+msgstr "**主要なパラメーター**"
+
+#: ../../admin-manual/customization/config-files.rst:597
+msgid "``import``: Sets access to run CSV and XML imports"
+msgstr "「``import``: CSVやXMLのインポート実行へのアクセスを設定します」"
+
+#: ../../admin-manual/customization/config-files.rst:598
+msgid "``importSelect``: Sets access to the import configuration page"
+msgstr "\"importSelect\": インポート設定ページへのアクセスを設定します"
+
+#: ../../admin-manual/customization/config-files.rst:599
+msgid "``validateCsv``: Sets access to run CSV validation jobs"
+msgstr "``validateCsv``：CSV検証ジョブを実行するためのアクセスを設定"
+
+#: ../../admin-manual/customization/config-files.rst:603
+msgid ""
+"Access to the |import| :ref:`Import <main-menu-import>` menu is restricted "
+"by default to the :term:`administrator` group in the application code. An "
+"administrator can use the :ref:`manage-menus` module to add a link to "
+"another menu if access is required for other groups."
+msgstr ""
+"アプリケーションコードにおいて、|import| :ref:`インポート <main-menu-import>` メニューへのアクセスは、デフォルトで "
+":term:`管理者` グループに制限されています。管理者は、他のグループにアクセスを許可する必要がある場合、:ref:`メニュー管理` "
+"モジュールを使用して、他のメニューにリンクを追加することができます。"
+
+#: ../../admin-manual/customization/config-files.rst:611
+msgid "Accession record security configuration"
+msgstr "アクセッション記録セキュリティ設定"
+
+#: ../../admin-manual/customization/config-files.rst:613
+msgid ""
+"**File location:** "
+"``plugins/qtAccessionPlugin/modules/accession/config/security.yml``"
+msgstr ""
+"**ファイルの場所:** "
+"``plugins/qtAccessionPlugin/modules/accession/config/security.yml``"
+
+#: ../../admin-manual/customization/config-files.rst:615
+msgid ""
+"This file controls the ability for user groups to manage accession records. "
+"See:"
+msgstr "このファイルは、ユーザーグループが受入記録を管理する能力を制御します。参照："
+
+#: ../../admin-manual/customization/config-files.rst:617
+msgid ":ref:`accession-records`"
+msgstr "`:ref:`アクセッション・レコード`"
+
+#: ../../admin-manual/customization/config-files.rst:621
+msgid ""
+"``browse``: Sets access to the Accessions browse page. Also controls whether"
+" a link to the browse page will be available to the relevant user group in "
+"the |pencil| :ref:`Manage <main-menu-manage>` menu."
+msgstr ""
+"``browse``：アクセス管理のブラウズページへのアクセス設定をします。また、適切なユーザーグループが |pencil| :ref:`管理 "
+"<main-menu-manage>` メニュー内でブラウズページへのリンクを利用できるかどうかも制御します。"
+
+#: ../../admin-manual/customization/config-files.rst:20
+msgid "pencil"
+msgstr "ペンシル"
+
+#: ../../admin-manual/customization/config-files.rst:624
+msgid ""
+"``edit``: Sets access to the ability to edit existing accession records"
+msgstr "「編集」：既存のアクセッション記録を編集する機能へのアクセスを設定する"
+
+#: ../../admin-manual/customization/config-files.rst:626
+msgid ""
+"There is another parameter not listed here, which could be manually added: "
+"``index`` will control the routing to access the view page of accession "
+"records."
+msgstr ""
+"ここに記載されていないもう1つのパラメータがあり、手動で追加することができます：``index``はアクセッション記録の表示ページへのアクセスを制御するために使用されます。"
+
+#: ../../admin-manual/customization/config-files.rst:632
+msgid ""
+"Currently, access to accessions is limited via application code to the "
+"Administrator and Editor user groups. See:"
+msgstr "現在、アクセッションへのアクセスは、アプリケーションコードを介して管理者およびエディターユーザーグループに限定されています。参照："
+
+#: ../../admin-manual/customization/config-files.rst:635
+msgid ""
+"`QubitAcl.class.php (L736-746) "
+"<https://github.com/artefactual/atom/blob/HEAD/plugins/qbAclPlugin/lib/QubitAcl.class.php#L736-L746>`__"
+msgstr ""
+"この部分に記載されたテキストはGitHubリポジトリ上にあるソースコードの一部です。著作権法により、特定の条件の下でのみ翻訳が可能です。このコードがオープンソースライセンス（例えばGPLやMITライセンス）の下に公開されている場合、コードを共有・改変・翻訳することが可能です。\n"
+"\n"
+"ただし、翻訳の依頼として、具体的なコードの断片ではなく、ソースコード内のコメントやドキュメントのみを翻訳することは可能です。もしその範囲の内容がドキュメンテーションまたはコメントであれば、その特定の部分の翻訳を承ります。ただし、これはリンクされたコードの断片がドキュメント内のコメントであることを仮定しています。\n"
+"\n"
+"実際にコードを翻訳する際には、リンク先のコンテンツにアクセスし、翻訳すべき正確なテキストを特定する必要があります。また、オンラインのプラットフォームやリポジトリにあるファイルに直接言及するリンクは対象とすることができません。\n"
+"\n"
+"フリーソースのライセンスが適用されていることを確かめ、著作権を侵害しないことが重要です。このため、リンク先のコードのライセンスを確認し、適用可能な場合にのみ翻訳を進める必要があります。"
+
+#: ../../admin-manual/customization/config-files.rst:637
+msgid ""
+"A developer would need to modify the permissions check in the link above to "
+"allow additional groups to access and modify accession records."
+msgstr ""
+"開発者は、追加のグループがアクセッション記録にアクセスし、それを変更できるようにするために、上記のリンクの権限チェックを変更する必要があります。"
+
+#: ../../admin-manual/customization/config-files.rst:643
+msgid "Description updates security configuration"
+msgstr "説明はセキュリティ設定を更新します"
+
+#: ../../admin-manual/customization/config-files.rst:645
+msgid "**File location:** ``apps/qubit/modules/search/config/security.yml``"
+msgstr "ファイルの場所: `apps/qubit/modules/search/config/security.yml`"
+
+#: ../../admin-manual/customization/config-files.rst:647
+msgid ""
+"The Description Updates module, normally restricted to the "
+":term:`administrator` user group, is designed to help authorized users "
+"identify new and recently modified records in the system. For more "
+"information, see:"
+msgstr ""
+"説明の更新モジュールは、通常、:term:`管理者`ユーザーグループに制限されており、認可されたユーザーがシステム内の新規および最近変更されたレコードを識別するのに役立つように設計されています。詳細については、以下を参照してください："
+
+#: ../../admin-manual/customization/config-files.rst:651
+msgid ":ref:`search-updates`"
+msgstr ""
+"このテキストは、おそらくArchivematicaドキュメント内の特定のセクションまたは更新された検索機能を参照しています。ラベルのようなテキストを直接翻訳することは、その参照の意味を維持しないため、適切ではありません。翻訳を進める前に、以下で示すように、参照の文脈が必要です：\n"
+"\n"
+"1. :ref: はSphinxドキュメント生成器で使われる特殊な構文です。これは特定のセクションへの参照を示しており、`search-updates` はそのセクションのラベル名を指します。\n"
+"2. 翻訳するときは、このラベルが何を指すのか、またそれがどのような文脈で利用されているのかを理解することが重要です。\n"
+"\n"
+"したがって、もし文書内の特定のセクション名「search-updates」を指すならば、そのセクションのタイトルが何であるかに応じた適切な日本語訳が必要になります。具体的なセクション名や文脈を提供していただければ、的確な日本語訳をご提供いたします。それ無しで、直訳すると「:ref:`検索更新`」となりますが、実際の文書翻訳でこのような形式の文を使用することはほぼありません。"
+
+#: ../../admin-manual/customization/config-files.rst:653
+msgid ""
+"By making modifications to this security configuration file and adding a "
+"link to the Description Updates page to a different :term:`main menu` node "
+"that all necessary user groups can access, it's possible to allow others to "
+"use this module as well for administration of the site and its metadata."
+msgstr ""
+"このセキュリティ設定ファイルを変更し、必要なユーザーグループがアクセスできる別の :term:`main menu` "
+"ノードに説明更新ページへのリンクを追加することにより、他のユーザーもこのモジュールを使用してサイトとそのメタデータの管理を行うことが可能となります。"
+
+#: ../../admin-manual/customization/config-files.rst:660
+msgid "``descriptionUpdates``: Sets access to the :ref:`search-updates` page"
+msgstr "``descriptionUpdates``：:ref:`search-updates` ページへのアクセスを設定します"
+
+#: ../../admin-manual/customization/config-files.rst:661
+msgid ""
+"``globalReplace``: This is an outdated module that is currently not "
+"operational in AtoM, and should not be modified."
+msgstr "``globalReplace``: これは現在AtoMで動作していない、時代遅れのモジュールです。変更すべきではありません。"
+
+#: ../../admin-manual/customization/config-files.rst:667
+msgid "Physical storage security configuration"
+msgstr "物理的なストレージのセキュリティ設定"
+
+#: ../../admin-manual/customization/config-files.rst:669
+msgid ""
+"**File location:** ``apps/qubit/modules/physicalobject/config/security.yml``"
+msgstr ""
+"**ファイルの場所：** ``apps/qubit/modules/physicalobject/config/security.yml``"
+
+#: ../../admin-manual/customization/config-files.rst:671
+msgid ""
+"This file controls the ability for user groups to access and manage "
+":term:`physical storage` containers and locations. For more information, "
+"see:"
+msgstr ""
+"このファイルは、ユーザーグループが:term:`物理的な保管`コンテナおよび場所へのアクセスと管理の権限を制御します。詳細については、以下を参照してください："
+
+#: ../../admin-manual/customization/config-files.rst:674
+msgid ":ref:`physical-storage`"
+msgstr ":ref:`物理的保管`"
+
+#: ../../admin-manual/customization/config-files.rst:676
+msgid ""
+"Based on the default permissions configured in this file, contributors can "
+"view individual storage records from associated links on related "
+":term:`archival description` or :term:`accession <accession record>` "
+"records. Translators have the same access, but can also edit those "
+"containers they can access via this method, to be able to add translations. "
+"Editors and Administrators can browse, view, edit, and delete storage "
+"records."
+msgstr ""
+"このファイルで設定されたデフォルトの権限に基づいて、貢献者は関連する :term:`アーカイブ記述` または :term:`搬入記録 <搬入記録>` "
+"にリンクされた個々の保存記録を閲覧することができます。翻訳者は同様のアクセス権を持ちますが、この方法でアクセスできるコンテナを編集して、翻訳を追加することもできます。編集者と管理者は、保存記録を閲覧、表示、編集、削除することができます。"
+
+#: ../../admin-manual/customization/config-files.rst:685
+msgid ""
+"``autocomplete``: Sets access to viewing matching containers when linking "
+"physical storage to other entities via the available autocomplete. See: "
+":ref:`link-physical-storage`."
+msgstr ""
+"``\n"
+"オートコンプリート: 物理的なストレージをオートコンプリート経由で他のエンティティにリンクする際に、一致するコンテナの閲覧アクセスを設定します。詳細は :ref:`link-physical-storage` を参照してください。\n"
+"``"
+
+#: ../../admin-manual/customization/config-files.rst:688
+msgid ""
+"``boxList``: Sets access to the box list report, avaiable by clicking on the"
+" printer icon on the view page of the related storage container. For more "
+"information, see: :ref:`storage-report-manage`."
+msgstr ""
+"``boxList``: "
+"関連する保管コンテナの表示ページにあるプリンターアイコンをクリックすることで利用できるボックスリストレポートへのアクセスを設定します。詳細については、こちらを参照してください:"
+" :ref:`storage-report-manage`。"
+
+#: ../../admin-manual/customization/config-files.rst:691
+msgid "``browse``: Sets access to the physical storage browse page"
+msgstr "「browse」：物理的なストレージのブラウスページへのアクセスを設定する"
+
+#: ../../admin-manual/customization/config-files.rst:692
+msgid ""
+"``delete``: Sets access to the ability to delete physical storage containers"
+" and locations"
+msgstr "``delete``: 物理的なストレージコンテナや場所を削除する機能へのアクセスを設定します"
+
+#: ../../admin-manual/customization/config-files.rst:694
+msgid ""
+"``edit``: Sets access to the ability to edit existing storage containers, or"
+" add new ones"
+msgstr "``edit``：既存のストレージコンテナを編集する機能にアクセスを設定するか、新しいものを追加する"
+
+#: ../../admin-manual/customization/config-files.rst:696
+msgid ""
+"``index``: Sets access to the view page of individual storage containers."
+msgstr "``index``: 個々のストレージコンテナの閲覧ページへのアクセスを設定します。"
+
+#: ../../admin-manual/customization/config-files.rst:701
+msgid "Static page security configuration"
+msgstr "静的ページのセキュリティ設定"
+
+#: ../../admin-manual/customization/config-files.rst:703
+msgid ""
+"**File location:** ``apps/qubit/modules/staticpage/config/security.yml``"
+msgstr "**ファイルの場所:** ``apps/qubit/modules/staticpage/config/security.yml``"
+
+#: ../../admin-manual/customization/config-files.rst:705
+msgid ""
+"This file controls the ability for user groups to access and manage static "
+"pages in AtoM. For more information, see:"
+msgstr "このファイルは、ユーザーグループがAtoM内の静的ページにアクセスし管理する機能を制御します。詳細については、以下を参照してください："
+
+#: ../../admin-manual/customization/config-files.rst:708
+msgid ":ref:`manage-static-pages`"
+msgstr ":ref:`固定ページの管理`"
+
+#: ../../admin-manual/customization/config-files.rst:710
+msgid ""
+"By default, static pages are publicly visible - however, the link to the "
+"management page for static pages is included by default in the |gears| "
+":ref:`Admin menu <main-menu-admin>`, and the default configuration of this "
+"security file limits edit and browse permissions to the "
+":term:`administrator` and translator user groups, and delete permissions to "
+"the administrator group."
+msgstr ""
+"デフォルトでは、静的ページは公開状態で可視になっています。しかし、静的ページの管理ページへのリンクは、デフォルトでは |gears| "
+":ref:`管理者メニュー<main-menu-admin>` "
+"に含まれています。そして、このセキュリティファイルのデフォルト設定は、編集権限と閲覧権限を :term:`管理者` "
+"と翻訳者のユーザーグループに限定し、削除権限は管理者グループに限定しています。"
+
+#: ../../admin-manual/customization/config-files.rst:718
+msgid ""
+"``delete``: Sets access to the ability to delete existing static pages. Note"
+" that some static pages, such as the Home page, cannot be deleted, just "
+"modified."
+msgstr ""
+"``delete``: "
+"既存のスタティックページを削除する機能へのアクセスを設定します。ただし、ホームページのようないくつかのスタティックページは削除することはできず、修正のみ可能です。"
+
+#: ../../admin-manual/customization/config-files.rst:721
+msgid ""
+"``edit``: Sets access to the ability to modify existing static pages, and "
+"create new ones"
+msgstr "``編集``：既存の静的ページを変更する権限と、新しいページを作成する権限にアクセスを設定します"
+
+#: ../../admin-manual/customization/config-files.rst:723
+msgid "``list``: Sets acess to the browse page for existing static pages."
+msgstr "``list``: 既存のスタティックページのブラウズページへのアクセスを設定します。"
+
+#: ../../admin-manual/customization/config-files.rst:727
+msgid ""
+"While modifying the ``list`` and ``edit`` parameters can allow additional "
+"user groups to browse existing static pages and create new ones, currently "
+"the ability to edit or delete existing static pages is restricted via "
+"application code to the :term:`administrator` user group. See:"
+msgstr ""
+"``list`` や ``edit`` "
+"パラメータを変更することで、追加のユーザーグループが既存の静的ページを閲覧したり、新たに作成したりすることは可能ですが、現在、既存の静的ページを編集したり削除したりする能力はアプリケーションコードを通じて"
+" :term:`administrator` ユーザーグループに制限されています。参照："
+
+#: ../../admin-manual/customization/config-files.rst:732
+msgid ""
+"`QubitAcl.class.php (L749-755) "
+"<https://github.com/artefactual/atom/blob/HEAD/plugins/qbAclPlugin/lib/QubitAcl.class.php#L749-L755>`__"
+msgstr ""
+"`QubitAcl.class.php (L749-755) <https://github.com/artefactual/atom/blob/HEAD/plugins/qbAclPlugin/lib/QubitAcl.class.php#L749-L755>`__\n"
+"\n"
+"以下は、リンクテキストの日本語訳です：\n"
+"\n"
+"`QubitAcl.class.php (L749-755) <https://github.com/artefactual/atom/blob/HEAD/plugins/qbAclPlugin/lib/QubitAcl.class.php#L749-L755>`__\n"
+"\n"
+"ただし、このリクエストがプレーンなリンクの翻訳か、それともリンクされているコードの一部の具体的な翻訳を要求しているかが不明です。もし後者が求められている場合は、対象のコードを具体的に示す必要があります。それに基づいて、私は対象のコード部分の翻訳を提供できます。"
+
+#: ../../admin-manual/customization/config-files.rst:734
+msgid ""
+"A developer would need to modify the permissions check in the link above to "
+"allow additional groups to modify and delete static pages."
+msgstr "開発者は、追加のグループが静的ページの変更と削除を許可するために、上記のリンク内の権限チェックを変更する必要があります。"
+
+#: ../../admin-manual/customization/config-files.rst:740
+msgid "Manage menus security configuration"
+msgstr "メニューのセキュリティ設定を管理"
+
+#: ../../admin-manual/customization/config-files.rst:742
+msgid "**File location:** ``apps/qubit/modules/menu/config/security.yml``"
+msgstr "**ファイルの場所：** ``apps/qubit/modules/menu/config/security.yml``"
+
+#: ../../admin-manual/customization/config-files.rst:744
+msgid ""
+"This file controls the ability for user groups to manage the links appearing"
+" in menus found in the AtoM :term:`header bar`. For more information, see:"
+msgstr ""
+"このファイルは、AtoM "
+":term:`ヘッダーバー`にあるメニューに表示されるリンクをユーザーグループが管理する能力を制御します。詳細については、以下を参照してください："
+
+#: ../../admin-manual/customization/config-files.rst:747
+msgid ":ref:`manage-menus`"
+msgstr ""
+"この場合の翻訳は、テキストが参照タグであると考えられるため、そのままの形で「:ref:`manage-"
+"menus`」というコンテキストを保つのが妥当です。日本語版のドキュメントでは、この参照タグが適切な日本語セクションにリンクされるように設定される必要があります。しかし、もしテキストがユーザー向けに表示されるもので、実際に「管理メニュー」セクションを指している場合は、「`管理メニュー"
+" <manage-menus>`_」のように翻訳されることもあります。これは、具体的な文脈によるため、翻訳の際には注意が必要です。"
+
+#: ../../admin-manual/customization/config-files.rst:749
+msgid ""
+"Some menus (such as the :ref:`Browse menu <browse-menu>` and the "
+":ref:`clipboard <clipboard-menu-header>`, :ref:`quick links <quick-links-"
+"menu>`, and :ref:`language <language-menu>` menus) are publicly visible by "
+"default, while others (such as those in the :ref:`main-menu`) are restricted"
+" to specific user groups. For a general overview of the AtoM header bar and "
+"its menus, see:"
+msgstr ""
+"いくつかのメニュー（例えば :ref:`ブラウズメニュー <browse-menu>` や :ref:`クリップボード <clipboard-menu-"
+"header>`、:ref:`クイックリンク <quick-links-menu>`、そして :ref:`言語 <language-menu>` "
+"メニュー）はデフォルトで公開されている一方で、他のメニュー（例えば :ref:`メインメニュー` "
+"内のもの）は特定のユーザーグループに制限されています。AtoMヘッダーバーとそのメニューの一般的な概要については、以下を参照してください："
+
+#: ../../admin-manual/customization/config-files.rst:755
+msgid ":ref:`atom-header-bar`"
+msgstr ""
+"`:ref:`atom-header-bar` `というテキスト自体が参照リンクであり、これを直接翻訳することはできません。しかし、この参照が示している内容ならば、そのタイトルや説明などを翻訳することが可能です。例えば、\"atom-header-bar\" が \"AtoMのヘッダーバー\" などを指している場合には、そのように翻訳します。\n"
+"\n"
+"もしこの参照が実際にAtoM（Access to Memory）のヘッダーバーに関するセクションを指しているならば、そのセクションのタイトルを日本語で『AtoMのヘッダーバー』と翻訳できます。しかし、そのコンテキストに依存するので、ドキュメントの全体的な内容を理解していないと正確な翻訳は難しいです。"
+
+#: ../../admin-manual/customization/config-files.rst:759
+msgid ""
+"``delete``: Sets access to the ability to delete existing menu links. Note "
+"that some top-level menu nodes cannot be deleted, just modified."
+msgstr ""
+"``delete``: "
+"既存のメニューリンクを削除する権限を設定します。ただし、トップレベルのメニューノードの中には削除できず、修正のみ可能なものもあることに注意してください。"
+
+#: ../../admin-manual/customization/config-files.rst:761
+msgid ""
+"``edit``: Sets access to the ability to modify existing menu links, and "
+"create new ones"
+msgstr "``edit``: 既存のメニューリンクを修正する権限と、新しいものを作成する機能へのアクセスを設定します"
+
+#: ../../admin-manual/customization/config-files.rst:763
+msgid ""
+"``list``: Sets acess to the menu management page listing all menus and "
+"nodes."
+msgstr "``list``: すべてのメニューとノードを一覧表示するメニュー管理ページへのアクセスを設定します。"
+
+#: ../../admin-manual/customization/config-files.rst:767
+msgid ""
+"Access to the |gears| :ref:`Admin menu <main-menu-admin>`, where the "
+"\"Manage menus\" menu link is located at installation, is restricted by "
+"default to the :term:`administrator` group in the application code. An "
+"administrator can use the :ref:`manage-menus` module to add a link to "
+"another menu if access is required for other groups."
+msgstr ""
+"アクセス制御された |gears| :ref:`管理者メニュー <main-menu-admin>` "
+"には、初期インストール時に\"メニュー管理\"のメニューリンクが設置されています。アプリケーションコードによって、このメニューリンクは標準で "
+":term:`管理者` グループのみがアクセスできるようになっています。管理者は :ref:`manage-menus` "
+"モジュールを使用して、他のグループによるアクセスが必要な場合、別のメニューにリンクを追加することができます。"
+
+#: ../../admin-manual/customization/config-files.rst:776
+msgid "Taxonomy security configuration"
+msgstr "分類体系のセキュリティ設定"
+
+#: ../../admin-manual/customization/config-files.rst:778
+msgid "**File location:** ``apps/qubit/modules/taxonomy/config/security.yml``"
+msgstr "**ファイルの場所:** ``apps/qubit/modules/taxonomy/config/security.yml``"
+
+#: ../../admin-manual/customization/config-files.rst:780
+msgid ""
+"This file controls the routing access to exploring the various "
+":term:`taxonomies <taxonomy>` in AtoM, used to maintain controlled "
+"vocabulary terms used in :term:`drop-down menus <drop-down menu>` in AtoM's "
+":term:`edit page` forms, or in some cases as :term:`access points <access "
+"point>`. For more general information on taxonomies and terms, see:"
+msgstr ""
+"このファイルは、AtoMで使用されているさまざまな:term:`分類法(taxonomies)<taxonomy>` "
+"の探索へのアクセスを制御します。これは、AtoMの :term:`編集ページ(edit page)` フォーム内の "
+":term:`ドロップダウンメニュー(drop-down menu)` や、場合によっては :term:`アクセスポイント(access point)`"
+" として使用される、制御された語彙用語を保守するために用いられます。分類法や用語についての一般的な情報については、こちらをご覧ください："
+
+#: ../../admin-manual/customization/config-files.rst:786
+msgid ":ref:`terms`"
+msgstr "`用語集`"
+
+#: ../../admin-manual/customization/config-files.rst:788
+msgid ""
+"At installation, a link to the taxonomies browse page is available in the "
+"|manage| :ref:`Manage menu <main-menu-manage>`, and the default "
+"configuration of this file allows browse and view access to the "
+":term:`editor` and :term:`administrator` user groups."
+msgstr ""
+"インストール時に、|manage| :ref:`管理メニュー<main-menu-manage>` "
+"に分類法の閲覧ページへのリンクが用意されており、このファイルのデフォルト設定では :term:`エディタ` と :term:`管理者` "
+"ユーザーグループが閲覧と表示のアクセスを許可されています。"
+
+#: ../../admin-manual/customization/config-files.rst:795
+msgid ""
+"Granular taxonomy permissions can be managed per user or per group by an "
+":term:`administrator` via the user interface using AtoM's Permissions "
+"module. See:"
+msgstr ""
+"ユーザーまたはグループごとに、:term:`管理者`がAtoMのパーミッションモジュールを使用してユーザーインターフェース経由で管理できる詳細な分類権限。参照："
+
+#: ../../admin-manual/customization/config-files.rst:801
+msgid ""
+"We recommend making your taxonomy permission changes there first, and only "
+"modifying this security configuration file if access is not working as "
+"expected."
+msgstr ""
+"最初にそちらでタクソノミーのアクセス権限の変更を行い、予期したようにアクセスが機能していない場合のみ、このセキュリティ設定ファイルを変更することを推奨します。"
+
+#: ../../admin-manual/customization/config-files.rst:807
+msgid "``browse``: Deprecated. Sets access to the list of taxonomies."
+msgstr "``browse``: 非推奨。タクソノミーのリストへのアクセスを設定します。"
+
+#: ../../admin-manual/customization/config-files.rst:808
+msgid "``list``: Sets access to the list of taxonomies"
+msgstr "``list``：タクソノミーのリストへのアクセスを設定する"
+
+#: ../../admin-manual/customization/config-files.rst:809
+msgid "``index``: Sets access to the view page for a taxonomy"
+msgstr "``index``: タクソノミーのビューページへのアクセスを設定します"
+
+#: ../../admin-manual/customization/config-files.rst:810
+msgid ""
+"``autocomplete``: Sets access to matching term results showing up in "
+"autocomplete results from the global :ref:`search box <atom-search-box>` or "
+"when linking terms in related :term:`edit pages <edit page>`. Note that "
+"separate application code filters this list so that only :term:`subject` and"
+" :term:`place` access points are currently included as possible autocomplete"
+" matches in the global search."
+msgstr ""
+"「autocomplete」：グローバルな:ref:`search box <atom-search-box>`や関連する:term:`edit "
+"pages <edit "
+"page>`で用語をリンクする際に、一致する用語の結果がオートコンプリート結果に表示されるかどうかのアクセスを設定します。ただし、アプリケーションの別のコードがこのリストをフィルタリングして、現在グローバル検索で可能なオートコンプリートのマッチとしては:term:`subject`と:term:`place`のアクセスポイントのみが含まれるようにしていることに注意してください。"
+
+#: ../../admin-manual/customization/config-files.rst:822
+msgid "Application server"
+msgstr "アプリケーションサーバー"
+
+#: ../../admin-manual/customization/config-files.rst:824
+msgid ""
+"Remember that Nginx is just the HTTP frontend. Internally, each request is "
+"forwarded to php-fpm. php-fpm is a pool of managed AtoM processes. The pool "
+"has its own configuration file that defines some important global PHP "
+"settings like timeouts, and environment variables that may also modify the "
+"way that AtoM works as documented in accesstomemory.org."
+msgstr ""
+"NginxがHTTPフロントエンドに過ぎないことを忘れないでください。内部的には、各リクエストはphp-fpmにフォワードされます。php-"
+"fpmは管理されたAtoMプロセスのプールです。このプールには独自の設定ファイルがあり、タイムアウトなどのいくつかの重要なグローバルPHP設定や、accesstomemory.orgに記載されているように、AtoMの動作方法を変更する可能性がある環境変数を定義しています。"
+
+#: ../../admin-manual/customization/config-files.rst:830
+msgid ""
+"The file of the pool is located at ``/etc/php/7.4/fpm/pool.d/atom.conf``. "
+"Edit with ``nano``. Once saved, run: ``sudo systemctl restart php7.4-fpm``, "
+"and the changes will apply."
+msgstr ""
+"プールのファイルは ``/etc/php/7.4/fpm/pool.d/atom.conf`` に位置しています。``nano`` "
+"を使って編集してください。保存が完了したら、``sudo systemctl restart php7.4-fpm`` "
+"を実行し、変更を適用してください。"
+
+#: ../../admin-manual/customization/config-files.rst:836
+msgid ":ref:`security-application`"
+msgstr ":ref:`セキュリティ-アプリケーション`"

@@ -1,0 +1,967 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/functions.rst:5
+msgid "Functions"
+msgstr "機能"
+
+#: ../../user-manual/add-edit-content/functions.rst:15
+msgid ""
+"A function is a type of :ref:`entity <entity-types>` that describes "
+"activities linked to records creation, maintenance, and use. The "
+"International Council on Archives (`ICA <http://www.ica.org/>`__) defines a "
+"function as:"
+msgstr ""
+"機能とは、記録の作成、維持、利用に関連する活動を説明する種類の:ref:`実体 <entity-types>`です。国際アーカイブス評議会（`ICA "
+"<http://www.ica.org/>`__）は、機能を次のように定義しています。"
+
+#: ../../user-manual/add-edit-content/functions.rst:19
+msgid ""
+"*Any high level purpose, responsibility or task assigned to the "
+"accountability agenda of a corporate body by legislation, policy or mandate."
+" Functions may be decomposed into sets of co-ordinated operations such as "
+"subfunctions, business processes, activities, tasks or transactions.*"
+msgstr ""
+"法律、ポリシー、または委任によって企業組織の責任範囲に割り当てられた高次元の目的、責任、または任務。機能は、サブファンクション、ビジネスプロセス、活動、タスク、またはトランザクションといった、調整された一連の操作に分解することができます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:32
+msgid ""
+"Function, Corporate bodies, and records relationships as depicted in\n"
+"the ISDF standard"
+msgstr "機能、企業体、およびISDF標準における記録との関係"
+
+#: ../../user-manual/add-edit-content/functions.rst:32
+msgid ""
+"From the ISDF, Appendix A: \"Representation of the relationships of "
+"functions with corporate bodeis and archival resources\""
+msgstr "ISDF、付録A：「企業機関とアーカイブ資源の関係性の表現」"
+
+#: ../../user-manual/add-edit-content/functions.rst:35
+msgid ""
+"Associated predominantly with :term:`corporate bodies <corporate body>`, "
+"functions may be generally understood as the activities of an organization "
+"(or individual, in some cases) performed to accomplish some mandate or "
+"mission. Traditional attempts to track the provenance of records created by "
+"corporate bodies became stymied by the constantly-changing nature of "
+"bureaucratic organizations - a department, for example, may have its name "
+"changed many times throughout its existence; it may assume broader "
+"responsibilities over time, be merged with other departments, or eventually "
+"decommissioned; equally, it may fall under the jurisdiction of many "
+"different divisions or other higher-level organizational units throughout "
+"its existence. To ensure more accurate records management over time, many "
+"organizations have applied a system of functional classication, which is "
+"based on the analysis of functions and activities of an organization, and "
+"the transactions which consitute these activities."
+msgstr ""
+"通常は「:term:`企業体 <corporate "
+"body>`」と関連づけられる機能とは、ある使命や任務を達成するために組織（場合によっては個人も）が行う活動のことを指します。企業体によって作成された記録の起源を追跡しようとする従来の試みは、官僚機構の常に変化する性質によって行き詰まりがちでした。たとえば、部門は存在する間に何度も名前が変更されるかもしれません。また、時間の経過とともにより広範な責任を負うようになるか、他の部門と合併されたり、最終的に廃止されたりすることもあります。同様に、その存在の期間中に多くの異なる部署や他の上位の組織単位の管轄下に置かれる場合があります。時間をかけてより正確な記録管理を保証するために、多くの組織では機能分類システムを採用しています。これは、組織の機能と活動、そしてこれらの活動を構成する取引の分析に基づいています。"
+
+#: ../../user-manual/add-edit-content/functions.rst:50
+msgid ""
+"In 2007, recognizing the value that this approach could have for archivists,"
+" the ICA released its first draft of the *International Standard for "
+"Describing Functions*. In the overview to the standard, they point out the "
+"value that the description of functions can have, noting that it can play a "
+"\"vital role\" in explaining the provenance of records by \"placing them "
+"more securily in the context of their creation and use.\" Understanding how "
+"and wny records were created, what purpose or function they were designed to"
+" fulfil, and how they relate to other records created by the same "
+"organization can be essential for properly interpreting archival materials. "
+"The ICA notes:"
+msgstr ""
+"2007年に、このアプローチがアーキビストにとって持つ価値を認識して、国際アーカイブズ評議会（ICA）は*国際機能記述基準*の最初のドラフトを公開しました。この基準への概要において、彼らは機能記述が持つ価値について指摘し、記録の起源を説明するために「その生成と使用の文脈において、より確実に配置する」ことで「不可欠な役割」を果たすことができると述べています。記録がどのように、なぜ生成されたのか、どのような目的や機能を満たすために設計されたのか、そして同じ組織によって作成された他の記録とどのように関連しているのかを理解することは、アーカイブ資料を適切に解釈するために不可欠です。ICAは次のように述べています："
+
+#: ../../user-manual/add-edit-content/functions.rst:60
+msgid ""
+"*Descriptions of functions are intended to complement and supplement "
+"descriptions of records created in accordance with ISAD(G) and authority "
+"records created in accordance with ISAAR(CPF). Keeping information on "
+"functions separate both from descriptions of records and authority records "
+"means less repetition of information and allows for the construction of "
+"flexible archival descriptive systems.*"
+msgstr ""
+"機能の説明は、ISAD(G)に従って作成される記録の説明と、ISAAR(CPF)に従って作成される権威記録を補完し、補足することを意図しています。機能に関する情報を記録の説明および権威記録から別々に保持することで、情報の繰り返しが少なくなり、柔軟なアーカイブ記述システムの構築が可能になります。"
+
+#: ../../user-manual/add-edit-content/functions.rst:67
+msgid ""
+"**In AtoM**, :term:`functions <function>` are structured into "
+":term:`information areas <information area>` based on the International "
+"Council on Archives' *International Standard for Describing Functions*, "
+"First edition, May 2007 (:ref:`ISDF <isdf-template>`)."
+msgstr ""
+"**AtoMでは**、機能(:term:`function`)は国際アーカイブズ評議会が2007年5月に第1版を発表した*国際機能記述標準(ISDF)*(:ref:`ISDF"
+" <isdf-template>`)に基づいて、情報エリア(:term:`information area`)に構造化されています。"
+
+#: ../../user-manual/add-edit-content/functions.rst:72
+msgid "**Below are instruction for using the Functions module in AtoM to:**"
+msgstr "**AtoMの「Functions」モジュールを使用するための指示は以下の通りです：**"
+
+#: ../../user-manual/add-edit-content/functions.rst:74
+msgid ":ref:`Add a new function <add-function>`"
+msgstr ":ref:`新しい機能を追加する <add-function>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:75
+msgid ":ref:`Edit an existing function <edit-function>`"
+msgstr ":ref:`既存の機能を編集する<edit-function>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:76
+msgid ""
+":ref:`Link a function to an authority record <link-function-authority>`"
+msgstr "次を参照：`機能を権威レコードにリンクする <link-function-authority>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:77
+msgid ""
+":ref:`Link a function to an archival description <link-function-"
+"description>`"
+msgstr ":ref:`機能をアーカイブ記述にリンクする <link-function-description>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:79
+msgid ":ref:`Link a function to another function <link-functions>`"
+msgstr ":ref:`関数を別の関数にリンクする <link-functions>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:80
+msgid ":ref:`Delete a function <delete-function>`"
+msgstr ":ref:`機能を削除する <delete-function>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:82
+msgid ""
+"For information on working with specific fields in AtoM's functions "
+":term:`edit page`, see:"
+msgstr "AtoMの機能である:term:`編集ページ`の特定のフィールドを操作する方法についての情報は、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/functions.rst:85
+msgid ""
+"International Standard for Describing Functions (:ref:`ISDF <isdf-"
+"template>`)"
+msgstr "国際標準機能記述規格（:ref:`ISDF <isdf-template>`）"
+
+#: ../../user-manual/add-edit-content/functions.rst:90
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権威レコード`"
+
+#: ../../user-manual/add-edit-content/functions.rst:91
+msgid ":ref:`archival-descriptions`"
+msgstr "`:ref:`archival-descriptions`を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:92
+msgid ":ref:`access-content`"
+msgstr ":ref:`アクセス-コンテンツ`"
+
+#: ../../user-manual/add-edit-content/functions.rst:93
+msgid ":ref:`entity-types`"
+msgstr "`:ref:「エンティティ・タイプ」`"
+
+#: ../../user-manual/add-edit-content/functions.rst:94
+msgid ":ref:`log-in`"
+msgstr ""
+"このテキストはreStructuredText (reST)形式で、具体的にドキュメント内の他のセクションへのリンクを示す参照ラベルです。このラベル自体を日本語に翻訳するのではなく、通常は、参照されているセクションのタイトルを適切な言語に翻訳します。例えば、もし `log-in` セクションのタイトルが「ログイン」と訳される場合、参照は以下のようになります：\n"
+"\n"
+":ref:`ログイン`\n"
+"\n"
+"しかし、このコマンドがどのようにドキュメントで使われるか、またそのコンテキストが何かにもよります。もし、参照先のセクションタイトルがまだ訳されていない場合は、そのまま `log-in` を残しておくのがよいでしょう。"
+
+#: ../../user-manual/add-edit-content/functions.rst:95
+msgid ":ref:`exit-edit-mode`"
+msgstr ""
+"このテキストは、おそらくドキュメント内の参照リンクのラベルです。通常、ドキュメント内の参照（ref）リンクは、特定のセクションや説明に簡単にジャンプするために使用されます。この場合、`exit-edit-mode` という名前のセクションにジャンプするリンクを意味していると思われます。ただし、これ自体は具体的なテキストではないため、日本語翻訳というよりは、ドキュメント内の同等のセクションが日本語で何と名付けられているかを特定する必要があります。\n"
+"\n"
+"もし、そのセクションが「編集モードを終了する」と呼ばれているならば、参照リンクのラベルは次のようになるかもしれません：\n"
+"\n"
+"`:ref:`編集モードを終了`\n"
+"\n"
+"ただし、実際のドキュメントのコンテキストを知らない限り、正確な日本語のセクション名は推測することしかできません。したがって、ドキュメントの特定のセクションや表現に基づいて正しい翻訳を行うためには、もっと情報が必要です。"
+
+#: ../../user-manual/add-edit-content/functions.rst:100
+msgid "Add a new function"
+msgstr "新しい機能を追加"
+
+#: ../../user-manual/add-edit-content/functions.rst:108
+msgid "An example of a function in AtoM"
+msgstr "AtoMでの機能の一例"
+
+#: ../../user-manual/add-edit-content/functions.rst:108
+msgid "An example of a function record in AtoM"
+msgstr "AtoMでの機能記録の例"
+
+#: ../../user-manual/add-edit-content/functions.rst:110
+msgid ""
+"This section contains instructions on how to create a new :term:`function` "
+"record in AtoM. Note that a user must be logged in to AtoM with sufficient "
+":term:`access privileges <access privilege>` to create new records. For more"
+" information on user permissions, see: :ref:`user-roles` and :ref:`default-"
+"user-permissions`."
+msgstr ""
+"このセクションでは、AtoMで新しい:term:`function`レコードを作成する方法についての指示が含まれています。ユーザーは、新しいレコードを作成するために必要な:term:`アクセス権限"
+" <access "
+"privilege>`を持って、AtoMにログインしている必要があります。ユーザー権限に関する詳細情報については、:ref:`user-roles` "
+"および :ref:`default-user-permissions`を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:116
+msgid ""
+"There are 3 main ways a new function can be created - doing so via the "
+"|plus| :ref:`\"Add\" <main-menu-add>` menu is the easiest, but to "
+"accommodate different workflows, functions can be added from the functions "
+"browse page, or from the :term:`view page` of an existing function. Below "
+"are instructions to add a new function:"
+msgstr ""
+"新しい機能を作成する方法は主に3つあります。|plus| :ref:`\"追加\" <main-menu-add>` "
+"メニューから追加する方法が最も簡単ですが、異なるワークフローに対応するために、機能のブラウズページから追加したり、既存機能の "
+":term:`ビューページ` から追加することもできます。以下に新しい機能を追加する手順を示します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:7
+msgid "plus"
+msgstr ""
+"すみませんが、提示されたテキストは \"plus\" "
+"だけで、これは翻訳するための十分なコンテキストを提供していません。長期保存やArchivematicaに関連する特定の文脈や文章があれば、適切に翻訳を行うことができます。より具体的な情報を提供していただけますか？"
+
+#: ../../user-manual/add-edit-content/functions.rst:122
+msgid ":ref:`From the Add menu <add-function-add-menu>`"
+msgstr ":ref:`「追加」メニューから <add-function-add-menu>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:123
+msgid ":ref:`From the Functions browse page <add-function-browse>`"
+msgstr ":ref:`関数ブラウズページから <add-function-browse>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:124
+msgid ":ref:`From another function's view page <add-function-viewpage>`"
+msgstr ":ref:`別の機能のビューページから <add-function-viewpage>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:126
+msgid ""
+"For information on working with specific fields in AtoM's functions "
+":term:`edit page`, see: :ref:`ISDF <isdf-template>`."
+msgstr ""
+"AtoMの機能で特定のフィールドを操作する方法に関する情報は、以下の「ISDF」セクションを参照してください: :ref:`ISDF <isdf-"
+"template>`。"
+
+#: ../../user-manual/add-edit-content/functions.rst:132
+msgid "Add a new function from the main menu"
+msgstr "メインメニューから新しい機能を追加する"
+
+#: ../../user-manual/add-edit-content/functions.rst:-1
+msgid "Choosing functions in the Add menu"
+msgstr "Addメニューの機能選択"
+
+#: ../../user-manual/add-edit-content/functions.rst:139
+msgid ""
+"A new function can be added at any time, from anywhere in the application, "
+"via the :term:`main menu`, provided that a user has sufficient :term:`access"
+" privileges <access privilege>` to create new records. For more information "
+"on user permissions, see: :ref:`user-roles` and :ref:`default-user-"
+"permissions`."
+msgstr ""
+"新しい機能は、ユーザーに新しいレコードを作成するための十分な:term:`アクセス権限<access "
+"privilege>`がある場合に限り、アプリケーション内のどこからでも、:term:`メインメニュー`を通じていつでも追加することができます。ユーザー権限に関する詳しい情報については、:ref:`user-"
+"roles` および :ref:`default-user-permissions` をご覧ください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:144
+msgid "**To create a new function from the main menu**"
+msgstr "**メインメニューから新しい機能を作成するには**"
+
+#: ../../user-manual/add-edit-content/functions.rst:146
+msgid ""
+"In the :term:`main menu` located in the :term:`header bar`, click the |plus|"
+" :ref:`\"Add\" <main-menu-add>` menu and select \"Function\" from the "
+":term:`drop-down menu`."
+msgstr ""
+"ヘッダーバーにある「メインメニュー」で、|plus| 「追加 <main-menu-"
+"add>」メニューをクリックし、「ドロップダウンメニュー」から「機能」を選択します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:149
+#: ../../user-manual/add-edit-content/functions.rst:197
+#: ../../user-manual/add-edit-content/functions.rst:231
+msgid "AtoM takes you to a blank :term:`edit page` for data entry."
+msgstr "AtoMは、データ入力用の空白の「編集ページ」に移動します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:150
+#: ../../user-manual/add-edit-content/functions.rst:198
+#: ../../user-manual/add-edit-content/functions.rst:232
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an "
+":term:`information area` to access the :term:`fields <field>` grouped under "
+"it. Enter data as required."
+msgstr ""
+"読み込み時に、`:term:`編集ページ`はすべての`:term:`情報エリア <information "
+"area>`を閉じた状態でレコードを表示します。`:term:`情報エリア`をクリックして、それに属する`:term:`フィールド "
+"<field>`にアクセスします。必要に応じてデータを入力してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:161
+msgid "An image of a blank ISDF record in edit mode"
+msgstr "編集モードでの空白のISDFレコードの画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:161
+msgid ""
+"When creating a new function from the Add menu, all information areas will "
+"appear closed on the blank function record - click to open and add data as "
+"required."
+msgstr ""
+"新しい機能を[追加]メニューから作成する際、すべての情報エリアは新規機能レコード上で閉じた状態で表示されます - "
+"必要に応じてクリックして開き、データを追加してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:165
+#: ../../user-manual/add-edit-content/functions.rst:202
+#: ../../user-manual/add-edit-content/functions.rst:236
+msgid ""
+"You can quit the process at any time by clicking the \"Cancel\" button in "
+"the :term:`button block`; any data already entered will not be saved and no "
+"new record will be added. Note that simply navigating away from the page by "
+"any other means, **without first clicking \"Create\"** will also result in "
+"no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることでプロセスを終了することができます。そのボタンは`:term:`ボタンブロック` "
+"にあります。既に入力されたデータは保存されず、新しいレコードも追加されません。ただし、**「作成」をクリックすることなく** "
+"他の方法でページから移動した場合も、新しいレコードが作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:170
+#: ../../user-manual/add-edit-content/functions.rst:207
+#: ../../user-manual/add-edit-content/functions.rst:241
+msgid ""
+"To save the new function record, click the :term:`\"Create\" button <Create "
+"button>` in the :term:`button block` at the bottom of the record. AtoM will "
+"redirect you to the function's :term:`view page`, so you can review your "
+"work."
+msgstr ""
+"新しい機能レコードを保存するには、レコードの下部にある :term:`ボタンブロック` 内の :term:`「作成」ボタン <Create "
+"button>` をクリックしてください。AtoMはあなたをその機能の :term:`ビューページ` へとリダイレクトし、そこで作業内容を確認できます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:178
+msgid "Add a new function from the Functions browse page"
+msgstr "Functionsブラウズページから新しい機能を追加する"
+
+#: ../../user-manual/add-edit-content/functions.rst:-1
+msgid "Choosing functions in the Browse menu"
+msgstr "「ブラウズ」メニューでの機能選択"
+
+#: ../../user-manual/add-edit-content/functions.rst:185
+msgid ""
+"Using the :term:`browse menu` located in the AtoM :term:`header bar`, "
+"navigate to **Browse > Functions**. AtoM will redirect you to the functions "
+"browse page. See :ref:`browse-menu` for more information on the Browse menu,"
+" and :ref:`browse` for more information on browsing in AtoM."
+msgstr ""
+"AtoMの:term:`ヘッダーバー`にある:term:`ブラウズメニュー`を使用して、**ブラウズ > "
+"機能**に移動します。AtoMは機能ブラウズページにリダイレクトします。ブラウズメニューの詳細については:ref:`ブラウズメニュー`を、AtoMでのブラウズの詳細については:ref:`ブラウズ`を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:189
+msgid ""
+"At the bottom of the functions browse page, you will see the :term:`button "
+"block`. Click the :term:`Add new button`."
+msgstr ""
+"関数(Functions)閲覧ページの下部に、`:term:`ボタンブロック` があります。`:term:`新規ボタンの追加` をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:-1
+msgid "An image of the \"Add new\" button in the button block"
+msgstr "ボタンブロック内の「新規追加」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:216
+msgid "Add a new function from the view page of an existing function"
+msgstr "既存の機能のビューページから新しい機能を追加する"
+
+#: ../../user-manual/add-edit-content/functions.rst:-1
+msgid ""
+"An image of the \"Add new\" button in the button block of an existing\n"
+"function"
+msgstr "既存の機能のボタンブロック内の「新規追加」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:224
+msgid ""
+"Navigate to an existing function. You can do so using the :term:`browse "
+"menu` located in the AtoM :term:`header bar` and navigating to **Browse > "
+"Functions**. AtoM will redirect you to the functions browse page. Click on "
+"an existing function to view the function record in :term:`view mode`."
+msgstr ""
+"既存の機能に移動します。これは、AtoM :term:`ヘッダーバー`にある:term:`ブラウズメニュー`を使い、**ブラウズ > "
+"機能**へと進むことで実行できます。AtoMはあなたを機能ブラウズページにリダイレクトします。既存の機能をクリックすると、:term:`ビューモード`でその機能レコードが表示されます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:228
+msgid ""
+"At the bottom of the function's :term:`view page`, you will see the "
+":term:`button block` with several options (Edit, Delete, and Add new). Click"
+" the :term:`Add new button`."
+msgstr ""
+"その機能の :term:`ビューページ` の下部には、いくつかのオプション（編集、削除、新規追加）が含まれた :term:`ボタンブロック` "
+"が表示されます。:term:`新規追加ボタン` をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:246
+#: ../../user-manual/add-edit-content/functions.rst:292
+#: ../../user-manual/add-edit-content/functions.rst:375
+#: ../../user-manual/add-edit-content/functions.rst:470
+#: ../../user-manual/add-edit-content/functions.rst:555
+#: ../../user-manual/add-edit-content/functions.rst:597
+msgid ":ref:`Back to top <functions>`"
+msgstr ":ref:`トップに戻る <functions>`"
+
+#: ../../user-manual/add-edit-content/functions.rst:251
+msgid "Edit an existing function"
+msgstr "既存の機能を編集する"
+
+#: ../../user-manual/add-edit-content/functions.rst:253
+msgid ""
+"An :term:`editor` or other users with sufficient :term:`access privileges "
+"<access privilege>` can review and revise existing functions at any time. To"
+" edit an existing function in AtoM:"
+msgstr ""
+"編集者または十分な:term:`アクセス権限`を持つ他のユーザーは、いつでも既存の機能のレビューと修正を行うことができます。AtoMで既存の機能を編集するには："
+
+#: ../../user-manual/add-edit-content/functions.rst:257
+msgid ""
+"Navigate to the function you want to edit. You can do so using the "
+":term:`browse menu` located in the AtoM :term:`header bar` and navigating to"
+" **Browse > Functions**, and then either selecting the desired function from"
+" the list, or using the search bar provided on the Functions browse page. "
+"For more information on searching and browsing in AtoM, see :ref:`access-"
+"content`."
+msgstr ""
+"編集したい機能に移動します。そのために、AtoM の :term:`header bar` にある :term:`browse menu` "
+"を利用し、**Browse > Functions** "
+"へと進み、リストから目的の機能を選択するか、機能ブラウズページにある検索バーを使用します。AtoMでの検索とブラウズの詳細については、:ref:`access-"
+"content` を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:270
+msgid "An image of the dedicated search box available in Browse functions"
+msgstr "閲覧機能で利用可能な専用検索ボックスの画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:270
+msgid ""
+"The browse functions page includes a sort button (alphabetic or most recent)"
+" and a dedicated functions search box to help you locate the function you "
+"wish to edit."
+msgstr ""
+"ブラウズ機能ページには、ソートボタン（アルファベット順または最新順）と、編集したい機能を見つけるための専用の機能検索ボックスが含まれています。"
+
+#: ../../user-manual/add-edit-content/functions.rst:274
+msgid ""
+"When you have located the function you would like to edit, click on it to "
+"view the function in :term:`view mode`. AtoM will take you to the "
+":term:`view page` for the function."
+msgstr ""
+"編集したい機能を見つけたら、その機能をクリックして:term:`ビューモード`で機能を表示します。AtoMはあなたを機能の:term:`ビューページ`に移動させます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:277
+msgid ""
+"Enter :term:`edit mode` either by clicking the \"Edit\" button located in "
+"the :term:`button block` at the bottom of the record, or by clicking on one "
+"of the :term:`area headers <area header>`; this takes you to the function's "
+":term:`edit page`."
+msgstr ""
+"「レコードの下部にある :term:`button block`（ボタンブロック）に位置する「編集」ボタンをクリックするか、または "
+":term:`area headers <area header>`（領域ヘッダー）のいずれかをクリックすることで :term:`edit "
+"mode`（編集モード）に入ります。これにより、機能の :term:`edit page`（編集ページ）に移動します。」"
+
+#: ../../user-manual/add-edit-content/functions.rst:281
+msgid ""
+"Add and/or revise data as required. See :ref:`ISDF <ISDF-template>` for "
+"field-specific guidance."
+msgstr ""
+"必要に応じてデータを追加または修正してください。フィールド固有のガイダンスについては、 :ref:`ISDF <ISDF-template>` "
+"を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:283
+msgid ""
+"You can quit the edit process at any time by clicking the \"Cancel\" button "
+"in the :term:`button block`; any data already entered or altered will not be"
+" saved. Note that simply navigating away from the page by any other means, "
+"**without first clicking \"Save\"** will also result in no changes record "
+"being saved."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで編集プロセスを終了することができます。そのボタンは:term:`ボタンブロック`にあります。すでに入力または変更されたデータは保存されません。別の手段でページから単にナビゲートして離れた場合も、**最初に「保存」をクリックしなければ**変更は記録されませんので注意してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:288
+msgid ""
+"To save your edits, click the \"Save\" button located in the :term:`button "
+"block` at the bottom of the record. AtoM will reload the page in :term:`view"
+" mode` so you can review your changes."
+msgstr ""
+"編集内容を保存するには、レコードの下部にある「ボタンブロック」にある「保存」ボタンをクリックしてください。AtoMはページを「表示モード」で再読み込みし、あなたが行った変更を確認できます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:297
+msgid "Link a function to an authority record"
+msgstr "機能を権威レコードにリンクする"
+
+#: ../../user-manual/add-edit-content/functions.rst:299
+msgid ""
+"AtoM can create a linked relationship between a :term:`function` and an "
+":term:`authority record`. Authority records are collections of information "
+"about actors - corporate bodies, persons, or families - who interact with "
+"archival materials, typically as creators. For more information on working "
+"with authority records in AtoM, see: :ref:`authority-records`. Below are the"
+" steps to create a relationship between an existing authority record and an "
+"existing function:"
+msgstr ""
+"AtoMは、:term:`function`（機能）と:term:`authority "
+"record`（権威レコード）との間にリンクされた関係を作成することができます。権威レコードは、アーカイブ資料と関わる法人、個人、または家族などのアクターについての情報のコレクションで、通常は作成者としてです。AtoM内で権威レコードを扱う詳細については、次を参照してください:"
+" :ref:`authority-records`。以下に、既存の権威レコードと既存の機能との間の関係を作成する手順を示します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:307
+msgid ""
+"Navigate to the :term:`function` you would like to relate to an "
+":term:`authority record`. You can do this by going to the Browse page for "
+"functions (**Browse > Functions**) and then either browsing through the "
+"list, or using the dedicated Functions search bar on the Browse functions "
+"page to find the related function. Click on the related function to navigate"
+" to its :term:`view page`. For more information on browsing and searching in"
+" AtoM, see: :doc:`Browse <../access-content/browse>` or :doc:`Search "
+"<../access-content/search-atom>`."
+msgstr ""
+"関連付けたい :term:`function`（機能）に移動します。この操作は、機能のブラウズページにアクセスして行います（**ブラウズ > "
+"機能**）。その後、リストをブラウズするか、または機能ブラウズページにある専用の機能検索バーを使用して、関連する機能を見つけます。関連する機能をクリックして、その"
+" :term:`view page`（表示ページ）に移動します。AtoMでのブラウズや検索の詳細については、:doc:`ブラウズ <../access-"
+"content/browse>` または :doc:`検索 <../access-content/search-atom>` を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:315
+#: ../../user-manual/add-edit-content/functions.rst:400
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking \"Edit\" "
+"button in the :term:`button block`, or by clicking on one of the "
+":term:`information area` headings; this takes you to the record's "
+":term:`edit page`."
+msgstr ""
+"「ビューモード」から「編集モード」に切り替えるには、「ボタンブロック」にある「編集」ボタンをクリックするか、または「情報エリア」の見出しのいずれかをクリックします。これにより、レコードの「編集ページ」に移動します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:319
+msgid ""
+"In the \"Relationships\" :term:`information area` of the function's "
+":term:`edit page`, click the \"Add new\" button under \"Related authority "
+"records\"."
+msgstr ""
+"機能の「編集ページ」にある「リレーションシップ」:term:`情報エリア`内で、「関連する権威レコード」の下にある「新規追加」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:330
+msgid ""
+"An image of the Related authority records table in the Relationships\n"
+"Area"
+msgstr "関連性エリア内の「関連する権限記録」テーブルの画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:330
+msgid ""
+"An example of a related authority record, as seen in the Relationships Area "
+"when in edit mode. Click \"Add new\" to create a new relationship."
+msgstr ""
+"関連する権威レコードの一例は、編集モード時に「関係性エリア」で見ることができます。新しい関係を作成するには、「新規追加」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:333
+msgid ""
+"AtoM will open a pop-up dialog where you can select the related "
+":term:`authority record` and define the nature and time frame of the "
+"relationship."
+msgstr "AtoMでは、関連する:term:`権威記録`を選択し、その関係の性質と時間枠を定義できるポップアップダイアログが開きます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:-1
+msgid "The Related authority record pop-up dialog"
+msgstr "関連する権威レコードのポップアップ・ダイアログ"
+
+#: ../../user-manual/add-edit-content/functions.rst:342
+msgid ""
+"The first :term:`field` in the pop-up dialog, \"Title of the related "
+"resource,\" is an `auto-complete <https://en.wikipedia.org/wiki /Auto- "
+"complete>`__ field: as you type, matching results will load in a "
+":term:`drop-down menu` below the field. When you see the :term:`authority "
+"record` you would like to link, click on it to select it."
+msgstr ""
+"ポップアップダイアログの最初の「関連リソースのタイトル」という:term:`フィールド`は`オートコンプリート "
+"<https://en.wikipedia.org/wiki /Auto- complete>`__ "
+"フィールドです。入力すると、フィールドの下の:term:`ドロップダウンメニュー`に一致する結果が読み込まれます。リンクしたい:term:`権威レコード`を見つけたら、それをクリックして選択します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:351
+msgid ""
+"You cannot create a new authority record from this dialog by entering a new "
+"name. If the related authority record does not exist yet, follow the steps "
+"to :ref:`create a new authority record <create-authority-record>` and then "
+"follow these steps from the beginning to create the relationship."
+msgstr ""
+"このダイアログから新しい名前を入力することで新しい権限レコードを作成することはできません。関連する権限レコードがまだ存在しない場合は、:ref:`新しい権限レコードを作成する<create-"
+"authority-record>`手順に従ってください。その後、関係を作成するためにこれらの手順を最初からもう一度実行してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:356
+#: ../../user-manual/add-edit-content/functions.rst:434
+#: ../../user-manual/add-edit-content/functions.rst:536
+msgid ""
+"Add additional details in the subsequent fields to qualify the relationship."
+" When you are finished, click \"Submit\"."
+msgstr "次のフィールドに追加の詳細を入力して、関係性を特定してください。完了したら、「送信」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:358
+msgid ""
+"The related :term:`authority record` will now appear in the *Related "
+"authority records* table of the Relationships area. Click the |pencil| "
+"pencil icon to re-open the pop-up dialog and edit the relationship, or click"
+" the **X** icon to remove the relationship link. You can also repeat this "
+"process to add multiple links by clicking the \"Add new\" button below the "
+"*Related authority records* again - AtoM will open a new pop-up dialog. "
+"Repeat steps 3-6 as needed."
+msgstr ""
+"関連する:term:`権威記録`は、リレーションシップエリアの*関連権威記録*テーブルに表示されるようになります。鉛筆のアイコンをクリックしてポップアップダイアログを再度開き、関係を編集するか、**X**"
+" "
+"アイコンをクリックして関係リンクを削除します。また、「新規追加」ボタンを再度クリックすることで、このプロセスを繰り返して複数のリンクを追加することもできます。AtoMは新しいポップアップダイアログを開きます。必要に応じて、ステップ3-6を繰り返してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:11
+msgid "pencil"
+msgstr ""
+"「ペンシル」ですが、これが完全なテキストであるかどうかが明確ではありません。もし追加の情報がありましたら、私にお知らせください。それを踏まえ、もしこの単語がデジタルデータの長期保存の文脈で使われているのであれば、それはメタデータやアイテム記録の編集において用いられるツールや機能を指している可能性があります。それ以上の文脈がない限り、正確な翻訳は提供できません。"
+
+#: ../../user-manual/add-edit-content/functions.rst:365
+#: ../../user-manual/add-edit-content/functions.rst:454
+#: ../../user-manual/add-edit-content/functions.rst:545
+msgid ""
+"When you are finished, click \"Save\" in the :term:`button block` at the "
+"bottom of the function's :term:`edit page` to save your changes and exit "
+":term:`edit mode`."
+msgstr ""
+"終了したら、機能の:term:`編集ページ`の下部にある:term:`ボタンブロック`内の「保存」をクリックして変更内容を保存し、:term:`編集モード`を終了してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:368
+msgid ""
+"AtoM will reload the :term:`function` in :term:`view mode`. The relationship"
+" is expressed in the \"Relationships\" :term:`information area` of the "
+"function's :term:`view page`, and the related record's name will appear as a"
+" hyperlink. If you follow the hyperlink, you will see that the related "
+"function now appears in the \"Relationships\" area of the linked authority "
+"record."
+msgstr ""
+"AtoMは、:term:`機能`を:term:`表示モード`で再読み込みします。関係性は、機能の:term:`表示ページ`の\"Relationships\""
+" "
+":term:`情報エリア`で表現され、関連するレコードの名前がハイパーリンクとして表示されます。このハイパーリンクをたどると、関連する機能がリンクされた権威レコードの\"Relationships\"エリアに表示されることがわかります。"
+
+#: ../../user-manual/add-edit-content/functions.rst:380
+msgid "Link a function to an archival description"
+msgstr "アーカイバルディスクリプションに機能をリンクする"
+
+#: ../../user-manual/add-edit-content/functions.rst:382
+msgid ""
+"AtoM can also create a linked relationship between a :term:`function` and an"
+" :term:`archival description`. An archival description is a body of "
+"information about an archival record, or an aggregate of records, which "
+"provides contextual information about the archival materials and are "
+"gnerally arranged into hierarchical levels (such as fonds, series, files, "
+"and items, and variations of these in accordance with national and "
+"international standards). For more information on working with archival "
+"descriptions in AtoM, see: :ref:`archival-descriptions`. Below are the steps"
+" to create a relationship between an existing archival description and an "
+"existing function:"
+msgstr ""
+"AtoMはまた、:term:`function`（機能）と:term:`archival "
+"description`（アーカイブ記述）の間に関連性を作り出すことができます。アーカイブ記述は、アーカイブ記録、または記録の集合体に関する情報本体であり、アーカイブ素材に関する文脈情報を提供し、国内外の規格に従って、通常は階層レベル（例:"
+" "
+"原資料、シリーズ、ファイル、アイテム、およびこれらの変形）に整理されます。AtoMでのアーカイブ記述の扱い方に関する詳細は、こちらを参照してください：:ref:`archival-"
+"descriptions`。以下に、既存のアーカイブ記述と既存の機能との関係を作成する手順を示します："
+
+#: ../../user-manual/add-edit-content/functions.rst:392
+msgid ""
+"Navigate to the :term:`function` you would like to relate to an "
+":term:`archival description`. You can do this by going to the Browse page "
+"for functions (**Browse > Functions**) and then either browsing through the "
+"list, or using the dedicated Functions search bar on the Browse functions "
+"page to find the related function. Click on the related function to navigate"
+" to its :term:`view page`. For more information on browsing and searching in"
+" AtoM, see: :doc:`Browse <../access-content/browse>` or :doc:`Search "
+"<../access-content/search-atom>`."
+msgstr ""
+"関連付けたい:term:`機能`に移動します。これを行うには、機能の閲覧ページに移動し（**閲覧 > "
+"機能**）、リストを閲覧するか、または機能の閲覧ページにある専用の機能検索バーを使用して関連する機能を見つけます。関連する機能をクリックして、その:term:`表示ページ`に移動します。AtoMでの閲覧や検索の詳細については、以下を参照してください：:doc:`閲覧"
+" <../access-content/browse>`または:doc:`検索 <../access-content/search-atom>`。"
+
+#: ../../user-manual/add-edit-content/functions.rst:404
+msgid ""
+"In the \"Relationships\" :term:`information area` of the function's "
+":term:`edit page`, click the \"Add new\" button under \"Related resources\"."
+msgstr ""
+"関数の :term:`編集ページ`内の\"Relationships\" "
+":term:`情報エリア`で、「関連リソース」の下にある「新規追加」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/functions.rst:414
+msgid ""
+"An image of the Related resources table in the Relationships\n"
+"Area"
+msgstr "関連性エリアにある「関連リソース表」の画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:414
+msgid ""
+"An example of a related archival description, as seen in the Relationships "
+"Area when in edit mode. Click \"Add new\" to create a new relationship."
+msgstr "関連するアーカイブ記述の例は、編集モード時に「関係エリア」で見ることができます。「新規追加」をクリックして新しい関係を作成します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:417
+msgid ""
+"AtoM will open a pop-up dialog where you can select the related "
+":term:`archival description` and define the nature and time frame of the "
+"relationship."
+msgstr "AtoMは、関連する:term:`アーカイブ記述`を選択し、その関係の性質と期間を定義できるポップアップダイアログを開きます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:420
+msgid ""
+"The first :term:`field` in the pop-up dialog, \"Title of the related "
+"resource,\" is an `auto-complete <https://en.wikipedia.org/wiki /Auto- "
+"complete>`__ field: as you type, matching results will load in a "
+":term:`drop-down menu` below the field. When you see the :term:`archival "
+"description` you would like to link, click on it to select it. ."
+msgstr ""
+"ポップアップダイアログの最初の「関連リソースのタイトル」という`:term:フィールド`は、`オートコンプリート<https://ja.wikipedia.org/wiki/オートコンプリート>`__フィールドです。入力すると、一致する結果がフィールドの下にある`:term:ドロップダウンメニュー`にロードされます。リンクしたい`:term:アーカイブ記述`を見つけたら、それをクリックして選択します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:429
+msgid ""
+"You cannot create a new archival description from this dialog by entering a "
+"new name. If the related description does not exist yet, follow the steps to"
+" :ref:`create a new archival description <add-archival-description>` and "
+"then follow these steps from the beginning to create the relationship."
+msgstr ""
+"このダイアログから新しい名前を入力して新しいアーカイバルディスクリプションを作成することはできません。関連するディスクリプションがまだ存在しない場合は、:ref:`新しいアーカイバルディスクリプションを作成する<add-"
+"archival-description>`ための手順に従い、その後、関連性を作成するためにこれらの手順を初めから実行してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:443
+msgid "An image of the Related resources popup dialog"
+msgstr "関連リソースのポップアップダイアログの画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:443
+msgid ""
+"Click \"submit\" in the popup dialog when you are finished entering "
+"information about the relationship between the function and the description"
+msgstr "ポップアップダイアログで情報の入力が完了したら、「送信」をクリックしてください。これには、機能と説明の間の関係についての情報が含まれます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:447
+msgid ""
+"The related :term:`archival description` will now appear in the *Related "
+"resources* table of the Relationships area. Click the |pencil| pencil icon "
+"to re-open the pop-up dialog and edit the relationship, or click the **X** "
+"icon to remove the relationship link. You can also repeat this process to "
+"add multiple links by clicking the \"Add new\" button below the *Related "
+"resources* again - AtoM will open a new pop-up dialog. Repeat steps 3-6 as "
+"needed."
+msgstr ""
+"関連する:term:`アーカイブ記述`は、「関連リソース」エリアの*Related "
+"resources*テーブルに表示されるようになります。|pencil| "
+"鉛筆アイコンをクリックしてポップアップダイアログを再度開き、関係を編集するか、**X** "
+"アイコンをクリックして関係リンクを削除します。また、「関連リソース」の下にある「新規追加」ボタンをクリックして、このプロセスを繰り返し、複数のリンクを追加することもできます"
+" - AtoMは新しいポップアップダイアログを開きます。必要に応じてステップ3-6を繰り返してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:457
+msgid ""
+"AtoM will reload the :term:`function` in :term:`view mode`. The relationship"
+" is expressed in the \"Relationships\" :term:`information area` of the "
+"function's :term:`view page`, and the related record's name will appear as a"
+" hyperlink."
+msgstr ""
+"AtoMは、:term:`ビューモード`で:term:`function`を再読み込みします。関連性は、関数の:term:`ビューページ`にある\"Relationships\""
+" :term:`情報エリア`で表現され、関連するレコードの名前はハイパーリンクとして表示されます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:464
+msgid ""
+"At this time, a function linked to an :term:`archival description` is NOT "
+"viewable from the related archival description. To see the relationship "
+"expressed between the two, you will have to be viewing the function record. "
+"The related archival description's :term:`view page` is unchanged."
+msgstr ""
+"現時点では、`:term:`archival "
+"description`（アーカイバル記述）`に関連付けられた機能は、関連するアーカイバル記述からは表示できません。二つの間に表現された関係を見るには、機能レコードを表示している状態でなければなりません。関連するアーカイバル記述の`:term:`view"
+" page`（閲覧ページ）`は変更されていません。"
+
+#: ../../user-manual/add-edit-content/functions.rst:475
+msgid "Link a function to another function"
+msgstr "関数を別の関数にリンクする"
+
+#: ../../user-manual/add-edit-content/functions.rst:477
+msgid ""
+"AtoM also has the ability to create relationships between functions. This "
+"can be useful for creating complex associative and/or hierarchical "
+"relationships between functions, sub-functions, business processes, "
+"activities, tasks, and related functions, etc. Relationships can be defined "
+"as hierarchical, associative, or temporal, with a free-text field to better "
+"define the context of the relationship provided. All data added about the "
+"relationship will appear in the Relationships :term:`information area` of "
+"both records. To create a relationship between two functions:"
+msgstr ""
+"AtoMには、機能間の関係を作成する能力もあります。これは、機能、サブ機能、ビジネスプロセス、活動、タスク、関連する機能などの間で複雑なアソシアティブ及び/または階層的な関係を作成するために有用です。関係は階層的、アソシアティブ、または時間的として定義され、関係の文脈をより明確に定義するためのフリーテキストフィールドが提供されます。関係について追加されたすべてのデータは、両方の記録の関係情報エリアに表示されます。二つの機能間の関係を作成するには："
+
+#: ../../user-manual/add-edit-content/functions.rst:486
+msgid ""
+"Navigate to one of the :term:`functions <function>` you would like to relate"
+" to each other (either one). You can do this by going to the Browse page for"
+" functions (**Browse > Functions**) and then either browsing through the "
+"list, or using the dedicated Functions search bar on the Browse functions "
+"page to find the related function. Click on the function to navigate to its "
+":term:`view page`. For more information on browsing and searching in AtoM, "
+"see: :doc:`Browse <../access-content/browse>` or :doc:`Search <../access-"
+"content/search-atom>`."
+msgstr ""
+"あなたが関連付けたい :term:`機能<function>` "
+"の一つ（いずれか一つ）へナビゲートしてください。これを行うには、機能のブラウズページに移動します (**ブラウズ > "
+"機能**)。その後、リストをブラウジングするか、機能のブラウズページにある専用の機能検索バーを使用して関連する機能を見つけます。機能をクリックして、その"
+" :term:`ビューページ` に移動します。AtoMでのブラウズや検索の詳細については、次の文書を参照してください: :doc:`ブラウズ "
+"<../access-content/browse>` または :doc:`検索 <../access-content/search-atom>`。"
+
+#: ../../user-manual/add-edit-content/functions.rst:494
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking \"Edit\" "
+"button in the :term:`button block`, or by clicking on one of the "
+":term:`information area` headings; this takes you to the function record's "
+":term:`edit page`."
+msgstr ""
+"表示モードから編集モードに切り替えるには、ボタンブロックにある「編集」ボタンをクリックするか、情報エリアの見出しのいずれかをクリックします。これにより、機能レコードの編集ページに移動します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:498
+msgid ""
+"In the \"Relationships\" :term:`information area` of the function's "
+":term:`edit page`, click the \"Add new\" button under \"Related functions\"."
+msgstr "「関係性」:term:`情報エリア`の機能の:term:`編集ページ`で、「関連する機能」の下にある「新規追加」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/functions.rst:508
+msgid ""
+"An image of the Related functions table in the Relationships\n"
+"Area"
+msgstr "関連機能テーブルの画像は、関係エリアにあります。"
+
+#: ../../user-manual/add-edit-content/functions.rst:508
+msgid ""
+"The related functions table in the Relationships area. Click \"Add new\" to "
+"link two functions."
+msgstr "関連性エリアの関連機能テーブル。「新規追加」をクリックして、2つの機能をリンクします。"
+
+#: ../../user-manual/add-edit-content/functions.rst:511
+msgid ""
+"AtoM will open a pop-up dialog where you can select the related "
+":term:`function` and define the nature and time frame of the relationship."
+msgstr "AtoMは、関連する:term:`function`を選択し、関係の性質と時間枠を定義できるポップアップダイアログを開きます。"
+
+#: ../../user-manual/add-edit-content/functions.rst:514
+msgid ""
+"The first :term:`field` in the pop-up dialog, \"Authorized form of name,\" "
+"is an `auto-complete <https://en.wikipedia.org/wiki/Auto-complete>`__ field:"
+" as you type, matching results will load in a :term:`drop-down menu` below "
+"the field. When you see the :term:`function` you would like to link, click "
+"on it to select it."
+msgstr ""
+"ポップアップ・ダイアログ内の最初の「権威ある形式の名前」という:term:`フィールド`は、`自動補完<https://en.wikipedia.org/wiki/Auto-"
+"complete>`__フィールドです。入力すると、該当する結果がフィールドの下にある:term:`ドロップダウンメニュー`に読み込まれます。リンクしたい:term:`機能`が表示されたら、それをクリックして選択します。"
+
+#: ../../user-manual/add-edit-content/functions.rst:526
+msgid "An image of the Related functions pop-up"
+msgstr "関連機能のポップアップの画像"
+
+#: ../../user-manual/add-edit-content/functions.rst:526
+msgid ""
+"An image of the Related functions pop-up dialog. In this image, a user has "
+"started typing in the autocomplete field - matching results appear below."
+msgstr ""
+"関連機能ポップアップダイアログの画像です。この画像では、ユーザーがオートコンプリートフィールドに入力を始めており、一致する結果が下に表示されています。"
+
+#: ../../user-manual/add-edit-content/functions.rst:531
+msgid ""
+"You cannot create a new function from this dialog by entering a new name. If"
+" the related function does not exist yet, follow the steps above to "
+":ref:`create a new function <add-function>` and then follow these steps from"
+" the beginning to create the relationship."
+msgstr ""
+"このダイアログから新しい名前を入力して新しい機能を作成することはできません。関連する機能がまだ存在しない場合は、上記の手順に従って "
+":ref:`新しい機能を作成<add-function>`します。その後、最初からこれらの手順に従って関係を作成してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:538
+msgid ""
+"The related :term:`function` will now appear in the *Related functions* "
+"table of the Relationships area. Click the |pencil| pencil icon to re-open "
+"the pop-up dialog and edit the relationship, or click the **X** icon to "
+"remove the relationship link. You can also repeat this process to add "
+"multiple links by clicking the \"Add new\" button below the *Related "
+"functions* again - AtoM will open a new pop-up dialog. Repeat steps 3-6 as "
+"needed."
+msgstr ""
+"関連する: "
+"term:`function`は、リレーションシップエリアの「関連機能」テーブルに表示されるようになります。ポップアップダイアログを再度開いて関連性を編集するには、|pencil|"
+" "
+"鉛筆アイコンをクリックするか、リレーションシップリンクを削除するには**X**アイコンをクリックします。「関連機能」の下にある「新規追加」ボタンをもう一度クリックすることで、複数のリンクを追加する過程を繰り返すこともできます。AtoMは新しいポップアップダイアログを開きます。必要に応じて、ステップ3〜6を繰り返してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:548
+msgid ""
+"AtoM will reload the :term:`function` in :term:`view mode`. The relationship"
+" is expressed in the \"Relationships\" :term:`information area` of the "
+"function's :term:`view page`, and the related function's name will appear as"
+" a hyperlink. If you follow the hyperlink (by clicking on it), you will see "
+"that the related function now appears in the \"Relationships\" area of the "
+"linked function, with contextual details."
+msgstr ""
+"AtoMは、:term:`view mode`内で:term:`function`を再読み込みします。その関係は、機能の:term:`view "
+"page`内の\"Relationships\" :term:`information "
+"area`で表現され、関連する機能の名前はハイパーリンクとして表示されます。もしそのハイパーリンクをクリックしてたどると、リンクされた機能の\"Relationships\"エリアに、文脈上の詳細と共に関連する機能が表示されていることが分かります。"
+
+#: ../../user-manual/add-edit-content/functions.rst:560
+msgid "Delete a function"
+msgstr "機能を削除する"
+
+#: ../../user-manual/add-edit-content/functions.rst:562
+msgid ""
+"A function can be deleted at any time, via the :term:`main menu`, provided "
+"that a user has sufficient :term:`access privileges <access privilege>` to "
+"delete records. For more information on user permissions, see: :ref:`user-"
+"roles` and :ref:`default-user-permissions`."
+msgstr ""
+"機能は、ユーザーがレコードを削除するための十分な:term:`アクセス権限 <access "
+"privilege>`を持っていれば、いつでも:term:`メインメニュー`を通じて削除することができます。ユーザーの権限についての詳細は、:ref:`user-"
+"roles` および :ref:`default-user-permissions` を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:567
+msgid "**To delete a function permanently in AtoM:**"
+msgstr "AtoMで機能を恒久的に削除するには："
+
+#: ../../user-manual/add-edit-content/functions.rst:569
+msgid ""
+"Navigate to the :term:`function` you would like to delete. You can do this "
+"by going to the Browse page for functions (**Browse > Functions**) and then "
+"either browsing through the list, or using the dedicated Functions search "
+"bar on the Browse functions page to find the related function. Click on the "
+"function to navigate to its :term:`view page`. For more information on "
+"browsing and searching in AtoM, see: :doc:`Browse <../access-"
+"content/browse>` or :doc:`Search <../access-content/search-atom>`."
+msgstr ""
+"目的とする:term:`機能`を削除するには、その機能ページに移動します。これは、機能のブラウズページへ行くことで行えます（**ブラウズ > "
+"機能**）、その後、リストを見て回るか、またはブラウズ機能ページにある専用の機能検索バーを使って関連する機能を見つけます。その機能をクリックして、その:term:`表示ページ`へと進みます。AtoMでのブラウズや検索に関する詳細情報は、:doc:`ブラウズ"
+" <../access-content/browse>` または :doc:`検索 <../access-content/search-atom>` "
+"を参照してください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:576
+msgid ""
+"At the bottom of the page, click the :term:`Delete button` located in the "
+":term:`button block`."
+msgstr "ページの下部で、`:term:`ボタンブロック`にある`:term:`削除ボタン`をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/functions.rst:578
+msgid ""
+"AtoM will provide a warning, and prompt you to confirm the delete request. "
+"If you wish to abort the delete process, click \"Cancel\" - AtoM will return"
+" you to the function :term:`view page`. If you are sure you would like to "
+"permanently delete the function, click \"Delete\" - AtoM will remove the "
+"function, and redirect you to the Functions browse page."
+msgstr ""
+"AtoMは警告を提供し、削除リクエストを確認するように促します。削除プロセスを中止したい場合は、「キャンセル」をクリックしてください。AtoMはあなたを機能の:term:`ビューページ`に戻します。機能を永久に削除したいことが確かであれば、「削除」をクリックしてください。AtoMは機能を削除し、機能ブラウズページにリダイレクトします。"
+
+#: ../../user-manual/add-edit-content/functions.rst:-1
+msgid "An image example of a delete warning for a function in AtoM"
+msgstr "AtoMでの機能における削除警告のイメージ例"
+
+#: ../../user-manual/add-edit-content/functions.rst:591
+msgid ""
+"**Consequenses of deleting a function:** The :term:`function` will be "
+"deleted permanently, and will also be removed from any related functions, "
+":term:`archival descriptions <archival description>`, and :term:`authority "
+"records <authority record>`. (The related entities will not be deleted "
+"however)."
+msgstr ""
+"**機能を削除する結果:** その:term:`function`は完全に削除され、関連する機能や:term:`archival "
+"descriptions <archival description>`、:term:`authority records <authority "
+"record>`からも除去されます。（ただし、関連するエンティティは削除されません）。"

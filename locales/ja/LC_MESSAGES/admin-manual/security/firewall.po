@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/security/firewall.rst:5
+msgid "Firewall"
+msgstr "ファイアウォール"
+
+#: ../../admin-manual/security/firewall.rst:7
+msgid ""
+"It's not in the scope of this document to cover a complex firewall "
+"configuration for your network. Instead, we are just going to show the "
+"easiest way to setup a basic firewall for your web server in order to accept"
+" HTTP traffic and to block any other incoming traffic."
+msgstr ""
+"この文書の範囲には、ネットワークの複雑なファイアウォール構成について説明することは含まれていません。代わりに、HTTPトラフィックを受け入れ、その他のすべての着信トラフィックをブロックするための基本的なファイアウォールを設定する最も簡単な方法を示します。"
+
+#: ../../admin-manual/security/firewall.rst:12
+msgid ""
+"Ubuntu provides a simple firewall configuration tool called `ufw "
+"<https://wiki.ubuntu.com/UncomplicatedFirewall>`_ which we are going to use "
+"here. Let's make sure that ufw is installed:"
+msgstr ""
+"Ubuntuには`ufw "
+"<https://wiki.ubuntu.com/UncomplicatedFirewall>`_と呼ばれるシンプルなファイアウォール設定ツールが用意されており、ここではそれを使用します。まず、ufwがインストールされていることを確認しましょう："
+
+#: ../../admin-manual/security/firewall.rst:20
+msgid "Accept connections to HTTP, HTTPS (SSL):"
+msgstr "HTTP、HTTPS（SSL）への接続を受け入れる："
+
+#: ../../admin-manual/security/firewall.rst:27
+msgid "Allow access to your SSH server:"
+msgstr "SSHサーバーへのアクセスを許可する："
+
+#: ../../admin-manual/security/firewall.rst:37
+msgid "You are ready to go. Now we'll activate the firewall:"
+msgstr "準備は整いました。次にファイアウォールを有効にします:"
+
+#: ../../admin-manual/security/firewall.rst:43
+msgid "Any change will persist even if you restart the machine."
+msgstr "マシンを再起動しても、変更はそのまま維持されます。"

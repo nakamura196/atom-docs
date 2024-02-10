@@ -1,0 +1,2478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/access-content/browse.rst:5
+msgid "Browse"
+msgstr "ブラウズ"
+
+#: ../../user-manual/access-content/browse.rst:45
+msgid ""
+"The Browse menus in AtoM allow users to browse complete lists of "
+":term:`archival descriptions <archival description>`, as well as digital "
+"objects, :term:`authority records <authority record>` (for people and "
+"organizations), places, subjects and :term:`functions <function>`. In "
+":term:`multi-repository installations <multi-repository system>`, users can "
+"also browse :term:`archival institutions <archival institution>`."
+msgstr ""
+"AtoMのブラウズメニューでは、ユーザーは完全なリストを閲覧することができます。それには、`:term:`アーカイブ記述 <archival "
+"description>`、デジタルオブジェクト、`:term:`権威記録 <authority "
+"record>`（人物や組織に関するもの）、場所、主題、そして`:term:`機能 "
+"<function>`が含まれます。`:term:`複数リポジトリのインストール <multi-repository "
+"system>`を行った場合、ユーザーは`:term:`アーカイブ機関 <archival institution>`も閲覧することができます。"
+
+#: ../../user-manual/access-content/browse.rst:52
+msgid ""
+"Most browse functions are available for all users, authenticated (logged-in)"
+" or not. Browsing options available only to authenticated users, including "
+"donors and :term:`accession records <accession record>`, are outlined below."
+msgstr ""
+"ほとんどの閲覧機能は、認証されたユーザー（ログインしている）でなくても、全てのユーザーが利用可能です。認証されたユーザーのみが利用可能な閲覧オプションには、寄贈者や「アクセッション記録」といった項目が含まれます。これについては以下に詳細を記述します。"
+
+#: ../../user-manual/access-content/browse.rst:57
+msgid "Browsing for all users"
+msgstr "すべてのユーザーのための閲覧"
+
+#: ../../user-manual/access-content/browse.rst:59
+msgid ""
+"From any page in AtoM in the default theme, the :term:`Dominion theme`, the "
+"following browse options are available from the drop-down :term:`browse "
+"menu` beside the :term:`search box` in the :term:`header bar`. There are "
+"also browse links included on the :term:`home page` - see :ref:`home-page` "
+"for more information."
+msgstr ""
+"デフォルトテーマである:term:`Dominion "
+"theme`のAtoMの任意のページから、:term:`ヘッダーバー`内の:term:`検索ボックス`の隣にあるドロップダウン:term:`ブラウズメニュー`から以下のブラウズオプションが利用可能です。また、:term:`ホームページ`にもブラウズリンクが含まれています"
+" - 詳細については:ref:`ホームページ`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Search box with browse menu"
+msgstr "検索ボックス付きブラウズメニュー"
+
+#: ../../user-manual/access-content/browse.rst:69
+msgid ""
+"The browse options listed below are in their default order, however, "
+"adminstrative users can change the order, or remove browse options, through "
+"the Admin-Menus menu (see: :ref:`Manage menus <manage-menus>`)."
+msgstr ""
+"以下に挙げるブラウズオプションは、デフォルトの順序でリストされていますが、管理ユーザーは、Admin-"
+"Menusメニューを通じて、これらのオプションの順序を変更したり、ブラウズオプションを削除したりすることができます（参照: :ref:`メニューの管理 "
+"<manage-menus>`）。"
+
+#: ../../user-manual/access-content/browse.rst:73
+#: ../../user-manual/access-content/browse.rst:333
+#: ../../user-manual/access-content/browse.rst:1366
+msgid "**Jump to:**"
+msgstr "**移動先：**"
+
+#: ../../user-manual/access-content/browse.rst:75
+msgid ":ref:`browse-result-limits`"
+msgstr ":ref:`結果の閲覧制限`"
+
+#: ../../user-manual/access-content/browse.rst:76
+#: ../../user-manual/access-content/browse.rst:930
+#: ../../user-manual/access-content/browse.rst:1013
+msgid ":ref:`browse-descriptions`"
+msgstr ":ref:`説明の閲覧`"
+
+#: ../../user-manual/access-content/browse.rst:78
+msgid ":ref:`browse-hierarchy`"
+msgstr ":ref:`階層の閲覧`"
+
+#: ../../user-manual/access-content/browse.rst:80
+#: ../../user-manual/access-content/browse.rst:1072
+msgid ":ref:`browse-authority-records`"
+msgstr ":ref:`閲覧-権限記録`"
+
+#: ../../user-manual/access-content/browse.rst:81
+msgid ":ref:`browse-institutions`"
+msgstr ":ref:`機関を閲覧する`"
+
+#: ../../user-manual/access-content/browse.rst:83
+msgid ":ref:`browse-holdings`"
+msgstr ":ref:`保有資料の閲覧`"
+
+#: ../../user-manual/access-content/browse.rst:84
+msgid ":ref:`browse-maintained-actors`"
+msgstr "`維持されているアクターを閲覧する <browse-maintained-actors>`"
+
+#: ../../user-manual/access-content/browse.rst:86
+msgid ":ref:`browse-subjects-places`"
+msgstr ":ref:`対象物・場所の閲覧`"
+
+#: ../../user-manual/access-content/browse.rst:88
+msgid ":ref:`browse-subjects-places-results`"
+msgstr ":ref:`参照-主題・場所の結果を閲覧する`"
+
+#: ../../user-manual/access-content/browse.rst:90
+msgid ":ref:`browse-digital-objects`"
+msgstr "「デジタルオブジェクトの閲覧」"
+
+#: ../../user-manual/access-content/browse.rst:91
+msgid ":ref:`browse-functions`"
+msgstr ":ref:`参照機能`"
+
+#: ../../user-manual/access-content/browse.rst:93
+msgid "**Or, jump to** :ref:`browse-authenticated`"
+msgstr "**または、** :ref:`browse-authenticated` **に直接ジャンプしてください。**"
+
+#: ../../user-manual/access-content/browse.rst:98
+msgid "Search, browse, and result limits"
+msgstr "検索、閲覧、及び検索結果の制限"
+
+#: ../../user-manual/access-content/browse.rst:100
+msgid ""
+"In the event that there are more than 10,000 results to return when "
+"searching or browsing, AtoM will stop loading to preserve memory capacity, "
+"and the user will see the following message when attempting to jump to later"
+" results:"
+msgstr ""
+"検索や閲覧時に返す結果が10,000件を超える場合、AtoMはメモリ容量を保護するためにローディングを停止します。その際、ユーザーは後の結果にジャンプしようとすると、次のメッセージが表示されます："
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Sort options error message"
+msgstr "ソートオプションのエラーメッセージ"
+
+#: ../../user-manual/access-content/browse.rst:109
+msgid ""
+"With the release of 2.5, a second sort option has been added in the top "
+"right-hand corner to allow the user to change a sort from ascending to "
+"descending. This allows the user to quickly review the results from the end "
+"of the list. Note: this sort option is available for"
+msgstr ""
+"バージョン2.5のリリースに伴い、上昇順から降順へソートを変更するために右上隅に2番目のソートオプションが追加されました。これにより、ユーザーはリストの末尾から結果を素早く確認することができます。注：このソートオプションは利用可能です。"
+
+#: ../../user-manual/access-content/browse.rst:114
+msgid ":term:`Accession <accession record>`"
+msgstr "用語: `受け入れ <受け入れ記録>`"
+
+#: ../../user-manual/access-content/browse.rst:115
+msgid ":term:`Archival descriptions <archival description>`"
+msgstr ":term:`アーカイブ記述 <archival description>`"
+
+#: ../../user-manual/access-content/browse.rst:116
+msgid ":term:`Archival institututions <archival institution>`"
+msgstr "アーカイブ機関"
+
+#: ../../user-manual/access-content/browse.rst:117
+msgid ":term:`Authority records <authority record>`"
+msgstr ":term:`権威レコード<authority record>`"
+
+#: ../../user-manual/access-content/browse.rst:118
+msgid "Donors"
+msgstr "ドナー"
+
+#: ../../user-manual/access-content/browse.rst:119
+msgid ":term:`Functions <function>`"
+msgstr "用語 :term:`機能 <function>`"
+
+#: ../../user-manual/access-content/browse.rst:120
+msgid ":term:`Rights holders <rights record>`"
+msgstr ":term:`権利者 <権利記録>`"
+
+#: ../../user-manual/access-content/browse.rst:121
+msgid "Browse :term:`digital objects <digital object>`"
+msgstr "閲覧：用語「デジタルオブジェクト」"
+
+#: ../../user-manual/access-content/browse.rst:122
+msgid ":ref:`Clipboard results page <clipboard>`"
+msgstr ":ref:`クリップボード結果ページ <clipboard>`"
+
+#: ../../user-manual/access-content/browse.rst:123
+msgid ":term:`Taxonomies <taxonomy>`"
+msgstr "：用語`分類法<taxonomy>`"
+
+#: ../../user-manual/access-content/browse.rst:125
+msgid "The default sort is ascending."
+msgstr "既定のソート順は昇順です。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Sort option ascending"
+msgstr "オプションの昇順ソート"
+
+#: ../../user-manual/access-content/browse.rst:132
+msgid ""
+"By choosing 'Direction: Descending' the user can view the browse results "
+"from the end of the list:"
+msgstr "「方向：降順」を選択することで、ユーザーはリストの末尾からブラウズ結果を表示することができます："
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Sort option descending"
+msgstr "昇順でソート"
+
+#: ../../user-manual/access-content/browse.rst:140
+msgid "For more information, see:"
+msgstr "詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/browse.rst:142
+#: ../../user-manual/access-content/browse.rst:1354
+msgid ":ref:`recurring-sort-button`"
+msgstr ""
+"`:ref:`recurring-sort-button`` "
+"を日本語に直訳すると、「:ref:`定期的なソートボタン`」となりますが、これはreStructuredText（reST）のマークアップ言語における参照（reference）を示しています。この場合の正しい翻訳は、Archivematicaの具体的なコンテキストに基づく必要があります。しかし、この参照が特定のドキュメントのセクションや図に対してなされている可能性があるため、テキストのマークアップ要素まで含めて直訳すべきではありません。代わりに、対象となるセクションや機能の正確な日本語名称を使用して翻訳する必要があります。この情報がないため、適切な日本語名に置き換えることができません。そのため、ドキュメント内の該当する部分のタイトルや機能名が必要になるでしょう。"
+
+#: ../../user-manual/access-content/browse.rst:146
+msgid ""
+"Results may not be exactly as expected. Alphabetic sort order in AtoM is "
+"'ASCII-betical'. For more, see :ref:`navigate`."
+msgstr ""
+"結果が期待通りにならない可能性があります。AtoMでのアルファベット順の並び替えは「ASCIIベティカル」です。詳細については、:ref:`navigate`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:149
+msgid ""
+"Alternatively, a system administrator can adjust the results limit via "
+"AtoM's ``search.yml`` configuration file, to increase it beyond the default "
+"10,000 record limit. **Doing so will impact memory usage** and may require "
+"additional system memory. For more information, see:"
+msgstr ""
+"代わりに、システム管理者はAtoMの``search.yml``設定ファイルを調整し、デフォルトの10,000レコードの制限を超えて増やすことができます。**これを行うとメモリ使用量に影響を及ぼす**可能性があり、追加のシステムメモリが必要になることがあります。詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/browse.rst:154
+msgid ":ref:`config-search`"
+msgstr ""
+"このテキストは、おそらく文書の中の特定の参照部分、つまり内部参照（internal reference）またはクロスリファレンスを指しています。それは一般的に文書内の特定のセクションにリンクするために用いられるマークアップです。\n"
+"\n"
+"`:ref:`config-search`` という構文は、RST (reStructuredText) 形式で記述された文書で使われることが一般的です。これはSphinxドキュメンテーションツールで使用される文書形式であり、Pythonプログラミング言語のドキュメンテーションなどで広く採用されています。\n"
+"\n"
+"日本語の翻訳では、このようなリンクや参照を直接翻訳するというよりは、文脈に応じて該当するセクションのタイトルを日本語に訳すべきですが、ここではタイトルが提供されていません。そのため、直訳は不可能ですが、リンクが指すであろう節のタイトルが「検索の設定」であると仮定すれば、その部分を日本語で以下のように訳すことができます：\n"
+"\n"
+"``:ref:`検索の設定` ``\n"
+"\n"
+"ただし、実際の文書内でこのリンクがどのように使用され、どのようにタイトルが訳されるかは、文書全体のコンテキストに依存します。"
+
+#: ../../user-manual/access-content/browse.rst:156
+#: ../../user-manual/access-content/browse.rst:322
+#: ../../user-manual/access-content/browse.rst:737
+#: ../../user-manual/access-content/browse.rst:1077
+#: ../../user-manual/access-content/browse.rst:1372
+#: ../../user-manual/access-content/browse.rst:1450
+msgid ":ref:`Back to top <browse>`"
+msgstr ":ref:`上に戻る <browse>`"
+
+#: ../../user-manual/access-content/browse.rst:161
+msgid "|desc| Browse archival descriptions"
+msgstr "|desc| アーカイブ記述を閲覧"
+
+#: ../../user-manual/access-content/browse.rst:11
+msgid "desc"
+msgstr ""
+"申し訳ありませんが、翻訳するには具体的なテキストが必要です。\"desc\"はおそらく \"description\" "
+"の略ですが、どのような文脈で使用されているのか、またどのような文を翻訳する必要があるのかがわかりません。もう少し詳しい情報を提供していただけますか？"
+
+#: ../../user-manual/access-content/browse.rst:163
+msgid "Click the Browse menu, then click on Archival descriptions."
+msgstr "「Browse」メニューをクリックし、次に「Archival descriptions」をクリックしてください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing archival descriptions"
+msgstr "アーカイバルディスクリプションの閲覧ビュー"
+
+#: ../../user-manual/access-content/browse.rst:170
+msgid ""
+"When arriving on the :term:`archival description` browse page, a :term:`top-"
+"level description filter` is engaged by default, meaning that all results "
+"shown are :term:`parents <parent record>` with or without children, but "
+"without any higher levels of description above them in the hierarchy. Users "
+"can disengage this filter by clicking the **X** on the \"Only top-level "
+"descriptions\" :term:`filter tag` at the top of the results (see "
+":ref:`browse-hierarchy-top-filter`)."
+msgstr ""
+"アーカイブ記述のブラウズページに到着すると、デフォルトでは「上位レベル記述フィルター」が適用されており、表示されるすべての結果は子を持つか持たないかにかかわらず、「親レコード」として、それらの上位の記述レベルが階層内に存在しないものです。ユーザーは、結果の上部にある「トップレベルの記述のみ」フィルタータグの**X**をクリックすることによって、このフィルターを解除することができます（参照：`browse-"
+"hierarchy-top-filter`）。"
+
+#: ../../user-manual/access-content/browse.rst:178
+msgid ""
+"The automatic sort is alphabetic by default for public users and by most "
+"recently updated (date modifed) for authenticated users, but users can "
+"change the sort to most recently updated, identifier, reference code, and "
+"start or end date, using the :ref:`sort button <recurring-sort-button>` "
+"located at the top-right of the page above the results."
+msgstr ""
+"デフォルトでは、公開ユーザーに対する自動ソートはアルファベット順であり、認証済みユーザーには最も最近更新されたもの（変更日）がソートされますが、ユーザーはソートを最も最近更新されたもの、識別子、参照コード、開始または終了日に変更することができます。これは、ページの右上にある結果の上に位置する"
+" :ref:`ソートボタン <recurring-sort-button>` を使用して行うことができます。"
+
+#: ../../user-manual/access-content/browse.rst:186
+#: ../../user-manual/access-content/browse.rst:762
+msgid ""
+":term:`Administrators <administrator>` can change the default sort order on "
+"search/browse pages for both public and authenticated (i.e. logged in) "
+"users, in **Admin > Settings > Global**. For more information, see: "
+":ref:`sort-browser-users` and :ref:`sort-browser-anonymous`."
+msgstr ""
+"用語「管理者 "
+"<administrator>」は、公開中と認証済み（つまりログインしている）ユーザーの両方に対し、検索/ブラウズページのデフォルトの並び替え順序を**管理"
+" ＞ 設定 ＞ グローバル**で変更することができます。詳しくは、:ref:`sort-browser-users` と :ref:`sort-"
+"browser-anonymous` をご覧ください。"
+
+#: ../../user-manual/access-content/browse.rst:191
+msgid ""
+"Users can narrow the results list with the available :term:`facet filters "
+"<facet filter>` on the left-hand side of the screen. For more information on"
+" using the facet filters in AtoM, see: :ref:`recurring-facet-filters`; "
+"especially :ref:`Using facet filters in AtoM <using-facet-filters>`."
+msgstr ""
+"利用者は、画面左側にある利用可能な:term:`ファセットフィルター <facet "
+"filter>`を使用して、結果のリストを絞り込むことができます。AtoMでファセットフィルターを使用する方法の詳細については、以下を参照してください。"
+" :ref:`recurring-facet-filters`；特に :ref:`AtoMでのファセットフィルターの使用 <using-facet-"
+"filters>`。"
+
+#: ../../user-manual/access-content/browse.rst:197
+msgid ""
+"At the top of the :term:`archival description` browse page's list of "
+"results, the number of descriptions with :term:`digital objects <digital "
+"object>` is available and the user can click to see only results with "
+"digital objects."
+msgstr ""
+"アーカイブ記述のブラウズページの結果リストの上部には、デジタル・オブジェクトを含む説明文の数が表示されており、ユーザーはクリックしてデジタル・オブジェクトが含まれる結果のみを表示することができます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid ""
+"Image of the pager provided on browse pages with more than 10\n"
+"results"
+msgstr "10件以上の結果がある閲覧ページに表示されるページャーの画像"
+
+#: ../../user-manual/access-content/browse.rst:207
+msgid ""
+"By default, AtoM will display 10 results per page; if there are more than 10"
+" descriptions, a pager will be provided at the bottom of the results."
+msgstr "デフォルトでは、AtoMは1ページあたり10件の結果を表示します。記述が10件を超える場合は、結果の下部にページャーが提供されます。"
+
+#: ../../user-manual/access-content/browse.rst:212
+#: ../../user-manual/access-content/browse.rst:1264
+msgid ""
+":term:`Administrators <administrator>` can change the default number of "
+"results returned per page in **Admin > Settings > Global**. For more "
+"information, see: :ref:`results-page`."
+msgstr ""
+"管理者は、**管理 > 設定 > "
+"グローバル**で、ページごとに返されるデフォルトの結果数を変更することができます。詳細については、次を参照してください: :ref:`results-"
+"page`。"
+
+#: ../../user-manual/access-content/browse.rst:216
+msgid ""
+"Results appear in the main column of the page - click on a result and AtoM "
+"will take you to a :term:`view page` for the related :term:`archival "
+"description`. Additionally, the results include helpful contextual "
+"information, including:"
+msgstr ""
+"結果はページのメインカラムに表示されます。結果をクリックすると、AtoMが関連する「アーカイブ記述」の「ビューページ」へと案内します。さらに、結果には以下を含む役立つ文脈情報が含まれています："
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of a search results stub"
+msgstr "検索結果のスタブの画像"
+
+#: ../../user-manual/access-content/browse.rst:225
+msgid ""
+"*Level of description* - i.e. fonds, series, file, item, etc. The "
+":term:`level of description` will be diplayed next to the orange identifier,"
+" below the title of the record."
+msgstr ""
+"*記述レベル* - "
+"たとえば全体記録、シリーズ、ファイル、アイテムなどがあります。:term:`記述レベル`は、レコードのタイトルの下、オレンジ色の識別子の隣に表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:228
+msgid ""
+"*Publication status* - if a description's :term:`publication status` is "
+"\"draft\" (i.e. it is not visible to public users), the draft status will be"
+" indicated in the stub record."
+msgstr ""
+"*公開状態* - "
+"説明文の:term:`公開状態`が「下書き」（つまり、一般ユーザーには見えない）である場合、その下書き状態はスタブレコードに示されます。"
+
+#: ../../user-manual/access-content/browse.rst:231
+msgid ""
+"*Description* - if a scope and content note has been included in the "
+"archival description, its first 2-3 lines will be visible here for greater "
+"context."
+msgstr "*説明* - アーカイブ記述に範囲及び内容の注記が含まれている場合、より文脈を理解するために、その最初の2-3行がここに表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:234
+msgid ""
+"*Identifier* - if a reference code or other identifier has been added to the"
+" record, the results will display this in orange, beneath the title."
+msgstr "*識別子* - 参照コードまたはその他の識別子が記録に追加されている場合、その結果はタイトルの下にオレンジ色で表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:236
+msgid ""
+"*Creation dates* - if dates of creation have been added to the record, these"
+" will display on the same line as the identifier and level of description."
+msgstr "*作成日* - 記録に作成日が追加されている場合、これらは識別子と説明レベルと同じ行に表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:238
+msgid ""
+"*Part of* - if the record is the :term:`child <child record>` of a "
+"hierarchical :term:`archival unit` (e.g. a file in a fonds, etc), the title "
+"of the :term:`parent record` will be displayed as a hyperlink beneath the "
+"identifier, level of description, and creation dates."
+msgstr ""
+"*一部* - もしレコードが階層的な:term:`アーカイブ単位`（例えば、フォンズ内のファイルなど）の:term:`子 "
+"<子レコード>`である場合、:term:`親レコード`のタイトルが、識別子、記述のレベル、および作成日の下にハイパーリンクとして表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:242
+msgid ""
+"*Creator name* - if a creator's :term:`authority record` has been linked to "
+"an archival description, the results stub will display the creator name "
+"below the scope and content summary."
+msgstr ""
+"*作成者名* - "
+"もし作成者の:term:`権威レコード`がアーカイブ記述にリンクされていた場合、結果の要約には範囲と内容の概要の下に作成者名が表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:248
+#: ../../user-manual/access-content/browse.rst:931
+#: ../../user-manual/access-content/browse.rst:1014
+msgid ":ref:`search-archival-descriptions`"
+msgstr ":ref:`アーカイブ記述の検索`"
+
+#: ../../user-manual/access-content/browse.rst:249
+#: ../../user-manual/access-content/browse.rst:1242
+msgid ":ref:`recurring-page-elements`"
+msgstr ""
+"`:ref:`recurring-page-elements`` はreStructuredText (reST)の文法で、他の場所のドキュメント内の「recurring-page-elements」というタイトルのセクションにリンクするために使われるラベルを指しています。リンクテキストそのものには表示されないタグの一種で、ドキュメント内でラベルを使うことで読者が関連するコンテンツに容易にナビゲートできるようになります。\n"
+"\n"
+"しかし、テキスト自体が具体的な意味を成しておらず、これを単純に日本語に翻訳することはできません。ドキュメントのコンテクストによって適切な日本語訳が異なることがあるため、単純な変換ではなく具体的な使用例をもとに翻訳の必要があることがあります。\n"
+"\n"
+"ドキュメントが技術的なマニュアルである場合、原文の形式を保持し、技術的な用語やマークアップ言語のラベルをそのまま残すことが多いです。もし、この`:ref:`recurring-page-elements`` に対応する日本語のセクションタイトルがあれば、そのタイトルに日本語のリンク名を指定できます。例えば、日本語版ドキュメントにおいて「繰り返し現れるページの要素」というセクションがある場合は、「:ref:`繰り返し現れるページの要素``」といった形で翻訳されることも考えられます。\n"
+"\n"
+"もし、意味合いをそのまま日本語に翻訳する必要がある場合、「繰り返し現れるページの要素」や「定型のページ要素」といった表現が適切かもしれません。ただし、これはあくまでマークアップタグの目的を説明する翻訳であり、実際のマークアップとして使用するには適していないことに注意する必要があります。"
+
+#: ../../user-manual/access-content/browse.rst:250
+#: ../../user-manual/access-content/browse.rst:396
+#: ../../user-manual/access-content/browse.rst:476
+#: ../../user-manual/access-content/browse.rst:548
+#: ../../user-manual/access-content/browse.rst:783
+#: ../../user-manual/access-content/browse.rst:932
+#: ../../user-manual/access-content/browse.rst:1015
+#: ../../user-manual/access-content/browse.rst:1073
+#: ../../user-manual/access-content/browse.rst:1243
+#: ../../user-manual/access-content/browse.rst:1314
+msgid ":ref:`recurring-facet-filters`"
+msgstr "`:ref:`定期的なファセットフィルタ`"
+
+#: ../../user-manual/access-content/browse.rst:251
+#: ../../user-manual/access-content/browse.rst:349
+msgid ":ref:`archival-descriptions`"
+msgstr "`:ref:`archival-descriptions`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:256
+msgid "Using the Hierarchy browser"
+msgstr "階層ブラウザの使用"
+
+#: ../../user-manual/access-content/browse.rst:258
+msgid ""
+"If an :term:`administrator` has enabled the **Hierarchy browse** options "
+"(see :ref:`treeview-settings`) users will also see a button to engage that "
+"view."
+msgstr ""
+"管理者が**階層ブラウズ**オプションを有効にしている場合（:ref:`treeview-"
+"settings`を参照）、ユーザーはそのビューを有効にするボタンも表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Browse hierarchy choice"
+msgstr "階層構造の閲覧選択"
+
+#: ../../user-manual/access-content/browse.rst:266
+msgid ""
+"Clicking this button will take users to a full-page, full-width "
+":term:`treeview` containing all top-level :term:`descriptions <archival "
+"description>` in AtoM, called the :term:`hierarchy browser`."
+msgstr ""
+"このボタンをクリックすると、ユーザーはAtoMにあるすべてのトップレベルの「アーカイブ記述」が含まれている全ページ、全幅の「ツリービュー」である「階層ブラウザ」に移動します。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Browse hierarchy page"
+msgstr "階層を閲覧するページ"
+
+#: ../../user-manual/access-content/browse.rst:276
+msgid ""
+"As with the current description treeview, each description in the hierarchy "
+"browse page that has :term:`children <child record>` will display an "
+"\"expand/collapse\" icon that can be clicked to display all the children of "
+"that description. Any child descriptions that in turn have children will "
+"also be expandable."
+msgstr ""
+"現在の記述ツリービューと同様に、階層ブラウズページにおいて、:term:`子レコード<child "
+"record>`を持つ各記述には、「展開/折りたたみ」アイコンが表示され、そのアイコンをクリックすることでその記述の全ての子レコードを表示することができます。子レコードを持つ子記述もまた、展開可能です。"
+
+#: ../../user-manual/access-content/browse.rst:282
+msgid ""
+"The amount of top-level records loaded into the hierarchy browser when it is"
+" first visited will be determined by the :ref:`fwt-items-per-page` setting "
+"available at |gears| **Admin > Settings > Treeview**. The default value is "
+"50 - an :term:`administrator` can adjust this value up to 1,000."
+msgstr ""
+"最初に階層ブラウザーを訪れた際に読み込まれるトップレベルの記録の量は、|gears| **管理者 > 設定 > ツリービュー**で利用可能な "
+":ref:`fwt-items-per-page` 設定によって決定されます。デフォルト値は50です - "
+":term:`管理者`はこの値を1,000まで調整することができます。"
+
+#: ../../user-manual/access-content/browse.rst:38
+msgid "gears"
+msgstr ""
+"ギア (このコンテクストでは、文脈に応じて適切な日本語に置き換える必要があります。例えば、\"gears\" "
+"が比喩的に「仕組み」や「システム」として使われている場合などです。具体的な文脈が与えられていないため、直訳の「ギア」を提案しています。)"
+
+#: ../../user-manual/access-content/browse.rst:287
+msgid ""
+"At the top right of the page, a \"Reset\" will be present. Clicking this "
+"will return the hierarchy browser to its original state, collapsing all "
+"opened nodes and displaying only the first load of records."
+msgstr ""
+"ページの右上に「リセット」があります。これをクリックすると、階層ブラウザが元の状態に戻り、開かれたすべてのノードが折りたたまれ、最初にロードされたレコードのみが表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:291
+msgid ""
+"Additionally, if there are more top-level descriptions available than those "
+"included in the initial load, a second button with a number in the top right"
+" corner of the page will indicate how many more descriptions can be seen in "
+"the hierarchy. Click on that number to bring up the next page of results."
+msgstr ""
+"また、初期ロードに含まれているものよりも多くのトップレベルの記述が利用可能な場合、ページの右上隅にある数字が付いた2つ目のボタンが、階層内で見ることができる記述の数を示します。その数字をクリックすると、次のページの結果が表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:301
+msgid ""
+"The hierarchy browser will have the same functionality as the standard "
+"treeview, except:"
+msgstr "階層ブラウザは、以下を除いて、標準のツリービューと同じ機能を持ちます："
+
+#: ../../user-manual/access-content/browse.rst:304
+msgid ""
+"All top level description titles in the catalogue database will be shown in "
+"alphabetic order"
+msgstr "カタログデータベースにおけるすべての最上位記述タイトルは、アルファベット順に表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:306
+msgid ""
+"When lower level descriptions exist, an \"expand/collapse\" icon will be "
+"visible; clicking that icon will display lower levels in the order in which "
+"they are described"
+msgstr ""
+"低いレベルの記述が存在する場合は、「展開/折りたたみ」アイコンが表示されます。そのアイコンをクリックすると、記述されている順に下位レベルが表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:309
+msgid ""
+"The treeview will use the entire display area of the page, so the “gripper” "
+"to expand and shrink the vertical size of the treeview pane will not be "
+"necessary"
+msgstr ""
+"ツリービューはページのディスプレイ領域全体を使用するため、ツリービューパネルの縦のサイズを拡大・縮小するための「グリッパー」は必要ありません。"
+
+#: ../../user-manual/access-content/browse.rst:311
+msgid ""
+"When a user clicks a description title in the hierarchy browse page,they "
+"will be redirected to the related archival description view page with the "
+"standard treeview (the user should then be able to return to the hierarchy "
+"browse page where they left off)"
+msgstr ""
+"ユーザーが階層ブラウズページ内で記述タイトルをクリックすると、標準的なツリービューを含む関連するアーカイブ記述ビューページにリダイレクトされます（その後、ユーザーは離れたところから階層ブラウズページに戻ることができるはずです）。"
+
+#: ../../user-manual/access-content/browse.rst:315
+msgid "No filters or facets will be available on the hierarchy browse page"
+msgstr "階層ブラウズページでフィルターまたはファセットは使用できません"
+
+#: ../../user-manual/access-content/browse.rst:316
+msgid "The Reset button will remain available at all times"
+msgstr "リセットボタンは常時利用可能です"
+
+#: ../../user-manual/access-content/browse.rst:320
+msgid ":ref:`treeview-settings`"
+msgstr "`ツリービューの設定`"
+
+#: ../../user-manual/access-content/browse.rst:327
+msgid "Browsing within an archival unit's hierarchy"
+msgstr "アーカイバルユニットの階層内を閲覧する"
+
+#: ../../user-manual/access-content/browse.rst:329
+msgid ""
+"There are several ways to explore lower-level records (i.e. :term:`children "
+"<child record>`) within an :term:`archival unit` (such as a :term:`fonds`, "
+":term:`collection`, or series). Each will be described below."
+msgstr ""
+"記録の下位階層（例：「子記録」）を、アーカイブ単位（「フォンズ」、「コレクション」、またはシリーズなど）内で調査する方法はいくつかあります。それぞれについて以下で説明します。"
+
+#: ../../user-manual/access-content/browse.rst:335
+msgid ":ref:`browse-hierarchy-top-filter`"
+msgstr ""
+"このテキストは、Archivematicaのドキュメントからの参照ラベルを示していますが、完全な文脈や実際のテキストがないため、適切な日本語の翻訳を提供することは難しいです。しかしながら、このラベルはおそらくドキュメントの特定のセクションや図に直接飛ぶための参照リンクです。したがって、リンクのラベルを日本語に訳すだけであれば、「階層の閲覧-"
+"トップフィルター」または類似の表現が適切かもしれませんが、このラベルが指し示す具体的な機能やコンテンツを正確に翻訳するには追加の情報が必要です。"
+
+#: ../../user-manual/access-content/browse.rst:336
+msgid ":ref:`browse-hierarchy-facet`"
+msgstr ":ref:`階層の参照-ファセット`"
+
+#: ../../user-manual/access-content/browse.rst:337
+msgid ":ref:`browse-hierarchy-list`"
+msgstr ":ref:`階層リストを参照`"
+
+#: ../../user-manual/access-content/browse.rst:338
+msgid ":ref:`browse-hierarchy-digi-objects`"
+msgstr "以下は、デジタルオブジェクトの階層をブラウズするための参照リンクです。"
+
+#: ../../user-manual/access-content/browse.rst:339
+msgid ":ref:`browse-hierarchy-inventory`"
+msgstr ":ref:`階層構造インベントリの参照`"
+
+#: ../../user-manual/access-content/browse.rst:340
+msgid ":ref:`browse-hierarchy-quick-search`"
+msgstr "`:ref:`ブラウズ階層クイック検索``"
+
+#: ../../user-manual/access-content/browse.rst:342
+msgid ""
+"The \"Part of\" facet and Top-level description filter options are performed"
+" from a Search/Browse page, while the remaining options are accessed from "
+"the :term:`view page` of an :term:`archival description`"
+msgstr ""
+"「Part "
+"of」ファセットとトップレベルの説明フィルタオプションは、検索/ブラウズページから実行されます。一方、残りのオプションは、アーカイブ記述のビューページからアクセスされます。"
+
+#: ../../user-manual/access-content/browse.rst:348
+#: ../../user-manual/access-content/browse.rst:394
+#: ../../user-manual/access-content/browse.rst:477
+#: ../../user-manual/access-content/browse.rst:549
+#: ../../user-manual/access-content/browse.rst:1312
+msgid ":ref:`search-atom`"
+msgstr ""
+"`:ref:`search-atom``は、reStructuredText（reST）形式で文書内の特定参照を指すマークアップです。このコンテキストで機能する適切な日本語訳に置き換える場合、文書内に`search-atom`参照が指し示すセクション、あるいはタイトルが必要です。しかしながら、ここにはその具体的なタイトルが示されていませんので、直接的な翻訳はできません。代わりに、一例を挙げて文脈を補うことができます。\n"
+"\n"
+"例えば、もし`search-atom`が文書内で\"AtoMでの検索\"というセクションまたはタイトルを指す場合、以下のように翻訳することができます：\n"
+"\n"
+"「AtoMでの検索」\n"
+"\n"
+"ただし、実際には文書の内容や構造に応じて適切なセクション名またはタイトルを使用する必要があります。"
+
+#: ../../user-manual/access-content/browse.rst:350
+msgid ":ref:`navigate`"
+msgstr ""
+"この文脈で「:ref:`navigate`」という表現は、おそらくドキュメント内で使用されている参照システムの一部です。具体的に翻訳するには、どのようなテキストやセクションにリンクされているかを正確に理解する必要があります。ただし、一般的な文脈に合わせた翻訳として「参照：「ナビゲートする」」のように表すことが考えられます。これはドキュメント内の「ナビゲートする」というセクションや項目への参照であると想定しています。\n"
+"\n"
+"もし、「:ref:`navigate`」が特定の手順やガイドへの内部リンクである場合、リンク先の日本語訳が必要になるかもしれません。その場合、リンク先の内容を正確に把握し、適切な日本語タイトルやテキストに翻訳する必要があります。実際の文書内での使用法に応じて、翻訳方法が変わります。"
+
+#: ../../user-manual/access-content/browse.rst:355
+msgid "Using the top-level description filter"
+msgstr "トップレベルの説明フィルタを使用する"
+
+#: ../../user-manual/access-content/browse.rst:357
+msgid ""
+"Using the :ref:`browse-menu` located in the :ref:`atom-header-bar`, navigate"
+" to **Browse > Archival descriptions**. For more information on navigation "
+"in AtoM, see: :ref:`navigate`."
+msgstr ""
+":ref:`browse-menu` を使用して、:ref:`atom-header-bar` から **ブラウズ > アーカイブ記述** "
+"へ移動します。AtoM内でのナビゲーションに関する詳細は、:ref:`navigate` を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:360
+msgid ""
+"By default, AtoM will display only top-level :term:`parent <parent record>` "
+"records when arriving on the Browse page. This limits what you see to the "
+"highest levels of description."
+msgstr ""
+"デフォルトでは、AtoMはブラウズページに到着した際に、トップレベルの「親<parent "
+"record>」レコードのみを表示します。これにより、説明の最も高いレベルのものだけが表示されることになります。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of top level description filter"
+msgstr "最上位記述フィルタのビュー"
+
+#: ../../user-manual/access-content/browse.rst:370
+msgid "Choose a description by clicking the hyperlink description name."
+msgstr "リンクされた記述名をクリックして記述を選択してください。"
+
+#: ../../user-manual/access-content/browse.rst:371
+msgid ""
+"To see all child-l;evel descriptions, You can display all results by "
+"clicking the **X** on the \"top-level descriptions\" :term:`filter tag`."
+msgstr ""
+"すべての子レベル記述を表示するには、「トップレベル記述」:term:`フィルタータグ`の **X** をクリックして、全ての結果を表示できます。"
+
+#: ../../user-manual/access-content/browse.rst:373
+msgid ""
+"You can continue to refine your browsing using :term:`facet filter` or "
+":ref:`advanced-search`."
+msgstr "あなたは、:term:`ファセットフィルター`や:ref:`高度な検索`を利用してさらに検索の絞り込みを行うことができます。"
+
+#: ../../user-manual/access-content/browse.rst:378
+msgid "Using the \"Part of\" facet"
+msgstr "\"Part of\" ファセットの使用"
+
+#: ../../user-manual/access-content/browse.rst:380
+msgid ""
+"When arriving on a search or browse page, you can use the \"Part of\" "
+":term:`facet filter` to limit results to :term:`children <child record>` "
+"contained within an :term:`archival unit` such as a :term:`fonds` or "
+":term:`collection`. Note however that at present, the AtoM facet filters "
+"will only show the top 10 results for any facet - so this method will only "
+"work if your target archival unit is included in the facet's display (see "
+"the section below on :ref:`browse-hierarchy-top-filter` if your target "
+"archival unit is not included in the \"Part of\" facet filter)."
+msgstr ""
+"検索ページや閲覧ページに到達した際には、「所属」：用語:`ファセットフィルタ` "
+"を使用して、所蔵やコレクションなどのアーカイブ単位：用語:`archival unit` 内に含まれる子レコード：用語:`children <child"
+" record>` "
+"に結果を限定することができます。ただし現時点では、AtoMのファセットフィルターはあるファセットについてトップ10の結果のみを表示するため、この方法は対象のアーカイブ単位がファセットの表示に含まれている場合にのみ機能します（「所属」ファセットフィルターに対象のアーカイブ単位が含まれていない場合は、以下の"
+" :ref:`browse-hierarchy-top-filter` の節を参照してください）。"
+
+#: ../../user-manual/access-content/browse.rst:391
+msgid ""
+"More information on using the search/browse pages and the facet filters can "
+"be found in the sections listed below:"
+msgstr "検索/閲覧ページの使用方法やファセットフィルターについての詳しい情報は、以下に記載されたセクションで見ることができます："
+
+#: ../../user-manual/access-content/browse.rst:395
+msgid ":ref:`browse`"
+msgstr ""
+"`:ref:`browse`` という特定のテキストは、リファレンスリンクまたはドキュメント内の特定のセクションを参照するために使われるマークアップであるため、そのまま翻訳することは適切ではありません。\n"
+"\n"
+"しかし、文脈上では、これはおそらく 'browse' というセクションまたはページへの参照でしょう。そのため、これを日本語に適切に変換するためには、実際の「browse」セクションのタイトルが日本語で何であるかに基づいた翻訳が必要です。もしそのセクションのタイトルがまだ翻訳されていないならば、可能な翻訳は次のとおりでしょう。\n"
+"\n"
+"`:ref:`ブラウズ``\n"
+"\n"
+"ただし、これはリンクの目的地が「ブラウズ」であることを想定しています。もし実際のセクションに特定の名前があれば、その名前を使用してリンクを更新する必要があります。例えば、もしセクションのタイトルが「デジタルアーカイブの閲覧」というタイトルであるなら、リンクは以下のようになるでしょう。\n"
+"\n"
+"`:ref:`デジタルアーカイブの閲覧``\n"
+"\n"
+"このようなリファレンスマークアップの翻訳は、文脈とドキュメント内の他の部分との整合性を保つために注意が必要です。"
+
+#: ../../user-manual/access-content/browse.rst:398
+msgid ""
+"**To use the \"Part of\" facet for limiting results to a single archival "
+"unit:**"
+msgstr "**単一のアーカイブ単位に結果を限定するために「Part of」ファセットを使用するには：**"
+
+#: ../../user-manual/access-content/browse.rst:400
+msgid ""
+"Using the :ref:`browse-menu` located in the :ref:`atom-header-bar`, navigate"
+" to **Browse > Archival descriptions**."
+msgstr ""
+"`:ref:`browse-menu`を使用して、`:ref:`atom-header-bar`にある**閲覧 > アーカイブ記述**へと移動します。"
+
+#: ../../user-manual/access-content/browse.rst:402
+msgid ""
+"Turn off the top-level descriptions filter. You can display all results by "
+"clicking the **X** on the \"top-level descriptions\" :term:`filter tag`."
+msgstr ""
+"トップレベルの説明フィルターをオフにします。「トップレベルの説明」:term:`フィルタータグ`の**X**をクリックすることで、すべての結果を表示できます。"
+
+#: ../../user-manual/access-content/browse.rst:404
+msgid ""
+"In the left-hand column, locate the \"Part of\" facet filter. The facet will"
+" display the top 10 results - e.g. those top-level records with the most "
+":term:`children <child record>`. For more information on using facet filters"
+" in AtoM, see: :ref:`recurring-facet-filters`"
+msgstr ""
+"左側の列で、「Part of」というファセットフィルターを探してください。このファセットは、最も多くの:term:`子レコード<child "
+"record>`を持つトップレベルの記録など、上位10件の結果を表示します。AtoMでファセットフィルターを使用する方法についての詳細は、以下を参照してください:"
+" :ref:`recurring-facet-filters`"
+
+#: ../../user-manual/access-content/browse.rst:408
+msgid ""
+"Click on the name of the :term:`archival unit` (e.g. fonds or collection) "
+"whose lower-level records (:term:`children <child record>`) you would like "
+"to explore."
+msgstr ""
+"クリックして、さらに詳細な記録（:term:`子記録<child record>`）を探求したい :term:`アーカイブ単位` "
+"（例：フォンズやコレクション）の名前を選択します。"
+
+#: ../../user-manual/access-content/browse.rst:411
+msgid ""
+"AtoM will reload the page with the results filtered to the chosen archival "
+"unit. This will be indicated, and can be quickly removed, via the "
+":term:`filter tag` with the name of the unit at the top of the search/browse"
+" results page. You can continue to apply further facets and fliters as "
+"desired to narrow your results within the selected archival unit."
+msgstr ""
+"AtoMは、選択されたアーカイブ単位にフィルタリングされた結果でページをリロードします。これは表示され、検索/ブラウズ結果ページの上部にある単位の名前を持つ`:term:`フィルタータグ`を介してすぐに削除することができます。さらに他のファセットやフィルタを適用して、選択されたアーカイブ単位の中で結果を絞り込むことができます。"
+
+#: ../../user-manual/access-content/browse.rst:421
+msgid "Using the \"Browse as list\" button"
+msgstr "「リストとして表示」ボタンの使用"
+
+#: ../../user-manual/access-content/browse.rst:423
+#: ../../user-manual/access-content/browse.rst:485
+msgid ""
+"If you are already on the view page of an :term:`archival description` that "
+"includes a descriptive hierarchy (i.e. a top-level description such as a "
+":term:`fonds`, :term:`collection`, or series that has lower-level "
+":term:`children <child record>`), you can explore the descriptions contained"
+" in the :term:`archival unit` using the browse buttons included in the "
+"\"Explore\" section of the right-hand :term:`context menu`. For more "
+"information on context menu items in AtoM, see: :ref:`context-menu` and "
+":ref:`recurring-page-elements`."
+msgstr ""
+"既に記述階層（例えば、下位レベルの「子レコード」を有する「機関史料」、「収集品」、またはシリーズなどのトップレベルの記述）を含む「アーカイブ記述」の閲覧ページにいる場合、右側の「コンテキストメニュー」にある「探索」セクションに含まれるブラウズボタンを使用して、「アーカイブユニット」内に含まれる記述を探索することができます。AtoMのコンテキストメニュー項目に関する詳細は、次を参照してください:"
+" 「コンテキストメニュー」および「反復するページ要素」。"
+
+#: ../../user-manual/access-content/browse.rst:432
+msgid ""
+"There are two options for browsing within an archival unit included here - "
+"the \"Browse as list\" button, and the \"Browse digital objects\" button. "
+"Additionally, if it has been configured by an :term:`administrator`, there "
+"may also be an option to view an inventory. This section will describe the "
+"\"Browse as list\" button - see the :ref:`Browse digital objects button "
+"<browse-hierarchy-digi-objects>` and :ref:`Browse inventory list <browse-"
+"hierarchy-inventory>` sections below for the other options in this part of "
+"the context menu."
+msgstr ""
+"ここに含まれるアーカイブ単位内を閲覧するための2つのオプションがあります - "
+"「リストとして閲覧」ボタンと、「デジタルオブジェクトを閲覧」ボタンです。さらに、:term:`管理者`によって設定されている場合、目録を表示するオプションも存在する場合があります。このセクションでは「リストとして閲覧」ボタンについて説明します"
+" - この部分のコンテキストメニューの他のオプションに関しては、以下の:ref:`デジタルオブジェクトを閲覧するボタン <browse-"
+"hierarchy-digi-objects>`および:ref:`目録リストを閲覧する <browse-hierarchy-"
+"inventory>`セクションを参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:443
+msgid ""
+"The \"Browse as list\" link will appear in the right-hand :term:`context "
+"menu` in all cases - even if there are no lower-level descriptions to "
+"browse. So, it is possible that clicking on the link will lead to a results "
+"page with only one result."
+msgstr ""
+"\"ブラウズ・アズ・リスト\"リンクは、右側の:term:`コンテキストメニュー`に常に表示されます。たとえ、閲覧可能な下位レベルの記述が何もない場合でもです。したがって、リンクをクリックすると、結果としてたった一つの結果が表示されるページにたどり着くこともありえます。"
+
+#: ../../user-manual/access-content/browse.rst:448
+msgid "**To use the Browse as list button:**"
+msgstr "**「リストとして表示」ボタンの使用方法：**"
+
+#: ../../user-manual/access-content/browse.rst:450
+#: ../../user-manual/access-content/browse.rst:511
+msgid ""
+"Navigate to an :term:`archival description` that is part of the "
+":term:`archival unit` whose :term:`children <child record>` you wish to "
+"explore - it does not have to be the top-level :term:`parent record`. For "
+"more information on searching, browsing, and navigation in AtoM, see: "
+":ref:`access-content`."
+msgstr ""
+"アクセスしたい:term:`子レコード <child "
+"record>`が含まれる:term:`アーカイブ単位`の一部である:term:`アーカイブ記述`に移動します。トップレベルの:term:`親レコード`である必要はありません。AtoM内での検索、閲覧、およびナビゲーションに関する詳しい情報は、:ref:`access-"
+"content`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:455
+msgid ""
+"In the right-hand :term:`context menu`, locate the *Explore* section - you "
+"will see browse options listed there, including the \"Browse as list\" "
+"button."
+msgstr ""
+"右側の:term:`コンテキストメニュー`で、*探索*セクションを探してください - "
+"そこには「リストとして表示」ボタンを含む閲覧オプションがリストされています。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of the Explore section of the right-hand context menu"
+msgstr "右側のコンテキストメニューの「探索」セクションの画像"
+
+#: ../../user-manual/access-content/browse.rst:464
+msgid ""
+"Click on the \"Browse as list\" link. AtoM will redirect you to a browse "
+"page, limited to the current :term:`archival unit` - this will be indicated "
+"by the :term:`filter tag` at the top of the browse page with the name of the"
+" top-level description. If you click the **X** to remove the filter tag, "
+"AtoM will reload all search/browse results (i.e. the page will no longer be "
+"limited to the selected archival unit)."
+msgstr ""
+"「リストとして閲覧」リンクをクリックしてください。AtoMは、現在の:term:`archival "
+"unit`に限定されたブラウズページにリダイレクトします - これは、トップレベルの記述の名前を持つ:term:`filter "
+"tag`がブラウズページの上部に表示されることで示されます。フィルタータグを除去するために**X**をクリックすると、AtoMは全ての検索/ブラウズ結果を再読込します（つまり、ページは選択されたアーカイブユニットに限定されなくなります）。"
+
+#: ../../user-manual/access-content/browse.rst:471
+#: ../../user-manual/access-content/browse.rst:543
+msgid ""
+"You can continue to apply further facets and fliters as desired to narrow "
+"your results within the selected archival unit."
+msgstr "選択したアーカイブ単位内で結果を絞り込むために、さらに必要に応じて追加のファセットやフィルターを適用し続けることができます。"
+
+#: ../../user-manual/access-content/browse.rst:478
+#: ../../user-manual/access-content/browse.rst:550
+#: ../../user-manual/access-content/browse.rst:1313
+msgid ":ref:`advanced-search`"
+msgstr "`高度な検索`"
+
+#: ../../user-manual/access-content/browse.rst:483
+msgid "Using the \"Browse digital objects\" button"
+msgstr "「デジタルオブジェクトをブラウズ」ボタンの使用"
+
+#: ../../user-manual/access-content/browse.rst:494
+msgid ""
+"There are two options for browsing within an archival unit included here - "
+"the \"Browse as list\" button, and the \"Browse digital objects\" button. "
+"Additionally, if it has been configured by an :term:`administrator`, there "
+"may also be an option to view an inventory. This section will describe the "
+"\"Browse digital objects\" button - see the :ref:`Browse digital objects "
+"button <browse-hierarchy-list>` section above, and the :ref:`Browse "
+"inventory list <browse-hierarchy-inventory>` section below for the other "
+"options in this part of the context menu."
+msgstr ""
+"ここに含まれるアーカイブ単位の内部を閲覧するための2つのオプションがあります。「リストとして閲覧」ボタンと「デジタルオブジェクトを閲覧」ボタンです。さらに、:term:`管理者`によって設定されている場合には、目録を見るオプションも存在するかもしれません。このセクションでは「デジタルオブジェクトを閲覧」ボタンについて述べます"
+" - 上記の :ref:`デジタルオブジェクトを閲覧するボタン <browse-hierarchy-list>` セクションや、下記の "
+":ref:`目録リストを閲覧する <browse-hierarchy-inventory>` "
+"セクションで、このコンテキストメニューの部分にある他のオプションについても述べています。"
+
+#: ../../user-manual/access-content/browse.rst:503
+msgid ""
+"The \"Browse digital objects\" button will allow you to explore the "
+":term:`digital objects <digital object>` associated with descriptions "
+"included in the target :term:`archival unit`, on a dedicated browse page "
+"described in the :ref:`browse-digital-objects` section below, but limited to"
+" that specific descriptive hierarchy."
+msgstr ""
+"「デジタルオブジェクトを閲覧」ボタンを使用すると、対象となる :term:`archival "
+"unit`に含まれている記述に関連付けられた:term:`digital objects "
+"<デジタルオブジェクト>`を専用の閲覧ページで調べることができます。これは以下の:ref:`browse-digital-"
+"objects`セクションで説明されていますが、特定の記述階層に限定されています。"
+
+#: ../../user-manual/access-content/browse.rst:509
+msgid "**To use the Browse digital objects button:**"
+msgstr "**「デジタルオブジェクトをブラウズ」ボタンの使用方法：**"
+
+#: ../../user-manual/access-content/browse.rst:516
+msgid ""
+"In the right-hand :term:`context menu`, locate the *Explore* section - you "
+"will see browse options listed there, including the \"Browse digital "
+"objects\" button."
+msgstr ""
+"右側の:term:`コンテキストメニュー`内で「*探索*」セクションを探してください。そこには、\"デジタルオブジェクトを閲覧\"ボタンを含む、いくつかのブラウズオプションがリストされています。"
+
+#: ../../user-manual/access-content/browse.rst:527
+msgid ""
+"The \"Browse digital objects\" option will **not** be displayed if there are"
+" no digital objects linked to any descriptions in the current "
+":term:`archival unit`."
+msgstr ""
+"「デジタルオブジェクトを閲覧」オプションは、現在の:term:`アーカイバルユニット`に関連付けられている記述にデジタルオブジェクトがリンクされていない場合には表示され**ません**。"
+
+#: ../../user-manual/access-content/browse.rst:531
+msgid ""
+"Click on the \"Browse digital objects\" link. AtoM will redirect you to a "
+"digital object browse page, limited to the current :term:`archival unit` - "
+"this will be indicated by the :term:`filter tag` at the top of the browse "
+"page with the name of the top-level description. If you click the **X** to "
+"remove the filter tag, AtoM will reload all digital object browse results "
+"(i.e. the page will no longer be limited to the selected archival unit)."
+msgstr ""
+"「デジタルオブジェクトの閲覧」リンクをクリックしてください。AtoMは、現在の:term:`アーカイブ単位`に限定されたデジタルオブジェクトの閲覧ページへリダイレクトします。これは閲覧ページの上部にある最上位記述の名前が入った:term:`フィルタータグ`によって示されます。フィルタータグの**X**をクリックして削除すると、AtoMは全てのデジタルオブジェクト閲覧結果を再読込します（つまり、ページは選択されたアーカイブ単位に限定されなくなります）。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of the Digital object browse page limited to a collection"
+msgstr "デジタルオブジェクトブラウズページのイメージ、コレクションに限定"
+
+#: ../../user-manual/access-content/browse.rst:555
+msgid "Using the Inventory list"
+msgstr "在庫リストの使用"
+
+#: ../../user-manual/access-content/browse.rst:557
+msgid ""
+"The Inventory list allows an :term:`administrator` to make a page of lower- "
+"level descriptions contained within a :term:`parent record` available on a "
+"separate inventory page formatted as a table with sortable columns."
+msgstr ""
+"在庫リストは、:term:`管理者`が、:term:`親レコード`内に含まれる下位レベルの説明を、ソート可能な列を持つテーブルとして整形された別の在庫ページで利用可能にすることを可能にします。"
+
+#: ../../user-manual/access-content/browse.rst:563
+msgid ""
+"The Inventory list requires configuration by an :term:`administrator` before"
+" it will appear in the AtoM user interface. For instructions on configuring "
+"the Inventory, see the :ref:`settings` page; specifically, :ref:`inventory-"
+"settings`."
+msgstr ""
+"在庫リストはAtoMユーザインターフェースに表示される前に、:term:`管理者`による設定が必要です。在庫を設定する方法については、:ref:`settings`"
+" ページを参照してください。具体的には、:ref:`inventory-settings` を確認してください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of the Inventory list for a series"
+msgstr "シリーズの棚卸しリストの画像"
+
+#: ../../user-manual/access-content/browse.rst:573
+msgid ""
+"If there are a lot of lower-level descriptions (for example, many files and "
+"items in a series), this can be a useful way to quickly browse the contents "
+"of the :term:`archival unit` - and the sortable columns can be used to sort "
+"and view the lower-level :term:`children <child record>` in a way that the "
+":term:`treeview` does not allow. Columns in the inventory page include:"
+msgstr ""
+"もし多くの下位レベルの記述が存在する場合（例えば、シリーズ内の多くのファイルやアイテムなど）、これはアーカイブ単位の内容を素早く閲覧する便利な方法となり得ます"
+" - "
+"そして、ソート可能なカラムを使用して、ツリービューでは許可されない方法で、下位レベルの子レコードを並び替えて表示することができます。在庫ページに含まれるカラムには以下のものがあります："
+
+#: ../../user-manual/access-content/browse.rst:579
+msgid "Identifier"
+msgstr "識別子"
+
+#: ../../user-manual/access-content/browse.rst:580
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/access-content/browse.rst:581
+msgid "Level of description"
+msgstr "記述レベル"
+
+#: ../../user-manual/access-content/browse.rst:582
+msgid "Date"
+msgstr "日付"
+
+#: ../../user-manual/access-content/browse.rst:583
+msgid "Digital object"
+msgstr "デジタルオブジェクト"
+
+#: ../../user-manual/access-content/browse.rst:584
+msgid ":ref:`clipboard` link"
+msgstr ":ref:`クリップボード` リンク"
+
+#: ../../user-manual/access-content/browse.rst:586
+msgid ""
+"Only the :term:`digital object`  and the Clipboard columns are not sortable."
+msgstr "デジタルオブジェクトとクリップボード列のみが並び替え可能ではありません。"
+
+#: ../../user-manual/access-content/browse.rst:588
+msgid ""
+"The Digital object column will provide an indication of whether or not there"
+" is a digital object attached to the description - if so, the row will have "
+"a hyperlink called \"View\" in the Digital object column. Clicking on the "
+"\"View\" link will take a user directly to the :term:`master digital object`"
+" - if a user does not have :term:`permission <access privilege>` to view the"
+" master, the column's value will be empty for that row."
+msgstr ""
+"デジタルオブジェクト列は、説明にデジタルオブジェクトが添付されているかどうかを示します。そうである場合、その行はデジタルオブジェクト列に\"View\"というハイパーリンクを持ちます。\"View\"リンクをクリックすると、ユーザーは直接:term:`マスターデジタルオブジェクト`にアクセスします。もしユーザーがマスターを見る:term:`パーミッション<アクセス権限>`を持っていない場合は、その行の列の値は空になります。"
+
+#: ../../user-manual/access-content/browse.rst:595
+msgid ""
+"The :term:`clipboard` column contains links indicated by the |clip| paper "
+"clip icon. Clicking on one of these will add the description in the related "
+"row directly to the Clipboard. For more information on working with the "
+"Clipboard, see: :ref:`clipboard`."
+msgstr ""
+"用語`クリップボード`の欄には、|clip|のペーパークリップアイコンで示されるリンクが含まれています。これらのいずれかをクリックすると、関連する行の説明が直接クリップボードに追加されます。クリップボードの使用方法についての詳細は、こちらを参照してください：`:ref:`クリップボード``。"
+
+#: ../../user-manual/access-content/browse.rst:41
+msgid "clip"
+msgstr ""
+"ごめんなさいが、「clip」だけが与えられた場合、文脈を提供していないため、正確な翻訳を行うことができません。「clip」という単語には多くの意味があり、例えば「クリップ」（留め具、ビデオクリップ、髪のクリップなど）から「切り取る」（何かを切り取ること）まで様々です。もしもっと文脈やフレーズがあれば、適切な翻訳を提供できますので、それを共有していただければ幸いです。"
+
+#: ../../user-manual/access-content/browse.rst:600
+msgid "**Configuring the inventory list**"
+msgstr "**在庫リストの設定**"
+
+#: ../../user-manual/access-content/browse.rst:602
+msgid ""
+"Whether or not the Inventory link appears on a particular description will "
+"depend on how it has been configured in the settings page - there, an "
+":term:`administrator` determines which levels of description will be "
+"included (see: :ref:`inventory-settings` for more information). If the "
+"current :term:`archival description` you are viewing does **not** include "
+"lower-level :term:`child <child record>` descriptions matching the settings,"
+" no link will appear."
+msgstr ""
+"特定の記述にインベントリリンクが表示されるかどうかは、設定ページでの構成によって異なります。ここで、:term:`管理者`はどのレベルの記述が含まれるかを決定します（詳しくは、:ref:`inventory-"
+"settings`を参照してください）。現在ご覧になっている:term:`アーカイブ記述`が、設定に合致する下位レベルの:term:`子 <child "
+"record>`記述を含まない場合、リンクは表示されません。"
+
+#: ../../user-manual/access-content/browse.rst:610
+msgid ""
+"Because it is configurable, an inventory list may not include *ALL* lower-"
+"level records available in a particular archival unit. For example, if you "
+"viewed the inventory page from a :term:`fonds`-level description that "
+"included sub-fonds, series, files, and items, but the administrator has "
+"configured the inventory settings to display only files and items, then at "
+"the fonds level, the inventory list will display all files and items "
+"(including those contained within lower-level subfonds and series), but the "
+"subfonds and series records themselves will not be included on the inventory"
+" page."
+msgstr ""
+"設定可能であるため、目録リストには特定のアーカイブユニットで利用可能なすべての下位レベルの記録が含まれているとは限りません。例えば、子基金、シリーズ、ファイル、アイテムを含んだ:term:`フォンズ`レベルの説明から目録ページを閲覧した場合、管理者が目録設定をファイルとアイテムのみを表示するように構成しているなら、フォンズレベルでは、目録リストは全てのファイルとアイテム（下位の子基金やシリーズ内に含まれているものを含む）を表示しますが、子基金やシリーズの記録自体は目録ページには含まれません。"
+
+#: ../../user-manual/access-content/browse.rst:619
+msgid ""
+"Similarly, the Inventory link will only appear on :term:`parent <parent "
+"record>` records - for example, if you are viewing a file that is part of a "
+"series, you would need to navigate to the series record to see the inventory"
+" link."
+msgstr ""
+"同様に、「インベントリ」リンクは:term:`親 <parent "
+"record>`レコードにのみ表示されます。たとえば、シリーズの一部であるファイルを表示している場合、そのインベントリリンクを表示するためにはシリーズのレコードまでナビゲートする必要があります。"
+
+#: ../../user-manual/access-content/browse.rst:623
+msgid "**To use the Inventory list:**"
+msgstr "**在庫リストの使用方法：**"
+
+#: ../../user-manual/access-content/browse.rst:625
+msgid ""
+"Navigate to the :term:`archival description` whose :term:`children <child "
+"record>` you would like to explore. For more information on navigation in "
+"AtoM, see: :ref:`access-content`."
+msgstr ""
+"アクセスしたい「アーカイブ記述」に移動し、探索したい「下位記録」を見つけます。AtoMでのナビゲーションの詳細は、以下を参照してください：「コンテンツへのアクセス」。"
+
+#: ../../user-manual/access-content/browse.rst:631
+msgid ""
+"If you are looking for a particular record in an archival unit (such as a "
+"series in a fonds), the other entries in this section might be useful to "
+"you! See above and below, :ref:`browse-hierarchy`. See also: information on "
+"using the :ref:`context-menu-treeview` for navigation, and information on "
+"the :ref:`treeview-search`."
+msgstr ""
+"もしあるアーカイブユニット（たとえば、フォンズの中のシリーズなど）の特定の記録を探している場合、このセクション内の他のエントリーが役立つかもしれません！上記および以下の`:ref:`browse-"
+"hierarchy``をご覧ください。また、ナビゲーション用の`:ref:`context-menu-"
+"treeview``の使用に関する情報や、`:ref:`treeview-search``に関する情報も参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:637
+msgid ""
+"If the description includes :term:`children <child record>` that match the "
+"inventory settings configured by the :term:`administrator` (see: "
+":ref:`inventory-settings`), then an \"Inventory\" link will appear in the "
+"right-hand :term:`context menu`, in the *Explore* section:"
+msgstr ""
+"説明には、:term:`管理者` (:ref:`inventory-settings`を参照) によって設定された在庫設定に一致する "
+":term:`子レコード <child record>` が含まれている場合、「在庫(Inventory)」リンクが右側の "
+":term:`コンテキストメニュー` の「探索(Explore)」セクションに表示されます："
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid ""
+"An image of the Inventory link in the right-hand context menu of an\n"
+"archival description."
+msgstr "所蔵品リンクの画像が、アーカイブ記述の右側のコンテキストメニューにあります。"
+
+#: ../../user-manual/access-content/browse.rst:648
+msgid ""
+"Click on the \"Inventory\" link. AtoM will redirect you to the inventory "
+"list of lower-level records for the chosen description."
+msgstr "「インベントリ」リンクをクリックしてください。AtoMは選択された記述の下位レベルの記録のインベントリ一覧にリダイレクトします。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of the Inventory list for a series, with annotations"
+msgstr "シリーズの在庫リストの画像、注釈付き"
+
+#: ../../user-manual/access-content/browse.rst:656
+msgid ""
+"The Inventory list page will include the title of the parent description, as"
+" well as a :term:`breadcrumb trail` back to the top-level description for "
+"the :term:`archival unit`. On the right-hand side of the page, a button to "
+"return to the :term:`view page` of the parent :term:`archival description` "
+"is also included."
+msgstr ""
+"インベントリ一覧ページには、上位説明のタイトルと、`:term:`アーカイブ単位`の最上位説明へ戻るための`:term:`ブレッドクラムトレイル`が含まれます。ページの右側には、親`:term:`アーカイブ記述`の`:term:`ビューページ`に戻るボタンも含まれています。"
+
+#: ../../user-manual/access-content/browse.rst:662
+msgid ""
+"The column headers of the inventory list that appear in blue can be clicked "
+"to sort the inventory list by that column. Clicking again will reverse the "
+"sort order of the column (for example, from A-Z to Z-A). The only column "
+"that cannot be sorted is the Digital objects column."
+msgstr ""
+"在庫リストにある青色の列見出しは、その列に基づいて在庫リストを並べ替えるためにクリックすることができます。再びクリックすると、列の並べ替え順序が逆になります（例えば、A-ZからZ-"
+"Aに）。並べ替えることができない唯一の列はデジタルオブジェクトの列です。"
+
+#: ../../user-manual/access-content/browse.rst:667
+msgid ""
+"The Digital object column will indicate whether or not there is a "
+":term:`digital object` associated with the :term:`archival description` "
+"listed in the inventory list row. If there is, and the user has sufficient "
+":term:`permissions <access privilege>` to view the :term:`master digital "
+"object`, then AtoM will provide a direct link to the master digital object."
+msgstr ""
+"デジタルオブジェクト列は、インベントリリストの行にあるアーカイブ記述にデジタルオブジェクトが関連付けられているかどうかを示します。関連付けられている場合で、ユーザーがマスターデジタルオブジェクトを閲覧する十分なアクセス権限を持っていれば、AtoMはマスターデジタルオブジェクトへの直接リンクを提供します。"
+
+#: ../../user-manual/access-content/browse.rst:676
+msgid ""
+"By default, public users who are not logged into AtoM do not have permission"
+" to access the :term:`master digital object` for locally uploaded digital "
+"content. This can be changed by an :term:`administrator` via **Admin > "
+"Groups** - edit the archival description permissions for the \"anonymous\" "
+"group to grant permission to \"View master.\" See: :ref:`edit-user-"
+"permissions` and :ref:`manage-user-accounts`."
+msgstr ""
+"デフォルトでは、AtoMにログインしていない一般ユーザーは、ローカルにアップロードされたデジタルコンテンツの`:term:マスターデジタルオブジェクト`にアクセスする権限を持っていません。これは`:term:管理者`が**管理"
+" > "
+"グループ**から「anonymous」グループのアーカイバル記述の権限を編集し、「マスターの閲覧」権限を付与することで変更することができます。詳しくは：`:ref:edit-"
+"user-permissions`と`:ref:manage-user-accounts`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:683
+msgid ""
+"Note that the above means that there are many possible scenarios where a "
+"digital object is attached to a description, but there is no indication of "
+"this in the Inventory list - it will depend on the :term:`access privileges "
+"<access privilege>` of the user viewing the inventory list."
+msgstr ""
+"上記のことから、デジタルオブジェクトが記述に添付されている多くのシナリオが存在するが、在庫リストにはこの表示がないことがあります。これは、在庫リストを閲覧しているユーザーの:term:`アクセス権限<access"
+" privilege>`に依存します。"
+
+#: ../../user-manual/access-content/browse.rst:689
+msgid ""
+"If there are more than 10 results, a pager, with a count of the total number"
+" of results above it, will be included at the bottom of the page."
+msgstr "結果が10件を超える場合、ページの下部には合計結果数を示すカウンターと共にページャーが表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:694
+msgid ""
+"10 results per page is just the default setting in AtoM, but this can be "
+"adjusted by an :term:`administrator` via **Admin > Settings > Global**. For "
+"more information, see: :ref:`results-page`. The number of results included "
+"on a single page of the inventory list is controlled by this global setting,"
+" which affects all paged-results in the application."
+msgstr ""
+"1ページあたり10件の結果はAtoMでのデフォルト設定にすぎませんが、これは**管理者**によって**管理 > 設定 > "
+"グローバル**から調整することができます。詳細については、:ref:`results-"
+"page`をご覧ください。インベントリーリストの単一ページに含まれる結果の数は、アプリケーション内の全てのページ付けされた結果に影響を与えるこのグローバル設定によって制御されます。"
+
+#: ../../user-manual/access-content/browse.rst:703
+msgid "Using the Quick search bar's browse option"
+msgstr "「クイック検索バーのブラウズオプションの使用」"
+
+#: ../../user-manual/access-content/browse.rst:705
+msgid ""
+"The :term:`view page` for an :term:`archival description` includes a feature"
+" known as the Treeview Quick search - it allows a user to quickly search an "
+":term:`archival unit` for a specific lower-level description. Instructions "
+"on how to use it can be found at:"
+msgstr ""
+"アーカイバル・デスクリプションの詳細ページには、Treeviewクイック検索という機能が備わっています。これにより利用者は、特定の低レベルの記述をアーカイバルユニット内で迅速に検索することができます。その使用方法については、次の場所で確認できます："
+
+#: ../../user-manual/access-content/browse.rst:710
+msgid ":ref:`treeview-search`"
+msgstr ""
+"`:ref:`treeview-search` `は、ひとつの特殊な参照方法を指し示しており、このテキストがそのままでは日本語に訳せるものではありません。しかし、もしこれがドキュメント内で利用されているラベルに対するリンクであると仮定すると、日本語のドキュメントにおいても同様の参照方法が維持されることが想定されます。\n"
+"\n"
+"そのため、この参照をそのまま保持しながら、それが何を意味するのかを説明する形での翻訳を行うことができます。例えば、以下のように訳すことができます：\n"
+"\n"
+"``「ツリービュー検索」参照については、:ref:`treeview-search` をご覧ください。``\n"
+"\n"
+"この場合、「ツリービュー検索」というのはそのセクションや機能の名前であり、実際の翻訳時にはドキュメント内で定義されている適切な日本語の名称に置き換える必要があります。また、実際のリンク先はドキュメントのコンテキストによって変化するため、この例はあくまで仮定の表現です。"
+
+#: ../../user-manual/access-content/browse.rst:712
+msgid ""
+"However, whenever a search query is returned with at least 1 matching "
+"result, a link that allows a user to browse all descriptions in a dedicated "
+"search/browse page, limited to the current archival unit, is also included:"
+msgstr ""
+"しかし、検索クエリが少なくとも1つの一致する結果を返したときは、ユーザーが専用の検索/閲覧ページですべての記述を閲覧できるようにするリンクも含まれており、これは現在のアーカイブ単位に限定されます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid ""
+"An image of the browse descriptions link on the Quick search results page"
+msgstr "クイック検索結果ページの「説明をブラウズ」リンクの画像"
+
+#: ../../user-manual/access-content/browse.rst:721
+msgid ""
+"If you click the \"Browse all descriptions\" link included at the bottom of "
+"the Quick search results, AtoM will redirect you to a search/browse results "
+"page, limited to the current :term:`archival unit`."
+msgstr ""
+"「クイック検索」結果の下部に含まれる「すべての説明をブラウズ」リンクをクリックすると、AtoMは現在の:term:`アーカイブユニット`に限定された検索/ブラウズ結果ページにリダイレクトします。"
+
+#: ../../user-manual/access-content/browse.rst:727
+msgid ""
+"The Quick search bar will accept Boolean operators (see :ref:`advanced-"
+"search-operators` for more information), including the ** * ** wildcard "
+"character. If you just want to use the Quick search to access the browse "
+"link, you can enter an asterix and press enter - AtoM will return a subset "
+"of all results, and then provide the browse link."
+msgstr ""
+"クイック検索バーは、ブール演算子（詳細については :ref:`advanced-search-operators` "
+"を参照してください）を含む、ワイルドカード文字 ** * ** "
+"を受け付けます。もしクイック検索を使用してブラウズリンクに直接アクセスしたい場合は、アスタリスクを入力してエンターキーを押してください - AtoM "
+"は全ての結果のサブセットを返し、その後でブラウズリンクを提供します。"
+
+#: ../../user-manual/access-content/browse.rst:733
+msgid ""
+"Of course, an easier way to do this would be to use the \"Browse as list\" "
+"button, described :ref:`above <browse-hierarchy-list>`"
+msgstr ""
+"もちろん、これを行う簡単な方法は「Browse as list」ボタンを使用することです。これは、上記で説明しました :ref:`上 <browse-"
+"hierarchy-list>`。"
+
+#: ../../user-manual/access-content/browse.rst:742
+msgid "|authicon| Browse people, families and organizations"
+msgstr "|認証アイコン| 人物、家族、及び組織を閲覧"
+
+#: ../../user-manual/access-content/browse.rst:15
+msgid "authicon"
+msgstr ""
+"The term \"authicon\" doesn't appear to be related to long-term digital preservation or Archivematica documentation as far as I know. If \"authicon\" is a term you wish to translate into Japanese, without context it's quite challenging since it appears to be a coined term, possibly a portmanteau or a company/product name. It isn't a standard English word I can provide a direct translation for.\n"
+"\n"
+"However, if \"authicon\" is intended to represent something specific in the context of Archivematica or digital preservation (e.g., an authentication icon or tool), it would be helpful to have more context. If that's the case, please provide additional details so I can give you a more accurate translation.\n"
+"\n"
+"If \"authicon\" is simply a placeholder for a term that you needed translated, please provide the actual term or phrase you want to translate from the Archivematica documentation."
+
+#: ../../user-manual/access-content/browse.rst:744
+msgid ""
+"In AtoM, people, families and organizations (also referred to as "
+":term:`corporate bodies <corporate body>`) are :term:`entities <entity>` "
+"which are controlled by :term:`authority records <authority record>`."
+msgstr ""
+"AtoMでは、人々、家族、および組織（`:term:`法人 <corporate body>`とも呼ばれる）は、`:term:`権威レコード "
+"<authority record>`によって管理される`:term:`エンティティ <entity>`です。"
+
+#: ../../user-manual/access-content/browse.rst:748
+msgid ""
+"Any of these entities can be browsed in the Browse menu. Click the Browse "
+"menu, then click on People and organizations."
+msgstr ""
+"これらのエンティティはいずれも「Browse（ブラウズ）」メニューで閲覧することができます。「Browse（ブラウズ）」メニューをクリックし、次に「People"
+" and organizations（人々と組織）」をクリックしてください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing people and organizations"
+msgstr "人々と組織を閲覧するビュー"
+
+#: ../../user-manual/access-content/browse.rst:756
+#: ../../user-manual/access-content/browse.rst:832
+msgid ""
+"The automatic sort is alphabetic for unauthenticated (e.g. not logged in) "
+"users, which can be changed by the user to Most recent or identifier via the"
+" :ref:`recurring-sort-button` at the top right of the page."
+msgstr ""
+"認証されていない（例えば、ログインしていない）ユーザーに対しては、自動ソートはアルファベット順ですが、ページの右上にある "
+":ref:`recurring-sort-button` を利用して、ユーザーはこれを「最新」や「識別子」に変更することができます。"
+
+#: ../../user-manual/access-content/browse.rst:767
+msgid ""
+"Users can narrow the results list using the available :term:`facet filters "
+"<facet filter>` on the left-hand side of the screen, which for "
+":term:`authority records <authority record>` includes language, "
+":term:`entity` type (Person, Family or Corporate body), :ref:`Maintaining "
+"repository <link-repo-actor>`, and :ref:`Occupation <authority-access-"
+"points>`."
+msgstr ""
+"利用者は画面左側にある利用可能な:term:`ファセットフィルター<facet "
+"filter>`を使用して結果リストを絞り込むことができます。これには:term:`権威レコード<authority "
+"record>`に含まれる言語、:term:`エンティティ`タイプ（個人、家族または法人体）、:ref:`維持しているリポジトリ<link-repo-"
+"actor>`、そして:ref:`職業<authority-access-points>`が含まれます。"
+
+#: ../../user-manual/access-content/browse.rst:774
+msgid ""
+"The authority record browse page also includes a dedicated search box - for "
+"more information on searching for authority records in AtoM, see: "
+":ref:`Authority record search <dedicated-search-authority>`. For general "
+"information on working with authority records, see: :ref:`authority-"
+"records`."
+msgstr ""
+"権威レコードの参照ページには、専用の検索ボックスも含まれています。AtoMでの権威レコードの検索方法の詳細については、次を参照してください: "
+":ref:`権威レコード検索 <dedicated-search-"
+"authority>`。権威レコードの取り扱いに関する一般情報については、こちらを参照してください: :ref:`authority-records`。"
+
+#: ../../user-manual/access-content/browse.rst:781
+msgid ":ref:`link-repo-actor`"
+msgstr ":ref:`リンクレポアクター`"
+
+#: ../../user-manual/access-content/browse.rst:782
+msgid ":ref:`authority-access-points`"
+msgstr ":ref:`権限アクセスポイント`"
+
+#: ../../user-manual/access-content/browse.rst:788
+msgid "|repoicon| Browse archival institutions"
+msgstr "|repoicon| アーカイブ施設を閲覧"
+
+#: ../../user-manual/access-content/browse.rst:19
+msgid "repoicon"
+msgstr ""
+"「repoicon」は短いテキストで、翻訳する際にはその文脈が欠けているように思います。この単語は恐らくリポジトリアイコンの略であるか、Archivematica や他のソフトウェアの特定の機能や要素を指していると思われます。もし単一の言葉として翻訳したいなら、そのままカタカナで「レポアイコン」とすることができます。ただし、それが正しい翻訳であるかどうかは、そのテキストがどのように使われているかによって異なります。\n"
+"\n"
+"もしより多くの文脈があれば、より正確な翻訳を提供することができます。"
+
+#: ../../user-manual/access-content/browse.rst:790
+msgid ""
+"In :term:`multi-repository installations <multi-repository system>` users "
+"can browse a list of archival institutions represented in the database."
+msgstr ""
+"用語「マルチリポジトリシステム」におけるマルチリポジトリインストールでは、ユーザーはデータベースに代表されるアーカイブ機関のリストを閲覧できます。"
+
+#: ../../user-manual/access-content/browse.rst:793
+msgid "Click the Browse menu, then click Archival Institutions."
+msgstr "「ブラウズ」メニューをクリックし、その後「アーカイバル・インスティテューションズ」をクリックしてください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing archival institutions, card view"
+msgstr "アーカイブ機関を閲覧するビュー、カードビュー"
+
+#: ../../user-manual/access-content/browse.rst:800
+msgid ""
+"There are 2 ways of viewing the browse page for institutions - the \"card\" "
+"view, pictured above, or the \"table\" view:"
+msgstr "機関のブラウズページを見る方法は2つあります - 上に示された「カード」ビューと、「テーブル」ビューです："
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing archival institutions, table view"
+msgstr "アーカイブ機関を閲覧するビュー、テーブルビュー"
+
+#: ../../user-manual/access-content/browse.rst:808
+msgid ""
+"In the table view, the columns that appear as blue hyperlinks (the Name, "
+"Region, and Locality columnns) can be clicked to sort the results "
+"alphabetically by that column. Click the column header once to sort in "
+"descending (A-Z) order; click again to sort in ascending (Z-A) order."
+msgstr ""
+"テーブルビューでは、青いハイパーリンクとして表示される列（名前、地域、および地方の列）をクリックすることで、その列に従って結果をアルファベット順に並べ替えることができます。列のヘッダを一度クリックすると降順（A-Z）に、もう一度クリックすると昇順（Z-A）に並べ替えます。"
+
+#: ../../user-manual/access-content/browse.rst:813
+msgid ""
+"Users can flip between the table and card views while browsing, using the "
+"view toggle button that appears to the right of the archival institution "
+"search box:"
+msgstr ""
+"ユーザーは、アーカイブ機関の検索ボックスの右側に表示されるビュー切り替えボタンを使用して、ブラウジング中にテーブルビューとカードビューを切り替えることができます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of the view toggle button on the repository browse page"
+msgstr "リポジトリ閲覧ページにおけるビュートグルボタンの画像"
+
+#: ../../user-manual/access-content/browse.rst:823
+msgid ""
+"An :term:`administrator` can set the default view for the archival "
+"institution browse page, in |gears| **Admin > Settings > Global**. For more "
+"information, see: :ref:`default-repo-view`."
+msgstr ""
+"管理者は、|gears| **管理 > 設定 > グローバル** "
+"で、アーカイブ機関のブラウズページのデフォルトビューを設定することができます。詳細については、以下を参照してください: :ref:`default-"
+"repo-view`。"
+
+#: ../../user-manual/access-content/browse.rst:827
+msgid ""
+"If the institution has uploaded a logo as part of their institution record, "
+"the logo will be displayed in the browse display (see: :ref:`Add/edit a logo"
+" to an existing archival institution <add-institution-logo>`. If not, text "
+"will be displayed instead."
+msgstr ""
+"機関が機関の記録の一環としてロゴをアップロードしている場合、そのロゴは閲覧表示に表示されます（参照：既存のアーカイブ機関にロゴを追加・編集する<add-"
+"institution-logo>）。ロゴがアップロードされていない場合は、代わりにテキストが表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:838
+msgid ""
+":term:`Administrators <administrator>` can change the default sort order on "
+"search/browse pages for both public and authenticated (i.e. logged in) "
+"users, in |gears| **Admin > Settings > Global**. For more information, see: "
+":ref:`sort-browser-users` and :ref:`sort-browser-anonymous`."
+msgstr ""
+"管理者は、公開ユーザーと認証済み（つまりログインしている）ユーザーの両方に対して、検索/ブラウズページのデフォルトソート順を、|gears| **管理 "
+"> 設定 > グローバル**から変更することができます。詳細については、以下を参照してください。:ref:`sort-browser-users` "
+"および :ref:`sort-browser-anonymous`。"
+
+#: ../../user-manual/access-content/browse.rst:843
+msgid ""
+"Users can narrow the results list using the available :term:`facet filters "
+"<facet filter>` on the left-hand side of the screen. For more information on"
+" using the facet filters in AtoM, see: :ref:`recurring-facet-filters`; "
+"especially :ref:`Using facet filters in AtoM <using-facet-filters>`."
+msgstr ""
+"ユーザーは、画面の左側にある利用可能な:term:`ファセットフィルター <facet "
+"filter>`を使って、結果リストを絞り込むことができます。AtoMでのファセットフィルターの使用方法についての詳細は、:ref:`recurring-"
+"facet-filters`; 特に :ref:`AtoMでのファセットフィルターの使用 <using-facet-"
+"filters>`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:849
+msgid ""
+"The archival institution browse page also includes a :term:`dedicated search"
+" box`, and further filters available under the \"Advanced\" button that "
+"appears below the search box. For more information on searching for archival"
+" institutions in AtoM, see: :ref:`Archival institution search <dedicated-"
+"search-institutions>`. For general information on working with "
+":term:`archival institution` records, see: :ref:`archival-institutions`."
+msgstr ""
+"アーカイブ機関のブラウズページには、専用の検索ボックスが含まれており、さらに検索ボックスの下に表示される「アドバンス」ボタンの下に利用可能なフィルターがあります。AtoMでアーカイブ機関を検索する方法の詳細については、以下を参照してください：`アーカイブ機関の専用検索"
+" `<専用検索-機関>`。アーカイブ機関のレコードの一般的な情報については、以下を参照してください：`アーカイブ機関`。"
+
+#: ../../user-manual/access-content/browse.rst:859
+msgid "Browse the holdings of an institution"
+msgstr "機関の所蔵資料を閲覧する"
+
+#: ../../user-manual/access-content/browse.rst:860
+msgid ""
+"When a user clicks on a result in the :term:`archival institution` browse "
+"page, they are taken to the :term:`view page` for the selected repository."
+msgstr ""
+"ユーザーが`:term:`アーカイブ機関`参照ページで結果をクリックすると、選択したリポジトリの`:term:`ビューページ`に移動します。"
+
+#: ../../user-manual/access-content/browse.rst:863
+msgid ""
+"This view page includes a list of :term:`holdings` - :term:`archival "
+"descriptions <archival description>` that have been linked to the current "
+"repository. For more information on linking a description to an archival "
+"institution, see: :ref:`link-archival-institution`."
+msgstr ""
+"このビューページには、現在のリポジトリにリンクされている：term:`holdings` - :term:`archival descriptions "
+"<archival "
+"description>`のリストが含まれています。アーカイブ記述をアーカイバル機関にリンクする方法の詳細については、以下を参照してください：:ref:`link-"
+"archival-institution`。"
+
+#: ../../user-manual/access-content/browse.rst:870
+msgid ""
+"When linking a repository to an archival description, link only at the top "
+"level of description - AtoM will automatically inherit the repository to "
+"lower levels of description (e.g. :term:`children <child record>`). If you "
+"link at all levels, it can not only impact performance, but it will also "
+"mean that each lower-level description will appear in the holdings list, "
+"instead of just the :term:`parent <parent record>` description."
+msgstr ""
+"アーカイブ記述をリポジトリーへリンクする際は、記述の最上位レベルのみにリンクしてください - "
+"AtoMは自動的にリポジトリーを下位レベルの記述（例えば、:term:`子レコード<child "
+"record>`）へ継承します。すべてのレベルでリンクを行うと、パフォーマンスに影響を及ぼすだけでなく、保有リストには各下位レベルの記述が表示されることになり、:term:`親レコード<parent"
+" record>`の記述のみが表示されるべきです。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of the archival institution holdings list"
+msgstr "アーカイブ機関の所蔵リストの画像"
+
+#: ../../user-manual/access-content/browse.rst:882
+msgid ""
+"The holdings list can be used to browse the :term:`holdings` of a particular"
+" :term:`archival institution`, which can be especially useful in a multi-"
+"repository AtoM instance, such as a union catalogue, portal site, or "
+"network. It appears in the left-hand :term:`context menu` of the :term:`view"
+" page` for an archival institution, beneath the logo."
+msgstr ""
+"保有リストは、特定の:term:`archival "
+"institution`の:term:`holdings`を閲覧するために使用でき、それはユニオンカタログ、ポータルサイト、またはネットワークのような複数のリポジトリを有するAtoMインスタンスで特に便利です。それは、アーカイブ機関の:term:`view"
+" page`の左側にある:term:`context menu`にロゴの下に表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:888
+msgid ""
+"The **search box** on the holdings list will search all indexed fields in "
+"all descriptions related to the archival institution. When used, it will "
+"take the user to a full search results page, limited to the current "
+"institution (as indicated by the :term:`filter tag` at the top of the search"
+" results)."
+msgstr ""
+"保管リスト上の**検索ボックス**は、そのアーカイブ機関に関連するすべての記述にインデックスされたフィールドを検索します。使用されると、これはユーザーを完全な検索結果ページへと導き、現在の機関（検索結果の上部にある:term:`フィルタータグ`で示されている通り）に限定した結果を表示します。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid ""
+"An example of a results page from a search using the holdings search box"
+msgstr "検索ボックスを使用して検索を行った際の結果ページの例"
+
+#: ../../user-manual/access-content/browse.rst:898
+msgid ""
+"See :ref:`search-archival-descriptions` for more information on using the "
+"search results page."
+msgstr ""
+"以下を参照してください： `search-archival-descriptions`。検索結果ページの使用方法に関する詳細情報があります。"
+
+#: ../../user-manual/access-content/browse.rst:901
+msgid ""
+"Below the search box, is a **holdings browse link**, that lists the total "
+"number of holdings (e.g. top-level descriptions linked to the repository). "
+"Clicking on this link will take a user to a browse page limited to the "
+"current repository, and filtered to display only top-level descriptions. "
+"Users can remove these filters by clicking the **X** next to the "
+":term:`filter tag` to broaden the results.  See :ref:`browse-descriptions` "
+"above for more information on browsing :term:`archival descriptions "
+"<archival description>` in AtoM."
+msgstr ""
+"検索ボックスの下には、**ホールディングス閲覧リンク**があります。これには、保管されているアイテムの総数（例えば、リポジトリにリンクされているトップレベルの記述）が表示されます。このリンクをクリックすると、現在のリポジトリに限定された閲覧ページにユーザーが移動し、トップレベルの記述のみが表示された状態にフィルタリングされます。ユーザーは、:term:`フィルタータグ`の横にある**X**をクリックすることでこれらのフィルターを解除し、結果を広げることができます。AtoM内で:term:`アーカイバル記述"
+" <archival description>`を閲覧する方法の詳細については、上記の:ref:`browse-"
+"descriptions`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:909
+msgid ""
+"Below the search box and holdings browse link, an alphabetized **holdings "
+"list** appears. The list consists of hyperlinks - clicking on one will take "
+"the user to the related description. The number of results in this list per "
+"page is controlled by the \"results per page\" setting found in **Admin > "
+"Settings > Global**. See: :ref:`results-page` for information on changing "
+"this value. The default value in AtoM is 10 results per page."
+msgstr ""
+"検索ボックスと所蔵品一覧へのリンクの下に、アルファベット順の**所蔵品リスト**が表示されます。このリストはハイパーリンクで構成されており、どれかをクリックすると関連する説明にユーザーが導かれます。このリストの1ページあたりの結果数は、**管理"
+" > 設定 > グローバル**で見つかる「1ページあたりの結果数」設定によって制御されます。この値を変更する情報については、:ref:`results-"
+"page` を参照してください。AtoMでのデフォルト値は1ページあたり10件の結果です。"
+
+#: ../../user-manual/access-content/browse.rst:916
+msgid ""
+"A **holdings count** appears under the holdings list, which includes the "
+"number of results per page, and the total - e.g. *Results 1 to 10 of 45,* "
+"etc."
+msgstr "保管リストの下には**保管数**が表示され、ページごとの結果数および合計が含まれています。例えば、「結果 1～10 の 45」などです。"
+
+#: ../../user-manual/access-content/browse.rst:919
+msgid ""
+"If there are more holdings than the number of results per page, a **pager** "
+"will be included below. Click the **<-** back and forward **->** arrows to "
+"move through the pages. The current page number is listed between the "
+"navigation arrows. For large results sets, you can also manually enter a "
+"number into the current page number box - the holdings list will jump to the"
+" appropriate page. Any invalid numbers (e.g. entering 1000 when there are "
+"only 10 pages) will be ignored, and after a moment, AtoM will replace the "
+"value with the current page number."
+msgstr ""
+"ページごとの結果数よりも多くの保有資料がある場合、下部に**ページャー**が表示されます。ページを移動するには、前へ **<-** と次へ **->**"
+" "
+"の矢印をクリックしてください。現在のページ番号はナビゲーション矢印の間に表示されます。大量の結果セットの場合、現在のページ番号ボックスに直接数値を入力することもできます"
+" - "
+"保有資料リストは適切なページにジャンプします。無効な数値（例えば、10ページしかない場合に1000を入力するなど）は無視され、しばらくすると、AtoMが現在のページ番号で値を置き換えます。"
+
+#: ../../user-manual/access-content/browse.rst:933
+#: ../../user-manual/access-content/browse.rst:1016
+#: ../../user-manual/access-content/browse.rst:1074
+msgid ":ref:`archival-institutions`"
+msgstr "`:ref:`アーカイブ機関`"
+
+#: ../../user-manual/access-content/browse.rst:938
+msgid "Browse institution holdings when Institutional scoping is enabled"
+msgstr "機関的な範囲づけが有効化された場合、機関の所蔵品を閲覧する"
+
+#: ../../user-manual/access-content/browse.rst:940
+msgid ""
+"AtoM includes an additional mode that can be enabled by an "
+":term:`administrator` via |gears| **Admin > Settings > Global** called "
+":ref:`enable-scoping`. When institutional scoping is turned on, additional "
+"visual cues and user interface elements are added to better support "
+"searching and browsing within the holdings of one :term:`archival "
+"institution` when used in a :term:`multi-repository system`. The most "
+"prominent of these changes in the :term:`user interface` is the addition of "
+"the :term:`institution block`, comprised of the :term:`repository` logo, as "
+"well a dedicated search box and browse menu that will both return results "
+"linked to the current archival institution."
+msgstr ""
+"AtoMには、|gears| **管理 > 設定 > "
+"グローバル**から:term:`管理者`が有効にできる追加モード、:ref:`有効化スコーピング`が含まれています。機関スコーピングがオンになると、:term:`複数リポジトリシステム`で使用される際に、一つの:term:`アーカイブ機関`の所蔵物内での検索やブラウジングをよりサポートするための追加的なビジュアルキューやユーザーインターフェース要素が追加されます。これらの変更のもっとも顕著なものは、:term:`ユーザーインターフェース`に追加された:term:`機関ブロック`です。このブロックには、:term:`リポジトリ`のロゴが含まれており、専用の検索ボックスとブラウズメニューもあり、これらはどちらも現在のアーカイブ機関にリンクされた結果を返します。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid ""
+"An comparison of the repository view page with and without\n"
+"institutional scoping"
+msgstr "リポジトリビューのページの比較：機関的範囲設定がある場合とない場合"
+
+#: ../../user-manual/access-content/browse.rst:956
+msgid ""
+"The **holdings list** behaves the same as before (see above, :ref:`browse-"
+"holdings`, for more information on how to use the holdings list). However, "
+"if you click on the **holdings browse link**, then the institution block "
+"will also appear on the browse page, offering an additional visual cue that "
+"you are viewing only the holdings of a particular institution."
+msgstr ""
+"**保管リスト**は以前と同じように機能します（保管リストの使い方については、上記の :ref:`browse-holdings` "
+"を参照してください）。しかし、**保管リストの閲覧リンク**をクリックすると、特定の機関の保管物だけを閲覧していることを示す追加の視覚的手がかりとして、閲覧ページにも機関ブロックが表示されるようになります。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid ""
+"An image of an archival description browse page, limited to the holdings\n"
+"of a particular repository, with insittutional scoping enabled."
+msgstr "特定のリポジトリが所蔵する範囲に限定され、機関的なスコーピングが可能になったアーカイバル記述のブラウズページの画像。"
+
+#: ../../user-manual/access-content/browse.rst:968
+msgid ""
+"You can remove the insitutional scoping and see all global browse results a "
+"number of different ways:"
+msgstr "以下の様々な方法で、機関的な範囲指定を解除し、すべてのグローバルなブラウズ結果を表示できます:"
+
+#: ../../user-manual/access-content/browse.rst:971
+msgid ""
+"By clicking the **X** on the :term:`filter tag` for the repository at the "
+"top of the browse results - this removes the repository filter. AtoM will "
+"reload the Browse page without the :term:`institution block` and show all "
+"results."
+msgstr ""
+"結果を閲覧するページの上部にあるリポジトリに関連する「フィルタータグ」の **X** "
+"をクリックすることで、リポジトリフィルターが削除されます。AtoMは「インスティテューションブロック」なしでブラウズページを再読み込みし、すべての結果を表示します。"
+
+#: ../../user-manual/access-content/browse.rst:974
+msgid ""
+"By clicking the \"All\" link in the Archival institution :term:`facet "
+"filter` - this also removes the repository filter. AtoM will reload the "
+"Browse page without the :term:`institution block` and show all results."
+msgstr ""
+"Archival institutionの:term:`facet "
+"filter`内にある「All」リンクをクリックすると、これはリポジトリフィルターも削除します。AtoMは:term:`institution "
+"block`なしでブラウズページを再読み込みし、すべての結果を表示します。"
+
+#: ../../user-manual/access-content/browse.rst:977
+msgid ""
+"By using the :term:`browse menu` located in the AtoM :term:`header bar` at "
+"the top of the page and selecting **Browse > Archival descriptions**."
+msgstr ""
+"ページ上部に位置するAtoM :term:`ヘッダーバー` の :term:`ブラウズメニュー` を使用し、**ブラウズ > アーカイブ記述** "
+"を選択します。"
+
+#: ../../user-manual/access-content/browse.rst:979
+msgid ""
+"By performing a search via the global :term:`search box` in the AtoM "
+":term:`header bar` at the top of the page. AtoM will return global results "
+"from all repositories when the global search box is used."
+msgstr ""
+"ページ上部にあるAtoMの:term:`ヘッダーバー`に組み込まれているグローバル:term:`検索ボックス`を使って検索を行うことで、AtoMはすべてのリポジトリからの全体的な結果を返します。"
+
+#: ../../user-manual/access-content/browse.rst:983
+msgid ""
+"For more information on using the elements of the archival description "
+"browse page, see: :ref:`Browse archival descriptions <browse-descriptions>`."
+msgstr ""
+"アーカイブ記述閲覧ページの要素の使用に関する詳細は、以下を参照してください： :ref:`アーカイブ記述の閲覧 <browse-"
+"descriptions>`。"
+
+#: ../../user-manual/access-content/browse.rst:986
+msgid ""
+"Additionally, the :term:`institution block` introduces a dedicated browse "
+"menu for the holdings of the :term:`archival institution`. The links in this"
+" menu will take users to browse pages that are already limited to the "
+":term:`holdings` of the current :term:`repository`."
+msgstr ""
+"さらに、`:term:`機関ブロック`は、`:term:`アーカイブ機関`の保有資料に特化したブラウズメニューを導入しています。このメニューのリンクは、既に現在の`:term:`リポジトリ`の`:term:`保有資料`に限定されたブラウズページへとユーザーを導きます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "An image of an institution block with the browse menu open"
+msgstr "機関ブロックの画像で、ブラウズメニューが開いています"
+
+#: ../../user-manual/access-content/browse.rst:996
+msgid ""
+"If you follow these links, the institution block will remain visible on the "
+"related browse page, and if a background color has been applied to the "
+"instituion, it will also be present on the browse page."
+msgstr ""
+"これらのリンクをたどると、関連するブラウズページに機関ブロックが表示されたままになりますし、機関に背景色が適用されている場合は、その色もブラウズページに表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:1002
+msgid ""
+"For more information on applying a custom background color, uploading a "
+"custom repository logo, and other aspects of archival institution theming, "
+"see:"
+msgstr "カスタム背景色の適用、カスタムリポジトリロゴのアップロード、その他のアーカイブ機関のテーマに関する詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/browse.rst:1005
+msgid ":ref:`edit-institution-theme`"
+msgstr ""
+"`:ref:`edit-institution-theme`は、リファレンスマークアップを含む特定のフォーマットです。これは技術的な文書やマニュアル内で、特定のセクションやトピックへの参照リンクを作成するために使用されます。ただし、直接的な翻訳が無意味なので、日本語に適したものに置き換える必要があります。\n"
+"\n"
+"もしこのマークアップが日本語のドキュメント中でそのまま使われる場合、リテラルに変換せず、以下のように適切なセクションタイトル又はトピックに合わせて翻訳する必要があります。\n"
+"\n"
+"例:`「機関テーマの編集」`\n"
+"\n"
+"この場合、「edit-institution-theme」が「機関テーマの編集」というセクションまたはトピックへの参照であれば、Japaneseでのドキュメントには上記のように記載します。そして、実際にそのドキュメント内の対象セクションが存在する場合、翻訳されたタイトルを正確にマッピングする必要があります。また、文脈に応じてリンクが機能するように対象の翻訳セクションへの正確な参照を確保することが必要です。"
+
+#: ../../user-manual/access-content/browse.rst:1007
+msgid ""
+"Institution scoping can again be removed at any time from these browse pages"
+" using the methods described above."
+msgstr "これらの閲覧ページから機関の範囲指定は、上記の方法を使用していつでも再び削除することができます。"
+
+#: ../../user-manual/access-content/browse.rst:1012
+msgid ":ref:`enable-scoping`"
+msgstr "`:ref:`enable-scoping`を有効にする`"
+
+#: ../../user-manual/access-content/browse.rst:1021
+msgid "Browse the authority records of an institution"
+msgstr "機関の権威レコードを閲覧する"
+
+#: ../../user-manual/access-content/browse.rst:1023
+msgid ""
+"If an institution has linked its authority records (indicating that it is "
+"the institution responsible for maintaining them), then a list, similar to "
+"the :ref:`holdings list <browse-holdings>`, will appear on the archival "
+"institution :term:`view page`. For more information on linking an authority "
+"record to a repository, see: :ref:`link-repo-actor`."
+msgstr ""
+"機関がその権威記録（機関がそれらを維持する責任を持っていることを示す）をリンクしている場合、そのアーカイブ機関の:term:`view "
+"page`には、:ref:`holdings list <browse-"
+"holdings>`に類似したリストが表示されます。権威記録をリポジトリにリンクする方法についての詳細は、以下を参照してください: "
+":ref:`link-repo-actor`。"
+
+#: ../../user-manual/access-content/browse.rst:1029
+msgid ""
+"The maintained authority records list can be used to browse the "
+":term:`authority records <authority record>` of a particular :term:`archival"
+" institution`, which can be especially useful in a multi-repository AtoM "
+"instance, such as a union catalogue, portal site, or network. It appears in "
+"the left-hand :term:`context menu` of the :term:`view page` for an archival "
+"institution, beneath the logo and the holdings list."
+msgstr ""
+"維持される権威レコードリストは、特定のアーカイブ機関の:term:`権威レコード<authority "
+"record>`を閲覧するために使用でき、これは組合目録、ポータルサイト、またはネットワークのような多リポジトリAtoMインスタンスで特に有益です。それはアーカイブ機関の:term:`view"
+" page`の左側の:term:`context menu`に、ロゴおよび所蔵リストの下に表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid ""
+"An image of list of maintained authority records on an archival\n"
+"institution's view page"
+msgstr "アーカイブ機関の閲覧ページにおける、維持されている権威記録のリストの画像"
+
+#: ../../user-manual/access-content/browse.rst:1043
+msgid ""
+"At the top of the maintained list is a **browse link**, that lists the total"
+" number of authority records maintained by the repository. Clicking on this "
+"link will take a user to an authority record browse page limited to the "
+"current repository. See :ref:`browse-authority-records` for more information"
+" on browsing."
+msgstr ""
+"保守されているリストの一番上にあるのは、リポジトリによって維持されている権限レコードの総数をリストする**ブラウズリンク**です。このリンクをクリックすると、ユーザーは現在のリポジトリに限定された権限レコードのブラウズページに移動します。ブラウジングの詳細については、:ref:`browse-"
+"authority-records`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:1049
+msgid ""
+"Below the browse link, an alphabetized list of authority records appears. "
+"The list consists of hyperlinks - clicking on one will take the user to the "
+"related authority record. The number of results in this list per page is "
+"controlled by the \"results per page\" setting found in **Admin > Settings >"
+" Global**. See: :ref:`results-page` for information on changing this value. "
+"The default value in AtoM is 10 results per page."
+msgstr ""
+"ブラウズリンクの下には、権威レコードのアルファベット順のリストが表示されます。このリストはハイパーリンクで構成されており、いずれかのリンクをクリックすると関連する権威レコードにユーザーが導かれます。このリストの1ページあたりの結果数は、**管理"
+" > 設定 > グローバル**にある「ページあたりの結果数」の設定で制御されます。この値の変更方法については、:ref:`results-"
+"page`を参照してください。AtoMでは、デフォルトの値は1ページあたり10件の結果です。"
+
+#: ../../user-manual/access-content/browse.rst:1056
+msgid ""
+"A **count** appears under the maintained authority records list, which "
+"includes the number of results per page, and the total - e.g. *Results 1 to "
+"10 of 45,* etc."
+msgstr ""
+"維持されている権威記録リストの下に**カウント**が表示され、ページごとの結果数と合計が含まれます。例えば、「*結果 1 から 10 まで、全 45 "
+"件*」などです。"
+
+#: ../../user-manual/access-content/browse.rst:1060
+msgid ""
+"If there are more maintained authority records  than the number of results "
+"per page, a **pager** will be included below. Click the **<-** back and "
+"forward **->** arrows to move through the pages. The current page number is "
+"listed between the navigation arrows. For large results sets, you can also "
+"manually enter a number into the current page number box - the list will "
+"jump to the appropriate page. Any invalid numbers (e.g. entering 1000 when "
+"there are only 10 pages) will be ignored, and after a moment, AtoM will "
+"replace the value with the current page number."
+msgstr ""
+"維持されている権威レコードがページごとの結果数を超えている場合、下に**ページャー**が表示されます。ページを移動するには、戻る**<-** 矢印と進む"
+" **->** "
+"矢印をクリックしてください。現在のページ番号はナビゲーション矢印の間にリストされます。大きな結果セットの場合、現在のページ番号ボックスに直接番号を入力することもできます"
+" - "
+"リストは適切なページにジャンプします。無効な数字（例えば、ページが10ページしかないのに1000を入力するなど）は無視され、しばらくすると、AtoMは現在のページ番号に値を置き換えます。"
+
+#: ../../user-manual/access-content/browse.rst:1075
+msgid ":ref:`authority-records`"
+msgstr "`:ref:`権限レコード`"
+
+#: ../../user-manual/access-content/browse.rst:1082
+msgid "|subjecticon| Browse subjects and places |placeicon|"
+msgstr "|主題アイコン| 主題と場所を閲覧 |場所アイコン|"
+
+#: ../../user-manual/access-content/browse.rst:26
+msgid "subjecticon"
+msgstr ""
+"このテキストは「subjecticon」という単語だけを含んでおり、そのままでは翻訳の対象とするには文脈が不足しています。「subjecticon」はどうやら概念やアイテム、あるいは特定のソフトウェア機能もしくは部品の名称のようです。この語を翻訳するには、より多くの情報が必要です。この単語を具体的な文脈や文章の中で使う場合、それに応じた適切な日本語訳を提供することが可能です。もし「subjecticon」が特定の機能やアイコンを指しているのであれば、それは通常、その名称をそのまま用いるか、適切な日本語訳または説明が提供されます。もし追加情報を提供していただけると、より正確な翻訳が可能になります。"
+
+#: ../../user-manual/access-content/browse.rst:22
+msgid "placeicon"
+msgstr ""
+"\"placeicon\" は一般的な英語の単語またはフレーズではないため、特定のコンテキストまたは用途を示さない限り、直訳はできません。もし \"placeicon\" が特定のソフトウェア、機能、またはボタンを指す用語である場合、それは日本語に翻訳される際にそのまま「プレースアイコン」と表記されることが多いです。日本語のドキュメントでは、通常、外来語や技術用語はカタカナでそのまま使用されることが一般的です。\n"
+"\n"
+"しかし、もし \"placeicon\" が命令や指示を示している場合（例えば、アイコンを配置する操作を意味する場合）、それに適した翻訳は以下のようになるかもしれません：\n"
+"\n"
+"「アイコンを配置してください。」\n"
+"\n"
+"ただし、Archivematicaの文脈での具体的な使用法や意味合いが不明で、もし「placeicon」がArchivematicaに固有の機能や要素を示す場合は、より詳細な情報が必要です。その場合、Archivematicaの使い方や機能に関連するより具体的な説明が提供されるべきです。"
+
+#: ../../user-manual/access-content/browse.rst:1084
+msgid ""
+"Subjects and Places are two different kinds of :term:`terms <term>`, which "
+"are managed via :term:`taxonomies <taxonomy>`. Subjects and Places, however,"
+" can also be used as :term:`access points <access point>` associated with "
+":term:`archival descriptions <archival description>` and :term:`authority "
+"records <authority record>`, and public users can browse terms and view "
+":term:`published <published record>` descriptions and/or authority records "
+"associated with those terms as access points."
+msgstr ""
+"主題(Subjects)と場所(Places)は、異なる種類の`:term:`用語 <term>`であり、これらは`:term:`分類法 "
+"<taxonomy>`を介して管理されます。しかし、主題と場所はまた、`:term:`アーカイブ記述 <archival "
+"description>`や`:term:`権威記録 <authority record>`に関連付けられる`:term:`アクセスポイント "
+"<access "
+"point>`としても使用できます。そして、一般のユーザーは用語をブラウズしたり、それらの用語をアクセスポイントとして関連付けられている`:term:`公開された"
+" <published record>`記述や権威記録を観覧できます。"
+
+#: ../../user-manual/access-content/browse.rst:1092
+msgid ""
+"To do so, click the :term:`Browse menu`, then click either Subjects or "
+"Places. The following images and instructions will use examples from the "
+"Places browse page - however, the page types are exactly the same for the "
+"Subjects browse. Once clicked, a user will be redirected to a browse page."
+msgstr ""
+"それを行うには、:term:`Browse "
+"menu`をクリックし、次にSubjectsまたはPlacesをクリックします。以下の画像と指示はPlacesブラウズページの例を使用していますが、Subjectsブラウズのページタイプもまったく同じです。クリックすると、ユーザーはブラウズページにリダイレクトされます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing places (annotated)"
+msgstr "閲覧場所のビュー（注釈付き）"
+
+#: ../../user-manual/access-content/browse.rst:1102
+msgid ""
+"The above image, from the Places browse page, has been annotated with with "
+"an orange and white number corresponding to each of the major features of "
+"the Places browse page. Each is described below."
+msgstr ""
+"上記の画像は、「場所」閲覧ページからのもので、各主要機能に対応するオレンジ色と白色の番号が注釈として付けられています。以下に各機能を説明します。"
+
+#: ../../user-manual/access-content/browse.rst:1106
+msgid ""
+"A dedicated search box for :term:`terms <term>` has been included on the "
+"browse page. The :term:`drop-down menu` on the left side of the dedicated "
+"search box can be used to limit the search to the authorized form of name, "
+"the 'use for' label(s) (e.g. the alternate, non-preferred forms of name), or"
+" both. For more information, see: :ref:`dedicated-search-terms`."
+msgstr ""
+"専用の検索ボックスが閲覧ページに用意され、:term:`用語 <term>`の専門的な検索が可能となりました。専用検索ボックスの左側にある "
+":term:`ドロップダウンメニュー` を使用することで、検索を承認された名前の形式、'use for' "
+"ラベル（例：優先されない代替の名前の形式）またはその両方に制限することができます。詳細については、:ref:`dedicated-search-"
+"terms`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:1111
+msgid ""
+"The :term:`sort button` will allow users to sort the place or subject terms "
+"either alphabetically by title, or by most recently updated (e.g. added or "
+"edited). For more information, see: :ref:`recurring-sort-button`. An "
+":term:`administrator` can also configure application-wide defaults for "
+"public and authenticated users via **Admin > Settings** - for more "
+"information, see: :ref:`sort-browser-users` and :ref:`sort-browser-"
+"anonymous`."
+msgstr ""
+"「ソートボタン」は、利用者が場所や主題語をタイトル順にアルファベットで並べ替えたり、最近更新された順（例：追加または編集された順）に並べ替えることを可能にします。詳細については、以下を参照してください:"
+" `recurring-sort-button`。また、`管理者`は**管理 > "
+"設定**を通じて、公開ユーザーおよび認証済みユーザー向けのアプリケーション全体のデフォルトを設定することもできます。詳しくは、以下を参照してください: "
+"`sort-browser-users` および `sort-browser-anonymous`。"
+
+#: ../../user-manual/access-content/browse.rst:1117
+msgid ""
+"The number of descriptions and authority records associated with a "
+"particular term as an :term:`access point` are listed in the *Archival "
+"description count* and *Authority record count* columns."
+msgstr ""
+"特定の用語に関連付けられた説明と権威レコードの数は、`:term:`アクセスポイント`として、*アーカイバル説明カウント*および*権威レコードカウント*の列にリストされています。"
+
+#: ../../user-manual/access-content/browse.rst:1120
+msgid ""
+"If alternate, non-preferred names have been added to the term's \"Use for\" "
+":term:`field`, they will be displayed under the authorized form of name."
+msgstr ""
+"もし代替の、優先されない名称が用語の「使用するための」:term:`フィールド`に追加されている場合、それらは公認の名称形式の下に表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:1122
+msgid ""
+"If a term listed in the browse page has :term:`children <child record>` "
+"(e.g. terms nested beneath it, to which it is the parent), a count of the "
+"direct children will be included in parentheses after the authorized form of"
+" name."
+msgstr ""
+"ブラウズページにリストされた用語に :term:`子 <child record>` (例: その下にネストされ、それが親である用語) "
+"が存在する場合、その直接の子の数が、認定された名称の形式の後ろのかっこ内に含まれます。"
+
+#: ../../user-manual/access-content/browse.rst:1125
+msgid ""
+"A :term:`treeview` is provided for browsing terms in the context of their "
+"hierarchical relationships. When first arriving on the browse page, top-"
+"level terms are displayed in the treeview. If a term has :term:`children "
+"<child record>`, a caret (triangle icon) will appear next to the term - "
+"click the caret to view lower-level child terms. For more information on "
+"using the treeview in AtoM, see: :ref:`context-menu-treeview` and "
+":ref:`context-menu-terms-treeview`."
+msgstr ""
+"用語の階層的関係の文脈で用語をブラウズするために、`ツリービュー`が提供されています。ブラウズページに初めて到達すると、トップレベルの用語がツリービューに表示されます。用語に`子レコード`がある場合、用語の隣にキャレット（三角形のアイコン）が表示されます"
+" - "
+"キャレットをクリックして、下位レベルの子用語を表示します。AtoMでのツリービューの使用方法についての詳細は、以下を参照してください：`context-"
+"menu-treeview`および`context-menu-terms-treeview`。"
+
+#: ../../user-manual/access-content/browse.rst:1133
+msgid ""
+"A count of total terms is provided at the top of the browse page. Terms "
+"appearing in the first column of the browse page's table are hyperlinks - "
+"click on a term to see further information about the term and related "
+"descriptions. AtoM will redirect you to a term view page, described below."
+msgstr ""
+"ブラウズページの上部には、総用語数が表示されています。ブラウズページのテーブルの最初の列に現れる用語はハイパーリンクとなっています - "
+"用語をクリックすると、その用語に関する詳細情報および関連する説明が表示されます。AtoMはあなたを下記に記載された用語ビューページにリダイレクトします。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing a place term (annotated)"
+msgstr "場所用語の閲覧ビュー（注釈付き）"
+
+#: ../../user-manual/access-content/browse.rst:1143
+msgid ""
+"A :term:`breadcrumb trail` is included to indicate the hierarchical "
+"relationships associated with a term - e.g. if it is the :term:`child <child"
+" record>` of any other broader terms. Each breadcrumb is a hyperlink - a "
+"user can click one to navigate to the broader term's browse page. For more "
+"information on breadcrumbs in AtoM, see: :ref:`recurring-breadcrumb-trail`."
+msgstr ""
+"用語の階層的な関係性を示すために、`:term:`breadcrumb "
+"trail`（パンくずリスト）が含まれています。例えば、その用語がいくつかの広範な用語の`:term:`child <child "
+"record>`（子レコード）である場合などです。各パンくずリンクはハイパーリンクになっており、ユーザーはそれをクリックして広範な用語のブラウズページにナビゲートすることができます。AtoMにおけるパンくずリストの詳細については、こちらを参照してください：`:ref:`recurring-"
+"breadcrumb-trail`。"
+
+#: ../../user-manual/access-content/browse.rst:1149
+msgid ""
+"If the term description has been translated into other languages, a language"
+" :term:`drop-down <drop-down menu>` will appear at the top of the term "
+"description. Opening the drop-down and selecting another language will flip "
+"the AtoM :term:`user interface` to the selected culture and display any "
+"translated fields. For more information on multilingual use and design in "
+"AtoM, see: :ref:`translate`."
+msgstr ""
+"用語の説明が他の言語に翻訳されている場合、用語の説明の上部に言語 :term:`ドロップダウン<ドロップダウンメニュー>` "
+"が表示されます。ドロップダウンを開いて別の言語を選択すると、AtoM の :term:`ユーザーインターフェース` "
+"が選択された言語に切り替わり、翻訳されたフィールドが表示されます。AtoMにおける多言語使用と設計の詳細については、以下を参照してください： "
+":ref:`翻訳する`。"
+
+#: ../../user-manual/access-content/browse.rst:1155
+msgid ""
+"Additional contextual information is included in the :term:`context menu`. "
+"For more detailed information on the elements of the context menu in this "
+"page, see the :ref:`context-menu-terms` entry on the Context menu page. Note"
+" that for the Results count, this is :term:`entity` specific - in the "
+"example shown here, it is showing the count of related :term:`archival "
+"description` records, since the results tab (described below in 8) is "
+"currently on the description results. A separate count for related "
+":term:`authority record` results will be shown when the tab is changed."
+msgstr ""
+"コンテキストメニューには、追加の文脈情報が含まれています。このページのコンテキストメニューの要素に関するより詳細な情報は、コンテキストメニューページの「context-"
+"menu-"
+"terms」エントリを参照してください。結果の数については、これはエンティティ固有のものであることに注意してください。ここで示されている例では、現在選択されている説明結果のタブ（以下の8で説明されている）に関連するアーカイブ記述レコードの数を表示しています。タブが変更されたときには、関連する権威レコード結果の別のカウントが表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:1163
+msgid ""
+"A :term:`treeview` for navigating hierarchically organized terms is included"
+" in the left-hand context menu. Details on its features and uses are "
+"described here: :ref:`Terms treeview <context-menu-terms-treeview>`."
+msgstr ""
+"左側のコンテキストメニューには、階層的に整理された用語をナビゲートするための「ツリービュー」が含まれています。その機能と使用法については、こちらで説明されています：「用語ツリービュー"
+" <context-menu-terms-treeview>」。"
+
+#: ../../user-manual/access-content/browse.rst:1166
+msgid ""
+"Information about the current term is displayed in the top portion of the "
+"page's main column. This information is stored with the term in its "
+"taxonomy, and can be edited by authenticated (i.e. logged in) users with "
+"edit rights. For more information on the fields available and their uses, "
+"see: :ref:`term-data-entry`."
+msgstr ""
+"現在の用語に関する情報は、ページのメインカラムの上部に表示されています。この情報はその用語のタクソノミー内に保存されており、編集権限を有する認証済み（つまりログインしている）ユーザーによって編集可能です。利用可能なフィールドとその用途についての詳細は、:ref:`term-"
+"data-entry`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:1171
+msgid ""
+"Below the :term:`treeview`, addtional :term:`facet filters <facet filter>` "
+"that can be applied to the browse results are listed, if available. For more"
+" information on using facet filters in AtoM, see: :ref:`recurring-facet-"
+"filters`."
+msgstr ""
+":term:`treeview` の下に、利用可能な場合は、ブラウズ結果に適用できる追加の :term:`ファセットフィルター<facet "
+"filter>` がリストされています。AtoMでのファセットフィルターの使用方法の詳細については、次を参照してください： "
+":ref:`recurring-facet-filters`。"
+
+#: ../../user-manual/access-content/browse.rst:1174
+msgid ""
+"If a user is authenticated (i.e. logged in) and has edit permissions, a "
+":term:`button block` will be visible on the page, allowing the user to edit,"
+" delete, or add new terms. For more general information on working with "
+"terms in AtoM, see: :ref:`terms`, and especially :ref:`term-data-entry`. "
+"Public users who are not logged in will not see the button block."
+msgstr ""
+"ユーザーが認証されている（つまりログインしている）場合で、編集権限を持つ場合、ページ上に「ボタンブロック」と呼ばれるものが見えるようになり、ユーザーは新しい用語を編集、削除、または追加することができます。AtoMで用語を扱う一般的な情報については、:ref:`terms`を参照し、特に:ref:`term-"
+"data-entry`をご覧ください。ログインしていない一般ユーザーにはボタンブロックは表示されません。"
+
+#: ../../user-manual/access-content/browse.rst:1179
+msgid ""
+"At the top of the page, result tabs will be available, showing a count of "
+"related :term:`archival descriptions <archival description>` and "
+":term:`authority records <authority record>`, where the current term has "
+"been used as an :term:`access point`. The related results for the currently "
+"selected tab are shown further below (see 9). Click the tabs to show the "
+"related results for each :term:`entity` type."
+msgstr ""
+"ページの上部には、結果タブが表示され、現在の用語が:term:`アクセスポイント`として使用されている関連する:term:`アーカイバル記述<archival"
+" description>`と:term:`権威レコード<authority "
+"record>`の数を表示します。現在選択されているタブに対応する関連結果は、それ以下に表示されます（9を参照）。各:term:`エンティティ`タイプについて関連結果を表示するには、タブをクリックしてください。"
+
+#: ../../user-manual/access-content/browse.rst:1185
+msgid ""
+"Below the term information, results that are linked to the current term as "
+":term:`access points <access point>` are displayed. Clicking on a related "
+"result will redirect the user to the :term:`view page` for that record. Note"
+" that while access points can be linked to both authority records and "
+"descriptions, only one :term:`entity` type is shown at a time. Use the "
+"result tabs at the top of the page (described above in 8) to switch between "
+"the different result types."
+msgstr ""
+"以下では、「情報」という用語に関連する結果が:term:`アクセスポイント <access "
+"point>`として表示されます。関連する結果をクリックすると、その記録の:term:`ビューページ`にユーザーがリダイレクトされます。アクセスポイントは権威レコードと記述の両方にリンクすることができますが、一度に表示される:term:`エンティティ`タイプは一つだけであることに注意してください。ページの上部にある結果タブ（上記の8で説明されている）を使用して、異なる結果タイプ間で切り替えることができます。"
+
+#: ../../user-manual/access-content/browse.rst:1196
+msgid "Hierarchical terms and browse results"
+msgstr "階層的な用語とブラウズ結果"
+
+#: ../../user-manual/access-content/browse.rst:1198
+msgid ""
+"When terms are organized hierarchically in a taxonomy (e.g. nested within "
+"broader terms, with a :term:`parent <parent record>` to :term:`child <child "
+"record>` relationship), and a child term is added as an :term:`access point`"
+" to an archival description, AtoM includes the parent terms as well for "
+"context. This is expressed as a :term:`breadcrumb trail` on archival "
+"descriptions in the Access points :term:`information area`, as shown in the "
+"Places example below:"
+msgstr ""
+"用語が階層的に分類（たとえば、より広範な用語の中に入れ子になっており、:term:`親 <parent record>` から :term:`子 "
+"<child record>` への関係）で整理されている場合、子用語がアーカイブ説明の :term:`アクセスポイント` "
+"として追加されると、AtoMは文脈のために親用語も同様に含めます。これは、以下の場所の例に示されているように、アクセスポイントの "
+":term:`情報エリア` のアーカイブ説明で :term:`パンくずリスト` として表現されます："
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Example of hierarchical place access point"
+msgstr "階層的な場所アクセスポイントの例"
+
+#: ../../user-manual/access-content/browse.rst:1210
+msgid ""
+"In the above example, the user has added the term \"Waterloo\" to the "
+"description - but the term is organized hierarchically in the Places "
+":term:`taxonomy`, and its :term:`parent <parent record>` terms are "
+"inherited. Because of this, when browsing results for the parent term "
+"\"Waterloo, Regional Municipality of\", the example description will appear,"
+" even though the term was not directly added."
+msgstr ""
+"上記の例では、ユーザーが「ウォータールー」という用語を説明に追加しましたが、その用語は階層的に「場所:用語タクソノミー」に整理されており、その:用語`親<parent"
+" "
+"record>`用語が継承されます。このため、親用語「ウォータールー、地域自治体」の検索結果を閲覧する際には、たとえその用語が直接追加されなかったとしても、例の説明が表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:1216
+msgid ""
+"For users who would **only** like to see results where the current term has "
+"been directly added, a link is provided at the top of the results, with a "
+"count of directly related results:"
+msgstr "ユーザーが現在の用語が直接追加された結果のみを見たい場合には、直接関連する結果の数とともに、結果の上部にリンクが提供されています。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of the option to exclude narrower terms in Places browse"
+msgstr "場所ブラウズ時により狭い用語を除外するオプションの表示"
+
+#: ../../user-manual/access-content/browse.rst:1225
+msgid ""
+"Click the \"Exclude narrower terms\" button at the top of the results, and "
+"AtoM will reload the page, displaying only :term:`archival description` "
+"results where the term has been directly added (and not inherited from a "
+"narrower term)."
+msgstr ""
+"結果の上部にある「より狭い用語を除外する」ボタンをクリックすると、AtoMがページを再読み込みし、用語が直接追加された（より狭い用語から継承されていない）`:term:`アーカイブ記述`の結果のみを表示します。"
+
+#: ../../user-manual/access-content/browse.rst:1234
+msgid ""
+"A :term:`filter tag` appears at the top of the narrowed search results "
+"indicating that only directly-related results are being displayed. To return"
+" to the previous view of all results, click the **X** on the filter tag - "
+"AtoM will reload the page and return to displaying all related results."
+msgstr ""
+"絞り込まれた検索結果の上部には「フィルタータグ」という用語が表示され、直接関連する結果のみが表示されていることを示しています。すべての結果を表示する前のビューに戻るには、フィルタータグの**X**をクリックしてください。AtoMはページをリロードし、関連するすべての結果を表示するように戻ります。"
+
+#: ../../user-manual/access-content/browse.rst:1241
+msgid ":ref:`terms`"
+msgstr ""
+"`:ref:`terms`` というテキストは、通常ドキュメント内の特定の用語を参照するために使用されるマークアップです。これは技術的な文書でのリンクや参照のためのマークダウンもしくはreStructuredText (reST) 形式のものです。日本語に訳す場合は、このテキストそのままを保持する必要がありますが、それが参照する内容を適切に日本語に翻訳することが重要です。たとえば、「用語集」というセクションを参照しているのであれば、次のような訳になることが考えられます：\n"
+"\n"
+"``:ref:`用語集` ``\n"
+"\n"
+"ただし、このマークアップが指し示す具体的な参照先を知るためには、文脈やその他の情報が必要です。ドキュメントのこの部分に関して特定の指示がなければ、マークアップ自体は原文のまま保持し、読者が日本語のセクションに誘導されるように関連する部分の翻訳を行う必要があります。"
+
+#: ../../user-manual/access-content/browse.rst:1244
+msgid ":ref:`Searching for terms <dedicated-search-terms>`"
+msgstr ":ref:`専用の検索語 <dedicated-search-terms>`"
+
+#: ../../user-manual/access-content/browse.rst:1249
+msgid "|digicon| Browse digital objects"
+msgstr "|デジコン| デジタルオブジェクトを閲覧"
+
+#: ../../user-manual/access-content/browse.rst:34
+msgid "digicon"
+msgstr ""
+"「digicon」は通常、デジタルコンテンツやデジタルコンバージョンを意味する造語ですが、この単語単体では文脈が不足しており、適切な日本語訳を提供するための情報が不足しています。文脈に応じて、「デジコン」、「デジタルコンテンツ」、「デジタル変換」などと訳すことが考えられますが、正確な翻訳のためには追加の情報が必要です。もし「digicon」が特定の文脈やフレーズの一部として提供されている場合、その詳細を教えていただければ、より正確な日本語訳を提供することができます。"
+
+#: ../../user-manual/access-content/browse.rst:1251
+msgid "Click the Browse menu, then click Digital Objects."
+msgstr "「ブラウズ」メニューをクリックし、その後「デジタルオブジェクト」をクリックしてください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing all digital objects."
+msgstr "デジタルオブジェクトをすべて閲覧するビュー。"
+
+#: ../../user-manual/access-content/browse.rst:1258
+msgid ""
+"AtoM will display all of the digital objects in the database. By default, "
+"AtoM will display 10 results per page; if there are more than 10 digital "
+"objects, a pager will be provided at the bottom of the results."
+msgstr ""
+"AtoMはデータベース内の全てのデジタルオブジェクトを表示します。デフォルトでは、AtoMはページあたり10件の結果を表示します。10件を超えるデジタルオブジェクトがある場合、結果の下部にページャーが提供されます。"
+
+#: ../../user-manual/access-content/browse.rst:1268
+msgid ""
+"Users can filter the results by :term:`media type` by clicking open the "
+"\"Media type\" :term:`facet <facet filter>` in the left-hand facet column "
+"and selecting a specific media type - default types in AtoM are audio, "
+"image, text, video, and other."
+msgstr ""
+"ユーザーは、左側のファセットカラムにある「メディアタイプ」の :term:`ファセット <facet filter>` "
+"をクリックして開き、特定のメディアタイプを選択することで、結果を :term:`メディアタイプ` "
+"でフィルタリングできます。AtoMにおけるデフォルトのタイプは、オーディオ、画像、テキスト、ビデオ、その他です。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "The media type facet in AtoM's search and browse pages"
+msgstr "AtoMの検索とブラウズのページにおけるメディアタイプのファセット"
+
+#: ../../user-manual/access-content/browse.rst:1280
+msgid ""
+"Facets will not be displayed if there is only 1 or 0 results - so for "
+"example, if there are only images returned, then the Media type facet will "
+"not be displayed."
+msgstr "結果が1つまたは0の場合、ファセットは表示されません。たとえば、画像のみが返される場合、メディアタイプのファセットは表示されません。"
+
+#: ../../user-manual/access-content/browse.rst:1284
+msgid ""
+"The automatic sort of the results is alphabetic (title) for unauthenticated "
+"(e.g. not logged in) users, which can be changed by the user to various "
+"other sort options via the :ref:`recurring-sort-button` at the top right of "
+"the page."
+msgstr ""
+"認証されていないユーザー（たとえば、ログインしていない）の場合、結果は自動的にアルファベット順（タイトル）にソートされますが、ページの右上にある "
+":ref:`recurring-sort-button` を利用して、ユーザーは他のさまざまなソートオプションに変更することができます。"
+
+#: ../../user-manual/access-content/browse.rst:1290
+msgid ""
+":term:`Administrators <administrator>` can change the default sort order on "
+"search/browse pages for both public and authenticated (i.e. logged in) "
+"users, in **Admin > Settings > Global**. For more information, see: "
+":ref:`sort-browser-users` and :ref:`sort-browser-anonymous`. For more "
+"information on the sort button in general, see: :ref:`recurring-sort-"
+"button`."
+msgstr ""
+"管理者は、**管理 > 設定 > グローバル** "
+"において、公開されているページおよび認証された（つまりログインしている）ユーザーの検索/閲覧ページにおけるデフォルトのソート順を変更することができます。詳細については、:ref:`sort-"
+"browser-users` および :ref:`sort-browser-anonymous` "
+"を参照してください。ソートボタン全般に関する詳細は、:ref:`recurring-sort-button` を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:1297
+msgid ""
+"The view of the results can be toggled from the default \"card\" based view "
+"of the Digital object browse page to a \"list\" view like that found on the "
+":term:`archival description` browse page:"
+msgstr ""
+"結果の表示は、デジタルオブジェクトブラウズページのデフォルトの「カードベース」ビューから、「アーカイブ記述」ブラウズページに見られるような「リスト」ビューに切り替えることができます："
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "The view toggle button on the Description browse page"
+msgstr "説明ブラウズページ上のビュートグルボタン"
+
+#: ../../user-manual/access-content/browse.rst:1306
+msgid ""
+"Users can also use the other facets and filters available in the "
+":ref:`recurring-facet-filters` and the :ref:`advanced-search` panel to "
+"furthe narrow results."
+msgstr ""
+"ユーザーは、`:ref:`recurring-facet-filters`や`:ref:`advanced-search` "
+"パネルで利用可能な他のファセットやフィルターを使用して、さらに結果を絞り込むこともできます。"
+
+#: ../../user-manual/access-content/browse.rst:1315
+msgid ":ref:`upload-digital-object`"
+msgstr "参照：`デジタルオブジェクトのアップロード`"
+
+#: ../../user-manual/access-content/browse.rst:1320
+msgid "|functicon| Browse functions"
+msgstr "|機能| 関数を閲覧"
+
+#: ../../user-manual/access-content/browse.rst:30
+msgid "functicon"
+msgstr ""
+"あなたが提供した \"functicon\" "
+"という単語は、正しい英単語ではないようです。これはタイプミスか、特定の専門用語の可能性がありますが、一般的な英単語ではないため、適切な日本語訳を提供することはできません。もし別の文脈や正しい単語がある場合、それに基づいて適切な翻訳を行うことができますので、情報を提供していただければと思います。"
+
+#: ../../user-manual/access-content/browse.rst:1322
+msgid "Click the Browse menu, then click Functions."
+msgstr "「ブラウズ」メニューをクリックしてから、「機能」をクリックしてください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "View of browsing all functions."
+msgstr "すべての機能を閲覧するビュー。"
+
+#: ../../user-manual/access-content/browse.rst:1329
+msgid ""
+"AtoM will display a list of the functions used in the database with the "
+"function types."
+msgstr "AtoMは、データベース内で使用される機能のリストとその機能タイプを表示します。"
+
+#: ../../user-manual/access-content/browse.rst:1334
+msgid ""
+":term:`Administrators <administrator>` can manage and edit the types of "
+"functions in **Manage > Taxonomies > ISDF Function Types.** See "
+":ref:`Functions` and :ref:`Terms` for more information."
+msgstr ""
+"管理者は、**管理 > タクソノミー > ISDF 機能タイプ** で、機能の種類を管理・編集することができます。詳細については、:ref:`機能` "
+"および :ref:`用語` を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:1338
+msgid ""
+"When a user clicks on a function, the record for that function will display,"
+" including related functions and related resources."
+msgstr "ユーザーがある機能をクリックすると、その機能の記録が表示され、関連する機能や関連リソースも含まれます。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Viewing a function record."
+msgstr "機能レコードの閲覧。"
+
+#: ../../user-manual/access-content/browse.rst:1346
+msgid ""
+"The functions browse page also includes a :term:`dedicated search box` to "
+"help you locate records. For more information on its use, see: "
+":ref:`dedicated-search-functions`."
+msgstr ""
+"機能の参照ページには、記録を検索するのに役立つ:term:`専用検索ボックス`も含まれています。その使用方法についての詳細は、次を参照してください: "
+":ref:`dedicated-search-functions`。"
+
+#: ../../user-manual/access-content/browse.rst:1352
+msgid ":ref:`functions`"
+msgstr ":ref:`機能`"
+
+#: ../../user-manual/access-content/browse.rst:1353
+msgid ":ref:`dedicated-search-functions`"
+msgstr ":ref:`専用の検索機能`"
+
+#: ../../user-manual/access-content/browse.rst:1359
+msgid "Browsing for authenticated users"
+msgstr "認証されたユーザーのためのブラウズ"
+
+#: ../../user-manual/access-content/browse.rst:1361
+msgid ""
+"Authenticated (logged-in) users have access to browsing lists of accession "
+"records, donors, rights holders, and physical storage locations."
+msgstr ""
+"認証済み（ログインした）ユーザーは、アクセッション記録、寄贈者、権利保有者、および物理的な保管場所のリストを閲覧するアクセス権を持っています。"
+
+#: ../../user-manual/access-content/browse.rst:1364
+msgid ""
+"For information on physical storage, see: :ref:`browse-physical-storage`."
+msgstr "物理的な保存についての情報は、こちらを参照してください： :ref:`物理的保存の閲覧`。"
+
+#: ../../user-manual/access-content/browse.rst:1368
+msgid ":ref:`browse-accessions`"
+msgstr ""
+"This appears to be a reference label used in reStructuredText (reST), which is a markup language commonly used in software documentation. In a translated document, you would typically keep the label the same since it points to a specific part of the document, and the translation would focus on the readable text associated with it. However, if you're asking how you would render \":ref:`browse-accessions`\" in Japanese text, it might look like this, assuming \"browse-accessions\" is the name of a section that's being referred to:\n"
+"\n"
+"```\n"
+":ref:`アクセッションを閲覧する`\n"
+"```\n"
+"\n"
+"Keep in mind that the section title \"browse-accessions\" should be translated to whatever it has been titled in the Japanese version of the document. If you need the section title \"browse-accessions\" itself translated, it would be \"アクセッションを閲覧する\" in Japanese."
+
+#: ../../user-manual/access-content/browse.rst:1369
+msgid ":ref:`browse-donors`"
+msgstr ":ref:`ドナーを閲覧する`"
+
+#: ../../user-manual/access-content/browse.rst:1370
+msgid ":ref:`browse-rights-holders`"
+msgstr ":ref:`権利保有者を閲覧する`"
+
+#: ../../user-manual/access-content/browse.rst:1377
+msgid "Browse accession records"
+msgstr "アクセッション記録を閲覧する"
+
+#: ../../user-manual/access-content/browse.rst:1379
+msgid ""
+"Click on the |edit| :ref:`Manage <main-menu-manage>` menu, then on "
+"Accessions."
+msgstr ""
+"|edit|アイコンをクリックして、:ref:`管理 <main-menu-manage>` メニューから、アクセッションを選んでください。"
+
+#: ../../user-manual/access-content/browse.rst:7
+msgid "edit"
+msgstr ""
+"すみませんが、ご依頼の文章またはテキストが提供されていません。指示されたテキストを翻訳するためには、続けてそのテキストを提供していただく必要があります。もしご希望のテキストがありましたら、こちらにご提供ください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Browsing all accession records."
+msgstr "すべての受入記録を閲覧中。"
+
+#: ../../user-manual/access-content/browse.rst:1386
+msgid ""
+"AtoM will display a list of all accessions by accession number as well as "
+"when the :term:`accession record` was updated."
+msgstr "AtoMは、アクセッション番号によるすべてのアクセッションリストと、その:term:`アクセッション記録`が更新された時期を表示します。"
+
+#: ../../user-manual/access-content/browse.rst:1391
+msgid ""
+"From this screen, users can also search accession records by name in the "
+"search box at the top of the results list. For more information on accession"
+" functionality, see :ref:`Accessions <accession-records>`. For information "
+"on using the Accessions search box, see: :ref:`dedicated-search-accessions`"
+msgstr ""
+"この画面から、ユーザーは結果リストの上部にある検索ボックスで、名称によるアクセッション記録の検索も行うことができます。アクセッション機能についての詳細は、:ref:`アクセッション"
+" <accession-records>`を参照してください。アクセッション検索ボックスの使用方法については、:ref:`専用検索-"
+"アクセッション`をご覧ください。"
+
+#: ../../user-manual/access-content/browse.rst:1397
+msgid "When an accession record is clicked, the full record is displayed."
+msgstr "アクセッションレコードをクリックすると、フルレコードが表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:1402
+msgid "Browse donors"
+msgstr "寄贈者を閲覧"
+
+#: ../../user-manual/access-content/browse.rst:1404
+msgid ""
+"Click on the |edit| :ref:`Manage <main-menu-manage>` menu, then on Donors."
+msgstr "|edit| :ref:`管理 <main-menu-manage>` メニューをクリックしてから、寄贈者をクリックします。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Browsing all donor records."
+msgstr "すべての寄贈記録を閲覧。"
+
+#: ../../user-manual/access-content/browse.rst:1411
+msgid ""
+"AtoM will display a list of all donors by name as well as when the donor "
+"record was updated."
+msgstr "AtoMは、すべての寄贈者の名前と寄贈者のレコードが更新された時期を一覧表示します。"
+
+#: ../../user-manual/access-content/browse.rst:1416
+msgid ""
+"From this screen, users can also search donors by name in the search box at "
+"the top of the results list. For more information on donor record "
+"functionality, see :ref:`Donors <donors>`. For information on searching for "
+"Donor records in AtoM, see: :ref:`Donor search <dedicated-search-donors>`."
+msgstr ""
+"この画面から、ユーザーは結果リストの上部にある検索ボックスで名前による寄贈者の検索も行うことができます。寄贈者記録の機能に関する詳細情報については、:ref:`寄贈者"
+" <donors>`を参照してください。AtoM内での寄贈者記録の検索方法については、:ref:`寄贈者検索 <dedicated-search-"
+"donors>`を参照してください。"
+
+#: ../../user-manual/access-content/browse.rst:1422
+msgid ""
+"When an donor record is clicked, the full record is displayed, including any"
+" related :term:`accessions <accession record>` and resources."
+msgstr "寄贈記録をクリックすると、関連する：用語`受け入れ<受け入れ記録>`とリソースを含め、完全な記録が表示されます。"
+
+#: ../../user-manual/access-content/browse.rst:1428
+msgid "Browse Rights holders"
+msgstr "権利保有者を閲覧"
+
+#: ../../user-manual/access-content/browse.rst:1430
+msgid ""
+"Click on the |edit| :ref:`Manage <main-menu-manage>` menu, then on Rights "
+"holders."
+msgstr "|edit| :ref:`管理 <main-menu-manage>` メニューをクリックし、その後に権利保持者をクリックしてください。"
+
+#: ../../user-manual/access-content/browse.rst:-1
+msgid "Browsing all rights holders records."
+msgstr "すべての権利所有者の記録を閲覧中。"
+
+#: ../../user-manual/access-content/browse.rst:1437
+msgid ""
+"AtoM will display a list of all rights holders by name as well as when the "
+"rights holders record was updated."
+msgstr "AtoMは、すべての権利保持者の名前と、権利保持者の記録が更新された時期のリストを表示します。"
+
+#: ../../user-manual/access-content/browse.rst:1442
+msgid ""
+"From this screen, users can also search rights holders by name in the search"
+" box at the top of the results list. For more information on rights holders "
+"record functionality, see :ref:`Rights <rights>`. For more information on "
+"using the rights holder search box, see: :ref:`Rights holder search "
+"<dedicated-search-rights>`."
+msgstr ""
+"この画面から、利用者は検索結果リストの上部にある検索ボックスで、名前による権利保持者の検索も行うことができます。権利保持者記録の機能についての詳細は、:ref:`権利"
+" <rights>`を参照してください。権利保持者検索ボックスの使用方法についての詳細は、:ref:`専用権利保持者検索 <dedicated-"
+"search-rights>`をご覧ください。"
+
+#: ../../user-manual/access-content/browse.rst:1448
+msgid "When a rights holders record is clicked, the full record is displayed."
+msgstr "権利保有者のレコードがクリックされると、完全なレコードが表示されます。"

@@ -1,0 +1,790 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:5
+msgid "Create physical storage location and Box label reports"
+msgstr "物理的保管場所およびボックスラベルレポートを作成する"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:17
+msgid ""
+"This page of the user manual focuses on printing storage location reports, "
+"as well as Box label :term:`CSV` files. To learn about linking "
+":term:`physical storage` containers to an :term:`archival description` or an"
+" :term:`accession record`, please see :ref:`Physical storage <physical-"
+"storage>`. For file and item report generation, see: :ref:`file-item-"
+"reports`."
+msgstr ""
+"このユーザーマニュアルのページは、保管場所レポートの印刷とボックスラベルの :term:`CSV` "
+"ファイルに焦点を当てています。:term:`物理的な保存` コンテナを :term:`アーカイブ記述` や :term:`受入記録` "
+"にリンクする方法については、:ref:`物理的保存 <physical-storage>` "
+"をご覧ください。ファイルや項目のレポート生成に関しては、:ref:`file-item-reports` を参照してください。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:23
+msgid ""
+"The following sections require either :term:`Administrator` or (in some "
+"cases) Editor access and :term:`permissions <access privilege>`. For more "
+"information on user roles and permissions, see:"
+msgstr ""
+"以下のセクションでは、いずれかの :term:`管理者` 権限、または（場合によっては）編集者アクセス権と :term:`権限 <アクセス特権>` "
+"が必要です。ユーザーロールと権限に関する詳細は、以下を参照してください："
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:27
+msgid ":ref:`user-roles`"
+msgstr "`:ref:` ユーザーロール` `"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:28
+msgid ":ref:`edit-user-permissions`"
+msgstr ""
+"`:ref:`edit-user-permissions``はreStructuredText（reST）で使用される参照（リンク）の構文です。オリジナルの文書内でこの構文は特定のセクションやタイトルにリンクするために使用されています。翻訳の際には、リンク先のセクションタイトルが日本語に翻訳されているかどうかに注意し、必要に応じてそのタイトルに置き換える必要があります。\n"
+"\n"
+"翻訳テキストの例（リンク先のセクションタイトルが「ユーザー権限の編集」だと仮定した場合）:\n"
+"``ユーザー権限の編集``\n"
+"\n"
+"ただし、この翻訳はコンテキストに大きく左右されます。実際にドキュメント内でどのようなセクションにリンクされているのか、そのセクションタイトルを正しく翻訳する必要があります。また、リファレンスタグ自体をそのまま保持するか、またはそれが指す目的地の日本語に変換するかどちらかを選ぶ必要があります（技術的な制約やドキュメントの一貫性が関係してくる場合があります）。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:30
+msgid "**Jump to:**"
+msgstr "**移動先：**"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:32
+msgid ":ref:`global-storage-report`"
+msgstr ":ref:`グローバル・ストレージ・レポート`"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:33
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:565
+msgid ":ref:`storage-report-view`"
+msgstr ""
+"`:ref:`storage-report-view`の部分については、reStructuredText（reST）と呼ばれるドキュメント用マークアップ言語を使用していることが示されています。これは、特定の文書内での参照（リンク）を作成するためのものです。ただし、このテキストスニペットだけでは、参照先が何であるか不明確です。したがって、そのまま日本語に翻訳することはできませんが、文脈に基づいた適切な訳語に置き換えることは可能です。たとえば、ドキュメント内の「ストレージレポートビュー」のセクションへの参照と考えられる場合、以下のように翻訳することができます。\n"
+"\n"
+"``:ref:`ストレージレポートビュー` ``\n"
+"\n"
+"ただし、実際の訳語は使用されているドキュメントの文脈に従う必要があります。詳しくは、ドキュメントの他の部分を参照して具体的な訳語を確定する必要があります。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:34
+msgid ":ref:`storage-report-manage`"
+msgstr ":ref:`ストレージ-レポート-管理`"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:35
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:361
+msgid ":ref:`box-label-report`"
+msgstr ":ref:`箱ラベルレポート`"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:40
+msgid "Create a global physical storage report"
+msgstr "グローバルな物理ストレージレポートを作成する"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:42
+msgid ""
+"AtoM includes a global physical storage report that can be generated via the"
+" :term:`user interface` from the :term:`Physical storage` module and "
+"downloaded as a CSV file from the :ref:`Jobs <manage-jobs>` page. This "
+"report is focused on container relations (i.e. physical storage containers "
+"linked to other :term:`entity` types in AtoM, such as :term:`archival "
+"description <archival description>` and :term:`accession records <accession "
+"record>`), and can also be used to identify unlinked containers. Export "
+"options on the report generation page allow users to choose which of these "
+"criteria should be included when creating the report:"
+msgstr ""
+"AtoMには、:term:`ユーザーインターフェース`から:term:`物理的保管`モジュールを介して生成され、:ref:`ジョブ<manage-"
+"jobs>`ページからCSVファイルとしてダウンロードできるグローバルな物理的保管レポートが含まれています。このレポートは、コンテナの関連に焦点を当てています（つまり、:term:`アーカイブ記述<archival"
+" description>`や:term:`受け入れ記録<accession "
+"record>`など、AtoM内の他の:term:`エンティティ`タイプにリンクされた物理的保管コンテナ）、また、リンクされていないコンテナを特定するためにも使用できます。レポート生成ページのエクスポートオプションを使って、ユーザーはレポート作成時にどの基準を含めるべきかを選択できます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid ""
+"An image showing the configuration options on the storage report export\n"
+"page"
+msgstr "ストレージレポートエクスポートページ上の設定オプションを示す画像"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:58
+msgid ""
+"The report will include 1 row for every relation - meaning that a single "
+"container might appear in multiple rows of the CSV report, showing each time"
+" the storage container has been linked to a description or acccesion."
+msgstr ""
+"レポートには、関連するすべての行が1行ずつ含まれます。つまり、単一のコンテナがCSVレポートの複数の行に複数回表示され、その都度、記述やアクセッションとのリンクが設定されたストレージコンテナが示されます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:62
+msgid ""
+"The image below shows 3 rows from an example report, as an example. The "
+"first row below the column headers displays an unlinked container - that is,"
+" a container in the physical storage module that is not linked to any "
+"descriptions or accessions. The second and third rows show a single "
+"container (named \"X40\") linked to an accession record and a description:"
+msgstr ""
+"下の画像は、例としてのレポートからの3行を示しています。カラムヘッダーの下にある最初の行は、リンクされていないコンテナーを表示しています。つまり、物理的なストレージモジュールにあるコンテナーで、どの記述やアクセッションともリンクされていません。2行目と3行目は1つのコンテナー（「X40」と名付けられています）がアクセッション記録と記述にリンクされているのを示しています："
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Example rows from a global storage report CSV"
+msgstr "グローバルストレージレポートCSVからのサンプル行"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:75
+msgid ""
+"One of the ways this report can be used is to identify unlinked physical "
+"storage containers. AtoM also has a command-line task that can be used to "
+"delete unlinked storage containers - for more information, see:"
+msgstr ""
+"このレポートの使用方法の一つとしては、リンクされていない物理的ストレージコンテナーを特定することがあります。AtoMにはリンクされていないストレージコンテナーを削除するために使用できるコマンドラインタスクも存在します"
+" - 詳細については、以下を参照してください："
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:79
+msgid ":ref:`cli-normalize-physical-object`"
+msgstr ""
+"「:ref:`cli-normalize-physical-object`」は、特定のドキュメントやマニュアルのセクションを指している可能性がありますが、単独でそのコンテキストを伝えるには情報が不足しています。この参照は、おそらく文書内で使用されているラベルに対してハイパーリンクを作成するための構文ですが、本来のドキュメントがないため、正確な日本語訳を提供することはできません。\n"
+"\n"
+"もし本来のテキストが Archivematica の使用に関係するコマンドラインインターフェース (CLI) の一部で、「物理的なオブジェクトの正規化」というトピックを扱っていると仮定すると、おおよその日本語訳は次のようになるかもしれません：\n"
+"\n"
+"```:ref:`cli-normalize-physical-object` を参照してください。```\n"
+"\n"
+"ただし、これはあくまで推測に基づいた例示であり、実際の翻訳作業では適切なコンテキストが必要です。もし実際のドキュメントのテキストやセクションが提供されれば、より正確な翻訳を行うことができます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:81
+msgid "**Report columns**"
+msgstr "**レポート列**"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:83
+msgid ""
+"Below is a summary of the columns included in the global physical storage "
+"report."
+msgstr "以下は、グローバル物理ストレージレポートに含まれるカラムの概要です。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:85
+msgid ""
+"**physicalObjectName**: The name assigned to the :term:`physical storage` "
+"container."
+msgstr "**物理的オブジェクト名**: :term:`物理的保管`容器に割り当てられた名称です。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:87
+msgid ""
+"**physicalObjectLocation**: The location assigned to the storage container. "
+"In AtoM's data entry for the physical storage module, this is a free-text "
+"field."
+msgstr ""
+"物理的オブジェクトの位置：保存容器に割り当てられた場所。AtoMの物理的ストレージモジュールのデータ入力では、これは自由記入テキストフィールドです。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:89
+msgid ""
+"**physicalObjectType**: The type of storage container. These values are "
+"derived from the Physical Object Types :term:`taxonomy` in AtoM's data entry"
+" for the physical storage module."
+msgstr ""
+"**物理的オブジェクトタイプ**: "
+"保管容器の種類。これらの値は、AtoMの物理的保管モジュールにおけるデータ入力のための「物理的オブジェクトタイプ」:term:`分類` "
+"から取得されます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:92
+msgid ""
+"**holdingType**: Describes the type of relation in this row. If the "
+"container is not linked to any other entities, this will be blank. If the "
+"row describes a relation with an :term:`archival description`, the value "
+"will be ``description``. If the row describes a relation with an "
+":term:`accession record`, the value will be ``accession``."
+msgstr ""
+"**holdingType**: "
+"この行で記述されている関係のタイプを示します。もしコンテナが他のエンティティとリンクされていない場合、この欄は空白になります。もし行が "
+":term:`アーカイブ記述` との関係を記述している場合、値は ``description`` になります。もし行が :term:`搬入記録` "
+"との関係を記述している場合、値は ``accession`` になります。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:97
+msgid ""
+"**holdingIdentifier**: The identifier of the related record. If "
+"``holdingType`` is \"description\", then this value will be an "
+":term:`archival description` identifier. If ``holdingType`` is \"accession\""
+" then this value will be an :term:`accession's <accession record>` primary "
+"accession number. If the container is unlinked, this column will be blank."
+msgstr ""
+"**holdingIdentifier（保持識別子）**: "
+"関連する記録の識別子。``holdingType（保持タイプ）``が「description（説明）」の場合、この値は :term:`archival "
+"description（アーカイブ記述）`の識別子になります。``holdingType``が「accession（受け入れ）」の場合、この値は "
+":term:`accession's <accession "
+"record>（受け入れの）`の主要な受け入れ番号になります。コンテナがリンクされていない場合、この列は空白になります。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:102
+msgid ""
+"**holdingTitle**: The title of the related resource (either :term:`archival "
+"description` or :term:`accession record`). If the container is unlinked, "
+"this column will be blank."
+msgstr ""
+"**保管タイトル**: "
+"関連資源のタイトル（:term:`アーカイブ記述`または:term:`受入記録`）。コンテナがリンク解除されている場合、この列は空白になります。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:105
+msgid ""
+"**levelOfDescription**: Applies only to related archival descriptions. Will "
+"show the level of description assigned to the related record."
+msgstr "**説明レベル**: 関連するアーカイブ記述にのみ適用されます。関連する記録に割り当てられている説明のレベルを表示します。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:107
+msgid ""
+"**holdingSlug**: The :term:`slug` of the related record. If the container is"
+" unlinked, this column will be blank."
+msgstr ""
+"**holdingSlug**: 関連するレコードの:term:`スラッグ`。もしコンテナがリンクされていない場合、この列は空白になります。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:112
+msgid ""
+"This CSV is intended as a report, and **cannot** be re-imported into AtoM as"
+" metadata. AtoM has separate CSV templates for importing accessions, "
+"archival descriptions, and physical storage data. For more information, see "
+":ref:`csv-import`."
+msgstr ""
+"このCSVは報告書として用意されており、メタデータとしてAtoMに再インポートすることは**できません**。AtoMには、受入れデータ、アーカイブ記述、物理的な保存データのインポート用の別々のCSVテンプレートがあります。詳細については、:ref:`csv-"
+"import`を参照してください。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:117
+msgid "**To export a global report of physical storage container relations**:"
+msgstr "**物理的な保管コンテナの関係に関する全体報告をエクスポートするには**："
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:119
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:386
+msgid ""
+"Click on the \"Manage\" menu and Select \"Physical storage\" from the drop-"
+"down list."
+msgstr "「管理」メニューをクリックし、ドロップダウンリストから「物理的保管」を選択します。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Using the manage menu to navigate to Physical Storage."
+msgstr "「管理メニューを使用して物理的な保存場所に移動します。」"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:127
+msgid "AtoM will take you to the Browse physical storage screen."
+msgstr "AtoMはあなたを「物理的保存の閲覧」画面に連れて行きます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Browsing the physical storage locations."
+msgstr "物理的な保管場所の閲覧。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:134
+msgid ""
+"At the bottom of the page in the :term:`button block`, click the button that"
+" says \"Export storage report\"."
+msgstr "ページの下部にある「ボタンブロック」で、「エクスポートストレージレポート」と書かれたボタンをクリックしてください。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid ""
+"An image of the button block at the bottom of the Physical storage\n"
+"browse page."
+msgstr "物理ストレージ閲覧ページの下部にあるボタンブロックの画像。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:143
+msgid ""
+"AtoM will redirect you to a report configuration page, with three options:"
+msgstr "AtoMはあなたをレポート設定ページにリダイレクトし、そこに3つのオプションがあります："
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:145
+msgid ""
+"**Include unlinked containers**: containers that are not currently linked to"
+" any other :term:`entity` will be included in the report when checked."
+msgstr ""
+"**リンクされていないコンテナを含む**: 現在どの "
+":term:`エンティティ`にもリンクされていないコンテナは、チェックされたときにレポートに含まれます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:147
+msgid ""
+"**Include containers linked to accessions**: containers that are linked to "
+":term:`accession records <accession record>` will be included in the report "
+"when checked."
+msgstr ""
+"**アクセッションにリンクされたコンテナを含む**: :term:`アクセッション記録<accession "
+"record>`にリンクされたコンテナは、チェックされた場合にレポートに含まれます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:150
+msgid ""
+"**Include containers linked to descriptions**: containters that are linked "
+"to :term:`archival description` records will be included in the report when "
+"checked."
+msgstr ""
+"**説明にリンクされたコンテナーを含める**: :term:`アーカイブ記述` "
+"記録にリンクされたコンテナーは、このオプションがチェックされている場合、レポートに含まれます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:154
+msgid ""
+"You can uncheck options as desired - for example, if you only want to "
+"identify what storage containers are not currently being used in AtoM, you "
+"could check only \"Include unlinked containers\" and uncheck the other two "
+"options. When you have configured your choice, click the \"Export\" button "
+"to begin the report generation."
+msgstr ""
+"ご希望に応じてオプションのチェックを外すことができます。例えば、AtoMで現在使用されていないストレージ容器が何かを特定したい場合には、「未リンクのコンテナを含む」だけにチェックを入れて、他の2つのオプションのチェックを外します。選択が設定されたら、「エクスポート」ボタンをクリックして、レポートの生成を開始します。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:168
+msgid ""
+"You must choose at least one of the three configuration options, or the "
+"report will not export. Instead, AtoM will show a warning notification and "
+"direct you back to the configuration options to update your selection."
+msgstr ""
+"少なくとも3つの構成オプションのうち1つを選択する必要があります。そうしないとレポートはエクスポートされません。代わりに、AtoMは警告通知を表示して、選択を更新するために構成オプションに戻るように指示します。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:177
+msgid ""
+"Once the Export button has been clicked, AtoM will reload the page and "
+"display a notification letting you know that the report is being generated. "
+"The notification includes a hyperlink to the :ref:`Jobs <manage-jobs>` page,"
+" where the report can be downloaded once finalized. You can click this link "
+"now to go to the Jobs page, or navigate there anytime via **Manage > Jobs**."
+msgstr ""
+"エクスポートボタンをクリックすると、AtoMはページを再読込し、レポートが生成されていることをお知らせする通知を表示します。この通知には、レポートが最終化された後にダウンロードできる「:ref:`ジョブ管理"
+" <manage-"
+"jobs>`」ページへのハイパーリンクが含まれています。このリンクを今すぐクリックしてジョブページに移動することも、あるいはいつでも**管理 > "
+"ジョブ**経由でそこに移動することもできます。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:185
+msgid ""
+"Remember, the resulting report is focused on container **relations**, and "
+"not just on the containers themselves. Because of this, the same physical "
+"storage container might be described in multiple rows of your export. Each "
+"row in the CSV report represents a relation (or for unlinked containers, a "
+"lack of one), so if a single storage container is linked to 5 "
+":term:`archival description` records and 5 :term:`accession records "
+"<accession record>`, that storage container would appear in 10 rows in the "
+"exported report."
+msgstr ""
+"覚えておいてください、その結果として得られるレポートは、コンテナ自体ではなく、コンテナの**関係性**に焦点を当てています。このため、同じ物理的な保管コンテナがエクスポートされたデータの複数の行で記述されることがあります。CSVレポートの各行は関係性（またはリンクされていないコンテナの場合はその欠如）を表していますので、もし単一の保管コンテナが5つの:term:`archival"
+" description`レコードと5つの:term:`accession records <accession "
+"record>`にリンクされている場合、その保管コンテナはエクスポートされたレポートの10行に登場することになります。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:194
+msgid ""
+"These options are designed to be inclusive by default. For example, if a "
+"container named \"X1\" is linked to both a description and an accession "
+"record, and you check only \"*Include containers linked to accessions*\" in "
+"the configuration options before exporting, then X1 would still be included "
+"in the resulting report. The same would be true if exporting only containers"
+" linked to descriptions."
+msgstr ""
+"これらのオプションは、デフォルトで包括的な設計になっています。例えば、「X1」という名前のコンテナが記述とアクセッション記録の両方にリンクされている場合に、エクスポート前の設定オプションで「*アクセッションにリンクされたコンテナを含む*」のみをチェックしたとしても、X1は結果のレポートに含まれることになります。記述にリンクされたコンテナのみをエクスポートする場合でも、同様のことが当てはまります。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:201
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:363
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:423
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:567
+msgid ":ref:`Back to top <create-physical-storage-report>`"
+msgstr ":ref:`トップに戻る <create-physical-storage-report>`"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:207
+msgid "Create a physical storage report for an archival unit"
+msgstr "アーカイバルユニットの物理的な保管レポートを作成する"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:209
+msgid ""
+"Users can create a :term:`physical storage` report from any :term:`archival "
+"description` :term:`view page`, assuming that physical locations have been "
+"associated with those archival descriptions. Reports generated will apply to"
+" any descendant records - i.e. lower-level descriptions from the current "
+"level. If you want a report for all lower-level descriptions, start from the"
+" top-level description and generate the report there."
+msgstr ""
+"ユーザーは、物理的な場所がそれらのアーカイブ記述に関連付けられていると仮定して、任意のアーカイブ記述ビューページから「物理的保管」レポートを作成することができます。生成されたレポートは、下位の記録（つまり、現在のレベルからの下位レベルの記述）に適用されます。すべての下位レベルの記述についてレポートを得たい場合は、最上位の記述から始めて、そこでレポートを生成してください。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:218
+msgid ""
+"Physical storage location reports are **only** available to authenticated "
+"(logged-in) users. However, all users can view and generate file and item "
+"reports - see: :ref:`file-item-reports`. Depending on a setting controlled "
+"by an :term:`administrator` in |gears| **Admin > Settings**, these file and "
+"item reports may or may not include physical storage information. For more "
+"information, see: :ref:`reports-public-setting`."
+msgstr ""
+"物理的な保存場所に関するレポートは、**認証された（ログインした）ユーザーのみ**が利用可能です。しかし、すべてのユーザーはファイルとアイテムのレポートを閲覧、生成することができます"
+" - 参考: :ref:`file-item-reports`。:term:`管理者`が |gears| **管理 > 設定** "
+"で制御する設定に依存して、これらのファイルとアイテムのレポートには物理的な保存情報が含まれる場合も含まれない場合もあります。詳細については、参考: "
+":ref:`reports-public-setting`をご覧ください。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:10
+msgid "gears"
+msgstr "\"歯車\""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:225
+msgid ""
+"Reports generated this way are particular to the selected :term:`archival "
+"unit` - for storage location reports that show all related descriptions "
+"associated with a storage location, see below, :ref:`storage-report-manage`."
+msgstr ""
+"この方法で生成されたレポートは選択された:term:`archival "
+"unit`に固有のものです。ストレージ場所に関連付けられているすべての関連説明を示すストレージ場所レポートについては、以下の:ref:`storage-"
+"report-manage`を参照してください。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:229
+msgid ""
+"Physical storage reports generated with this particular workflow in AtoM are"
+" generated asynchronously in the background using `Gearman "
+"<http://gearman.org>`__, AtoM's job manager. You will need to make sure that"
+" Gearman is properly configured during installation to be able to generate "
+"reports - for more information, see: :ref:`maintenance-asynchronous-jobs`. "
+"Additional information about the status of any report generation :term:`job`"
+" can also be seen via **Manage > Jobs** - for more information on the Jobs "
+"management page in AtoM, see: :ref:`manage-jobs`."
+msgstr ""
+"この特定のワークフローでAtoMで生成される物理保存レポートは、Gearman "
+"<http://gearman.org>（AtoMのジョブマネージャー）を使用して、バックグラウンドで非同期に生成されます。レポートを生成するためには、インストール中にGearmanが正しく設定されていることを確認する必要があります。詳細については、こちらを参照してください："
+" :ref:`maintenance-asynchronous-jobs`。任意のレポート生成 :term:`ジョブ` "
+"の状態についての追加情報も、**管理 > ジョブ** から確認できます。AtoMでのジョブ管理ページの詳細については、こちらを参照してください： "
+":ref:`manage-jobs`。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:239
+msgid "**To generate a physical storage report for an archival unit:**"
+msgstr "アーカイブ単位の物理的な保管レポートを生成するには："
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:241
+msgid ""
+"Navigate to the highest :term:`level of description` for which you wish to "
+"create a physical storage report (e.g, for the physical storage locations of"
+" an entire :term:`fonds`, view the fonds level description, etc). You can do"
+" so by :ref:`searching <search-atom>` or :ref:`browsing <browse>` to find "
+"the description you want - for more information on navigation in AtoM, see: "
+":ref:`access-content`."
+msgstr ""
+"以下のように、あなたが物理的な保管レポートを作成したい記述の最上位:term:`記述レベル`（例えば、全ての:term:`基金`の物理的な保管場所については、基金のレベルの記述を表示します等）へとナビゲートします。:ref:`検索"
+" <search-atom>`や:ref:`ブラウズ <browse>`を利用して、必要な記述を探すことができます - "
+"AtoMでのナビゲーションに関する詳細は、:ref:`access-content`を参照してください。"
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:248
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:479
+msgid ""
+"On the :term:`view page` of the :term:`archival description` for which you "
+"wish to generate a report, click on the |report| Reports button, found in "
+"the right-hand :term:`context menu` under the \"Explore\" heading:"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:7
+msgid "report"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "The reports menu link in the right-hand context menu of a description"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:257
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:488
+msgid ""
+"AtoM will reload the page to display report generation options. Options "
+"avalailable will depend on a) whether you are authenticated (i.e. logged "
+"in), and b) the lower-level descriptions available in this :term:`archival "
+"unit`. For more information on file and item list reports, see: :ref:`file-"
+"item-reports`."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:263
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:494
+msgid ""
+"If there are existing reports previously generated, they will be available "
+"for immediate download or viewing. Click on one to view or download it:"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Report configuration page with existing reports showing above"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:271
+msgid ""
+"To generate a new report, click on the Physical storage locations "
+":term:`radio button`, and then click the \"Continue\" button in the "
+":term:`button block` at the bottom of the page."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Report printing options including Physical storage locations"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:280
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:511
+msgid ""
+"Next AtoM will ask you what format you want the report to be generated in. "
+"Available options are :term:`CSV` or HTML. The CSV option will be provided "
+"as a download to be viewed locally, while the HTML option will be opened "
+"immediately in your web browser, and can be used for printing (you can "
+"always save a local copy by right-clicking and using the \"Save page\" "
+"option)."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Report format options for the Physical storage locations report"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:292
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:523
+msgid ""
+"Once you have selected a report format and clicked \"Continue,\" AtoM will "
+"reload the page and return you to the :term:`view page` for the related "
+":term:`archival description`. A notification will appear at the top of the "
+"page, letting you know that report generation has started."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "The notification shown after generating a report"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:302
+msgid ""
+"To check on the status and retrieve your report when it is ready, you can "
+"either click on the |report| Reports button in the right-hand :term:`context"
+" menu` again, or you can use the link to the reports page provided in the "
+"notification. When completed, your reports will appear in the \"Existing "
+"reports\" section of the Reports page, as shown in Step 5."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:310
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:541
+msgid ""
+"Logged in users can always check on the status of any job by navigating to "
+"the **Manage > Jobs** page. For more information, see: :ref:`manage-jobs`."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:313
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:544
+msgid ""
+"For HTML reports, clicking them will open them immediately in your web "
+"browser. You can use the \"Back\" button to return to the reports page, and "
+"if you wish to save a local copy, Right-click anywhere on the page and use "
+"the \"Save as\" option in your browser to save a local copy."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:318
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:549
+msgid ""
+"For CSV reports, clicking them will trigger a download. You will need a "
+"local application to view the file - we recommend a spreadsheet application "
+"such as LibreOffice Calc."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:322
+msgid ""
+"The example below shows a Physical storage report generated as HTML, and "
+"opened in a web browser. You can select \"print\" from your browser and "
+"print the report, or you can use your browser's \"Back\" button to exit the "
+"report view page."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Print preview of a physical storage report."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:332
+msgid ""
+"In the HTML report, users can click on a hyperlink container name and AtoM "
+"will take you to the related View physical storage screen."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Screen showing contents of physical storage location"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:340
+msgid ""
+"You can choose to edit the physical storage by selecting the \"edit\" button"
+" in the button block,see Edit current container. You can choose to delete "
+"the physical storage by selecting the \"delete\" button in the :term:`button"
+" block`. For more information on working with physical storage locations, "
+"see: :ref:`physical-storage`."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:346
+msgid ""
+"You can also click on the |print| print icon in the title bar and AtoM will "
+"take you to a print preview page, showing all the contents of that physical "
+"storage location."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:14
+msgid "print"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Physical storage location print report"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:355
+msgid ""
+"Alternatively, on the View physical storage screen you can click on the "
+"hyperlink associated with a specific record and AtoM will take you to the "
+"View archival description screen for that record."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:368
+msgid "Create physical storage report for a single container"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:370
+msgid ""
+"AtoM also provides a simple report that lists all :term:`archival "
+"description` records associated with a particular storage location. This "
+"report is optimized for printing, and can be accessed via the Physical "
+"storage module. For more information on working with the Physical storage "
+"module, see:"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:375
+msgid ":ref:`physical-storage`"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:379
+msgid ""
+"While storage locations can be linked to :term:`accessions <accession "
+"record>`, at present accession records are **not** included in this "
+"container report. This report will only include a list of linked "
+":term:`archival description` records."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:384
+msgid "**To view the container physical storage report:**"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:394
+msgid ""
+"AtoM will take you to the Browse physical storage screen. All containers are"
+" listed by name, location and type. You can sort by Name or Location."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:402
+msgid ""
+"Click on the hyperlink container name and AtoM takes you to the View "
+"Physical storage screen."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:410
+msgid ""
+"To view the storage report, click on the |print| print icon in the title bar"
+" and AtoM will take you to a print preview page, showing all the contents of"
+" that physical storage location."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:419
+msgid ""
+"Alternatively, on the View physical storage screen you can click on the "
+"hyperlink associated with a specific record and AtoM will take you to the "
+"View :term:`archival description` screen for that record."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:428
+msgid "Generate a box label report via the Reports module"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:430
+msgid ""
+"Users can create a simple :term:`physical storage` report that can be used "
+"to create box labels for your physical storage, via the Reports module "
+"associated with an :term:`archival description`. The report includes columns"
+" for the following:"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:435
+msgid ":term:`Reference code`"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:436
+msgid "Physical object name (i.e. container name)"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:437
+msgid "Title of the related :term:`archival description`"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:438
+msgid "Creation date of the archival description"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:440
+msgid ""
+"This report can be generated from any :term:`archival description` "
+":term:`view page`, assuming that physical storage locations have been "
+"associated with those archival descriptions. Reports generated will apply to"
+" any descendant records - i.e. lower-level descriptions from the current "
+"level. If you want a report for all lower-level descriptions, start from the"
+" top-level description and generate the report there."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:449
+msgid ""
+"Box label reports are **only** available to authenticated (logged-in) users."
+" However, all users can view and generate file and item reports - see: "
+":ref:`file-item-reports`. Depending on a setting controlled by an "
+":term:`administrator` in |gears| **Admin > Settings**, these file and item "
+"reports may or may not include physical storage information. For more "
+"information, see: :ref:`reports-public-setting`."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:456
+msgid ""
+"Reports generated this way are particular to the selected :term:`archival "
+"unit` - for storage location reports that show all related descriptions "
+"associated with a storage location, see above, :ref:`storage-report-manage`."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:461
+msgid ""
+"Box label reports in AtoM are generated asynchronously in the background "
+"using `Gearman <http://gearman.org>`__, AtoM's job manager. You will need to"
+" make sure that Gearman is properly configured during installation to be "
+"able to generate reports - for more information, see: :ref:`maintenance-"
+"asynchronous-jobs`. Additional information about the status of any report "
+"generation :term:`job` can also be seen via **Manage > Jobs** - for more "
+"information on the Jobs management page in AtoM, see: :ref:`manage-jobs`."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:470
+msgid "**To generate a box label report for an archival unit:**"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:472
+msgid ""
+"Navigate to the highest :term:`level of description` for which you wish to "
+"create a box label report (e.g, for the box labels of an entire "
+":term:`fonds`, view the fonds level description, etc). You can do so by "
+":ref:`searching <search-atom>` or :ref:`browsing <browse>` to find the "
+"description you want - for more information on navigation in AtoM, see: "
+":ref:`access-content`."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:502
+msgid ""
+"To generate a new report, click on the Box labels :term:`radio button`, and "
+"then click the \"Continue\" button in the :term:`button block` at the bottom"
+" of the page."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Report printing options including the Box label report"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Report format options for the Box label report"
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:533
+msgid ""
+"To check on the status and retrieve your report when it is ready, you can "
+"either click on the |report| Reports button in the right-hand :term:`context"
+" menu` again, or you can use the link to the reports page provided in the "
+"notification. When completed, your reports will appear in the \"Existing "
+"reports\" section of the Reports page, as shown in Step 3."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:553
+msgid ""
+"The example below shows a Box label report generated as HTML, and opened in "
+"a web browser. You can select \"print\" from your browser and print the "
+"report, or you can use your browser's \"Back\" button to exit the report "
+"view page."
+msgstr ""
+
+#: ../../user-manual/reports-printing/create-physical-storage-report.rst:-1
+msgid "Print preview of a box label report."
+msgstr ""

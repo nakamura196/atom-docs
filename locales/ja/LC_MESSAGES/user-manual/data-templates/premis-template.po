@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/premis-template.rst:5
+msgid "Preservation Metadata: Implementation Strategies v2.2 (PREMIS)"
+msgstr "保存メタデータ：実装戦略 v2.2 (PREMIS)"
+
+#: ../../user-manual/data-templates/premis-template.rst:7
+msgid "On this page you will find:"
+msgstr "このページでは以下の内容を見ることができます："
+
+#: ../../user-manual/data-templates/premis-template.rst:9
+msgid ""
+"Descriptions of fields used when entering data into a :term:`Rights record` "
+"associated with an :term:`archival description` or an :term:`accession "
+"record`. In AtoM, the Rights template is based on version 2.2 of the PREMIS "
+"standard's section on rights. For more information on Rights in AtoM, see: "
+":ref:`Rights`."
+msgstr ""
+"アーカイブ記述または受け入れ記録に関連する「権利記録」にデータを入力する際に使用されるフィールドの説明です。AtoMでは、権利テンプレートはPREMIS標準の権利に関するセクションのバージョン2.2に基づいています。AtoMの権利に関する詳細は、「権利」を参照してください。"
+
+#: ../../user-manual/data-templates/premis-template.rst:17
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイバル・ディスクリプション`"
+
+#: ../../user-manual/data-templates/premis-template.rst:18
+msgid ":ref:`accession-records`"
+msgstr ":ref:`検収記録`"
+
+#: ../../user-manual/data-templates/premis-template.rst:19
+#: ../../user-manual/data-templates/premis-template.rst:70
+msgid ":ref:`rights`"
+msgstr ":ref:`権利`"
+
+#: ../../user-manual/data-templates/premis-template.rst:22
+msgid "Field descriptions"
+msgstr "フィールドの説明"
+
+#: ../../user-manual/data-templates/premis-template.rst:24
+msgid "Information below includes:"
+msgstr "以下に記載されている情報には、次のものが含まれます："
+
+#: ../../user-manual/data-templates/premis-template.rst:26
+msgid "**Template field** refers to the default label for that field in AtoM"
+msgstr "「テンプレートフィールド」とは、AtoMにおけるそのフィールドのデフォルトのラベルを指します。"
+
+#: ../../user-manual/data-templates/premis-template.rst:27
+msgid ""
+"**PREMIS Rule** refers to the rule from the applicable standard and/or the "
+"instructions provided by AtoM."
+msgstr "**PREMISルール** は、適用可能な標準および／またはAtoMによって提供される指示からの規則を指します。"
+
+#: ../../user-manual/data-templates/premis-template.rst:29
+msgid ""
+"**Notes** includes any other information needed for successful data entry."
+msgstr "「備考」には、データ入力を成功させるために必要なその他の情報が含まれています。"
+
+#: ../../user-manual/data-templates/premis-template.rst:34
+msgid "PREMIS Rights basis area"
+msgstr "PREMIS権利根拠エリア"
+
+#: ../../user-manual/data-templates/premis-template.rst:42
+msgid "An image of the data entry fields in the PREMIS Rights basis area."
+msgstr "PREMIS権利根拠エリアにおけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/premis-template.rst:42
+msgid "The data entry fields in the PREMIS Rights basis area edit template."
+msgstr "PREMIS 権利根拠エリア編集テンプレート内のデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/premis-template.rst:47
+msgid "Basis"
+msgstr "基礎"
+
+#: ../../user-manual/data-templates/premis-template.rst:49
+msgid "**Template field**: Basis"
+msgstr "**テンプレートフィールド**: 根拠"
+
+#: ../../user-manual/data-templates/premis-template.rst:51
+msgid ""
+"**PREMIS Rule**: Basis for the permissions granted or for the restriction of"
+" rights."
+msgstr "**PREMIS ルール**: 付与される許可の根拠または権利の制限のための根拠。"
+
+#: ../../user-manual/data-templates/premis-template.rst:54
+msgid ""
+"**Notes**: The field is a :term:`drop-down menu` of controlled :term:`terms "
+"<term>` drawn from the Rights basis :term:`taxonomy`. The default values, "
+"drawn from PREMIS, are:"
+msgstr ""
+"**ノート**: このフィールドは、権利の根拠の :term:`分類 <taxonomy>` から引き出された制御された :term:`語彙 "
+"<term>` の :term:`ドロップダウンメニュー` です。PREMISから取得されたデフォルト値は以下の通りです："
+
+#: ../../user-manual/data-templates/premis-template.rst:58
+msgid "Copyright"
+msgstr "著作権"
+
+#: ../../user-manual/data-templates/premis-template.rst:59
+msgid "Donor"
+msgstr "ドナー"
+
+#: ../../user-manual/data-templates/premis-template.rst:60
+msgid "License"
+msgstr "ライセンス"
+
+#: ../../user-manual/data-templates/premis-template.rst:61
+msgid "Policy"
+msgstr "方針"
+
+#: ../../user-manual/data-templates/premis-template.rst:62
+msgid "Statute"
+msgstr "法令"
+
+#: ../../user-manual/data-templates/premis-template.rst:64
+msgid ""
+"A user with suffient :term:`permissions <access privilege>` can modify "
+"existing terms or add new terms to the taxonomy. When new terms are added, "
+"they will show up in the configurable Permissions table found in **Admin > "
+"Settings > Permissions**. For more information, see:"
+msgstr ""
+"十分な:term:`権限 <access privilege>` "
+"を持つユーザーは、既存の用語を修正したり、分類表に新しい用語を追加することができます。新しい用語が追加されると、**管理 > 設定 > 権限** "
+"にある構成可能な権限テーブルに表示されます。詳細については、次をご覧ください："
+
+#: ../../user-manual/data-templates/premis-template.rst:69
+msgid ":ref:`terms`"
+msgstr ":ref:`用語集`"
+
+#: ../../user-manual/data-templates/premis-template.rst:71
+msgid ":ref:`permissions`"
+msgstr ""
+":ref:`permissions` "
+"(この部分は参照リンクですので、翻訳する必要はありません。文脈によって表示されるテキストが変わるため、この部分だけを与えられても正しい日本語訳を提供することはできません。しかし、通常は関連するセクションへのリンクとして機能しますので、「権限」や「パーミッション」などが適当な文脈に応じた訳語になるでしょう。)"
+
+#: ../../user-manual/data-templates/premis-template.rst:73
+#: ../../user-manual/data-templates/premis-template.rst:88
+msgid ":ref:`Back to the top <premis-template>`"
+msgstr ":ref:`トップに戻る <premis-template>`"
+
+#: ../../user-manual/data-templates/premis-template.rst:78
+msgid "PREMIS Acts / Granted rights area"
+msgstr "PREMIS行為/付与された権利エリア"
+
+#: ../../user-manual/data-templates/premis-template.rst:86
+msgid ""
+"An image of the data entry fields in the PREMIS Acts/Granted rights area."
+msgstr "PREMIS行動/付与された権利領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/premis-template.rst:86
+msgid "The data entry fields in the PREMIS Acts/Granted rights area."
+msgstr "PREMISアクト/付与された権利エリアのデータ入力フィールド。"

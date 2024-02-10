@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:5
+msgid "Browse taxonomy terms endpoint"
+msgstr "分類用語を閲覧するためのエンドポイント"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:7
+msgid "**GET /api/taxonomies/<id>**"
+msgstr "**GET /api/taxonomies/<id> の取得**"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:9
+msgid ""
+"This endpoint will obtain all the :term:`terms <term>` from a specified "
+":term:`taxonomy`, including the term name and notes. It is used in "
+"`Archivematica <https://www.archivematica.org>`__ to get the Levels of "
+"description taxonomy terms in the Hierarchical DIP upload."
+msgstr ""
+"このエンドポイントは、指定された:term:`分類法（taxonomy）`から全ての:term:`用語 "
+"<term>`を取得します。これには用語の名前と注記が含まれます。これは `Archivematica "
+"<https://www.archivematica.org>`__ "
+"で階層的なDIPアップロードにおいて記述レベルの分類法用語を取得するために使用されます。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:16
+msgid ""
+"For more information on how AtoM defines taxonomies and terms, and how to "
+"manage them via the user interface, see: :ref:`terms`."
+msgstr ""
+"AtoMが分類法や用語をどのように定義し、ユーザーインターフェースを通じてそれらを管理する方法についての詳細は、以下を参照してください： "
+":ref:`terms`。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:19
+msgid ""
+"To make use of this endpoint, you will need to know the ID of the taxonomy "
+"whose terms you wish to return. These IDs are not accessible via the AtoM "
+"user interface - they are used internally."
+msgstr ""
+"このエンドポイントを利用するためには、返却したい分類体系のIDを知っている必要があります。これらのIDは、AtoMユーザーインターフェイスを通じてはアクセスできません。それらは内部的に使用されています。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:23
+msgid ""
+"Below is a list of some of the more commonly used taxonomies in AtoM, and "
+"their IDs. This list is NOT comprehensive - to see the full list, navigate "
+"to ``/lib/model/QubitTaxonomy.php`` in your local application."
+msgstr ""
+"以下は、AtoMでよく使用される分類法の一部と、それらのIDです。このリストは包括的なものではありません - "
+"完全なリストを見るためには、ローカルアプリケーションの「/lib/model/QubitTaxonomy.php」に移動してください。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:28
+msgid "Taxonomy name"
+msgstr "分類名"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:28
+msgid "ID"
+msgstr "ID"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:30
+msgid "Places"
+msgstr "場所"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:30
+msgid "42"
+msgstr ""
+"こちらはただの数字の「42」ですが、これを翻訳という文脈でみますか？それとも何か特定の文で使われている「42」について説明していますか？ "
+"文脈を提供してもらえると、より適切な回答を提供することができます。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:31
+msgid "Subjects"
+msgstr "対象"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:31
+msgid "35"
+msgstr ""
+"Your prompt does not include any text for me to translate. If you provide "
+"the specific text related to Archivematica that you need translated into "
+"Japanese, I will be able to assist you."
+
+#: ../../dev-manual/api/browse-taxonomies.rst:32
+msgid "Genres"
+msgstr "ジャンル"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:32
+msgid "78"
+msgstr "申し訳ありませんが、要求されたテキストが提供されていません。翻訳するテキストを提供していただけますか？"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:33
+msgid "Level of description"
+msgstr "記述のレベル"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:33
+msgid "34"
+msgstr ""
+"申し訳ありませんが、提供されたテキスト「34」には翻訳が必要な情報や文脈が含まれておりません。もし翻訳したい具体的なテキストがあれば、こちらに提供してください。それに基づいて適切な翻訳を提供いたします。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:34
+msgid "Actor entity type (ISAAR)"
+msgstr "ISAARにおける行為者エンティティタイプ"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:34
+msgid "32"
+msgstr ""
+"すみませんが、提供されたテキストは「32」という数字だけです。これは翻訳を必要としない数字であり、日本語でも同じく「32」と表記します。もし、翻訳を希望する具体的な文章や段落があれば、そのテキストを提供してください。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:35
+msgid "Thematic area (repository)"
+msgstr "テーマ領域（リポジトリ）"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:35
+msgid "72"
+msgstr ""
+"Certainly! To provide you with an accurate translation, please provide the "
+"text you would like to have translated into Japanese."
+
+#: ../../dev-manual/api/browse-taxonomies.rst:36
+msgid "Geographic subregion (repository)"
+msgstr "地理的なサブリージョン（リポジトリ）"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:36
+msgid "73"
+msgstr ""
+"It appears you've entered a number by itself - \"73\". If you need this "
+"number translated into Japanese or within a specific context, could you "
+"please provide more details or the sentence that needs translation? This "
+"will help me give you the most accurate translation."
+
+#: ../../dev-manual/api/browse-taxonomies.rst:37
+msgid "Media type"
+msgstr "メディアタイプ"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:37
+msgid "46"
+msgstr ""
+"申し訳ありませんが、テキストの提供が見受けられません。翻訳を手伝うためには翻訳したい具体的なテキストが必要です。提供していただければ、その内容を日本語に翻訳いたします。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:38
+msgid "RAD title note type"
+msgstr "RADタイトル注記タイプ"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:38
+msgid "52"
+msgstr ""
+"お使いの文脈に応じて多くの解釈が可能ですが、\"52\"は数字なので、通常は同じ数字の「52」を用いて日本語訳します。ただし、もしこれがページ番号やリストのアイテム、章のタイトル、または単独で存在するセクションを指している場合、それに言及している文章があれば、より適切な翻訳を提供できるかもしれません。例えば、\"Section"
+" 52\"であれば「セクション52」または「第52章」となります。翻訳に追加情報が必要な場合は、もっと文脈を提供してください。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:39
+msgid "RAD other note type"
+msgstr "RADその他の注記タイプ"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:39
+msgid "51"
+msgstr ""
+"お問い合わせいただいた文書の内容がありません。51という数字を意味する文脈が不明です。具体的なテキストを提供していただければ、その内容を日本語に翻訳するお手伝いをさせていただきます。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:40
+msgid "Material Type (RAD GMD)"
+msgstr "資料タイプ（RAD GMD）"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:40
+msgid "50"
+msgstr ""
+"すみませんが、提供されたテキストがありません。 \"50\" "
+"という数字のみが与えられており、翻訳すべき文脈や内容がありません。もし翻訳が必要な具体的な文章や段落があれば、どうぞ提供してください。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:41
+msgid "DACS note type"
+msgstr "DACS注記タイプ"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:41
+msgid "74"
+msgstr ""
+"ごめんなさい、テキストがありません。提示された数字「74」だけでは、特に翻訳する文脈や内容が存在しません。翻訳するための具体的なテキストが必要です。もし、翻訳が必要なテキストをお持ちであれば、それをここに提供していただけますか？"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:42
+msgid "Rights act (PREMIS)"
+msgstr "権利行為 (PREMIS)"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:42
+msgid "67"
+msgstr ""
+"It seems like you typed \"67\" which doesn't provide context for "
+"translation. To assist you with your Archivematica documentation "
+"translation, please provide the text you need translated into Japanese."
+
+#: ../../dev-manual/api/browse-taxonomies.rst:43
+msgid "Rights basis (PREMIS)"
+msgstr "権利の根拠（PREMIS）"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:43
+msgid "68"
+msgstr ""
+"すみませんが、翻訳するテキストは提供されていません。提供された数字の「68」についての翻訳やコンテキストが必要であれば、詳細を教えてください。もし特定の文書やテキストの翻訳が必要であれば、そのテキストをここに入力してください。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:48
+msgid "Example request"
+msgstr "以下が依頼例です。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:56
+msgid "Example response"
+msgstr ""
+"ごめんなさい、リクエストが不明で、テキストが提供されていません。提供されたテキストを日本語に翻訳するために、具体的なテキスト例を提供してください。それから、リクエストに応じて翻訳を行うことができます。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:88
+msgid "Request parameters"
+msgstr "リクエストパラメータ"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:90
+msgid "``sf_culture``: ISO 639-1 language code"
+msgstr "``sf_culture``: ISO 639-1 における言語コード"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:92
+msgid "See :ref:`api-intro-i18n` for more information on this parameter."
+msgstr "詳細については、:ref:`api-intro-i18n` を参照してください。"
+
+#: ../../dev-manual/api/browse-taxonomies.rst:94
+msgid ":ref:`Back to top <api-browse-taxonomies>`"
+msgstr ":ref:`トップに戻る <api-browse-taxonomies>`"

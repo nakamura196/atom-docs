@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/installation/windows.rst:5
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../admin-manual/installation/windows.rst:7
+msgid ""
+"Every single piece of software :ref:`required by AtoM <installation-"
+"requirements>` is compatible with Windows. However, you should know that the"
+" process may not be straightforward at all if you are not familiar with "
+"server environments under the Windows platform."
+msgstr ""
+"AtoMにおいて :ref:`必要とされる全てのソフトウェア <installation-requirements>` "
+"はWindowsと互換性があります。ただし、Windowsプラットフォーム下でのサーバー環境に慣れていない場合、そのプロセスが全く簡単ではないことを知っておくべきです。"
+
+#: ../../admin-manual/installation/windows.rst:12
+msgid ""
+"Artefactual does not test installations on non-Ubuntu platforms, so we are "
+"only able to offer limited support - we suggest trying to coordinate with "
+"other users via our `User forum "
+"<https://groups.google.com/forum/#!forum/ica-atom-users>`__. We've tried to "
+"provide a few suggestions below to get you started."
+msgstr ""
+"Artefactualでは、Ubuntu以外のプラットフォームについてインストールのテストを行っていないため、限定的なサポートしか提供することができません。他のユーザーとの連携を試みることをお勧めします。そのためには、`User"
+" forum <https://groups.google.com/forum/#!forum/ica-atom-users>`__ "
+"をご利用ください。以下に、始めるためのいくつかの提案を試してみてください。"
+
+#: ../../admin-manual/installation/windows.rst:19
+msgid "Virtualizing Linux"
+msgstr "Linuxの仮想化"
+
+#: ../../admin-manual/installation/windows.rst:21
+msgid ""
+"We strongly believe that Linux is the best choice for installing AtoM, but "
+"if for whatever reason you are unable to switch to a different platform, you"
+" may want to consider running a `virtualized "
+"<https://en.wikipedia.org/wiki/Virtualization>`__ Linux instance in Windows."
+" Some of the most popular virtualization tools in Windows are:"
+msgstr ""
+"私たちは、AtoMをインストールするためにはLinuxが最も適していると強く信じていますが、何らかの理由で他のプラットフォームに切り替えることができない場合は、Windows上で仮想化されたLinuxインスタンスを実行することを検討してみてください。Windowsで最も人気のある仮想化ツールのいくつかは以下のとおりです："
+
+#: ../../admin-manual/installation/windows.rst:27
+msgid "VirtualBox (open source): https://www.virtualbox.org/"
+msgstr "VirtualBox（オープンソース）：https://www.virtualbox.org/"
+
+#: ../../admin-manual/installation/windows.rst:28
+msgid "VMware: http://www.vmware.com/"
+msgstr ""
+"VMware: http://www.vmware.com/ は、英語のウェブサイトのURLであり、これ自体は特定のテキストが含まれていないため、言語に関係なく同じままです。しかし、このURLを日本語のドキュメントに挿入する場合、次のように記載することができます。\n"
+"\n"
+"VMwareのウェブサイト：http://www.vmware.com/\n"
+"\n"
+"ただし、文脈に応じて、「以下のリンクからVMwareのウェブサイトにアクセスできます」のような説明を加えることが適切です。"
+
+#: ../../admin-manual/installation/windows.rst:29
+msgid ""
+"Hyper-V (the official Windows hypervisor): http://www.microsoft.com/hyper-v-"
+"server"
+msgstr "Hyper-V (公式のWindowsハイパーバイザー)：http://www.microsoft.com/hyper-v-server"
+
+#: ../../admin-manual/installation/windows.rst:32
+msgid ""
+"You should be able to use a virtual appliance in the virtualization tool of "
+"your choice. However, Artefactual does **not** maintain production-ready "
+"virtual applicances - so you will need an experienced technical administator"
+" to help you create and configure one if that is the approach you'd like to "
+"take. We do provide a :ref:`Vagrant box <dev-env-vagrant>` for developers "
+"and users interested in testing AtoM on their laptops, but the Vagrant box "
+"is not intended for production use!"
+msgstr ""
+"お使いの仮想化ツールで仮想アプライアンスを利用することができるはずです。ただし、Artefactualでは**本番用の**準備が整った仮想アプライアンスはメンテナンスして**いません**ので、そのアプローチを取りたい場合は、経験豊富な技術管理者が作成や設定のお手伝いが必要になります。開発者や、自分のラップトップでAtoMをテストに興味があるユーザー向けに`:ref:`Vagrant"
+" box <dev-env-vagrant>`を提供していますが、Vagrant boxは本番環境での使用を意図していません！"
+
+#: ../../admin-manual/installation/windows.rst:42
+msgid ":ref:`dev-env-vagrant`"
+msgstr ""
+"このテキストは参照リンクを指しているようですが、独立した文章としての意味を持っていません。完全なコンテキストや文書が提供された場合、より適切な翻訳が可能です。ただし、この参照を日本語の文脈に合うように調整すると次のようになります：\n"
+"\n"
+":ref:`開発環境のVagrant設定`\n"
+"\n"
+"もしこの参照が目次や索引などに使われているならば、「開発環境のVagrant設定」は、そのセクションのタイトルとして想定されます。実際のセクションに記載されている内容に基づいて翻訳が必要です。"
+
+#: ../../admin-manual/installation/windows.rst:44
+msgid ""
+"If you intend to continue using Windows, please proceed by following the "
+"instructions provided below. Be warned that installing AtoM in a Windows "
+"environment can be tricky, however, so be prepared for some hassle!"
+msgstr ""
+"もしWindowsを使い続ける意向であれば、以下に提供された指示に従って進んでください。しかし、Windows環境にAtoMをインストールすることは厄介な作業になる可能性があるので、苦労することに備えておいてください！"
+
+#: ../../admin-manual/installation/windows.rst:49
+msgid "Web servers"
+msgstr "ウェブサーバー"
+
+#: ../../admin-manual/installation/windows.rst:51
+msgid ""
+"The good news is that the support of PHP in `IIS <http://www.iis.net/>`__ 7 "
+"or above is excellent. Check out the official website: http://php.iis.net."
+msgstr ""
+"良いニュースですが、`IIS <http://www.iis.net/>`__ "
+"7以降でのPHPのサポートは優れています。公式ウェブサイトをチェックしてください：http://php.iis.net。"
+
+#: ../../admin-manual/installation/windows.rst:54
+msgid ""
+"You can also use `Apache <https://httpd.apache.org/>`__ or `Nginx "
+"<http://nginx.com/>`__;  we have tried both and had success with Windows "
+"configurations."
+msgstr ""
+"また、`Apache <https://httpd.apache.org/>`__ や `Nginx <http://nginx.com/>`__ "
+"を使用することもできます。私たちは両方を試し、Windows環境での設定に成功しています。"
+
+#: ../../admin-manual/installation/windows.rst:58
+msgid ""
+"There is also the option of using `WampServer <http://www.wampserver.com/>`_"
+" or `XAMPP <http://www.apachefriends.org/>`_, two software stacks that "
+"provide you with all the packages that you need in order to run AtoM out of "
+"the box: MySQL, Apache and PHP. It's definitely a very good option for "
+"inexperienced users."
+msgstr ""
+"また、`WampServer <http://www.wampserver.com/>`_ または `XAMPP "
+"<http://www.apachefriends.org/>`_ "
+"を使用するという選択肢もあります。これらはソフトウェアスタックであり、AtoMを即座に実行するために必要なすべてのパッケージを提供します：MySQL、Apache、およびPHP。これは経験の浅いユーザーにとって確実に非常に良い選択肢です。"
+
+#: ../../admin-manual/installation/windows.rst:66
+msgid "Elasticsearch"
+msgstr "\"Elasticsearch\"は特定の製品名ですので、そのまま「Elasticsearch」と翻訳します。"
+
+#: ../../admin-manual/installation/windows.rst:68
+msgid ""
+"You can run Elasticsearch in Windows as long as you can install Java. "
+"`Download <http://www.elasticsearch.org/download/>`_ the latest version "
+"available and run :command:`bin/elasticsearch.bat` in the Windows Terminal."
+msgstr ""
+"WindowsでElasticsearchを実行するには、Javaをインストールできる必要があります。利用可能な最新バージョンを `こちら "
+"<http://www.elasticsearch.org/download/>`_ からダウンロードして、Windowsターミナルで "
+"`bin/elasticsearch.bat` コマンドを実行してください。"

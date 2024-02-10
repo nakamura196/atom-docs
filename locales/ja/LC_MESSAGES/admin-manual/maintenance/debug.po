@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/maintenance/debug.rst:5
+msgid "Debug mode"
+msgstr "デバッグモード"
+
+#: ../../admin-manual/maintenance/debug.rst:7
+msgid ""
+"By default, AtoM runs in \"production\" mode. Production mode suppresses the"
+" output of any PHP notices, warnings or error messages. Suppressing warnings"
+" is usually desirable to avoid displaying cryptic and alarming messages to "
+"users of the application, and for security reasons. However, in the case of "
+"a fatal PHP error, suppressing warnings can result in a blank white page "
+"being displayed in the client's browser. Suppressing warnings is also not "
+"desirable when trying to solve the problem causing the error."
+msgstr ""
+"デフォルトでは、AtoMは「本番」モードで実行されます。本番モードでは、PHPの通知、警告、またはエラーメッセージの出力が抑制されます。警告を抑制することは、アプリケーションのユーザーに暗号的で警告的なメッセージを表示することを避けるため、またセキュリティ上の理由から通常望ましいです。しかし、致命的なPHPエラーが発生した場合、警告を抑制すると、クライアントのブラウザに白い空白ページが表示されることになります。また、エラーの原因を解決しようとする時には、警告を抑制することも望ましくありません。"
+
+#: ../../admin-manual/maintenance/debug.rst:15
+msgid ""
+"To diagnose AtoM application errors it is usually useful to run in Debug "
+"mode (a.k.a. \"Development mode\"). Debug mode will display PHP error "
+"messages (though the types of messages displayed is subject to your PHP "
+"error reporting configuration setting), as well as displaying a debug "
+"toolbar."
+msgstr ""
+"AtoMアプリケーションのエラーを診断する際には、通常、「デバッグモード（別名「開発モード」）」で実行することが有効です。デバッグモードを使用すると、PHPのエラーメッセージが表示されます（ただし、表示されるメッセージの種類はPHPのエラーレポーティング設定に依存します）。また、デバッグツールバーも表示されます。"
+
+#: ../../admin-manual/maintenance/debug.rst:20
+msgid "There are two methods for enabling Debug mode for AtoM."
+msgstr "AtoMでデバッグモードを有効にする方法は2つあります。"
+
+#: ../../admin-manual/maintenance/debug.rst:23
+msgid "Using qubit_dev.php"
+msgstr "「qubit_dev.phpの使用」"
+
+#: ../../admin-manual/maintenance/debug.rst:25
+msgid ""
+"Using the \"qubit_dev.php\" `front controller "
+"<http://en.wikipedia.org/wiki/Front_Controller_pattern>`_ for AtoM is the "
+"simplest way see debugging information, as it only involves a simple change "
+"to the web address (URL) used to access the application. For instance:"
+msgstr ""
+"AtoMでデバッグ情報を見る最も簡単な方法は、「qubit_dev.php」 "
+"`フロントコントローラ<http://en.wikipedia.org/wiki/Front_Controller_pattern>`_を使用することで、これはアプリケーションにアクセスするために使われるウェブアドレス（URL）を簡単に変更するだけです。たとえば："
+
+#: ../../admin-manual/maintenance/debug.rst:35
+msgid "becomes"
+msgstr "なる"
+
+#: ../../admin-manual/maintenance/debug.rst:44
+msgid ""
+"Access to \"qubit_dev.php\" is limited to the server (localhost) IP address "
+"by default. This means that to access the 'qubit_dev.php' page you must be "
+"running a web-browser on the actual server that is hosting the AtoM "
+"application. If this is not the case you will see an error message:"
+msgstr ""
+"デフォルトでは、「qubit_dev.php」へのアクセスはサーバー（ローカルホスト）のIPアドレスに限定されています。つまり、'qubit_dev.php'"
+" "
+"ページにアクセスするには、AtoMアプリケーションをホスティングしている実際のサーバー上でウェブブラウザを実行している必要があります。そうでない場合、エラーメッセージが表示されます："
+
+#: ../../admin-manual/maintenance/debug.rst:49
+msgid ""
+"**You are not allowed to access this file. Check qubit_dev.php for more "
+"information.**"
+msgstr "このファイルにはアクセスできません。詳細についてはqubit_dev.phpを確認してください。"
+
+#: ../../admin-manual/maintenance/debug.rst:52
+msgid ""
+"A :term:`developer` can edit the PHP configuration file (frequently located "
+"at ``/etc/php/7.4/fpm/pool.d/atom.conf``) to add further IP addresses to the"
+" ``ATOM_DEBUG_IP`` variable - this is called by ``qubit_dev.php`` and "
+"checked for allowed IP addresses. Doing so will allow you to access Debug "
+"mode from a different IP address than that of the server."
+msgstr ""
+"開発者はPHP設定ファイル（しばしば``/etc/php/7.4/fpm/pool.d/atom.conf``に位置しています）を編集して、``ATOM_DEBUG_IP``変数にさらなるIPアドレスを追加することができます。これは``qubit_dev.php``によって呼ばれ、許可されたIPアドレスについてチェックされます。そうすることで、サーバのIPアドレスとは異なるIPアドレスからデバッグモードにアクセスすることが可能になります。"
+
+#: ../../admin-manual/maintenance/debug.rst:-1
+msgid "an image of the ATOM_DEBUG_IP variable in the php configuration file"
+msgstr "PHP設定ファイルのATOM_DEBUG_IP変数の画像"
+
+#: ../../admin-manual/maintenance/debug.rst:63
+msgid ""
+"After making changes to the ``ATOM_DEBUG_IP`` variable in ``atom.conf``, you"
+" will need to restart PHP-FPM. See:"
+msgstr ""
+"``atom.conf`` ファイルの中で ``ATOM_DEBUG_IP`` 変数を変更した後には、PHP-"
+"FPMを再起動する必要があります。以下を参照してください："
+
+#: ../../admin-manual/maintenance/debug.rst:66
+msgid ":ref:`troubleshooting-restart-php-fpm`"
+msgstr ":ref:`トラブルシューティング-PHP-FPMの再起動`"
+
+#: ../../admin-manual/maintenance/debug.rst:69
+msgid "Editing the index.php file"
+msgstr "index.phpファイルの編集"
+
+#: ../../admin-manual/maintenance/debug.rst:71
+msgid ""
+"The standard front controller for AtoM is the index.php file, which by "
+"default is configured to suppress debugging messages. If you are running "
+"AtoM on a remote server (i.e. not your workstation) accessing the "
+"'qubit_dev.php' front-controller may not be possible, and editing the "
+"index.php controller to display debugging messages is another option."
+msgstr ""
+"AtoMの標準フロントコントローラはindex.phpファイルで、デフォルトではデバッグメッセージの表示を抑制するように設定されています。AtoMをリモートサーバー上で実行している場合（すなわち、あなたのワークステーションではない場合）には、'qubit_dev.php'フロントコントローラへのアクセスができないことがあります。その場合、デバッグメッセージを表示するためにindex.phpコントローラを編集するという他の選択肢があります。"
+
+#: ../../admin-manual/maintenance/debug.rst:77
+msgid ""
+"Editing the index.php page requires using a text editor to modify the file "
+"on the server. If you do not have access to your web server, or are not "
+"comfortable editing files, please contact your system administrator."
+msgstr ""
+"index.php "
+"ページを編集するには、テキストエディタを使用してサーバー上のファイルを修正する必要があります。もしウェブサーバーにアクセスできない場合や、ファイルの編集に自信がない場合は、システム管理者に連絡してください。"
+
+#: ../../admin-manual/maintenance/debug.rst:81
+msgid "Open the index.php file in your text editor of choice"
+msgstr "お好みのテキストエディタでindex.phpファイルを開いてください。"
+
+#: ../../admin-manual/maintenance/debug.rst:83
+msgid "Find the following line:"
+msgstr "以下の行を探します。"
+
+#: ../../admin-manual/maintenance/debug.rst:90
+msgid "Update the \"false\" flag to \"true\""
+msgstr "「false」フラグを「true」に更新してください。"
+
+#: ../../admin-manual/maintenance/debug.rst:97
+msgid "Save the index.php file"
+msgstr "index.phpファイルを保存してください。"
+
+#: ../../admin-manual/maintenance/debug.rst:99
+msgid "Reload AtoM in your web browser"
+msgstr "ウェブブラウザでAtoMを再読込してください。"
+
+#: ../../admin-manual/maintenance/debug.rst:103
+msgid ""
+"After recording any error messages, make sure to reverse the above steps to "
+"suppress error message display again. Displaying these error messages is a "
+"security concern because it can display information about your server "
+"configuration to the public."
+msgstr ""
+"エラーメッセージを記録した後、上記の手順を逆にたどり、再びエラーメッセージの表示を抑制するようにしてください。これらのエラーメッセージを表示することは、サーバーの設定情報が公開される可能性があるため、セキュリティ上の懸念事項です。"
+
+#: ../../admin-manual/maintenance/debug.rst:108
+msgid ":ref:`Back to the top <debug-mode>`."
+msgstr ":ref:`トップに戻る <debug-mode>`。"

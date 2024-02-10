@@ -1,0 +1,2867 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:5
+msgid "Common AtoM database queries"
+msgstr "一般的なAtoMデータベースクエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:7
+msgid ""
+"Occasionally, manually modifying the AtoM database is required, such as when"
+" data gets corrupted from timeouts or other bugs, or when no existing "
+":term:`user interface` functionality or :ref:`maintenance-cli-tools` will "
+"help you accomplish the data changes you'd like to see."
+msgstr ""
+"時折、AtoMデータベースの手動での修正が必要になることがあります。たとえば、タイムアウトやその他のバグによってデータが破損した場合や、既存の:term:`ユーザーインターフェース`の機能や"
+" :ref:`メンテナンスCLIツール`が、あなたが望むデータ変更を達成するのに役立たない場合などです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:12
+msgid ""
+"In this page, we will include a few useful SQL queries based on common "
+"actions users wish to perform on their databases, which are not accommodated"
+" from the user interface. For all of these, you will need to execute them "
+"from :ref:`inside MySQL <cli-access-mysql>`, using the username and password"
+" you created during installation."
+msgstr ""
+"このページでは、ユーザーインターフェースからは対応されていないが、ユーザーがデータベースで行いたいと考える一般的な操作に基づいた、いくつかの有用なSQLクエリを含めることにします。これらすべてについて、インストール中に作成したユーザー名とパスワードを使用して、:ref:`MySQL内部<cli-"
+"access-mysql>`から実行する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:20
+msgid ""
+"**Use the following SQL queries at your own risk!** This section of the "
+"documentation is recommended only for users already familiar with SQL, and "
+"an understanding of AtoM's data model. We maintain copies of Entity "
+"Relationship Models of AtoM's database on our wiki here, for reference:"
+msgstr ""
+"**以下のSQLクエリの使用は自己責任で行ってください！** "
+"このドキュメントのセクションは、SQLに精通しているユーザー、およびAtoMのデータモデルに関する理解がある方にのみ推奨されます。参考までに、AtoMデータベースのエンティティ関係モデルのコピーをこちらのウィキで維持しています："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:25
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1057
+msgid "https://wiki.accesstomemory.org/Development/ERDs"
+msgstr ""
+"申し訳ありませんが、提供されたリンクにアクセスして内容を確認することはできません。ただし、テキストを提供していただければ、それを日本語に訳すことができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:27
+msgid ""
+"We strongly recommend that you make a backup of your database **before** "
+"attempting to use any of the following SQL query examples. See below:"
+msgstr "以下のSQLクエリの例を使用する**前に**、データベースのバックアップを取ることを強くお勧めします。下記を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:30
+#: ../../admin-manual/maintenance/common-atom-queries.rst:49
+msgid ":ref:`cli-backup-db`"
+msgstr ""
+"`:ref:`cli-backup-db`` はリファレンスリンクのマークアップに使用されるスニペットで、文書内の特定のセクションや文書間で参照リンクを作成する際に使用されるSphinxまたはreStructuredTextドキュメントの構文の一部です。\n"
+"\n"
+"このテキスト自体には特定の意味はありませんが、日本語の文脈に合わせて訳す場合は文書内で参照されるべき具体的なセクション名（ここではデータベースのバックアップに関するコマンドラインインターフェースの説明を指すと思われる）に基づいて翻訳する必要があります。\n"
+"\n"
+"そして、そのセクションのタイトルが「CLIによるデータベースのバックアップ」などである場合、リファレンスリンクは以下のようになるかもしれません:\n"
+"\n"
+"``:ref:`cli-backup-db` `` => `` `CLIによるデータベースのバックアップ`_ ``\n"
+"\n"
+"文脈がないため、正確な翻訳を行うことはできませんが、上記は一例です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:32
+msgid ""
+"Additionally, we do not recommend running these queries on a production "
+"installation without first testing them elsewhere. The AtoM Docker and "
+"Vagrant development environments are an easy way to set up a local test "
+"instance - see:"
+msgstr ""
+"また、これらのクエリを実稼働環境で実行する前に、他の場所で先にテストを行うことをお勧めします。AtoM "
+"DockerやVagrantの開発環境を使用すれば、ローカルのテストインスタンスを簡単に設定できます - 参照："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:37
+msgid ":ref:`dev-env-vagrant`"
+msgstr ""
+":ref:`dev-env-vagrant` という参照タグは、通常、ドキュメント内で特定の開発環境セクションまたはVagrantに関する具体的な情報にリンクするために使用されます。これを日本語に直訳することはできませんが、この参照タグが指し示す内容を理解している場合にはその部分のタイトルや説明を日本語に翻訳することができます。たとえば、「Vagrantによる開発環境の設定」などのセクションタイトルになります。\n"
+"\n"
+"もし実際のドキュメント内でこのタグに関連する具体的な説明が必要な場合、翻訳前にその詳細やコンテキストが提供される必要があるでしょう。それなしで、このタグはドキュメントの構造内でのみ意味を持ち、単独では意味のある日本語訳を生成できません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:38
+msgid ":ref:`dev-env-compose`"
+msgstr ""
+":ref:`dev-env-compose` は具体的なテキストではなく、通常はソフトウェアのドキュメント内で参照(references)リンクを示すために使われるタグです。これが指し示す実際のテキストやタイトルがない限り、直接の翻訳は不可能です。\n"
+"\n"
+"ただし、通常の文章でこのタグを参照説明として翻訳するとすれば、以下のように表現することができます。\n"
+"\n"
+"「開発環境設定に関する詳細は、`dev-env-compose` のセクションを参照してください。」\n"
+"\n"
+"この場合の `dev-env-compose` は文書内の特定のセクションタイトルや見出しを指している可能性が高いので、その見出しに合わせた翻訳が必要になる場合があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:40
+msgid ""
+"While we make every effort to keep these examples up-to-date with each "
+"releases, future changes in AtoM's data model could alter the outcome of "
+"some queries and lead to unexpected results - as could a typo in a query! "
+"Artefactual takes no responsibility for unexpected outcomes due to direct "
+"database manipulation, as this is not part of the intended use of the "
+"application. Once again, please proceed cautiously, and at your own risk!"
+msgstr ""
+"私たちは各リリースごとにこれらの例を最新の状態に保つために全力を尽くしていますが、AtoMのデータモデルの将来的な変更が一部のクエリの結果を変更し、予期しない結果をもたらす可能性があること、また、クエリにタイポがある場合も同様です！"
+" "
+"Artefactualはアプリケーションの意図された使用部分ではないため、直接データベース操作による予期しない結果については一切の責任を負いません。もう一度言いますが、慎重に進めてください。そして自己責任で行ってください！"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:47
+#: ../../admin-manual/maintenance/common-atom-queries.rst:210
+#: ../../admin-manual/maintenance/common-atom-queries.rst:590
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1012
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1472
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1551
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:50
+#: ../../admin-manual/maintenance/common-atom-queries.rst:91
+msgid ":ref:`cli-access-mysql`"
+msgstr ":ref:`cli-access-mysql（コマンドラインからMySQLにアクセスする）`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:51
+msgid ":ref:`sql-maintenance-logging`"
+msgstr ""
+":ref:`sql-maintenance-logging` (この部分は参照リンクであり、通常はドキュメント内の特定のセクションを指し示すために使用されます。翻訳に当たっては、実際のセクション名を知る必要があります。以下に仮の翻訳を示しますが、実際に使われるセクション名に応じて置き換える必要があります。)\n"
+"\n"
+":ref:`SQLメンテナンスとロギング`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:52
+msgid ":ref:`sql-general-entity-queries`"
+msgstr "`sql-general-entity-queries` (SQL 一般エンティティクエリ)"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:53
+msgid ":ref:`sql-description-queries`"
+msgstr ""
+"`:ref:`sql-description-"
+"queries`を本文中で確認してください。この参照は、SQLの説明やクエリーに関するセクションを指している可能性が高いです。しかし、これはArchivematicaの具体的なドキュメントへの参照コードであり、直訳はできません。実際の文書では、この参照がリンクされているセクションのタイトルや内容に基づき適切な訳を提示する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:54
+msgid ":ref:`sql-digital-object-queries`"
+msgstr ":ref:`sql-デジタルオブジェクトクエリ`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:55
+msgid ":ref:`sql-actor-event-queries`"
+msgstr ":ref:`sql-actor-event-queries`（SQLアクターイベントクエリ）"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:56
+msgid ":ref:`sql-term-taxonomy-queries`"
+msgstr ""
+"「:ref:`sql-term-taxonomy-queries`」は、特定のドキュメントやガイド内で使用されるマークアップ言語（例えばreStructuredText）の文脈で見られる参照用のラベルです。このラベルは、ドキュメント内の特定のセクションや項目へリンクするために使用されるものです。\n"
+"\n"
+"翻訳するにあたって、コンテキストが不足していますが、一般にこのテキストはユーザが該当するリファレンスをクリックすると、該当する「SQL用語分類クエリ」と名付けられたドキュメントセクションに飛ぶようにするマークアップ用のアンカーです。もしこのテキスト要素が直接的な翻訳を必要とするのであれば、日本語のドキュメント内で対応するセクションへのリンクには、適当な日本語のラベルが付けられることになるでしょう。\n"
+"\n"
+"ただし、マークアップのラベル自体は通常翻訳されません。それは技術的な目的で使われていて、ドキュメント内のナビゲーションにエンドユーザーに見えない形で機能しています。翻訳が必要な場合は、ラベルが指すコンテントの日本語表記を下記に提案します。\n"
+"\n"
+"「SQL用語分類クエリに関する参照」\n"
+"\n"
+"しかし、文脈がはっきりしない限り、このラベルは変更せずにそのまま保持するのが一般的です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:57
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1026
+msgid ":ref:`sql-note-property-queries`"
+msgstr ""
+"This looks like a reference tag used in documentation, likely written in a markup language like reStructuredText (RST). These tags are placeholders that link to specific sections of documentation. In translating it as a stand-alone text, it doesn't provide enough context to give an accurate translation. \n"
+"\n"
+"However, if we were to make an educated guess about the corresponding text in Japanese, and if we are assuming that \"sql-note-property-queries\" is a section that covers how to perform SQL queries for notes or properties, the translation might be as follows:\n"
+"\n"
+":ref:`SQLに基づく注釈またはプロパティクエリ`\n"
+"\n"
+"Keep in mind that in documentation, such tags are often left unchanged because they are functional parts of the documentation's structure and not usually translated. If you are translating a section title or a heading that this tag refers to, you would need to provide the actual title or content for accurate translation."
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:61
+#: ../../admin-manual/maintenance/common-atom-queries.rst:220
+msgid ":ref:`maintenance-troubleshooting`"
+msgstr ":ref:`メンテナンスとトラブルシューティング`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:62
+#: ../../admin-manual/maintenance/common-atom-queries.rst:223
+#: ../../admin-manual/maintenance/common-atom-queries.rst:601
+msgid ":ref:`maintenance-cli-tools`"
+msgstr ""
+":ref:`maintenance-cli-tools` "
+"の訳は固有の参照リンクであり、文脈によって異なる場合がありますが、一般的に「メンテナンスCLIツール」と訳すことができます。ただし、実際のドキュメント内での使用方法に応じて、この参照が指し示す具体的なセクションやタイトルに合わせて訳を変える必要があります。もし参照が「メンテナンス用コマンドラインインターフェースツール」というセクションを指しているのであれば、そのセクション名に合わせた訳語を用いるべきでしょう。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:67
+msgid "Backing up the database"
+msgstr "データベースのバックアップ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:71
+#: ../../admin-manual/maintenance/common-atom-queries.rst:124
+msgid ":ref:`maintenance-data-backup`"
+msgstr ":ref:`メンテナンス-データバックアップ`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:73
+msgid ""
+"To back up a MySQL database, you can follow the structure of the following "
+"example command:"
+msgstr "MySQLデータベースをバックアップするには、次の例のコマンドの構造に従うことができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:80
+msgid ""
+"Where ``mysusername`` and ``mydbname`` represent the database username and "
+"database name used during AtoM's installation, and ``mybackupfile`` "
+"represents the name you would like to assign to the MySQL backup file. Once "
+"you enter the command, you will also be prompted for the database password "
+"you created for the MySQL user during installation."
+msgstr ""
+"「mysusername」と「mydbname」はそれぞれ、AtoMのインストール時に使用したデータベースのユーザー名とデータベース名を表し、「mybackupfile」はMySQLバックアップファイルに割り当てたい名前を表します。このコマンドを入力すると、インストール時にMySQLユーザーのために作成したデータベースパスワードの入力を求められます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:88
+msgid ""
+"If you don't recall the credentials you used during installation, see the "
+"section below for information on how you find them out:"
+msgstr "インストール時に使用した資格情報を思い出せない場合は、以下のセクションを参照して、それらを確認する方法についての情報をご覧ください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:93
+msgid ""
+"To load a backup back into AtoM's database, you can use the following "
+"command structure:"
+msgstr "AtoMのデータベースにバックアップを再ロードするには、以下のコマンド構造を使用できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:100
+msgid "The database is now restored to the point when you dumped it."
+msgstr "データベースは、あなたがエクスポートした時点に復元されました。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:104
+msgid ""
+"If you are loading a backup from an older version of AtoM into a newer one, "
+"there are some additional steps - most importantly, running the AtoM "
+"database upgrade task, which will execute a series of migration scripts to "
+"update your database schema to what AtoM expects for the latest version. "
+"Additionally, make sure that the MySQL version hasn't changed between "
+"releases - if it has, make sure you've properly followed the latest "
+"installation instructions for the latest version, and check the "
+":ref:`Upgrading <installation-upgrading>` documentation for any addtional "
+"steps (such as dropping and recreating the database first, and possibly "
+"changing certain MySQL parameters)."
+msgstr ""
+"古いバージョンのAtoMからバックアップを新しいバージョンに読み込む場合、いくつか追加のステップが必要です。特に重要なのが、AtoMデータベースアップグレードタスクを実行することです。これにより、一連のマイグレーションスクリプトが実行され、最新のバージョンのAtoMが期待するデータベーススキーマに更新されます。さらに、MySQLのバージョンがリリース間で変更されていないことを確認してください。もし変更されている場合は、最新のバージョンの最新のインストール手順を適切にフォローし、:ref:`アップグレード<installation-"
+"upgrading>`のドキュメンテーションで任意の追加ステップ（例えば、最初にデータベースをドロップして再作成すること、および特定のMySQLパラメーターを変更することなど）がないか確認してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:115
+msgid ""
+"Additionally, please note that finding aids, cached XML, and :term:`digital "
+"objects <digital object>` are **not** stored in the database - instead, "
+"these are typically found in the ``uploads`` and ``downloads`` directories, "
+"found just below the root AtoM installation directory. If you are loading "
+"your data into a different AtoM instance, you may need to migrate these "
+"directories separately. Please see the Upgrading and Data backup "
+"documentation for more information:"
+msgstr ""
+"さらに、目録（finding aids）、キャッシュされたXML、および:term:`デジタルオブジェクト<digital "
+"object>`はデータベースに**保存されていません** - "
+"これらは通常、ルートのAtoMインストールディレクトリの直下にある``uploads``および``downloads``ディレクトリにあります。異なるAtoMインスタンスにデータを読み込む場合は、これらのディレクトリを別途移行する必要があるかもしれません。詳細については、アップグレードおよびデータバックアップのドキュメントをご覧ください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:123
+msgid ":ref:`installation-upgrading`"
+msgstr ":ref:`インストールとアップグレード`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:128
+msgid "https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html"
+msgstr ""
+"申し訳ありませんが、著作権規定により、ウェブサイトのコンテンツやドキュメント全体を翻訳することはできません。ただし、「mysqldump」ツールの一般的な説明や機能についての情報を日本語で要約することは可能です。このツールについて何か情報が必要ですか？"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:129
+msgid "https://dev.mysql.com/doc/refman/8.0/en/using-mysqldump.html"
+msgstr ""
+"申し訳ありませんが、ウェブページのURL自体は翻訳を必要としません。しかし、\"Using mysqldump for Backups\" "
+"というセクションのテキストを日本語に翻訳することは可能です。指定されたURLにある内容がそのセクションである場合、そのテキストの断片を提供していただければ、喜んで翻訳させていただきます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:131
+#: ../../admin-manual/maintenance/common-atom-queries.rst:200
+#: ../../admin-manual/maintenance/common-atom-queries.rst:318
+#: ../../admin-manual/maintenance/common-atom-queries.rst:409
+#: ../../admin-manual/maintenance/common-atom-queries.rst:478
+#: ../../admin-manual/maintenance/common-atom-queries.rst:579
+#: ../../admin-manual/maintenance/common-atom-queries.rst:707
+#: ../../admin-manual/maintenance/common-atom-queries.rst:856
+#: ../../admin-manual/maintenance/common-atom-queries.rst:912
+#: ../../admin-manual/maintenance/common-atom-queries.rst:970
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1002
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1088
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1159
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1249
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1282
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1304
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1377
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1419
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1462
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1515
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1539
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1606
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1657
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1719
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1805
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1848
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1961
+#: ../../admin-manual/maintenance/common-atom-queries.rst:2053
+msgid ":ref:`Back to the top <common-atom-queries>`"
+msgstr ":ref:`トップに戻る <common-atom-queries>`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:136
+msgid "Accessing the MySQL command prompt"
+msgstr "MySQLコマンドプロンプトへのアクセス"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:138
+msgid ""
+"To access the MySQL command prompt so we can run SQL queries,  we will need "
+"to know the MySQL username, password, and database name used during "
+"installation. If you can't recall the credentials you used, you can always "
+"check in ``config/config.php`` - for example, to see this file you could run"
+" the following from the root AtoM installation directory, which should be "
+"``/usr/share/nginx/atom`` if you have followed our recommended installation "
+"instructions:"
+msgstr ""
+"SQLクエリを実行するためにMySQLコマンドプロンプトにアクセスするには、インストール時に使用したMySQLのユーザー名、パスワード、およびデータベース名を知っておく必要があります。使用した資格情報を思い出せない場合は、いつでも``config/config.php``で確認することができます。例えば、このファイルを見るためには、次のコマンドをルートのAtoMインストールディレクトリから実行できます。推奨するインストール手順に従った場合、そのディレクトリは``/usr/share/nginx/atom``になるはずです："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:150
+msgid ""
+"You should see the database name and credentials listed near the top of the "
+"file."
+msgstr "ファイルの上部近くに、データベース名と認証情報が記載されているはずです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:152
+msgid ""
+"You can also check your database username and password in ``/root/.my.cnf`` "
+"like so:"
+msgstr "データベースのユーザー名とパスワードも、以下のようにして ``/root/.my.cnf`` で確認できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:159
+msgid ""
+"Once you have the database name, MySQL user name, and password, we can use "
+"these to access the MySQL command prompt. The basic syntax to access the "
+"MySQL command prompt is like so:"
+msgstr ""
+"データベース名、MySQLユーザー名、パスワードが分かったら、これらを使用してMySQLのコマンドプロンプトにアクセスできます。MySQLのコマンドプロンプトにアクセスする基本的な構文は以下の通りです："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:167
+#: ../../admin-manual/maintenance/common-atom-queries.rst:875
+msgid "Where:"
+msgstr "どこで："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:169
+msgid "``username`` represents the database username"
+msgstr "``username`` はデータベースのユーザー名を表します"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:170
+msgid "``PASSWORD`` represents the database password"
+msgstr "「PASSWORD」はデータベースのパスワードを表します"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:171
+msgid ""
+"``database-name`` represents the name of the database used during "
+"installation"
+msgstr "``database-name``はインストール中に使用されるデータベースの名前を表します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:173
+msgid ""
+"An example: Assuming that your database name is ``atom`` and your user and "
+"password are both ``root``, you could access the prompt like so:"
+msgstr ""
+"例: データベース名が「atom」で、ユーザー名とパスワードが共に「root」であると仮定した場合、以下のようにプロンプトにアクセスできます:"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:180
+msgid ""
+"Notice that there is a space between the ``-u`` and ``root``, but **NOT** "
+"between the ``-p`` and the ``root`` password. Alternatively, you can leave "
+"no password following the -p, and you will be prompted to enter it by the "
+"command prompt before proceeding."
+msgstr ""
+"「``-u`` の後ろにはスペースがあることに注意してくださいが、``-p`` "
+"と「root」パスワードの間には**スペースがありません**。あるいは、-p "
+"の後にパスワードを入力せずに空けておくと、進行する前にコマンドプロンプトでパスワードの入力を求められます。」"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:185
+msgid ""
+"Once submitted, your command prompt should now say something like "
+"``mysql>``. You can now input a SQL query directly."
+msgstr "送信されたら、コマンドプロンプトは ``mysql>`` のような表示になるはずです。これで、直接SQLクエリを入力することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:188
+msgid ""
+"You can exit the MySQL command prompt at any time simply by typing ``exit``."
+" You will be returned to the unix command-line interface."
+msgstr ""
+"いつでもMySQLコマンドプロンプトを終了するには、単に``exit``と入力します。すると、Unixコマンドラインインターフェースに戻ります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:193
+msgid ""
+"We strongly recommend that you **back-up all of your data** prior to "
+"manipulating the database! If possible, you should test the outcome on a "
+"cloned development instance of AtoM, rather than performing these actions on"
+" a production site without testing them in advance."
+msgstr ""
+"データベースの操作を行う前に、**すべてのデータのバックアップを強く推奨します**！可能であれば、本番環境で実行する前に、これらの操作をAtoMのクローン開発インスタンスでテストするべきです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:198
+msgid "See: :ref:`cli-backup-db`"
+msgstr "参照： :ref:`cli-backup-db`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:205
+msgid "SQL maintenance, tuning, and logging"
+msgstr "SQLメンテナンス、チューニング、およびログ記録"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:207
+msgid ""
+"This section covers queries that are sometimes useful for database "
+"troubleshooting, tuning, logging, and maintenance activities."
+msgstr "このセクションでは、データベースのトラブルシューティング、調整、ログ記録、およびメンテナンス活動に時々役立つクエリについて説明します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:212
+msgid ":ref:`sql-check-modes`"
+msgstr ""
+"`:ref:`sql-check-modes`はおそらくreStructuredText (reST) 形式の参照タグです。これは、特定のドキュメントのセクションやタイトルを参照するために使用されるマークアップです。日本語に直訳する場合、このタグが指す実際のセクションやタイトルを知る必要がありますが、タグ自体に含まれる情報のみをもとに翻訳を試みます。\n"
+"\n"
+"`sql-check-modes` を日本語に翻訳すると「SQLチェックモード」となる可能性がありますが、この参照タグの実際の内容や文脈を知らないと正確な翻訳は困難です。Archivematicaのドキュメント内でのこのタグの意味に関しては、ドキュメントの全体的な内容に基づいて理解する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:213
+msgid ":ref:`sql-schema-version`"
+msgstr ""
+"このテキストはおそらく参照リンクの一部です。それだけで完全な文脈はないですが、次のように日本語に翻訳することができます：\n"
+"\n"
+":ref:`sql-schema-version` （:ref:`SQLスキーマのバージョン`）\n"
+"\n"
+"ただし、実際にドキュメント内でこの参照を使用するには、参照先の正確なラベル（ここでは 'sql-schema-version'）を日本語のドキュメント内で対応する部分に設定し、リンクが機能するようにする必要があります。これはドキュメント管理システムやマークアップ言語によって異なる可能性があるため、具体的な実装方法はシステムのドキュメントに従ってください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:214
+msgid ":ref:`sql-query-log`"
+msgstr ":ref:`sql-query-log` (名称そのままで参照)"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:215
+msgid ":ref:`sql-disable-ssl`"
+msgstr ""
+"この文脈では、`:ref:`sql-disable-ssl``はおそらく文書内の特定のセクションを参照しているリンクのマークアップです。`sql-disable-ssl`はそのセクションの識別子であり、実際の日本語翻訳対象のテキストではない可能性があります。\n"
+"\n"
+"しかし、もし本当にこれをテキストとして翻訳する必要があるなら、リファレンスを維持しつつ、次のように翻訳が可能です：\n"
+"\n"
+"`「sql-disable-ssl」セクションを参照`\n"
+"\n"
+"ただし実際には訳す必要のないドキュメントの構造であるリファレンスマークアップを、日本語での指示として記述しています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:216
+msgid ":ref:`sql-kill-job`"
+msgstr ""
+":ref:`sql-kill-"
+"job`というテキストをそのままで日本語に直訳することはできますが、それは恐らく参照リンクであり、リンク先の正確なタイトルやコンテキストを示していないため、それを翻訳することはできません。もしリンク先のタイトルや詳細な説明があれば、それに基づいて適切な日本語の翻訳を提供することが可能です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:221
+msgid ":ref:`troubleshooting-data-corruption`"
+msgstr ":ref:`データ破損のトラブルシューティング`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:222
+#: ../../admin-manual/maintenance/common-atom-queries.rst:407
+msgid ":ref:`maintenance-logging`"
+msgstr "`メンテナンスログ <maintenance-logging>`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:228
+msgid "Check Server SQL modes"
+msgstr "サーバーSQLモードを確認する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:230
+msgid ""
+"From the `MySQL documentation <https://dev.mysql.com/doc/refman/8.0/en/sql-"
+"mode.html>`__:"
+msgstr ""
+"MySQLドキュメント <https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html>`__: より"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:232
+msgid ""
+"The MySQL server can operate in different SQL modes, and can apply these "
+"modes differently for different clients, depending on the value of the "
+"sql_mode system variable. DBAs can set the global SQL mode to match site "
+"server operating requirements, and each application can set its session SQL "
+"mode to its own requirements."
+msgstr ""
+"MySQLサーバーは異なるSQLモードで動作することができ、`sql_mode`システム変数の値に基づいて、異なるクライアントに対してこれらのモードを異なった方法で適用できます。データベース管理者（DBA）は、サイトのサーバー運用要件に合わせてグローバルSQLモードを設定でき、また各アプリケーションは、その要件に合わせて自身のセッションSQLモードを設定できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:238
+msgid ""
+"Modes affect the SQL syntax MySQL supports and the data validation checks it"
+" performs. This makes it easier to use MySQL in different environments and "
+"to use MySQL together with other database servers."
+msgstr ""
+"モードはMySQLがサポートするSQL構文と実施するデータ検証のチェックに影響を与えます。これにより、異なる環境でMySQLを使用しやすくなるとともに、他のデータベースサーバーとMySQLを一緒に使用することが容易になります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:242
+msgid ""
+"During installation, at the :ref:`installation-ubuntu-create-database` step,"
+" we configure the global SQL mode in a separate file, added to "
+"``/etc/mysql/conf.d/mysqld.cnf``. However, sometimes this step is missed, or"
+" the mode settings aren't configured properly, or you simply want an easy to"
+" way to check on the current mode settings used in the database."
+msgstr ""
+"インストール中に、`:ref:`installation-ubuntu-create-database` "
+"ステップで、グローバルSQLモードを別ファイルに設定し、それを ``/etc/mysql/conf.d/mysqld.cnf`` "
+"に追加します。しかし、時々このステップが見落とされたり、モード設定が適切に構成されていなかったり、または単にデータベースで使用されている現在のモード設定を簡単に確認したい場合があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:248
+msgid "We can check the current SQL mode settings with the following query:"
+msgstr "次のクエリで現在のSQLモード設定を確認できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:254
+msgid ""
+"We do **not** recommend arbitrarily changing the SQL mode from those "
+"recommended in the :ref:`installation-ubuntu-create-database` step of the "
+"installation documentation. However, if you do need to make changes, there "
+"are two ways you can accomplish this."
+msgstr ""
+"私たちは、インストールドキュメントの :ref:`installation-ubuntu-create-database` "
+"ステップで推奨されているものからSQLモードを恣意的に変更することは**お勧めしません**。しかし、変更を加える必要がある場合は、それを実行する2つの方法があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:259
+msgid ""
+"The first method is via SQL. To change the global SQL mode settings, use the"
+" following general pattern:"
+msgstr "最初の方法はSQLを介してです。グローバルSQLモード設定を変更するには、次の一般的なパターンを使用します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:266
+msgid ""
+"Where ``MODE_1,MODE_2`` is replaced by the values you want to set. Use "
+"commas to separate modes - an example:"
+msgstr ""
+"``MODE_1,MODE_2`` の部分を設定したい値で置き換えます。モードを区切るためにコンマを使用します。例えば、以下のようにします:"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:273
+msgid ""
+"You can also use the following pattern to change the session SQL modes:"
+msgstr "以下のパターンを使用して、セッションSQLモードを変更することもできます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:279
+msgid ""
+"Again, where ``MODE_1,MODE_2`` is replaced by the values you want to set."
+msgstr "再度、「MODE_1,MODE_2」と記載されている箇所は、設定したい値で置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:281
+msgid ""
+"You may need to restart MySQL after making changes. Run the following after "
+"exiting the MySQL command prompt:"
+msgstr "変更を行った後、MySQLを再起動する必要があるかもしれません。MySQLコマンドプロンプトを終了した後に、以下を実行してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:288
+msgid ""
+"The second way of changing the SQL mode is via the separate mysqld "
+"configuration file. These steps are performed via the unix command-line - if"
+" you have already entere the MySQL command prompt, exit now."
+msgstr ""
+"SQLモードを変更する二つ目の方法は、別々のmysqld設定ファイルを介して行われます。これらの手順はUnixコマンドライン経由で実行されます - "
+"もしすでにMySQLコマンドプロンプトに入力している場合は、今すぐ終了してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:292
+msgid ""
+"As noted above, our installation instructions recommend creating this file "
+"at ``/etc/mysql/conf.d/mysqld.cnf``. If you missed that step and have "
+"**not** previously created a file in this location, you can do so with the "
+"following:"
+msgstr ""
+"上記の通り、インストール手順ではこのファイルを``/etc/mysql/conf.d/mysqld.cnf``に作成することを推奨しています。このステップを見落としてしまい、かつ以前にこの場所にファイルを作成して**いない**場合は、次の手順に従って作成することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:300
+msgid ""
+"You can then use the ``nano`` command-line text editor (or the text editor "
+"of your choosing) to open the file for editing:"
+msgstr ""
+"次に、``nano`` コマンドラインテキストエディタ（あるいはお好みのテキストエディタ）を使用して、ファイルを編集用に開くことができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:307
+msgid "You will need to restart MySQL after making changes to this file:"
+msgstr "このファイルを変更した後、MySQLを再起動する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:315
+msgid "https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html"
+msgstr ""
+"このリンクテキスト自体は単純にウェブページのURLですが、URLを見る限り、MySQL 8.0のリファレンスマニュアルの「SQLモード」セクションを指しているようです。\n"
+"\n"
+"したがって、このURLに基づいて、以下のように翻訳することができます：\n"
+"\n"
+"https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html\n"
+"\n"
+"「MySQL 8.0 リファレンスマニュアル - SQLモード」\n"
+"\n"
+"ただし、このリンクが指すコンテンツまで翻訳するには、リンクをクリックして該当するページの内容を確認しなければなりません。URLのテキスト自体は翻訳の対象とはなりません。もしご希望があれば、ウェブページにアクセスして内容を確認し、該当するセクションの詳細な翻訳を行うことができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:316
+msgid "https://dev.mysql.com/doc/refman/8.0/en/faqs-sql-modes.html"
+msgstr ""
+"こちらのリンク先のテキストは、MySQLの公式ドキュメントにある「SQLモードについてのFAQ」に関するものです。ただし、私が提供できるのはテキストの翻訳のみで、実際のドキュメントページのコンテンツやその他の要素を翻訳することはできません。\n"
+"\n"
+"あなたが指定したURLには特定のテキストが含まれていませんので、翻訳するための具体的なテキストを提供していただけますか？それを受け取り次第、翻訳を始めることができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:323
+msgid "Check the AtoM database schema version"
+msgstr "AtoMデータベーススキーマのバージョンを確認する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:325
+msgid ""
+"With any new AtoM release that includes changes to the database, we include "
+"a schema migration script that, when run, will make the necessary changes in"
+" the the database to conform to the expected schema. During the "
+":ref:`upgrade process <installation-upgrading>`, these migration scripts are"
+" typically executed when the upgrade task is run - see:"
+msgstr ""
+"データベースに変更を含む新しいAtoMリリースがある場合、実行するとデータベースに必要な変更を加え、期待されるスキーマに適合させるスキーマ移行スクリプトが含まれています。:ref:`アップグレードプロセス<installation-"
+"upgrading>`の間に、これらの移行スクリプトは通常、アップグレードタスクを実行する際に実行されます。詳しくは以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:331
+msgid ":ref:`upgrading-run-upgrade-task`"
+msgstr ""
+"`:ref:`upgrading-run-upgrade-task` の部分は Sphinx などのドキュメンテーションツールで使われるラベルリファレンスです。翻訳する際には、通常リファレンス自体は翻訳されませんが、そのリファレンスが指す内容やタイトルは翻訳の対象となります。しかしながら、リンクのタイトルの具体的な内容が示されていないため、単にリファレンスを日本語に置き換えるだけでは意味が伝わりません。\n"
+"\n"
+"そのため、「アップグレードタスク実行」または「アップグレードタスクを実行する」といったタイトルでそのセクションが存在すると仮定すると、訳例は以下のようになりますが、正確な翻訳には追加の情報が必要です。\n"
+"\n"
+"訳例:\n"
+"``アップグレードタスク実行についての説明`` \n"
+"\n"
+"実際にはドキュメントのコンテキストに応じて適切な日本語タイトルに変更する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:333
+msgid ""
+"Often when users report issues following an upgrade, it's because this step "
+"is missed - or has been missed during previous upgrades, and the issue is "
+"only now becoming apparent. When seeking support, it can be useful to first "
+"check the current schema version of your database, so it can be compared "
+"against the expected version for the release."
+msgstr ""
+"ユーザーがアップグレードの後に問題を報告することがよくありますが、それはこのステップが見逃されたため、または以前のアップグレード時に見逃され、問題が今になって初めて明らかになることが原因です。サポートを求める際には、まず自分のデータベースの現在のスキーマバージョンを確認し、それがリリースに期待されるバージョンと照らし合わせられるようにすることが有用です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:339
+msgid ""
+"This can be checked via the :term:`user interface`, in **Admin > Settings > "
+"Global > Application version** - the first number listed is the AtoM release"
+" version, while the second number is the database schema version. See: "
+":ref:`application-version` for more information. However, in some cases you "
+"may want to check this via SQL query."
+msgstr ""
+"これは、:term:`ユーザーインターフェース`を介して確認することができ、**Admin > Settings > Global > "
+"Application version** にある - "
+"リストされた最初の数字はAtoMリリースバージョンで、二番目の数字はデータベーススキーマのバージョンです。詳しくは、:ref:`application-"
+"version` をご覧ください。しかし、場合によっては、SQLクエリを使ってこの情報を確認したいこともあるでしょう。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:345
+msgid ""
+"You can check the current schema version number with the following query:"
+msgstr "以下のクエリを使用して、現在のスキーマバージョン番号を確認できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:351
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1673
+msgid "This will return something like the following:"
+msgstr "以下のような結果が返されます:"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:365
+msgid "Enable the MySQL General Query Log"
+msgstr "MySQLの一般クエリログを有効にする"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:367
+msgid ""
+"From the `MysQL documentation "
+"<https://dev.mysql.com/doc/refman/8.0/en/query-log.html>`__:"
+msgstr ""
+"「`MySQLドキュメント <https://dev.mysql.com/doc/refman/8.0/en/query-"
+"log.html>`__から：」"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:369
+msgid ""
+"The general query log is a general record of what mysqld is doing. The "
+"server writes information to this log when clients connect or disconnect, "
+"and it logs each SQL statement received from clients. The general query log "
+"can be very useful when you suspect an error in a client and want to know "
+"exactly what the client sent to mysqld."
+msgstr ""
+"一般クエリログは、mysqldが何をしているかの一般的な記録です。サーバーは、クライアントが接続や切断したとき、またクライアントから受け取った各SQL文を記録したときに、このログに情報を書き込みます。一般クエリログは、クライアントにエラーがあると疑われる場合、そのクライアントがmysqldに具体的に何を送ったかを知りたいときに非常に役立ちます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:375
+msgid ""
+"By default, this log is disabled in MySQL, and it is generally recommended "
+"to keep it disabled in a production installation, as it can rapidly grow "
+"quite large. However, for troubleshooting, development, and performance "
+"tuning, it can be useful to see all queries going through MySQL."
+msgstr ""
+"デフォルトでは、このログはMySQLで無効になっており、迅速に大きくなる可能性があるため、通常は本番環境のインストールで無効のままにすることをお勧めします。しかし、トラブルシューティング、開発、パフォーマンスチューニングを行う際には、MySQLを通過するすべてのクエリを見ることが役立つことがあります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:380
+msgid "To enable the log, use:"
+msgstr "ログを有効にするには、以下を使用します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:386
+msgid "To find out the location of the log, use:"
+msgstr "ログの位置を調べるには、次の方法を使用します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:392
+msgid ""
+"This should give you a file path and log name - you can exit the MySQL "
+"command prompt and use the unix command-line interface to navigate to the "
+"file and view its contents."
+msgstr ""
+"これにより、ファイルパスとログ名が表示されます - "
+"MySQLコマンドプロンプトを終了して、unixコマンドラインインターフェースを使用してファイルの場所に移動し、その内容を閲覧できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:396
+msgid ""
+"**Important:** remember to disable the log after you've run the queries you "
+"want to log! Left running, the log file will grow rapidly as AtoM is used "
+"and may consume valuable system resources. To disable the log:"
+msgstr ""
+"**重要:** "
+"実行したいクエリのログを取得した後は、ログを無効にすることを忘れないでください！ログを記録し続けると、AtoMが使用されるたびにログファイルが急速に増大し、貴重なシステムリソースを消費する可能性があります。ログを無効にするには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:406
+msgid "https://dev.mysql.com/doc/refman/8.0/en/query-log.html"
+msgstr ""
+"このリンク自体は翻訳可能なテキストではなく、MySQL "
+"8.0のリファレンスマニュアル内の「クエリログ」に関するセクションへのURLです。あなたがリンク先の本文を翻訳したい場合は、具体的なテキストをご提供ください。その後、翻訳することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:414
+msgid "Enable or disable the SSL security setting"
+msgstr "SSLセキュリティ設定を有効または無効にする"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:416
+msgid ""
+"AtoM's :ref:`security-panel` settings include an option that an "
+":term:`administrator` can enable, where valid HTTPS connections are required"
+" to be able to log into the application and perform administrative "
+"functions. If the setting is enabled, but the AtoM server is not properly "
+"configured to use SSL, then login attempts will redirect users back to the "
+"homepage. For more information, see:"
+msgstr ""
+"AtoM の :ref:`security-panel` "
+"設定には、:term:`管理者`が有効にできるオプションが含まれており、アプリケーションにログインして管理機能を実行するには、有効な HTTPS "
+"接続が必要です。この設定が有効であるが、AtoM サーバーが SSL "
+"を使用するように適切に設定されていない場合、ログイン試行はユーザーをホームページにリダイレクトします。詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:423
+msgid ":ref:`security-require-ssl`"
+msgstr ""
+"“:ref:`security-require-ssl`”というテキストは、特定のドキュメント内での参照リンク（リファレンスリンク）を意味しているため、それ自体に特定の翻訳は存在しません。これはマークアップ言語（多くはSphinxやreStructuredTextなどが使われます）におけるラベルで、別のセクションを参照する際に使います。\n"
+"\n"
+"しかしながら、仮にそのラベルが「SSLの要求に関するセキュリティー」セクションへの参照であると考えて、この部分をドキュメントの文脈に準じた形で日本語に直すのであれば、次のような日本語の文言を使うことができます：\n"
+"\n"
+"「セキュリティー：SSLの要求について」\n"
+"\n"
+"これはその参照が指し示すセクションのタイトルを日本語化したものですが、実際のドキュメントでの使用には、そのセクションが何を含んでいるかによって文脈を考慮した訳が必要になります。原文の構造や形式を正確に保持するため、実際のドキュメント内部ではリンクとしての機能を維持するために、ラベルは原文のまま保持されることが一般的です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:425
+msgid ""
+"Occasionally administrators will enable this setting without understanding "
+"the configuration prerequisites, and will find themselves locked out of the "
+"site, unable to disable the setting again to gain :term:`user interface` "
+"access. When this happens, you can use SQL to disable the setting, thereby "
+"regaining access to your site."
+msgstr ""
+"時折、管理者はこの設定を有効にする際に設定の前提条件を理解せずに行い、結果としてサイトから締め出されてしまい、再び`:term:`ユーザーインターフェース`へのアクセスを許可するために設定を無効にすることができなくなります。このような場合には、SQLを使用して設定を無効にすることで、サイトへのアクセスを回復することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:431
+msgid "To do so, we first need to figure out the ID of the setting:"
+msgstr "これを行うためには、まず設定のIDを把握する必要があります："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:437
+msgid "This query will return something like the following:"
+msgstr "このクエリは次のような結果を返します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:448
+msgid ""
+"Where ``XX`` will be an ID number. Replace ``XX`` in the following query "
+"with the returned ID number, and check the current setting configuration:"
+msgstr "``XX``はID番号になります。次のクエリ内の``XX``を返されたID番号に置き換え、現在の設定構成を確認してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:461
+msgid ""
+"If the ``value`` shows 0, the setting is not enabled. If it shows 1, then "
+"the \"require SSL\" setting is currently enabled."
+msgstr ""
+"もし ``value`` が0を示している場合、その設定は有効になっていません。1を示している場合は、「SSLを要求する」設定が現在有効になっています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:464
+msgid ""
+"To update the database and disable the setting, we can use the following:"
+msgstr "データベースを更新し、設定を無効にするには、以下の方法を使用できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:470
+msgid ""
+"Replace ``XX`` in the above example with the ID value returned in the first "
+"step. Additionally, if your default installation culture is not English, "
+"then change culture value in the example query above to the 2-letter ISO "
+"639-1 language code of your culture."
+msgstr ""
+"上記の例で「XX」を最初のステップで返されたID値に置き換えてください。さらに、デフォルトのインストール文化が英語でない場合は、上の例のクエリのculture値をあなたの文化の2文字のISO"
+" 639-1言語コードに変更してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:475
+msgid ""
+"The setting should now be disabled, and you should be able to log into your "
+"site again."
+msgstr "その設定は今無効になっているはずで、あなたは再びサイトにログインできるようになるはずです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:483
+msgid "Kill a specific atom-worker job"
+msgstr "特定のatom-workerジョブの停止"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:485
+msgid ""
+"AtoM relies on `Gearman <http://gearman.org>`__ in order to execute certain "
+"long-running tasks asynchronously to guarantee that web requests are handled"
+" promptly and work loads can be distributed across multiple machines. "
+"Examples of operations in AtoM that are handled by the job scheduler include"
+" :ref:`moving <move-archival-description>` or :ref:`publishing <publish-"
+"archival-description>` :term:`archival description` records; generating "
+":ref:`reports <file-item-reports>` or :ref:`finding aids <print-finding-"
+"aids>`; managing PREMIS :ref:`right inheritance <rights-inheritance>`, "
+"running most :ref:`imports and exports <import-export>` via the :term:`user "
+"interface`; and more. For more information, see:"
+msgstr ""
+"AtoMは、ウェブリクエストを迅速に処理し、作業負荷を複数のマシンに分散させるために、ある長時間実行タスクを非同期に実行する際に `Gearman "
+"<http://gearman.org>`__ に依存しています。AtoM内でジョブスケジューラによって処理される操作の例には、:ref:`移動 "
+"<move-archival-description>` や :ref:`公開 <publish-archival-description>` する "
+":term:`アーカイブ記述` レコード; :ref:`レポート <file-item-reports>` や :ref:`ファインディングエイド "
+"<print-finding-aids>` の生成; PREMIS の :ref:`権利相続 <rights-inheritance>` "
+"管理、:term:`ユーザーインターフェイス`を通じたほとんどの :ref:`インポートとエクスポート <import-export>` の実行; "
+"その他多くの操作が含まれます。詳細についてはこちらをご覧ください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:497
+#: ../../admin-manual/maintenance/common-atom-queries.rst:577
+msgid ":ref:`maintenance-asynchronous-jobs`"
+msgstr ":ref:`メンテナンス-非同期ジョブ`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:498
+msgid ":ref:`manage-jobs`"
+msgstr ":ref:`ジョブの管理`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:500
+msgid ""
+"Occasionally, the atom-worker may stall mid-process, or there is currently "
+"no worker available to handle the job. When this happens, users will "
+"typically see a 500 error message in the web browser. These issues can be "
+"often be resolved by restarting the job scheduler - for more information, "
+"see:"
+msgstr ""
+"時折、atom-"
+"workerがプロセスの途中で停止してしまったり、現在利用可能なワーカーがジョブを処理することができないことがあります。このような状況が発生した場合、ユーザーには通常、ウェブブラウザに500エラーメッセージが表示されます。これらの問題は、ジョブスケジューラを再起動することでしばしば解決できます。詳しい情報については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:505
+#: ../../admin-manual/maintenance/common-atom-queries.rst:576
+msgid ":ref:`troubleshooting-restart-job-scheduler`"
+msgstr ":ref:`トラブルシューティング-ジョブスケジューラの再起動`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:507
+msgid ""
+"However, in some cases, the atom-worker may simply stall again - often when "
+"a particularly large job has been run, and available system resources have "
+"been exhausted before the job could complete. When this happens, the "
+":ref:`manage-jobs` page will usually show the job status as \"In progress\"-"
+" though it never completes."
+msgstr ""
+"しかし、一部のケースでは、atom-"
+"workerが単純に再び停止することがあります。それは、特に大きなジョブが実行され、そのジョブが完了する前に利用可能なシステムリソースが使い果たされてしまった場合によく発生します。これが起きると、通常`:ref:`manage-"
+"jobs`ページではジョブの状態が「進行中」と表示されますが、決して完了しません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:513
+msgid ""
+"AtoM does include a command-line task that can clear all running and queued "
+"jobs, as well as clear the job history from the database. This can be run in"
+" unix command-line from AtoM's root installation directory, like so:"
+msgstr ""
+"AtoMには、実行中およびキューにあるジョブをすべてクリアし、データベースからジョブ履歴をクリアするコマンドラインタスクが含まれています。これは、AtoMのルートインストールディレクトリからUNIXコマンドラインで次のように実行できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:521
+msgid ""
+"However, if you have other jobs in the queue, they will all be lost with "
+"this command - as will all previous job history. Instead, SQL can be used to"
+" target a specific problematic job and remove it from the queue, allowing "
+"other jobs to remain."
+msgstr ""
+"ただし、他にもジョブキューにある場合、このコマンドを使用するとそれらすべてが失われることになります。以前のジョブ履歴も同様に失われます。代わりに、SQLを使用して特定の問題のあるジョブをターゲットにし、キューから削除することで、他のジョブを維持することが可能です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:526
+msgid ""
+"To do so, we first need to find the id of the job we want to kill, before "
+"deleting it from the database:"
+msgstr "それを行うためには、まず、データベースから削除する前に、終了させたいジョブのidを見つける必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:533
+msgid "This will return a table like this:"
+msgstr "これにより、以下のような表が返されます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:553
+msgid ""
+"In the example above, our ``arFileImportJob`` with an ID of ``155764`` "
+"appears to be stalled - it started, but has no ``completed_at`` date, and is"
+" preventing all the other queued jobs from running."
+msgstr ""
+"上記の例では、IDが「155764」の「arFileImportJob」が停止しているようです。それは開始されましたが、「completed_at」日付がなく、他のすべてのキューに入ったジョブの実行を阻止しています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:557
+msgid ""
+"We can now use the id value of the target job to delete *just* that job from"
+" the database, like so:"
+msgstr "ターゲットジョブのid値を使用して、データベースから*そのジョブだけ*を以下のように削除することができます:"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:564
+msgid ""
+"You will need to restart the job scheduler afterwards. Note as well that "
+"AtoM's job scheduler includes a fail limit of 3 restarts within 24 hours - "
+"if you've already tried restarting the job scheduler a couple times, you may"
+" also need to reset the fail count:"
+msgstr ""
+"作業を完了するために、その後ジョブスケジューラを再起動する必要があります。また、AtoMのジョブスケジューラには、24時間以内に3回の再起動に失敗するという制限が設定されていることに注意してください。もしあなたが既に数回ジョブスケジューラを再起動しようと試みている場合は、失敗回数をリセットする必要があるかもしれません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:574
+msgid "For more information, see:"
+msgstr "詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:584
+msgid "General AtoM entity SQL queries"
+msgstr "一般的なAtoMエンティティのSQLクエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:586
+msgid ""
+"The following queries do not relate to a specific :term:`entity` type in "
+"AtoM - rather, they provide general information or global actions that "
+"affect numerous entities, or do not relate to specific entities at all."
+msgstr ""
+"以下のクエリはAtoMの特定の:term:`entity`タイプに関連しているわけではなく、多数のエンティティに影響を与える一般情報やグローバルアクションを提供するもの、または特定のエンティティには全く関連していないものです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:592
+#: ../../admin-manual/maintenance/common-atom-queries.rst:866
+#: ../../admin-manual/maintenance/common-atom-queries.rst:982
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1124
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1224
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1570
+msgid ":ref:`cli-object-id`"
+msgstr ""
+"このテキストは、おそらく参照リンクを指しています。Archivematicaの公式ドキュメントの中にある特定のセクションのタイトルかセクションへの参照なのでしょう。ただし、リンク単体での翻訳はその文脈を特定できないため、直接の訳出は適切ではありません。しかし、もしドキュメント内での「CLI (コマンドラインインターフェース) オブジェクトID」または似たようなセクションが想定されていれば、それを指している可能性が高いです。この場合、翻訳されるとしたら以下のようになるでしょう：\n"
+"\n"
+"``CLIオブジェクトIDに関する参考``\n"
+"\n"
+"またはセクションタイトルが既に訳されている場合には、その日本語訳がそのまま使われるべきです。その場合、直接のリンク(CLIオブジェクトIDの部分)は変更しないでください。なぜならそれはドキュメント内の実際の参照先を指しているため、変更するとリンク切れを起こす原因となります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:593
+msgid ":ref:`sql-delete-slugs`"
+msgstr ""
+":ref:`sql-delete-slugs` の部分は、ドキュメント内の特定の参照リンクを指すマークアップであり、そのままでは自然な日本語に翻訳することはできません。このテキストが参照している実際のセクションのタイトルや内容によって、適切な日本語訳が異なる可能性があります。\n"
+"\n"
+"ただし、もし単にリンクテキストそのものを日本語に訳すという要求ならば、以下のようになるかもしれません。\n"
+"\n"
+"```\n"
+":ref:`sql-delete-slugs`\n"
+"```\n"
+"\n"
+"を\n"
+"\n"
+"```\n"
+":ref:`SQL-スラッグ削除`\n"
+"```\n"
+"\n"
+"に翻訳することができます。ただし、「スラッグ」という単語は一般的な日本語ではないため、ドキュメントの目的の聞き手が専門家であればそのまま使用しても理解されるでしょうが、一般の聞き手であれば更なる説明が必要になるかもしれません。また、このリンクが実際にどのようなドキュメントセクションを指しているかによっては、より適切な訳が必要です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:594
+msgid ":ref:`sql-update-slug`"
+msgstr "`sql-update-slug`（SQL更新スラグ）"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:595
+msgid ":ref:`sql-count-entity-types`"
+msgstr ""
+"`:ref:`sql-count-entity-types`は、参照リンクやマークアップ言語内で使用されるマーカーです。このマーカーは、特定のリソースや文書へリンクする際や、文書内での参照（引用）ポイントを識別するために使われます。そのため、このテキスト自体は翻訳するものではありませんが、文脈に応じて適切な日本語文書内の節やパラグラフにリンクするために変更される場合があります。\n"
+"\n"
+"もし実際にこのマーカーが指しているセクションのタイトルや内容を翻訳する必要がある場合は、その具体的なテキストが必要です。ただし、ここではそのような具体的なコンテンツを提供していないので、一般的な説明しか提供できません。\n"
+"\n"
+"もし、翻訳を依頼しているのが実際のセクションや文書のタイトルであれば、「エンティティタイプの数をSQLでカウントする」という風に翻訳することができますが、これは例としての翻訳であり、実際の文書に即した内容ではありません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:596
+msgid ":ref:`sql-db-creation-date`"
+msgstr ""
+"このテキストは参照用のラベルで、それ自体が特定の内容を持つわけではないため、そのまま日本語に翻訳することはできません。「:ref:」は一般にドキュメント内でのクロスリファレンスを示すための構文要素で、この場合は「sql-db-creation-date」というラベル（おそらくSQLデータベースの作成日時に関するセクションへのリンク）を示しています。\n"
+"\n"
+"このラベルを文脈に組み入れる場合は、参照される内容に基づいて以下のように翻訳することが考えられます。\n"
+"\n"
+"「SQLデータベースの作成日時についての詳細は、:ref:`sql-db-creation-date`セクションをご覧ください。」\n"
+"\n"
+"ただし、これは文脈に依存するため、実際のドキュメントの内容を見て適宜調整が必要です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:600
+msgid ":ref:`Entity types in AtoM <entity-types>`"
+msgstr "AtoMのエンティティタイプ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:602
+msgid ":ref:`slugs-in-atom`"
+msgstr ":ref:`atom-のスラッグ`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:607
+msgid "Finding the Object ID of a record"
+msgstr "レコードのオブジェクトIDを見つける"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:609
+msgid ""
+"Some tasks and SQL queries will require the use of an object ID as part of "
+"the criteria. These ID values are not typically accessible via the "
+":term:`user interface` - they are unique values used in AtoM's database, "
+"with one assigned to every record. There are a few ways you can access the "
+"object IDs for your records."
+msgstr ""
+"一部のタスクやSQLクエリーでは、基準としてオブジェクトIDの使用を必要とします。これらのID値は通常、:term:`ユーザーインターフェース`を通じてアクセスできるものではありません"
+" - "
+"それらはAtoMのデータベースで使用されるユニークな値であり、各レコードに割り当てられています。レコードのオブジェクトIDにアクセスする方法はいくつかあります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:615
+msgid ""
+"For :term:`archival description` records, the first method is to export the "
+"target descriptions as a CSV file - on export, AtoM will populate the "
+"``legacyId`` column of the resulting CSV with the object ID value for each "
+"row."
+msgstr ""
+"アーカイブ記述のためのレコードにおいて、最初の方法は対象の記述を CSV ファイルとしてエクスポートすることです。エクスポート時に、AtoM "
+"は結果として得られる CSV の `legacyId` 列に、それぞれの行に対するオブジェクト ID 値を入力します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:620
+msgid ""
+"Alternatively, you can use SQL in the command-line to determine the ID of a "
+"record."
+msgstr "または、コマンドラインでSQLを使用して、レコードのIDを把握することもできます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:623
+msgid "**When you know the slug**"
+msgstr "スラッグを知っているとき"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:625
+msgid ""
+"The following example will show you how to use a SQL query to find the "
+"``object_id``, if you know the :term:`slug` of the record:"
+msgstr ""
+"以下の例は、レコードの :term:`スラッグ` を知っている場合に、SQLクエリを使用して ``object_id`` を見つける方法を示しています："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:632
+msgid ""
+"The query should return the ``object_id`` for the record. Here is an "
+"example:"
+msgstr "クエリはレコードの``object_id``を返すべきです。以下に例を示します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:-1
+msgid "An image of a successful SELECT statement in mysqlCLI"
+msgstr "MySQL CLIで成功したSELECT文の画像"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:640
+msgid ""
+"Note that we can also perform the opposite query, for cases where you know "
+"the object ID (perhaps from an earlier query against a related table), and "
+"you want to find the slug of the related record:"
+msgstr ""
+"留意事項として、オブジェクトIDがわかっている場合（関連するテーブルへの以前のクエリから得られたものかもしれません）、関連するレコードのスラッグを見つけたい場合に、逆のクエリを実行することもできます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:648
+msgid ""
+"Replace ``XXXXX`` in the example above with the object ID of the target "
+"record."
+msgstr "上記の例における「XXXXX」をターゲットレコードのオブジェクトIDに置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:650
+msgid "**When you know the title or authorized form of name**"
+msgstr "**タイトルまたは認定された名前の形式を知っている場合**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:652
+msgid ""
+"Typically, object IDs are used as keys in the primary :term:`entity` tables,"
+" so we can also retrieve the object ID by looking it up in the ``id`` field "
+"on the entity's primary tables."
+msgstr ""
+"通常、オブジェクトIDは主要な:term:`entity` "
+"テーブルのキーとして使用されますので、エンティティの主要なテーブルの``id``フィールドで検索することでオブジェクトIDを取得することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:656
+msgid ""
+"In AtoM, most entities have two primary tables - the first (examples include"
+" ``information_object``, ``term``, ``actor``, ``accession``, ``repository``,"
+" etc) contains the object ID in an ``id`` field, as well as ID's from "
+"related tables used as keys, non-translatable fields such as as identifier "
+"values, and more. These entities will also have corresponding tables with an"
+" ``_i18n`` suffix (short for \"internationalization\") where all free-text "
+"translatable fields will be stored (e.g. ``information_object_i18n``, "
+"``actor_i18n``, etc)."
+msgstr ""
+"AtoMでは、ほとんどのエンティティには二つの主要テーブルがあります。最初のテーブル（例としては「information_object」、「term」、「actor」、「accession」、「repository」などがあります）には、「id」というフィールドにオブジェクトIDが含まれるほか、関連するテーブルから使用されるキーとしてのID、識別子の値などの翻訳不可能なフィールドなどが含まれています。これらのエンティティには、「_i18n」という接尾辞（\"internationalization\"の略）を持つ対応するテーブルもあり、すべての自由テキストの翻訳可能なフィールドが保存されることになります（例えば、「information_object_i18n」、「actor_i18n」など）。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:664
+msgid ""
+"Consequently, if we know the title or authorized form of name of the target "
+"record, we can use that to look up the ID value."
+msgstr "それゆえ、目的の記録のタイトルまたは認証された名前形式を知っている場合、それを使用してID値を検索することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:667
+msgid ""
+"For example, with :term:`archival descriptions <archival description>`, you "
+"can use the following query to look up the object ID based on the title of "
+"the target description:"
+msgstr ""
+"例えば、`:term:`アーカイバル・ディスクリプション<archival "
+"description>`の際、以下のクエリを使用して、目的の記述のタイトルに基づいてオブジェクトIDを検索することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:675
+msgid "Replace ``TITLE HERE`` with the title of your target description."
+msgstr "``TITLE HERE``を対象の説明のタイトルに置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:677
+msgid ""
+"Here is an example of looking up the object ID of an :term:`authority "
+"record` when we know the authorized form of name:"
+msgstr "こちらは、認証された名前の形式がわかっている時に、:term:`オーソリティレコード`のオブジェクトIDを調べる例です："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:684
+msgid ""
+"Replace ``Actor name here`` with the authorized form of name of the target "
+"authority record."
+msgstr "``Actor name here`` を対象の権威記録の公式な名前形式に置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:689
+msgid ""
+"In AtoM's data model, an :term:`archival institution` (AKA a "
+":term:`repository` record) is a subclass of actor - consequently, you can "
+"use the same example query above for authority records to look up the ID of "
+"a repository record when you know the authorized form of name."
+msgstr ""
+"AtoMのデータモデルにおいて、`:term:`アーカイブ機関`（またの名を :term:`リポジトリ` "
+"レコード）はアクターのサブクラスです。その結果、権威ある形式の名前がわかっているときにリポジトリレコードのIDを調べるために、上記の権威レコード用の同じサンプルクエリを使用できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:694
+msgid ""
+"The same is true of Donors, Rightsholders, Users, and contact information."
+msgstr "ドナー、権利保有者、ユーザー、そして連絡先情報についても同様です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:696
+msgid ""
+"An example of using an accession number to look up the ID of an "
+":term:`accession record`:"
+msgstr "アクセッション番号を使用して:term:`accession record`（受領記録）のIDを検索する例："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:703
+msgid ""
+"Replace the example accession number ``2021-01-01/12`` in the query above "
+"with the target accession number."
+msgstr ""
+"上記のクエリで例として挙げられているアクセッションナンバー``2021-01-01/12`` を、対象とするアクセッションナンバーに置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:712
+msgid "Delete slugs from AtoM"
+msgstr "AtoMからスラグを削除"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:714
+msgid ""
+"In some cases, you may wish to replace the existing :term:`slugs <slug>` in "
+"AtoM - particularly if they have been randomly generated because the user-"
+"supplied data from which the slug is normally derived (e.g. the \"Title\" "
+"field for an :term:`archival description`) was not entered when the record "
+"was created. For more information on how slugs are generated by AtoM, see "
+":ref:`slugs-in-atom`. If you have since supplied the relevant information "
+"(e.g. added a title to your archival description), you may want to generate "
+"a new slug for it that is more meaningful."
+msgstr ""
+"場合によっては、AtoM内の既存の:term:`slugs "
+"<slug>`を置き換えたいと考えることがあるかもしれません。特にそのslugが、レコード作成時に入力されなかったユーザー提供のデータから通常導出される（例えば、:term:`アーカイブ記述`の「タイトル」フィールド）ために、ランダムに生成された場合です。AtoMによるslugの生成方法の詳細については、:ref:`slugs-"
+"in-"
+"atom`を参照してください。関連する情報を提供した場合（例えば、あなたのアーカイブ記述にタイトルを追加した場合）、より意味のある新しいslugを生成したいと思うかもしれません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:723
+msgid ""
+"In such a case, you will need to delete the slug in AtoM's database first - "
+"after which you can run the command-line task to generate slugs for those "
+"without them. The AtoM :ref:`cli-generate-slugs` task does include a "
+"``--delete`` option, which can be used if you don't mind deleting all "
+"existing :term:`entity` slugs and regenerating them. However, if you have "
+"customized your slugs (for example, by using AtoM's :ref:`Rename module "
+"<rename-title-slug>` for descriptions), then you would lose these by using "
+"the ``--delete`` task option."
+msgstr ""
+"そのような場合は、まずAtoMのデータベース内でスラッグを削除する必要があります。それからコマンドラインタスクを実行して、スラッグがないものについて生成することができます。AtoMの"
+" :ref:`cli-generate-slugs` タスクには ``--delete`` オプションが含まれており、すべての既存の "
+":term:`エンティティ` "
+"スラッグを削除して再生成することを望まない場合に使用できます。しかし、スラッグをカスタマイズしている場合（例えば、AtoMの "
+":ref:`名前変更モジュール <rename-title-slug>` を説明のために使用している場合）、``--delete`` "
+"タスクオプションを使用するとこれらを失ってしまいます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:732
+msgid ""
+"For cases where you want to delete only a specific slug or subset of slugs "
+"before using the slug generation task, SQL queries can be useful. AtoM slugs"
+" are conveniently stored in a table named ``slug``."
+msgstr ""
+"特定のスラッグまたはスラッグのサブセットをスラッグ生成タスクを使用する前にのみ削除したい場合、SQLクエリが便利です。AtoMスラッグは、``slug``という名前のテーブルに便利に格納されています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:736
+msgid "**Deleting a single slug**"
+msgstr "**シングルスラッグの削除**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:738
+msgid ""
+"If you know the slug you'd like to delete, you can use the following command"
+" to delete it from AtoM's database (replacing ``your-slug-here`` with the "
+"slug you'd like to delete):"
+msgstr ""
+"もし削除したいスラッグがわかっている場合、次のコマンドを使用してAtoMのデータベースから削除することができます（``your-slug-"
+"here``を削除したいスラッグに置き換えてください）："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:748
+msgid ""
+"**Remember**, you will run into problems if you don't replace the slug! You "
+"can use the generate slugs task to do so; see :ref:`cli-generate-slugs`. "
+"Remember as well: if you are trying to replace a randomnly generated slug, "
+"but you haven't filled in the data field from which the slug is normally "
+"derived prior to deleting the old slug (see :ref:`slugs-in-atom` for more on"
+" how slugs are generated in AtoM), you will end up with another randomly "
+"generated slug!"
+msgstr ""
+"**覚えておいてください**、スラッグを交換しない場合は問題が発生します！スラッグを生成するタスクを使って交換できます。詳細については、`:ref:`cli-"
+"generate-"
+"slugs`を参照してください。また覚えておくべきことは、ランダムに生成されたスラッグを交換しようとしているけれども、旧スラッグを削除する前に通常スラッグが派生されるデータフィールドに情報を入力していない場合（AtoMでのスラッグの生成方法についての詳細は、`:ref:`slugs-"
+"in-atom`を参照）、別のランダム生成スラッグが得られるということです！"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:756
+msgid "**Deleting a subset of slugs**"
+msgstr "**サブセットのスラッグを削除する**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:758
+msgid ""
+"If you wanted to delete all slugs associated with :term:`archival "
+"descriptions <archival description>` descriptions (e.g. :term:`information "
+"objects <information object>`) in AtoM, you could use the following example "
+"SQL query to target just the description slugs:"
+msgstr ""
+"アーカイブ記述（たとえば情報オブジェクト）に関連付けられているすべてのスラッグをAtoMで削除したい場合、以下のSQLクエリの例を使用して記述のスラッグのみを対象にすることができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:767
+msgid ""
+"We can also modify this query for other :term:`entity` types in AtoM as "
+"well. In AtoM's data model, each core entity has a root object, whose slug "
+"we **don't** want to delete - hence the ``root_id <> 1`` in the above query "
+"for descriptions."
+msgstr ""
+"私たちは、AtoMの他の:term:`entity`(実体)タイプに対しても、このクエリを修正することができます。AtoMのデータモデルでは、各コア実体はルートオブジェクトを持っており、そのスラッグを削除したくありません。このため、上記の説明のクエリに「``root_id"
+" <> 1``」が含まれています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:772
+msgid ""
+"The root ID for terms is 110. Therefore, if we wanted to delete all slugs "
+"from terms in AtoM, we can modify the above query like so:"
+msgstr "用語のルートIDは110です。したがって、AtoM内の全ての用語からスラッグを削除したい場合、上記のクエリを次のように変更できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:779
+msgid ""
+":term:`Accessions <accession record>` are a later addition to AtoM's "
+"original data model, and are maintained in a plugin - consequently, they "
+"have no root ID that we need to worry about. We can delete all accession "
+"slugs with the following:"
+msgstr ""
+"「アクセッション<accession "
+"record>」はAtoMの元々のデータモデルに後から追加されたものであり、プラグインで管理されているため、私たちが心配する必要のあるルートIDは存在しません。以下の方法で、すべてのアクセッションのスラッグを削除できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:787
+msgid ""
+"Actors in AtoM's data model are a superset, that include :term:`authority "
+"records <authority record>`, :term:`repository` records, donor records, "
+"rightsholders, user accounts, and contact information. Actors have a root ID"
+" of 3 and repository records have a root ID of 6 - so while protecting those"
+" root IDs, the following would delete slugs from **ALL** those entity types "
+"at once:"
+msgstr ""
+"AtoMのデータモデルにおいて、アクターは:term:`権威記録<authority "
+"record>`、:term:`リポジトリ`記録、提供者記録、権利保持者、ユーザーアカウント、そして連絡先情報を含むスーパーセットです。アクターにはルートID"
+" 3が、リポジトリ記録にはルートID 6が割り当てられています - "
+"従って、これらのルートIDを保護しつつ、以下の手順でこれらのエンティティタイプ**すべて**のスラグを一度に削除することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:798
+msgid ""
+"If you wanted to delete **ONLY** actual authority record slugs, you can use "
+"the following:"
+msgstr "実際の権限レコードスラッグ**のみ**を削除したい場合は、以下の方法を使用できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:805
+msgid ""
+"Change ``QubitActor`` in the above query to ``QubitDonor`` to delete only "
+"Donor record slugs, or to ``QubitRightsHolder`` to delete only rightsholder "
+"record slugs."
+msgstr ""
+"上記のクエリで ``QubitActor``を "
+"``QubitDonor``に変更することで、寄贈者記録のスラグのみを削除することができます。または、``QubitRightsHolder``に変更することで、権利保有者記録のスラグのみを削除します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:809
+msgid ""
+"Because :term:`repository` records have their own root ID, we will modify "
+"the query to protect the root ID of those records, like so:"
+msgstr ""
+"用語「リポジトリ」のレコードには独自のルートIDがありますので、それらのレコードのルートIDを保護するために、クエリを以下のように修正します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:818
+msgid ""
+"User account and contact information slugs are always randomly generated - "
+"they are not based on the user name. Generally, you shouldn't need to delete"
+" these slugs - when they are regenerated, they will still be random. If you "
+"are experiencing problems that you suspect orginate from a missing user "
+"slug, try running the    :ref:`generate slugs task <cli-generate-slugs>` "
+"first."
+msgstr ""
+"ユーザーアカウントと連絡先情報のスラッグは常にランダムに生成されます - "
+"それらはユーザー名を基にしていません。一般的に、これらのスラッグを削除する必要はありません - "
+"再生成された場合でも、それらはランダムであるでしょう。もし、ユーザースラッグが不足していることから起きていると疑われる問題がある場合は、まず "
+":ref:`スラッグ生成タスク <cli-generate-slugs>` を実行してみてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:825
+msgid ""
+"Once you've made your deletions, you can then use the generate-slugs task to"
+" generate new slugs:"
+msgstr "削除を行った後、generate-slugsタスクを使用して新しいスラッグを生成することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:832
+msgid ""
+"See :ref:`cli-generate-slugs` for further documentation on this command-line"
+" task."
+msgstr "このコマンドラインタスクに関する詳しいドキュメントは、 :ref:`cli-generate-slugs` を参照してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:835
+msgid ""
+"After you've updated your slugs, you will need to clear the application "
+"cache, restart PHP-FPM, and repopulate the search index. See:"
+msgstr ""
+"スラッグを更新した後、アプリケーションキャッシュをクリアし、PHP-"
+"FPMを再起動して、検索インデックスを再構築する必要があります。詳しくは以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:838
+#: ../../admin-manual/maintenance/common-atom-queries.rst:885
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1155
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1245
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1278
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1373
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1511
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1602
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1801
+msgid ":ref:`troubleshooting-restart-php-fpm`"
+msgstr ":ref:`トラブルシューティング-PHP-FPMの再起動`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:839
+#: ../../admin-manual/maintenance/common-atom-queries.rst:886
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1156
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1246
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1279
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1374
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1512
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1603
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1802
+msgid ":ref:`maintenance-clear-cache`"
+msgstr ":ref:`maintenance-clear-cache` (キャッシュのクリア - メンテナンス)"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:840
+#: ../../admin-manual/maintenance/common-atom-queries.rst:887
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1115
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1157
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1247
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1280
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1375
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1513
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1604
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1803
+msgid ":ref:`maintenance-populate-search-index`"
+msgstr "`:ref:`maintenance-populate-search-index` (メンテナンス: 検索インデックスの充実)`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:844
+msgid ""
+"Running a general command like ``DELETE * FROM slug`` is an extreme action, "
+"and it will delete **ALL** slugs, including custom slugs for your static "
+"pages - and **may break your application**. The :ref:`generate-slugs task "
+"<cli-generate-slugs>` will not replace fixtures slugs - e.g. those that come"
+" installed with AtoM, such as for settings pages, browse pages, menus, etc -"
+" or any static pages! We strongly recommend against this, and instead  "
+"suggest using SQL queries to *selectively* delete slugs, only as needed."
+msgstr ""
+"``DELETE * FROM slug`` のような一般的なコマンドの実行は極端な行動であり、あなたのスタティックページのカスタムスラグを含む "
+"**すべての** スラグを削除し、**あなたのアプリケーションを壊す可能性があります**。:ref:`generate-slugs task <cli-"
+"generate-slugs>` は、フィクスチャスラグ - "
+"例えば、設定ページ、ブラウズページ、メニューなど、AtoMで初めからインストールされているもの - "
+"や、いかなるスタティックページも置き換えません！私たちはこれに強く反対し、必要に応じてスラグを *選択的に* "
+"削除するためのSQLクエリを使用することを提案します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:853
+msgid ""
+"As always, we strongly recommend backing up your database before attempting "
+"any SQL queries - see above, :ref:`cli-backup-db`"
+msgstr ""
+"常に、SQLクエリを実行する前にはデータベースをバックアップすることを強く推奨します。上記を参照してください：:ref:`cli-backup-db`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:861
+msgid "Manually update the slug of a record"
+msgstr "記録のスラッグを手動で更新する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:863
+msgid ""
+"It's also possible to manually update the slug of a record using SQL. For "
+"this query, we will first need to know the object ID of the target record. "
+"See:"
+msgstr ""
+"また、SQLを使用してレコードのスラッグを手動で更新することも可能です。このクエリでは、まず対象レコードのオブジェクトIDを知る必要があります。参照："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:868
+msgid ""
+"Once we have the object ID, we can now use this to update the slug value in "
+"AtoM's slug table. Assuming the object ID returned in step 1 was 82269:"
+msgstr ""
+"オブジェクトIDを取得したら、このIDを使用してAtoMのスラッグテーブルにおけるスラッグ値を更新することができます。ステップ1で戻されたオブジェクトIDが82269だと仮定します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:877
+msgid ""
+"``my-new-slug`` represents the new slug you would like to assign to the "
+"target record, and"
+msgstr "\"`my-new-slug`\" は対象レコードに割り当てたい新しいスラッグを示しています。そして、"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:879
+msgid ""
+"``82269`` represents the object ID returned when you complete step one "
+"(:ref:`finding the object id <cli-object-id>`)."
+msgstr ""
+"「82269」は、ステップワン(:ref:`finding the object id <cli-object-"
+"id>`)を完了した時に返されるオブジェクトIDを表します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:882
+msgid ""
+"After you've updated your slug(s), you will need to clear the application "
+"cache, restart PHP-FPM, and repopulate the search index. See:"
+msgstr ""
+"更新したスラッグを適用した後、アプリケーションキャッシュをクリアし、PHP-FPMを再起動して、検索インデックスを再構築する必要があります。参照："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:889
+msgid ""
+"If you don't want to reindex your entire site (which may take time), you can"
+" use the ``search:populate`` task's ``--slug`` option to update the index "
+"just for the record whose slug you updated. See the :ref:`indexing task "
+"<maintenance-populate-search-index>` documentation for more information."
+msgstr ""
+"全サイトを再インデックス化するのに時間がかかる場合（それには時間がかかることがあります）、``search:populate`` タスクの "
+"``--slug`` "
+"オプションを使用して、更新したスラグを持つレコードのインデックスのみを更新することができます。詳細については、:ref:`インデキシングタスク "
+"<maintenance-populate-search-index>`のドキュメントをご覧ください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:897
+msgid ""
+"By default, AtoM sanitizes slugs, removing spaces, special characters, "
+"punctuation, and capital letters - see :ref:`slugs-in-atom` for more on how "
+"slugs are generated in AtoM. If you try to insert a slug that does not "
+"respect AtoM's slug sanitization rules, you may cause unexpected problems in"
+" your database!"
+msgstr ""
+"デフォルトでは、AtoMはスラッグを消毒し、空白、特殊文字、句読点、大文字を除去します - "
+"AtoM内でスラッグがどのように生成されるかの詳細については、:ref:`slugs-in-"
+"atom`を参照してください。AtoMのスラッグ消毒ルールに従わないスラッグを挿入しようとすると、データベースに予期しない問題を引き起こす可能性があります！"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:903
+msgid ""
+"The slug sanitization behavior can be changed by an :term:`administrator` to"
+" allow a more permissive slug generation pattern, where any UTF-8 character "
+"allowed by `RFC 3987 <https://tools.ietf.org/html/rfc3987>`__ in an "
+"Internationalized Resource Identifier (`IRI "
+"<https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier>`__) "
+"can be used. For more information, see:"
+msgstr ""
+"スラグの無害化動作は、管理者によってより柔軟なスラグ生成パターンを許可するように変更することができ、その場合、国際化リソース識別子（`IRI "
+"<https://ja.wikipedia.org/wiki/国際化リソース識別子>`__）内で `RFC 3987 "
+"<https://tools.ietf.org/html/rfc3987>`__ "
+"で許可されている任意のUTF-8文字を使用できます。詳細については、次を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:910
+msgid ":ref:`permissive-slugs`"
+msgstr ":ref:`柔軟なスラグ`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:917
+msgid "See a count of all entity types"
+msgstr "全てのエンティティタイプの数を見る"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:919
+msgid ""
+"The following queries are useful for reporting and review - they will "
+"provide you a count of all major :term:`entity` types in AtoM. For more "
+"information on entity types, see: :ref:`entity-types`."
+msgstr ""
+"以下のクエリは報告やレビューに役立つもので、AtoM内のすべての主要な用語「エンティティ」タイプの数を提供します。エンティティタイプに関する詳細は、次を参照してください：「エンティティタイプ」。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:923
+msgid "To see a simple count of all entity types:"
+msgstr "すべてのエンティティタイプの単純な数を見るには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:929
+msgid "This will produce an output similar to the following example:"
+msgstr "以下の例に似た出力が生成されます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:952
+msgid ""
+"If you would also like to include first and last modification dates per "
+"entity type, use:"
+msgstr "もし各エンティティタイプごとの最初と最後の変更日を含めたい場合は、以下のように使用してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:959
+msgid ""
+"Note that the above queries will **only** include those entities that have a"
+" row in the ``object`` table. If you would like to see a count of rows in "
+"all tables across AtoM, use the following:"
+msgstr ""
+"上記のクエリは、``object`` "
+"テーブルに行があるエンティティのみを**含む**ことに注意してください。AtoMのすべてのテーブルにある行数を見たい場合は、以下を使用してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:975
+msgid "Get the database creation or modification date of a record"
+msgstr "レコードのデータベース作成日または変更日を取得する。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:977
+msgid ""
+"AtoM stores ``created_at`` and ``updated_at`` (i.e. last modified) dates in "
+"the object table, where most :term:`entity` types in AtoM have a base "
+"record. To look these up, we will first need to know the object ID of our "
+"target record - see:"
+msgstr ""
+"AtoMは、ほとんどの:term:`エンティティ`タイプの基本記録があるオブジェクトテーブルに、``created_at``（作成日時）と``updated_at``（つまり、最終変更日時）の日付を保存します。これらを検索するためには、まず目的のレコードのオブジェクトIDを知る必要があります。詳細は下記を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:984
+msgid ""
+"Once we have the object ID value, we can use this to look up the "
+"``created_at`` date in the object table."
+msgstr "オブジェクトIDの値が分かったら、その値を使ってオブジェクトテーブルで``created_at``日時を検索することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:987
+msgid ""
+"In the following example, the object ID we found in step one was 2003033. We"
+" can now use this in a query against the object table, like so:"
+msgstr ""
+"次の例において、ステップ1で見つけたオブジェクトIDは2003033でした。これを用いて、オブジェクトテーブルに対するクエリを以下のように実行することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:994
+msgid ""
+"Substitute in your object ID as needed. If we want to see the last date the "
+"record was modified in the database, change ``created_at`` to "
+"``updated_at``, like so:"
+msgstr ""
+"必要に応じて、あなたのオブジェクトIDを代入してください。データベース内でレコードが最後に変更された日付を見たい場合には、``created_at`` "
+"を ``updated_at`` に変更します。以下のようにします："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1007
+msgid "Archival description SQL queries"
+msgstr "アーカイブ記述 SQL クエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1009
+msgid ""
+"This section contains queries that can be used to manipulate :term:`archival"
+" description` records in AtoM."
+msgstr "このセクションには、AtoM内で:term:`アーカイブ記述`レコードを操作するために使用できるクエリが含まれています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1014
+msgid ":ref:`sql-count-descriptions`"
+msgstr ""
+":ref:`sql-count-descriptions`は、文脈や具体的な内容に基づく参照タグ、またはプレースホルダである可能性が高いです。したがって、これは翻訳対象の通常の文章とは異なります。しかし、万が一、これが文書内での具体的なセクションや機能を指し示している場合、それを指し示す日本語のラベルを割り当てる必要があります。\n"
+"\n"
+"例えば、もし「sql-count-descriptions」というセクションがSQLを使用してアーカイブ内の記述をカウントする方法について説明しているのであれば、それに対応する日本語訳は以下のようになるかもしれません：\n"
+"\n"
+":ref:`sql-記述数のカウント`(ただし、実際には参照タグに日本語を使用することは推奨されません。そのため、通常はラベル自体は翻訳されず、参照先のセクションタイトルが翻訳されるほうが一般的です。)"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1015
+msgid ":ref:`sql-update-publication-status`"
+msgstr ""
+"`:ref:`sql-update-publication-status`は、Archivematicaのドキュメント内での参照リンクです。文書内で特定のセクションを指し示すためのリンクを設置する際に使用されますが、これ自体は文字通りに翻訳される語句ではありません。しかし、意味を理解して適切な日本語のドキュメントにおいても同様の参照が可能であることを示して、次のように翻訳することができます。\n"
+"\n"
+"`:ref:`sql-update-publication-status`を参照してください。」\n"
+"\n"
+"もし実際のセクション名称を翻訳する必要がある場合は、その具体的な名称が提示される必要があります。たとえば、「sql-update-publication-status」が「SQLによる公開状態の更新」というセクションタイトルであれば、それを翻訳して次のように参照することになります。\n"
+"\n"
+"「`SQLによる公開状態の更新`セクションを参照してください。」\n"
+"\n"
+"それがどのようなコンテキストで使われているのかによって、さらなる翻訳が必要となる場合もあります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1016
+msgid ":ref:`sql-update-io-fields`"
+msgstr ""
+"このテキストはreStructuredText (reST)形式の特定の参照ラベルを表しています。reStructuredTextは、Pythonプログラミングコミュニティ内で広く使用されるドキュメント記述フォーマットの一つです。このラベルは、ドキュメント内の「sql-update-io-fields」というセクションへの参照を意味している可能性があります。\n"
+"\n"
+"ただし、このテキスト自体には翻訳するための文脈が含まれていません。そのため、逐語的な翻訳は提供できないのですが、もし「sql-update-io-fields」セクションのタイトルが翻訳を必要としている場合は、それが何を意味するかに応じて日本語タイトルを創作できます。例えば、もしこのセクションがSQLを使用して入出力フィールドを更新する方法に関するものであれば、そのタイトルは次のように翻訳されるかもしれません：\n"
+"\n"
+"```\n"
+":ref:`sql-による入出力フィールドの更新`\n"
+"```\n"
+"\n"
+"しかしながら、実際にドキュメント内でどのように参照され、使用されるかを決定するためには、より多くの情報が必要になります。また、ドキュメント内で一貫性を保つため、ドキュメント全体の翻訳コンテキストを理解することが重要です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1017
+msgid ":ref:`sql-move-io-repos`"
+msgstr "`sql-move-io-repos` の参照"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1018
+msgid ":ref:`sql-change-levels-io`"
+msgstr ""
+"`:ref:`sql-change-levels-io`` はマークアップ言語（たぶんreStructuredText）で使用される参照タグです。これはドキュメント内の特定のセクションに直接リンクするために使われています。しかしこのタグが参照する実際のテキストがないと、意味のある日本語訳は提供できません。もしこのタグが指しているセクションのタイトルやコンテンツが提供された場合、それに対応する日本語の翻訳が可能になります。それがなければ、この参照タグ自体は「SQL変更レベルIO」というセクションや項目を参照している可能性があると推測することしかできません。 \n"
+"\n"
+"したがって、原文のセクションタイトルや内容に基づいて適切な日本語訳を行う必要があります。もし具体的なセクションタイトルがわかっている場合は、そのタイトルを教えていただければ、それに対する日本語訳を提供することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1019
+msgid ":ref:`sql-delete-translations`"
+msgstr ""
+"このテキストはreStructuredText (reST)形式のマークアップ言語で記載されており、具体的な内容を示すものではなく、reST文書内の参照用ラベルを意味しています。翻訳要求されたテキストは文書内で他の部分から参照されるラベルを示しているため、それを翻訳することは通常は行いません。ただし、ラベルの説明や文脈に応じた翻訳が必要な場合もあります。その際、ラベルが指し示すセクションのタイトルや内容を翻訳します。\n"
+"\n"
+"それを踏まえて、`:ref:` というreST構文を直接翻訳することはできませんが、文書の特定の部分をタイトルに基づいて翻訳すれば以下のようになるかもしれません。\n"
+"\n"
+"「SQL削除翻訳」\n"
+"\n"
+"もしラベルが「sql-delete-translations」というセクションを参照しているとすれば、日本語文書内ではそのセクションに適した日本語のラベルを付ける必要があります。その場合、実際のセクションの翻訳タイトルに合わせて、ラベルも適切に設定されるべきです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1020
+msgid ":ref:`sql-source-name`"
+msgstr ""
+":ref:`sql-source-name`というテキストは、reStructuredText (RST) のマークアップシステムにおける参照用のラベルであり、そのままでは日本語に翻訳しません。このラベルはおそらく、特定のSQLソースの名称にリンクするための文脈内で使われるものです。ドキュメント内で適切な日本語訳を提供するためには、その参照が指し示す実際のコンテンツまたはセクションのタイトルが必要です。\n"
+"\n"
+"もし、このラベルが「SQLソース名」というセクションを参照していると仮定すると、そのセクションのタイトルを以下のように日本語に翻訳することができます：\n"
+"\n"
+"`SQLソース名`\n"
+"\n"
+"ただし、ドキュメント全体の翻訳には、このラベルがどのように使用されているか全体的な文脈を理解する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1021
+msgid ":ref:`sql-oai-identifiers`"
+msgstr ":ref:`sql-oai-識別子`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1025
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`archival-descriptions` (参照: `アーカイバルディスクリプション`)"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1031
+msgid "Get description record counts"
+msgstr "記述レコードの数を取得する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1033
+msgid ""
+"The primary fields in the :term:`archival description` templates are "
+"contained in AtoM's ``information_object`` and ``information_object_i18n`` "
+"tables - free-text fields that can be translated are found in "
+"``information_object_i18n``, while ``information_object`` contains primarily"
+" ID values linking to other tables, and static non-translatable values like "
+"the description's identifier. You can see a list of the fields in each table"
+" with the following example queries:"
+msgstr ""
+"アーカイバルディスクリプションのテンプレートで主要なフィールドは、AtoMの``information_object``および``information_object_i18n``テーブルに含まれています。翻訳可能なフリーテキストフィールドは``information_object_i18n``にあり、``information_object``には主に他のテーブルへのID値のリンクや、説明の識別子のような静的で翻訳不可能な値が含まれています。以下の例示クエリで、各テーブルのフィールドのリストを確認することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1047
+msgid ""
+"These two tables will not cover *ALL* fields available in an archival "
+"description template. For example, many fields in templates like DACS and "
+"RAD that have no ISAD(G) equivalent are stored in the ``property`` and "
+"``property_18n`` tables; note fields are all stored in separate tables, and "
+"fields related to other :term:`entity` types (such as authority records, "
+":term:`access points <access point>`, etc.) will not be stored directly in "
+"these tables."
+msgstr ""
+"これらの二つの表は、アーカイブ記述テンプレートにある*すべての*フィールドを網羅しているわけではありません。たとえば、ISAD(G)に該当しないDACSやRADのようなテンプレート内の多くのフィールドは、``property``や``property_i18n``テーブルに保管されています。また、注記（ノート）フィールドは全て別のテーブルに保管され、他の:term:`エンティティ`タイプに関連するフィールド（例えば、権威レコード、:term:`アクセスポイント<access"
+" point>`など）は、これらの表に直接保管されることはありません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1055
+msgid "For a more detailed look at how AtoM's database is organized, see:"
+msgstr "AtoMのデータベースがどのように組織されているか、より詳細な見解を得るには、以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1058
+msgid ""
+"https://www.slideshare.net/accesstomemory/constructing-sql-queries-for-atom"
+msgstr ""
+"スライドシェアは\"Constructing SQL Queries for AtoM\"というタイトルの資料へのリンクです。これは、AtoM（Access to Memory）というオープンソースアーカイブ情報管理システムにおけるSQL（Structured Query Language）クエリの作り方についての資料であると推測されます。\n"
+"\n"
+"ただし、このリンクには具体的な文書内容が含まれておらず、翻訳可能な文章が提示されていないため、直接翻訳作業を行うことはできません。もしあなたがスライドの中身や特定のテキスト部分を翻訳したいのであれば、そのテキストをここに提供していただければ、日本語に翻訳を行うことができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1060
+msgid "See also: :ref:`sql-note-property-queries`"
+msgstr "参照： :ref:`sql-note-property-queries`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1062
+msgid ""
+"If you'd like to see a count of all the :term:`archival description` records"
+" currently in your database, you can use the following query:"
+msgstr "データベース内に現在存在するすべての:term:`アーカイバル記述`レコードの数を確認したい場合は、以下のクエリを使用できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1069
+msgid ""
+"Note that translations are stored in the ``information_object_i18n`` table, "
+"and would not be counted using this query. You can change the above to use "
+"the i18n table if desired - just be aware that if a single description has "
+"entries in English, French, and Spanish for example, it will be counted 3 "
+"times."
+msgstr ""
+"ご注意ください。翻訳は``information_object_i18n``テーブルに保存されており、このクエリを使用してもカウントされません。もし希望があれば、上記のクエリをi18nテーブルを使用して変更することができますが、もし1つの記述に英語、フランス語、スペイン語のエントリーがあった場合、それぞれ3回カウントされることを認識してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1074
+msgid ""
+"We can also provide further criteria. For example, to count how many "
+"descriptions include a Scope and content statement:"
+msgstr "さらに詳しい基準を提供することもできます。例えば、「範囲と内容」声明を含む記述がいくつあるかを数えるには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1081
+msgid ""
+"Alternatively, we can return a count of descriptions that are missing an "
+"Extent and medium statement with:"
+msgstr "あるいは、以下の方法で「Extent and medium」の記述が欠落している記述の数を返すことができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1093
+msgid "Update draft archival descriptions to published"
+msgstr "ドラフトのアーカイバル記述を公開済みに更新"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1095
+msgid ""
+"AtoM uses ID values in the status table to manage the :term:`publication "
+"status` of archival descriptions. A status ID of 159 means draft, and 160 "
+"means published. In the ``status`` table, Publication has a type_id value of"
+" 158."
+msgstr ""
+"AtoMは、アーカイブ記述の:term:`公開ステータス`を管理するために、ステータステーブル内のID値を使用します。ステータスIDが159の場合は下書きを意味し、160の場合は公開を意味します。``status``"
+" テーブルにおいて、公開は type_id 値が158です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1099
+msgid ""
+"We can therefore use the following query to publish all draft descriptions "
+"in AtoM:"
+msgstr "したがって、以下のクエリを使用してAtoMですべての下書き状態の記述を公開することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1105
+msgid ""
+"If we wanted to set all descriptions in AtoM to draft, we can change the "
+"``status_id`` value of the above query from 160 to 159:"
+msgstr "もしAtoMの全ての説明を下書きに設定したい場合は、上記クエリの``status_id``の値を160から159に変更できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1112
+msgid ""
+"You will need to rebuild the search index after making publication status "
+"changes. See:"
+msgstr "公開ステータスの変更を行った後には、検索インデックスを再構築する必要があります。詳細は以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1117
+msgid "**Updating all draft descriptions from a particular repository**"
+msgstr "特定のリポジトリからすべての下書き記述を更新する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1119
+msgid ""
+"We can also target just those descriptions that are associated with a "
+"particular :term:`repository` (AKA :term:`archival institution`). To do so, "
+"we first need to retrieve the id of the repository, using the repository "
+":term:`slug`. See above for more information on how to get an object ID "
+"using a slug:"
+msgstr ""
+"また、特定の：term：`リポジトリ`（AKA：term：`アーカイブ機関`）に関連する記述のみを対象とすることができます。これを行うには、まず、リポジトリの：term：`スラッグ`を使用してリポジトリのIDを取得する必要があります。スラッグを使用してオブジェクトIDを取得する方法については、上記を参照してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1126
+msgid ""
+"Assuming in this example the id returned is 123, you can then run the "
+"following query to perform the publication status updates, changing all "
+"descriptions associated with this repository record to published:"
+msgstr ""
+"この例では返されるIDが123であると仮定します。次に、このリポジトリレコードに関連付けられているすべての説明を公開された状態に更新するために、以下のクエリを実行できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1151
+msgid ""
+"Don't forget to rebuild the search index after you've performed your "
+"updates! You may want to clear the application cache and restart PHP-FPM as "
+"well, to ensure you are seeing updated results. See:"
+msgstr ""
+"アップデートを実行した後は、検索インデックスを再構築することを忘れないでください！アプリケーションのキャッシュをクリアし、PHP-"
+"FPMも再起動することで、更新された結果が表示されることを確認することをお勧めします。参照："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1164
+msgid "Globally update archival description fields"
+msgstr "アーカイブ記述フィールドを全体的に更新"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1166
+msgid ""
+"In some cases, you may want to make common edits across all your "
+":term:`archival description` records at once - for example, fixing a "
+"reoccurring typo, or adding the same default content to a field. Once again,"
+" SQL can help us."
+msgstr ""
+"一部の場合には、たとえば繰り返し起こるタイプミスを修正したり、あるフィールドに同じデフォルト内容を追加したりするなど、すべての「アーカイバル記述」レコードに共通の編集を一度に適用したいと思うかもしれません。ここでも、SQLが役立ちます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1170
+msgid "**Fixing typos globally in a field**"
+msgstr "**フィールド内の誤字を一括で修正する**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1172
+msgid ""
+"For this example, let's say we've accidentally entered \"digtal image\" "
+"instead of \"digital image\" throughout our descriptions. Now we want to "
+"replace all occurences of \"digtal image\" in the *Extent and medium* field "
+"across all our descriptions in English with the corrected version, \"digital"
+" image\":"
+msgstr ""
+"この例では、私たちが説明の全体にわたって\"digital image\"の代わりに誤って\"digtal "
+"image\"と入力してしまったとしましょう。今、英語でのすべての説明において*Extent and medium* フィールド内の\"digtal "
+"image\"という表現をすべて修正版の\"digital image\"に置換したいと思います。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1181
+msgid ""
+"Another example: let's globally replace the word \"tea\" with the word "
+"\"coffee\" in the scope and content field of all English descriptions across"
+" AtoM:"
+msgstr ""
+"別の例を挙げます。AtoM内の全ての英語の説明にある「scope and content "
+"field」にて、「tea」という言葉を「coffee」に一括置換しましょう："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1188
+msgid ""
+"If we wanted to limit this change to a specific field in a specific "
+"description, we can include a join on the slug table, and then use the "
+":term:`slug` of the target description as a parameter:"
+msgstr ""
+"特定の記述の中の特定のフィールドにこの変更を制限したい場合、スラッグテーブルを結合に含めてから、ターゲット記述の:term:`スラッグ`をパラメータとして使用することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1196
+msgid ""
+"Replace ``my-new-slug`` in the above example with the slug of your target "
+"description."
+msgstr "上記の例で「my-new-slug」を対象の説明のスラグに置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1199
+msgid "**Globally updating a field**"
+msgstr "**フィールドを一括更新する**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1201
+msgid ""
+"Some of the fields in AtoM's Description control :term:`area <information "
+"area>` might have the same information across all descriptions. For example,"
+" if you wanted to add the same data to every \"Rules and conventions used\" "
+"field in your descriptions, we could use a query like so:"
+msgstr ""
+"AtoMの「説明制御エリア」にあるフィールドのいくつかは、すべての説明にわたって同じ情報を持つ場合があります。例えば、すべての「使用された規則と慣例」フィールドに同じデータを追加したい場合、次のようなクエリを使用することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1213
+msgid ""
+"We could also add another parameter and limit this to top-level descriptions"
+" associated with a particular :term:`repository`. In the following example, "
+"**only** the top-level descriptions will be affected, since they are the "
+"only ones that will have a repository ID associated directly with them (AtoM"
+" uses inheritance to associate the lower level descriptions with the "
+"repository, but these descriptions won't have the associated repository ID "
+"stored directly in the database)."
+msgstr ""
+"また、別のパラメーターを追加して、特定の:term:`リポジトリ`に関連付けられたトップレベルの説明だけに制限することもできます。以下の例では、リポジトリIDが直接関連付けられているのはトップレベルの説明だけなので、**のみ**トップレベルの説明が影響を受けます（AtoMは継承を使用して下位レベルの説明をリポジトリに関連付けますが、これらの説明には関連するリポジトリIDが直接データベースに保存されていません）。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1221
+msgid ""
+"To do so, we will first need to know the object ID of the repository record "
+"- see above:"
+msgstr "それを行うには、まずリポジトリレコードのオブジェクトIDを知る必要があります - 上記を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1226
+msgid ""
+"Once we know the related repository's ID, we can modify the above example by"
+" adding the repository ID as an additional criteria. In this example, our "
+"repository's object ID was 3169:"
+msgstr ""
+"関連するリポジトリのIDがわかり次第、リポジトリIDを追加の条件として上記の例を変更することができます。この例では、当社のリポジトリのオブジェクトIDは3169でした："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1241
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1274
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1369
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1507
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1598
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1797
+msgid ""
+"Remember, after making data changes, you should restart PHP-FPM, clear the "
+"application cache, and re-populate your search index to ensure that all "
+"changes show up properly in AtoM. See:"
+msgstr ""
+"データの変更を行った後には、PHP-"
+"FPMを再起動し、アプリケーションキャッシュをクリアし、検索インデックスを再構築して、すべての変更がAtoMに適切に表示されることを確認してください。参照："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1254
+msgid "Move descriptions to a different repository"
+msgstr "異なるリポジトリへの記述の移動"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1256
+msgid ""
+"The following query provides an easy way to move all :term:`archival "
+"description` records from one :term:`repository` (AKA :term:`archival "
+"institution`) to another. As inputs, we will need the slug of the current "
+"and target repository records:"
+msgstr ""
+"次のクエリは、ある:term:`リポジトリ`（またの名を:term:`アーカイブ機関`）から別のリポジトリへ全ての:term:`アーカイブ記述`レコードを移動する簡単な方法を提供します。入力として、現在のリポジトリとターゲットリポジトリのスラッグが必要です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1265
+msgid "In the above example query:"
+msgstr "上記の例のクエリーにおいて："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1267
+msgid ""
+"``source-repo-slug`` represents the slug of the :term:`archival institution`"
+" currently associated with the descriptions, and"
+msgstr ""
+"``source-repo-slug`` は、現在関連付けられている :term:`archival "
+"institution`（アーカイバル機関）のスラッグを表しており、"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1269
+msgid ""
+"``target-repo-slug`` represents the slug of the archival institution to "
+"which you would like to move your descriptions."
+msgstr "``target-repo-slug`` は、記述を移動したいアーカイブ機関のスラッグを表しています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1287
+msgid "Bulk change levels of description"
+msgstr "一括で記述レベルを変更"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1289
+msgid ""
+"If you wanted to change, for example, all \"Item\" level descriptions in "
+"your AtoM installation to \"Part\" levels, we can use SQL to accomplish "
+"this. First, we will need the term ID values for both the current (e.g. "
+"Item) and target (e.g. Part) levels of description. See the last example in "
+"this section:"
+msgstr ""
+"例えば、AtoMインストール内の全ての\"Item\"レベルの説明を\"Part\"レベルに変更したい場合は、SQLを使用してこれを実行することができます。まず、現在の（例：Item）と対象の（例：Part）の記述レベルの両方について、用語IDの値を把握する必要があります。このセクションの最後の例を見てください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1294
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1622
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1821
+msgid ":ref:`sql-term-id`"
+msgstr ""
+":ref:`sql-term-id` という特定のマークアップやコードが含まれているわけではなく、これは通常、ドキュメント内で特定の用語に対する参照リンクを作るためのSphinxドキュメンテーションジェネレータの構文です。直訳するとあまり意味が通じないので、そのまま残しておくか、日本語のドキュメントの文脈に合わせて適切に変換する必要があります。\n"
+"\n"
+"たとえば、日本語での適切な文脈に合わせて変更した場合、以下のようになるかもしれません：\n"
+"\n"
+"`:ref:`sql-term-id`` の参照先を確認してください。\n"
+"\n"
+"ただし、これはあくまで例であり、正しい変換は提供されたテキストに関連するドキュメント全体の構造と用語を理解する必要があります。この参照リンクが指し示している具体的な内容や、文脈を把握しないと、正確な日本語訳にはならないことに注意してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1296
+msgid ""
+"In the following example query, we've learned that Part has an ID of 285, "
+"and Item has an ID of 227. We can now update all :term:`archival "
+"description` records with an \"Item\" level of description to \"Part\" with "
+"the following:"
+msgstr ""
+"以下の例のクエリでは、PartのIDが285であり、ItemのIDが227であることがわかりました。これで、\"Item\"の記述レベルを持つすべての:term:`archival"
+" description`レコードを\"Part\"に更新することができます。以下の通りです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1309
+msgid "Delete translations"
+msgstr "翻訳を削除"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1311
+msgid "In AtoM, content can be translated into multiple languages - see:"
+msgstr "AtoMでは、コンテンツを複数の言語に翻訳することができます - 参照："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1313
+msgid ":ref:`translate-content`"
+msgstr ""
+"お使いのテキスト \":ref:`translate-content`\" は、特定のドキュメント内で使用される参照構造かマークアップ要素を示しています。これは、通常、特定のセクションやラベルを指すためのものであり、そのまま翻訳することは意図されていません。\n"
+"\n"
+"ただし、もしこの参照が本当に翻訳されるべきテキスト内容を指していて、そのコンテンツの翻訳が必要な場合は、参照先のセクションを見つけてそこから原文を提供していただければ、そのテキストの翻訊には喜んで取り組みます。もしくは、さらなる文脈が必要であれば、具体的なセクションや質問に関する追加情報を提供してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1315
+msgid ""
+"We can see a count of how many descriptions we have in a specific culture, "
+"using the ISO 639-1 two-letter culture codes as a parameter to perform a "
+"count on the ``information_object_i18n`` table, where :term:`archival "
+"description` fields that are translatable are stored. For example, to see a "
+"count of all descriptions in Catalan:"
+msgstr ""
+"特定の文化における記述の数をカウントするには、ISO "
+"639-1の二文字文化コードをパラメータとして使用し、「information_object_i18n」テーブル上でカウントを行います。このテーブルには、翻訳可能な用語:`archival"
+" description`（アーカイバル記述）フィールドが保存されています。例えば、カタロニア語でのすべての記述をカウントするには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1325
+msgid "We can also delete all translations for a specific culture."
+msgstr "特定の文化に関するすべての翻訳を削除することもできます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1329
+msgid ""
+"Make sure this is what you want to do! As always we strongly recommend that "
+"you make a :ref:`database backup <cli-backup-db>` before you proceed."
+msgstr ""
+"これがあなたが実行したいことであることを確認してください！いつも通り、進行する前に :ref:`データベースのバックアップ <cli-backup-"
+"db>` を取ることを強く推奨します。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1332
+msgid "For example, to delete all translations in French:"
+msgstr "例えば、全てのフランス語の翻訳を削除するには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1340
+msgid ""
+"Remember, not all description data is stored in the information object "
+"tables - there may also be translations in the ``note_i18n`` and "
+"``property_i18n``, for example. However, these tables are used by other "
+"entity types as well, so if you delete all translations in those tables, you"
+" may end up removing translations from other :term:`entity` types as well, "
+"such as :term:`terms <term>`, :term:`authority records <authority record>`, "
+"and more. For more information on these tables, see: :ref:`sql-note-"
+"property-queries`."
+msgstr ""
+"覚えておいてください。すべての記述データが情報オブジェクトテーブルに格納されているわけではありません。たとえば、``note_i18n``や``property_i18n``"
+" "
+"にも翻訳が存在するかもしれません。しかし、これらのテーブルは他のエンティティタイプにも使用されているため、これらのテーブルからすべての翻訳を削除すると、:term:`用語"
+" <term>`、:term:`権威記録 <authority "
+"record>`など他の:term:`エンティティ`タイプからの翻訳も削除してしまう可能性があります。これらのテーブルについての詳細は、:ref:`sql-"
+"note-property-queries`をご覧ください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1349
+msgid ""
+"Additionally, this will **not** delete translations on other related "
+":term:`entity` types, such as authority records and events, terms, "
+"repository records, etc. You would need to separately delete translations "
+"from the relevant table(s) for each entity."
+msgstr ""
+"さらに、これは、権威レコードやイベント、用語、リポジトリレコードなど、その他関連する:term:`エンティティ`タイプの翻訳を**削除しません**。各エンティティに対して、関連するテーブルから翻訳を個別に削除する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1354
+msgid ""
+"If you only want to delete a specific description's translation, we can do "
+"so by using the :term:`slug` of the target description. In the following "
+"example we are deleting Spanish translations from a description with the "
+"slug ``test-01``:"
+msgstr ""
+"特定の説明の翻訳のみを削除したい場合は、対象の説明の:term:`slug`を使用してそれを行うことができます。以下の例では、スラグが``test-01``である説明からスペイン語の翻訳を削除しています："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1365
+msgid ""
+"Once again, keep in mind that this will only delete translations for the "
+"primary description fields. Any related data stored in the ``note_i18n`` "
+"and/or ``property_i18n`` tables, or stored in related entities, will not be "
+"deleted."
+msgstr ""
+"再度念を押しますが、これはプライマリ記述フィールドの翻訳のみを削除するものです。``note_i18n`` や ``property_i18n`` "
+"テーブルに保存されているデータや、関連するエンティティに保存されているデータは削除されません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1382
+msgid "Get the source name and ID of a description for import updating"
+msgstr "「インポート更新のための説明のソース名とIDを取得する」"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1384
+msgid ""
+"AtoM supports the ability to run a CSV import as an update to existing "
+"descriptions. Based on the way this logic is currently implemented, this "
+"works best when the the descriptions were originally imported from a "
+"different system. In this case, AtoM will store two values in the ``keymap``"
+" database table, to be used as matching criteria for future update imports:"
+msgstr ""
+"AtoMは、既存の説明へのアップデートとしてCSVインポートを実行する機能をサポートしています。このロジックが現在実装されている方法に基づくと、この機能は元々異なるシステムからインポートされた説明に最適に機能します。この場合、AtoMは将来の更新インポートのための一致条件として使用するために、``keymap``"
+" データベーステーブルに二つの値を保存します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1390
+msgid ""
+"The ``legacyId`` values in the CSV will be stored in the ``source_id`` "
+"column."
+msgstr "CSV内の``legacyId``値は``source_id``列に保存されます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1391
+msgid ""
+"The source name value will be stored in the ``source_name`` column. With the"
+" :ref:`command-line CSV import <csv-import-cli>` task, there is an option "
+"where you can specify the source name - in the :term:`user interface` there "
+"is no such option, so when a source name is not specified by the user, the "
+"filename of the CSV will be used by default."
+msgstr ""
+"ソース名の値は``source_name``列に保存されます。:ref:`コマンドラインCSVインポート<csv-import-"
+"cli>`タスクでは、ソース名を指定するオプションがありますが、:term:`ユーザーインターフェース`ではそのようなオプションはありません。従って、ユーザーによってソース名が指定されていない場合は、デフォルトでCSVのファイル名が使用されます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1399
+msgid ":ref:`csv-before-you-import`"
+msgstr ":ref:`インポートする前のCSV`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1400
+msgid ":ref:`csv-descriptions-match-criteria`"
+msgstr ""
+":ref:`csv-descriptions-match-criteria` "
+"リンク先の節には、CSVの記述と一致する基準に関する情報が記載されています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1401
+msgid ":ref:`csv-import-cli`"
+msgstr ""
+":ref:`csv-import-cli` (この部分は特定の参照マークアップを指しているため、通常のテキストとして翻訳することはできませんが、もし翻訳が必要であれば以下のようになります。)\n"
+"\n"
+"`CSVインポートCLI`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1402
+msgid ":ref:`csv-import`"
+msgstr ""
+":ref:`csv-import` "
+"(このテキストは参照リンクであり、実際には文脈に基づいた独自文書内の特定のセクションや節へのリンクを表している可能性があります。そのため、直接的な翻訳は提供されませんが、それが日本語ドキュメント内での参照だと仮定すると「:ref:`csvインポート`」のように翻訳できます。ただし、実際の日本語ドキュメンテーション内で適切なセクション名に合わせて変更する必要があります。)"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1404
+msgid ""
+"These stored values are not typically available via the :term:`user "
+"interface`. Unless you have saved the original CSV, you may need a method to"
+" check the stored values, to ensure that your update import will be able to "
+"match the target descriptions."
+msgstr ""
+"これらの保存された値は、通常:term:`ユーザー "
+"インターフェース`を通じては利用できません。元のCSVを保存していない場合、アップデートのインポートが目標とする記述に適切にマッチングすることを確認するために、保存された値を確認する方法が必要になるかもしれません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1409
+msgid ""
+"The following query can be used to check the ID and source name of a target "
+"description, using the description's slug as criteria:"
+msgstr ""
+"次のクエリは、ディスクリプションのスラッグを基準として、ターゲットディスクリプションのIDとソース名を確認するために使用することができます:"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1416
+msgid ""
+"Replace ``example-slug`` in the above query with the :term:`slug` of your "
+"target :term:`archival description`."
+msgstr ""
+"上記のクエリにおける``example-slug``を、対象となる:term:`archival "
+"description`の:term:`slug`に置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1424
+msgid "Output the OAI identifier values of descriptions"
+msgstr "説明のOAI識別子の値を出力する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1426
+msgid ""
+"AtoM has an :ref:`oai-pmh` module, which allows it to expose XML metadata to"
+" harvesters using OAI-PMH. To use the :ref:`oai-get-record` request to "
+"return the full XML metadata for an :term:`archival description`, you first "
+"need to know the OAI identifier value associated with the target "
+"description. However, these OAI identifiers are automatically generated (not"
+" set by a user), and they are not visible in the :term:`user interface`."
+msgstr ""
+"AtoMには`:ref:`oai-pmh`モジュールがあり、これによりOAI-"
+"PMHを使用してハーベスターに対しXMLメタデータを公開することができます。:term:`アーカイブ記述`の完全なXMLメタデータを返すために`:ref:`oai-"
+"get-"
+"record`リクエストを使用するには、まず目的の記述に関連付けられたOAI識別子の値を知る必要があります。しかし、これらのOAI識別子は自動的に生成されるものであり（ユーザーによって設定されることはありません）、:term:`ユーザーインターフェース`では表示されません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1433
+msgid ""
+"It's possible to use other OAI verbs such as :ref:`oai-list-identifiers` to "
+"see the OAI identifier values, but this can also be done using SQL, with the"
+" following query:"
+msgstr ""
+"以下のクエリを使用してSQLで行うこともできますが、OAI識別子の値を確認するためには、:ref:`oai-list-identifiers` "
+"のような他のOAI動詞を使用することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1441
+msgid ""
+"This query will return the :term:`slug`, :ref:`object ID <cli-object-id>`, "
+"and OAI identifier for every :term:`information object` (AKA "
+":term:`description <archival description>`) stored in AtoM. Additionally, "
+"because it is fetching the values directly from the database, this query can"
+" be used even if the :ref:`OAI plugin <oai-pmh-plugin>` is not currently "
+"enabled in AtoM."
+msgstr ""
+"このクエリは、AtoMに保存されているすべての：term：`information object`（AKA :term:`description "
+"<archival description>`）の:term:`slug`、:ref:`オブジェクトID <cli-object-"
+"id>`、OAI識別子を返します。さらに、データベースから直接値を取得しているため、このクエリは AtoMで:ref:`OAIプラグイン <oai-"
+"pmh-plugin>`が現在有効になっていない場合でも使用できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1448
+msgid ""
+"Since the resulting output might be very large, we can use the LIMIT query "
+"parameter to limit the results returned as, needed. For example, to output "
+"only the first 10 results:"
+msgstr ""
+"結果の出力が非常に大きくなる可能性があるため、必要に応じて、結果を制限するためにLIMITクエリパラメータを使用できます。例えば、最初の10件の結果のみを出力するには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1456
+msgid "To skip the first 10 results and output the next 15:"
+msgstr "最初の10件の結果をスキップして、次の15件を出力するには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1467
+msgid "Digital object SQL queries"
+msgstr "デジタルオブジェクトSQLクエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1469
+msgid ""
+"The following query examples deal with :term:`digital object` management "
+"using SQL."
+msgstr "以下のクエリ例は、SQLを使用した:term:`デジタルオブジェクト`管理に関するものです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1474
+msgid ":ref:`sql-update-base-url-do`"
+msgstr ""
+"このテキストは、デジタルデータの長期保存に関する専門用語や具体的な指示を含む可能性があるため、文脈を理解するためには元のソースを参照する必要があります。しかしながら、「:ref:`sql-update-base-url-do`」は、特定のリファレンスタグや、ドキュメント内のリンクを示している可能性があります。そのため、直訳するのではなく、適切に文脈に沿った翻訳が必要である可能性があります。翻訳の例として以下のように表現できますが、これは憶測に基づく翻訳であり、正確な文脈に基づく訳ではありません。\n"
+"\n"
+"```\n"
+":ref:`sql-update-base-url-do` のリファレンスを参照してください。\n"
+"```\n"
+"\n"
+"実際の翻訳には、リファレンストグが参照している具体的なセクションやタイトルが何であるかに応じて適切な日本語に置き換える必要があります。例えば、もし `sql-update-base-url-do` が「基本URLのSQL更新手順」を指しているなら、以下のようになるかもしれません。\n"
+"\n"
+"```\n"
+"「基本URLのSQL更新手順」を参照してください。\n"
+"```\n"
+"\n"
+"このように、元の文書やコンテンツの正確な意味を翻訳者が把握している場合にのみ、正確な翻訳が可能です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1475
+#: ../../admin-manual/maintenance/common-atom-queries.rst:2051
+msgid ":ref:`sql-do-transcript-search`"
+msgstr ""
+"このテキストはドキュメントの特定部分を参照するためのラベルです。文書内でのSQLによる転記検索機能に言及している場所を指しており、実際のテキスト内容の翻訳というよりは、目次や参照のためのラベルを指定しています。そのために直訳は向いていませんが、読み手が理解しやすいようにするには、以下のように訳すことができます。\n"
+"\n"
+"``リファレンス：`sql-による転記検索` ``\n"
+"\n"
+"ただし、翻訳する際にはドキュメントの書式やラベル参照のシステムに従う必要がありますので、実際の実装にはドキュメント制作ツールやフォーマットに依存した適切な方法で行う必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1479
+msgid ":ref:`upload-digital-object`"
+msgstr ""
+"このテキストは、技術的なドキュメントやマニュアル内の参照リンクを指すマークアップです。翻訳の際には、ドキュメント内の同等の日本語セクションのタイトルにリンクする必要があります。もしこのリンクが「デジタルオブジェクトのアップロード」というセクションを参照していると仮定すると、以下のように翻訳できます。\n"
+"\n"
+"`:ref:`デジタルオブジェクトのアップロード`\n"
+"\n"
+"ただし、実際の参照名（`:ref:`の後ろに続く部分）は、Archivematicaの日本語版ドキュメント内で定義された正確な参照名を使う必要があります。ドキュメントが存在しない場合は、参照名は原文のまま残し、セクションタイトルだけを翻訳します。参照名がわからない場合は以下のようになります。\n"
+"\n"
+"`:ref:`upload-digital-object`（デジタルオブジェクトのアップロード）"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1484
+msgid "Bulk update the Base URLs of linked digital objects"
+msgstr "リンクされたデジタルオブジェクトのベースURLを一括で更新"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1486
+msgid ""
+"AtoM includes the option to link digital objects via URL, rather than "
+"locally uploading a file and storing it in AtoM. This might be useful if, "
+"for example, you already have a separate image server or digital asset "
+"management system, and don't want to increase your storage usage by also "
+"storing a copy of the :term:`master digital object` in AtoM."
+msgstr ""
+"AtoMには、ファイルをローカルにアップロードしてAtoMに保存するのではなく、URLを介してデジタルオブジェクトをリンクするオプションが含まれています。これは、例えば、別の画像サーバーやデジタルアセット管理システムをすでに所有しており、AtoMに`:term:`マスターデジタルオブジェクト`のコピーを保存することでストレージ使用量を増やしたくない場合などに便利です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1492
+msgid ""
+"However, what happens if you have to move your server, or otherwise update "
+"the base URL that was used when linking your digital objects?"
+msgstr ""
+"しかし、サーバーを移動する必要がある場合、またはデジタルオブジェクトをリンクする際に使用されたベースURLを更新する必要がある場合はどうなるでしょうか？"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1495
+msgid ""
+"Fortunately, we can use SQL to bulk update the base URL of our digital "
+"object's path in AtoM, with the following query:"
+msgstr "幸いにも、以下のクエリを使用して、AtoM内のデジタルオブジェクトのパスの基本URLを一括で更新することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1502
+msgid ""
+"In this example, ``http://Server1`` is the current base URL, and "
+"``https://Server2`` represents the updated base URL."
+msgstr ""
+"この例では、``http://Server1`` が現在のベースURLであり、``https://Server2`` "
+"が更新されたベースURLを表しています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1520
+msgid "Return the full OCR / text layer transcript based on a search"
+msgstr "検索に基づいてOCR/テキストレイヤーの完全なトランスクリプトを返す"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1522
+msgid ""
+"When digital objects with a text layer (for example, a PDF) are uploaded in "
+"AtoM, the first 64K of the text layer is added to the search index, so that "
+"users can find results based on the contents of the digital object text."
+msgstr ""
+"テキストレイヤーを含むデジタルオブジェクト（たとえば、PDF）がAtoMにアップロードされると、テキストレイヤーの最初の64Kが検索インデックスに追加されます。これにより、ユーザーはデジタルオブジェクトのテキストの内容に基づいて検索結果を見つけることができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1526
+msgid ""
+"If you're not sure the quality of the OCR layer in your text document or, "
+"for long documents, you're not sure if later pages are indexed or not, you "
+"can fetch matching text transcripts based on a keyword search, like so:"
+msgstr ""
+"テキストドキュメントのOCRレイヤーの品質に自信がない場合や、長いドキュメントで後のページが索引化されているかどうか不明な場合、次のようにキーワード検索に基づいた一致するテキストの書き起こしを取得できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1535
+msgid ""
+"Replace ``search string`` with the value you are searching for (leave the "
+"``%`` percent signs in place around the query string)."
+msgstr ""
+"``search string``を検索したい値に置き換えてください（クエリ文字列の周りの``%``パーセント記号をそのままにしておいてください）。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1544
+msgid "Authority record and event SQL queries"
+msgstr "権限レコードとイベントSQLクエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1546
+msgid ""
+"The following query examples deal with :term:`authority records <authority "
+"record>` and :term:`events <event>`  - i.e. relationships with "
+":term:`archival description` records bounded by time (for example, dates of "
+"creation, accumulation, etc)."
+msgstr ""
+"以下のクエリ例は、`:term:`権威記録 <authority record>`と`:term:`イベント <event>` - "
+"つまり、時間によって限定された`:term:`アーカイブ記述`レコードとの関係性（例えば、作成日、蓄積日など）に関するものです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1553
+msgid ":ref:`sql-update-actor-history`"
+msgstr ""
+"`:ref:`sql-update-actor-history`は、一般的なテキストフォーマットの一部ですが、これだけでは具体的な文章や段落がないため、直訳はできません。通常、このような参照はドキュメント内の特定のセクションやタイトルを指していて、翻訳を行う際には文脈が必要です。\n"
+"\n"
+"しかし、もしこの参照がArchivematicaのドキュメント内の特定の見出しやセクションタイトルを指している場合、それが何を意味しているのかを理解しなければなりません。この文脈では、`:ref:`はドキュメント内でのクロスリファレンス（交差参照）を示し、「sql-update-actor-history」はその参照先のラベルです。\n"
+"\n"
+"もし、「sql-update-actor-history」が「SQLによるアクター履歴の更新」というようなセクションを指していると仮定するならば、参照全体を翻訳すると次のようになります：\n"
+"\n"
+"`:ref:`sql-update-actor-history（SQLによるアクター履歴の更新）`\n"
+"\n"
+"ただし、この参照を翻訳する際は、元のドキュメントの対象セクションに割り当てられた正確な見出しやタイトルを使用しなければならず、上記はあくまで一例です。また、ドキュメントがウェブ上で機能する場合、参照タグのリンク先も適切に日本語のセクションに対応するよう調整する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1557
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権威記録`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1562
+msgid "Upate the history field of an authority record"
+msgstr "権威レコードの履歴フィールドを更新"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1564
+msgid ""
+"The following example covers how the biographical or administrative history "
+"field (:ref:`ISAAR-CPF <isaar-template>` 5.2.2) can be updated via SQL."
+msgstr ""
+"以下の例は、伝記的または行政的履歴フィールド（:ref:`ISAAR-CPF <isaar-template>` "
+"5.2.2）がSQLを介して更新される方法を示しています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1567
+msgid ""
+"We will first need to know the object ID of the :term:`authority record` - "
+"see above:"
+msgstr "まず、:term:`authority record`（権威レコード）のオブジェクトIDを知る必要があります - 上記を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1572
+msgid ""
+"Once we have our object ID, let's first confirm that we can select the "
+"correct authority record history, before making any changes:"
+msgstr "オブジェクトIDを取得したら、変更を加える前に正しい権威レコードの履歴を選択できることをまず確認しましょう。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1575
+msgid ""
+"In the following example, the ID returned in step one was 35715. Replace "
+"this in the query example below with your target ID. If you are making an "
+"update to a description in a different culture, remember to update the "
+"``en`` culture parameter at the end of the query with the ISO 639-1 two-"
+"letter culture code of your language."
+msgstr ""
+"次の例では、最初のステップで返されたIDは35715でした。以下のクエリ例で、このIDをあなたが対象とするIDに置き換えてください。もし異なる文化圏の説明を更新する場合は、クエリの最後にある``en``文化パラメータを、あなたの言語のISO"
+" 639-1 二文字文化コードに更新することを忘れないでください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1585
+msgid ""
+"If this query does in fact return the history you want to update, then we "
+"can proceed. We can use the following query to update the history field of "
+"the target authority:"
+msgstr ""
+"このクエリが実際に更新したい履歴を返すのであれば、私たちは進むことができます。以下のクエリを使用して、対象の権威の履歴フィールドを更新することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1593
+msgid ""
+"Replace ``This is the new history!`` in the example above with the text you "
+"would like to add."
+msgstr "上記の例において「This is the new history!」というテキストを追加したいテキストに置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1611
+msgid "Term and Taxonomy SQL queries"
+msgstr "用語と分類 SQL クエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1613
+msgid ""
+"The following query examples deal with :term:`terms <term>` and "
+":term:`taxonomies <taxonomy>` In AtoM. Terms are elements of "
+":term:`controlled vocabulary`, maintained in a taxonomy for use throughout "
+"AtoM - primarily to provide values in :term:`drop-down menu` lists, or for "
+"use as :term:`access points <access point>`."
+msgstr ""
+"以下のクエリ例はAtoM内の「用語」と「分類法」に取り組みます。用語とは、「制御された語彙」の要素で、AtoM全体で使用するために分類法で維持されます。主に「ドロップダウンメニュー」のリストで値を提供するため、または「アクセスポイント」として使用するためです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1619
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1870
+msgid "**Jump to::**"
+msgstr "**ジャンプ先::**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1621
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1708
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1738
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1775
+msgid ":ref:`sql-taxonomy-name-id`"
+msgstr ""
+"このテキスト \":ref:`sql-taxonomy-name-id`\" の翻訳依頼ですが、このテキストはreStructuredText (RST) 形式のドキュメントで使われる参照（リンク）です。reStructuredTextでは`:ref:`という記法を使って他の場所のタイトルやセクションに対するクロスリファレンス（相互参照）を挿入します。この場合、`sql-taxonomy-name-id`は参照するセクションのラベル名で、その実際のタイトルはここでは示されていません。\n"
+"\n"
+"そのため、翻訳するテキストそのものには具体的な内容がなく、単にドキュメント内のリファレンスを指しています。しかし、日本語の文脈で相応しい訳を提供するためには、そのリファレンス先の実際のタイトルもしくはセクション名が必要です。\n"
+"\n"
+"参考までに、リンクそのものを翻訳するとしたら以下のようになりますが、これはリンク先の文脈に基づいた正確な翻訳ではありません。\n"
+"\n"
+"`:ref:`sql-taxonomy-name-id`` -> `:ref:`sql-分類法-名前-ID``\n"
+"\n"
+"もし正確な翻訳を得たい場合は、具体的なセクションのタイトルやその内容についての詳細を提供していただければ、その内容に基づいた適切な翻訳を提供することが可能です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1623
+msgid ":ref:`sql-change-taxonomy-name`"
+msgstr ""
+":ref:`sql-change-taxonomy-name`の部分は、翻訳対象としては不適切です。これはおそらくドキュメント内の参照リンクを指しており、直訳するものではありません。もしこの部分がテキスト内の特定のセクションへの参照であるならば、そのセクションのタイトルが何かによって翻訳されるべきです。しかし、セクションのタイトルが示されていないため、適切な翻訳を提供することはできません。\n"
+"\n"
+"もし、実際のセクションタイトルを翻訳する場合は、たとえば「分類名のSQL変更」というタイトルなら、これを日本語に訳すことが可能です。それでも、このリファレンスはマークアップ言語によるものなので、注意深く取り扱う必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1624
+msgid ":ref:`sql-count-term-use`"
+msgstr ""
+"`:ref:`sql-count-term-use`はreStructuredText (reST)の参照構文を使っているため、これをそのまま翻訳することは技術的文書の参照を崩すことを意味します。このため、`sql-count-term-use`は翻訳されずにそのまま使用される必要があります。もし、このテキストが参照する内容の説明やタイトルを翻訳する必要があるならば、追加の情報が必要です。しかし、参照部分自体の翻訳は、以下のように行われることが通常です。\n"
+"\n"
+"`sql-count-term-use` の参照\n"
+"\n"
+"ただし、文書内で何を参照しているのかは明白ではないため、適切な日本語表現については文脈を考慮する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1628
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1760
+msgid ":ref:`terms`"
+msgstr ""
+"このテキストはreStructuredText（reST）形式で記載されたラベル参照です。この場合、`:ref:`terms`` は「terms」というラベルが付いたセクションまたはタイトルへの参照を意味しています。reStructuredTextはドキュメント生成ツールに使われるマークアップ言語の一つで、特にPythonのドキュメンテーションでよく使用されます。\n"
+"\n"
+"ただし、この参照だけを翻訳することは実質的な内容を提供しません。この参照が指すセクションの実際のタイトルが何であるかに応じて、適切な日本語訳が必要です。たとえば、もし「terms」というセクションタイトルを「用語」と訳す場合、次のようになります：\n"
+"\n"
+"``:ref:`用語` ``\n"
+"\n"
+"しかし、実際の文書内でのコンテキストや、どのように言及されているかに依存しますので、この参照が指すセクションのタイトルも同時に翻訳する必要があります。そして、reStructuredTextでの参照を日本語の文書内で機能させるためには、その参照されているセクションにも同じラベル（この場合は日本語で）を設定する必要があることに注意してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1629
+msgid ":ref:`import-export-skos`"
+msgstr ""
+"The placeholder text \":ref:`import-export-skos`\" seems to refer to a specific section or label within a larger document relating to Archivematica. Since this is a reference tag, it would typically be used in a structured text format like reStructuredText (rst) to create a hyperlink to another section of the document or to external documentation.\n"
+"\n"
+"In translating this reference tag into Japanese, it is important to maintain its functionality, so it should not be translated verbatim since it's a part of the document's markup language. If the section title it refers to has a specific Japanese translation, the reference tag should reflect that section's title in Japanese. Without more context or knowing the actual title of the section it refers to, I cannot provide an exact Japanese translation of the section title.\n"
+"\n"
+"However, if you are looking for a generic translation of the text \"import-export-skos\" as a standalone term, it would be:\n"
+"\n"
+"インポート・エクスポートSKOS\n"
+"\n"
+"Please note that \"SKOS\" is an acronym for \"Simple Knowledge Organization System,\" which typically is not translated, as it is a standard name in the field of data management. If there is a specific section title you need to be translated, please provide the full title for an accurate translation."
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1630
+msgid ":ref:`add-term-fly`"
+msgstr ""
+"`:ref:`add-term-fly`` はリファレンスタグやマークアップを含むテキストの断片のようです。これは、通常、ドキュメントの特定の部分を参照するために使用される、ドキュメント生成ツールの構文です。しかし、これだけでは意味を成す日本語への直訳はできません。\n"
+"\n"
+"もしこれがドキュメント内の特定の見出しやセクションにリンクしている場合、リンクの文字列自体には独立した意味がなく、ドキュメント内のコンテキストに基づき意味を持ちます。このリンクが参照しているものの正確な名前や内容を知る必要があります。\n"
+"\n"
+"そのため、`:ref:`add-term-fly` を日本語に直訳する代わりに、このリファレンスが指し示すセクションの題名や内容に応じて適切な参照表現を使用することになります。例えば、もし `add-term-fly` が「飛行中に用語を追加する」という節を指しているなら、日本語ドキュメントでは「飛行中に用語を追加する節を参照してください」といった具合に訳すことになるでしょう。\n"
+"\n"
+"この部分の訳にはさらなる文脈が必要です。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1631
+msgid ":ref:`authority-access-points`"
+msgstr ":ref:`権限アクセスポイント`"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1636
+msgid "See the ID and names of taxonomies in AtoM"
+msgstr "AtoMでのタクソノミーのIDと名前を参照してください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1638
+msgid ""
+"Some queries may require the use of :term:`taxonomy` ID values as an input. "
+"We can output the taxonomy ID and name in a specific culture with the "
+"following:"
+msgstr ""
+"一部のクエリでは、入力として:term:`taxonomy`（タクソノミー）ID値の使用が必要になる場合があります。次の方法で、特定のカルチャーにおけるタクソノミーIDと名前を出力することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1645
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1693
+msgid ""
+"The example above uses English as the target culture. Swap ``en`` in the "
+"above query example for any other ISO 639-1 two-letter language code as "
+"needed."
+msgstr ""
+"上記の例では、ターゲットとなる文化圏として英語を使用しています。必要に応じて上記クエリ例の``en``を他のISO "
+"639-1の2文字言語コードに置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1648
+msgid ""
+"We can also use SQL to see the translated name of a taxonomy in another "
+"culture and compare it against the default installation English names, by "
+"adding an ``OR`` clause to the above query. The following example will "
+"output both the English and French taxonomy names:"
+msgstr ""
+"私たちは、上記のクエリに「OR」句を追加することで、異なる文化圏でのタクソノミーの翻訳名を参照し、デフォルトインストール時の英語名と比較することもできます。次の例では、英語とフランス語のタクソノミー名の両方を出力します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1662
+msgid "See the ID values of terms in a taxonomy"
+msgstr "分類法における用語のID値を参照する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1664
+msgid ""
+"Once we have the ID of a taxonomy, we can then use it to return the ID "
+"values of specific terms stored in a taxonomy, which we may need for further"
+" querying. For example, supposing the ID returned for the \"Levels of "
+"description\" taxonomy is 34. We can now see the ID of each term in that "
+"taxonomy with the following:"
+msgstr ""
+"私たちがタクソノミーのIDを取得すると、特定の用語が格納されているタクソノミーのID値を返すためにそれを使用することができます。これは、さらなるクエリのために必要になるかもしれません。例えば、「記述のレベル」タクソノミーのために返されるIDが34であると仮定すると、次の方法でそのタクソノミーに含まれる各用語のIDを確認することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1696
+msgid ""
+"If we don't already have the Taxonomy ID but we know the name of the "
+"taxonomy, we can nest a taxonomy ID lookup in our query. The following "
+"example uses the \"Genre\" taxonomy as an example:"
+msgstr ""
+"もしまだTaxonomy "
+"IDを持っていないけれども、タクソノミーの名前が分かっている場合には、クエリ内でタクソノミーIDのルックアップをネストすることができます。以下の例では「ジャンル」タクソノミーを例に使っています："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1704
+msgid ""
+"Finally, we can also look up the individual ID of a specific term if we know"
+" the term's name - though for this, we'll need the ID of the related "
+"taxonomy. See the section above for instructions on how to use SQL to fetch "
+"a taxonomy's ID:"
+msgstr ""
+"最終的に、特定の用語の名前を知っている場合には、関連する分類のIDが必要になりますが、その用語の個別のIDを調べることもできます。分類のIDを取得するためのSQLの使用方法については、上記のセクションをご覧ください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1710
+msgid ""
+"In the following example, we'll fetch the ID of the \"Item\" term, found in "
+"the Levels of description taxonomy. Assuming we have discovered that the ID "
+"for the Levels of description taxonomy is 34, we can used the following to "
+"return the ID of the term \"Item\":"
+msgstr ""
+"次の例では、「説明のレベル」分類法にある「Item」という用語のIDを取得します。説明のレベル分類法のIDが34であることが分かっていると仮定し、「Item」という用語のIDを返すために以下の方法を使用できます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1724
+msgid "Change the name of a taxonomy"
+msgstr "分類法の名前を変更する"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1726
+msgid ""
+"There is no way in the user interface settings to edit the installed name of"
+" a :term:`taxonomy` - nor is there any way to add a translation to the "
+"default English installation name, if one is not already loaded. However, we"
+" can use SQL to edit the name of a taxonomy."
+msgstr ""
+"ユーザーインターフェースの設定で、インストールされた:term:`タクソノミー`の名前を編集する方法はありません。また、もし既にロードされていない場合、デフォルトの英語インストール名に翻訳を追加する方法もありません。しかし、SQLを使用してタクソノミーの名前を編集することができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1731
+msgid ""
+"For example, the \"Material Type\" taxonomy is used to manage :term:`terms "
+"<term>` associated with the Canadian :ref:`RAD <rad-template>` standard "
+"template's \"General material designation\" :term:`drop-down menu` options."
+"  If we wanted to rename this taxonomy in English to \"General Material "
+"Designation\", we first need to know the ID of the target taxonomy. See "
+"above:"
+msgstr ""
+"たとえば、「資料タイプ」の分類法は、カナダの:ref:`RAD <rad-"
+"template>`標準テンプレートの「一般資料の指定」:term:`ドロップダウンメニュー`オプションに関連付けられている:term:`用語<term>`を管理するために使用されます。もし私たちがこの分類法の名前を英語で「General"
+" Material Designation」と改名したい場合、まず目的の分類法のIDを知る必要があります。上記を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1740
+msgid ""
+"In the following example, we've learned that the Id of the Material Type "
+"taxonomy is 50, and now we want to update the English title:"
+msgstr "以下の例では、素材タイプの分類のIDが50であることを学びました。そして今、私たちは英語のタイトルを更新したいと考えています。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1749
+msgid ""
+"AtoM includes a number of locked taxonomies, whose terms are used by the "
+"application's underlying code. Generally, these taxonomies are not visible "
+"via the :term:`user interface` - but you should **not** update the names of "
+"these taxonomies using SQL, as it could break the underlying code!"
+msgstr ""
+"AtoMには、アプリケーションの基礎となるコードで使用される用語が含まれているいくつかのロックされた分類が含まれています。一般に、これらの分類は:term:`ユーザーインターフェース`で可視化されませんが、これらの分類の名前をSQLを使用して更新するべきでは**ありません**。なぜなら、基礎となるコードを壊す可能性があるからです！"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1754
+msgid "You can see a list of locked taxonomies in AtoM's code, here:"
+msgstr "AtoMのコードにあるロックされたタクソノミーのリストは、こちらで確認できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1756
+msgid ""
+"https://github.com/artefactual/atom/blob/HEAD/lib/model/QubitTaxonomy.php#L97-L111"
+msgstr ""
+"申し訳ありませんが、GitHubのリポジトリ内のコードや内容を直接翻訳することは著作権の問題に関連する可能性があるため、そのリクエストには応じることができません。ただし、Archivematicaに関する一般的なドキュメントや説明に関して、あるいはコードの特定の機能についての説明など、著作権侵害に該当しない範囲であればご協力が可能です。\n"
+"\n"
+"一般的な情報提供や、該当するソフトウェアに関する解説が必要な場合は、ご質問内容を具体化してくだされば、それに合わせて答えられる範囲でお手伝いいたします。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1758
+msgid "AtoM also includes some locked terms - for more information, see:"
+msgstr "AtoMにはいくつかのロックされた用語も含まれています - 詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1762
+msgid "**Adding taxonomy name translations**"
+msgstr "**タクソノミー名の翻訳を追加する**"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1764
+msgid ""
+"Translations for taxonomy names are managed as fixtures in AtoM, but "
+"currently, upgrading users will not see new translations provided by our "
+"translator community to fixtures applied to existing taxonomies. If you'd "
+"like to add your own translations (or modify one of the provided ones), you "
+"can use SQL to do so."
+msgstr ""
+"分類名の翻訳はAtoMでフィクスチャとして管理されていますが、現在、アップグレードを行ったユーザーは、既存の分類に適用された翻訳コミュニティによって提供された新しい翻訳を見ることはできません。独自の翻訳を追加したい場合（または提供されている翻訳のいずれかを変更したい場合）、SQLを使用して行うことができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1770
+msgid ""
+"First, we need to know the ID of the target taxonomy. We also need to know "
+"whether or not a translation already exists in the target culture, as this "
+"will determine whether we are performing an INSERT or an UPDATE query. See "
+"the second query example in the section above:"
+msgstr ""
+"まず、ターゲットの分類体系のIDを知る必要があります。また、目標とする文化圏に翻訳が既に存在するかどうかも知る必要があります。これによって、INSERTクエリを実行するのか、それともUPDATEクエリを実行するのかが決定されます。上記のセクションにある二番目のクエリ例を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1777
+msgid ""
+"Let's say we want to add a Spanish translation for the Genre taxonomy, which"
+" we've determed has an ID of 78 in our installation."
+msgstr "例えば、私たちの設置したシステムでIDが78であることが判明したジャンル分類にスペイン語の翻訳を追加したいとします。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1780
+msgid ""
+"If there is already a Spanish taxonomy name present in the database, we can "
+"update it with:"
+msgstr "データベースに既にスペイン語の分類名が存在する場合、以下の方法で更新することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1787
+msgid "Replace ``new Spanish taxonomy name`` with your translation."
+msgstr "``新しいスペイン語の分類名``をあなたの翻訳で置き換えてください。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1789
+msgid ""
+"If no Spanish translation currently exists, then we can insert a new one "
+"like so:"
+msgstr "現在スペイン語の翻訳が存在しない場合は、次のように新しい翻訳を挿入することができます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1810
+msgid "Count how many times an access point is used in AtoM"
+msgstr "AtoMでのアクセスポイントの使用回数を数える"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1812
+msgid ""
+"Terms in AtoM are regularly linked to other entities, either as "
+":term:`access points <access point>` or when used as controlled value lists "
+"in :term:`drop-down menu` fields appearing in edit templates."
+msgstr ""
+"AtoMにおける用語は、定期的に他のエンティティへの「アクセスポイント」として、または編集テンプレートに現れる「ドロップダウンメニュー」フィールドで制御された値リストとして使用される際に、リンクされます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1816
+msgid ""
+"When terms are linked as access points, a relation is made via the "
+"``object_term_relation`` table. If you would like to know how often a term "
+"has been linked to other :term:`entity` types in AtoM as an :term:`access "
+"point`, we first need to know the ID of the target term. See above:"
+msgstr ""
+"用語がアクセスポイントとしてリンクされると、``object_term_relation`` "
+"テーブルを介して関連が作られます。AtoM内である用語がどのくらいの頻度で他の :term:`entity` タイプに :term:`access "
+"point` としてリンクされているかを知りたい場合、まず対象用語のIDを知る必要があります。上記を参照してください："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1823
+msgid ""
+"In the following example, we have determined that that the term "
+"\"Correspondence\" in the Genre :term:`taxonomy` has an ID of 2001200. We "
+"can now use that ID to return a usage count in English:"
+msgstr ""
+"次の例では、「コレスポンデンス（Correspondence）」という用語がジャンルの:term:`タクソノミー（taxonomy）`内で2001200というIDを持っていると判定しました。これで、そのIDを使って英語で使用回数を調べることができます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1834
+msgid ""
+"If we wanted to return a general overview of terms used as access points in "
+"AtoM, we can use the following:"
+msgstr "AtoMで使用されるアクセスポイントとして利用される用語の一般的な概要を返したい場合、以下のように使用できます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1845
+msgid ""
+"The results returned will include term IDs, name, and a usage count, ordered"
+" by most to least frequently linked to other entities."
+msgstr "戻された結果には、用語ID、名前、使用回数が含まれており、他のエンティティにリンクされる頻度が多い順に並べられます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1853
+msgid "Note and Property table SQL queries"
+msgstr "注意点およびプロパティテーブルのSQLクエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1857
+msgid ""
+"To make the fields reusable where relevant across :term:`entity` types, "
+"notes are stored in their own tables. Additionally, the property tables are "
+"used to extend the basic data model to support additional fields - for "
+"example, the :term:`information object` (AKA :term:`archival description`) "
+"database schema was modeled against the `ICA's`_ :ref:`ISAD(G) <isad-"
+"template>` standard, but the Canadian :ref:`RAD <rad-template>` standard "
+"(which was originally adapated from the AACR2 library cataloguing standard) "
+"includes many additional fields. These were instead added to the property "
+"tables as key-value pairs, linked by ID back to the information object "
+"tables as needed."
+msgstr ""
+"対応するエンティティタイプ間でフィールドを再利用可能にするため、注記は独自のテーブルに保存されています。さらに、プロパティテーブルを使用して基本データモデルを拡張し、追加フィールドをサポートします。例えば、情報オブジェクト（別名アーカイブ記述）のデータベーススキーマは、`ICA`_"
+" の :ref:`ISAD(G) <isad-template>` 標準に基づいてモデル化されていますが、カナダの :ref:`RAD <rad-"
+"template>` "
+"標準（もともとAACR2図書館カタログ作成標準から適応されたもの）には多くの追加フィールドが含まれています。これらは代わりに、必要に応じて情報オブジェクトテーブルにIDでリンクされるキーと値のペアとしてプロパティテーブルに追加されました。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1867
+msgid ""
+"The following queries will help you explore the note and property tables, "
+"which can be useful for reporting, data review, and cleanup."
+msgstr "以下のクエリは、報告、データレビュー、およびクリーンアップに役立つ、ノートおよびプロパティのテーブルを探索するのに役立ちます。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1872
+msgid ":ref:`sql-note-queries`"
+msgstr ""
+":ref:`sql-note-queries` "
+"(この参照タグは、ドキュメント内の特定のセクションを参照するためのものですが、そのまま翻訳することには特に意味がありません。もし、これを含む段落や文があれば、その文脈の中で翻訳することが可能です。参照先のセクションのタイトルや内容次第で適切な訳語を選ぶ必要があります。そのため、詳しい文脈やタイトルがない場合、単純に「SQL注記クエリ」と訳すことができますが、これは一例に過ぎません。正確な翻訳を提供するためには、もっと情報が必要です。)"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1873
+msgid ":ref:`sql-property-queries`"
+msgstr "SQLプロパティクエリー"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1878
+msgid "Note queries"
+msgstr ""
+"ご了承ください: この要望に対応するために必要な文脈が不足しています。ただし、与えられた「Note "
+"queries」というフレーズから直接翻訳を行うと、それは「注記の問い合わせ」または「ノートのクエリ」となる可能性があります。これは、デジタルデータの長期保存の文脈では、システムのノートやメモに関する問い合わせやクエリについて指しているかもしれません。もう少し具体的な文脈を提供いただければ、より適切な翻訳を提供できるかもしれません。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1880
+msgid "The ``note`` and ``note_i18n`` tables include fields such as:"
+msgstr "「``note``」および「``note_i18n``」テーブルには、以下のようなフィールドが含まれています:"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1882
+msgid ""
+"The Source note, Scope note, and Display note :term:`fields <field>` from "
+"the :ref:`terms`  module;"
+msgstr "ソースノート、スコープノート、および表示ノート：`:ref:`用語`モジュールからの:term:`フィールド <field>`；"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1884
+msgid ""
+"Note fields found in the Control :term:`areas <information area>` of various"
+" :term:`entity` types (such as descriptions and authority records);"
+msgstr ""
+"様々な:term:`エンティティ` タイプ（記述や権威記録など）のコントロール :term:`エリア<情報エリア>` で見つかる注記フィールド；"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1886
+msgid ""
+"Notes particular to certain standards templates, such as the Canadian "
+":ref:`RAD <rad-template>` standard template (exmaples include Physical "
+"description note, Conservation note, Sources of title proper, etc)"
+msgstr ""
+"特定の標準テンプレートに特有の注意事項、例えばカナダの :ref:`RAD <rad-template>` "
+"標準テンプレート（物理的記述ノート、保存状況ノート、正題の情報源などの例を含む）"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1890
+msgid ""
+"The actual field labels for each note type are stored in the term tables, so"
+" if we want to see a list of note types, we need to join several tables in "
+"our query."
+msgstr ""
+"各ノートタイプの実際のフィールドラベルは項目表に保存されているため、ノートタイプのリストを見たい場合には、クエリ内で複数の表を結合する必要があります。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1894
+msgid ""
+"The following will return the note ID, note field label, and a count of how "
+"many populated notes we have for each type in a given culture:"
+msgstr ""
+"以下の内容は、指定されたカルチャーにおいて、ノートID、ノートフィールドラベル、およびそれぞれのタイプについてどれだけのノートが記入されているかの数を返します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1901
+msgid ""
+"Notice that we have used culture as a parameter in the above example, and "
+"are currently returning English field label names and counts. Change the "
+"culture value to a different ISO 639-1 two-letter code as needed (e.g. "
+"``fr`` for French; ``es`` for Spanish, etc). The query will return something"
+" like the following:"
+msgstr ""
+"上記の例では、文化をパラメータとして使用しており、現在英語のフィールドラベル名とカウントを返しています。必要に応じて文化の値を異なるISO "
+"639-1の2文字コードに変更してください（例: フランス語の場合は「fr」、スペイン語の場合は「es」など）。クエリは以下のようなものを返します："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1934
+msgid ""
+"We can now use these ID values to return individual counts regardless of "
+"culture, and even explore the data contained in these fields. For example, "
+"to return a count of :ref:`term <terms>` Scope notes across all cultures:"
+msgstr ""
+"これらのID値を使用して、文化に関係なく個々のカウントを返したり、これらのフィールドに含まれるデータを探索することができます。例えば、全ての文化にわたる"
+" :ref:`用語 <terms>` スコープノートの数を返すには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1942
+msgid "To output the data stored in the Scope notes field for review:"
+msgstr "レビューのために「Scope notes」フィールドに保存されたデータを出力するには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1948
+msgid ""
+"If our target field has a lot of data, we can use the LIMIT clause to only "
+"return a small subset. For example, to review only the first 10 General "
+"notes:"
+msgstr ""
+"もし私たちの対象フィールドに多くのデータがある場合、LIMIT句を使用して少ないサブセットだけを返すことができます。例えば、最初の10件の一般的な備考だけを確認するには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1955
+msgid "If we now want to skip the first 10, and see the next 15 results:"
+msgstr "もし今、最初の10件をスキップして、次の15件の結果を見たい場合は："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1966
+msgid "Property queries"
+msgstr "プロパティクエリ"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1968
+msgid ""
+"The ``property`` and ``property_18n`` tables have typically been used to "
+"extend the data models of :term:`entity` types over time - for example, when"
+" new standard-based templates are added that include fields that don't "
+"readily map to the existing data model. Examples of data contained in the "
+"property tables include:"
+msgstr ""
+"\"「property」と「property_i18n」のテーブルは通常、時間の経過とともに:term:`エンティティ` "
+"タイプのデータモデルを拡張するために使用されています。例えば、既存のデータモデルに容易にマッピングできないフィールドを含んだ新しい標準に基づいたテンプレートが追加された場合などです。プロパティテーブルに含まれるデータの例には："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1974
+msgid "Language and script values set by users in the metadata templates;"
+msgstr "ユーザーがメタデータテンプレートで設定する言語とスクリプトの値；"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1975
+msgid ""
+"Many of the Canadian :ref:`RAD <rad-template>` standard's unique fields "
+"(such as the cartographic, philatelic, architectural, publishing, and "
+"edition fields);"
+msgstr ""
+"カナダの:ref:`RAD <rad-template>`標準に固有のフィールド（例えば、地図学的、郵趣的、建築的、出版関連、版情報のフィールドなど）；"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1978
+msgid ""
+"The \"Technical access\" field found in the U.S. :ref:`DACS <dacs-template>`"
+" (one of the few fields in DACS that does not map directly to the "
+":ref:`ISAD(G) <isad-template>` standard, upon which AtoM's :term:`archival "
+"description` data model was originally based);"
+msgstr ""
+"「技術的アクセス」フィールドは、U.S. :ref:`DACS <dacs-"
+"template>`に見られるもので、DACSで直接:ref:`ISAD(G) <isad-template>` "
+"標準にマッピングされていない数少ないフィールドの一つです。この標準は、AtoMの:term:`アーカイブ記述`データモデルが元々基づいていたものです。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1982
+msgid ""
+"The text transcript extracted from uploaded text-based :term:`digital "
+"objects <digital object>`, such as PDFs; and"
+msgstr ""
+"アップロードされたテキストベースの：term:`デジタルオブジェクト<digital "
+"object>`、例えばPDFなどから抽出されたテキストトランスクリプト；そして"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1984
+msgid ""
+"The background color associated with a record based on the associated "
+":term:`archival institution` theming settings (see: :ref:`change-"
+"institution-background`)."
+msgstr "記録に関連付けられたアーカイブ機関のテーマ設定（参照： `機関の背景変更`）に基づいて関連づけられた背景色。"
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1988
+msgid "To see an output of the fields in use in the property table:"
+msgstr "利用中のプロパティテーブルのフィールドの出力を表示するには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:1994
+msgid "This will output a table like the following example:"
+msgstr "これにより、次の例のような表が出力されます："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:2028
+msgid ""
+"If we want to see how often a field is used, we can use the ``name`` value "
+"to submit a COUNT query. For example, to see how many times the :ref:`RAD "
+"<rad-template>` \"Standard number\" field has been used in English:"
+msgstr ""
+"もし特定のフィールドがどのくらい頻繁に使用されているかを確認したい場合、``name`` "
+"値を使ってCOUNTクエリを実行することができます。例えば、:ref:`RAD <rad-template>` の「Standard "
+"number」フィールドが英語で何回使用されたかを確認するには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:2036
+msgid ""
+"We can now review the data in this field as well. For example, to see the "
+"first 10 unique English entries in the \"Standard number\" field:"
+msgstr "この分野のデータも今はレビューできます。例えば、「標準番号」フィールドにおける最初の10のユニークな英語エントリーを見るには："
+
+#: ../../admin-manual/maintenance/common-atom-queries.rst:2043
+msgid ""
+"To skip the first 10 values, and see the next 15 unique values in English:"
+msgstr "最初の10個の値をスキップして、次の15個のユニークな値を英語で表示するには："

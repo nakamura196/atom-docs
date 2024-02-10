@@ -1,0 +1,1300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../dev-manual/api/browse-io.rst:5
+msgid "Browse information objects endpoint"
+msgstr "情報オブジェクトのエンドポイントを閲覧"
+
+#: ../../dev-manual/api/browse-io.rst:7
+msgid "**GET /api/informationobjects**"
+msgstr ""
+"**GET /api/informationobjects** を日本語に直訳すると、「GET /api/informationobjects」となります。この文脈では、APIのエンドポイントを指しており、そのままの形で用いられることが多いです。\n"
+"\n"
+"ただし、説明を加える場合は以下のようになります。\n"
+"\n"
+"**APIエンドポイント GET /api/informationobjects の取得**"
+
+#: ../../dev-manual/api/browse-io.rst:9
+msgid ""
+"This endpoint will obtain a list of :term:`information objects <information "
+"object>` (AKA :term:`archival descriptions <archival description>`) and the "
+"total count. The results can be filtered using the same parameters as the "
+"advanced search page (detailed below)."
+msgstr ""
+"このエンドポイントは、:term:`情報オブジェクト<information object>`（またの名を "
+":term:`アーカイブ記述<archival "
+"description>`）のリストと総数を取得します。結果は、アドバンスドサーチページと同じパラメータを使用してフィルタリングすることができます（下記で詳細）。"
+
+#: ../../dev-manual/api/browse-io.rst:17
+msgid ""
+"For more information on working with :term:`archival description` records in"
+" AtoM, see: :ref:`archival-descriptions`. For further information on "
+"Advanced search, see: :ref:`advanced-search`"
+msgstr ""
+"AtoMでの:term:`archival "
+"description`（アーカイブ記述）レコードの取り扱いに関する詳細情報は、:ref:`archival-"
+"descriptions`を参照してください。高度な検索に関する更なる情報については、:ref:`advanced-search`をご覧ください。"
+
+#: ../../dev-manual/api/browse-io.rst:21
+msgid "Information object fields returned include:"
+msgstr "返される情報オブジェクトのフィールドには以下が含まれます："
+
+#: ../../dev-manual/api/browse-io.rst:23
+msgid ""
+"**reference_code**: The full inherited :term:`reference code` of the "
+"description. If the Admin setting for :ref:`reference code inheritance "
+"<inherit-reference-code>` is turned off, then only the identifier will be "
+"included in the response."
+msgstr ""
+"**参照コード**: 説明に関する完全な継承された:term:`参照コード`です。管理者設定で:ref:`参照コード継承 <inherit-"
+"reference-code>`がオフにされている場合、識別子のみがレスポンスに含まれます。"
+
+#: ../../dev-manual/api/browse-io.rst:27
+msgid "**slug**: the :term:`slug` of the description assigned by AtoM."
+msgstr "**スラグ**: AtoMによって割り当てられた説明の:term:`スラグ`。"
+
+#: ../../dev-manual/api/browse-io.rst:28
+msgid ""
+"**title**: the formal or supplied title of the description; equivalent to "
+"ISAD(G) 3.1.2."
+msgstr "**タイトル**：説明の公式または提供されたタイトル。ISAD(G) 3.1.2に相当します。"
+
+#: ../../dev-manual/api/browse-io.rst:30
+msgid ""
+"**creators**: The names of any :term:`creators <creator>` associated with "
+"the description; equivalent to ISAD(G) 3.2.1 or ISAAR(CPF) 5.1.2. Can return"
+" multiple values."
+msgstr ""
+"**作成者**: 説明に関連する任意の:term:`創作者 <creator>`の名前；ISAD(G) 3.2.1またはISAAR(CPF) "
+"5.1.2に相当します。複数の値を返すことができます。"
+
+#: ../../dev-manual/api/browse-io.rst:33
+msgid ""
+"**creation_dates**: Dates of creation. Equivalent to ISAD(G) 3.1.3; however,"
+" only creation dates will be returned - other types (e.g. accumulation, "
+"broadcasting, etc) are not included in the response. Can return multiple "
+"values."
+msgstr ""
+"**作成日**: 作成日。ISAD(G) "
+"3.1.3に相当しますが、返されるのは作成日のみであり、他の種類（たとえば、蓄積、放送など）は回答に含まれません。複数の値を返すことができます。"
+
+#: ../../dev-manual/api/browse-io.rst:37
+msgid ""
+"**level_of_description**: The :term:`level of description` of the "
+"description."
+msgstr "**記述のレベル**: 記述における:term:`記述のレベル`。"
+
+#: ../../dev-manual/api/browse-io.rst:39
+msgid ""
+"**repository**: the :term:`archival institution` associated with the "
+"description."
+msgstr "**リポジトリ**: 記述に関連する:term:`アーカイブ機関`。"
+
+#: ../../dev-manual/api/browse-io.rst:41
+msgid ""
+"**physical_characteristics**: Physical characteristics and technical "
+"requirements; equivalent to ISAD(G) 3.4.4."
+msgstr "**物理的特性**: 物理的特徴と技術的要件；ISAD(G) 3.4.4に相当。"
+
+#: ../../dev-manual/api/browse-io.rst:43
+msgid ""
+"**place_access_points**: :term:`place` :term:`access points <access point>` "
+"that have been associated with the description. Can return multiple values."
+msgstr ""
+"**place_access_points**: 説明に関連付けられた:term:`place` :term:`access points "
+"<access point>`。複数の値を返すことがあります。"
+
+#: ../../dev-manual/api/browse-io.rst:45
+msgid ""
+"**thumbnail_url**: the path to the :term:`thumbnail` of a linked "
+":term:`digital object` associated with the description."
+msgstr "**thumbnail_url**: 記述に関連付けられた:term:`デジタルオブジェクト`の:term:`サムネイル`へのパス。"
+
+#: ../../dev-manual/api/browse-io.rst:48
+msgid ""
+"When returning the response, :term:`draft <draft record>` descriptions will "
+"be hidden, but other ACL rules will be ignored (including thumbnail "
+"restrictions) for performance reasons."
+msgstr ""
+"レスポンスを返す際には、:term:`ドラフト<draft "
+"record>`の説明は非表示となりますが、パフォーマンスの理由からその他のACLルール（サムネイルの制限を含む）は無視されます。"
+
+#: ../../dev-manual/api/browse-io.rst:52
+msgid ""
+"The amount of results returned in a response is limited by the global Admin "
+"setting for :ref:`results-page`. The **skip** parameter (described below) "
+"can be used to page results - for example, if 10 results are returned in the"
+" first request, following request can include a parameter to skip the first "
+"10 records in the response."
+msgstr ""
+"応答で返される結果の件数はグローバルな管理者設定によって制限されています。`:ref:`results-page` についてです。**skip** "
+"パラメータ（以下に説明）を使用して結果をページングすることができます - "
+"例えば、最初のリクエストで10件の結果が返された場合、次のリクエストには応答の最初の10件のレコードをスキップするパラメータを含めることができます。"
+
+#: ../../dev-manual/api/browse-io.rst:61
+msgid "Example request"
+msgstr "以下は、依頼の一例です。"
+
+#: ../../dev-manual/api/browse-io.rst:71
+msgid "Example response"
+msgstr "すみませんが、翻訳するテキストが提供されていません。翻訳するテキストを提供していただけますか？それによって、お手伝いできます。"
+
+#: ../../dev-manual/api/browse-io.rst:199
+msgid "Request parameters"
+msgstr "リクエストパラメーター"
+
+#: ../../dev-manual/api/browse-io.rst:201
+msgid ""
+"All search and filter parameters available to users via the :ref:`advanced-"
+"search` :term:`user interface` can also be used as parameters to filter the "
+"API endpoint's response, including :term:`boolean <boolean search>` queries."
+" In most cases, the implementation is identical, with a few variations "
+"outlined below. Further examples of how to construct the requests with "
+"parameters are included below the explanatory notes for the available "
+"parameters."
+msgstr ""
+"利用者が :ref:`advanced-search` :term:`user "
+"interface`を通じてアクセスできる全ての検索及びフィルターパラメータは、:term:`boolean <boolean "
+"search>`クエリを含むが、APIエンドポイントのレスポンスをフィルターするためのパラメータとしても使用可能です。ほとんどの場合、実装は同一ですが、以下に概説するいくつかの違いがあります。使用可能なパラメータに関する説明的なメモの下には、パラメータを使用してリクエストを構築する方法のさらなる例が含まれています。"
+
+#: ../../dev-manual/api/browse-io.rst:212
+msgid "Boolean criteria parameters"
+msgstr "ブール条件パラメーター"
+
+#: ../../dev-manual/api/browse-io.rst:214
+msgid "**sq0**: Query string. Used submit search terms."
+msgstr "**sq0**: クエリ文字列。検索項目を送信するために使用されます。"
+
+#: ../../dev-manual/api/browse-io.rst:215
+msgid ""
+"**so0**: Query operator. Available options are ``and``, ``or``, and ``not``."
+" The default operator when the parameter is not included is ``and``."
+msgstr ""
+"**so0**: クエリ演算子。利用可能なオプションは ``and``、``or``、そして ``not`` "
+"です。パラメータが含まれていない場合のデフォルト演算子は ``and`` です。"
+
+#: ../../dev-manual/api/browse-io.rst:217
+msgid ""
+"**sf0**: Query field. Used to limit the boolean parameters to searching "
+"within a specific :term:`field` of the information objects. Options include:"
+msgstr ""
+"**sf0**：クエリフィールド。論理パラメータを情報オブジェクトの特定の:term:`field`内での検索に限定するために使われます。オプションには以下が含まれます："
+
+#: ../../dev-manual/api/browse-io.rst:220
+msgid ""
+"``_all`` : Search all indexed fields. When no sf0 parameter is included, "
+"this is the default."
+msgstr "``_all`` : すべてのインデックスされたフィールドを検索します。sf0パラメータが含まれていない場合、これがデフォルトです。"
+
+#: ../../dev-manual/api/browse-io.rst:222
+msgid ""
+"``title``: Limit boolean search query to title field - the formal or "
+"supplied title of the description; equivalent to  ISAD(G) 3.1.2."
+msgstr ""
+"``タイトル``: タイトルフィールドにブール検索クエリを制限 - 記述の公式もしくは提供されたタイトル；ISAD(G) 3.1.2 に相当。"
+
+#: ../../dev-manual/api/browse-io.rst:224
+msgid "``identifier``: Limit boolean search to the identifier field."
+msgstr "``識別子``：ブール検索を識別子フィールドに制限します。"
+
+#: ../../dev-manual/api/browse-io.rst:225
+msgid ""
+"``referenceCode``: Limit boolean search to the full inherited "
+":term:`reference code` value of descriptions"
+msgstr "``referenceCode``: 検索対象を説明の完全継承された用語の``参照コード``の値に限定するブーリアン検索"
+
+#: ../../dev-manual/api/browse-io.rst:227
+msgid ""
+"``scopeAndContent``: Limit boolean search query to the Scope and content "
+"field; equivalent to ISAD(G) 3.3.1"
+msgstr "``scopeAndContent``：ブール検索クエリを「範囲と内容」のフィールドに限定する；ISAD(G) 3.3.1に相当"
+
+#: ../../dev-manual/api/browse-io.rst:229
+msgid ""
+"``archivalHistory``: Limit boolean search query to the Archival history "
+"field; equivalent to ISAD(G) 3.2.3"
+msgstr "``archivalHistory``：アーカイバル履歴フィールドに対するブール検索クエリを限定する；ISAD(G) 3.2.3に相当する"
+
+#: ../../dev-manual/api/browse-io.rst:231
+msgid ""
+"``extentAndMedium``: Limit boolean search query to the Extent and medium "
+"field; equivalent to ISAD(G) 3.1.5"
+msgstr ""
+"``extentAndMedium``: ブール検索クエリを「範囲と媒体」フィールドに限定する。これはISAD(G) 3.1.5に相当します。"
+
+#: ../../dev-manual/api/browse-io.rst:233
+msgid ""
+"``genre``: Limit boolean search query to genre :term:`access points <access "
+"point>` associated with descriptions."
+msgstr "``ジャンル``: 説明に関連付けられた :term:`アクセスポイント <アクセスポイント>` にブール検索クエリを限定します。"
+
+#: ../../dev-manual/api/browse-io.rst:235
+msgid ""
+"``subject``: Limit boolean search query to :term:`subject` :term:`access "
+"points <access point>` associated with descriptions."
+msgstr "件名に関連する記述に関連付けられた用語「アクセスポイント<アクセスポイント>」にブール検索クエリを制限します。"
+
+#: ../../dev-manual/api/browse-io.rst:237
+msgid ""
+"``name``: Limit boolean search query to name :term:`access points <access "
+"point>` associated with descriptions (e.g. :term:`authority records "
+"<authority record>` associated with a description not as a :term:`creator` "
+"but as a name access point)."
+msgstr ""
+"``名前``：説明に関連付けられている用語：`アクセス ポイント`にブール検索クエリを制限します（例：説明に関連付けられている "
+":term:`権威レコード<authority record>` を、作成者としてではなく、名前アクセスポイントとして）。"
+
+#: ../../dev-manual/api/browse-io.rst:241
+msgid ""
+"``place``: Limit boolean search query to :term:`place` :term:`access points "
+"<access point>` associated with descriptions."
+msgstr "``場所``：検索クエリを説明と関連付けられた:term:`場所` :term:`アクセスポイント<アクセスポイント>`に限定します。"
+
+#: ../../dev-manual/api/browse-io.rst:244
+msgid ""
+"An unlimited number of criteria can be sent by incrementally increasing the "
+"number in the above parameters (e.g. ``sq1``, ``so1``, ``sf1``, etc). They "
+"must by consecutive numbers starting at zero and the only required parameter"
+" is the query string."
+msgstr ""
+"無制限の数の基準を、上記のパラメータの数を増やして段階的に送信することができます（例: "
+"``sq1``、``so1``、``sf1``等）。それらはゼロから始まる連続した数字でなければならず、唯一必要なパラメータはクエリ文字列です。"
+
+#: ../../dev-manual/api/browse-io.rst:251
+msgid ""
+"It is possible to pass query operators within a single combined string by "
+"directly adding ``AND``, ``OR``, or ``AND NOT`` to your query string value. "
+"This is best tested and explored by playing with the advanced search "
+"interface in AtoM, and using the URL parameters returned with the response "
+"as parameters for the API. For example, if you use the advanced search "
+"interface, and add \"taxes AND investments\" to the query field, and limit "
+"it to Scope and content, the parameters passed via the URL when the results "
+"are returned are:"
+msgstr ""
+"単一の結合文字列内でクエリ演算子を渡すことが可能です。これは直接にクエリ文字列の値に「AND」、「OR」、または「AND "
+"NOT」を追加することで行います。これはAtoMの高度な検索インターフェースで遊んで試したり、応答と共に返されるURLパラメーターをAPIのパラメーターとして使用することで最もよくテストされ、探求されます。例えば、高度な検索インターフェースを使用して、クエリフィールドに「taxes"
+" AND investments」を追加し、それをスコープと内容に限定した場合、結果が返された際にURL経由で渡されるパラメーターは以下の通りです："
+
+#: ../../dev-manual/api/browse-io.rst:260
+msgid ""
+"``/api/informationobjects/?sq0=taxes+AND+investments&sf0=scopeAndContent``"
+msgstr ""
+"こちらはAPIエンドポイントのクエリを表しているため、直訳することは通常あまり有益ではありません。ただし、クエリ文自体を日本語に翻訳すると以下のようになります。\n"
+"\n"
+"```\n"
+"/api/informationobjects/ ？sq0=税金+AND+投資&sf0=範囲と内容\n"
+"```\n"
+"\n"
+"ポイントとしては、APIのエンドポイント(`/api/informationobjects/`)は通常そのままの形で残し、クエリパラメータ(`sq0`や`sf0`)とそれに関連する値(`taxes`や`investments`、`scopeAndContent`)を日本語に翻訳すれば理解しやすいです。ただし、クエリパラメータで使われる記号やロジックキーワード（今回の例では`AND`）は一般的にそのまま残します。"
+
+#: ../../dev-manual/api/browse-io.rst:262
+msgid ""
+"This is the same as manually increasing the parameter numbers and repeating "
+"the criteria indivudually, like so:"
+msgstr "これは、パラメータの数字を手動で増やし、以下のように基準を個別に繰り返すのと同じです："
+
+#: ../../dev-manual/api/browse-io.rst:265
+msgid ""
+"``/api/informationobjects?sq0=taxes&sfo=scopeAndContent&sq1=investments&sf1=scopeAndContent``"
+msgstr ""
+"「/api/informationobjects?sq0=taxes&sfo=scopeAndContent&sq1=investments&sf1=scopeAndContent」のテキストはAPIのエンドポイントを表しているため、直接的な翻訳は行われませんが、このエンドポイントの機能を日本語で説明することはできます。\n"
+"\n"
+"ここでのAPIのエンドポイントは、「informationobjects」という情報オブジェクトに対して、特定の検索クエリーを実施するために使用されます。このクエリーでは、'scopeAndContent'フィールドを用いて、'taxes' （税）に関する情報と、同じく'scopeAndContent'フィールドを用いて'invesments' （投資）に関する情報を検索しています。\n"
+"\n"
+"日本語での概要的な説明は次のようになります：\n"
+"\n"
+"「情報オブジェクトAPIを通じて、「税」と「投資」という用語を「範囲と内容」フィールドで検索します。」"
+
+#: ../../dev-manual/api/browse-io.rst:-1
+msgid "An example query in the AtoM search interface"
+msgstr "AtoM検索インターフェースのクエリ例"
+
+#: ../../dev-manual/api/browse-io.rst:272
+msgid "See the examples below for more instances of this."
+msgstr "以下の例を参照して、これに関するさらなる例を確認してください。"
+
+#: ../../dev-manual/api/browse-io.rst:274
+msgid ""
+"You can also use other boolean operators to enhance the results returned "
+"such as ``*`` wildcards or ``~`` fuzzy searching. For more information on "
+"available boolean operators, see: :ref:`advanced-search-operators` in the "
+":ref:`advanced-search` documentation."
+msgstr ""
+"また、``*`` ワイルドカードや ``~`` "
+"ファジー検索など、他のブール演算子を使用して返される結果を向上させることができます。使用可能なブール演算子の詳細については、:ref:`advanced-"
+"search` ドキュメントの :ref:`advanced-search-operators` を参照してください。"
+
+#: ../../dev-manual/api/browse-io.rst:279
+msgid ""
+"Note that the boolean criteria parameters can also be used in combination "
+"with the filter parameters outlined :ref:`below <browse-io-filter>`."
+msgstr ""
+"以下に示すフィルターパラメータ（:ref:`以下の<browse-io-"
+"filter>章を参照）と組み合わせて、ブール条件パラメータを使用することもできます。"
+
+#: ../../dev-manual/api/browse-io.rst:285
+msgid "Example requests with Boolean criteria"
+msgstr "ブール条件を用いたリクエスト例"
+
+#: ../../dev-manual/api/browse-io.rst:287
+msgid ""
+"**Return results with** ``conveyance`` **AND** ``issuing`` **in scope and "
+"content:**"
+msgstr "**範囲と内容に「conveyance」と「issuing」の両方を含む結果を返す:**"
+
+#: ../../dev-manual/api/browse-io.rst:290
+msgid ""
+"``/api/informationobjects?sq0=conveyance+AND+issuing&sf0=scopeAndContent``"
+msgstr ""
+"このテキストは、API（アプリケーションプログラミングインターフェイス）を利用するクエリの構造を表していますが、これ自体は自然言語の文章ではありません。それでも、メッセージの含意を理解してほしい場合は、テキストを直訳すると以下のようになります。\n"
+"\n"
+"```\n"
+"/api/informationobjects?sq0=輸送+AND+発行&sf0=範囲と内容\n"
+"```\n"
+"\n"
+"ここで使用されているパラメータは：\n"
+"\n"
+"- `api/informationobjects`: APIエンドポイントで、情報オブジェクトに関するデータにアクセスするために使用されます。\n"
+"\n"
+"- `sq0`: 検索クエリ0を示し、指定された検索条件やキーワードが含まれています。\n"
+"\n"
+"- `conveyance AND issuing`: 「輸送」と「発行」のキーワードを含むレコードを検索する条件です。ここでは「AND」を使い、両方の語が含まれるレコードのみが結果に含まれることを示しています。\n"
+"\n"
+"- `sf0`: 検索フィールド0を指すもので、どのフィールドを基準に検索を行うかを定義しています。\n"
+"\n"
+"- `scopeAndContent`: \"範囲と内容\"というフィールドを意味しており、このフィールドのデータを基にして検索を行います。\n"
+"\n"
+"このようにクエリパラメーターを訳出すれば、Archivematicaのドキュメント内でAPIの使用の仕方を理解する上で役立ちます。しかし通常は、具体的なコード部分やAPI呼び出しは翻訳せずそのままの形で文書に含めるのが一般的です。"
+
+#: ../../dev-manual/api/browse-io.rst:292
+msgid "Or, this could also be expressed as:"
+msgstr "また、このことは次のようにも表現できます："
+
+#: ../../dev-manual/api/browse-io.rst:294
+msgid ""
+"``/api/informationobjects?sq0=conveyance&sf0=scopeAndContent&sq1=issuing&sf1=scopeAndContent``"
+msgstr ""
+"このようなAPIエンドポイントは一般にコード、コマンド、またはURLの一部として機能します。これを文字通りに翻訳すると意味が損なわれる可能性がありますが、それでも文脈を理解しやすくするために、各コンポーネントの説明を日本語に訳すことはできます。\n"
+"\n"
+"ここではAPIエンドポイントの構造が示されており、特定の情報オブジェクトを問い合わせるためのクエリパラメータが含まれています。\n"
+"\n"
+"- `/api/informationobjects`: 情報オブジェクトのAPIエンドポイント。\n"
+"- `?`: クエリストリングの開始を示す。\n"
+"- `sq0=conveyance`: 最初の検索クエリ（sq0）が「conveyance」という語句であることを示す。\n"
+"- `sf0=scopeAndContent`: 最初の検索フィールド（sf0）が「scopeAndContent」であることを示す。\n"
+"- `sq1=issuing`: 二番目の検索クエリ（sq1）が「issuing」という語句であることを示す。\n"
+"- `sf1=scopeAndContent`: 二番目の検索フィールド（sf1）がまた「scopeAndContent」であることを示す。\n"
+"\n"
+"これらのクエリパラメータとフィールドに基づいて、APIは「conveyance」と「issuing」という語句が「scopeAndContent」という特定のフィールド内で使用されている情報オブジェクトを検索します。\n"
+"\n"
+"翻訳すると次のようになります：「情報オブジェクトのAPIエンドポイントへのクエリで、「conveyance」と「issuing」という語句に基づいて、「scopeAndContent」というフィールド内のオブジェクトを検索します。」\n"
+"\n"
+"ただし、実際にAPIのエンドポイントとして利用する場合、このままの形式で使用するのが適切です。"
+
+#: ../../dev-manual/api/browse-io.rst:296
+msgid ""
+"**Return results with** ``\"conveyance issuing\"`` **(e.g. that exact "
+"string) in Scope and content:**"
+msgstr "「\"conveyance issuing\"（例：その正確な文字列）を含む結果を返す、範囲と内容において：」"
+
+#: ../../dev-manual/api/browse-io.rst:299
+msgid "``/api/informationobjects?sq0=\"conveyance+issuing\"&sf0=scopeAndContent``"
+msgstr ""
+"このAPIエンドポイントは、「conveyance issuing」というフレーズを「範囲と内容」フィールドで検索する際に使用されます。日本語に翻訳すると以下のようになります。\n"
+"\n"
+"``/api/情報オブジェクト?sq0=\"交付証明\"+sf0=範囲と内容``\n"
+"\n"
+"ただし、APIのエンドポイントはプログラムによって解釈され、人間が読む文章として翻訳することは一般的ではありません。また、APIのパラメータおよびパスは、機能するために特定の形式でなければならないため、そのまま使用することが最も一般的です。"
+
+#: ../../dev-manual/api/browse-io.rst:301
+msgid ""
+"**Return results with** ``conveyance`` **OR** ``issuing`` **in the scope and"
+" content field:**"
+msgstr "「範囲および内容のフィールドに``運搬``または``発行``が含まれる結果を返す：」"
+
+#: ../../dev-manual/api/browse-io.rst:304
+msgid "``/api/informationobjects?sq0=conveyance+issuing&sf0=scopeAndContent``"
+msgstr ""
+"このAPIエンドポイントは、「conveyance issuing」というフレーズを含む\"scopeAndContent\"領域で情報オブジェクトを検索するために使用されます。テキストをそのまま日本語に翻訳すると、以下のような意味合いになります：\n"
+"\n"
+"```\n"
+"/api/informationobjects?sq0=運搬証明書&sf0=範囲と内容\n"
+"```\n"
+"\n"
+"ただし、\"conveyance issuing\"とは、通常、法的文書や財産の移転などに関する文書を指しますが、この文脈ではAPIのクエリパラメータとして機能しており、厳格な翻訳よりもパラメータの説明を理解することが重要です。そのため、上の文章はAPIエンドポイントの使用方法を示しており、実際には翻訳されるべきテキストではないかもしれません。"
+
+#: ../../dev-manual/api/browse-io.rst:306
+msgid ""
+"**Return results with** ``coffee`` **OR** ``chocolate`` **in any field, "
+"AND** (``photo*`` OR ``picture*`` OR ``image*``) **in Extent and medium:**"
+msgstr ""
+"以下の結果を返します: "
+"どのフィールドでも``coffee``**または**``chocolate``、**そして**「範囲と媒体」のフィールドで(``photo*`` "
+"**または** ``picture*`` **または** ``image*``)"
+
+#: ../../dev-manual/api/browse-io.rst:309
+msgid ""
+"``/api/informationobjects?sq0=chocolate&so1=or&sq1=coffee&so2=and&sq2=photo*+OR+picture*+OR+image*&sf2=extentAndMedium&topLod=0``"
+msgstr ""
+"```\n"
+"/api/informationobjects?sq0=チョコレート&so1=または&sq1=コーヒー&so2=そして&sq2=写真*+または+絵*+または+画像*&sf2=形態及び媒体&topLod=0\n"
+"```"
+
+#: ../../dev-manual/api/browse-io.rst:319
+msgid "Filter parameters"
+msgstr "フィルターパラメーター"
+
+#: ../../dev-manual/api/browse-io.rst:321
+msgid ""
+"The filter parameters below are the same as those found in the :term:`user "
+"interface` as part of the :ref:`advanced-search` module, with some small "
+"variations (such as the ``skip`` parameter)."
+msgstr ""
+"以下のフィルターパラメーターは、いくつかの小さな違い（例えば``skip``パラメーターなど）を除いて、:term:`ユーザーインターフェース`内の:ref:`高度な検索`モジュールで見つかるものと同じです。"
+
+#: ../../dev-manual/api/browse-io.rst:325
+msgid ""
+"In many cases, the parameters expect internal IDs as the values for the "
+"parameters. Since these ids are automatically generated via mysql "
+"autonumerics (and thus subject to change over time), and because all "
+":term:`terms <term>` in AtoM exist in user-editable :term:`taxonomies "
+"<taxonomy>`, it is not possible to list all available options for each "
+"parameter - it will depend on the data in your particular system. For some "
+"values, you can find a list of some of the default term IDs in "
+"``lib/model/QubitTerm.php``, or you can always perform an advanced search "
+"via the :term:`user interface`, and then look at the resulting URL to see "
+"how the parameter has been passed - the same parameter and ID can be used in"
+" the API."
+msgstr ""
+"多くの場合、パラメータは内部IDをパラメータの値として要求します。これらのIDはMySQLの自動採番機能を通じて自動生成されるため（それ故に時間の経過と共に変化する可能性があります）、そしてAtoMのすべての:term:`用語"
+" <term>`がユーザー編集可能な:term:`タクソノミー "
+"<taxonomy>`に存在しているため、各パラメータに対して利用可能なオプションを全て列挙することはできません - "
+"それはあなたの特定のシステム内のデータに依存します。いくつかの値については、デフォルトの用語IDのいくつかのリストを``lib/model/QubitTerm.php``で見つけることができます。または、:term:`ユーザーインタフェース`を通じて高度な検索を実行し、その後結果のURLを見てどのようにパラメータが渡されているかを確認することもできます"
+" - 同じパラメータとIDをAPIで使用することができます。"
+
+#: ../../dev-manual/api/browse-io.rst:338
+msgid ""
+"If you have access to the AtoM database, you could use a SQL query to return"
+" a list of terms and their IDs from a particular :term:`taxonomy`. You will "
+"need to know the Taxonomy's name, as listed in the :term:`user interface` "
+"(via **Manage > Taxonomies**), and select a culture - the following example "
+"will use the Genre taxonomy, with the default terms returned in  English "
+"(``en``). This query can easily be adapted by swapping in a different "
+"taxonomy name and culture value in the final parameters."
+msgstr ""
+"もしあなたがAtoMデータベースにアクセスできるのであれば、特定の:term:`タクソノミー`から用語とそのIDの一覧を返すSQLクエリを使用することができます。そのタクソノミーの名前が:term:`ユーザーインターフェース`内でどのようにリストされているかを知る必要があります(これは"
+" **管理 > タクソノミー** 経由で行います)、そして文化を選択する必要があります - "
+"次の例ではジャンルタクソノミーを使用し、デフォルトの用語が英語(``en``)で返されます。このクエリは、最終パラメータで異なるタクソノミー名と文化の値を入れ替えることで簡単に適応させることができます。"
+
+#: ../../dev-manual/api/browse-io.rst:350
+msgid ""
+"For some basic tips on using SQL to access AtoM's database, see: "
+":ref:`common-atom-queries`."
+msgstr ""
+"SQLを使用してAtoMのデータベースにアクセスするためのいくつかの基本的なヒントについては、こちらをご覧ください：:ref:`common-atom-"
+"queries`。"
+
+#: ../../dev-manual/api/browse-io.rst:355
+msgid ":ref:`advanced-search`"
+msgstr ":ref:`高度な検索`"
+
+#: ../../dev-manual/api/browse-io.rst:356
+msgid ":ref:`terms`"
+msgstr ""
+"`:ref:`terms``はreStructuredText（reST）というドキュメント作成ツールで使われる記法の一つで、文書内の特定の節（section）や用語（term）などへの参照を示します。したがって、このテキストの翻訳は直接的な日本語訳というよりは、この記法の機能と目的を説明する必要があります。\n"
+"\n"
+"日本語に翻訳するとすれば以下のようになります：\n"
+"\n"
+"「用語集への参照」\n"
+"\n"
+"しかし、これが何を指しているかを理解するには、reStructuredTextやArchivematicaのドキュメントに関するより広範な説明が必要になる場合があるでしょう。"
+
+#: ../../dev-manual/api/browse-io.rst:357
+msgid ":ref:`recurring-facet-filters`"
+msgstr ":ref:`定期的なファセットフィルタ`"
+
+#: ../../dev-manual/api/browse-io.rst:359
+msgid ""
+"Filter parameters available for the Browse information object endpoint "
+"include:"
+msgstr "参照情報オブジェクトエンドポイントで利用可能なフィルターパラメータには以下が含まれます："
+
+#: ../../dev-manual/api/browse-io.rst:362
+msgid ""
+"**sf_culture**: ISO 639-1 language code for display. See :ref:`api-"
+"intro-i18n` for more information on this parameter."
+msgstr ""
+"**sf_culture**: 表示用のISO 639-1言語コード。このパラメータに関する詳細は :ref:`api-intro-i18n` "
+"を参照してください。"
+
+#: ../../dev-manual/api/browse-io.rst:364
+msgid ""
+"**limit**: The maximum number of information objects returned in a single "
+"response. Note that this parameter is limited by the :ref:`results-page` "
+"global setting - you can use this parameter to limit the response further "
+"(e.g. request less results than the global setting), but increasing the "
+"limit parameter will not override the Results per page setting value."
+msgstr ""
+"**制限**: 単一のレスポンスで返される情報オブジェクトの最大数です。このパラメータは :ref:`results-page` "
+"グローバル設定によって制限されていることに注意してください - "
+"このパラメータを使用してさらに応答を制限することができます（例えば、グローバル設定よりも少ない結果をリクエストするなど）、しかし、制限パラメータを増やしても「1ページ当たりの結果数」設定値を上書きすることはできません。"
+
+#: ../../dev-manual/api/browse-io.rst:370
+msgid ""
+"*Example* - return only 5 results per request: "
+"``/api/informationobjects?limit=5``"
+msgstr "*例* - リクエストごとに結果を5つだけ返す: ``/api/informationobjects?limit=5``"
+
+#: ../../dev-manual/api/browse-io.rst:373
+msgid ""
+"**skip**: The amount of information objects skipped when returning the "
+"results. This parameter can be used to page results - for example, if the "
+"first response includes 10 results, then the following request can include a"
+" ``skip=10`` parameter, which will skip the first 10 results and begin the "
+"response on the 11th. See the examples below."
+msgstr ""
+"**スキップ**: 結果を返す際にスキップされる情報オブジェクトの量。このパラメータは結果をページングするために使用できる - "
+"例えば、最初の応答に10の結果が含まれている場合、次のリクエストには ``skip=10`` "
+"パラメータを含めることができ、これにより最初の10の結果をスキップして11番目からの応答を開始する。下記の例を参照してください。"
+
+#: ../../dev-manual/api/browse-io.rst:379
+msgid ""
+"*Example* - Skip the first 20 results: ``/api/informationobjects?skip=20``"
+msgstr "*例* - 最初の20件の結果をスキップする: ``/api/informationobjects?skip=20``"
+
+#: ../../dev-manual/api/browse-io.rst:381
+msgid ""
+"**sort**: This parameter offers the user options to sort the results. The "
+"options available are identical to those found in the :ref:`recurring-sort-"
+"button` for archival descriptions, and are described below. When the "
+"parameter is not included, the default sort order is whatever has been set "
+"in the :ref:`sort-browser-users` setting. Otions:"
+msgstr ""
+"**ソート**: このパラメーターは、結果を並び替えるためのオプションをユーザーに提供します。利用可能なオプションは、アーカイブ記述の "
+":ref:`recurring-sort-button` "
+"にあるものと同一で、以下に説明されています。パラメーターが含まれていない場合、デフォルトの並び替え順序は :ref:`sort-browser-"
+"users` 設定で設定されているものです。オプション："
+
+#: ../../dev-manual/api/browse-io.rst:387
+msgid "``identifier``: sort results by :term:`reference code`"
+msgstr "``識別子``：結果を :term:`参照コード` で並べ替える"
+
+#: ../../dev-manual/api/browse-io.rst:388
+msgid ""
+"``alphabetic``: sort results alphabetically. Note that in AtoM, alphabetic "
+"sorting uses ASCII sorting, not natural sorting - see `this article "
+"<http://blog.codinghorror.com/sorting-for-humans-natural-sort-order/>`__ for"
+" a bit more on the difference."
+msgstr ""
+"「アルファベット順」：結果をアルファベット順に並べます。AtoMでのアルファベット順の並び替えは、自然順序による並び替えではなく、ASCII順序による並び替えを使用することに注意してください。ちょっとした違いについては、`こちらの記事"
+" <http://blog.codinghorror.com/sorting-for-humans-natural-sort-order/>`__ "
+"をご覧ください。"
+
+#: ../../dev-manual/api/browse-io.rst:392
+msgid ""
+"``date``: sorted by the internal startDate value, which should be ISO-8601 "
+"formatted (e.g. YYYY-MM-DD, YYYY-MM, or YYYY)"
+msgstr ""
+"``date``：内部でのstartDateの値によってソートされます。この値はISO-8601形式（例：YYYY-MM-DD、YYYY-"
+"MM、またはYYYY）であるべきです。"
+
+#: ../../dev-manual/api/browse-io.rst:394
+msgid "``lastUpdated``: sorted by most recent created or modified date"
+msgstr "``lastUpdated``: 最も最近に作成もしくは変更された日付でソート済み"
+
+#: ../../dev-manual/api/browse-io.rst:395
+msgid ""
+"*Example* - sort by most recently created/modified: "
+"``/api/informationobjects?sort=lastUpdated``"
+msgstr ""
+"*例* - 最も最近作成/変更された順に並べ替える: ``/api/informationobjects?sort=lastUpdated``"
+
+#: ../../dev-manual/api/browse-io.rst:397
+msgid ""
+"**topLod**: Return only top level descriptions, or all descriptions. "
+"Equivalent to the top-level descriptions filter (which is on by default in "
+"the :term:`archival description` browse page, but off by default on search "
+"results pages) in the :term:`user interface`. When the parameter is not "
+"included, the default is to return all levels of description (e.g. "
+"``topLod=0``) Options:"
+msgstr ""
+"**topLod**: 最上位の記述のみを返すか、あるいはすべての記述を返すかを指定します。このオプションは、:term:`ユーザーインターフェイス` "
+"でのアーカイブ記述ブラウズページにデフォルトで適用されている最上位記述フィルターに相当しますが、検索結果ページではデフォルトでオフになっています。このパラメーターが含まれていない場合、デフォルトではすべての記述レベルが返されます（例:"
+" ``topLod=0``）。オプション:"
+
+#: ../../dev-manual/api/browse-io.rst:404
+msgid "``0``: all results"
+msgstr "``0``: すべての結果"
+
+#: ../../dev-manual/api/browse-io.rst:405
+msgid "``1``: only top-level descriptions"
+msgstr "``1``: トップレベルの記述のみ"
+
+#: ../../dev-manual/api/browse-io.rst:406
+msgid ""
+"*Example* - return only top-level descriptions: "
+"``/api/informationobjects?topLod=1``"
+msgstr "例 - 最上位レベルの記述のみを返す: ``/api/informationobjects?topLod=1``"
+
+#: ../../dev-manual/api/browse-io.rst:408
+msgid ""
+"**onlyMedia**: Return results with a linked :term:`digital object`, or all "
+"descriptions. The default when this parameter is not included is to return "
+"all descriptions (e.g. ``onlyMedia=0``). Options:"
+msgstr ""
+"**onlyMedia**: "
+"リンクされた:term:`デジタルオブジェクト`がある結果、またはすべての記述を返します。このパラメータが含まれていない場合のデフォルトは、すべての記述を返すことです（例:"
+" ``onlyMedia=0``）。オプション："
+
+#: ../../dev-manual/api/browse-io.rst:412
+msgid "``0``: Return all descriptions"
+msgstr "「0」: すべての記述を返す"
+
+#: ../../dev-manual/api/browse-io.rst:413
+msgid "``1``: Return only descriptions with a linked :term:`digital object`"
+msgstr "``1``: リンクされた:term:`デジタルオブジェクト`を持つ説明のみを返す"
+
+#: ../../dev-manual/api/browse-io.rst:414
+msgid ""
+"*Example* - return descriptions with a digital object: "
+"``/api/informationobjects?onlyMedia=1``"
+msgstr "*例* - デジタルオブジェクトを含む記述を返す : ``/api/informationobjects?onlyMedia=1``"
+
+#: ../../dev-manual/api/browse-io.rst:416
+msgid ""
+"**copyrightStatus**: Return records with a particular copyright status, "
+"based on PREMIS rights statements associated with the description. For more "
+"information on PREMIS rights in AtoM, see: :ref:`rights`. Expects the "
+"internal ID of a particular term from the Copyright status :term:`taxonomy` "
+"as the value."
+msgstr ""
+"**著作権の状態**: "
+"説明に関連するPREMIS権利声明に基づいて特定の著作権の状態を持つ記録を返します。AtoM内のPREMIS権利についての詳細情報は、参照：`:ref:`rights`。値として著作権の状態"
+" :term:`分類法（タクソノミー）` の特定の用語の内部IDを期待します。"
+
+#: ../../dev-manual/api/browse-io.rst:422
+msgid ""
+"*Example* - Return records with a PREMIS rights statement that indicates "
+"they are under copyright: ``/api/informationobjects?copyrightStatus=335``"
+msgstr ""
+"*例* - 著作権によって保護されていることを示すPREMIS権利声明を持つレコードを返す: "
+"``/api/informationobjects?copyrightStatus=335``"
+
+#: ../../dev-manual/api/browse-io.rst:425
+msgid ""
+"**materialType**: Relates to the Canadian :ref:`RAD standard's <rad-"
+"template>` General material desgination (GMD) terms - terms are found in "
+"AtoM's Material type  :term:`taxonomy`. Returns results limited to those "
+"linked to a particular GMD term. Expects the internal ID of a particular "
+":term:`term` from the Material type taxonomy as its value."
+msgstr ""
+"**materialType**: カナダの :ref:`RAD standard's <rad-template>` 一般資料の指定 (GMD) "
+"の用語に関連します - その用語はAtoMの資料タイプの "
+":term:`taxonomy`にあります。特定のGMD用語にリンクされた結果のみを返します。その値として資料タイプの分類法から特定の "
+":term:`term` の内部IDを期待します。"
+
+#: ../../dev-manual/api/browse-io.rst:432
+msgid ""
+"*Example* - Return records with a General material designation of \"Moving "
+"images\": ``/api/informationobjects?materialType=264``"
+msgstr ""
+"*例* - 一般的な物資指定が「動画」となっている記録を返す：``/api/informationobjects?materialType=264``"
+
+#: ../../dev-manual/api/browse-io.rst:435
+msgid ""
+"**languages**: Equivalent to the languages :term:`facet <facet filter>` in "
+"the :term:`user interface`, which limits the results of a request to "
+"descriptions in a specific language. Expects an ISO 639-1 language code."
+msgstr ""
+"**言語**: ユーザーインターフェイスの:term:`ファセット <facet filter>` "
+"に相当するもので、特定の言語での説明にリクエストの結果を制限します。ISO 639-1言語コードを期待します。"
+
+#: ../../dev-manual/api/browse-io.rst:439
+msgid ""
+"*Example* - return records in French: "
+"``/api/informationobjects?languages=fr``"
+msgstr "*例* - フランス語のレコードを返す：``/api/informationobjects?languages=fr``"
+
+#: ../../dev-manual/api/browse-io.rst:441
+msgid ""
+"**levels**: Return results limited to a specified level of description. "
+"Expects a term ID from the Levels of description taxonomy as the parameter "
+"value. Like all :term:`taxonomy` terms in AtoM, these :term:`terms <term>` "
+"can be user-defined, so the IDs may vary."
+msgstr ""
+"**レベル**: "
+"説明レベルに指定された項目に限定した結果を返します。パラメータ値として、説明レベルの分類法からの用語IDが期待されます。AtoM内のすべての:term:`taxonomy`（分類法）用語と同様に、これらの:term:`terms"
+" <term>`（用語）はユーザー定義が可能なので、IDは異なる場合があります。"
+
+#: ../../dev-manual/api/browse-io.rst:446
+msgid ""
+"*Example* - Return records with a level of description of \"Series\": "
+"``/api/informationobjects?levels=224``"
+msgstr "*例* - 説明レベルが「シリーズ」である記録を返す：``/api/informationobjects?levels=224``"
+
+#: ../../dev-manual/api/browse-io.rst:449
+msgid ""
+"**mediatypes**: Filters results based on the :term:`digital object` linked "
+"to the descriptions returned. Expects the internal id of the default terms "
+"used in the Media type taxonomy:"
+msgstr ""
+"**メディアタイプ**: 返される記述にリンクされた :term:`デジタルオブジェクト` "
+"に基づいて結果をフィルターします。メディアタイプ分類法で使われるデフォルト用語の内部IDを想定しています。"
+
+#: ../../dev-manual/api/browse-io.rst:453
+msgid ""
+"*Example* - Return records with a linked digital object that is an image: "
+"``/api/informationobjects?mediatypes=136``"
+msgstr ""
+"*例* - "
+"リンクされたデジタルオブジェクトが画像であるレコードを返す：``/api/informationobjects?mediatypes=136``"
+
+#: ../../dev-manual/api/browse-io.rst:456
+msgid ""
+"**repos**: Returns records filtered by their association to a particular "
+":term:`repository` (e.g. an :term:`archival institution`). Only really "
+"useful as a parameter in a multi-repository AtoM installation. Expects the "
+"internal repository ID as a value - AtoM does not include default archival "
+"institutions during installation, so these IDs will depend on user data."
+msgstr ""
+"**リポジトリ**: 特定の "
+":term:`リポジトリ`（例えば、:term:`アーカイブ機関`）に関連付けられたレコードをフィルタリングして返します。これは、複数のリポジトリが設置されているAtoMインストールでのパラメータとしてのみ実際に有用です。値として内部リポジトリIDを期待します"
+" - AtoMはインストール中にデフォルトのアーカイブ機関を含めませんので、これらのIDはユーザーデータに依存します。"
+
+#: ../../dev-manual/api/browse-io.rst:463
+msgid ""
+"*Example* - Return records associated with the Example Archives (example ID "
+"= 827): ``/api/informationobjects?repos=827``"
+msgstr ""
+"*例* - 例のアーカイブに関連付けられたレコードを返す（例のID = "
+"827）：``/api/informationobjects?repos=827``"
+
+#: ../../dev-manual/api/browse-io.rst:467
+msgid ""
+"**places**: Returns records filtered by their association to a particular "
+":term:`place` :term:`access point`. For more information on linking an "
+":term:`archival description` to an access point, see: :ref:`add-term-fly`. "
+"Expects the internal place term ID as a value - AtoM does not include "
+"default place terms during installation, so these IDs will depend on user "
+"data."
+msgstr ""
+"**場所**：特定の用語「場所」アクセスポイントに関連付けられたレコードをフィルターします。アクセスポイントに「アーカイブ記述」をリンクする方法の詳細については、以下を参照してください：「add-"
+"term-fly」。内部の場所用語IDを値として期待します - "
+"AtoMはインストール時にデフォルトの場所用語を含んでいないため、これらのIDはユーザーデータに依存しています。"
+
+#: ../../dev-manual/api/browse-io.rst:474
+msgid ""
+"*Example* - Return records with \"Example place\" (example ID = 1123) as a "
+"linked place access point: ``/api/informationobjects?places=1123``"
+msgstr ""
+"*例* - \"Example place\"（例 ID = 1123）がリンクされた場所のアクセスポイントとして記録を返す場合: "
+"``/api/informationobjects?places=1123``"
+
+#: ../../dev-manual/api/browse-io.rst:477
+msgid ""
+"**subjects**: Returns records filtered by their association to a particular "
+":term:`subject` :term:`access point`. For more information on linking an "
+":term:`archival description` to an access point, see: :ref:`add-term-fly`. "
+"Expects the internal subject term ID as a value - AtoM does not include "
+"default subject terms during installation, so these IDs will depend on user "
+"data."
+msgstr ""
+"**被記述対象**: 特定の:term:`主題` "
+":term:`アクセスポイント`との関連でフィルタリングされた記録を返します。アクセスポイントへ:term:`アーカイブ記述`をリンクする方法についての詳細は、以下を参照してください。:ref:`add-"
+"term-fly`。値として内部主題用語IDを期待します - "
+"AtoMはインストール時にデフォルトの主題用語を含んでいませんので、これらのIDはユーザーデータに依存します。"
+
+#: ../../dev-manual/api/browse-io.rst:484
+msgid ""
+"*Example* - Return records with \"Example subject\" (example ID = 945) as a "
+"linked subject access point: ``/api/informationobjects?subjects=945``"
+msgstr ""
+"*例* - \"例題の主題\"（例のID = 945）をリンクされた主題アクセスポイントとして持つレコードを返す: "
+"``/api/informationobjects?subjects=945``"
+
+#: ../../dev-manual/api/browse-io.rst:487
+msgid ""
+"**genres**: Returns records filtered by their association to a particular "
+"genre :term:`access point`. For more information on linking an "
+":term:`archival description` to an access point, see: :ref:`add-term-fly`. "
+"Expects a specific ID for one of the :term:`terms <term>` in the Genre "
+":term:`taxonomy` as a value. AtoM includes 45 default terms at installation,"
+" taken from the US Library of Congress' \"Basic Genre Terms for Cultural "
+"Heritage Materials,\" available at: "
+"http://memory.loc.gov/ammem/techdocs/genre.html."
+msgstr ""
+"**ジャンル**: 特定のジャンルの:term:`アクセスポイント`に関連付けられたレコードをフィルタリングして返します。アーカイブ記述 "
+"(:term:`archival description`) をアクセスポイントに関連付ける方法の詳細については、こちらをご覧ください: "
+":ref:`add-term-fly`。ジャンル :term:`分類法（taxonomy）` にある :term:`用語（terms） <term>` "
+"の特定のIDを値として期待します。AtoMにはインストール時にデフォルトで45の用語が含まれており、これらはアメリカ議会図書館の \"Basic "
+"Genre Terms for Cultural Heritage Materials\" から取られていて、以下のURLで利用可能です: "
+"http://memory.loc.gov/ammem/techdocs/genre.html。"
+
+#: ../../dev-manual/api/browse-io.rst:496
+msgid ""
+"*Example* - Return records with \"Photographs\" (ID = 403) as a linked genre"
+" access point: ``/api/informationobjects?genres=403``"
+msgstr ""
+"*例* - 「写真」(ID = 403)を関連付けられたジャンルアクセスポイントとして含む記録情報を返す: "
+"``/api/informationobjects?genres=403``"
+
+#: ../../dev-manual/api/browse-io.rst:499
+msgid ""
+"**creators**: Returns records filtered by their association to particular "
+"actor (i.e. link to an :term:`authority record` as a :term:`creator`). "
+"Expects the internal actor ID as a value. AtoM does not include default "
+"authority records at installation, so these IDs will depend on user data."
+msgstr ""
+"**作成者**: 特定のアクター（つまり、:term:`creator` としての :term:`authority record` "
+"へのリンク）に関連付けられているレコードをフィルタリングして返します。結果は内部アクターIDを値として期待します。AtoMはインストール時にデフォルトの権限記録を含んでいませんので、これらのIDはユーザーデータに依存します。"
+
+#: ../../dev-manual/api/browse-io.rst:504
+msgid ""
+"*Example* - Return records linked to \"Creator 1\" (example ID = 1245) "
+"authority record as a creator: ``/api/informationobjects?creators=1245``"
+msgstr ""
+"*例* - 「クリエーター1」（例のID = 1245）の権威記録とリンクされたレコードをクリエーターとして返す: "
+"``/api/informationobjects?creators=1245``"
+
+#: ../../dev-manual/api/browse-io.rst:507
+msgid ""
+"**names**: Returns records filtered by their association to particular actor"
+" (i.e. link to an :term:`authority record` as a name :term:`access point`). "
+"Expects the internal actor ID as a value. AtoM does not include default "
+"authority records at installation, so these IDs will depend on user data."
+msgstr ""
+"**names**: 特定のアクター（すなわち、名称としての :term:`authority record`（権威レコード）へのリンク "
+":term:`access "
+"point`（アクセスポイント））との関連性によってフィルタリングされたレコードを返します。内部アクターIDを値として期待します。AtoMはインストール時にデフォルトの権威レコードを含んでいませんので、これらのIDはユーザーデータに依存します。"
+
+#: ../../dev-manual/api/browse-io.rst:513
+msgid ""
+"*Example* - Return records linked to \"Name 1\" (example ID = 4432) "
+"authority record as a name access point: "
+"``/api/informationobjects?names=4432``"
+msgstr ""
+"*例* - \"Name 1\"（例のID = "
+"4432）の権威レコードにリンクされたレコードを名前アクセスポイントとして返す：``/api/informationobjects?names=4432``"
+
+#: ../../dev-manual/api/browse-io.rst:516
+msgid ""
+"**collection**: Similar to the \"Part of\" facet in the :term:`user "
+"interface` - see :ref:`browse-hierarchy-facet` for further information. "
+"Returns records with a common top-level :term:`parent record`. Expects the "
+"information object ID of the top-level parent record as its value. These IDs"
+" will depend on user data."
+msgstr ""
+"**コレクション**: \"Part of\"ファセットに似ており、:term:`user "
+"interface`に属します。詳細は:ref:`browse-hierarchy-"
+"facet`をご参照ください。共通のトップレベル:term:`parent "
+"record`を持つレコードを返します。その値としてトップレベル親レコードの情報オブジェクトIDが必要です。これらのIDはユーザーデータに依存します。"
+
+#: ../../dev-manual/api/browse-io.rst:522
+msgid ""
+"*Example* - Return descendent records of \"Example fonds\" (example ID = "
+"972): ``/api/informationobjects?collection=972``"
+msgstr ""
+"*例* - 「例のフォンズ」（例のID = 972）の子孫レコードを返す: "
+"``/api/informationobjects?collection=972``"
+
+#: ../../dev-manual/api/browse-io.rst:525
+msgid ""
+"**startDate**: Used to supply a start date for a date range query over the "
+"event dates associated with an information object. Expects an ISO-8601 "
+"formatted date string (YYYY-MM-DD) as its value. Queries against the "
+"internal, controlled start date value associated with an archival "
+"description (not the display date, which allows users to include expressions"
+" of approximation or uncertainty in the date display). For more information,"
+" see: :ref:`date-range-search`."
+msgstr ""
+"**startDate**: "
+"情報オブジェクトに関連するイベントの日付にわたる日付範囲クエリの開始日を指定するために使用されます。ISO-8601形式の日付文字列（YYYY-MM-"
+"DD）をその値として期待します。アーカイブ記述に関連付けられた内部の、制御された開始日付値(表示日付ではなく、ユーザーが日付表示において近似や不確実性の表現を含めることを許可する)に対して照会します。詳細については、:ref:`date-"
+"range-search`を参照してください。"
+
+#: ../../dev-manual/api/browse-io.rst:533
+msgid ""
+"*Example* - Return records with a start date of 1900 or later: "
+"``/api/informationobjects?startDate=1900-01-01``"
+msgstr ""
+"*例* - 開始日が1900年以降の記録を返す: ``/api/informationobjects?startDate=1900-01-01``"
+
+#: ../../dev-manual/api/browse-io.rst:536
+msgid ""
+"**endDate**: Used to supply a end date for a date range query over the event"
+" dates associated with an information object. Expects an ISO-8601 formatted "
+"date string (YYYY-MM-DD) as its value. Queries against the internal, "
+"controlled end date value associated with an archival description (not the "
+"display date, which allows users to include expressions of approximation or "
+"uncertainty in the date display). For more information, see: :ref:`date-"
+"range-search`."
+msgstr ""
+"**endDate**: "
+"情報オブジェクトに関連付けられたイベント日付の範囲を照会するための終了日を提供するために使用されます。ISO-8601形式の日付文字列（YYYY-MM-"
+"DD）をその値として期待しています。アーカイブ記述に関連付けられた内部の、制御された終了日付値（日付の表示に近似や不確実性を含めることがユーザーに許される表示日付ではなく）に対して照会されます。詳細については、こちらを参照してください："
+" :ref:`date-range-search`。"
+
+#: ../../dev-manual/api/browse-io.rst:544
+msgid ""
+"*Example* - Return records with a end date of 1900 or earlier: "
+"``/api/informationobjects?endDate=1900-01-01``"
+msgstr ""
+"*例* - 1900年またはそれ以前の終了日を有するレコードを返す: "
+"``/api/informationobjects?endDate=1900-01-01``"
+
+#: ../../dev-manual/api/browse-io.rst:547
+msgid ""
+"**rangeType**: Associated with a date range search, this parameter "
+"determines the type of date range query applied - inclusive, or exact. For "
+"more information, see: :ref:`date-range-search`. When this parameter is not "
+"included with a date range query, the default value is ``inclusive``. "
+"Accepted parameter values:"
+msgstr ""
+"**rangeType**: 日付範囲検索に関連するこのパラメーターは、適用される日付範囲クエリのタイプを決定します - "
+"包含的なものか、正確なものか。詳細については、:ref:`date-range-"
+"search`を参照してください。このパラメータが日付範囲クエリと共に含まれていない場合、デフォルト値は``inclusive``です。受け入れられるパラメータ値："
+
+#: ../../dev-manual/api/browse-io.rst:553
+msgid ""
+"``exact``: the start and end dates of descriptions returned must fall "
+"entirely within the date range entered."
+msgstr "``exact``：返される説明の開始日と終了日は、入力された日付範囲内に完全に収まる必要があります。"
+
+#: ../../dev-manual/api/browse-io.rst:555
+msgid ""
+"``inclusive``: any description whose start or end dates touch or overlap the"
+" target date range will be returned. **Note:** this is labelled as "
+"\"Overlapping\" in the Advanced search :term:`user interface`."
+msgstr ""
+"「インクルーシブ」：開始日または終了日がターゲットの日付範囲に接触または重なるあらゆる説明が返されます。**注記：**これは、詳細検索の "
+":term:`ユーザーインターフェース` で「オーバーラッピング」と表記されています。"
+
+#: ../../dev-manual/api/browse-io.rst:558
+msgid ""
+"*Example* - Return records whose dates of creation fall exactly between 1900"
+" and 1902: "
+"``/api/informationobjects?startDate=1900-01-01&endDate=1902-12-31&rangeType=exact``"
+msgstr ""
+"*例* - 作成日がちょうど1900年から1902年の間に該当する記録を返します: "
+"``/api/informationobjects?startDate=1900-01-01&endDate=1902-12-31&rangeType=exact``"
+
+#: ../../dev-manual/api/browse-io.rst:564
+msgid "Examples of using filter parameters in combination"
+msgstr "組み合わせでフィルターパラメーターを使用する例"
+
+#: ../../dev-manual/api/browse-io.rst:566
+msgid ""
+"**Return results with a Genre access point of \"Maps\" created between 1900 "
+"and 1970, and return the results sorted by start date:**"
+msgstr "ジャンルのアクセスポイントが「地図」で、1900年から1970年の間に作成された結果を返し、結果を開始日でソートして返します："
+
+#: ../../dev-manual/api/browse-io.rst:569
+msgid ""
+"``/api/informationobjects?genres=394&startDate=1900-01-01&endDate=1970-12-31&rangeType=exact&sort=date``"
+msgstr ""
+"```\n"
+"/api/informationobjects?genres=394&startDate=1900-01-01&endDate=1970-12-31&rangeType=exact&sort=date\n"
+"```\n"
+"\n"
+"を日本語に翻訳すると以下のようになります：\n"
+"\n"
+"```\n"
+"/api/情報オブジェクト？ジャンル=394&開始日=1900-01-01&終了日=1970-12-31&範囲タイプ=厳密&ソート=日付\n"
+"```\n"
+"\n"
+"翻訳にあたって `/api/informationobjects` の部分はエンドポイントの指定なので、そのままにしていますし、パラメータ名もそのままにしています。これらは通常、プログラミングのコンテキストではそのまま英文の形で用いられることも多いためです。しかし、読みやすさを考慮してパラメータの値は日本語に置き換えています。"
+
+#: ../../dev-manual/api/browse-io.rst:571
+msgid ""
+"**Return any series-level records with a start date after 1900 from a "
+"particular repository:**"
+msgstr "そのリポジトリから1900年以降の開始日を持つシリーズレベルの記録を返す。"
+
+#: ../../dev-manual/api/browse-io.rst:574
+msgid ""
+"``/api/informationobjects?repos=471&levels=224&topLod=0&startDate=1900-01-01&rangeType=exact``"
+msgstr ""
+"こちらのテキストはURL形式であり、翻訳ではなくパラメーターの説明が適切です。以下に各パラメーターに関する説明を日本語で提供します。\n"
+"\n"
+"```\n"
+"/api/informationobjects - アーカイブ情報オブジェクトにアクセスするためのAPIエンドポイントです。\n"
+"\n"
+"repos=471 - リポジトリのIDが471であるデータを絞り込むためのパラメーターです。\n"
+"\n"
+"levels=224 - アクセスレベルが224である記録のみを抽出するためのパラメーターです。\n"
+"\n"
+"topLod=0 - 階層の最上位の記録(Level of Description)のみを抽出するためのパラメーターです。0は通常、’true’または‘はい’の意味を持つことが多いです。\n"
+"\n"
+"startDate=1900-01-01 - 1900年1月1日以降の記録を取得するためのパラメーターです。\n"
+"\n"
+"rangeType=exact - 指定した日付範囲が正確に一致する記録を抽出するためのパラメーターです。\n"
+"```\n"
+"\n"
+"このURLはおそらくArchivematicaまたは類似のアーカイブ管理システム内の特定の情報オブジェクトを検索する際に使用されます。パラメーターはその検索クエリをより具体的にするために使われています。"
+
+#: ../../dev-manual/api/browse-io.rst:576
+msgid ""
+"**Return top-level descriptions with a linked digital object that is "
+"textual:**"
+msgstr "文書化されたデジタルオブジェクトがリンクされているトップレベルの記述を返す"
+
+#: ../../dev-manual/api/browse-io.rst:578
+msgid "``/api/informationobjects?topLod=1&onlyMedia=1&mediatypes=137``"
+msgstr ""
+"このテキストは、API (アプリケーション・プログラミング・インターフェース) のリクエストURLの一部であるため、完全な文章としての翻訳は適切ではありません。しかし、このURLの各パラメータを説明することは可能です。以下に、URLの各部分の日本語での説明を示します。\n"
+"\n"
+"``/api/informationobjects`` - 「情報オブジェクト」というエンドポイントに対するAPIリクエストを示します。\n"
+"\n"
+"``?topLod=1`` - 「topLod」パラメータは「Top Level of Description」の略であり、それが「1」に設定されていることを意味します。これは、最上位の記述レベルにある情報オブジェクトのみを対象とするリクエストです。\n"
+"\n"
+"``&onlyMedia=1`` - 「onlyMedia」というパラメータが「1」に設定されていることは、メディアファイルを含む情報オブジェクトのみを対象とするリクエストであることを指します。\n"
+"\n"
+"``&mediatypes=137`` - 「mediatypes」というパラメータに設定された「137」は、特定のメディアタイプを識別するIDまたは番号を示しており、この番号はこのリクエストで取得される具体的なメディアタイプを定義しています。\n"
+"\n"
+"このURL自体は、特定のAPI機能とそのパラメータを表しており、実際のテキストとして読むよりも、技術的なコマンドまたは指示として機能します。URLの内容は、リクエストの意図を明確にするため、原文のまま使われるべきです。"
+
+#: ../../dev-manual/api/browse-io.rst:582
+msgid ""
+"In this example, the ``onlyMedia`` parameter is not really needed - the "
+"``mediatypes`` parameter will ensure that only results with textual digital "
+"objects linked will be returned. It has been included to demonstrate how to "
+"combine available parameters, and should return the same number of results "
+"as:"
+msgstr ""
+"この例では、``onlyMedia`` パラメータは本当に必要ではありません - ``mediatypes`` "
+"パラメータがテキスト形式のデジタルオブジェクトがリンクされた結果のみが返されることを保証します。利用可能なパラメータの組み合わせ方を示すために含まれており、以下のクエリと同じ数の結果が返されるはずです："
+
+#: ../../dev-manual/api/browse-io.rst:588
+msgid "``/api/informationobjects?topLod=1&mediatypes=137``"
+msgstr ""
+"このAPI (アプリケーションプログラミングインターフェース) のリクエストは、特定の条件の情報オブジェクトを取得するために使用されるコマンドです。このコマンドを日本語に直訳する場合、以下のようになります。\n"
+"\n"
+"「`/api/informationobjects` - 情報オブジェクトのAPIエンドポイントです。\n"
+"`?topLod=1` - 最上位レベルの説明のみを含むオブジェクトに限定するフィルターです。「topLod」は「Top Level of Description」すなわち「説明の最上位レベル」を意味し、値「1」は真を表します。\n"
+"`&mediatypes=137` - メディアタイプID「137」に該当するオブジェクトに限定するフィルターです。」\n"
+"\n"
+"ただし、これはAPIリクエストの内容を解説した直訳であり、一般的な文章としての自然な日本語にはなっていません。APIリクエストは多くの場合、技術的な文脈でそのままの形式で使用されるため、実務での翻訳ではこのリクエストを日本語に訳す必要は通常ありません。"
+
+#: ../../dev-manual/api/browse-io.rst:590
+msgid "**Return Spanish descriptions with a digital object attached:**"
+msgstr "デジタルオブジェクトが添付されたスペイン語の説明を返す："
+
+#: ../../dev-manual/api/browse-io.rst:592
+msgid "``/api/informationobjects?languages=es&onlyMedia=1``"
+msgstr ""
+"このテキストはAPIエンドポイント（ウェブAPIの一部で、特定のデータにアクセスするためのURL）を指していますが、直訳する必要があります。APIエンドポイントのパラメータについての説明文ではないため、直訳はしませんが、その機能を説明するならば日本語で以下のようになります。\n"
+"\n"
+"```\n"
+"/api/informationobjects?languages=es&onlyMedia=1\n"
+"```\n"
+"\n"
+"このAPIエンドポイントは、「informationobjects」という情報オブジェクトへのアクセスを提供し、クエリパラメータを使用して、特定の言語（この場合はスペイン語を指定する 'es'）でのデータおよびメディアコンテンツのみを取得するようリクエストを制限します。'onlyMedia=1'はメディアファイルに関するデータのみを取得することを指定しています。"
+
+#: ../../dev-manual/api/browse-io.rst:597
+msgid "Combining boolean and filter parameters - examples"
+msgstr "ブール値とフィルターパラメータの組み合わせ - 例"
+
+#: ../../dev-manual/api/browse-io.rst:599
+msgid ""
+"**Return results that have the word \"west\" in a place access point "
+"field:**"
+msgstr "「プレイス アクセス ポイント フィールドに \"west\" という単語が入っている結果を返す」"
+
+#: ../../dev-manual/api/browse-io.rst:601
+msgid "``/api/informationobjects?sq0=west&sf0=place&topLod=0``"
+msgstr ""
+"このテキストは、Archivematicaまたは類似のデジタル保存システムのAPIエンドポイントを表すリクエストパラメータです。ただし、これは一般的なコマンドや命令の文章ではありませんので、直訳すると内容がわかりにくくなる場合がありますが、説明を含めた訳を以下に示します。\n"
+"\n"
+"---\n"
+"\n"
+"```\n"
+"/api/informationobjects?sq0=west&sf0=place&topLod=0\n"
+"```\n"
+"\n"
+"を日本語に翻訳すると以下のようになります。\n"
+"\n"
+"```\n"
+"/api/informationobjects：情報オブジェクトAPI\n"
+"sq0=west：検索クエリ0は「west」\n"
+"sf0=place：検索フィールド0は「場所」\n"
+"topLod=0：最上位の記述レベルのオブジェクトのみを対象とする\n"
+"```\n"
+"\n"
+"これにより、日本語での説明は以下のようになります：\n"
+"\n"
+"「情報オブジェクトのAPIにアクセスし、「場所」というフィールドで「west」という単語を検索し、最上位の記述レベルのオブジェクトのみを対象としています。」"
+
+#: ../../dev-manual/api/browse-io.rst:603
+msgid ""
+"**Return results that have NO place access point, created between 1950 and "
+"1969:**"
+msgstr "1950年から1969年の間に作成され、場所アクセスポイントがない結果を返す"
+
+#: ../../dev-manual/api/browse-io.rst:606
+msgid ""
+"``/api/informationobjects?sq0=_missing_:places&startDate=1950-01-01&endDate=1969-12-31&rangeType=exact&topLod=0``"
+msgstr ""
+"このテキストは、API（Application Programming Interface）のクエリの一部であるようですが、これは自然言語の文章ではなく、機械が理解するための構造化されたコマンドです。そのため、直訳は行わず、クエリのパラメーターを理解しやすい形で日本語に説明することが適切です。\n"
+"\n"
+"以下はクエリが意図するアクションの説明です：\n"
+"\n"
+"APIの「/api/informationobjects」エンドポイントを使って、次の条件に合致する情報オブジェクト（Information Objects）を検索しています。\n"
+"\n"
+"- `sq0=_missing_:places`: 「places」フィールドが欠落しているレコードを検索していることを示します。\n"
+"- `startDate=1950-01-01`: 検索範囲の開始日として1950年1月1日を指定しています。\n"
+"- `endDate=1969-12-31`: 検索範囲の終了日として1969年12月31日を指定しています。\n"
+"- `rangeType=exact`: 正確な範囲を指定していることを示します。\n"
+"- `topLod=0`: 階層レベルが最上位（Top Level of Description）のレコードを検索していることを示します。\n"
+"\n"
+"実際の翻訳者はこれらのパラメーターを理解し、アーカイブ管理システムのコンテキストで日本語を使用した説明を提供する必要があります。上記はその一例となります。"
+
+#: ../../dev-manual/api/browse-io.rst:610
+msgid ""
+"You can use the following formula to search for missing/empty fields, or to "
+"broadly search for fields that have data in them - you need to know internal"
+" Elasticsearch field name to be able to do so:"
+msgstr ""
+"次の式を使用して、欠落している/空のフィールドを検索することができます。または、広範にデータを含んでいるフィールドを検索するためにも使えます。これを行うためには、内部Elasticsearchフィールド名を知っている必要があります："
+
+#: ../../dev-manual/api/browse-io.rst:614
+msgid "Returns results with no data in the specified field"
+msgstr "指定されたフィールドにデータがない結果を返します。"
+
+#: ../../dev-manual/api/browse-io.rst:616
+msgid "``_missing_:field.name``"
+msgstr ""
+"``_missing_:field.name`` の翻訳:\n"
+"``_missing_:フィールド名``"
+
+#: ../../dev-manual/api/browse-io.rst:618
+msgid "Returns results with any data in the specified field"
+msgstr "指定されたフィールドに何らかのデータがある結果を返します"
+
+#: ../../dev-manual/api/browse-io.rst:620
+msgid "``_exists_:field.name``"
+msgstr ""
+"``_exists_:field.name``\n"
+"\n"
+"このクエリは、指定されたフィールド名を持つドキュメントが存在するかどうかを検索するために使用されるエラスティックサーチのクエリ構文です。これを日本語に直訳すると、\n"
+"\n"
+"``フィールド名が存在する``\n"
+"\n"
+"になりますが、これは技術的な文脈において正確な意味を伝えない可能性があります。翻訳の文脈に応じて、説明的な翻訳を付け加えることが必要かもしれません。例えば、\n"
+"\n"
+"``フィールド名が存在する文書を検索するクエリ``\n"
+"\n"
+"といった形です。ただし、以上は一般的なガイドラインです。実際のドキュメント内での使用法や意図に応じて、より適切な翻訳が必要になる場合があります。"
+
+#: ../../dev-manual/api/browse-io.rst:622
+msgid ""
+"This will work in the :term:`user interface` if you enter it into the "
+"boolean query fields of the Advanced search panel, but you can also "
+"incorporate it into an API query, using the ``sq0`` parameter:"
+msgstr ""
+"以下の内容は:term:`user "
+"interface`のブール式クエリフィールドに入力することで機能しますが、``sq0``パラメータを使用してAPIクエリにも組み込むことができます。"
+
+#: ../../dev-manual/api/browse-io.rst:626
+msgid ""
+"Return descriptions with no data in the scope and content field in English:"
+msgstr "スコープおよび内容のフィールドにデータがない記述を英語で返します："
+
+#: ../../dev-manual/api/browse-io.rst:628
+msgid "``/api/informationobjects?sq0=_missing_:i18n.en.scopeAndContent``"
+msgstr ""
+"\"/api/informationobjects?sq0=_missing_:i18n.en.scopeAndContent\"はプログラミングやAPIエンドポイントに関連するコードの部分であり、通常の文章とは異なります。そのため、直訳すると日本語の意味が明確にならない場合があります。しかし、内容を理解しやすくするために、コードの機能を説明した文に翻訳することができます：\n"
+"\n"
+"「\"/api/informationobjects\" APIエンドポイントに対して、\"sq0=_missing_:i18n.en.scopeAndContent\"というクエリを使用します。これは、\"scopeAndContent\"フィールドが英語の国際化(i18n.en)設定で欠けている情報オブジェクトを検索するために用います。」"
+
+#: ../../dev-manual/api/browse-io.rst:630
+msgid ""
+"The examples above and below this tip show this parameter used in an API "
+"query."
+msgstr "このヒントの上と下に示されている例は、APIクエリでこのパラメーターが使われている様子を示しています。"
+
+#: ../../dev-manual/api/browse-io.rst:633
+msgid ""
+"**Return Series-level records with ANY subject access point AND** ``tax*`` "
+"**in the Scope and content field, sorted by most recently created or "
+"modified:**"
+msgstr ""
+"**任意の件名アクセスポイントを含むシリーズレベルの記録と** ``税*`` "
+"**が範囲及び内容フィールドに含まれているものを、最近作成または修正された順にソートして返します：**"
+
+#: ../../dev-manual/api/browse-io.rst:637
+msgid ""
+"``/api/informationobjects?sq0=_exists_:subjects&so1=and&sq1=tax*&sf1=scopeAndContent&levels=224&sort=lastUpdated``"
+msgstr ""
+"``/api/informationobjects?sq0=_exists_:subjects&so1=and&sq1=tax*&sf1=scopeAndContent&levels=224&sort=lastUpdated`` というAPIリクエストのうち、特定のパラメータは翻訳が不要な技術的な表現であるため、そのまま残しますが、可能な部分だけを日本語に訳します。\n"
+"\n"
+"``/api/情報オブジェクト?sq0=_存在_:主題&so1=and&sq1=tax*&sf1=範囲と内容&levels=224&sort=最終更新日``\n"
+"\n"
+"ご注意ください：APIエンドポイントやクエリの変数（たとえば `sq0` や `sf1` など）はプログラムによって解釈されるべき具体的な識別子です。それらを変更すると、APIリクエストが正しく機能しなくなる可能性があります。上記の翻訳では、理解を助けるために意味のある部分だけを日本語にしていますが、実際のAPIリクエストには原文のままのパラメータが使われるべきです。"
+
+#: ../../dev-manual/api/browse-io.rst:639
+msgid ""
+"**Return results with** ``coffee`` **OR** ``chocolate`` **in any field, with"
+" dates that match or overlap a range of January 1, 1990 - March 4, 2001, "
+"sorted by date:**"
+msgstr ""
+"任意のフィールドに``coffee``または``chocolate``が含まれている結果を返し、1990年1月1日から2001年3月4日までの範囲に一致または重なる日付で、日付順にソートします。"
+
+#: ../../dev-manual/api/browse-io.rst:643
+msgid ""
+"``/api/informationobjects?sq0=chocolate&so1=or&sq1=coffee&startDate=1990-01-01&endDate=2001-03-04&rangeType=inclusive&sort=date``"
+msgstr ""
+"こちらのAPIエンドポイントは、クエリパラメータを使用して、特定の条件に一致する情報オブジェクトを検索するためのものです。日本語では以下のように説明されることがあります。\n"
+"\n"
+"```\n"
+"/api/informationobjects\n"
+"クエリ文字列パラメータ:\n"
+"  sq0=チョコレート\n"
+"  so1=or\n"
+"  sq1=コーヒー\n"
+"  startDate=1990-01-01（開始日）\n"
+"  endDate=2001-03-04（終了日）\n"
+"  rangeType=inclusive（範囲タイプは包括的）\n"
+"  sort=date（日付順にソート）\n"
+"```\n"
+"\n"
+"上記のクエリでは、1990年1月1日から2001年3月4日までの期間に、「チョコレート」または「コーヒー」を含む情報オブジェクトを検索しており、検索結果は日付順にソートされることを示しています。"
+
+#: ../../dev-manual/api/browse-io.rst:647
+msgid ""
+"The above query could also be expressed more simply by relying on the "
+"boolean operator and rangeType defaults, and therefore being able to exclude"
+" some parameters, like so:"
+msgstr ""
+"上記のクエリは、ブール演算子とrangeTypeのデフォルトに依存することで、より単純に表現することもでき、それによって一部のパラメータを除外することができます。例えば以下のようにです："
+
+#: ../../dev-manual/api/browse-io.rst:651
+msgid ""
+"``/api/informationobjects?sq0=chocolate+coffee&startDate=1990-01-01&endDate=2001-03-04&sort=date``"
+msgstr ""
+"このテキストは、特定のパラメータを用いてAPIエンドポイントを示すURLの一部です。通常の文章とは異なり、これはリクエストの構造を示していますが、内容の翻訳が必要な場合、以下のように日本語に変換できます。\n"
+"\n"
+"``/api/informationobjects?sq0=チョコレート+コーヒー&startDate=1990-01-01&endDate=2001-03-04&sort=日付``\n"
+"\n"
+"ただし、実際のアプリケーションやウェブサイトではURLの構造は通常、英語で固定されており、翻訳されません。また、プログラムが正しく機能するためには、パラメータ名（例：`startDate`, `endDate`, `sort` など）や値（日付 フォーマットなど）も原文のまま使用されるべきです。ですので、実務で使用する場合は翻訳を行う必要はありません。"
+
+#: ../../dev-manual/api/browse-io.rst:654
+msgid ":ref:`Back to top <api-browse-io>`"
+msgstr ":ref:`トップに戻る <api-browse-io>`"

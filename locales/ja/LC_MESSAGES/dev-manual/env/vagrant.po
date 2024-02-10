@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../dev-manual/env/vagrant.rst:5
+msgid "Vagrant"
+msgstr ""
+"Vagrantは、仮想化された環境を楽に構築、設定、管理するためのコマンドラインユーティリティであり、開発者が開発環境を迅速に構築できるようにすることを目的としています。それはあらゆる種類のプロジェクトで一貫した環境を保証するために、軽量で再現可能、ポータブルな開発環境を提供します。\n"
+"\n"
+"VagrantはOracleのVirtualBoxやVMwareのような仮想化プロバイダー、そしてDockerのようなコンテナプロバイダーと一緒に使われることが多いです。これにより、個々の開発者は環境に依存せず、ソフトウェアやアプリケーションをテストし、デプロイすることができます。\n"
+"\n"
+"使用する際には、開発者はVagrantfileと呼ばれる設定ファイルを作成します。このファイルでは、構築する仮想マシンの仕様や、使用するボックス（Vagrantによって提供される仮想マシンのテンプレート）、必要なプロビジョニングスクリプト（システムの設定やアプリケーションのインストールを自動化するスクリプト）を定義します。\n"
+"\n"
+"Vagrantを使用することで、新しい開発者はプロジェクトに早期に参加できるようになり、必要な環境をセットアップするために複雑な手順や長時間を費やす必要がなくなります。これは、長期プロジェクトだけでなく短期間のプロトタイピングやテスト環境の準備においても大きな利点です。"
+
+#: ../../dev-manual/env/vagrant.rst:7
+msgid ""
+"This guide will setup a new Oracle `VirtualBox "
+"<https://www.virtualbox.org/>`__ virtual machine with AtoM installed on your"
+" computer. It works on most operating systems, including MacOS X, Linux, "
+"Windows, FreeBSD and others. If you can install these and have at least "
+"2048Mb RAM to spare you should be good."
+msgstr ""
+"このガイドでは、新しいOracleの「VirtualBox "
+"<https://www.virtualbox.org/>」仮想マシンにAtoMをインストールし、コンピュータに設定する方法を説明します。これは、MacOS"
+" "
+"X、Linux、Windows、FreeBSDなど、ほとんどのオペレーティングシステムで動作します。これらをインストールして、少なくとも2048MBのRAMを余裕をもって用意できれば、問題なく設定できるはずです。"
+
+#: ../../dev-manual/env/vagrant.rst:13
+msgid "**Minimum system requirements**: 2GB RAM; 8GB disk space"
+msgstr "**最小システム要件**: 2GB RAM；8GB ディスクスペース"
+
+#: ../../dev-manual/env/vagrant.rst:17
+msgid ""
+"This virtual machine is **not** intended to be used in production. It "
+"targets developers or experienced users willing to try out AtoM using "
+"Vagrant. If you want to start using AtoM in production, please refer to the "
+"other methods of installations explained under this manual."
+msgstr ""
+"この仮想マシンは本番環境での使用を**意図していません**。開発者やVagrantを使ってAtoMを試用したい経験者を対象としています。もしあなたが本番環境でAtoMを利用し始めたい場合は、このマニュアルの下で説明されている他のインストール方法を参照してください。"
+
+#: ../../dev-manual/env/vagrant.rst:26
+msgid "Install Vagrant and VirtualBox"
+msgstr "VagrantとVirtualBoxをインストールしてください。"
+
+#: ../../dev-manual/env/vagrant.rst:28
+msgid ""
+"Install VirtualBox from https://www.virtualbox.org/ (or use your package "
+"manager). VirtualBox 5.1.18 or newer is required."
+msgstr ""
+"VirtualBoxはhttps://www.virtualbox.org/ "
+"からインストールしてください（またはパッケージマネージャーを使用してください）。VirtualBox 5.1.18以降のバージョンが必要です。"
+
+#: ../../dev-manual/env/vagrant.rst:30
+msgid ""
+"Install Vagrant from http://www.vagrantup.com/ (or use your package "
+"manager). Vagrant 1.9.3 or newer is required. Be aware that Ubuntu 14.04 "
+"installs Vagrant 1.4.3, which does not meet the requirements."
+msgstr ""
+"http://www.vagrantup.com/ "
+"からVagrantをインストールしてください（またはパッケージマネージャーを使用します）。必要なのはVagrant "
+"1.9.3またはそれ以上のバージョンです。Ubuntu 14.04はVagrant "
+"1.4.3をインストールしますが、これは要件を満たしていないことに注意してください。"
+
+#: ../../dev-manual/env/vagrant.rst:38
+msgid "Spin it up"
+msgstr "スピンアップしてください"
+
+#: ../../dev-manual/env/vagrant.rst:40
+msgid ""
+"using your computer's command-line interface, create a new directory and "
+"open it. The location doesn't matter, but you'll need to return to it later "
+"- all further command line operations should be run from inside the "
+"directory."
+msgstr ""
+"コンピューターのコマンドラインインターフェースを使って、新しいディレクトリを作成し、それを開いてください。場所はどこでも構いませんが、後で戻る必要があるので覚えておいてください。以降のすべてのコマンドライン操作は、そのディレクトリ内で実行する必要があります。"
+
+#: ../../dev-manual/env/vagrant.rst:48
+msgid "Initialize the current directory to be a Vagrant environment."
+msgstr "現在のディレクトリをVagrant環境として初期化します。"
+
+#: ../../dev-manual/env/vagrant.rst:54
+msgid ""
+"Run Vagrant (again, from the same directory where you saved the "
+"Vagrantfile)."
+msgstr "Vagrantを実行してください（再度、Vagrantfileを保存した同じディレクトリから）。"
+
+#: ../../dev-manual/env/vagrant.rst:61
+msgid ""
+"Vagrant will download our custom box and boot it in VirtualBox. The download"
+" can take anywhere from a few minutes to an hour or more, depending on the "
+"speed of your connection, as the box is considerably big (approx 1.4 GB in "
+"size)."
+msgstr ""
+"Vagrantは私たちのカスタムボックスをダウンロードし、それをVirtualBoxで起動します。そのダウンロードには、接続速度によっては数分から1時間以上かかることがあります。なぜなら、ボックスのサイズがかなり大きい（約1.4GB）ためです。"
+
+#: ../../dev-manual/env/vagrant.rst:69
+msgid "Connect to AtoM"
+msgstr "AtoMへ接続"
+
+#: ../../dev-manual/env/vagrant.rst:71
+msgid "Now you should be able to connect to AtoM from your local browser."
+msgstr "これで、ローカルブラウザからAtoMに接続できるようになります。"
+
+#: ../../dev-manual/env/vagrant.rst:73
+msgid "Open http://10.10.10.10."
+msgstr "「http://10.10.10.10 を開いてください。」"
+
+#: ../../dev-manual/env/vagrant.rst:75
+msgid "The default login details are:"
+msgstr "デフォルトのログイン詳細は次のとおりです："
+
+#: ../../dev-manual/env/vagrant.rst:77
+msgid "Username: ``demo@example.com``"
+msgstr "ユーザー名：``demo@example.com``"
+
+#: ../../dev-manual/env/vagrant.rst:78
+msgid "Password: ``demo``"
+msgstr "パスワード: 「demo」"
+
+#: ../../dev-manual/env/vagrant.rst:84
+msgid "Connect to the terminal"
+msgstr "端末に接続してください。"
+
+#: ../../dev-manual/env/vagrant.rst:86
+msgid ""
+"Run ``vagrant ssh`` from the same directory as where you ran ``vagrant up``."
+" Vagrant will connect you to the correct virtual machine."
+msgstr ""
+"同じディレクトリで「vagrant up」を実行した場所から「vagrant "
+"ssh」を実行してください。Vagrantはあなたを正しい仮想マシンに接続します。"
+
+#: ../../dev-manual/env/vagrant.rst:89
+msgid "The login details are:"
+msgstr "ログインの詳細は以下のとおりです："
+
+#: ../../dev-manual/env/vagrant.rst:91
+msgid "Username: ``vagrant``"
+msgstr "ユーザー名: 「vagrant」"
+
+#: ../../dev-manual/env/vagrant.rst:92
+msgid "Password: ``vagrant``"
+msgstr "パスワード：``vagrant``"
+
+#: ../../dev-manual/env/vagrant.rst:94
+msgid ""
+"If you are using Windows, the preferred SSH client is `PuTTY "
+"<http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`__."
+msgstr ""
+"Windowsを使用している場合、推奨されるSSHクライアントは `PuTTY "
+"<http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`__ です。"
+
+#: ../../dev-manual/env/vagrant.rst:99
+msgid ""
+"If you are a developer who requires access to the MySQL database in AtoM's "
+"Vagrant box, here are the credentials:"
+msgstr "もしAtoMのVagrantボックス内のMySQLデータベースにアクセスする必要があるデベロッパーであれば、以下が認証情報です："
+
+#: ../../dev-manual/env/vagrant.rst:102
+msgid "**Username**: ``root``"
+msgstr "**ユーザー名**: `root`"
+
+#: ../../dev-manual/env/vagrant.rst:103
+msgid "**Password**: ``root``"
+msgstr "**パスワード**: ``root``"
+
+#: ../../dev-manual/env/vagrant.rst:109
+msgid "Customize the environment"
+msgstr "環境のカスタマイズ"
+
+#: ../../dev-manual/env/vagrant.rst:111
+msgid ""
+"There are a number of configuration changes that you may want to make if you"
+" are planning to use git and submit code to a repository."
+msgstr "リポジトリにコードを送信し、gitを使用する予定である場合、変更したい設定がいくつかあります。"
+
+#: ../../dev-manual/env/vagrant.rst:114
+msgid ""
+"Locales customize programs to your language and country. We use `en_ES.UTF8`"
+" but you can change it. The process is explained in the `Locale page "
+"<https://help.ubuntu.com/community/Locale>`__ of the official Ubuntu wiki."
+msgstr ""
+"ロケールは、プログラムをあなたの言語や国にカスタマイズします。私たちは `en_ES.UTF8` "
+"を使用していますが、これを変更することができます。そのプロセスは、公式Ubuntuウィキの「ロケールページ "
+"<https://help.ubuntu.com/community/Locale>」で説明されています。"
+
+#: ../../dev-manual/env/vagrant.rst:118
+msgid ""
+"Ideally, you will also update the system to use your current timezone. See "
+"`how to change the timezone from the command line in Ubuntu "
+"<https://help.ubuntu.com/community/UbuntuTime#Using_the_Command_Line_.28terminal.29>`__."
+msgstr ""
+"理想的には、現在のタイムゾーンを使用するようにシステムを更新することも行うべきです。Ubuntuでコマンドラインからタイムゾーンを変更する方法については、こちらのリンク（`コマンドライン（ターミナル）を使用してUbuntuでタイムゾーンを変更する方法"
+" "
+"<https://help.ubuntu.com/community/UbuntuTime#Using_the_Command_Line_.28terminal.29>`__）を参照してください。"
+
+#: ../../dev-manual/env/vagrant.rst:121
+msgid ""
+"Set up your `username <https://help.github.com/articles/setting-your-"
+"username-in-git/>`__ and `email <https://help.github.com/articles/setting-"
+"your-email-in-git/>`__ in Git."
+msgstr ""
+"Gitにおいて、`ユーザー名 <https://help.github.com/articles/setting-your-username-in-"
+"git/>`__ と `メールアドレス <https://help.github.com/articles/setting-your-email-in-"
+"git/>`__ を設定します。"
+
+#: ../../dev-manual/env/vagrant.rst:125
+msgid ""
+"Create a new SSH keys to authenticate against a git server like Github. "
+"Optionally you can forward your local SSH agent using `ForwardAgent`, e.g. "
+"run ``vagrant ssh -- -A`` or ``vagrant ssh -- -o ForwardAgent=yes`` instead "
+"of just ``vagrant ssh``. Alternatively, you can set "
+"``config.ssh.forward_agent`` to ``true`` in the local Vagrantfile or the "
+"global ``~/.vagrant.d/Vagrantfile``."
+msgstr ""
+"GitHubのようなgitサーバーに対して認証するために、新しいSSHキーを作成します。オプションとして、`ForwardAgent` "
+"を使用してローカルのSSHエージェントを転送することができます。例えば、単に ``vagrant ssh`` と実行する代わりに ``vagrant "
+"ssh -- -A`` や ``vagrant ssh -- -o ForwardAgent=yes`` "
+"を実行してください。または、ローカルのVagrantfileや、グローバルな ``~/.vagrant.d/Vagrantfile`` で "
+"``config.ssh.forward_agent`` を ``true`` に設定することもできます。"
+
+#: ../../dev-manual/env/vagrant.rst:135
+msgid "Access the code from your host"
+msgstr "ホストからコードにアクセスしてください"
+
+#: ../../dev-manual/env/vagrant.rst:137
+msgid ""
+"We have configured a Samba server in the Vagrant box in order to allow you "
+"to access the AtoM directory inside the box."
+msgstr ""
+"私たちは、Vagrant boxの中のAtoMディレクトリにアクセスを許可するために、Vagrant box内にSambaサーバーを設定しました。"
+
+#: ../../dev-manual/env/vagrant.rst:140
+msgid ""
+"From your host, you could mount the samba share either using `mount.cifs` or"
+" by adding the following entry in :file:`/etc/fstab`:"
+msgstr ""
+"ホストから、`mount.cifs` を使用するか、以下のエントリを :file:`/etc/fstab` "
+"に追加することで、Samba共有をマウントできます:"
+
+#: ../../dev-manual/env/vagrant.rst:147
+msgid ""
+"Note that the above example is mounting the network share into "
+":file:`/home/user/Desktop/atom`, feel free to modify this according to your "
+"environment."
+msgstr ""
+"上記の例ではネットワーク共有を:file:`/home/user/Desktop/atom`にマウントしていますが、ご利用の環境に合わせて自由に変更してください。"
+
+#: ../../dev-manual/env/vagrant.rst:152
+msgid ""
+"There are alternative ways to share files between your host and the virtual "
+"box, e.g. Vagrant offers a smart detection system that internally uses NFS, "
+"vboxsf or rsync to achieve this. However, we've found that the most "
+"convenient method for our specific case is to share the files via Samba. We "
+"may reconsider this in the future. For further reading about this you may "
+"want to visit `Comparing Filesystem Performance in Virtual Machines "
+"<http://mitchellh.com/comparing-filesystem-performance-in-virtual-"
+"machines>`__ by Mitchell Hashimoto, the creator of Vagrant."
+msgstr ""
+"ホストとバーチャルボックス間でファイルを共有する別の方法があります。例えば、Vagrantは内部でNFS、vboxsf、またはrsyncを使用するスマートな検出システムを提供しています。しかし、私たちの特定のケースにおいては、Samba経由でファイルを共有する方法が最も便利であるとわかりました。将来的にこれを見直すこともあるかもしれません。これについてさらに読み進めたい場合は、Vagrantの創設者であるMitchell"
+" Hashimotoによる「仮想マシン内のファイルシステムパフォーマンスの比較 <http://mitchellh.com/comparing-"
+"filesystem-performance-in-virtual-machines>`__ を訪問してみてください。"
+
+#: ../../dev-manual/env/vagrant.rst:160
+msgid ""
+"Note that the directory where you have installed the vagrantfile on your "
+"host system (e.g. ``Desktop/atom-vagrant``) will be accessible from inside "
+"the guest as ``/vagrant``. So if you want to import a CSV called ``my-"
+"descriptions.csv`` from your host's ``atom-vagrant`` directory, the command "
+"might look like:"
+msgstr ""
+"ホストシステムにvagrantfileをインストールしたディレクトリ（例えば ``Desktop/atom-vagrant``）は、ゲスト内から "
+"``/vagrant`` としてアクセス可能であることに注意してください。そのため、ホストの ``atom-vagrant`` ディレクトリから "
+"``my-descriptions.csv`` というCSVをインポートしたい場合、コマンドは以下のようになるかもしれません:"
+
+#: ../../dev-manual/env/vagrant.rst:174
+msgid "Keeping the environment up to date"
+msgstr "環境を最新の状態に保つ"
+
+#: ../../dev-manual/env/vagrant.rst:176
+msgid ""
+"You can check if the box you're using is outdated with ``vagrant box "
+"outdated``. This can check if the box in your current Vagrant environment is"
+" outdated as well as any other box installed on the system."
+msgstr ""
+"ご使用のボックスが古いかどうかは、「vagrant box "
+"outdated」で確認できます。これにより、現在のVagrant環境内のボックスが古いかどうか、またシステムにインストールされている他のボックスが古いかどうかを確認することができます。"
+
+#: ../../dev-manual/env/vagrant.rst:180
+msgid ""
+"To pull in the latest code for your box, connect via SSH (see :ref:`vagrant-"
+"connect-terminal`), navigate to the atom folder with ``cd atom``, and run "
+"``git pull --rebase``. After pulling in new code, you will want to do the "
+"following:"
+msgstr ""
+"ボックスの最新コードを取得するためには、SSH経由で接続します（「:ref:`vagrant-connect-"
+"terminal`」を参照）。次に、``cd atom`` コマンドで atom フォルダに移動し、``git pull --rebase`` "
+"を実行してください。新しいコードを取り込んだ後、以下の操作を行いたいでしょう："
+
+#: ../../dev-manual/env/vagrant.rst:184
+msgid "Clear cache: ``php symfony cc``"
+msgstr "キャッシュのクリア： ``php symfony cc``"
+
+#: ../../dev-manual/env/vagrant.rst:186
+msgid ""
+"Restart services: ``sudo systemctl restart php7.4-fpm`` and ``sudo systemctl"
+" restart atom-worker``"
+msgstr ""
+"サービスの再起動: ``sudo systemctl restart php7.4-fpm`` そして ``sudo systemctl restart"
+" atom-worker``"
+
+#: ../../dev-manual/env/vagrant.rst:191
+msgid ""
+"In most cases, you will definitely want to complete the next two steps: *Run"
+" the SQL upgrade task* and *Repopulate the search index*. There is no harm "
+"in running these even if they are not necessary."
+msgstr ""
+"ほとんどの場面において、次の2つのステップを完了させたくなるでしょう： *SQLアップグレードタスクを実行する* と "
+"*検索インデックスを再構築する*。これらは必要ない場合であっても実行しても損害はありません。"
+
+#: ../../dev-manual/env/vagrant.rst:195
+msgid ""
+"If you know for certain that the changes pulled in did not contain updates "
+"to the database, feel free to omit executing ``tools:upgrade-sql`` and "
+"``search:populate`` below."
+msgstr ""
+"確実にデータベースへの更新が含まれていない変更を取り込んだ場合は、以下の ``tools:upgrade-sql`` と "
+"``search:populate`` の実行を省略しても構いません。"
+
+#: ../../dev-manual/env/vagrant.rst:200
+msgid "Run the SQL upgrade task: ``php symfony tools:upgrade-sql``"
+msgstr "SQLアップグレードタスクを実行します: ``php symfony tools:upgrade-sql``"
+
+#: ../../dev-manual/env/vagrant.rst:202
+msgid "Repopulate the search index: ``php symfony search:populate``"
+msgstr "検索インデックスを再構築する：``php symfony search:populate``"
+
+#: ../../dev-manual/env/vagrant.rst:204
+msgid "Compile stylesheets: ``make -C plugins/arDominionPlugin``"
+msgstr "スタイルシートをコンパイルする：``make -C plugins/arDominionPlugin``"
+
+#: ../../dev-manual/env/vagrant.rst:206
+msgid ""
+"If you are pulling in major changes to the AtoM codebase, we recommend "
+"purging the database back to the clean demo version (``sudo php symfony "
+"tools:purge --demo``) run the SQL upgrade task, and clear the cache and "
+"restart services. Then re-import some test data and repopulate the search "
+"index."
+msgstr ""
+"AtoMコードベースに大きな変更を取り入れる場合、データベースをクリーンなデモバージョンまで削除することをお勧めします（``sudo php "
+"symfony tools:purge "
+"--demo``を実行）、SQLアップグレードタスクを実行し、キャッシュをクリアしてサービスを再起動してください。その後、テストデータを再インポートし、検索インデックスを再構築してください。"
+
+#: ../../dev-manual/env/vagrant.rst:211
+msgid ""
+"Finally, you can update boxes with ``vagrant box update``. This will "
+"download and install the new box. This will not magically update running "
+"Vagrant environments. If a Vagrant environment is already running, you'll "
+"have to destroy and recreate it to acquire the new updates in the box. The "
+"update command just downloads these updates locally."
+msgstr ""
+"最後に、``vagrant box update`` "
+"を使用してボックスを更新することができます。これにより、新しいボックスがダウンロードされ、インストールされます。しかし、これによって実行中のVagrant環境が自動的に更新されるわけではありません。もしVagrant環境がすでに実行中の場合、新しいボックスの更新を取得するためには、その環境を破棄して再作成する必要があります。アップデートコマンドは、これらの更新をローカルにダウンロードするだけです。"
+
+#: ../../dev-manual/env/vagrant.rst:219
+msgid ""
+"Running the ``vagrant box update`` command will destroy your old vagrant "
+"box, and replace it with an updated one. This means that **any data you have"
+" will be lost**. If you want to keep your data, it's better to create a new "
+"box for the update in a new directory."
+msgstr ""
+"``vagrant box update`` "
+"コマンドを実行すると、古いVagrantボックスは破棄され、更新されたボックスに置き換えられます。これは、**あなたが持っているデータはすべて失われる**ということを意味します。データを保持したい場合は、新しいディレクトリでアップデート用の新しいボックスを作成する方が良いです。"
+
+#: ../../dev-manual/env/vagrant.rst:224
+msgid ""
+"You can find more help at the `Box Versioning "
+"<https://docs.vagrantup.com/v2/boxes/versioning.html>`__ page."
+msgstr ""
+"以下の `Box バージョニング <https://docs.vagrantup.com/v2/boxes/versioning.html>`__ "
+"ページでさらに多くのヘルプを見つけることができます。"

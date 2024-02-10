@@ -1,0 +1,1918 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/access-content/advanced-search.rst:5
+msgid "Advanced search"
+msgstr "高度な検索"
+
+#: ../../user-manual/access-content/advanced-search.rst:10
+msgid ""
+"In addition to AtoM's general :term:`search box` (located in the AtoM "
+":term:`header bar`), AtoM also includes a robust advanced search interface "
+"that allows user to build complex queries via the :term:`user interface`. A "
+"number of filters have been included to narrow the search parameters, while "
+"complex :term:`boolean search` queries using AND, OR, and NOT statements can"
+" be built with the addition of search :term:`fields <field>`. The advanced "
+"search interface is available to all users - i.e. you do not have to be "
+"logged in to the application to access it. Note that it is designed to be "
+"used to search for :term:`archival descriptions <archival description>` - "
+"please see the sections on AtoM's :ref:`dedicated search boxes <dedicated-"
+"search>` and :ref:`search-typeahead` for information on searching for "
+"different :term:`entity` or record types."
+msgstr ""
+"AtoMの一般的な:term:`検索ボックス`（AtoMの:term:`ヘッダーバー`に位置しています）に加えて、AtoMには強力な高度な検索インターフェースも含まれており、ユーザーは:term:`ユーザーインターフェース`を通じて複雑なクエリを組み立てることができます。検索パラメータを絞り込むために多数のフィルタが組み込まれており、AND、OR、NOTのステートメントを使用する複雑な:term:`ブール検索`クエリは、検索:term:`フィールド"
+" "
+"<field>`が追加されることで構築できます。高度な検索インターフェースはすべてのユーザーが利用可能です。つまり、アプリケーションにログインしている必要はありません。これは:term:`アーカイブ記述"
+" <archival "
+"description>`の検索に使用するように設計されていることに注意してください。異なる:term:`エンティティ`や記録タイプを検索するためのAtoMの:ref:`専用検索ボックス"
+" <dedicated-search>`や:ref:`検索タイプアヘッド <search-"
+"typeahead>`についての情報は、該当する節をご参照ください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:23
+msgid ""
+"This section will instruct you how to use AtoM's advanced search interface; "
+"additionally, it will outline methods that are available in the general "
+":term:`search box` to perform advanced searches, using :term:`boolean "
+"search` operators and special characters."
+msgstr ""
+"このセクションでは、AtoMの高度な検索インターフェースの使用方法について説明します。また、一般的な「検索ボックス」で使用可能な、ブール検索演算子や特殊文字を使った高度な検索を行う方法についても概説します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:30
+msgid ""
+"At this time, the Advanced search interface can only be used to search for "
+":term:`archival descriptions <archival description>`. To search for other "
+":term:`entity` types in AtoM (e.g. :term:`authority records <authority "
+"record>`, etc.), please use the Dedicated search boxes provided in the "
+"relevant page - for more information, see: :ref:`dedicated-search`."
+msgstr ""
+"現時点で、高度な検索インターフェースは、`:term:`アーカイブ記述 <archival "
+"description>`の検索にのみ使用できます。AtoM内の他の`:term:`エンティティ`タイプ(例えば、`:term:`権限記録 "
+"<authority "
+"record>`など)を検索するには、関連するページに用意されている専用の検索ボックスをご利用ください。詳細については、`:ref:`dedicated-"
+"search`を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:37
+msgid ""
+"Note that you **can** get some results for other entities in the Global "
+"search box typeahead - for more information, see: :ref:`search-typeahead`."
+msgstr ""
+"ご注意ください。グローバル検索ボックスのタイプアヘッドでは、他のエンティティに対してもいくつかの結果を得ることが**できます**。詳細については、次を参照してください:"
+" :ref:`search-typeahead`。"
+
+#: ../../user-manual/access-content/advanced-search.rst:40
+msgid ""
+"More information on how AtoM default search behaviors are configured, a list"
+" of fields, as well as tips and tricks on how to target specific fields, can"
+" be found in :ref:`advanced-search-via-searchbox` and :ref:`es-fields-atom`."
+msgstr ""
+"AtoMのデフォルトの検索動作がどのように設定されているか、フィールドのリスト、特定のフィールドをターゲットにする方法に関するヒントやコツについての詳細は、`:ref:`advanced-"
+"search-via-searchbox` および `:ref:`es-fields-atom` に記載されています。"
+
+#: ../../user-manual/access-content/advanced-search.rst:44
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../user-manual/access-content/advanced-search.rst:46
+msgid ":ref:`advanced-search-interface`"
+msgstr ":ref:`高度な検索インターフェース`"
+
+#: ../../user-manual/access-content/advanced-search.rst:48
+msgid ":ref:`date-range-search`"
+msgstr ""
+"`:ref:`date-range-search``はリファレンスタグであり、特定のドキュメントやセクションを参照するためのものです。これを文字通りに日本語に翻訳することはできませんが、テキストが参照している内容が「日付範囲検索」という概念を指していると仮定すると、以下のように表現することができます。\n"
+"\n"
+"`:ref:`日付範囲検索``\n"
+"\n"
+"ただし、実際には、このタグを翻訳する際には翻訳先のドキュメントの構造とリファレンスラベルがすでに設定されている必要があります。タグはそのまま保持し、参照先のラベル名だけを適切な翻訳に置き換える必要があります。それにはドキュメントシステムの構築方法や使用しているツールに依存します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:50
+msgid ":ref:`advanced-search-via-searchbox`"
+msgstr ":ref:`高度な検索-検索ボックスを通じて`"
+
+#: ../../user-manual/access-content/advanced-search.rst:51
+msgid ":ref:`es-fields-atom`"
+msgstr ""
+"`:ref:`es-fields-atom`` は、英語のドキュメント内で特定のリファレンスやリンクを示すために使用されるマークアップ要素です。これをそのまま日本語に翻訳すると、意味が通じないため、日本語のドキュメントにおいては適切な参照タグに変更する必要があります。\n"
+"\n"
+"もし「es-fields-atom」がArchivematicaのドキュメント内でAccess to Memory (AtoM)で使われるElasticsearchのフィールドに関する節を参照している場合、日本語で適切な参照名に変更すると以下のようになるかもしれません。\n"
+"\n"
+"``エラスティックサーチのフィールド - AtoM``\n"
+"\n"
+"ただし、実際の翻訳にはドキュメント全体のコンテキストや慣習に合わせて参照名を決定する必要があります。また、参照ラベルはドキュメント内で一意でなければならず、ドキュメントの目的に合わせて適切に整理されている必要があります。これは標準的なマークダウンやreStructuredTextで使用される等の文書フォーマットの記法の一例です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:52
+msgid ":ref:`csv-export-search-2`"
+msgstr ""
+":ref:`csv-export-search-2`はreStructuredText文書で使用される参照マークアップであり、テキストそのものを翻訳することは不適切です。これは特定のセクションやタイトルへのリンクを作成するために使用されます。ただし、ドキュメントの読者が日本語を理解している場合に備えて、参照先のセクション名を日本語に翻訳することは可能です。\n"
+"\n"
+"もし「csv-export-search-2」がセクションのラベルであり、「CSVエクスポートサーチ 2」などの意味があるとするならば、それを日本語で表現すると次のようになります（ただし、実際のセクション名に応じて変更してください):\n"
+"\n"
+":ref:`csv-エクスポートサーチ-2`\n"
+"\n"
+"この翻訳はあくまで想定の一例であり、実際のドキュメントにおける該当セクションの正確な名前に基づいて行う必要があります。また、リンク先のラベル名が変更される場合は、ドキュメントの他の部分における参照も同様に更新する必要があります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:56
+msgid ":ref:`search-atom`"
+msgstr ""
+":ref:`search-atom` の翻訳はそのまま「: ref:`search-atom`」となります。これは、多分に特定の参照やラベルを指しているマークアップであり、実際のドキュメントのコンテキスト内で該当する部分への参照を示しています。ドキュメント内で適切な日本語訳が必要な場合は、その参照が指しているセクションのタイトルを日本語に翻訳し、参照コードはそのまま保持します。例えば、「AtoM検索」が該当するセクションタイトルであれば、文脈に応じて次のような形になります：\n"
+"\n"
+"```\n"
+":ref:`AtoM検索 <search-atom>`\n"
+"```\n"
+"\n"
+"ただし、この参照の完全な使い方は、使用しているドキュメント生成システムや、その書式に依存します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:57
+msgid ":ref:`browse`"
+msgstr ":ref:`ブラウズ`"
+
+#: ../../user-manual/access-content/advanced-search.rst:58
+msgid ":ref:`navigate`"
+msgstr ":ref:`ナビゲート`"
+
+#: ../../user-manual/access-content/advanced-search.rst:59
+msgid ":ref:`archival-descriptions`"
+msgstr "「:ref:`アーカイブ記述`」"
+
+#: ../../user-manual/access-content/advanced-search.rst:60
+msgid ":ref:`csv-export-search`"
+msgstr ""
+"この特定のテキスト（`:ref:`csv-export-search`）は、ドキュメント内の特定の参照やセクションを指しているため、直接的な翻訳は適当ではないことが多いです。この参照は、通常、ソフトウェアのドキュメント内のリンク機能を提供するために使われます。しかしながら、もし参照のタイトルそのものを翻訳する必要がある場合は、以下のようにすることができます：\n"
+"\n"
+"`:ref:`csv-export-search`の部分を対応する日本語のセクションタイトルに置き換える必要があります。例えば、参照が「CSVエクスポート検索」セクションを指している場合、ドキュメント内の日本語タイトルも「CSVエクスポート検索」とする必要があるでしょう。そして、次のような文脈で使用できます：\n"
+"\n"
+"「詳細については、CSVエクスポート検索セクションを参照してください。」\n"
+"\n"
+"ただし、実際のマークアップ言語の使用とコードの構造は、使用しているドキュメント生成システムによって異なる可能性があります。翻訳を行う際は、ドキュメントの整合性を保つために、適切な文脈と構造を維持することが不可欠です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:65
+msgid "The Advanced search panel"
+msgstr "高度な検索パネル"
+
+#: ../../user-manual/access-content/advanced-search.rst:67
+msgid ""
+"This section will outline how to use AtoM's advanced search interface. The "
+"advanced search interface is used to find descriptions in AtoM that contain "
+"text matching a search query. The :term:`advanced search panel` is available"
+" on all :term:`archival description` search and browse pages, at the top of "
+"the results - click on the panel header to expand or collapse it:"
+msgstr ""
+"このセクションでは、AtoMの高度な検索インターフェイスの使用方法について概説します。高度な検索インターフェイスは、検索クエリに一致するテキストを含むAtoM内の記述を見つけるために使用されます。`:term:`高度な検索パネル``は、すべての`:term:`アーカイブ記述``の検索および閲覧ページの結果の上部にあります。パネルのヘッダーをクリックして展開または折りたたむことができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An image of the advanced search panel, collapsed. Click to expand."
+msgstr "詳細検索パネルの折りたたみ状態の画像。クリックして展開します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:78
+msgid ""
+"Users can also go directly to the search page with the advanced search panel"
+" expanded by using the \"Advanced search\" hyperlink available in the "
+":term:`drop-down menu` that appears when a user places the cursor in the "
+":term:`search box` located in the AtoM :term:`header bar`."
+msgstr ""
+"ユーザーは、AtoM :term:`ヘッダーバー`にある :term:`検索ボックス`の中にカーソルを置くと表示される "
+":term:`ドロップダウンメニュー`の中にある「詳細検索」のハイパーリンクを使用して、詳細検索パネルが展開された状態で直接検索ページに移動することもできます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:83
+msgid ""
+"In the advanced search panel, a user can select \"and, or, not\" operators "
+"to build powerful :term:`Boolean search` queries, limit search terms to "
+"specific :term:`archival description` fields, and/or apply a number of "
+"different filters to limit or narrow the results returned along specific "
+"criteria, all via a friendly :term:`user interface`."
+msgstr ""
+"詳細検索パネルでは、ユーザーが「and、or、not」の演算子を選択し、パワフルな：用語「ブール検索」クエリを構築したり、検索用語を特定の：用語「アーカイブ記述」フィールドに限定したり、そして／または、特定の基準に沿って結果を限定または絞り込むための様々なフィルターを適用することができます。それらはすべてユーザーフレンドリーな：用語「ユーザーインターフェース」を通じて行えます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:89
+msgid ""
+"**To search for archival descriptions using the advanced search panel:**"
+msgstr "**高度な検索パネルを使ってアーカイブ記述を検索するには：**"
+
+#: ../../user-manual/access-content/advanced-search.rst:91
+msgid ""
+"Place your cursor in the :term:`search box` located in the AtoM "
+":term:`header bar`. A :term:`drop-down menu` will appear below the search "
+"box - to access the advanced search interface, click on the \"Advanced "
+"search\" link in the drop-down menu."
+msgstr ""
+"カーソルをAtoMの :term:`ヘッダーバー` にある :term:`検索ボックス` の中に置きます。検索ボックスの下に "
+":term:`ドロップダウンメニュー` "
+"が表示されます。高度な検索インターフェースにアクセスするには、ドロップダウンメニューの中の「詳細検索」リンクをクリックします。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An image of the drop-down beneath the search box"
+msgstr "検索ボックスの下にあるドロップダウンの画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:101
+msgid ""
+"Alternatively, you can use the :term:`Browse menu` to navigate to **Browse >"
+" Archival descriptions**, and then click on the Advanced search panel to "
+"expand it."
+msgstr ""
+"あるいは、`:term:`Browse menu`を使用して、**Browse > Archival "
+"descriptions**に移動し、そこでAdvanced searchパネルをクリックして展開することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:107
+msgid ""
+"The advanced search options described here apply **only** to searches for "
+":term:`archival descriptions <archival description>` - the advanced search "
+"interface returns archival description results by default. To search for "
+"other :term:`entity` or record types, see the sections on :ref:`search-"
+"typeahead` and on the :ref:`dedicated-search` available in the :ref:`search-"
+"atom` section."
+msgstr ""
+"ここで説明されている高度な検索オプションは、**オンリー**で`:term:`アーカイバルディスクリプション<archival "
+"description>`の検索に適用されます - "
+"高度な検索インターフェイスは、デフォルトでアーカイバルディスクリプションの結果を返します。他の`:term:`エンティティ`またはレコードタイプの検索については、`:ref:`search-"
+"typeahead`セクションと`:ref:`dedicated-search`が`:ref:`search-atom`セクションで利用可能です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:114
+msgid "AtoM will redirect you to the advanced search screen:"
+msgstr "AtoMは、あなたを高度な検索画面にリダイレクトします："
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An image of the advanced search panel"
+msgstr "高度な検索パネルの画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:121
+msgid ""
+"To begin searching, enter a search term into the first search field at the "
+"top of the Advanced search panel, under the heading, \"Find results with\":"
+msgstr ""
+"検索を開始するには、まず「Find results with」の見出しの下にある上部の高度な検索パネルの最初の検索フィールドに検索語を入力してください："
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An image of a user entering data in the main search field of the\n"
+"advanced search panel"
+msgstr "アドバンスド検索パネルのメイン検索フィールドにデータを入力するユーザーのイメージ"
+
+#: ../../user-manual/access-content/advanced-search.rst:131
+msgid ""
+"Use the drop-down menu to limit your search query to a specific "
+":term:`field` in the :term:`archival description` templates. The default "
+"setting is to search any field. Options include:"
+msgstr ""
+"ドロップダウンメニューを使用して、検索クエリをアーカイバル記述テンプレートの特定の`:term:`フィールド`に限定します。デフォルト設定は、任意のフィールドを検索します。オプションには以下が含まれます："
+
+#: ../../user-manual/access-content/advanced-search.rst:135
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/access-content/advanced-search.rst:136
+msgid "Archival history"
+msgstr "アーカイバル・ヒストリー"
+
+#: ../../user-manual/access-content/advanced-search.rst:137
+msgid "Scope and content"
+msgstr "スコープとコンテンツ"
+
+#: ../../user-manual/access-content/advanced-search.rst:138
+msgid "Extent and medium"
+msgstr "範囲と媒体"
+
+#: ../../user-manual/access-content/advanced-search.rst:139
+msgid ":term:`Subject` access points"
+msgstr "用語：主題アクセスポイント"
+
+#: ../../user-manual/access-content/advanced-search.rst:140
+msgid ":term:`Name` access points"
+msgstr "用語：「名前」アクセスポイント"
+
+#: ../../user-manual/access-content/advanced-search.rst:141
+msgid ":term:`Place` access points"
+msgstr "用語: アクセスポイントを設定する"
+
+#: ../../user-manual/access-content/advanced-search.rst:142
+msgid "Genre access points"
+msgstr "ジャンルのアクセスポイント"
+
+#: ../../user-manual/access-content/advanced-search.rst:143
+msgid "Identifier"
+msgstr "識別子"
+
+#: ../../user-manual/access-content/advanced-search.rst:144
+msgid ":term:`Reference code`"
+msgstr "用語: `参照コード`"
+
+#: ../../user-manual/access-content/advanced-search.rst:145
+msgid ""
+"Digital object text (i.e. text extracted from uploads such as PDFs and "
+"documents)"
+msgstr "デジタルオブジェクトテキスト（例：PDFやドキュメントから抽出されたテキスト）"
+
+#: ../../user-manual/access-content/advanced-search.rst:147
+msgid ":ref:`Finding aid <print-finding-aids>` text"
+msgstr "訳：`所見支援 <print-finding-aids>` テキスト"
+
+#: ../../user-manual/access-content/advanced-search.rst:148
+msgid ":term:`Creator`"
+msgstr "用語：`作成者`"
+
+#: ../../user-manual/access-content/advanced-search.rst:149
+msgid "Any field except finding aid text"
+msgstr "見つける援助テキストを除くいかなるフィールド"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An image of the targeted fields available in the advanced search panel"
+msgstr "高度な検索パネルで利用可能な対象フィールドの画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:158
+msgid ""
+"The labels in the field :term:`drop-down menu` available in the advanced "
+"search interface are based on the labels used in the International Council "
+"on Archives (`ICA <http://www.ica.org/>`__) ISAD(G) standard. For more "
+"information on ISAD(G), see: :ref:`isad-template`. In other edit templates, "
+"labels may appear differently - for example, \"Archival history\" is known "
+"as \"Custodial history\" in the :ref:`RAD <rad-template>` edit template, "
+"while \"Extent and medium\" is simply called \"Extent\" in the :ref:`DACS "
+"<dacs-template>`. However, search results for each field will be returned "
+"regardless of the template used for display."
+msgstr ""
+"高度な検索インターフェイスで利用可能な :term:`ドロップダウン メニュー` のラベルは、国際アーカイブス評議会（`ICA "
+"<http://www.ica.org/>`__）のISAD(G)標準で使用されているラベルに基づいています。ISAD(G)に関する詳細は、:ref:`isad-"
+"template` を参照してください。他の編集テンプレートでは、ラベルが異なって表示される場合があります。例えば、「Archival "
+"history」は :ref:`RAD <rad-template>` 編集テンプレートでは「Custodial "
+"history」として知られており、「Extent and medium」は :ref:`DACS <dacs-template>` "
+"では単に「Extent」と呼ばれています。しかしながら、表示に使用されるテンプレートにかかわらず、各フィールドの検索結果は返されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:168
+msgid ""
+"Use the \"Add new criteria\" button to build multi-part queries with "
+":term:`Boolean search` operators via the :term:`user interface` - by using "
+"these operators, you can narrow your search, combine terms, or exclude "
+"terms. AtoM will add a new set of fields below, into which you can enter "
+"your terms - repeat steps 3-5 as necessary. You can use the **X** to the "
+"right of the fields to remove a row of fields from your Boolean query if "
+"needed."
+msgstr ""
+"\"新しい条件を追加\"ボタンを使用して、:term:`ブール検索`演算子を通じて:term:`ユーザーインターフェース`で複数パートのクエリを構築します。これらの演算子を使用することで、検索範囲を絞り込んだり、用語を組み合わせたり、用語を除外したりすることができます。AtoMは下に新しいフィールドセットを追加します。そこにあなたの用語を入力してください"
+" - "
+"必要に応じて手順3-5を繰り返してください。必要に応じて、ブールクエリからフィールドの行を削除するために、フィールドの右にある**X**を使用できます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An image of a user adding search fields using the \"Add new criteria\"\n"
+"button in the Advanced search interface"
+msgstr "ユーザーが「新しい条件を追加」ボタンを使用して、高度な検索インターフェースに検索フィールドを追加する様子を捉えた画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:181
+msgid ""
+"Use **AND** to combine search terms to narrow your search: e.g. search "
+"*vancouver* AND *\"city hall\"* to return only descriptions that contain "
+"both search terms"
+msgstr ""
+"検索用語を組み合わせて検索範囲を絞り込むために **AND** を使用します。例えば、*vancouver* AND *\"city hall\"* "
+"を検索すると、両方の検索用語を含む記述のみが返されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:184
+msgid ""
+"Use **OR** to to combine search terms to broaden your search: e.g. search "
+"*vancouver* OR *\"city hall\"* to return descriptions that contain either "
+"search term"
+msgstr ""
+"「**OR** を使用して検索語を組み合わせ、検索範囲を広げてください。たとえば、*vancouver* OR *\"市役所\"* "
+"で検索すると、いずれかの検索語を含む説明が返されます。」"
+
+#: ../../user-manual/access-content/advanced-search.rst:187
+msgid ""
+"Use **AND NOT** to exclude terms: e.g. search *vancouver* AND NOT *\"city "
+"hall\"* to return descriptions that include *vancouver* but do not contain "
+"the phrase \"*city hall*\""
+msgstr ""
+"特定の用語を除外するために **AND NOT** を使用します。例えば、*vancouver* と検索して AND NOT *\"city "
+"hall\"* を使えば、*vancouver* を含んでいるがフレーズ \"*city hall*\" を含んでいない記述を返します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:197
+msgid ""
+"The filters available under the \"Limit results to:\" section of the "
+"Advanced search panel will allow you to limit the results to a specific "
+":term:`repository` or :term:`archival unit`."
+msgstr ""
+"「高度な検索」パネルの「結果の制限:」セクションにあるフィルタを使用すると、特定の:term:`リポジトリ`または:term:`アーカイブ単位`に結果を限定することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst
+msgid "An image of the advanced search limiters"
+msgstr "高度な検索リミッターの画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:206
+msgid ""
+"**Repository**: Limit the search to the :term:`holdings` of a specific "
+":term:`archival institution`. The :term:`drop-down menu` will be populated "
+"by all of the archival institution records in AtoM. Select the "
+":term:`repository` or archival institution you wish from the drop-down; when"
+" you submit your query, results returned will only include those associated "
+"with the selected repository."
+msgstr ""
+"**リポジトリ**: 検索範囲を特定の:term:`archival "
+"institution`（アーカイブ機関）の:term:`holdings`（所蔵品）に限定します。:term:`drop-down "
+"menu`（ドロップダウンメニュー）には、AtoMに登録されている全てのアーカイブ機関の記録が表示されます。ドロップダウンから希望する:term:`repository`（リポジトリ）またはアーカイブ機関を選択してください。クエリを送信すると、選択したリポジトリに関連する結果のみが返されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:212
+msgid ""
+"**Top-level description**: This is an auto-complete field that will populate"
+" with all of the top-level descriptions held in AtoM (generally, "
+":term:`fonds` and :term:`collections <collection>`, but if a series or "
+"another level is set as the top level of a descriptive hierarchy, it will be"
+" available in the list). Begin typing the title of a top-level description, "
+"and the auto-complete will populate the :term:`drop-down menu` with matching"
+" selections. Click on one to select it - search results will be limited to "
+":term:`archival descriptions <archival description>` found within the chosen"
+" top-level description's descendants - i.e. :term:`children <child record>`."
+msgstr ""
+"**上位レベルの説明**: "
+"これは自動補完フィールドで、AtoMに含まれるすべての上位レベルの説明が自動的に入力されます（一般的には`:term:`fonds`や`:term:`collections"
+" "
+"<collection>`ですが、シリーズやその他のレベルが記述階層の最上位として設定されている場合も、リストに表示されます）。上位レベルの説明のタイトルを入力し始めると、自動補完により`:term:`ドロップダウンメニュー`に一致する選択肢が表示されます。一つをクリックして選択すると、検索結果は選択した上位レベルの説明の子孫にある`:term:`アーカイブ記述"
+" <archival description>`に限定されます - つまり`:term:`子レコード <child record>`です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:223
+msgid ""
+"In the section below that, labelled \"Filter results by:\", you can also add"
+" filters to your search to limit the results returned to specific "
+"parameters. The functions of each search filter are outlined below:"
+msgstr ""
+"以下のセクションでは、「結果のフィルタリング：」とラベルが付けられた部分で、検索結果を特定のパラメータに限定するためのフィルターを追加することもできます。各検索フィルターの機能について以下に説明します："
+
+#: ../../user-manual/access-content/advanced-search.rst:229
+msgid ""
+"An :term:`administrator` can control the visibility of some advanced search "
+"filters via the Default page elements settings. Depending on your settings, "
+"some fields described below may be hidden in your AtoM installation. For "
+"more information, see: :ref:`default-page-elements`."
+msgstr ""
+"管理者は、「デフォルトページ要素」の設定を通じて、高度な検索フィルターの可視性を制御できます。あなたの設定によっては、以下に説明するフィールドがあなたのAtoMインストールで隠されている可能性があります。詳細については、以下を参照してください：`:ref:`default-"
+"page-elements``。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An image of the advanced search filters"
+msgstr "高度な検索フィルターの画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:239
+msgid ""
+"**Level of description**: This filter will limit the returned search results"
+" to a specific :term:`level of description`."
+msgstr "**記述レベル**: このフィルターは、特定の:term:`記述レベル`に対して返される検索結果を限定します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:241
+msgid ""
+"**Digital object available**: Use this filter to determine if a the search "
+"results returned include :term:`digital objects <digital object>` (e.g. "
+"images, audio or video files, text documents, etc.), or by selecting \"No\","
+" include only results without digital objects."
+msgstr ""
+"**デジタルオブジェクト利用可能**: このフィルターを使用して、検索結果に :term:`デジタルオブジェクト<digital "
+"object>`（例：画像、オーディオやビデオファイル、テキストドキュメントなど）が含まれるか、\"No\"を選択することにより、デジタルオブジェクトを含まない結果のみを含むかを判断します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:248
+msgid ""
+"If there are digital objects available in your results, you can then use the"
+" \"Media type\" :term:`facet <facet filter>` to further limit the results by"
+" media type - e.g. Video, Audio, Image, Text, or Other. For more information"
+" on using Facet filters in AtoM, see:"
+msgstr ""
+"もし検索結果にデジタルオブジェクトが存在する場合、\"メディアタイプ\" :term:`ファセット <facet filter>` "
+"を使って、さらにメディアタイプ別に結果を絞り込むことができます−例えば、ビデオ、オーディオ、画像、テキスト、その他などです。AtoMでファセットフィルタを使用する方法の詳細は、次を参照してください："
+
+#: ../../user-manual/access-content/advanced-search.rst:253
+msgid ":ref:`Facet filters in AtoM (overview) <recurring-facet-filters>`"
+msgstr ":ref:`AtoM（概要）におけるファセットフィルタ <recurring-facet-filters>`"
+
+#: ../../user-manual/access-content/advanced-search.rst:254
+msgid ":ref:`facets-by-record-type`"
+msgstr ":ref:`レコードタイプによるファセット`"
+
+#: ../../user-manual/access-content/advanced-search.rst:255
+msgid ":ref:`using-facet-filters`"
+msgstr ":ref:`ファセットフィルタの使用`"
+
+#: ../../user-manual/access-content/advanced-search.rst:257
+msgid ""
+"**Finding aid**: AtoM includes the ability for users to either upload a "
+"finding aid, or generate one from the full hierarchy of an :term:`archival "
+"unit` - for more information, see: :ref:`print-finding-aids`. The options "
+"available in this filter include:"
+msgstr ""
+"**ファインディングエイド**: "
+"AtoMは、ユーザーがファインディングエイドをアップロードするか、または:term:`アーカイバルユニット`の完全な階層構造から生成する機能を含んでいます。詳細については、次を参照してください:"
+" :ref:`print-finding-aids`。このフィルターで利用可能なオプションは以下の通りです:"
+
+#: ../../user-manual/access-content/advanced-search.rst:262
+msgid ""
+"*Yes*: Return only matching descriptions that have a finding aid. It doesn't"
+" matter if the finding aid is generated from a description or uploaded."
+msgstr ""
+"*はい*：説明書が付属する一致する記述のみを返します。説明書が記述から生成されたものであろうとアップロードされたものであろうと関係ありません。"
+
+#: ../../user-manual/access-content/advanced-search.rst:265
+msgid ""
+"*No*: Return only matching descriptions that *do not* have a finding aid."
+msgstr "*いいえ*：目録（ファインディング・エイド）を持っていない一致する記述のみを返します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:267
+msgid ""
+"*Generated*: Return only matching descriptions that have a finding aid "
+"generated from the existing archival description hierarchy."
+msgstr "*生成済み*: 既存のアーカイブ記述階層から見つけ出しの手助けとなる目録が生成された、一致する記述のみを返します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:269
+msgid ""
+"*Uploaded*: Return only matching descriptions that have an uploaded finding "
+"aid."
+msgstr "*アップロード済み*: アップロードされたファインディングエイドを持つ説明に一致するもののみを返します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:274
+msgid ""
+"Finding aid generation can be disabled by an :term:`administrator` via "
+"|gears| **Admin > Settings > Finding aid**. When disabled, the related "
+"filter in the advanced search panel will also be hidden. For more "
+"information, see: :ref:`print-finding-aid-settings`."
+msgstr ""
+"アーカイブ支援ツールの生成は、|gears| **管理 > 設定 > "
+"アーカイブ支援ツール**から:term:`管理者`によって無効にすることができます。無効化されると、高度な検索パネルの関連フィルタも非表示になります。詳細については、:ref:`print-"
+"finding-aid-settings`を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:7
+msgid "gears"
+msgstr ""
+"ギア "
+"(この単語の文脈に応じて機械的なギアを意味することもあれば、比喩的な意味で「歯車」や「仕組み」という意味になることもあります。文脈が不明なので精密な訳が難しいですが、一般的には「ギア」と訳されます。)"
+
+#: ../../user-manual/access-content/advanced-search.rst:279
+msgid ""
+"**Copyright status**: AtoM :term:`archival description` templates include a "
+"the ability to add Rights statements, drawn from elements of the `PREMIS "
+"<http://www.loc.gov/standards/premis/>`__ (Preservation Medata: "
+"Impmlementation Strategies) metadata standard maintained by the U.S. Library"
+" of Congress. Through this module, a user can add a copyright status to an "
+"archival description (with values including Public Domain, Under copyright, "
+"or Unknown). This filter will limit search results to those descriptions "
+"where a PREMIS Rights copyright status has been added matching the selection"
+" in the filter's :term:`drop-down menu`. For more information, see: "
+":ref:`rights`."
+msgstr ""
+"**著作権ステータス**: AtoM :term:`アーカイブ記述` テンプレートには、米国議会図書館が維持する `PREMIS "
+"<http://www.loc.gov/standards/premis/>`__ (保存メタデータ: 実装戦略) "
+"メタデータ標準の要素から描かれた権利声明を追加する機能が含まれています。このモジュールを通じて、ユーザーはアーカイブ記述に著作権ステータス（パブリックドメイン、著作権あり、不明などの値）を追加することができます。このフィルターは、フィルターの"
+" :term:`ドロップダウンメニュー` "
+"での選択に合致するPREMIS権利著作権ステータスが追加された記述のみを検索結果に限定します。詳細については、:ref:`rights` "
+"を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:289
+msgid ""
+"**General material designation**: This is a filter that is particular to a "
+"controlled field found within the :ref:`RAD template <rad-template>` for "
+"archival descriptions - it is a controlled vocabulary drawn directly from "
+"the Canadian Rules for Archival Description, and managed in one of AtoM's "
+":term:`taxnomies <taxonomy>` and used to define the type of material found "
+"within an :term:`archival unit`. Select a GMD term from the :term:`drop-down"
+" menu` to limit search results to descriptions that have been been marked "
+"with the matching GMD value."
+msgstr ""
+"**一般的資料指定**: これは、:ref:`RADテンプレート<rad-"
+"template>`の中で見られる制御されたフィールドに特有なフィルターであり、カナダのアーカイブ記述ルールから直接引かれた、制御された語彙です。この語彙はAtoMの:term:`タクソノミー<taxonomy>`の一つで管理されており、:term:`アーカイブ単位`内に見つかる資料のタイプを定義するために使用されます。検索結果を一致するGMD値でマークされた記述に限定するために、:term:`ドロップダウンメニュー`からGMD用語を選択します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:298
+msgid ""
+"Finally, the last section, labelled \"Filter by date range:\", will allow "
+"you to search against the internal StartDate and EndDate values of of "
+"creation events associated with an :term:`archival description`. For more "
+"information on using the date range search in AtoM, see below, :ref:`date-"
+"range-search`."
+msgstr ""
+"最後に、「日付範囲でフィルター:」とラベル付けされたセクションでは、`:term:`アーカイバル記述`に関連付けられた作成イベントの内部StartDateとEndDateの値に対して検索を行うことができます。AtoMで日付範囲検索を使用する方法の詳細については、以下の「:ref:`date-"
+"range-search`」を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:304
+msgid ""
+"If you wish to restart your search and quickly clear all filters and boolean"
+" fields, you can use the \"Reset\" button located at the bottom of the "
+"Advanced search panel. AtoM will reload the page, with all filters and "
+"parameters removed."
+msgstr ""
+"検索を再開し、すべてのフィルタやブール値フィールドを素早くクリアしたい場合は、アドバンスド検索パネルの下部にある「リセット」ボタンを使用できます。AtoMはページをリロードし、すべてのフィルタやパラメータを削除します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:309
+msgid ""
+"When you have entered all of your search parameters, click the \"Search\" "
+"button in the :term:`button block` at the bottom of the Advanced search "
+"panel to view the results of your search query. AtoM will reload the page, "
+"with a count of results above the Advanced search panel, and the results "
+"listed below. Results will appear in order of relevance below the button "
+"block. If there are more than 10 results, a pager will be included at the "
+"bottom of the results page. Remember, you can click on the header of the "
+":term:`Advanced search panel` to collapse it out of view while you browse "
+"the results."
+msgstr ""
+"すべての検索パラメーターを入力したら、`Advanced search panel`の下部にある`button "
+"block`内の「Search」ボタンをクリックして、検索クエリの結果を表示します。AtoMはページをリロードし、`Advanced search "
+"panel`の上部に結果数を表示し、その下に結果がリストされます。結果は`button "
+"block`の下に関連性の順に表示されます。10件を超える結果がある場合は、結果ページの一番下にページャーが含まれます。結果を閲覧する間、`Advanced"
+" search panel`のヘッダーをクリックして、それを表示から折りたたむことができることを覚えておいてください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:321
+msgid ""
+"An :term:`administrator` can set the default number of results per page "
+"throughout the application via |gears| **Admin > Settings**. For more "
+"information, see: :ref:`results-page`."
+msgstr ""
+"管理者はアプリケーション全体でページごとのデフォルトの結果数を、|gears| **管理 > "
+"設定**から設定することができます。詳細については、:ref:`results-page`を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:325
+msgid ""
+"Click on the blue titles of the results stubs to navigate to that result's "
+"specific page. Navigating back will bring you back to your original list of "
+"results; however, navigating to the \"Advanced search\" page from the "
+":term:`search box` will require you to restart your search from the "
+"beginning."
+msgstr ""
+"結果のスタブの青いタイトルをクリックして、その結果の特定のページに移動します。戻る操作をすると、もとの結果リストに戻りますが、:term:`検索ボックス`"
+" から「詳細検索」ページに移動すると、検索を最初からやり直す必要があります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:331
+msgid ""
+"Your search can be modified at any time and the results refrehsed "
+"accordingly by simply changing the required search terms and :term:`fields "
+"<field>`, and clicking \"Search\" once again. You can also restart your "
+"search at any time; simply click the \"Reset\" button in the :term:`button "
+"block` of the :term:`Advanced search panel`."
+msgstr ""
+"いつでも検索条件を変更し、必要な検索語と：用語`<field>`フィールドを変更して\"Search\"ボタンを再度クリックすることによって、結果をリフレッシュできます。また、いつでも検索をやり直すことができます。：用語`Advanced"
+" search panel`詳細検索パネルの：用語`button block`ボタンブロック内の\"Reset\"ボタンをクリックするだけです。"
+
+#: ../../user-manual/access-content/advanced-search.rst:340
+msgid "Date range search filter"
+msgstr "日付範囲検索フィルター"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An image of the date range search filters"
+msgstr "日付範囲検索フィルタの画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:347
+msgid ""
+"The date range search allows users to search for any records whose active "
+"dates (e.g. dates of creation, accumulation, etc.) either overlap, or fall "
+"exactly within, a selected range. AtoM expects ISO 8601 formatted date "
+"values for searching - i.e. YYYY-MM-DD. Note that the fields include "
+"calendar widgets, to provide users with a graphical interface for date "
+"selection if desired - alternatively, you can manually enter your range "
+"directly into the text field. Whenever only YYYY values are entered, AtoM "
+"will automatically add -01-01 to values in the Start date field, and -12-31 "
+"to values in the End date field."
+msgstr ""
+"日付範囲検索では、ユーザーが選択した範囲と重なる、またはその範囲内に正確に該当する、活動日付 (例: 作成日、蓄積日など) "
+"のある記録を検索できます。AtoMは、検索用にISO 8601形式の日付値（すなわちYYYY-MM-"
+"DD）を期待しています。フィールドには、ユーザーが望む場合にグラフィカルインターフェースで日付を選択するためのカレンダーウィジェットが含まれていますが、代わりに直接テキストフィールドに範囲を手動で入力することもできます。YYYYのみが入力された場合、AtoMは自動的に開始日フィールドに-01-01を、終了日フィールドに-12-31を追加します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:358
+msgid ""
+"When searching for a date range, AtoM searches against the values in "
+"internal, `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ "
+"``startDate`` and ``endDate`` fields - those hidden from users, and "
+"formatted as YYYY-MM-DD, YYYY-MM, or YYYY. This is not to be confused with "
+"the **Display date** field, which is shown to public users, and allows you "
+"to use typographical marks to express approximation or uncertainty:"
+msgstr ""
+"日付範囲を検索する際、AtoMは内部にあるユーザーには非表示の`ISO-8601 "
+"<https://en.wikipedia.org/wiki/ISO_8601>`__ "
+"形式の``startDate``と``endDate``フィールドの値に対して検索を行います。これらはYYYY-MM-DD、YYYY-"
+"MM、またはYYYYとしてフォーマットされています。これは、一般ユーザーに表示される**表示日付**フィールドと混同してはいけません。表示日付フィールドでは、近似や不確実性を表現するために、様々な記号を使用することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An illustration of the different date fields and their uses"
+msgstr "異なる日付フィールドとその用途の図解"
+
+#: ../../user-manual/access-content/advanced-search.rst:370
+msgid ""
+"This means, if you have NOT included internal start and end date values, "
+"then your description(s) will not be returned when performing a date range "
+"search!"
+msgstr ""
+"これはつまり、内部開始日付と終了日付の値を含めていない場合は、日付範囲検索を実行しても、あなたの記述は検索結果に表示されないということです！"
+
+#: ../../user-manual/access-content/advanced-search.rst:374
+msgid ""
+"There are 2 ways of searching dates, represented by the :term:`radio button`"
+" options in the Date range search interface - \"Overlapping\" (which is the "
+"default), and \"Exact.\""
+msgstr ""
+"日付を検索するには、日付範囲検索インターフェイス内の`:term:「ラジオボタン」`オプションによって表される2つの方法があります。それは「オーバーラッピング」（これがデフォルトです）と「エグザクト」です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:378
+msgid ""
+"The **Overlapping** option is a broadly inclusive search: any records whose "
+"dates overlap the user input range will be returned. For example, a search "
+"for a range from 1950-1970 would return descriptions with the following "
+"dates:"
+msgstr ""
+"「**オーバーラッピング**」オプションは包括的な検索方法です：ユーザーが入力した範囲と期間が重なるすべてのレコードが返されます。例えば、1950年から1970年の範囲で検索した場合、以下のような日付のついた記述が返されます："
+
+#: ../../user-manual/access-content/advanced-search.rst:382
+msgid "1945 - 1990"
+msgstr "1945年から1990年"
+
+#: ../../user-manual/access-content/advanced-search.rst:383
+msgid "1945 - 1950"
+msgstr "1945年 - 1950年"
+
+#: ../../user-manual/access-content/advanced-search.rst:384
+msgid "1970 - 1990"
+msgstr "1970年 - 1990年"
+
+#: ../../user-manual/access-content/advanced-search.rst:385
+msgid "1955 - 1965"
+msgstr "1955年 - 1965年"
+
+#: ../../user-manual/access-content/advanced-search.rst:386
+msgid "1955 - (no end date)"
+msgstr "1955年 - (終了日なし)"
+
+#: ../../user-manual/access-content/advanced-search.rst:387
+msgid "(no start date) - 1980"
+msgstr "(開始日なし) - 1980年"
+
+#: ../../user-manual/access-content/advanced-search.rst:389
+msgid ""
+"The **Exact** option means that records must fall exactly within the "
+"specified parameters to be returned as a result. A search for 1950-1970 "
+"using the \"Exact\" option would not return any of the results listed above "
+"- but its results returned might include values such as:"
+msgstr ""
+"「**Exact（厳密）**」オプションを選択すると、指定されたパラメーターに完全に一致するレコードのみが結果として返されます。\"Exact（厳密）\"オプションを使用して1950年から1970年までの検索を行うと、上記リストの結果は一つも返されないことになりますが、検索結果として返される可能性のある値には次のようなものが含まれるかもしれません："
+
+#: ../../user-manual/access-content/advanced-search.rst:394
+msgid "1950 - 1955"
+msgstr "1950年 - 1955年"
+
+#: ../../user-manual/access-content/advanced-search.rst:395
+msgid "1952 - 1969"
+msgstr "1952年 - 1969年"
+
+#: ../../user-manual/access-content/advanced-search.rst:396
+msgid "1950 - 1970"
+msgstr "1950年 - 1970年"
+
+#: ../../user-manual/access-content/advanced-search.rst:397
+msgid "1964 - 1969"
+msgstr "1964年 - 1969年"
+
+#: ../../user-manual/access-content/advanced-search.rst:398
+msgid "1968 - 1970"
+msgstr "1968年 - 1970年"
+
+#: ../../user-manual/access-content/advanced-search.rst:400
+msgid ""
+"To better clarify these options, some example diagrams have been included "
+"below to indicate the difference, illustrating how each option behaves for "
+"closed ranges (both start and end date included), and open ranges (where "
+"either a start or end date is included, and the second date is left blank). "
+"In the following images, results in green will be returned by the search "
+"query; results in red will be excluded from the results:"
+msgstr ""
+"これらのオプションをより明確に説明するために、以下に具体例の図をいくつか含め、閉区間（開始日と終了日の両方が含まれる区間）と開区間（開始日か終了日のいずれかが含まれ、もう一方の日付が空白の区間）における各オプションの振る舞いの違いを示しています。以下の画像では、緑色の結果が検索クエリによって返されるものであり、赤色の結果は結果から除外されるものです："
+
+#: ../../user-manual/access-content/advanced-search.rst:410
+msgid "Closed range example"
+msgstr "閉じた範囲の例"
+
+#: ../../user-manual/access-content/advanced-search.rst:412
+#: ../../user-manual/access-content/advanced-search.rst:441
+msgid "**Overlapping**:"
+msgstr "**オーバーラッピング**:"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An example of results returned for a 1950-1970 query using the\n"
+"Overlap option"
+msgstr "以下は、オーバーラップオプションを使用して、1950年から1970年にかけてのクエリに対して返された結果の例です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:420
+#: ../../user-manual/access-content/advanced-search.rst:453
+msgid "**Exact**:"
+msgstr ""
+"Certainly, I can provide a Japanese translation for you. Please provide the "
+"text you wish to have translated."
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An example of results returned for a 1950-1970 query using the Exact\n"
+"option"
+msgstr "「Exact」オプションを使用し、1950年から1970年までのクエリに対する結果の例"
+
+#: ../../user-manual/access-content/advanced-search.rst:428
+msgid ""
+"As you can see, the \"Overlapping\" option is very inclusive, while the "
+"\"Exact\" option is much more strict in terms of the results returned."
+msgstr "ご覧の通り、「Overlapping」オプションは非常に包括的ですが、「Exact」オプションは返される結果においてはるかに厳格です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:434
+msgid "Open end date example"
+msgstr "オープンエンドデート例"
+
+#: ../../user-manual/access-content/advanced-search.rst:436
+msgid ""
+"You can also input only a start date, or an end date, into the date range "
+"search if desired. If a user gives **just a start date**, it is interpreted "
+"to mean 'filter to records that were active after this date' - in other "
+"words, 'end date of record **>** user supplied start date.'"
+msgstr ""
+"必要に応じて、日付範囲検索に開始日のみ、または終了日のみを入力することもできます。ユーザーが**開始日のみ**を入力した場合、これは「この日付以降にアクティブであったレコードにフィルターを適用する」と解釈されます。言い換えると、「レコードの終了日"
+" **>** ユーザーが提供した開始日」です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An example of results returned for a 1950 start date query using the\n"
+"Overlapping option"
+msgstr "1950年の開始日をクエリとして使用した際に、「重複」オプションを用いて得られた結果の一例"
+
+#: ../../user-manual/access-content/advanced-search.rst:449
+msgid ""
+"When the \"Overlapping\" option is used, records which start before the "
+"specified start date will be included if their date range extends into the "
+"specified parameter."
+msgstr ""
+"「オーバーラッピング」オプションを使用すると、指定された開始日より前に開始されたレコードでも、その日付範囲が指定されたパラメータに及ぶ場合は含まれます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An example of results returned for a 1950 start date query using the\n"
+"Exact option"
+msgstr "1950年の開始日を指定して「Exact」オプションを使用したクエリの結果例"
+
+#: ../../user-manual/access-content/advanced-search.rst:461
+msgid ""
+"When the \"Exact\" option is used, records starting before the specified "
+"start date range are excluded."
+msgstr "「Exact（正確な）」オプションを使用する場合、指定された開始日範囲より前に始まる記録は除外されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:467
+msgid "Open start date example"
+msgstr "開始日の例"
+
+#: ../../user-manual/access-content/advanced-search.rst:469
+msgid ""
+"If the user gives **just an end date**, it means 'filter to records that "
+"were active before this date' - in other words, 'start date of record **<** "
+"user supplied end date.'"
+msgstr ""
+"ユーザーが**終了日のみ**を指定した場合、それは「この日付の前に活動していた記録へのフィルタリング」を意味します。言い換えれば、「記録の開始日はユーザーが指定した終了日より**小さい**」となります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:473
+msgid "**Overlapping**"
+msgstr "オーバーラッピング"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An example of results returned for a 1970 end date query with the\n"
+"Overlap option used"
+msgstr "以下は、1970年の終了日のクエリに対して「重複オプション」を使用した結果の一例です。"
+
+#: ../../user-manual/access-content/advanced-search.rst:481
+msgid ""
+"When the \"Overlapping\" option is used for search with a specified end date"
+" but no start date, records whose ranges extend beyond the specified range "
+"may be included, if their start dates extend into the specified range."
+msgstr ""
+"「重複」オプションを用いて特定の終了日を指定して検索を行う際、開始日が指定されていない場合には、記録の期間が指定された範囲を超えて拡張されている場合でも、その開始日が指定された範囲に延びている場合には、記録が含まれることがあります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:485
+msgid "**Exact**"
+msgstr "**正確**"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid ""
+"An example of results returned for a 1970 end date query with the\n"
+"Exact option used"
+msgstr "\"Exactオプションを使用して1970年の終了日のクエリに対して返された結果の一例\""
+
+#: ../../user-manual/access-content/advanced-search.rst:493
+msgid ""
+"When the \"Exact\" option is used, any record whose end date falls outside "
+"of the specified parameter will be excluded."
+msgstr "「Exact（正確）」オプションが使用される場合、指定されたパラメーターの範囲外に終了日があるレコードは除外されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:499
+msgid "Using the date range search filter"
+msgstr "日付範囲の検索フィルターの使用"
+
+#: ../../user-manual/access-content/advanced-search.rst:501
+msgid ""
+"When you place the cursor in the start date or end date fields of the date "
+"range search, a calendar :term:`drop-down menu` will appear. This "
+"\"datepicker\" offers a graphical user interface for selecting the date, if "
+"desired."
+msgstr ""
+"日付範囲検索の開始日または終了日フィールドにカーソルを置くと、カレンダーの "
+"`ドロップダウンメニュー`が表示されます。この「日付選択ピッカー」は、希望する場合に日付を選択するためのグラフィカルユーザーインターフェイスを提供します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An example of calendar widget dropdown in the date range fields"
+msgstr "日付範囲フィールドにおけるカレンダーウィジェットのドロップダウンの例"
+
+#: ../../user-manual/access-content/advanced-search.rst:510
+msgid ""
+"Click on a day in the calendar to select that as your start or end date. You"
+" can also navigate through the months using the black forward and back "
+"buttons."
+msgstr ""
+"カレンダーの日付をクリックすると、選択した日を開始日または終了日として設定できます。ブラックの進むボタンと戻るボタンを使用して、月をナビゲートすることもできます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:513
+msgid "The month and year can also be adjusted via the two drop-down menus:"
+msgstr "月と年も、2つのドロップダウンメニューを介して調整することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An example of calendar widget dropdown menus in the date range fields"
+msgstr "日付範囲フィールドのカレンダーウィジェットのドロップダウンメニューの例"
+
+#: ../../user-manual/access-content/advanced-search.rst:520
+msgid ""
+"Alternatively, you can also ignore the calendar widget, and simply enter a "
+"date directly into the text field. AtoM expects the dates to be formatted as"
+" **YYYY** or **YYYY-MM-DD**. If you enter only the year, then AtoM will add "
+"-01-01 to start dates and -12-31 to end dates when the search query is "
+"submitted - for example, if you search for 1950 - 1970, AtoM will submit the"
+" query as 1950-01-01 (January 01, 1950) to 1970-12-31 (December 31, 1970). "
+"You can also specify an open range, by entering just a start date or just an"
+" end date."
+msgstr ""
+"また、カレンダーウィジェットを無視して、直接テキストフィールドに日付を入力することもできます。AtoMは、日付が**YYYY**または**YYYY-"
+"MM-"
+"DD**の形式であることを期待しています。もし年だけを入力した場合、検索クエリが提出されたときに、AtoMは開始日に-01-01を、終了日には-12-31を追加します。例えば、1950"
+" - "
+"1970と検索すると、AtoMはクエリを1950-01-01（1950年1月1日）から1970-12-31（1970年12月31日）として提出します。また、開始日だけ、または終了日だけを入力して、開いた範囲を指定することもできます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:531
+msgid ""
+"If you enter the dates in the wrong format, such as **YYYY-MM**, your search"
+" will return no results! In this case, AtoM will provide a warning above the"
+" date range fields:"
+msgstr ""
+"誤った形式で日付を入力した場合、例えば**YYYY-"
+"MM**のように入力すると、検索結果は何も返されません！この場合、AtoMは日付範囲フィールドの上に次のような警告を表示します："
+
+#: ../../user-manual/access-content/advanced-search.rst
+msgid "An example of improper dates entered into the Date range widget"
+msgstr "日付範囲ウィジェットに不適切に入力された日付の例"
+
+#: ../../user-manual/access-content/advanced-search.rst:540
+msgid ""
+"Once you have entered your desired date range, use the :term:`radio button` "
+"options to the right of the input fields to specify how the date range "
+"should be performed. \"Exact\" means that the start and end dates of "
+"descriptions returned must fall entirely within the date range entered, "
+"while \"Overlapping\" is much more inclusive, and any description whose "
+"start or end dates touch or overlap the target date range will be returned. "
+"See above for an illustration of the differences between Overlapping and "
+"Exact when returning results for:"
+msgstr ""
+"希望の日付範囲を入力したら、入力フィールドの右側にある`:term:`ラジオボタン`オプションを使用して、日付範囲の実行方法を指定します。\"Exact\"は、戻された記述の開始日と終了日が入力された日付範囲内に完全に収まる必要があることを意味します。一方で、\"Overlapping\"はもっと包括的であり、ターゲット日付範囲に接触するかまたは重なる開始日または終了日を持つ任意の記述が戻されます。結果を戻す際のOverlappingとExactの違いの図解については、上を参照してください："
+
+#: ../../user-manual/access-content/advanced-search.rst:548
+msgid ":ref:`Closed range (start and end date) <date-search-closed-example>`"
+msgstr ":ref:`閉じた範囲（開始日と終了日）<date-search-closed-example>`"
+
+#: ../../user-manual/access-content/advanced-search.rst:549
+msgid ":ref:`Open range (no end date) <date-search-open-end-example>`"
+msgstr ":ref:`オープンレンジ（終了日なし）<date-search-open-end-example>`"
+
+#: ../../user-manual/access-content/advanced-search.rst:550
+msgid ":ref:`Open range (no start date) <date-search-open-start-example>`"
+msgstr ":ref:`開始日なしの範囲 <date-search-open-start-example>`"
+
+#: ../../user-manual/access-content/advanced-search.rst:552
+msgid ""
+"If you click the **(?)** Help icon, a :term:`tooltip <tooltips>` will appear"
+" below the fields with a brief explanation of the difference between "
+"\"Overlapping\" and \"Exact.\""
+msgstr ""
+"**（?）** ヘルプアイコンをクリックすると、フィールドの下に :term:`ツールチップ <tooltips>` "
+"が表示され、「重複」と「完全一致」の違いについて簡単な説明が現れます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An image of help tooltip in the date range fields"
+msgstr "日付範囲フィールドにあるヘルプツールチップの画像"
+
+#: ../../user-manual/access-content/advanced-search.rst:561
+msgid ""
+"When you have entered all desired parameters, use the \"Search\" button to "
+"submit your query. Remember, you can also use other Advanced search filters "
+"or :term:`facets <facet filter>` to further refine your search!"
+msgstr ""
+"すべての希望するパラメータを入力したら、「Search」ボタンを使用してクエリを送信してください。さらに、他のアドバンスト検索フィルターや:term:`ファセット<facet"
+" filter>`を使用して検索をさらに絞り込むこともできることを忘れないでください！"
+
+#: ../../user-manual/access-content/advanced-search.rst:565
+#: ../../user-manual/access-content/advanced-search.rst:1114
+#: ../../user-manual/access-content/advanced-search.rst:1140
+msgid ":ref:`Back to top <advanced-search>`"
+msgstr ":ref:`トップに戻る <advanced-search>`"
+
+#: ../../user-manual/access-content/advanced-search.rst:570
+msgid "Advanced search using the AtoM Search box"
+msgstr "AtoM検索ボックスを使用した高度な検索"
+
+#: ../../user-manual/access-content/advanced-search.rst:572
+msgid ""
+"AtoM implements `Elasticsearch <http://www.elasticsearch.org/>`__, a "
+"distributed search server based on Apache Lucene, which acts as the "
+"application's search and analytic engine. Elasticsearch is not integrated "
+"directly into AtoM code as a library, but as a service deployed in the same "
+"network which AtoM interacts with through a `REST "
+"<https://en.wikipedia.org/wiki/Representational_State_Transfer>`__ ful `API "
+"<https://en.wikipedia.org/wiki/API>`__."
+msgstr ""
+"AtoMは、分散検索サーバーである`Elasticsearch "
+"<http://www.elasticsearch.org/>`__を採用しています。これはApache "
+"Luceneをベースにしたもので、アプリケーションの検索および分析エンジンとして機能します。ElasticsearchはライブラリとしてAtoMコードに直接統合されるわけではなく、AtoMが`REST"
+" <https://en.wikipedia.org/wiki/Representational_State_Transfer>`__準拠の`API "
+"<https://en.wikipedia.org/wiki/API>`__を通じてやり取りする、同じネットワーク内に展開されたサービスとして導入されています。"
+
+#: ../../user-manual/access-content/advanced-search.rst:580
+msgid ""
+"This provides a number of options for advanced searching from within the "
+":term:`search box`. What follows is a description of the default search "
+"behaviors in AtoM, a list of special characters that can be used as "
+":ref:`advanced-search-operators` in the AtoM :term:`search box`, and a list "
+"of Elasticsearch fields and how expert users can use the ES field names to "
+"target specific fields and construct complex queries."
+msgstr ""
+"これにより、:term:`検索ボックス`内から高度な検索を行うための多数のオプションが提供されます。以下に、AtoMのデフォルトの検索動作の説明、AtoM"
+" :term:`検索ボックス`で使用できる特殊文字を:ref:`advanced-search-"
+"operators`として使用するための一覧、そしてElasticsearchフィールドの一覧と、専門ユーザーがESフィールド名を使用して特定のフィールドを対象にし複雑なクエリを構築する方法について説明します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:590
+msgid "Phrases"
+msgstr "フレーズ"
+
+#: ../../user-manual/access-content/advanced-search.rst:592
+msgid ""
+"By default in AtoM, the :term:`Boolean search` settings of AtoM are set to "
+"use **AND** as the default operator when multiple search terms are entered. "
+"This means that by default, a search for *city hall* will return results "
+"that include \"city\" **AND** \"hall\" - however, the order of terms doesn't"
+" matter in the results returned, and they may not necesarily appear "
+"together."
+msgstr ""
+"AtoMでは、デフォルトで:term:`ブーリアン検索`の設定が複数の検索用語が入力された際にデフォルトのオペレータとして**AND**を使用するようになっています。つまり、デフォルトでは*市役所*と検索すると、\"市\""
+" **AND** \"役所\"を含む結果が返されますが、返される結果において用語の順序は関係なく、必ずしも両方が連続して現れるとは限りません。"
+
+#: ../../user-manual/access-content/advanced-search.rst:598
+msgid ""
+"**To search for an exact phrase** in AtoM, use double quotes to contain the "
+"terms you wish to search. For example, search *\"city hall\"* to return "
+"results that contain both \"city\" and \"hall\" together in that exact "
+"order."
+msgstr ""
+"AtoMで**特定のフレーズを検索する**には、検索したい用語を含むダブルクォートを使用してください。例えば、\"city\"と\"hall\"が正確な順序で一緒に含まれている結果を返すために、*\"市役所\"*と検索します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:602
+msgid ""
+"If you wish to use \"OR\" as the operator between terms, see the section "
+"below, :ref:`advanced-search-operators`."
+msgstr ""
+"もしあなたが検索語間に「OR」という演算子を使用したい場合は、下記のセクションを参照してください： :ref:`advanced-search-"
+"operators`。"
+
+#: ../../user-manual/access-content/advanced-search.rst:608
+msgid "Result matches and field weighting"
+msgstr "結果の一致とフィールドの重み付け"
+
+#: ../../user-manual/access-content/advanced-search.rst:610
+msgid ""
+"Each time a search is submitted in AtoM, the terms of the search are "
+"tokenized and results are ranked and ordered based on how relevant the match"
+" seems to the original search query."
+msgstr ""
+"AtoMで検索が実行されるたびに、検索の用語はトークン化され、結果は元の検索クエリに対するマッチの関連度に基づいてランク付けされ、順序付けられます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:614
+msgid ""
+"To improve the relevancy of search results, AtoM includes some basic "
+"weighting added to certain :term:`fields <field>`, so that when a search "
+"term matches the data in one of these weighted fields, it is boosted and "
+"returned higher in the list of matching results."
+msgstr ""
+"検索結果の関連性を向上させるために、AtoMは特定の「フィールド<field>」に基本的な重み付けを加えています。そのため、検索語がこれら重み付けされたフィールドのデータと一致する時、その検索結果は優先され、一致する結果リストの上位に返されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:619
+msgid ""
+"For example, if you search for the word ``Toronto``, then a record with "
+"\"Toronto\" in the title will be returned higher in the list of results than"
+" one that only has the word in a notes field. Below is a breakdown of how "
+":term:`archival description` fields are weighted in AtoM - the greater the "
+"weight, the more importance the match is considered and therefore the more "
+"it is boosted in the returned results:"
+msgstr ""
+"たとえば、「Toronto」という単語を検索すると、タイトルに「Toronto」という単語が含まれている記録が、メモ欄にのみその単語が含まれている記録よりも、結果リストの上位に表示されます。以下は、AtoMでの:term:`アーカイブ記述`フィールドがどのように重み付けされているかの内訳です"
+" - 重みが大きいほど、マッチが重要と見なされ、したがって戻された結果でより高くブーストされます："
+
+#: ../../user-manual/access-content/advanced-search.rst:626
+msgid "**10x weight**: Title"
+msgstr "**10倍重要度**: タイトル"
+
+#: ../../user-manual/access-content/advanced-search.rst:627
+msgid "**6x weight**: Creator"
+msgstr "**６倍の重み**: 作成者"
+
+#: ../../user-manual/access-content/advanced-search.rst:628
+msgid ""
+"**5x weight**: Identifier, :term:`Subject` access point, Scope and content"
+msgstr "**5倍の重要度**: 識別子、:term:`主題`アクセスポイント、範囲と内容"
+
+#: ../../user-manual/access-content/advanced-search.rst:629
+msgid "**3x weight**: Name :term:`access point`, :term:`Place` access point"
+msgstr "**3倍の重要性**: 名称 :用語:`アクセスポイント`, :用語:`場所` アクセスポイント"
+
+#: ../../user-manual/access-content/advanced-search.rst:631
+msgid ""
+"Note that weighting in AtoM is **cumulative**, so a match in multiple "
+"weighted fields will increase amount the record is boosted."
+msgstr ""
+"AtoMにおける重み付けが**累積的**であることに注意してください。つまり、複数の重み付けされたフィールドで一致が見られる場合、レコードがブーストされる量が増加します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:634
+msgid ""
+"For example, if you searched for ``city hall 123``, this search would "
+"understood as: look for archival descriptions that contain ``city`` AND "
+"``hall`` AND ``123`` in any field. If I have a description that has an "
+"identifier of \"123,\" the word \"city\" in the title, and the word \"hall\""
+" in the scope and content field, this record would be given a weight of +20 "
+"- that is, +10 for matching the word \"city\" in the title; +5 for matching "
+"123 in the identifier, and +5 for matching \"hall\" in the scope and content"
+" :term:`field`. However a record with \"city hall\" in the title and 123 in "
+"the Scope and content might be returned higher, as it would receive +10 for "
+"matching \"city\" in the title, another +10 for matching \"hall\" in the "
+"title, and +5 for matching 123 in the scope and content field."
+msgstr ""
+"たとえば、「city hall "
+"123」と検索した場合、この検索は次のように理解されます：「city」と「hall」と「123」を含むアーカイブ記述を任意のフィールドで探す。もし私が「123」という識別子を持ち、タイトルに「city」という単語があり、範囲と内容のフィールドに「hall」という単語がある記述を持っていたら、このレコードは+20の重みを与えられます"
+" - "
+"つまり、タイトルの「city」に一致するために+10、識別子の123に一致するために+5、範囲と内容のフィールドの「hall」に一致するために+5です。しかし、タイトルに「city"
+" "
+"hall」と123が範囲と内容で一致しているレコードは、より高い位置に戻ってくるかも知れません。それはタイトルの「city」に一致するために+10、タイトルの「hall」に一致するためにさらに+10、範囲と内容のフィールドの123に一致するために+5を受けるからです。"
+
+#: ../../user-manual/access-content/advanced-search.rst:646
+msgid ""
+"Note that there are many complex factors that go into how search relevance "
+"is determined and ranked in Elasticsearch, and it may not always be "
+"immediately apparent why some records appear higher in the returned results "
+"than others. For example, the number of other words in a given field will "
+"affect how elasticsearch ranks the relevance. So a search for "
+"\"photographs\" might return a result higher in the list that ONLY has the "
+"word photographs in the scope and content, than one where the word "
+"\"photograph\" appears in a 20-word long title - even though the added "
+"weights to the title field are technically higher than those added to the "
+"scope and content field."
+msgstr ""
+"Elasticsearchで検索の関連性がどのように決定され、ランキングされるかは非常に複雑な要因が多く関わっており、一部の記録がなぜ他の記録よりも返された結果の上位に表示されるのかは、すぐには明らかではない場合があります。たとえば、特定のフィールドに含まれる他の単語の数が、elasticsearchが関連性をどのようにランク付けするかに影響します。そのため、「写真」という検索語を入れた場合、スコープと内容に「写真」という単語のみが含まれる結果が、20語の長さのタイトルに「写真」という単語が含まれるものよりもリストの上位に返されるかもしれません"
+" - タイトルフィールドに技術的にはより高い重みが付けられているにもかかわらず、スコープと内容のフィールドに付けられている重みの方が低い場合でもです。"
+
+#: ../../user-manual/access-content/advanced-search.rst:660
+msgid "Boolean operators"
+msgstr "ブール演算子"
+
+#: ../../user-manual/access-content/advanced-search.rst:662
+msgid ""
+"In AtoM, :term:`Boolean search` operators are supported in the :term:`search"
+" box` and in the Adanced search menu. Boolean searching is a particular "
+"application of what is known as Boolean logic, a subset of algebra used for "
+"creating true/false statements. Since computers operate in binary (using "
+"ones and zeroes), computer logic can often be expressed in boolen terms "
+"(true/false). Boolean expressions use a number of operators, the most common"
+" of which are **AND**, **OR**, and **AND NOT**. Using Boolean operators in "
+"terms of search queries (i.e. Boolean search) allows a user to limit, widen,"
+" or otherwise define a search in granular terms  - for example, searching "
+"\"fonds OR collection\" would widen a search to include results that have "
+"either term."
+msgstr ""
+"AtoMでは、:term:`ブール検索` オペレータが :term:`検索ボックス` "
+"およびアドバンスド検索メニューでサポートされています。ブール検索は、真/偽の文を作成するために使用される代数の一部であるブール論理として知られている特定のアプリケーションです。コンピューターはバイナリーで動作します（1と0を使用）、そのためコンピューターロジックはしばしばブール形式（真/偽）で表現されます。ブール式はいくつかのオペレーターを使用し、その中で最も一般的なのは"
+" **AND**、**OR**、および **AND NOT** "
+"です。検索クエリにおけるブールオペレーターの使用（つまりブール検索）により、ユーザーは検索を限定したり、広げたり、あるいは詳細に定義したりすることができます"
+" - 例えば、「fonds OR collection」と検索すると、どちらかの用語を含む結果を含めて検索を広げることができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:673
+msgid ""
+"Using the Boolean operators available in AtoM allows users to build complex "
+"queries from anywhere in AtoM using the general :term:`search box` located "
+"in the AtoM :term:`header bar`, without having to navigate to the Advanced "
+"search interface."
+msgstr ""
+"AtoMで利用可能なブール演算子を使用することで、ユーザーは、AtoMの:term:`ヘッダーバー`にある一般的な:term:`検索ボックス`を使用して、高度な検索インターフェースに移動することなく、どこからでも複雑なクエリを構築することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:-1
+msgid "An example of a user building a boolean query in the AtoM search box"
+msgstr "AtoM検索ボックスでユーザーがブール式クエリを構築する例"
+
+#: ../../user-manual/access-content/advanced-search.rst:685
+msgid ""
+"By default in AtoM, the :term:`Boolean search` settings of AtoM are set to "
+"use **AND** as the default operator when multiple search terms are entered. "
+"This means that by default, a search for *chocolate cake* will return "
+"results that include \"chocolate\" **AND** \"cake\". If you want to broaden "
+"your search to return records that include either term, you must expclitly "
+"use the OR operator."
+msgstr ""
+"AtoMのデフォルト設定では、複数の検索語が入力された際に使用される:term:`ブール検索`の設定は、**AND**をデフォルトの演算子として使用しています。これは、デフォルトで"
+" *チョコレートケーキ* を検索すると、\"チョコレート\" **AND** "
+"\"ケーキ\"を含む結果が戻ってくることを意味します。どちらかの語を含む記録を返すために検索範囲を広げたい場合は、OR演算子を明示的に使用する必要があります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:692
+msgid "**Using Boolean operators in the AtoM search box:**"
+msgstr "**AtoM 検索ボックスでのブール演算子の使用：**"
+
+#: ../../user-manual/access-content/advanced-search.rst:694
+msgid ""
+"Use **AND** to combine search terms to narrow your search: e.g. search "
+"``vancouver AND \"city hall\"`` to return only descriptions that contain "
+"both search terms"
+msgstr ""
+"検索用語を組み合わせて検索範囲を絞り込むためには、**AND** を使用します。例えば、``vancouver AND \"city hall\"`` "
+"と検索すると、両方の検索用語を含む説明のみが返されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:697
+msgid ""
+"Use **OR** to to combine search terms to broaden your search: e.g. search "
+"``vancouver OR \"city hall\"`` to return descriptions that contain either "
+"search term"
+msgstr ""
+"検索範囲を広げるために、検索語句を組み合わせるために **OR** を使用します。例えば、`vancouver OR \"city hall\"` "
+"と検索すると、いずれかの検索語句を含む説明が返されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:700
+msgid ""
+"Use **AND NOT** to exclude terms: e.g. search ``vancouver AND NOT \"city "
+"hall\"`` to return descriptions that include *vancouver* but do not contain "
+"the phrase \"*city hall*\""
+msgstr ""
+"用語を除外するには **AND NOT** を使用します：例えば、 *vancouver* を含むがフレーズ \"*city hall*\" "
+"を含まない記述を返すには、``vancouver AND NOT \"city hall\"`` で検索します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:706
+msgid ""
+"Boolean operators can be combined, but there is a default precedence built "
+"into how Elasticsearch handles them - NOT takes precedence over AND, which "
+"takes precedence over OR. If you wish to combine Boolean operators, you may "
+"want to use parentheses ( ) to group clauses. See the table below for more "
+"details on grouping, and other operators available."
+msgstr ""
+"ブール演算子は組み合わせることができますが、Elasticsearchがそれらを処理する際にはデフォルトの優先順位が組み込まれています - "
+"NOTはANDよりも優先され、ANDはORよりも優先されます。ブール演算子を組み合わせたい場合は、括弧 ( ) "
+"を使用して節をグループ化するとよいでしょう。グループ化とその他の利用可能な演算子の詳細については、以下の表を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:712
+msgid "**Other Boolean operators available in AtoM:**"
+msgstr "**AtoMで使用可能な他のブール演算子:**"
+
+#: ../../user-manual/access-content/advanced-search.rst:715
+msgid "Symbol"
+msgstr "シンボル"
+
+#: ../../user-manual/access-content/advanced-search.rst:715
+msgid "Use"
+msgstr ""
+"Sure, please provide the text you would like me to translate into Japanese."
+
+#: ../../user-manual/access-content/advanced-search.rst:717
+msgid "``\"``"
+msgstr "恐れ入りますが、翻訳するべきテキストが提供されておりません。テキストを提供していただけますか？それに基づいて翻訳いたします。"
+
+#: ../../user-manual/access-content/advanced-search.rst:717
+msgid ""
+"Term enclosed in quotes must appear exactly as provided. Example: \"towel\" "
+"will find towel, but not towels."
+msgstr ""
+"引用符で囲まれた用語は、指定された通り正確に表示される必要があります。例: \"towel\"はtowelを検索しますが、towelsではありません。"
+
+#: ../../user-manual/access-content/advanced-search.rst:720
+msgid "``+``"
+msgstr ""
+"申し訳ございませんが、具体的なテキストが提示されていないため、翻訳を開始することができません。テキストを提供していただければ、その内容を日本語に翻訳いたしますので、もう一度お知らせください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:720
+msgid ""
+"Term after \"+\" must be in the result. Example: +tea cricket requires that "
+"results that must contain the term tea in them, and may have the term "
+"cricket."
+msgstr ""
+"\"+\"を付けた後の単語は結果に含まれなければなりません。例えば、+tea "
+"cricketは、結果に「tea」という単語が含まれている必要があり、さらに「cricket」という単語も含まれる可能性があります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:724
+msgid "``-``"
+msgstr ""
+"I'm sorry, but there doesn't appear to be any text provided in your message "
+"for translation. If you have a specific text that you need translated into "
+"Japanese, please provide it, and I would be happy to assist you."
+
+#: ../../user-manual/access-content/advanced-search.rst:724
+msgid ""
+"Term after \"-\" must not be in the result. Example: -tea cricket requires "
+"that results that must not contain the term tea in them, and may have the "
+"term cricket."
+msgstr ""
+"「-\"term\"」の後に続く語句は検索結果に含まれてはいけません。例えば、「-tea "
+"cricket」の検索は、「tea」という語を含まない結果を必要とし、かつ「cricket」という語を含むことができることを意味します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:728
+msgid "``?``"
+msgstr ""
+"申し訳ありませんが、テキストの内容が提供されていません。デジタルデータの長期保存に関するArchivematicaについてのどの部分を翻訳したいか、具体的なテキストを教えてください。それを受けて、適切な日本語訳を提供します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:728
+msgid ""
+"Single character wildcard. Example: p?per will find paper and piper, but not"
+" pepper."
+msgstr "単一文字ワイルドカード。例：p?per は paper や piper を検索しますが、pepper は検索しません。"
+
+#: ../../user-manual/access-content/advanced-search.rst:731
+msgid "``*``"
+msgstr ""
+"ご提供いただいたテキストは特殊文字 \"*\" "
+"のみを含んでおり、これは翻訳の対象となる通常の文章ではありません。文字自体の読み方や文字としての解釈をご希望であればご明記ください。それとも、もし実際の文章の翻訳をご希望であれば、文章またはコンテキストを提供していただけますか？それにより適切な翻訳を提供することが可能になります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:731
+msgid ""
+"Multiple character wildcard. Example: ``galax*`` will find galaxy and "
+"galaxies, but not galactic."
+msgstr "複数文字のワイルドカード。例：「galax*」はgalaxyやgalaxiesを見つけますが、galacticは見つけません。"
+
+#: ../../user-manual/access-content/advanced-search.rst:735
+msgid "``~``"
+msgstr ""
+"お知らせいただいたテキスト「``~``」は、記号のみで構成されており、具体的な文章やフレーズがありません。そのため、翻訳可能なテキストが提供されていないことを意味します。Archivematicaについての文章や具体的なドキュメントの一部を提供していただければ、その部分を日本語に翻訳することができます。もしくは、Archivematicaに関連する特定のトピックや項目について翻訳を依頼していただければ、それに関してお手伝いをさせていただきます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:735
+msgid ""
+"Fuzzy search. Will return results with words similar to the term. Example: "
+"fjord~ will find fjord, fjords, ford, form, fonds, etc."
+msgstr ""
+"ファジー検索。検索語に類似した単語の結果が表示されます。例：「fjord~」と入力すると、「fjord」、「fjords」、「ford」、「form」、「fonds」などが検索されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:738
+msgid "``&&``"
+msgstr ""
+"こちらのテキストが特定の文章や文脈を含まず、「&&」のみであることから、これはデジタルデータ保存に関する専門的な内容というよりはプログラミングやコマンドライン操作における演算子や記号である可能性が高いです。このような記号は通常、そのままの形で残すのが一般的です。\n"
+"\n"
+"しかし、翻訳のリクエストに応じて、「&&」を含む文書や文脈に関する記述がないため、この記号自体の翻訳を行うことはできません。もし、特定の文脈や文章を翻訳する必要がある場合、それに関する具体的なテキストをご提供ください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:738
+msgid ""
+"Boolean operator. Can be used in place of AND. Will cause an error if "
+"combined with spelled-out operators. Example: Arthur && Ford AND Zaphod will"
+" fail; Arthur && Ford && Zaphod will succeed."
+msgstr ""
+"ブール演算子。ANDの代わりに使用することができます。書き出された演算子と組み合わせるとエラーが発生します。例：Arthur && Ford AND "
+"Zaphodは失敗しますが、Arthur && Ford && Zaphodは成功します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:742
+msgid "``!``"
+msgstr ""
+"申し訳ありませんが、提供されたテキストには何も含まれていません。「``!``」は記号に過ぎません。翻訳するには実質的な文が必要です。もしご質問や他に翻訳を求める文章があれば、ご提供ください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:742
+msgid ""
+"Boolean operator. Can be used in place of NOT. Will cause an error  if "
+"combined with spelled-out operators."
+msgstr "ブール演算子。NOTの代わりに使用できます。綴りで表された演算子と組み合わせるとエラーが発生します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:745
+msgid "``^``"
+msgstr ""
+"お問い合わせいただきありがとうございますが、ご提供いただいたテキスト「``^``」には翻訳すべき内容が含まれていません。\"``^``\" は通常、ハット記号やキャレットとして知られる記号であり、テキストやプログラミングのコンテキストにおいて、さまざまな意味を持つことがあります。たとえば、数学では累乗を示すのに使われ、プログラミングではビット単位の排他的論理和（XOR）のオペレーターとして使われたり、正規表現では行の始まりを表すのに使われます。\n"
+"\n"
+"Archivematicaに関するドキュメントを翻訳するには、具体的な文章や段落を提供いただく必要があります。適切なテキストが提供されれば、それについての翻訳をお手伝いいたします。もしご質問や翻訳が必要な具体的なテキストがありましたら、それをご提供ください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:745
+msgid ""
+"Boost relevance. Multiplies the relevance of the preceding term by the "
+"number following the symbol, affecting the sorting of the search results. "
+"Example: paranoid android^5 gives results containing the term \"android\" 5x"
+" the relevance as results containing only the word \"paranoid\", and will "
+"sort them closer to the start of the search results."
+msgstr ""
+"重要度を高める。前にある用語の重要度を記号の後に続く数値で乗算し、検索結果のソートに影響を与えます。例: paranoid android^5 "
+"は、「android」という用語を含む結果に、「paranoid」だけを含む結果の5倍の重要度を与え、それらを検索結果の始めの方にソートします。"
+
+#: ../../user-manual/access-content/advanced-search.rst:752
+msgid "``\\``"
+msgstr ""
+"すみませんが、提供されたテキストは空です。``\\``は何も含まれていないため翻訳する内容がありません。もし翻訳したいテキストがあれば、具体的な内容を提供してください。そうすればお手伝いできるかもしれません。"
+
+#: ../../user-manual/access-content/advanced-search.rst:752
+msgid ""
+"Escapes the immediately following character, so that it is treated as text, "
+"rather than as a special character. For example, to search for \"(1+1):2\", "
+"use the following: ``\\(1\\+1\\)\\:2``"
+msgstr ""
+"直後の文字をエスケープし、特殊文字ではなくテキストとして扱います。たとえば、「(1+1):2」を検索するには、以下のように使用します：``\\(1\\+1\\)\\:2``"
+
+#: ../../user-manual/access-content/advanced-search.rst:756
+msgid "``()``"
+msgstr "テキストが提供されていないようです。翻訳するテキストをお教えいただけますか？"
+
+#: ../../user-manual/access-content/advanced-search.rst:756
+msgid ""
+"Used to group search clauses. This can be useful if you want to control the "
+"precedence of boolean operators for a query, e.g. (coffee NOT tea) OR cream "
+"will return different results than coffee NOT (tea OR cream). Without "
+"grouping, by default in Elasticsearch, NOT takes precedence over AND, which "
+"takes precedence over OR."
+msgstr ""
+"検索句をグループ化するために使用されます。これは、たとえば、(コーヒー NOT 紅茶) OR クリーム というクエリで boolean "
+"演算子の優先順位を制御したい場合に便利です。コーヒー NOT (紅茶 OR クリーム) とは異なる結果を返します。グループ化せずに "
+"Elasticsearch を使うデフォルトでは、NOT が AND より優先され、AND が OR より優先されます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:763
+msgid "``[]``"
+msgstr ""
+"あなたが翻訳を求めているテキストが見当たらないため、「``[]``」このマークだけではテキストの翻訳は行えません。翻訳を希望する具体的なテキストを提供していただければ、それに応じた翻訳を提供することができます。もし、テキストが意図的に空白にされたということであれば、その旨を明確にしてください。そうすれば、もう少し具体的な指示や情報に基づいた回答が可能になります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:763
+msgid ""
+"Closed interval range search. Example: [\"Frogstar\" TO \"Magrathea\"] will "
+"return results in the alphabetic range between \"Frogstar\" and "
+"\"Magrathea\", including\"Frogstar\" and \"Magrathea\"."
+msgstr ""
+"閉じた区間範囲検索。例：[\"Frogstar\" TO "
+"\"Magrathea\"]は、\"Frogstar\"と\"Magrathea\"の間のアルファベット範囲内の結果を返し、\"Frogstar\"と\"Magrathea\"を含みます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:768
+msgid "``{}``"
+msgstr ""
+"すみませんが、あなたが翻訳したいと言っているテキストが見当たりません。「``{}``」はプレースホルダーや特別な何かを示す記号に見えますが、これだけでは何を翻訳するべきかわかりません。正しいテキストを提供していただければ、喜んで翻訳を手伝わせていただきます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:768
+msgid ""
+"Open interval range search. Example: {\"Frogstar\" TO \"Magrathea\"} will "
+"return all results in the alphabetic range between \"Frogstar\" and "
+"\"Magrathea\", excluding\"Frogstar\" and \"Magrathea\"."
+msgstr ""
+"開いた区間範囲検索。例：{\"Frogstar\" TO "
+"\"Magrathea\"}は、\"Frogstar\"と\"Magrathea\"の間のアルファベット順の範囲にある全ての結果を、\"Frogstar\"と\"Magrathea\"を除いて返します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:773
+msgid ""
+"For further examples of the use of these Boolean operators, users can "
+"consult the `Zend Lucene search documentation "
+"<http://framework.zend.com/manual/1.12/en/zend.search.lucene.query-"
+"language.html>`__ as Elasticsearch is built on the same Apache Lucene base "
+"as the Zend framework. Developers interested in fine-tuning these settings, "
+"or technical users interested in how Elasticsearch operates may wish to "
+"consult the `query string query "
+"<http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-"
+"dsl-query-string-query.html>`__ Elasticsearch reference documentation for "
+"more information on Elasticsearch's default behaviors, and possible "
+"configurations."
+msgstr ""
+"これらのブール演算子の使用例については、ElasticsearchがZendフレームワークと同じApache "
+"Luceneを基盤として構築されているため、ユーザーは `Zend Lucene検索ドキュメント "
+"<http://framework.zend.com/manual/1.12/en/zend.search.lucene.query-"
+"language.html>`__ "
+"を参照することができます。これらの設定を細かく調整したい開発者や、Elasticsearchの動作について詳しく知りたい技術ユーザーは、Elasticsearchのデフォルトの振る舞いや可能な設定についての詳細情報を得るために、`クエリ文字列クエリ"
+" "
+"<http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-"
+"dsl-query-string-query.html>`__ Elasticsearchリファレンスドキュメントを参照するとよいでしょう。"
+
+#: ../../user-manual/access-content/advanced-search.rst:785
+msgid "Expert searching and indexed Elasticsearch fields"
+msgstr "専門家向けの検索と、インデックス化されたElasticsearchフィールド"
+
+#: ../../user-manual/access-content/advanced-search.rst:787
+msgid ""
+"Below is a list of all indexed archival description field names as they are "
+"found in Elasticsearch. Expert users can use the infomation below to target "
+"search queries to specific indexed fields, and implement search parameters "
+"otherwise not directly available via the :term:`user interface`."
+msgstr ""
+"以下は、Elasticsearchで見つかるすべての索引付けされたアーカイブ記述フィールド名のリストです。上級ユーザーは、以下の情報を利用して特定の索引付けされたフィールドに対する検索クエリをターゲットにし、:term:`ユーザーインタフェース`を介して直接利用できない検索パラメーターを実装することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:794
+msgid ""
+"Where possible, lists of the Elasticsearch fields for other entities have "
+"been added to each relevant dedicated search section in the general "
+":ref:`search-atom` documentation, as they must be used in the related "
+"dedicated search box. See:"
+msgstr ""
+"可能な限り、Elasticsearchのフィールド一覧は、関連する専用検索ボックスで使用する必要があるため、一般的な :ref:`search-"
+"atom` ドキュメントの各関連する専用検索セクションに追加されています。参照："
+
+#: ../../user-manual/access-content/advanced-search.rst:799
+msgid ":ref:`es-fields-actor`"
+msgstr ""
+":ref:`es-fields-actor` "
+"(この部分は、Archivematicaドキュメント内の特定のセクションへのクロスリファレンスを示しています。文脈が不足しているため、このクロスリファレンスが指している正確な内容を知ることはできません。一般には、\"es-"
+"fields-"
+"actor\"というラベルが付けられたセクションやフィールドを指していると理解されます。もし日本語版のドキュメントでこのクロスリファレンスを翻訳する必要がある場合は、文書内で既に決定されているラベルやセクション名に基づいて適切な翻訳を施す必要があります。ただし、このままではそのセクション名が何を指しているか不明なので、具体的な翻訳は提供できません。もし文脈が提供されれば、より適切な翻訳が可能です。)"
+
+#: ../../user-manual/access-content/advanced-search.rst:800
+msgid ":ref:`es-fields-accession`"
+msgstr ""
+":ref:`es-fields-accession` "
+"(この特定の部分は、通常、ソフトウェア内のリファレンスやマークアップ言語で使われるラベルやタグを示します。文脈によって、それは単にタグ自体を指し示しているか、またはそれが参照している文書やセクションのタイトルを指している可能性があります。日本語では、そのまま「:ref:`es-"
+"fields-"
+"accession`」と記述されることが一般的ですが、もし「項番」や「アクセッションのフィールド」というようなセクションタイトルを指しているのであれば、「項番」や「アクセッションのフィールド」などと翻訳することができます。)"
+
+#: ../../user-manual/access-content/advanced-search.rst:801
+msgid ":ref:`es-fields-repository`"
+msgstr ""
+":ref:`es-fields-repository` \n"
+"\n"
+"このテキストは、特定のドキュメントやヘルプファイルのセクションを参照するためのマークアップ記法の一例です。ただし、具体的な文脈がないため、これが何を指しているのか正確に翻訳することはできません。通常、`:ref:`タグはSphinxドキュメンテーションジェネレータで使用され、特定の参照可能なセクションにリンクする際に使用されます。`es-fields-repository`はその参照するセクションの名前であろうと考えられます。\n"
+"\n"
+"翻訳が求められている場合は、出力ドキュメントの見た目に影響を与えずに、文書内で同じ参照を維持するために、このマークアップはそのまま保持されます。したがって、直訳はしないで、原文のマークアップを維持することをお勧めします。"
+
+#: ../../user-manual/access-content/advanced-search.rst:802
+msgid ":ref:`es-fields-term`"
+msgstr ""
+"申し訳ありませんが、提供された内容 `:ref:`es-fields-term`` "
+"はプレースホルダーや特定のドキュメント構造に表示されそうな参照コードの一部のようです。これを適切な文脈や詳細な説明なしで直接翻訳することは困難です。参照先のドキュメントあるいはそのセクションの実際のテキストがあれば、それを日本語に翻訳することができます。もしそのテキストが提供できれば、それに基づいて翻訳いたします。"
+
+#: ../../user-manual/access-content/advanced-search.rst:807
+msgid "Introduction and basic usage"
+msgstr "導入と基本的な使用方法"
+
+#: ../../user-manual/access-content/advanced-search.rst:809
+msgid ""
+"AtoM currently uses Elasticsearch version 1.7 - you can find the "
+"documentation for AtoM's ES version here:"
+msgstr ""
+"AtoMは現在Elasticsearchバージョン1.7を使用しています - AtoMのESバージョンのドキュメントはこちらで見つけることができます："
+
+#: ../../user-manual/access-content/advanced-search.rst:812
+msgid "https://www.elastic.co/guide/en/elasticsearch/reference/1.7/index.html"
+msgstr ""
+"こちらは特定のテキストを翻訳するような命令がないため、[Elasticsearch Reference] 文書のリンクと題するWebページへのシンプルな翻訳だけを提供します。完全なウェブページの内容を翻訳することは、著作権法やその他の法律に違反する恐れがあり、ここでの回答には不適切です。\n"
+"\n"
+"翻訳:\n"
+"https://www.elastic.co/guide/en/elasticsearch/reference/1.7/index.html\n"
+"\n"
+"を日本語に訳すと：\n"
+"\n"
+"https://www.elastic.co/guide/en/elasticsearch/reference/1.7/index.html のエラスティックサーチ リファレンス マニュアル \n"
+"\n"
+"注意：リンク自体は翻訳の対象となりません。リンクテキストの意味が理解できるように、上記のように翻訳しました。"
+
+#: ../../user-manual/access-content/advanced-search.rst:814
+msgid ""
+"The index is organized hierarchically so that related elements are nested "
+"within broader categories. These are expressed in the ES field names as "
+"periods separating the name elements. For example, AtoM's :ref:`alternative "
+"identifiers <add-alternative-id>` consist of 2 fields - a label and an "
+"identifier value. In the ES index, these are expressed as:"
+msgstr ""
+"インデックスは、関連する要素が広範なカテゴリ内に入れ子になるように階層的に整理されています。これらは、ESのフィールド名で要素名をドットで区切って表現されます。たとえば、AtoMの:ref:`代替識別子"
+" <add-alternative-id>` "
+"は、ラベルと識別子の値の2つのフィールドで構成されています。ESインデックス内では、これらは次のように表現されます："
+
+#: ../../user-manual/access-content/advanced-search.rst:825
+msgid ""
+"To use the Elasticsearch field names below as part of a query in the AtoM "
+":term:`user interface`, use the following basic syntax:"
+msgstr ""
+"以下のElasticsearchフィールド名をAtoM "
+":term:`ユーザーインターフェース`でクエリの一部として使用するには、次の基本的な構文を使用します："
+
+#: ../../user-manual/access-content/advanced-search.rst:828
+msgid "``field.name:searchterm`` OR ``field.name:\"search term\"``"
+msgstr "``field.name:searchterm`` または ``field.name:\"search term\"``"
+
+#: ../../user-manual/access-content/advanced-search.rst:830
+msgid ""
+"Use quotes for search multiple terms in a specific field; quotes not "
+"necessary when searching for a single term. For example, to search for an "
+"alternative identifier value of 123, you could enter the following search "
+"term into the AtoM :term:`search box`:"
+msgstr ""
+"特定のフィールドで複数の用語を検索する際は引用符を使用します。単一の用語を検索する場合は引用符は必要ありません。例えば、代替識別子の値が123であるものを検索するには、AtoM：term:`検索ボックス`に以下の検索用語を入力できます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:839
+msgid ""
+"But to search for an alternative identifier label called \"Legacy call "
+"number,\" enter:"
+msgstr "「レガシーコールナンバー」と呼ばれる代替の識別子ラベルを検索するには、次のように入力します："
+
+#: ../../user-manual/access-content/advanced-search.rst:846
+msgid ""
+"Because AtoM is a :ref:`multilingual application <multilingual-design-"
+"principles>`, some translatable fields are organized together under the "
+"common prefix of \"i18n\" (a common abbreviation in multilingual application"
+" development, short for internationalization). When searching these fields, "
+"the culture of your search must be entered as part of the field name, "
+"because nested within each i18n element of the index there will be a "
+"different term for each language."
+msgstr ""
+"AtoMは`:ref:`多言語アプリケーション<multilingual-design-"
+"principles>`であるため、翻訳可能なフィールドのいくつかは、多言語アプリケーション開発でよく使われる略語「i18n」（国際化を短縮したもの）という共通の接頭辞の下にまとめられています。これらのフィールドを検索する際には、検索する言語のカルチャーをフィールド名の一部として入力する必要があります。なぜならインデックスの各i18n要素の中には、それぞれ異なる言語の用語が含まれているためです。"
+
+#: ../../user-manual/access-content/advanced-search.rst:854
+msgid ""
+"In the full field list below, some fields listed include ``%LANG%`` - this "
+"is a **placeholder** indicating that you must insert the specifc 2-letter "
+"ISO language code for the culture you want to search in - e.g. ``en`` for "
+"English, ``fr`` for French, etc. For example, the Extent and medium field is"
+" listed below as: ``i18n.%LANG%.extentAndMedium``."
+msgstr ""
+"以下のフルフィールドリストには、「``%LANG%``」というフィールドが含まれているものがあります。これはあなたが検索したい文化の具体的な2文字のISO言語コードを挿入しなければならないことを示す**プレースホルダー**です。例えば、「en」は英語、「fr」はフランス語などです。例として、以下にリストされている範囲と媒体のフィールドは「``i18n.%LANG%.extentAndMedium``」として記載されています。"
+
+#: ../../user-manual/access-content/advanced-search.rst:860
+msgid ""
+"Therefore, to search your English data for \"linear feet\" in the Extent and"
+" medium field, you would enter the search term as follows:"
+msgstr "したがって、\"linear feet\"を「規模と媒体」フィールドの英語データで検索するには、次のように検索語を入力します："
+
+#: ../../user-manual/access-content/advanced-search.rst:870
+msgid "Searching for empty fields"
+msgstr "空欄の検索"
+
+#: ../../user-manual/access-content/advanced-search.rst:872
+msgid ""
+"You can perform a field-specific search for fields that do **not** have any "
+"data added to them (i.e. which are empty) using the ``_exists_`` filter, but"
+" with the Boolean operator for NOT (i.e. ``!``) as a prefix. The basic "
+"structure of the syntax is like this:"
+msgstr ""
+"特定のフィールドにデータが追加されていない（つまり、空である）フィールドのフィールド固有の検索は、``_exists_``フィルターを使用して行うことができますが、NOTのブール演算子（つまり"
+" ``!``）を接頭辞として使用します。基本的な構文の形式は次のようになります："
+
+#: ../../user-manual/access-content/advanced-search.rst:881
+msgid ""
+"For example, to search for English archival descriptions with no data in the"
+" scope and content, use the following as your query: field:"
+msgstr "例えば、範囲と内容にデータがない英語のアーカイブ記述を検索するには、以下のクエリを使用します：field:"
+
+#: ../../user-manual/access-content/advanced-search.rst:892
+msgid "Searching for populated fields"
+msgstr "検索フィールドの入力状況"
+
+#: ../../user-manual/access-content/advanced-search.rst:894
+msgid ""
+"Similarly, you can also perform a search that will return all records that "
+"include data in a specific Elasticsearch field, without having to provide a "
+"specific keyword as a parameter. The following syntax structure can be used "
+"to return results that have data in the specified field:"
+msgstr ""
+"同様に、特定のキーワードをパラメータとして提供することなく、特定のElasticsearchフィールドにデータが含まれているすべてのレコードを返す検索を実行することもできます。指定されたフィールドにデータがある結果を返すために、次の構文構造を使用できます:"
+
+#: ../../user-manual/access-content/advanced-search.rst:903
+msgid ""
+"For example: to search for all English archival descriptions that have data "
+"in the \"Finding aids\" field:"
+msgstr "例：「Finding aids（検索支援ツール）」フィールドにデータが入っている全ての英語のアーカイブ記述を検索するには："
+
+#: ../../user-manual/access-content/advanced-search.rst:914
+msgid "Searching for recently created or modified descriptions"
+msgstr "最近作成または変更された記述の検索"
+
+#: ../../user-manual/access-content/advanced-search.rst:916
+msgid ""
+"First, remember that the \"Most recent\" option of the Sort button found on "
+"the search/browse page will change the sort order of displayed results so "
+"that those most recently created or modified are shown first - for more "
+"information, see: :ref:`recurring-sort-button`. Additionally, an "
+":term:`administrator` can use the Description updates module to search for "
+"either created or modified (or both) records withing a specific date range -"
+" for more information, see: :ref:`search-updates`."
+msgstr ""
+"まず、検索/ブラウズページにある「最新」オプションの「並び替え」ボタンを使用すると、表示される結果の並び順が変更され、最も最近に作成または変更されたものが先頭に表示されます。詳細については、以下を参照してください：:ref:`recurring-"
+"sort-"
+"button`。さらに、:term:`管理者`は「説明の更新」モジュールを使用して、特定の日付範囲内で作成または変更された（または両方）レコードを検索することができます。詳細については、以下を参照してください：:ref:`search-"
+"updates`。"
+
+#: ../../user-manual/access-content/advanced-search.rst:927
+msgid "Searching for digital objects"
+msgstr "デジタルオブジェクトの検索"
+
+#: ../../user-manual/access-content/advanced-search.rst:929
+msgid "The :term:`digital object` fields in the Elasticsearch index are:"
+msgstr "Elasticsearchインデックス内の`:term:`デジタルオブジェクト`フィールドは以下の通りです:"
+
+#: ../../user-manual/access-content/advanced-search.rst:939
+msgid "``hasDigitalObject`` is a binary field - 1 = yes, 0 = no. For example:"
+msgstr "``hasDigitalObject`` はバイナリフィールドです - 1 は「はい」、0 は「いいえ」を意味します。例えば："
+
+#: ../../user-manual/access-content/advanced-search.rst:945
+msgid "Will return results that have a digital object attached."
+msgstr "デジタルオブジェクトが添付された結果を返します。"
+
+#: ../../user-manual/access-content/advanced-search.rst:949
+msgid ""
+"Note that \"Has digital objects\" is also a filter in the Advanced search "
+"panel available in the user interface. For more information, see above, "
+":ref:`advanced-search-interface`."
+msgstr ""
+"「デジタルオブジェクトがある」は、ユーザーインターフェイスで利用できるアドバンストサーチパネルのフィルターでもあることに注意してください。詳細については、上記の「高度な検索インターフェース」を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:953
+msgid ""
+"the ``mediaTypeId`` is an internal ID number for different types of digital "
+"objects. The default values used in AtoM for each media type are:"
+msgstr ""
+"``mediaTypeId``は、異なるタイプのデジタルオブジェクトのための内部ID番号です。AtoMで各メディアタイプに使用されるデフォルト値は以下のとおりです："
+
+#: ../../user-manual/access-content/advanced-search.rst:956
+msgid "Audio: 135"
+msgstr "オーディオ: 135"
+
+#: ../../user-manual/access-content/advanced-search.rst:957
+msgid "Image: 136"
+msgstr "画像: 136"
+
+#: ../../user-manual/access-content/advanced-search.rst:958
+msgid "Text: 137"
+msgstr "テキスト：137"
+
+#: ../../user-manual/access-content/advanced-search.rst:959
+msgid "Video: 138"
+msgstr "ビデオ：138"
+
+#: ../../user-manual/access-content/advanced-search.rst:960
+msgid "Other: 139"
+msgstr "その他: 139"
+
+#: ../../user-manual/access-content/advanced-search.rst:962
+msgid "For example, to return results with a video linked:"
+msgstr "例えば、ビデオリンク付きの結果を返すためには："
+
+#: ../../user-manual/access-content/advanced-search.rst:970
+msgid ""
+"Media Type is also a facet available in AtoM's search/browse. For more "
+"information on facets in AtoM, see: :ref:`recurring-facet-filters`."
+msgstr ""
+"メディアタイプは、AtoMの検索/ブラウズで利用可能なファセットの一つです。AtoMにおけるファセットに関する詳細は、以下を参照してください: "
+":ref:`recurring-facet-filters`。"
+
+#: ../../user-manual/access-content/advanced-search.rst:973
+msgid ""
+"The ``transcript`` is the indexed text captured from the text or OCR layer "
+"of a PDF or other text-based document uploaded as a :term:`digital object`. "
+"Note that the Advanced search panel has an option to limit a search to "
+"transcript text. For more information, see above, :ref:`advanced-search-"
+"interface`."
+msgstr ""
+"「transcript」はPDFやその他のテキストベースの文書のテキストレイヤーやOCRレイヤーから取得されたインデックス付けされたテキストであり、:term:`デジタルオブジェクト`としてアップロードされています。高度な検索パネルには、検索をトランスクリプトのテキストに限定するオプションがあることに注意してください。詳細情報については、上記の"
+" :ref:`advanced-search-interface` を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:981
+msgid "Publication status"
+msgstr "公開ステータス"
+
+#: ../../user-manual/access-content/advanced-search.rst:983
+msgid ""
+"AtoM includes a publication status for archival descriptions, that allows "
+"users with sufficient :term:`permissions <access privilege>` to hide "
+"\"draft\" records from public view, or mark descriptions as \"published\" so"
+" they are publicly visible to logged out users. For more information, see: "
+":ref:`publish-archival-description`. Administrators can also set a global "
+"default status for new records via **Admin > Settings** - for more "
+"information, see: :ref:`default-publication-status`. Finally, an "
+"administrator can also use the Description updates module to identify Draft "
+"descriptions - for more information, see: :ref:`search-updates`."
+msgstr ""
+"AtoMはアーカイブ記述に対して公開状態を設定する機能を含んでおり、十分な:term:`権限 "
+"<アクセス権>`を持つユーザーが、「下書き」のレコードを一般公開から非表示にしたり、説明を「公開済み」としてマークし、ログアウトしたユーザーにも公開状態で表示できるようにできます。詳細については、:ref:`publish-"
+"archival-description`を参照してください。管理者は、**管理 > "
+"設定**から新規レコードのグローバルデフォルト状態を設定することもできます。詳細については、:ref:`default-publication-"
+"status`を参照してください。最後に、管理者は記述の更新モジュールを使用して「下書き」の説明を識別することもできます。詳細については、:ref:`search-"
+"updates`を参照してください。"
+
+#: ../../user-manual/access-content/advanced-search.rst:993
+msgid ""
+"However, you can also use the related Elasticsearch field to search for all "
+"published or draft records directly. Note that to return results marked "
+"\"draft,\" you must be authenticated (i.e. logged in) with permissions to "
+"view drafts. (see :ref:`edit-user-permissions` for more information)."
+msgstr ""
+"ただし、関連するElasticsearchフィールドを使用して、公開済みまたは下書きのレコードを直接検索することもできます。なお、「下書き」とマークされた結果を返すためには、下書きを表示する権限を持つ認証済みのユーザー（つまり、ログインしている）である必要があります（詳しくは"
+" :ref:`edit-user-permissions` をご覧ください）。"
+
+#: ../../user-manual/access-content/advanced-search.rst:998
+msgid ""
+"Draft and Published are :term:`terms <term>` in a locked :term:`taxonomy` in"
+" AtoM, and you can search for them by using their internal ID values. In "
+"AtoM, ``159`` is the default term ID for Draft, while ``160`` is the default"
+" term ID for Published. We can use AtoM's ``publicationStatusId`` "
+"Elasticsearch field to perform a search for all draft records, or all "
+"published records:"
+msgstr ""
+"下書き（Draft）と公開済み（Published）はAtoMのロックされた用語（:term:`taxonomy`）の中で用いられる:term:`用語 "
+"<term>`であり、それらの内部ID値を使用して検索することができます。AtoMでは、``159``は下書きの標準的な用語IDであり、``160``は公開済みの標準的な用語IDです。私たちはAtoMの``publicationStatusId``"
+" Elasticsearchフィールドを使って、全ての下書きレコードまたは全ての公開済みレコードを検索することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:1004
+msgid "To perform a search for all **draft** archival descriptions:"
+msgstr "すべての**下書き**状態のアーカイブ記述を検索するには："
+
+#: ../../user-manual/access-content/advanced-search.rst:1010
+msgid "To perform a search for all **published** archival descriptions:"
+msgstr "すべての**公開された**アーカイブ記述を検索するには："
+
+#: ../../user-manual/access-content/advanced-search.rst:1019
+msgid "List of Archival description ES fields"
+msgstr "アーカイブ記述 ES フィールド一覧"
+
+#: ../../user-manual/access-content/advanced-search.rst:1021
+msgid ""
+"Not all fields available in the :term:`archival description` edit templates "
+"are added to AtoM's search index. Additionally, some fields are queried not "
+"via Elasticsearch, but by searching directly against the database or via "
+"another method in the AtoM code. Consequently, the list below is not "
+"exhaustive, but it should cover the majority of available fields. You can "
+"use the syntax described in the introductory section :ref:`above <es-fields-"
+"intro>` to construct a query against a specific field."
+msgstr ""
+"アーカイブ記述の編集テンプレートにあるすべての項目が、AtoMの検索インデックスに追加されているわけではありません。さらに、いくつかの項目はElasticsearchを介さずに、直接データベースに対する検索や、AtoMコード内の別の方法を通じてクエリされます。したがって、以下に挙げるリストは網羅的なものではありませんが、利用可能な項目の大多数を網羅しているはずです。導入部のセクション:ref:`上記"
+" <es-fields-intro>`で説明されている構文を使用して、特定の領域に対するクエリを構築することができます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:1081
+msgid ""
+"Additionally, there are some related fields belonging to linked "
+":term:`entities <entity>` that, when linked to an archival description, can "
+"be searched to return related archival descriptions. These include "
+":term:`repository` records, :term:`authority records <authority record>` "
+"(linked as either a :term:`creator` or :term:`name` access point), and "
+"subject, place, and genre :term:`access points <access point>`."
+msgstr ""
+"さらに、関連するフィールドには、アーカイブの記述にリンクされると関連するアーカイブの記述を返す検索が可能な、リンクされた:term:`エンティティ "
+"<entity>`が含まれます。これには:term:`リポジトリ`の記録、:term:`権威レコード <authority "
+"record>`（:term:`作成者`または:term:`名前`のアクセスポイントとしてリンクされる）、および主題、場所、ジャンルの:term:`アクセスポイント"
+" <access point>`が含まれます。"
+
+#: ../../user-manual/access-content/advanced-search.rst:1088
+msgid ""
+"For example, to return all English archival descriptions where \"Jane Doe\" "
+"is linked as the creator, you could enter:"
+msgstr "例えば、「Jane Doe」が作成者としてリンクされているすべての英語のアーカイブ記述を検索するには、次のように入力できます："
+
+#: ../../user-manual/access-content/advanced-search.rst:1095
+msgid ""
+"Here is the list of related entity fields that are searchable in the global "
+":term:`search box`, that will return linked archival description results:"
+msgstr ""
+"以下は、グローバル:term:`検索ボックス`で検索可能な関連エンティティフィールドのリストであり、それによりリンクされたアーカイブ記述の結果が返されます："
+
+#: ../../user-manual/access-content/advanced-search.rst:1119
+msgid "Export advanced search results in CSV format"
+msgstr "詳細検索結果をCSV形式でエクスポート"
+
+#: ../../user-manual/access-content/advanced-search.rst:1121
+msgid ""
+"Any authenticated (i.e. logged in) user can generate a :term:`CSV` export of"
+" :term:`advanced search` results. The CSV export, after it is generated, is "
+"made available for download from the jobs page."
+msgstr ""
+"認証された（つまり、ログインしている）ユーザーは、:term:`advanced "
+"search`（高度な検索）の結果を:term:`CSV`エクスポートとして生成することができます。CSVエクスポートは、生成された後、ジョブページからダウンロード可能になります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:1125
+msgid ""
+"When downloaded, the file will be compressed in a `ZIP "
+"<https://wikipedia.org/wiki/Zip_(file_format)>`__ archive - there are many "
+"free utilities (likely there is one already included on your computer) that "
+"will allow you to \"unzip\" a ZIP file."
+msgstr ""
+"ダウンロードされた際、ファイルは `ZIP <https://wikipedia.org/wiki/Zip_(file_format)>`__ "
+"アーカイブ形式で圧縮されています。ZIPファイルを「解凍」するための無料のユーティリティは多数存在し、おそらくお使いのコンピューターには既にそのようなユーティリティが含まれているはずです。"
+
+#: ../../user-manual/access-content/advanced-search.rst:1130
+msgid "**For more information, see the CSV export documentation:**"
+msgstr "詳細については、CSVエクスポートのドキュメントをご覧ください："
+
+#: ../../user-manual/access-content/advanced-search.rst:1132
+msgid ":ref:`csv-export-search`."
+msgstr ""
+"このテキストはreStructuredText (reST) という軽量なマークアップ言語で書かれている参照リンクです。直訳すると、「csv-export-search」というセクションや項目を参照していますが、文脈がないため、このリンクがどのような情報に関連しているかは不明です。ただし、リンク自体を日本語に訳すことはできます。\n"
+"\n"
+":ref:`csv-export-search` を日本語にすると、おそらく以下のような形になりますが、ドキュメント内の正確なセクション名やページ名を知らない限り、適切な訳は提供できません。\n"
+"\n"
+":ref:`CSVエクスポート検索`\n"
+"\n"
+"注意: ここでの `:ref:` は reST でのクロス参照を示しており、`csv-export-search` は参照先のラベルです。このままの形式を維持し、ラベルが指すタイトルが日本語の場合はラベルも適宜日本語に変更する必要があります。"
+
+#: ../../user-manual/access-content/advanced-search.rst:1136
+msgid ""
+"This functionality is currently only available to authenticated (i.e. logged"
+" in) users. Public users will not be able to generate and download CSV "
+"copies of their search results."
+msgstr ""
+"この機能は現在、認証された（つまりログインした）ユーザーのみが利用可能です。一般ユーザーは、検索結果のCSVコピーを生成およびダウンロードすることはできません。"

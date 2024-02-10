@@ -1,0 +1,876 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/access-content/clipboard.rst:5
+msgid "Clipboard"
+msgstr "クリップボード"
+
+#: ../../user-manual/access-content/clipboard.rst:13
+msgid ""
+"The :term:`Clipboard` is a :term:`user interface` element that allows users "
+"to select records while searching and browsing, and add them to a list (the "
+"\"clipboard\"), for later review or further action. All users can also "
+"perform exports of Clipboard results via the user interface - for more "
+"information, see:"
+msgstr ""
+"「クリップボード（Clipboard）」は、検索や閲覧を行う際にユーザーが記録を選択し、後で見直したり、さらなるアクションを行うために一覧（「クリップボード」と呼ばれます）に追加することを可能にする「ユーザーインターフェイス（user"
+" interface）」の要素です。すべてのユーザーはユーザーインターフェイスを通じてクリップボードの結果をエクスポートすることもできます - "
+"詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/clipboard.rst:18
+#: ../../user-manual/access-content/clipboard.rst:363
+msgid ":ref:`xml-export-clipboard`"
+msgstr ""
+"`:ref:`xml-export-clipboard`` というラベルは、おそらくドキュメント内で参照のために使われている特定の部分もしくは章を指しているリファレンスタグです。このようなタグはドキュメントの形式に依存しており、通常はHTMLやMarkdownなどで使われます。このタグ自体には翻訳すべきテキストが含まれていないため、直訳はできませんが、ドキュメントのコンテキストに応じて参照している部分のタイトルや説明を翻訳することになるでしょう。参照箇所に適切な日本語タイトルが存在すれば、代わりにそのタイトルを提供することができます。例えば、もし参照しているのが「XML Export Clipboard」というセクションだとしたら、日本語では次のようになります：\n"
+"\n"
+"「XMLエクスポートクリップボード」\n"
+"\n"
+"ただし、これはあくまでも例です。正確な翻訳のためには、実際に参照されているセクションの内容を見る必要があります。"
+
+#: ../../user-manual/access-content/clipboard.rst:19
+#: ../../user-manual/access-content/clipboard.rst:71
+#: ../../user-manual/access-content/clipboard.rst:364
+msgid ":ref:`csv-export-clipboard`"
+msgstr ""
+"このフレーズはreStructuredTextでの参照マークアップを利用しており、具体的な文脈がないと正確な翻訳が困難です。しかし、一般的な翻訳としては、「csv-export-clipboard」という箇所を参照にしていることを説明しています。\n"
+"\n"
+"もし、この部分が見出しやタイトルを参照している場合、その見出しやタイトルが何であるかを知る必要があります。もし対応する見出しやタイトルが「CSV Export Clipboard」であるとすれば、日本語ではその機能やセクションの名前を「CSVエクスポートクリップボード」と翻訳することができます。\n"
+"\n"
+"ただし、このreStructuredTextのコード片を文脈の中でどう使うかによって、翻訳も変わってくる可能性があります。もし実際の文書の中でどのように使われているかをもっと詳しく説明していただければ、より具体的な翻訳を提供することができます。"
+
+#: ../../user-manual/access-content/clipboard.rst:21
+msgid ""
+"Currently the Clipboard is only available for use with :term:`archival "
+"descriptions <archival description>`, :term:`authority records <authority "
+"record>`, and :term:`archival institutions <archival institution>`. "
+"Clipboard pin icons are also available on the Inventory list page, and the "
+"Description updates page. For more information, see:"
+msgstr ""
+"現在、クリップボードは:term:`アーカイブ記述<archival description>`、:term:`権威レコード<authority "
+"record>`、および:term:`アーカイブ機関<archival "
+"institution>`での使用のみに利用可能です。クリップボードのピンアイコンは、在庫リストのページや記述更新ページにも利用可能です。詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/clipboard.rst:28
+msgid ":ref:`browse-hierarchy-inventory`"
+msgstr ":ref:`階層構造インベントリの閲覧`"
+
+#: ../../user-manual/access-content/clipboard.rst:29
+msgid ":ref:`search-updates`"
+msgstr ":ref:`検索の更新`"
+
+#: ../../user-manual/access-content/clipboard.rst:31
+msgid ""
+"The clipboard is  **session-based**, meaning that adding results to the "
+"clipboard and then logging in/out (which starts a new session) or closing "
+"your browser without first saving the clipboard results will result in all "
+"pinned items being lost. However, users can now save clipboards and reload "
+"the clipboard results in a future session if desired. An "
+":term:`administrator` can also determine how long saved clipboards are "
+"stored in the database before being purged, via a setting found in |gears| "
+"**Admin > Settings > Global** - see: :ref:`clipboard-save-setting`."
+msgstr ""
+"クリップボードは**セッションベース**であり、クリップボードに結果を追加してからログイン/ログアウトを行ったり（これにより新しいセッションが開始されます）、クリップボードの結果を保存せずにブラウザを閉じたりすると、ピン留めされたアイテムがすべて失われることになります。しかし、ユーザーはクリップボードを保存しておき、必要に応じて将来のセッションでクリップボードの結果を再読み込みすることができます。また、:term:`管理者`は、|gears|"
+" **管理 > 設定 > グローバル** "
+"にある設定を通じて、保存されたクリップボードがデータベースに保持される期間がいつ削除されるかを設定することができます - "
+"詳細については、:ref:`clipboard-save-setting`を参照してください。"
+
+#: ../../user-manual/access-content/clipboard.rst:10
+msgid "gears"
+msgstr ""
+"ギアや歯車などの単語に複数の意味がありますが、\"gears\" に対応する日本語はコンテキストによって異なります。もし、物理的な機械におけるギア（歯車）を指している場合は、\"歯車（はぐるま）\" という言葉が適切です。しかし、あなたが提供された情報に基づき、文脈が不明確なので、適切な翻訳を提供するためには追加情報が必要です。\n"
+"\n"
+"もし Archivematica の文脈において \"gears\" が使用されている場合、これは比喩的にシステムの動作や機能の一部を指している可能性があります。その場合、「歯車」ではなく、別の表現に置き換える必要があります。例えば、\"Archivematica's gears\" は「Archivematicaの主要機能」や「Archivematicaの仕組み」などと訳すことができます。\n"
+"\n"
+"より具体的な翻訳を提供するため、\"gears\" が使われている完全な文句や文脈を教えていただけますか？"
+
+#: ../../user-manual/access-content/clipboard.rst:42
+msgid ""
+"The session is renewed when logging in or out of the application - so unless"
+" you save your clipboard, you might lose your results if you log in or log "
+"out!"
+msgstr ""
+"アプリケーションにログインまたはログアウトするとセッションが更新されますので、クリップボードを保存しない限り、ログインまたはログアウトを行うと結果が失われることがありますので注意してください！"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of the Clipboard with results."
+msgstr "クリップボードの結果が写っている画像。"
+
+#: ../../user-manual/access-content/clipboard.rst:51
+msgid ""
+"The following sections will introduce you to the Clipboard and the "
+":term:`Clipboard menu` in the AtoM header bar, as well as how the Clipboard "
+"can be used."
+msgstr ""
+"以下のセクションでは、AtoMヘッダーバー内のクリップボードおよび:term:`クリップボードメニュー`について、またクリップボードの使用方法について紹介します。"
+
+#: ../../user-manual/access-content/clipboard.rst:55
+msgid "**Jump to:**"
+msgstr "**ジャンプ先:**"
+
+#: ../../user-manual/access-content/clipboard.rst:57
+msgid ":ref:`clipboard-menu`"
+msgstr ":ref:`クリップボード-メニュー`"
+
+#: ../../user-manual/access-content/clipboard.rst:58
+msgid ":ref:`clipboard-pinning`"
+msgstr "「クリップボード・ピン留め」"
+
+#: ../../user-manual/access-content/clipboard.rst:59
+msgid ":ref:`clipboard-page`"
+msgstr ""
+"`:ref:`clipboard-page`という記載は、一般的にはドキュメント内の特定の参照やセクションをリンクするためのマークアップ言語（たとえばSphinxやreStructuredTextを利用するドキュメント）で使用される構文です。正確な訳出をするには、ドキュメント内でこのリンクが何を指しているのかを知る必要があります。しかし、ここではリンクのラベルとして「クリップボードページ」と直訳することができます。\n"
+"\n"
+"したがって、リンクを翻訳せずにそのままの構文を残し、リンクが指しているであろう実際のページ名を訳すと以下のようになります：\n"
+"\n"
+"`:ref:`クリップボードページ``\n"
+"\n"
+"しかし、もし翻訳する文書で実際にそのリンクが正しく機能するようにする必要がある場合には、リンク先のドキュメントのセクションタイトルが翻訳される必要があり、それに応じてリファレンスタグも更新されるべきです。例えば日本語ドキュメントで「クリップボードページ」というセクションが「クリップボードのページ」と題されている場合、参照タグもそれに合わせて変更されるべきです：\n"
+"\n"
+"`:ref:`クリップボードのページ``\n"
+"\n"
+"このようなドキュメントの内部リンクは、しばしば翻訳の際に特別な注意を要する側面です。"
+
+#: ../../user-manual/access-content/clipboard.rst:60
+msgid ":ref:`clipboard-export-all`"
+msgstr ""
+":ref:`clipboard-export-all` "
+"(この部分は参照タグであり、対応する日本語資料の特定の部分を参照する際に使用します。そのため、文字通りの翻訳は適しませんが、ドキュメント内で対応するセクションのタイトルに変更することができます。例えば、日本語のドキュメントで「すべてをクリップボードにエクスポートする」というセクションがある場合は、そのタイトルに置き換えられます。)"
+
+#: ../../user-manual/access-content/clipboard.rst:61
+#: ../../user-manual/access-content/clipboard.rst:118
+msgid ":ref:`save-clipboard`"
+msgstr ""
+"このコマンドは、テキストが指定された範囲内の「save-clipboard」という名前の参照に関連していることを意味します。しかし、ここに具体的な文脈やドキュメントがないため、直接的な翻訳は難しいです。\n"
+"\n"
+"もしこれがマニュアルやガイド内の特定のセクションや機能を参照している場合、次のような翻訳が適切かもしれません：\n"
+"\n"
+"``クリップボードの保存（ref:「save-clipboard」）``\n"
+"\n"
+"ただし、`save-clipboard`が具体的にどの機能やセクションを指しているのか明確ではないため、日本語訳は状況に応じて調整する必要があります。より具体的な情報が提供されれば、より正確な翻訳が可能です。"
+
+#: ../../user-manual/access-content/clipboard.rst:62
+#: ../../user-manual/access-content/clipboard.rst:119
+msgid ":ref:`load-saved-clipboard`"
+msgstr ""
+"以下は、そのテキストを日本語に翻訳したものです。\n"
+"\n"
+":ref:`保存されたクリップボードを読み込む`"
+
+#: ../../user-manual/access-content/clipboard.rst:66
+msgid ":ref:`clipboard-settings`"
+msgstr "クリップボード設定"
+
+#: ../../user-manual/access-content/clipboard.rst:67
+#: ../../user-manual/access-content/clipboard.rst:349
+#: ../../user-manual/access-content/clipboard.rst:371
+#: ../../user-manual/access-content/clipboard.rst:448
+msgid ":ref:`clipboard-sending`"
+msgstr ":ref:`クリップボード-送信`"
+
+#: ../../user-manual/access-content/clipboard.rst:68
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイブ記述`"
+
+#: ../../user-manual/access-content/clipboard.rst:69
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権威記録`"
+
+#: ../../user-manual/access-content/clipboard.rst:70
+msgid ":ref:`archival-institutions`"
+msgstr ":ref:`アーカイブ機関`"
+
+#: ../../user-manual/access-content/clipboard.rst:72
+msgid ":ref:`navigate`"
+msgstr ""
+"`:ref:`navigate`` というテキストは、おそらく特定のドキュメントまたはガイドの中で参照(リンク)を設定するためのマークアップであると思われます。そのため、これを文字通りに日本語に訳すのはふさわしくありません。これはドキュメント内で読者を別のセクションへ導くための参照リンクである可能性が高いです。\n"
+"\n"
+"翻訳を要求される場合は、関連するテキストの実際の表示版（例えば「ナビゲーションに移動」や「このセクションを参照」）をご提供ください。ただし、ドキュメント内の機能やコンテキストに合わせて適切な日本語の節やセクション名に置き換える必要があります。例えば:\n"
+"\n"
+"英語のドキュメントで:\n"
+":ref:`navigate`\n"
+"\n"
+"日本語での適切な置換えかもしれない例:\n"
+"「ナビゲートする」セクションを参照\n"
+"\n"
+"ただし、これは仮の翻訳であり、実際のドキュメントのコンテキストを考慮して適切な参照名に置き換える必要があります。"
+
+#: ../../user-manual/access-content/clipboard.rst:77
+msgid "Clipboard menu"
+msgstr "クリップボードメニュー"
+
+#: ../../user-manual/access-content/clipboard.rst:79
+msgid ""
+"The Clipboard has its own menu icon in the AtoM :term:`header bar`, visible "
+"to all users. It is represented by the |clip| paperclip icon. Clicking on "
+"the Clipboard icon in the header bar will reveal a :term:`drop-down menu` "
+"with a count of the objects currently pinned to the clipboard, as well as "
+"options to either clear all current selections from the clipboard, or to go "
+"the Clipboard's view page:"
+msgstr ""
+"クリップボードは、AtoM "
+":term:`ヘッダーバー`の中で独自のメニューアイコンを持っており、全てのユーザーに表示されます。それは|clip|の文書クリップアイコンで表されています。ヘッダーバーのクリップボードアイコンをクリックすると、現在クリップボードにピン留めされているオブジェクトの数が記された:term:`ドロップダウンメニュー`が表示されます。また、クリップボードから全ての選択中のオブジェクトをクリアするオプションや、クリップボードのビューページへ移動するオプションがあります。"
+
+#: ../../user-manual/access-content/clipboard.rst:7
+msgid "clip"
+msgstr ""
+"申し訳ありませんが、翻訳するテキストを明記していただけますか？「clip」という言葉だけでは、どのような文脈で使われているかを把握し、適切な翻訳を提供することが難しいです。もし具体的な文章を提供していただければ、その内容を翻訳いたします。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of the Clipboard menu."
+msgstr "クリップボードメニューの画像です。"
+
+#: ../../user-manual/access-content/clipboard.rst:91
+msgid ""
+"When records have been pinned to the the Clipboard, the menu will show a "
+"count of pinned items as you move around the application, for reference:"
+msgstr ""
+"レコードがクリップボードにピン留めされると、そのアプリケーション内を移動する際に参照用としてピン留めされたアイテムの数をメニューが表示します。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of the Clipboard menu when items are pinned."
+msgstr "ピン留めされたアイテムがある時のクリップボードメニューの画像。"
+
+#: ../../user-manual/access-content/clipboard.rst:99
+msgid ""
+"The count is also shown in the :term:`drop-down menu`, where it will "
+"identify the different :term:`entity` types:"
+msgstr "カウントは、異なる :term:`entity` タイプを識別することができる :term:`ドロップダウンメニュー` にも表示されます。"
+
+#: ../../user-manual/access-content/clipboard.rst:107
+msgid ""
+"The menu has four options. The \"Clear selections\" option will remove all "
+"items (across all entity types) currently pinned to the clipboard. On the "
+"clipboard page, they won't be cleared until you refresh the browser, giving "
+"you an opportunity to repin them if you've removed them by accident - "
+"however, anywhere else in the application, this **removal will be "
+"immediate**. The \"Go to clipboard\" option in the menu will take you to the"
+" Cliboard page, described in more detail below: :ref:`clipboard-page`. The "
+"\"Save clipboard\" option will allow you to save your selections and return "
+"to them at a future session, and the \"Load clipbaord\" option will load a "
+"previously saved selection. For more information on these options, see "
+"below:"
+msgstr ""
+"メニューには4つのオプションがあります。「選択のクリア」オプションは、クリップボードに現在ピン留めされている全てのアイテム（全てのエンティティタイプにわたる）を削除します。クリップボードページでは、ブラウザを更新するまで削除されませんので、もし間違えて削除した場合、再度ピン留めするチャンスがあります。しかし、アプリケーションの他の場所では、この**削除は即時に行われます**。「クリップボードへ移動」オプションは、メニューであなたをクリップボードページに移動させます。これについては、以下でより詳細に説明されています："
+" :ref:`clipboard-"
+"page`。「クリップボードの保存」オプションを使用すると、選択したアイテムを保存し、将来のセッションでそれらに戻ることができます。「クリップボードの読み込み」オプションは、以前に保存された選択を読み込みます。これらのオプションについての詳細は、以下を参照してください："
+
+#: ../../user-manual/access-content/clipboard.rst:124
+msgid "Pinning records to the clipboard"
+msgstr "クリップボードに記録を固定する"
+
+#: ../../user-manual/access-content/clipboard.rst:126
+msgid ""
+"Users can add or \"pin\" an :term:`archival description`, an "
+":term:`authority record`, and/or an :term:`archival institution` record to "
+"the clipboard for review or further action from 2 places:"
+msgstr ""
+"利用者は、2箇所からクリップボードに「アーカイバル記述」、または「権威記録」、「アーカイバル施設」の記録を追加、または「ピン留め」して、レビューまたはさらなるアクションのために保存することができます："
+
+#: ../../user-manual/access-content/clipboard.rst:130
+msgid "Any search or browse result page where the desired record appears"
+msgstr "希望の記録が表示されるあらゆる検索結果または閲覧結果のページ"
+
+#: ../../user-manual/access-content/clipboard.rst:131
+msgid ""
+"Any :term:`view page` of a record that is a supported entity on the "
+"clipboard (e.g. the view pages for archival descriptions, authority records,"
+" and repository records)"
+msgstr ""
+"クリップボードでサポートされているエンティティのレコード（たとえば、アーカイブ記述、権威記録、およびリポジトリ記録のビューページなど）の任意の「ビューページ」"
+
+#: ../../user-manual/access-content/clipboard.rst:135
+msgid ""
+"You can add as many results as you want to the clipboard at a time - the "
+"Clipboard will paginate if there are more than the global setting for "
+":ref:`results per page <results-page>`."
+msgstr ""
+"一度に好きなだけ結果をクリップボードに追加することができます。グローバル設定の :ref:`1ページあたりの結果数 <results-page>` "
+"よりも多い場合、クリップボードはページネーションされます。"
+
+#: ../../user-manual/access-content/clipboard.rst:139
+msgid ""
+"When they are not selected, the clip icons are represented in light grey. "
+"When a user hovers over one, its background will turn grey, and a tooltip "
+"will appear. When a result has been selected and pinned to the clipboard by "
+"clicking on the clip icon, it will appear blue to indicate that the item is "
+"now pinned."
+msgstr ""
+"選択されていない時、クリップアイコンは薄い灰色で表示されます。ユーザーがアイコンの上にカーソルを合わせると、背景が灰色に変わり、ツールチップが表示されます。結果が選択され、クリップアイコンをクリックしてクリップボードにピン留めされると、アイコンは青色に変わり、その項目がピン留めされたことを示します。"
+
+#: ../../user-manual/access-content/clipboard.rst:145
+msgid "**Search / browse pages**"
+msgstr "**検索 / 閲覧ページ**"
+
+#: ../../user-manual/access-content/clipboard.rst:147
+msgid ""
+"On the :term:`archival description` results stubs that appear in search and "
+"browse pages, a \"paper clip\" icon (similar to the one used in the "
+":term:`clipboard menu`) appears in the upper-right corner of the results "
+"stub. Click on this icon to add the result to the Clipboard."
+msgstr ""
+"検索結果やブラウズページに表示される「アーカイバル・ディスクリプション」の結果スタブには、右上隅に「クリップボード・メニュー」で使用されているものと同様の「ペーパークリップ」アイコンが表示されます。このアイコンをクリックすると、結果がクリップボードに追加されます。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of archival description results being pinned to the clipboard"
+msgstr "アーカイブ記述結果がクリップボードにピン留めされている画像"
+
+#: ../../user-manual/access-content/clipboard.rst:157
+msgid ""
+"If you are using the \"card view\", such as when browsing digital objects, "
+"the clipboard link appears on the bottom right of the card:"
+msgstr "「カードビュー」を使用している場合、例えばデジタルオブジェクトを閲覧するとき、クリップボードリンクはカードの右下に表示されます。"
+
+#: ../../user-manual/access-content/clipboard.rst:165
+msgid ""
+"For :term:`archival institution` records, there are also two views - the "
+"card view and the table view. See :ref:`browse-institutions` for more "
+"information. On the table view, the clipboard link appears on the right side"
+" of the table:"
+msgstr ""
+"アーカイブ機関の記録には、カードビューとテーブルビューの2つの表示方法があります。詳しくは、`:ref:`browse-institutions` "
+"をご覧ください。テーブルビューでは、クリップボードへのリンクがテーブルの右側に表示されます。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of repository results being pinned to the clipboard"
+msgstr "リポジトリの結果がクリップボードにピン留めされた画像"
+
+#: ../../user-manual/access-content/clipboard.rst:174
+msgid ""
+"If you are using the \"card view\", the clipboard link appears on the bottom"
+" right of the card:"
+msgstr "「カードビュー」を使用している場合、クリップボードのリンクはカードの右下に表示されます。"
+
+#: ../../user-manual/access-content/clipboard.rst:182
+msgid ""
+"On :term:`authority record` search and browse pages, the clipboard links "
+"appear on the right side of the results stubs:"
+msgstr "権限レコードの検索および閲覧ページでは、クリップボードへのリンクが結果のサムネイルの右側に表示されます："
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid ""
+"An image of the browse authority records page with clipboard links\n"
+"visible"
+msgstr "ブラウズ権限レコードページの画像と、クリップボードリンクが見える状態"
+
+#: ../../user-manual/access-content/clipboard.rst:191
+msgid "**View pages**"
+msgstr "**ページを表示する**"
+
+#: ../../user-manual/access-content/clipboard.rst:193
+msgid ""
+"On the :term:`view page` for an :term:`archival description`, "
+":term:`authority record`, or :term:`archival institution` record, the option"
+" to pin the current record to the clipboard is found in the right-hand "
+":term:`context menu`, under a \"Clipboard\" heading. When the item has not "
+"yet been pinned to the clipboard, the :ref:`text link <recurring-text-"
+"links>` in the sidebar will read \"Add\". Click the link to add the current "
+"description to the clipboard. Once selected, the link, now outlined in blue "
+"to indicate the item is pinned, will read \"Remove\" - click the link again "
+"to remove the item from the clipboard."
+msgstr ""
+"アーカイブ記述、権威記録、またはアーカイブ機関の記録における「ビューページ」において、「コンテキストメニュー」の右側にある「クリップボード」という見出しの下に現在の記録をクリップボードにピン留めするオプションがあります。項目がまだクリップボードにピン留めされていない場合、サイドバーにあるテキストリンクは「追加」と表示されます。リンクをクリックして、現在の記述をクリップボードに追加します。選択されると、項目がピン留めされていることを示すために青くアウトラインされたリンクは、「削除」と表示されます"
+" - リンクをもう一度クリックして項目をクリップボードから削除します。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of various clip icon states on an archival view page"
+msgstr "アーカイブビューページ上の様々なクリップアイコン状態の画像"
+
+#: ../../user-manual/access-content/clipboard.rst:211
+msgid "Using the clipboard page"
+msgstr "クリップボードページの使用"
+
+#: ../../user-manual/access-content/clipboard.rst:213
+msgid ""
+"When you've selected the records that you want, you can navigate to the "
+"Clipboard using the \"Go to clipboard\" link in the :ref:`clipboard-menu`, "
+"found in the AtoM :term:`header bar` at the top of the page."
+msgstr ""
+"選択した記録がある場合、ページの上部にあるAtoMの:term:`ヘッダーバー`にある:ref:`クリップボードメニュー`内の「クリップボードへ移動」リンクを使用してクリップボードに移動できます。"
+
+#: ../../user-manual/access-content/clipboard.rst:217
+msgid ""
+"On load, you'll see results stubs for the descriptions you've pinned. If "
+"there are more than 10 results, a pager will appear."
+msgstr "ロード時に、ピン留めした記述の結果のスタブが表示されます。結果が10以上ある場合は、ページャーが表示されます。"
+
+#: ../../user-manual/access-content/clipboard.rst:222
+msgid ""
+"10 results per page is the default global setting in AtoM, but an "
+":term:`administrator` can change this value via |gears| **Admin > "
+"Settings**. For more information, see: :ref:`results-page`."
+msgstr ""
+"AtoMではページあたりのデフォルトの結果数は10件ですが、:term:`管理者`は|gears| **管理 > "
+"設定**からこの値を変更することができます。詳細については、:ref:`results-page`を参照してください。"
+
+#: ../../user-manual/access-content/clipboard.rst:226
+msgid ""
+"The Clipboard page will only display one :term:`entity` type at a time - by "
+"default when first arriving on the page, :term:`archival description` "
+"results will be displayed. You can switch to view other entity types using "
+"the Entity type :term:`drop-down menu` at the top of the results:"
+msgstr ""
+"クリップボードページでは、一度に1種類の:term:`エンティティ`タイプのみが表示されます。ページに初めてアクセスした際にはデフォルトで:term:`アーカイブ記述`の結果が表示されます。結果の上部にあるエンティティタイプ:term:`ドロップダウンメニュー`を使用して、他のエンティティタイプの表示に切り替えることができます。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of the entity type drop-down menu on the clipboard page"
+msgstr "クリップボードページ上の「エンティティのタイプを選択」ドロップダウンメニューの画像"
+
+#: ../../user-manual/access-content/clipboard.rst:236
+msgid ""
+"When a new entity is selected, AtoM will reload the page and display the "
+"clipped items for that entity. For example, here is the view page for "
+"authority records pinned to the clipboard:"
+msgstr ""
+"新しいエンティティが選択されると、AtoMはページをリロードし、そのエンティティに関連するクリップされたアイテムを表示します。例えば、以下はクリップボードにピン留めされた権威レコードのビューページです："
+
+#: ../../user-manual/access-content/clipboard.rst:244
+msgid ""
+"A count of the results attached to the clipboard for the current entity will"
+" appear at the top of the page (**tip:** remember you can always see the "
+"global count, and a breakdown of each entity, in the :term:`clipboard menu` "
+"drop-down). Below this, and above the Clipboard results, are several action "
+"links - A print preview button on the far left, A :ref:`recurring-sort-"
+"button` on the far right, and the Entity type drop-down menu."
+msgstr ""
+"現在のエンティティに関連付けられた結果の数は、ページの上部に表示されます（**ヒント：**常にグローバルカウントを見ることができ、:term:`clipboard"
+" menu` "
+"ドロップダウンでは各エンティティの内訳を確認できることを覚えておいてください）。これより下に、クリップボードの結果の上にはいくつかのアクションリンクがあります。左端にはプリントプレビューボタンがあり、右端には"
+" :ref:`recurring-sort-button`、そしてエンティティタイプのドロップダウンメニューがあります。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of the clipboard, with the link options highlighted"
+msgstr "クリップボードの画像で、リンクオプションが強調表示されています"
+
+#: ../../user-manual/access-content/clipboard.rst:256
+msgid ""
+"At the bottom of the page, in the :term:`button block` there is an option to"
+" clear results. This button behaves differently than the option in the "
+"|clip| :term:`clipboard menu` - it will **only** clear results for the "
+"current entity (e.g. archival description, authority record, or repository "
+"record), leaving other entity records pinned to the clipboard."
+msgstr ""
+"ページの下部にある :term:`button block` には、結果をクリアするオプションがあります。このボタンは |clip| "
+":term:`クリップボードメニュー`のオプションとは動作が異なり、現在のエンティティ（例えば、アーカイブ記述、権威記録、またはリポジトリ記録など）に対する結果のみをクリアし、他のエンティティ記録はクリップボードにピン留めしたままにします。"
+
+#: ../../user-manual/access-content/clipboard.rst:262
+msgid ""
+"Authenticated (i.e. logged in) users will also see an Export button in the "
+"button block - for more information on exporting from the clipboard, see: "
+":ref:`csv-export-clipboard`."
+msgstr ""
+"認証された (つまりログインしている) "
+"ユーザーは、ボタンブロック内に「エクスポート」ボタンも表示されます。クリップボードからのエクスポートに関する詳細は、以下を参照してください： "
+":ref:`csv-export-clipboard`。"
+
+#: ../../user-manual/access-content/clipboard.rst:267
+msgid "Print preview"
+msgstr "プリントプレビュー"
+
+#: ../../user-manual/access-content/clipboard.rst:269
+msgid ""
+"Clicking this option will display a printer-optimized version of the page, "
+"with all buttons removed. Note that you will still need to use your "
+"browser's built-in print options for actual printing."
+msgstr ""
+"このオプションをクリックすると、全てのボタンが削除された印刷に最適化されたバージョンのページが表示されます。実際の印刷には、ブラウザの組み込み印刷オプションを使用する必要があることに注意してください。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of a Clipboard print preview"
+msgstr "クリップボード印刷プレビューの画像"
+
+#: ../../user-manual/access-content/clipboard.rst:279
+msgid "Sort button"
+msgstr "ソートボタン"
+
+#: ../../user-manual/access-content/clipboard.rst:281
+msgid ""
+"These buttons will allow you to sort your pinned results a number of "
+"different ways. For more information, see: :ref:`recurring-sort-button`."
+msgstr ""
+"これらのボタンを使用すると、ピン留めされた結果をさまざまな方法で並べ替えることができます。詳細については、以下を参照してください：:ref:`recurring-"
+"sort-button`。"
+
+#: ../../user-manual/access-content/clipboard.rst:285
+msgid "Export CSV"
+msgstr "CSVをエクスポート"
+
+#: ../../user-manual/access-content/clipboard.rst:287
+msgid ""
+"Authenticated users (e.g. those logged in) can generate a CSV export of "
+"their clipboard results. When ready, the CSV is made available on the "
+":ref:`Jobs <manage-jobs>` page. For more information, see: :ref:`csv-export-"
+"clipboard`."
+msgstr ""
+"認証済みユーザー（例えばログインしているユーザー）は、クリップボードの結果をCSVでエクスポートすることができます。準備が整い次第、CSVは「:ref:`ジョブ管理"
+" <manage-jobs>`」ページで利用可能になります。詳細については、次を参照してください：:ref:`csv-export-"
+"clipboard`。"
+
+#: ../../user-manual/access-content/clipboard.rst:293
+msgid "Pinning and unpinning results on the clipboard"
+msgstr "クリップボード上での結果のピン留めとピン外し"
+
+#: ../../user-manual/access-content/clipboard.rst:295
+msgid ""
+"Elsewhere in AtoM, when you unpin a result you have previously pinned to the"
+" Clipboard, it will be immediately removed. However, on the Clipboard page, "
+"an extra step is included, to allow you to better review your changes to the"
+" Clipboard results. When a result is unpinned, AtoM will provide you with a "
+"warning at the top of the page, but the result will stay visible until the "
+"page reloads, in case you removed it by accident:"
+msgstr ""
+"AtoMの他の場所では、クリップボードに以前ピン留めした結果をアンピンすると、すぐに削除されます。しかし、クリップボードページでは、クリップボードの結果への変更をよりよく確認できるように、追加のステップが含まれています。結果のピンを外すと、AtoMはページの上部に警告を表示しますが、誤って削除した場合に備えて、ページが再読み込みされるまで結果が見える状態に保たれます。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of the clipboard, with a removal warning at the top"
+msgstr "クリップボードの画像、上部に削除警告が表示されています"
+
+#: ../../user-manual/access-content/clipboard.rst:307
+msgid "The warning reads:"
+msgstr "警告は以下の通りです："
+
+#: ../../user-manual/access-content/clipboard.rst:309
+msgid ""
+"*Note: clipboard items unclipped in this page will be removed from the "
+"clipboard when the page is refreshed. You can re-select them now, or reload "
+"the page to remove them completely. Using the sort or print preview buttons "
+"will also cause a page reload - so anything currently deselected will be "
+"lost!*"
+msgstr ""
+"注意: "
+"このページでクリップボードから外された項目は、ページが更新される時にクリップボードから削除されます。今再選択することも、ページを完全に削除するためにリロードすることもできます。ソートや印刷プレビューのボタンを使用することもページのリロードを引き起こします"
+" - そのため、現在選択解除されているものは失われます！"
+
+#: ../../user-manual/access-content/clipboard.rst:314
+msgid ""
+"You can re-add results at this point, by clicking on the paperclip icon next"
+" to the result again if desired. If you use any of the options on the page "
+"(Print preview, Export, or change the sort order with the sort button), the "
+"page will reload - so your unpinned results will be lost. If you manually "
+"refresh your browser, this will also cause results unpinned on the Clipboard"
+" page to be permanently removed. To re-add lost results after a reload, you "
+"will have to return to either the relevant record's :term:`view page`, or "
+"find it again via :ref:`search-atom` or :ref:`browse` and re-add it to the "
+"clipboard."
+msgstr ""
+"この時点で、結果を再度追加することができます。もし望むなら、結果の隣にあるクリップアイコンをもう一度クリックしてください。ページ上のいずれかのオプション（プリントプレビュー、エクスポート、または並び替えボタンを使って並び順を変更する）を使用すると、ページが再読み込みされますので、ピン留めされていない結果は失われます。ブラウザを手動でリフレッシュした場合も、クリップボードページ上でピン留めされていない結果が完全に削除される原因となります。リロード後に失われた結果を再度追加するには、該当する記録の「ビューページ」という用語のページに戻るか、あるいは「search-"
+"atom」や「browse」を介して再度検索し、クリップボードに再度追加する必要があります。"
+
+#: ../../user-manual/access-content/clipboard.rst:324
+msgid ""
+"To remove all results at once, you can either use the \"Clear selections\" "
+"option found in the |clip| Clipboard menu in the AtoM :term:`header bar` "
+"(see above, :ref:`clipboard-menu`), or you can use the \"Clear\" button "
+"found in the :term:`button block` located at the bottom of the Clipboard "
+"page."
+msgstr ""
+"一度にすべての結果を削除するには、AtoM :term:`ヘッダーバー`にある|clip| "
+"クリップボードメニューの中にある「選択をクリア」オプションを使用するか（上記、:ref:`clipboard-"
+"menu`を参照）、クリップボードページの下部に配置されている :term:`ボタンブロック` にある「クリア」ボタンを使用することができます。"
+
+#: ../../user-manual/access-content/clipboard.rst:331
+msgid ""
+"Remember, the Clear option in the |clip| Clipboard menu will remove **all** "
+"results from all entity types at once, without warning. The Clear button on "
+"the bottom of the Clipboard page will only remove the current :term:`entity`"
+" type - so if you clear archival descriptions, your authority records and "
+"institution records will still be pinned."
+msgstr ""
+"ご注意ください。「クリップボード」メニュー内の「クリア」オプションは、警告なしで、一度に全てのエンティティタイプから**すべての**結果を削除します。一方で、クリップボードページの下にある「クリア」ボタンは、現在の:term:`エンティティ`タイプのみを削除するものです。つまり、アーカイブ記述をクリアしても、あなたの権威レコードや機関レコードはピン留めされたままです。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of the button block found on the Clipboard page"
+msgstr "クリップボードページにあるボタンブロックの画像"
+
+#: ../../user-manual/access-content/clipboard.rst:342
+msgid ""
+"You will still be provided with the warning when using these options on the "
+"Clipboard page - but be aware: using the \"Clear selections\" option in the "
+"Clipboard menu when elsewhere in the application will **immediately** remove"
+" all results!"
+msgstr ""
+"これらのオプションをクリップボードページで使用する際には、引き続き警告が表示されますが、注意してください：アプリケーションの他の場所でクリップボードメニューの「選択をクリア」オプションを使用すると、結果は**即座**に全て削除されます！"
+
+#: ../../user-manual/access-content/clipboard.rst:354
+msgid "Using the clipboard to export records"
+msgstr "クリップボードを使用してレコードをエクスポートする"
+
+#: ../../user-manual/access-content/clipboard.rst:356
+msgid ""
+"The clipboard has been configured so that all users, whether anonymous (i.e."
+" public) or authenticated (i.e. logged in), can export records, in both CSV "
+"and XML formats, depending on the formats supported in AtoM for export."
+msgstr ""
+"クリップボードは、匿名（すなわち一般公開）のユーザーであっても認証済み（すなわちログイン状態）のユーザーであっても、AtoMでエクスポートがサポートされているフォーマットに応じて、CSVおよびXMLフォーマットのいずれかで記録をエクスポートできるように設定されています。"
+
+#: ../../user-manual/access-content/clipboard.rst:360
+msgid ""
+"Documentation on how to export records using the clipboard is maintained in "
+"the general :ref:`import-export` documentation. For more information, see:"
+msgstr ""
+"書類のクリップボードを使用したエクスポート方法に関するドキュメントは、一般的な :ref:`インポート-エクスポート` "
+"ドキュメントで管理されています。詳細については、次の情報をご覧ください："
+
+#: ../../user-manual/access-content/clipboard.rst:368
+msgid ":ref:`clipboard`"
+msgstr ""
+"このコンテキストでは、`:ref:`clipboard``はおそらくドキュメント内で特定のセクションにリンクするためのマークアップ言語（たとえば、reStructuredTextやMarkdownなど）による参照です。日本語に直訳することはできますが、実際の翻訳作業においては、参照先のセクションのタイトルが日本語に翻訳された際に、そのタイトルに適切にリンクする必要があります。したがって、以下のように翻訳する場合、セクションのタイトルも対応する日本語に置き換える必要があるでしょう：\n"
+"\n"
+"`:ref:`クリップボード``\n"
+"\n"
+"ただし、これはリンク先のセクションタイトルが「クリップボード」と翻訳されると仮定した場合です。実際のタイトルが異なる場合、それに合わせて参照部分を修正する必要があります。また、実際にドキュメントを生成する際のドキュメントビルドシステムが日本語の参照に対応しているかどうかも確認する必要があります。"
+
+#: ../../user-manual/access-content/clipboard.rst:369
+msgid ":ref:`manage-jobs`"
+msgstr ":ref:`ジョブの管理`"
+
+#: ../../user-manual/access-content/clipboard.rst:370
+msgid ":ref:`csv-export-search`"
+msgstr ""
+"`:ref:`csv-export-search`` は、テキストの一部としてそのまま翻訳できないマークアップ言語（恐らくRST（reStructuredText）やMarkdownの参照リンク）を含んでいます。これはドキュメント内の特定のセクションへの参照を意味している可能性が高いです。もしこの参照がタイトルやサブタイトルを指すのであれば、そのタイトルをどのように翻訳すべきか知るために追加の情報が必要になるでしょう。\n"
+"\n"
+"ただし、テキストの構造的な役割を考えずに、リテラルな翻訳のみを行う場合、「CSVエクスポート検索」と解釈することができます。それでも、このマークアップは参照リンクを正しく機能させるために、英語のまま維持する必要があります。\n"
+"\n"
+"したがって、もし「csv-export-search」が「CSVエクスポート検索」というセクションや機能を指すタイトルであれば、日本語訳は次のようになります：\n"
+"\n"
+"`:ref:`CSVエクスポート検索``\n"
+"\n"
+"ただし、実際のドキュメントにおけるこのマークアップの扱いについては、その文脈や使用されているドキュメンテーションシステムの仕様に従う必要があります。"
+
+#: ../../user-manual/access-content/clipboard.rst:373
+#: ../../user-manual/access-content/clipboard.rst:450
+#: ../../user-manual/access-content/clipboard.rst:533
+msgid ":ref:`Back to top <clipboard>`"
+msgstr ":ref:`トップに戻る <clipboard>`"
+
+#: ../../user-manual/access-content/clipboard.rst:378
+msgid "Saving your clipboard for another session"
+msgstr "別のセッションのためにクリップボードを保存します"
+
+#: ../../user-manual/access-content/clipboard.rst:380
+msgid ""
+"With the release of 2.5, all users are now able to save a clipboard, close "
+"the browser, and return at a later time to continue to use the saved "
+"entries. On save, AtoM will generate a unique ID number that will be used to"
+" load the clipboard in the future. This means a saved clipboard could "
+"potentially be used to support reference requests - for example, a "
+"researcher identifies records of interest, adds them to the clipboard and "
+"saves, and then sends the saved clipboard ID to the reference archivist. The"
+" archivist is then able to load the saved clipboard and see the records of "
+"interest for retrieval, which can be made available when a researcher visit "
+"is scheduled."
+msgstr ""
+"バージョン2.5のリリースにより、すべてのユーザーはクリップボードを保存してブラウザを閉じた後、後で戻って保存されたエントリーを続けて使用することができるようになりました。保存時には、AtoMが将来クリップボードを読み込む際に使用する一意のID番号を生成します。これは、保存されたクリップボードが参照要求をサポートするために潜在的に使用されることを意味します。たとえば、研究者が関心のある記録を特定し、それらをクリップボードに追加して保存し、保存されたクリップボードIDを参照アーキビストに送信します。その後、アーキビストは保存されたクリップボードを読み込むことができ、取り出すべき関心のある記録を確認し、研究者の訪問がスケジュールされた際に利用可能にすることができます。"
+
+#: ../../user-manual/access-content/clipboard.rst:392
+#: ../../user-manual/access-content/clipboard.rst:467
+msgid ""
+"To avoid having AtoM's database grow indefinitely when the clipboard is used"
+" heavily, saved clipboards are not stored indefinitely. Instead, an "
+":term:`administrator` can configure how many days saved clipboards are "
+"stored before being purged from the database, via a setting in |gears| "
+"**Admin > Settings > Global**. See:"
+msgstr ""
+"クリップボードが頻繁に使用されるとAtoMのデータベースが無限に増大することを避けるため、保存されたクリップボードは無期限に保管されません。代わりに、:term:`管理者`は、|gears|"
+" **管理 > 設定 > グローバル** "
+"にある設定を通じて、保存されたクリップボードがデータベースから削除されるまでの日数を設定できます。詳細については、次を参照してください："
+
+#: ../../user-manual/access-content/clipboard.rst:398
+#: ../../user-manual/access-content/clipboard.rst:473
+msgid ":ref:`clipboard-save-setting`"
+msgstr ":ref:`クリップボード-セーブ-設定`"
+
+#: ../../user-manual/access-content/clipboard.rst:400
+#: ../../user-manual/access-content/clipboard.rst:475
+msgid ""
+"By default in new installations, **this setting is set to 0 days** - make "
+"sure you configure this setting before using the \"Save clipboard\" option, "
+"to ensure that saved results are not lost!"
+msgstr ""
+"新規インストールでは、**この設定はデフォルトで0日に設定されています** - "
+"「クリップボードを保存」オプションを使用する前に、保存された結果が失われないようにこの設定を構成してください！"
+
+#: ../../user-manual/access-content/clipboard.rst:404
+#: ../../user-manual/access-content/clipboard.rst:479
+msgid ""
+"Note that AtoM also has a command-line task that can be used by a system "
+"administrator to manage and delete saved clipboards. For more information, "
+"see:"
+msgstr ""
+"AtoMには、システム管理者が保存されたクリップボードを管理および削除するために使用できるコマンドラインタスクもあります。詳細については、下記を参照してください："
+
+#: ../../user-manual/access-content/clipboard.rst:408
+#: ../../user-manual/access-content/clipboard.rst:483
+msgid ":ref:`tools-expire`"
+msgstr ""
+"このテキストはreStructuredText形式の参照ラベルです。直接的な翻訳は存在しませんが、ドキュメント内で該当するセクションへの参照を表します。しかし、適切なコンテキスト無しでは`tools-expire`が何を指すのか正確にはわかりません。参照先のセクションタイトルが「Tools Expire」であると仮定すると、それを日本語にすると以下のようになります。\n"
+"\n"
+"```\n"
+":ref:`ツールの有効期限`\n"
+"```\n"
+"\n"
+"このセクションがそうでなければ、関連するセクションのタイトルを正確に翻訳できるようにしてください。また、reStructuredTextの参照を日本語ドキュメントに適応させる際には、ラベル名も適切に翻訳され、一貫性が保たれる必要があります。"
+
+#: ../../user-manual/access-content/clipboard.rst:410
+msgid "**To save and reload Clipboard results:**"
+msgstr "**クリップボードの結果を保存して再読み込みするには：**"
+
+#: ../../user-manual/access-content/clipboard.rst:412
+msgid ""
+"When you are ready to leave your current session, click on the "
+":term:`clipboard menu` button and choose \"Save clipboard\"."
+msgstr ""
+"現在のセッションを終了する準備ができたら、`:term:`クリップボード メニュー`` "
+"ボタンをクリックして、「クリップボードを保存」を選択してください。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of a Clipboard menu"
+msgstr "クリップボードメニューの画像"
+
+#: ../../user-manual/access-content/clipboard.rst:420
+msgid ""
+"Alternatively, you can also click the \"Save\" button in the :term:`button "
+"block` at the bottom of the Clipboard page."
+msgstr "また、クリップボードページの下部にある「ボタンブロック」内の「保存」ボーダンをクリックすることもできます。"
+
+#: ../../user-manual/access-content/clipboard.rst:428
+msgid ""
+"When saved, AtoM will load the Clipboard :term:`view page` and generate a "
+"message with an ID number of your saved session and prompt you to record the"
+" number for later."
+msgstr ""
+"保存されると、AtoMはクリップボード :term:`view page` "
+"を読み込み、保存されたセッションのID番号を含むメッセージを生成し、後で使用するためにその番号を記録するように促します。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "A saved Clipboard message"
+msgstr "保存されたクリップボードメッセージ"
+
+#: ../../user-manual/access-content/clipboard.rst:439
+msgid ""
+"Be sure to save this number for future reference! You won't be able to "
+"reload your clipboard without it."
+msgstr "この番号を将来の参照用に必ず保存してください！この番号がないと、クリップボードを再読み込みすることができません。"
+
+#: ../../user-manual/access-content/clipboard.rst:442
+msgid ""
+"Once you've recorded the saved clipboard's ID, you can now exit your "
+"browser. See :ref:`below <load-saved-clipboard>` for instructions on how to "
+"load your clipboard during a future session."
+msgstr ""
+"保存したクリップボードのIDを記録したら、ブラウザを終了することができます。将来のセッション中にクリップボードをロードする方法については、以下の「:ref:`以下"
+" <load-saved-clipboard>`」の指示を参照してください。"
+
+#: ../../user-manual/access-content/clipboard.rst:455
+msgid "Loading a saved clipboard"
+msgstr "保存されたクリップボードを読み込む"
+
+#: ../../user-manual/access-content/clipboard.rst:457
+msgid ""
+"When reloading a saved clipboard, users have the option to either "
+"overwrite/replace any records currently pinned to the clipboard with the "
+"saved records, or merge the two clipboard result sets together. This merge "
+"option can allow for asynchronous collaboration between two AtoM users - for"
+" example, two different researchers coordinating to pin records of interest "
+"in different sessions and then combining the results, or two different "
+"archivists working on arrangement and description sharing work in progress."
+msgstr ""
+"保存されたクリップボードを再読み込みする際、ユーザーは現在クリップボードに固定されているレコードを保存されたレコードで上書き／置き換えるか、または二つのクリップボード結果セットを統合するかのオプションを選ぶことができます。この統合オプションにより、異なるAtoMユーザー間で非同期の協働が可能になります。例えば、異なる研究者が別々のセッションで興味のあるレコードに固定し、後で結果を組み合わせる場合や、配置と説明に取り組んでいる二人の異なるアーキビストが進行中の作業を共有する場合などです。"
+
+#: ../../user-manual/access-content/clipboard.rst:485
+msgid "**To load a saved clipboard in AtoM**:"
+msgstr "AtoMで保存されたクリップボードを読み込むには："
+
+#: ../../user-manual/access-content/clipboard.rst:487
+msgid ""
+"When you return and want to see your saved :term:`clipboard`, choose \"Load "
+"clipboard\" from the :term:`clipboard menu` and enter your saved number into"
+" the \"Clipboard ID\" field."
+msgstr ""
+"戻ってきて保存した :term:`クリップボード` を見たい場合は、 :term:`クリップボードメニュー` "
+"から「クリップボードを読み込む」を選択し、「クリップボードID」フィールドに保存した番号を入力してください。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "Load a saved Clipboard"
+msgstr "保存したクリップボードを読み込む"
+
+#: ../../user-manual/access-content/clipboard.rst:496
+msgid "The \"Action\" menu is a :term:`drop-down menu` that contains two options:"
+msgstr "「アクション」メニューは、二つのオプションを含むドロップダウンメニューです："
+
+#: ../../user-manual/access-content/clipboard.rst:498
+msgid "Merge saved clipboard with existing results"
+msgstr "保存済みのクリップボードを既存の結果と統合する"
+
+#: ../../user-manual/access-content/clipboard.rst:499
+msgid "Replace existing results with saved clipboard"
+msgstr "保存されたクリップボードで既存の結果を置換する"
+
+#: ../../user-manual/access-content/clipboard.rst:501
+msgid ""
+"If you currently have 0 results on this session's clipboard, it doesn't "
+"matter which option you choose. However, if you have already pinned records "
+"to the clipboard during this session, AtoM will let you determine how it "
+"will handle loading the previously saved clipboard results."
+msgstr ""
+"現在のセッションのクリップボードに結果が0件の場合、どのオプションを選択しても問題ありません。ただし、このセッションで既にレコードをクリップボードにピン留めしている場合は、AtoMは以前に保存されたクリップボードの結果をどのように扱うかを決定することができます。"
+
+#: ../../user-manual/access-content/clipboard.rst:506
+msgid ""
+"If you would like to purge any records currently added to the clipboard and "
+"replace them with your previously saved results, choose \"Replace existing "
+"results with saved clipboard.\" Note that overwrites the current session, "
+"meaning that any records currently on the clipboard for this session **will "
+"be lost** when your saved clipboard is loaded."
+msgstr ""
+"現在クリップボードに追加されているレコードを一掃して、以前に保存した結果で置き換えたい場合は、「保存したクリップボードで既存の結果を置き換える」を選択してください。この操作は現在のセッションを上書きすることを意味し、このセッションにおいて現在クリップボード上にあるレコードは**失われる**ことになりますので、保存されたクリップボードが読み込まれた時点で注意してください。"
+
+#: ../../user-manual/access-content/clipboard.rst:512
+msgid ""
+"If you would like to combine the current pinned records from this session "
+"with your saved clipboard results, choose \"Merge saved clipboard with "
+"existing results.\" On load, AtoM will combine the current session results "
+"with those from the saved clipboard. If the same record is found in both "
+"sessions, it will appear only once on the combined results"
+msgstr ""
+"このセッションでピン留めされたレコードを保存済みクリップボードの結果と組み合わせたい場合は、「保存済みクリップボードを既存の結果と統合する」を選択してください。ロード時に、AtoMは現在のセッションの結果を保存したクリップボードのそれと統合します。もし同じレコードが両方のセッションで見つかった場合、それは統合された結果に一度だけ表示されます。"
+
+#: ../../user-manual/access-content/clipboard.rst:518
+msgid ""
+"Once you've configured your preferences, click the \"Load\" button found in "
+"the :term:`button block` at the bottom of the Load clipboard page."
+msgstr "設定が完了したら、ロードクリップボードページの下部にある`:term:`ボタンブロック`にある「Load」ボタンをクリックします。"
+
+#: ../../user-manual/access-content/clipboard.rst:521
+msgid ""
+"Your previously saved results will load. Note that if you have saved entries"
+" from different entity types, they will all be present, though they may not "
+"be immediately visible - AtoM shows only one :term:`entity` type at a time, "
+"and by default will show :term:`archival description` results first.  You "
+"can switch entity types using the :term:`drop-down menu` found at the top "
+"right above the clipboard results."
+msgstr ""
+"これまでに保存した結果が読み込まれます。異なるエンティティタイプからの保存されたエントリがすべて表示されることに注意してくださいが、それらがすぐには見えない場合があります"
+" - "
+"AtoMは一度に一つの:term:`エンティティ`タイプのみを表示し、デフォルトでは:term:`アーカイブ記述`の結果が最初に表示されます。クリップボードの結果の上、右上にある:term:`ドロップダウンメニュー`を使用して、エンティティタイプを切り替えることができます。"
+
+#: ../../user-manual/access-content/clipboard.rst:-1
+msgid "An image of a loaded Clipboard"
+msgstr "クリップボードに読み込まれた画像"

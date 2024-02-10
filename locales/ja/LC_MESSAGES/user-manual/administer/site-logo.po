@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/site-logo.rst:5
+msgid "Site logo"
+msgstr "サイトロゴ"
+
+#: ../../user-manual/administer/site-logo.rst:7
+msgid ""
+"In AtoM, the site logo is the graphic that appears at the top of all pages "
+"in the left-hand corner of the :term:`header bar`. Clicking on the logo will"
+" take the user to the :term:`home page`."
+msgstr ""
+"AtoMでは、サイトロゴはすべてのページの左上にある「ヘッダーバー」に表示されるグラフィックです。ロゴをクリックすると、ユーザーは「ホームページ」に移動します。"
+
+#: ../../user-manual/administer/site-logo.rst:11
+msgid ""
+"AtoM ships with a default logo that can only be replaced by a System "
+"Administrator (i.e. someone who has access to the the AtoM application files"
+" on your web server): to do this, replace the file **images/logo.png** in "
+"the AtoM root directory with the logo for you site. The logo file must be in"
+" \"Portable Network Graphics\" (`PNG "
+"<http://en.wikipedia.org/wiki/Portable_Network_Graphics>`__) format and it "
+"must be called \"logo.png\"."
+msgstr ""
+"AtoMはデフォルトのロゴが設定されており、これを変更することはシステム管理者（つまり、Webサーバー上にあるAtoMアプリケーションファイルにアクセスできる人）のみが可能です。これを行うには、AtoMルートディレクトリ内の**images/logo.png**"
+" ファイルを、あなたのサイトのロゴに置き換えてください。ロゴファイルは「ポータブルネットワークグラフィックス」（`PNG "
+"<http://en.wikipedia.org/wiki/Portable_Network_Graphics>`__）形式でなければならず、ファイル名は「logo.png」としなければなりません。"
+
+#: ../../user-manual/administer/site-logo.rst:19
+msgid ""
+"It is important to note that the **maximum height** recommendation for a "
+"logo in AtoM for a logo is **50px**. An image or icon exceeding 50px will "
+"break the page layout, unless a developer has altered the theme of the page."
+msgstr ""
+"AtoMでのロゴに関する**最大高さ**の推奨値は、**50ピクセル（50px）**であることに留意してください。50ピクセルを超える画像やアイコンは、開発者がページのテーマを変更していない限り、ページレイアウトを崩してしまいます。"
+
+#: ../../user-manual/administer/site-logo.rst:29
+msgid ""
+"Users who do **not** wish to have a logo can remove it by clicking on the "
+"|gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main menu` located"
+" in the :term:`header bar` and selecting \"Settings\" from the :term:`drop-"
+"down menu`. Scroll down to the \"Default page elements\" and unselect the "
+"\"Logo\" value. This will remove the AtoM logo (or your own logo) from the "
+"AtoM header bar. For more information, see :ref:`Settings`."
+msgstr ""
+"ロゴを表示したくないユーザーは、:term:`ヘッダーバー`にある:term:`メインメニュー`の中の |gears| :ref:`管理 <main-"
+"menu-admin>` "
+"メニューをクリックし、「設定」を:term:`ドロップダウンメニュー`から選択することで、ロゴを削除することができます。\"Default page "
+"elements\"までスクロールダウンし、「ロゴ」の値の選択を解除します。これにより、AtoMのヘッダーバーからAtoMロゴ（またはあなたのロゴ）が削除されます。詳しくは、:ref:`設定`を参照してください。"
+
+#: ../../user-manual/administer/site-logo.rst:23
+msgid "gears"
+msgstr "\"ギアーズ\""
+
+#: ../../user-manual/administer/site-logo.rst:36
+msgid ""
+"For more information on themes and general page settings, see "
+":ref:`navigate`, :ref:`settings`, :ref:`themes`, or :ref:`archival-"
+"descriptions`."
+msgstr ""
+"テーマや一般的なページ設定についての詳細情報は、:ref:`navigate`、:ref:`settings`、:ref:`themes`、または "
+":ref:`archival-descriptions` を参照してください。"
+
+#: ../../user-manual/administer/site-logo.rst:39
+msgid ":ref:`Back to top <site-logo>`"
+msgstr ":ref:`トップに戻る <site-logo>`"

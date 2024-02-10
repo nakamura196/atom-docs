@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/translate/translate-content.rst:5
+msgid "Translate Content"
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:11
+msgid ""
+"To translate the content of an :term:`archival description`, "
+":term:`authority record`, :term:`archival institution`, or :term:`term`, "
+"a user with translation privileges will open the translate user interface"
+" dialog and work within it."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:16
+msgid ""
+"Log in with an account that has translation privileges. For more "
+"information, see: :ref:`user-roles`, :ref:`manage-user-accounts`, and "
+":ref:`edit-user-permissions`."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:19
+msgid ""
+"Start in your default language (e.g., English). Navigate to the content "
+"you want to translate into another language (e.g., archival description)."
+" For more information on navigation in AtoM, see: :ref:`access-content`."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:22
+msgid "You have two choices for doing the same thing:"
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:24
+msgid ""
+"click :term:`edit button` and then navigate to the |globe2| "
+":ref:`language menu <language-menu>` in the :term:`header bar` and select"
+" the language you wish to translate your content into or,"
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:7
+msgid "globe2"
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:27
+msgid ""
+"navigate to the |globe2| :ref:`language menu <language-menu>` in the "
+":term:`header bar` and then click the :term:`edit button`"
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:-1
+msgid "Archival description translate content page."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:35
+msgid ""
+"In the above example, the language selected for translation is French and"
+" the user is translating content in an :term:`archival description`. Note"
+" the :term:`translation bar` is visible at the bottom of the page. Ignore"
+" it for now."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:39
+msgid ""
+"Begin translating the content of the archival description in :term:`edit "
+"mode` by selecting one of the :term:`information area` and typing into "
+"the data entry :term:`fields <field>`. Note that the content is shown in "
+"the source language above the data entry :term:`field`."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:46
+msgid ""
+"The tooltips (e.g., ISAD) may also be shown in the new language if they "
+"have been translated by our community of volunteer translators. For more "
+"information, including how you can contribute translations included in "
+"public releases, see the `translation instructions "
+"<https://wiki.accesstomemory.org/Resources/Translation>`__ on our wiki."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:53
+msgid "Repeat for each field as required."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:54
+msgid "Click the save button in the :term:`button block`"
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:55
+msgid ""
+"AtoM returns the user to the :term:`view mode`. The translated fields "
+"will now appear in the new language of translation. Any content not yet "
+"translated will continue to appear in the source language."
+msgstr ""
+
+#: ../../user-manual/translate/translate-content.rst:59
+msgid ":ref:`Back to top <translate-content>`"
+msgstr ""
+

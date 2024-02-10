@@ -1,0 +1,438 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../dev-manual/api/api-intro.rst:5
+msgid "API Overview"
+msgstr "API 概要"
+
+#: ../../dev-manual/api/api-intro.rst:7
+msgid ""
+"AtoM includes an API allowing access to part of the AtoM dataset in JSON "
+"format. The API is implemented in a Symfony plugin that needs to be "
+":ref:`enabled <api-intro-plugin>` in Admin/Plugins. This API can be accessed"
+" by passing basic HTTP authentication, or for a more secure option, an API "
+"key associated with a user account can be passed with each request; details "
+"on each option and on generating an API key are included below in the "
+":ref:`api-intro-auth` section."
+msgstr ""
+"AtoMには、AtoMデータセットの一部にJSON形式でアクセスできるAPIが含まれています。このAPIはSymfonyプラグインに実装されており、管理者/プラグインで:ref:`有効化する必要があります<api-"
+"intro-"
+"plugin>`。このAPIは、基本的なHTTP認証を渡すことでアクセス可能ですが、より安全なオプションとして、各リクエストにユーザーアカウントに関連付けられたAPIキーを渡すこともできます。それぞれのオプションの詳細とAPIキーの生成に関する情報は、以下の:ref:`api-"
+"intro-auth`セクションに記載されています。"
+
+#: ../../dev-manual/api/api-intro.rst:15
+msgid "There are several endpoints available:"
+msgstr "利用可能ないくつかのエンドポイントがあります："
+
+#: ../../dev-manual/api/api-intro.rst:17
+#: ../../dev-manual/api/api-intro.rst:210
+msgid ":ref:`Browse taxonomy terms <api-browse-taxonomies>`"
+msgstr ":ref:`タクソノミー項目を閲覧する <api-browse-taxonomies>`"
+
+#: ../../dev-manual/api/api-intro.rst:18
+#: ../../dev-manual/api/api-intro.rst:211
+msgid ":ref:`Browse information objects <api-browse-io>`"
+msgstr ":ref:`情報オブジェクトの閲覧<api-browse-io>`"
+
+#: ../../dev-manual/api/api-intro.rst:19
+#: ../../dev-manual/api/api-intro.rst:212
+msgid ":ref:`Read information object <api-read-io>`"
+msgstr ":ref:`情報オブジェクトを読む <api-read-io>`"
+
+#: ../../dev-manual/api/api-intro.rst:20
+msgid ":ref:`Download digital object <api-download-do>`"
+msgstr ":ref:`デジタルオブジェクトのダウンロード <api-download-do>`"
+
+#: ../../dev-manual/api/api-intro.rst:25
+msgid "Enable the API plugin"
+msgstr "APIプラグインを有効にする"
+
+#: ../../dev-manual/api/api-intro.rst:32
+msgid ""
+"Before being able to expose the API endpoints, the ``arRestApiPlugin`` must "
+"be enabled. You must be logged in as an :term:`administrator` to manage "
+"plugin settings."
+msgstr ""
+"APIエンドポイントを公開する前に、``arRestApiPlugin`` "
+"を有効にする必要があります。プラグイン設定を管理するには、:term:`管理者`としてログインしている必要があります。"
+
+#: ../../dev-manual/api/api-intro.rst:36
+msgid ""
+"To enable the API plugin, navigate via the :term:`main menu` to |gears| "
+"**Admin > Plugins**. AtoM will redirect you to the :ref:`Plugins <manage-"
+"plugins>` page."
+msgstr ""
+"APIプラグインを有効にするには、:term:`メインメニュー`から |gears| **管理 > プラグイン** に移動します。AtoMはあなたを "
+":ref:`プラグイン管理 <manage-plugins>` ページにリダイレクトします。"
+
+#: ../../dev-manual/api/api-intro.rst:27
+msgid "gears"
+msgstr "ギア (または歯車)"
+
+#: ../../dev-manual/api/api-intro.rst:40
+msgid ""
+"Ensure that the checkbox next to the ``arRestApiPlugin`` is checked - if it "
+"is not, check the box and then save the change using the Save button located"
+" in the :term:`button block` at the bottom of the page."
+msgstr ""
+"``arRestApiPlugin`` の隣にあるチェックボックスがチェックされていることを確認してください - "
+"もしチェックされていなければ、ボックスにチェックを入れ、ページの下部にある :term:`ボタンブロック` "
+"に位置する保存ボタンを使用して変更を保存してください。"
+
+#: ../../dev-manual/api/api-intro.rst:-1
+msgid "An image of the API plugin in AtoM"
+msgstr "AtoMのAPIプラグインの画像"
+
+#: ../../dev-manual/api/api-intro.rst:51
+msgid ""
+"Setting not taking effect? In some cases, a system administator with access "
+"to the command-line may have to restart your webserver and php-fpm for the "
+"changes to take effect. We also recommend clearing the application cache. If"
+" you are using our recommended installation configuration (see: "
+":ref:`installation-ubuntu`) such as Nginx for your web server, you can "
+"restart these services with the following commands from the root directory "
+"of your AtoM installation:"
+msgstr ""
+"設定が有効にならない場合がありますか？ 場合によっては、コマンドラインへのアクセスを持つシステム管理者が、変更を有効にするためにウェブサーバーやphp-"
+"fpmを再起動する必要があります。また、アプリケーションキャッシュをクリアすることもおすすめします。私たちが推奨するインストール設定（参照：:ref:`installation-"
+"ubuntu`）を使用している場合、例えばNginxをウェブサーバーとして使用している場合は、AtoMインストールのルートディレクトリから次のコマンドでこれらのサービスを再起動できます："
+
+#: ../../dev-manual/api/api-intro.rst:65
+msgid ""
+"After enabling the plugin, you will want to make sure that you generated an "
+"API key, so you can send requests to the available endpoints. See :ref:`api-"
+"intro-auth`, below."
+msgstr ""
+"プラグインを有効にした後、利用可能なエンドポイントにリクエストを送信できるように、APIキーを生成したことを確認してください。下記の「api-"
+"intro-auth」を参照してください。"
+
+#: ../../dev-manual/api/api-intro.rst:71
+msgid ""
+"For more information on available plugins in AtoM, see: :ref:`manage-"
+"plugins`. For more information on Symonfy 1.x plugin development, consult "
+"the Symfony Project `documentation <http://symfony.com/legacy/doc>`__; in "
+"particular, see this section on Plugins:"
+msgstr ""
+"AtoMで利用可能なプラグインに関する詳細については、:ref:`manage-plugins`を参照してください。Symfony "
+"1.xプラグイン開発についての詳細は、Symfony Projectの`ドキュメント "
+"<http://symfony.com/legacy/doc>`__を参照してください。特に、プラグインに関するこのセクションをご覧ください："
+
+#: ../../dev-manual/api/api-intro.rst:77
+msgid "http://symfony.com/legacy/doc/jobeet/1_4/en/20?orm=Propel"
+msgstr ""
+"このテキストは、特定のウェブページのURLを示しており、直接的な意味を持ちません。そのため、文脈を提供する以外に翻訳の必要性はありません。しかし、もしこのURLがドキュメント内の参照として使用されていて、それを日本語の読者に理解しやすくしたい場合は、次のような訳になるかもしれません。\n"
+"\n"
+"```\n"
+"http://symfony.com/legacy/doc/jobeet/1_4/en/20?orm=Propel\n"
+"\n"
+"→ http://symfony.com（Symfonyの公式ウェブサイト）の過去のドキュメントセクションにある「Jobeetチュートリアル」の第20章を参照しています。この章は、Symfony 1.4 のORM（オブジェクト関連マッピング）の一つであるPropelに関するものです。\n"
+"```"
+
+#: ../../dev-manual/api/api-intro.rst:82
+msgid "Authentication"
+msgstr "認証"
+
+#: ../../dev-manual/api/api-intro.rst:84
+msgid ""
+"By default, the AtoM API uses basic HTTP authentication and cookies to give "
+"access to the data only to authenticated users. On the first request to one "
+"of the endpoints above, the AtoM user email and password must be sent in the"
+" \"Authorization\" header. The header value has to be 'Basic' followed by a "
+"base64 encoded version of the string "
+"``<user_email@example.com>:<password>``."
+msgstr ""
+"デフォルトでは、AtoM "
+"APIは基本的なHTTP認証とクッキーを使用して、認証されたユーザーのみにデータへのアクセスを許可します。上記のエンドポイントのいずれかに最初にリクエストを送る場合、AtoMユーザーのメールアドレスとパスワードを\"Authorization\"ヘッダーに含めて送信する必要があります。ヘッダーの値は、文字列``<user_email@example.com>:<password>``のbase64エンコードされたバージョンの前に'Basic'が続く形でなければなりません。"
+
+#: ../../dev-manual/api/api-intro.rst:90
+#: ../../dev-manual/api/api-intro.rst:201
+msgid "**Example request** (using curl):"
+msgstr "**例示リクエスト**（curl使用）："
+
+#: ../../dev-manual/api/api-intro.rst:96
+msgid "**Example request header**"
+msgstr "**例のリクエストヘッダー**"
+
+#: ../../dev-manual/api/api-intro.rst:104
+msgid "**Example response header**"
+msgstr "**応答ヘッダの例**"
+
+#: ../../dev-manual/api/api-intro.rst:112
+msgid ""
+"Alternatively if you don't want to pass unencrypted user data via the "
+"request header, an API key value can be passed as part of the header with "
+"each request. These keys are generated in AtoM, and are associated with a "
+"user account - this maintains a chain of custody and responsibility. Only an"
+" :term:`administrator` has the proper :term:`permissions <access privilege>`"
+" to generate an API Key; however, admins can generate a key associated with "
+"any user account."
+msgstr ""
+"もしリクエストヘッダーを通じて暗号化されていないユーザーデータを渡したくない場合には、APIキーの値をリクエスト毎のヘッダーに含めて渡すことができます。これらのキーはAtoMで生成され、ユーザーアカウントに紐付けられています。これにより、一連の保管および責任の連鎖が保持されます。APIキーを生成できるのは"
+" :term:`管理者` のみであり、適切な "
+":term:`権限<アクセス権限>`を持っていますが、管理者は他のユーザーアカウントに紐づけられたキーを生成することが可能です。"
+
+#: ../../dev-manual/api/api-intro.rst:123
+msgid "Generating an API Key for a user"
+msgstr "ユーザーのためのAPIキーの生成"
+
+#: ../../dev-manual/api/api-intro.rst:125
+msgid ""
+"API keys are associated with :term:`user accounts <user account>` in AtoM - "
+"for more general information, see: :ref:`manage-user-accounts`. The "
+"instructions below will walk you through the process - note that you can "
+"follow the same instructions with some variations to regenerate a new key at"
+" any time, or to delete an existing key (see step 8 below)."
+msgstr ""
+"APIキーはAtoM内の:term:`ユーザーアカウント<user "
+"account>`に関連付けられています。より一般的な情報については、:ref:`manage-user-"
+"accounts`をご覧ください。以下の手順はそのプロセスを説明しますが、新しいキーを再生成する場合や既存のキーを削除する場合（下記のステップ8を参照）にも、いくつかの変更を加えて同様の手順を追従できることに注意してください。"
+
+#: ../../dev-manual/api/api-intro.rst:133
+msgid ":ref:`manage-user-accounts`"
+msgstr ":ref:`ユーザーアカウントの管理`"
+
+#: ../../dev-manual/api/api-intro.rst:135
+msgid "**To generate an API key for an existing user:**"
+msgstr "既存のユーザーに対してAPIキーを生成するには："
+
+#: ../../dev-manual/api/api-intro.rst:137
+msgid ""
+"Navigate to |gears| **Admin > Users**. AtoM will redirect you to the Users "
+"page."
+msgstr "|gears| **管理 > ユーザー** に移動します。AtoMはあなたをユーザーページにリダイレクトします。"
+
+#: ../../dev-manual/api/api-intro.rst:-1
+msgid "An image of the List users page in AtoM"
+msgstr "AtoMの「ユーザー一覧」ページの画像"
+
+#: ../../dev-manual/api/api-intro.rst:145
+msgid ""
+"Select the user for whom you would like to generate an API key, and click on"
+" their :term:`username`. AtoM will load the user's Profile page."
+msgstr ""
+"APIキーを生成したいユーザーを選択し、その:term:`ユーザーネーム`をクリックしてください。AtoMはそのユーザーのプロフィールページを読み込みます。"
+
+#: ../../dev-manual/api/api-intro.rst:-1
+msgid "An image of a user profile view page in AtoM"
+msgstr "AtoMでのユーザープロファイル表示ページの画像"
+
+#: ../../dev-manual/api/api-intro.rst:153
+msgid ""
+"Click on the Edit button in the :term:`button block` at the bottom of the "
+"page to enter :term:`edit mode`. You can also click on the \"User details\" "
+":term:`area header` to enter edit mode. AtoM will reload the user profile "
+"page in edit mode so you can make changes."
+msgstr ""
+"ページの下部にある「ボタンブロック」の編集ボタンをクリックして「編集モード」に入ります。また、「ユーザー詳細」エリアヘッダーをクリックして編集モードに入ることもできます。AtoMはユーザープロファイルページを編集モードでリロードし、変更を加えることができます。"
+
+#: ../../dev-manual/api/api-intro.rst:157
+msgid ""
+"In the \"Access control\" :term:`area <information area>` at the bottom of "
+"the edit page, click on the :term:`drop-down menu` beneath the \"REST API "
+"access key heading, and select \"(Re)generate API key.\""
+msgstr ""
+"「アクセス制御」:term:`エリア<情報エリア>`編集ページの下部にある「REST "
+"APIアクセスキー」の見出しの下にある:term:`ドロップダウンメニュー`をクリックして、「APIキーを(再)生成する」を選択します。"
+
+#: ../../dev-manual/api/api-intro.rst:-1
+msgid ""
+"An image of the REST API access key generation option in the User\n"
+"edit page"
+msgstr "ユーザー編集ページにおけるREST APIアクセスキー生成オプションの画像"
+
+#: ../../dev-manual/api/api-intro.rst:167
+msgid ""
+"You can cancel this process at any time using the \"Cancel\" button located "
+"in the :term:`button block` at the bottom of the user :term:`edit page`. "
+"Note that navigating away from the page **without first clicking Save** will"
+" also result in no changes being made."
+msgstr ""
+"このプロセスは、ユーザーの:term:`編集ページ`下部にある:term:`ボタンブロック`に配置された「キャンセル」ボタンを使用して、いつでも中止することができます。**先に保存をクリックせずに**ページから離れると、変更は反映されないことに注意してください。"
+
+#: ../../dev-manual/api/api-intro.rst:171
+msgid ""
+"To generate the API key, click the \"Save\" button located in the "
+":term:`button block` at the bottom of the edit page."
+msgstr "APIキーを生成するには、編集ページの下部にある`:term:`ボタンブロック`に配置された「保存」ボタンをクリックしてください。"
+
+#: ../../dev-manual/api/api-intro.rst:-1
+msgid "An image of the button block at the bottom of the User edit page"
+msgstr "ユーザー編集ページの下部にあるボタンブロックの画像"
+
+#: ../../dev-manual/api/api-intro.rst:179
+msgid ""
+"AtoM will reload the User profile page in :term:`view mode` - you will now "
+"see an API key value listed on the user's profile."
+msgstr ""
+"AtoMは、ユーザープロファイルページを`:term:`表示モード`で再読み込みします - "
+"これで、ユーザープロファイルにAPIキーの値が表示されることになります。"
+
+#: ../../dev-manual/api/api-intro.rst:-1
+msgid "An image of the user profile view page with an API key displayed"
+msgstr "ユーザープロファイル表示ページの画像で、APIキーが表示されています。"
+
+#: ../../dev-manual/api/api-intro.rst:187
+msgid ""
+"Note that you can regenerate a different key by repeating the steps above, "
+"or delete an existing key by following the steps above but choosing \"Delete"
+" API key\" in step 4."
+msgstr ""
+"上記の手順を繰り返すことで異なるキーを再生成することができますし、また、ステップ4で「APIキーを削除」を選択することで、既存のキーを削除する手順に従うこともできますので、その点に注意してください。"
+
+#: ../../dev-manual/api/api-intro.rst:194
+msgid "Using an API Key in a request"
+msgstr "リクエストでAPIキーを使用する"
+
+#: ../../dev-manual/api/api-intro.rst:196
+msgid ""
+"An API key value must be passed with each request to the API endpoints, or "
+"no response will be returned. Below is an example of using `curl "
+"<https://curl.haxx.se/>`__ to submit the requests with the API key in the "
+"header."
+msgstr ""
+"APIのエンドポイントへの各リクエストにはAPIキーの値を渡さなければならず、そうでない場合は応答が返されません。以下は、ヘッダー内のAPIキーを使用してリクエストを送信するために"
+" `curl <https://curl.haxx.se/>`__ を使用する例です。"
+
+#: ../../dev-manual/api/api-intro.rst:207
+msgid ""
+"See the subsequent pages for more details on each endpoint, and available "
+"parameters. There are three endpoints available:"
+msgstr "後続のページに各エンドポイントと利用可能なパラメータに関する詳細が記載されています。利用可能なエンドポイントは3つあります:"
+
+#: ../../dev-manual/api/api-intro.rst:213
+msgid ":ref:`Download digital objects <api-download-do>`"
+msgstr ":ref:`デジタルオブジェクトのダウンロード <api-download-do>`"
+
+#: ../../dev-manual/api/api-intro.rst:214
+msgid ":ref:`Add physical objects <api-add-po>`"
+msgstr ":ref:`物理的なオブジェクトの追加 <api-add-po>`"
+
+#: ../../dev-manual/api/api-intro.rst:219
+msgid "Common parameter - i18n culture"
+msgstr "共通パラメータ - i18n 文化"
+
+#: ../../dev-manual/api/api-intro.rst:221
+msgid ""
+"The one parameter that is currently common across all API endpoints is the "
+"``sf_culture`` parameter. AtoM expects an ISO 639-1 formatted language code "
+"(examples include en, fr, es - see `Wikipedia "
+"<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__ for a list of "
+"available codes) as the parameter value."
+msgstr ""
+"現在、すべてのAPIエンドポイントに共通する一つのパラメータは、「sf_culture」パラメータです。AtoMはISO "
+"639-1形式の言語コード（例としてはen、fr、esなどがあります - 利用可能なコードのリストについては`Wikipedia "
+"<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__をご覧ください）をパラメータ値として期待しています。"
+
+#: ../../dev-manual/api/api-intro.rst:227
+msgid ""
+"This parameter is not required for an API request. If it is not included, "
+"then AtoM will return the response with data from the default culture of the"
+" application."
+msgstr ""
+"このパラメータはAPIリクエストに必須ではありません。もしこれが含まれていない場合、AtoMはアプリケーションのデフォルト文化のデータを含んだレスポンスを返します。"
+
+#: ../../dev-manual/api/api-intro.rst:231
+msgid ""
+"AtoM is a multilingual application that supports the translation of both "
+"user interface elements, and user content. This means that it is possible "
+"that a particular resource is available in more than one culture - the "
+"availability of a response for any given i18n parameter will depend on the "
+"data available. For more information on AtoM's multilingual functionality, "
+"see: :ref:`multilingual-design-principles`."
+msgstr ""
+"AtoMは、ユーザーインターフェース要素とユーザーのコンテンツの両方の翻訳をサポートする多言語アプリケーションです。これは、特定のリソースが複数の文化で利用可能である可能性があることを意味します"
+" - "
+"任意のi18nパラメーターに対する応答の可用性は、利用可能なデータに依存します。AtoMの多言語機能の詳細については、以下を参照してください：:ref:`multilingual-"
+"design-principles`。"
+
+#: ../../dev-manual/api/api-intro.rst:239
+msgid "Accessing endpoints via your browser"
+msgstr "ブラウザ経由でエンドポイントにアクセスする"
+
+#: ../../dev-manual/api/api-intro.rst:241
+msgid ""
+"While the API has been designed to allow for communication between systems "
+"(e.g. passing data to an aggregator, or separate front-end access system), "
+"users can also access the API's responses via a web browser."
+msgstr ""
+"APIはシステム間の通信を可能にするように設計されています（例えば、データをアグリゲーターに渡す、または独立したフロントエンドアクセスシステム）。しかし、ユーザーはウェブブラウザを通じてAPIのレスポンスにもアクセスすることができます。"
+
+#: ../../dev-manual/api/api-intro.rst:245
+msgid ""
+"Depending on the browser you use, you may want to consider installing a JSON"
+" pretty-print add-on before accessing the endpoints, to structure the "
+"display and make it easier to read. For Firefox, we recommend the following:"
+msgstr ""
+"使用しているブラウザによっては、エンドポイントにアクセスする前に、表示を構造化して読みやすくするために、JSONプリティプリントのアドオンをインストールすることを検討すると良いでしょう。Firefoxには、次のものをおすすめします："
+
+#: ../../dev-manual/api/api-intro.rst:249
+msgid "https://addons.mozilla.org/en-US/firefox/addon/jsonview/"
+msgstr ""
+"このテキストは翻訳する文章ではなく、ウェブページのURLです。URLは通常、翻訳されるものではありませんが、日本語での説明を提供できます。\n"
+"\n"
+"このURLはMozilla Firefoxの追加機能「JSONView」のページに直接リンクしています。この追加機能は、JSON（JavaScript Object Notation）形式のデータをFirefoxのブラウザ内で整形して表示し、読みやすくするものです。URLのコンポーネントを日本語に調整すると以下のようになりますが、これは正式なURLではなく、参考までのものです。\n"
+"\n"
+"https://addons.mozilla.org/ja-JP/firefox/addon/jsonview/\n"
+"\n"
+"追加機能の名前は変わらず「JSONView」となります。"
+
+#: ../../dev-manual/api/api-intro.rst:251
+msgid ""
+"If you're using Chrome, you shouldn't need to install anything additional."
+msgstr "Chromeを使用している場合、追加で何もインストールする必要はありません。"
+
+#: ../../dev-manual/api/api-intro.rst:253
+msgid ""
+"Example requests with different parameters will be included in the "
+"documentation for each endpoint, but in general, you can imagine taking the "
+"example request included on the documentation, and appending it to your base"
+" URL with whatever parameters you wish to apply. For example, the endpoint "
+"for for the browse taxonomies endpoint is listed as "
+"``/api/taxonomies/[id]``. If you wanted to access the level of descriptions "
+"taxonomy in your browser (the ID for that taxonomy is 34; a list of common "
+"taxonomies will be included in the Browse taxonomies endpoint "
+"documentation), and your site's URL is ``http://www.example.com``, then you "
+"can view the response by entering the following into your browser:"
+msgstr ""
+"ドキュメンテーションには、各エンドポイントごとに異なるパラメータを持つ例のリクエストが含まれていますが、一般的には、ドキュメンテーションに含まれている例のリクエストを基本とするURLに、適用したい任意のパラメータを追加すると想像できます。たとえば、分類法を閲覧するエンドポイントは``/api/taxonomies/[id]``としてリストされています。ブラウザで説明レベルの分類法にアクセスしたい場合（その分類法のIDは34です。共通の分類法のリストは分類法を閲覧するエンドポイントのドキュメンテーションに含まれています）、そしてサイトのURLが``http://www.example.com``であれば、ブラウザに以下のURLを入力することでレスポンスが表示されます："
+
+#: ../../dev-manual/api/api-intro.rst:264
+msgid "``http://www.example.com/api/taxonomies/34``"
+msgstr ""
+"このテキストはウェブサイトのURLですが、具体的な翻訳内容はありません。このURLは単にあるAPIエンドポイントを指し示しています。しかし、これを日本語に「説明する」ならば、以下のようになります。\n"
+"\n"
+"「http://www.example.com/api/taxonomies/34」は、例として挙げられたウェブサイト内のAPI（アプリケーションプログラミングインターフェイス）へのエンドポイントに対するURLです。ここでは、「taxonomies」という部分が分類群や体系などのリソースを扱うAPIセクションを意味し、「34」は特定の分類群またはその他のリソースのIDを表していると考えられます。このURLを使用してウェブアプリケーションは指定されたリソースにアクセスし、データを操作または取得することができます。"
+
+#: ../../dev-manual/api/api-intro.rst:268
+msgid ""
+"For the Browse information objects endpoint, a good way to see some of the "
+"available parameters in action is to perform a search via the AtoM user "
+"interface, using some of the available filters and facets - while there are "
+"some variations (included in the documentation), for the most part, the way "
+"we include these parameters in the URL of the returned search results page "
+"is the same way we've implemented them for the API."
+msgstr ""
+"Browse information "
+"objectsエンドポイントにおいて、利用可能なパラメーターを実際に動作させてみる良い方法の一つとして、AtoMユーザーインターフェイスを使用して、利用可能なフィルターやファセットを使った検索を行うことが挙げられます。ドキュメントにはいくつかのバリエーション（変更点）が含まれていますが、大部分に関しては、検索結果ページのURLにこれらのパラメーターを含める方法が、APIに実装した方法と同じです。"
+
+#: ../../dev-manual/api/api-intro.rst:275
+msgid ":ref:`Back to top <api-intro>`"
+msgstr ":ref:`トップへ戻る <api-intro>`"

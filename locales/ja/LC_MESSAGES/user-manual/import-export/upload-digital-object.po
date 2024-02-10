@@ -1,0 +1,2328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:5
+msgid "Upload and manage digital objects"
+msgstr "デジタルオブジェクトのアップロードと管理"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:7
+msgid ""
+":term:`Digital objects <digital object>` objects are computer files that can"
+" be uploaded into and displayed by AtoM; they can include scanned images, "
+"digital photographs, sound and moving image files, and other scanned or "
+"born-digital items. AtoM allows the user to link a single :term:`digital "
+"object` to an :term:`archival description` or an an :term:`authority "
+"record`, or import multiple digital objects to new lower :term:`levels of "
+"description <level of description>`. In AtoM, there is a 1:1 relationship "
+"between a digital object and an :term:`information object` - meaning every "
+"digital object must be associated with an :term:`archival description`, "
+"typically at the file or item level (see :term:`level of description`), or "
+"an :term:`authority record`."
+msgstr ""
+"デジタルオブジェクトは、コンピュータのファイルであり、AtoMにアップロードされ、表示されます。これにはスキャンした画像、デジタル写真、音声や動画ファイル、その他のスキャンしたものや生まれつきデジタルのアイテムなどが含まれます。AtoMは、ユーザーが単一のデジタルオブジェクトをアーカイブ記述または権威記録にリンクさせることを可能にするだけでなく、複数のデジタルオブジェクトを新しい低い記述レベルにインポートすることもできます。AtoMでは、デジタルオブジェクトと情報オブジェクトとの間に1対1の関係があります。つまり、すべてのデジタルオブジェクトはアーカイブ記述（通常はファイルまたはアイテムレベルで、記述レベルを参照）または権威記録と関連付けられていなければなりません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:18
+msgid ""
+"For every object uploaded, AtoM creates two derivative objects from the "
+":term:`master <master digital object>`: a :term:`thumbnail` image and a "
+":term:`reference display copy` of the object. The master digital object is "
+"the unaltered version of a :term:`digital object` that has been uploaded to "
+"AtoM. Note that only authenticated (i.e. logged-in) users may view master "
+"digital objects by default (though this can be changed by editing the "
+"permissions of unauthenticated users - for more information, see: "
+":ref:`edit-user-permissions`)."
+msgstr ""
+"アップロードされるすべてのオブジェクトについて、AtoMは`:term:`マスター <master digital "
+"object>`から2種類の派生オブジェクトを生成します：1つは`:term:`サムネイル`イメージで、もう1つはオブジェクトの`:term:`参照用表示コピー`です。マスターデジタルオブジェクトは、AtoMにアップロードされた`:term:`デジタルオブジェクト`の変更されていないバージョンです。デフォルトでは認証された（つまりログインした）ユーザーのみがマスターデジタルオブジェクトを閲覧できる点に注意してください（ただし、未認証ユーザーの権限を編集することで変更することが可能です"
+" - 詳細については、次を参照してください：`:ref:`edit-user-permissions`)。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:29
+msgid ""
+"By default, **all** users can view the :term:`master digital object` of an "
+"uploaded PDF, regardless of the \"View master\" settings in the Archival "
+"description permissions tab. This is because the reference display copy is "
+"not large enough to be useful without access to the full PDF, while the "
+"reference copy might be perfectly serviceable for an image (and restricting "
+"access to the master may be part of the required copyright conditions). Note"
+" that users could still restrict public access to uploaded PDFs using the "
+"PREMIS actionable rights module - for more information, see: :ref:`rights`."
+msgstr ""
+"デフォルトでは、Archival description permissionsタブの「View "
+"master」設定に関わらず、**すべて**のユーザーがアップロードされたPDFの:term:`マスターデジタルオブジェクト`を閲覧することができます。これは参照表示コピーがフルPDFにアクセスしなければ十分に有用ではないためですが、画像に対しては参照コピーが完全に利用可能であり、マスターへのアクセスを制限することは必要な著作権条件の一部である可能性があります。なお、プレミス実行可能権リクツモジュールを使用して公開されたPDFへの一般公開アクセスを制限することもできます"
+" - 詳細については、以下を参照してください: :ref:`rights`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "A image of the carousel in AtoM"
+msgstr "AtoMでのカルーセルのイメージ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:44
+msgid ""
+"At higher :term:`levels of description <level of description>`, the "
+":term:`view page` of a :term:`parent record` will include :term:`thumbnails "
+"<thumbnail>` of all digital objects registered at lower levels. The "
+"thumbnails are displayed using a :term:`carousel viewer <carousel>` so you "
+"can easily scroll through the set using your mouse or keyboard's arrow keys."
+" Clicking on a thumbnail will redirect you to the :term:`view page` for the "
+":term:`description <archival description>` associated with that digital "
+"object. If more than 10 digital objects appear at lower levels, AtoM will "
+"display the first 10 in the :term:`carousel` and provide a link to a digital"
+" object browse page to explore the rest if desired. For more information, "
+"see the :ref:`recurring-carousel` entry in :ref:`navigate`."
+msgstr ""
+"説明の高いレベルで、上位の記録(:term:`親記録`)の閲覧ページには、下位レベルで登録されたすべてのデジタルオブジェクトのサムネイルが含まれています。サムネイルはカルーセルビューア(:term:`カルーセル`)を使用して表示されるため、マウスやキーボードの矢印キーを使って簡単にセットをスクロールすることができます。サムネイルをクリックすると、そのデジタルオブジェクトに関連する説明の閲覧ページ(:term:`アーカイブ説明の閲覧ページ`)にリダイレクトされます。下位レベルに10個以上のデジタルオブジェクトが表示される場合、AtoMはカルーセルで最初の10個を表示し、残りを希望する場合はデジタルオブジェクトのブラウズページへのリンクを提供します。詳細については、:ref:`ナビゲーション`の中の"
+" :ref:`繰り返しカルーセル`項目を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:58
+msgid ""
+"The digital object carousel can also be disabled by an :term:`administrator`"
+" via **Admin > Settings > Default page elements**. For more information, "
+"see: :ref:`default-page-elements`."
+msgstr ""
+"デジタルオブジェクトカルーセルは、**:term:`管理者`**が **管理 > 設定 > デフォルトページ要素** "
+"より無効にすることもできます。詳しい情報については、:ref:`default-page-elements`を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:62
+msgid "See below for more information on:"
+msgstr "以下に、さらなる情報を記載しています："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:64
+msgid ""
+":ref:`Linking single digital objects to archival descriptions <link-digital-"
+"object>`"
+msgstr ":ref:`アーカイブ記述に単一のデジタルオブジェクトをリンクする <link-digital-object>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:65
+msgid ":ref:`Digital object metadata <digital-object-metadata>`"
+msgstr ":ref:`デジタルオブジェクトのメタデータ <digital-object-metadata>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:66
+msgid ""
+":ref:`Digital object metadata for preservation files <digital-object-"
+"preservation>`"
+msgstr ":ref:`保存ファイルのためのデジタルオブジェクトメタデータ <digital-object-preservation>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:67
+msgid ""
+":ref:`Linking single digital objects to authority records <link-to-"
+"authority>`"
+msgstr ":ref:`権威レコードへの単一デジタルオブジェクトのリンク <link-to-authority>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:68
+msgid ":ref:`Uploading multiple digital objects <upload-multiple-objects>`"
+msgstr ":ref:`複数のデジタルオブジェクトのアップロード <upload-multiple-objects>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:69
+msgid ":ref:`Uploading PDFs <upload-pdf>`"
+msgstr ":ref:`PDFのアップロード <upload-pdf>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:70
+msgid ":ref:`Editing digital objects <edit-digital-object>`"
+msgstr ":ref:`デジタルオブジェクトの編集 <edit-digital-object>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:71
+#: ../../user-manual/import-export/upload-digital-object.rst:719
+msgid ":ref:`digital-object-map`"
+msgstr "デジタルオブジェクトマップ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:72
+msgid ":ref:`rename-digital-object`"
+msgstr ""
+"このテキストは、文書内の参照ラベルを示しています。このラベルは特定のセクションやタイトルを参照するために使われるもので、直訳することは通常の翻訳プロセスと異なります。しかし、テキストを日本語のコンテキストに置き換えるために「デジタルオブジェクトの名前変更」という節の参照として解釈することができます。\n"
+"\n"
+"そのため、このラベルを日本語のドキュメントで用いるには、次のような表記になる可能性があります：\n"
+"\n"
+"``:ref:`デジタルオブジェクトの名前変更` ``\n"
+"\n"
+"ただし、実際に翻訳する場合には、使用しているドキュメント管理システムの構文やフォーマットに沿った適切な表記に変える必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:73
+msgid ":ref:`Deleting digital objects <delete-digital-object>`"
+msgstr ":ref:`デジタルオブジェクトの削除 <delete-digital-object>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:74
+msgid ":ref:`digital-object-watermark`"
+msgstr ""
+"\"`digital-object-watermark`\" というリファレンスラベルは、特定のドキュメント構造や参照スキーム内で使用されるものです。「デジタルオブジェクトの透かし」という意味が考えられますが、このコンテキストだけでは、的確な翻訳を提供するのは難しいです。Archivematicaのドキュメントにおけるその使用例や文脈に応じた正確な翻訳が必要になります。\n"
+"\n"
+"もし、これが文書の特定の部分への参照である場合は、その部分の見出しやラベルを日本語に訳すことが求められます。例えば、該当するセクションのタイトルが \"Digital Object Watermarking\" であれば、日本語では「デジタルオブジェクトのウォーターマーキング」となるかもしれません。しかし、これはあくまで一例です。\n"
+"\n"
+"文脈が不明なため、適切な翻訳には追加情報が必要です。もしリファレンスラベル \"digital-object-watermark\" がArchivematicaのマニュアル内の特定のセクションを指しており、そのセクションの正確な日本語訳が必要な場合は、その節の内容やタイトルに基づいた訳語を提案することができます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:75
+msgid ":ref:`Digital object storage <digital-object-storage>`"
+msgstr "`:ref:`デジタルオブジェクトの保存 <digital-object-storage>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:76
+msgid ":ref:`Supported file formats <file-formats>`"
+msgstr ":ref:`サポートされているファイル形式 <file-formats>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:80
+msgid ":ref:`rights`"
+msgstr ":ref:`権利`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:81
+#: ../../user-manual/import-export/upload-digital-object.rst:272
+msgid ":ref:`rights-digital-object`"
+msgstr ""
+":ref:`rights-digital-object` の部分は、参照リンクのマークアップで、通常の文章とは異なるため、直訳はありません。しかし、もし参照リンクのタイトルが「デジタルオブジェクトの権利」という意味であれば、次のような日本語訳になるかもしれません。\n"
+"\n"
+"```\n"
+":ref:`デジタルオブジェクトの権利`\n"
+"```\n"
+"\n"
+"なお、実際に翻訳を行う際には、参照しているドキュメントのタイトルやコンテキストが正確に反映されるように注意する必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:82
+msgid ":ref:`manage-digital-object-storage`"
+msgstr ":ref:`デジタルオブジェクトのストレージ管理`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:83
+msgid ":ref:`upload-limit`"
+msgstr ""
+"このテキストは参照リンクを示しており、直接的な翻訳は不適切です。しかしながら、ドキュメント内で同等の参照を日本語として表記する場合、「アップロード制限」というセクションを参照してください、などの方法で文脈に即した説明を加えることができます。例えば：\n"
+"\n"
+"``:ref:`upload-limit` を参照してください。``\n"
+"\n"
+"これを日本語に置き換えると以下のようになります：\n"
+"\n"
+"``「アップロード制限」のセクションを参照してください。``\n"
+"\n"
+"ただし、具体的なドキュメントの構造や文脈によって表現は変わる可能性があるため、実際のドキュメントに合わせて適宜調整する必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:84
+msgid ":ref:`rename-title-slug`"
+msgstr ""
+"`:ref:`rename-title-slug``は具体的なテキスト内容を示していませんが、これは通常、リンク可能な参照またはドキュメント内の特定のセクションへのクロスリファレンスを意味するSphinxドキュメント生成ツールの記法です。したがって、この部分の直訳はできませんが、もし「rename-title-slug」がセクションのタイトルであれば、そのタイトルを日本語に訳す必要があります。\n"
+"\n"
+"例として「rename-title-slug」を「タイトルのスラグを変更する」というセクションタイトルと仮定すると、以下のように翻訳できます：\n"
+"\n"
+"`:ref:`タイトルのスラグを変更する`\n"
+"\n"
+"この場合、原文が特定のセクションへの参照を保持するように、翻訳後もリンク参照を維持しています。実際に使用する際は、Sphinxが参照を正しく解釈するための適切なセクションラベルもしくはアンカー名を確認する必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:89
+msgid "Link a single digital object to an archival description"
+msgstr "アーカイブ記述に単一のデジタルオブジェクトをリンクする"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:91
+msgid ""
+"A single :term:`digital object` can be linked directly to an existing "
+":term:`archival description` in AtoM via the \"Link digital object\" option."
+" Users can either upload a digital object, or link to an existing resource "
+"available on the web. Instructions on how to do both are included below."
+msgstr ""
+"単一の:term:`デジタルオブジェクト`は、AtoM内の既存の:term:`アーカイブ記述`に直接「デジタルオブジェクトをリンク」オプションを使用して関連付けることができます。ユーザーは、デジタルオブジェクトをアップロードすることも、ウェブ上で利用可能な既存のリソースにリンクすることもできます。どちらも行う方法の説明は以下に含まれています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:98
+msgid ""
+"Only **one** digital object can be linked to an archival description at a "
+"time. If you wish to upload or link multiple digital objects, you will need "
+"to create lower levels of description. AtoM includes a workflow to automate "
+"the creation of these lower levels - see :ref:`upload-multiple-objects` for "
+"more information."
+msgstr ""
+"一度に**一つの**デジタルオブジェクトのみがアーカイブ記述にリンク可能です。複数のデジタルオブジェクトをアップロードまたはリンクしたい場合は、より下位の記述レベルを作成する必要があります。AtoMはこれらの下位レベルを自動で作成するワークフローを含んでいます。詳細は"
+" :ref:`upload-multiple-objects` をご参照ください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "A image of the link digital object edit page"
+msgstr "デジタルオブジェクトリンク編集ページの画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:109
+msgid "To link a single :term:`digital object`:"
+msgstr "単一の：用語：`デジタルオブジェクト`をリンクするために："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:111
+msgid ""
+"Navigate to the :term:`view page` of an existing :term:`archival "
+"description` in AtoM. You can do this by :ref:`browsing <browse>` or by "
+":ref:`searching <search-atom>` for a specific archival description - see "
+":ref:`access-content` for more information on navigation in AtoM."
+msgstr ""
+"AtoMに既にある「アーカイブ記述」の「表示ページ」へ移動します。これは、「閲覧<browse>」を行うか、または特定のアーカイブ記述を「検索<search-"
+"atom>」することで実行できます - AtoMでのナビゲーションに関する詳細情報については、「アクセス-コンテンツ<access-"
+"content>」をご覧ください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:116
+msgid ""
+"Click on the \"More\" button in the :term:`button block`; from the menu that"
+" appears, select \"Link digital object\"."
+msgstr "「ボタンブロック」にある「More」ボタンをクリックし、表示されるメニューから「Link digital object」を選択します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "A image of the more menu, with the Link digital object option selected"
+msgstr "「更に」メニューの画像、デジタルオブジェクトをリンクするオプションが選択されています"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:124
+#: ../../user-manual/import-export/upload-digital-object.rst:429
+msgid ""
+"AtoM will redirect you to the link digital object :term:`edit page`. Users "
+"can either upload a digital object, or link to an existing digital object "
+"available on the internet."
+msgstr ""
+"AtoMは、リンク先のデジタルオブジェクト：用語「編集ページ」にリダイレクトします。ユーザーは、デジタルオブジェクトをアップロードするか、インターネット上で既に利用可能なデジタルオブジェクトにリンクすることができます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:133
+#: ../../user-manual/import-export/upload-digital-object.rst:433
+msgid ""
+"**To upload a digital object locally**, cick the \"Choose File\" button to "
+"navigate to and select a file on your computer or device. Click \"Open\" "
+"once the item has been selected from the window that will appear."
+msgstr ""
+"**デジタルオブジェクトをローカルにアップロードするには**、「Choose "
+"File」ボタンをクリックして、コンピューターまたはデバイス上のファイルを探して選択します。ポップアップするウィンドウから項目を選択したら、「Open」をクリックしてください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:136
+#: ../../user-manual/import-export/upload-digital-object.rst:436
+msgid ""
+"**To link to an object on the internet**, enter the URL to the external "
+"object to which you wish to link."
+msgstr "インターネット上のオブジェクトにリンクするには、リンク先の外部オブジェクトのURLを入力してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:141
+#: ../../user-manual/import-export/upload-digital-object.rst:441
+msgid ""
+"To link to a digital object via the web, you **must** enter a URL that ends "
+"with the file extension of the resource to which you are trying to link - "
+"for example, to link to an image, the URL should end with .jpg, .png, etc. "
+"You can usually get to this URL by clicking on the resource directly, or by "
+"right-clicking and selecting \"View image\" etc in your browser."
+msgstr ""
+"ウェブ経由でデジタルオブジェクトにリンクする場合は、リンクしようとしているリソースのファイル拡張子で終わるURLを**必ず**入力する必要があります。たとえば、画像にリンクする場合、URLは.jpg、.pngなどで終わるべきです。このURLには、直接リソースをクリックするか、ブラウザで右クリックして「画像を表示」などを選択することで通常たどり着けます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst
+msgid "An example of linking to an external digital object"
+msgstr "外部デジタルオブジェクトへのリンクの例"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:153
+msgid ""
+"Click the \"Create\" button in the :term:`button block`. When you return to "
+"the :term:`view page`, the :term:`reference display copy` will be displayed "
+"in the digital object field, above the other fields linked to that "
+":term:`archival description`."
+msgstr ""
+"「ボタンブロック」内の「作成」ボタンをクリックします。ビューページに戻ると、そのアーカイブ記述にリンクされている他のフィールドの上に、デジタルオブジェクトフィールド内に「参照表示コピー」が表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:160
+msgid ""
+"Users can view or play the :term:`reference display copy` (depending on the "
+"type of digital object). Authenticated (i.e. logged-in) users can also "
+"download the :term:`master digital object`."
+msgstr ""
+"ユーザーは、:term:`参照用表示コピー`（デジタルオブジェクトの種類によって異なる）を閲覧したり再生したりすることができます。認証された（つまりログインしている）ユーザーは、:term:`マスターデジタルオブジェクト`もダウンロードすることができます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:164
+msgid ""
+"Objects with multiple pages, such as multi-page TIFFs or PDF files, will by "
+"default be displayed with single-page reference display copies. To have them"
+" viewed with a pager to allow the user to browse through the pages, go to "
+"**Admin > Settings > Global > Upload multi-page files as multiple "
+"descriptions** and select \"Yes\"; this will also cause all pages of a "
+"multi- page object to appear individually as child records of the "
+"description to which the object was uploaded. (See: :ref:`settings <upload-"
+"multi-files>`)."
+msgstr ""
+"複数ページを含むオブジェクト、例えばマルチページのTIFFやPDFファイルは、デフォルトでは1ページごとの参照用表示コピーで表示されます。ユーザーがページをめくって閲覧できるページャーを使用して表示させたい場合は、**管理"
+" > 設定 > グローバル > 複数ページのファイルを複数の記述としてアップロードする** "
+"に進み、「はい」と選択してください。これにより、複数ページオブジェクトの全ページが、オブジェクトがアップロードされた記述の子レコードとして個別に表示されるようになります。（参照："
+" :ref:`settings <upload-multi-files>`）。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:174
+msgid ""
+"If you are comfortable with users accessing the :term:`master digital "
+"object` (e.g. the original full-resolution upload) for viewing multi-page "
+"files such as PDFs in their browser, you can change the default permissions "
+"to grant anonymous users (e.g. unauthenticated, or not logged in) access to "
+"the master via **Admin > Groups** - select the \"anonymous\" group, edit the"
+" archival description permissions, and change the \"Access master\" field to"
+" \"Grant\". Users will then be able to click on the :term:`reference display"
+" copy` to view the original upload. For more information, see: :ref:`edit-"
+"user-permissions`."
+msgstr ""
+"使用者が:term:`master digital "
+"object`（例えば、オリジナルの高解像度アップロード）をブラウザでPDFのような複数ページのファイルを閲覧するためにアクセスすることに問題がなければ、デフォルトの権限を変更して匿名ユーザー（例えば、認証されていない、またはログインしていない）が**管理者"
+" > "
+"グループ**を経由してマスターにアクセスできるようにすることができます。\"匿名\"グループを選択し、アーカイブ記述の権限を編集し、\"マスターへのアクセス\"フィールドを\"許可\"に変更します。その後、使用者は:term:`reference"
+" display copy`をクリックしてオリジナルのアップロードを閲覧できるようになります。詳細については、次を参照してください: "
+":ref:`edit-user-permissions`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:185
+msgid ""
+"You can upload any file format, but only supported formats can be viewed or "
+"played directly in AtoM. For a list of formats, see :ref:`File formats "
+"<file-formats>`. Formats that are not supported can still be uploaded: "
+"clicking the object will download it to the user's desktop where (assuming "
+"the user has the required software) it can be viewed or played."
+msgstr ""
+"どんなファイル形式でもアップロードできますが、AtoMで直接閲覧または再生できるのはサポートされている形式のみです。形式のリストについては、:ref:`ファイル形式"
+" <file-"
+"formats>`を参照してください。サポートされていない形式もアップロードすることは可能です。そのオブジェクトをクリックすると、ユーザーのデスクトップにダウンロードされ、（ユーザーに必要なソフトウェアがある場合）閲覧または再生ができます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:191
+#: ../../user-manual/import-export/upload-digital-object.rst:470
+msgid ""
+"See :ref:`below <edit-digital-object>` for more information on making "
+"changes to your :term:`digital object`."
+msgstr ""
+"以下に、:term:`デジタルオブジェクト`に加える変更に関する詳細情報があります。詳細は :ref:`下記 <edit-digital-"
+"object>` をご覧ください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:194
+#: ../../user-manual/import-export/upload-digital-object.rst:301
+#: ../../user-manual/import-export/upload-digital-object.rst:404
+#: ../../user-manual/import-export/upload-digital-object.rst:622
+#: ../../user-manual/import-export/upload-digital-object.rst:645
+#: ../../user-manual/import-export/upload-digital-object.rst:852
+#: ../../user-manual/import-export/upload-digital-object.rst:983
+#: ../../user-manual/import-export/upload-digital-object.rst:1120
+#: ../../user-manual/import-export/upload-digital-object.rst:1140
+#: ../../user-manual/import-export/upload-digital-object.rst:1155
+#: ../../user-manual/import-export/upload-digital-object.rst:1271
+msgid ":ref:`Back to top <upload-digital-object>`"
+msgstr ":ref:`トップに戻る <upload-digital-object>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:200
+msgid "Digital object metadata"
+msgstr "デジタルオブジェクトメタデータ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:202
+msgid ""
+"When you link a digital object to an :term:`archival description`, the "
+"\"Digital object metadata\" section on the archival description :term:`view "
+"page` will include an \"Access Copies\" subsection."
+msgstr ""
+"デジタルオブジェクトを「アーカイブ記述」にリンクすると、アーカイブ記述の「ビューページ」にある「デジタルオブジェクトメタデータ」セクションに「アクセスコピー」の小項目が含まれます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:208
+msgid ""
+"An unauthenticated user will not see a digital object and its \"Access "
+"copies\" metadata if the archival description it is attached to has a "
+"\"draft\" instead of \"published\" status."
+msgstr ""
+"認証されていないユーザーは、それに付随するアーカイブ記述が「公開」ステータスの代わりに「下書き」として設定されている場合、デジタルオブジェクト及びその「アクセスコピー」のメタデータを閲覧することができません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:212
+msgid ""
+"Clicking on the \"Access copies\" subsection label link will collapse or "
+"expand the subsection."
+msgstr "「アクセス用のコピー」サブセクションのラベルリンクをクリックすると、サブセクションの表示が折りたたまれたり展開されたりします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:215
+msgid ""
+"The \"Access Copies\" subsection will include metadata about the \"Master "
+"file\", \"Reference copy\", and \"Thumbnail copy\" representations of the "
+"digital object. Specifically: filename, media type, mime-type, filesize, and"
+" uploaded (the timestamp for when the digital object was uploaded to AtoM)."
+msgstr ""
+"\"アクセスコピー\"の小節には、デジタルオブジェクトの「マスターファイル」、「リファレンスコピー」、「サムネイルコピー」の表現に関するメタデータが含まれます。具体的には、ファイル名、メディアタイプ、MIMEタイプ、ファイルサイズ、そしてアップロードされたタイムスタンプ（デジタルオブジェクトがAtoMにアップロードされた時のタイムスタンプ）です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst
+msgid "digital object metadata with access enabled for all representations"
+msgstr "すべての表現形式でアクセスを有効にしたデジタルオブジェクトのメタデータ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:226
+msgid ""
+"An administrator user can toggle the display of specific \"Digital object "
+"metadata\" section fields on or off in the **Admin > Visible elements > "
+"Digital object metadata area** section. This only affects display for "
+"unauthenticated users. Any authenticated users will see all metadata "
+"elements in each section as long as those fields contain a value. For more "
+"information, see: :ref:`visible-elements`."
+msgstr ""
+"管理者ユーザーは、**管理 > 表示要素 > デジタルオブジェクトメタデータ領域** "
+"セクションにおいて、特定の「デジタルオブジェクトメタデータ」セクションのフィールドの表示をオンまたはオフにすることができます。これは認証されていないユーザーに対する表示にのみ影響します。認証されたユーザーは、それらのフィールドに値が含まれている限り、各セクションのすべてのメタデータ要素を表示します。詳細については、こちらを参照してください：:ref:`visible-"
+"elements`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:233
+msgid ""
+"If the Reference representation or Thumbnail representation is deleted via "
+"the \"Edit digital object\" page, then the \"Reference copy\" and/or "
+"\"Thumbnail copy\" metadata is no longer displayed on the archival "
+"description view page. Additionaly, the thumbnail is not show on Browse "
+"pages and the reference copy is not displayed on view pages."
+msgstr ""
+"「参照用表現またはサムネイル表現を『デジタルオブジェクトを編集』ページから削除した場合、『参照用コピー』および／または『サムネイルコピー』のメタデータは、アーカイブ記述のビューページには表示されなくなります。さらに、サムネイルはブラウズページに表示されず、参照用コピーはビューページに表示されません。」"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:239
+msgid ""
+"The filename for each representation is either shown as plain text or as a "
+"hyperlink. If it is a hyperlink, it indicates that this user has explicit "
+"download permission for this representation."
+msgstr ""
+"各表現のファイル名は、プレーンテキストとして表示されるか、ハイパーリンクとして表示されます。ハイパーリンクの場合、このユーザーにはこの表現をダウンロードする明示的な権限があることを示しています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:243
+msgid ""
+"The icon underneath the \"Master file\", \"Reference copy\", and \"Thumbnail"
+" copy\" label is coloured black or grey. If it is grey it indicates that the"
+" user does not have access to that representation. Note that in the case of "
+"unauthorized users, the default setting is to display the reference copy at "
+"the top of the archival description view page. Therefore, the icon is "
+"coloured black for reference copies by default. However, an explicit "
+"hyperlink is not provided in the digital object metadata section for "
+"unauthorized users. This is to respect institutional policies around "
+"displaying a copyright access statement for downloaded digital materials. "
+"That feature only works for Master file representations. See "
+":ref:`copyright-pop-up`."
+msgstr ""
+"「マスターファイル」、「参照コピー」、および「サムネイルコピー」のラベルの下にあるアイコンは黒色または灰色で表示されます。灰色の場合、その表現がユーザーにとってアクセス不可であることを示しています。不許可ユーザーの場合のデフォルト設定は、アーカイブ記述ビューページのトップに参照コピーを表示することです。したがって、デフォルトでは参照コピーのアイコンは黒色で表示されます。しかし、不許可ユーザーにはデジタルオブジェクトのメタデータセクションに明示的なハイパーリンクは提供されません。これは、ダウンロードしたデジタル素材に関する著作権アクセス声明を表示する際の機関ポリシーを尊重するためです。この機能はマスターファイルの表現にのみ機能します。詳しくは"
+" :ref:`copyright-pop-up` を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst
+msgid "digital object without access to master representation"
+msgstr "アクセスできるマスター表現のないデジタルオブジェクト"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:262
+msgid ""
+"Access to the \"Master file\", \"Reference copy\", and \"Thumbnail copy\" "
+"can be configured per user group. The \"Access master\", \"Access "
+"reference\", and/or \"Access thumbnail\" permission can be set to \"Grant\" "
+"or \"Deny\" for any user group, including unauthenticated (\"anonymous\") "
+"users. See: :ref:`edit-user-permissions`."
+msgstr ""
+"\"マスターファイル\"、\"リファレンスコピー\"、及び "
+"\"サムネイルコピー\"へのアクセスはユーザーグループごとに設定することができます。\"アクセスマスター\"、\"アクセスリファレンス\"、及び/または"
+" \"アクセスサムネイル\"の権限は、認証を受けていない（\"匿名\"の）ユーザーを含む任意のユーザーグループに対して \"許可\" または "
+"\"拒否\" に設定することができます。詳細については、次を参照してください：:ref:`edit-user-permissions`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:268
+msgid ""
+"Access to the \"Master file\", \"Reference copy\", and \"Thumbnail copy\" "
+"may be overridden by actionable PREMIS rights configured for individual "
+"archival descriptions and their digital object. See:"
+msgstr ""
+"「マスターファイル」、「参照用コピー」、「サムネイルコピー」へのアクセスは、個々のアーカイブ記述およびそのデジタルオブジェクトに設定された実行可能なPREMIS権利によって上書きされる場合があります。詳細については以下を参照してください："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:273
+msgid ":ref:`disallow-statements`"
+msgstr ""
+":ref:`disallow-statements` "
+"(このテキストはArchivematicaのドキュメント内で参照リンクとして使われるマークアップですので、直訳はありません。日本語のドキュメント内で同じ機能を果たすためには、対応する参照リンクの日本語ラベルを使用する必要があります。参照先のコンテンツに応じた適切な日本語ラベルに置き換えてください。例えば「禁止された声明」など。)"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:275
+msgid ""
+"For example, if a PREMIS right is added to an archival description where the"
+" \"Act\" is \"Disseminate\" and the \"Restriction\" is \"Disallow\", then "
+"the hyperlinks in the \"Digital object metadata\" section are no longer "
+"active, all the document icons are coloured grey, and the reference copy of "
+"the digital object is no longer displayed on the archival description view "
+"page. Instead the customizable text of the \"Disallow statement\" is "
+"displayed at the top of the page as well as in a \"Permissions\" field for "
+"each Access copy representation, e.g. \"Access to this record is restricted "
+"because it contains personal or confidential information. Please contact the"
+" Reference Archivist for more information on accessing this record.\"."
+msgstr ""
+"例えば、アーカイバル記述にPREMIS権利が追加された場合に、「行為」が「普及（Disseminate）」であり、「制限」が「不許可（Disallow）」であれば、「デジタルオブジェクトメタデータ」セクションのハイパーリンクはもはやアクティブではなくなり、すべての文書アイコンが灰色に変わり、デジタルオブジェクトの参照コピーはアーカイバル記述表示ページにはもはや表示されません。代わりに、「不許可声明（Disallow"
+" "
+"statement）」のカスタマイズ可能なテキストがページの上部に表示されるとともに、各アクセスコピーレプリゼンテーションの「権限（Permissions）」フィールドにも表示されます。例えば、「このレコードへのアクセスは、個人情報または機密情報を含むため制限されています。このレコードへのアクセス方法については、レファレンスアーキビストにお問い合わせください。」のように表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst
+msgid "digital object PREMIS rights set to disallow"
+msgstr "デジタルオブジェクトのPREMIS権利設定が禁止に設定されています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:293
+msgid ""
+"If the \"Restriction\" were to be changed to \"Conditional\" and the default"
+" permission settings are enabled then the \"Reference copy\" and \"Thumbnail"
+" copy\" become available again on the AtoM template. The customizable text "
+"for the \"Condition Statement\" is displayed in a \"Permissions\" field for "
+"the \"Master file\" representation, e.g. \"This record has not yet been "
+"reviewed for personal or confidential information. Please contact the "
+"Reference Archivist to request access and initiate an access review.\"."
+msgstr ""
+"もし「制限」が「条件付き」に変更され、デフォルトの権限設定が有効になった場合、AtoMテンプレート上で「参照用コピー」と「サムネイルコピー」が再び利用可能になります。「条件声明」のためのカスタマイズ可能なテキストは、「マスターファイル」表現にある「権限」フィールドに表示されます。例えば、「この記録は個人情報または機密情報のためのレビューがまだ実施されていません。アクセスをリクエストし、アクセスレビューを開始するためには参照アーキビストに連絡してください。」と表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:306
+msgid "Digital object metadata for preservation files"
+msgstr "保存ファイルのためのデジタルオブジェクトメタデータ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:310
+msgid ""
+"If you or another user of a preservation system (e.g. `Archivematica`_) has "
+"sent a :ref:`DIP upload <archivematica:upload-atom>` to an :term:`archival "
+"description` :term:`slug` in AtoM then thumbnails for the digital objects in"
+" that Dissemenation Information Package (DIP) will be displayed in the "
+"archival description's digital object :term:`carousel`."
+msgstr ""
+"もしあなたや他の保存システム（例えば `Archivematica`_）のユーザーが、AtoMの :term:`アーカイブ記述` "
+":term:`スラッグ` に :ref:`DIPアップロード <archivematica:upload-atom>` "
+"を送信した場合、その伝達情報パッケージ（DIP）に含まれるデジタルオブジェクトのサムネイルが、アーカイブ記述のデジタルオブジェクト "
+":term:`カルーセル` に表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:318
+msgid ""
+"An unauthenticated user will not see a digital object and its metadata if "
+"the archival description it is attached to has a \"draft\" instead of "
+"\"published\" status."
+msgstr ""
+"認証されていないユーザーは、それが添付されているアーカイブの説明が「公開」ではなく「下書き」のステータスである場合、デジタルオブジェクトとそのメタデータを見ることはできません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:322
+msgid ""
+"When selecting one of the digital objects included in the DIP upload, the "
+"\"Digital object metadata\" section on the archival description view page "
+"will include a \"Preservation Copies\" and \"Access Copies\" subsection."
+msgstr ""
+"DIPアップロードに含まれるデジタルオブジェクトの1つを選択すると、「アーカイブ記述ビューページ」の「デジタルオブジェクトのメタデータ」セクションには、「保存コピー」と「アクセスコピー」のサブセクションが含まれます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:328
+msgid ""
+"When the preservation system uploads a DIP with digital objects to AtoM, it "
+"will generate \"Master file\", \"Reference copy\", and \"Thumbnail copy\" "
+"representations with their metadata displayed in the \"Access copies\" "
+"subsection."
+msgstr ""
+"保存システムがデジタルオブジェクトを含むDIPをAtoMにアップロードする際には、\"Master file\"(原本)、\"Reference "
+"copy\"(参照用コピー)、および\"Thumbnail copy\"(サムネイルコピー)といった表現を生成し、それらのメタデータを\"Access "
+"copies\"(アクセスコピー)のサブセクションに表示します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:333
+msgid ""
+"Clicking on either of these subsection label links will collapse or expand "
+"the subsection. See the :ref:`digital-object-metadata` above for more about "
+"the \"Access copies\" section."
+msgstr ""
+"これらのサブセクションラベルのリンクのどちらかをクリックすると、サブセクションが折りたたまれたり展開されたりします。「アクセスコピー」セクションの詳細については、上記の"
+" :ref:`digital-object-metadata` をご覧ください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:337
+msgid ""
+"The \"Preservation Copies\" subsection will include metadata about the "
+"\"Original file\" and \"Preservation copy\" representations that are stored "
+"in the preservation system."
+msgstr "「保存コピー」の小セクションには、保存システムに保存されている「元のファイル」と「保存コピー」の表現に関するメタデータが含まれます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:343
+msgid ""
+"If the preservation system did not generate a preservation copy then only "
+"the \"Original file\" section is shown."
+msgstr "保存システムが保存用のコピーを生成していない場合は、「オリジナルファイル」セクションのみが表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:346
+msgid ""
+"The \"Preservation copy\" metadata includes filename, filesize, and a "
+"timestamp for when the preservation system normalized (i.e. transcoded) the "
+"preservation copy from the original file."
+msgstr ""
+"「保存用コピー」のメタデータには、ファイル名、ファイルサイズ、および保存システムが元のファイルから保存用コピーを正常化（すなわち、トランスコード）した時のタイムスタンプが含まれています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:350
+msgid ""
+"The \"Original file\" metadata may include filename, file format name, file "
+"format version, format registry key (the unique key assigned to the file "
+"format by a format registry), format registry name (e.g. PRONOM), filesize, "
+"and ingested (the timestamp for when the preservation system received the "
+"original file)."
+msgstr ""
+"「オリジナルファイル」のメタデータには、ファイル名、ファイル形式名、ファイル形式のバージョン、フォーマットレジストリキー（フォーマットレジストリによってファイル形式に割り当てられたユニークなキー）、フォーマットレジストリ名（例：PRONOM）、ファイルサイズ、そしてインジェストされた時間（保存システムがオリジナルファイルを受け取った時のタイムスタンプ）が含まれる場合があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:356
+msgid ""
+"If the preservation action system statement option is enabled, you will also"
+" see a \"Permissions\" field with custom text that is populated by an "
+":term:`administrator` via **Admin > Settings > Permissions > Preservation "
+"system access statement** (e.g. \"Access only provided on research room "
+"computer\"). For more information, see: :ref:`preservation-access-"
+"statement`."
+msgstr ""
+"保存対策システムステートメントオプションが有効になっている場合、\"権限\"フィールドにカスタムテキストが表示されます。これは、**管理 > 設定 > "
+"権限 > 保存システムアクセスステートメント**（例: "
+"\"研究室のコンピュータでのみアクセスを提供\"）を通じて、:term:`管理者`によって入力されます。詳細については、:ref:`preservation-"
+"access-statement`を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst
+msgid "digital object preservation copy display, without access"
+msgstr "デジタルオブジェクト保存コピー表示、アクセスなし"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:367
+msgid ""
+"An administrator user can toggle the display of specific \"Digital object "
+"metadata\" section fields on or off via **Admin > Visible elements > Digital"
+" object metadata area**. This only affects display for unauthenticted users."
+" Any authenticated users will see all metadata elements in each section as "
+"long as those fields contain a value. For more information, see: "
+":ref:`visible-elements`."
+msgstr ""
+"管理者ユーザーは、**管理 > 表示要素 > デジタルオブジェクトのメタデータ領域** "
+"を通じて、特定の「デジタルオブジェクトメタデータ」セクションのフィールドの表示をオンまたはオフに切り替えることができます。これは未認証ユーザーの表示にのみ影響します。認証済みのユーザーは、フィールドに値が含まれていれば、各セクションにおいてすべてのメタデータ要素を表示されます。詳細については、以下を参照してください：:ref:`visible-"
+"elements`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:374
+msgid ""
+"If you are logged in and belong to the \"authenticated\" group, then you "
+"will also see the File UUID and AIP UUID for the Original file. The file "
+"UUID is the preservation system's universally unique identifier for the file"
+" and the Archival Information Package (AIP) UUID is the universally unique "
+"identifier for the preservation system package which contains the file along"
+" with other related files."
+msgstr ""
+"ログインしており、「authenticated」というグループに属している場合、オリジナルファイルのファイルUUIDとAIP "
+"UUIDも表示されます。ファイルUUIDは、ファイルのための保存システムのユニバーサルユニーク識別子であり、アーカイバル情報パッケージ（AIP）UUIDは、そのファイルおよび関連ファイルを含む保存システムパッケージのためのユニバーサルユニーク識別子です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:381
+msgid ""
+"If the preservation copies came from the Archivematica preservation system "
+"and AtoM has enabled the \"arStorageServicePlugin\" to allow for AIP "
+"download, then users that belong to a group with Download AIP permissions "
+"(by default Administrators only) will also see a \"Download file\" and "
+"\"Download AIP\" link next to each UUID. Clicking on them will fetch the "
+"file or the full AIP from the preservation system. See :ref:`Storage service"
+" settings <storage-service>`."
+msgstr ""
+"アーカイブコピーがArchivematica保存システムから出て、AtoMがAIPダウンロードを可能にする "
+"\"arStorageServicePlugin\" "
+"を有効にした場合、AIPダウンロード権限（デフォルトでは管理者のみ）を持つグループに属するユーザーは、各UUIDの隣に「ファイルをダウンロード」と「AIPをダウンロード」のリンクも表示されます。これらのリンクをクリックすると、保存システムからファイルまたは完全なAIPが取得されます。詳しくは「ストレージサービス設定"
+" <storage-service>」を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst
+msgid "digital object preservation copy display, with access"
+msgstr "デジタルオブジェクト保存コピーの表示、アクセス付き"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:394
+msgid ""
+"If the user has \"Download file\" and \"Download AIP\" permissions then the "
+"box icon under the \"Original file\" label will be coloured black. Otherwise"
+" it is coloured grey."
+msgstr ""
+"ユーザーが「ファイルのダウンロード」と「AIPのダウンロード」の権限を持っている場合は、「オリジナルファイル」ラベルの下にあるボックスのアイコンが黒色で表示されます。そうでなければ、灰色で表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:400
+msgid ""
+"By default, access to the preservation copy is only available via the "
+"preservation system, therefore the box icon under the \"Preservation copy\""
+"  label is always coloured grey for all users."
+msgstr ""
+"デフォルトでは、保存コピーへのアクセスは保存システムを介してのみ可能であるため、\"保存コピー\" "
+"ラベルの下にあるボックスアイコンは、すべてのユーザーに対して常にグレーで表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:410
+msgid "Link a single digital object to an authority record"
+msgstr "単一のデジタルオブジェクトを権威レコードにリンクする"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:412
+msgid ""
+"The process to link a :term:`digital object` to an :term:`authority record` "
+"is similar:"
+msgstr "デジタルオブジェクトを権限レコードにリンクするプロセスも同様です："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:415
+msgid ""
+"Navigate to the :term:`view page` of an existing :term:`authority record` in"
+" AtoM. You can do this by :ref:`browsing <browse>` or by :ref:`searching "
+"<search-atom>` for a specific authority record - see :ref:`access-content` "
+"for more information on navigation in AtoM."
+msgstr ""
+"AtoM内の既存の:term:`authority record` （権限記録）の:term:`view page` "
+"（閲覧ページ）に移動します。これを行うには、:ref:`browsing <browse>` "
+"（閲覧）または特定の権限記録のために:ref:`searching <search-atom>` （検索）を使用できます。 "
+"AtoMでのナビゲーションに関する詳細は、:ref:`access-content` （コンテンツアクセス）を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:421
+msgid ""
+"Click on the \"More\" button in the :term:`button block` and select \"Link "
+"digital object\"."
+msgstr "「ボタンブロック」の「もっと見る」ボタンをクリックして、「デジタルオブジェクトをリンクする」を選択します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:448
+msgid ""
+"Click the \"Create\" button in the :term:`button block`. When you return to "
+"the :term:`view page`, the :term:`reference display copy` will be displayed "
+"in the digital object field, above the other fields linked to that "
+":term:`authority record`."
+msgstr ""
+"「ボタンブロック」内の「作成」ボタンをクリックします。ビューページに戻ると、参照用ディスプレイコピーがデジタルオブジェクトフィールドに表示され、その権威レコードにリンクされている他のフィールドの上に表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst
+msgid "Authority record with linked image"
+msgstr "権威レコードとリンクされた画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:460
+msgid ""
+"Unauthenticated users (i.e. not logged in) cannot download digital objects "
+"associated with authority records."
+msgstr "未認証のユーザー（つまり、ログインしていない）は、権威レコードに関連付けられたデジタルオブジェクトをダウンロードすることができません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:463
+msgid ""
+"As with :term:`archival descriptions <archival description>`, you can upload"
+" any file format to :term:`authority records<authority record>`, but only "
+"supported formats can be viewed or played directly in AtoM.  For a list of "
+"formats, see :ref:`File formats <file-formats>`. Formats that are not "
+"supported can still be uploaded: clicking the object will download it to the"
+" user's desktop where (assuming the user has the required software) it can "
+"be viewed or played."
+msgstr ""
+"アーカイブ記述において行われるように、あらゆるファイル形式を権威レコードにアップロードすることができますが、AtoMで直接表示または再生できるのはサポートされている形式のみです。サポートされている形式の一覧については、ファイル形式を参照してください。サポートされていない形式もアップロードは可能ですが、そのオブジェクトをクリックするとユーザーのデスクトップにダウンロードされ、（ユーザーが必要なソフトウェアを持っていれば）表示または再生できるようになります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:473
+msgid ":ref:`Back to top <link-to-authority>`"
+msgstr ":ref:`トップに戻る <link-to-authority>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:478
+msgid "Upload multiple digital objects to archival descriptions"
+msgstr "複数のデジタルオブジェクトをアーカイブ記述にアップロード"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:480
+msgid ""
+"In AtoM, there is a 1:1 relationship between :term:`archival descriptions "
+"<archival description>` and :term:`digital objects <digital object>` - that "
+"is, only one digital object may be associated with an archival description, "
+"and all digital objects require an associated description. However, to "
+"enable a rapid workflow where users can upload multiple digital objects "
+"without first having to create associated descriptions, AtoM includes an "
+"option to upload multiple digital objects at once, as :term:`children <child"
+" record>` of a selected archival description. Users can choose what "
+":term:`level of description` is used when the placeholder descriptions are "
+"created; a title can also be added to each uploaded digital object, which "
+"will then be used as the title for the related description."
+msgstr ""
+"AtoMでは、:term:`アーカイブ記述 <archival description>`と:term:`デジタルオブジェクト <digital "
+"object>`間には1：1の関係があります。つまり、一つのアーカイブ記述に紐づけられるデジタルオブジェクトは一つだけであり、全てのデジタルオブジェクトには関連する記述が必要です。しかし、ユーザーがまず関連する記述を作成することなく、複数のデジタルオブジェクトを迅速にアップロードできるワークフローを可能にするために、AtoMには、選択したアーカイブ記述の:term:`子レコード"
+" <child "
+"record>`として、一度に複数のデジタルオブジェクトをアップロードするオプションが含まれています。ユーザーはプレースホルダー記述が作成される際に利用される:term:`記述レベル`を選択することができます。また、アップロードされる各デジタルオブジェクトにタイトルを追加することもでき、そのタイトルは関連する記述のタイトルとして使用されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "A image of the upload multiple images edit page"
+msgstr "アップロードする複数の画像を編集ページのイメージ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:498
+msgid "**To upload multiple digital objects in AtoM:**"
+msgstr "**AtoMで複数のデジタルオブジェクトをアップロードするには：**"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:500
+msgid ""
+"Navigate to the :term:`view page` of an existing :term:`archival "
+"description` in AtoM. You can do this by :ref:`browsing <browse>` or by "
+":ref:`searching <search-atom>` for a specific archival description - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"AtoMで既存の:term:`archival description`（アーカイブ記述）の:term:`view "
+"page`（閲覧ページ）に移動します。これは、:ref:`browsing "
+"<browse>`（閲覧）を行うか、特定のアーカイブ記述を:ref:`searching <search-"
+"atom>`（検索）することによって行うことができます。AtoMでのナビゲーションに関する詳細情報については、:ref:`Access content "
+"<access-content>`（コンテンツへのアクセス）を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:505
+msgid ""
+"Click on the \"More\" button in the :term:`button block`; from the menu that"
+" appears, select \"Import digital objects\"."
+msgstr "「ボタンブロック」にある「もっと見る」ボタンをクリックし、表示されるメニューから「デジタルオブジェクトをインポートする」を選択します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of the options in the More button located in the button block"
+msgstr "以下のボタンブロックにある「もっと見る」ボタンのオプションを示した画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:513
+#, python-format
+msgid ""
+"Select a default title for the objects  - this will be used as the title for"
+" the associated :term:`archival description` that will be created for each "
+"object uploaded. Each object will also have its own title field that can be "
+"customized later in the process, but if you do not wish to individually name"
+" each object's associated description, an automated title can be added to "
+"all objects using the title field at the top of the upload page. The "
+"``%dd%`` in the default title provided represents an incrementing 2-digit "
+"number - that is to say, the default will use image 01, image 02, etc. "
+"However, this can be customized as needed:"
+msgstr ""
+"オブジェクトのデフォルトのタイトルを選択してください - "
+"これは、アップロードされた各オブジェクトに対して作成される関連する「アーカイバルディスクリプション」のタイトルとして使用されます。各オブジェクトは自身のタイトルフィールドも持っており、プロセスの後の段階でカスタマイズすることができますが、各オブジェクトの関連ディスクリプションを個別に命名することを望まない場合、アップロードページの上部にあるタイトルフィールドを使用して、すべてのオブジェクトに自動的にタイトルを追加することができます。提供されたデフォルトタイトル中の「%dd%」は増分する2桁の数値を表しており"
+" - すなわち、デフォルトは画像01、画像02などを使用します。しかし、必要に応じてカスタマイズすることもできます："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Choosing the default title added to child descriptions"
+msgstr "子の説明に追加されるデフォルトのタイトルの選択"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:528
+msgid ""
+"Choose a default :term:`level of description`. Unlike the :ref:`link-"
+"digital-object` option, which attaches the :term:`digital object` directly "
+"to the :term:`archival description` at that level, the \"Import multiple "
+"objects\" option requires the user to designate a level of description "
+"(e.g.: Fonds, Subfonds, Collection, Series, Subseries, File, Item, Record "
+"group, Part, etc). This level of description will be used for the new "
+":term:`children <child record>` that are generated as part of the upload."
+msgstr ""
+"デフォルトの「記述レベル」を選択してください。このオプションは、「デジタルオブジェクトのリンク」オプションと異なり、そのレベルで「アーカイブ記述」に直接「デジタルオブジェクト」を添付するのではなく、「複数のオブジェクトをインポート」オプションでは、ユーザーが記述レベル（例：全体記録、部分記録、コレクション、シリーズ、サブシリーズ、ファイル、アイテム、記録群、部分など）を指定する必要があります。この記述レベルは、アップロードの一部として生成される新しい「子レコード」に使用されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Selecting a level of description for the child descriptions"
+msgstr "子の説明のための記述レベルの選択"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:544
+msgid ""
+"For users wishing to include multiple individual images as \"views\" of a "
+"single item, AtoM now includes \"Part\" as a level of description included "
+"at installation. An :term:`administrator` can customize the levels of "
+"description available in AtoM - for more information, see:"
+msgstr ""
+"複数の個別画像を単一アイテムの「ビュー」として含めたいと望むユーザーのために、AtoMは現在、「パート」としての記述レベルをインストール時に含めています。:term:`管理者`はAtoMで利用可能な記述レベルをカスタマイズすることができます。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:549
+msgid ":ref:`terms`"
+msgstr ""
+"ご依頼のテキストは参照コードを示しているようですが、正しい翻訳を行うためには、そのコードが指している具体的な内容や文脈が必要です。ただし、もし単に参照コード自体を示すだけであれば、以下のように翻訳することができます：\n"
+"\n"
+":ref:`用語`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:551
+msgid ""
+"Add your digital objects. You can drag and drop a selection onto the pane "
+"provided (as shown in the image below), or you can click the \"browse\" link"
+" and use your computer's file explorer to find and select the digital "
+"objects you would like to load."
+msgstr ""
+"あなたのデジタルオブジェクトを追加してください。選択したオブジェクトを下の画像に示されているように提供されたペインにドラッグアンドドロップするか、または「ブラウズ」リンクをクリックして、コンピュータのファイルエクスプローラを使用して、ロードしたいデジタルオブジェクトを探して選択することができます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Dragging digital objects into AtoM's multi-uploader"
+msgstr "AtoMのマルチアップローダーへのデジタルオブジェクトのドラッグ＆ドロップ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:561
+msgid ""
+"Once selected, the page will show previews of all the objects. If you like, "
+"you can edit the title for each description that will be created, by "
+"clicking the pencil icon under to the preview. However, once we click the "
+"\"Upload\" button, a separate page dedicated to customizing the description "
+"titles will be provided (see step 9 below). Remember, the title you enter "
+"here will be the title used for the associated :term:`archival description` "
+"that will be created for each :term:`digital object` uploaded."
+msgstr ""
+"選択された後、そのページではすべてのオブジェクトのプレビューが表示されます。ご希望であれば、プレビューの下にある鉛筆のアイコンをクリックすることで、作成される各説明のタイトルを編集することができます。しかし、「アップロード」ボタンをクリックすると、説明のタイトルをカスタマイズするための専用ページが提供されます（後述のステップ9を参照）。ここで入力するタイトルは、アップロードされる各:term:`デジタルオブジェクト`に作成される関連する:term:`アーカイバル記述`に使用されるタイトルになりますので覚えておいてください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Customizing individual description titles for each object uploaded"
+msgstr "アップロードされた各オブジェクトごとに説明タイトルをカスタマイズする"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:574
+msgid ""
+"If necessary, you can click the black \"X\" icon on the top right of the "
+"thumbnail generated to remove an object from the upload. You can also add "
+"additional objects either by dragging them in, or by using the \"Add more\" "
+"link provived in the top right corner of the upload area."
+msgstr ""
+"必要に応じて、アップロード時に生成されるサムネイルの右上にある黒い「X」アイコンをクリックして、アップロードからオブジェクトを削除することができます。また、アップロードエリアの右上隅にある「さらに追加」リンクを使用するか、直接ドラッグして追加のオブジェクトを追加することもできます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:581
+#, python-format
+msgid ""
+"The ``%dd%`` incremental counter used in the default Title field will "
+"**only** ever increment up to the next number - even if you remove "
+"previously added objects!"
+msgstr ""
+"デフォルトのタイトルフィールドで使用される``%dd%``インクリメンタルカウンターは、以前に追加されたオブジェクトを削除したとしても、次の番号に**のみ**増加します！"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:585
+msgid ""
+"For example, if you added 3 images using the default title (i.e. image 01, "
+"image 02, image 03), then removed one and uploaded a different image, this "
+"new image would **not** be image 03 - it would be added as \"image 04.\""
+msgstr ""
+"たとえば、デフォルトのタイトル（例：image 01、image 02、image "
+"03）を使用して3つの画像を追加した後、1つを削除して別の画像をアップロードした場合、この新しい画像は「image "
+"03」としてアップロードされる**わけではありません** - それは「image 04」として追加されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:589
+msgid ""
+"Any discrepancies can be easily reviewed and modified on the next page of "
+"the importer, where each image will be shown next to an editable title "
+"field."
+msgstr ""
+"不一致は、インポーターの次のページで簡単にレビューおよび修正することができます。このページでは各画像が編集可能なタイトル欄の隣に表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:593
+msgid ""
+"You can quit the upload process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any digital objects already uploaded "
+"will not be saved. Note that simply navigating away from the page by any "
+"other means, **without first clicking \"Upload\"** will also result in no "
+"new digital objects being uploaded."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることでアップロードプロセスを終了させることができます。これは`:term:`button "
+"block`内にあります。既にアップロードされているデジタルオブジェクトは保存されません。ただし、他の方法でページから単にナビゲートしてしまい、「アップロード」をまずクリックしなかった場合も、新しいデジタルオブジェクトはアップロードされないことに注意してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:598
+msgid ""
+"Click the \"Upload\" button in the :term:`button block` when you are "
+"satisfied with your changes. AtoM will upload the images using the default "
+"description titles provided, but will immediately redirect you to a page "
+"where you can individually customize those default titles if desired:"
+msgstr ""
+"「変更に満足したら、:term:`button "
+"block`の中の\"Upload\"ボタンをクリックしてください。AtoMはデフォルトの記述タイトルを使用して画像をアップロードしますが、直ちに個々にそれらのデフォルトタイトルをカスタマイズできるページにリダイレクトされます。」"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Customizing the description titles of the uploaded digital objects"
+msgstr "アップロードされたデジタルオブジェクトの説明タイトルをカスタマイズする"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:608
+msgid ""
+"When you are satisfied with the associated description titles, click the "
+"\"Save\" button in the :term:`button block` at the bottom of the page. When "
+"you return to the :term:`view page`, you will see that the objects have all "
+"been attached to the :term:`archival description` as :term:`child records "
+"<child record>` of that description. If the digital object :ref:`recurring-"
+"carousel` is enabled (see :ref:`default-page-elements` for instructions on "
+"enabling or disabling the carousel), you will also see the thumbnails of "
+"your uploaded digital objects in the carousel."
+msgstr ""
+"満足できる記述タイトルが関連付けられたことを確認したら、ページの下部にある`:term:`ボタンブロック`の中の「保存」ボタンをクリックしてください。`:term:`閲覧ページ`に戻ると、すべてのオブジェクトがその記述の`:term:`子レコード<child"
+" "
+"record>`としてアーカイバル記述に添付されていることがわかります。デジタルオブジェクトの`:ref:`定期的なカルーセル`が有効にされている場合（カルーセルの有効化または無効化についての指示は`:ref:`デフォルトページ要素`を参照してください）、アップロードされたデジタルオブジェクトのサムネイルもカルーセルで確認できるようになります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of a description after uploading multiple digital objects"
+msgstr "複数のデジタルオブジェクトをアップロードした後の説明の画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:627
+msgid "Upload PDF"
+msgstr "PDFをアップロード"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:629
+msgid ""
+"A user can link a single PDF and import multiple PDFs into AtoM. A full-text"
+" search of the content of the PDF is available through the main search box. "
+"PDFs that have a text layer will work, including all OCR PDFs and born-"
+"digital PDFs that include a text layer (e.g., exported Word documents) will "
+"work. Search results will refer users to the PDF that contains the search "
+"term(s), but will not reveal the location of the term(s) within the PDF."
+msgstr ""
+"ユーザーは、単一のPDFをリンクし、複数のPDFをAtoMにインポートすることができます。PDFの内容に対する全文検索は、メインの検索ボックスを通じて利用可能です。テキストレイヤーを持つPDFは機能します。これには、OCRによってテキスト化されたPDFや、テキストレイヤーを含む生まれながらのデジタルPDF（例：エクスポートされたWordドキュメント）が含まれます。検索結果はユーザーを検索語句が含まれるPDFへと案内しますが、PDF内の語句の位置を明らかにすることはありません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:636
+msgid "Currently, AtoM 2.x truncates PDF text after the first 65,535 bytes."
+msgstr "現在、AtoM 2.x はPDFテキストを最初の65,535バイト以降で切り捨てます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:638
+msgid ""
+"As mentioned above, it is possible to upload multi-page TIFFs or PDF files "
+"to be displayed with a page viewer and to upload each page as a child object"
+" of the parent. To enable this feature, see :ref:`settings <upload-multi-"
+"files>`."
+msgstr ""
+"前述の通り、複数ページのTIFFやPDFファイルをページビューアで表示するためにアップロードし、各ページを親オブジェクトの子オブジェクトとしてアップロードすることが可能です。この機能を有効にするには、:ref:`settings"
+" <upload-multi-files>` を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:642
+msgid ""
+"Otherwise, the process for uploading PDFs is the same as described above."
+msgstr "それ以外は、PDFをアップロードするプロセスは上記で説明された通りです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:650
+msgid "Edit digital objects"
+msgstr "デジタルオブジェクトの編集"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:656
+msgid ""
+"Any :term:`digital object` that has been uploaded and linked to an "
+":term:`archival description` or :term:`authority record` can be edited at "
+"any time by an authenticated (i.e. logged-in) user. Accessing the digital "
+"object :term:`edit page` is the same for all of the following options:"
+msgstr ""
+"アップロードされ、:term:`アーカイブ概要`または:term:`権威レコード`にリンクされたあらゆる:term:`デジタルオブジェクト`は、認証された（つまりログインした）ユーザーによっていつでも編集することができます。以下のすべてのオプションについて、デジタルオブジェクトの:term:`編集ページ`へのアクセス方法は同じです："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:661
+msgid ""
+"Navigate to the :term:`view page` of an existing :term:`archival "
+"description` or :term:`authority record` that has an associated "
+":term:`digital object`."
+msgstr "既存の「アーカイブ記述」または関連付けられた「デジタルオブジェクト」を持つ「権威記録」の「閲覧ページ」に移動してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:663
+msgid ""
+"Click on the \"More\" button in the :term:`button block`; from the menu that"
+" appears, select \"Edit digital object\"."
+msgstr "「ボタンブロック」の「もっと見る」ボタンをクリックして、表示されたメニューから「デジタルオブジェクトを編集」を選択します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:665
+msgid ""
+"You will be redirected to the digital object's :term:`edit page`. On this "
+"page, all representations (i.e. :term:`master <master digital object>` "
+"representation, :term:`reference <reference display copy>` representation "
+"and :term:`thumbnail` representation) of the :term:`digital object` will be "
+"listed, along with information on their Filename, Filesize, Media Type, and "
+"other options."
+msgstr ""
+"デジタルオブジェクトの「編集ページ」にリダイレクトされます。このページには、（つまり、「マスター（マスターデジタルオブジェクト）」表現、「リファレンス（参照表示コピー）」表現、および「サムネイル」表現）の全ての表現がデジタルオブジェクトと共に、ファイル名、ファイルサイズ、メディアタイプ、その他のオプションの情報を含めてリストアップされます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:672
+msgid "From this edit page, you can perform the following actions:"
+msgstr "この編集ページから、以下のアクションを実行できます："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:674
+msgid "**Jump to**"
+msgstr "**ジャンプ先**"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:676
+msgid ":ref:`edit-do-metadata`"
+msgstr ":ref:`メタデータの編集`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:677
+msgid ":ref:`edit-do-derivs`"
+msgstr ""
+":ref:`edit-do-derivs`は、通常、ドキュメンテーション内の特定のセクションへのリンクに使用されるreStructuredText (reST) 形式のマークアップ言語における参照ラベルです。しかし、翻訳されたテキストが参照元の具体的な内容を含んでいないため、このコンテキストだけでは日本語訳を提供することはできません。この文書が何を参照しているのか、またそのセクションのタイトルや内容についての情報がないと、正確な翻訳をすることは困難です。\n"
+"\n"
+"そのため、参照しているセクションのタイトルが分かる場合、それを日本語に翻訳し、同じ参照ラベル `:ref:` を使ってリンクを作成します。例えば、もし参照しているセクションのタイトルが \"Edit and Do Derivatives\" だとすると、以下のように翻訳できます：\n"
+"\n"
+"```:ref:`編集および派生物を作成する<edit-do-derivs>` ```\n"
+"\n"
+"上記の例では、`<edit-do-derivs>`は元の参照ラベルをそのまま保持しているため、ドキュメントの他の部分でこの参照ラベルが定義されている場合に同じセクションにリンクし続けます。そして、「編集および派生物を作成する」がハイパーリンクのテキストとして表示されます。\n"
+"\n"
+"リンクのテキスト（この場合は「編集および派生物を作成する」）と参照ラベル（この場合は `<edit-do-derivs>`）は、文書の翻訳されたバージョンでも維持されるべきです。これにより、文書間のリンクが正しく機能することを確保することができるからです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:678
+msgid ":ref:`edit-do-srt-vtt`"
+msgstr ""
+"このテキストは技術的なドキュメントの参照マークです。日本語に直訳すると意味が伝わらないことがあるので、もし直訳を必要とされる場合は、その機能や目的を考慮に入れた上での翻訳が望ましいです。ただし、文脈が不足しているため、正確な翻訳が難しいです。これがドキュメントの特定のsectionへのリンクである場合は、以下のように訳すことができます：\n"
+"\n"
+"`:ref:`edit-do-srt-vtt`` というリンクは、ドキュメント内の「edit-do-srt-vtt」という名前のセクションを指しています。このリンクがどこにあるか、またそのセクションがどのような内容なのかが不明なため、これ以上の翻訳はできません。\n"
+"\n"
+"もしドキュメント内でこの指示がある場合、これを「edit-do-srt-vtt」というセクションを参照してくださいという意味で提供されているかもしれません。そのセクションは特定の操作や手順を説明している可能性があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:679
+msgid ":ref:`edit-do-save`"
+msgstr ""
+"「:ref:`edit-do-save`」は、参照リンクのマークアップ言語です。具体的なコンテキストがないため、このテキストを適切な日本語に翻訳することはできません。通常、このようなマークアップはドキュメント内で定義された特定のセクションやキーワードを指しており、ユーザーはその参照リンクをクリックすることで関連する詳細な情報や操作的な指示を見ることができます。\n"
+"\n"
+"ですので、リストしてある「:ref:`edit-do-save`」を直訳するのではなく、Archivematicaのドキュメントの中でその参照が指し示す実際のセクション名またはキーワードを日本語に翻訳するべきです。しかし、その情報が提供されていないため、文脈に基づいた適切な翻訳を提供することはできません。\n"
+"\n"
+"もし「編集して保存する」のセクションを参照しているのであれば、一例として、「編集して保存する」のセクションを日本語で「編集して保存」になるでしょう。しかし、正確な翻訳にはドキュメントの完全なコンテキストが必要です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:683
+msgid ":ref:`Upload settings <upload-settings>`"
+msgstr ":ref:`アップロード設定<upload-settings>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:684
+msgid ":ref:`Digital object derivative settings <digital-object-derivatives>`"
+msgstr ":ref:`デジタルオブジェクトの派生設定 <digital-object-derivatives>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:685
+msgid ":ref:`DIP upload settings <dip-upload-settings>`"
+msgstr ":ref:`DIPアップロード設定 <dip-upload-settings>`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:690
+msgid "Edit the digital object metadata"
+msgstr "デジタルオブジェクトのメタデータを編集する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:692
+msgid ""
+"The top part of the digital object :term:`edit page` will include basic "
+"metadata about the original digital object in the \"Master\" "
+":term:`information area`. Basic technical metadata such as Filename and "
+"Filesize are display only, and cannot be edited. However, you can change "
+"other metadata elements such as the Media type, Alt text, and "
+"latitude/longitude values associated with the digital object."
+msgstr ""
+"デジタルオブジェクトの:term:`編集ページ`の上部には、\"マスター\" "
+":term:`情報エリア`に元のデジタルオブジェクトに関する基本的なメタデータが含まれます。ファイル名やファイルサイズなどの基本的な技術メタデータは表示のみで、編集することはできません。しかし、メディアタイプ、代替テキスト、デジタルオブジェクトに関連付けられた緯度/経度の値など、他のメタデータ要素は変更が可能です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid ""
+"An image of the metadata fields shown below the master digital object\n"
+"in the digital object edit page"
+msgstr "デジタルオブジェクト編集ページにおける、マスターデジタルオブジェクトの下に表示されるメタデータフィールドの画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:705
+msgid ""
+"The Media type is used by the Media type facet in the search/browse pages - "
+"in some cases, AtoM might not properly detect the media type, and you can "
+"adjust it here for better results. Values include: Audio, Image, Video, "
+"Text, and Other. For more information on filter facets in AtoM, see: "
+":ref:`recurring-facet-filters`."
+msgstr ""
+"メディアタイプは、検索/ブラウズページにおけるメディアタイプのファセットに使用されます。場合によっては、AtoMがメディアタイプを適切に検出しないことがあり、より良い結果を得るためにここで調整することができます。値にはオーディオ、イメージ、ビデオ、テキスト、その他が含まれます。AtoMのフィルターファセットに関する詳細情報は、こちらをご参照ください："
+" :ref:`recurring-facet-filters`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:711
+msgid ""
+"In the \"Alt text\" :term:`field`, you can add alternative text to display "
+"if the image cannot be displayed in your browser. This text will also be "
+"used by accessibility supports such as screen readers."
+msgstr ""
+"「Alt "
+"text」:term:`field`には、もし画像がブラウザで表示されない場合に表示するための代替テキストを追加できます。このテキストは、スクリーンリーダーなどのアクセシビリティ支援技術によっても使用されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:715
+msgid ""
+"You can also add latitude and longitude values to the Master digital "
+"object's metadata for basic geolocation support. This can configured to "
+"display a dynamic Google map in AtoM - for more information, see below:"
+msgstr ""
+"マスターデジタルオブジェクトのメタデータに緯度経度の値を追加して、基本的な地理位置情報のサポートが可能です。これは、動的なGoogleマップをAtoMで表示させるように設定することができます。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:724
+msgid "Edit reference and thumbnail representations"
+msgstr "参照用とサムネイル用の表現を編集する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:726
+msgid ""
+"Below the Master :term:`information area` on the digital object :term:`edit "
+"page`, you will also find sections for the various derivatives created upon "
+"upload - the :term:`reference display copy` and the :term:`thumbnail`. While"
+" these derivatives are typically automatically created by AtoM during "
+"digital object upload, you can delete them, and either re-generate them or "
+"upload your own versions. Since thumbnails are used in search and browse "
+"results and the reference copy is displayed on the related :term:`archival "
+"description` view page, this can be a useful way to customize the display of"
+" your digital objects."
+msgstr ""
+"デジタルオブジェクトの編集ページにおけるマスター情報エリアの下には、アップロード時に作成される様々な派生物のセクションがあります。これには参照用表示コピーとサムネイルが含まれます。これらの派生物は通常、デジタルオブジェクトのアップロード中にAtoMによって自動的に作成されますが、削除したり、再生成したり、または独自のバージョンをアップロードすることができます。サムネイルは検索結果やブラウズ結果に使用され、参照用のコピーは関連するアーカイブ記述のビューページに表示されるため、デジタルオブジェクトの表示をカスタマイズする便利な方法となることがあります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid ""
+"The Reference and Thumbnail representation areas in the Digital object\n"
+"edit page"
+msgstr "デジタルオブジェクト編集ページにおける「リファレンスおよびサムネイル表現エリア」"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:742
+msgid ""
+"If you wish to use a different image as the :term:`thumbnail` or "
+":term:`reference <reference display copy>`, first click the \"Delete\" link "
+"in the relevant :term:`area <information area>`."
+msgstr ""
+"異なる画像を:term:`サムネイル`や:term:`レファレンス <reference display "
+"copy>`として使用する場合は、まず関連する:term:`エリア <information area>`内の「削除」リンクをクリックしてください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:746
+msgid ""
+"AtoM will ask you to confirm that you would like to delete the derivative. "
+"After confirming, the Edit digital object screen will then give you the "
+"option to upload a new derivative by clicking Browse and selecting a file "
+"from your local computer, or else auto-generate a new representation from "
+"the master image."
+msgstr ""
+"AtoMは、派生物を削除してもよいかどうかの確認を求めます。確認後、「デジタルオブジェクトを編集」画面では、「参照」をクリックしてローカルコンピュータからファイルを選択するか、またはマスターイメージから新しい表現を自動生成するオプションが表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Upload or create a new thumbnail or reference image."
+msgstr "新しいサムネイルや参照画像をアップロードまたは作成する。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:758
+msgid ""
+"Somewhat confusingly, the digital object :term:`edit page` will use the "
+"thumbnail to provide a preview of both the :term:`thumbnail` and "
+":term:`reference <reference display copy>` derivatives, and the reference "
+"copy to provide a preview of the :term:`master digital object`."
+msgstr ""
+"ややこしいかもしれませんが、デジタルオブジェクトの「編集ページ」では、サムネイルを使用して、サムネイル自体と「参照表示用コピー」のプレビューの両方を提供し、参照コピーを使用して「マスターデジタルオブジェクト」のプレビューを提供します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:763
+msgid ""
+"Because of this, don't be alarmed if, for example, you are trying to replace"
+" the thumbnail and after confirming the deletion of the current version, you"
+" see the preview of the reference copy missing! The original reference copy "
+"will remain unchanged until you edit it, even if the preview shown in this "
+"page is no longer correct once your derivatives have been customized."
+msgstr ""
+"このため、例えばサムネイルを入れ替えようとしていて、現行版の削除を確認した後で、参照コピーのプレビューが表示されなくなっても驚かないでください！編集するまでオリジナルの参照コピーは変更されませんが、このページに表示されるプレビューは、派生物をカスタマイズした後はもはや正確ではないかもしれません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:772
+msgid "Add subtitle, caption, and/or chapter files to audio and video"
+msgstr "オーディオとビデオに字幕、キャプション、および/またはチャプターファイルを追加する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:778
+msgid ""
+"AtoM also supports the ability to upload `WebVTT`_ (``.vtt``) or `SubRip "
+"Text`_ (``.srt``) files to audio and video :term:`digital objects <digital "
+"object>` as a means of adding chapter markers, captions, or subtitles to "
+"your content. Captions and subtitles can also be added in multiple "
+"languages."
+msgstr ""
+"AtoMは、チャプターマーカー、字幕、またはサブタイトルをコンテンツに追加する手段として、音声および映像の:term:`デジタルオブジェクト<digital"
+" object>`に`WebVTT`_ (``.vtt``) もしくは `SubRipテキスト`_ (``.srt``) "
+"ファイルをアップロードする機能もサポートしています。字幕は複数言語で追加することも可能です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid ""
+"The Chapters and Caption/Subtitles upload options in the digital object\n"
+"edit page"
+msgstr "デジタルオブジェクト編集ページにおけるチャプターとキャプション/字幕のアップロードオプション"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:789
+msgid ""
+"Files used should be in ``.vtt`` or ``.srt`` format, and should use `UTF-8`_"
+" character encoding."
+msgstr ""
+"使用するファイルは、``.vtt`` または ``.srt`` 形式であり、`UTF-8`_ 文字エンコーディングを使用する必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:792
+msgid ""
+"Click the \"Choose file\" button to open a local file explorer, and select "
+"the file you wish to upload from your device. If you're adding Caption or "
+"Subtitle files, be sure to select the correct language from the Language "
+":term:`drop-down menu` before uploading."
+msgstr ""
+"「Choose "
+"file」ボタンをクリックしてローズのファイルエクスプローラを開き、デバイスからアップロードするファイルを選択してください。キャプションや字幕ファイルを追加する場合は、アップロード前に言語"
+" :term:`ドロップダウンメニュー` から正しい言語を選択することを確認してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:799
+msgid ""
+"Currently, the largest file size supported for these file uploads is 64 MiB."
+msgstr "現在、これらのファイルアップロードでサポートされている最大ファイルサイズは64 MiBです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:801
+msgid ""
+"Once you have :ref:`saved your changes <edit-do-save>`, you will be re-"
+"directed to the view page of the related :term:`archival description` or "
+":term:`authority record`."
+msgstr ""
+"変更を :ref:`保存する<edit-do-"
+"save>`と、関連する:term:`アーカイバルディスクリプション`または:term:`権限レコード`の表示ページにリダイレクトされます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:805
+msgid ""
+"When captions or subtitles are correctly added, they will appear under the "
+"\"CC\" icon on the media player:"
+msgstr "字幕や字幕が正しく追加されると、メディアプレーヤーの「CC」アイコンの下に表示されます："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of the media player showing the captions menu"
+msgstr "メディアプレーヤーのキャプションメニューを表示する画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:813
+msgid ""
+"When chapters are correctly added, they will appear under the menu icon on "
+"the media player:"
+msgstr "チャプターが正しく追加されると、メディアプレーヤーのメニューアイコンの下に表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of the media player showing the chapter menu"
+msgstr "メディアプレーヤーのチャプターメニューを表示する画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:821
+msgid ""
+"You can re-enter :term:`edit mode` to make further changes as needed, or to "
+"add additional subtitles or captions in other languages. Basic metadata "
+"about the files will be shown, including the file name and size, as well as "
+"an option to delete the current uploads. Note that you can only have one "
+"chapter file per digital object, but multiple subtitle or caption files for "
+"multilingual support:"
+msgstr ""
+"必要に応じてさらに変更を加えるため、または他の言語で追加の字幕やキャプションを追加するために、:term:`編集モード`に再入力することができます。ファイルに関する基本的なメタデータ、ファイル名やサイズ、現在のアップロードを削除するオプションが表示されます。デジタルオブジェクトごとにチャプターファイルを1つだけ持つことができますが、多言語サポートのために複数の字幕やキャプションファイルを持つことができることに注意してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid ""
+"The Chapters and Caption/Subtitles upload options in the digital object\n"
+"edit page, when files have previously been uploaded"
+msgstr "デジタルオブジェクト編集ページにおける、以前にファイルがアップロードされた際の章(チャプター)とキャプション/字幕アップロードオプション"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:837
+msgid "Save your changes"
+msgstr "あなたの変更を保存してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:839
+msgid ""
+"You can quit the edit process at any time by clicking the \"Cancel\" button "
+"in the :term:`button block`; any edits made to digital objects will not be "
+"saved. Note that simply navigating away from the page by any other means, "
+"**without first clicking \"Save\"** will also result in no new digital "
+"objects being uploaded."
+msgstr ""
+"デジタルオブジェクトの編集プロセスは、`:term:`ボタンブロック`にある「キャンセル」ボタンをクリックすることでいつでも終了できます。編集途中のデジタルオブジェクトへの変更は保存されません。ただし、「保存」をクリックせずに他の手段でページから移動した場合にも、新しいデジタルオブジェクトはアップロードされないことに注意してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:845
+msgid ""
+"Once all your changes have been made, click the \"Save\" button in the "
+":term:`button block`. You will be redirected back to the related record's "
+":term:`view page`."
+msgstr ""
+"全ての変更が完了したら、`:term:`button "
+"block`にある「Save」ボタンをクリックしてください。関連するレコードの`:term:`view page`にリダイレクトされます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:849
+msgid ""
+"All changes made can be edited once again, at any time, by following the "
+"steps outlined above."
+msgstr "変更された内容は、上記の手順に従って、いつでも再度編集することができます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:857
+msgid "Add dynamic maps to your digital object metadata"
+msgstr "デジタルオブジェクトのメタデータに動的マップを追加する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:859
+msgid ""
+"To support basic geolocation, AtoM has the ability to associate latitude and"
+" longitude coordinates with a digital object. If desired, you can also "
+"display a dynamic Google map in the digital object metadata :term:`area "
+"<information area>` showing the location of the coordinates. To do so, an "
+":term:`administrator` will first need to configure certain settings so the "
+"map can be visible."
+msgstr ""
+"基本的な位置情報機能をサポートするために、AtoMはデジタル・オブジェクトに緯度と経度の座標を関連付ける能力を持っています。希望する場合、デジタルオブジェクトのメタデータの「情報エリア」にある座標の位置を示す動的なGoogleマップを表示することもできます。これを行うためには、管理者がまず特定の設定を構成して、マップが表示されるようにする必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "The map displayed in the digital object metadata area"
+msgstr "デジタルオブジェクトのメタデータエリアに表示されるマップ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:871
+msgid "**Enabling the display of digital object maps**"
+msgstr "**デジタルオブジェクトマップの表示を有効にする**"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:873
+msgid ""
+"Two separate settings must be changed to enable the display of the digital "
+"object maps in AtoM. First, in **Admin > Settings > Global**, an API key "
+"must be added to the :ref:`maps-api-key`."
+msgstr ""
+"AtoMでデジタルオブジェクトマップの表示を有効にするためには、2つの別々の設定を変更する必要があります。まず、**管理 > 設定 > グローバル** "
+"で、`:ref:`maps-api-key`にAPIキーを追加する必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:877
+msgid ""
+"You can request a Google Maps API key free of charge - all you need is a "
+"Google account. For more information, see:"
+msgstr ""
+"あなたはGoogleアカウントさえあれば、無料でGoogle Maps "
+"APIキーをリクエストすることができます。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:880
+msgid ""
+"https://developers.google.com/maps/documentation/javascript/get-api-key"
+msgstr ""
+"デジタルデータの長期保存に関する専門家として提供を求められているテキストは、実際にはGoogle Maps JavaScript APIを利用するためのAPIキーを取得するプロセスの説明であるウェブページのURLです。ただし、このURL自体には具体的な内容が含まれていないため、以下の翻訳はこのURLに基づいて推測される内容となります。\n"
+"\n"
+"「Google Maps JavaScript APIキー取得方法」\n"
+"\n"
+"ただし、もし実際のページの内容を翻訳して欲しい場合は、内容を提供していただければ日本語への翻訳を行います。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:882
+msgid ""
+"Additionally, in **Admin > Settings > Default page elements**, the \"Digital"
+" obect map\" setting checkbox must be checked. Remember to save your changes"
+" in the Settings area!"
+msgstr ""
+"さらに、**管理 > 設定 > "
+"デフォルトページ要素**で、「デジタルオブジェクトマップ」設定のチェックボックスを選択する必要があります。設定エリアで変更を保存することを忘れないでください！"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "The Digital object map checkbox in Default page elements"
+msgstr "「デフォルトページ要素」における「デジタルオブジェクトマップ」チェックボックス"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:891
+msgid "For more information, see:"
+msgstr "詳細については、以下をご覧ください："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:893
+msgid ":ref:`maps-api-key`"
+msgstr ""
+"`:ref:`maps-api-key`` のようなマークアップは、文脈がなくてそのままでは適切な日本語に翻訳することが難しいです。マークアップは、通常ドキュメント内の参照を指しており、この場合は \"Maps API Key\" というセクションまたはトピックを指していると推測されます。もし単にこの参照タグ（ないしはラベル）を翻訳したいのであれば、以下のような訳になります。\n"
+"\n"
+"`:ref:`マップAPIキー``\n"
+"\n"
+"ただし、実際のドキュメントでは、そのタグがリンクされている実際のセクションのタイトルに基づいて翻訳する必要があるため、この翻訳が適切かどうかは文脈に依存します。もし \"Maps API Key\" というセクションが存在するならば、そのセクションのタイトルを適切に翻訳し、参照タグもそれに合わせるべきです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:894
+msgid ":ref:`default-page-elements`"
+msgstr ""
+"このテキストはreStructuredText（reST）形式のラベルを示している可能性があります。このラベルは、スタンドアロンの文章としては正しく翻訳することができません。ただし、ドキュメント内の特定のセクションや見出しを参照するために使用される場合があります。もしこのテキストがそのような参照の一部である場合には、「デフォルトページ要素」という意味になります。ただし、そのままの形で使用したい場合には、以下のように日本語に翻訳することができます：\n"
+"\n"
+"``:ref:`デフォルトページ要素` ``\n"
+"\n"
+"上記の翻訳はreStructuredTextでの参照において日本語のラベル名を使用する場合を想定しています。オリジナルのドキュメントや目的に応じて翻訳が変わる場合がありますので、その点に注意してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:896
+msgid "**Adding latitude and longitude values to a digital object**"
+msgstr "デジタルオブジェクトに緯度と経度の値を追加する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:898
+msgid ""
+"Once the above settings are configured, then any time a digital object has "
+"latitude and longitude values added to it, it will display a dynamic, "
+"zoomable map in the Digital object metadata area. To add your latitude and "
+"longitude values to an existing digital object (Examples show this process "
+"for :term:`archival description` - the instructions are the same for "
+":term:`authority record`):"
+msgstr ""
+"上記の設定が構成されると、デジタルオブジェクトに緯度と経度の値が追加されるたびに、デジタルオブジェクトのメタデータエリアに動的なズーム可能な地図を表示します。既存のデジタルオブジェクトにあなたの緯度と経度の値を追加するために（例ではこのプロセスを:term:`アーカイブ記述`に示しています"
+" - :term:`権威記録`のための指示も同じです）："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:905
+msgid ""
+"Navigate to the :term:`archival description` or :term:`authority record` "
+"linked to the :term:`digital object` you want to edit. You can do this by "
+":ref:`searching <search-atom>` or :ref:`browsing <browse>` - for more "
+"information on navigation in AtoM, see: :ref:`access-content`."
+msgstr ""
+"対象の:term:`デジタルオブジェクト`にリンクされている:term:`アーカイブ記述`または:term:`権威記録`に移動します。これは、:ref:`検索"
+" <search-atom>`または:ref:`閲覧 <browse>`を通じて行うことができます - "
+"AtoMでのナビゲーションについての詳細は、:ref:`アクセスコンテンツ <access-content>`を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "The view page of an archival description with a digital object"
+msgstr "アーカイバルディスクリプションの閲覧ページで、デジタルオブジェクトが含まれています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:915
+msgid ""
+"When you are on the :term:`view page` of the related description, scroll "
+"down the :term:`button block` at the bottom of the page, and in the \"More\""
+" menu, select \"Edit digital object\""
+msgstr ""
+"関連する説明の:term:`view page`にいるときは、ページの一番下にある:term:`button "
+"block`までスクロールダウンし、\"More\"メニューの中から\"Edit digital object\"を選択します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid ""
+"The Edit digital object option in the More menu at the bottom of the\n"
+"page"
+msgstr "ページの下部にある「More」メニュー内の「Edit digital object」オプション"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:925
+msgid ""
+"AtoM will redirect you to the :term:`edit page` for the digital object. In "
+"the :term:`information area` for the :term:`master digital object`, add your"
+" latitude and longitude values to the fields provided."
+msgstr ""
+"AtoMはあなたをデジタルオブジェクトの「編集ページ」にリダイレクトします。デジタルオブジェクトの「情報エリア」で、「マスターデジタルオブジェクト」に対して、提供されたフィールドにあなたの緯度と経度の値を追加してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Adding latitute and longitude values to a digital object"
+msgstr "デジタルオブジェクトに緯度と経度の値を追加する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:936
+msgid ""
+"For **all** latitude and longitude :term:`fields <field>` in AtoM, you need "
+"to use the Signed degrees format (e.g. DDD.dddd) for the data to work! "
+"Degree and cardinal based formats (e.g. DDD MM SS + compass direction) "
+"**will not work** and the map will not be generated properly."
+msgstr ""
+"AtoMにおける**全て**の緯度と経度:term:`フィールド "
+"<field>`は、データが機能するために符号付き度数形式（例：DDD.dddd）を使用する必要があります！度数および基点ベースの形式（例：DDD MM"
+" SS + 方位）は**機能しません**し、地図は正しく生成されません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:941
+msgid ""
+"When only one field is provided, latitude values should be entered first, "
+"followed by a comma before the longitude values."
+msgstr "フィールドが一つだけ提供される場合、緯度の値を最初に入力し、その後に経度の値の前にコンマを入れるべきです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:944
+msgid ""
+"Here is an example of the latitude and longitude for Vancouver, BC, Canada:"
+msgstr "バンクーバー、BC、カナダの緯度と経度の例は次のとおりです："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:946
+msgid "**Correct format:** (signed degrees)"
+msgstr "**正しいフォーマット:** （署名付き度数）"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:948
+msgid "49.246292, -123.116226"
+msgstr ""
+"すみませんが、提供されたテキスト「49.246292, "
+"-123.116226」は、北緯49.246292度、西経123.116226度を示す地理座標です。これは翻訳の必要があるテキストではなく、カナダのバンクーバー付近を指し示す緯度と経度の数値です。デジタルデータの長期保存についての内容か、Archivematicaに関する説明が欲しい場合は、具体的な詳細や文脈を提供ください。それに基づいて翻訳を行います。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:950
+msgid "**Will not work in AtoM:** (DMS cardinal)"
+msgstr "**AtoMでは動作しません:** (DMS cardinal)"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:952
+msgid "49° 14' 46.6512\" N, 123° 6' 58.4136\" W"
+msgstr "49度14分46.6512秒北緯、123度6分58.4136秒西経"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:954
+msgid ""
+"When you save the record, AtoM will return you to the archival description's"
+" :term:`view page`. In the Digital object metadata area, you should now see "
+"a Google map showing your coordinates with a pin. You can zoom, pan, change "
+"the map type, and clik to view a full Google map in a new tab."
+msgstr ""
+"レコードを保存すると、AtoMはあなたをアーカイブ記述の「ビューページ」に戻します。デジタルオブジェクトのメタデータエリアでは、ピンが打たれた座標を示すGoogleマップを見ることができるはずです。ズームしたり、地図を移動させたり、地図の種類を変更したり、新しいタブで完全なGoogleマップを表示するためにクリックすることが可能です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:967
+msgid ""
+"Not sure how to find out the coordinates of a location? You can use Google "
+"maps!"
+msgstr "場所の座標を調べる方法がわからないですか？Googleマップを使ってみてください！"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:970
+msgid ""
+"Find your location on a map - zoom in to make it as precise as possible. If "
+"you right-click and select the \"What's here?\" option that will appear in "
+"the context menu that appears, Google Maps will display the latitude and "
+"longitude values, along with any addtional information it has:"
+msgstr ""
+"地図上であなたの場所を見つけてください。できるだけ正確になるようにズームインします。右クリックして、表示されるコンテキストメニューから「ここはどこですか？」を選択すると、緯度と経度の値が表示されますし、Googleマップが持っている追加情報も表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "Finding lat and long values with Google Maps"
+msgstr "Googleマップを使用して緯度と経度の値を見つける方法"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:980
+msgid ""
+"You can then use this information in AtoM following the steps described "
+"above!"
+msgstr "次に、上記で説明した手順に従って、この情報をAtoMで使用することができます！"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:988
+msgid ""
+"Edit the filename of a digital object linked to an archival description"
+msgstr "アーカイバル記述にリンクされたデジタルオブジェクトのファイル名を編集する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:990
+msgid ""
+"For locally uploaded digital objects, you can edit the file name of the "
+"digital object after it has already been uploaded, using the \"Rename\" "
+"module.  Once edited, AtoM will automatically update all related file paths "
+"to ensure that the link between the digital object and the associated "
+":term:`archival description` is maintained."
+msgstr ""
+"ローカルにアップロードされたデジタルオブジェクトの場合、「リネーム」モジュールを使用して、既にアップロードされた後でもデジタルオブジェクトのファイル名を編集できます。編集されると、AtoMは自動的にすべての関連ファイルパスを更新し、デジタルオブジェクトと関連する:term:`アーカイブ記述`とのリンクが保持されるようにします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:996
+msgid ""
+"Note: this is not available for :term:`digital objects <digital object>` "
+"linked to :term:`authority records <authority record>`."
+msgstr ""
+"注意: これは、:term:`権威レコード <authority record>`にリンクされた:term:`デジタルオブジェクト <digital "
+"object>`には利用できません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1001
+msgid ""
+"This feature is best used for **locally** uploaded digital objects, **not** "
+"digital objects linked via URL to an external location, such as the web."
+msgstr ""
+"この機能は、ウェブなどの外部ロケーションにURL経由でリンクされたデジタルオブジェクトでは**なく**、**ローカル**にアップロードされたデジタルオブジェクトに最適に使用されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1004
+msgid ""
+"Technically the feature will work with external links, but all you are "
+"renaming in AtoM is the filename stored in the database associated with the "
+":term:`master digital object`, and the filenames of any locally generated "
+"derivatives such as the :term:`reference display copy` and the "
+":term:`thumbnail`. When linking a digital object in AtoM via URL, the master"
+" is not stored in AtoM, but local derivatives are created for use in "
+"search/browse results and the :term:`view page` of the linked description. "
+"For more on linking digital objects in AtoM, see above: :ref:`link-digital-"
+"object`. If you do edit the filename of an external linked digital object, "
+"AtoM will store the filename locally, and use it to update the filenames of "
+"the derivatives - but the external object will not be affected, and the link"
+" displayed in the digital object metadata area will be unchanged."
+msgstr ""
+"技術的には、この機能は外部リンクで動作しますが、AtoMで名前を変更しているのはデータベースに保存されている`:term:`master digital"
+" object`（マスターデジタルオブジェクト）`に関連付けられたファイル名と、`:term:`reference display "
+"copy`（参照用表示コピー）`や`:term:`thumbnail`（サムネイル）`など、ローカルで生成された派生ファイルのファイル名のみです。AtoMでURL経由でデジタルオブジェクトをリンクする場合、マスターはAtoMに保存されませんが、検索/ブラウズ結果やリンクされた説明の`:term:`view"
+" "
+"page`（閲覧ページ）`で使用するためのローカル派生物は作成されます。AtoMでデジタルオブジェクトをリンクする方法の詳細については、上記の`:ref:`link-"
+"digital-"
+"object`（デジタルオブジェクトのリンク）`を参照してください。外部にリンクされたデジタルオブジェクトのファイル名を編集する場合、AtoMはファイル名をローカルに保存し、派生ファイルのファイル名を更新するために使用しますが、外部オブジェクトには影響せず、デジタルオブジェクトのメタデータエリアに表示されるリンクは変更されません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1018
+msgid ""
+"The Rename module used to edit the linked digital object filename can also "
+"be used to edit the title of the associated :term:`archival description`, "
+"and its :term:`slug` - detailed instructions on how to use it for these "
+"other purposes are included on the :ref:`archival-descriptions` "
+"documentation page - see: :ref:`rename-title-slug`."
+msgstr ""
+"リンクされたデジタルオブジェクトのファイル名を編集するために使用されるRenameモジュールは、関連する:term:`アーカイブ記述`のタイトルやその:term:`スラッグ`を編集するためにも使用できます。これらの他の目的での使用方法の詳細な説明は、:ref:`アーカイブ記述`のドキュメントページに記載されています。詳細は、:ref:`rename-"
+"title-slug`を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1024
+msgid "**To change the filename of a linked digital object:**"
+msgstr "関連するデジタルオブジェクトのファイル名を変更するには："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1026
+msgid ""
+"Navigate to the :term:`view page` of an existing :term:`archival "
+"description` with a linked digital object in AtoM. You can do this by "
+":ref:`browsing <browse>` or by :ref:`searching <search-atom>` for a specific"
+"  archival description - see :ref:`access-content` for more information on "
+"navigation in AtoM."
+msgstr ""
+"AtoMでリンクされたデジタルオブジェクトを持つ既存のアーカイバル記述の「閲覧ページ」に移動します。これは、特定のアーカイバル記述を「ブラウズ<ブラウズ>」もしくは「検索<search-"
+"atom>」することで行うことができます。AtoM内でのナビゲーションについての詳細は「アクセスコンテンツ」を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1031
+msgid ""
+"Scroll down to the :term:`button block` at the bottom of the page, and click"
+" on the \"More\" button - a menu will open with further options. Click on "
+"\"Rename\" to open the Rename module."
+msgstr ""
+"ページの下部にある:term:`button "
+"block`までスクロールダウンし、「More」ボタンをクリックすると、さらにオプションを選べるメニューが開きます。「Rename」をクリックして、リネームモジュールを開きます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of the More button menu opened on an archival description"
+msgstr "アーカイブ記述にて開かれた「More」ボタンメニューの画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1040
+msgid ""
+"AtoM will redirect you to the Rename module page. You will see 3 "
+":term:`fields <field>` - one for the title of the description, one for the "
+"slug; the third field is for the filename of the digital object linked to "
+"the description."
+msgstr ""
+"AtoMはあなたを「名前変更モジュール」ページにリダイレクトします。そこでは3つの:term:`フィールド "
+"<field>`があります。一つは説明のタイトル用、もう一つはスラッグ用；3つ目のフィールドは説明にリンクされたデジタルオブジェクトのファイル名用です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of the Rename module's available fields"
+msgstr "「リネーム・モジュールの利用可能なフィールドのイメージ」"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1052
+msgid ""
+"For more information on editing the :term:`slug` and/or title of a "
+"description with the rename module, see: :ref:`rename-title-slug`."
+msgstr ""
+"詳細情報については、リネームモジュールを使用して説明の:term:`slug`および/またはタイトルを編集する方法については、こちらを参照してください：:ref:`rename-"
+"title-slug`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1055
+msgid ""
+"To the right of the edit fields, there is a checkbox corresponding to each "
+"field. By default, the title and slug checkboxes will be checked, and the "
+"filename field will be unchecked. The checkbox associated with a field must "
+"be checked to enable editing. You can uncheck these fields at any time to "
+"disable them - doing so will undo any changes made and prevent the field "
+"from updating when the \"Update\" button is clicked. To edit the filename of"
+" the linked :term:`digital object`, check the \"Update filename\" box. You "
+"also might wish to uncheck the Title and Slug boxes, to prevent any "
+"accidental edits."
+msgstr ""
+"編集フィールドの右側には、各フィールドに対応するチェックボックスがあります。デフォルトでは、タイトルとスラッグのチェックボックスが選択され、ファイル名のフィールドは選択されていません。フィールドを編集可能にするには、フィールドに関連付けられたチェックボックスを選択する必要があります。これらのフィールドをいつでも選択解除して無効にすることができます。そうすると、加えられた変更が取り消され、「更新」ボタンをクリックした際にフィールドが更新されなくなります。「更新ファイル名」ボックスをチェックすると、リンクされた:term:`デジタルオブジェクト`のファイル名を編集できます。また、偶発的な編集を防ぐために、タイトルとスラッグのボックスの選択を解除することもできます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1065
+msgid ""
+"Place your cursor in the filename :term:`field` and make changes as "
+"necessary. For reference, the original value before  your changes is "
+"displayed below the field."
+msgstr ""
+"カーソルをファイル名の :term:`フィールド` に置き、必要に応じて変更します。参考までに、変更前の元の値はフィールドの下に表示されます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of the filename being edited in the Rename module"
+msgstr "ファイル名がリネームモジュールで編集されている様子の画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1076
+msgid "AtoM will automatically sanitize a filename you submit, including:"
+msgstr "AtoMは、提出されたファイル名を自動的にクリーンアップします。それには以下が含まれます："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1078
+msgid "Replacing spaces with hyphens"
+msgstr "スペースをハイフンに置き換える"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1079
+msgid "Stripping uppercase characters to lower"
+msgstr "大文字を小文字に変換する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1080
+msgid "Removing special characters (e.g. ! @ # $ % ^ & etc)"
+msgstr "特殊文字の削除 (例: ! @ # $ % ^ & など)"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1081
+msgid "Removing stopwords (e.g. a, an, the, etc)"
+msgstr "ストップワード（例：a、an、the など）の削除"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1083
+msgid ""
+"This is similar to how a :term:`slug` is sanitized - for more information, "
+"see: :ref:`slugs-in-atom`."
+msgstr ""
+"これは、:term:`スラグ`がクリーニングされる方法に似ています - 詳細については、以下を参照してください：:ref:`atom内のスラグ`。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1086
+msgid ""
+"**However**, unlike when editing a slug (see :ref:`rename-title-slug`), AtoM"
+" will **not** give you any warning or notification when making these changes"
+" after you submit the new filename. You will have to look at the digital "
+"object metadata area to review the sanitized filename, and repeat the above "
+"steps if needed."
+msgstr ""
+"**ただし**、スラッグを編集する際とは異なり（:ref:`rename-title-"
+"slug`を参照）、AtoMは新しいファイル名を提出した後にこれらの変更を加えた際には何の警告も通知も**しません**。サニタイズされたファイル名を確認するためには、デジタルオブジェクトのメタデータ領域を見て、必要に応じて上述の手順を繰り返す必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1092
+msgid ""
+"We recommend using lowercase alphanumeric characters with no spaces or "
+"stopwords when choosing your new filename."
+msgstr "新しいファイル名を選ぶときは、スペースやストップワードを含まない小文字の英数字を使用することをお勧めします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1095
+msgid ""
+"If you do **not** wish to save your changes, you can click the \"Cancel\" "
+"button in the :term:`button block` at the bottom of the Rename module page. "
+"Note that navigating away from the Rename page will also result in no "
+"changes being saved."
+msgstr ""
+"変更を保存したく**ない**場合は、Renameモジュールページの下部にある`:term:`ボタンブロック``で「キャンセル」ボタンをクリックすることができます。Renameページから移動すると、変更が保存されないことにも注意してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1100
+msgid ""
+"When you are finished making your edits, save your changes by clicking the "
+"\"Update\" button located in the :term:`button block` at the bottom of the "
+"Rename module page. AtoM will redirect you to the :term:`view page` for the "
+"related :term:`archival description`. A notification banner at the top of "
+"the page will let you know that the description has been updated."
+msgstr ""
+"編集が完了したら、「リネームモジュール」ページ下部の「ボタンブロック」にある「更新」ボタンをクリックして変更を保存します。AtoMはあなたを関連する「アーカイバルディスクリプション」の「表示ページ」にリダイレクトします。ページの上部にある通知バナーが、説明が更新されたことをお知らせします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid "An image of the notification banner after a successful rename"
+msgstr "成功した名前変更後の通知バナーの画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1111
+msgid ""
+"You can see the updated filename in the Digital object metadata :term:`area "
+"<information area>` at the bottom  of the record. If you are unhappy with "
+"the results, you can repeat steps 1-7 as necessary."
+msgstr ""
+"レコードの一番下にあるデジタルオブジェクトメタデータ:term:`領域<情報領域>`で更新されたファイル名を確認できます。結果に満足できない場合は、必要に応じて手順1-7を繰り返してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:-1
+msgid ""
+"An image of the digital object metadata area on an archival description"
+msgstr "デジタルオブジェクトのメタデータ領域の画像に関するアーカイブ記述"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1125
+msgid "Delete digital objects"
+msgstr "デジタルオブジェクトの削除"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1127
+msgid ""
+"To delete a :term:`digital object` that has been uploaded and linked to an "
+":term:`archival description` or :term:`authority record`:"
+msgstr ""
+"アップロードされ、:term:`archival description`または:term:`authority "
+"record`とリンクされた:term:`digital object`を削除するには："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1130
+msgid ""
+"Navigate to the :term:`view page` of an existing :term:`archival "
+"description` or :term:`authority record` that has an existing :term:`digital"
+" object`."
+msgstr ""
+"既存の:term:`アーカイバル・ディスクリプション`または既存の:term:`デジタル・オブジェクト`を持つ:term:`権威記録`の:term:`ビューページ`に移動します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1132
+msgid ""
+"Click on the \"More\" button in the :term:`button block`; from the menu that"
+" appears, select \"Edit digital object\". You will be redirected to the "
+"digital object's :term:`edit page`."
+msgstr ""
+"「ボタンブロック」にある「More」ボタンをクリックしてください。表示されるメニューから「デジタルオブジェクトを編集」を選択します。すると、デジタルオブジェクトの「編集ページ」にリダイレクトされます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1135
+msgid ""
+"Scroll to the bottom of the page and click \"Delete\". You will be prompted "
+"to confirm that you wish to \"Delete\" the digital object; click \"Delete\" "
+"once again. You will be redirected to the archival description's :term:`view"
+" page`."
+msgstr ""
+"ページの下部までスクロールし、「削除」をクリックします。デジタルオブジェクトを「削除」してよいか確認するメッセージが表示されるので、再度「削除」をクリックします。すると、アーカイブ記述の`ビューページ`にリダイレクトされます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1145
+msgid "Adding a watermark to reference images"
+msgstr "参照画像にウォーターマークを追加する"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1147
+msgid ""
+"A system administator can place a watermark file in AtoM's root directory, "
+"so a digital watermark is overlayed over all :term:`reference display copy` "
+"images generated when a digital object is uploaded."
+msgstr ""
+"システム管理者は、デジタルオブジェクトがアップロードされたときに生成されるすべての「リファレンス表示コピー」画像の上にデジタルウォーターマークが重ねられるように、AtoMのルートディレクトリにウォーターマークファイルを配置することができます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1151
+msgid "For more information, see the Administrator's manual:"
+msgstr "詳細については、管理者マニュアルを参照してください："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1153
+msgid ":ref:`customization-watermarking`"
+msgstr ":ref:`カスタマイズ-透かし入れ`"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1160
+msgid "Digital object storage"
+msgstr "デジタルオブジェクトストレージ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1162
+msgid ""
+"In AtoM, administrators can track digital object storage per "
+":term:`repository`. Storage limits may be placed on individual repositories "
+"by in-house server capacity or on hosted server agreements."
+msgstr ""
+"AtoMでは、管理者が各:term:`リポジトリ`におけるデジタルオブジェクトの保存を追跡できます。個々のリポジトリに対して、社内サーバーの容量やホストされたサーバー契約に基づいたストレージの制限が設けられる場合があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1166
+msgid ""
+"If you are utilizing a multi-institutional / portal instance of AtoM, you "
+"will need to check with the site administrator to learn the digital object "
+"storage limitations."
+msgstr ""
+"複数の機関/ポータルインスタンスのAtoMを使用している場合、デジタルオブジェクトの保存制限については、サイト管理者に確認する必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1170
+msgid ""
+"For more information, see :ref:`Managing digital object storage <manage-"
+"digital-object-storage>`."
+msgstr "詳細については、「デジタルオブジェクトの保存を管理する<manage-digital-object-storage>」を参照してください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1176
+msgid "Files formats"
+msgstr "ファイル形式"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1178
+msgid ""
+"A number of file formats are supported as digital objects in AtoM. Files in "
+"other formats can still be uploaded to AtoM; they just cannot be directly "
+"accessed or streamed within AtoM itself. In these cases the user must "
+"download the file from AtoM to his or her desktop and (assuming the user has"
+" the requisite software) access the content there."
+msgstr ""
+"AtoMでは、多数のファイル形式がデジタルオブジェクトとしてサポートされています。他の形式のファイルもAtoMにアップロードすることは可能ですが、AtoM内で直接アクセスしたりストリーミングしたりすることはできません。このような場合、ユーザーはAtoMからファイルをダウンロードして自分のデスクトップに保存し、（必要なソフトウェアを持っていれば）そこでコンテンツにアクセスする必要があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1184
+msgid ""
+"The table below shows image, audio and video formats which can be viewed in "
+"AtoM:"
+msgstr "以下の表は、AtoMで表示可能な画像、オーディオ、ビデオのフォーマットを示しています："
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1188
+msgid "Image"
+msgstr "画像"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1188
+msgid "Audio"
+msgstr "オーディオ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1188
+msgid "Video"
+msgstr "ビデオ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1190
+msgid "PDF"
+msgstr "PDF (Portable Document Format)"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1190
+msgid "8SVX"
+msgstr ""
+"8SVX is not a text that needs translation but a single-cycle waveform format designed for the Amiga computer. It contains audio data and is not related to the text. However, in the context of file formats, if Archivematica handles 8SVX audio files for long-term digital preservation, the documentation may discuss guidelines or steps on how to preserve such files.\n"
+"\n"
+"Since this is more of a technical term than a passage, it doesn't need a Japanese translation, as technical terms are often kept in their original language within technology-related documents. However, if you require a brief explanation of 8SVX in Japanese for the documentation, it could be translated as:\n"
+"\n"
+"8SVXは、アミーガコンピューター用に設計された単一サイクル波形フォーマットです。これはオーディオデータを含んでおり、テキストとは関連していません。デジタルデータの長期保存に関するコンテキストで、Archivematicaが長期間のデジタル保存のために8SVXオーディオファイルを扱う場合、ドキュメントではそのようなファイルを保存するためのガイドラインや手順について説明している可能性があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1190
+msgid "AVS"
+msgstr ""
+"AVS (AudioVisual System) は特定のテクノロジーやプロダクトを指す用語ではないため、コンテキストに応じた翻訳が異なります。しかし、もしこの略語がデジタル資産管理や長期保存の文脈で使用されている場合、それはおそらく「オーディオビジュアルシステム」を意味している可能性があります。それがそのままタイトルや特定の固有名詞の一部として使われている場合は、そのまま「AVS」と翻訳されることもあります。\n"
+"\n"
+"そうはいっても、質問の内容を考慮した場合、Archivematicaがデジタルアーカイブのソフトウェアであり、それに関連するドキュメントを翻訳しているのであれば、日本語での適切な翻訳は文脈によって決定されるべきです。もしAVSが特定の部分やプログラムを指し示している場合は、その詳細に基づいた訳語を選ぶべきです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1192
+msgid "BMP"
+msgstr ""
+"原文の内容が提示されていないので、\"BMP\"の一般的な意味を元に日本語訳を提供します。 \"BMP\"は「ビットマップ画像ファイル (Bitmap "
+"image "
+"file)」の略で、コンピューターで画像を格納するためのファイル形式を指します。もしArchivematicaの文脈で\"BMP\"が特に言及されているならば、それに基づいたより具体的な説明が必要になります。その場合、追加の情報が必要です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1192
+msgid "AC-3"
+msgstr ""
+"\"AC-3\" というコンテキストだけでは、翻訳に必要な情報が不足しています。Archivematicaに関連するテキストかどうか、またはそれが特定の設定、ガイドライン、または技術的な標準などを指しているかに応じて、意味が大きく異なる可能性があります。\n"
+"\n"
+"もし \"AC-3\" が Archivematica の特定の文書の一部である場合、それが指している内容や背景についてもっと情報が必要です。一方で、\"AC-3\"が何か他の文脈を指している場合（例えばオーディオコーデックやセキュリティレベルを示す可能性がある）、それに応じた翻訳を提供します。\n"
+"\n"
+"追加の情報が提供されるまで、\"AC-3\" を日本語に単純に翻訳すると「AC-3」となりますが、これは文脈に依存するため正しい翻訳かどうかは断定できません。もっと文脈が必要です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1192
+msgid "BFI"
+msgstr "BFI"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1194
+msgid "GIF"
+msgstr ""
+"申し訳ありませんが、提供されたテキストは「GIF」という単語だけで、翻訳のためのコンテキストや足りる情報がありません。ただし、「GIF」は通常「Graphics"
+" Interchange "
+"Format」の略で、これは画像ファイル形式の一種です。日本語ではそのまま「ジーアイエフ」と読むことが一般的です。さらに詳しい説明やテキストが必要な場合は、情報を追加して再度お知らせください。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1194
+msgid "Apple Lossless"
+msgstr ""
+"Apple Lossless (ALAC, Apple Lossless Audio Codec) is an audio coding format, and its reference audio codec, developed by Apple Inc. for lossless data compression of digital music. After initially keeping it proprietary from its inception in 2004, in late 2011 Apple made the codec available open source and royalty-free. Accurately, Apple Lossless is a data compression method that reduces the size of audio files with no loss of information. A decoded ALAC stream is bit-for-bit identical to the original uncompressed audio file.\n"
+"\n"
+"Here is the translation of the provided text into Japanese:\n"
+"\n"
+"Apple Lossless （ALAC、Apple Lossless Audio Codec）は、Apple Inc.がデジタル音楽データのロスレス圧縮のために開発したオーディオコーディングフォーマット、及びそのリファレンスオーディオコーデックです。2004年の登場時からはじめは企業秘密とされていましたが、2011年末にAppleはこのコーデックをオープンソースおよびロイヤルティフリーで利用可能にしました。正確には、Apple Losslessはオーディオファイルのサイズを情報損失なく縮小するデータ圧縮方法です。デコードされたALACストリームは元の未圧縮オーディオファイルとビット単位で完全に同一です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1194
+msgid "CamStudio CSCD"
+msgstr "CamStudio CSCD"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1196
+msgid "PNG"
+msgstr "PNG"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1196
+msgid "ATRAC3"
+msgstr ""
+"ATRAC3は、翻訳するべきテキストではなく、音声データ圧縮技術の一種です。このテキストがデジタルデータ長期保存に関連しているコンテキストで提示されたら、日本語では次のように翻訳される可能性があります。\n"
+"\n"
+"「ATRAC3はSonyによって開発された音声データの圧縮技術です。このフォーマットは特に携帯型オーディオプレーヤーで使用されており、高圧縮率を実現しつつも高音質を保持することを目的としています。」"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1196
+msgid "Cinepak"
+msgstr ""
+"\"Cinepak\" は特定の技術用語や名称ですので、日本語に訳す際にもそのまま \"Cinepak\" "
+"として使用されることが一般的です。ただし、文章によっては「シネパック」と表記する場合もあります。翻訳する文脈がないため、ここでは \"Cinepak\""
+" のみとしたいと思います。もし文脈が与えられれば、それに応じた翻訳を提供いたします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1198
+msgid "JPEG"
+msgstr ""
+"JPEGは、主に写真の圧縮と配信のために使用される一般的なデジタル画像ファイル形式です。JPEGは「Joint Photographic Experts Group」の略で、このフォーマットを開発した組織の名称に由来しています。JPEG形式は、画像のファイルサイズを縮小することで、ディスクスペースの節約とウェブ上での迅速な転送を可能にします。しかし、この圧縮は可逆圧縮ではなく、品質を犠牲にして圧縮を行います。そのため、画像を繰り返し保存するたびに品質が徐々に劣化する可能性があります。\n"
+"\n"
+"JPEGファイルフォーマットは、スキャンされた文書やアートワークなど多様なデジタル画像の保存にも広く利用されていますが、アーカイブの目的で最適な選択ではないことが多いです。画像アーカイブでは、より高品質で無圧縮、あるいは非破壊的な圧縮が可能なフォーマットが好まれる傾向があります。それにもかかわらず、実務上は制限や資源の制約などからJPEGが使われることもあります。JPEG2000はJPEGの改良版であり、画像の品質を保ちながらの効率的な圧縮を実現し、アーカイブ向けにより適した選択肢となっています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1198
+msgid "Cook Codec"
+msgstr ""
+"Cook "
+"Codecを翻訳すると「クック・コーデック」となります。この用途についての文脈が不明ですが、もし対象テキストが音響圧縮方式に関するものであれば、この翻訳が適切です。もし異なる文脈である場合は、その文脈に応じた翻訳が必要です。詳しい情報があれば、さらに適切な翻訳を提供できます。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1198
+msgid "Creative YUV (CYUV)"
+msgstr "クリエイティブ YUV (CYUV)"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1200
+msgid "V.Flash PTX"
+msgstr ""
+"V.Flash PTXという独自の名称を持つテキストが提示された場合、その文脈を示さない限り、適切な日本語訳を提供することは困難です。\"V.Flash PTX\"は、おそらく特定のテクノロジー、製品名、またはプロジェクトを参照している独自の名詞のようです。テクニカルな文書やマニュアルを翻訳する際には、製品名や特定のテクノロジーの名称は原則として翻訳されずにそのまま使用されることが一般的です。なので、そのまま「V.Flash PTX」と記載するのが適切です。\n"
+"\n"
+"しかしながら、「V.Flash PTX」が提供された文脈や、より詳細な情報が必要となる場合、それに応じた説明や適切な訳語を見つけることができるかもしれません。もし追加情報があれば、それに基づいてより正確な翻訳や説明を提供できるでしょう。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1200
+msgid "EA ADPCM"
+msgstr ""
+"EA ADPCM（Electronic Arts Adaptive Differential Pulse Code Modulation）は、Audio Data Reduction Technologyに関連する一種のオーディオ圧縮技術で、特にビデオゲーム分野で使用されています。\n"
+"\n"
+"日本語訳をリクエストされた部分が十分ではないため、EA ADPCMが文脈にフィットするよう情報を追加し、翻訳を行います。翻訳が必要な正確なテキストを指定してください。それがない場合、一般的な翻訳を以下に示します。\n"
+"\n"
+"\"EA ADPCMはElectronic Artsによって開発された適応型差分パルス符号変調技術であり、オーディオデータの圧縮を行うために用いられています。\""
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1200
+msgid "DNxHD"
+msgstr "DNxHD"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1202
+msgid "SGI"
+msgstr ""
+"Sure, I'd be happy to help with your translations, but you haven't provided "
+"any specific text related to Archivematica for translation. If you can "
+"provide the text you are referring to, I will be able to offer an accurate "
+"translation into Japanese. Please share the text you need to have "
+"translated."
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1202
+msgid "FLAC"
+msgstr ""
+"FLAC (Free Lossless Audio "
+"Codec)は、オーディオデータを完全な非劣化の形で圧縮するためのオープンフォーマットです。それはデジタルオーディオ圧縮のファイルフォーマットであり、デジタル録音を正確に非劣化でエンコードすることができます。これは、CDのオーディオがWAVやAIFFのようなPCMフォーマットに比べて圧縮されているという利点がありますが、MP3やAACのような劣化形式と違って、元のオーディオ情報を全て保持します。これにより、FLACはアーカイブにおいて理想的な選択肢となることがあります。なぜなら、厳しいストレージ制約がある中でも、オーディオ内容の品質を犠牲にすることなく、効率的な保存が可能になるからです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1202
+msgid "Flash Screen Video"
+msgstr "フラッシュスクリーンビデオ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1204
+msgid "Sun Rasterfile"
+msgstr "サン・ラスターファイル"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1204
+msgid "Intel Music Coder"
+msgstr "インテル・ミュージック・コーダー"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1204
+msgid "FFV1"
+msgstr ""
+"FFV1は、高品質のデジタルビデオ用に設計された無損失の圧縮ビデオコーデックです。この形式は、フレームのフレーム内およびフレーム間圧縮をサポートしており、ビデオの品質を損なうことなくデータ量を削減するために効果的に使用されます。FFV1は特にアーカイブコミュニティで支持されており、長期保存におけるその可逆性と高度な技術的特性のおかげで、アーカイブ資料のための信頼性の高いデジタルフォーマットとして認識されています。さらに、FFV1はオープンソースであり、特許問題の心配なく使われるため、継続的なアクセスと使用において柔軟性があります。Archivematicaでは、デジタルビデオを長期保存するためのFFV1の利用を推奨しています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1206
+msgid "FLIC"
+msgstr ""
+"FLICという単独の言葉では翻訳の背景情報が不十分です。この単語は略語または特定のシステム名である可能性があり、その正確な意味や使い方を理解するためには追加の文脈が必要です。もしFLICが特定の文書やデジタルアーカイブ管理システム、ソフトウェアの名前であれば、それは固有名詞として日本語でもそのまま「FLIC」と表記される場合が多いです。\n"
+"\n"
+"もっと文脈が提供されれば、より適切な翻訳を提供することが可能です。たとえば、「FLIC (Federated Local Institutional Collections)」のように、全称とその使用目的が明示されていれば、それに基づく適切な日本語翻訳が可能になります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1206
+msgid "Monkey's Audio"
+msgstr "モンキーズ・オーディオ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1206
+msgid "H.261"
+msgstr "H.261"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1208
+msgid "TIFF"
+msgstr "TIFF (Tagged Image File Format)"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1208
+msgid "MP2"
+msgstr ""
+"\"MP2\" refers to the audio coding format MPEG-1 Audio Layer II. However, your request seems to be truncated, as \"MP2\" by itself is not enough context to provide a translation or to link it directly to Archivematica documentation.\n"
+"\n"
+"If you are referring to Archivematica's documentation related to MP2 files for digital preservation, you may want to include more context or additional text. For example, if the text was about how Archivematica supports MP2 files in its digital preservation process, the translation might look like this:\n"
+"\n"
+"\"Archivematicaは、デジタル保存プロセスにおけるMP2ファイルをサポートしています。\"\n"
+"\n"
+"However, since there is no provided context within your request, this is an educated guess. Please provide additional information for a more accurate translation."
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1208
+msgid "H.263"
+msgstr ""
+"H.263は、低ビットレート通信に適したビデオ圧縮規格です。1996年に国際電気通信連合（ITU-T）によって承認されました。H.263規格は、特にインターネットストリーミングとビデオ会議に使用され、H.261規格の後継として開発されました。\n"
+"\n"
+"この規格は、改良された予測、エンコード/デコードプロセス、スケーラビリティなど、いくつかの重要な技術革新を導入しました。H.263は、低レイテンシーと比較的高い圧縮率を実現することで、効率的なビデオ伝送を可能にしています。 \n"
+"\n"
+"H.263のバージョンがいくつかあり、それらは機能の追加や性能の改善により時間を経て進化してきました。例えば、H.263v2（別名H.263+）とH.263v3（別名H.263++）があり、これらは追加のオプションや拡張による規格の改善を提供しています。\n"
+"\n"
+"デジタルアーカイブにおけるH.263は、特にビデオコンテンツの長期保存においてデータ圧縮の基盤として機能します。アーカイブプロセスにおいては、原資料の品質を保持しつつストレージの効率性を高めるために、ビデオデータの圧縮が重要な役割を果たします。Archivematicaなどのデジタル保存システムは、H.263を含む多様なフォーマットをサポートしており、アーカイブ対象のビデオ素材の長期的なアクセスと再利用を可能にします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1210
+msgid "PNM"
+msgstr ""
+"PNM (Portable Anymap Format) - PNM は異なるタイプの画像を扱うためのフォーマットの集合体を指します。PNM "
+"そのものは実際には3つのサブフォーマットに分けられます：PBM (Portable BitMap)、PGM (Portable GrayMap) および"
+" PPM (Portable PixMap)。これらはそれぞれ1ビットのモノクロ (PBM)、グレースケール (PGM)、カラー (PPM) "
+"イメージに使用されます。これらのフォーマットは単純で広く対応があり、アスキーとバイナリのどちらの版形式も存在します。しかし、これらは圧縮されていないため、ファイルサイズが大きくなる傾向があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1210
+msgid "MP3"
+msgstr "MP3"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1210
+msgid "H.264/MPEG-4 AVC"
+msgstr "H.264/MPEG-4 AVC"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1212
+msgid "Nellymoser Asao Codec in Flash"
+msgstr "フラッシュにおけるネリーモーザー・アサオ・コーデック"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1212
+msgid "Huffyuv"
+msgstr ""
+"Huffyuv (also known as HuffYUV) is a free, lossless video codec designed for high-quality video compression. It was created to preserve the best possible video quality during editing, making it ideal for archiving raw footage without compromising any of the original data.\n"
+"\n"
+"One of the key features of Huffyuv is its ability to compress video data without any loss of quality. This aspect sets it apart from lossy video codecs that reduce file size by permanently discarding some of the information, potentially affecting the visual or aural fidelity of the video. Lossless codecs like Huffyuv, on the other hand, ensure that every bit of data from the original media is preserved, allowing for exact reconstruction of the original video.\n"
+"\n"
+"Huffyuv achieves its lossless compression through a combination of predictive coding and entropy encoding. Predictive coding works by predicting the content of a frame based on the content of previous frames, and only encoding the differences. Entropy encoding is used to compress these differences efficiently.\n"
+"\n"
+"Because of its lossless nature, Huffyuv is not as widely used for end-user video distribution where file size matters, such as online streaming or physical media. However, it is extremely popular in fields that require archival quality, such as video production and digital archiving. The codec offers fast encoding and decoding speeds, which, together with its lossless quality, make it a favorable choice for editors and archivists working with large amounts of video data.\n"
+"\n"
+"In summary, Huffyuv is an invaluable tool for professionals who require pristine video quality with no data loss, especially useful for digital preservation and video editing workflows."
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1214
+msgid "QDM2"
+msgstr ""
+"こちらのリクエストは少し誤解を招くものかもしれません。「QDM2」というフレーズは、特定の文脈やフレーズのない状態で、直接的な意味や翻訳には結びつきません。おそらくこれは、特定の技術的な文脈や詳細な情報が必要な単語やアクロニムでしょう。「QDM2」が何を指しているのか、もう少し具体的な情報を提供していただければ、適切な翻訳を提供することが可能です。例えば、これが音声圧縮フォーマットやコーデックを指す場合、文脈に応じた説明が必要になるでしょう。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1214
+msgid "id Software RoQ Video"
+msgstr "id Software RoQ Video"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1216
+msgid "RealAudio 1.0"
+msgstr "リアルオーディオ1.0"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1216
+msgid "Intel Indeo 2"
+msgstr "インテル インデオ 2"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1218
+msgid "RealAudio 2.0"
+msgstr "リアルオーディオ 2.0"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1218
+msgid "Intel Indeo 3"
+msgstr "インテル・インディオ3"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1220
+msgid "Shorten"
+msgstr "短縮"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1220
+msgid "LOCO"
+msgstr ""
+"Certainly, but you haven't provided any text to translate. If you provide "
+"the specific text you're referring to about Archivematica, I'd be glad to "
+"help with the translation."
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1222
+msgid "Truespeech"
+msgstr "トゥルースピーチ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1222
+msgid "Mimic[3]"
+msgstr "\"ミミック[3]\""
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1224
+msgid "TTA"
+msgstr ""
+"TTA is an abbreviation that could refer to many different things, and without further context, it's challenging to provide an accurate translation or determine if it's relevant to Archivematica, which is a digital preservation system. TTA might stand for \"Transfer, Transform, and Archive,\" for example, but this is speculative.\n"
+"\n"
+"If you could provide more detail on what TTA refers to in the context of Archivematica, I would be able to assist you better."
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1224
+msgid "MJPEG"
+msgstr ""
+"MJPEGは、デジタルビデオの圧縮フォーマットの一つで、Motion "
+"JPEGの略です。JPEG静止画像圧縮アルゴリズムを利用して、各フレームを個別に圧縮します。MJPEGは、高い圧縮率を達成しながらも、フレーム間の圧縮による品質の低下を避けるため、高品質のビデオストリーミングに便利です。編集や動画のフレーム単位の処理が頻繁に行われる用途に適していますが、動画全体でのファイルサイズは他の動画圧縮フォーマットよりも大きくなる傾向があります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1226
+msgid "TXD"
+msgstr ""
+"ごめんなさい、しかし\"TXD\"というフレーズは、長期保存の文脈または一般的な英語使用の中で特定の意味を持たないため、正確な翻訳を提供するのが難しいです。もし\"TXD\"が特定の概念、用語、または文書の一部である場合、より多くの情報が必要になります。追加の情報を提供していただければ、翻訳を手伝って差し上げます。\n"
+"\n"
+"ただし、もし\"TXD\"がテキストドキュメント(TXD)の略で、それを翻訳する必要がある場合、実際の内容に基づいて翻訳できますが、そのコンテンツが何であるかを知る必要があります。\n"
+"\n"
+"より具体的な指示やコンテキストを提供していただければ、適切な翻訳を提供できるかもしれません。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1226
+msgid "MPEG-4 Part 2"
+msgstr "MPEG-4 パート2"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1228
+msgid "Vorbis"
+msgstr "Vorbis"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1228
+msgid "Apple Computer QuickDraw"
+msgstr "アップルコンピューター・クイックドロー"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1230
+msgid "WavPack"
+msgstr ""
+"WavPackは、オーディオデータを圧縮するためのオープンソースの無損失オーディオ圧縮フォーマットです。高い圧縮率を実現し、同時にオリジナルの音声データを忠実に再現することができます。WavPackはまた、ハイブリッドモードという機能を提供し、これにより、ユーザーは無損失品質と低ビットレートの圧縮オーディオの利点を、単一のファイルセット内で両方得ることができます。WavPackは、その柔軟さと幅広い互換性のため、アーカイブや長期保存のためのオーディオデータの圧縮に適しています。デジタル保存におけるオーディオファイルのフォーマットとして、その使用が推奨されることもあります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1230
+msgid "Quicktime Graphisc SMC"
+msgstr ""
+"Quicktime Graphics SMCという特定の文脈や用語が存在しないため、正確な翻訳はできませんが、質問の意図に基づくと、このフレーズはおそらく「QuickTime Graphics」コーデックのSMC（Simple Motion Compression）バリアントを指していると思われます。したがって、日本語に直訳する場合は次のようになります。\n"
+"\n"
+"クイックタイム グラフィックス SMC\n"
+"\n"
+"ただし、これはテクニカルな用語の単純な音訳であり、特定の専門的な文章の中での正式な訳語や文脈に即した翻訳が必要な場合は、もう少し情報が必要です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1232
+msgid "Windows Media Audio 1"
+msgstr "Windows Media Audio 1"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1232
+msgid "RealVideo RV10"
+msgstr ""
+"RealVideo RV10は特定の翻訳を必要とするフレーズではありませんが、これがテクノロジーに関連する文脈で使用されている場合、以下のように日本語に翻訳することができます：\n"
+"\n"
+"リアルビデオ RV10\n"
+"\n"
+"これは、RealNetworks社が開発した動画圧縮フォーマットの一種であることを指しています。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1234
+msgid "Windows Media Audio 2"
+msgstr "ウィンドウズ・メディア・オーディオ 2"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1234
+msgid "RL2"
+msgstr ""
+"すみませんが、提供されたテキスト「RL2」という情報だけからは、何を翻訳するべきかがはっきりしません。もう少し文脈や完全な文章、もしくは具体的な指示が必要です。もしArchivematicaに関連する特定の文書やパラグラフがあれば、その内容を提供してください。それに基づいて適切な日本語訳を提供いたします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1236
+msgid "Smacker video"
+msgstr "スマッカービデオ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1238
+msgid "Snow"
+msgstr ""
+"This prompt seems to be incomplete, as it only includes the word \"Snow\" "
+"without any additional context or content relating to Archivematica or "
+"digital data long-term preservation. If you require a translation for the "
+"term \"Snow\" within a specific context related to the documentation of "
+"Archivematica, please provide additional information. Otherwise, the "
+"translation of the word \"Snow\" in Japanese is \"雪\" (yuki). If you need a "
+"more extensive translation, please provide the full text."
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1240
+msgid "Sorenson SVQ1"
+msgstr "ソレンソン SVQ1"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1242
+msgid "Sorenson SVQ3"
+msgstr "Sorenson SVQ3"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1244
+msgid "Theora"
+msgstr ""
+"「Theora」は翻訳しないでください。通常、特定の製品名、ソフトウェア名、技術用語などは翻訳せずにそのまま使用します。このコンテキストでは、「Theora」はおそらくオープンソースのビデオ圧縮形式を指しているため、このままで適切です。もしテキストが"
+" Theora "
+"についての説明文を含む場合、その文脈に即した適切な日本語訳が必要になります。もしそのような文脈の説明があれば、それを共有していただければ、正確な翻訳をご提供いたします。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1246
+msgid "Asus V1"
+msgstr ""
+"\"Archivematica\"という特定のテキストがないため、ご提供いただいた内容についての翻訳を行います。「Asus "
+"V1」を日本語に翻訳する必要があるが、これは製品名であり、通常翻訳されません。したがって、日本語での表記も「Asus "
+"V1」となります。もしArchivematicaについての文脈が必要であれば、より具体的なテキストを提供していただけると幸いです。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1248
+msgid "Asus V2"
+msgstr "Asus V2です。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1250
+msgid "VMware VMnc"
+msgstr ""
+"VMware VMnc\n"
+"\n"
+"（このテキストは翻訳対象ではなく、参考情報や特定のコンテキストがない場合、そのまま翻訳せずに残されることが一般的です。もしVMware VMncが特定のコンテキスト内で使われている場合、そのコンテキストを提供していただければ、適切な翻訳を提供いたします。）"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1252
+msgid "On2 VP3"
+msgstr "On2 VP3"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1254
+msgid "On2 VP5"
+msgstr ""
+"\"On2 VP5\"は、単一の固有名詞や技術用語ですので、日本語に訳す際もそのまま「On2 "
+"VP5」と記述します。専門的な文脈では、原語のまま使うことが一般的です。したがって、日本語の文書の中でも「On2 "
+"VP5」という表記をそのまま使用します。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1256
+msgid "On2 VP6"
+msgstr ""
+"On2 VP6は、On2 Technologiesによって開発されたビデオコーデックで、オンラインビデオ配信に広く使用されていました。Adobe "
+"Flash Player "
+"8および9に採用されたこともあり、その普及に一役買いました。しかしVP6は、最新のコーデックに比べると効率が低く、いまではあまり利用されていません。そのため、デジタルデータの長期保存の文脈では、より現代的で効率的なコーデックへの移行が推奨されることがあります。"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1258
+msgid "Westwood Studios VQA"
+msgstr "Westwood Studios VQA"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1260
+msgid "Microsoft WMV v 7, 8 and 9"
+msgstr "マイクロソフト WMV バージョン7、8、および9"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1263
+msgid "Wing Commander/Xan Video"
+msgstr "ウィングコマンダー/ザン ビデオ"
+
+#: ../../user-manual/import-export/upload-digital-object.rst:1268
+msgid ""
+"AtoM uses FFmpeg to handle audio-visual files. The table above shows the "
+"file formats supported by FFmpeg."
+msgstr ""
+"AtoMは、オーディオビジュアルファイルを処理するためにFFmpegを使用します。上記の表は、FFmpegによってサポートされているファイルフォーマットを示しています。"

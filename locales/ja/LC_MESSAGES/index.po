@@ -1,0 +1,769 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:5
+msgid "AtoM documentation"
+msgstr "AtoM（Access to Memory）ドキュメント"
+
+#: ../../index.rst:10
+msgid "User manual"
+msgstr "ユーザーマニュアル"
+
+#: ../../index.rst:12
+msgid ""
+"User guide to creating, editing, accessing, importing, exporting, and "
+"translating content in AtoM; includes administering the system via the "
+":term:`user interface`."
+msgstr ""
+"AtoMでコンテンツを作成、編集、アクセス、インポート、エクスポート、及び翻訳するためのユーザーガイド；:term:`ユーザーインターフェイス`を介してシステムを管理することも含まれます。"
+
+#: ../../index.rst:19
+msgid "Overview"
+msgstr "概要"
+
+#: ../../index.rst:21
+msgid ""
+"This section provides an overview of the technical architecture and "
+"requirements."
+msgstr "このセクションでは、技術的アーキテクチャと要件の概要を提供します。"
+
+#: ../../index.rst:24
+msgid ":doc:`What is AtoM? <user-manual/overview/intro>`"
+msgstr ":doc:`AtoMとは何か？ <user-manual/overview/intro>`"
+
+#: ../../index.rst:25
+msgid ""
+":doc:`Technical requirements <user-manual/overview/technical-requirements>`"
+msgstr ":doc:`技術要件 <user-manual/overview/technical-requirements>`"
+
+#: ../../index.rst:26
+msgid ":doc:`Entity types <user-manual/overview/entity-types>`"
+msgstr ":doc:`エンティティタイプ<user-manual/overview/entity-types>`"
+
+#: ../../index.rst:27
+msgid ""
+":doc:`Descriptive standards <user-manual/overview/descriptive-standards>`"
+msgstr "ドキュメント「記述標準 <user-manual/overview/descriptive-standards>」"
+
+#: ../../index.rst:32
+msgid "Getting started"
+msgstr "始め方"
+
+#: ../../index.rst:34
+msgid ""
+"This section describes how to start using AtoM once it has been installed. "
+"It provides a quick orientation to the home page, how to log in and log out,"
+" the various user roles in the system, the main page types a user will "
+"encounter, and how to switch languages."
+msgstr ""
+"このセクションでは、AtoMがインストールされた後の使用開始方法について説明します。ホームページのクイックオリエンテーション、ログインとログアウトの方法、システム内のさまざまなユーザーロール、ユーザーが遭遇する主要ページタイプ、そして言語の切り替え方について提供します。"
+
+#: ../../index.rst:39
+msgid ":ref:`Home page <home-page>`"
+msgstr ":ref:`ホームページ <home-page>`"
+
+#: ../../index.rst:40
+msgid ":ref:`Log in <log-in>`"
+msgstr ":ref:`ログイン <log-in>`"
+
+#: ../../index.rst:41
+msgid ":ref:`User roles <user-roles>`"
+msgstr ":ref:`ユーザーロール <user-roles>`"
+
+#: ../../index.rst:42
+msgid ":ref:`Page types <page-types>`"
+msgstr ":ref:`ページのタイプ <page-types>`"
+
+#: ../../index.rst:43
+msgid ":ref:`Choose language <choose-language>`"
+msgstr ":ref:`言語を選択 <choose-language>`"
+
+#: ../../index.rst:44
+msgid ":ref:`Change password <change-password>`"
+msgstr ":ref:`パスワードの変更 <change-password>`"
+
+#: ../../index.rst:49
+msgid "Add/edit content"
+msgstr "コンテンツの追加/編集"
+
+#: ../../index.rst:51
+msgid "This section describes how to add, edit, and delete content in AtoM."
+msgstr "このセクションでは、AtoMでコンテンツを追加、編集、および削除する方法について説明します。"
+
+#: ../../index.rst:53
+msgid ":ref:`Accession records <accession-records>`"
+msgstr ":ref:`検収記録 <accession-records>`"
+
+#: ../../index.rst:54
+msgid ":ref:`Archival descriptions <archival-descriptions>`"
+msgstr ":ref:`アーカイブ記述 <archival-descriptions>`"
+
+#: ../../index.rst:55
+msgid ":ref:`Authority records <authority-records>`"
+msgstr ":ref:`権限記録 <authority-records>`"
+
+#: ../../index.rst:56
+msgid ":ref:`Archival institutions <archival-institutions>`"
+msgstr ":ref:`アーカイブ機関 <archival-institutions>`"
+
+#: ../../index.rst:57
+msgid ":ref:`Deaccession records <deaccessions>`"
+msgstr ":ref:`除籍記録 <deaccessions>`"
+
+#: ../../index.rst:58
+msgid ":ref:`Donors <donors>`"
+msgstr ":ref:`ドナー <donors>`"
+
+#: ../../index.rst:59
+msgid ":ref:`Functions <functions>`"
+msgstr ":ref:`機能 <functions>`"
+
+#: ../../index.rst:60
+msgid ":ref:`Rights <rights>`"
+msgstr ":ref:`権利 <rights>`"
+
+#: ../../index.rst:61
+msgid ":ref:`Control area <control-area>`"
+msgstr ":ref:`コントロールエリア <control-area>`"
+
+#: ../../index.rst:62
+msgid ":ref:`Terms <terms>`"
+msgstr ":ref:`用語 <terms>`"
+
+#: ../../index.rst:63
+msgid ":ref:`Physical storage <physical-storage>`"
+msgstr ":ref:`物理的保管 <physical-storage>`"
+
+#: ../../index.rst:64
+msgid ":ref:`formatting`"
+msgstr ""
+"`:ref:`formatting``は、MarkdownやreStructuredTextなどの軽量マークアップ言語において、文書内の他のセクションへの参照を埋め込むための記法です。日本語の翻訳に直接変換するものではなく、むしろドキュメント内で特定のフォーマット指示や参照に関する指摘として理解してください。しかし、あなたの依頼に応じて、以下にこのテキストを日本語のコンテキストに合わせて翻訳することが可能ですが、はっきりとした日本語の対応する概念はありません。最も近い翻訳は文書の「書式設定」の参照となりますが、具体的なドキュメント依存の記法を含んでいるかもしれません。\n"
+"\n"
+"「書式設定」の参照\n"
+"\n"
+"ただし、このテキストがソースコード内やドキュメントの特定の部分で使われている場合、そのまま残しておくことが重要です。その場合、翻訳ではなく説明や注釈を付け加えることをお勧めします。"
+
+#: ../../index.rst:65
+msgid ":ref:`Exit edit mode <exit-edit-mode>`"
+msgstr ":ref:`編集モードを終了する <exit-edit-mode>`"
+
+#: ../../index.rst:70
+msgid "Access content"
+msgstr "コンテンツへのアクセス"
+
+#: ../../index.rst:72
+msgid ""
+"This section provides guidelines for searching, browsing, and navigating. "
+"Most of the functions discussed are available to all :ref:`user roles <user-"
+"roles>`, including :ref:`researchers <user-researcher>` with read only "
+"access. However, some navigation features (e.g. edit mode), are only "
+"available to users with edit :term:`access privileges <access privilege>`."
+msgstr ""
+"このセクションでは、検索、閲覧、およびナビゲーションのガイドラインについて説明します。議論される機能の多くは、読み取り専用アクセスを持つ:ref:`研究者<user-"
+"researcher>`を含む、すべての:ref:`ユーザーロール<user-"
+"roles>`で利用可能です。ただし、一部のナビゲーション機能（例えば編集モード）は、編集:term:`アクセス権限<access "
+"privilege>`を持つユーザーのみが利用可能です。"
+
+#: ../../index.rst:78
+msgid ":ref:`Search <search-atom>`"
+msgstr ":ref:`検索 <search-atom>`"
+
+#: ../../index.rst:79
+msgid ":ref:`Advanced search <advanced-search>`"
+msgstr ":ref:`高度な検索 <advanced-search>`"
+
+#: ../../index.rst:80
+msgid ":ref:`Browse <browse>`"
+msgstr ":ref:`参照 <browse>`"
+
+#: ../../index.rst:81
+msgid ":ref:`Navigate <navigate>`"
+msgstr ":ref:`ナビゲート <navigate>`"
+
+#: ../../index.rst:82
+msgid ":ref:`Context menu <context-menu>`"
+msgstr ":ref:`コンテキストメニュー <context-menu>`"
+
+#: ../../index.rst:83
+msgid ":ref:`clipboard`"
+msgstr ""
+"`:ref:`clipboard``は特定のコンテキストやソースコードに依存する参照です。ソースドキュメントでの実際の使い方を見ないと、精確な翻訳は提供できません。ただし、このテキストを単純に翻訳するならば、「クリップボード」という日本語に相当しますが、これは標準的なクリップボード機能を指すような一般的な文脈ではなく、Archivematicaの特定の機能やセクションを参照する場合があります。\n"
+"\n"
+"可能であれば、この参照がどのように使われるか、その詳細な文脈を提供していただければ、さらに適切な翻訳ができるかもしれません。"
+
+#: ../../index.rst:88
+msgid "Translate"
+msgstr ""
+"Of course, to assist you effectively, I would need the specific text that "
+"you would like to have translated. Please provide the text, and I will "
+"translate it into Japanese for you."
+
+#: ../../index.rst:90
+msgid ""
+"This section describes how to translate both database content and "
+":term:`user interface` elements in AtoM."
+msgstr "このセクションでは、AtoMでデータベースの内容と:term:`ユーザーインターフェース`要素の両方を翻訳する方法について説明します。"
+
+#: ../../index.rst:93
+msgid ":ref:`multilingual-design-principles`"
+msgstr ":ref:`多言語設計原則`"
+
+#: ../../index.rst:94
+msgid ":ref:`Translate content <translate-content>`"
+msgstr ":ref:`コンテンツの翻訳 <translate-content>`"
+
+#: ../../index.rst:95
+msgid ":ref:`Translate interface <translate-interface>`"
+msgstr ":ref:`インターフェースを翻訳する <translate-interface>`"
+
+#: ../../index.rst:96
+msgid ":ref:`translate-static-pages`"
+msgstr ""
+"この様な文脈では、 `:ref:`translate-static-pages`` は特定のドキュメントのセクションへの参照を示している可能性がありますが、それ自体には具体的な情報が含まれていません。しかし、もし実際に翻訳すべきテキストが「translate-static-pages」というセクションタイトルであるとすると、日本語に翻訳すると以下のようになります。\n"
+"\n"
+"```\n"
+"「静的ページの翻訳」\n"
+"```\n"
+"\n"
+"ただし、このテキストはコードブロック内にあるため、実際にはそのままの形（英語のまま）でドキュメントに使用される可能性が高いです。この指示が埋め込み参照（inline reference）を示していると仮定すると、ドキュメントではこの参照が別の場所で定義された「静的ページの翻訳」セクションを指しており、そのセクションの具体的な内容を示しているはずです。そのため、実際の翻訳作業を行う際には、参照されているセクションの実際の内容を翻訳する必要があります。"
+
+#: ../../index.rst:102
+msgid "Reports/printing"
+msgstr "レポート/印刷"
+
+#: ../../index.rst:104
+msgid ""
+"This section describes how to create and print different types of reports "
+"using AtoM:"
+msgstr "このセクションでは、AtoMを使用して異なるタイプのレポートを作成し、印刷する方法について説明します。"
+
+#: ../../index.rst:107
+msgid ":ref:`file-item-reports`"
+msgstr ":ref:`ファイルアイテムレポート`"
+
+#: ../../index.rst:108
+msgid ":ref:`create-physical-storage-report`"
+msgstr ""
+"`:ref:`create-physical-storage-report`のような参照記法は、具体的なドキュメントの文脈を必要としますが、単独でのテキストはそのままでは意味を持ちません。ただし、これがドキュメント内で別のセクションへのリンクであることを理解して、代わりに一般的な記述を翻訳することはできます。\n"
+"\n"
+"「物理的な保存報告を作成する」"
+
+#: ../../index.rst:109
+msgid ":ref:`print-finding-aids`"
+msgstr ":ref:`印刷用ファインディングエイド`"
+
+#: ../../index.rst:115
+msgid "Import/export"
+msgstr "インポート/エクスポート"
+
+#: ../../index.rst:117
+msgid ""
+"This section describes automated methods for getting data in and out of an "
+"AtoM application."
+msgstr "このセクションでは、AtoMアプリケーションへのデータの自動的な取り込みと取り出しの方法について説明します。"
+
+#: ../../index.rst:120
+msgid ":ref:`Upload digital objects <upload-digital-object>`"
+msgstr ":ref:`デジタルオブジェクトのアップロード <upload-digital-object>`"
+
+#: ../../index.rst:121
+msgid ":ref:`import-xml`"
+msgstr ""
+":ref:`import-xml`のタグは、特定の形式の文書で使用される参照タグです。この文脈では、単独では意味を成さないため、文脈が必要です。しかし、おそらく特定のXMLインポート機能や手順にリンクするための参照を表していると思われます。さて、日本語に翻訳するとき、このような参照タグは通常そのまま残すか、または適切な日本語のラベルに置き換えますが、それには該当するマニュアルの詳細が必要です。それゆえ、この参照は以下のように直訳することはできませんが、一般的な変換の仕方を以下に示します。\n"
+"\n"
+"``:ref:`インポート-XML` ``\n"
+"\n"
+"または、もし参照タグが特定のセクションやタイトルを指しているのであれば、そのセクションやタイトルに日本語名があれば、そちらに置き換えることができます。例えば：\n"
+"\n"
+"``:ref:`XMLのインポート` ``\n"
+"\n"
+"ただし、実際に文書内でどのように使用するかは、その文書の構造と参照の設定方法次第です。"
+
+#: ../../index.rst:122
+msgid ":ref:`export-xml`"
+msgstr "`XMLのエクスポート <export-xml>`"
+
+#: ../../index.rst:123
+msgid ":ref:`csv-validation`"
+msgstr ""
+"この \":ref:`csv-validation`\" は特定の文書やコンテキスト内での参照タグであり、リンクまたは参照しているセクションへの直接的な翻訳を提供することはできません。このタグは、ドキュメント内の「CSVの検証」に関するセクションにリンクするためのものであり、ドキュメントまたはその他のコンテキストにおける詳細な説明やインストラクションに直接連れていく役割を果たします。\n"
+"\n"
+"もし「CSVの検証」というセクションの見出しを翻訳するならば、以下のようになるでしょう：\n"
+"\n"
+"CSVファイルの検証\n"
+"\n"
+"しかし、実際の文書においては、この見出しやタグがどう使われるかに基づいて適切な訳文は異なるかもしれません。そのため、リンク先のセクションの内容に応じた翻訳が必要になります。"
+
+#: ../../index.rst:124
+msgid ":ref:`csv-import`"
+msgstr ""
+"`:ref:`csv-import`は、Archivematicaのドキュメント内における特定のセクションや機能を参照するreStructuredText（reST）形式のマークアップです。この場合、`csv-import`はCSVインポート機能に関するドキュメントのセクションを指しています。ただし、文脈が不足しているため、これを直訳することは適切ではありません。\n"
+"\n"
+"通常、ドキュメントの翻訳では、参照されている機能やセクションの正確な日本語タイトルが必要となります。もしもそのセクションのタイトルが「CSVインポート」とした場合は、日本語では次のようになります：\n"
+"\n"
+"``:ref:`CSVインポート` ``\n"
+"\n"
+"しかし、これはあくまで一例であり、ドキュメント内で実際に使用されている正確なセクション名やタイトルを使用する必要があります。"
+
+#: ../../index.rst:125
+msgid ":ref:`csv-export`"
+msgstr ""
+":ref:`csv-export` は特定のコンテキストや文書において参照を示すマークアップですが、そのままでは直接的な翻訳が存在しません。通常これは内部参照リンクを指すプレースホルダで、特定のセクションやドキュメンテーション内で定義されたラベルに紐付いています。この参照が英語のドキュメントでどのように使われているか、そのコンテキストを考慮に入れて適切な日本語訳を提供する必要があります。\n"
+"\n"
+"翻訳する前にその参照がどこを指しているかを確認する必要があります。たとえば、もし `csv-export` がArchivematica内でCSV形式でデータをエクスポートするセクションを参照しているのであれば、日本語ではそのセクションのタイトルに合わせた適切な訳語を使って文書内に同じリンクを作成します。\n"
+"\n"
+"もしこれがドキュメント内のリンクを作成するための命令であれば、例えば「CSVエクスポート」または「CSV形式でのエクスポート」といった翻訳が考えられますが、リンクされるセクションの正確な日本語名に基づいて調整するべきです。したがって、完全な翻訳を提供するには、そのリンクが指し示すドキュメントの部分を知る必要があります。"
+
+#: ../../index.rst:126
+msgid ":ref:`import-export-skos`"
+msgstr ""
+":ref:`import-export-skos` (この参照マークは翻訳の必要がありません)\n"
+"\n"
+"通常、reStructuredText（略して RST）フォーマットで書かれたドキュメントでは、参照タグにコロン ( `:` )が前後に使われます。これは特定の文書内部または他の文書へのリンクを生成するために使われます。このテキストは、ドキュメント内の特定のセクション、ここでは「import-export-skos」セクションを参照しています。\n"
+"\n"
+"翻訳する際には、通常、この参照タグそのものを変更する必要はなく、参照先のラベルやタイトルを適切な言語に翻訳する必要があります。したがって、この場合、日本語に翻訳する際も、上記の参照タグはそのまま保持し、ドキュメント内でそのタグが指す見出しだけを日本語に翻訳します。参照する見出しのタイトルがすでに日本語で提供されている場合、それをそのまま使用します。"
+
+#: ../../index.rst:127
+msgid ":ref:`oai-pmh`"
+msgstr ""
+":ref:`oai-pmh`の部分は、参照用のマークアップ言語（reStructuredTextなど）におけるラベルであり、別のドキュメントセクションや外部の資料にリンクするときに使用されます。これを直接的な日本語訳にすることはできませんが、文脈に応じた翻訳が必要です。\n"
+"\n"
+"例えば、もしこのラベルが「OAI-PMHについての節」を指し示している場合、「:ref:`oai-pmh`」は次のような日本語になるかもしれません:\n"
+"\n"
+"「OAI-PMHに関する節を参照してください。」\n"
+"\n"
+"ただし、実際にドキュメント内でどのように使用すべきかは、そのドキュメントの全体的な構成や訳し方のスタイルにも依存します。ですので、このラベルがどのようなコンテキストで使用されているのかを正確に理解するために、追加の情報が必要です。"
+
+#: ../../index.rst:132
+msgid "Administer"
+msgstr "管理"
+
+#: ../../index.rst:134
+msgid ""
+"This section describes how to administer AtoM, whether for a single "
+"institution or for a :term:`network`."
+msgstr "このセクションでは、単一の機関または:term:`ネットワーク`でのAtoMの管理方法について説明します。"
+
+#: ../../index.rst:137
+msgid ":ref:`Manage user accounts and user groups <manage-user-accounts>`"
+msgstr ":ref:`ユーザーアカウントとユーザーグループの管理 <manage-user-accounts>`"
+
+#: ../../index.rst:138
+msgid ":ref:`Manage digital object storage <manage-digital-object-storage>`"
+msgstr ":ref:`デジタルオブジェクトのストレージ管理 <manage-digital-object-storage>`"
+
+#: ../../index.rst:139
+msgid ":ref:`Edit user permissions <edit-user-permissions>`"
+msgstr ":ref:`ユーザー権限の編集 <edit-user-permissions>`"
+
+#: ../../index.rst:140
+msgid ":ref:`manage-jobs`"
+msgstr ":ref:`ジョブの管理`"
+
+#: ../../index.rst:141
+msgid ":ref:`Manage static pages <manage-static-pages>`"
+msgstr ":ref:`固定ページの管理 <manage-static-pages>`"
+
+#: ../../index.rst:142
+msgid ":ref:`Manage menus <manage-menus>`"
+msgstr ":ref:`メニューの管理 <manage-menus>`"
+
+#: ../../index.rst:143
+msgid ":ref:`Manage plugins <manage-plugins>`"
+msgstr ":ref:`プラグインの管理 <manage-plugins>`"
+
+#: ../../index.rst:144
+msgid ":ref:`Settings <settings>`"
+msgstr "`:ref:`設定 <settings>`"
+
+#: ../../index.rst:145
+msgid ":ref:`Themes and theming <themes>`"
+msgstr ":ref:`テーマとテーマ設定 <themes>`"
+
+#: ../../index.rst:146
+msgid ":ref:`Default language <default-language>`"
+msgstr ":ref:`デフォルト言語 <default-language>`"
+
+#: ../../index.rst:147
+msgid ":ref:`Site logo <site-logo>`"
+msgstr ":ref:`サイトロゴ <site-logo>`"
+
+#: ../../index.rst:148
+msgid ":ref:`Search for updates <search-updates>`"
+msgstr ":ref:`アップデートの検索 <search-updates>`"
+
+#: ../../index.rst:149
+msgid ":ref:`Visible elements <visible-elements>`"
+msgstr ":ref:`可視要素 <visible-elements>`"
+
+#: ../../index.rst:154
+msgid "Data entry / templates"
+msgstr "データ入力 / テンプレート"
+
+#: ../../index.rst:156
+msgid ""
+"This section includes specific instructions on working with AtoM's "
+"standards-based edit templates. Data entry guidance is provided based on "
+"guidance from the relevant standard, notes on each :term:`field's <field>` "
+"use in AtoM, and more."
+msgstr ""
+"このセクションには、AtoMの標準に基づく編集テンプレートを使用するための具体的な指示が含まれています。データ入力の指針は、関連する標準からのガイダンス、AtoM内での各:term:`フィールド"
+" <field>`の使用に関する注記などに基づいて提供されます。"
+
+#: ../../index.rst:161
+msgid "**Archival description templates**"
+msgstr "**アーカイバル記述テンプレート**"
+
+#: ../../index.rst:163
+msgid ":ref:`ISAD(G) template <isad-template>`"
+msgstr "`:ref:`ISAD(G) テンプレート <isad-template>`"
+
+#: ../../index.rst:164
+msgid ":ref:`RAD template <rad-template>`"
+msgstr ":ref:`RADテンプレート <rad-template>`"
+
+#: ../../index.rst:165
+msgid ":ref:`DACS template <dacs-template>`"
+msgstr ""
+"以下はあなたが指定したテキストの日本語訳です：\n"
+"\n"
+":ref:`DACSテンプレート <dacs-template>`"
+
+#: ../../index.rst:166
+msgid ":ref:`Dublin Core template <dc-template>`"
+msgstr ":ref:`ダブリン・コア テンプレート <dc-template>`"
+
+#: ../../index.rst:167
+msgid ":ref:`MODS template <mods-template>`"
+msgstr ":ref:`MODS テンプレート <mods-template>`"
+
+#: ../../index.rst:169
+msgid "**Authority record templates**"
+msgstr "**権威レコードテンプレート**"
+
+#: ../../index.rst:171
+msgid ":ref:`ISAAR-CPF template <isaar-template>`"
+msgstr ":ref:`ISAAR-CPFテンプレート<isaar-template>`"
+
+#: ../../index.rst:173
+msgid "**Archival institution templates**"
+msgstr "**アーカイブ機関のテンプレート**"
+
+#: ../../index.rst:175
+msgid ":ref:`ISDIAH template <isdiah-template>`"
+msgstr ":ref:`ISDIAH テンプレート <isdiah-template>`"
+
+#: ../../index.rst:177
+msgid "**Archival function templates**"
+msgstr "**アーカイブ機能テンプレート**"
+
+#: ../../index.rst:179
+msgid ":ref:`ISDF template <isdf-template>`"
+msgstr ":ref:`ISDF テンプレート <isdf-template>`"
+
+#: ../../index.rst:181
+msgid "**Rights record templates**"
+msgstr "**権利記録テンプレート**"
+
+#: ../../index.rst:183
+msgid ":ref:`PREMIS template <premis-template>`"
+msgstr ":ref:`PREMISテンプレート <premis-template>`"
+
+#: ../../index.rst:186
+msgid "Glossary"
+msgstr "用語集"
+
+#: ../../index.rst:188
+msgid "Glossary of terms used throughout this user manual."
+msgstr "このユーザーマニュアルで使用される用語の用語集です。"
+
+#: ../../index.rst:190
+msgid ":doc:`Glossary <user-manual/glossary/glossary>`"
+msgstr ":doc:`用語集 <user-manual/glossary/glossary>`"
+
+#: ../../index.rst:195
+msgid "Administrator manual"
+msgstr "管理者マニュアル"
+
+#: ../../index.rst:197
+msgid ""
+"Instructions for installing, upgrading, importing and more; includes "
+"administering the system via the command-line interface."
+msgstr "インストール、アップグレード、インポートなどの手順; コマンドラインインタフェースを通じてシステムを管理することが含まれています。"
+
+#: ../../index.rst:203
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../index.rst:205
+msgid ":ref:`installation-intended-audience`"
+msgstr ":ref:`インストール対象者`"
+
+#: ../../index.rst:206
+msgid ":ref:`installation-requirements`"
+msgstr ":ref:`インストール要件`"
+
+#: ../../index.rst:207
+msgid ":ref:`installation-ubuntu`"
+msgstr "`installation-ubuntu` の参照"
+
+#: ../../index.rst:208
+msgid ":ref:`installation-windows`"
+msgstr "インストール (Windows向け)"
+
+#: ../../index.rst:209
+msgid ":ref:`installation-macosx`"
+msgstr ":ref:`macosx-インストール`"
+
+#: ../../index.rst:210
+msgid ":ref:`installation-ansible`"
+msgstr ":ref:`インストール-Ansible`"
+
+#: ../../index.rst:211
+msgid ":ref:`installation-upgrading`"
+msgstr ":ref:`インストールおよびアップグレード`"
+
+#: ../../index.rst:212
+msgid ":ref:`installation-execution-limits`"
+msgstr ":ref:`インストール時の実行制限`"
+
+#: ../../index.rst:218
+msgid "Maintenance"
+msgstr "メンテナンス"
+
+#: ../../index.rst:220
+msgid ":ref:`maintenance-cli-tools`"
+msgstr ":ref:`メンテナンスCLIツール`"
+
+#: ../../index.rst:221
+msgid ":ref:`cli-import-export`"
+msgstr ""
+":ref:`cli-import-export`は参照用のマークアップ言語で記述されている部分で、具体的なテキストコンテンツではありません。翻訳による日本語テキストは提供せず、元のドキュメントに設定された内部参照やラベルを指しています。したがって、この部分はそのまま「:ref:`cli-import-export`」として文書内に保持されるべきです。\n"
+"\n"
+"もし、参照する部分のタイトルや内容が必要であれば、その部分の具体的なテキストを提供していただければ、それに対する翻訳は可能です。"
+
+#: ../../index.rst:222
+msgid ":ref:`maintenance-clear-cache`"
+msgstr ":ref:`メンテナンス-キャッシュのクリア`"
+
+#: ../../index.rst:223
+msgid ":ref:`maintenance-web-analytics`"
+msgstr "`maintenance-web-analytics` の参照"
+
+#: ../../index.rst:224
+msgid ":ref:`maintenance-logging`"
+msgstr ":ref:`メンテナンス-ログ記録`"
+
+#: ../../index.rst:225
+msgid ":ref:`maintenance-monitoring`"
+msgstr "`:ref:`maintenance-monitoring``を参照してください。"
+
+#: ../../index.rst:226
+msgid ":ref:`maintenance-populate-search-index`"
+msgstr ":ref:`メンテナンス-検索インデックスの充実`"
+
+#: ../../index.rst:227
+msgid ":ref:`maintenance-data-backup`"
+msgstr ":ref:`メンテナンス-データバックアップ`"
+
+#: ../../index.rst:228
+msgid ":ref:`common-atom-queries`"
+msgstr ":ref:`common-atom-queries`のセクションを参照してください。"
+
+#: ../../index.rst:229
+msgid ":ref:`maintenance-tuning`"
+msgstr ":ref:`メンテナンス調整`"
+
+#: ../../index.rst:230
+msgid ":ref:`maintenance-asynchronous-jobs`"
+msgstr ":ref:`メンテナンス-非同期ジョブ`"
+
+#: ../../index.rst:231
+msgid ":ref:`maintenance-troubleshooting`"
+msgstr ":ref:`メンテナンス-トラブルシューティング`"
+
+#: ../../index.rst:232
+msgid ":ref:`debug-mode`"
+msgstr ":ref:`debug-mode` (デバッグモード)"
+
+#: ../../index.rst:233
+msgid ":ref:`maintenance-elasticsearch`"
+msgstr ""
+"このテキストは、文脈に応じたマニュアルまたはガイド内で、Elasticsearchのメンテナンスに関するセクションへの参照である可能性が高いです。「:ref:`maintenance-elasticsearch`」部分は、特定の文書管理システムやマークアップ言語における参照タグです。そのため以下のように日本語に訳しますが、実際の文書では対応するセクションのタイトルに応じて置き換えられるべきです。\n"
+"\n"
+"```\n"
+":ref:`maintenance-elasticsearch`\n"
+"```\n"
+"\n"
+"日本語訳（タイトルが「Elasticsearchのメンテナンス」の場合）:\n"
+"```\n"
+":ref:`Elasticsearchのメンテナンス`\n"
+"```\n"
+"\n"
+"訳者メモ：原文がリファレンス（参照）タグであるため、直接的な日本語訳はそのままの形式で提供されます。実際に使用する場合には、文書内での対応する部分の正確なタイトルやセクションに応じて訳がなされる必要があります。"
+
+#: ../../index.rst:238
+msgid "Customization"
+msgstr "カスタマイズ"
+
+#: ../../index.rst:240
+msgid ":ref:`customization-config-files`"
+msgstr ":ref:`カスタマイズ設定ファイル`"
+
+#: ../../index.rst:241
+msgid ":ref:`customization-theming`"
+msgstr "`カスタマイズ・テーマ設定`"
+
+#: ../../index.rst:242
+msgid ":ref:`customization-watermarking`"
+msgstr ":ref:`カスタマイズ-透かし入れ`"
+
+#: ../../index.rst:243
+msgid ":ref:`customization-authentication`"
+msgstr "`:ref:「customization-authentication」`"
+
+#: ../../index.rst:244
+msgid ":ref:`customization-localization`"
+msgstr ""
+"`:ref:`customization-localization` というマークアップは、特定のドキュメント内での参照リンクを示しており、実際の翻訳には文脈が必要です。これが Archivematica ドキュメント内の見出しやセクションを指している場合、それは文書における「カスタマイズとローカリゼーション」に対する参照である可能性があります。日本語でそれを表現するには、以下のようになるでしょう：\n"
+"\n"
+"`:ref:`カスタマイズとローカリゼーション`\n"
+"\n"
+"ただし、この参照が機能するように、文書内で適切なラベルが設定されている必要があります。参照が正しく機能するためには、原文のマークアップ構造を保持し、対応する日本語セクション名に置き換える必要があります。もし具体的なセクション名が分からない場合は、元のドキュメントを確認するか、文書の提供者に確認する必要があるでしょう。"
+
+#: ../../index.rst:249
+msgid "Security"
+msgstr "セキュリティ"
+
+#: ../../index.rst:251
+msgid ":ref:`security-application`"
+msgstr ":ref:`セキュリティ・アプリケーション`"
+
+#: ../../index.rst:252
+msgid ":ref:`security-csp-headers`"
+msgstr ""
+"この指示が意味することは、`security-csp-headers` "
+"というラベルのついたリファレンスセクションまたは文書のある部分について言及しているということです。しかし、その具体的な内容を日本語に翻訳するためには、元の文脈またはテキストが必要です。それだけでは翻訳することができません。もし元の英文の内容が提供されれば、それを日本語に翻訳することが可能です。"
+
+#: ../../index.rst:253
+msgid ":ref:`security-firewall`"
+msgstr ""
+"`:ref:`security-firewall`` の部分は Sphinx ドキュメンテーション ジェネレーターの参照リンク構文です。具体的なテキストが提供されていないので、直接的な翻訳はできませんが、この部分が参照しているであろうセクションのタイトルを日本語に翻訳すると以下のようになります。\n"
+"\n"
+"「セキュリティ：ファイアウォール」"
+
+#: ../../index.rst:254
+msgid ":ref:`security-backups`"
+msgstr "セキュリティバックアップ\n"
+
+#: ../../index.rst:259
+msgid "Developer's manual"
+msgstr "開発者マニュアル"
+
+#: ../../index.rst:261
+msgid ""
+"Guidelines for developers interested in customizing AtoM, developing new "
+"modules, and working with the application's API."
+msgstr "AtoMをカスタマイズしたい開発者、新しいモジュールの開発、及びアプリケーションのAPIを利用して作業するためのガイドラインです。"
+
+#: ../../index.rst:267
+msgid "Environments"
+msgstr "環境"
+
+#: ../../index.rst:269
+msgid "We provide two developer-friendly environments for AtoM."
+msgstr "私たちはAtoMのために2つの開発者向け環境を提供しています。"
+
+#: ../../index.rst:271
+msgid ":ref:`dev-env-vagrant`"
+msgstr ""
+"この指定されたテキストは、特定の文脈の範疇や具体的内容を含める引用又は参照マークアップと考えられます。したがって、直訳するよりも、その参照を指し示す適切な日本語の表現や構造に適合させる必要があります。しかしながら、与えられたテキストには十分な情報が欠けているため、適正な日本語訳を提供することは困難です。通常、`:ref:` はドキュメント内の他のセクションへの参照であり、`dev-env-vagrant` はその参照の対象となるセクションの名称を示している可能性があります。\n"
+"\n"
+"もし、`dev-env-vagrant`が「Vagrantによる開発環境」というセクションへの参照であると仮定するならば、日本語の文書では次のようになるでしょう：\n"
+"\n"
+"```\n"
+"「Vagrantによる開発環境」セクションを参照してください。\n"
+"```\n"
+"\n"
+"ただし、文書の構造やドキュメント生成ツール（例：Sphinx）によって、実際にはさらに技術的なフォーマットが必要になることがありますので、その点を考慮して訳を行う必要があります。"
+
+#: ../../index.rst:272
+msgid ":ref:`dev-env-compose`"
+msgstr ""
+":ref:`dev-env-compose`というテキストは、恐らく特定のセクションやラベルへの参照を意味しているMarkdown形式またはreStructuredText形式のコードである可能性が高いです。翻訳する際は、特定のセクションへの参照そのものを変更することはなく、参照の意味合いを保持する必要があります。このテキストが示すものはそのドキュメントの中にある「開発環境のセットアップに関するセクション」を指しているかもしれません。\n"
+"\n"
+"翻訳する場合、もし参照先タイトルも翻訳する必要があるなら以下のようになります：\n"
+"\n"
+":ref:`開発環境-Compose`\n"
+"\n"
+"しかし、通常、参照コード自体は変更せず、その周りの文脈に合わせた日本語に翻訳します。そのため具体的な文脈がない限り、直訳は避けるのが望ましいです。コードの維持が前提である場合は、そのまま:ref:`dev-env-compose`としておきます。"
+
+#: ../../index.rst:277
+msgid "API"
+msgstr ""
+"APIは英語の\"Application Programming "
+"Interface\"の略で、アプリケーションプログラミングインターフェースを意味します。これは、異なるソフトウェアアプリケーション間で相互作用を可能にする一連のルールとプロトコルです。APIを使用すると、開発者は特定のソフトウェアやウェブサービスの機能を他のアプリケーション内で容易に利用できるようになります。"
+
+#: ../../index.rst:279
+msgid ""
+"Overview of the application programming interface available in AtoM. "
+"Includes sample requests and responses for available endpoints."
+msgstr ""
+"AtoMで利用可能なアプリケーションプログラミングインターフェースの概要。利用可能なエンドポイントのサンプルリクエストとレスポンスが含まれます。"
+
+#: ../../index.rst:282
+msgid ":ref:`api-intro`"
+msgstr ""
+":ref:`api-intro` は reStructuredText "
+"形式の文書で参照リンクに使用される構文の一つです。このテキスト自体は翻訳の対象ではありませんが、意味するところは「APIイントロダクション」というセクションやドキュメントを参照していると考えられます。そのため、参照されている内容に基づいた適切な日本語訳を提供するためには、対応するセクションのタイトルやコンテキストが必要となります。もしそのセクションのタイトルを日本語に翻訳するならば、「API"
+" の紹介」というような訳になるかもしれません。"
+
+#: ../../index.rst:283
+msgid ":ref:`api-browse-taxonomies`"
+msgstr ":ref:`api-browse-taxonomies` (API-タクソノミーをブラウズ)"
+
+#: ../../index.rst:284
+msgid ":ref:`api-browse-io`"
+msgstr ""
+"`:ref:`api-browse-io`というテキストは、Sphinxドキュメントツールを使用している際に見られるレファレンス（参照）マークアップです。これは文書内の特定のセクションやラベルを指し示すために使われるもので、そのままでは日本語に翻訳する意味がないので、実際の文脈が必要です。しかし、テキストを日本語の文脈に合うように埋め込む場合、それは単にその参照部分を示すためにそのまま使用されます。\n"
+"\n"
+"参照されている 'api-browse-io' が何を指しているかに基づいて、完全な文を日本語にする例を以下に示します。\n"
+"\n"
+"参照：「APIによる入出力データの閲覧」(`:ref:`api-browse-io`)"
+
+#: ../../index.rst:285
+msgid ":ref:`api-read-io`"
+msgstr ""
+"`:ref:`api-read-io``は文脈がないと正確な翻訳が難しいですが、これはおそらく技術ドキュメント内の参照リンクを指しています。これを日本語訳する際、通常はリンクテキスト自体は翻訳されませんが、リンクが導くセクションのタイトルを翻訳することが多いです。\n"
+"\n"
+"ただし、リンクの宛先が示されていないため、正確なセクション名を推測することはできません。そのため、以下においては、リンクの書式を変えずに、そのまま残します：\n"
+"\n"
+"`:ref:`api-read-io``\n"
+"\n"
+"もし宛先のタイトルを知っている場合、たとえば \"API Read Input/Output\" であれば、以下のように翻訳することができます：\n"
+"\n"
+"`:ref:`APIの読み込みI/O`\n"
+"\n"
+"翻訳者は宛先のタイトルを適切に翻訳して、書式の形式を維持する必要があります。"
+
+#: ../../index.rst:286
+msgid ":ref:`api-download-do`"
+msgstr "``api-download-do`` の参照"

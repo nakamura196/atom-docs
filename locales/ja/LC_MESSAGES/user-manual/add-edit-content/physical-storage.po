@@ -1,0 +1,815 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:5
+msgid "Physical storage"
+msgstr "物理的ストレージ"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:17
+msgid ""
+"AtoM allows archival institutions to create relationships between "
+":term:`archival descriptions <archival description>` and :term:`accession "
+"records <accession record>` and their associated physical storage containers"
+" and locations. Details on how to create, manage, link, and delete physical "
+"storage containers are included below."
+msgstr ""
+"AtoMでは、アーカイブ機関が`:term:`アーカイブ記述 <archival description>`と`:term:`受け入れ記録 "
+"<accession "
+"record>`とそれに関連する物理的保管容器及び場所に関する関係を作成することができます。物理保管容器を作成、管理、リンク、削除する方法の詳細は以下に記載されています。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:23
+#: ../../user-manual/add-edit-content/physical-storage.rst:157
+msgid "**Jump to**:"
+msgstr "**ジャンプ先**："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:25
+#: ../../user-manual/add-edit-content/physical-storage.rst:260
+#: ../../user-manual/add-edit-content/physical-storage.rst:345
+#: ../../user-manual/add-edit-content/physical-storage.rst:426
+msgid ":ref:`manage-storage-types`"
+msgstr ":ref:`ストレージタイプの管理`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:26
+msgid ":ref:`link-physical-storage`"
+msgstr ":ref:`リンク-物理的な保管`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:27
+msgid ":ref:`browse-physical-storage`"
+msgstr ":ref:`物理的記憶装置を閲覧`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:28
+msgid ":ref:`physical-storage-visibility`"
+msgstr "`:ref:`物理的ストレージの可視性`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:32
+#: ../../user-manual/add-edit-content/physical-storage.rst:164
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイバル・ディスクリプション`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:33
+#: ../../user-manual/add-edit-content/physical-storage.rst:167
+msgid ":ref:`csv-import-storage-cli`"
+msgstr ""
+":ref:`csv-import-storage-cli` "
+"の参照先は翻訳する文脈がないため、正確な意味を伝える日本語訳は提供できません。このような参照は通常、特定のドキュメントやセクションを指しており、文脈に依存します。ただし、直訳すると、「CSVインポートストレージCLI」または「CSVインポート・ストレージ用コマンドラインインターフェース」となりますが、これは原文の意図を正確に反映している保証はありません。参照先の詳細な文脈が必要です。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:34
+#: ../../user-manual/add-edit-content/physical-storage.rst:166
+msgid ":ref:`create-physical-storage-report`"
+msgstr ""
+"この`:ref:`create-physical-storage-report``は、そのままではテキストではなく、何らかのドキュメントやマニュアル内の参照ラベルのように見えます。このラベルは、特定のセクションまたはトピックへのリンクとして機能する可能性があり、実際の文書においては適切なタイトルに置き換えられることになります。\n"
+"\n"
+"そのため、直訳すると以下のようになりますが、コンテキストに応じて適切な節のタイトルや内容を代わりに挿入する必要があります。\n"
+"\n"
+"``物理的保存レポートの作成``\n"
+"\n"
+"それでも、正確な文脈や用途については、参照しているドキュメントやその構造を理解する必要があるため、このラベル自体はマニュアルやドキュメント内でクリックするか、参照するプロセスに従って適切な情報にアクセスできるように設計されています。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:35
+msgid ":ref:`cli-normalize-physical-object` (command-line tasks)"
+msgstr ":ref:`cli-normalize-physical-object`（コマンドラインタスク）"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:40
+msgid "Manage physical storage types"
+msgstr "物理的な保存形態の管理\n"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:42
+msgid ""
+"Institutions can change and manage the terms used to describe physical "
+"object containers and locations by using the Physical Object Type "
+":term:`taxonomy`:"
+msgstr ""
+"機関は、物理的なオブジェクトの容器や位置を記述するために使用される用語を変更し、管理することができます。これは、物理的オブジェクトタイプの「タクソノミー」を使用することで行います："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:45
+msgid ""
+"Click on the |pencil| :ref:`Manage <main-menu-manage>` menu, then on "
+"Taxonomies. From the list, click on Physical Object Type."
+msgstr ""
+"|鉛筆| のアイコンをクリックして、 :ref:`管理 <main-menu-manage>` "
+"メニューを開き、分類法(Taxonomies)を選択します。リストから「物理的オブジェクトの種類(Physical Object "
+"Type)」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:10
+msgid "pencil"
+msgstr ""
+"Pencil の翻訳は行えますが、提供されたコンテキストが不足しているため、適切な翻訳を提供するのが難しいです。「Pencil」は通常英語で「鉛筆」と訳されますが、もし「pencil」が特定の用語や概念を指している場合は、それに応じた翻訳が必要になるかもしれません。もし、Archivematicaに関連する「pencil」の用途や文脈があれば、それを提供していただけると正確な翻訳が可能です。\n"
+"\n"
+"ただし、文脈が提供されていない現状では、「pencil」を単純に「鉛筆」と訳します。\n"
+"\n"
+"鉛筆"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Physical Object Type taxonomy"
+msgstr "物理的対象分類法"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:53
+msgid ""
+"By clicking on an object type, you can view the object type in the taxonomy,"
+" displaying hierarchical terms if applicable."
+msgstr "オブジェクトタイプをクリックすると、分類法におけるそのオブジェクトタイプが表示され、該当する場合は階層的な用語が表示されます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Physical object taxonomy showing hierarchy"
+msgstr "物理的対象の分類と階層を示す"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:61
+msgid ""
+"The default hierarchy in the Physical Object type :term:`taxonomy` in AtoM "
+"is as follows:"
+msgstr "AtoMの物理オブジェクトタイプの:term:`分類法`におけるデフォルトの階層は以下の通りです："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:69
+msgid ""
+"The intended use is for \"Containers\" to include specific storage "
+"containers, such as box numbers, cabinet drawers, etc., and for "
+"\"Locations\" to include more general storage locations, such as \"Cold "
+"storage,\" \"Vault,\" etc. Storage types and uses can be customized to meet "
+"institutional practices, however in order to :ref:`link <link-physical-"
+"storage>` a custom storage container to a new or existing :term:`archival "
+"description` you must nest the storage container under \"Container.\""
+msgstr ""
+"その意図された使用方法は、「コンテナ」に具体的な収納容器を含めることであり、例えば箱番号、キャビネットの引き出し等がそれに該当し、「ロケーション」にはもっと一般的な収納場所を含めることであり、例えば「冷蔵保管」、「金庫」等がそれに該当します。収納タイプと利用方法は、機関の慣行に合わせてカスタマイズすることができますが、カスタム収納容器を新規または既存の:term:`アーカイブ記述`に"
+" :ref:`リンク <link-physical-storage>` するためには、「コンテナ」の下に収納容器を入れ子にする必要があります。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:77
+msgid ""
+"For more information on working with terms and taxonomies in AtoM, see: "
+":ref:`terms`."
+msgstr "AtoMで用語や分類法を使って作業する方法についての詳細は、以下を参照してください: :ref:`terms`。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:83
+msgid "Edit storage types"
+msgstr "ストレージタイプを編集"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:85
+msgid ""
+"All storage :term:`terms <term>` except \"Artefact\", \"Container\" and "
+"\"Location\" can be edited or deleted by authenticated users (for more "
+"information about locked terms, see :ref:`Terms <terms>`)."
+msgstr ""
+"すべての保存 :term:`用語 <term>` "
+"は、「アーティファクト」、「コンテナ」、「ロケーション」を除いて、認証されたユーザーによって編集または削除することができます（ロックされた用語についての詳細については、:ref:`用語"
+" <terms>` を参照してください）。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:89
+msgid "Click on the name of a Physical Object Type, then click on edit:"
+msgstr "物理オブジェクトタイプの名前をクリックし、その後編集をクリックします："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Editing a physical object type"
+msgstr "「物理的なオブジェクトタイプの編集」"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:96
+msgid ""
+"From here, the name of the physical object type can be changed, and internal"
+" notes, codes and uses can be added."
+msgstr "ここから、物理オブジェクトタイプの名称を変更し、内部メモ、コード、用途を追加することができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:99
+msgid ""
+"By clicking on the Relationships area, the term's placement in the hierarchy"
+" can be altered and new narrow terms can be added:"
+msgstr "「関係性」エリアをクリックすることで、用語の階層内での位置を変更したり、新しい下位用語を追加することができます："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Editing a physical object type's relationships"
+msgstr "物理的オブジェクトタイプの関連付けを編集する"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:107
+msgid "Click on save to save your changes."
+msgstr "変更を保存するには、「保存」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:112
+msgid "Add storage types"
+msgstr "ストレージタイプを追加"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:114
+msgid ""
+"New physical storage types can be created by clicking \"Add new\" in the "
+":term:`button block` located on the Physical Object Type taxonomy "
+":term:`view page`:"
+msgstr ""
+"新しい物理的保存タイプは、物理オブジェクトタイプ分類の:term:`view page`（ビューページ）に位置する:term:`button "
+"block`（ボタンブロック）内の「Add new」をクリックすることで作成できます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Add new physical object type"
+msgstr "新しい物理的オブジェクトのタイプを追加"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:123
+msgid ""
+"Another method of adding a new storage type is to click \"Add new\" when "
+"viewing an existing Physical Object type. This will automatically nest the "
+"new term as a :term:`child <child record>` of the existing term."
+msgstr ""
+"既存の物理オブジェクトタイプを表示している際に、「新規追加」をクリックすることでも、新しいストレージタイプを追加することができます。これにより、新しい用語が既存の用語の"
+" :term:`子 <child record>` として自動的にネストされます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:129
+msgid ""
+"This is the method to use if you wish to add a storage container to link to "
+":term:`archival descriptions <archival description>`. Find \"Container,\" "
+"and click \"Add new.\""
+msgstr ""
+"この方法は、:term:`アーカイバル記述 <archival "
+"description>`にリンクするためのストレージコンテナを追加したい場合に使用します。「コンテナ」を探し、そして「新規追加」をクリックします。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Add new physical object type as a child"
+msgstr "新しい物理的オブジェクトのタイプを子として追加"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:141
+msgid "Link physical storage"
+msgstr "物理的なストレージをリンクする"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:143
+msgid ""
+"Linking :term:`archival descriptions <archival description>` and/or "
+":term:`accession records <accession record>` to physical storage locations "
+"is performed from the :term:`view page` of the related record. For archival "
+"descriptions, physical storage containers can be linked at any :term:`level "
+"of description`."
+msgstr ""
+"アーカイブ記述やアクセションレコードを物理的な保管場所にリンクする操作は、関連するレコードのビューページから行われます。アーカイブ記述の場合、物理的な保管容器は、記述の任意のレベルでリンクすることができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:149
+msgid ""
+"It's possible to add multiple physical storage links to a single description"
+" or accession - similarly, a single storage container might be linked to "
+"multiple descriptions or accessions. While linking physical storage to a "
+"target record, you can create new storage containers on the fly as well as "
+"link to existing storage containers from the same screen. The instructions "
+"below will outline these options separately, but they can be performed as "
+"one single user edit if desired."
+msgstr ""
+"単一の記述やアクセッションには、複数の物理的なストレージリンクを追加することが可能です。同様に、単一のストレージコンテナは、複数の記述やアクセッションにリンクすることもあります。対象レコードに物理的ストレージをリンクする際には、新しいストレージコンテナをその場で作成することも、同じ画面から既存のストレージコンテナへリンクすることもできます。以下の説明ではこれらのオプションを別々に概説しますが、必要に応じて一つのユーザー編集として実行することもできます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:159
+msgid ":ref:`link-storage-change-remove`"
+msgstr ":ref:`リンク-ストレージ変更削除`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:160
+msgid ":ref:`link-storage-add-new`"
+msgstr ":ref:`リンク-ストレージ-新規追加`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:165
+msgid ":ref:`accession-records`"
+msgstr ":ref:`検収記録`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:172
+msgid "Add, change, or remove container links"
+msgstr "コンテナリンクの追加、変更、または削除"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:176
+msgid ""
+"The following screenshots will use archival descriptions as an example, but "
+"the process is the same for accession records."
+msgstr "以下のスクリーンショットは、一例としてアーカイブ記述を使用しますが、プロセスはアクセッション記録についても同じです。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:179
+msgid ""
+"Navigate to the :term:`view page` of the record to which you would like to "
+"link a physical storage container. Scroll to the bottom of the view page and"
+" click on the \"More\" button in the :term:`button block`, and then select "
+"\"Link physical storage\":"
+msgstr ""
+"レコードのビューページに移動します。物理的な保管容器をリンクしたいレコードのビューページにアクセスしてください。ビューページの一番下までスクロールし、ボタンブロックにある「More」ボタンをクリックした後、「Link"
+" physical storage」を選択します。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Linking an archival description to physical storage"
+msgstr "アーカイブ記述と物理的保管のリンク"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:189
+msgid ""
+"AtoM will redirect you to the Link physical storage :term:`edit page`. If a "
+"link to a physical storage container or location already exists, it can be "
+"edited by clicking the pencil icon, or deleted by clicking the **X**."
+msgstr ""
+"AtoMはあなたを物理的な保存容器または場所へのリンクが既に存在する場合、鉛筆アイコンをクリックすることで編集ができるほか、**X**をクリックすることで削除することが可能です。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Editing or adding a physical storage link"
+msgstr "物理的な保管場所のリンクの編集または追加"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:200
+msgid ""
+"This edits the information associated with the Physical storage container "
+"and location. If you change this information the change will apply across "
+"all records associated with the container."
+msgstr ""
+"この操作は、物理的な保管容器とその場所に関連付けられた情報を編集します。この情報を変更すると、その容器に関連付けられているすべての記録に変更が適用されます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Editing a physical storage container"
+msgstr "物理保存容器の編集"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:209
+msgid ""
+"To create a link with a different existing storage container, begin to type "
+"the container name in the Container field. AtoM will auto-suggest existing "
+"containers as you type. When you see the target container, click on it in "
+"the autocomplete :term:`drop-down menu` to select it."
+msgstr ""
+"別の既存のストレージコンテナとリンクを作成するには、コンテナフィールドにコンテナ名を入力し始めます。AtoMは、入力するにつれて既存のコンテナを自動的に提案します。目的のコンテナが表示されたら、自動補完：用語「ドロップダウンメニュー」でそれをクリックして選択します。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:214
+msgid ""
+"You can repeat this process as needed to add multiple containers. When you "
+"are finished, click the Save button in the :term:`button block` at the "
+"bottom of the :term:`edit page` to save your work. After saving, AtoM will "
+"redirect you to the :term:`view page` of the related record. You will see "
+"the linked physical storage container(s) listed in the right-hand "
+":term:`context menu`."
+msgstr ""
+"必要に応じてこのプロセスを繰り返し、複数のコンテナを追加することができます。完了したら、:term:`編集ページ` の下部にある "
+":term:`ボタンブロック` の「保存」ボタンをクリックして作業内容を保存してください。保存後、AtoMは関連記録の :term:`閲覧ページ` "
+"にリダイレクトします。右側の :term:`コンテキストメニュー` にリンクされた物理的な保管コンテナがリストされているのを見ることができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "An example of a physical storage container shown in the context menu"
+msgstr "コンテキストメニューに表示される物理的なストレージ容器の例"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:229
+msgid "Create a new container on the fly"
+msgstr "新しいコンテナをその場で作成する"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:231
+msgid ""
+"To link an :term:`archival description` or :term:`accession record` with a "
+"new container that does not yet exist in AtoM, follow step 1 in the "
+"instructions :ref:`above <link-storage-change-remove>` - that is, start from"
+" the :term:`view page` of the target record; click the \"More\" button; and "
+"select \"Link physical storage.\" AtoM will redirect you to the Link "
+"physical storage :term:`edit page`, where we can create new physical storage"
+" containers on the fly, as well as edit and/or remove existing container "
+"links. To create a new physical storage container on the fly to link to your"
+" record:"
+msgstr ""
+"アトムにまだ存在しない新しいコンテナと :term:`アーカイブ記述` や :term:`受入記録` "
+"をリンクするには、上記の説明にある手順1（:ref:`上記のリンク<link-storage-change-"
+"remove>`を参照）に従ってください。つまり、目的のレコードの :term:`表示ページ` "
+"から開始し、「その他」ボタンをクリックして、「物理的記憶のリンク」を選択します。その後、アトムはあなたを物理的記憶のリンク :term:`編集ページ` "
+"へリダイレクトし、そこでは新しい物理的記憶コンテナをその場で作成するとともに、既存のコンテナリンクの編集や削除も行えます。記録にリンクするために新しい物理的記憶コンテナをその場で作成するには："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:240
+msgid ""
+"Scroll to the bottom half of the :term:`edit page`, with the :term:`area "
+"header` of \"Or, create a new container.\" In the edit fields of this "
+"section, enter a container name and location, and select a container type "
+"from the :term:`drop-down menu` in the Type field."
+msgstr ""
+":term:`編集ページ`の下半分にスクロールし、「もしくは、新しいコンテナを作成します。」という:term:`領域ヘッダー`まで進んでください。このセクションの編集フィールドにコンテナ名と場所を入力し、タイプフィールドの:term:`ドロップダウンメニュー`からコンテナタイプを選択してください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Creating a new container"
+msgstr "新しいコンテナの作成"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:252
+msgid ""
+"The \"Type\" :term:`drop-down menu` is associated with the \"Physical Object"
+" Type\" :term:`taxonomy`. Users with sufficient access :term:`permissions "
+"<access privilege>` can modify, delete, and add new storage container types "
+"via |pencil| **Manage > Taxonomies**, but you cannot create new types on the"
+" fly via this drop-down menu."
+msgstr ""
+"「タイプ」:term:`ドロップダウンメニュー` は「物理オブジェクトタイプ」:term:`タクソノミー` に関連付けられています。適切なアクセス "
+":term:`権限 <access privilege>` を持つユーザーは、|pencil| **管理 > "
+"タクソノミー**を通じて新しい保存容器のタイプの変更、削除、追加が可能ですが、このドロップダウンメニューを通じてその場で新たなタイプを作成することはできません。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:258
+msgid "For more information, see:"
+msgstr "詳しくは、下記をご覧ください："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:261
+#: ../../user-manual/add-edit-content/physical-storage.rst:346
+#: ../../user-manual/add-edit-content/physical-storage.rst:427
+msgid ":ref:`terms`"
+msgstr ":ref:`用語`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:263
+msgid ""
+"When you are done adding your new container, click the \"Save\" button found"
+" in the :term:`button block` at the bottom of the :term:`edit page`. AtoM "
+"will redirect you to the related record's :term:`view page`, and you should "
+"see your new linked physical storage container listed in the right-hand "
+":term:`context menu`."
+msgstr ""
+"新しいコンテナの追加が完了したら、:term:`edit page` の下部にある :term:`button block` "
+"にある「Save」ボタンをクリックしてください。AtoMは関連するレコードの :term:`view page` "
+"にリダイレクトし、新しくリンクされた物理的な保管コンテナが右側の :term:`context menu` にリストされていることが確認できるでしょう。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:276
+msgid ""
+"New physical storage containers can also be created from the Browse physical"
+" storage area, by navigating to |pencil| **Manage > Physical storage**, and "
+"clicking the \"Add new\" button in the :term:`button block` at the bottom of"
+" the page."
+msgstr ""
+"ブラウズ・フィジカルストレージ領域から新しい物理的な保管容器も作成することができます。そのためには、|pencil| **管理 > "
+"物理的な保管**に移動し、ページの下部にある:term:`ボタンブロック`内の「新規追加」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:281
+#: ../../user-manual/add-edit-content/physical-storage.rst:488
+#: ../../user-manual/add-edit-content/physical-storage.rst:527
+msgid ":ref:`Back to top <physical-storage>`"
+msgstr ":ref:`トップに戻る <物理的保存>`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:286
+msgid "Browse and manage physical storage"
+msgstr "物理ストレージの参照と管理"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:288
+msgid ""
+"Physical storage can be browsed by authenticated (logged in) users with "
+"sufficient access :term:`permissions <access privilege>` through the "
+"|pencil| :ref:`Manage <main-menu-manage>` menu:"
+msgstr ""
+"認証された（ログインした）ユーザーは、十分なアクセスの権限を持っていれば、|pencil| :ref:`Manage <main-menu-"
+"manage>` メニューを通じて物理ストレージを閲覧することができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Accessing physical storage in Manage menu"
+msgstr "「管理メニューで物理ストレージにアクセスする」"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:297
+msgid ""
+"Once in Browse Physical storage, users have the option of sorting the "
+"storage entries by Name (of container) or Location by clicking in the first "
+"row of the Physical storage table:"
+msgstr ""
+"「ブラウズ・フィジカルストレージ」に一度アクセスすると、ユーザーは「フィジカルストレージテーブル」の最初の行をクリックすることで、コンテナの名前や場所によって、ストレージエントリを並べ替えるオプションを利用できます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Physical storage table with sorting"
+msgstr "物理ストレージテーブル（整理機能付き）"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:306
+msgid "From here, you can now:"
+msgstr "ここから、次のことができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:308
+msgid ":ref:`Add a new container <manage-storage-new-container>`"
+msgstr ":ref:`新しいコンテナを追加する <manage-storage-new-container>`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:309
+msgid ""
+":ref:`View and edit existing storage containers <manage-storage-edit-"
+"container>`"
+msgstr ":ref:`既存のストレージコンテナの閲覧と編集 <manage-storage-edit-container>`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:310
+msgid ":ref:`Generate a storage report <generate-storage-report>`"
+msgstr ":ref:`ストレージレポートを生成する <generate-storage-report>`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:315
+msgid "Add a new container from the physical storage module"
+msgstr "物理的ストレージモジュールから新しいコンテナを追加하세요。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:317
+msgid ""
+"From the Browse physical storage page, you can add new physical storage "
+"containers by clicking the \"Add new\" button in the :term:`button block` at"
+" the bottom of the page."
+msgstr ""
+"「Browse physical storage」ページから、「ページの下部にある:term:`button block`内の「Add "
+"new」ボタンをクリックすることで、新しい物理的保管容器を追加することができます。」"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:321
+msgid ""
+"Once clicked, AtoM will redirect you to an :term:`edit page` where you can "
+"add more information about your new storage container."
+msgstr ""
+"クリックすると、AtoMはあなたを`:term:`編集ページ`にリダイレクトし、そこで新しい保存容器に関するさらなる情報を追加することができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "An empty physical storage container edit page"
+msgstr "「空の物理ストレージコンテナ編集ページ」"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:329
+msgid ""
+"The \"Name\" and \"Location\" edit fields are free-text - enter a unique "
+"name for your storage container (to better be able to distinguish it when "
+"browsing, and when using the autocomplete fields to :ref:`link related "
+"records <link-physical-storage>` to the container), and a meaningful "
+"location that will help you retrieve the container."
+msgstr ""
+"「名前」と「場所」の編集フィールドはフリーテキストです - "
+"ご自身の保管容器にユニークな名前を入力してください（ブラウジング時や、オートコンプリートフィールドを使用して保管容器に `関連記録をリンクする "
+"<link-physical-storage>` "
+"際に、それをより区別しやすくするため）、そして、容器を取り出す際に役立つ意味のある位置情報を入力してください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:335
+msgid ""
+"The \"Type\" field is a :term:`drop-down menu` associated with the "
+"\"Physical Object Type\" :term:`taxonomy`. You can select an existing value "
+"from the drop-down menu, but you can't add new values on this screen."
+msgstr ""
+"「タイプ」フィールドは、「物理的オブジェクトタイプ」:term:`分類法` に関連付けられた :term:`ドロップダウンメニュー` "
+"です。ドロップダウンメニューから既存の値を選択することができますが、この画面では新しい値を追加することはできません。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:341
+msgid ""
+"Users with sufficient access :term:`permissions <access privilege>` can "
+"modify, delete, and add new storage container types via |pencil| **Manage > "
+"Taxonomies**. For more information, see:"
+msgstr ""
+"アクセス権限を持つユーザーは、|pencil| **「管理 > "
+"タクソノミー」**を通じて、新しい保管容器タイプの追加、削除、変更が可能です。詳細については、以下をご覧ください:"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:348
+msgid ""
+"When you are happy with your edits, click the \"Save\" button in the "
+":term:`button block` at the bottom of the edit page. AtoM will save the "
+"changes and display the :term:`view page` for the new physical storage "
+"container. You can click the \"Edit\" button on the view page to re-enter "
+"edit mode and make further changes, or the \"Delete\" button to delete it."
+msgstr ""
+"編集内容に満足したら、編集ページの下部にある :term:`ボタンブロック` "
+"にある「保存」ボタンをクリックしてください。AtoMは変更を保存し、新しい物理的保管容器の :term:`ビューページ` "
+"を表示します。ビューページ上の「編集」ボタンをクリックして編集モードに戻り、さらに変更を加えることも、「削除」ボタンをクリックして削除することもできます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:354
+msgid ""
+"To return to the Physical storage browse page, use the |pencil| :ref:`Manage"
+" <main-menu-manage>` menu in the AtoM :term:`header bar`, and select "
+"\"Physical storage.\""
+msgstr ""
+"物理的な保存場所の参照ページに戻るには、AtoM :term:`ヘッダーバー`の|pencil| :ref:`管理 <main-menu-"
+"manage>`メニューを使用し、「物理的な保存」を選択してください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:361
+msgid "View and edit existing storage containers"
+msgstr "既存のストレージコンテナの閲覧と編集"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:363
+msgid ""
+"Starting from the Browse physical storage page, when a user clicks on a "
+"container name in the browse results, AtoM will redirect the user to the "
+":term:`view page` of the selected container, and display a list of the "
+"resources associated with the selected storage container:"
+msgstr ""
+"ブラウズ物理ストレージページから始めて、ユーザーがブラウズ結果のコンテナ名をクリックすると、AtoMはユーザーを選択されたコンテナの「閲覧ページ」にリダイレクトし、選択されたストレージコンテナに関連付けられているリソースのリストを表示します。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Viewing a storage name with related resources listed"
+msgstr "関連するリソースがリストされたストレージ名の表示"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:373
+msgid ""
+"Clicking one of the blue hyperlinks listed under the Related resources will "
+"redirect you to the :term:`view page` for the related record."
+msgstr ""
+"関連リソースの下でリストされている青いハイパーリンクのひとつをクリックすると、関連するレコードの`:term:`表示ページ`へリダイレクトされます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:376
+msgid ""
+"Alternatively, by clicking the :term:`print icon` next to the container "
+"name, you can generate a simple HTML report (formatted for printing) for the"
+" storage container that includes the Reference code, Title, Dates, Part of "
+"(fonds or collection name) and Conditions governing access of any related "
+":term:`archival descriptions <archival description>`."
+msgstr ""
+"代わりに、コンテナ名の隣にある :term:`印刷アイコン` "
+"をクリックすることで、そのストレージコンテナに関するシンプルなHTMLレポート（印刷用にフォーマットされた）を生成できます。このレポートには、関連する "
+":term:`アーカイブ記述 <archival description>` "
+"に関連する参照コード、タイトル、日付、所属する資料群（フォンズまたはコレクション名）、アクセス管理条件が含まれています。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Storage print report"
+msgstr "保存プリントレポート"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:389
+msgid ""
+"At this time, the container report does not include related :term:`accession"
+" records <accession record>` linked to the physical storage container - "
+"though these will be displayed on the :term:`view page` of the container."
+msgstr ""
+"現時点では、コンテナレポートには、物理的な保管コンテナにリンクされた関連する「登録記録(accession "
+"records)」は含まれていませんが、これらはコンテナの「表示ページ(view page)」に表示されます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:394
+msgid "See also: :ref:`storage-report-manage`"
+msgstr "参照： :ref:`storage-report-manage`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:396
+msgid "Click \"close\" to return to the container storage view page."
+msgstr "「クローズ」をクリックして、コンテナー保管ビューページに戻ります。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:398
+msgid ""
+"Finally, the :term:`button block` at the bottom of the storage container's "
+":term:`view page` contains two buttons - Edit and Delete."
+msgstr ""
+"最終的に、ストレージコンテナの：term:`view page`の下部にある：term:`button "
+"block`には、[編集]と[削除]の2つのボタンが含まれています。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:401
+msgid ""
+"Clicking the :term:`Edit button` will redirect you to the :term:`edit page` "
+"for the current physical storage container, where you can edit the "
+"information associated with the container, including the container name, "
+"location and type."
+msgstr ""
+"「:term:`編集ボタン`をクリックすると、現在の物理保管容器の:term:`編集ページ`へリダイレクトされ、そこで容器名、場所、タイプを含む保管容器に関連する情報を編集することができます。」"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:412
+msgid ""
+"You cannot edit the related records linked to the physical storage container"
+" from this screen. To change the records associated with the container, you "
+"must do so from the related :term:`archival description` or :term:`accession"
+" record` for each resource. For more information, see above: :ref:`link-"
+"storage-change-remove`."
+msgstr ""
+"この画面から物理的な保管容器にリンクされた関連レコードを編集することはできません。コンテナに関連付けられているレコードを変更するには、各リソースに対して関連する「アーカイブ記述」または「収集記録」から操作する必要があります。詳細については、上記の「リンク-"
+"保管-変更-削除」を参照してください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:418
+msgid ""
+"In the edit page of the container, the \"Type\" :term:`drop-down menu` is "
+"associated with the \"Physical Object Type\" :term:`taxonomy`. You can "
+"choose different a taxonomy :term:`term` in this edit page, but you cannot "
+"add new container types here. Users with sufficient access "
+":term:`permissions <access privilege>` can modify, delete, and add new "
+"storage container types via |pencil| **Manage > Taxonomies**. For more "
+"information, see:"
+msgstr ""
+"コンテナの編集ページにて、「タイプ」:term:`ドロップダウンメニュー`は「物理的オブジェクトタイプ」:term:`分類法（タクソノミー）`に関連づけられています。この編集ページで異なる分類法:term:`用語`を選択することはできますが、新しいコンテナタイプをここで追加することはできません。十分なアクセス:term:`権限"
+" <アクセス権限>`を持つユーザーは、|pencil| **管理 > 分類法** "
+"を通じて、新しい保管コンテナタイプを変更、削除、追加することができます。詳細については、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:429
+msgid ""
+"When you're done making your changes, click the Save button in the "
+":term:`button block` at the bottom of the container's :term:`edit page`. "
+"AtoM will save your changes and redirect you to the :term:`view page` for "
+"the current container, so you can review your work. You can repeat this "
+"process as needed until you are satisfied with your changes."
+msgstr ""
+"変更が完了したら、コンテナの「編集ページ」の下部にある「ボタンブロック」の中の「保存」ボタンをクリックしてください。AtoMは変更を保存し、作業内容を確認できるように、現在のコンテナの「表示ページ」へとリダイレクトします。満足のいく変更が出来るまで、このプロセスを必要に応じて繰り返してください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:435
+msgid ""
+"The container's view page also includes a Delete button, which can be used "
+"to permanently delete the physical storage container. When clicked, AtoM "
+"will first present you with a confirmation page, including a list of related"
+" records from which the linked storage information will be removed when the "
+"container is deleted:"
+msgstr ""
+"コンテナの表示ページには、「削除」ボタンも含まれており、これを使用して物理的な保管コンテナを永久に削除することができます。クリックすると、AtoMはまず確認ページを表示します。このページには、コンテナが削除されると、リンクされている保管情報が削除される関連記録の一覧が含まれています。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Physical storage deletion confirmation page example"
+msgstr "物理ストレージ削除確認ページ例"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:446
+msgid ""
+"Click Delete again to confirm the operation, or Cancel to return to the "
+":term:`view page` for the physical storage container."
+msgstr ""
+"操作を確認するためにもう一度削除をクリックするか、物理的な保管容器の:term:`view page` に戻るためにキャンセルをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:451
+msgid ""
+"Once you click Delete on the confirmation page, the physical storage "
+"container will be permanently deleted!"
+msgstr "確認ページで「削除」をクリックすると、物理的な記憶媒体は永久に削除されます！"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:454
+msgid ""
+"Related records will **not** be deleted by this operation, but the related "
+"storage information for this container will be removed from any linked "
+":term:`archival description` or :term:`accession record` once the container "
+"is deleted."
+msgstr ""
+"この操作によって関連する記録は**削除されません**が、コンテナが削除されると、リンクされた:term:`アーカイバル記述`または:term:`受領記録`から、このコンテナの関連ストレージ情報が削除されます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:459
+msgid ""
+"Once you have made all your edits or deletions, you can return to the "
+"Physical storage browse page using the |pencil| :ref:`Manage <main-menu-"
+"manage>` menu in the AtoM :term:`header bar`, and select \"Physical "
+"storage.\""
+msgstr ""
+"すべての編集や削除を行ったら、AtoMの:term:`ヘッダーバー`にある|pencil| :ref:`Manage <main-menu-"
+"manage>`メニューを使用して「Physical storage」を選択し、「Physical storage」ブラウズページに戻ることができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:466
+msgid "Generate a physical storage report"
+msgstr "物理ストレージレポートを生成する"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:468
+msgid ""
+"AtoM includes a global physical storage report that can be generated via the"
+" :term:`user interface` from the :term:`Physical storage` module and "
+"downloaded as a CSV file from the :ref:`Jobs <manage-jobs>` page. This "
+"report is focused on container relations (i.e. physical storage containers "
+"linked to other :term:`entity` types in AtoM, such as :term:`archival "
+"description <archival description>` and :term:`accession records <accession "
+"record>`), and can also be used to identify unlinked containers. Export "
+"options on the report generation page allow users to choose which of these "
+"criteria should be included when creating the report."
+msgstr ""
+"AtoMには、グローバルな物理的ストレージレポートが含まれており、これは:term:`ユーザーインターフェース`から:term:`物理的保存`モジュールを経由して生成でき、:ref:`ジョブ<manage-"
+"jobs>`ページからCSVファイルとしてダウンロードすることができます。このレポートはコンテナの関連に焦点を当てています（つまり、AtoM内の他の:term:`エンティティ`タイプ、例えば:term:`アーカイブ記述<archival"
+" description>`や:term:`受け入れ記録<accession "
+"record>`にリンクされた物理的保管コンテナ）、さらにリンクされていないコンテナを特定するためにも使用できます。レポート生成ページのエクスポートオプションでは、ユーザーはレポート作成時にどの基準を含めるかを選択できます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:478
+msgid "For more information and detailed instructions, see:"
+msgstr "詳細な情報と詳細な指示については、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:480
+msgid ":ref:`global-storage-report`"
+msgstr ":ref:`グローバル-ストレージ-レポート`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:484
+msgid ":ref:`storage-report-view`"
+msgstr ""
+"`:ref:`storage-report-view`` "
+"は特定の参照ラベルのようですが、コンテキストが提供されていないため、そのまま翻訳することはできません。日本語の文書に合わせて適切な翻訳や説明を付加する必要があります。「ストレージレポートビュー」という意味になりますが、これが文書内の特定のセクションや機能を指している場合、その部分のタイトルや説明に合わせて翻訳する必要があります。実際の文脈を提供していただければ、より正確な翻訳が可能となります。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:485
+msgid ":ref:`storage-report-manage`"
+msgstr ":ref:`ストレージ・レポート管理`"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:486
+msgid ":ref:`box-label-report`"
+msgstr "`box-label-report` の参照"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:493
+msgid "Visibility and physical storage"
+msgstr "可視性と物理的保管"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:495
+msgid ""
+"Administrators are able to choose to make physical storage information "
+"available to unauthenicated (not logged-in) users or not through the "
+":ref:`Visible elements <visible-elements>` section of the Admin menu."
+msgstr ""
+"管理者は、Adminメニューの「:ref:`可視要素 <visible-"
+"elements>`」セクションにあるオプションを通じて、物理的な保存情報を認証されていない（ログインしていない）ユーザーに対し、利用可能にするか否かを選択することができます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Visible elements showing physical storage"
+msgstr "物理的な保存状態を示す可視要素"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:504
+msgid ""
+"To access the visible elements menu, click on the |gears| :ref:`Admin <main-"
+"menu-admin>` menu in the :term:`main menu` located in the :term:`header bar`"
+" and select \"Visible elements\" from the :term:`drop-down menu`."
+msgstr ""
+"表示要素メニューにアクセスするには、:term:`ヘッダーバー`にある :term:`メインメニュー`の中の|gears| "
+":ref:`管理<メインメニュー-管理>`メニューをクリックし、:term:`ドロップダウンメニュー`から「表示要素」を選択します。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:13
+msgid "gears"
+msgstr "\"ギア\"あるいは\"歯車\""
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:509
+msgid ""
+"Click on \"Physical storage\" to show the Physical storage check box. Check "
+"the box to allow unauthenicated users to see storage information or uncheck "
+"to disallow. Click save."
+msgstr ""
+"「物理ストレージ」をクリックして、「物理ストレージ」のチェックボックスを表示します。未認証ユーザーがストレージ情報を閲覧できるようにするには、ボックスをチェックします。閲覧を許可しない場合はチェックを外します。保存をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:513
+msgid ""
+"If visible, physical storage information will appear in the right hand "
+"column of the screen when viewing an :term:`archival description`."
+msgstr "可視化されていれば、物理的なストレージ情報は、:term:`アーカイブ記述`を表示する際に画面の右側のカラムに表示されます。"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:-1
+msgid "Physical storage visible to the unauthenicated users"
+msgstr "認証されていないユーザーにも見える物理的なストレージ"
+
+#: ../../user-manual/add-edit-content/physical-storage.rst:523
+msgid ""
+"These visibility settings do not impact :term:`accession record` container "
+"visibility. Accession records are not accessible to public users, and the "
+"Visible elements settings only apply to unauthenticated (i.e. public) users."
+msgstr ""
+"これらの可視性の設定は、:term:`アクセッション・レコード` "
+"コンテナの可視性には影響しません。アクセッション・レコードは、公開ユーザーからはアクセスできず、Visible "
+"elementsの設定は認証されていない（つまり、公開）ユーザーにのみ適用されます。"

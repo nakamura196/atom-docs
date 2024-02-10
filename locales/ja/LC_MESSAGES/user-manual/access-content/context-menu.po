@@ -1,0 +1,1075 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/access-content/context-menu.rst:5
+msgid "Context menu"
+msgstr "コンテキストメニュー"
+
+#: ../../user-manual/access-content/context-menu.rst:15
+msgid ""
+"The context menu appears on all :term:`view <view page>` and some "
+":term:`edit <edit page>` pages to provide greater contextual information "
+"about the record currently being viewed."
+msgstr ""
+"コンテキストメニューは、現在閲覧しているレコードについてのより詳細な情報を提供するために、全ての:term:`ビュー<view "
+"page>`ページおよび一部の:term:`編集<edit page>`ページに表示されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:19
+msgid ""
+"In the default theme, the :term:`Dominion theme`, AtoM’s view and edit pages"
+" are  generally displayed in the :term:`user interface` in either a 2 or 3 "
+"column  layout - the current record’s display data is presented in the "
+"central part of the page, while the side column(s) are generally used to "
+"provide additional options and further contextual information to enhance "
+"user orientation and navigation. These side columns make up the context "
+"menu."
+msgstr ""
+"デフォルトテーマである`:term:`Dominion "
+"theme`では、AtoMの閲覧と編集ページは一般に、2または3列レイアウトで`:term:`ユーザーインターフェース`に表示されます - "
+"現在のレコードの表示データはページの中央部に提示され、サイドカラムは追加オプションやさらなる文脈情報を提供して、ユーザーの方向性とナビゲーションを高めるために一般的に使用されます。これらのサイドカラムがコンテキストメニューを構成しています。"
+
+#: ../../user-manual/access-content/context-menu.rst:26
+msgid ""
+"The information provided in the context menu varies by the :term:`entity` "
+"type or display. Each is described separately below."
+msgstr ""
+"コンテキストメニューに提供される情報は、表示される:term:`entity`（実体）のタイプによって異なります。それぞれは以下に別々に説明してあります。"
+
+#: ../../user-manual/access-content/context-menu.rst:32
+msgid "Archival descriptions"
+msgstr "アーカイバル・デスクリプション"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "Context menu shown for archival description"
+msgstr "アーカイバルディスクリプションに表示されるコンテキストメニュー"
+
+#: ../../user-manual/access-content/context-menu.rst:39
+msgid ""
+"The context menu for an :term:`archival description` can include the "
+"following elements, depending on some configuration options set by an "
+":term:`administrator` via the application settings:"
+msgstr ""
+"アーカイブ記述のコンテキストメニューには、アプリケーションの設定を通じて管理者が設定した一部の構成オプションに応じて、以下の要素が含まれることがあります："
+
+#: ../../user-manual/access-content/context-menu.rst:43
+msgid "**Left-hand context menu**"
+msgstr "左側コンテキストメニュー"
+
+#: ../../user-manual/access-content/context-menu.rst:45
+msgid ""
+"The name/logo of the :term:`archival institution` which holds the resource "
+"described. For more information on linking an archival institution to an "
+"archival description, see: :ref:`link-archival-institution`."
+msgstr ""
+"記述された資料を保存している:term:`アーカイブ機関`の名称・ロゴ。アーカイブ機関をアーカイブ記述にリンクする方法の詳細については、以下を参照してください：:ref:`link-"
+"archival-institution`。"
+
+#: ../../user-manual/access-content/context-menu.rst:49
+msgid ""
+"The treeview (described in more detail :ref:`below <context-menu-treeview>`)"
+" if it is set to display in the sidebar mode, and the Quick search box. In "
+"the above image, the treeview is set to Full-width display, so only the "
+"Quick search box is visible in the left-hand context menu (the full-width "
+"treeview appears in the central body of the page). An :term:`administrator` "
+"can set the treeview display mode via **Admin > Settings > Global** - see: "
+":ref:`treeview-type`. For more information on the Quick search, see: "
+":ref:`treeview-search`."
+msgstr ""
+"以下のテキストを日本語に翻訳します。\n"
+"\n"
+"---\n"
+"\n"
+"**ツリービュー**（詳細は下記の`:ref:`context-menu-treeview`<context-menu-treeview>`に記載）がサイドバー・モードで表示される場合、そしてクイック検索ボックスに関するものです。上の画像では、ツリービューがフル幅表示に設定されているため、左側のコンテキストメニューにはクイック検索ボックスのみが見えます（フル幅のツリービューはページの中央の本体に表示されます）。:term:`管理者`は**管理 > 設定 > グローバル**からツリービューの表示モードを設定することができます。参照：`:ref:`treeview-type`<treeview-type>`。クイック検索の詳細については、こちらを参照してください：`:ref:`treeview-search`<treeview-search>`。\n"
+"\n"
+"---\n"
+"\n"
+"ツリービュー（より詳しい説明は下記の`:ref:`以下<context-menu-treeview>`に記載されています）は、サイドバーモードで表示するように設定されている場合、およびクイック検索ボックスです。上記の画像では、ツリービューはフル幅表示に設定されているため、左手側のコンテキストメニューにはクイック検索ボックスのみが表示されています（フル幅のツリービューはページの中央部に表示されます）。:term:`管理者`は、**管理 > 設定 > 全体**からツリービューの表示モードを設定することができます - 詳細はこちら：`:ref:`ツリービューのタイプ<treeview-type>`。クイック検索についての詳細は、こちらを参照してください：`:ref:`ツリービュー検索<treeview-search>`。"
+
+#: ../../user-manual/access-content/context-menu.rst:58
+msgid ""
+"If you have configured a custom sidebar menu with links to static pages, "
+"these will appear on all archival description :term:`view pages <view page>`"
+" below the Quick search and Treeview, in addition to the home page. For more"
+" information, see: :ref:`static-pages-menu`."
+msgstr ""
+"あなたが固定ページへのリンクを含むカスタムサイドバーメニューを設定している場合、これらは、ホームページに加えて、アーカイブの説明の全ての:term:`表示ページ"
+" <view page>`で、クイックサーチとツリービューの下に表示されます。詳細については、以下を参照してください: :ref:`static-"
+"pages-menu`。"
+
+#: ../../user-manual/access-content/context-menu.rst:64
+msgid "**Right-hand context menu**"
+msgstr "**右クリックコンテキストメニュー**"
+
+#: ../../user-manual/access-content/context-menu.rst:66
+msgid ""
+"A link to add the current record to the :term:`Clipboard`. For more "
+"information on using the Clipboard, see: :ref:`clipboard`."
+msgstr ""
+"現在のレコードを:term:`クリップボード`に追加するためのリンクです。クリップボードの使用方法については、以下を参照してください。:ref:`clipboard`。"
+
+#: ../../user-manual/access-content/context-menu.rst:69
+msgid ""
+"The \"Explore\" section, which contains various ways to explore the current "
+":term:`archival unit`. These include:"
+msgstr ""
+"「探索」セクションには、現在の:term:`archival unit`を探索するさまざまな方法が含まれています。これらには以下が含まれます："
+
+#: ../../user-manual/access-content/context-menu.rst:72
+msgid ""
+"The reports module. For more information, see: :ref:`reports-printing`."
+msgstr "レポートモジュール。詳細については、以下を参照してください： :ref:`reports-printing`。"
+
+#: ../../user-manual/access-content/context-menu.rst:73
+msgid ""
+"If the inventory list is configured, and the current description has "
+"descendants that match the configuration, a link to the Inventory list will "
+"be present, allowing users to explore lower-level records in a table-based "
+"list. For more information, see: :ref:`browse-hierarchy-inventory`. For "
+"settings and configuration, see: :ref:`inventory-settings`."
+msgstr ""
+"在庫リストが設定されており、現在の記述に設定に適合する子孫が存在する場合、ユーザーがテーブルベースのリストで下位レベルの記録を探索できるように、在庫リストへのリンクが表示されます。詳細については、:ref:`browse-"
+"hierarchy-inventory`を参照してください。設定と構成については、:ref:`inventory-settings`を参照してください。"
+
+#: ../../user-manual/access-content/context-menu.rst:79
+msgid ""
+"The \"Browse as list\" option - for more information, see: :ref:`browse-"
+"hierarchy-list`."
+msgstr ""
+"「リストとして閲覧」オプション - 詳細情報については、以下を参照してください: :ref:`browse-hierarchy-list`。"
+
+#: ../../user-manual/access-content/context-menu.rst:80
+msgid ""
+"The \"Browse digital objects\" option - for more information, see: "
+":ref:`browse-hierarchy-digi-objects`."
+msgstr ""
+"\"デジタルオブジェクトの閲覧\" オプション - 詳細については、こちらをご参照ください: :ref:`browse-hierarchy-digi-"
+"objects`。"
+
+#: ../../user-manual/access-content/context-menu.rst:83
+msgid ""
+"Import and Export options. For more information on import and export, see: "
+":ref:`import-export`."
+msgstr ""
+"インポートおよびエクスポートのオプション。インポートとエクスポートの詳細は、次を参照してください： :ref:`import-export`。"
+
+#: ../../user-manual/access-content/context-menu.rst:86
+msgid ""
+"Finding aid generation options. For more information on generating and using"
+" finding aids in AtoM, see: :ref:`print-finding-aids`."
+msgstr ""
+"検索支援ツール生成のオプション。AtoMでの検索支援ツールの生成と使用についての詳細は、以下を参照してください： :ref:`print-"
+"finding-aids`。"
+
+#: ../../user-manual/access-content/context-menu.rst:89
+msgid ""
+"Related subject, name, genre, and place :term:`access point` terms that have"
+" been linked to the :term:`archival description` currently displayed. These "
+"include:"
+msgstr ""
+"関連する件名、名称、ジャンル、場所：現在表示されている:term:`アーカイブ記述`にリンクされている:term:`アクセスポイント`用語には以下が含まれます："
+
+#: ../../user-manual/access-content/context-menu.rst:93
+msgid ""
+"Related :term:`subjects <subject>`, linking to descriptions with the same "
+"subject as the resource described."
+msgstr "関連する:term:`主題 <subject>`は、記述されたリソースと同じ主題を持つ記述にリンクします。"
+
+#: ../../user-manual/access-content/context-menu.rst:95
+msgid ""
+"Related people and organizations, including the :term:`creator` of the "
+"resource described as well as an people or organizations who are the subject"
+" of the resource described. These link to the :term:`authority record` for "
+"the person or organization."
+msgstr ""
+"リソースの説明に記載されている、リソースの:term:`creator`（作成者）、およびリソースの説明に関連するその他の人物や組織。これらは、その人物もしくは組織の:term:`authority"
+" record`（権威記録）にリンクしています。"
+
+#: ../../user-manual/access-content/context-menu.rst:99
+msgid ""
+"Related genre access point terms, which indicate the types of materials "
+"associated with the :term:`archival description`"
+msgstr "関連するジャンルのアクセスポイント用語は、`:term:`アーカイブ記述`に関連する資料の種類を示します。"
+
+#: ../../user-manual/access-content/context-menu.rst:101
+msgid ""
+"Related :term:`place` access points, linking to descriptions with the same "
+"geographical location as the resource described."
+msgstr "関連する:term:`place` アクセスポイントは、記述されたリソースと同じ地理的位置にある説明へのリンクを提供します。"
+
+#: ../../user-manual/access-content/context-menu.rst:104
+msgid ""
+"For more information on adding an :term:`access point` to an archival "
+"description, see: :ref:`add-term-fly`."
+msgstr "アーカイブ記述に「アクセスポイント」を追加する方法の詳細については、以下を参照してください:「add-term-fly」。"
+
+#: ../../user-manual/access-content/context-menu.rst:107
+msgid ""
+":term:`Physical storage` information related to the archival description. "
+"For more information on linking a physical storage location to an archival "
+"description, see: :ref:`link-physical-storage`."
+msgstr ""
+"アーカイブ記述に関連する「物理的保管」情報です。アーカイブ記述に物理的保管場所をリンクする方法の詳細については、次を参照してください: "
+"`物理的保管のリンク`。"
+
+#: ../../user-manual/access-content/context-menu.rst:113
+msgid ""
+":term:`Adminstrators <administrator>` can choose whether or not physical "
+"storage information is visible to all users, via the Visible elements "
+"module. See  :ref:`physical-storage` and :ref:`visible-elements` for further"
+" information."
+msgstr ""
+"管理者<administrator>は、Visible "
+"elementsモジュールを通じて、物理ストレージ情報をすべてのユーザーに表示するかどうかを選択することができます。詳細については、物理ストレージ<physical-"
+"storage>と表示要素<visible-elements>を参照してください。"
+
+#: ../../user-manual/access-content/context-menu.rst:121
+msgid "Treeview"
+msgstr "ツリービュー"
+
+#: ../../user-manual/access-content/context-menu.rst:123
+msgid ""
+"The treeview is a contextual and navigation element for :term:`archival "
+"descriptions <archival description>` or :term:`terms <term>` (such as "
+":term:`place`, :term:`subject`, or genre :term:`access points <access "
+"point>`. It serves the dual purpose of showing a record's or :term:`term's "
+"<term>` relationships to other records or terms in a hierarchy, as well as "
+"serving as a navigational tool. This section will focus on the Treeview as "
+"used for context and navigation in :term:`archival description` view pages -"
+" for more information on the Terms treeview, see: :ref:`context-menu-terms-"
+"treeview`."
+msgstr ""
+"TreeViewは、文書記述や用語（例えば地名、主題、ジャンルなどのアクセスポイント）に関する文脈的要素であり、ナビゲーション要素でもあります。この要素は、記録や用語の階層内の他の記録や用語との関係を示すと同時に、ナビゲーションツールとしても機能します。このセクションでは、文書記述ビューページでの文脈とナビゲーションに使用されるTreeViewに焦点を当てています。用語TreeViewについての詳細情報は、次を参照してください：`context-"
+"menu-terms-treeview`。"
+
+#: ../../user-manual/access-content/context-menu.rst:132
+msgid ""
+"The treeview for archival descriptions can be displayed in two ways - either"
+" in the left-hand context menu (referred to as the sidebar treeview), or in "
+"a larger version in the main column of the :term:`view page` of an archival "
+"description. The display of the treeview can be controlled by an "
+":term:`administrator` via a global setting - for more information, see: "
+":ref:`treeview-type`."
+msgstr ""
+"アーカイブ記述のためのツリービューは、2つの方法で表示することができます。左側のコンテキストメニュー（サイドバーツリービューとも呼ばれます）で表示するか、またはアーカイブ記述の：term:`view"
+" "
+"page`のメインカラムで大きなバージョンを表示するかです。ツリービューの表示は、：term:`管理者`によってグローバル設定を介して制御されます。さらに情報については、以下を参照してください：:ref:`treeview-"
+"type`。"
+
+#: ../../user-manual/access-content/context-menu.rst:145
+msgid "A comparison of the full-width and sidebar treeview displays."
+msgstr "フル幅とサイドバーのツリービュー表示の比較。"
+
+#: ../../user-manual/access-content/context-menu.rst:147
+msgid ""
+"The specific features of each treeview display option will be outlined "
+"below."
+msgstr "それぞれのツリービュー表示オプションの具体的な特徴について、以下に説明します。"
+
+#: ../../user-manual/access-content/context-menu.rst:149
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../user-manual/access-content/context-menu.rst:151
+msgid ":ref:`context-menu-treeview-sidebar`"
+msgstr ":ref:`コンテキストメニュー-ツリービューサイドバー`"
+
+#: ../../user-manual/access-content/context-menu.rst:152
+msgid ":ref:`context-menu-treeview-full`"
+msgstr ""
+"このテキストはreStructuredTextフォーマットで書かれており、ドキュメント内の特定のセクションを参照するためのラベルです。通常、このラベルは文脈に応じたメニューやセクションの名前を指しますが、正確な翻訳を行うためには、参照されている部分の具体的な内容を把握する必要があります。 \n"
+"\n"
+"翻訳するにあたって、このラベルが指すセクションのタイトルや内容に応じて「:ref:`context-menu-treeview-full`」を適切な日本語のタイトルに置き換えます。ただし、原文が提供されていないため、総合的な翻訳例を提供することはできません。もしラベルが「完全なツリービューのコンテキストメニュー」といったセクションを指している場合、それに応じて以下のように翻訳することができます：\n"
+"\n"
+"``:ref:`ツリービュー全体のコンテキストメニュー` ``\n"
+"\n"
+"この場合、日本語版のドキュメントにおいて同じ参照ラベルを使用するためには、対応するセクションのタイトルにもこのラベルが設定されている必要があります。"
+
+#: ../../user-manual/access-content/context-menu.rst:154
+msgid ""
+"Users can also click on the \"Quick search\" tab to search for desriptions "
+"within the current archival unit. For more information on using the Treeview"
+" quick search, see: :ref:`treeview-search`."
+msgstr ""
+"ユーザーは「クイック検索」タブをクリックして、現在のアーカイブユニット内の記述を検索することもできます。Treeviewクイック検索の使用方法についての詳細は、以下を参照してください："
+" :ref:`treeview-search`。"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "The quick search box, located in the left context menu."
+msgstr "左側のコンテキストメニューに位置するクイック検索ボックス。"
+
+#: ../../user-manual/access-content/context-menu.rst:163
+msgid ""
+":term:`Administrators <administrator>` can decide how they would like "
+"descriptions in the sidebar treeview to sort and display throughout their "
+"AtoM installation. See :ref:`sort-treeview`. For the full-width treeview, "
+"the sort is automatically set to Manual."
+msgstr ""
+"用語「管理者<administrator>」は、AtoMインストール全体でサイドバーのツリービューにおける記述のソートと表示方法を決定することができます。詳細は「ツリービューのソート<sort-"
+"treeview>」を参照してください。全幅のツリービューでは、ソートは自動的に手動に設定されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:168
+msgid ""
+"In addition to supporting navigation, both treeview types can also be used "
+"to support arrangement. That is, a logged in user with sufficient edit "
+":term:`permissions <access privilege>` can drag and drop sibling nodes (i.e."
+" descriptions with the same parent) to re-order them. Dragging and dropping "
+"is not currently supported between levels (for example, dragging a file-"
+"level description to a different parent Series). For the sidebar treeview, "
+"the sort settings must be set to \"Manual\" for this to work - see: "
+":ref:`sort-treeview`. For more information, see:"
+msgstr ""
+"加えて、両方のツリービューは、整理作業を支援するためにも使用できます。つまり、十分な編集権限を持つログインユーザーは、同じ親を持つ説明（すなわち兄弟ノード）をドラッグアンドドロップして、それらの順番を並び替えることができます。現在、レベル間（例えば、ファイルレベルの説明を異なる親シリーズにドラッグアンドドロップすること）でのドラッグアンドドロップは対応していません。サイドバーのツリービューについては、これが機能するようにソート設定を「手動」に設定する必要があります"
+" - 詳細はこちらをご確認ください：:ref:`sort-treeview`。さらに情報が必要な場合は、以下もご覧ください："
+
+#: ../../user-manual/access-content/context-menu.rst:177
+msgid ""
+":ref:`Change the sort order of an archival hierarchy <change-sort-order>`"
+msgstr ""
+"以下の文を書籍や公式文書の見出しとして考えると翻訳は以下の通りになります：\n"
+"\n"
+":ref:`アーカイバル階層のソート順を変更する <change-sort-order>`"
+
+#: ../../user-manual/access-content/context-menu.rst:181
+msgid ""
+"In addition to displaying in the context menu for archival descriptions, the"
+" treeview is also used for hierarchical :term:`taxonomies <taxonomy>` such "
+"as Subjects, to show parent-child relationships between :term:`terms "
+"<term>`. For more information, see:"
+msgstr ""
+"アーカイブ記述のコンテキストメニューに表示されることに加えて、ツリービューは主題などの階層的な:term:`分類学 "
+"<taxonomy>`にも使用され、:term:`用語 <term>`間の親子関係を示すために利用されます。詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/context-menu.rst:186
+#: ../../user-manual/access-content/context-menu.rst:402
+msgid ":ref:`context-menu-terms-treeview`"
+msgstr ":ref:`コンテキストメニュー-用語-ツリービュー`"
+
+#: ../../user-manual/access-content/context-menu.rst:187
+msgid ":ref:`context-menu-results`"
+msgstr ":ref:`コンテキストメニュー結果`"
+
+#: ../../user-manual/access-content/context-menu.rst:192
+msgid "Sidebar treeview"
+msgstr "サイドバーのツリービュー"
+
+#: ../../user-manual/access-content/context-menu.rst:200
+msgid "Treeview showing the hierarchy of child-levels in a fonds."
+msgstr "フォンズ内の子階層の階層構造を示すツリービュー。"
+
+#: ../../user-manual/access-content/context-menu.rst:200
+msgid "Sidebar treeview showing the hierarchy of child-levels in a fonds."
+msgstr "サイドバーのツリービューが、フォンズ内の子レベルの階層を示しています。"
+
+#: ../../user-manual/access-content/context-menu.rst:202
+msgid ""
+"In the figure to the right, the record for an item is highlighted, showing "
+"the placement of the file in a hierarchy, e.g. what series and fonds does it"
+" belong to. In this example, the user is viewing Item 2000029-02P in a "
+"Series called \"Photographs,\" in a fonds titled the \"John Honsberger "
+"fonds.\" The treeview allows the user to see the current record's position "
+"in the collection hierarchy, and by clicking on the blue hyperlinked titles "
+"of other records, the user can navigate easily from one record to another "
+"contained in the same :term:`fonds` or :term:`collection`."
+msgstr ""
+"右にある図では、アイテムのレコードがハイライト表示され、ファイルの階層内の位置が示されています。例えば、どのシリーズやフォンズに属しているかです。この例では、ユーザーは「写真」というシリーズ内の「ジョン・ホンズバーガー・フォンズ」と題されたフォンズにあるアイテム2000029-02Pを観覧しています。ツリービューにより、ユーザーは現在のレコードのコレクション階層内での位置を確認することができ、他のレコードの青色のハイパーリンクされたタイトルをクリックすることで、同じフォンズやコレクションに含まれるレコード間を簡単にナビゲートすることができます。"
+
+#: ../../user-manual/access-content/context-menu.rst:211
+msgid ""
+"For performance reasons, AtoM may also not load all available descriptions "
+"in the current position of the hierarchy - for example, if you are browsing "
+"in a series with 20 descriptions, only the first 6-7 may display. In this "
+"case, AtoM will include an approximate count of remaining descriptions - "
+"clicking on this will load the next batch of available descriptions in the "
+"treeview. In the image on the right, there are approximately 10 more item-"
+"level descriptions in the \"Photographs\" series. After the first 2 times, a"
+" scrollbar will appear and the treeview will continue to load 4 more "
+"descriptions as the user scrolls lower in the treeview pane."
+msgstr ""
+"パフォーマンス上の理由から、AtoM "
+"は階層内の現在位置で利用可能な全ての記述を読み込むことがないかもしれません。例えば、20の記述があるシリーズ内を閲覧している場合、最初の6〜7件のみが表示されることがあります。このケースでは、AtoMは残りの記述のおおよその数を表示します。これをクリックすると、ツリービュー内の次の一連の利用可能な記述を読み込みます。右の画像では、「写真」シリーズ内におおよそ10件以上のアイテムレベルの記述があります。最初の2回後、スクロールバーが表示され、ツリービューのペイン内でユーザーが下にスクロールするにつれ更に4つの記述が続けて読み込まれます。"
+
+#: ../../user-manual/access-content/context-menu.rst:221
+msgid ""
+"When first arriving on the view page for a top-level description (e.g. a "
+"fonds or collection, etc), lower-level records with children will appear "
+"with a |caret| \"caret\" beside them to indicate that they contain children."
+" In the treeview on the left in the image below, for example, the user is "
+"currently viewing the top-level fonds record for the John Honsberger fonds -"
+" the series below, each of which have children, are displayed. Clicking on a"
+" series title will reload the page and display that series. However, a user "
+"can also click directly on the caret to expand that series without leaving "
+"the current :term:`view page`. The treeview will reload without reloading "
+"the whole page, and sibling series will be hidden, as the lower-level item "
+"records are displayed for browsing. You could click the caret again to close"
+" the current series, and return to viewing all series below the fonds-level "
+"record."
+msgstr ""
+"トップレベルの記述（たとえば、フォンズやコレクションなど）のビューページに最初に到着すると、子を持つ下位レベルのレコードは、子供が含まれていることを示すために横に|カレット|「カレット」が表示されます。例えば、下の画像の左側のツリービューでは、ユーザーは現在、ジョン・ホンズバーガー・フォンズのトップレベルフォンズレコードを閲覧しています"
+" - "
+"下にあるシリーズはそれぞれ子を持っており表示されています。シリーズのタイトルをクリックすると、ページが再読み込みされ、そのシリーズが表示されます。しかし、ユーザーは現在の:term:`ビューページ`を離れずにそのシリーズを展開するために直接カレットをクリックすることもできます。ツリービューは、ページ全体をリロードすることなく再読み込みされ、下位アイテムレコードが閲覧用に表示されると、兄弟シリーズは非表示になります。カレットをもう一度クリックすると、現在のシリーズが閉じられ、フォンズレベルのレコードの下にあるすべてのシリーズの表示に戻ります。"
+
+#: ../../user-manual/access-content/context-menu.rst:7
+msgid "caret"
+msgstr "キャレット"
+
+#: ../../user-manual/access-content/context-menu.rst:240
+msgid "Treeview states compared"
+msgstr "ツリービューの状態を比較"
+
+#: ../../user-manual/access-content/context-menu.rst:240
+msgid ""
+"Sidebar treeview states compared - browsing the series in a fonds (left), "
+"then browsing the items in a series (right)."
+msgstr "サイドバーのツリービューの状態が比較されています - 基本構造内のシリーズを閲覧中（左）、その後シリーズ内のアイテムを閲覧中（右）。"
+
+#: ../../user-manual/access-content/context-menu.rst:243
+msgid "**To navigate with the sidebar treeview, users can do the following:**"
+msgstr "**サイドバーのツリービューでナビゲーションするには、ユーザーは以下の操作ができます：**"
+
+#: ../../user-manual/access-content/context-menu.rst:245
+msgid ""
+"Click on a different description title to see that description. The main "
+"archival description :term:`view page` will reload to display the selected "
+"record, which will now be highlighted in the treeview."
+msgstr ""
+"異なる記述タイトルをクリックすると、その記述が表示されます。メインのアーカイブ記述 :term:`ビューページ` "
+"がリロードされ、選択されたレコードがツリービューで強調表示されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:249
+msgid ""
+"Click on the approximate count button to expand more descriptions not "
+"currently in view."
+msgstr "現在表示されていない説明をさらに展開するには、大まかな数のボタンをクリックしてください。"
+
+#: ../../user-manual/access-content/context-menu.rst:252
+msgid ""
+"Click on the |caret| \"caret\" beside a description with children (e.g. the "
+"series description in this example) to expand or collapse all the children "
+"titles."
+msgstr ""
+"説明に子要素がある場合（例えば、この例のシリーズ説明のように）、すべての子要素のタイトルを展開または折りたたむには、その説明の横にある「caret」（|caret|）をクリックしてください。"
+
+#: ../../user-manual/access-content/context-menu.rst:256
+msgid ""
+"Click on the title of the :term:`fonds` to return to the fonds-level "
+"description, which will also reload the :term:`view page` to display the "
+"selected fonds-level description."
+msgstr ""
+"「:term:`fonds`のタイトルをクリックして、fondsレベルの説明に戻ります。これにより、選択されたfondsレベルの説明が表示される:term:`view"
+" page`も再読込されます。」"
+
+#: ../../user-manual/access-content/context-menu.rst:260
+msgid ""
+"An :term:`administrator` can also change the default sort order of the "
+"sidebar treeview via |gears| **Admin > Settings**. For more information, "
+"see: :ref:`sort-treeview`."
+msgstr ""
+"管理者は、|gears| **管理 > "
+"設定**から、サイドバーのツリービューのデフォルトのソート順を変更することもできます。詳細については、以下を参照してください: :ref:`sort-"
+"treeview`。"
+
+#: ../../user-manual/access-content/context-menu.rst:11
+msgid "gears"
+msgstr ""
+"該当のテキストが「gears」とだけ記載されている場合、これを直訳すると「歯車」となります。しかし、コンテキストが不足しているため、この一語がどのような意味で使われているか判断することが難しいです。もし具体的な文脈や文があれば、より適切な翻訳を提供することが可能です。"
+
+#: ../../user-manual/access-content/context-menu.rst:267
+msgid "Full-width treeview"
+msgstr "全角幅ツリービュー"
+
+#: ../../user-manual/access-content/context-menu.rst:275
+msgid "An image of the full-width treeview"
+msgstr "フル幅のツリービューの画像"
+
+#: ../../user-manual/access-content/context-menu.rst:275
+msgid "An example of the treeview when displayed in Full-width mode"
+msgstr "フル幅モードで表示されたときのツリービューの例"
+
+#: ../../user-manual/access-content/context-menu.rst:277
+msgid ""
+"The full-width treeview, pictured above, has some notable differences from "
+"the older sidebar treeview. Most notably, it will allow users to browse all "
+"levels of description in the hierarchy of the :term:`archival unit` at one, "
+"while the sidebar treeview will only display siblings of the currently "
+"viewed level. By being positioned in the center of the page, it necessarily "
+"has more room - and a user can click and drag the bottom bar of the treeview"
+" to expand the viewing area further:"
+msgstr ""
+"上に示されているフル幅のツリービューは、古いサイドバー型ツリービューといくつかの顕著な違いがあります。最も注目すべき点は、利用者が`アーカイブ単位`の階層内のすべての記述レベルを一度に閲覧できることですが、サイドバー型ツリービューでは、現在閲覧しているレベルの兄弟要素のみが表示されます。ページの中央に位置することで必然的にスペースが広がり、利用者はツリービューの下部バーをクリックしドラッグすることで、さらに閲覧エリアを拡張できます。"
+
+#: ../../user-manual/access-content/context-menu.rst:291
+msgid "Full-width treeview expanded by dragging the bottom bar"
+msgstr "下部バーをドラッグして全幅ツリービューを展開"
+
+#: ../../user-manual/access-content/context-menu.rst:291
+msgid ""
+"Click and drag the bottom bar of the full-width treeview viewing area to "
+"expand it"
+msgstr "フル幅ツリービュー表示エリアの下部バーをクリックしてドラッグすると、それを拡大できます。"
+
+#: ../../user-manual/access-content/context-menu.rst:295
+msgid ""
+"An :term:`administrator` can also enable a setting that will display the "
+"full width treeview in a collapsible container, which is closed by default "
+"when users first navigate to an archival description :term:`view page`. This"
+" widget behaves similarly to :ref:`advanced-search-interface` on archival "
+"description search and browse pages. An administrator can also customize the"
+" labels shown for collapsing and expanding the treeview. For more "
+"information, see:"
+msgstr ""
+"管理者は、アーカイブ記述のビューページに最初にアクセスしたときにデフォルトで閉じられている折りたたみ可能なコンテナ内に、全幅のツリービューを表示する設定を有効にすることもできます。このウィジェットは、アーカイブ記述の検索と閲覧ページにある高度な検索インターフェースに似て動作します。管理者は、ツリービューの折りたたみと展開のためのラベルをカスタマイズすることもできます。詳細については、次を参照してください："
+
+#: ../../user-manual/access-content/context-menu.rst:303
+msgid ":ref:`treeview-collapsible`"
+msgstr ""
+"このコンテキストで提供されているテキストは、参照ラベルであり、特定のソフトウェアドキュメント内のセクションや機能を指し示すものとしてMarkdownまたはreStructuredTextで一般的に使用されます。しかし、これだけの情報では原文の完全な内容や文脈が不足しているため、直接的な翻訳が難しいです。もし、Teletype for Atom に組み込みされているコードで特定のセクションのタイトルや説明に相当するものがある場合、そのタイトルや説明を日本語に翻訳できますが、テキスト自体に正確な内容がないため、ここで的確な日本語訳を提供することはできません。\n"
+"\n"
+"ただし、仮に `treeview-collapsible` を「折りたたみ可能なツリービュー」と訳すと仮定すると、以下のようになる可能性があります：\n"
+"\n"
+"```\n"
+":ref:`折りたたみ可能なツリービュー`\n"
+"```\n"
+"\n"
+"`ref` タグは通常、その文書内の別のセクションへのリンクを作成する際に使用されるため、「`:ref:`」の前後に実際のセクションのタイトル名が来ることが多いです。完全な翻訳を行うためには、翻訳対象のドキュメント全体の文脈を理解し、適切なセクションタイトルやリンク先を特定する必要があります。"
+
+#: ../../user-manual/access-content/context-menu.rst:304
+msgid ":ref:`user-interface-labels`"
+msgstr ":ref:`ユーザーインターフェイスのラベル`"
+
+#: ../../user-manual/access-content/context-menu.rst:306
+msgid ""
+"The full-width treeview also supports keyboard navigation - use the up and "
+"down keys to navigate, and the left/right keys to expand or collapse "
+"descriptions with children."
+msgstr ""
+"フル幅のツリービューは、キーボードナビゲーションもサポートしています。上下のキーを使用してナビゲートし、左/右のキーで子を持つ説明を展開または折りたたむことができます。"
+
+#: ../../user-manual/access-content/context-menu.rst:310
+msgid ""
+"Basic indentation is used to better visually indicate the hierarchical "
+"relationships in the full-width treeview. When a description contains "
+"children, a **+** plus sign appears to the left of its title - click this "
+"(or use the right arrow key when the record is selected) to expand the "
+"children. The **-** minus sign can then be clicked (or the left arrow key "
+"used) to collapse the :term:`parent record` again."
+msgstr ""
+"基本的なインデント（字下げ）を用いて、全幅のツリービューにおける階層関係を視覚的にわかりやすく表現しています。記述に子要素が含まれる場合、そのタイトルの左側には"
+" **+** プラス記号が現れます - "
+"これをクリックするか（または、レコードが選択されている際に右矢印キーを使用する）かで子要素を展開できます。その後、 **-** "
+"マイナス記号をクリックするか（または、左矢印キーを使用する）かで、:term:`親レコード` を再び折りたたむことができます。"
+
+#: ../../user-manual/access-content/context-menu.rst:317
+msgid ""
+"Basic icons are also used to help visually distinguish different levels. At "
+"present, these are hard-coded and cannot be changed without a "
+":term:`developer` making changes in AtoM's code. The collection and fonds-"
+"level records will use the box icon; series, sub-series, and other "
+"intermediate levels use the folder icon, while file and item-level records "
+"use the document icon. If a user adds a new :term:`level of description` to "
+"the Levels of description :term:`taxonomy`, it will by default use the "
+"folder icon:"
+msgstr ""
+"基本的なアイコンも、異なるレベルを視覚的に識別するために使用されます。現在、これらはハードコーディングされており、AtoMのコード内で開発者が変更を加えない限り変更することはできません。コレクションおよびフォンズレベルの記録は箱のアイコンを使用し、シリーズ、サブシリーズ、およびその他の中間レベルはフォルダのアイコンを使用し、ファイルおよびアイテムレベルの記録は文書のアイコンを使用します。ユーザーが説明のレベルの税onomyに新しい記述のレベルを追加する場合、デフォルトではフォルダアイコンが使用されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:332
+msgid ""
+"An image of the icons used at different levels in the full-width treeview"
+msgstr "フル幅ツリービューで使用される異なるレベルのアイコンの画像"
+
+#: ../../user-manual/access-content/context-menu.rst:332
+msgid ""
+"To help differentiate the levels at a glance, 3 different icons have been "
+"used in the full-width treeview. New levels added to the Levels of "
+"description taxonomy will use the folder icon by default."
+msgstr ""
+"一目でレベルを区別するため、フル幅ツリービューでは3種類の異なるアイコンが使用されています。説明レベルのタクソノミーに新たに追加されたレベルは、デフォルトでフォルダアイコンを使用します。"
+
+#: ../../user-manual/access-content/context-menu.rst:336
+msgid ""
+"As different descriptions are selected in the full-width treeview, the "
+"description :term:`view page` will automatically update to display that "
+"record. When navigating with a keyboard, the view page will not update until"
+" the user presses the \"enter\" key to select the description for viewing."
+msgstr ""
+"フル幅のツリービューで異なる記述を選択すると、記述:term:`ビューページ`は自動的に更新され、そのレコードが表示されます。キーボードでナビゲートする際には、ユーザーが「エンター」キーを押して記述を表示するために選択するまでビューページは更新されません。"
+
+#: ../../user-manual/access-content/context-menu.rst:341
+msgid ""
+"Like the sidebar treeview, for performance reasons AtoM may not load all "
+"available descriptions at once, when there are many immediate "
+":term:`children <child record>` below the top-level description in the "
+":term:`archival unit`. The default value for this behavior is 50 - meaning, "
+"if there are more than 50 immediate children below the parent description, "
+"AtoM will add a count of the number of remaining records not immediately "
+"displayed to a button in the top right corner."
+msgstr ""
+"サイドバーのツリービューと同様に、パフォーマンス上の理由から、AtoMはアーカイブユニット内のトップレベルの記述の下に多くの直接的な「子記録」がある場合、すべての利用可能な記述を一度に読み込むことがありません。この動作のデフォルト値は50です。つまり、親の記述の下に50以上の直接的な子が存在する場合、AtoMは直ちに表示されない残りのレコード数を右上角のボタンに追加して表示します。"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "An image of paging in the full-width treeview"
+msgstr "フル幅ツリービューのページングの画像"
+
+#: ../../user-manual/access-content/context-menu.rst:354
+msgid ""
+"Clicking on that button will load the next set of records. If there are "
+"still more records not displayed, the number of remaining records will be "
+"shown and the user can choose to see the next set, or return to the "
+"beginning by choosing \"reset\"."
+msgstr ""
+"このボタンをクリックすると、次のレコード群が読み込まれます。まだ表示されていないレコードが残っている場合、残りのレコード数が表示され、ユーザーは次のセットを見ることを選択するか、または「リセット」を選択して最初からやり直すことができます。"
+
+#: ../../user-manual/access-content/context-menu.rst:366
+msgid ""
+"An :term:`administrator` can adjust how many child records are loaded in the"
+" full-width treeview initially, and with each click of the \"More\" button, "
+"via a pager setting in |gears| **Admin > Settings > Treeview**. The default "
+"value can be set anywhere between 10 and 1,000. For more information, see:"
+msgstr ""
+"管理者は、|gears| **管理 > 設定 > "
+"ツリービュー**にあるページャー設定を通じて、フル幅ツリービューで初期にロードされる子レコードの数と、\"More\"ボタンをクリックする度にロードされる数を調整することができます。デフォルト値は10から1,000の範囲で設定することが可能です。詳細については、次を参照してください："
+
+#: ../../user-manual/access-content/context-menu.rst:372
+msgid "Treeview :ref:`fwt-items-per-page`"
+msgstr "ツリービュー :ref:`fwt-items-per-page`"
+
+#: ../../user-manual/access-content/context-menu.rst:374
+msgid ""
+"Like the sidebar treeview, \"(Draft)\" will appear beside all draft "
+"descriptions displayed to authenticated (i.e. logged in) users. Unlike the "
+"sidebar treeview, however, an :term:`administrator` can configure what "
+"metadata elements are used for display in each treeview node - for more "
+"information, see:"
+msgstr ""
+"サイドバーのツリービューと同様に、認証された（つまりログインしている）ユーザーに表示されるすべての下書き記述の隣には「（下書き）」と表示されます。しかし、サイドバーのツリービューとは異なり、:term:`管理者`はそれぞれのツリービューノードで表示に使用されるメタデータ要素を設定することができます。詳細については、次を参照してください："
+
+#: ../../user-manual/access-content/context-menu.rst:379
+#: ../../user-manual/access-content/context-menu.rst:404
+msgid ":ref:`fullwidth-treeview-settings`"
+msgstr ":ref:`全幅ツリービュー設定`"
+
+#: ../../user-manual/access-content/context-menu.rst:382
+msgid ""
+"**To navigate with the full-width treeview, users can do the following:**"
+msgstr "**フル幅のツリービューでのナビゲーションには、ユーザーは以下の操作を行うことができます：**"
+
+#: ../../user-manual/access-content/context-menu.rst:384
+msgid ""
+"Click on a different description title to see that description. The main "
+"archival description :term:`view page` will reload to display the selected "
+"record, which will now be highlighted in the treeview. When using the "
+"keyboard to navigate, pressing enter will load the selected record in the "
+"view page."
+msgstr ""
+"異なる記述タイトルをクリックすると、その説明が表示されます。主なアーカイブ記述 :term:`ビューページ` "
+"が再読み込みされ、選択されたレコードがツリービューでハイライト表示されます。キーボードを使ってナビゲートする場合、エンターキーを押すと選択されたレコードがビューページに読み込まれます。"
+
+#: ../../user-manual/access-content/context-menu.rst:390
+msgid ""
+"Use the scroll bar or the up/down arrow keys to navigate up and down the "
+"displayed records."
+msgstr "スクロールバーや上下の矢印キーを使用して、表示されているレコードを上下に移動します。"
+
+#: ../../user-manual/access-content/context-menu.rst:393
+msgid ""
+"Click on the **+** \"plus\" sign beside a description with children to "
+"expand or collapse all the children titles. If navigating with the keyboard,"
+" the right arrow can be used. Click on the **-** \"minus\" sign to collapse "
+"the child records again, or use the left arrow key."
+msgstr ""
+"説明に子レコードがある場合、すべての子タイトルを展開または折りたたむには、**+** "
+"「プラス」記号をクリックします。キーボードで操作している場合は、右矢印キーを使用できます。子レコードを再度折りたたむには、**-** "
+"「マイナス」記号をクリックするか、左矢印キーを使用します。"
+
+#: ../../user-manual/access-content/context-menu.rst:398
+msgid ""
+"Click and drag the bottom bar of the treeview viewing area to expand it"
+msgstr "ツリービュー表示エリアの下部バーをクリックしてドラッグし、それを拡大します。"
+
+#: ../../user-manual/access-content/context-menu.rst:403
+msgid ":ref:`treeview-search`"
+msgstr ":ref:`ツリービュー検索`"
+
+#: ../../user-manual/access-content/context-menu.rst:406
+#: ../../user-manual/access-content/context-menu.rst:625
+msgid ":ref:`Back to top <context-menu>`"
+msgstr ":ref:`トップに戻る <context-menu>`"
+
+#: ../../user-manual/access-content/context-menu.rst:411
+msgid "Authority records"
+msgstr "権威記録"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "Context menu shown for authority record"
+msgstr "権威レコードに表示されるコンテキストメニュー"
+
+#: ../../user-manual/access-content/context-menu.rst:418
+msgid ""
+"The context menu for an :term:`authority record` includes the following "
+"elements:"
+msgstr "権限レコードに対するコンテキストメニューには、以下の要素が含まれています："
+
+#: ../../user-manual/access-content/context-menu.rst:421
+msgid ""
+":term:`Archival descriptions <archival description>` which the person or "
+"organization is the :term:`subject` of."
+msgstr "その人物または組織が:term:`主題`となっている:term:`アーカイブ記述 <archival description>`。"
+
+#: ../../user-manual/access-content/context-menu.rst:424
+msgid ""
+":term:`Archival descriptions <archival description>` which the person or "
+"organization is the :term:`creator` of."
+msgstr "その人物または組織が制作者であるアーカイブ記述。"
+
+#: ../../user-manual/access-content/context-menu.rst:429
+msgid ""
+"When a relationship is created between two :term:`authority records "
+"<authority record>` or between an authority record and a :term:`function`, "
+"the relationship is expressed in the body (i.e. the main part or center "
+"column) of the authority record's :term:`view page`, in the "
+"\"Relationships\" :term:`area <information area>` of the record."
+msgstr ""
+"二つの権威レコード同士、または権威レコードと機能間の関係が作成されるとき、その関係は権威レコードのビューページの本文（つまり、主要部分または中央の列）において、「関係性」情報エリアで表現されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:438
+msgid "Subject and Place browse pages"
+msgstr "件名と場所閲覧ページ"
+
+#: ../../user-manual/access-content/context-menu.rst:440
+msgid ""
+":term:`Subject` and :term:`Place` terms can be used in AtoM as :term:`access"
+" points <access point>`, and then browsed to explore the :term:`archival "
+"descriptions <archival description>` and/or :term:`authority records "
+"<authority record>` to which they are linked. For more information, see: "
+":ref:`Browse subjects and places <browse-subjects-places>`."
+msgstr ""
+"```\n"
+":term:`主題`と:term:`場所`という用語は、AtoMで:term:`アクセスポイント<アクセスポイント>`として使用でき、それにリンクされている:term:`アーカイブ記述<アーカイブ記述>`や:term:`権威記録<権威記録>`を探索するために閲覧することができます。詳細については、:ref:`主題と場所の閲覧<browse-subjects-places>`をご覧ください。\n"
+"```"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "Context menu shown for term browse"
+msgstr "用語のブラウズに表示されるコンテキストメニュー"
+
+#: ../../user-manual/access-content/context-menu.rst:452
+msgid ""
+"When a term has been selected from the Subject or Places browse page, the "
+"user is redirected to a term browse page, listing descriptions and "
+"authorities related to that term as an access point. The context menu on "
+"this term browse page appears on both the left and right-hand sides, and "
+"includes the following elements:"
+msgstr ""
+"用語が主題または場所の閲覧ページから選択された場合、ユーザーはその用語をアクセスポイントとして関連する記述と権威をリスト表示する用語閲覧ページにリダイレクトされます。この用語閲覧ページに表示されるコンテキストメニューは左右両側に現れ、以下の要素を含んでいます："
+
+#: ../../user-manual/access-content/context-menu.rst:458
+msgid ""
+"A terms :term:`treeview` on the left side of the page, with a list view and "
+"a term search included in separate tabs. The terms treeview is discussed in "
+"greater detail below: :ref:`context-menu-terms-treeview`. For further "
+"information on searching for terms, see: :ref:`Searching for terms "
+"<dedicated-search-terms>`."
+msgstr ""
+"左側のページには、リストビューとターム検索が含まれたターム :term:`ツリービュー` "
+"があります。タームツリービューについては、以下でより詳細に説明されています：:ref:`コンテキストメニュー-タームツリービュー<context-"
+"menu-terms-treeview>`。タームの検索に関するさらなる情報は、こちらを参照してください：:ref:`タームの検索 "
+"<dedicated-search-terms>`。"
+
+#: ../../user-manual/access-content/context-menu.rst:464
+msgid ""
+"Below the :term:`treeview`, addtional :term:`facet filters <facet filter>` "
+"that can be applied to the browse results are listed, if relevant. For more "
+"information on using facet filters in AtoM, see: :ref:`recurring-facet-"
+"filters`."
+msgstr ""
+":term:`ツリービュー`の下には、関連がある場合、閲覧結果に適用できる追加の:term:`ファセットフィルター<facet "
+"filter>`がリストされています。AtoMでファセットフィルターを使用する方法の詳細については、以下を参照してください: "
+":ref:`recurring-facet-filters`。"
+
+#: ../../user-manual/access-content/context-menu.rst:468
+msgid ""
+"On the right side of the page, additional contextual information is "
+"provided. This includes:"
+msgstr "ページの右側には、追加の文脈情報が提供されています。これには以下のものが含まれます："
+
+#: ../../user-manual/access-content/context-menu.rst:471
+msgid ""
+"A count of the currently selected :term:`entity` type results that have been"
+" linked to the term. AtoM will only display related results for one entity "
+"type at a time - you can use the results tabs at the top of the :term:`view "
+"page` to switch between :term:`archival description` and :term:`authority "
+"record` result lists. The count shown in the right context menu is specific "
+"to the currently selected entity type - in the screenshot above for example,"
+" it is showing a count of related descriptions, and not a total of all "
+"results across entity types."
+msgstr ""
+"選択中の:term:`entity`タイプの結果がその用語にリンクされた件数です。AtoMは一度に1つのエンティティタイプの関連結果のみを表示します -"
+" :term:`view page`の上部にある結果タブを使って、:term:`archival "
+"description`と:term:`authority "
+"record`の結果リストを切り替えることができます。右側のコンテキストメニューに表示される件数は、現在選択されているエンティティタイプに特化したものです"
+" - たとえば上のスクリーンショットで、それは関連する説明の件数を示しており、エンティティタイプ全体の合計ではありません。"
+
+#: ../../user-manual/access-content/context-menu.rst:479
+msgid ""
+"If the current term is part of a hierarchy, a link to the :term:`parent "
+"record` is included under the heading *Broader term*."
+msgstr "現在の用語が階層の一部である場合、*上位用語* の見出しの下に :term:`親レコード` へのリンクが含まれています。"
+
+#: ../../user-manual/access-content/context-menu.rst:481
+msgid ""
+"If the current term has :term:`children <child record>` in the taxonomy, a "
+"count of child terms nested under the current selection is listed under the "
+"heading *No. narrower terms*."
+msgstr ""
+"現在の用語が分類体系内で:term:`子レコード <child record>`(children) "
+"を持っている場合、選択された項目の下にネストされている子用語の数が、「*下位用語の数*」(No. narrower terms) "
+"の見出しの下に記載されています。"
+
+#: ../../user-manual/access-content/context-menu.rst:484
+msgid ""
+"SKOS import and export links are also provided in the right-hand context "
+"menu. For more information, see: :ref:`import-export-skos`."
+msgstr ""
+"SKOSのインポートとエクスポートのリンクも、右側のコンテキストメニューに提供されています。詳細については、以下を参照してください: "
+":ref:`import-export-skos`。"
+
+#: ../../user-manual/access-content/context-menu.rst:489
+msgid ":ref:`Browse subjects and places <browse-subjects-places>`"
+msgstr ":ref:`件名と場所を閲覧する <browse-subjects-places>`"
+
+#: ../../user-manual/access-content/context-menu.rst:490
+msgid ":ref:`terms`"
+msgstr ":ref:`用語集`"
+
+#: ../../user-manual/access-content/context-menu.rst:491
+msgid ":ref:`Context menu - results pages <context-menu-results>`"
+msgstr ":ref:`コンテキストメニュー - 結果ページ <context-menu-results>`"
+
+#: ../../user-manual/access-content/context-menu.rst:496
+msgid "Terms treeview"
+msgstr "用語ツリービュー"
+
+#: ../../user-manual/access-content/context-menu.rst:498
+msgid ""
+"The treeview is a contextual and navigation element located in the context "
+"menu for :term:`archival descriptions <archival description>`, :term:`places"
+" <place>`, and :term:`subjects <subject>`. It serves the dual purpose of "
+"showing a record or :term:`term's <term>` relationships to other records or "
+"terms in a hierarchy, as well as serving as a navigational tool."
+msgstr ""
+"Treeview（ツリービュー）は、文書記述、場所、及び主題のコンテキストメニューに位置する、文脈的かつナビゲーション要素です。これは、レコードまたは用語の他のレコードや用語との階層内での関係を表示するという二重の目的を果たすと共に、ナビゲーションツールとしても機能します。"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "Treeview tabs available on a subject or place term browse page"
+msgstr "対象または場所の語彙ブラウズページで利用可能なツリービュータブ"
+
+#: ../../user-manual/access-content/context-menu.rst:509
+msgid ""
+"The terms treeview, used on the browse page for a specific subject or place "
+"term, includes three tabs - the default treeview tab, which displays the "
+"record in the context of its hierarchical organization; the list tab, which "
+"displays terms of all levels ordered alphabetically, and the search tab. "
+"Each is described in greater detail below."
+msgstr ""
+"特定の主題や場所の用語を閲覧するページに使用される「ツリービュー(treeview)」には、三つのタブが含まれています。デフォルトのツリービュータブは、階層的な組織の文脈の中で記録を表示します。リストタブは、全てのレベルの用語をアルファベット順に表示します。そして、検索タブです。下記でそれぞれをより詳細に説明します。"
+
+#: ../../user-manual/access-content/context-menu.rst:516
+msgid "Treeview tab"
+msgstr "ツリービュー タブ"
+
+#: ../../user-manual/access-content/context-menu.rst:518
+msgid ""
+"The treeview tab is the default view for the terms treeview. It shows the "
+"terms belonging to the current :term:`taxonomy` (e.g. subjects or places) in"
+" hierarchical context, and allows to the user to browse these hierarchies by"
+" clicking on different nodes or titles in the treeview."
+msgstr ""
+"treeviewタブは、用語treeviewのデフォルト表示です。これは現在の:term:`分類法`（例えば、主題や場所）に属する用語を階層的な文脈で示し、ユーザーがtreeviewの異なるノードやタイトルをクリックすることによってこれらの階層をブラウズできるようにします。"
+
+#: ../../user-manual/access-content/context-menu.rst:523
+msgid "To navigate using the terms treeview, users can do the following:"
+msgstr "用語ツリービューを用いてナビゲートするために、ユーザーは以下の操作ができます："
+
+#: ../../user-manual/access-content/context-menu.rst:525
+msgid ""
+"Click on a different term title to see that term's description, and any "
+":term:`archival descriptions <archival description>` that have been linked "
+"to it as an :term:`access point`. When a new term is clicked, the main term "
+"browse :term:`view page` will reload to display the selected term, which "
+"will now be highlighted in the treeview."
+msgstr ""
+"異なる用語のタイトルをクリックすると、その用語の説明と、それにアクセスポイントとしてリンクされている任意の「アーカイブ記述」を見ることができます。新しい用語をクリックすると、主要な用語参照の「ビューページ」がリロードされ、選択された用語がツリービューで強調表示されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:531
+msgid ""
+"When a term has :term:`children <child record>` (e.g. narrower terms that "
+"are nested beneath it in the taxonomy), a |caret| \"caret\" icon appears "
+"next to the term in the treeview. Click on the |caret| \"caret\" beside a "
+"term with children to expand or collapse all the children titles."
+msgstr ""
+"用語に:term:`子 "
+"<子レコード>`（例えば、分類法でその下にネストされているより狭い用語）がある場合、その用語の横にはツリービューで|caret|「キャレット」アイコンが表示されます。子を持つ用語の隣にある|caret|「キャレット」をクリックすると、全ての子のタイトルを展開または折りたたむことができます。"
+
+#: ../../user-manual/access-content/context-menu.rst:536
+msgid ""
+"The treeview will only load a certain amount of records at a time. In large "
+":term:`taxonomy` with many terms, ellipses ( ... ) may sometimes appear, "
+"indicating that there are more records available. Click on the ellipses to "
+"expand more term descriptions not currently in view."
+msgstr ""
+"ツリービューは、一度に特定の量のレコードのみを読み込みます。多くの用語を含む大規模な:term:`タクソノミー`では、時々省略記号（...）が表示されることがあり、これはさらに多くのレコードが利用可能であることを示しています。表示されていない用語の説明をさらに展開するには、省略記号をクリックしてください。"
+
+#: ../../user-manual/access-content/context-menu.rst:541
+msgid ""
+"See also the instructions on using the archival description treeview, "
+":ref:`above <context-menu-treeview>` for further details - the main actions "
+"are the same in both treeviews."
+msgstr ""
+"また、アーカイブ記述ツリービューの使用に関する指示を参照してください。詳細は上記 `:ref:`コンテキストメニューツリービュー <context-"
+"menu-treeview>` をご覧ください - 両方のツリービューで主要なアクションは同じです。"
+
+#: ../../user-manual/access-content/context-menu.rst:545
+msgid ""
+"This main view of the treeview is also used when browsing terms in a "
+"taxonomy. See below for more information: :ref:`context-menu-results`."
+msgstr ""
+"このツリービューのメインビューは、分類法内の用語を閲覧する際にも使用されます。詳細については以下を参照してください: :ref:`context-"
+"menu-results`。"
+
+#: ../../user-manual/access-content/context-menu.rst:549
+msgid "List tab"
+msgstr "リストタブ"
+
+#: ../../user-manual/access-content/context-menu.rst:551
+msgid ""
+"The list tab allows users to browse all terms in the current "
+":term:`taxonomy` (e.g. subjects, or places), regardless of where they are "
+"positioned hierarchically. In a taxonomy where many terms are nested as "
+"narrower terms, it can be difficult to get a sense of all the terms "
+"available in the treeview tab or the main taxonomy browse pages. A total "
+"count of terms is included at bottom of the page. If there are more than 10 "
+"terms, \"Next\" and \"Previous\" buttons are included to navigate between "
+"pages."
+msgstr ""
+"リストタブでは、ユーザーは現在の:term:`タクソノミー`(例：主題や場所など)の全ての用語を、階層的な位置に関わらず閲覧することができます。多くの用語が狭義の用語としてネストされているタクソノミーでは、ツリービュータブやメインのタクソノミー閲覧ページだけでは、利用可能な全ての用語を把握するのが難しい場合があります。ページの下部には用語の合計数が含まれています。10個を超える用語がある場合、「次へ」と「前へ」のボタンが含まれ、ページ間をナビゲートすることができます。"
+
+#: ../../user-manual/access-content/context-menu.rst:560
+msgid "Search tab"
+msgstr "検索タブ"
+
+#: ../../user-manual/access-content/context-menu.rst:562
+msgid ""
+"The search tab in the terms treeview operates the same as the dedicated "
+"search for terms included in the terms browse page. Users can click the gear"
+" icon to limit the search to the preferred term label (e.g. the authorized "
+"form of name), 'Use for' labels (e.g. non-preferred, alternate forms of "
+"name), or both. The default setting is to search both."
+msgstr ""
+"用語ツリービューの検索タブは、用語参照ページに組み込まれている専用の検索と同じ様に操作します。ユーザーは歯車のアイコンをクリックして、検索を好みの用語ラベル（例えば、公式な名称形式）、'Use"
+" for'ラベル（例えば、非推奨の別形式の名称）またはその両方に限定することができます。デフォルトの設定は両方を検索することです。"
+
+#: ../../user-manual/access-content/context-menu.rst:568
+msgid ""
+"For more information on using the dedicated term search box, see: "
+":ref:`Search for Terms <dedicated-search-terms>`."
+msgstr ""
+"専用の語句検索ボックスの使用に関する詳細情報は、以下を参照してください： :ref:`用語の検索 <dedicated-search-terms>`。"
+
+#: ../../user-manual/access-content/context-menu.rst:574
+msgid "Archival institutions"
+msgstr "アーカイブ施設"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "Context menu shown for institution record"
+msgstr "機関記録に対して表示されるコンテキストメニュー"
+
+#: ../../user-manual/access-content/context-menu.rst:581
+msgid ""
+"The context menu for an :term:`archival institution` includes the following "
+"elements:"
+msgstr ":term:`archival institution`（アーカイブ施設）のコンテキストメニューには、次の要素が含まれます："
+
+#: ../../user-manual/access-content/context-menu.rst:584
+msgid "The name/logo of the institution."
+msgstr "機関の名称／ロゴ"
+
+#: ../../user-manual/access-content/context-menu.rst:586
+msgid ""
+"A list of the first 10 alphabetically listed :term:`holdings` at the fonds "
+"or collection :term:`level of description` of the institution, with a link "
+"to the complete holdings."
+msgstr ""
+"機関のフォンドまたはコレクションの記述レベルにおける、アルファベット順に最初の10件の「ホールディングス」のリストで、完全なホールディングスへのリンクが含まれています。"
+
+#: ../../user-manual/access-content/context-menu.rst:590
+msgid ""
+"The primary contact information for the institution, including buttons that "
+"link to the institution's website and email. The contact information is "
+"drawn from the information added to the “Contact” :term:`area <information "
+"area>` of the :term:`archival institution` record."
+msgstr ""
+"機関の主要な連絡先情報で、機関のウェブサイトと電子メールへのリンクボタンが含まれます。連絡先情報は、`:term:`アーカイブ機関`の記録に追加された「コンタクト」:term:`情報エリア`から取得されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:598
+msgid "Results pages"
+msgstr "結果ページ"
+
+#: ../../user-manual/access-content/context-menu.rst:600
+msgid ""
+"When a user searches for :term:`information objects <information object>`, "
+"the context menu consists of :term:`facet filters <facet filter>` which "
+"allow the user to narrow down their search results."
+msgstr ""
+"ユーザーが:term:`情報オブジェクト<information "
+"object>`を検索する際、コンテキストメニューはユーザーが検索結果を絞り込むことを可能にする:term:`ファセットフィルタ<facet "
+"filter>`から構成されています。"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "Context menu shown for information object search results."
+msgstr "情報オブジェクトの検索結果に表示されるコンテキストメニュー。"
+
+#: ../../user-manual/access-content/context-menu.rst:609
+msgid ""
+"For more information on working with :term:`facet filters <facet filter>` in"
+" AtoM, see: :ref:`recurring-facet-filters`."
+msgstr ""
+"AtoM で :term:`ファセットフィルタ <facet filter>` "
+"を使用する方法の詳細については、以下を参照してください。:ref:`recurring-facet-filters`。"
+
+#: ../../user-manual/access-content/context-menu.rst:612
+msgid ""
+"When a user searches for a :term:`term` which is organized hierarchically in"
+" a :term:`taxonomy` the context menu will include a :term:`treeview` of that"
+" taxonomy."
+msgstr ""
+"ユーザーが階層的に整理された :term:`分類体系` 内の :term:`用語` を検索するとき、コンテキストメニューにはその分類体系の "
+":term:`ツリービュー` が含まれます。"
+
+#: ../../user-manual/access-content/context-menu.rst:-1
+msgid "Context menu shown for term search with treeview"
+msgstr "コンテキストメニューは、ツリービューを使った用語検索で表示されます。"
+
+#: ../../user-manual/access-content/context-menu.rst:621
+msgid ""
+":term:`Place` and :term:`Subject` term browse pages have additional features"
+" available in tabs in the treeview provided in the context menu. For more "
+"information, see above, :ref:`context-menu-terms-treeview`."
+msgstr ""
+":term:`場所`および:term:`主題`タームの閲覧ページには、コンテキストメニューで提供されるツリービュー内のタブに追加機能があります。詳細については、上記の:ref:`context-"
+"menu-terms-treeview`を参照してください。"

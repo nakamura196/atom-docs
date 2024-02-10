@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:5
+msgid "Manage digital object storage"
+msgstr "デジタルオブジェクトのストレージを管理する"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:7
+msgid ""
+"Digital objects are computer files that can be uploaded into and displayed "
+"by AtoM. They include scanned images, digital photographs, sound and moving "
+"image files, and other scanned or born-digital items."
+msgstr ""
+"デジタルオブジェクトは、AtoMにアップロードして表示することができるコンピュータファイルです。それらには、スキャンされた画像、デジタル写真、音声や動画ファイル、その他のスキャンされたものや生まれつきデジタルのアイテムが含まれます。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:11
+msgid ""
+"Digital objects can only be edited and added by an authenticated (i.e. "
+"logged- in) :term:`administrator`."
+msgstr "デジタルオブジェクトは認証された（つまりログインした）:term:`管理者`のみが編集や追加ができます。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:14
+msgid ""
+"For more information on :term:`digital objects <digital object>`, see "
+":ref:`upload-digital-object` or :ref:`upload-limit`."
+msgstr ""
+"デジタルオブジェクトに関する詳細情報については、:ref:`upload-digital-object` または :ref:`upload-limit`"
+" をご覧ください。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:18
+msgid "Manage digital object storage per institution"
+msgstr "機関ごとのデジタルオブジェクトストレージを管理する"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:20
+msgid ""
+"Navigate to the :term:`archival institution` whose digital object storage "
+"you would like to manage. You can do this by :doc:`browsing <../access-"
+"content/browse>` or :doc:`searching <../access-content/search-atom>` for the"
+" archival institution - see :ref:`Access content <access-content>` for more "
+"information on navigation in AtoM."
+msgstr ""
+"以下のアーカイブ機関に移動し、管理したいデジタルオブジェクトの保存を行ってください。これは、:doc:`閲覧 <../access-"
+"content/browse>` または、:doc:`検索 <../access-content/search-"
+"atom>`を通じてアーカイブ機関を探すことによって行うことができます。AtoM内のナビゲーションに関する詳しい情報については "
+":ref:`アクセスコンテンツ <access-content>` をご覧ください。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:-1
+msgid "A image of the upload limit dialogue box"
+msgstr "アップロード制限ダイアログボックスの画像"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:32
+msgid ""
+"In the \"Upload limit\" menu, click the \"Edit\" link. A dialogue box will "
+"apear that will allow for 1 of 3 options:"
+msgstr ""
+"「アップロード制限」メニューで、「編集」リンクをクリックします。ダイアログボックスが表示され、3つのオプションのうち1つを選択することができます："
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:35
+msgid ""
+"**Disable uploads** will prevent users from uploading any digital objects."
+msgstr "**アップロードを無効にする**ことで、ユーザーがどんなデジタルオブジェクトもアップロードすることを防ぎます。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:36
+msgid ""
+"**Limit uploads to _____ GB** will allow an administrator to set a specific "
+"upload limit per :term:`archival institution`."
+msgstr ""
+"「**アップロードを_____ GBに制限**」により、管理者はそれぞれの:term:`アーカイブ機関`ごとに特定のアップロード制限を設定できます。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:38
+msgid ""
+"**Allow unlimited uploads** is the default setting in AtoM that places no "
+"restrictions on an authenticated user's digital object uploads."
+msgstr ""
+"「**無制限アップロードを許可** は、AtoMでのデフォルト設定であり、認証されたユーザーのデジタルオブジェクトアップロードに制限を設けません。」"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:41
+msgid ""
+"You can quit the edit process at any time by clicking the \"Cancel\" button;"
+" any data already entered will not be saved."
+msgstr "いつでも「キャンセル」ボタンをクリックすることで編集プロセスを中止できます。すでに入力されたデータは保存されません。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:43
+msgid ""
+"Once the administrator has configured the choices, click \"Save.\" You will "
+"then be redirected to the Archival institution's :term:`view page`. The "
+"changes made will be displayed accordingly:"
+msgstr ""
+"管理者が選択肢を設定したら、「保存」をクリックします。すると、アーカイブ施設の:term:`ビューページ`にリダイレクトされます。行われた変更は適宜表示されます。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:47
+msgid ""
+"If you selected **Disable uploads**, the Upload limit bar will automatically"
+" be removed and the Upload limit section will indicate that the uploads have"
+" been disabled."
+msgstr ""
+"**アップロード禁止**を選択した場合、アップロード制限バーは自動的に削除され、アップロード制限セクションにはアップロードが無効化されたことが表示されます。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:50
+msgid ""
+"If you selected **Allow unlimited uploads**, the Upload limit bar will "
+"automatically be removed and the Upload limit section will indicate the "
+"institution's current uploaded amount, as well as the limit, which will be "
+"*Unlimited* (e.g. \"2.65 GB of *Unlimited*\")."
+msgstr ""
+"**無制限のアップロードを許可** "
+"を選択した場合、アップロード制限バーは自動的に取り除かれ、アップロード制限セクションでは、機関が現在アップロードしている量と、制限が *無制限* "
+"であることが示されます（例: 「2.65 GB of *無制限*」）。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:54
+msgid ""
+"If you selected a specific number of GB as an upload limit, that number will"
+" appear below the Upload limit bar, alongside the institution's current "
+"uploaded amount (e.g. \"2.56 of 10 GB\")."
+msgstr ""
+"アップロード制限として特定のGB数を選択した場合、その数字はアップロード制限バーの下に表示され、機関の現在のアップロード済みデータ量と並んで表示されます（例：\"2.56"
+" / 10 GB\"）。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:58
+msgid ""
+"Additional changes to the Upload limit can be made at any time by following "
+"these steps."
+msgstr "アップロード制限に対する追加の変更は、これらの手順に従っていつでも行うことができます。"
+
+#: ../../user-manual/administer/manage-digital-object-storage.rst:61
+msgid ":ref:`Back to top <manage-digital-object-storage>`"
+msgstr ":ref:`トップに戻る <manage-digital-object-storage>`"

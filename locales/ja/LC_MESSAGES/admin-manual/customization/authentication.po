@@ -1,0 +1,640 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/customization/authentication.rst:5
+msgid "User authentication"
+msgstr "ユーザー認証"
+
+#: ../../admin-manual/customization/authentication.rst:11
+msgid ""
+"AtoM defaults to using local user authentication, which stores user details "
+"such as email addresses and passwords in the AtoM database. It is possible "
+"to configure AtoM to instead integrate with existing Single sign-on services"
+" using the `CAS <https://www.apereo.org/projects/cas>`_ or `LDAP "
+"<https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>`_ "
+"protocols."
+msgstr ""
+"AtoMはデフォルトでローカルユーザー認証を使用し、電子メールアドレスやパスワードなどのユーザー詳細をAtoMデータベースに保存します。 `CAS "
+"<https://www.apereo.org/projects/cas>`_ や `LDAP "
+"<https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>`_ "
+"プロトコルを使用して既存のシングルサインオンサービスとAtoMを統合することも可能です。"
+
+#: ../../admin-manual/customization/authentication.rst:18
+msgid "**Jump to**:"
+msgstr "**移動先**:"
+
+#: ../../admin-manual/customization/authentication.rst:20
+msgid ":ref:`cas-enabling`"
+msgstr ":ref:`cas-有効化`"
+
+#: ../../admin-manual/customization/authentication.rst:21
+msgid ":ref:`cas-groups`"
+msgstr ""
+":ref:`cas-"
+"groups`は参照タグなので、訳す必要はないと思われます。原文の文脈によって適切な日本語訳が変わる可能性がありますが、そのまま\":ref:`cas-"
+"groups`\"として使用します。"
+
+#: ../../admin-manual/customization/authentication.rst:22
+msgid ":ref:`ldap-enabling`"
+msgstr ":ref:`ldap-有効化`"
+
+#: ../../admin-manual/customization/authentication.rst:26
+msgid ":ref:`customization-config-files`"
+msgstr ":ref:`カスタマイズ設定ファイル`"
+
+#: ../../admin-manual/customization/authentication.rst:27
+msgid ":ref:`log-in`"
+msgstr ":ref:`ログイン`"
+
+#: ../../admin-manual/customization/authentication.rst:28
+msgid ":ref:`read-only-mode`"
+msgstr ":ref:`読み取り専用モード`"
+
+#: ../../admin-manual/customization/authentication.rst:33
+msgid "Enabling CAS authentication"
+msgstr "CAS認証の有効化"
+
+#: ../../admin-manual/customization/authentication.rst:35
+msgid ""
+"AtoM can be configured to authenticate users using (`CAS "
+"<https://www.apereo.org/projects/cas>`_) Single Sign-On instead of local "
+"authentication. When this is enabled, users attempting to log in will be "
+"redirected to a CAS server for authentication. After successfully "
+"authenticating, a user account will be created for them in AtoM if one does "
+"not exist already. Logging out from AtoM will then log the user out from "
+"both AtoM and the CAS server."
+msgstr ""
+"AtoMは、ローカル認証の代わりに(`CAS "
+"<https://www.apereo.org/projects/cas>`_)シングルサインオンを利用してユーザーを認証するように設定することができます。これが有効になっている場合、ログインしようとするユーザーはCASサーバーにリダイレクトされて認証を受けます。認証が成功した後、すでに存在していない場合はAtoMでユーザーアカウントが作成されます。AtoMからログアウトすると、ユーザーはAtoMとCASサーバーの両方からログアウトされます。"
+
+#: ../../admin-manual/customization/authentication.rst:43
+msgid ""
+"Enabling CAS authentication requires manually editing a few AtoM config "
+"files. For more information on how to do this, see :ref:`Manage AtoM "
+"configuration files <customization-config-files>`."
+msgstr ""
+"CAS認証を有効にするには、AtoMの設定ファイルを手動で編集する必要があります。これの詳細な方法については、:ref:`AtoM設定ファイルの管理<customization-"
+"config-files>`をご覧ください。"
+
+#: ../../admin-manual/customization/authentication.rst:47
+msgid ""
+"The first thing to do is to activate the ``arCasPlugin``. This can be done "
+"by by adding the plugin name to the ``$plugins`` array in "
+"``config/ProjectConfiguration.class.php``."
+msgstr ""
+"まず最初に行うことは、「arCasPlugin」を有効化することです。これは「config/ProjectConfiguration.class.php」の「$plugins」配列にプラグイン名を追加することで行うことができます。"
+
+#: ../../admin-manual/customization/authentication.rst:53
+msgid ""
+"While the plugin could technically be enabled by an :term:`administrator` "
+"logging in and enabling it in the :term:`user interface` via |gears| **Admin"
+" > Plugins**, doing so would require authenticating locally without CAS "
+"enabled - and the additional configuration file changes described below will"
+" not yet be in place."
+msgstr ""
+"プラグインは技術的には、:term:`管理者`がログインして|gears| **管理 > "
+"プラグイン**から:term:`ユーザーインターフェース`で有効にすることができます。しかし、これを行うためには、CASが有効になっていない状態でローカルで認証する必要があります"
+" - また、以下で説明する追加の設定ファイルの変更はまだ適用されていません。"
+
+#: ../../admin-manual/customization/authentication.rst:7
+msgid "gears"
+msgstr "ギア"
+
+#: ../../admin-manual/customization/authentication.rst:59
+msgid ""
+"For security best practices, we recommend a system administrator enable the "
+"plugin using the method described above, so no local authentication accounts"
+" are stored in AtoM when the intention is to use CAS."
+msgstr ""
+"セキュリティのベストプラクティスとして、システム管理者が上記の方法でプラグインを有効化し、CASを使用する意図がある場合、AtoMにローカル認証アカウントが保存されないようにすることをお勧めします。"
+
+#: ../../admin-manual/customization/authentication.rst:63
+msgid ""
+"Next, configure the CAS settings (CAS version, server name, server port, "
+"server path, and server SSL certificate) in the ``arCasPlugin``'s "
+"``app.yml`` config file with the details of the CAS server you wish to use "
+"for authentication. AtoM supports use of CAS versions ``1.0``, ``2.0``, and "
+"``3.0``. The plugin's default settings make use of a public demo CAS server "
+"which can be used for testing basic CAS login and logout functionality using"
+" the username ``admin`` and password ``django-cas-ng``."
+msgstr ""
+"次に、「arCasPlugin」の「app.yml」設定ファイルに認証に使用したいCASサーバーの詳細（CASバージョン、サーバー名、サーバーポート、サーバーパス、サーバーSSL証明書）を設定します。AtoMはCASバージョン「1.0」、「2.0」、「3.0」の使用をサポートしています。プラグインのデフォルト設定は、ユーザーネーム「admin」およびパスワード「django-"
+"cas-ng」を使用して基本的なCASのログインとログアウト機能をテストするための公開デモCASサーバーを使用します。"
+
+#: ../../admin-manual/customization/authentication.rst:73
+msgid ""
+"While CAS server SSL validation can be disabled for development, we strongly"
+" discourage doing so in a production environment."
+msgstr "開発のためにCASサーバーのSSL検証を無効にすることは可能ですが、本番環境でこれを行うことは強くお勧めしません。"
+
+#: ../../admin-manual/customization/authentication.rst:76
+msgid ""
+"For further information and additional configuration options, see the "
+":ref:`customization-config-files` documentation - specifically:"
+msgstr ""
+"詳細な情報と追加の設定オプションについては、 :ref:`customization-config-files` のドキュメントを参照してください - "
+"特に:"
+
+#: ../../admin-manual/customization/authentication.rst:79
+msgid ":ref:`cas-app-yml`"
+msgstr ""
+":ref:`cas-app-yml` \n"
+"この場合、日本語に直訳すると``:ref:`cas-app-yml`` となりますが、これはテキストの参照タグで、特定のセクションやドキュメントにリンクするためのものです。したがって、翻訳は不要です。ただし、そのまま使用される場合は参照先のドキュメントも日本語に翻訳する必要があります。"
+
+#: ../../admin-manual/customization/authentication.rst:81
+msgid ""
+"Next, change the default login module to ``cas`` in "
+"``apps/qubit/config/settings.yml``."
+msgstr ""
+"次に、``apps/qubit/config/settings.yml``のデフォルトのログインモジュールを``cas``に変更してください。"
+
+#: ../../admin-manual/customization/authentication.rst:84
+msgid ""
+"Finally, change the user class to ``casUser`` in "
+"``apps/qubit/config/factories.yml``."
+msgstr "最後に、``apps/qubit/config/factories.yml``内のユーザークラスを``casUser``に変更します。"
+
+#: ../../admin-manual/customization/authentication.rst:89
+msgid ""
+"Whenever you make changes to  AtoM's configuration files, remember to clear "
+"the cache and restart PHP-FPM to apply the changes. See:"
+msgstr "AtoMの設定ファイルに変更を加えるたびに、キャッシュをクリアし、PHP-FPMを再起動して変更を適用することを忘れないでください。参照："
+
+#: ../../admin-manual/customization/authentication.rst:92
+#: ../../admin-manual/customization/authentication.rst:197
+msgid ":ref:`maintenance-clear-cache`"
+msgstr ":ref:`メンテナンス-キャッシュクリア`"
+
+#: ../../admin-manual/customization/authentication.rst:93
+#: ../../admin-manual/customization/authentication.rst:198
+msgid ":ref:`troubleshooting-restart-php-fpm`"
+msgstr ":ref:`トラブルシューティング-php-fpmの再起動`"
+
+#: ../../admin-manual/customization/authentication.rst:98
+msgid "Setting AtoM group membership from CAS user attributes"
+msgstr "CASユーザー属性からAtoMグループメンバーシップを設定する"
+
+#: ../../admin-manual/customization/authentication.rst:100
+msgid ""
+"AtoM CAS support can be optionally configured to automatically set each "
+"user's AtoM user group membership based on the presence or absence of "
+"expected values in user attributes returned by a CAS server during "
+"authentication. When enabled, this entitlement check occurs on each login so"
+" that changes made to group membership on the CAS server are reflected in "
+"AtoM on the next login."
+msgstr ""
+"AtoM "
+"CASサポートは、オプションで設定可能で、認証中にCASサーバから返されるユーザー属性の予想される値の有無に基づいて、各ユーザーのAtoMユーザーグループメンバーシップを自動的に設定します。有効にすると、この権限チェックは各ログインごとに行われるため、CASサーバ上で行われたグループメンバーシップの変更が次回のログイン時にAtoMに反映されます。"
+
+#: ../../admin-manual/customization/authentication.rst:108
+msgid ""
+"Use of this feature requires CAS version 3.0. Earlier versions of the CAS "
+"protocol do not support release of user attributes."
+msgstr ""
+"この機能の使用にはCASバージョン3.0が必要です。CASプロトコルの以前のバージョンでは、ユーザー属性のリリースがサポートされていません。"
+
+#: ../../admin-manual/customization/authentication.rst:111
+msgid ""
+"This feature is enabled via settings in the the ``arCasPlugin``'s "
+"``app.yml`` config file."
+msgstr "この機能は、「arCasPlugin」の「app.yml」設定ファイル内の設定を通じて有効化されます。"
+
+#: ../../admin-manual/customization/authentication.rst:114
+msgid ""
+"First, enable the feature by setting ``set_groups_from_attributes`` to "
+"``true``."
+msgstr "まず、``set_groups_from_attributes`` を ``true``に設定して機能を有効にします。"
+
+#: ../../admin-manual/customization/authentication.rst:117
+msgid ""
+"Next, set the CAS attribute whose values will be checked to determine group "
+"membership in ``attribute_key``."
+msgstr "次に、``attribute_key``でグループメンバーシップを決定するためにチェックされる値を持つCAS属性を設定します。"
+
+#: ../../admin-manual/customization/authentication.rst:120
+msgid ""
+"Finally, set the ``attribute_value`` of each group in ``user_groups`` to "
+"match the expected value for that group in the CAS attributes."
+msgstr ""
+"最後に、``user_groups``内の各グループの``attribute_value``を、CAS属性の該当グループで期待される値に一致させてください。"
+
+#: ../../admin-manual/customization/authentication.rst:123
+msgid ""
+"Groups can be added or removed from ``user_groups`` as desired. Only groups "
+"that are properly configured with an ``attribute_value`` and a valid "
+"``group_id`` will be used to set AtoM group membership on login."
+msgstr ""
+"``user_groups``からグループを追加または削除することが可能です。適切に``attribute_value``と有効な``group_id``で設定されたグループのみが、ログイン時のAtoMグループメンバーシップを設定するために使用されます。"
+
+#: ../../admin-manual/customization/authentication.rst:129
+msgid ""
+"When this option is enabled, any changes that an administrator makes in AtoM"
+" to a user's group membership will not persist and be overwritten on the "
+"next CAS login."
+msgstr ""
+"このオプションが有効になっている場合、管理者がAtoMでユーザーのグループメンバーシップに対して行う任意の変更は、次回のCASログイン時に永続化されず、上書きされます。"
+
+#: ../../admin-manual/customization/authentication.rst:133
+#: ../../admin-manual/customization/authentication.rst:366
+msgid ":ref:`Back to top <customization-authentication>`"
+msgstr ":ref:`トップに戻る <customization-authentication>`"
+
+#: ../../admin-manual/customization/authentication.rst:138
+msgid "Enabling LDAP authentication"
+msgstr "LDAP認証の有効化"
+
+#: ../../admin-manual/customization/authentication.rst:142
+msgid ""
+"AtoM can also be configured to authenticate users using (`LDAP`_ ), an "
+"\"open, vendor-neutral, industry standard application protocol for accessing"
+" and maintaining distributed directory information services over an Internet"
+" Protocol (IP) network\" (Wikipedia). When this is enabled, users attempting"
+" to log in will use the credentials associated with their LDAP account, "
+"instead of local account credentials, when :ref:`logging in <log-in>` to "
+"AtoM."
+msgstr ""
+"AtoMは、\"オープンで、ベンダーニュートラルな、インターネットプロトコル（IP）ネットワーク上の分散ディレクトリ情報サービスをアクセスおよび維持するための業界標準アプリケーションプロトコル\"(Wikipedia)である（`LDAP`_"
+" "
+")を用いてユーザーを認証するように設定することもできます。これが有効化されている場合、ユーザーがログインしようとする際には、AtoMへの:ref:`ログイン"
+" <log-in>`時にローカルアカウントの資格情報の代わりにLDAPアカウントの資格情報を使用します。"
+
+#: ../../admin-manual/customization/authentication.rst:149
+msgid ""
+"Enabling LDAP authentication in AtoM requires manually editing a few AtoM "
+"configuration files. For more general information on how to do this, see "
+":ref:`Manage AtoM configuration files <customization-config-files>`."
+msgstr ""
+"AtoMでLDAP認証を有効にするには、いくつかのAtoM設定ファイルを手動で編集する必要があります。これの方法に関するより一般的な情報については、:ref:`AtoM設定ファイルの管理<customization-"
+"config-files>`を参照してください。"
+
+#: ../../admin-manual/customization/authentication.rst:153
+msgid ""
+"First, we'll need to make a small change in the ``config/factories.yml`` "
+"configuration file. You can open this file with ``nano`` or another text "
+"editor to make the changes. Starting from AtoM's root installation "
+"directory, run:"
+msgstr ""
+"まず、``config/factories.yml``設定ファイルに少し変更を加える必要があります。このファイルは``nano``や他のテキストエディターを使って開き、変更を加えることができます。AtoMのルートインストールディレクトリから始めて、実行します："
+
+#: ../../admin-manual/customization/authentication.rst:163
+msgid ""
+"If you are making these changes on an AtoM installation **after** it has "
+"already been installed and configured, then the file you should modify will "
+"be found at ``apps/qubit/config/factories.yml``."
+msgstr ""
+"もしこれらの変更をAtoMのインストール**後**に行う場合、書き換えるべきファイルは``apps/qubit/config/factories.yml``に位置しています。"
+
+#: ../../admin-manual/customization/authentication.rst:167
+msgid ""
+"During the final configuration steps of the installation process, AtoM will "
+"copy the default values from the original ``config/factories`` version into "
+"a new ``apps/qubit/config/factories.yml`` version, which will take "
+"precedence going forward. If your AtoM installation is already complete, "
+"this second one will be the file you'll want to change."
+msgstr ""
+"インストールプロセスの最終設定手順中に、AtoMは元の ``config/factories`` バージョンからのデフォルト値を新しい "
+"``apps/qubit/config/factories.yml`` "
+"バージョンにコピーします。これが今後優先されるものとなります。もしあなたのAtoMのインストールが既に完了しているなら、この二番目のものがあなたが変更したいファイルとなるでしょう。"
+
+#: ../../admin-manual/customization/authentication.rst:173
+msgid ""
+"If you're not sure, check for a file at ``apps/qubit/config/factories.yml`` "
+"while making changes. If it exists, make the changes in this file. Note that"
+" applying the changes in both files will work fine as well."
+msgstr ""
+"確信がない場合は、変更を加える間に``apps/qubit/config/factories.yml``のファイルが存在するか確認してください。もし存在するなら、このファイルに変更を加えてください。また、どちらのファイルにも変更を適用すると、同様に問題なく動作します。"
+
+#: ../../admin-manual/customization/authentication.rst:178
+msgid "In the file you'll find the following section:"
+msgstr "ファイル内には以下のセクションが含まれています:"
+
+#: ../../admin-manual/customization/authentication.rst:187
+msgid "Change the ``myUser`` value to ``ldapUser``:"
+msgstr "``myUser``の値を``ldapUser``に変更します："
+
+#: ../../admin-manual/customization/authentication.rst:194
+msgid ""
+"Exit and save your changes, and the clear the application cache and restart "
+"PHP-FPM."
+msgstr "変更を保存して終了し、アプリケーションキャッシュをクリアしてPHP-FPMを再起動してください。"
+
+#: ../../admin-manual/customization/authentication.rst:200
+msgid ""
+"After doing so, a new configuration section will be available in |gears| "
+"**Admin > Settings**, where you can define your LDAP authentication "
+"settings:"
+msgstr ""
+"それを行った後、新たな設定セクションが|gears| **管理 > 設定**で利用可能になります。ここでLDAP認証設定を定義することができます："
+
+#: ../../admin-manual/customization/authentication.rst:-1
+msgid "An image of the LDAP authentication settings"
+msgstr "LDAP認証設定の画像"
+
+#: ../../admin-manual/customization/authentication.rst:208
+msgid ""
+"The **Host** field expects the hostname or IP address of the LDAP server."
+msgstr "**ホスト**フィールドは、LDAPサーバーのホスト名またはIPアドレスを必要とします。"
+
+#: ../../admin-manual/customization/authentication.rst:210
+msgid ""
+"The **Port** field should be the port on which your LDAP server will listen "
+"for connections. The industry standard default port for LDAP connections is "
+"``389`` - by default, AtoM will populate this field with ``389``. Try this "
+"if you're not sure what port your LDAP server is using."
+msgstr ""
+"**Port**フィールドは、LDAPサーバが接続を待ち受けるポート番号です。業界標準のLDAP接続用のデフォルトポートは``389``で、デフォルトではAtoMはこのフィールドを``389``で自動設定します。自身のLDAPサーバがどのポートを使うか不明な場合は、まずこれを試してみてください。"
+
+#: ../../admin-manual/customization/authentication.rst:216
+msgid "Base DN and Bind Lookup Attribute - overview"
+msgstr "ベースDNとバインドルックアップ属性 - 概要"
+
+#: ../../admin-manual/customization/authentication.rst:218
+msgid ""
+"These two elements are what AtoM will use to determine which LDAP entry the "
+"authentication attempt should be compared against."
+msgstr "これらの2つの要素は、認証試行がどのLDAPエントリと比較されるべきかをAtoMが判断するために使用します。"
+
+#: ../../admin-manual/customization/authentication.rst:221
+msgid ""
+"The **Base DN** will provide AtoM with the common parts of an LDAP entry on "
+"your server that won't change per user - basically, where to look in the "
+"LDAP directory tree to find general user information."
+msgstr ""
+"**ベースDN**は、ユーザーごとに変更されないサーバー上のLDAPエントリの共通部分をAtoMに提供します - "
+"基本的に、LDAPディレクトリツリーのどこを探せば一般的なユーザー情報を見つけることができるかを示します。"
+
+#: ../../admin-manual/customization/authentication.rst:225
+msgid ""
+"Every LDAP entry consists of a set of attributes. LDAP entries are stored in"
+" a tree-like directory structure, so the information provided in this field "
+"should give AtoM enough information to find the subdirectory that contains "
+"your unique users. Configuring this field in AtoM will require an "
+"understanding of how your LDAP server is configured."
+msgstr ""
+"全てのLDAPエントリは一連の属性から構成されています。LDAPエントリは木構造のディレクトリに保存されているため、このフィールドに提供される情報は、AtoMがあなたの一意のユーザーを含むサブディレクトリを見つけるための十分な情報を提供するべきです。このフィールドをAtoMで設定するには、あなたのLDAPサーバーがどのように設定されているかを理解する必要があります。"
+
+#: ../../admin-manual/customization/authentication.rst:231
+msgid ""
+"Every LDAP entry will have a Distinguished Name (**DN**) that uniquely "
+"identifies that entry and its position in the directory information tree "
+"(DIT) hierarchy, similar to the path to a file on a filesystem."
+msgstr ""
+"すべてのLDAPエントリは、ディレクトリ情報ツリー(DIT)階層におけるそのエントリと位置を一意に識別する識別名（**DN**）を持つことになります。これは、ファイルシステム上のファイルへのパスに似ています。"
+
+#: ../../admin-manual/customization/authentication.rst:235
+msgid ""
+"Each LDAP DN is composed of zero or more elements called relative "
+"distinguished names (RDNs), and each RDN is composed of at least one "
+"attribute-value pairs. There are several commonly used attributes, such as:"
+msgstr ""
+"各LDAP DNは、ゼロ以上の「相対識別名（RDNs）」と呼ばれる要素で構成され、各RDNは少なくとも1つの属性-"
+"値のペアで構成されています。以下のような一般的に使用される属性がいくつかあります："
+
+#: ../../admin-manual/customization/authentication.rst:239
+msgid "**cn**: Common name. For example, \"John Doe\""
+msgstr "**cn**: 一般的な名前。たとえば、「ジョン・ドウ」"
+
+#: ../../admin-manual/customization/authentication.rst:240
+msgid "**sn**: Surname. For example, \"Doe\""
+msgstr "**sn**: 姓。例えば、「山田」"
+
+#: ../../admin-manual/customization/authentication.rst:241
+msgid ""
+"**uid**: User ID. Because a DN indicates directory location, it's possible a"
+" DN may change over the lifetime of the entry, for example if an entry is "
+"moved within the directory's information tree hierarchy. Including a unique "
+"ID for each entry means this can be used in a DN. For example, ``jdoe01``."
+msgstr ""
+"**uid**: ユーザーID。 "
+"DNがディレクトリの場所を示すため、エントリがディレクトリの情報ツリー階層内で移動すると、DNがエントリの寿命を通じて変更する可能性があります。それぞれのエントリにユニークなIDを含めることで、これがDNで使用できます。例えば、``jdoe01``。"
+
+#: ../../admin-manual/customization/authentication.rst:245
+msgid ""
+"**dc**: Domain component. For example, If the base domain name of the LDAP "
+"server is found at ``ldap.example.com``, then the domain components for an "
+"entry might be ``dc=ldap,dc=example,dc=com`` with each part of the full "
+"domain being one domain component."
+msgstr ""
+"**dc**：ドメインコンポーネント。例えば、LDAPサーバのベースドメイン名が``ldap.example.com``である場合、エントリのドメインコンポーネントは``dc=ldap,dc=example,dc=com``となり、フルドメインの各部分が一つのドメインコンポーネントとなります。"
+
+#: ../../admin-manual/customization/authentication.rst:249
+msgid ""
+"**mail**: Email address associated with the entry. For example, `` "
+"john.doe@example.com``."
+msgstr "**mail**: エントリーに関連付けられた電子メールアドレス。例：``john.doe@example.com``。"
+
+#: ../../admin-manual/customization/authentication.rst:251
+msgid ""
+"**ou**: Organizational unit. Typically represents a directory used in your "
+"LDAP directory hierarchy, such as ``Users``."
+msgstr "**ou**: 組織単位。通常、LDAPディレクトリ階層に使用されるディレクトリを表しています。例えば、``Users``などです。"
+
+#: ../../admin-manual/customization/authentication.rst:253
+msgid ""
+"**userPassword**: the password associated with the particular user defined "
+"in the LDAP entry."
+msgstr "**userPassword**：LDAPエントリで定義された特定のユーザーに関連付けられたパスワード。"
+
+#: ../../admin-manual/customization/authentication.rst:256
+msgid ""
+"There are a number of other attribute key-value pairs often used as well for"
+" capturing additional information about the entry and its location in the "
+"directory tree, but those listed above include the elements we need to "
+"configure AtoM's Base DN."
+msgstr ""
+"エントリーやそのディレクトリツリー内の位置に関する追加情報を取得するためにも、他に多くの属性キー値ペアが頻繁に使用されますが、上記に列挙したものには、AtoMのベースDNを設定するために必要な要素が含まれています。"
+
+#: ../../admin-manual/customization/authentication.rst:261
+msgid ""
+"Meanwhile, the **Bind Lookup Attribute** setting in AtoM will specify which "
+"attribute should be used to uniquely identify the user. This attribute value"
+" will tell AtoM which LDAP attribute to compare against the value entered "
+"into the \"Email\" field in AtoM's login panel. While the Base DN values "
+"will be common to all LDAP entries, the attribute selected for Lookup should"
+" be unique. An example:"
+msgstr ""
+"一方、AtoMの**Bind Lookup "
+"Attribute**設定は、どの属性を使用してユーザーを一意に識別するかを指定します。この属性値は、AtoMが\"Email\"フィールドに入力された値と比較するためのLDAP属性をAtoMに伝えます。Base"
+" DNの値はすべてのLDAPエントリーに共通ですが、Lookupに選択される属性は一意であるべきです。例えば："
+
+#: ../../admin-manual/customization/authentication.rst:274
+msgid ""
+"When authenticating a user, AtoM will use the Base DN and Bind Lookup "
+"Attribute values together to identify the relevant target LDAP entry that is"
+" used for validating the authentication attempt. This means:"
+msgstr ""
+"ユーザー認証時には、AtoMはBase DNとBind Lookup "
+"Attributeの値を組み合わせて、認証試行の検証に使用される関連するターゲットLDAPエントリを識別します。これはつまり："
+
+#: ../../admin-manual/customization/authentication.rst:278
+msgid ""
+"Whatever is set as the Bind Lookup Attribute in AtoM's settings should match"
+" what users logging in with LDAP will enter into the AtoM login panel's "
+"\"Email\" field."
+msgstr ""
+"AtoMの設定でBind Lookup "
+"Attributeとして設定されているものは、LDAPでログインするユーザーがAtoMのログインパネルの「メール」フィールドに入力するものと一致するべきです。"
+
+#: ../../admin-manual/customization/authentication.rst:281
+msgid ""
+"Whatever password a user enters into the AtoM login panel's \"Password\" "
+"field should match the ``userPassword`` value in their LDAP directory entry."
+msgstr ""
+"ユーザーがAtoMログインパネルの「パスワード」フィールドに入力するパスワードは、彼らのLDAPディレクトリエントリの``userPassword``値と一致するべきです。"
+
+#: ../../admin-manual/customization/authentication.rst:285
+msgid "Configuring the Base DN and Bind Lookup Attribute settings"
+msgstr "基本DNとバインドルックアップ属性設定の設定"
+
+#: ../../admin-manual/customization/authentication.rst:287
+msgid ""
+"The **Base DN** setting in AtoM *must* include any ``ou`` (organizational "
+"unit) directory component that target users are contained in on the LDAP "
+"server, plus any domain components (``dc``) required to find the "
+"information. AtoM will use this to be able to find where individual LDAP "
+"entries are stored within the LDAP server's directory tree. each attribute "
+"key/value pair should be entered separated by commas, with no spaces between"
+" them."
+msgstr ""
+"AtoMの**Base "
+"DN**設定は、LDAPサーバー上で目的のユーザーが含まれている任意の``ou``（組織単位）ディレクトリコンポーネントと、情報を見つけるために必要なドメインコンポーネント（``dc``）を含む*必要*があります。AtoMはこれを使用して、個々のLDAPエントリがLDAPサーバーのディレクトリツリー内のどこに保存されているかを特定します。各属性のキー/値のペアは、それらの間にスペースを入れずに、カンマで区切って入力する必要があります。"
+
+#: ../../admin-manual/customization/authentication.rst:294
+msgid ""
+"For example, if the target LDAP server has user accounts in an "
+"Organizational Unit called \"atomUsers\" on a server with a domain of "
+"``example.com``, then the Base DN setting in AtoM would be entered as:"
+msgstr ""
+"例えば、対象のLDAPサーバが \"atomUsers\" という組織単位にユーザーアカウントを持っており、そのサーバーのドメインが "
+"\"example.com\"であるならば、AtoMの基底DN設定は次のように入力します:"
+
+#: ../../admin-manual/customization/authentication.rst:302
+msgid ""
+"The **Bind Lookup Attribute** should be whatever attribute in your LDAP "
+"entries will be globally unique, unlikely to change, and used to identify "
+"individual users. If you want the login experience to match AtoM's current "
+"expectations (using an email address in the username field) and your LDAP "
+"server is configured to use **mail** attributes for every user, then you "
+"would enter ``mail`` into this field."
+msgstr ""
+"**Bind Lookup "
+"Attribute**は、LDAPエントリの中でグローバルに一意で、変更される可能性が低く、個々のユーザーを識別するために使用される属性であるべきです。ログイン体験をAtoMの現在の期待値（ユーザー名フィールドにメールアドレスを使用）に合わせたい場合、そしてLDAPサーバーが全てのユーザーに対して**mail**属性を使用するように設定されている場合、このフィールドに``mail``を入力します。"
+
+#: ../../admin-manual/customization/authentication.rst:309
+msgid ""
+"If ``mail`` is not used in your LDAP server, ``uid`` is a good option, as "
+"this typically shouldn't change even if the entry moves in the LDAP "
+"directory tree. Barring that, ``cn`` could be used. Whatever is picked will "
+"define what type of information end users attempting to authenticate in AtoM"
+" should enter into the login panel's \"Email\" field."
+msgstr ""
+"あなたのLDAPサーバーで``mail``が使われていない場合、エントリがLDAPディレクトリツリー内で移動しても通常は変更されないため、``uid``は良い選択肢です。それを禁じる場合、``cn``を使用することができます。選択されたものは、AtoMで認証を試みているエンドユーザーがログインパネルの\"Email\"フィールドにどのタイプの情報を入力すべきかを定義します。"
+
+#: ../../admin-manual/customization/authentication.rst:-1
+msgid "An image of example valudes in the LDAP authentication settings"
+msgstr "LDAP認証設定の例の値の画像"
+
+#: ../../admin-manual/customization/authentication.rst:320
+msgid ""
+"In the above example, users would enter their LDAP username into AtoM's "
+"\"Email\" field in the login menu. If ``cn`` were used as the lookup "
+"attribute instead, then users would need to enter their LDAP common name."
+msgstr ""
+"上記の例では、ユーザーはLDAPのユーザー名をAtoMの「Email」フィールドに入力します。もし `cn` "
+"がルックアップ属性として使われる場合、ユーザーはLDAPのコモンネームを入力する必要があります。"
+
+#: ../../admin-manual/customization/authentication.rst:325
+msgid "After configuring the LDAP settings"
+msgstr "LDAP設定の構成後"
+
+#: ../../admin-manual/customization/authentication.rst:327
+msgid ""
+"Once configured, users registered on the LDAP server should now be able to "
+"authenticate with their LDAP credentials to log into AtoM."
+msgstr ""
+"一度設定されると、LDAPサーバーに登録されたユーザーは、自身のLDAP資格情報を使用して、AtoMにログインすることができるようになります。"
+
+#: ../../admin-manual/customization/authentication.rst:330
+msgid ""
+"When a user authenticates for the first time, a new AtoM user is created in "
+"the database. However, by default, this user is **not assigned to any user "
+"groups**, and will therefore only have the base permissions of the "
+"Authenticated user group. An :term:`administrator` can modify the user "
+"permissions after the new user has been created using AtoM's permissions "
+"module - for more information, see:"
+msgstr ""
+"ユーザーが初めて認証を行うと、データベースに新しいAtoMユーザーが作成されます。ただし、デフォルトでは、このユーザーは**どのユーザーグループにも割り当てられていません**。したがって、認証済みユーザーグループの基本的な権限しか持つことができません。:term:`管理者`は、新しいユーザーが作成された後に、AtoMの権限モジュールを使用してユーザーの権限を変更することができます。詳細は、以下を参照してください:"
+
+#: ../../admin-manual/customization/authentication.rst:337
+msgid ":ref:`edit-user-permissions`"
+msgstr ":ref:`ユーザー権限の編集`"
+
+#: ../../admin-manual/customization/authentication.rst:338
+msgid ":ref:`manage-user-accounts`"
+msgstr ":ref:`ユーザーアカウントの管理`"
+
+#: ../../admin-manual/customization/authentication.rst:342
+msgid ""
+"If switching to LDAP authentication *after* creating and configuring local "
+"user accounts in AtoM, the most secure method to transition will likely be "
+"to **delete** the local user accounts and let the LDAP authentication create"
+" new ones, so that no passwords are stored in AtoM and no duplicate accounts"
+" exist."
+msgstr ""
+"AtoMでローカルユーザーアカウントを作成し設定した*後*にLDAP認証に切り替える場合、最も安全な移行方法は、おそらくローカルユーザーアカウントを**削除し**、LDAP認証が新たにアカウントを作成させることで、AtoMにパスワードが保存されず、重複したアカウントが存在しないようにすることでしょう。"
+
+#: ../../admin-manual/customization/authentication.rst:347
+msgid ""
+"The following points summarize how AtoM will attempt to validate "
+"authentication attempts when there are existing user accounts:"
+msgstr "次の点は、既存のユーザーアカウントがある場合に、AtoMがどのように認証試行を検証しようとするかを要約しています："
+
+#: ../../admin-manual/customization/authentication.rst:350
+msgid ""
+"As a first step, AtoM will check if a local account matches the user "
+"credentials if no LDAP match is found. This can allow users with existing "
+"local accounts to bypass the LDAP authentication, and/or continue accessing "
+"AtoM even if the LDAP entry is removed."
+msgstr ""
+"まず最初に、AtoMはLDAPで一致するものが見つからない場合、ローカルアカウントがユーザー資格情報と一致するかどうかを確認します。これにより、既存のローカルアカウントを持つユーザーはLDAP認証を回避したり、LDAPエントリが削除されてもAtoMへのアクセスを続けることができます。"
+
+#: ../../admin-manual/customization/authentication.rst:354
+msgid ""
+"If a match IS found, AtoM will attempt to look for existing accounts by "
+"comparing the LDAP lookup attribute (user name, etc) against the emails "
+"stored in AtoM's user table (which are used for local authentication). This "
+"means that if the lookup attribute configured is **not** ``mail``, then a "
+"new account could be created, leaving the user with both a local user "
+"account and a newly created user account."
+msgstr ""
+"一致が見つかった場合、AtoMはLDAPルックアップ属性（ユーザ名など）をAtoMのユーザテーブルに保存されているメールと比較して、既存のアカウントを探そうと試みます（これらはローカル認証に使用されます）。これは、設定されたルックアップ属性が``mail``で**ない**場合、新しいアカウントが作成され、ユーザーがローカルのユーザーアカウントと新しく作成されたユーザーアカウントの両方を持つことになるということを意味しています。"
+
+#: ../../admin-manual/customization/authentication.rst:360
+msgid ""
+"If no local account match is found, AtoM will create a new default user, "
+"whose only initial permissions in AtoM will be those of the Authenticated "
+":term:`user group`. No password will be stored in AtoM with this method, "
+"since the LDAP server handles authentication. This is the default behavior "
+"in AtoM when LDAP is enabled and no user accounts are present."
+msgstr ""
+"ローカルアカウントの一致が見つからない場合、AtoMは新しいデフォルトユーザーを作成します。このユーザーは、AtoMで初期的に与えられる権限が認証 "
+":term:`user group` "
+"のものだけです。LDAPサーバーが認証を処理するため、この方法ではAtoMにパスワードは保存されません。これは、LDAPが有効化され、ユーザーアカウントが存在しない場合のAtoMのデフォルトの動作です。"

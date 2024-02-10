@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../dev-manual/env/compose.rst:5
+msgid "Docker Compose"
+msgstr "Docker Compose"
+
+#: ../../dev-manual/env/compose.rst:7
+msgid ""
+"Linux containers and Docker have radically changed the way applications are "
+"developed, built, distributed and deployed. The AtoM team is experimenting "
+"with new workflows that make use of containers. This document introduces our"
+" new development workflow based on Docker and `Docker Compose "
+"<https://docs.docker.com/compose/>`__. The latter is a tool that help us to "
+"run multi-container applications like AtoM and it is suitable for both "
+"development and production environments."
+msgstr ""
+"LinuxコンテナとDockerは、アプリケーションの開発、ビルド、配布、デプロイの方法を根本的に変えました。AtoMチームは、コンテナを活用した新しいワークフローの実験を行っています。このドキュメントでは、Docker及び「Docker"
+" Compose "
+"<https://docs.docker.com/compose/>」に基づいた新たな開発ワークフローを紹介します。後者は、AtoMのようなマルチコンテナアプリケーションを実行するのに役立つツールであり、開発環境と本番環境の両方に適しています。"
+
+#: ../../dev-manual/env/compose.rst:16
+msgid ""
+"The Docker Compose integration and AtoM Dockerfile outlined here are "
+"intended for **testing and development purposes only**. They have not been "
+"fully tested and prepared for use in production environments at this time."
+msgstr ""
+"ここに示されているDocker Composeの統合とAtoM "
+"Dockerfileは、**テストおよび開発目的のみ**に使用することを意図しています。これらは現時点では本番環境での使用に向けて完全にテストや準備が行われていません。"
+
+#: ../../dev-manual/env/compose.rst:20
+msgid ""
+"If you encounter issues or bugs, you are welcome to report them via the "
+"`AtoM users forum <https://groups.google.com/forum/#!forum/ica-atom-"
+"users>`__ - we will provide basic support as we are able, but urge you to "
+"proceed at your own risk."
+msgstr ""
+"問題やバグに遭遇した場合は、`AtoMユーザーフォーラム <https://groups.google.com/forum/#!forum/ica-"
+"atom-users>`__ を通じて報告していただけます。私たちは可能な範囲で基本的なサポートを提供しますが、自己責任で進めることをお勧めします。"
+
+#: ../../dev-manual/env/compose.rst:25
+msgid ""
+"If this is the first time that you have heard about containers you may find "
+"`The New Stack eBook Series <http://thenewstack.io/ebookseries/>`_ a useful "
+"resource to get up to speed quickly."
+msgstr ""
+"もしこれがコンテナについて初めて聞くことであれば、迅速に理解を深めるために `The New Stack eBook Series "
+"<http://thenewstack.io/ebookseries/>`_ が役立つ資料になるでしょう。"
+
+#: ../../dev-manual/env/compose.rst:30
+msgid "Install Docker and Docker Compose"
+msgstr "DockerおよびDocker Composeのインストール"
+
+#: ../../dev-manual/env/compose.rst:32
+msgid ""
+"Docker works the same whether you are using `Docker for Windows "
+"<https://docs.docker.com/docker-for-windows/>`_, `Docker for Mac "
+"<https://docs.docker.com/docker-for-mac/>`_ or Docker on Linux. For the "
+"latter, make sure that both `Docker Engine "
+"<https://docs.docker.com/engine/installation/>`_ and `Docker Compose "
+"<https://docs.docker.com/compose/install/>`_  are installed following the "
+"instructions in the links."
+msgstr ""
+"Dockerは、`Windows用Docker <https://docs.docker.com/docker-for-"
+"windows/>`_、`Mac用Docker <https://docs.docker.com/docker-for-"
+"mac/>`_、またはLinux上のDockerを使用している場合でも同じように機能します。後者については、リンク先の指示に従って`Docker "
+"Engine <https://docs.docker.com/engine/installation/>`_ および`Docker Compose "
+"<https://docs.docker.com/compose/install/>`_ がインストールされていることを確認してください。"
+
+#: ../../dev-manual/env/compose.rst:41
+msgid "Spin it up"
+msgstr "起動させる"
+
+#: ../../dev-manual/env/compose.rst:43
+msgid ""
+"Let's make sure that the Docker client can reach the engine. The following "
+"command will list the currently running containers:"
+msgstr "Dockerクライアントがエンジンに到達できることを確認しましょう。次のコマンドは、現在実行中のコンテナーを一覧表示します："
+
+#: ../../dev-manual/env/compose.rst:50
+msgid ""
+"Now using git, check out the sources of AtoM and change your current "
+"directory:"
+msgstr "現在、gitを使用してAtoMのソースをチェックアウトし、現在のディレクトリを変更してください。"
+
+#: ../../dev-manual/env/compose.rst:59
+msgid ""
+"The source code (the entire \"atom\" folder) is copied to the Docker "
+"container on the build process and used to create the instance. For example,"
+" clone the \"stable/|version|.x\" branch if you want to test the latest "
+"stable version of AtoM."
+msgstr ""
+"ビルドプロセス中にソースコード（「atom」フォルダ全体）がDockerコンテナにコピーされ、インスタンスを作成するために使用されます。例えば、AtoMの最新の安定版をテストしたい場合は、「stable/|version|.x」ブランチをクローンします。"
+
+#: ../../dev-manual/env/compose.rst:63
+msgid ""
+"Now set the environment variable ``COMPOSE_FILE`` to tell Compose what is "
+"the location of our YAML file. You could do the same using the ``-f`` flag "
+"but we don't want to do so each time we invoke the ``docker-compose`` "
+"command."
+msgstr ""
+"現在、環境変数``COMPOSE_FILE``を設定して、Composeに私たちのYAMLファイルの場所を教えます。``-f``フラグを使用して同じことを行うこともできますが、``docker-"
+"compose``コマンドを呼び出すたびにそれを行いたくないでしょう。"
+
+#: ../../dev-manual/env/compose.rst:75
+msgid "It's time to use Docker Compose in order to provision our containers:"
+msgstr "コンテナーを準備するために、Docker Compose の使用時が来ました："
+
+#: ../../dev-manual/env/compose.rst:79
+msgid ""
+"In some operating systems, the default virtual memory limits can be low. "
+"Elasticsearch increases one of those limits when installed via packages and "
+"in the container that will be created below. However, the same limit needs "
+"to be increased in the host running this environment. Check the "
+"`Elasticsearch documentation "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/5.6/vm-max-map-"
+"count.html>`__ for more information."
+msgstr ""
+"一部のオペレーティングシステムでは、デフォルトの仮想メモリの限界が低いことがあります。パッケージ経由でインストールされた際、または以下で作成されるコンテナ内で、Elasticsearchはこれらの限界の1つを増加させます。しかしながら、この環境を実行しているホストでも同じ限界を高める必要があります。詳しい情報については、`Elasticsearchのドキュメント"
+" <https://www.elastic.co/guide/en/elasticsearch/reference/5.6/vm-max-map-"
+"count.html>`__ を確認してください。"
+
+#: ../../dev-manual/env/compose.rst:87
+msgid ""
+"The containers for the application use ``php:7.4-fpm-alpine`` as their base "
+"image. If an old version of this image has been already downloaded by the "
+"Docker engine in the host, run ``docker pull php:7.4-fpm-alpine`` to get the"
+" latest version before creating the containers. It has to be based on Alpine"
+" v3.8 or higher to be able to install some packages."
+msgstr ""
+"このアプリケーションのコンテナは、ベースイメージとして``php:7.4-fpm-"
+"alpine``を使用しています。ホストのDockerエンジンによってこのイメージの古いバージョンがすでにダウンロードされている場合は、コンテナを作成する前に``docker"
+" pull php:7.4-fpm-"
+"alpine``を実行して最新のバージョンを取得してください。いくつかのパッケージをインストールするためには、Alpine "
+"v3.8以上に基づいている必要があります。"
+
+#: ../../dev-manual/env/compose.rst:100
+msgid "All seven docker containers should now be up and running."
+msgstr "すべての7つのDockerコンテナは今、起動して稼働しているはずです。"
+
+#: ../../dev-manual/env/compose.rst:104
+msgid ""
+"If the atom container command below to purge the database fails with the "
+"message: ``PHP Fatal error:  Allowed memory size of 536870912 bytes "
+"exhausted ...``,  you can increase the memory allocated  by either adding "
+"the line ``ATOM_PHP_MEMORY_LIMIT=1G`` to the file ``docker/etc/environment``"
+" or alternatively run the command without memory limits ``docker-compose "
+"exec atom php -d memory_limit=-1 symfony tools:purge --demo``"
+msgstr ""
+"以下のatomコンテナコマンドを使ってデータベースをパージしようとした際に、「PHP Fatal error: Allowed memory size "
+"of 536870912 bytes "
+"exhausted...」というメッセージが出た場合、メモリ割り当てを増やすためには、``docker/etc/environment``ファイルに``ATOM_PHP_MEMORY_LIMIT=1G``という行を追加するか、あるいはメモリ制限なしでコマンドを実行します:"
+" ``docker-compose exec atom php -d memory_limit=-1 symfony tools:purge "
+"--demo``。"
+
+#: ../../dev-manual/env/compose.rst:122
+msgid ""
+"While you wait, take the opportunity to check out our `Dockerfile "
+"<https://github.com/artefactual/atom/blob/qa/2.x/Dockerfile>`__, which "
+"describes the steps that are taken to build the AtoM image. It is based on "
+"Alpine Linux + PHP 7.4 and the rest of dependencies. In addition, our "
+"`docker-compose.dev.yml "
+"<https://github.com/artefactual/atom/blob/qa/2.x/docker/docker-"
+"compose.dev.yml>`__ file shows how AtoM is orchestrated together with its "
+"service dependencies. It is an environment meant to be used by developers."
+msgstr ""
+"お待ちいただいている間に、AtoMイメージを構築する手順を記述した当社の `Dockerfile "
+"<https://github.com/artefactual/atom/blob/qa/2.x/Dockerfile>`__ "
+"を確認する機会をご利用ください。これはAlpine Linux + PHP 7.4ベースで、その他の依存関係も含まれています。加えて、当社の "
+"`docker-compose.dev.yml "
+"<https://github.com/artefactual/atom/blob/qa/2.x/docker/docker-"
+"compose.dev.yml>`__ "
+"ファイルは、AtoMがサービス依存関係と共にどのように連携されているかを示しています。これは開発者が使用することを目的とした環境です。"
+
+#: ../../dev-manual/env/compose.rst:129
+msgid ""
+"That's it! You have started the containers and put them in the background, "
+"populated the database and initiated the Elasticsearch index. You can start "
+"developing right away. Changes made in the source code will take effect "
+"immediately."
+msgstr ""
+"それで全部です！コンテナを起動してバックグラウンドで実行し、データベースに情報を追加してElasticsearchインデックスの初期化を行いました。これですぐに開発を始めることができます。ソースコードに加えた変更は即座に反映されます。"
+
+#: ../../dev-manual/env/compose.rst:134
+msgid ""
+"Due to a bug that has not been solved yet, the AtoM worker needs to be "
+"restarted after the database is populated for the first time:"
+msgstr "まだ解決されていないバグのため、データベースが初めて充填された後、AtoMワーカーを再起動する必要があります："
+
+#: ../../dev-manual/env/compose.rst:143
+msgid ""
+"To avoid resetting the configuration files to their default version each "
+"time the containers are created, the following files are only generated if "
+"they don't exist already in the source code:"
+msgstr ""
+"コンテナを作成する度に設定ファイルがデフォルトバージョンにリセットされるのを避けるために、以下のファイルはソースコード内に既に存在しない場合にのみ生成されます："
+
+#: ../../dev-manual/env/compose.rst:147
+msgid "apps/qubit/config/app.yml"
+msgstr "アプリケーションスラッシュキュービットスラッシュコンフィグスラッシュアップドットヤムエル"
+
+#: ../../dev-manual/env/compose.rst:148
+msgid "apps/qubit/config/factories.yml"
+msgstr ""
+"このファイル名は翻訳の必要がないテキストで、ソフトウェアの設定ファイルの一つを指しています。しかし、「factories.yml」を日本語に翻訳したい場合は、以下のようになります。\n"
+"\n"
+"apps/qubit/config/ファクトリー.yml"
+
+#: ../../dev-manual/env/compose.rst:149
+msgid "apps/qubit/config/settings.yml"
+msgstr "アプリケーション/キュービット/設定/設定.yml"
+
+#: ../../dev-manual/env/compose.rst:151
+msgid ""
+"Docker Compose lets you perform many different actions. Please refer to the "
+"`documentation <https://docs.docker.com/compose/overview/>`_ for more help. "
+"For example, you can monitor the output of some of your containers as "
+"follows:"
+msgstr ""
+"Docker "
+"Composeを使用すると、さまざまなアクションを実行することができます。より多くの助けが必要な場合は、`ドキュメンテーション<https://docs.docker.com/compose/overview/>`_"
+" を参照してください。例えば、次のようにいくつかのコンテナの出力を監視することができます："
+
+#: ../../dev-manual/env/compose.rst:159
+msgid "You can also scale the AtoM worker as needed:"
+msgstr "必要に応じて、AtoMワーカーのスケールも調整できます："
+
+#: ../../dev-manual/env/compose.rst:165
+msgid "Let's verify that two workers have subscribed to Gearman:"
+msgstr "Gearmanに2つのワーカーがサブスクライブしていることを確認しましょう："
+
+#: ../../dev-manual/env/compose.rst:190
+msgid ""
+"You could temporarily stop all the services with ``docker-compose stop`` "
+"(which will need ``docker-compose up -d`` later to start the services again)"
+" or both stop and remove related containers, network and volumes by running:"
+msgstr ""
+"サービスを一時的に停止する場合は、「docker-compose stop」を使用します（サービスを再開するには後で「docker-compose up"
+" -d」が必要になります）。または、関連するコンテナ、ネットワーク、およびボリュームの両方を停止して削除するには、以下のコマンドを実行します："
+
+#: ../../dev-manual/env/compose.rst:199
+msgid "Connect to AtoM"
+msgstr "AtoMへの接続"
+
+#: ../../dev-manual/env/compose.rst:201
+msgid ""
+"You can run the following command to check the status and other information "
+"about the containers:"
+msgstr "次のコマンドを実行して、コンテナのステータスやその他の情報を確認できます："
+
+#: ../../dev-manual/env/compose.rst:218
+msgid "As you can see in the right column:"
+msgstr "右の列で見ることができるように："
+
+#: ../../dev-manual/env/compose.rst:220
+msgid "AtoM and its worker share port 9000, only in the containers network."
+msgstr "AtoMとそのワーカーは、コンテナネットワーク内でのみ、ポート9000を共有しています。"
+
+#: ../../dev-manual/env/compose.rst:221
+msgid ""
+"Nginx is accessible in port 63001 from the host and from outside (if the "
+"host allows it)."
+msgstr "Nginxは、ホストからポート63001を通じて、またホストが許可する場合は外部からもアクセス可能です。"
+
+#: ../../dev-manual/env/compose.rst:222
+msgid "Elasticsearch can be accessed through port 63002, only from the host."
+msgstr "Elasticsearchは、ホストからのみ63002ポートを通じてアクセス可能です。"
+
+#: ../../dev-manual/env/compose.rst:223
+msgid ""
+"Percona (MySQL) can be accessed through port 63003, only from the host."
+msgstr "Percona (MySQL) は、ホストからのみポート63003を通じてアクセスできます。"
+
+#: ../../dev-manual/env/compose.rst:224
+msgid "Memcached can be accessed through port 63004, only from the host."
+msgstr "Memcachedはポート63004を介して、ホストからのみアクセス可能です。"
+
+#: ../../dev-manual/env/compose.rst:225
+msgid ""
+"The Gearman server can be accessed through port 63005, only from the host."
+msgstr "Gearmanサーバーは、ポート63005を通じてのみホストからアクセス可能です。"
+
+#: ../../dev-manual/env/compose.rst:-1
+msgid "A representation of the AtoM Docker containers and ports"
+msgstr "AtoM Docker コンテナとポートの表現"
+
+#: ../../dev-manual/env/compose.rst:232
+msgid ""
+"AtoM should be now accessible from your browser. To connect from the host, "
+"use the following address: http://localhost:63001."
+msgstr ""
+"ブラウザからAtoMにアクセスできるようになりました。ホストから接続するには、次のアドレスを使用してください：http://localhost:63001。"
+
+#: ../../dev-manual/env/compose.rst:235
+msgid "The default login details are:"
+msgstr "デフォルトのログイン詳細は以下の通りです："
+
+#: ../../dev-manual/env/compose.rst:237
+msgid "Username: ``demo@example.com``"
+msgstr "ユーザー名: ``demo@example.com``"
+
+#: ../../dev-manual/env/compose.rst:238
+msgid "Password: ``demo``"
+msgstr "パスワード：「demo」"
+
+#: ../../dev-manual/env/compose.rst:241
+msgid "Monitoring"
+msgstr "モニタリング"
+
+#: ../../dev-manual/env/compose.rst:243
+msgid ""
+"Extending the development environment, you can deploy an instance of "
+"[Percona Monitoring and Management](https://www.percona.com/doc/percona-"
+"monitoring-and-management) configured by default to collect metrics and "
+"query analytics data from the MySQL server. To setup the PMM server and "
+"client services alongside all the others you'll need to indicate two Docker "
+"Compose files on the ``COMPOSE_FILE`` environment variable:"
+msgstr ""
+"開発環境を拡張することで、MySQLサーバーからメトリクスを収集しクエリ分析データを取得するためにデフォルトで設定された[Percona "
+"Monitoring and Management](https://www.percona.com/doc/percona-monitoring-"
+"and-"
+"management)(PMM)のインスタンスをデプロイできます。PMMサーバーとクライアントサービスを他の全てのサービスと並行してセットアップするには、``COMPOSE_FILE``"
+" 環境変数で二つのDocker Composeファイルを指定する必要があります。"
+
+#: ../../dev-manual/env/compose.rst:254
+msgid ""
+"Unless it has been changed with the ``COMPOSE_PATH_SEPARATOR`` environment "
+"variable, on Linux and macOS the separator is ``:``, on Windows it is ``;``."
+msgstr ""
+"``COMPOSE_PATH_SEPARATOR`` 環境変数で変更されていない限り、Linux と macOS ではセパレータは ``:`` "
+"ですが、Windows では ``;`` です。"
+
+#: ../../dev-manual/env/compose.rst:259
+msgid ""
+"In some cases the ``pmm_client`` service fails to start reporting the "
+"following error:"
+msgstr "いくつかのケースにおいて、「pmm_client」サービスが開始に失敗し、以下のエラーが報告されます："
+
+#: ../../dev-manual/env/compose.rst:266
+msgid "You'll need to fully recreate the container to make it work:"
+msgstr "作動させるには、コンテナを完全に再作成する必要があります。"
+
+#: ../../dev-manual/env/compose.rst:273
+msgid "To access the PMM server interface, visit http://localhost:63006:"
+msgstr "PMMサーバーインターフェースにアクセスするには、http://localhost:63006 を訪問してください。"
+
+#: ../../dev-manual/env/compose.rst:275
+msgid "Username: ``pmm``"
+msgstr "ユーザー名: 「pmm」"
+
+#: ../../dev-manual/env/compose.rst:276
+msgid "Password: ``pmm``"
+msgstr "パスワード: 「pmm」"
+
+#: ../../dev-manual/env/compose.rst:279
+msgid "Varnish Cache"
+msgstr ""
+"\"Varnish "
+"Cache\"は特定のソフトウェアの名称であり、翻訳の対象ではありませんが、その後に続くテキストがあれば、それについては日本語に翻訳可能です。もし文章が「Varnish"
+" "
+"Cache」という用語の説明や機能について触れているのであれば、その内容に基づいて適切な日本語翻訳を提供できます。具体的な文章を提供していただければ、翻訳を進めます。"
+
+#: ../../dev-manual/env/compose.rst:281
+msgid ""
+"The development environment can also be extended with a `Varnish Cache "
+"<https://varnish-cache.org/>`__ container installed in front of Nginx. It's "
+"configured to cache all and ignore cookies to simulate a read-only public "
+"site, and therefore authentication doesn't work."
+msgstr ""
+"開発環境は、Nginxの前に設置された `Varnish Cache <https://varnish-cache.org/>`__ "
+"コンテナを追加することで拡張できます。これは、読み取り専用の公開サイトをシミュレートするために、全てをキャッシュし、クッキーを無視するように設定されており、そのため認証は機能しません。"
+
+#: ../../dev-manual/env/compose.rst:291
+msgid "To access AtoM through Varnish, visit http://localhost:63007."
+msgstr "AtoMにVarnishを通じてアクセスするには、http://localhost:63007にアクセスしてください。"
+
+#: ../../dev-manual/env/compose.rst:295
+msgid "To see the Varnish logs use:"
+msgstr "Varnish ログを確認するには、次のコマンドを使用してください："
+
+#: ../../dev-manual/env/compose.rst:301
+msgid ":ref:`Back to top <dev-env-compose>`"
+msgstr ":ref:`トップに戻る <dev-env-compose>`"

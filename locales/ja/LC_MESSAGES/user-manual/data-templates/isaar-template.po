@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/isaar-template.rst:5
+msgid ""
+"International Standard Archival Authority Record for Corporate Bodies, "
+"Persons, and Families"
+msgstr "国際標準アーカイバルオーソリティレコード（企業体、個人および家族用）"
+
+#: ../../user-manual/data-templates/isaar-template.rst:7
+msgid "On this page you will find:"
+msgstr "このページでは以下の情報を見つけることができます："
+
+#: ../../user-manual/data-templates/isaar-template.rst:9
+msgid ""
+"Link to downloadable CSV template using *ISAAR(CPF) International Standard "
+"Archival Authority Record for Corporate Bodies, Persons, and Families*"
+msgstr "*ISAAR(CPF) 国際標準アーカイブ機関レコードテンプレートのダウンロードリンク （法人、個人、家族用）*"
+
+#: ../../user-manual/data-templates/isaar-template.rst:11
+msgid ""
+"Description of fields used when entering or importing :term:`authority "
+"records <authority record>` using ISAAR(CPF) in a :term:`CSV` file or "
+"entering the data manually."
+msgstr ""
+"ISAAR(CPF)を使用して:term:`CSV`ファイルからまたは手動で:term:`権威記録 <authority "
+"record>`を入力またはインポートするときに使用されるフィールドの説明。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:14
+msgid ""
+"`Encoded Archival Context (EAC-CPF XML) <http://eac.staatsbibliothek-"
+"berlin.de/>`__ mappings"
+msgstr ""
+"エンコードされたアーカイバルコンテキスト（EAC-CPF XML）<http://eac.staatsbibliothek-berlin.de/> "
+"のマッピング"
+
+#: ../../user-manual/data-templates/isaar-template.rst:19
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権威記録`"
+
+#: ../../user-manual/data-templates/isaar-template.rst:20
+msgid ":ref:`csv-import`"
+msgstr ""
+"この場合、特定のコンテキストがないため、`:ref:`csv-import`` はおそらく文書内での参照、または特定のセクションへのリンクを表していますが、翻訳されるべき実際の文章やフレーズではありません。しかし、もし「CSVインポート」のセクションを参照していると仮定すると、それを日本語に訳すと以下のようになるでしょう：\n"
+"\n"
+"``CSVインポートについて``\n"
+"\n"
+"しかしながら、これが個々のドキュメントの構造やフォーマットへの具体的な指示である可能性があるため、文脈に応じて翻訳する必要があります。実際にドキュメント内で別のテキストを参照している場合は、その参照テキストのタイトルやセクション名を日本語に翻訳します。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:21
+msgid ":ref:`import-xml`"
+msgstr ""
+"`:ref:`import-xml`という参照先は、明確なテキスト内容を持っていませんが、これはおそらくドキュメント内の他のセクションへの参照を指しています。もし、翻訳するテキストとして「import-xml」という言葉を日本語に訳す場合、次のようになります：\n"
+"\n"
+"`:ref:`XMLをインポートする`\n"
+"\n"
+"ただし、この参照がドキュメント内の特定のタイトルやセクションを指している場合、適切な日本語のセクション名に置き換える必要があります。また、reStructuredText (reST) での参照形式が保持されるように、訳文ではマークアップの使用を避けることができません。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:22
+msgid ":ref:`export-xml`"
+msgstr ""
+":ref:`export-xml` の翻訳が必要なコンテキストがないため、正確な翻訳は難しいですが、これが文書中の特定のセクションへの参照であると仮定すると、以下のように訳すことができるでしょう。\n"
+"\n"
+"`:ref:「XMLのエクスポート」`\n"
+"\n"
+"ただし、上記はあくまで一般的な翻訳の例示であり、具体的な文脈に応じて適切な訳が異なる場合があります。また、`:ref:` はおそらく文書内でのクロスリファレンスを表すマークアップで、実際の翻訳時にはこの部分が参照リンクとして機能するように適切な形式で翻訳や置き換えが必要になる場合があります。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:23
+msgid ":ref:`cli-import-export`"
+msgstr ""
+"`:ref:`cli-import-export`` は文書内のラベルの参照です。これは通常、特定のセクションまたはトピックへのクロスリファレンスリンクを作成するために使用されます。原文のコンテキストがわかりませんが、単純に日本語に翻訳するなら、参照ラベルはそのまま保持され、「CLIのインポートとエクスポート」という意味になります。しかし、実際にドキュメントを翻訳する場合は、参照先のセクションのタイトルも適切に翻訳する必要があります。\n"
+"\n"
+"したがって、文書の文脈に沿って適切な日本語タイトルと共に次のように記述できます：\n"
+"\n"
+"`:ref:`cli-import-export`（CLIのインポートとエクスポート）\n"
+"\n"
+"ただし、上記の翻訳はあくまで指標です。ドキュメント内で使用する正確な翻訳タイトルは、文書内でのそのセクションのタイトルに準じます。それによって参照の正しさが保たれるためです。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:27
+msgid "ISAAR(CPF) Authority record CSV template"
+msgstr "ISAAR(CPF)権限レコードCSVテンプレート"
+
+#: ../../user-manual/data-templates/isaar-template.rst:29
+msgid ""
+"To download the ISAAR(CPF) CSV templates for AtoM, please visit our wiki "
+"page:"
+msgstr "AtoM向けのISAAR（CPF）CSVテンプレートをダウンロードするには、私たちのウィキページを訪れてください："
+
+#: ../../user-manual/data-templates/isaar-template.rst:31
+msgid "https://wiki.accesstomemory.org/Resources/CSV_templates"
+msgstr ""
+"このリンク自体を直接翻訳することはできませんが、リンクテキストを日本語に翻訳した場合、「Access to Memory (AtoM) ウィキ - "
+"CSVテンプレートのリソース」となります。もしテキストの内容を翻訳する必要があれば、その内容について提供していただければ、その部分を翻訳することができます。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:34
+msgid "Field descriptions"
+msgstr "フィールドの説明"
+
+#: ../../user-manual/data-templates/isaar-template.rst:36
+msgid ""
+"ISAAR(CPF) is maintained by the `International Council on Archives "
+"<http://www.ica.org/>`_ and is available at:"
+msgstr ""
+"ISAAR(CPF)は、「国際アーカイブス評議会（International Council on "
+"Archives）<http://www.ica.org/>」によって維持され、以下で入手可能です："
+
+#: ../../user-manual/data-templates/isaar-template.rst:39
+msgid ""
+"http://www.ica.org/en/isaar-cpf-international-standard-archival-authority-"
+"record-corporate-bodies-persons-and-families-2nd"
+msgstr "国際アーカイブ機関標準レコード（企業体、人物、家族）第2版"
+
+#: ../../user-manual/data-templates/isaar-template.rst:41
+msgid "Information below includes:"
+msgstr "以下の情報には次のものが含まれます："
+
+#: ../../user-manual/data-templates/isaar-template.rst:43
+msgid "**Template field** refers to the default label for that field in AtoM"
+msgstr "**テンプレートフィールド** は、AtoM内のそのフィールドのデフォルトラベルを指します。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:44
+msgid "**CSV Column** refers to the title of the column in the CSV template"
+msgstr "**CSV列** はCSVテンプレート内の列のタイトルを指します。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:45
+msgid ""
+"**ISAAR Rule** refers to the rule from the applicable standard and/or the "
+"instructions provided by AtoM."
+msgstr "**ISAAR規則** は、適用可能な標準および/またはAtoMによって提供される指示からの規則を指します。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:47
+msgid "**EAC** refers to the field mapping to EAC-CPF XML"
+msgstr "「EAC」とは、EAC-CPF XMLへのフィールドマッピングを指します。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:48
+msgid ""
+"**Notes** includes any other information needed for successful data entry or"
+" CSV import."
+msgstr "**ノート** は、データ入力やCSVインポートを成功させるために必要なその他の情報を含みます。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:51
+msgid "**Skip to**:"
+msgstr "**スキップ先**："
+
+#: ../../user-manual/data-templates/isaar-template.rst:53
+msgid ":ref:`isaar-identity-area`"
+msgstr ""
+":ref:`isaar-identity-area` (この参照はArchivematicaの技術的な文書に特有のものであるため、原文のまま残します。)"
+
+#: ../../user-manual/data-templates/isaar-template.rst:54
+msgid ":ref:`isaar-description-area`"
+msgstr ":ref:`isaar-description-area`（ISAAR説明領域）"
+
+#: ../../user-manual/data-templates/isaar-template.rst:55
+msgid ":ref:`isaar-relationships-area`"
+msgstr ":ref:`isaar-関係エリア`"
+
+#: ../../user-manual/data-templates/isaar-template.rst:56
+msgid ":ref:`isaar-control-area`"
+msgstr ":ref:`ISAAR（CPF）コントロール領域`"
+
+#: ../../user-manual/data-templates/isaar-template.rst:61
+msgid "Identity area"
+msgstr "アイデンティティ領域"
+
+#: ../../user-manual/data-templates/isaar-template.rst:69
+msgid "An image of the data entry fields in the ISAAR Identity area."
+msgstr "ISAAR セクションのアイデンティティエリアにおけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:69
+msgid ""
+"The data entry fields for the Identity area of the ISAAR(CPF) authority "
+"record template."
+msgstr "ISAAR(CPF)権限記録テンプレートのアイデンティティ領域におけるデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:72
+msgid "TO DO"
+msgstr "実行するタスク"
+
+#: ../../user-manual/data-templates/isaar-template.rst:74
+#: ../../user-manual/data-templates/isaar-template.rst:92
+#: ../../user-manual/data-templates/isaar-template.rst:110
+#: ../../user-manual/data-templates/isaar-template.rst:128
+msgid ":ref:`Back to the top <isaar-template>`"
+msgstr ":ref:`トップに戻る <isaar-template>`"
+
+#: ../../user-manual/data-templates/isaar-template.rst:79
+msgid "Description area"
+msgstr "説明領域"
+
+#: ../../user-manual/data-templates/isaar-template.rst:87
+msgid "An image of the data entry fields in the ISAAR Description area."
+msgstr "ISAAR 説明エリアのデータ入力フィールドの画像"
+
+#: ../../user-manual/data-templates/isaar-template.rst:87
+msgid ""
+"The data entry fields for the Description area of the ISAAR(CPF) authority "
+"record template."
+msgstr "ISAAR(CPF)権限記録テンプレートの説明エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:90
+#: ../../user-manual/data-templates/isaar-template.rst:108
+#: ../../user-manual/data-templates/isaar-template.rst:126
+msgid "To DO"
+msgstr "「やるべきこと」"
+
+#: ../../user-manual/data-templates/isaar-template.rst:97
+msgid "Relationships area"
+msgstr "関係性エリア"
+
+#: ../../user-manual/data-templates/isaar-template.rst:105
+msgid "An image of the data entry fields in the ISAAR Relationships area."
+msgstr "ISAAR関係エリア内のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:105
+msgid ""
+"The data entry fields for the Relationships area of the ISAAR(CPF) authority"
+" record template."
+msgstr "ISAAR(CPF)権威記録テンプレートの関係エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:115
+msgid "Control area"
+msgstr "管理領域"
+
+#: ../../user-manual/data-templates/isaar-template.rst:123
+msgid "An image of the data entry fields in the ISAAR Control area."
+msgstr "ISAARコントロールエリアにおけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isaar-template.rst:123
+msgid ""
+"The data entry fields for the Control area of the ISAAR(CPF) authority "
+"record template."
+msgstr "ISAAR(CPF)権限記録テンプレートの制御エリアに対するデータ項目フィールド。"

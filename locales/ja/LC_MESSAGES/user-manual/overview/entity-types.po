@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/overview/entity-types.rst:5
+msgid "Entity types"
+msgstr "実体の種類"
+
+#: ../../user-manual/overview/entity-types.rst:13
+msgid "Core entities in AtoM and their relationships"
+msgstr "AtoMとその関連性における核となるエンティティ"
+
+#: ../../user-manual/overview/entity-types.rst:17
+msgid ""
+"An :term:`entity` is an object about which an information system collects "
+"data. AtoM's architecture includes a number of :term:`entity` types, but "
+"from a user's point of view there are seven main types with which they will "
+"interact:"
+msgstr ""
+"用語「エンティティ」は、情報システムがデータを収集する対象のことです。AtoMのアーキテクチャにはいくつかの用語「エンティティ」タイプが含まれていますが、ユーザーの視点から見ると、彼らが対話する主なタイプは7つあります："
+
+#: ../../user-manual/overview/entity-types.rst:21
+msgid ":ref:`Accession record <entity-accession-record>`"
+msgstr ":ref:`搬入記録 <entity-accession-record>`"
+
+#: ../../user-manual/overview/entity-types.rst:22
+msgid ":ref:`Archival descriptions <entity-archival-description>`"
+msgstr ":ref:`アーカイブ記述 <entity-archival-description>`"
+
+#: ../../user-manual/overview/entity-types.rst:23
+msgid ":ref:`Authority record <entity-authority-record>`"
+msgstr ":ref:`権威レコード <entity-authority-record>`"
+
+#: ../../user-manual/overview/entity-types.rst:24
+msgid ":ref:`Archival institutions <entity-archival-institution>`"
+msgstr ":ref:`アーカイブ機関 <entity-archival-institution>`"
+
+#: ../../user-manual/overview/entity-types.rst:25
+msgid ":ref:`Functions <entity-function>`"
+msgstr ":ref:`機能 <entity-function>`"
+
+#: ../../user-manual/overview/entity-types.rst:26
+msgid ":ref:`Rights records <entity-rights-record>`"
+msgstr ":ref:`権利記録 <entity-rights-record>`"
+
+#: ../../user-manual/overview/entity-types.rst:27
+msgid ":ref:`Terms <entity-term>`"
+msgstr ":ref:`用語 <entity-term>`"
+
+#: ../../user-manual/overview/entity-types.rst:31
+msgid ":ref:`Donors <donors>`"
+msgstr ":ref:`寄付者 <donors>`"
+
+#: ../../user-manual/overview/entity-types.rst:32
+msgid ":ref:`Page types <page-types>`"
+msgstr ":ref:`ページの種類 <page-types>`"
+
+#: ../../user-manual/overview/entity-types.rst:33
+msgid ":ref:`Navigation in AtoM <navigate>`"
+msgstr ":ref:`AtoMでのナビゲーション <navigate>`"
+
+#: ../../user-manual/overview/entity-types.rst:34
+msgid ":ref:`Search <search-atom>`"
+msgstr ":ref:`検索 <search-atom>`"
+
+#: ../../user-manual/overview/entity-types.rst:35
+msgid ":ref:`browse`"
+msgstr ":ref:`ブラウズ`"
+
+#: ../../user-manual/overview/entity-types.rst:41
+msgid "Accession record"
+msgstr "受入記録"
+
+#: ../../user-manual/overview/entity-types.rst:43
+msgid ""
+":term:`Accession records <accession record>` provide administrative and "
+"descriptive information that identifies the contents, provenance and "
+"disposition of the materials transferred to the archival institution. The "
+"accession record is designed to establish basic intellectual and physical "
+"control over a new accession at the time it is received by the "
+":term:`archival institution`."
+msgstr ""
+"「アクセッション記録」は、アーカイブ機関への移管された資料の内容、由来、および配置に関して、管理上の情報と記述的な情報を提供します。アクセッション記録は、アクセッションが「アーカイブ機関」によって受け取られた時点で、新しいアクセッションに対する基本的な知的および物理的な管理を確立するために設計されています。"
+
+#: ../../user-manual/overview/entity-types.rst:50
+msgid ""
+"The accession record is not aimed at end-user description, but AtoM provides"
+" the option to create an archival description from an accession record "
+"(details :ref:`here <create-accession-description>`). The following archival"
+" description fields inherit the data entered into the accession record:"
+msgstr ""
+"受入記録はエンドユーザーの説明を目的としたものではありませんが、AtoMでは受入記録からアーカイブ記述を作成するオプションを提供しています（詳細は "
+":ref:`こちら <create-accession-"
+"description>`を参照してください）。以下のアーカイブ記述フィールドは受入記録に入力されたデータを引き継ぎます："
+
+#: ../../user-manual/overview/entity-types.rst:55
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/overview/entity-types.rst:56
+msgid "Name of creator"
+msgstr "創作者の名前"
+
+#: ../../user-manual/overview/entity-types.rst:57
+msgid "Archival/custodial history"
+msgstr "アーカイバル/保管履歴"
+
+#: ../../user-manual/overview/entity-types.rst:58
+msgid "Scope & content"
+msgstr "範囲と内容"
+
+#: ../../user-manual/overview/entity-types.rst:59
+msgid "Physical condition"
+msgstr "物理的な状態"
+
+#: ../../user-manual/overview/entity-types.rst:61
+msgid ""
+"In AtoM the accession record includes data entry :term:`fields <field>` to "
+"capture donor information (e.g., donor name and contact information) and "
+"rights information (e.g., type of act, rights holder, dates and basis of "
+"rights). Once created, Donor records and Rights can be managed separately."
+msgstr ""
+"AtoMでは、アクセッション記録には、寄贈者情報（例えば、寄贈者の名前や連絡先情報）や権利情報（例えば、行為の種類、権利保持者、権利の根拠となる日付）を記録するためのデータ入力"
+" :term:`フィールド<field>` が含まれています。作成された後で、寄贈者レコードと権利は別々に管理することができます。"
+
+#: ../../user-manual/overview/entity-types.rst:66
+msgid ""
+"**For information on creating and managing accession records, see:** "
+":ref:`accession-records`."
+msgstr "アクセッションレコードの作成と管理に関する情報については、以下を参照してください: :ref:`accession-records`。"
+
+#: ../../user-manual/overview/entity-types.rst:71
+msgid ":ref:`deaccessions`"
+msgstr ":ref:`deaccessions`（非所蔵化）"
+
+#: ../../user-manual/overview/entity-types.rst:72
+msgid ":ref:`Add an accrual <add-accession-accrual>`"
+msgstr ":ref:`アクリューアルを追加する<add-accession-accrual>`"
+
+#: ../../user-manual/overview/entity-types.rst:73
+msgid ":ref:`donors`"
+msgstr ":ref:`寄贈者`"
+
+#: ../../user-manual/overview/entity-types.rst:78
+msgid "Archival descriptions"
+msgstr "アーカイブ記述"
+
+#: ../../user-manual/overview/entity-types.rst:80
+msgid ""
+"Archival descriptions provide contextual information about archival "
+"materials and are arranged into hierarchical levels (:term:`fonds`, series, "
+"files, items, etc.). The default archival description edit template contains"
+" :term:`data elements <data element>` based on the `ICA's "
+"<http://www.ica.org/>`__ General International Standard Archival Description"
+" (ISAD). Other edit templates are also available: Dublin Core,The US Library"
+" of Congress' Metadata Object Descriptive Schema (MODS), the U.S. Describing"
+" Archives: A Content Standard (DACS), and Canadian Rules for Archival "
+"Description (RAD)."
+msgstr ""
+"アーカイブ記述は、アーカイブ資料に関する文脈情報を提供し、階層レベル（：用語：`fonds` "
+"、シリーズ、ファイル、アイテムなど）に整理されています。デフォルトのアーカイブ記述編集テンプレートには、`ICA "
+"<http://www.ica.org/>`__ の一般国際標準アーカイブ記述（ISAD）に基づいた ：用語：`データ要素 <data "
+"element>` "
+"が含まれています。その他の編集テンプレートも利用可能です：ダブリン・コア、アメリカ議会図書館のメタデータオブジェクト記述スキーマ（MODS）、アメリカのアーカイブ記述：内容標準（DACS）、およびカナダのアーカイブ記述ルール（RAD）。"
+
+#: ../../user-manual/overview/entity-types.rst:90
+msgid ""
+"**For information on creating and managing archival descriptions, see:** "
+":ref:`archival-descriptions`."
+msgstr "**アーカイブ記述の作成と管理に関する情報は、以下を参照してください:** :ref:`archival-descriptions`。"
+
+#: ../../user-manual/overview/entity-types.rst:93
+msgid "**For data entry guidance using a particular edit template, see:**"
+msgstr "特定の編集テンプレートを使用したデータ入力のガイダンスについては、以下を参照してください："
+
+#: ../../user-manual/overview/entity-types.rst:95
+msgid ""
+"General International Standard Archival Description (:ref:`ISAD <isad-"
+"template>`)"
+msgstr "一般国際標準アーカイブ記述（:ref:`ISAD <isad-template>`）"
+
+#: ../../user-manual/overview/entity-types.rst:97
+msgid "Rules for Archival description (:ref:`RAD <rad-template>`)"
+msgstr "アーカイブ記述規則（:ref:`RAD <rad-template>`）"
+
+#: ../../user-manual/overview/entity-types.rst:98
+msgid "Describing Archives: A Content Standard (:ref:`DACS <dacs-template>`)"
+msgstr "アーカイブの記述：コンテンツ標準 (:ref:`DACS <dacs-template>`)"
+
+#: ../../user-manual/overview/entity-types.rst:99
+msgid ""
+"Dublin Core Metadata Element Set, Version 1.1 (:ref:`DC <dc-template>`)"
+msgstr "ダブリンコアメタデータ要素セット、バージョン1.1（:ref:`DC <dc-template>`）"
+
+#: ../../user-manual/overview/entity-types.rst:100
+msgid "Metadata Object Description Schema (:ref:`MODS <mods-template>`)"
+msgstr "メタデータオブジェクト記述スキーマ（:ref:`MODS <mods-template>`）"
+
+#: ../../user-manual/overview/entity-types.rst:105
+msgid "Authority records"
+msgstr "権威記録"
+
+#: ../../user-manual/overview/entity-types.rst:107
+msgid ""
+"Authority records provide descriptions of the actors (:term:`corporate "
+"bodies <corporate body>`, persons, and families) that interact with archival"
+" materials as :term:`creators <creator>`, custodians, subject :term:`access "
+"points <access point>`, etc. The edit template is based on the `ICA's "
+"<http://www.ica.org/>`__ International Standard Archival Authority Records "
+"(Corporate bodies, Persons, Families) (ISAAR)."
+msgstr ""
+"権威レコードは、アーカイブ資料と :term:`作成者 <creator>`、管理者、主題 :term:`アクセスポイント <access "
+"point>` などの形で関わる行為者（:term:`企業団体 <corporate "
+"body>`、個人、家族）の記述を提供します。編集テンプレートは、`国際アーカイブ評議会(ICA) <http://www.ica.org/>`__ "
+"の国際標準アーカイバル権威レコード（企業団体、個人、家族）(ISAAR)に基づいています。"
+
+#: ../../user-manual/overview/entity-types.rst:114
+msgid ""
+"Authority records are linked to :term:`archival descriptions <archival "
+"description>` in AtoM by :term:`events <event>` delimited by start/end "
+"dates. Through :term:`events <event>`, one actor can have zero, one, or many"
+" relationships to zero, one, or many :term:`archival units <archival unit>`;"
+" and one :term:`archival unit` can have zero, one, or many relationships to "
+"zero, one, or many actors. Event relationships link ISAAR authority files "
+"(descriptions of actors) and ISAD records (descriptions of archival "
+"materials)."
+msgstr ""
+"権威レコードは、開始日/終了日によって区切られた「イベント」を通じて、AtoM内の「アーカイブ記述」に関連付けられます。イベントを通じて、一人のアクターはゼロ、一つ、あるいは複数の「アーカイブ単位」に対してゼロ、一つ、または複数の関係を持つことができ、一つの「アーカイブ単位」はゼロ、一つ、または複数のアクターとゼロ、一つ、または複数の関係を持つことができます。イベント関係は、ISAAR権威ファイル（アクターの記述）とISADレコード（アーカイブ資料の記述）を結び付けます。"
+
+#: ../../user-manual/overview/entity-types.rst:123
+msgid ""
+"**For information on creating and managing authority records, see:** "
+":ref:`authority-records`."
+msgstr "**権限記録の作成と管理に関する情報は、以下を参照してください：**：ref:`authority-records`。"
+
+#: ../../user-manual/overview/entity-types.rst:126
+msgid "**For authority record data entry guidance, see:**"
+msgstr "**権威記録データ入力のガイダンスについては、以下を参照してください：**"
+
+#: ../../user-manual/overview/entity-types.rst:128
+msgid ""
+"International Standard Archival Authority Records (:ref:`ISAAR <isaar-"
+"template>`)"
+msgstr "国際標準アーカイバル権限記録 (:ref:`ISAAR <isaar-template>`)"
+
+#: ../../user-manual/overview/entity-types.rst:134
+msgid "Archival institutions"
+msgstr "アーカイブ施設"
+
+#: ../../user-manual/overview/entity-types.rst:136
+msgid ""
+"Archival institution records provide descriptions of :term:`repositories "
+"<repository>` that preserve and provide access to archival materials. The "
+"edit template is based on the `ICA's <http://www.ica.org/>`__ International "
+"Standard for Describing Institutions with Archival Holdings (ISDIAH)."
+msgstr ""
+"アーカイブ機関の記録は、アーカイブ資料の保存とアクセスを提供する :term:`リポジトリ<repository>` "
+"の記述を提供します。編集テンプレートは、 `ICA <http://www.ica.org/>`__ の国際標準であるアーカイブ資料を所蔵する機関の記述"
+" (ISDIAH) に基づいています。"
+
+#: ../../user-manual/overview/entity-types.rst:141
+msgid ""
+"Archival institutions are actors that hold archival materials. As such, many"
+" :term:`archival descriptions <archival description>` can be linked to an "
+"archival institution as :term:`holdings`."
+msgstr ""
+"アーカイブ機関は、アーカイブ資料を保有する主体です。そのため、多くの「アーカイブ記述」という用語は、「所蔵資料」という用語とともに、アーカイブ機関に関連付けられます。"
+
+#: ../../user-manual/overview/entity-types.rst:145
+msgid ""
+"**For information on creating and managing archival institutions, see:** "
+":ref:`archival-institutions`."
+msgstr "**アーカイブ機関の作成と管理に関する情報は、以下を参照してください：** :ref:`archival-institutions`。"
+
+#: ../../user-manual/overview/entity-types.rst:148
+msgid "**For archival institution data entry guidance, see:**"
+msgstr "**アーカイブ機関のデータ入力ガイダンスについては、以下を参照してください：**"
+
+#: ../../user-manual/overview/entity-types.rst:150
+msgid ""
+"International Standard for Describing Institutions with Archival Holdings "
+"(:ref:`ISDIAH <isdiah-template>`)"
+msgstr "国際標準アーカイブ所蔵機関記述（:ref:`ISDIAH <isdiah-template>`）"
+
+#: ../../user-manual/overview/entity-types.rst:156
+msgid "Functions"
+msgstr "機能"
+
+#: ../../user-manual/overview/entity-types.rst:158
+msgid ""
+"Functions provide a means of describing the activities of records "
+":term:`creators <creator>` and other actors linked to records creation and "
+"maintenance. Analysis of the functions of :term:`corporate bodies <corporate"
+" body>` is important as the basis for many recordkeeping activities. "
+"Functions are recognised as generally being more stable than administrative "
+"structures, which are often amalgamated or devolved when restructuring takes"
+" place. Functions are therefore well suited to act as a basis for the "
+"appraisal, :term:`arrangement`, classification and description of records, "
+"and as a tool for the retrieval and analysis of records."
+msgstr ""
+"機能は、記録の：用語「作成者<creator>」や他の関係者が記録の作成や保守に関わる活動を記述する手段を提供します。企業体などの機能の分析は、多くの記録保存活動の基礎として重要です。機能は、組織が再構築された際にしばしば統合されたり分割されたりする行政構造よりも、一般的に安定していると認識されています。したがって、機能は記録の評価、配列、分類、記述の基礎として、また記録の検索や分析のツールとして適しています。"
+
+#: ../../user-manual/overview/entity-types.rst:168
+msgid ""
+"In AtoM the functions edit template is based on the `ICA's "
+"<http://www.ica.org/>`__ International Standard for Describing Functions "
+"(ISDF). Functions are linked to :term:`authority records <authority record>`"
+" and to other functions."
+msgstr ""
+"AtoMにおいて、関数の編集テンプレートは`ICA <http://www.ica.org/>`__ "
+"の「機能記述のための国際標準(ISDF)」に基づいています。機能は:term:`権威レコード<authority "
+"record>`および他の機能にリンクされています。"
+
+#: ../../user-manual/overview/entity-types.rst:173
+msgid ""
+"**For information on creating and managing functions, see:** "
+":ref:`functions`."
+msgstr "**機能の作成と管理に関する情報については、以下を参照してください:** :ref:`functions`。"
+
+#: ../../user-manual/overview/entity-types.rst:176
+msgid "**For function data entry guidance, see:**"
+msgstr "**機能のデータ入力ガイダンスについては、こちらを参照してください：**"
+
+#: ../../user-manual/overview/entity-types.rst:178
+msgid ""
+"International Standard for Describing Functions (:ref:`ISDF <isdf-"
+"template>`)"
+msgstr "国際標準機能記述 (:ref:`ISDF <isdf-template>`)"
+
+#: ../../user-manual/overview/entity-types.rst:184
+msgid "Rights records"
+msgstr "権利記録"
+
+#: ../../user-manual/overview/entity-types.rst:186
+msgid ""
+"Rights records provide rights related restrictions that can be linked to "
+":term:`accession records <accession record>`, :term:`archival descriptions "
+"<archival description>` and :term:`digital objects <digital object>`. AtoM "
+"Rights metadata elements use `PREMIS rights elements "
+"<http://www.loc.gov/standards/premis/>`__. In AtoM restrictions can be based"
+" on Copyright(s), License, Statute(s) and Policy. Rights are inherited in "
+"AtoM, which means that rights added at a higher level (e.g., fonds level) "
+"are inherited by the lower levels (e.g., item level). If you add rights to "
+"an :term:`accession <accession record>`, all :term:`archival descriptions "
+"<archival description>` created from that accession will inherit the same "
+"rights. If you add rights to an :term:`archival description` at the "
+":term:`fonds` or :term:`collections <collection>` level, all lower levels "
+"(aka :term:`child records <child record>`) such as the file or item-level "
+"will inherit those rights."
+msgstr ""
+"権利記録は、アクセス記録、アーカイブ記述、デジタルオブジェクトなどへ関連付けられる、関連する制限を提供します。AtoMの権利メタデータ要素は、`PREMIS権利要素"
+" <http://www.loc.gov/standards/premis/>`__ "
+"を使用します。AtoMでは、制限は著作権、ライセンス、法令、ポリシーに基づいています。AtoMでは権利が継承され、これはつまりより高いレベル（たとえば、全体レベル）で付与された権利は、下位レベル（たとえば、アイテムレベル）に継承されることを意味します。もしアクセス記録に権利を付与すれば、そのアクセスから作成された全てのアーカイブ記述は同じ権利を継承します。全体またはコレクションレベルでアーカイブ記述に権利を付加した場合、下位のレベル（子記録とも呼ばれる）は、その権利を継承します。これにはファイルレベルやアイテムレベルが含まれます。"
+
+#: ../../user-manual/overview/entity-types.rst:201
+msgid ""
+"**For information on creating and managing rights records, see:** "
+":ref:`rights`."
+msgstr "**権利記録の作成と管理に関する情報をお求めの場合は、以下を参照してください:** :ref:`rights`。"
+
+#: ../../user-manual/overview/entity-types.rst:204
+msgid "**For rights record data entry guidance, see:**"
+msgstr "**権利記録データ入力のガイダンスについては、次を参照してください：**"
+
+#: ../../user-manual/overview/entity-types.rst:206
+msgid ""
+"Preservation Metadata: Implementation Strategies (:ref:`PREMIS <premis-"
+"template>`)"
+msgstr "保存メタデータ: 実装戦略 (:ref:`PREMIS <premis-template>`)"
+
+#: ../../user-manual/overview/entity-types.rst:212
+msgid "Terms"
+msgstr "用語"
+
+#: ../../user-manual/overview/entity-types.rst:214
+msgid ""
+":term:`Terms <term>` provide :term:`controlled vocabularies <controlled "
+"vocabulary>` used throughout the system (e.g. as :term:`access points "
+"<access point>` or in :term:`drop-down <drop-down menu>` :term:`value lists "
+"<value list>`). They are organized into separate :term:`taxonomies "
+"<taxonomy>`. Within the edit templates, many of the terms that appear in the"
+" :term:`value lists <value list>` are derived directly from the "
+":term:`controlled vocabularies <controlled vocabulary>` used in the "
+"standards upon which the :term:`edit pages <edit page>` are based."
+msgstr ""
+"用語はシステム全体で使用される統制された語彙を提供します（例えば、アクセスポイントやドロップダウンメニューの値リストとして）。これらは別々のタクソノミーに組織されています。編集テンプレートの中では、値リストに現れる多くの用語は編集ページの基礎となっている標準で使用されている統制語彙から直接導かれています。"
+
+#: ../../user-manual/overview/entity-types.rst:223
+msgid ""
+"AtoM ships with a fixed number of taxonomies containing default values "
+"(:term:`terms <term>`). Some terms are locked, i.e. cannot be edited or "
+"deleted, because they are used by the application's underlying code. Most "
+"terms, however, can be edited or deleted, and all :term:`taxonomies "
+"<taxonomy>` can be assigned new terms in addition to any locked values. Two "
+"of the most common taxonomies seen and used by public users are "
+":term:`subject` and :term:`place` terms, which can be added as :term:`access"
+" points <access point>` to :term:`archival descriptions <archival "
+"description>`."
+msgstr ""
+"AtoMには、デフォルト値が含まれている固定数のタクソノミー（:term:`用語 "
+"<term>`）が付属しています。一部の用語は、アプリケーションの基盤となるコードで使用されるため、編集や削除ができない、つまりロックされています。しかし、ほとんどの用語は編集や削除が可能であり、ロックされている値に加えてすべての:term:`タクソノミー"
+" "
+"<taxonomy>`に新しい用語を割り当てることができます。一般のユーザーが閲覧し使用する中で最も一般的なタクソノミーには、:term:`主題`と:term:`場所`の用語があり、これらは:term:`アクセスポイント"
+" <access point>`として:term:`アーカイブ記述 <archival description>`に追加することができます。"
+
+#: ../../user-manual/overview/entity-types.rst:233
+msgid "**For information on creating and managing terms, see:** :ref:`terms`."
+msgstr "**用語の作成と管理に関する情報については、以下を参照してください:** :ref:`terms`。"
+
+#: ../../user-manual/overview/entity-types.rst:238
+msgid ":ref:`term-name-vs-subject`"
+msgstr ":ref:`用語名対主題`"
+
+#: ../../user-manual/overview/entity-types.rst:240
+msgid ":ref:`Back to top <entity-types>`"
+msgstr ":ref:`トップに戻る <entity-types>`"

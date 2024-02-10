@@ -1,0 +1,1110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/getting-started/getting-started.rst:5
+msgid "Getting Started"
+msgstr "始め方"
+
+#: ../../user-manual/getting-started/getting-started.rst:16
+msgid ""
+"This section describes how to start using AtoM once it has been installed. "
+"It provides a quick orientation to the :ref:`home page <home-page>`, how to "
+"log in and log out, the various :ref:`user roles <user-roles>` in the "
+"system, the main page types a user will encounter, and how to switch "
+"languages."
+msgstr ""
+"このセクションでは、AtoMがインストールされた後に使用を開始する方法について説明します。ここでは、:ref:`ホームページ <home-"
+"page>`のクイックオリエンテーション、ログインおよびログアウトの方法、システム内のさまざまな:ref:`ユーザーの役割 <user-"
+"roles>`、ユーザーが遭遇する可能性があるメインページのタイプ、そして言語を切り替える方法につき説明します。"
+
+#: ../../user-manual/getting-started/getting-started.rst:21
+msgid "**JUMP TO:**"
+msgstr "**移動先:**"
+
+#: ../../user-manual/getting-started/getting-started.rst:23
+msgid ":ref:`Home page <home-page>`"
+msgstr ":ref:`ホームページ <home-page>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:24
+msgid ":ref:`Log in <log-in>`"
+msgstr ":ref:`ログイン <log-in>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:25
+msgid ":ref:`User roles <user-roles>`"
+msgstr ":ref:`ユーザーロール <user-roles>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:26
+msgid ":ref:`Page types <page-types>`"
+msgstr ":ref:`ページの種類 <page-types>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:27
+msgid ":ref:`Choose language <choose-language>`"
+msgstr ":ref:`言語の選択 <choose-language>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:28
+msgid ":ref:`Change password <change-password>`"
+msgstr ":ref:`パスワードを変更する <change-password>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:32
+msgid ":ref:`Navigation in AtoM <navigate>`"
+msgstr ":ref:`AtoMでのナビゲーション <navigate>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:33
+msgid ":ref:`Entity types <entity-types>`"
+msgstr ":ref:`エンティティタイプ<entity-types>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:34
+#: ../../user-manual/getting-started/getting-started.rst:352
+msgid ":ref:`Search <search-atom>`"
+msgstr ":ref:`検索 <search-atom>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:35
+msgid ":ref:`Browse <browse>`"
+msgstr ":ref:`ブラウズ <browse>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:36
+msgid ":ref:`Context menu <context-menu>`"
+msgstr ":ref:`コンテキストメニュー <context-menu>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:41
+#: ../../user-manual/getting-started/getting-started.rst:357
+msgid "Home page"
+msgstr "ホームページ"
+
+#: ../../user-manual/getting-started/getting-started.rst:49
+msgid "Example of a customized homepage in AtoM"
+msgstr "カスタマイズされたホームページの例 in AtoM"
+
+#: ../../user-manual/getting-started/getting-started.rst:49
+msgid ""
+"An example of a customized home page: the ArchivesCanada theme in AtoM, "
+"prepared for the `Canadian Council on Archives "
+"<http://www.cdncouncilarchives.ca/>`__ as Canada's new national archival "
+"portal."
+msgstr ""
+"カスタマイズされたホームページの例: カナダの新国立アーカイブポータルとして「カナダ建国評議会 "
+"<http://www.cdncouncilarchives.ca/>」に向けて準備された、AtoM内のArchivesCanadaテーマ。"
+
+#: ../../user-manual/getting-started/getting-started.rst:54
+msgid ""
+"The :term:`home page` is the first thing that a user will see when opening "
+"the AtoM application. :term:`Administrators <administrator>` can customize "
+"this to be a landing page, and from here, users can :ref:`search <search-"
+"atom>`, :ref:`browse <browse>`, log in as authenticated users (gaining "
+"access to the :term:`main menu`), change the language of the application "
+"interface, and more."
+msgstr ""
+"AtoMアプリケーションを開いたときにユーザーが最初に目にするのが「ホームページ」です。管理者はこれをランディングページとしてカスタマイズすることができ、ここからユーザーは「検索」や「ブラウズ」を行ったり、認証済みユーザーとしてログインして「メインメニュー」にアクセスしたり、アプリケーションインターフェースの言語を変更したりすることができます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:60
+msgid "By default, the :term:`home page` includes:"
+msgstr "デフォルトでは、:term:`ホームページ`には以下が含まれます："
+
+#: ../../user-manual/getting-started/getting-started.rst:62
+msgid ""
+"An editable :term:`static page` area - users with sufficient :term:`access "
+"privileges <access privilege>` can customize the home page by adding and "
+"editing content (including, if desired, raw HTML and inline CSS) through the"
+" :term:`user interface` - for more information, see: :ref:`Manage static "
+"pages <manage-static-pages>`."
+msgstr ""
+"編集可能な:term:`静的ページ`領域 - 十分な:term:`アクセス権限<access "
+"privilege>`を持つユーザーは、:term:`ユーザーインターフェイス`を通じてホームページにコンテンツを追加、編集することでカスタマイズすることができます（必要に応じて、生のHTMLやインラインCSSも含む）。詳細については、次を参照してください："
+" :ref:`静的ページの管理<manage-static-pages>`。"
+
+#: ../../user-manual/getting-started/getting-started.rst:67
+msgid ""
+"A :term:`browse menu` that will take users to a :ref:`browse page <page-"
+"type-browse>` for some of the core :ref:`entity types <entity-types>`, "
+"including :term:`archival descriptions <archival description>`, "
+":term:`authority records <authority record>` (listed by default as \"People "
+"& organizations\"), :term:`archival institutions <archival institution>`, "
+":term:`subjects <subject>`, :term:`places <place>`, and :term:`digital "
+"objects <digital object>` (i.e., a dedicated browse page for archival "
+"descriptions with linked digital objects). For more information on the "
+"browse menu, see: :ref:`browse-menu`."
+msgstr ""
+"以下は、ユーザーを各種の基本的な：ref:`エンティティタイプ <entity-types>` の：ref:`ブラウズページ <page-type-"
+"browse>` へ案内するための：term:`ブラウズメニュー` です。これには：term:`アーカイバル記述 <archival "
+"description>`、：term:`権威記録 <authority record>`（デフォルトでは「人物 & "
+"組織」としてリストされる）、：term:`アーカイバル機関 <archival institution>`、：term:`主題 "
+"<subject>`、：term:`場所 <place>`、そして：term:`デジタルオブジェクト <digital "
+"object>`（つまり、リンクされたデジタルオブジェクトを持つアーカイバル記述専用のブラウズページ）が含まれます。ブラウズメニューのさらなる情報については、こちらを参照してください：：ref:`browse-"
+"menu`。"
+
+#: ../../user-manual/getting-started/getting-started.rst:76
+msgid ""
+"A \"Popular this week\" listing of the most visited (i.e. most number of "
+"page views) resources in the past week. See :ref:`popular-this-week` below "
+"for more information."
+msgstr ""
+"「今週の人気コンテンツ」とは、過去1週間で最も閲覧された（つまり、ページビュー数が最も多い）リソースのリストです。詳細については、以下の「popular-"
+"this-week」を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:82
+msgid ""
+"A :term:`developer` can customize the look and feel of the AtoM home page by"
+" editing the CSS files associated with it. This can be done to match "
+"institutional theming, include images and other content. For more "
+"information, see in the Administrator's Manual: :ref:`customization-"
+"theming`."
+msgstr ""
+"開発者は、AtoMホームページに関連付けられたCSSファイルを編集することで、外観と感触をカスタマイズすることができます。これは、機関のテーマに合わせたり、画像やその他のコンテンツを含めるために行われます。詳細については、管理者マニュアルの「カスタマイズとテーマ作成」を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:88
+msgid ""
+"Like all pages in AtoM the :term:`home page` also includes the AtoM "
+":term:`header bar`, providing access to a :ref:`search box <search-box>`, "
+":ref:`browse menu <browse-menu>`, :ref:`log-in button <log-in-button>`, "
+"|globe| :ref:`language menu <language-menu>`, and |info| :ref:`quick links "
+"menu <quick-links-menu>`. For more information on using the header bar in "
+"AtoM, see: :ref:`atom-header-bar`."
+msgstr ""
+"AtoM内の全てのページと同様に、:term:`ホームページ`にも、:ref:`検索ボックス <search-box>`、:ref:`ブラウズメニュー "
+"<browse-menu>`、:ref:`ログインボタン <log-in-button>`、|globe| :ref:`言語メニュー "
+"<language-menu>`、そして|info| :ref:`クイックリンクメニュー <quick-links-"
+"menu>`へのアクセスを提供するAtoM :term:`ヘッダーバー`が含まれています。 "
+"AtoMでのヘッダーバーの使用方法についての詳細は、:ref:`atom-header-bar`を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:7
+msgid "globe"
+msgstr ""
+"このコンテキストでは「globe」という言葉だけで具体的な文なしでは適切な翻訳を提供することは困難です。しかし、単語そのものを翻訳するならば「globe」は「地球儀」という意味になります。もし文脈が「global」という意味合いであれば、「世界的に」「グローバルに」といった翻訳になる可能性があります。より具体的な文脈を提供していただければ、正確な翻訳を提供することができます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:10
+msgid "info"
+msgstr ""
+"申し訳ございませんが、具体的なテキストの内容が提供されていません。長期保存に関するドキュメントの翻訳を手伝うためには、翻訳したいテキストを提示していただけますか？それを元に適切な日本語の翻訳を提供させていただきます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:95
+msgid "**USING THE HOME PAGE IN AtoM:**"
+msgstr "**AtoMのホームページの使い方:**"
+
+#: ../../user-manual/getting-started/getting-started.rst:97
+msgid ""
+"Open your web browser and enter the URL of the web server hosting your AtoM "
+"application. This takes you to your application's :term:`home page`."
+msgstr ""
+"ウェブブラウザを開いて、お使いのAtoMアプリケーションをホストしているウェブサーバーのURLを入力してください。これにより、アプリケーションの「ホームページ」へと移動します。"
+
+#: ../../user-manual/getting-started/getting-started.rst:99
+msgid ""
+"On opening, AtoM displays the home page in the configured :term:`default "
+"language`. In the |globe| :ref:`language menu <language-menu>` (top right-"
+"hand corner of your page, the  globe icon in the :term:`header bar`), a user"
+" can change the display language. For choosing languages, see :ref:`Choose "
+"language <choose-language>`."
+msgstr ""
+"開いた際に、AtoMは設定された:term:`デフォルト言語`でホームページを表示します。|globe| :ref:`言語メニュー <language-"
+"menu>`（ページの右上隅にある、:term:`ヘッダーバー`内の地球儀アイコン）にて、ユーザーは表示言語を変更することができます。言語の選択については、:ref:`言語選択"
+" <choose-language>`を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:104
+msgid ""
+"On opening, AtoM provides view-only access, so that any user can immediately"
+" begin searching or browsing the contents of the application, using the "
+":term:`search box` or :term:`browse menu`, both located in the :term:`header"
+" bar`. Any user can also use the :term:`advanced search` link. For searching"
+" and browsing, see :ref:`Access content <access-content>`."
+msgstr ""
+"開いた時に、AtoMは閲覧専用アクセスを提供し、どのユーザーでもすぐにアプリケーションの内容を検索したり閲覧したりすることができます。これは、:term:`ヘッダーバー`にある"
+" :term:`検索ボックス`や :term:`ブラウズメニュー`を使用して行います。また、どのユーザーも "
+":term:`高度な検索`リンクを使用することができます。検索と閲覧については、:ref:`Access content <access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:109
+msgid ""
+"The home page provides a welcome message that can be customized by the "
+":term:`administrator`. For customizing the welcome message, see "
+":ref:`manage-static-pages`."
+msgstr ""
+"ホームページには、:term:`管理者`によってカスタマイズ可能なウェルカムメッセージが表示されます。ウェルカムメッセージのカスタマイズ方法については、:ref:`manage-"
+"static-pages`を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:112
+msgid ""
+"The home page also provides users with an additional :term:`browse menu` and"
+" a list of the most popular recently visited records in the application."
+msgstr "ホームページには、:term:`ブラウズメニュー`と、アプリケーションで最近によく訪れた記録の人気リストもユーザーに提供されます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:114
+msgid ""
+"Once a user logs in via the log-in button in the right-hand corner of the "
+":term:`header bar`, more options will become available in the :term:`main "
+"menu`, depending on the user's edit permissions, which are set by an "
+":term:`administrator`."
+msgstr ""
+"ユーザーが右上隅にある「ログイン」ボタンからログインすると、:term:`ヘッダーバー`にもっと多くの選択肢が:term:`メインメニュー`に表示されます。表示される選択肢は、:term:`管理者`が設定するユーザーの編集権限によって異なります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:118
+msgid ""
+"To add or edit content, you must have a :term:`user account` and log in."
+msgstr "コンテンツを追加または編集するには、:term:`ユーザーアカウント`を持っていて、ログインする必要があります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:119
+msgid "For logging in, see :ref:`log in <log-in>`."
+msgstr "ログインするには、:ref:`ログイン <log-in>` を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:120
+msgid ""
+"For adding and editing, see :ref:`Add/edit content <add-edit-content>`."
+msgstr "追加や編集については、:ref:`コンテンツの追加・編集<add-edit-content>`を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:125
+msgid "Popular this week listing"
+msgstr "今週の人気リスト"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of the Popular this week listing"
+msgstr "今週の人気リストの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:132
+msgid ""
+"The \"Popular this week\" listing, found on the left-hand side of the AtoM "
+"homepage, includes a list of links to the 10 most visited resources "
+"available to public users in the last 7 days. Resources listed in the "
+"\"Popular this week\" menu include: :term:`archival descriptions <archival "
+"description>`, :term:`authority records <authority record>`, and "
+":term:`archival institutions <archival institution>`."
+msgstr ""
+"「今週の人気」というリストは、AtoMホームページの左側にあり、過去7日間に公開ユーザーによって最も訪問されたリソースのトップ10へのリンクが含まれています。今週の人気メニューに掲載されるリソースには、:term:`アーカイブ記述"
+" <archival description>`、:term:`権威レコード <authority record>`、そして:term:`アーカイブ機関"
+" <archival institution>`が含まれます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:139
+msgid ""
+"There is no specific week-based start date to the aggregation of these "
+"statistics - they are calculated based on the last 7 days of activity. "
+"Similarly, the statistics are calculated only on a count of page views - "
+"meaning that a single user returning to a resource twice in the same visit "
+"will be counted as 2 views."
+msgstr ""
+"これらの統計の集計に特定の週ベースの開始日はありません。これらは過去7日間のアクティビティに基づいて計算されます。同様に、統計はページビューの数だけを基に計算されます。つまり、同じ訪問であるリソースに1人のユーザーが2回戻れば、2回のビューとしてカウントされます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:145
+msgid ""
+"Currently there is no way to configure the Popular this week settings. "
+"Administrators who are interested in more granular analytics information are"
+" encouraged to use a third-party analytics tool - for more information, see:"
+" :ref:`maintenance-web-analytics` in the Administrator's Manual."
+msgstr ""
+"現在、「今週の人気」設定を構成する方法はありません。より詳細なアナリティクス情報に関心がある管理者は、サードパーティの分析ツールの使用をお勧めします。詳細については、管理者マニュアルの「メンテナンス"
+" - ウェブアナリティクス」を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:152
+msgid ""
+"To populate the results shown in the \"Popular this week\" widget, AtoM's "
+"database has an ``access_log`` table that is automatically updated every "
+"time an :term:`archival description`, :term:`authority record`, or "
+":term:`archival institution` is viewed. This data is **not automatically "
+"cleared** over time, but a system administrator can use the command-line "
+"``tools:expire-data`` task to clear old data from the access log. For more "
+"information, see:"
+msgstr ""
+"\"今週の人気\"ウィジェットに表示される結果を生成するために、AtoMのデータベースには、アーカイブ記述(:term:`archival "
+"description`)、権威記録(:term:`authority record`)、またはアーカイブ機関(:term:`archival "
+"institution`)が閲覧されるたびに自動的に更新される``access_log``テーブルがあります。このデータは**自動的には消去されません**が、システム管理者はコマンドラインの``tools:expire-"
+"data``タスクを使用して、アクセスログから古いデータを消去することができます。詳細については、次を参照してください："
+
+#: ../../user-manual/getting-started/getting-started.rst:160
+msgid ":ref:`tools-expire`"
+msgstr ""
+"このテキストは特定のマークアップ言語で書かれた参照リンクを示しています。翻訳のためには、その参照先のタイトルまたはセクションを知る必要があります。ただし、与えられた情報のみからは正確なコンテキストを判断することはできません。通常、:ref:はSphinxなどのドキュメンテーションツールで使用されるハイパーリンクのタグです。\n"
+"\n"
+"参照先のタイトルが「ツールの有効期限」であると仮定すると、以下のように翻訳されるかもしれません：\n"
+"\n"
+"``ツールの有効期限 <tools-expire>``\n"
+"   \n"
+"しかし、実際には参照リンクのラベルがわからないと正しい日本語訳を生成することはできません。ドキュメントにおいて、このリンクが何を指しているのか、通常どのようなコンテキストで使用されるのかがわかれば、より適切な訳を提供できるかもしれません。"
+
+#: ../../user-manual/getting-started/getting-started.rst:164
+msgid ""
+"A :term:`developer` who wishes to hide the Popular this week menu from view "
+"can do so by commenting out Line 23 in "
+"``/apps/qubit/modules/staticpage/templates/homeSuccess.php``."
+msgstr ""
+"デジタルデータの長期保存に興味のある開発者が「今週の人気コンテンツ」メニューを非表示にしたい場合は、``/apps/qubit/modules/staticpage/templates/homeSuccess.php``の23行目をコメントアウトすることでそれを実現できます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:168
+#: ../../user-manual/getting-started/getting-started.rst:236
+#: ../../user-manual/getting-started/getting-started.rst:331
+#: ../../user-manual/getting-started/getting-started.rst:550
+#: ../../user-manual/getting-started/getting-started.rst:582
+#: ../../user-manual/getting-started/getting-started.rst:659
+msgid ":ref:`Back to top <getting-started-all>`"
+msgstr ":ref:`トップへ戻る <getting-started-all>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:173
+msgid "|login| Log in"
+msgstr "|ログイン| ログイン"
+
+#: ../../user-manual/getting-started/getting-started.rst:13
+msgid "login"
+msgstr "ログイン"
+
+#: ../../user-manual/getting-started/getting-started.rst:175
+msgid ""
+"To add or edit content and access the :term:`main menu` in AtoM, you need to"
+" log in:"
+msgstr "AtoMの:term:`メインメニュー`にアクセスしてコンテンツを追加または編集するには、ログインする必要があります："
+
+#: ../../user-manual/getting-started/getting-started.rst:184
+msgid "An image of the log in button in AtoM"
+msgstr "AtoMのログインボタンの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:184
+msgid "The log-in button in AtoM, when clicked by a user"
+msgstr "AtoMでのログインボタンは、ユーザーがクリックした時"
+
+#: ../../user-manual/getting-started/getting-started.rst:186
+msgid ""
+"Click the log in link in the :term:`header bar`, located in the upper right-"
+" hand corner of the page. A :term:`drop-down menu` will appear with two "
+":terM:`fields <field>` for an email, and a password."
+msgstr ""
+"ページの右上隅にある :term:`ヘッダーバー` にあるログインリンクをクリックしてください。:term:`ドロップダウンメニュー` "
+"が表示され、メールアドレスとパスワードの2つの :term:`フィールド<field>` が現れます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:189
+msgid "Enter your email address"
+msgstr "あなたのメールアドレスを入力してください"
+
+#: ../../user-manual/getting-started/getting-started.rst:190
+msgid "Enter your :term:`password`"
+msgstr "あなたの:term:`パスワード`を入力してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:191
+msgid "Click the \"log in\" button in the drop-down"
+msgstr "ドロップダウンの中にある「ログイン」ボタンをクリックしてください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:193
+msgid ""
+"AtoM re-loads the :term:`home page`, now customized to your :term:`user "
+"role`. The :term:`main menu` is now visible. Your :term:`username` will "
+"appear where the log in button was, giving you access to your :term:`user "
+"profile`."
+msgstr ""
+"AtoMは:term:`ホームページ`を再読み込みしますが、今度はあなたの:term:`ユーザーロール`にカスタマイズされています。:term:`メインメニュー`が表示されるようになります。ログインボタンがあった場所にあなたの:term:`ユーザー名`が表示され、:term:`ユーザープロファイル`へのアクセスが可能になります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:203
+msgid "An image of the log in drop-down after a user has logged in"
+msgstr "ユーザーがログインした後の、ログインドロップダウンの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:203
+msgid ""
+"After logging in, an option to view and edit your user profile is available "
+"in the log-in button drop-down"
+msgstr "ログインした後、ログインボタンのドロップダウンメニューから、ユーザープロファイルを表示および編集するオプションが利用可能です。"
+
+#: ../../user-manual/getting-started/getting-started.rst:206
+msgid ""
+"To log out, click on your username in the user menu (top right-hand corner)."
+" A :term:`drop-down menu` will appear, with a link to your :term:`user "
+"profile`, and the option to log out. When the profile option is selected, a "
+"user can update their own user name, email, and password - see below, "
+":ref:`change-password`. When the log out option is selected, AtoM returns "
+"you to the :term:`home page` (view-only access)."
+msgstr ""
+"ログアウトするには、ユーザーメニューの右上隅にあるユーザー名をクリックしてください。すると、:term:`ドロップダウンメニュー`が表示され、:term:`ユーザープロファイル`へのリンクとログアウトするためのオプションが現れます。プロファイルオプションが選択された場合、ユーザー自身でユーザー名、メールアドレス、パスワードを更新することができます"
+" - 下記を参照してください、:ref:`change-"
+"password`。ログアウトオプションが選択されると、AtoMはあなたを:term:`ホームページ`（閲覧のみのアクセス）に戻します。"
+
+#: ../../user-manual/getting-started/getting-started.rst:213
+msgid ""
+"AtoM automatically logs you out after thirty minutes of inactivity. To "
+"resume editing, you will have to log back in"
+msgstr "AtoMは、30分間の非活動状態が続いた後に自動的にログアウトします。編集を再開するには、再度ログインする必要があります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:222
+msgid "An image of the log in drop-down with a CAS link button"
+msgstr "ログインドロップダウンの画像、CASリンクボタン付き"
+
+#: ../../user-manual/getting-started/getting-started.rst:222
+msgid "The log-in button in AtoM when CAS single sign-on is enabled"
+msgstr "CASシングルサインオンが有効になっているときのAtoMのログインボタン"
+
+#: ../../user-manual/getting-started/getting-started.rst:224
+msgid ""
+"If your AtoM site has :ref:`CAS single sign-on <cas-enabling>` enabled, you "
+"will be presented with a link to log in via your institution's CAS server. "
+"You will be able to view but not edit your user profile in AtoM. You will "
+"need to contact your CAS administrator to make any changes to your profile. "
+"When you log out of AtoM you will also be logged out of the CAS domain."
+msgstr ""
+"AtoMサイトで :ref:`CAS シングルサインオン <cas-enabling>` "
+"が有効になっている場合、所属機関のCASサーバーを介してログインするためのリンクが表示されます。AtoM内でユーザープロファイルを閲覧することはできますが、編集することはできません。プロファイルを変更するには、CAS管理者に連絡する必要があります。AtoMからログアウトすると、CASドメインからもログアウトされます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:230
+msgid ""
+"AtoM also has an :ref:`LDAP <ldap-enabling>` module that can change how "
+"authentication is handled. For more information on both CAS and LDAP "
+"authentication configuration, see:"
+msgstr ""
+"AtoMには認証の取り扱いを変更できる :ref:`LDAP <ldap-enabling>` "
+"モジュールもあります。CASおよびLDAP認証設定の詳細については、以下を参照してください："
+
+#: ../../user-manual/getting-started/getting-started.rst:234
+msgid ":ref:`customization-authentication`"
+msgstr ""
+"`:ref:`customization-authentication`は、特定のドキュメントの参照のプレースホルダーまたはマークアップです。これは、Archivematicaのドキュメント内で使用される形式であり、具体的なセクションやタイトルへの内部的なリンクを提供します。これは通常、RST (reStructuredText) 形式のドキュメントで使用されるシンタックスです。ただし、このリファレンスを日本語にそのまま「翻訳」することはできません。代わりに、このリファレンスが指す節やタイトルを見つけて、それを適切な日本語に翻訳することが必要です。\n"
+"\n"
+"例えば、このリファレンスが「カスタム認証方法」というセクションを参照している場合、以下のような日本語翻訳になるでしょう：\n"
+"\n"
+"`:ref:`カスタム認証方法` \n"
+"\n"
+"実際の翻訳作業を行う際には、指定されたリファレンスが指すドキュメントのセクションやタイトルを見つけ、それに応じて適切な日本語表現を使用してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:241
+msgid "User roles"
+msgstr "ユーザーロール"
+
+#: ../../user-manual/getting-started/getting-started.rst:243
+msgid ""
+"User roles define levels of access to functions in AtoM, ranging from view- "
+"only access to full administration rights. Your user account in AtoM is tied"
+" to one of five user roles, each representing a different level of access to"
+" the system. User roles are defined by groups that an :term:`administrator` "
+"can add and edit - see :ref:`manage-user-accounts` and :ref:`edit-user-"
+"permissions`."
+msgstr ""
+"ユーザーロールは、閲覧のみのアクセスから完全な管理権限まで、AtoM内の機能へのアクセスレベルを定義します。AtoMでのユーザーアカウントは、システムへの異なるアクセスレベルを表す5つのユーザーロールのうちの1つに紐付けられています。ユーザーロールは、管理者が追加・編集できるグループによって定義されます"
+" - 「ユーザーアカウントの管理」と「ユーザー権限の編集」を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:253
+msgid "Researcher"
+msgstr "研究者"
+
+#: ../../user-manual/getting-started/getting-started.rst:255
+msgid ""
+"A researcher is any public user who is not logged in (sometimes called an "
+"unauthenticated user) and therefore has view-only access to the application."
+" A researcher can search and browse descriptions (published :term:`archival "
+"descriptions <archival description>`, :term:`authority records <authority "
+"record>`, :term:`archival institutions <archival institution>`)"
+msgstr ""
+"研究者とは、ログインしていない（時には未認証ユーザーと呼ばれる）一般ユーザーのことを指し、そのためアプリケーションに対する閲覧のみのアクセス権を有しています。研究者は、記述（公開された:term:`アーカイブ記述<archival"
+" description>`、:term:`権威記録<authority record>`、:term:`アーカイブ機関<archival "
+"institution>`）を検索し閲覧することができます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:263
+msgid ":ref:`researcher-default`"
+msgstr "`researcher-default` (リサーチャーデフォルト)"
+
+#: ../../user-manual/getting-started/getting-started.rst:268
+msgid "Contributor"
+msgstr "寄稿者"
+
+#: ../../user-manual/getting-started/getting-started.rst:270
+msgid ""
+"By default a contributor can search, browse, create, edit/update, view draft"
+" and export descriptions. The contributor cannot change the "
+":term:`publication status` of an :term:`information object`. A contributor "
+"can access the :term:`reference <reference display copy>` and :term:`master "
+"digital object`."
+msgstr ""
+"デフォルトでは、寄稿者は検索、閲覧、作成、編集/更新、下書きの表示や記述のエクスポートができます。寄稿者は`:term:`公開ステータス`<publication"
+" status>`の変更や`:term:`情報オブジェクト`<information "
+"object>`のステータスを変更することはできません。寄稿者は`:term:`参照文献`<reference display "
+"copy>`や`:term:`マスターデジタルオブジェクト`<master digital object>`にアクセスできます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:277
+msgid ":ref:`contributor-default`"
+msgstr ""
+"ご指定のテキスト \":ref:`contributor-default`\" は、Sphinxドキュメントツールで使われるクロスリファレンス (cross-reference) のタグです。テキスト自身は翻訳の対象ではありませんが、通常、このタグはより詳細な情報が提供される特定のセクションを指し示しています。そのセクションのタイトルや内容を翻訳する際には、その文脈を正確に伝える必要があります。\n"
+"\n"
+"デフォルトのコントリビューターに関するセクションを指していると思われるので、ドキュメント内の該当するセクションのタイトルがわからない限り、このタグを直訳することはできません。もしそのセクションのタイトルが「Contributor Defaults」であれば、それは日本語では「コントリビューターのデフォルト設定」という意味になります。\n"
+"\n"
+"もし実際のドキュメントにおいてこのタグに対応するテキストが必要であれば、文脈を提供してください。そうすることで正確な翻訳が可能になります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:282
+msgid "Editor"
+msgstr "エディタ"
+
+#: ../../user-manual/getting-started/getting-started.rst:284
+msgid ""
+"By default an editor can search, browse, create, edit/update, view draft, "
+"delete and export descriptions and edit :term:`controlled vocabulary` "
+":term:`terms <term>`. An editor can also change the :term:`publication "
+"status` of an :term:`information object`. An editor can access the "
+":term:`reference <reference display copy>` and :term:`master digital "
+"object`. An editor is also the only user group besides the "
+":term:`administrator` who can access the :term:`accessions <accession "
+"record>` module."
+msgstr ""
+"デフォルトでは、エディターは、検索、閲覧、作成、編集/更新、ドラフト表示、削除、説明のエクスポートを行うことができ、`管理された語彙`の`用語`を編集することができます。また、エディターは`情報オブジェクト`の`公開ステータス`を変更することができます。エディターは`参照用コピー`及び`マスターデジタルオブジェクト`にアクセスすることができます。さらに、エディターは`管理者`のほかに`収集記録`モジュールにアクセスできる唯一のユーザーグループです。"
+
+#: ../../user-manual/getting-started/getting-started.rst:294
+msgid ":ref:`editor-default`"
+msgstr ""
+"このテキストは、通常、ソフトウェアのドキュメントにおいて特定のセクションを参照する際に使われるreStructuredText (reST) 形式のラベルです。ただし文脈がないため、正確な翻訳は提供できませんが、一般的な解釈を試みます。\n"
+"\n"
+":ref:`editor-default`\n"
+"\n"
+"これを日本語に翻訳する場合、「エディター-デフォルト」といったセクションへの参照であると理解できますが、正確な翻訳は元のドキュメントの文脈を必要とします。以下は一般的な翻訳例です：\n"
+"\n"
+"参照：`editor-default`\n"
+"\n"
+"しかし、これが指し示している実際のセクション名やそのセクションがどのような内容を含んでいるのかについての情報が無ければ、これ以上詳細な翻訳は不可能です。実際の文脈を考慮に入れて翻訳する際には、セクションタイトルやその周辺の内容を精確に把握する必要があります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:299
+msgid "Translator"
+msgstr ""
+"申し訳ありませんが、お客様が提供するテキストがないため、翻訳を開始することはできません。提供いただけるテキストがある場合、日本語に翻訳を行うことができますので、テキストを提供してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:301
+msgid ""
+"A translator can search and browse :term:`published <published record>` "
+"descriptions and can translate :term:`user interface` elements and "
+":term:`database content`."
+msgstr "翻訳者は、公開された記録の説明を検索し閲覧することができ、ユーザーインターフェースの要素やデータベースの内容を翻訳することができます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:305
+msgid ""
+"A translator should be able to view :term:`draft descriptions <draft "
+"record>`, but not edit them."
+msgstr ""
+"翻訳者は、:term:`draft descriptions <draft record>`を閲覧できるべきですが、編集することはできません。"
+
+#: ../../user-manual/getting-started/getting-started.rst:310
+msgid ":ref:`translator-default`"
+msgstr ""
+"申し訳ありませんが、ご提供されたテキスト「:ref:`translator-"
+"default`」は、具体的なテキスト内容ではなく、ドキュメントマークアップ言語（おそらくreStructuredTextや類似のマークアップ）で使われる参照タグのように見えます。タグ自体は通常翻訳の対象ではなく、それが指し示す実際の内容が必要です。実際のテキストまたはコンテキストを提供していただければ、それに基づいて翻訳が可能です。"
+
+#: ../../user-manual/getting-started/getting-started.rst:315
+msgid "Administrator"
+msgstr "管理者"
+
+#: ../../user-manual/getting-started/getting-started.rst:317
+msgid ""
+"An administrator can import, export, create, read, update, publish and "
+"delete any record in the system, can customize application to institution "
+"specific requirements, and can manage :term:`user accounts <user account>` "
+"and :term:`profiles <user profile>`."
+msgstr ""
+"管理者は、システム内のあらゆるレコードをインポート、エクスポート、作成、閲覧、更新、公開、削除することができ、アプリケーションを機関特有の要件に合わせてカスタマイズし、用語「ユーザーアカウント」と用語「ユーザープロファイル」を管理することができます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:322
+msgid ""
+"Administrators can also create new user roles , set granular permissions for"
+" that role, and then assign or unassign users from the new role. For more "
+"information on creating a new user role, see :ref:`Add a new group <add-"
+"group>`."
+msgstr ""
+"管理者は、新しいユーザーロールを作成し、そのロールに対して細かい権限を設定し、そしてユーザーを新しいロールに割り当てたり、割り当て解除したりすることができます。新しいユーザーロールを作成する方法の詳細については、:ref:`新しいグループを追加する<add-"
+"group>`を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:329
+msgid ":ref:`administrator-default`"
+msgstr ""
+"このテキストは、具体的な文章や独立したフレーズではなく、おそらく文脈内でリンクされる参照（:ref:`administrator-default`）を示しています。文脈がない場合、直訳は不適切かもしれませんが、以下は参照リンクを日本語の文脈に合わせた一般的な翻訳です。\n"
+"\n"
+"```\n"
+":ref:`管理者デフォルト`\n"
+"```\n"
+"\n"
+"ドキュメンテーションのマークアップ言語における参照リンクの形式を保ちながら、リンクテキストを日本語に訳しました。「デフォルト」という言葉は、情報技術の分野ではカタカナ英語として広く理解されており、そのまま使用しています。もしこのリンクが特定の節や章への参照であるならば、対応する節または章の正確なタイトルへと置き換える必要があります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:336
+msgid "Page types"
+msgstr "ページタイプ"
+
+#: ../../user-manual/getting-started/getting-started.rst:338
+msgid ""
+"This section describes the main page types users of AtoM will encounter. The"
+" main page types are:"
+msgstr "このセクションでは、AtoMのユーザーが遭遇する主要なページタイプについて説明します。主要なページタイプは以下のとおりです："
+
+#: ../../user-manual/getting-started/getting-started.rst:341
+msgid ":ref:`Home page <page-type-home>`"
+msgstr ":ref:`ホームページ <page-type-home>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:342
+msgid ":ref:`View <page-type-view>`"
+msgstr ":ref:`表示 <page-type-view>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:343
+msgid ":ref:`Edit <page-type-edit>`"
+msgstr ":ref:`編集 <page-type-edit>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:344
+msgid ":ref:`Edit digital object <page-type-edit-object>`"
+msgstr ":ref:`デジタルオブジェクトの編集 <page-type-edit-object>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:345
+msgid ":ref:`Search results <page-type-search>`"
+msgstr ":ref:`検索結果 <page-type-search>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:346
+msgid ":ref:`Browse results <page-type-browse>`"
+msgstr ":ref:`結果を閲覧する<page-type-browse>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:347
+msgid ":ref:`Error <page-type-error>`"
+msgstr ":ref:`エラー <page-type-error>`"
+
+#: ../../user-manual/getting-started/getting-started.rst:351
+#: ../../user-manual/getting-started/getting-started.rst:656
+msgid ":ref:`navigate`"
+msgstr ":ref:`ナビゲート`"
+
+#: ../../user-manual/getting-started/getting-started.rst:365
+msgid "Example of the AtoM demo site home page"
+msgstr "AtoMデモサイトのホームページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:365
+msgid ""
+"An example of the AtoM online demo home page as it appears to a logged-in "
+"administrator"
+msgstr "ログインした管理者に表示されるAtoMオンラインデモホームページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:368
+msgid ""
+"The :term:`home page` is the first page the user sees when opening the "
+"application. It provides basic information about the application, and links "
+"and buttons for user actions (search, browse, log in, log out, get help, "
+"switch language). When the user logs in, the :term:`main menu` becomes "
+"visible in the :term:`header bar`."
+msgstr ""
+"アプリケーションを開いたときにユーザーが最初に目にするページが「ホームページ」です。このページにはアプリケーションの基本情報と、ユーザーアクション（検索、閲覧、ログイン、ログアウト、ヘルプの取得、言語の切り替え）のためのリンクやボタンが提供されています。ユーザーがログインすると、「メインメニュー」が「ヘッダーバー」に表示されるようになります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:374
+msgid ""
+"The home page is accessible from any other page by clicking the :term:`site "
+"logo` in the :term:`header bar`."
+msgstr ""
+"ホームページは、:term:`ヘッダーバー`にある:term:`サイトロゴ`をクリックすることで、他のどのページからでもアクセスすることができます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:377
+msgid ""
+"For further information on the features of the :term:`home page`, see the "
+":ref:`Home page <home-page>` section above."
+msgstr "「ホームページ」の機能についての詳細は、上記「ホームページ <home-page>」セクションを参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:383
+msgid "View"
+msgstr "ビュー"
+
+#: ../../user-manual/getting-started/getting-started.rst:391
+msgid "Example of an archival description view page"
+msgstr "アーカイバル記述ビューページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:391
+msgid "An example of a view page for an archival description"
+msgstr "アーカイブ記述のビューページ例"
+
+#: ../../user-manual/getting-started/getting-started.rst:393
+msgid ""
+"A :term:`view page` displays an individual :term:`record` in full in "
+":term:`view mode`, showing only those :term:`fields <field>` that contain "
+"data. Logged in users can toggle between :term:`edit mode` and :term:`view "
+"mode` by clicking the :term:`area header` of an :term:`information area`, "
+"and can also use the :term:`button block` to edit or add to the record (i.e."
+" to upload :term:`digital objects <digital object>`, add :term:`physical "
+"storage`, etc)."
+msgstr ""
+"用語「ビューページ」は、用語「ビューモード」で完全に個々の用語「レコード」を表示し、データが含まれている用語「フィールド」のみを示します。ログインしたユーザーは、用語「情報エリア」の用語「エリアヘッダー」をクリックすることで、用語「編集モード」と用語「ビューモード」を切り替えることができます。また、用語「ボタンブロック」を使用してレコードの編集や追加（例えば、用語「デジタルオブジェクト」のアップロードや用語「物理的保管」の追加など）も可能です。"
+
+#: ../../user-manual/getting-started/getting-started.rst:401
+msgid ""
+"View pages also include ellipses in text boxes that have a large number of "
+"characters (e.g., scope and content, Administrative/biographical history, "
+"Related units of description, etc.). The ellipses, represented in AtoM as 3 "
+"dots (...) followed by a |expand| \"expand\" button, allow the User to "
+"expand the text box to read the entire body of text. The collapsed position "
+"provides a concise and tidy look to the record so users don't have to scroll"
+" down to understand what they are viewing."
+msgstr ""
+"ビューページには、文字数が多いテキストボックス（例：範囲と内容、管理上／伝記史、関連する記述単位など）にも省略記号が含まれています。この省略記号は、AtoMでは3つの点（...）に続いて「展開」ボタンがあり、ユーザーがテキストボックスを拡大して、テキスト全体を読むことができるようにします。折りたたまれた状態は、記録を簡潔かつ整頓された外観にし、ユーザーが表示内容を理解するためにスクロールダウンする必要がないようにしています。"
+
+#: ../../user-manual/getting-started/getting-started.rst:409
+msgid "expand"
+msgstr ""
+"To provide you with an accurate translation, could you please provide me "
+"with the text that you need to be translated into Japanese?"
+
+#: ../../user-manual/getting-started/getting-started.rst:415
+msgid "Edit"
+msgstr "「編集」"
+
+#: ../../user-manual/getting-started/getting-started.rst:423
+msgid "Example of an authority record edit page"
+msgstr "権威レコード編集ページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:423
+msgid "An example of an edit page for an authority record"
+msgstr "権威レコードの編集ページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:425
+msgid "Displays an individual record in :term:`edit mode` for data entry."
+msgstr "データ入力のための :term:`編集モード` で個別のレコードを表示します。"
+
+#: ../../user-manual/getting-started/getting-started.rst:426
+msgid ""
+"Shows all :term:`fields <field>`, including the :term:`administration area`."
+msgstr "全ての:term:`フィールド <field>`を表示します、:term:`管理エリア`も含めて。"
+
+#: ../../user-manual/getting-started/getting-started.rst:427
+msgid ""
+"Groups :term:`fields <field>` by collapsible :term:`information areas "
+"<information area>` - :term:`fields <field>` can be hidden or displayed by "
+"section."
+msgstr "フィールドを折り畳み可能な情報エリアにグループ化します - セクションごとにフィールドを隠したり表示したりすることができます。"
+
+#: ../../user-manual/getting-started/getting-started.rst:430
+msgid ""
+"Provides :term:`button block` that contains buttons for saving or canceling "
+"changes."
+msgstr "提供：変更を保存またはキャンセルするためのボタンを含む :term:`button block`。"
+
+#: ../../user-manual/getting-started/getting-started.rst:432
+msgid ""
+"Accessible to :term:`contributors <contributor>`, :term:`editors <editor>`, "
+"and :term:`administrators <administrator>`; not accessible to "
+":term:`researchers <researcher>` (for more information on these types of "
+"users, see :ref:`User roles <user-roles>`)"
+msgstr ""
+"アクセス可能なユーザー：用語「貢献者<contributor>」、「編集者<editor>」、および「管理者<administrator>」。アクセス不可能なユーザー：用語「研究者<researcher>」（これらのユーザータイプの更なる情報については、:ref:`ユーザーロール<user-"
+"roles>`を参照してください）。"
+
+#: ../../user-manual/getting-started/getting-started.rst:440
+msgid "Edit digital object"
+msgstr "デジタルオブジェクトを編集"
+
+#: ../../user-manual/getting-started/getting-started.rst:448
+msgid "Example of the edit digital object page"
+msgstr "デジタルオブジェクト編集ページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:448
+msgid ""
+"An example of the edit page for a digital object. Access this page throught "
+"the \"More\" button in the :term:`button block` of the related description."
+msgstr ""
+"デジタルオブジェクトの編集ページの例。関連する説明の`:term:`button block`の「More」ボタンを通じてこのページにアクセスします。"
+
+#: ../../user-manual/getting-started/getting-started.rst:452
+msgid ""
+"The Edit digital object page allows the authorized (i.e. logged in) User "
+"with edit privileges to control the rights applied to the :term:`master "
+"digital object`, the :term:`reference display copy`, and the "
+":term:`thumbnail` representation (copy used within the database for search "
+"results, image gallery, :term:`carousel` etc.), as well as upload a new "
+":term:`reference display copy` or :term:`thumbnail` associated with a "
+":term:`master digital object`."
+msgstr ""
+"「編集デジタルオブジェクト」ページでは、編集権限を持っている（つまり、ログインしている）ユーザーが、`:term:`マスターデジタルオブジェクト`、:term:`参照用表示コピー`、および"
+" :term:`サムネイル` 表現（データベース内の検索結果、画像ギャラリー、:term:`キャルーセル` "
+"などに使用されるコピー）に適用される権利を管理できます。また、新しい :term:`参照用表示コピー` または :term:`サムネイル` "
+"を、:term:`マスターデジタルオブジェクト` に関連付けてアップロードすることもできます。」"
+
+#: ../../user-manual/getting-started/getting-started.rst:462
+msgid ":ref:`upload-digital-object`"
+msgstr ":ref:`デジタルオブジェクトのアップロード`"
+
+#: ../../user-manual/getting-started/getting-started.rst:468
+msgid "Search results"
+msgstr "検索結果"
+
+#: ../../user-manual/getting-started/getting-started.rst:476
+msgid "Example of a search results page"
+msgstr "検索結果ページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:476
+msgid ""
+"An example of an :term:`archival description` search results page, limited "
+"to only show results with :term:`digital objects <digital object>`."
+msgstr ""
+"以下は、:term:`アーカイブ記述`検索結果ページの一例であり、:term:`デジタルオブジェクト<digital "
+"object>`を含む結果のみを表示するように制限されています。"
+
+#: ../../user-manual/getting-started/getting-started.rst:479
+msgid ""
+"A search results page displays set of records that match search criteria, "
+"based on a user's query entered into the :term:`search box` or the "
+":term:`advanced search` menu. Users can click on the title of a record "
+"listed in the search results page to open the record in :term:`view mode`. "
+"For more information on search in AtoM, see: :ref:`search-atom`."
+msgstr ""
+"検索結果ページは、ユーザーが:term:`検索ボックス`または:term:`詳細検索`メニューに入力したクエリに基づいて、検索条件に一致するレコードのセットを表示します。ユーザーは検索結果ページにリストされたレコードのタイトルをクリックして、そのレコードを:term:`ビューモード`で開くことができます。AtoMでの検索の詳細については、:ref:`search-"
+"atom`を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:488
+msgid "Browse results"
+msgstr "結果を閲覧する"
+
+#: ../../user-manual/getting-started/getting-started.rst:496
+msgid "Example of a browse page for digital objects"
+msgstr "デジタルオブジェクトの閲覧ページの例"
+
+#: ../../user-manual/getting-started/getting-started.rst:496
+msgid ""
+"An example of the browse page for :term:`digital objects <digital object>`."
+msgstr "デジタルオブジェクトに関する閲覧ページの例：用語「デジタルオブジェクト」。"
+
+#: ../../user-manual/getting-started/getting-started.rst:498
+msgid ""
+"Browse results show lists of descriptions retrieved by clicking on an item "
+"in the :term:`browse menu`. By default when the application is installed, "
+"results for :term:`archival descriptions <archival description>`, "
+":term:`authority records <authority record>`, :term:`archival institutions "
+"<archival institution>` and :term:`functions <function>` are sorted by most "
+"recently updated for authenticated (i.e. logged in) users, and "
+"alphabetically for non- logged in users such as :term:`researchers "
+"<researcher>`; however, a :term:`drop-down menu` at the top-right of the "
+"browse results allows a user to change the sort order. Additionally, an "
+":term:`administrator` can change the default sort order for both types of "
+"users via the Settings menu (see: :ref:`Settings <settings>`). Users can "
+"also browse by :term:`subject`, :term:`place`, and :term:`digital object` "
+"type. For more information on browsing in AtoM, see: :ref:`browse <browse>`."
+msgstr ""
+"ブラウズ結果は、:term:`ブラウズメニュー` "
+"の項目をクリックすることで取得される説明のリストを表示します。デフォルトでは、アプリケーションがインストールされた時点で、:term:`アーカイブ記述<archival"
+" description>`、:term:`権威レコード<authority record>`、:term:`アーカイブ機関<archival "
+"institution>`、および :term:`機能<function>` "
+"に関する結果は、認証された（つまりログインしている）ユーザーに対しては最近更新された順で、非ログインユーザー（例えば "
+":term:`研究者<researcher>` など）に対してはアルファベット順でソートされます。しかし、ブラウズ結果の右上にある "
+":term:`ドロップダウンメニュー` により、ユーザーはソート順を変更することができます。さらに、:term:`管理者` "
+"はSettingsメニューを通じて両方のタイプのユーザーに対するデフォルトのソート順を変更することができます（詳細は :ref:`Settings "
+"<settings>` を参照）。ユーザーはまた、:term:`主題`、:term:`場所`、および :term:`デジタルオブジェクト` "
+"のタイプ別にもブラウズすることができます。AtoMでのブラウズに関するさらなる情報については、:ref:`browse <browse>` "
+"を参照してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:515
+msgid "Error"
+msgstr "エラー"
+
+#: ../../user-manual/getting-started/getting-started.rst:517
+msgid ""
+"An :term:`error message` displays when AtoM is unable to execute an action. "
+"The following are typical types of :term:`error messages <error message>`:"
+msgstr ""
+"AtoMがアクションを実行できない場合、:term:`エラーメッセージ`が表示されます。以下は、典型的な種類の:term:`エラーメッセージ "
+"<error message>`です："
+
+#: ../../user-manual/getting-started/getting-started.rst:520
+msgid ""
+"**Page not found:** usually implies a broken link; report to system "
+":term:`administrator` and to AtoM support team."
+msgstr ""
+"**ページが見つかりません:** 多くの場合、リンク切れを意味します。システムの:term:`管理者`とAtoMサポートチームに報告してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of a Page Not Found message"
+msgstr "ページが見つかりませんメッセージの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:528
+msgid ""
+"**No access permission:** your user account does not give you access "
+"privileges to the requested page."
+msgstr "**アクセス権限なし：** お使いのユーザーアカウントでは、要求されたページにアクセスする権限が付与されていません。"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of a No access permission message"
+msgstr "アクセス権限がないメッセージの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:536
+msgid ""
+"**No translation permission:** you do not have :term:`translator` access in "
+"the current language, or to the specific description"
+msgstr ""
+"申し訳ありませんが、提供されたテキストを翻訳することはできません。これは、翻訳者としての権限が現在の言語や特定の記述に対して与えられていないことを意味するメッセージを示しています。他の形での支援が必要であれば、ご連絡ください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:538
+msgid ""
+"**System error (500 internal server error):** indicates a fairly major "
+"system-wide problem, or problem with data corruption; report to "
+":term:`administrator`."
+msgstr ""
+"**システムエラー（500内部サーバーエラー）：** "
+"かなり大きなシステム全体の問題、またはデータ破損の問題を示しています。:term:`管理者`に報告してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of a 500 error message"
+msgstr "500エラーメッセージの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:547
+msgid ""
+"**Blank page:** indicates a fairly major system-wide problem, or problem "
+"with data corruption; report to administrator and to AtoM support team."
+msgstr ""
+"**空白のページ:** "
+"これは、かなり大きな全システムに関わる問題、またはデータ破損の問題を示しています。管理者およびAtoMサポートチームに報告してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:555
+msgid "Choose language"
+msgstr "言語を選択"
+
+#: ../../user-manual/getting-started/getting-started.rst:557
+msgid ""
+"Any user can change the :term:`current language` to one of AtoM's "
+":term:`supported languages <supported language>` by clicking on a language "
+"in the |globe| :ref:`Language menu <language-menu>`, located in the AtoM "
+":term:`header bar`. AtoM switches the :term:`user interface` to the "
+"preferred language, and:"
+msgstr ""
+"どのユーザーも、AtoMの:term:`ヘッダーバー`に位置する |globe| :ref:`言語メニュー <language-"
+"menu>`で言語をクリックすることによって、:term:`現在の言語`をAtoMの:term:`サポートされている言語 <supported "
+"language>`の中から選択して変更することができます。AtoMは:term:`ユーザーインターフェース`を好みの言語に切り替えます。そして："
+
+#: ../../user-manual/getting-started/getting-started.rst:563
+msgid ""
+"if a translation of the database content into the preferred language exists,"
+" AtoM switches to the translation;"
+msgstr "データベースの内容が好ましい言語に翻訳されている場合、AtoMはその翻訳に切り替わります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:565
+msgid ""
+"if **no** translated version exists, AtoM displays the description in its "
+"original source version."
+msgstr "翻訳版が存在しない場合、AtoMはその説明を元のソースバージョンで表示します。"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of a user choosing a language via the language menu"
+msgstr "言語メニューから言語を選択するユーザーの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:575
+msgid ""
+"See :ref:`Add/remove languages <add-remove-languages>` for information on "
+"how an :term:`administrator` can remove or restore languages in the "
+":term:`language menu`, and :ref:`Translate <translate>` for how to translate"
+" content and :term:`user interface` elements in AtoM."
+msgstr ""
+"参照：「言語の追加・削除 <add-remove-"
+"languages>」では、:term:`管理者`が:term:`言語メニュー`から言語を削除したり復元したりする方法についての情報が記載されています。また、「翻訳する"
+" <translate>」では、AtoM内のコンテンツと:term:`ユーザーインターフェイス`要素を翻訳する方法について説明しています。"
+
+#: ../../user-manual/getting-started/getting-started.rst:580
+msgid "For more information on the language menu, see: :ref:`language-menu`"
+msgstr "以下に記載されている言語メニューに関する詳細情報については、:ref:`language-menu` をご覧ください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:587
+msgid "Change password"
+msgstr "パスワードを変更"
+
+#: ../../user-manual/getting-started/getting-started.rst:589
+msgid ""
+"Users can change their own :term:`passwords <password>`. If a user forgets "
+"their :term:`password`, the system :term:`administrator` must reset it (see "
+":ref:`manage-user-accounts`)."
+msgstr ""
+"利用者は自身の:term:`パスワード "
+"<password>`を変更することができます。利用者が:term:`パスワード`を忘れた場合、システム:term:`管理者`がリセットしなければなりません（:ref:`manage-"
+"user-accounts`を参照）。"
+
+#: ../../user-manual/getting-started/getting-started.rst:593
+msgid ""
+"Click your :term:`username` in the :term:`header bar`, at the upper right-"
+"hand corner of the page"
+msgstr "ページの右上隅にある :term:`ヘッダーバー` で、あなたの :term:`ユーザー名` をクリックしてください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:595
+msgid ""
+"A :term:`drop-down menu` will appear with the option to log out, or navigate"
+" to your :term:`user profile` - click on \"Profile\""
+msgstr ""
+"ドロップダウンメニューが表示され、ログアウトするオプションやユーザープロファイルへの移動ができます。「プロファイル」をクリックしてください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of a user clicking on the Profile option"
+msgstr "ユーザーが「プロファイル」オプションをクリックする画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:603
+msgid ""
+"You will be redirected to your user profile :term:`view page`. To change "
+"your password, click the \"Change password\" button in the center of the "
+"page."
+msgstr ""
+"あなたはユーザープロファイルの:term:`view page`にリダイレクトされます。パスワードを変更するには、ページの中央にある「Change "
+"password」ボタンをクリックしてください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of a user's profile page in view mode"
+msgstr "ユーザーのプロファイルページの閲覧モードにおける画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:614
+msgid ""
+"If you are an :term:`administrator`, you will have full access to edit your "
+"user profile. To change your password or edit other account details, click "
+"the \"Edit\" button in the :term:`button block` at the bottom of the page."
+msgstr ""
+"あなたが:term:`管理者`であれば、ユーザープロファイルを編集する完全なアクセス権を持っています。パスワードを変更する場合や他のアカウント情報を編集する場合は、ページの下部にある:term:`ボタンブロック`の「編集」ボタンをクリックしてください。"
+
+#: ../../user-manual/getting-started/getting-started.rst
+msgid "An image of a administrator's profile page in view mode"
+msgstr "管理者のプロフィールページの閲覧モードにおける画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:624
+msgid ""
+"Enter your new :term:`password` under \"New password\" and enter it again "
+"under \"Confirm password\". The green bar on the right will offer you an "
+"indication of your password strength - use a mixture of upper and lower case"
+" letters, numbers, and special characters (e.g. ! $ % & # etc) to create a "
+"stronger password."
+msgstr ""
+"「新しいパスワード」欄に新しい:term:`パスワード`を入力し、「パスワードの確認」欄に再度入力してください。右側にある緑色のバーがパスワードの強度を示す目安となります"
+" - 大文字と小文字の組み合わせ、数字、特殊文字 (例: ! $ % & # 等) を使用してより強固なパスワードを作成してください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of a user's profile page in edit mode"
+msgstr "ユーザーのプロフィールページの編集モードの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:635
+msgid ""
+"If the two passwords entered in \"Change password\" and \"Confirm password\""
+" do not match, AtoM will indicate so below the \"Confirm password\" field. "
+"If you try to save the page with with mismatched password entries, AtoM will"
+" clear both fields, and reload the page with an error message. You can now "
+"re-enter your password - make sure it's the same in both fields!"
+msgstr ""
+"「パスワード変更」と「パスワード確認」に入力された2つのパスワードが一致しない場合、AtoMは「パスワード確認」のフィールドの下にその旨を示します。一致しないパスワードの入力でページを保存しようとすると、AtoMは両方のフィールドをクリアし、エラーメッセージを表示してページを再読み込みします。パスワードを改めて入力してください"
+" - 両方のフィールドで同じものを確実に入力するようにしてください！"
+
+#: ../../user-manual/getting-started/getting-started.rst:-1
+msgid "An image of the profile edit page reloaded after a password mismatch"
+msgstr "パスワード不一致後に再読み込みされたプロファイル編集ページの画像"
+
+#: ../../user-manual/getting-started/getting-started.rst:646
+msgid ""
+"When you have updated your password, click the \"Save\" button in the "
+":term:`button block` at the bottom of the profile :term:`edit page`."
+msgstr "パスワードを更新したら、プロファイルの編集ページの下部にある「ボタンブロック」内の「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/getting-started/getting-started.rst:649
+msgid ""
+"Your password has now been updated. You will be redirected to the profile "
+":term:`view page`, and the new password will be in effect next time you "
+":ref:`log in <log-in>` to the application."
+msgstr ""
+"パスワードが更新されました。プロファイルの:term:`ビューページ`にリダイレクトされます。次回アプリケーションに:ref:`ログイン<log-"
+"in>`するときから、新しいパスワードが有効になります。"
+
+#: ../../user-manual/getting-started/getting-started.rst:655
+msgid ":ref:`log-in-button`"
+msgstr ":ref:`ログインボタン`"
+
+#: ../../user-manual/getting-started/getting-started.rst:657
+msgid ":ref:`manage-user-accounts`"
+msgstr ""
+"`:ref:`manage-user-accounts` の部分は、明確な翻訳ではなくドキュメント内の参照リンクですが、もし参照タグそのものに言及して日本語訳する場合は以下のようになります。\n"
+"\n"
+"`:ref:`ユーザーアカウントの管理`\n"
+"\n"
+"ただし、実際の翻訳でドキュメント内の参照を扱う際には、該当するセクションの日本語タイトルに合わせて参照リンクを更新する必要があります。確実な翻訳としては、参照されているセクションのタイトルが必要になります。"

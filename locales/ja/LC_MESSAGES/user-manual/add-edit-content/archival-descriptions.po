@@ -1,0 +1,2995 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:5
+msgid "Archival Descriptions"
+msgstr "アーカイブ記述"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:15
+msgid ""
+"Archival descriptions are one of the core :ref:`entity-types` in AtoM and "
+"provide users with invaluable contextual infomation about the resources held"
+" by an :term:`archival institution`."
+msgstr ""
+"アーカイバルディスクリプションは、AtoMの中心的な`:ref:`エンティティタイプ`のひとつで、それによりユーザーはアーカイブ機関が保有するリソースについての貴重な文脈情報を得ることができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:19
+msgid ""
+"In AtoM, an archival description is a body of information about an archival "
+"record or records. The descriptions provide contextual information about the"
+" archival materials and are arranged into hierarchical levels "
+"(:term:`fonds`, series, files, items, and variations of these in accordance "
+"with institutional standards)."
+msgstr ""
+"AtoMでは、アーカイバル・デスクリプションはアーカイブ記録または記録群に関する情報の体系です。これらの記述はアーカイバル資料についての文脈情報を提供し、機関の標準に従って階層レベル（:term:`フォンズ`、シリーズ、ファイル、アイテム、およびこれらのバリエーション）に編成されています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:25
+msgid ""
+"Archival description is *also* an activity, however - generally accompanied "
+"by the process of archival arrangemenent, it is the outcome of a process to "
+"gain intellectual control over a resource or collection of resources and "
+"provide end users (such as :term:`researchers <researcher>`) with a means of"
+" conceptualizing the organization of these resources and navigating to the "
+"specific content in which they are interested, as well as a sense of what is"
+" contained, how it got there, and what role it serves in the larger "
+"accumulation of materials. Archival description is therefore intended to "
+"facilitate the identification, management, and understanding of archival "
+"materials."
+msgstr ""
+"アーカイブ記述はまた、一つの活動でもあります。基本的にはアーカイブ整理の手続きとともに行われるこの活動は、リソースまたはリソースのコレクションに対する知的管理を獲得し、その組織を概念化し、末端利用者（例えば、:term:`研究者"
+" "
+"<researcher>`）が興味を持つ具体的な内容へ簡単にたどり着ける手段を提供するプロセスの結果です。また、それが何を含んでいるか、どのようにしてそこに至ったか、そしてより広範な資料の蓄積においてどのような役割を果たしているかの感覚も提供します。したがって、アーカイブ記述は、アーカイブ資料の特定、管理、そして理解を容易にすることを意図しています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:36
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org/>`__) "
+"defines an archival description as *\"The creation of an accurate "
+"representation of a unit of description and its component parts, if any, by "
+"capturing, analyzing, organizing and recording information that serves to "
+"identify, manage, locate and explain archival materials and the context and "
+"records systems which produced it. This term also describes the products of "
+"the process\"* (ISAD glossary)."
+msgstr ""
+"国際アーカイブズ評議会（`ICA "
+"<http://www.ica.org/>`__）は、アーカイブ記述を*「記述単位及びその構成要素（ある場合）について、それを特定、管理、位置づけ、説明し、かつそれが生成された文脈及び記録システムを明らかにするために必要な情報を捕捉、分析、編成し、記録することによる正確な表現の作成。この用語はまた、そのプロセスの成果物も指す」*（ISAD用語集）と定義しています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:44
+msgid ""
+"Archival description is somewhat similar to the process of bibliographic "
+"description, and some standards, such as the Canadian Rules for Archival "
+"Description (RAD), are derived from bibliographic standards. Daniel Pitti, "
+"one of the original creators of the Encoded Archival Description XML-based "
+"metadata exchange standard (`EAD <http://www.loc.gov/ead/>`__), points out "
+"that one of the key differences, however, is in the hierarchical nature of "
+"archival description:"
+msgstr ""
+"アーカイブ記述は、書誌記述のプロセスに多少似ており、カナダのアーカイブ記述規則（RAD）のようないくつかの標準は書誌標準に由来しています。エンコードされたアーカイバル記述（EAD）XMLベースのメタデータ交換標準の元の創造者の一人であるダニエル・ピッティは、しかし、アーカイブ記述の階層的な性質にあると指摘しています:"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:52
+msgid ""
+"*The distinction between what and for whom libraries and archives remember "
+"accounts form the major differences in archival and bibliographic "
+"description. A bibliographic description, such as that found in a MARC "
+"record, represents an individual published item, and thus is item-level. "
+"There is a one-to-one correspondence between the description and the item. "
+"The description is based on, and is derived from, the physical item. "
+"Archival description represents a fonds, a complex body of materials, "
+"frequently in more than one form or medium, sharing a common provenance. The"
+" description involves a complex hierarchical and progressive analysis. It "
+"begins by describing the whole, then proceeds to identify and describe sub-"
+"components of the whole, and sub-components of sub-components, and so on. "
+"Frequently, but by no means always, the description terminates with a "
+"description of individual items. The description emphasizes the intellectual"
+" structure and content of the material, rather than their physical "
+"characteristics.* (`Pitti, 1999 "
+"<http://www.dlib.org/dlib/november99/11pitti.html>`__)"
+msgstr ""
+"図書館とアーカイブが何を、誰のために記憶しておくかという違いは、アーカイブ記述と書誌記述の主な違いを形成します。書誌記述、たとえばMARCレコードに見られるような記述は、個々の出版された項目を表し、したがって項目レベルです。説明と項目の間には一対一の対応関係があります。説明は物理的な項目に基づき、それから派生します。アーカイブ記述は、フォンズを表します。フォンズは共通の出自（プロベナンス）を持つ、しばしば一つ以上の形式や媒体で存在する複雑な資料群です。記述には複雑な階層的かつ進行的な分析が関係します。それは全体を記述することから始まり、次に全体のサブコンポーネントを特定し、記述し、サブコンポーネントのサブコンポーネントを記述していく、というプロセスを続けます。記述はしばしば、しかし常にではありませんが、個々の項目の記述で終わります。記述は物理的な特性よりも資料の知的構造と内容を強調します。（Pitti,"
+" 1999 <http://www.dlib.org/dlib/november99/11pitti.html>）"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:69
+msgid ""
+"Archival description is often preceded by the creation of an :ref:`accession"
+" record <accession-records>`, and much of the information generated during "
+"the accessions process can be re-used to create archival descriptions. As "
+"new :term:`accruals <accrual>` are added, the archival description is "
+"updated to reflect these changes."
+msgstr ""
+"アーカイバル・ディスクリプションは、多くの場合、:ref:`受入記録 <accession-"
+"records>`の作成に先行されます。そして、受入プロセス中に生成された情報の多くはアーカイバル・ディスクリプションを作成するために再利用することができます。新たな:term:`累積"
+" <accrual>`が追加されるにつれて、アーカイバル・ディスクリプションはこれらの変更を反映するように更新されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:77
+msgid ""
+"AtoM can generate an :term:`archival description` from an existing "
+":term:`accession record` - see :ref:`Create an archival description from an "
+"accession record <create-accession-description>` for more information."
+msgstr ""
+"AtoMは、既存の:term:`アクセッション記録`から:term:`アーカイブ記述`を生成することができます。詳細については、:ref:`アクセッション記録からアーカイブ記述を作成する<create-"
+"accession-description>`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Example of an archival description in AtoM"
+msgstr "AtoMにおけるアーカイブ記述の例"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:86
+msgid ""
+"**Below are instructions for using the Archival description module in AtoM "
+"to:**"
+msgstr "**以下は、AtoM のアーカイブ記述モジュールを使用するための指示です**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:89
+msgid ":ref:`Add a new archival description <add-archival-description>`"
+msgstr ":ref:`新しいアーカイブ記述を追加する <add-archival-description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:91
+msgid ":ref:`Add a new child description <add-child-archival-description>`"
+msgstr ":ref:`新しい下位記述を追加する <add-child-archival-description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:93
+msgid ""
+":ref:`Edit an existing archival description <edit-archival-description>`"
+msgstr ":ref:`既存のアーカイブ記述を編集する<edit-archival-description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:95
+msgid ":ref:`Publish an archival description <publish-archival-description>`"
+msgstr ":ref:`アーカイバル記述を公開する <publish-archival-description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:96
+msgid ":ref:`calculate-dates`"
+msgstr ""
+"`:ref:`calculate-dates` `は、特定のコンテキストや形式が提供されていないため、直接的な翻訳は不可能です。ただし、これはおそらくArchivematica文書内の参照リンクの一部であり、特定のセクションやタイトル、「calculate-dates」という名前の機能やセクションを指していると思われます。そのため、これを日本語の文脈に適合させるため「日付の計算」という言葉を使った参照になります。コンテキストが提供されている場合には、さらに正確な翻訳を提供できますが、現時点では以下の翻訳が適切でしょう：\n"
+"\n"
+"`:ref:`日付の計算``\n"
+"\n"
+"ただし、実際のArchivematicaの文書内でどのように使われるかに完全には合わないかもしれません。リンクの正確な目的や形式を理解するためには、さらなる情報が必要です。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:98
+msgid ":ref:`duplicate-archival-description`"
+msgstr ":ref:`重複したアーカイブ記述`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:99
+msgid ":ref:`link-related-descriptions`"
+msgstr ":ref:`関連する説明にリンクする`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:100
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1001
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1168
+msgid ":ref:`change-display-standard`"
+msgstr ""
+"この特定のテキストは、マークアップ記法の参照ラベルを含んでいます。直接の日本語訳は存在しませんが、ドキュメント内での参照ラベルの使用方法を考慮して、以下のように訳せます：\n"
+"\n"
+"`:ref:`change-display-standard`を参照してください。`\n"
+"\n"
+"この訳は、ドキュメント内の関連するセクションや図への参照を示す際に使用されることを想定しています。実際には、このラベルが指し示す具体的なセクション名に応じて、適切な日本語のセクション名に置き換える必要があります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:101
+msgid ":ref:`add-alternative-id`"
+msgstr ""
+"`:ref:`add-alternative-id`` は参照リンクのためのマークアップですが、そのテキストの内容が不明確です。ただし、これを日本語に訳す場合、「代替 ID を追加する」という意味になるでしょう。日本語でのドキュメント内での正確な用途や文脈に応じて、以下のように翻訳できます。\n"
+"\n"
+"``:ref:``代替IDを追加``\n"
+"\n"
+"上記のように翻訳してしまうと、リンクの機能が失われる可能性があるため、実際の文書ではリンクの構造を保つ必要があります。実務においては、リファレンスのターゲットや実際の文脈に基づいた適切な表現が求められるでしょう。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:102
+msgid ":ref:`rename-title-slug`"
+msgstr ":ref:`タイトルスラッグの名前変更`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:103
+msgid ":ref:`view-modification-history`"
+msgstr ":ref:`変更履歴を表示`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:104
+msgid ":ref:`Move an archival description <move-archival-description>`"
+msgstr ":ref:`アーカイバル記述の移動 <move-archival-description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:105
+msgid ":ref:`Delete an archival description <delete-archival-description>`"
+msgstr "`アーカイブ記述の削除 <delete-archival-description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:107
+msgid ""
+"AtoM also includes standards-based templates for describing resources. "
+"Please see the sections below for more specific instructions on the use of "
+":term:`fields  <field>` within each template:"
+msgstr ""
+"AtoMには、リソースを記述するための標準に基づいたテンプレートも含まれています。テンプレート内の各:term:`フィールド "
+"<field>`の使用に関するより具体的な指示については、以下のセクションを参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:111
+msgid ""
+"General International Standard Archival Description: :ref:`ISAD(G) <isad-"
+"template>`"
+msgstr "一般国際標準アーカイブ記述： :ref:`ISAD(G) <isad-template>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:113
+msgid ""
+"Describing Archives: A Content Standard (U.S.A): :ref:`DACS <dacs-template>`"
+msgstr "アーカイブ記述のためのコンテンツ基準 (アメリカ合衆国): :ref:`DACS <dacs-template>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:114
+msgid ""
+"Dublin Core Metadata Element Set, Version 1.1: :ref:`Dublin Core <dc-"
+"template>`"
+msgstr "ダブリンコアメタデータエレメントセット、バージョン1.1： :ref:`ダブリンコア <dc-template>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:115
+msgid "Metadata Object Description Schema: :ref:`MODS <mods-template>`"
+msgstr "メタデータオブジェクト記述スキーマ： :ref:`MODS <mods-template>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:116
+msgid "Rules for Archival Description (Canada): :ref:`RAD <rad-template>`"
+msgstr "アーカイブ記述規則（カナダ）： :ref:`RAD <rad-template>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:120
+msgid ":ref:`add-term-fly`"
+msgstr ""
+"このテキスト断片は、単独での翻訳には向きません。これはSphinxドキュメンテーションツールで利用される「ロール（role）」を示しており、通常はドキュメント内の特定の部分への参照を作成する際に使われます。':ref:' は参照（reference）を作成する際のマークアップであり、`add-term-fly`は参照するラベル（label）です。\n"
+"\n"
+"しかし、あなたの依頼として、このテキストを日本語によく使われる形で翻訳しましょう。ドキュメントの文脈を加味せずに箇条書きの要約をして、以下のように訳すことができます：\n"
+"\n"
+"- 「add-term-fly」を参照\n"
+"\n"
+"通常、このラベルは文脈に応じて適切な日本語訳に置き換えられるべきです。そのため、実際にドキュメント内でどのような用語やセクションを参照しているかに基づいて、正確な翻訳が行われる必要があります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:121
+msgid ":ref:`browse-hierarchy`"
+msgstr "参照：`階層の閲覧`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:122
+msgid ":ref:`Physical storage <link-physical-storage>`"
+msgstr ":ref:`物理ストレージ <link-physical-storage>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:123
+msgid ":ref:`Upload digital objects <upload-digital-object>`"
+msgstr ":ref:`デジタルオブジェクトをアップロードする <upload-digital-object>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:124
+msgid ""
+":ref:`Create an archival description from an accession record <create-"
+"accession-description>`"
+msgstr "アクセッション記録からアーカイブ記述を作成する <create-accession-description>"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:126
+msgid ""
+":ref:`Link an accession record to an archival description <link-accession-"
+"description>`"
+msgstr ":ref:`アクセッション記録をアーカイブ記述にリンクする <link-accession-description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:128
+msgid ":ref:`formatting`"
+msgstr ""
+"`:ref:`formatting`は、通常のテキストではなく、reStructuredText（reST）というマークアップ言語における特定の機能を指している可能性が高いです。reStructuredTextはドキュメント化のために使われる言語の一つで、特にPythonコミュニティで広く用いられています。`:ref:`は、ドキュメント内の他のセクションへの参照（リンク）を作る際に使用する構文の一部です。\n"
+"\n"
+"ただし、提供されたテキストには参照の目的地が含まれていません（例えば、`:ref:`formatting`の後に目的地を指定する必要があります）。そのため、これをそのまま翻訳するのは不完全であり、適切な日本語の翻訳を提供するためには、参照の完全なコンテキストが必要です。\n"
+"\n"
+"一般的な文脈で言えば、このテキストはドキュメントの特定の「フォーマッティング」セクションへのリンクとして機能すると予想されます。しかしながら、このコード片だけでは完全な翻訳はできません。もし具体的なセクション名やより多くの情報が提供されれば、より正確な翻訳が可能となります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:129
+msgid ":ref:`link-function-description`"
+msgstr ":ref:`リンク機能の説明`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:130
+msgid ":ref:`link-authority-to-description`"
+msgstr ""
+"このテキストは、おそらくSphinxドキュメントジェネレータで使用されるreStructuredText（reST）フォーマットの一部であり、特定のドキュメントセクションへのリファレンスを示しています。ただし、このリファレンス自体には直接的な意味が含まれておらず、実際の文脈がないため、直訳はできません。\n"
+"\n"
+"日本語に翻訳する際には、そのリファレンスが指すセクションのタイトルまたは内容に基づいた翻訳が必要になります。たとえば、リファレンスが「Authority to Description Linking」というセクションに関するものであれば、以下のように翻訳することができます：\n"
+"\n"
+"```:ref:`権威と記述のリンク付け` ```\n"
+"\n"
+"しかし、前述のように、具体的なセクションのタイトルや内容を知らずに翻訳することはできません。もしセクションの正確なタイトルがわかっていれば、それに合わせて適切に翻訳することが求められます。それに合わせて挿入するための適切な翻訳を提供している場合を除いて、このテキスト断片はそのままでは有意義な翻訳にはなりません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:131
+msgid ":ref:`upload-digital-object`"
+msgstr ":ref:`デジタルオブジェクトのアップロード`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:132
+msgid ":ref:`rights-archival-description`"
+msgstr ":ref:`権利・アーカイブ記述`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:133
+msgid ":ref:`import-xml`"
+msgstr ":ref:`XMLのインポート`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:134
+msgid ":ref:`export-xml`"
+msgstr ""
+"`:ref:`export-xml`` はMarkdownやreStructuredTextなどのドキュメント形式内でクロス・リファレンス（相互参照）リンクを作成するために用いられるマーカーです。この場合、同じドキュメント内か、あるいは関連ドキュメント内の `export-xml` というラベルのセクションを参照しています。翻訳する際にはこのマーカーはそのまま残すか、もしくは適切な言語のラベルに変更する必要があるかもしれません。 \n"
+"\n"
+"ただし、ここで求められているのは具体的な翻訳テキストではなく、プレースホルダーやマーカーの説明のようです。もし「:ref:`export-xml`」というマーカーがどのような文脈やセクションを指すのか、そしてそれが持つ情報が何かによります。\n"
+"\n"
+"それがわからない限り、直訳は次のようになりますが、これは実際の翻訳としては意味をなさない可能性が高いです：\n"
+"\n"
+"`:ref:`エクスポート-XML``\n"
+"\n"
+"もし実際のドキュメント内のセクションタイトルを翻訳する場合は、例えばそのセクションが「XMLのエクスポートについて」という意味であれば、日本語では次のようになるでしょう：\n"
+"\n"
+"`XMLのエクスポートについて`\n"
+"\n"
+"ただし、reStructuredTextやMarkdownの文法を保持するために、正確なリンクを保つマーカーは変更せずそのまま残す必要があることに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:135
+msgid ":ref:`csv-import`"
+msgstr ""
+"「:ref:`csv-import`」というテキスト自体はソフトウェアドキュメント内で特定の参照（リファレンスタグ）を表すマークアップです。これはドキュメント内の特定のセクションへのアンカーリンクを示していて、通常はそのまま翻訳しません。しかし、もしこのテキストを文章の一部として翻訳する必要がある場合は、対応するセクションのタイトルを日本語に訳し、そのタイトルを用いて同様のアンカーリンクを日本語ドキュメントに作成することが考えられます。\n"
+"\n"
+"そのため、このテキストの翻訳には以下のステップが必要です：\n"
+"\n"
+"1. `csv-import`に相当するドキュメントセクションのタイトルを探す。\n"
+"2. そのタイトルを日本語に翻訳する。\n"
+"3. 日本語ドキュメント内で同じように参照タグを設定する。\n"
+"\n"
+"たとえば、もし`csv-import`というセクションが「CSVを使ったインポート」というタイトルだった場合、日本語の参照タグは以下のようになるかもしれません：\n"
+"\n"
+"```\n"
+":ref:`csv-wo-tsukatta-inport`\n"
+"```\n"
+"\n"
+"ただし、これは一例であり、実際のドキュメントやその構造によって方法は変わります。\n"
+"もし単にテキストそのものを翻訳する必要があるというコンテキストであれば「CSVインポート」が単純な翻訳になるかもしれません。それであれば、以下のようになります：\n"
+"\n"
+"```\n"
+":ref:`CSVインポート`\n"
+"```"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:141
+msgid "Add a new archival description"
+msgstr "新しいアーカイブ記述を追加"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:143
+msgid ""
+"This section contains instructions on how to Add a new top level archival "
+"description (also known as a :term:`parent record`), and how to add a new "
+"child description (or :term:`child record`) via two different methods"
+msgstr ""
+"このセクションでは、新しい最上位のアーカイブ記述（:term:`parent "
+"record`としても知られています）を追加する方法、および2つの異なる方法で新しい子記述（または:term:`child "
+"record`）を追加する方法についての指示が含まれています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:150
+msgid "Add a new top level description"
+msgstr "新しいトップレベルの説明を追加"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:152
+msgid ""
+"A new :term:`archival description` can be added at any time, from anywhere "
+"in the application, via the :term:`main menu` available to authenticated "
+"(i.e. logged in) AtoM users with the appropriate privileges (such as "
+":term:`contributors <contributor>`, :term:`editors <editor>`, and "
+":term:`administrators <administrator>`). For more information on User roles "
+"and types of users in AtoM see: :ref:`User roles <user-roles>`."
+msgstr ""
+"アーカイブ記述を追加するには、アプリケーション内のどこからでも、適切な権限 (例えば、投稿者、編集者、管理者など) を持つ認証済み "
+"(つまりログインしている) "
+"AtoMユーザーが利用可能なメインメニューからいつでも行うことができます。AtoMにおけるユーザーロールとユーザータイプの詳細については、ユーザーロールを参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:161
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:360
+msgid ""
+"You must be logged in to be able to create a new :term:`archival "
+"description` in AtoM. See: :ref:`Log in <log-in>`."
+msgstr ""
+"AtoMで新しい:term:`archival description`を作成するためには、ログインしている必要があります。参照: "
+":ref:`ログイン<log-in>`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:164
+msgid "**To create a new archival description:**"
+msgstr "**新しいアーカイブ記述を作成するには：**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:166
+msgid ""
+"In the :term:`main menu` located in the :term:`header bar`, click the |plus|"
+" \":ref:`Add <main-menu-add>`\" menu and select \"Archival description\" "
+"from the :term:`drop-down menu`."
+msgstr ""
+"`:term:`ヘッダーバー`にある`:term:`メインメニュー`で、|plus|「:ref:`追加<main-menu-"
+"add>`」メニューをクリックし、`:term:`ドロップダウンメニュー`から「アーカイブ記述」を選択します。`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:7
+msgid "plus"
+msgstr ""
+"ご相談いただいた内容は、テキストが提供されていません。翻訳を行うためには、翻訳すべき具体的なテキストが必要となります。提供されたテキストを教えてください。それに基づいて翻訳を行います。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the Add menu in AtoM"
+msgstr "AtoMの「追加」メニューの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:175
+msgid "AtoM takes you to a blank :term:`edit page` for data entry."
+msgstr "AtoMはデータ入力用の空白の：term：`編集ページ`へとあなたを案内します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:179
+msgid ""
+"The :term:`edit page` that appears will depend on the :ref:`default template"
+" <default-templates>` set in the application. When first installed, the "
+"default template in AtoM is the :ref:`ISAD(G) <isad-template>` (General "
+"International Standard for Archival Description) template. Administrators "
+"can change the default template to any of the other 4 supported standards "
+"(:ref:`RAD <rad-template>`, :ref:`DACS <dacs-template>`, :ref:`Dublin Core "
+"<dc-template>`, or :ref:`MODS <mods-template>` via **Admin > Settings > "
+"Default template**. For more information, see: :ref:`settings`."
+msgstr ""
+"表示される「編集ページ」は、アプリケーション内で設定されている「デフォルトテンプレート <default-"
+"templates>」に依存します。初期導入時のAtoMのデフォルトテンプレートは、「ISAD(G) <isad-"
+"template>」（国際アーカイブ記述標準）テンプレートです。管理者は、デフォルトテンプレートを他の4つのサポートされている標準（「RAD <rad-"
+"template>」、「DACS <dacs-template>」、「ダブリンコア <dc-template>」、または「MODS <mods-"
+"template>」）に変更することができます。これは**管理 > 設定 > "
+"デフォルトテンプレート**から変更可能です。詳細については、以下を参照してください：「設定」。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:188
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an "
+":term:`information area` to access the :term:`fields <field>` grouped under "
+"it. Enter data as required."
+msgstr ""
+"読み込み時に、`:term:`編集ページ`はすべての`:term:`情報エリア <information "
+"area>`を閉じた状態で記録を表示します。`:term:`情報エリア`をクリックして、それに属する`:term:`フィールド "
+"<field>`にアクセスします。必要に応じてデータを入力します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An archival description with all information areas closed"
+msgstr "すべての情報領域が閉じられたアーカイブ記述"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:198
+msgid ""
+"In the Identifier :term:`field`, you can automatically generate an "
+"identifier if desired, based on the settings defined in **Admin > Settings**"
+" - for more information, see: :ref:`identifier-mask`. Click the \"Generate "
+"identifier\" link beneath the identifier field, and AtoM will populate the "
+"field with a unique value based on the identifier mask settings."
+msgstr ""
+"識別子 :term:`フィールド`では、必要に応じて、**管理 > 設定** "
+"で定義された設定に基づいて識別子を自動生成することができます。詳細については、:ref:`identifier-mask` "
+"を参照してください。識別子フィールドの下にある「識別子を生成する」リンクをクリックすると、AtoMは識別子マスクの設定に基づいた一意の値でフィールドを自動的に埋めます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the \"Generate identifier\" link"
+msgstr "\"識別子を生成\"リンクの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:212
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:472
+msgid ""
+"Clicking this while the identifier field is populated will **overwrite** any"
+" existing data - if you do this by accident, you can always click \"Cancel\""
+" in the :term:`button block` at the bottom of the archival description "
+":term:`edit page`."
+msgstr ""
+"このボタンをクリックすると、識別子フィールドが入力されている場合、既存のデータが**上書き**されます。もし誤ってこの操作を行った場合、アーカイバル記述の:term:`編集ページ`下部にある:term:`ボタンブロック`で「キャンセル」をクリックすることにより、元に戻すことができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:217
+msgid ""
+"One populated, you can still edit the supplied value - place your cursor in "
+"the identiier :term:`field` and make any desired changes."
+msgstr ""
+"入力された後でも、提供された値を編集することができます - カーソルを識別子の:term:`フィールド`に置き、希望の変更を行ってください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:220
+msgid ""
+"An :term:`administrator` can also turn on a setting so that the identifier "
+"field is pre-populated with a unique value, based on the :ref:`identifier-"
+"mask` settings. For more information, see:"
+msgstr ""
+"管理者は、`:ref:`identifier-"
+"mask`の設定に基づいて、識別子フィールドが一意の値で事前に入力されるように設定を有効にすることもできます。詳細については、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:224
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:481
+msgid ":ref:`enable-identifier-mask`"
+msgstr ":ref:`識別子マスクを有効にする`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:225
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:482
+msgid ":ref:`identifier-mask`"
+msgstr ""
+"`:ref:`identifier-mask``はreStructuredText（reST）形式で書かれたドキュメント内の参照ラベルです。reStructuredTextはPythonプログラミング言語用のドキュメンテーション生成によく使われるライトウェイトMarkup言語です。このテキストスニペットは、特定のドキュメントセクションへの参照を示しています。これを日本語に直訳すると正確な意味が伝わらない可能性があるので、コンテキストに応じた適切な翻訳が必要です。\n"
+"\n"
+"しかし、ここで直接訳す場合は、「識別子マスク」という意味になりますが、ドキュメント内の特定のセクションを指し示すためのタグなので、翻訳作業にあたってはその参照先の実際のタイトルやセクション名に置き換える必要があります。\n"
+"\n"
+"例えば、ドキュメント内で`identifier-mask`が「固有識別子形式」というセクションを参照している場合、翻訳後の文書で日本語のラベル「固有識別子形式」を用意し、同様に`:ref:`識別子マスク```のように変換することになります。ここでは直接翻訳の例を示すことができませんが、原文のドキュメントの文脈に基づいて適切な翻訳を施す必要があります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:226
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:483
+msgid ":ref:`identifier-counter`"
+msgstr ""
+"このセクションは参照用の特定のマーカーを含んでいますが、それはテキスト自体の一部ではないので、そのままの文字列を翻訳することはできません。通常、`:ref:`はドキュメント内の特定のセクションやラベルへの参照を示すので、その後に続く`identifier-counter`はそのようなセクションやラベルを指す参照名です。したがって、文脈に依存するため、これを翻訳するためには文書全体でのこの参照の使われ方を理解する必要があります。\n"
+"\n"
+"もし、`identifier-counter`が見出しやセクションの名前である場合、それが日本語で「識別子カウンター」と翻訳される可能性があり、それに基づいて参照も以下のように翻訳されるかもしれません：\n"
+"\n"
+"`:ref:`識別子カウンター`\n"
+"\n"
+"しかし、実際の翻訳作業では、翻訳者はその参照が指し示す具体的な内容を正確に理解し、必要に応じてその文脈で自然な日本語に翻訳する必要があります。そのため、より具体的な文脈がないと正確な翻訳は不可能です。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:228
+msgid ""
+"Note that new lower :term:`levels of description <level of description>` "
+"(i.e. :term:`children <child record>`) can be created on the fly without "
+"leaving the top-level or :term:`parent <parent record>` description you are "
+"currently creating. For more information, see below, :ref:`Add a new child "
+"description <method-1-child-description>`."
+msgstr ""
+"新しい下位の:term:`記述レベル <level of description>`（つまり、:term:`子レコード <child "
+"record>`）は、現在作成中のトップレベルや:term:`親 <parent "
+"record>`レコードの記述を離れることなく、その場で作成することができます。詳しくは以下を参照してください：ref:`新しい子の記述を追加する "
+"<method-1-child-description>`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the add new children feature in an edit template"
+msgstr "編集テンプレート内の「新規子要素追加」機能の画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:239
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new record will be created. Note that simply navigating away "
+"from the page by any other means, **without first clicking \"Create\"** will"
+" also result in no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックして作成プロセスを終了することができます。これは、:term:`button "
+"block`（ボタンブロック）で見つけることができます。この操作を行うと、既に入力されたデータは保存されず、新しいレコードも作成されません。また、他の手段でページからナビゲートして離れた場合でも、**「作成」を最初にクリックしない限り**、新しいレコードは作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:244
+msgid ""
+"To save the new record, click the :term:`\"Create\" button <create button>` "
+"located in the :term:`button block` at the bottom of the record."
+msgstr ""
+"新しい記録を保存するには、記録の下部にある：term：`\"ボタンブロック <button "
+"block>\"`内に位置する：term：`\"作成\"ボタン <create button>\"`をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the create button on a new archival description"
+msgstr "新しいアーカイブ記述における「作成」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:254
+msgid ""
+"The default status of a newly created :term:`archival description` is DRAFT."
+" :term:`Draft records <draft record>` are not visible to unauthenticated "
+"(i.e. not logged in) users such as :term:`researchers <researcher>`. To "
+"publish your description, see:"
+msgstr ""
+"新しく作成された:term:`アーカイブ記述`のデフォルトのステータスはDRAFTです。:term:`ドラフトレコード<draft "
+"record>`は認証されていない（つまり、ログインしていない）ユーザー、例えば:term:`研究者<researcher>`には見えません。記述を公開するには、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:259
+msgid ":ref:`publish-archival-description`"
+msgstr "`:ref:`publish-archival-description` (アーカイバル記述の公開)`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:263
+msgid ""
+":term:`Administrators <administrator>` can also change the default "
+"publication status of new records throughout the application via **Admin > "
+"Settings > Global > Default publication status**. For more information, see:"
+" :doc:`Settings <../administer/settings>`."
+msgstr ""
+"`:term:`管理者 <administrator>`は、**管理 > 設定 > グローバル > "
+"デフォルトの公開ステータス**を介して、アプリケーション全体で新しいレコードのデフォルト公開ステータスも変更することができます。詳細については、:doc:`設定"
+" <../administer/settings>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:268
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:424
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:688
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:854
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:927
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1069
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1152
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1263
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1446
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1540
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1792
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1857
+msgid ":ref:`Back to top <archival-descriptions>`"
+msgstr ":ref:`トップに戻る <archival-descriptions>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:274
+msgid "Add a new child description"
+msgstr "新しい子の説明を追加"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:276
+msgid ""
+"A :term:`child descriptions <child record>` is an archival description that "
+"is part of a larger hierarchy, often a :term:`fonds` or :term:`collection`. "
+"A child record refers to a description of the :term:`archival unit` that is "
+"one :term:`level of description` lower than the current unit - for example, "
+"if a series belongs to a :term:`fonds`, the series is the child record of "
+"the fonds. AtoM helps users understand the context of the materials by "
+"depicting the current record's position in the :term:`treeview`, which can "
+"also be used for navigation  (see: :doc:`Context menu <../access-"
+"content/context-menu>`)"
+msgstr ""
+"アーカイブ記述の「子記述」とは、より大規模な階層構造の一部であり、しばしば「基金」や「コレクション」に属しています。子記録は、現在の単位よりも一つ下の「記述レベル」にある「アーカイブ単位」の記述を指します。例えば、シリーズが基金に属している場合、そのシリーズは基金の子記録になります。AtoMは、現在の記録の位置を「ツリービュー」に表示することで、資料の文脈を利用者が理解するのを助けます。これはまた、ナビゲーションにも使用可能です（参照：「コンテキストメニュー」）。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:285
+msgid ""
+"There are two ways to add a new :term:`child description <child record>` in "
+"AtoM - **Method 1** allows a user to add a new child record \"on the fly\" "
+"while creating a top-level description (or :term:`parent record`), but these"
+" records should be considered stubs or placeholders until they can be "
+"returned to and supplemented with further description. **Method 2** explains"
+" how to create a full child description at any time."
+msgstr ""
+"AtoMで新しい:term:`子記録 <child "
+"record>`を追加する方法は2つあります。**方法1**では、トップレベルの記述（または:term:`親記録`）を作成する際に、新しい子記録を\"その場で\"追加することができますが、これらの記録は、さらなる記述で補完されるまでの仮置きまたはプレースホルダとして考えるべきです。**方法2**は、いつでも完全な子記録を作成する方法について説明しています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:295
+msgid "Method 1: \"On the fly\""
+msgstr "方法1:「その場で」"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:297
+msgid ""
+"AtoM includes a data entry element in the first :term:`information area` of "
+"the :term:`archival description` :term:`edit page` that allows users to "
+"generate lower :term:`levels of description <level of description>` to a "
+":term:`parent record` without leaving the current :term:`edit page`."
+msgstr ""
+"AtoMには、`情報エリア`の最初の項目として、`編集ページ`にデータ入力要素が含まれており、これによりユーザーは現在の`編集ページ`を離れることなく、`上位レコード`に対して下位の`記述レベル`を生成することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:302
+msgid "This area is located in:"
+msgstr "このエリアは以下の場所に位置しています："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:304
+msgid ""
+"The **Identity** :term:`area <information area>` of the :ref:`ISAD(G) <isad-"
+"template>`  and :ref:`DACS <dacs-template>` templates"
+msgstr ""
+"**IDエリア**：:ref:`ISAD(G)<isad-template>`および:ref:`DACS<dacs-"
+"template>`テンプレートの:term:`領域<情報領域>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:306
+msgid ""
+"The **Statement of responsibility** :term:`area <information area>` of the "
+":ref:`RAD <rad-template>` template"
+msgstr "**責任声明**：:ref:`RAD <rad-template>` テンプレートにおける用語：`エリア<情報エリア>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:308
+msgid ""
+"The **Elements** :term:`area <information area>` of the :ref:`Dublin Core "
+"<dc-template>`  and :ref:`MODS <mods-template>` templates"
+msgstr ""
+"要素 (Elements)：:ref:`ダブリン・コア <dc-template>` および :ref:`MODS <mods-template>` "
+"テンプレートの :term:`エリア <information area>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:311
+msgid ""
+"Note that this method is not meant to replace more granular description - it"
+" allows a user to create a sort of skeleton structure to the whole of the "
+"description (such as a :term:`fonds` or :term:`collection`), which can "
+"improve supplement an archival :term:`arrangement` workflow - the "
+":term:`child <child record>` descriptions can then be supplemented later."
+msgstr ""
+"この方法は、より詳細な記述を置き換えるものではないことに注意してください。これにより、ユーザーは記述全体のような骨組み構造（例えば、:term:`fonds`や:term:`collection`）を作成することができ、アーカイブの:term:`arrangement`ワークフローを補強することができます。その後、:term:`child"
+" <child record>`の記述を追加補完することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:322
+msgid ""
+":term:`Fields <field>` provided for creating lower levels of description "
+"\"on the fly\" via the :term:`parent description's <parent record>` "
+":term:`edit page` include:"
+msgstr ""
+"記述の下位レベルを「その場で」作成するために、`:term:`親記録<parent record>`の:term:`編集ページ<edit "
+"page>`を通して提供される`:term:`フィールド<field>`には以下のものが含まれます："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:326
+msgid "Identifier (i.e., reference number)"
+msgstr "識別子（例：参照番号）"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:327
+msgid "Level (of description)"
+msgstr "(記述の)レベル"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:328
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:329
+msgid ""
+"Date (aka Display date - these is not the controlled ISO 8601 formatted "
+"start or end date field)"
+msgstr "日付（表示日とも呼ばれます - これは制御されたISO 8601形式の開始日または終了日フィールドではありません）"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:334
+msgid ""
+"You can add as many levels as needed at one time; for example, to add "
+"multiple series to a :term:`fonds` or :term:`collection`, fill in the fields"
+" under the \"Add new child levels\" and add as many lower levels as desired."
+" When the record is saved, you will be able to see the new :term:`child "
+"records <child record>` in the :term:`context menu`. You can navigate to it "
+"later to supplement it with further information - see: :ref:`edit-archival-"
+"description`."
+msgstr ""
+"必要なだけ多くのレベルを一度に追加することができます。例えば、複数のシリーズを:term:`fonds`や:term:`collection`に追加する場合、「新しい子レベルを追加」の下のフィールドに記入し、望まれるだけの下位レベルを追加します。レコードが保存されると、:term:`context"
+" menu`で新しい:term:`child records <child "
+"record>`を見ることができます。後でそれにアクセスして、さらなる情報で補うことができます - 参照：:ref:`edit-archival-"
+"description`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:345
+msgid "Method 2: Adding a full child description"
+msgstr "方法2: 完全な子アイテムの説明を追加する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:347
+msgid ""
+"Full :term:`child descriptions <child record>` can be added to an "
+":term:`archival description` at any time (by users with sufficient "
+":ref:`edit privileges <edit-user-permissions>`) by navigating to the "
+"description to which you would like to add a child (the :term:`parent "
+"description <parent record>`)."
+msgstr ""
+"完全な:term:`子レコード（child descriptions）`は、いつでも（編集権限<edit-user-"
+"permissions>`を持つユーザーによって）追加することができます。追加したい:term:`親レコード（parent "
+"description）`の説明ページに移動して行います。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:352
+msgid ""
+"First, navigate to the :term:`parent archival description <parent record>` "
+"to which you wish to add a child description. You can do this by "
+":ref:`browsing <browse>` or :ref:`searching <search-atom>` for the "
+":term:`archival description` - see :ref:`Access content <access-content>` "
+"for more information on navigation in AtoM."
+msgstr ""
+"まず、子の記述を追加したい :term:`親のアーカイブ記述 <parent record>` に移動します。これは、:ref:`参照 "
+"<browse>` や :ref:`検索 <search-atom>` を使用して :term:`アーカイブ記述` "
+"を見つけることで行えます。AtoMでのナビゲーションについての詳細は、:ref:`コンテンツへのアクセス <access-content>` "
+"をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:363
+msgid ""
+"In the :term:`view page` of the parent :term:`archival description`, scoll "
+"to the bottom of the record to the :term:`button block` and click the \"Add "
+"new\" button."
+msgstr ""
+"親:term:`アーカイブ記述`の:term:`ビューページ`で、記録の最下部までスクロールし、:term:`ボタンブロック`まで行ったら「新規追加」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the button block on an archival description view page"
+msgstr "アーカイブ記述ビューページのボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:372
+msgid ""
+"You will be redirected to a new :term:`archival description` :term:`edit "
+"page`. On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an "
+":term:`information area` to access the :term:`fields <field>` grouped under "
+"it. Enter data as required."
+msgstr ""
+"新しい「アーカイブ記述」の「編集ページ」にリダイレクトされます。読み込み時に、「編集ページ」はすべての「情報エリア」が閉じた状態で記録を表示します。情報エリアをクリックして、それに属する「フィールド」にアクセスしてください。必要に応じてデータを入力してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:385
+msgid ""
+"It is important to note that after clicking on the \"Add new\" record "
+"button, the edit archival description template will appear, but no reference"
+" is made to the :term:`parent <parent record>` archival description. When "
+"you save your record, however, you will be able to see the relationship "
+"expressed in the :term:`treeview`, located in the :term:`context menu` on "
+"the left-hand side of the :term:`view page`."
+msgstr ""
+"「新規追加」レコードボタンをクリックした後に表示される編集用アーカイブ記述テンプレートには、:term:`親<parent "
+"record>`のアーカイブ記述への言及はありませんが、このことに注意することが重要です。しかし、あなたがレコードを保存すると、その関係は左側の:term:`コンテキストメニュー`"
+" にある:term:`ツリービュー`を通して、:term:`ビューページ`上で確認することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:392
+msgid ""
+"Enter appropriate information into the template for the lower-level "
+"description, and remember to select the :term:`level of description`. For "
+"more information on working with new descriptions, see the guidance in the "
+"section above, :ref:`add-top-level-description`."
+msgstr ""
+"下位レベルの説明用テンプレートに適切な情報を入力し、`:term:レベルの説明`を選択することを忘れないでください。新しい説明を扱う詳細情報については、上記セクションのガイダンス、`:ref:トップレベル記述の追加`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:396
+msgid ""
+"Note that you can add further :term:`children <child record>` to this lower "
+"level of description as you work, via The :ref:`\"On the fly\" "
+"<method-1-child-description>` method described above."
+msgstr ""
+"上記で説明された「その場で」の方法(:ref:`\"その場で\"<method-1-child-"
+"description>`)を通じて、作業が進むにつれて、この下位レベルの記述にさらに:term:`子レコード<child "
+"record>`を追加することができることに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:405
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new child record will be created. Note that simply navigating "
+"away from the page by any other means, **without first clicking \"Create\"**"
+" will also result in no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることにより作成プロセスを終了できます。これは`:term:`button "
+"block`にあります。すでに入力されたデータは保存されず、新しい子レコードも作成されません。ただし、「作成」を最初にクリックせずに、他の方法でページから単にナビゲート離れた場合も、新しいレコードは作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:410
+msgid ""
+"To save the new child record, click the :term:`\"Create\" button <create "
+"button>` located in the :term:`button block` at the bottom of the record."
+msgstr ""
+"新しい子レコードを保存するには、レコードの下部にある :term:`ボタンブロック` 内に位置する :term:`「作成」ボタン <create "
+"button>` をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:418
+msgid ""
+"After clicking \"Save\" you will be redirected to the :term:`view page` for "
+"the new child description. You can see the relationship to the parent record"
+" expressed in the :ref:` context menu <context-menu>`. For more information "
+"on the Context menu and the treeview in AtoM, see: :ref:`context-menu`, and "
+"specifically, :ref:`context-menu-treeview`. See also: :ref:`treeview-"
+"search`."
+msgstr ""
+"「保存」をクリックすると、新しい子レコードの:term:`view page`へリダイレクトされます。:ref:`コンテキストメニュー "
+"<context-"
+"menu>`において、親レコードとの関連が表示されていることがわかります。AtoMにおけるコンテキストメニューやツリービューの詳細については、:ref:`context-"
+"menu`および特に:ref:`context-menu-treeview`を参照してください。また、:ref:`treeview-"
+"search`も参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:429
+msgid "Edit an existing archival description"
+msgstr "既存のアーカイブ記述を編集する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:431
+msgid ""
+"An authenticated (i.e. logged in) user with edit privileges can edit or "
+"update an :term:`archival description` at any time. For more information on "
+"edit privileges and user roles see: :ref:`User roles <user-roles>`. For "
+"information on logging in, see: :ref:`Log in <log-in>`."
+msgstr ""
+"認証済みの（つまりログインしている）ユーザーで編集権限を持っている場合、いつでも`:term:`アーカイブ記述`を編集または更新することができます。編集権限とユーザーロールに関する詳細については、:ref:`ユーザーロール"
+" <user-roles>`を参照してください。ログインについての情報は、:ref:`ログイン <log-in>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:436
+msgid "**To edit an existing archival description:**"
+msgstr "既存のアーカイブ記述を編集するには："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:438
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:874
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1097
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1174
+msgid ""
+"First, navigate to the :term:`archival description` you wish to edit. You "
+"can do this by :ref:`browsing <browse>` or :ref:`searching <search-atom>` "
+"for the :term:`archival description` - see :ref:`access-content` for more "
+"information on navigation in AtoM."
+msgstr ""
+"まず、編集したい「アーカイバルデスクリプション」へ移動してください。これは、参照して「ブラウズ<browse>」または「検索<search-"
+"atom>」することで行うことができます。AtoMでのナビゲーションの詳細については、「アクセスコンテンツ<access-"
+"content>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:442
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking the "
+":term:`\"Edit\" button <Edit button>` in the :term:`button block`, or by "
+"clicking on one of the :term:`information area` headings; this takes you to "
+"the record's :term:`edit page`."
+msgstr ""
+"「ビューモード（view mode）」から「編集モード（edit mode）」に切り替えるには、ボタンブロック（button "
+"block）の中の「編集ボタン（\"Edit\" button）」をクリックするか、情報エリア（information "
+"area）の見出しのいずれかをクリックします。これにより、記録の「編集ページ（edit page）」に移動します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:446
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an information"
+" area to access the :term:`fields <field>` grouped under it. If you've "
+"clicked on an :term:`area header` directly, the edit page will load with "
+"that area open."
+msgstr ""
+"読み込み時に、:term:`編集ページ`はすべての:term:`情報エリア <information "
+"area>`が閉じた状態でレコードを表示します。情報エリアをクリックして、それにまとめられた:term:`フィールド "
+"<field>`にアクセスしてください。もし:term:`エリアヘッダ`を直接クリックした場合、そのエリアが開いた状態で編集ページが読み込まれます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:457
+msgid "Add and/or revise data as required."
+msgstr "必要に応じてデータを追加または修正してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:459
+msgid ""
+"If you wish to edit the existing Identifier value and replace it with one "
+"generated by AtoM based on the :ref:`identifier-mask` settings, you can "
+"click the \"Generate identifier\" link beneath the identifier field. AtoM "
+"will overwrite the existing value, and populate the field with a unique "
+"value based on the identifier mask settings."
+msgstr ""
+"既存の識別子（Identifier）の値を編集して、`:ref:`identifier-mask` "
+"設定に基づいてAtoMが生成した値に置き換えたい場合は、識別子フィールドの下にある「識別子を生成」リンクをクリックしてください。AtoMは既存の値を上書きし、識別子マスク設定に基づいてユニークな値でフィールドを埋めます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:477
+msgid ""
+"One populated, you can still edit the supplied value - place your cursor in "
+"the identiier :term:`field` and make any desired changes. For more "
+"information, see:"
+msgstr ""
+"入力後でも、提供された値を編集することができます。カーソルを識別子の :term:`フィールド` "
+"に置き、必要に応じて変更を行ってください。詳細については、以下を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:485
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved. Note"
+" that simply navigating away from the page by any other means, **without "
+"first clicking \"Save\"** will also result in no changes being saved to the "
+"archival description."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを終了することができます。このボタンは :term:`ボタンブロック` "
+"内にあります。変更は保存されません。ただし、「保存」をクリックせずに他の方法でページから離れた場合も、変更はアーカイブ記述に保存されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:490
+msgid ""
+"To save your edits, click the \"Save\" button located in the :term:`button "
+"block` at the bottom of the record."
+msgstr ""
+"編集内容を保存するには、レコードの下部にある「ボタンブロック」:term:`button block` "
+"内に位置する「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the button block"
+msgstr "ボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:498
+msgid ""
+"You will be redirected to the :term:`view page` for the edited "
+":term:`archival description`, where you can review your work."
+msgstr ""
+"編集された:term:`アーカイバルディスクリプション`の:term:`ビューページ`にリダイレクトされます。そこで編集作業を確認できます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:505
+msgid "Publish an archival description"
+msgstr "アーカイブ記述を公開する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:507
+msgid ""
+"All new and imported :term:`archival descriptions <archival description>` in"
+" AtoM are automatically saved as :term:`draft records <draft record>`. This "
+"means that users who are not authenticated (i.e. logged in) cannot view "
+"these records."
+msgstr ""
+"すべての新規及びインポートされたAtoMの:term:`アーカイブ記述<archival "
+"description>`は、自動的に:term:`下書きレコード<draft "
+"record>`として保存されます。つまり、認証されていないユーザー（つまり、ログインしていない）はこれらのレコードを閲覧することができません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:514
+msgid ""
+"Administrators can change the default publication status, via **Admin > "
+"Settings**. For more information, see: :ref:`Settings <settings>`."
+msgstr ""
+"管理者は、**管理 > 設定**を経由して、デフォルトの公開ステータスを変更することができます。詳細は、以下を参照してください： :ref:`設定 "
+"<settings>`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:517
+msgid ""
+"Publication status can also be inherited from the highest :term:`level of "
+"description`, meaning that changes to the publication status of the "
+":term:`parent record` can be made to affect the publication status of all "
+":term:`child records <child record>`. For example, when a :term:`fonds` "
+"description is changed from draft to published and the option to update "
+"descendants is also selected, all lower levels within the fonds (series, "
+"files, items, etc.) will be automatically changed as well. Note that it is "
+"still possible to only change the publication status of the current level, "
+"if the \"Update descendants\" option is not selected."
+msgstr ""
+"記述レベルの最上位からの出版ステータスの継承を意味し、親レコードの出版ステータスを変更することですべての子レコードの出版ステータスに影響を与えることができます。たとえば、フォンズの説明が下書きから公開に変更され、子孫を更新するオプションも選択された場合、フォンズ内のすべての下位レベル（シリーズ、ファイル、アイテムなど）も自動的に変更されます。ただし、「子孫を更新する」オプションが選択されていない場合は、現在のレベルの出版ステータスのみを変更することも可能です。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:529
+msgid ""
+"It is possible to break the full-width :term:`treeview` in AtoM by "
+"publishing child descriptions of a draft parent. For example, publishing all"
+" items within a series, and then making the parent series record draft again"
+" (but not the children). In this case, the fullwidth treeview will not load."
+" The sidebar treeview will still load, displaying the draft parent node "
+"(e.g. the series) in the tree - public users will get a \"Permission "
+"denied\" message if trying to access the draft record. **It is up to you as "
+"a user to ensure you are not making contradictory publication status updates"
+" that will break the treeview**. For more information on the treeview in "
+"AtoM, see: :ref:`context-menu-treeview` and :ref:`treeview-type`."
+msgstr ""
+"AtoMにおいて、下書きの親記述に公開された子記述を持つことで、全幅の:term:`treeview`を破損させる可能性があります。例えば、シリーズ内の全アイテムを公開し、その後で親のシリーズ記録を再度下書きにする（ただし子は下書きにしない）といった場合です。このケースでは、全幅のtreeviewは読み込まれません。サイドバーのtreeviewは引き続き読み込まれ、下書きの親ノード（例えばシリーズ）をツリーに表示しますが、公開ユーザーは下書き記録にアクセスしようとすると「アクセス拒否」メッセージを受け取ります。**treeviewを破損させるような矛盾した公開ステータスの更新を行わないよう、ユーザーとして注意する必要があります**。AtoMのtreeviewに関する詳細は、以下を参照してください:"
+" :ref:`context-menu-treeview` および :ref:`treeview-type`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:541
+msgid ""
+"Changing a record's status to published allows unauthenticated (i.e. not "
+"logged in) users such as :term:`researchers <researcher>` the ability to see"
+" the record, i.e. read access is granted to the public. Draft records are "
+"not viewable by unauthenticated users (i.e. those not logged in)."
+msgstr ""
+"レコードのステータスを公開に変更することで、認証されていない（つまり、ログインしていない）ユーザー、例えば:term:`研究者<researcher>`がレコードを見ることができるようになります。すなわち、一般公開に対して読み取りアクセスが許可されます。下書きのレコードは認証されていないユーザー（つまり、ログインしていない人々）には表示されません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:546
+msgid ""
+"To avoid timeouts via the web browser for large publication status requests,"
+" updates to descendants are performed asynchronously in the background via "
+"AtoM's job scheduler. For example, when a user publishes a draft "
+":term:`fonds` and selects the \"Update descendants\" checkbox as well (so "
+"all lower-level records in the fonds will be published as well), the fonds-"
+"level record will be immediately updated, while the job scheduler will begin"
+" the task of updating the descendants in the background. In this case, a "
+"notification will appear at the top of the archival description :term:`view "
+"page` when the user is redirected to it after submitting the update request,"
+" with a link to the Jobs page, where more information about the status of "
+"the job can be seen. In most cases this will be very rapid, but for "
+"exceptionally large requests it is possible for a user to navigate to a "
+"descendant record (e.g. an item in the fonds) before the update job has been"
+" completed. If you're unsure if your publication status update job has "
+"executed properly or not, be sure to check the jobs page. For more "
+"information on the Jobs page in AtoM, see: :ref:`manage-jobs`."
+msgstr ""
+"Webブラウザを介した大規模な公開状況リクエストによるタイムアウトを避けるために、子孫レコードへの更新は、AtoMのジョブスケジューラを介してバックグラウンドで非同期に実行されます。例えば、ユーザーがドラフト状態の：term:`fonds`を公開し、「子孫を更新」のチェックボックスを選択した場合（つまり、fonds内のすべての下位レベルのレコードも公開されます）、fondsレベルのレコードは直ちに更新されますが、ジョブスケジューラは背景で子孫レコードの更新タスクを開始します。この場合、アップデートリクエストを送信し、アーカイブ記述の：term:`ビューページ`にリダイレクトされた際に、ユーザーはページの上部に通知が表示され、ジョブページへのリンクが現れます。そこではジョブの状況についての詳細情報を確認できます。ほとんどの場合、これは非常に迅速に行われますが、例外的に大規模なリクエストの場合、更新ジョブが完了する前にユーザーが子孫レコード（例：fonds内の項目）に移動してしまう可能性があります。公開状況更新ジョブが正しく実行されたかどうか不安な場合は、ジョブページを確認してください。AtoM内のジョブページについての詳細は、こちらを参照してください：ref:`manage-"
+"jobs`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:565
+msgid ""
+"For AtoM 2.2 and earlier users - the \"Update publication status\" options "
+"have moved out of the description edit page! You can now find this option in"
+" the \"More\" button menu, in the :term:`button block` at the bottom of an "
+"archival description :term:`view page` for authenticated users. Further "
+"details are included in the steps below."
+msgstr ""
+"AtoM 2.2 以前のユーザー向け - 「公開状態を更新」オプションは、説明編集ページから移動しました！認証されたユーザーのためのアーカイブ説明の "
+":term:`表示ページ` 下部にある :term:`ボタンブロック` "
+"にある「もっと」ボタンメニューでこのオプションを見つけることができます。以下の手順にさらに詳細が含まれています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:573
+msgid ""
+"An :term:`administrator` can turn on a setting in the Global settings page "
+"that will notify authenticated (i.e. logged in) users of the number of draft"
+" records in AtoM when they log in. For more information, see:"
+msgstr ""
+"管理者は、グローバル設定ページで設定を有効にすると、認証された（つまりログインしている）ユーザーがログイン時にAtoMでのドラフトレコードの数を通知されるようになります。詳細については、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:577
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:686
+msgid ":ref:`drafts-notification`"
+msgstr "Drafts Notification（ドラフト通知）"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:582
+msgid "Notes on publication status and publish permissions"
+msgstr "出版状況と公開許可に関する注記"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:584
+msgid ""
+"An :term:`administrator` can set whether or not groups and/or users have "
+"publish :term:`permissions <access privilege>` via the User and Group "
+"settings - see :ref:`manage-user-accounts` and :ref:`edit-user-permissions` "
+"for more information. This means that a user may have the ability to edit a "
+"record, but without publication permissions, the record may revert from a "
+"published status to a draft one on save. The following points describe the "
+"expected behavior for publication status updates based on user permissions:"
+msgstr ""
+"管理者は、ユーザーやグループ設定を通じて、グループまたはユーザーが公開の:term:`権限<アクセス権>`を持つかどうかを設定することができます。詳細は:ref:`manage-"
+"user-accounts` や :ref:`edit-user-"
+"permissions`を参照してください。これは、ユーザーがレコードを編集する能力を持っているかもしれませんが、公開権限がなければ、保存時に公開ステータスから下書きステータスに戻る可能性があることを意味しています。以下のポイントは、ユーザー権限に基づいた公開ステータス更新の期待される振る舞いを説明しています："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:592
+msgid ""
+"When new records are created, they default to the global publication status "
+"setting. In a new installation, this setting is set to Draft, but an "
+"administrator can change this via **Admin > Settings > Global** - see: "
+":ref:`default-publication-status`"
+msgstr ""
+"新しい記録が作成されると、それらはグローバルな公開ステータス設定にデフォルトで設定されます。新しいインストールの場合、この設定は下書きに設定されますが、管理者は"
+" **管理 > 設定 > グローバル** からこの設定を変更することができます - 参照: :ref:`default-publication-"
+"status`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:596
+msgid ""
+"If the default pub status is set to \"Published\", but a new record is "
+"created by a user **WITHOUT** publication permissions (e.g. a "
+":ref:`contributor <user-contributor>`), the record will default to Draft "
+"when it is saved."
+msgstr ""
+"既定の公開ステータスが「公開済み」に設定されている場合でも、出版権限を持たないユーザー（例： :ref:`寄稿者 <user-"
+"contributor>`）が新しいレコードを作成した場合、そのレコードは保存される際にデフォルトで下書き状態になります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:600
+msgid ""
+"When new records are created, or a published record is :ref:`duplicated "
+"<duplicate-archival-description>`, the new records will use the default "
+"publication status - unless the setting is set to published, and the user "
+"**doesn't** have publish permissions. In this case, the new record(s) will "
+"have a draft publication status"
+msgstr ""
+"新しい記録が作成された場合、または公開された記録が :ref:`複製される<duplicate-archival-"
+"description>`場合、新しい記録はデフォルトの公開ステータスを使用します - "
+"ただし、設定が公開に設定されていても、ユーザーに**公開権限がない**場合はこの限りではありません。この場合、新しい記録は下書きの公開ステータスを持つことになります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:605
+msgid ""
+"The above is also true for new child records created via the \"Add new child"
+" records\" widget"
+msgstr "上記は、「新規子レコードを追加」ウィジェットを通じて作成された新しい子レコードにも当てはまります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:607
+msgid ""
+"If a record is published, and a user **WITH** publish permissions edits the "
+"record, then on save, it will maintain the same publication status it had at"
+" the time of editing (e.g. in this case, published)"
+msgstr ""
+"記録が公開され、公開権限を**持つ**ユーザーがその記録を編集する場合、保存時に編集時の同じ公開ステータスを維持します（例えば、この場合は公開された状態）。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:610
+msgid ""
+"If a record is published, and a user **WITHOUT** publish permissions edits "
+"the record, the published record will revert to draft on save, and a "
+"notification will appear, informing the user of this change with the "
+"following text:"
+msgstr ""
+"レコードが公開され、公開権限を**持たない**ユーザーがそのレコードを編集した場合、保存時に公開されたレコードは下書きに戻り、以下のテキストでこの変更をユーザーに知らせる通知が表示されます："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:615
+msgid ""
+"*Your edits to this description have been saved and the description has "
+"reverted to Draft status. Please ask a user with sufficient permissions to "
+"publish the description again to make it publicly visible.*"
+msgstr ""
+"あなたがこの説明文へ加えた編集内容は保存され、説明文は下書きの状態に戻りました。それを再び公開し、一般に見えるようにするには、十分な権限を持つユーザーに依頼してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:620
+msgid "To publish an existing archival description"
+msgstr "既存のアーカイバル記述を公開する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:622
+msgid ""
+"Navigate to the record you wish to publish. For more information on "
+"navigation in AtoM, see: :ref:`Access content <access-content>`"
+msgstr ""
+"記録を公開したいものにナビゲートしてください。AtoMでのナビゲーションの詳細については、以下を参照してください： :ref:`コンテンツへのアクセス "
+"<access-content>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:624
+msgid ""
+"Scroll to the :term:`button block` at the bottom of the archival "
+"description's :term:`view page`, and click on the \"More\" button. A menu "
+"will appear - select the \"Update publication status\" option."
+msgstr ""
+"アーカイブ説明の :term:`ビューページ` の下部にある :term:`ボタンブロック` "
+"までスクロールし、「More」ボタンをクリックします。メニューが表示されるので、「Update publication "
+"status」オプションを選択します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid ""
+"An image of the More button in the button block of an archival\n"
+"description view page"
+msgstr "アーカイバル記述ビューページのボタンブロック内の「More」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:634
+msgid ""
+"AtoM will redirect you to a publication status configuration page. Using the"
+" :term:`drop-down menu` provided, select the desired publication status - "
+"published, or draft."
+msgstr ""
+"AtoMは公開状態の設定ページにリダイレクトします。提供された`:term:`ドロップダウンメニュー`を使用して、望ましい公開状態を選択してください -"
+" 公開、または下書き。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the publication status configuration page"
+msgstr "出版状態設定ページの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:643
+msgid ""
+"If you would like all lower-level records (descendants) to be updated as "
+"well, check the \"Update descendants\" box beneath the drop-down menu. Note "
+"that this option will not appear if there are no lower-level records."
+msgstr ""
+"もし階層の下位にあるレコード（子孫）も更新したい場合は、ドロップダウンメニューの下にある「子孫を更新する」ボックスにチェックを入れてください。このオプションは下位にレコードがない場合には表示されませんのでご注意ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:646
+msgid ""
+"You can cancel your actions at any time, and return to the archival "
+"description :term:`view page` by clicking the \"Cancel\" button in the "
+":term:`button block` at the bottom of the page. Note that navigating away "
+"from the page has the same effect - the publication status will **not** be "
+"updated unless the Save button is clicked."
+msgstr ""
+"いつでも行動を取り消すことができ、ページの下部にある :term:`button "
+"block`（ボタンブロック）の「キャンセル」ボタンをクリックすることでアーカイブの説明 :term:`view "
+"page`（ビューページ）に戻ることができます。ただし、ページから移動することは同じ効果があります - "
+"「保存」ボタンをクリックしない限り、公開ステータスは**更新されません**。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:651
+msgid ""
+"To save your changes, and update the publication status of your "
+"description(s), click the \"Update\" button in the :term:`button block` at "
+"the bottom of the publication status configuration page."
+msgstr ""
+"変更を保存し、記述の公開ステータスを更新するには、公開ステータス設定ページの下部にある「button "
+"block」の「アップデート」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:654
+msgid ""
+"AtoM will redirect you back to the archival description :term:`view page`. "
+"The current description will now be updated to the desired publication "
+"status (e.g. published, if it was previously draft). If you have also "
+"checked the box to update descendants, a notification will appear at the top"
+" of the page, with a link to the :ref:`Jobs page <manage-jobs>`."
+msgstr ""
+"AtoMはあなたをアーカイブ記述の:term:`ビューページ`にリダイレクトします。現在の記述は望ましい公開ステータス（例えば、もし以前が下書きだった場合は公開された状態）に更新されます。あわせて、子孫を更新するためのボックスをチェックした場合、ページのトップに通知が表示され、:ref:`ジョブページ<manage-"
+"jobs>`へのリンクが現れます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of a notification on an updated description's view page"
+msgstr "更新された説明の閲覧ページに表示される通知の画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:665
+msgid ""
+"The archival description, and any lower :term:`levels of description <level "
+"of description>` associated with it, will now be published - public users "
+"who are not logged will now be granted read access to view (but not edit) "
+"the record(s). The record(s) will also be discoverable to public users via "
+":ref:`browse` or :ref:`Search <search-atom>`."
+msgstr ""
+"アーカイブ記述と、それに関連する下位の:term:`記述レベル <level of description>`が公開されることになりました - "
+"ログインしていない一般ユーザーは、記録を閲覧（編集はできません）するための読み取りアクセスを許可されることになります。また、記録は一般ユーザーが:ref:`ブラウズ`や:ref:`検索"
+" <search-atom>`を介して発見可能となります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:671
+msgid ""
+"For updates to descendants, you can use the link in the notification message"
+" to navigate directly to the Jobs page - The Jobs page will include the name"
+" of the parent description whose descendants are being updated, a link (the "
+"blue arrow in the Job status column) back to the parent description, and "
+"information on the current job status (Running, Completed, or Failed)."
+msgstr ""
+"更新される子孫については、通知メッセージにあるリンクを使用して、直接ジョブページに移動することができます。ジョブページには、更新される子孫の親項目の名前、親項目に戻るリンク（ジョブ状況欄にある青い矢印）、そして現在のジョブ状況（実行中、完了、または失敗）に関する情報が含まれます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid ""
+"An image of the Jobs page showing completed publication status update jobs"
+msgstr "完了した出版状態更新ジョブを表示しているジョブページの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:682
+msgid "For more information on using the Jobs page, see: :ref:`manage-jobs`."
+msgstr "ジョブページの使用についての詳細は、以下を参照してください： :ref:`manage-jobs`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:694
+msgid "Calculate dates based on lower-level descriptions"
+msgstr "低レベルの説明に基づいて日付を計算する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:699
+msgid ""
+"To assist the description workflow when working with hierarchical "
+"descriptions, AtoM includes a \"Calculate dates\" task that can "
+"automatically update the controlled start and end date fields of a "
+":term:`parent <parent record>` :term:`archival description's <archival "
+"description>` event dates, based on the broadest values found in descendant "
+"descriptions. Users can update any :term:`event` type (e.g. Creation and "
+"Accumulation in :ref:`ISAD(G) <isad-template>`; or other event types such as"
+" Manufacturing, Collection, Broadcast, etc. found in other description "
+"templates), and in cases where there are multiple dates, the option to "
+"select the target date is provided. Additionally, for a non-destructive "
+"approach (or if users would like to compare the existing date range with a "
+"newly calculated one), it's also possible to calculate a new date range "
+"without overwriting existing data."
+msgstr ""
+"階層的な説明を扱う際の記述ワークフローを支援するために、AtoMには「日付計算」タスクが含まれており、これにより、親レコードのアーカイブ記述の管制開始日と終了日のフィールドを、子孫の説明で見つかった最も広範な値に基づいて自動的に更新することができます。ユーザーは任意のイベントタイプ（例えば、ISAD(G)の「作成と蓄積」や、他の記述テンプレートで見つかる製造、集集、放送などのイベントタイプ）を更新でき、複数の日付がある場合には、対象とする日付を選択するオプションが提供されます。さらに、破壊的なアプローチを避けるため（または、既存の日付範囲と新しく計算された日付範囲を比較したいユーザーのために）、既存のデータを上書きせずに新しい日付範囲を計算することも可能です。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:714
+msgid ""
+"AtoM will **only** update the internal controlled start and end date fields,"
+" **not** the display date. The Display date field is a free-text "
+":term:`field` that allows the use of typography (as suggested by relevant "
+"standards or local practice) to indicate approximation and/or uncertainty. "
+"When a description is saved, the values in this field are what are shown in "
+"the :term:`view page` of an archival description. The start and end date "
+"fields, which expect ISO 8601 date values (e.g. YYYY-MM-DD, YYYY-MM, or "
+"YYYY), are never shown to public users. These fields are used to support "
+":ref:`date range searching <date-range-search>` and sorting."
+msgstr ""
+"AtoMは内部制御の開始日および終了日のフィールドのみを更新し、表示日のフィールドは更新しません。表示日のフィールドは自由にテキストを入力できるフィールドであり、関連する標準や地域の慣習に従って、近似または不確実性を示すためのタイポグラフィ（組版）が使用されることがあります。記述が保存されると、このフィールドの値はアーカイブ記述の「表示ページ」に表示されるものです。ISO"
+" 8601 形式の日付値 (例: YYYY-MM-DD、YYYY-MM、または YYYY) "
+"を期待する開始日および終了日のフィールドは、一般ユーザーには決して表示されません。これらのフィールドは、日付範囲の検索や並べ替えをサポートするために使用されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the date range fields in an AtoM ISAD template"
+msgstr "AtoM ISADテンプレート内の日付範囲フィールドの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:729
+msgid ""
+"Because the display date field is free-text and may contain important non-"
+"numerical contextual information, AtoM is not able to automatically update "
+"this field."
+msgstr ""
+"表示日付フィールドは自由記述式であり、重要な数字以外の文脈情報を含む可能性があるため、AtoMはこのフィールドを自動的に更新することができません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:733
+msgid ""
+"This means if you use the Calculate dates task, **it is important that you "
+"review the display date field** of the updated date range after the task has"
+" completed, and make any further manual updates necessary."
+msgstr ""
+"これは、Calculate "
+"dates（日付計算）タスクを使用する場合、タスクが完了した後に**更新された日付範囲の表示日付フィールドを見直し**、必要に応じてさらなる手動更新を行うことが重要であることを意味します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:737
+msgid ""
+"AtoM will not indicate on the :term:`parent record` if the current dates do "
+"not match the range expressed in all descendant records. However, on lower-"
+"level descriptions, if the date range of a :term:`child record` is broader "
+"than that of its parents, AtoM will show a warning in the :term:`view page` "
+"when the description is saved:"
+msgstr ""
+"AtoMは、現在の日付が全ての子孫レコードで表される範囲と一致しない場合、`:term:`親レコード`’にその旨を示しません。ただし、下位レベルの記述では、`:term:`子レコード`’の日付範囲がその親より広い場合、記述を保存した際に`:term:`ビューページ`’で警告を表示します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:750
+msgid ""
+"An image of a warning notification in AtoM about dates not being\n"
+"consistent with higher levels."
+msgstr "AtoMにおいて、日付が上位レベルと矛盾していることに関する警告通知の画像。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:750
+msgid ""
+"In this example, the \"Interviews\" series currently being viewed has a "
+"broader date range added to it than its parent collection, the *J.A. "
+"Wainright - Robert Markle collection*."
+msgstr ""
+"この例では、現在閲覧されている「インタビュー」シリーズは、親コレクションである *J.A. Wainright - Robert Markle "
+"コレクション* よりも広い日付範囲が追加されています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:754
+msgid ""
+"Clicking the hyperlink on \"higher levels\"  in the warning will redirect "
+"AtoM to the nearest :term:`parent record` in need of an update."
+msgstr ""
+"警告文中の「higher "
+"levels」というハイパーリンクをクリックすると、AtoMは更新が必要な最も近い:term:`親レコード`へとリダイレクトされます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid ""
+"An image of the Calculate dates link in the context menu, showing the\n"
+"last date and time the task was run"
+msgstr "コンテキストメニュー内の「日付を計算」リンクの画像で、タスクが最後に実行された日付と時刻が表示されています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:763
+msgid ""
+"The option to launch the Calculate dates task appears in the right hand "
+":term:`context menu` (aka sidebar) of the archival description view page. If"
+" there are no lower-level descriptions with dates, the option will not be "
+"shown."
+msgstr ""
+"アーカイバル記述ビューページの右側の:term:`コンテキストメニュー`（別名サイドバー）に、「Calculate "
+"datesタスクを起動する」オプションが表示されます。下位レベルの記述に日付がない場合、このオプションは表示されません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:767
+msgid ""
+"Once the task has been run, AtoM will display the date and time of the most "
+"recent task execution. This date value is derived in part from the PHP "
+"timezone settings, which a system administrator can configure in one of "
+"AtoM's configuration files. For more information, see the Administrator "
+"manual: :ref:`customization-config-files`."
+msgstr ""
+"タスクの実行が完了すると、AtoMは最も最近のタスク実行の日時を表示します。この日時の値は、PHPのタイムゾーン設定によって部分的に決定されます。システム管理者はAtoMの設定ファイルの一つでこれを設定することができます。詳細については、管理者マニュアルの「カスタマイズ設定ファイル」をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:773
+msgid "**To use the Calculate dates task:**"
+msgstr "**「Calculate dates task」を使用するには：**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:775
+msgid ""
+"First, navigate to the :term:`archival description` whose dates you would "
+"like to update. You can do this by :ref:`browsing <browse>` or "
+":ref:`searching <search-atom>` for the archival description - see "
+":ref:`access-content` for more information on navigation in AtoM."
+msgstr ""
+"まず、更新したい:term:`アーカイブ記述`に移動します。これは、:ref:`ブラウズ <browse>`または:ref:`検索 <search-"
+"atom>`を使用してアーカイブ記述を探して行うことができます - "
+"AtoMでのナビゲーションに関する詳しい情報については、:ref:`アクセスコンテンツ <access-content>`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:779
+msgid ""
+"In the right-hand :term:`context menu` under the Tasks section, click the "
+"\"Calculate dates\" link."
+msgstr "タスクセクションにある右側の:term:`コンテキストメニュー`で、「日付を計算」リンクをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the Calculate dates link in the context menu"
+msgstr "メニュー内の「日付の計算」リンクの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:787
+msgid "AtoM will redirect you to the Calculate dates configuration page:"
+msgstr "AtoMはあなたを「日付の計算」設定ページにリダイレクトします："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the Calculate dates configuration page"
+msgstr "計算日付設定ページの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:794
+msgid ""
+"The top section of the page will display a list of existing dates on the "
+"current record - the :term:`event` type (e.g. creation, accumulation, etc.) "
+"will be shown in square brackets following the date range value. If you wish"
+" to update the start and end date values of an existing date range, select "
+"the target date range using the radio button next to the appropriate date."
+msgstr ""
+"ページの上部には、現在のレコード上の既存の日付のリストが表示されます。:term:`event`タイプ（例：作成、蓄積など）は、日付範囲値の後に角括弧内に表示されます。既存の日付範囲の開始日と終了日の値を更新したい場合は、該当する日付の隣にあるラジオボタンを使用して、目的の日付範囲を選択してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:799
+msgid ""
+"Alternatively, you can also choose to create a new date range. AtoM will "
+"present date event types based on those present in the lower levels of "
+"description - if your lower level descriptions only have creation dates, "
+"then you will only see \"Creation\" as an option here."
+msgstr ""
+"あるいは、新しい日付範囲を作成することもできます。AtoMは、説明の下位レベルに存在する日付イベントのタイプに基づいて選択肢を提示します。もし下位レベルの説明に作成日しかない場合は、ここで「作成」のオプションのみが表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:803
+msgid ""
+"When you have configured your choice, click the \"Continue\" button in the "
+":term:`button block` at the bottom of the configuration page. This will "
+"launch the task."
+msgstr "設定を選択して完了したら、設定ページの下部にある「ボタンブロック」の「続ける」ボットをクリックします。これによってタスクが開始されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:806
+msgid ""
+"When launched, you will be redirected back to the :term:`view page` of the "
+":term:`archival description`, and a notification message will appear at the "
+"top of the page, indicating that the job is in progress:"
+msgstr ""
+"起動すると、`:term:`アーカイバルディスクリプション`の:term:`ビューページ`にリダイレクトされ、ページの上部に通知メッセージが表示され、ジョブが進行中であることを示します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid ""
+"An image of the notification on an archival description view page\n"
+"when the Calculate dates task has been launched"
+msgstr "アーカイブ記述ビューページにおける「日付計算」タスクが実行された際の通知画像\n"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:818
+msgid ""
+"While the date range update is running, the selected description should "
+"**not** be edited."
+msgstr "日付範囲の更新が実行されている間、選択された説明は編集**しないでください**。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:821
+msgid ""
+"The task is handled by AtoM's job scheduler. You can navigate to |pencil| "
+"**Manage > Jobs** to check on the status of the job. The :ref:`Job details "
+"<job-details>` page's console output will also display what the original "
+"start and end date values were, and what they have been updated to after the"
+" task completes. For more information on Jobs in AtoM, see: :ref:`manage-"
+"jobs`."
+msgstr ""
+"このタスクはAtoMのジョブスケジューラによって処理されます。ジョブのステータスを確認するには、|pencil| **管理 > ジョブ** "
+"に移動します。`:ref:`ジョブ詳細 <job-"
+"details>`ページのコンソール出力には、元の開始日と終了日の値が何であったか、およびタスク完了後に更新された値が表示されます。AtoM内のジョブに関する詳細情報については、次を参照してください：`:ref:`manage-"
+"jobs`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:696
+msgid "pencil"
+msgstr "ペンシル"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the job details page for a Calculate dates task"
+msgstr "計算日付タスクのジョブ詳細ページの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:833
+msgid ""
+"Remember, AtoM will **only** update the start and end date fields for the "
+"target date, **not** the display date visible on the :term:`view page` of "
+"the description. This is because the the display date field is a free-text "
+":term:`field` and may contain important non-numerical contextual information"
+" (such as typographical marks to express approximation or uncertainty, etc),"
+" and as such AtoM is not able to automatically update this field."
+msgstr ""
+"覚えておいてください。AtoMは、対象の日付の開始日と終了日のフィールド**のみ**を更新し、説明の:term:`ビューページ`に表示される表示日付は更新**しません**。これは、表示日付フィールドが自由記述式の:term:`フィールド`であり、重要な数値以外の文脈情報（おおよその日付を示すための標識や不確定性を表す記号など）を含んでいる可能性があるため、AtoMではこのフィールドを自動的に更新することができないからです。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:845
+msgid ""
+"This means if you use the Calculate dates task, **it is important that you "
+"review the display date field** visible on the :term:`view page` of the "
+"description after the task has completed, and make any further manual "
+"updates necessary. See above for more information on editing descriptions in"
+" AtoM: :ref:`edit-archival-description`."
+msgstr ""
+"これは、Calculate "
+"datesタスクを使用する場合、タスクが完了した後に記述のビューページで表示されるディスプレイデートフィールドを確認し、必要に応じてさらに手動で更新することが重要であることを意味します。記述を編集する詳細については、上記のAtoM内での記述編集に関する情報を参照してください:"
+" :ref:`edit-archival-description`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:851
+msgid ""
+"You can repeat this process as many times as needed, or again at higher "
+"levels if desired."
+msgstr "このプロセスは必要な回数だけ繰り返すことができますし、希望があればより高いレベルでも再度実施することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:859
+msgid "Duplicate an existing archival description"
+msgstr "既存のアーカイブ記述を複製する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:861
+msgid ""
+"To simplify the description workflow when working with many similar "
+"descriptions (such as, in some cases, many items in a :term:`collection`), "
+"AtoM includes the ability to generate a duplicate record from an existing "
+":term:`archival description`, and then edit it to make necessary changes. "
+"This can allow a user to avoid unnecessarily repeating data entry."
+msgstr ""
+"記述ワークフローを簡略化するために、多くの類似した記述（場合によっては、:term:`コレクション`内の多くのアイテムのような）を扱う場合、AtoMでは既存の:term:`アーカイブ記述`から重複記録を生成し、その後必要な変更を加えるために編集する機能が含まれています。これにより、ユーザーはデータ入力を不必要に繰り返すことを避けることができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:869
+msgid ""
+"When duplicating a parent record, lower (child) levels of description will "
+"NOT be duplicated."
+msgstr "親レコードを複製する場合、下位（子）の記述レベルは複製されません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:872
+msgid "**To duplicate an existing archival description:**"
+msgstr "既存のアーカイブ記述を複製するには："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:878
+msgid ""
+"At the bottom of the archival description, click the \"Duplicate\" button "
+"located in the :term:`button block`."
+msgstr ""
+"アーカイブ記述の下部にある「button block（ボタンブロック）」という用語で示されている「Duplicate（複製）」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:886
+msgid ""
+"You will be redirected to a new screen with an :term:`edit page` of an "
+":term:`archival description` open."
+msgstr "あなたは新しい画面にリダイレクトされ、開かれた`:term:`編集ページ`には`:term:`アーカイブ記述`が表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:888
+msgid ""
+"The new edit page provides a warning at the top to indicate that it is a "
+"duplicated record."
+msgstr "新しい編集ページには、それが複製されたレコードであることを示す警告がページの上部に表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of a duplicated archival description"
+msgstr "複製されたアーカイブ記述の画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:896
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an information"
+" area to access the :term:`fields <field>` grouped under it. You will note "
+"that these will be populated with the exact same data found in the original "
+":term:`archival description` - you can now make any edits or revisions "
+"necessary."
+msgstr ""
+"ロード時には、`:term:`編集ページ`は全ての`:term:`情報領域 <information "
+"area>`を閉じた状態で記録を表示します。その情報領域をクリックすると、それにまとめられた`:term:`フィールド "
+"<field>`にアクセスできます。元の`:term:`アーカイブ記述`にあるのと全く同じデータでそれらが埋められていることに気付くでしょう。これで必要な編集や改訂を行うことができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:902
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1139
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; no new record will be created. Note that"
+" simply navigating away from the page by any other means, **without first "
+"clicking \"Create\"** will also result in no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを終了できます。これは:term:`button "
+"block`内にあります。新しいレコードは作成されません。ただし、「作成」をクリックする**前に**他の方法でページから離れた場合にも、新しいレコードは作成されないということに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:906
+msgid ""
+"To save the duplicate as a new record, click the \"Save\" button located in "
+"the :term:`button block` at the bottom of the record."
+msgstr ""
+"重複を新しいレコードとして保存するには、レコードの下部にある`:term:`ボタンブロック`に配置された「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:916
+msgid ""
+"If you are duplicating a :term:`child <child record>` of a :term:`parent "
+"record` (such as a series, file, or item), the duplicate description will "
+"automatically be created as a :term:`child <child record>` of the same "
+"parent :term:`archival description`. If you duplicate a top or :term:`parent"
+" <parent record>` :term:`level of description`, the new record will also be "
+"a top-level description with no parent."
+msgstr ""
+"ある:term:`親記録`（シリーズ、ファイル、またはアイテムなど）の:term:`子<子記録>`を複製する場合、複製された説明は自動的に同じ親の:term:`アーカイブ記述`の:term:`子<子記録>`として作成されます。最上位または:term:`親<親記録>`の:term:`説明レベル`を複製する場合、新しい記録も親のない最上位レベルの説明となります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:923
+msgid ""
+"Records can be moved in AtoM as well - see below, :ref:`Move an archival "
+"description <move-archival-description>`"
+msgstr ""
+"レコードはAtoM内でも移動することができます - 下記を参照してください、:ref:`アーカイブ記述を移動する <move-archival-"
+"description>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:932
+msgid "Link related archival descriptions in AtoM to each other"
+msgstr "AtoMにおいて関連するアーカイブ記述を相互にリンクする"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:934
+msgid ""
+"Many AtoM descriptive templates include a free text field, derived from the "
+"related content standards (for more information, see: :ref:`descriptive-"
+"standards` and :ref:`data-entry`) that will allow users to describe allied "
+"or related materials:"
+msgstr ""
+"多くのAtoM記述テンプレートには、関連するコンテンツ標準から派生したフリーテキストフィールドが含まれており（詳細については、:ref:`descriptive-"
+"standards` および :ref:`data-entry`を参照）、ユーザーが関連資料を記述することを可能にします："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:940
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1203
+msgid "Content standard"
+msgstr "コンテンツ標準"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:940
+msgid "Rule no."
+msgstr "ルール番号"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:940
+msgid "AtoM field label"
+msgstr "AtoM フィールド ラベル"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:940
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1203
+msgid "Information area"
+msgstr "情報エリア"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:942
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1205
+msgid "ISAD"
+msgstr ""
+"ISADを日本語に直訳する場合、それは特定の文脈や用語に依存します。ISADが「International Standard Archival "
+"Description」を指す場合は、「国際標準アーカイブ記述」となります。これはアーカイブ資料の記述に関する国際的な標準です。しかし、文脈によっては異なる意味を持ち得ますので、具体的な説明がない限り、正しい翻訳を提供することは難しいです。もし「ISAD」が何か他の特定の項目やアクロニムを指している場合には、該当する日本語訳には異なる形になる可能性があります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:942
+msgid "3.5.3"
+msgstr ""
+"確実に翻訳を開始するために、原文のサンプルが必要です。提供いただければ、Archivematicaに関連するドキュメントの該当部分を日本語に翻訳いたします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:942
+msgid "Related units of description"
+msgstr "説明の関連ユニット"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:942
+msgid "Allied materials area"
+msgstr "関連資料エリア"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:945
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1210
+msgid "DACS"
+msgstr ""
+"DACSは、アメリカのアーカイブ資料の記述に使用される記述標準です。それは\"Describing Archives: A Content "
+"Standard\"の略で、アーカイブ資料を組織し、記述するための規範とガイドラインを提供します。この標準は、資料の利用者がその内容を理解しやすくすること、アーカイブ資料へのアクセスを改善すること、そして記述の品質と一貫性を保つことを目的としています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:945
+msgid "6.3"
+msgstr ""
+"Sure, I will need the original text that you would like translated into "
+"Japanese. Please provide the text you are referring to."
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:945
+msgid "Related archival materials"
+msgstr "関連するアーカイブ資料"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:945
+msgid "Related materials elements"
+msgstr "関連資料要素"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:948
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1207
+msgid "RAD"
+msgstr ""
+"RAD is an acronym that often stands for \"Rules for Archival Description.\" If you are working with documents related to Archivematica, RAD could refer to the Canadian standard for archival description, which provides guidelines for describing archival material. \n"
+"\n"
+"However, without additional context, it's difficult to provide a specific translation as RAD might have other meanings. If \"Rules for Archival Description\" is the correct interpretation, the Japanese translation would be:\n"
+"\n"
+"アーカイバル・ディスクリプションのルール\n"
+"\n"
+"If RAD refers to something else within the context of your document, please provide more information so I can give a more accurate translation."
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:948
+msgid "1.8B20"
+msgstr ""
+"申し訳ありませんが、\"1.8B20\" "
+"に対するコンテキストまたは文脈が提供されていないため、正確な翻訳を提供することができません。\"1.8B20\" "
+"はある種のバージョン番号、コード、識別子のように見えますが、その意味を理解するために更なる情報が必要です。もし、\"1.8B20\"が文脈の中で特定の意味を持つフレーズであるならば、その詳細を提供していただけると、適切な翻訳を行うことができます。それとも、これが完全な文章や段落の一部でない場合は、そのままの形（アラビア数字）で日本語文書にも用いられることが一般的です。もっと情報を提供していただけますか？"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:948
+msgid "Associated materials"
+msgstr "関連資料"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:948
+msgid "Notes area"
+msgstr "ノート領域"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:952
+msgid ""
+"However, as of AtoM 2.1, a new auto-complete :term:`field` has been added to"
+" the :term:`edit page` of each of the above standards, that will allow users"
+" to link an :term:`archival description` to another related description held"
+" in AtoM. This linking is reciprocal - once it is added on one description, "
+"a link back to the first resource will also appear on the related "
+"description. Linking is managed via an auto-complete field: users begin to "
+"type the identifier or title of a resource, and as they type, the auto-"
+"complete :term:`drop-down <drop-down menu>` will display matching results."
+msgstr ""
+"AtoM "
+"2.1からは、上記の各標準における編集ページに新たな自動補完フィールドが追加されました。これにより、ユーザーはアーカイブ説明をAtoMに保存されている別の関連説明にリンクさせることができます。このリンキングは双方向のものです"
+" - "
+"一方の説明に追加すると、最初のリソースへのリンクが関連する説明にも表示されます。リンキングは自動補完フィールドを介して管理されます：ユーザーがリソースの識別子またはタイトルを入力し始めると、入力するにつれて自動補完ドロップダウンメニューが一致する結果を表示します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:961
+msgid ""
+"In each standards template, the linking field appears just below the free-"
+"text fields listed in the table above. It is labelled as \"Related "
+"descriptions\" in the :ref:`ISAD <isad-template>` and :ref:`DACS <dacs-"
+"template>` templates, and as \"Related materials\" in the :ref:`RAD <rad-"
+"template>` template."
+msgstr ""
+"各標準テンプレートにおいて、リンクフィールドは上記の表にリストされたフリーテキストフィールドのすぐ下に表示されます。これは、:ref:`ISAD "
+"<isad-template>`と:ref:`DACS <dacs-template>`テンプレートでは「関連する説明」として、また:ref:`RAD "
+"<rad-template>`テンプレートでは「関連する資料」としてラベル付けされています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:972
+msgid "An image of related description field in the ISAD template"
+msgstr "ISADテンプレートの関連説明フィールドのイメージ"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:972
+msgid ""
+"In this example, the \"Related description\" linking field is shown below "
+"the ISAD 3.5.3 Related units of description field in the ISAD template."
+msgstr "この例では、「関連記述」リンキングフィールドがISADテンプレートのISAD 3.5.3 関連単位の記述フィールドの下に示されています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:975
+msgid "**To link an archival description to another description in AtoM:**"
+msgstr "AtoMであるアーカイブ記述を別の記述にリンクするには："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:977
+msgid ""
+"First, navigate to the :term:`archival description` where you wish to add a "
+"link. You can do this by :ref:`browsing <browse>` or :ref:`searching "
+"<search-atom>` for the :term:`archival description` - see :ref:`access-"
+"content` for more information on navigation in AtoM."
+msgstr ""
+"まず、リンクを追加したい`アーカイブ記述`に移動します。これは、`アーカイブ記述`の:ref:`閲覧 <browse>`や:ref:`検索 "
+"<search-atom>`を行うことで実行できます。AtoM内でのナビゲーションの詳細については、:ref:`アクセスコンテンツ <access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:982
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1101
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1178
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking \"Edit\" "
+"button in the :term:`button block`, or by clicking on one of the "
+":term:`information area` headings; this takes you to the record's "
+":term:`edit page`."
+msgstr ""
+"「ビューモード」から「編集モード」に切り替えるには、ボタンブロック内の「編集」ボタンをクリックするか、情報エリアの見出しの一つをクリックします。これにより、レコードの編集ページに移動します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:992
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an :term:`area"
+" header` to expand it and make changes. Use the table above to determine "
+"which information area will have the related descriptions field, based on "
+"which descriptive template (ISAD, RAD, DACS) you are using. For more "
+"information on working with content standards and descriptive templates in "
+"AtoM, see:"
+msgstr ""
+"読み込み時に、「編集ページ」はすべての「情報エリア」が閉じた状態でレコードを表示します。エリアのヘッダーをクリックして展開し、変更を加えます。上の表を使用して、どの記述テンプレート（ISAD、RAD、DACS）を使用しているかに基づき、関連する記述フィールドを持つ情報エリアを判断してください。AtoMでのコンテンツ標準と記述テンプレートの使用についての詳細は、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1000
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1167
+msgid ":ref:`descriptive-standards`"
+msgstr "`記述基準 <descriptive-standards>`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1002
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1169
+msgid ":ref:`data-entry`"
+msgstr "``データ入力``"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1003
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1170
+msgid ":ref:`default-templates`"
+msgstr ":ref:`デフォルトのテンプレート`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1010
+msgid ""
+"In the Related descriptions :term:`field`, begin typing either the "
+"identifier, full reference code, or title of the :term:`archival "
+"description` to which you would like to create a link. As you type, the "
+"field's :term:`drop-down menu` will provide auto-complete matching results. "
+"When you see the description to which you would like to create a link, click"
+" on it in the drop-down menu."
+msgstr ""
+"関連記述の「フィールド」では、リンクを作成したい「アーカイバル記述」の識別子、完全な参照コード、またはタイトルのいずれかを入力し始めます。入力していると、フィールドの「ドロップダウンメニュー」が自動補完によるマッチング結果を提供します。リンクを作成したい記述がドロップダウンメニューに表示されたら、その上でクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Using the related descriptions field to find another description"
+msgstr "関連する説明フィールドを使用して、他の説明を探す"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1022
+msgid ""
+"You can repeat this process to add multiple links to different descriptions "
+"at the same time."
+msgstr "このプロセスを繰り返すことで、同時に異なる説明に複数のリンクを追加することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Using the related descriptions field to find a second description"
+msgstr "関連する説明フィールドを使用して、2つ目の説明を見つける"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1030
+msgid ""
+"To **remove** a linked description, place your cursor over the bullet next "
+"to the linked description - it will change into an **X**. Click the **X** to"
+" remove the link to the related description."
+msgstr ""
+"関連する説明へのリンクを削除するには、リンクされている説明の隣の箇条書きの点にカーソルを置いてください。カーソルを置くと、点は**X**に変わります。その**X**をクリックして、関連する説明へのリンクを削除します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Removing a related description link"
+msgstr "関連する説明リンクを削除する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1039
+msgid ""
+"When you are finished adding or editing your related descriptions, click "
+"\"Save\" in the :term:`button block` at the bottom of the :term:`edit page`."
+" Alternately, if you click \"Cancel\" or navigate away from the page without"
+" saving, none of your changes will be saved."
+msgstr ""
+"関連する説明の追加や編集が完了したら、:term:`編集ページ`の下部にある:term:`ボタンブロック`にある「Save」をクリックしてください。または、「Cancel」をクリックするか、保存せずにページからナビゲートすると、変更内容は保存されません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1049
+msgid ""
+"Upon saving, AtoM will redirect you to the :term:`view page` for your "
+":term:`archival description`. You will be able to see a link to the related "
+"description in the relevant :term:`information area` of your display "
+"template."
+msgstr ""
+"保存を行うと、AtoMはあなたをその「アーカイバル記述」の「表示ページ」にリダイレクトします。表示テンプレートの関連する「情報エリア」に、関連する記述へのリンクが表示されることが確認できるでしょう。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "A related description link as seen in the view page"
+msgstr "ビューページで見られる関連する説明のリンク"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1059
+msgid ""
+"Similarly, AtoM will automatically add a reciprocal link back to the "
+"original description on the view and edit pages of the related resource. You"
+" can edit or remove the link by entering :term:`edit mode` on either "
+"description, and following instructions to remove a link in Step 6, above."
+msgstr ""
+"同様に、AtoMは自動的に関連リソースの表示および編集ページにオリジナルの説明への相互リンクを追加します。いずれかの説明で`:term:`編集モード`に入り、上記のステップ6に記載されているリンクの削除手順に従って、リンクを編集または削除することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1074
+msgid "Change the display standard"
+msgstr "表示基準を変更する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1076
+msgid ""
+"AtoM's :term:`archival description` edit templates are based on known "
+"standards used within the cultural heritage community. For more information "
+"on standards used in AtoM, see: :ref:`descriptive-standards`."
+msgstr ""
+"AtoMの :term:`アーカイブ記述` "
+"編集テンプレートは、文化遺産コミュニティ内で使用されている既知の標準に基づいています。AtoMで使用される標準に関する詳細は、:ref:`記述標準<descriptive-"
+"standards>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1080
+msgid ""
+"You can change the :term:`display standard` for an individual archival "
+"description in the adminstration area while editing an archival description."
+" This allows you to choose a different description template per archival "
+"description than the template you have chosen in your AtoM :ref:`settings "
+"<default-templates>`. This includes at different levels of the same "
+":term:`archival unit` - so for example, if you have an image collection, you"
+" could create a :term:`fonds`-level description using the :ref:`ISAD <isad-"
+"template>` template, and then display all of the item-level image "
+"descriptions using the :ref:`Dublin core <dc-template>` template."
+msgstr ""
+"管理エリアでアーカイブ記述を編集する際、個別のアーカイブ記述における`:term:`表示標準`を変更することができます。これにより、AtoMの`:ref:`設定<default-"
+"templates>`で選択したテンプレートとは異なる、記述テンプレートをアーカイブ記述ごとに選択することが可能です。これは、同じ`:term:`アーカイブ単位`の異なるレベルにおいても適用されます"
+" - 例えば、画像コレクションを持っている場合、`:term:`全体記録（fonds）`-レベルの記述に`:ref:`ISAD <isad-"
+"template>`テンプレートを使用し、それからアイテムレベルの画像記述全てを`:ref:`ダブリンコア <dc-"
+"template>`テンプレートを使用して表示することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1090
+msgid ""
+"You can also choose to have the newly selected display standard be inherited"
+" by all :term:`child records <child record>` (for example, all the file-"
+"level children beneath a series) if desired, or you can simply change the "
+"current description. Instructions are included below."
+msgstr ""
+"また、新しく選択された表示標準を、すべての:term:`子レコード <child "
+"record>`（例えば、あるシリーズの下にあるすべてのファイルレベルの子どもたち）に継承させることを選択することもできますし、単に現在の記述を変更することもできます。以下に指示を記載しています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1095
+msgid "**To change the display template of a description in AtoM:**"
+msgstr "AtoMにおける記述の表示テンプレートを変更するためには："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1111
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1188
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on the "
+":term:`Administration area` heading to expand it and make changes."
+msgstr ""
+"読み込み時に「編集ページ」は、すべての「情報エリア」を閉じた状態でレコードを表示します。変更を加えるには、「管理エリア」の見出しをクリックして展開してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1120
+msgid ""
+"In the :term:`Administration area`, click the :term:`drop-down menu` "
+"labelled \"Display standard\". You will see a list of all display standards "
+"for archival descriptions available in AtoM. For more information on "
+"standards available in AtoM, see: :ref:`descriptive-standards`. For specific"
+" information on each standard, see: :ref:`data-entry`."
+msgstr ""
+"「管理領域」で、「表示標準」とラベル付けされた「ドロップダウンメニュー」をクリックします。AtoMで利用可能なアーカイブ記述のすべての表示標準のリストが表示されます。AtoMで利用可能な標準の詳細については、こちらを参照してください：`記述標準`。各標準に関する具体的な情報については、こちらを参照してください：`データ入力`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid ""
+"Option to change the display standard while editing an archival\n"
+"description"
+msgstr "アーカイブ記述を編集する際に表示基準を変更するオプション"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1132
+msgid ""
+"If you are currently using the default display template (see: :ref:`settings"
+" <default-templates>`), the field will be blank until you select a different"
+" template. Select the display standard you would like to use from the "
+":term:`drop-down menu`."
+msgstr ""
+"現在デフォルトの表示テンプレートを使用している場合（参照：:ref:`settings <default-"
+"templates>`）、別のテンプレートを選択するまでフィールドは空白のままです。使用したい表示標準を :term:`ドロップダウンメニュー` "
+"から選択してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1136
+msgid ""
+"If you would like all lower levels of description (e.g. :term:`child records"
+" <child record>`) to adopt the new display standard as well, click on the "
+"check-box below the template drop-down."
+msgstr ""
+"新しい表示標準を下位の記述レベル（例：用語：`子レコード <child "
+"record>`）にも採用させたい場合は、テンプレートのドロップダウンメニューの下にあるチェックボックスをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1143
+msgid ""
+"To save the record and display it with the new standards template, click the"
+" \"Save\" button located in the :term:`button block` at the bottom of the "
+"record."
+msgstr ""
+"レコードを保存し、新しい標準テンプレートで表示するには、レコードの下部にある`:term:`ボタンブロック`に位置する「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1157
+msgid "Add alternative identifiers to an archival description"
+msgstr "アーカイバルディスクリプションに代替識別子を追加する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1159
+msgid ""
+"As of AtoM 2.1, users can now add alternative identifiers to descriptions "
+"using the :ref:`ISAD(G) <isad-template>`, :ref:`RAD <rad-template>`, or "
+":ref:`DACS <dacs-template>` standards-based description templates. This can "
+"be useful for keeping track of legacy identifiers or other relevant "
+"alphanumeric strings associated with the identification of your records, "
+"such as a bar code. To learn more about the description standards templates "
+"available in AtoM, see the following:"
+msgstr ""
+"AtoM 2.1から、ユーザーは :ref:`ISAD(G) <isad-template>`、:ref:`RAD <rad-"
+"template>`、または :ref:`DACS <dacs-template>` "
+"標準に基づく記述テンプレートを使用して、説明に代替識別子を追加することができるようになりました。これは、遺産識別子やレコードの同定に関連するその他の重要な英数字文字列（例えばバーコードなど）を追跡するために有用です。AtoMで利用可能な記述標準テンプレートについてもっと知りたい場合は、以下をご覧ください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1172
+msgid "**To add an alternative identifer to your archival description:**"
+msgstr "アーカイバルな説明に代替の識別子を追加するために："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1197
+msgid ""
+"You will a link to reveal the Alternative identifiers field below the "
+"Identifier field, whose location depends on which display standard you are "
+"using (ISAD, RAD, or DACS). In general, it will be found in the first "
+":term:`information area` of the description template."
+msgstr ""
+"以下のIdentifier（識別子）フィールドの下に、「Alternative "
+"identifiers（代替識別子）」フィールドを表示するリンクがあります。これは、使用している表示標準（ISAD、RAD、またはDACS）によって位置が異なります。一般的には、記述テンプレートの最初の:term:`情報エリア`で見つかります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1205
+msgid "Identity area"
+msgstr "アイデンティティ領域"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1207
+msgid "Title and statement of responsibility area"
+msgstr "タイトルおよび責任表示領域"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1210
+msgid "Identity elements"
+msgstr "アイデンティティ要素"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1219
+msgid "An image of the alternative identifier field in ISAD"
+msgstr "ISADにおける代替識別子フィールドのイメージ"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1219
+msgid ""
+"In this example, the link to reveal the Alternative identifier fields is "
+"found under the Identifier :term:`fields <field>` in the Identity "
+":term:`information area` of the ISAD(G) template."
+msgstr ""
+"この例では、代替識別子フィールドを表示するリンクは、ISAD(G)テンプレートのアイデンティティ情報エリア内の識別子フィールドの下にあります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1223
+msgid ""
+"Click on the link to reveal the Alternative identifier fields below. Users "
+"can add a custom label (to describe the purpose or origin of the alternative"
+" identifier), and a value."
+msgstr ""
+"以下のリンクをクリックすると、代替識別子フィールドが表示されます。ユーザーは、カスタムラベル（代替識別子の目的や起源を説明するためのもの）と値を追加することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Fields revealed when the alternative identifier link is clicked"
+msgstr "クリックすると表示される代替識別子のフィールド"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1232
+msgid ""
+"You can add multiple alternative identifiers at the same time, and you can "
+"return in :term:`edit mode` at any point in the future to edit, remove, or "
+"add new identifiers. To **add** another row, click the \"Add new\" link "
+"beneath the fields. To **remove** an alternative identifier, click the **X**"
+" to the right of the field row."
+msgstr ""
+"同時に複数の代替識別子を追加することができ、将来いつでも「編集モード」に戻って、識別子を編集、削除、または新しい識別子を追加することができます。別の行を**追加**するには、フィールドの下にある「新規追加」リンクをクリックします。代替識別子を**削除**するには、フィールド行の右側にある**X**をクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Adding multiple alternative identifiers"
+msgstr "複数の代替識別子を追加する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1243
+msgid ""
+"When you are done adding, editing, or removing your alternative identifiers,"
+" click \"Save\" in the :term:`button block` located at the bottom of the "
+":term:`edit page`. If you click \"Cancel\" or navigate away from the page "
+"without clicking \"Save,\" you changes will not be saved."
+msgstr ""
+"代替識別子の追加、編集、または削除が完了したら、:term:`編集ページ`の下部にある:term:`ボタンブロック`に配置された「保存」をクリックしてください。もし「キャンセル」をクリックするか、「保存」をクリックせずにページから移動した場合、変更内容は保存されません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1253
+msgid ""
+"AtoM will redirect you to the :term:`view page` for your :term:`archival "
+"description`. The alternative identifiers will be displayed with their "
+"custom labels in the Notes :term:`area <information area>` of your "
+"descriptive template."
+msgstr ""
+"AtoMはあなたをあなたの:term:`アーカイブ記述`の:term:`ビューページ`にリダイレクトします。代替識別子は、記述テンプレートのメモ:term:`エリア"
+" <情報エリア>`にカスタムラベルで表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Alternative IDs as displayed in the view page of a description"
+msgstr "説明のビューページに表示される代替ID"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1268
+msgid "Rename the title or slug of an archival description"
+msgstr "アーカイバルディスクリプションのタイトルまたはスラッグの名前を変更する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1270
+msgid ""
+"When archival descriptions are created, a permalink (also known as a "
+":term:`slug`) is generated as well, to be used in the URL associated with "
+"the description - the slug is the unique part of that URL. In AtoM, the slug"
+" of an :term:`archival description` is generated automatically, from either "
+"the title of the description, or from the inherited :term:`reference code` "
+"of the description - an :term:`administrator` can determine which is used "
+"globally based on a setting available in **Admin > Settings > Global**. For "
+"more information, see: :ref:`description-permalinks`."
+msgstr ""
+"アーカイブ記述が作成されると、その記述に関連したURLに用いられる固定リンク（スラッグとも呼ばれる "
+":term:`slug`）も生成されます。スラッグはそのURLのユニークな部分です。AtoMでは、:term:`archival "
+"description`（アーカイブ記述）のスラッグは、自動的に生成されます。これは記述のタイトル、あるいは、記述が継承する:term:`reference"
+" code`（参照コード）から派生します。:term:`administrator`（管理者）は、**管理 > 設定 > "
+"全体**の設定で、これが全体的にどちらを使用するかを決定できます。詳細については、:ref:`description-"
+"permalinks`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1279
+msgid ""
+"However, users with the appropriate :term:`permissions <access privilege>` "
+"can edit the slug, the title of the description, or even the filename of an "
+"associated uploaded :term:`digital object` after the description is saved, "
+"by using the \"Rename\" module."
+msgstr ""
+"しかし、適切な:term:`アクセス権限<access "
+"privilege>`を持つユーザーは、説明が保存された後でも「名前変更」モジュールを使用してスラッグ、説明のタイトル、または関連付けられたアップロードされた:term:`デジタルオブジェクト`のファイル名を編集することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1284
+msgid ""
+"When editing a slug in AtoM, it is important to understand how they are "
+"generated, and why your slug may be saved differently than the value you "
+"input. By default, slugs in AtoM are sanitized to remove spaces, special "
+"characters (such as ! @ # $ % & etc), and capitalization. They are also "
+"truncated to a maximum of 250 characters. Since they are used as permalinks,"
+" they must also be unique within the system - so AtoM will automatically "
+"append a dash and an incrementing number to the end of non-unique slugs. "
+"More information on slugs in AtoM can be found here: :ref:`slugs-in-atom`. "
+"Whenever the Rename module alters the slug you enter based on the above "
+"parameters, a notification indicating this will be shown."
+msgstr ""
+"AtoMでスラッグを編集する際には、スラッグがどのように生成されるか、また入力した値と異なる形でスラッグが保存される理由を理解することが重要です。デフォルトでは、AtoMのスラッグはスペース、特殊文字（例：!"
+" @ # $ % & "
+"等）、および大文字を取り除くためにサニタイズされます。また、最大250文字に切り詰められます。スラッグはパーマリンクとして使用されるため、システム内でユニークでなければならず、そのためAtoMはユニークでないスラッグの末尾にダッシュと増分する数字を自動的に追加します。AtoMのスラッグに関する詳細情報はこちらで見ることができます:"
+" :ref:`slugs-in-atom`。上記のパラメータに基づいてリネームモジュールが入力したスラッグを変更する際は、その旨の通知が表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1297
+msgid ""
+"An :term:`administrator` can enable more permissive slug generation via "
+"|gears| **Admin > Settings > Global**. When enabled, capitalization, "
+"accents, and some special characters are preserved. For more information, "
+"see:"
+msgstr ""
+"管理者は、|gears| **管理 > 設定 > グローバル** "
+"から、より許容的なスラッグ生成を有効にすることができます。有効にすると、大文字、アクセント、およびいくつかの特殊文字が保持されます。詳細については、次を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:11
+msgid "gears"
+msgstr "\"ギア\""
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1301
+msgid ":ref:`permissive-slugs`"
+msgstr ":ref:`許容スラグ`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1302
+msgid ":ref:`slugs-in-atom`"
+msgstr ""
+"`:ref:`slugs-in-atom``の部分は、特定のドキュメントやガイド内の参照（リンク）を示しているマークアップ言語（たぶんreStructuredTextなど）の一部であり、直訳すると意味をなさない可能性が高いです。ただし、その部分が表示されるテキストを想定して、次のように翻訳されるかもしれません。\n"
+"\n"
+"``アトム内のスラッグについて``\n"
+"\n"
+"\"アトム (AtoM)\" は、\"Access to Memory\" の略で、アーカイブ資料の記述、公開、シェアに使用されるオープンソースのアプリケーションです。そして「スラッグ」は、ウェブのURL内で特定のページやアイテムを識別するための短いラベルのことを指します。\n"
+"\n"
+"しかし、翻訳する際はこのリンクがどのようなコンテキストで使用されているのかを把握しておく必要があり、その上で適切な日本語訳を提供する必要があります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1304
+msgid ""
+"Note that the title of a description can always be edited within the "
+":term:`edit page` of the description itself - for more information, see "
+"above, :ref:`edit-archival-description`. The ability to edit the title of "
+"the description in the Rename module has been included for convenience - "
+"when the title of archival description is edited in the Rename module, "
+"**and** the checkbox for editing the slug is also selected, then the slug "
+"will be automatically updated to match the title."
+msgstr ""
+"説明のタイトルは、説明自体の「編集ページ」で常に編集できることに注意してください。詳細については、上記の「アーカイブ説明の編集」を参照してください。説明のタイトルを名前変更モジュールで編集する機能は、利便性を高めるために含まれています。アーカイブ説明のタイトルが名前変更モジュールで編集され、「スラグの編集」も選択されている場合、スラグは自動的にタイトルに合わせて更新されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1314
+msgid ""
+"If you ever update the slug accidentally when editing the title, don't "
+"worry! You can simply uncheck the update slug box to the right of the field "
+"- AtoM will disable the slug edit field, and when saved, the slug will be "
+"unchanged from the original. You can also always re-open the Rename module "
+"and edit the slug or title again as needed. Further details are included "
+"below."
+msgstr ""
+"タイトルを編集しているときにうっかりスラッグを更新してしまった場合でも心配はいりません！フィールドの右側にあるスラッグの更新ボックスのチェックを外すだけで、AtoMはスラッグ編集フィールドを無効にし、保存時にはスラッグは元のまま変わらない状態で維持されます。また、Renameモジュールを再度開いて、必要に応じてスラッグやタイトルをもう一度編集することもいつでも可能です。さらなる詳細は以下に記載されています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1321
+msgid ""
+"Although it can be done in the same module, specific instructions on editing"
+" the filename of a linked digital object will be covered on the "
+":ref:`upload-digital-object` page - for more information, see: :ref:`rename-"
+"digital-object`."
+msgstr ""
+"同じモジュール内で行うことができますが、リンクされたデジタルオブジェクトのファイル名を編集する具体的な指示については、「:ref:`upload-"
+"digital-object` ページで詳しく説明されます。詳細については、:ref:`rename-digital-object` をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1326
+msgid "**To update the title or slug of an archival description:**"
+msgstr "**アーカイバルディスクリプションのタイトルまたはスラッグを更新するには：**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1328
+msgid ""
+"Navigate to the :term:`archival description` whose title or :term:`slug` you"
+" wish to edit. You can do this by :ref:`browsing <browse>` or "
+":ref:`searching <search-atom>` for the :term:`archival description` - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"指定された:term:`アーカイブ記述`のタイトルまたは:term:`スラッグ`を編集したい場合は、そのアーカイブ記述を探してください。これは、:ref:`ブラウズ"
+" <browse>` や:term:`アーカイブ記述`を :ref:`検索 <search-atom>` することで行えます - "
+"AtoMでのナビゲーションに関するさらなる情報については、:ref:`アクセス・コンテンツ <access-content>` をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1333
+msgid ""
+"Scroll down to the :term:`button block` at the bottom of the page, and click"
+" on the \"More\" button - a menu will open with further options. Click on "
+"\"Rename\" to open the Rename module."
+msgstr ""
+"ページの下部にある :term:`button block` "
+"までスクロールダウンし、「More」ボタンをクリックしてください。それにより追加オプションが含まれたメニューが開きます。「Rename」をクリックして、名前変更モジュールを開いてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the More button menu opened on an archival description"
+msgstr "「アーカイブ記述上で開かれた「その他」ボタンメニューの画像」"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1342
+msgid ""
+"AtoM will redirect you to the Rename module page. You will see at least 2 "
+":term:`fields <field>` - one for the title of the description, and one for "
+"the slug. If there is a digital object linked to the description, you will "
+"also see a third field to edit the :term:`digital object` filename."
+msgstr ""
+"AtoMは、Renameモジュールページにリダイレクトします。少なくとも2つの:term:`フィールド "
+"<field>`を見ることになります。1つは説明のタイトル用、もう1つはスラッグ用です。説明にデジタルオブジェクトがリンクされている場合は、:term:`デジタルオブジェクト`のファイル名を編集するための第3のフィールドも表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the Rename module's available fields"
+msgstr "「リネームモジュールの利用可能なフィールドの画像」"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1354
+msgid ""
+"For more information on editing the :term:`digital object` filename with the"
+" rename module, see: :ref:`rename-digital-object`."
+msgstr ""
+"デジタルオブジェクトのファイル名をリネームモジュールで編集する方法の詳細については、以下のリンクを参照してください: :ref:`rename-"
+"digital-object`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1357
+msgid ""
+"To the right of the edit fields, there is a checkbox corresponding to each "
+"field. By default, the title and slug checkboxes will be checked - this "
+"means that they are enabled for editing. You can uncheck these fields at any"
+" time to disable them - doing so will undo any changes made and prevent the "
+"field from updating when the \"Update\" button is clicked."
+msgstr ""
+"編集フィールドの右側には、各フィールドに対応するチェックボックスがあります。デフォルトでは、タイトルとスラッグのチェックボックスがオンになっていて、これはそれらが編集できる状態であることを意味します。これらのフィールドのチェックをいつでも外して無効にすることができます。そうすると、行われた変更が元に戻され、「更新」ボタンをクリックしたときにそのフィールドが更新されなくなります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1363
+msgid ""
+"Place your cursor in the :term:`field` whose value you would like to edit, "
+"and make changes as necessary. For reference, the original value before your"
+" changes is displayed below each field. **Remember** to uncheck any fields "
+"you don't wish to edit - this will disable them."
+msgstr ""
+"カーソルを編集したい:term:`フィールド`に置き、必要に応じて変更を加えてください。参考のため、各フィールドの下にはあなたの変更前の元の値が表示されます。編集したくないフィールドがある場合は、**忘れずに**"
+" そのフィールドのチェックを外してください - これによりそれらのフィールドが無効になります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of editing the slug value in the Rename module"
+msgstr "モジュール内のスラッグ値を編集する画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1375
+msgid ""
+"If you are editing the title of a description, and the \"Update slug\" "
+"checkbox is checked, then **the slug will be automatically updated based on "
+"the new title you enter**! The updated slug will be visible in the slug's "
+"edit field after you move your cursor out of the title field. You can still "
+"make changes to the slug after it is automatically updated. Also, if you do "
+"not want to save the changes made to the slug, you can uncheck the \"Update "
+"slug\" box at any time during the edit process - AtoM will disable the edit "
+"field, and the original slug will be preserved when your changes are saved."
+msgstr ""
+"説明のタイトルを編集していて、「スラッグ更新」チェックボックスがオンになっている場合、**新しく入力したタイトルに基づいてスラッグは自動的に更新されます**！スラッグの編集フィールドは、タイトルフィールド外にカーソルを移動した後に、更新されたスラッグを表示します。スラッグが自動的に更新された後でも、それに変更を加えることができます。また、スラッグの変更を保存したくない場合は、編集プロセス中いつでも「スラッグ更新」ボックスのチェックを外すことができます。その場合、AtoMは編集フィールドを無効にし、変更が保存された際に元のスラッグが保持されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst
+msgid "An image of editing the title value in the Rename module"
+msgstr "「Renameモジュールでタイトル値を編集する画像」"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1389
+msgid ""
+"When editing the :term:`slug` of a description, if you enter a slug value "
+"that is already in use in AtoM, a notification pop-up will appear when you "
+"move your cursor out of the slug edit field, and AtoM will automatically "
+"append an incremental number to the slug to make it unique. You can still "
+"edit this value as desired to find a unique slug."
+msgstr ""
+"説明の:term:`slug`を編集する際、AtoMで既に使用中のスラッグ値を入力すると、スラッグ編集フィールドからカーソルを移動させると通知ポップアップが表示され、AtoMは自動的に増分番号をスラッグに追加してユニークなものとします。それでも、唯一無二のスラッグを見つけるために、この値を希望に応じて編集できます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the \"slug in use\" notification pop-up"
+msgstr "\"使用中のスラッグ\"通知ポップアップの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1402
+msgid ""
+"To make sure you see the notification pop-up before saving your record, we "
+"recommend actively moving the cursor out of the slug field after making an "
+"edit, instead of directly clicking on the \"Update\" button while your "
+"cursor is still in the slug edit field."
+msgstr ""
+"記録を保存する前に通知ポップアップが表示されることを確認するために、編集を行った直後に、カーソルがまだスラッグ編集フィールド内にある状態で直接「更新」ボタンをクリックするのではなく、カーソルをアクティブにスラッグフィールド外に移動させることをお勧めします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1407
+msgid ""
+"When you are satisfied with your changes, click the \"Update\" button in the"
+" :term:`button block` at the bottom of the Rename module's edit page. If you"
+" wish to cancel all changes and return to the :term:`archival description`, "
+"click the \"Cancel\" button."
+msgstr ""
+"変更内容に満足したら、Renameモジュールの編集ページの下部にある`:term:`ボタンブロック`にある「Update」ボタンをクリックしてください。すべての変更をキャンセルして`:term:`アーカイブ記述`に戻りたい場合は、「Cancel」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1412
+msgid ""
+"After submitting your changes by clicking the \"Update\" button, AtoM will "
+"redirect you to the archival description's :term:`view page`. A yellow "
+"notification banner will appear at the top of the page acknowledging your "
+"edits. If the value you have entered for the slug has been changed by AtoM "
+"(e.g. sanitized to remove special characters, spaces, or capital letters, or"
+" incremented to make the slug uniqe), the message will mention this so you "
+"can review the slug in your browser's address bar."
+msgstr ""
+"「\"更新\"ボタンをクリックして変更を送信した後、AtoMはあなたをアーカイブ記述の:term:`表示ページ`にリダイレクトします。ページの上部に黄色い通知バナーが表示され、あなたの編集を認めています。スラグに入力した値がAtoMによって変更された場合（例えば、特殊文字、スペース、または大文字を除去するためにサニタイズされた、またはスラグをユニークにするためにインクリメントされた場合）、メッセージでこれが言及されるので、ブラウザのアドレスバーでスラグを確認することができます。」"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the notification banner after changes are saved"
+msgstr "保存された変更後の通知バナーの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1425
+msgid ""
+"You can repeat these steps as needed until you are satisfied with the "
+"outcome. Note that links to the description from other entities (e.g. a "
+"linked :term:`archival institution`, :term:`authority record`, etc) will be "
+"preserved even when the title or slug are changed."
+msgstr ""
+"これらの手順は、結果に満足するまで必要に応じて繰り返すことができます。タイトルやスラッグを変更しても、他のエンティティ（例えば、リンクされた「アーカイブ機関」や「権威記録」など）からの説明へのリンクは保持されることに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1432
+msgid ""
+"AtoM does **not** automatically add redirects from the old URL to the new "
+"one after a slug is updated - this allows previous slugs to be re-used if "
+"they are available. However, this means that if you have added links to a "
+"specific description on an external website, they may break after changing "
+"the slug."
+msgstr ""
+"AtoMはスラッグを更新した後、古いURLから新しいURLへ自動的にリダイレクトを追加**しません**。これは以前のスラッグが利用可能であれば再利用を可能にするためです。しかし、これは外部のウェブサイトに特定の記述へのリンクを追加している場合、スラッグを変更した後にリンクが切れる可能性があることを意味します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1440
+msgid ""
+"Users can also update slug(s) via a command line tool. For more information,"
+" see:"
+msgstr "ユーザーはコマンドラインツールを使用してスラッグを更新することもできます。詳細情報は以下を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1443
+msgid ":ref:`cli-rename-slugs`"
+msgstr ""
+"`:ref:`cli-rename-slugs`` この部分はreStructuredText (reST) マークアップ言語で、ドキュメント内での参照（リンク）を作成するために使われるフォーマットです。日本語の文書に翻訳する際には、この参照が指すセクションの日本語のタイトルを探し、適切なリンクテキストに置き換える必要があります。しかし、このコンテキストだけでは、正確な日本語タイトルが何であるかを推測することはできません。したがって、ここでの翻訳は単にマークアップを日本語文書向けに保持することとなります。\n"
+"\n"
+"`:ref:`cli-renameslugs``"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1451
+msgid "View the modification history of an archival description"
+msgstr "アーカイブ記述の変更履歴を表示する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1453
+msgid ""
+"AtoM has a basic audit log for archival descriptions that can be enabled by "
+"an :term:`administrator` in |gears| **Admin > Settings > Global** - see: "
+":ref:`enable-audit-logging`."
+msgstr ""
+"AtoMには、アーカイブ記述のための基本的な監査ログがあり、これは :term:`管理者` によって |gears| **管理 > 設定 > "
+"グローバル** で有効にすることができます。詳しくは、:ref:`enable-audit-logging` を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1457
+msgid ""
+"Once enabled, AtoM will capture basic information (including date, type, "
+"associated user, and/or associated description) when archival descriptions "
+"are created or modified."
+msgstr ""
+"有効にされると、AtoMは、アーカイブ記述が作成または変更された時に、基本情報（日付、タイプ、関連ユーザー、および／または関連説明）をキャプチャします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1463
+msgid ""
+"For :term:`archival description` modifications to be tracked by AtoM, an "
+":term:`administrator` must **first** have enabled the :ref:`enable-audit-"
+"logging` setting. Any description creation or modification events prior to "
+"enabling the setting will not be tracked."
+msgstr ""
+"アーク対象の:term:`アーカイブ記述`変更がAtoMによって追跡されるためには、:term:`管理者`が**まず**`:ref:`監査ログの有効化`"
+" 設定を有効にしておく必要があります。設定を有効にする前の記述作成や変更イベントは追跡されません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1468
+msgid ""
+"After the setting has been enabled, authenticated (i.e. logged in) users "
+"with sufficient :term:`permissions <access privilege>` can see the "
+"modification history of an archival description using the \"More\" button "
+"found in the :term:`button block` at the bottom of a description's "
+":term:`view page`. To do so:"
+msgstr ""
+"この設定が有効になると、十分な:term:`権限<access "
+"privilege>`を持つ認証された（つまりログイン済みの）ユーザーは、説明の:term:`ビューページ`の下部にある:term:`ボタンブロック`にある「More」ボタンを使用して、アーカイブ説明の変更履歴を見ることができます。そのためには次のようにします："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1474
+msgid ""
+"Navigate to the :term:`view page` of the archival description whose audit "
+"log you would like to see. You can do this by :ref:`browsing <browse>` or "
+":ref:`searching <search-atom>` for the :term:`archival description` - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"アーカイブ記述の監査ログを見たい場合は、そのアーカイブ記述の「表示ページ」に移動してください。これは、アーカイブ記述を「閲覧<参照：browsing>」または「検索<参照：search-"
+"atom>」することによって行うことができます - AtoMでのナビゲーションに関する詳細情報は「アクセス内容<参照：access-"
+"content>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1479
+msgid ""
+"In the :term:`button block` at the bottom of the description's view page, "
+"click on the More menu, and select \"View modification history.\""
+msgstr "説明の表示ページの下部にある「:term:`ボタンブロック`」で、「More」メニューをクリックし、「変更履歴を表示」を選択します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid ""
+"The more menu in AtoM, expanded to show the \"View modification history\"\n"
+"option."
+msgstr "AtoMの「もっと見る」メニューが展開し、「変更履歴を見る」オプションを表示しています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1490
+msgid ""
+"If the \"View modification history\" option is not present in the More menu,"
+" this is likely because the audit log has not been enabled by an "
+":term:`administrator`. See: :ref:`enable-audit-logging`."
+msgstr ""
+"「その他」メニューに「変更履歴を表示」オプションが存在しない場合、これは監査ログが :term:`管理者` "
+"によって有効にされていない可能性が高いです。参照： :ref:`監査ログを有効にする`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1494
+msgid ""
+"AtoM will redirect you to the Modifications :term:`view page` for the "
+"related archival description. The page includes a table with 3 columns:"
+msgstr "AtoMは、関連するアーカイブ記述の「変更:view page」にリダイレクトします。このページには、3つの列を含む表が含まれています:"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1497
+msgid ""
+"**Date**: Includes the date and time the change was made. The date and time "
+"values are determined based on the PHP time zone settings, which can be "
+"modified by a system administrator in the ``apps/qubit/config/settings.yml``"
+" configuration file. For more information, see: :ref:`customization-config-"
+"files`."
+msgstr ""
+"**日付**: "
+"この変更が行われた日付と時間を含みます。日付と時間の値は、PHPのタイムゾーン設定に基づいて決まりますが、これはシステム管理者が``apps/qubit/config/settings.yml``構成ファイルで変更することができます。詳細については、次を参照してください:"
+" :ref:`customization-config-files`。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1502
+msgid ""
+"**Type**: Either Creation, or Modification. Deletions and other events are "
+"not currently tracked."
+msgstr "**タイプ**: 作成、または変更。削除やその他のイベントは現在追跡されていません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1504
+msgid ""
+"**User**: The :term:`username` of the user associated with the modification."
+" Note that for administrators, these usernames will appear as hyperlinks - "
+"an administrator can click the hyperlink to navigate to the related user's "
+":term:`profile <user profile>` page, where a full history of that user's "
+"desrciption modifications can be seen. For more information, see: "
+":ref:`user-modification-history`."
+msgstr ""
+"**ユーザー**: 変更に関連したユーザーの:term:`username`です。管理者の場合、これらのユーザー名はハイパーリンクとして表示されます -"
+" 管理者はハイパーリンクをクリックして、関連するユーザーの:term:`profile <user "
+"profile>`ページに移動できます。そこでそのユーザーの変更履歴全体を確認することができます。詳細については、:ref:`user-"
+"modification-history`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the Modification history page for an archival description"
+msgstr "アーカイブ記述の変更履歴ページの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1518
+msgid ""
+"For records created or modified via actions performed via the command-line "
+"interface (such as a CSV import, etc), no associated :term:`username` will "
+"be shown. In the image above, the record was created via a command-line EAD "
+"XML import - as such, the User field for the associated modification is "
+"empty."
+msgstr ""
+"コマンドラインインターフェース（CSVのインポートなど）を介して実行されたアクションによって作成または変更されたレコードには、関連する:term:`ユーザー名`は表示されません。上の画像では、レコードはコマンドラインでのEAD"
+" XMLインポートによって作成されているため、関連する変更のユーザーフィールドは空です。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1524
+msgid ""
+"The number of results included in the Modifications page is determined by "
+"the :ref:`results-page` setting in |gears| **Admin > Settings > Global**. If"
+" there are more results than the results per page setting, AtoM will display"
+" a pager at the bottom of the page, to allow you to page through the "
+"results."
+msgstr ""
+"Modifications（修正）ページに含まれる結果の数は、|gears| **Admin > Settings > Global** にある "
+":ref:`results-page` "
+"設定によって決まります。1ページに表示する結果の数を超える場合、AtoMはページ下部にページャーを表示し、結果をページごとに閲覧できるようになります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1537
+msgid ":ref:`enable-audit-logging`"
+msgstr "`:ref:`オーディットログの有効化`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1538
+msgid ":ref:`user-modification-history`"
+msgstr ""
+"`:ref:`user-modification-history``は、特定のドキュメントの参照タグやキーワードであり、直訳は適さない場合が多いです。このタグは通常、ドキュメントの他の場所にある「ユーザー修正履歴」(User Modification History)というセクションに対する内部リンクとして機能するため、このままで使用されるのが一般的です。\n"
+"\n"
+"ただし、これがドキュメントにおけるテキストの部分であれば、そのセクションのタイトルを日本語に訳すことで対応することができます。その場合、「ユーザー修正履歴」は日本語で「ユーザーの変更履歴」となります。\n"
+"\n"
+"したがって、ドキュメント中でこのタグの説明やタイトルを翻訳する際には次のようになります：\n"
+"\n"
+"``ユーザーの変更履歴``\n"
+"\n"
+"ただし、実際のドキュメントやソフトウェアでは、この参照タグをそのままの形(:ref:`user-modification-history`)で留めておく方が良い場合が多いです。参照リンクの機能を保つためには、タグ自体は原文のままで使う必要があります。\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1545
+msgid "Move an archival description"
+msgstr "アーカイバルディスクリプションの移動"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1547
+msgid ""
+"Occasionally a user will need to move an archival description from one level"
+" of description to another, from one :term:`fonds` or :term:`collection` (or"
+" other top-level description) to another, or simply to change the sort order"
+" within a number of records that share the same :term:`level of description`"
+" (sometimes called siblings). There are two methods of moving "
+":term:`archival descriptions <archival description>` - the first method "
+"allows only for changing the sort order in the :term:`treeview` found in the"
+" :term:`context menu`, while the second method, more robust, allows for a "
+"record to be moved broadly throughout the application, even allowing a lower"
+" level of description to be moved so that it becomes a new :term:`parent "
+"description <parent record>`."
+msgstr ""
+"時々、ユーザーはアーカイブ記述をある記述レベルから別のレベルへ、あるいは一つの：term:`fonds`や：term:`collection`（またはその他のトップレベルの記述）から別のものへ移動させる必要があります。または、単に同じ：term:`記述レベル`を共有する複数の記録の中でソート順を変更したい場合があります（時には兄弟と呼ばれます）。：term:`アーカイブ記述"
+" "
+"<アーカイブ記述>`を移動する方法は2つあります。一つ目の方法では、：term:`コンテキストメニュー`にある：term:`ツリービュー`内でソート順を変更することのみが可能ですが、2つ目の方法はより堅牢で、記録をアプリケーション全体で広範囲に移動させることができ、さらに低い記述レベルを新しい：term:`親記述"
+" <親記録>`にするために移動させることもできます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1562
+msgid "Method 1: Change sort order"
+msgstr "方法1: 並び替え順序を変更する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1564
+msgid ""
+"This method **only** applies when there are multiple :term:`children <child "
+"record>` with the same :term:`level of description` beneath a :term:`parent "
+"description <parent record>` - i.e. \"siblings\". It will change the sort "
+"order as displayed in the :term:`treeview` found in the :term:`context menu`"
+" of the related descriptions. Users can drag-and-drop children within the "
+"same level, for example moving series 02 above series 01 or moving items "
+"around within the same file. This is useful for users managing the "
+"intellectual :term:`arrangement` of an :term:`archival unit`."
+msgstr ""
+"この方法は、ある :term:`親記録<parent record>`の下で同じ:term:`記述レベル<level of "
+"description>`を持つ複数の:term:`子レコード<child "
+"record>`が存在する場合、つまり\"兄弟\"がいる場合にのみ適用されます。これにより、関連する記述の:term:`コンテキストメニュー<context"
+" "
+"menu>`にある:term:`ツリービュー<treeview>`で表示されるソート順を変更することができます。ユーザーは、たとえばシリーズ02をシリーズ01の上に移動する、または同じファイル内でアイテムを自由に並べ替えるなど、同じレベル内の子をドラッグアンドドロップで操作することができます。これは、:term:`アーカイブユニット<archival"
+" unit>`の知的な:term:`整理<arrangement>`を管理しているユーザーにとって有用です。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1575
+msgid ""
+"This ability works with both treeview types (full-width and sidebar). "
+"However, to be able to change the sort order with the sidebar treeview, an "
+":term:`administrator` **must** change the \"Sort treeview\" settings "
+"(located in **Admin > Settings > Treeview**) to \"Manual\". Otherwise the "
+"drag and drop capabilities of the sidebar :term:`treeview` are disabled."
+msgstr ""
+"この機能は、ツリービューの両方のタイプ（全幅とサイドバー）で動作します。しかし、サイドバーのツリービューでソート順を変更するには、:term:`管理者`が「ツリービューのソート」設定（**管理"
+" > 設定 > ツリービュー**に位置）を「手動」に変更する必要が**あります**。そうでなければサイドバー "
+":term:`ツリービュー`のドラッグアンドドロップ機能は無効になります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1581
+msgid "For more information, see :ref:`treeview-settings`. See also:"
+msgstr "詳細については、:ref:`treeview-settings` を参照してください。関連項目も参照してください："
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1583
+msgid ":ref:`context-menu-treeview-sidebar`"
+msgstr ":ref:`コンテキストメニュー-ツリービュー-サイドバー`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1584
+msgid ":ref:`context-menu-treeview-full`"
+msgstr ":ref:`コンテキストメニュー-ツリービュー全体`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1586
+msgid "**To change the sort order of sibling descriptions in the treeview:**"
+msgstr "**ツリービューでの兄弟関係の説明の並び替えを変更するためには：**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1588
+msgid ""
+"Navigate to the :term:`child description <child record>` whose sort order "
+"you wish to change. You can do this by :ref:`browsing <browse>` or "
+":ref:`searching <search-atom>` for the :term:`archival description` - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"表示したい:term:`子の記述<child "
+"record>`に移動します。これは、:ref:`閲覧<browse>`するか、または:term:`アーカイブ記述`を:ref:`検索<search-"
+"atom>`することで行えます。AtoM内でのナビゲーション方法については、:ref:`コンテンツにアクセス<access-content>` "
+"で詳細をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1593
+msgid ""
+"In the :term:`treeview` (depending on your settings located either on the "
+"left- hand side or above the record's :term:`view page`), the current record"
+" being displayed in the :term:`view page` will be highlighted. For more "
+"information on the treeview, see: :ref:`context-menu-treeview`."
+msgstr ""
+"用語「ツリービュー」（設定によってはレコードの「ビューページ」の左側または上部に位置する）では、現在「ビューページ」に表示されているレコードがハイライトされます。ツリービューについての詳細は、以下を参照してください：「コンテキストメニュー・ツリービュー」。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1597
+msgid ""
+"In the :term:`treeview`, hover your cursor over the sibling record you wish "
+"to move - it can be any record on the same :term:`level of description` as "
+"the one currently being viewed."
+msgstr ""
+"用語「ツリービュー」で、移動したい兄弟レコードの上にカーソルを合わせてください。現在表示されているレコードと同じ「記述レベル」の任意のレコードが該当します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1600
+msgid ""
+"In the :ref:`context-menu-treeview-sidebar`, if the \"Sort treeview\" "
+"setting has been set to \"Manual\" by an :term:`administrator` in **Admin > "
+"Settings > Global > Sort treeview**, then you will see three horizontal "
+"lines or bars appear on the right-hand side of the record-title you are "
+"hovering over in the treeview. This means the item can be dragged and "
+"dropped to a new sort order."
+msgstr ""
+":ref:`context-menu-treeview-sidebar`にて、**管理 > 設定 > グローバル > "
+"ツリービューの並び替え**で:term:`管理者`によって「ツリービューの並び替え」設定が「手動」に設定されている場合、ツリービューでカーソルを合わせているレコードタイトルの右側に三本の水平線またはバーが表示されます。これは、項目をドラッグアンドドロップして新しい並び順に変更できることを意味します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Dragging a node in the sidebar treeview"
+msgstr "サイドバーのツリービューでノードをドラッグする"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1612
+msgid ""
+"In the :ref:`context-menu-treeview-full`, nothing will show when you first "
+"click and hold on the treeview node. However, as you begin to drag the node,"
+" node text will follow your cursor. A red **X** will appear if you attempt "
+"to drag the node to a new :term:`parent record` (indicating this is not a "
+"supported move function with the drag-and-drop), while a green checkmark "
+"will be shown if you can drop the node where your cursor is currently "
+"positioned. A black caret character on the left-side of the treeview "
+"indicates where the node will be positioned if you drop it:"
+msgstr ""
+":ref:`context-menu-treeview-full` "
+"では、最初にツリービューノードをクリックして保持しても何も表示されません。しかし、ノードをドラッグし始めると、ノードのテキストがカーソルに追従します。新しい"
+" :term:`親レコード` へのノードをドラッグしようとすると、赤い **X** "
+"が表示されます（これはドラッグアンドドロップでサポートされていない移動機能を示しています）が、カーソルの現在位置でノードをドロップできる場合は緑のチェックマークが表示されます。ツリービューの左側にある黒いキャレット記号は、ノードをドロップした場合の位置を示しています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "Dragging a node in the full-width treeview"
+msgstr "フル幅ツリービューでノードをドラッグする"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1626
+msgid ""
+"Click on the record in the treeview and hold, and then drag it to the new "
+"position you would like it to have in the treeview. Remember, you can move "
+"it to another position within the same :term:`level of description`, but the"
+" record will **not be moved** if you attempt to drag it from a lower to a "
+"higher level (e.g., from an item level to a file level, from a file level to"
+" a series or fonds level, etc.)"
+msgstr ""
+"ツリービュー内のレコードをクリックし、押し続けたまま、ツリービュー内で新しい位置にドラッグしてください。同じ記述レベル内での移動は可能ですが、低いレベルから高いレベルへ（例えば、アイテムレベルからファイルレベルへ、ファイルレベルからシリーズや全体のレベルへなど）ドラッグしようとすると、レコードは"
+" **移動されません** ので注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1632
+msgid ""
+"The record in the treeview will drop into its new location. For the sidebar "
+"treeview, no changes will occur on the :term:`view page` of the current "
+"record, though the sort order has been changed within the collection. You "
+"can repeat these steps as many times as are necessary to achieve the sort "
+"order you wish."
+msgstr ""
+"ツリービュー内のレコードは新しい場所にドロップされます。サイドバーのツリービューの場合、現在のレコードの:term:`ビューページ` "
+"には変更は生じませんが、コレクション内の並び順が変更されています。これらのステップを、希望する並び順を達成するために必要な回数、繰り返すことができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1637
+msgid ""
+"For the full-width treeview, a Move :term:`job` will be triggered, and a "
+"notification will appear. You can continue to drag nodes as needed, but the "
+"page will not be automatically updated until you manually refresh your "
+"browser page."
+msgstr ""
+"全画面表示のツリービューでは、:term:`ジョブ`の移動がトリガーされ、通知が表示されます。必要に応じてノードをドラッグし続けることができますが、ブラウザページを手動で更新するまでページは自動的に更新されません。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid ""
+"The notification shown after a drag and drop in the full-width treeview"
+msgstr "ドラッグアンドドロップを行った後に表示される通知は、全幅のツリービューにおいて表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1649
+msgid ""
+"Changing the sort order of a description with associated lower levels of "
+"description (i.e. :term:`children <child record>`) will also move the "
+"description's children. For example, if File 03, which has 10 item-level "
+"children, is dragged above File 01 to change the sort order, all of File "
+"03's children will also be moved, and will stay associated with File 03."
+msgstr ""
+"説明の並び替え順序を変更する際に、それに関連する下位レベルの説明（すなわち：用語`子レコード`）も同様に移動します。例えば、10個のアイテムレベルの子を持つ「ファイル03」が、並び替え順序を変更するために「ファイル01」より上にドラッグされた場合、すべての「ファイル03」の子も移動され、「ファイル03」に関連付けられたままになります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1659
+msgid "Method 2: Move a description to a different level"
+msgstr "方法2: 説明を別のレベルに移動する"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1661
+msgid ""
+"An authenticated (i.e. logged in) user with the proper permissions (see: "
+":ref:`User roles <user-roles>` and :ref:`edit-user-permissions`) can also "
+"move a description from one level to another, or even from one :term:`fonds`"
+" or :term:`collection` (or other top-level description), by using the "
+"\"Move\" button located in the :term:`button block` of an :term:`archival "
+"description's <archival description>` :term:`view page`. A lower level of "
+"description can also be moved so that it becomes a new :term:`parent <parent"
+" record>` description."
+msgstr ""
+"認証済み（つまりログイン済み）ユーザーで適切な権限を持っている場合（詳細は： :ref:`ユーザーロール<user-roles>` 及び "
+":ref:`ユーザー権限の編集<edit-user-"
+"permissions>`を参照）、アーカイバル記述の閲覧ページにある「ボタンブロック」に位置する「移動」ボタンを使用して、記述を一つのレベルから別のレベルへ、あるいは一つの"
+" :term:`フォンズ` や "
+":term:`コレクション`（またはその他のトップレベルの記述）から別のものへ移動することもできます。下位レベルの記述も移動され、新しい "
+":term:`親レコード<parent record>` の記述になることが可能です。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1672
+msgid ""
+"Moving any description using this method also moves all :term:`child-level "
+"descriptions <child record>` of the description being moved. For example, if"
+" you move a series that has file-level descriptions attached, all the file-"
+"level descriptions will be moved along with the series."
+msgstr ""
+"この方法を使用して任意の記述を移動すると、移動される記述のすべての:term:`子レベルの記述 <child "
+"record>`も一緒に移動されます。たとえば、ファイルレベルの記述が添付されているシリーズを移動する場合、すべてのファイルレベルの記述がシリーズと共に移動されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1677
+msgid ""
+"If you wanted to move a description **without** moving all of its children, "
+"you could 1) Create a duplicate of the description 2) Move the duplicate "
+"record to its new position, and then 3) Edit the original description (with "
+"the children). See above,  :ref:`Duplicate an existing archival description "
+"<duplicate-archival-description>`."
+msgstr ""
+"説明を子要素を動かさずに移動する場合、1) 説明の複製を作成し、2) 複製したレコードを新しい位置に移動させ、そして 3) "
+"元の説明（子要素を含む）を編集します。詳細は上記の「既存のアーカイブ説明を複製する <duplicate-archival-"
+"description>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1684
+msgid "**To move an archival description:**"
+msgstr "**アーカイブ記述を移動するには：**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1686
+msgid ""
+"Navigate to the :term:`child description <child record>` that you wish to "
+"move. You can do this by :ref:`browsing <browse>` or :ref:`searching "
+"<search-atom>` for the :term:`archival description` - see :ref:`Access "
+"content <access-content>` for more information on navigation in AtoM."
+msgstr ""
+"編集したい:term:`子記録<child "
+"record>`に移動してください。これは、:ref:`閲覧<browse>`または:term:`アーカイブ記述<archival "
+"description>`についての:ref:`検索<search-atom>`を行うことで実現できます - "
+"AtoM内のナビゲーション方法については:ref:`アクセスコンテンツ<access-content>`を参照して追加情報をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1691
+msgid ""
+"At the bottom of the description's :term:`view page`, press the \"Move\" "
+"button, located in the :term:`button block`."
+msgstr "説明のページ下部にある `ビューページ` の `ボタンブロック` に位置する「Move」ボタンを押してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1699
+msgid ""
+"You will be redirected to the Move page, which lists all top-level (i.e. "
+":term:`parent <parent record>`) descriptions, and provides a search bar."
+msgstr ""
+"移動ページにリダイレクトされます。このページには、全ての最上位（つまり:term:`親 <parent "
+"record>`）記述がリストアップされており、検索バーが提供されています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1701
+msgid ""
+"To find your move location more quickly you can use the Move search bar to "
+"bring up results in the Move browse results listed below. For example, if "
+"you don't know the name of a series record but you do know the name of the "
+":term:`fonds` or :term:`collection`, you could search for the top-level "
+"description and then use the Move browser (below) to navigate to the correct"
+" level of description."
+msgstr ""
+"移動場所をより迅速に見つけるために、移動検索バーを使用して、以下にリストされている移動検索結果を表示させることができます。例えば、シリーズ記録の名前はわからないが、`:term:`fonds`や`:term:`collection`の名前は知っている場合、トップレベルの記述を検索し、その後、以下にある移動ブラウザーを使用して正確な記述レベルに移動することができます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the move page"
+msgstr "移動ページの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1713
+msgid ""
+"The blue hyperlinks allow Users to drill down into the hierarchy of the "
+":term:`archival description` selected.  Clicking on a top-level description "
+"in the Move page will display the description's lower levels of description "
+"- for example, clicking on a :term:`fonds` would reveal the series below it,"
+" and clicking on the series would then reveal the files below the series. To"
+" orient yourself, a :term:`breadcrumb trail` will appear above the list of "
+"potential archival descriptions, indicating where in the :term:`archival "
+"unit's <archival unit>` you are currently located - this is intented to help"
+" Users understand if they are moving the record to a subfonds, series, sub-"
+"series, or a file."
+msgstr ""
+"青色のハイパーリンクを使用すると、ユーザーは選択した「アーカイバルディスクリプション」の階層の詳細にアクセスできます。移動ページでトップレベルの説明をクリックすると、その説明の下位レベルが表示されます。たとえば、「フォンズ」をクリックすると、その下のシリーズが表示され、シリーズをクリックすると、そのシリーズの下のファイルが表示されます。自分の位置を把握するために、「アーカイバルユニット」内の現在位置を示す「パンくずリスト」が、潜在的なアーカイバルディスクリプションのリストの上に表示されます。これにより、ユーザーはレコードをサブフォンズ、シリーズ、サブシリーズ、またはファイルに移動しているかどうかを理解するのに役立ちます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the breadcrumb trail on a move page"
+msgstr "移動ページにあるパンくずリストの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1729
+msgid ""
+"If there are no more lower-level descriptions beneath the current level you "
+"are exploring in the move browser, then the move browser will be empty, as "
+"you can no longer drill down any lower in the hierarchy. You can always use "
+"the :term:`breadcrumb trail` above the move browser to navigate back up the "
+"current archival hierarchy, or use the search box to begin a new search and "
+"browse for the correct move location."
+msgstr ""
+"現在探索しているレベルの下にさらなる下位レベルの記述が存在しない場合、移動ブラウザは空になります。これ以上、階層内で詳細に掘り下げることはできません。いつでも移動ブラウザの上にある`:term:`パンくずリスト`を使用して、現在のアーカイブ階層をさかのぼってナビゲートすることができます。また、検索ボックスを使用して新しい検索を開始し、正しい移動場所を探索することもできます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the move browser, showing a lowest level of description"
+msgstr "移動ブラウザの画像で、最も低いレベルの記述を表示しています。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1741
+msgid ""
+"When you have reached the right level where you want to move the record, the"
+" new :term:`parent description<parent record>` should be the last breadcrumb"
+" in the :term:`breadcrumb trail`, while the new siblings (if any) will be "
+"listed as hyperlinks below. Click \"Move here\" in the :term:`button block` "
+"to move the record."
+msgstr ""
+"レコードを移動したい適切なレベルに到達した場合、新しい:term:`親記述<parent "
+"record>`は:term:`ブレッドクラム・トレイル`の最後のブレッドクラムとなります。同時に、新しい兄弟レコードがあれば、それらは下にハイパーリンクとして一覧表示されます。レコードを移動するには、:term:`ボタンブロック`内の「ここに移動」をクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the button block on a move page"
+msgstr "移動ページ上のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1752
+msgid ""
+"To make a child-level description a top-level description (e.g. to turn a "
+"series into a :term:`fonds`), click \"Move here\" **without** selecting one "
+"of the blue links."
+msgstr ""
+"子レベルの説明を最上位レベルの説明にするために（例えばシリーズを「fonds」に変えるために）、青いリンクのいずれかを選択せずに「ここに移動」をクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1755
+msgid ""
+"After clicking the Move button, the page will reload with a notification at "
+"the top of the page informing you that the Move operation has been initiated"
+" by the job scheduler. There is a link in the notification that will take "
+"you to the :ref:`manage-jobs` page if you want to check on the status of the"
+" move operation."
+msgstr ""
+"「移動」ボタンをクリックすると、ページが再読込され、移動操作がジョブスケジューラーによって開始されたことをお知らせする通知がページの上部に表示されます。移動操作の状態を確認したい場合は、通知内のリンクをクリックすると"
+" :ref:`manage-jobs` ページに移動します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of the Move page after initiating a Move job."
+msgstr "移動ジョブを開始した後の「移動」ページの画像。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1766
+msgid ""
+"On the Jobs page, if the job has been successfully completed, then a link to"
+" the record's new location will appear as a blue arrow in the Job status "
+"column."
+msgstr "ジョブページにおいて、ジョブが成功裏に完了した場合、ジョブステータス列にレコードの新しい場所へのリンクが青い矢印として表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst
+msgid ""
+"An image of the Jobs page with a user about to click the link to\n"
+"the related record"
+msgstr ""
+"以下にあなたのリクエストに応じた日本語への翻訳を示します。\n"
+"\n"
+"「関連する記録へのリンクをクリックしようとしているユーザーのジョブページの画像」"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1776
+msgid ""
+"Additionally, if you click the \"Full report\" link, you will be taken to "
+"the :ref:`Job details <job-details>` page, where you can see the console "
+"output of the move job. There will also be a link to the associated "
+"description provided there."
+msgstr ""
+"さらに、「フルレポート」リンクをクリックすると、:ref:`ジョブ詳細<job-"
+"details>`ページに移動します。そこでは、移動ジョブのコンソール出力を確認できます。また、そこで提供されている関連する説明へのリンクもあります。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1789
+msgid ":ref:`manage-jobs`"
+msgstr ""
+"```\n"
+":ref:`ジョブの管理`\n"
+"```"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1790
+msgid ":ref:`maintenance-asynchronous-jobs`"
+msgstr ":ref:`メンテナンス-非同期ジョブ`"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1797
+msgid "Delete an archival description"
+msgstr "アーカイブ記述の削除"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1799
+msgid ""
+"An authenticated (i.e. logged in) user with the proper permissions (see: "
+":ref:`User roles <user-roles>` and :ref:`edit-user-permissions`) can delete "
+"an :term:`archival description` at any time, by navigating to the "
+"description and using the :term:`Delete button` located in the :term:`button"
+" block`."
+msgstr ""
+"認証済み（つまりログインしている）ユーザーで、適切な権限（参照： :ref:`ユーザーロール <user-roles>` および :ref:`edit-"
+"user-permissions`）を持っていれば、いつでも :term:`アーカイブ記述` "
+"を削除することができます。削除を行うには、記述にナビゲートして、 :term:`ボタンブロック` にある :term:`削除ボタン` を使用します。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1807
+msgid "**Consequences of deleting an archival description in AtoM:**"
+msgstr "**AtoM（アクセス・トゥ・メモリ）でアーカイブ記述を削除することの結果：**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1809
+msgid ""
+"If the record has lower-level descriptions registered to it, **all the "
+"lower-level records are also deleted** - i.e. if you delete a series, any "
+"sub-series, files, or items that belong to the series will also be deleted"
+msgstr ""
+"もしその記録に下位レベルの説明が登録されている場合、**すべての下位レベルの記録も削除されます** - "
+"つまり、シリーズを削除すると、そのシリーズに属するサブシリーズ、ファイル、またはアイテムも同様に削除されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1813
+msgid ""
+"Any date :term:`events <event>` (i.e. date(s) of creation, of publication, "
+"of contribution, etc.) associated with the description are deleted"
+msgstr "説明に関連するあらゆる日付の:term:`イベント<event>`（つまり、作成日、出版日、寄与日など）は削除されます。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1816
+msgid ""
+"The :term:`authority record` of the associated :term`creator` is **not** "
+"deleted"
+msgstr "関連する :term:`作成者` の :term:`権限記録` は**削除されません**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1818
+msgid ""
+"The :term:`archival institution` record of the associated :term:`repository`"
+" is **not** deleted"
+msgstr "関連する:term:`リポジトリ`の:term:`アーカイブ施設`の記録は**削除されません**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1821
+msgid "**To delete an archival description:**"
+msgstr "**アーカイブ記述を削除するには：**"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1823
+msgid ""
+"Navigate to the :term:`archival description` that you would like to "
+"permanently delete. You can do this by :ref:`browsing <browse>` or "
+":ref:`searching <search-atom>` for the :term:`archival description` - see "
+":ref:`Access content  <access-content>` for more information on navigation "
+"in AtoM."
+msgstr ""
+"アーカイブの説明に移動します。永久に削除したいアーカイブの説明を選んでください。これは、 :ref:`ブラウズ<browse>` や "
+":ref:`AtoMでのナビゲーションの詳細については、:ref:`コンテンツへのアクセス<access-content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1828
+msgid ""
+"Scroll to the bottom of the description's :term:`view page`, and click the "
+":term:`Delete button` located in the :term:`button block`."
+msgstr ""
+"説明の :term:`view page` の一番下までスクロールし、:term:`button block` にある :term:`Delete "
+"button` をクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1836
+msgid ""
+"AtoM will provide a warning and prompts you to confirm that you really wish "
+"to delete the description. If :term:`child descriptions <child record>` will"
+" be deleted as well,the warning will list them. If you are sure you want to "
+"delete the record and all of its descendants/children, click \"Delete\"."
+msgstr ""
+"AtoMは警告を表示し、本当にその説明を削除したいかどうか確認を促します。削除される予定の:term:`子説明<child "
+"record>`もある場合は、警告にそれらが列挙されます。レコードとその全ての子孫/子供を削除したいと確信している場合は、「削除」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:-1
+msgid "An image of a description delete warning"
+msgstr "説明削除警告の画像"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1849
+msgid ""
+"Deleting a description is a permanent operation that cannot be undone, and "
+"the associated data will be removed from AtoM's database. Be sure that you "
+"want to delete a record before confirming the operation."
+msgstr ""
+"説明を削除するという操作は、元に戻すことができない永続的な操作であり、関連するデータはAtoMのデータベースから削除されます。操作を確定する前に、レコードを削除したいと確信していることを確認してください。"
+
+#: ../../user-manual/add-edit-content/archival-descriptions.rst:1853
+msgid ""
+"AtoM deletes the record and returns you to the :term:`parent record` of the "
+"deleted description or to the browse page if the deleted record was a top- "
+"level description."
+msgstr ""
+"AtoMはレコードを削除し、削除された記述の:term:`親レコード`に戻るか、または削除されたレコードが最上位レベルの記述であった場合はブラウズページに戻ります。"

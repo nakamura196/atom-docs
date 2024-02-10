@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/installation/intended-audience.rst:5
+msgid "Intended audience"
+msgstr "対象読者"
+
+#: ../../admin-manual/installation/intended-audience.rst:7
+msgid ""
+"This manual is intended for systems administrators and developers seeking "
+"information on the installation, configuration, maintenance, and development"
+" of the AtoM application. Its focus is more technical in nature than the "
+"AtoM :ref:`User manual <user-manual-home>` - if you are looking for "
+"information on how to use AtoM via its web-based :term:`user interface`, "
+"please see the :ref:`User manual <user-manual-home>`."
+msgstr ""
+"このマニュアルは、AtoMアプリケーションのインストール、設定、メンテナンス、および開発に関する情報を求めるシステム管理者や開発者を対象としています。その焦点は、AtoM"
+" :ref:`ユーザーマニュアル<user-manual-home>`よりも技術的な性質を持っています。もし、ウェブベースの "
+":term:`ユーザーインターフェース` を通じてAtoMをどのように使用するかに関する情報を探している場合は、 "
+":ref:`ユーザーマニュアル<user-manual-home>` をご覧ください。"
+
+#: ../../admin-manual/installation/intended-audience.rst:14
+msgid ""
+"While we have tried to make this document usable by readers with a broad "
+"range of technical knowledge, it may be too complex if you have no previous "
+"experience with installing web applications or using the command line. If "
+"you'd like to help us improve this documentation, please see our "
+"About/Contribute documents."
+msgstr ""
+"私たちは、幅広い技術知識を持つ読者が使用できるようにこのドキュメントを作成しようと努めましたが、ウェブアプリケーションのインストールやコマンドラインの使用経験が全くない場合、内容が複雑に感じられるかもしれません。このドキュメントの改善にご協力いただける場合は、私たちの「About/Contribute」のドキュメントをご覧ください。"
+
+#: ../../admin-manual/installation/intended-audience.rst:20
+msgid ""
+"If you are a non-technical reader and are just interested in trying out "
+"AtoM, please check out the `AtoM online demo "
+"<http://demo.accesstomemory.org>`_ or our :ref:`Vagrant box <dev-env-"
+"vagrant>`."
+msgstr ""
+"技術に詳しくない方で、AtoMを試してみたいだけの場合は、 `AtoM オンラインデモ "
+"<http://demo.accesstomemory.org>`_ や、私たちの :ref:`Vagrantボックス <dev-env-"
+"vagrant>` をご覧ください。"

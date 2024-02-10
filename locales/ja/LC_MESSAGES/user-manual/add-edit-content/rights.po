@@ -1,0 +1,1572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/rights.rst:5
+msgid "Rights"
+msgstr "権利"
+
+#: ../../user-manual/add-edit-content/rights.rst:19
+msgid ""
+"As discussed in the section on :ref:`entity types <entity-types>`, "
+":term:`Rights records <rights record>` provide rights related restrictions "
+"that can be linked to :term:`accession records <accession record>`, "
+":term:`archival descriptions <archival description>` and their related "
+":term:`digital objects <digital object>`. AtoM Rights metadata elements use "
+"`PREMIS rights elements <http://www.loc.gov/standards/premis/>`__. In AtoM "
+"restrictions can be based on Copyright(s), License, Statute(s), Policy, or "
+"Donor (as in an agreement established with a donor). Rights can be set to be"
+" inherited in AtoM, which means that rights added at a higher level (e.g., "
+"fonds level) can be inherited by the lower levels (e.g., item level). See "
+":ref:`Manage rights inheritance <rights-inheritance>`, below."
+msgstr ""
+"以下の「エンティティの種類 <entity-types>」のセクションで議論されたように、`権利記録 <rights record>`は、アクセス権記録"
+" `accession record`、アーカイブ記述 `archival description`及びそれらに関連するデジタルオブジェクト "
+"`digital object`にリンクできる権利に関連する制約を提供します。AtoMの権利メタデータ要素は、`PREMIS権利要素 "
+"<http://www.loc.gov/standards/premis/>`を使用しています。AtoMでは、著作権、ライセンス、法規、ポリシー、またはドナー（ドナーとの合意に基づいて）などに基づいて制約を設定することができます。AtoMでは権利を継承させることができます。これは、上位レベル（たとえば、全体レベル）で追加された権利が、下位レベル（たとえば、項目レベル）によって継承されることを意味します。以下の「権利の継承を管理する"
+" <rights-inheritance>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:31
+msgid ""
+"If you add rights to an :term:`accession record`, all :term:`archival "
+"descriptions <archival description>` created from that accession will "
+"inherit the same rights."
+msgstr ""
+"アクセッションレコードに権利を追加すると、そのアクセッションから作成されるすべてのアーカイバルディスクリプションは、同じ権利を引き継ぎます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:35
+msgid ""
+"AtoM also allows you to choose one PREMIS rights :term:`act` (such as "
+"Display, Disseminate, etc) to use as an action for your digital objects - "
+"though you can configure different digital object access permissions for "
+"each PREMIS rights Basis. See :ref:`rights-digital-object`, below."
+msgstr ""
+"AtoMでは、デジタルオブジェクトに対するアクションとして使用するPREMIS権利の:term:`act`（例えば、表示、配布など）を選択することができますが、PREMIS権利の基準ごとに異なるデジタルオブジェクトアクセス許可を設定することもできます。下記の:ref:`rights-"
+"digital-object`を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:40
+msgid "**Jump to:**"
+msgstr "**移動先：**"
+
+#: ../../user-manual/add-edit-content/rights.rst:42
+msgid ":ref:`add-rights`"
+msgstr "`:ref:`権利情報を追加``"
+
+#: ../../user-manual/add-edit-content/rights.rst:43
+msgid ":ref:`rights-inheritance`"
+msgstr ":ref:`権利の継承`"
+
+#: ../../user-manual/add-edit-content/rights.rst:44
+msgid ":ref:`rights-digital-object`"
+msgstr ""
+"`:ref:`rights-digital-object``は、テキストの参照タグです。これは、ドキュメント内の特定のセクションまたは章にリンクするためのもので、文脈によってリンクのテキストが異なる可能性があります。実際のドキュメントでは、このタグは「デジタルオブジェクトの権利」というセクションに対応するリンクテキストに置き換えられるでしょう。しかし、テキストの形式上の正確な翻訳を行う必要がありますので、以下にそのまま訳を示します。\n"
+"\n"
+"``:ref:`権利-デジタルオブジェクト``\n"
+"\n"
+"ただし、これはプレースホルダであり、実際のドキュメントでは適切なセクション名やページ番号で置き換えられることに注意してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:45
+msgid ":ref:`disallow-statements`"
+msgstr ":ref:`禁止ステートメント`"
+
+#: ../../user-manual/add-edit-content/rights.rst:46
+msgid ":ref:`preservation-access-statement`"
+msgstr ":ref:`保存・アクセスに関する声明`"
+
+#: ../../user-manual/add-edit-content/rights.rst:47
+msgid ":ref:`copyright-pop-up`"
+msgstr ":ref:`著作権ポップアップ`"
+
+#: ../../user-manual/add-edit-content/rights.rst:48
+msgid ":ref:`manage-rights-holders`"
+msgstr "`:ref:`manage-rights-holders`の参照を管理する`"
+
+#: ../../user-manual/add-edit-content/rights.rst:52
+msgid ":ref:`permissions` (settings)"
+msgstr ":ref:`権限` （設定）"
+
+#: ../../user-manual/add-edit-content/rights.rst:53
+msgid ":ref:`upload-digital-object`"
+msgstr ""
+"`:ref:`upload-digital-object`` は、参照リンクのマークダウン形式です。このテキスト自体はテキストラベルで、特定のドキュメントのセクションへの参照（リンク）を指しています。日本語翻訳する必要があるのは、リンクのテキストラベルの意味か、類似の機能を持つ日本語のドキュメントの部分を指す場合です。\n"
+"\n"
+"もし、このリンクが単純な文脈の中での「デジタルオブジェクトのアップロード」というセクションを指しているとしたら、それは日本語で次のように翻訳されるかもしれません：\n"
+"\n"
+"`:ref:`デジタルオブジェクトのアップロード``\n"
+"\n"
+"ただし、これも文脈に基づく訳です。Archivematicaの公式日本語ドキュメントが存在し、そこに正確なセクション名があれば、そのセクション名を使用する必要があります。また、ドキュメント内のマークアップ言語（例えばSphinx）が日本語をサポートしていることを確認する必要もあります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:54
+msgid ":ref:`archival-descriptions`"
+msgstr "``archival-descriptions``(アーカイバル記述)"
+
+#: ../../user-manual/add-edit-content/rights.rst:55
+msgid ":ref:`accession-records`"
+msgstr ":ref:`受入レコード`"
+
+#: ../../user-manual/add-edit-content/rights.rst:60
+msgid "Add a new rights record"
+msgstr "新しい権利記録を追加"
+
+#: ../../user-manual/add-edit-content/rights.rst:62
+msgid ""
+"This section describes how to add a new :term:`rights record` by using the "
+"rights dialog provided through the add/edit template. You must add rights to"
+" an existing accession record or archival description. To create an "
+"accession record or archival description first, please see:"
+msgstr ""
+"このセクションでは、追加/編集テンプレートを通じて提供される権利ダイアログを使用して新しい:term:`権利記録`を追加する方法について説明します。既存のアクセッション記録またはアーカイブ記述に権利を追加する必要があります。アクセッション記録またはアーカイブ記述を最初に作成するには、次を参照してください："
+
+#: ../../user-manual/add-edit-content/rights.rst:67
+msgid ":ref:`Add new accession record <add-new-accession>`"
+msgstr ":ref:`新しいアクセッション記録を追加する <add-new-accession>`"
+
+#: ../../user-manual/add-edit-content/rights.rst:68
+msgid ":ref:`Add new archival description <add-archival-description>`"
+msgstr ":ref:`新しいアーカイブ説明を追加する <add-archival-description>`"
+
+#: ../../user-manual/add-edit-content/rights.rst:72
+msgid ""
+"You must be logged in and have the appropriate privileges, such as "
+":term:`editors <editor>` and :term:`administrators <administrator>` to be "
+"able to add/edit content in AtoM, which includes creating a :term:`rights "
+"record`. See: :ref:`Log in <log-in>`."
+msgstr ""
+"ログインして適切な権限を有している必要があります。たとえば、:term:`編集者<editor>`や:term:`管理者<administrator>`などの権限があると、AtoMでコンテンツを追加・編集することができます。これには:term:`権利記録<rights"
+" record>`の作成も含まれます。詳しくは、:ref:`ログイン<log-in>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:80
+msgid "Add rights to an Accession record"
+msgstr "アクセッションレコードに権利情報を追加する"
+
+#: ../../user-manual/add-edit-content/rights.rst:82
+msgid ""
+"Navigate to the :term:`accession record` you want to edit. You can do this "
+"via the :term:`main menu` in the AtoM :term:`header bar`, by clicking on "
+"**Manage > Accessions**. For more information on navigation in AtoM, see: "
+":ref:`Access content <access-content>`."
+msgstr ""
+"アクセスしたい:term:`受入記録`に移動します。これはAtoM "
+":term:`ヘッダーバー`の:term:`メインメニュー`を使って行うことができ、**管理 > "
+"受入**をクリックします。AtoMでのナビゲーションの詳細については、:ref:`コンテンツへのアクセス<access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of the Manage menu"
+msgstr "「管理メニュー」の画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:92
+msgid ""
+"AtoM will redirect you to the accession record :ref:`browse page <page-type-"
+"browse>`. Select the record you want by clicking on the hyperlink "
+"Identifier. You can also search for an :term:`accession record` with the "
+"accession records :term:`search box` located at the bottom of the browse "
+"page. For more information on searching for :term:`accession records "
+"<accession record>` in AtoM, see: :ref:`Searching for accession records "
+"<dedicated-search-accessions>`."
+msgstr ""
+"AtoMはあなたを受入記録の :ref:`ブラウズページ<page-type-browse>` "
+"へリダイレクトします。ハイパーリンクの識別子をクリックすることで、必要な記録を選択してください。また、ブラウズページの下部にある受入記録の "
+":term:`検索ボックス` を使用して、:term:`受入記録` を検索することもできます。AtoMでの :term:`受入記録<accession "
+"record>` の検索方法についての詳細は、:ref:`受入記録の検索<dedicated-search-accessions>` "
+"を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of searching for an accession"
+msgstr "受入れの検索の画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:105
+msgid ""
+"When you have arrived at the record to which you wish to add rights, click "
+"on \"Create new rights\" in the :term:`button block`. The PREMIS rights "
+"entry form will appear."
+msgstr ""
+"あなたが権利を追加したい記録に到達した際には、`:term:`ボタンブロック`にある「新しい権利を作成」をクリックしてください。PREMIS権利エントリーフォームが表示されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Access Create New Rights link through the button block"
+msgstr "ボタンブロックを通じて「新規権利作成」リンクにアクセス"
+
+#: ../../user-manual/add-edit-content/rights.rst:114
+#: ../../user-manual/add-edit-content/rights.rst:207
+msgid ""
+"The Rights entry page allows you to establish the basis for which rights are"
+" granted or disallowed as well as describing the rights themselves."
+msgstr "権利エントリーページでは、権利が付与されるか拒否される根拠を確立するとともに、権利自体を記述することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:117
+#: ../../user-manual/add-edit-content/rights.rst:210
+msgid "Rights basis:"
+msgstr "権利の基礎："
+
+#: ../../user-manual/add-edit-content/rights.rst:119
+#: ../../user-manual/add-edit-content/rights.rst:212
+msgid ""
+"AtoM provides a drop-down menu to select the basis for the rights associated"
+" with the description. You can select: Copyright, License, Statute, Policy, "
+"or Donor."
+msgstr ""
+"AtoMは、説明に関連付けられた権利の基礎を選択するためのドロップダウンメニューを提供しています。選択できるのは、著作権、ライセンス、法令、ポリシー、または寄贈者です。"
+
+#: ../../user-manual/add-edit-content/rights.rst:129
+#: ../../user-manual/add-edit-content/rights.rst:222
+msgid "Rights entry page with copyright as the basis"
+msgstr "権利エントリページ、その根拠として著作権"
+
+#: ../../user-manual/add-edit-content/rights.rst:129
+#: ../../user-manual/add-edit-content/rights.rst:222
+msgid "The Rights entry page with Copyright set as the basis."
+msgstr "権利エントリーページ、著作権を根拠として設定。"
+
+#: ../../user-manual/add-edit-content/rights.rst:131
+#: ../../user-manual/add-edit-content/rights.rst:224
+msgid ""
+"The fields below the rights basis will differ depending on the basis chosen."
+" Compare for  example the figure above, showing Copyright as the basis, and "
+"the figure below,  showing Statute as the basis:"
+msgstr ""
+"以下に示すフィールドは、選択された根拠によって異なります。たとえば上の図は、著作権を根拠として表示していますが、下の図は、法令を根拠として表示している点を比較してください："
+
+#: ../../user-manual/add-edit-content/rights.rst:141
+#: ../../user-manual/add-edit-content/rights.rst:234
+msgid "Rights entry page with statute as the basis"
+msgstr "権利エントリーページ（根拠としての法規）"
+
+#: ../../user-manual/add-edit-content/rights.rst:141
+#: ../../user-manual/add-edit-content/rights.rst:234
+msgid "The Rights entry page with Statute set as the basis."
+msgstr "権利エントリーページ、根拠として設定された法令。"
+
+#: ../../user-manual/add-edit-content/rights.rst:143
+#: ../../user-manual/add-edit-content/rights.rst:236
+msgid ""
+"As you complete the Rights basis fields, :term:`tooltips` will appear to "
+"explain the purpose of the field."
+msgstr "権利根拠のフィールドを入力する際に、そのフィールドの目的を説明する :term:`ツールチップ` が表示されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:146
+#: ../../user-manual/add-edit-content/rights.rst:239
+msgid ""
+"When adding the Rights holder, can add a new Rights holder name, or select "
+"an existing one using the auto-complete action provided by AtoM."
+msgstr ""
+"権利保有者を追加する際には、新しい権利保有者名を追加することも、AtoMが提供するオートコンプリート機能を使用して既存の権利保有者を選択することもできます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:149
+#: ../../user-manual/add-edit-content/rights.rst:242
+msgid "Act/Granted rights:"
+msgstr "行為/付与された権利："
+
+#: ../../user-manual/add-edit-content/rights.rst:151
+#: ../../user-manual/add-edit-content/rights.rst:244
+msgid ""
+"Once you have established the basis for the rights you need to grant, fill "
+"in the Act/Granted rights fields:"
+msgstr "あなたが付与する必要がある権利の基盤を確立したら、「行為/付与された権利」の欄を記入してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:154
+#: ../../user-manual/add-edit-content/rights.rst:247
+msgid ""
+"The \"Act\" data entry field is a drop-down list. You can select: Delete, "
+"Discover, Display, Disseminate, Migrate, Modify, and Replicate."
+msgstr ""
+"「アクト」データ入力フィールドはドロップダウンリストです。選択できる項目には、削除（Delete）、発見（Discover）、表示（Display）、普及（Disseminate）、移行（Migrate）、変更（Modify）、複製（Replicate）があります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:157
+#: ../../user-manual/add-edit-content/rights.rst:250
+msgid ""
+"The \"Restriction\" data entry field provides three choices: Allow, Disallow"
+" or Conditional."
+msgstr "「制限」データ入力フィールドは、三つの選択肢を提供します：「許可」「不許可」「条件付き」。"
+
+#: ../../user-manual/add-edit-content/rights.rst:160
+#: ../../user-manual/add-edit-content/rights.rst:253
+msgid ""
+"Add Start and End dates for the right. Leave the end date blank if it is "
+"unknown or open."
+msgstr "権利の開始日と終了日を追加してください。終了日が不明または未定の場合は、空白のままにしてください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:163
+#: ../../user-manual/add-edit-content/rights.rst:256
+msgid "You can add notes related to the granted right."
+msgstr "付与された権利に関連するメモを追加することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:165
+#: ../../user-manual/add-edit-content/rights.rst:258
+msgid ""
+"If you are finished adding granted rights related to this basis, click Save."
+" If you have more granted rights to add related to this basis, click Add "
+"granted right and fill in the fields again. Click Save when you are "
+"finished."
+msgstr ""
+"この根拠に関連する付与された権利を追加し終えた場合は、「保存」をクリックしてください。この根拠に関連するさらに付与された権利を追加する必要がある場合は、「付与された権利を追加」をクリックし、再度フィールドに情報を入力してください。すべての入力が終わったら、「保存」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:171
+msgid ""
+"You may have granted rights to record that are related to more than one "
+"basis. For example, you may want to record a granted right related to "
+"Copyright, and another granted right related to Policy. After you click "
+"Save, you can return to the accession and add more rights related to another"
+" basis by clicking More -> Create new rights again."
+msgstr ""
+"あなたは、複数の根拠に関連する権利を記録している場合があります。たとえば、著作権に関連する付与された権利を記録したい場合や、ポリシーに関連する別の付与された権利を記録したい場合などです。保存をクリックした後、アクセッションに戻って、「その他」->「新しい権利を作成」を再度クリックすることで、別の根拠に関連する更なる権利を追加することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:177
+msgid ""
+"After rights are created for an accession, they can be edited or deleted by "
+"logged in users with the correct permissions by clicking the links from the "
+"archival description in view mode:"
+msgstr ""
+"アクセッションに権利が創設された後、適切な権限を持つログインユーザーは、表示モードでのアーカイバル記述からリンクをクリックすることにより、編集または削除することができます："
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Edit and delete links for rights records."
+msgstr "権利記録の編集と削除リンク。"
+
+#: ../../user-manual/add-edit-content/rights.rst:188
+#: ../../user-manual/add-edit-content/rights.rst:281
+msgid ""
+"When you click delete, AtoM deletes the rights record without asking for "
+"confirmation, so be sure to click only when you are positive you wish to "
+"delete the rights information!"
+msgstr "削除をクリックすると、AtoMは確認なしに権利記録を削除しますので、権利情報を削除したい場合にのみクリックしてください！"
+
+#: ../../user-manual/add-edit-content/rights.rst:192
+msgid ""
+"Once you complete adding information to the rights record, click on the "
+"click Save."
+msgstr "権利記録に情報を追加し終えたら、「保存」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:198
+msgid "Add rights to an Archival description"
+msgstr "アーカイバル記述に権利を追加する"
+
+#: ../../user-manual/add-edit-content/rights.rst:200
+msgid ""
+"First, navigate to the :term:`archival description` you wish to add rights "
+"to. You can do this by :ref:`browsing <browse>` or :ref:`searching <search-"
+"atom>` for the :term:`archival description` - see :ref:`access-content` for "
+"more information on navigation in AtoM."
+msgstr ""
+"まず、権利を追加したい :term:`アーカイブ記述` に移動してください。これは、 :term:`アーカイブ記述` の :ref:`ブラウズ "
+"<browse>` や :ref:`検索 <search-atom>` を行うことで実現できます - AtoM内のナビゲーションに関しては "
+":ref:`アクセスコンテンツ <access-content>` セクションを参照して詳しく情報を得てください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:205
+msgid "In the :term:`button block`, click on \"More,\" then on \"Create new rights\"."
+msgstr "用語「ボタンブロック」内で、「More」をクリックし、その後「Create new rights」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:264
+msgid ""
+"You may have granted rights to record that are related to more than one "
+"basis. For example, you may want to record a granted right related to "
+"Copyright, and another granted right related to Policy. After you click "
+"Save, you can return to the archival description and add more rights related"
+" to another basis by clicking More -> Create new rights again."
+msgstr ""
+"あなたは一つ以上の根拠に関連する記録権利を付与しているかもしれません。例えば、著作権に関連した付与権利を記録したい場合と、ポリシーに関連した別の付与権利を記録したい場合があるでしょう。保存をクリックした後、アーカイブの説明に戻り、もう一度「その他」->「新しい権利を作成」をクリックすることで、他の根拠に関連する権利を追加することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:270
+msgid ""
+"After rights are created for an archival description, they can be edited or "
+"deleted by logged in users with the correct permissions by clicking the "
+"links from the archival description in view mode:"
+msgstr ""
+"権利がアーカイブ記述に作成された後、適切な権限を持つログインユーザーは、ビューモードでアーカイブ記述からリンクをクリックすることで、それらを編集したり削除したりすることができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:285
+#: ../../user-manual/add-edit-content/rights.rst:335
+#: ../../user-manual/add-edit-content/rights.rst:562
+#: ../../user-manual/add-edit-content/rights.rst:633
+#: ../../user-manual/add-edit-content/rights.rst:700
+#: ../../user-manual/add-edit-content/rights.rst:933
+#: ../../user-manual/add-edit-content/rights.rst:1020
+msgid ":ref:`Back to top <rights>`"
+msgstr ":ref:`トップに戻る <rights>`"
+
+#: ../../user-manual/add-edit-content/rights.rst:290
+msgid "Manage rights inheritance"
+msgstr "権利の継承を管理する"
+
+#: ../../user-manual/add-edit-content/rights.rst:292
+msgid ""
+"AtoM will allow you to add a rights record to a :term:`parent record` and "
+"choose whether or not the same rights record should be applied to that "
+"parent's :term:`child records <child record>`."
+msgstr ""
+"AtoMを使用すると、:term:`親レコード`に権利レコードを追加し、その親の:term:`子レコード<child "
+"record>`に同じ権利レコードを適用するかどうかを選択することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:296
+msgid ""
+"After creating a rights record at a parent-level, in edit mode click on "
+"\"More\" then \"Manage rights inheritance\" in the :term:`button block` of "
+"the parent record."
+msgstr ""
+"親レベルで権利記録を作成した後、編集モードで「もっと」をクリックし、親レコードの`:term:`ボタンブロック`で「権利継承の管理」をクリックします。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Manage rights inheritance, available in the button block in edit mode."
+msgstr "権利継承を管理します。これは編集モード時のボタンブロックで利用可能です。"
+
+#: ../../user-manual/add-edit-content/rights.rst:304
+msgid "On the next screen, decide:"
+msgstr "次の画面で、決定してください："
+
+#: ../../user-manual/add-edit-content/rights.rst:306
+msgid ""
+"1. If you want the rights record(s) inherited by all descendants (children) "
+"or only descendants with digital objects associated with them (see Make "
+"rights actionalable on digital objects, below) and,"
+msgstr ""
+"1. "
+"後継のアイテム（子供たち）に権利記録を全て継承させたいのか、それともそれらに関連付けられたデジタルオブジェクトを持つ後継アイテムだけに権利記録を継承させたいのかを決定します（下記のデジタルオブジェクトに権利行為を適用するを参照）。"
+
+#: ../../user-manual/add-edit-content/rights.rst:310
+msgid ""
+"2. Whether you would like to delete any rights which pre-exist in the child "
+"records and replace with the parent rights (option 1) or combine the parent "
+"rights with any existing rights in the child records (option 2)."
+msgstr ""
+"2. "
+"子レコードに既に存在する権利を削除し、親権利で置き換えたいか（オプション1）、あるいは親権利を子レコードの既存の権利と組み合わせたいか（オプション2）を選択してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Rights inheritance options in AtoM."
+msgstr "AtoMでの権利継承オプション。"
+
+#: ../../user-manual/add-edit-content/rights.rst:319
+msgid ""
+"Click Apply. The child records will now reflect the rights inheritance from "
+"the parent record as you indicated."
+msgstr "適用をクリックしてください。子レコードは、あなたが指示した通り、親レコードからの権利継承を反映するようになります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:324
+msgid ""
+"AtoM will only allow you to manage rights inheritance from the top down- you"
+" will not be able to modify the rights of a child record and have them "
+"passed up to the parent record."
+msgstr ""
+"AtoMでは、トップダウン方式でのみ権利の継承を管理することができます。つまり、子レコードの権利を変更して、それを親レコードに反映させることはできません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:330
+msgid ""
+"Rights inheritance is a task that AtoM performs asynchronously, via the Jobs"
+" Scheduler. If the parent description has many children, it may take some "
+"time for all of the children to inherit the rights. See :ref:`Manage Jobs "
+"<manage-jobs>` for more information."
+msgstr ""
+"権利の継承は、AtoMがジョブスケジューラを介して非同期に行うタスクです。親の記述に多くの子がいる場合、すべての子が権利を継承するまで時間がかかることがあります。詳細については、:ref:`ジョブ管理<manage-"
+"jobs>`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:340
+msgid "Make rights actionable on digital objects"
+msgstr "デジタルオブジェクトに対する権利を実行可能にする"
+
+#: ../../user-manual/add-edit-content/rights.rst:342
+msgid ""
+":term:`Administrators <administrator>` can choose an act/granted right for "
+"which digital object permissions are set. This means that digital object "
+":term:`thumbnails <thumbnail>`, :term:`reference display copies <reference "
+"display copy>` and :term:`master digital objects <master digital object>` "
+"can be made visible or invisible to non-authenticated users by changing the "
+"rights record in conjunction with the appropriate administrative settings."
+msgstr ""
+"管理者は、デジタルオブジェクトの権限が設定される行為/付与された権利を選択できます。これは、デジタルオブジェクトのサムネイル、参照表示コピー、およびマスターデジタルオブジェクトが、権利記録を適切な管理設定と組み合わせて変更することで、認証されていないユーザーに対して見えるか見えないかを制御できることを意味します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:350
+msgid ""
+"To access the settings, click on the |gears| :ref:`Admin menu <main-menu-"
+"admin>` in the :term:`main menu` and select \"Settings\" from the "
+":term:`drop-down menu`. Then click on \"Permissions.\""
+msgstr ""
+"設定にアクセスするには、:term:`メインメニュー` の |gears| :ref:`管理メニュー <main-menu-admin>` "
+"をクリックし、:term:`ドロップダウンメニュー` から「設定」を選択します。その後「権限」をクリックします。"
+
+#: ../../user-manual/add-edit-content/rights.rst:15
+msgid "gears"
+msgstr "「ギアーズ」"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Permission settings for digital objects based on granted rights."
+msgstr "付与された権利に基づくデジタルオブジェクトの権限設定。"
+
+#: ../../user-manual/add-edit-content/rights.rst:359
+msgid ""
+"First, choose from the :term:`drop-down menu` the act/granted right you "
+"would like to apply to digital objects. You can choose from: Delete, "
+"Discover, Display, Disseminate, Migrate, Modify and Replicate. For many "
+"institutions, either Display or Disseminate will be the logical choice since"
+" this functionality relates to the display of digital objects."
+msgstr ""
+"まず、デジタルオブジェクトに適用したい行為/付与された権利を:term:`ドロップダウンメニュー`から選択します。選択できるのは、削除、検出、表示、普及、移行、変更、複製です。多くの機関では、この機能がデジタルオブジェクトの表示に関連しているため、表示または普及を論理的な選択とすることが多いでしょう。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Selecting which PREMIS act will be actionable on digital objects"
+msgstr "デジタルオブジェクトに対して実行可能なPREMIS行為を選択する"
+
+#: ../../user-manual/add-edit-content/rights.rst:372
+msgid ""
+"The PREMIS acts are maintained in the \"Rights act\" :term:`taxonomy`, and "
+"can be customized by users with the proper edit permissions. If you add a "
+"new :term:`term` to the Rights act taxonomy, it will appear in the PREMIS "
+"Access permissions table when you return to the Settings page. You can then "
+"configure its settings."
+msgstr ""
+"PREMIS行為は「権利行為」:term:`分類学`に保持され、適切な編集権限を持つユーザーによってカスタマイズすることができます。権利行為の分類学に新しい:term:`用語`を追加すると、設定ページに戻ったときにPREMISアクセス許可テーブルに表示されます。その後、その設定を構成することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:378
+msgid ""
+"The default terms are mostly derived from the PREMIS 2.2 standard - here are"
+" their definitions as found in the PREMIS Data Dictionary (`v2.2, 2012 "
+"<http://www.loc.gov/standards/premis/v2/premis-2-2.pdf>`__), p. 225:"
+msgstr ""
+"デフォルトの用語は、主にPREMIS 2.2標準から引き出されています - 以下は、PREMISデータ辞典（`v2.2, 2012 "
+"<http://www.loc.gov/standards/premis/v2/premis-2-2.pdf>`__）、p.225に見つかる彼らの定義です："
+
+#: ../../user-manual/add-edit-content/rights.rst:383
+msgid "replicate = make an exact copy"
+msgstr "replicate = 正確なコピーを作成する"
+
+#: ../../user-manual/add-edit-content/rights.rst:384
+msgid "migrate = make a copy identical in content in a different file format"
+msgstr "マイグレート＝内容が同一である異なるファイル形式のコピーを作成する"
+
+#: ../../user-manual/add-edit-content/rights.rst:385
+msgid "modify = make a version different in content"
+msgstr "修正 = 内容を変更したバージョンを作成する"
+
+#: ../../user-manual/add-edit-content/rights.rst:386
+msgid ""
+"disseminate = create a copy or version for use outside of the preservation "
+"repository"
+msgstr "disseminate = 長期保存リポジトリの外部で使用するためのコピーまたはバージョンを作成する"
+
+#: ../../user-manual/add-edit-content/rights.rst:387
+msgid "delete = remove from the repository"
+msgstr "削除 = リポジトリから取り除く"
+
+#: ../../user-manual/add-edit-content/rights.rst:389
+msgid ""
+"AtoM includes 2 other default basis terms: discover, and display. These were"
+" added because PREMIS is intended to support digital preservation, and its "
+"rights module does not get very granular, especially when applied to digital"
+" object permissions management in an access system."
+msgstr ""
+"AtoMにはもともと2つの他の基本用語が含まれています：「discover」と「display」です。これらはPREMISがデジタル保存をサポートするために意図されていること、そしてその権利モジュールは非常に詳細にはなっておらず、特にアクセスシステムにおけるデジタルオブジェクトの権限管理に適用された場合には、その限界があります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:394
+msgid ""
+"discover = based on \"Resource discovery\", i.e. exposing metadata through "
+"searches"
+msgstr "リソース発見に基づく、すなわちメタデータを検索を通じて公開する"
+
+#: ../../user-manual/add-edit-content/rights.rst:395
+msgid "display = display a digital object in a public access system"
+msgstr "表示 = デジタルオブジェクトを一般公開のアクセスシステムで表示する"
+
+#: ../../user-manual/add-edit-content/rights.rst:397
+msgid ""
+"Users can use these terms as originally defined, or based on local "
+"interpretations. New terms can be added to the Rights act taxonomy as need, "
+"and unnecessary terms can be altered or deleted. For more information on "
+"managing terms and taxonomies, see: :ref:`terms`."
+msgstr ""
+"ユーザーは、これらの用語を元々定義された通りに使用することも、ローカルの解釈に基づいて使用することもできます。必要に応じて新しい用語をRights "
+"act分類法に追加したり、不要な用語を変更したり削除したりすることができます。用語と分類法の管理についての詳細は、こちらを参照してください：:ref:`terms`。"
+
+#: ../../user-manual/add-edit-content/rights.rst:402
+msgid ""
+"Next, use the permissions table to indicate whether viewing/downloading "
+"digital objects should be allowed or disallowed. You will set these "
+"permissions for each of possible Rights bases (Copyright, License, Statute, "
+"Policy, and Donor), covering each of the three possible restrictions (Allow,"
+" Conditional, and Disallow). For each restriction you will also indicate "
+"whether viewing and downloading :term:`masters <master digital object>`, "
+":term:`reference representations <reference display copy>` and "
+":term:`thumbnails <thumbnail>` are allowed or disallowed."
+msgstr ""
+"次に、デジタルオブジェクトの閲覧やダウンロードを許可するか否かを示すために、権限表を使用します。これらの権限は可能な全ての権利基盤（著作権、ライセンス、法律、ポリシー、および寄贈者）について、3つの可能な制限（許可、条件付き、および禁止）ごとに設定します。各制限について、:term:`マスター<master"
+" digital object>`、:term:`参照用表現<reference display copy>`、および "
+":term:`サムネイル<thumbnail>` の閲覧とダウンロードが許可されているか否かも指示します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:413
+msgid ""
+"You can only make rights actionable based on one act/granted right, "
+"determined by the PREMIS act :term:`drop-down menu` above the permissions "
+"table. Other acts and granted rights can be added to an :term:`archival "
+"description`, but they will have no effect on the visibility of digital "
+"objects to your users."
+msgstr ""
+"一つの行為/付与された権利に基づいてのみ権利を実行可能にすることができ、それは権限テーブルの上にあるPREMIS行為:term:`ドロップダウン・メニュー`によって決定されます。他の行為や付与された権利を:term:`アーカイブ記述`に追加することはできますが、それらは利用者がデジタルオブジェクトを表示する上での影響を及ぼしません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:419
+msgid ""
+"When a check-box in the permissions table is **checked** (and the area "
+"surrounding it is green), it means that access is allowed for that "
+"particular rights configuration. When a check-box is **unchecked** (and the "
+"area surrounding it is red), it means that access is disallowed for that "
+"particular rights configuration."
+msgstr ""
+"権限テーブルのチェックボックスが**チェック**されている（そしてその周囲が緑色になっている）場合は、その特定の権限設定に対してアクセスが許可されていることを意味します。チェックボックスが**チェックされていない**（そしてその周囲が赤色になっている）場合は、その特定の権限設定に対してアクセスが禁止されていることを意味します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:425
+msgid ""
+"You can use the \"Master,\" \"Reference,\" and \"Thumb\" buttons above each "
+"row to check or uncheck all basis rows in a particular column. You can also "
+"use the \"All / none\" link below the table to check or uncheck all values "
+"in the permissions table:"
+msgstr ""
+"各行の上にある「マスター」、「リファレンス」、「サムネイル」というボタンを使用して、特定の列にある全基本行をチェックまたはチェック解除することができます。また、テーブル下にある「全て"
+" / なし」というリンクを使用して、権限テーブル内の全ての値をチェックまたはチェック解除することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid ""
+"Using the select buttons to toggle values for an entire permissions column"
+msgstr "選択ボタンを使用して、権限列全体の値を切り替える"
+
+#: ../../user-manual/add-edit-content/rights.rst:435
+msgid ""
+"Don't forget to **save** your changes with the \"Save\" button in the "
+":term:`button block` at the bottom of the page."
+msgstr "変更した内容を保存する場合は、ページの下部にある「ボタンブロック」内の「保存」ボタンを忘れずにクリックしてください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:438
+msgid ""
+"Remember, for your rights to have an effect on a :term:`digital object` "
+"attached to an :term:`archival description`:"
+msgstr ""
+"あなたの権利が:term:`アーカイバルデスクリプション`に添付された:term:`デジタルオブジェクト`に影響を与えるためには、次のことを覚えておいてください："
+
+#: ../../user-manual/add-edit-content/rights.rst:441
+msgid ""
+"A Rights statement must be associated with the description (see above, "
+":ref:`rights-archival-description`)"
+msgstr ""
+"権利に関するステートメントは、記述に関連付けられていなければなりません（上記を参照： ref:`rights-archival-"
+"description`）。"
+
+#: ../../user-manual/add-edit-content/rights.rst:443
+msgid ""
+"The associated rights must have the same :term:`act` as the one set in the "
+"PREMIS act :term:`drop-down menu` above the permissions table in |gears| "
+"**Admin > Settings > Permissions**"
+msgstr ""
+"関連する権利は、|gears| **管理 > 設定 > 権限** の権限表の上にあるPREMIS行為 :term:`ドロップダウンメニュー` "
+"に設定されている :term:`行為` と同じでなければなりません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:446
+msgid ""
+"The basis of the rights on your archival description must be configured to "
+"disallow access in the permissions table in  |gears| **Admin > Settings > "
+"Permissions**"
+msgstr ""
+"アーカイブ記述に基づく権利は、|gears| **管理 > 設定 > 権限**にて、権限テーブルでアクセスを禁止するように設定されている必要があります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:449
+msgid ""
+"The user must be a public user (e.g. not logged in; also known as a "
+":term:`researcher`) - the rights do not apply to authenticated (e.g. logged "
+"in) users"
+msgstr ""
+"ユーザーは一般ユーザーである必要があります（例: ログインしていない; :term:`研究者`とも呼ばれる） - 権利は認証済みの（例: "
+"ログインしている）ユーザーには適用されません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:453
+msgid ""
+"For a public user, when access to the :term:`thumbnail` is disallowed based "
+"on an attached rights statement, AtoM will instead display a default generic"
+" media type icon:"
+msgstr ""
+"一般ユーザーにとって、添付された権利声明に基づいて:term:`サムネイル`へのアクセスが許可されていない場合、AtoMは代わりにデフォルトの汎用メディアタイプアイコンを表示します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example of default icons shown in place of thumbnails"
+msgstr "デフォルトのアイコンの例（サムネイルの代わりに表示）"
+
+#: ../../user-manual/add-edit-content/rights.rst:462
+msgid ""
+"When access to the :term:`reference display copy` is disallowed based on an "
+"attached rights statement, users will instead be shown the related Access "
+"statement, depending on the Basis of your PREMIS right. Access statements "
+"are intended to be user-friendly messages explaining the restriction, and "
+"can be configured by an :term:`administrator` - see below for more "
+"information: :ref:`disallow-statements`."
+msgstr ""
+"用語「参照表示コピー」へのアクセスが添付された権利声明に基づいて禁止される場合、ユーザーは代わりに関連するアクセス声明を表示されます。これは、PREMIS権利の根拠に応じて異なります。アクセス声明は、制限を説明するユーザーフレンドリーなメッセージを意図しており、用語「管理者」によって設定可能です。より詳しい情報については以下を参照してください："
+" :ref:`disallow-statements`。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid ""
+"Example of an access statement shown when access to a reference\n"
+"display copy is restricted via PREMIS rights"
+msgstr "アクセス制限されている参照用表示コピーへのアクセスに関する声明の例を、PREMIS権利によって表示します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:475
+msgid ""
+"If access to the :term:`reference display copy` is allowed, but access to "
+"the :term:`master digital object` (e.g. the original) is disallowed, the "
+"users will be able to view the reference copy, but they will not be able to "
+"click on it to view/download the original."
+msgstr ""
+"参照用ディスプレイコピーへのアクセスが許可されているが、マスターデジタルオブジェクト（例：オリジナル）へのアクセスが禁止されている場合、ユーザーは参照用コピーを閲覧することができますが、それをクリックしてオリジナルを閲覧・ダウンロードすることはできません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:483
+msgid "Example: Configuring copyright permissions"
+msgstr "例: 著作権許可設定"
+
+#: ../../user-manual/add-edit-content/rights.rst:485
+msgid "Here is an example use case:"
+msgstr "以下は使用例の一例です："
+
+#: ../../user-manual/add-edit-content/rights.rst:487
+msgid ""
+"Suppose an institution has determined that their digital objects fall into 3"
+" categories: those that are in the public domain, those that are definitely "
+"still under copyright, and those that have an unknown copyright status. The "
+"institution does a risk assessment and determines that:"
+msgstr ""
+"ある機関が、自らのデジタルオブジェクトが3つのカテゴリーに分類されることを判断しました。パブリックドメインにあるもの、確実にまだ著作権の対象であるもの、著作権の状態が不明なものです。機関はリスク評価を行い、以下のことを決定しました："
+
+#: ../../user-manual/add-edit-content/rights.rst:492
+msgid "Public domain digital objects can be accessed by anyone in any format"
+msgstr "公共ドメインのデジタルオブジェクトは、誰でもどのような形式でもアクセスできます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:493
+msgid ""
+"Items under copyright can only be viewed online in their thumbnail version"
+msgstr "著作権があるアイテムはサムネイルバージョンでのみオンラインで閲覧可能です。"
+
+#: ../../user-manual/add-edit-content/rights.rst:494
+msgid ""
+"Items with unknown or uncertain copyright status can be viewed online, but "
+"only in smaller resolution. It is determined to be too risky to allow online"
+" access to the master copies."
+msgstr ""
+"著作権の状態が不明または不確定なアイテムはオンラインで閲覧することができますが、解像度が低いものに限られます。マスターコピーへのオンラインアクセスを許可することはリスクが高すぎると判断されています。"
+
+#: ../../user-manual/add-edit-content/rights.rst:498
+msgid ""
+"The institution has created rights records for their archival descriptions "
+"using the act \"Display\"."
+msgstr "その機関は、行為「ディスプレイ」を使用して、彼らのアーカイブ記述のための権利記録を作成しました。"
+
+#: ../../user-manual/add-edit-content/rights.rst:501
+msgid "This institution would set their Permissions as such:"
+msgstr "この機関は、次のようにアクセス権を設定します:"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example permissions settings"
+msgstr "例のアクセス許可設定"
+
+#: ../../user-manual/add-edit-content/rights.rst:508
+msgid ""
+"Example rights records in the related archival descriptions could look like "
+"this:"
+msgstr "関連するアーカイブ記述における例示的な権利記録は、以下のようになる可能性があります："
+
+#: ../../user-manual/add-edit-content/rights.rst:511
+msgid "Public domain items: Display - Allow"
+msgstr ""
+"\n"
+"公有領域アイテム：表示 - 許可"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example rights records when displayed is Allowed"
+msgstr "表示時の権利レコードの例は「許可済み」となります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:519
+msgid ""
+"The digital object would display, and would also be \"clickable\" to access "
+"the master copy:"
+msgstr "デジタルオブジェクトが表示され、マスターコピーにアクセスするために\"クリック可能\"になります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example of digital object for which display is allowed."
+msgstr "表示が許可されているデジタルオブジェクトの例。"
+
+#: ../../user-manual/add-edit-content/rights.rst:527
+msgid "Copyrighted items: Display - Disallow"
+msgstr "著作権付きアイテム：表示 - 不許可"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example rights records when displayed is Disallowed"
+msgstr "表示された時の例示的な権利記録は「不許可」となっています。"
+
+#: ../../user-manual/add-edit-content/rights.rst:534
+msgid ""
+"The digital object would not display, and is replaced by a statement "
+"explaining why it is not visible:"
+msgstr "デジタルオブジェクトは表示されず、なぜ表示されないのかを説明する文が代わりに表示されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example of digital object for which display is disallowed."
+msgstr "表示が許可されていないデジタルオブジェクトの例。"
+
+#: ../../user-manual/add-edit-content/rights.rst:542
+msgid "Uncertain copyright: Display - Conditional"
+msgstr "不確実な著作権：表示 - 条件付き"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example rights records when displayed is Conditional"
+msgstr "権利記録の例を表示すると条件付きになります"
+
+#: ../../user-manual/add-edit-content/rights.rst:549
+msgid ""
+"The image will display in its reference representation, but will not be "
+"\"clickable\", preventing the user from using the master image:"
+msgstr "画像は参照表示で表示されますが、「クリック可能」にはならず、利用者がマスター画像を使用することを防ぎます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Example of digital object for which display is conditional."
+msgstr "表示が条件付きのデジタルオブジェクトの例。"
+
+#: ../../user-manual/add-edit-content/rights.rst:559
+msgid ""
+"For another possible way of dealing with access to digital objects with "
+"conditional copyright restrictions, see below, :ref:`copyright-pop-up`."
+msgstr ""
+"著作権が条件付きで制限されているデジタルオブジェクトへのアクセスを扱うもう一つの可能な方法については、以下を参照してください： "
+":ref:`copyright-pop-up`。"
+
+#: ../../user-manual/add-edit-content/rights.rst:567
+msgid "Configure Disallowed and Conditional access statements"
+msgstr "アクセス不許可および条件付きアクセス声明の設定"
+
+#: ../../user-manual/add-edit-content/rights.rst:569
+msgid ""
+"When access to the :term:`reference display copy` of a digital object is "
+"restricted to public users via a PREMIS right, AtoM will display a "
+"customizable access statement in its place:"
+msgstr ""
+"デジタルオブジェクトの:term:`リファレンス表示コピー`へのアクセスがPREMIS権利によって一般ユーザーに対して制限されている場合、AtoMはその代わりにカスタマイズ可能なアクセス声明を表示します："
+
+#: ../../user-manual/add-edit-content/rights.rst:579
+msgid ""
+"Depending on how you have configured the permissions (see above, "
+":ref:`rights-digital-object`), the access statement will also display in the"
+" :term:`digital object` metadata :term:`information area` for relevant "
+"versions of the digital object that are restricted by rights:"
+msgstr ""
+"権限がどのように設定されているかによって（上記の「権利に関するデジタルオブジェクト」を参照してください）、アクセス声明は、権利によって制限されているデジタルオブジェクトの関連バージョンのデジタルオブジェクトメタデータ情報エリアにも表示されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid ""
+"Example of an access statement shown in the digital object metadata\n"
+"area when access to both the master and reference display copy are\n"
+"restricted via PREMIS rights"
+msgstr ""
+"デジタルオブジェクトのメタデータ領域に表示されるアクセスステートメントの例は、マスターコピーや参照用ディスプレイコピーのいずれのアクセスもPREMIS権利を介して制限されている場合。"
+
+#: ../../user-manual/add-edit-content/rights.rst:593
+msgid ":ref:`digital-object-metadata`"
+msgstr ":ref:`デジタル・オブジェクトのメタデータ`"
+
+#: ../../user-manual/add-edit-content/rights.rst:595
+msgid ""
+"Access statements are intended to be user-friendly explanations of why "
+"access is restricted, and what the user can do (if anything) to gain access "
+"(for example, contact the Reference Archivist, etc)."
+msgstr ""
+"アクセス声明は、アクセスが制限されている理由と、ユーザーがアクセスを得るために（もしあれば）何ができるか（例えば、リファレンスアーキビストに連絡するなど）についてのユーザーフレンドリーな説明を意図しています。"
+
+#: ../../user-manual/add-edit-content/rights.rst:599
+msgid ""
+"These access statements can be individually configured for each Rights basis"
+" by an :term:`administrator`, in |gears| **Admin > Settings > Permissions**."
+" Scroll down to the section labelled \"PREMIS access statements\":"
+msgstr ""
+"これらのアクセスステートメントは、それぞれの権利基盤に対して、:term:`管理者`によって |gears| **管理 > 設定 > 権限** "
+"で個別に設定することができます。\"PREMISアクセスステートメント\"とラベル付けられたセクションまでスクロールダウンしてください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of the PREMIS access statements in Settings"
+msgstr "設定内のPREMISアクセスステートメントのイメージ"
+
+#: ../../user-manual/add-edit-content/rights.rst:608
+msgid ""
+"The different Rights basis terms along the left act as tabs - click on one "
+"to flip the view and display the current accesss statement text for that "
+"basis. Each basis has a Conditional access statement (when the associated "
+"rights restriction is set to \"Conditional\" and the permissions table "
+"setting for the :term:`reference display copy` is set to \"Disallow\"), and "
+"A Disallow access statement (when the rights restriction is \"Disallow\" and"
+" the associated permission for the reference copy is also \"Disallow\"). You"
+" can add custom text for each."
+msgstr ""
+"左側にある異なる権利根拠の用語はタブとして機能します。それらのうちの一つをクリックすると、その根拠に関する現在のアクセス声明文が表示されるビューに切り替わります。各根拠には、Conditional"
+" access "
+"statement（関連する権利制限が「Conditional」と設定され、「参照用ディスプレイコピー」の権限テーブル設定が「Disallow」に設定されている場合）と、Disallow"
+" access "
+"statement（権利制限が「Disallow」とされており、参照コピーに関連する権限も「Disallow」に設定されている場合）があります。それぞれにカスタムテキストを追加することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:619
+msgid ""
+"The PREMIS Rights basis :term:`terms <term>` are all maintained in a "
+":term:`taxonomy`. The terms can be edited or deleted, and new terms can be "
+"added by logged-in users with appropriate :term:`access privileges <access "
+"privilege>`. If a new term is added to the Right basis taxonomy, then a new "
+"tab will be added to the PREMIS access statements section in |gears| **Admin"
+" > Settings > Permissions**. An :term:`administrator` can then add custom "
+"Conditional and Disallow access statements for the new PREMIS basis."
+msgstr ""
+"PREMIS権利基準に関する用語は、全てタクソノミーに保持されています。これらの用語は、適切なアクセス権限を持つログインユーザーによって編集や削除が可能であり、また新しい用語を追加することもできます。Right"
+" basisタクソノミーに新しい用語が追加されると、PREMISアクセス声明のセクションに新しいタブが |gears| **管理 > 設定 > 権限**"
+" に追加されます。その後、管理者は新しいPREMIS基準に対してカスタム条件付きアクセス声明やアクセス不可声明を追加することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:628
+msgid ""
+"You can customize the access statements for each Rights basis, as needed "
+"based on local practice. When you have made the edits you want to each Basis"
+" tab, remember to scroll down and click \"Save\" in the :term:`button block`"
+" at the bottom of the page."
+msgstr ""
+"それぞれの権利の基礎（Rights "
+"basis）について、地域の慣習に基づいて必要に応じてアクセス声明をカスタマイズすることができます。各基礎のタブにあなたが必要な編集を行ったら、ページの下部にある「:term:`ボタンブロック`」までスクロールダウンして「保存」をクリックすることを忘れないでください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:638
+msgid "Configure a preservation system access statement"
+msgstr "保存システムアクセス声明の設定"
+
+#: ../../user-manual/add-edit-content/rights.rst:642
+msgid ""
+"In addition to supporting the local upload or linking of :term:`digital "
+"objects <digital object>`, Atom also supports basic integration with "
+"`Archivematica`_, a digital preservation workflow system. When used "
+"together, Archivematica can generate access derivatives from preservation "
+"files to be uploaded in AtoM. For more information, consult the "
+"Archivematica documentation:"
+msgstr ""
+"ローカルアップロードや:term:`デジタルオブジェクト<digital "
+"object>`のリンキングをサポートする以外にも、AtoMは`Archivematica`_というデジタル保存ワークフローシステムとの基本的な統合を支援しています。一緒に使用することで、Archivematicaは保存ファイルからアクセス用の派生物を生成し、それをAtoMにアップロードすることができます。詳細については、Archivematicaのドキュメントを参照してください："
+
+#: ../../user-manual/add-edit-content/rights.rst:649
+msgid ":ref:`archivematica:upload-atom`"
+msgstr ":ref:`archivematica:アトムへアップロード`"
+
+#: ../../user-manual/add-edit-content/rights.rst:651
+msgid ""
+"Since access to preservation files is frequently not publicly available by "
+"default, an :term:`administrator` can configure a custom preservation access"
+" statement to appear next to preservation metadata displayed in AtoM's "
+"digital object metadata :term:`information area`. For more information on "
+"the display of preservation file metadata in AtoM, see:"
+msgstr ""
+"保存ファイルへのアクセスはデフォルトで一般には公開されていないことが多いため、:term:`管理者`は、AtoMのデジタルオブジェクトのメタデータ:term:`インフォメーションエリア`に表示される保存メタデータの隣に表示するカスタム保存アクセス声明を設定することができます。AtoMにおける保存ファイルメタデータの表示に関する詳細は、次をご覧ください："
+
+#: ../../user-manual/add-edit-content/rights.rst:657
+msgid ":ref:`digital-object-preservation`"
+msgstr ":ref:`デジタル・オブジェクト保存`"
+
+#: ../../user-manual/add-edit-content/rights.rst:659
+msgid ""
+"Access statements are intended to be user-friendly explanations of why "
+"access is restricted, and what the user can do (if anything) to gain access "
+"(for example, contact the Reference Archivist, etc). Preservation access "
+"statements can be configured by an :term:`administrator` separately from the"
+" :ref:`Conditional and Disallow access statements <disallow-statements>` via"
+" AtoM's :ref:`permissions` settings."
+msgstr ""
+"アクセスステートメントは、アクセスが制限されている理由と、ユーザーがアクセス獲得のために（もしあれば）行うことができること（例えば、リファレンスアーキビストに連絡するなど）についての、ユーザーフレンドリーな説明を意図しています。保存アクセスステートメントは、:term:`管理者`によって、AtoMの:ref:`permissions`設定を通じて、:ref:`条件付き及び不許可アクセスステートメント"
+" <disallow-statements>`から別個に設定することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:666
+msgid ""
+"When enabled, this setting will display customizable text about any access "
+"conditions that might be placed on linked files that are held in an "
+"integrated preservation system such as `Archivematica`_. Note that these "
+"statement only appear in the metadata section for original files and "
+"preservation copies."
+msgstr ""
+"有効にすると、この設定によって、`Archivematica`_ "
+"のような統合された保存システムに保持されているリンクされたファイルに課せられる可能性のあるアクセス条件についてのカスタマイズ可能なテキストが表示されます。これらの声明は、元のファイルおよび保存コピーのメタデータセクションにのみ表示されることに注意してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:671
+msgid "**Using the preservation access statement**"
+msgstr "**保存用アクセス声明の使用**"
+
+#: ../../user-manual/add-edit-content/rights.rst:673
+msgid ""
+"The setting can be accessed by an :term:`administrator` via |gears| **Admin "
+"> Settings > Permissions**. See:"
+msgstr "この設定は :term:`管理者` が |gears| **管理 > 設定 > 権限** からアクセスできます。参照："
+
+#: ../../user-manual/add-edit-content/rights.rst:676
+msgid ":ref:`permissions`"
+msgstr ":ref:`権限`"
+
+#: ../../user-manual/add-edit-content/rights.rst:678
+msgid ""
+"To use the access statement, write the notice that applies to your "
+"institution in the text field. For example, you may not distribute original "
+"files and preservation copies over the Internet but do provide access to "
+"them on a dedicated machine in your  reference room. So your preservation "
+"system access statement may read: \"Access only provided on reference room "
+"computer.\"."
+msgstr ""
+"アクセスステートメントを利用するには、あなたの機関に適用される通知をテキストフィールドに記入します。例えば、オリジナルファイルや保存用コピーをインターネット上で配布することはできませんが、参考室の専用マシン上でのアクセスは提供しているかもしれません。そのため、あなたの保存システムのアクセスステートメントは次のようになるかもしれません：「アクセスは参考室のコンピューターでのみ提供されます。」"
+
+#: ../../user-manual/add-edit-content/rights.rst:684
+msgid "Toggle the \"Enable access statement\" option to \"yes\" and press \"Save\"."
+msgstr "「アクセスステートメントを有効にする」オプションを「はい」に切り替えて、「保存」を押してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Preservation system access statement"
+msgstr "保存システムアクセス声明"
+
+#: ../../user-manual/add-edit-content/rights.rst:691
+msgid ""
+"The statement now appears next to a \"Permissions\" label in the **Digital "
+"object metadata > Preservation Copies** section on your archival description"
+" view pages."
+msgstr ""
+"現在、このステートメントは「パーミッション」ラベルの隣に、アーカイブ情報記述のビューページの**デジタルオブジェクトメタデータ > 保存コピー** "
+"セクションに表示されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Display of preservation system access statement"
+msgstr "保存システムアクセス声明の表示"
+
+#: ../../user-manual/add-edit-content/rights.rst:705
+msgid ""
+"Add a Copyright statement before allowing access to a master digital object"
+msgstr "アクセスを許可する前に、マスターデジタルオブジェクトに著作権声明を追加してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:707
+msgid ""
+"There may be use cases where you wish to allow users access to the "
+":term:`master digital object` (i.e. the original :term:`digital object` you "
+"have uploaded), but want to remind users of the copyright terms involved in "
+"the digital object's usage and/or dissemination. For example, perhaps the "
+"terms of the copyright do not permit commercial use, or require attribution."
+msgstr ""
+"使用状況によっては、ユーザーに:term:`マスターデジタルオブジェクト`（つまり、アップロードされた元の:term:`デジタルオブジェクト`）にアクセスを許可したい場合がありますが、デジタルオブジェクトの使用および/または普及に関係する著作権条件についてユーザーに注意を促したいことがあります。たとえば、著作権の条件が商業的利用を許可していない場合や、帰属を要求している場合などです。"
+
+#: ../../user-manual/add-edit-content/rights.rst:713
+msgid ""
+"In these cases, AtoM includes the ability to configure a customizable "
+"copyright pop-up notice, that will appear for all users when they try to "
+"access the :term:`master digital object`. The copyright pop-up must be "
+"viewed, and an \"Accept\" button clicked (acknowledging the terms in the "
+"pop-up), before access to the master digital object is granted."
+msgstr ""
+"これらの場合、AtoMにはカスタマイズ可能な著作権ポップアップ通知を設定する機能が含まれており、すべてのユーザーが "
+":term:`マスターデジタルオブジェクト` "
+"にアクセスしようとしたときに表示されます。マスターデジタルオブジェクトへのアクセスが許可される前に、著作権ポップアップが表示され、「承諾」ボタンがクリックされて（ポップアップの条件を認めること）、その内容が閲覧されなければなりません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:721
+msgid ""
+"The copyright statment will **only** work when it is applied to digital "
+"objects that are uploaded locally - not to those linked via URL to an "
+"external web address! This is because the pop-up relates to the "
+":term:`master digital object`. When you upload locally, then the master "
+"digital object is stored in AtoM. When you link to an external digital "
+"object, AtoM will generate local derivatives (ie the :term:`reference "
+"display copy` and the :term:`thumbnail`), but the master is still external!"
+msgstr ""
+"著作権声明は、ローカルにアップロードされたデジタルオブジェクトにのみ適用されます。外部のウェブアドレスへのURLを介してリンクされたものには適用されません！これは、ポップアップが:term:`master"
+" digital "
+"object`に関連しているためです。ローカルにアップロードした場合、マスターデジタルオブジェクトはAtoMに保存されます。外部デジタルオブジェクトへのリンクを作成した場合、AtoMはローカルの派生物（つまり、:term:`reference"
+" display copy`と:term:`thumbnail`）を生成しますが、マスターは依然として外部にあります！"
+
+#: ../../user-manual/add-edit-content/rights.rst:730
+msgid ""
+"We suggest using a different (perhaps custom) Basis, and applying rights "
+"with the settings configured to deny access to the master digital object, if"
+" you wish to restrict access to external digital objects. You can also hide "
+"the source URL from the Digital object metadata :term:`area <information "
+"area>` via the Visible elements module."
+msgstr ""
+"私たちは、外部のデジタルオブジェクトへのアクセスを制限したい場合は、異なる（場合によってはカスタムされた）基準を使用し、設定を構成してマスターデジタルオブジェクトへのアクセスを拒否する権利を適用することを提案します。また、Visible"
+" elementsモジュールを介して、デジタルオブジェクトのメタデータの:term:`情報エリア <information "
+"area>`からソースURLを非表示にすることもできます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:736
+msgid ""
+"For more information on configuring PREMIS settings, see :ref:`above "
+"<rights-digital-object>`. For information on uploading digital objects, see:"
+" :ref:`upload-digital-object`. For information on the Visible elements "
+"module, see: :ref:`visible-elements`."
+msgstr ""
+"PREMIS設定の構成に関する詳細情報については、:ref:`上記 <rights-digital-"
+"object>`を参照してください。デジタルオブジェクトのアップロードに関する情報は、:ref:`upload-digital-"
+"object`をご覧ください。Visible elementsモジュールに関する情報は、:ref:`visible-"
+"elements`を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:741
+msgid ""
+"There are two ways the copyright pop-up can be configured - either it can be"
+" set globally to apply to **all** locally uploaded digital objects (even if "
+"no Rights statement is applied), or else it can be configured to show only "
+"under certain conditions, including the presence of a related Rights record."
+" In this second case, the pop-up will come into effect when:"
+msgstr ""
+"著作権に関するポップアップは、二つの方法で設定することができます。一つ目の方法として、ローカルにアップロードされた**すべて**のデジタルオブジェクト（権利表明が適用されていない場合であっても）に対して全体的に適用されるように設定することができます。また、二つ目の方法として、関連する権利記録の存在など、特定の条件下でのみ表示されるように設定することが可能です。この二番目の場合、ポップアップは次の状況で有効になります："
+
+#: ../../user-manual/add-edit-content/rights.rst:747
+msgid ""
+"The copyright pop-up is enabled in |gears| **Admin > Settings > "
+"Permissions**"
+msgstr "|gears| **管理 > 設定 > 権限**で著作権ポップアップが有効になっています。"
+
+#: ../../user-manual/add-edit-content/rights.rst:749
+msgid ""
+"Users are granted sufficient :term:`access privileges <access privilege>` to"
+" access the :term:`master digital object`"
+msgstr ""
+"ユーザーには、`:term:`マスターデジタルオブジェクト`にアクセスするための十分な`:term:`アクセス権限 <access "
+"privilege>`が付与されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:751
+msgid ""
+"A Rights statement with a Copyright basis and the Restriction set to "
+"\"Conditional\" is attached to the associated :term:`archival description`"
+msgstr "権利声明には著作権を基盤とし、制限を「条件付き」に設定して、関連する:term:`アーカイブ記述`に添付されています。"
+
+#: ../../user-manual/add-edit-content/rights.rst:753
+msgid ""
+"The :term:`digital object` is uploaded locally, **not** linked via a web "
+"address (i.e. from an external site)."
+msgstr ""
+"用語「デジタルオブジェクト」はローカルにアップロードされ、ウェブアドレス（例えば、外部サイトから）を介してリンクされることは**ありません**。"
+
+#: ../../user-manual/add-edit-content/rights.rst:756
+msgid "More on each of these points will be included below."
+msgstr "これらのポイントについての詳細は以下に記載されています。"
+
+#: ../../user-manual/add-edit-content/rights.rst:761
+msgid "Configuring the copyright pop-up"
+msgstr "著作権ポップアップの設定"
+
+#: ../../user-manual/add-edit-content/rights.rst:763
+msgid ""
+"To enable and configure the copyright pop-up, click on the |gears| "
+":ref:`Admin menu <main-menu-admin>` in the AtoM :term:`header bar`, and "
+"select \"Settings\". AtoM will redirect you to the settings page. Choose "
+"\"Permissions\" in the left-hand navigation menu, and scroll down to the "
+"section entitled \"Copyright statement\":"
+msgstr ""
+"著作権ポップアップを有効化し、設定するには、AtoM :term:`ヘッダーバー`の|gears| :ref:`管理メニュー <main-menu-"
+"admin>`をクリックし、「設定」を選択します。AtoMは設定ページにリダイレクトします。左側のナビゲーションメニューから「権限」を選び、\"著作権声明\"というタイトルのセクションまでスクロールダウンします。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid ""
+"An image of the Copyright statement section of the Permissions settings"
+msgstr "許可設定の著作権声明セクションの画像です。"
+
+#: ../../user-manual/add-edit-content/rights.rst:774
+msgid ""
+"To activate the copyright statement, make sure that the \"Enable copyright "
+"statement\" :term:`radio button` is toggled to \"Yes\""
+msgstr "著作権声明を有効にするには、「著作権声明を有効にする」:term:`ラジオボタン`が「はい」に切り替えられていることを確認してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of the radio button enabling the Copyright statement"
+msgstr "著作権声明を有効にするラジオボタンの画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:782
+msgid ""
+"Now, in the text-box below, you can add the content you would like to see "
+"appear in your copyright statement. Content added here will be rendered "
+"similar to a :term:`static page` - that is, you can add HTML to style and "
+"structure the content. For tips on working with HTML in static pages, see: "
+":ref:`styling-static-page`. You can also drag the bottom of the text-box "
+"down to expand it, if you need more room to work."
+msgstr ""
+"以下のテキストボックスに、著作権表示に表示したい内容を追加することができます。ここに追加された内容は、:term:`static "
+"page`（静的ページ）のようにレンダリングされます。つまり、HTMLを使用して内容にスタイルと構造を追加することができます。静的ページでのHTMLの扱い方に関するヒントについては、:ref:`styling-"
+"static-page`をご覧ください。また、作業スペースが足りない場合はテキストボックスの底辺をドラッグして拡大することもできます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of the Copyright statement, with user-added text and HTML"
+msgstr "著作権声明の画像、ユーザーが追加したテキストとHTML付き"
+
+#: ../../user-manual/add-edit-content/rights.rst:794
+msgid ""
+"As you add your custom content, you can preview your work at any time to see"
+" how it will be rendered in the copyright pop-up page. Click the \"Preview\""
+" button below the text-box: AtoM will open a new tab in your browser, with a"
+" preview of the rendered Copyright statement. It will differ from an actual "
+"copyright statement in 3 ways:"
+msgstr ""
+"カスタムコンテンツを追加する際は、いつでも作業のプレビューを行い、著作権ポップアップページでどのように表示されるかを確認することができます。テキストボックスの下にある「プレビュー」ボタンをクリックすると、AtoMがブラウザの新しいタブを開き、レンダリングされた著作権声明のプレビューを表示します。これは実際の著作権声明と3つの点で異なります："
+
+#: ../../user-manual/add-edit-content/rights.rst:800
+msgid ""
+"At the top of the preview tab, a message in a blue box indicates this is the"
+" \"Copyright statement preview\""
+msgstr "プレビュータブの上部にある青いボックスのメッセージで、これは「著作権声明プレビュー」であることが示されています。"
+
+#: ../../user-manual/add-edit-content/rights.rst:802
+msgid ""
+"Where the title of the related :term:`archival description` would normally "
+"appear, the preview tab will only say \"Untitled\""
+msgstr "関連する:term:`アーカイブ記述` のタイトルが通常表示される場所で、プレビュータブには「無題」とのみ表示されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:804
+msgid ""
+"The \"Agree\" button in the :term:`button block` on the preview page will be"
+" disabled - normally users who click \"Agree\" will be taken to the related "
+":term:`master digital object`."
+msgstr ""
+"プレビューページの:term:`button block`にある「同意」ボタンは無効になります - "
+"通常、「同意」をクリックするユーザは関連する:term:`master digital object`に遷移します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An example of the Copyright statement preview page"
+msgstr "著作権声明プレビューページの一例"
+
+#: ../../user-manual/add-edit-content/rights.rst:813
+msgid ""
+"Clicking \"Close\" in the copyright statement preview tab will close the "
+"tab."
+msgstr "「著作権声明プレビュータブ」で「閉じる」をクリックすると、そのタブは閉じます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:814
+msgid ""
+"If you want the copyright pop-up to apply globally to all digital objects, "
+"there is an additional setting below - Set the \"Apply to gevery digital "
+"object\" radio button to \"Yes\":"
+msgstr ""
+"デジタルオブジェクトすべてに対して著作権ポップアップを全体的に適用させたい場合は、以下の追加設定があります - "
+"「すべてのデジタルオブジェクトに適用する」ラジオボタンを「はい」に設定してください："
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "The setting to make the copyright pop-up apply globally"
+msgstr "グローバルに適用する著作権ポップアップの設定"
+
+#: ../../user-manual/add-edit-content/rights.rst:823
+msgid ""
+"When you are done configuring your copyright statement, don't forget to "
+"scroll down and click the \"Save\" button in the :term:`button block` at the"
+" bottom of the page."
+msgstr ""
+"あなたが著作権声明の設定を完了したら、ページの下部にある「ボタンブロック」:term:`button block` "
+"にスクロールダウンして「保存」ボタンをクリックするのを忘れないでください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:827
+msgid ""
+"There are some additional configuration steps required for the copyright "
+"pop-up to be properly applied - see below for more information."
+msgstr "著作権ポップアップが適切に適用されるためには、いくつかの追加設定ステップが必要です - 詳しくは以下をご覧ください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:833
+msgid "Applying the Copyright statement pop-up"
+msgstr "著作権声明ポップアップの適用"
+
+#: ../../user-manual/add-edit-content/rights.rst:835
+msgid ""
+"Now that you have enabled and configured the Copyright statement, there are "
+"still other conditions that must be met before your copyright statement will"
+" be seen:"
+msgstr "著作権声明を有効にして設定した後でも、著作権声明が表示される前に満たされなければならない他の条件があります："
+
+#: ../../user-manual/add-edit-content/rights.rst:839
+msgid ""
+"Users must be granted sufficient :term:`access privileges <access "
+"privilege>` to access the :term:`master digital object`."
+msgstr ""
+"ユーザーは、:term:`master digital object`にアクセスするために十分な:term:`アクセス権限 <access "
+"privilege>`を付与されなければなりません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:841
+msgid ""
+"The :term:`digital object` must be uploaded locally, **not** linked via a "
+"web address or URL (i.e. from an external site)."
+msgstr ""
+"デジタルオブジェクトはローカルにアップロードする必要があり、ウェブアドレスやURL（例：外部サイトから）を介してリンクされては**なりません**。"
+
+#: ../../user-manual/add-edit-content/rights.rst:843
+msgid ""
+"If you are not using the \"Apply to every digital object\" setting, then "
+"there there is also an additional condition: a Rights statement with a "
+"Copyright basis and the Restriction set to \"Conditional\" must be attached "
+"to the associated :term:`archival description.`"
+msgstr ""
+"もし「すべてのデジタルオブジェクトに適用」設定を使用していない場合、追加の条件があります。著作権を基にした権利声明と、「条件付き」と設定された制限は、関連する:term:`アーカイブ記述`に添付されていなければなりません。"
+
+#: ../../user-manual/add-edit-content/rights.rst:848
+msgid "**Step 1: Granting sufficient access**"
+msgstr "ステップ1: 十分なアクセス権を付与する"
+
+#: ../../user-manual/add-edit-content/rights.rst:850
+msgid ""
+"For users to be able to see the Copyright statement, they must first have "
+"access to the :term:`master digital object`. By default, the \"anonymous\" "
+"group in AtoM's permissions module (e.g. a :term:`researcher` or public user"
+" who is not logged into the application) does **not** allow public users to "
+"view the master digital object - so you must change this setting from "
+"\"Inherit\" to \"Allow\" in |gears| **Admin > Groups > Anonymous > Archival "
+"description permissions**:"
+msgstr ""
+"利用者が著作権の声明を確認できるようにするためには、まず:term:`マスターデジタルオブジェクト`へのアクセスが必要です。デフォルトでは、AtoMの権限モジュール内の「匿名」グループ（たとえば、アプリケーションにログインしていない:term:`研究者`や一般公開ユーザー）は、一般公開ユーザーに対してマスターデジタルオブジェクトの閲覧を**許可していません**"
+" - そのため、この設定を「継承」から「許可」に変更する必要があります。|gears| **管理 > グループ > 匿名 > アーカイブ記述権限** "
+"で変更できます："
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid ""
+"Changing the default permissions for public users to allow access to\n"
+"the master digital object via Admin > Groups"
+msgstr ""
+"デフォルト権限を変更して、公開ユーザーが\n"
+"管理者 > グループを経由してマスターデジタルオブジェクトにアクセスできるようにします。"
+
+#: ../../user-manual/add-edit-content/rights.rst:866
+msgid ""
+"For more information on working with Users and Groups in AtoM, see: "
+":ref:`manage-user-accounts`. For more information on configuring the "
+"permissions for Users and Groups, see: :ref:`edit-user-permissions`."
+msgstr ""
+"AtoMでのユーザーやグループの操作に関する詳細は、以下を参照してください: :ref:`manage-user-"
+"accounts`。ユーザーやグループの権限設定に関する詳細は、以下を参照してください: :ref:`edit-user-permissions`。"
+
+#: ../../user-manual/add-edit-content/rights.rst:870
+msgid ""
+"If you are using the \"Apply to every digital object\" setting for the "
+"copyright pop-up, then nothing else needs to be done. Otherwise, there are "
+"additional steps to configure so that the copyright pop-up will only be "
+"selectively applied:"
+msgstr ""
+"「著作権ポップアップに”すべてのデジタルオブジェクトに適用”設定を使用している場合は、それ以上の操作は必要ありません。そうでない場合には、著作権ポップアップを選択的に適用するために追加の設定手順があります：」"
+
+#: ../../user-manual/add-edit-content/rights.rst:875
+msgid ""
+"You will also need to ensure that the PREMIS Rights permissions you have "
+"configured in |gears| **Admin > Settings > Permissions** will allow your "
+"users to access the :term:`master digital object` when the Basis is "
+"\"Copyright\" and the Restriction is \"Conditional\":"
+msgstr ""
+"また、|gears| **管理 > 設定 > "
+"権限**で設定したPREMIS権利の許可が、「基準」が「著作権」で、「制限」が「条件付き」である場合にユーザーが:term:`マスターデジタルオブジェクト`にアクセスできるようにする必要があります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "Changing the default PREMIS permissions for Copyright"
+msgstr "著作権に関するデフォルトのPREMIS権限を変更する"
+
+#: ../../user-manual/add-edit-content/rights.rst:887
+msgid ""
+"For more information on configuring the PREMIS permissions, see above, "
+":ref:`rights-digital-object`."
+msgstr "PREMIS権限の設定についての詳細は、上記の「デジタルオブジェクトの権利」をご覧ください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:890
+msgid ""
+"Now public users will have enough rights to access the master digital "
+"objects. If there are some masters to which you do not wish to grant access,"
+" you can always apply a PREMIS right with the Restriction \"Disallow\", and "
+"configure the permissions settings accordingly (see :ref:`above <rights-"
+"digital-object>` for further details on configuration). For the copyright "
+"pop-up statement to be presented, we still have to apply the appropriate "
+"Rights to related :term:`archival descriptions <archival description>`."
+msgstr ""
+"現在、一般ユーザーにはマスターデジタルオブジェクトにアクセスするための十分な権限が与えられます。アクセスを許可したくないマスターがある場合は、常に「Disallow」という制約を持つPREMIS権利を適用し、それに応じて権限設定を構成することができます（設定の詳細については上記の「rights-"
+"digital-"
+"object」を参照してください）。著作権のポップアップ声明が表示されるには、関連する「アーカイバルディスクリプション」に適切な権利を適用する必要があります。"
+
+#: ../../user-manual/add-edit-content/rights.rst:898
+msgid ""
+"**Step 2 - Applying the appropriate PREMIS rights (selective copyright pop-"
+"up)**"
+msgstr "**ステップ 2 - 適切なPREMIS権利情報の適用（選択性著作権ポップアップ）**"
+
+#: ../../user-manual/add-edit-content/rights.rst:902
+msgid ""
+"These requirements only apply when using the copyright pop-up selectively. "
+"If you have used the \"Apply to every digital object\" setting, then no "
+"associated Rights statement is required - the copyright pop-up will always "
+"be displayed before users are granted access to locally stored :term:`master"
+" digital objects <master digital object>`."
+msgstr ""
+"これらの要件は、著作権ポップアップを選択的に使用する場合にのみ適用されます。\"全てのデジタルオブジェクトに適用\" "
+"設定を使用している場合、関連する権利声明は必要ありません - "
+"著作権ポップアップは、ユーザーがローカルに保存されたマスターデジタルオブジェクトへのアクセスを許可される前に常に表示されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:908
+msgid ""
+"Unless the global setting is used, the Copyright statement is only triggered"
+" when specific PREMIS rights have been associated with the :term:`archival "
+"description` to which the :term:`digital object` is attached:"
+msgstr ""
+"グローバル設定が使用されていない限り、著作権声明は、:term:`デジタルオブジェクト`が添付されている "
+":term:`アーカイブ記述`に特定のPREMIS権利が関連付けられた場合にのみトリガーされます："
+
+#: ../../user-manual/add-edit-content/rights.rst:912
+msgid ""
+"**Act**: Whichever act you have chosen to be actionable in |gears| **Admin >"
+" Settings > Permissions**. See :ref:`above <rights-digital-object>` for "
+"further details on configuration."
+msgstr ""
+"**行為**: |gears| **管理 > 設定 > 権限**で実行可能と選択された行為です。設定の詳細は、上述の "
+":ref:`デジタルオブジェクトに関する権利<rights-digital-object>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:915
+msgid "**Basis**: Must be \"Copyright\""
+msgstr "**基礎**: \"著作権\"でなければならない"
+
+#: ../../user-manual/add-edit-content/rights.rst:916
+msgid "**Restriction:** Must be \"Conditional\""
+msgstr "**制限:** 「条件付き」でなければなりません"
+
+#: ../../user-manual/add-edit-content/rights.rst:918
+msgid ""
+"For example, if you have set \"Display\" as the Act in the Permissions "
+"settings, then the following rights statement, when applied to an "
+":term:`archival description` with a :term:`digital object` attached, will "
+"trigger the copyright statement:"
+msgstr ""
+"例えば、権限の設定で「表示」を行為として設定した場合、以下の権利表明が、:term:`デジタルオブジェクト`が添付された:term:`アーカイブ記述`に適用されると、著作権表明を引き起こします："
+
+#: ../../user-manual/add-edit-content/rights.rst:928
+msgid ""
+"For further guidance in applying actionable PREMIS rights to archival "
+"descriptions with associated digital objects, see the section above, "
+":ref:`rights-archival-description`. For an example use case, see: "
+":ref:`rights-digital-object-example`."
+msgstr ""
+"デジタルオブジェクトに関連付けられたアーカイブの記述に実行可能なPREMIS権利を適用するためのさらなるガイダンスについては、上記のセクション、`:ref:`rights-"
+"archival-description`を参照してください。使用例については、こちらをご覧ください: :ref:`rights-digital-"
+"object-example`。"
+
+#: ../../user-manual/add-edit-content/rights.rst:938
+msgid "Manage Rights holders records"
+msgstr "著作権保持者の記録を管理する"
+
+#: ../../user-manual/add-edit-content/rights.rst:940
+msgid ""
+"Users with :term:`editor` and :term:`administrator` access permissions can "
+"navigate to the :term:`main menu` located in the AtoM :term:`header bar` and"
+" click on the |edit| :ref:`Manage <main-menu-manage>` menu, then select "
+"Rights holders from the drop-down list. AtoM will take you to a browse page "
+"for Rights holders."
+msgstr ""
+"編集権限と管理者アクセス権限を持つユーザーは、AtoMのヘッダーバーにあるメインメニューに移動し、|edit| 「管理 <main-menu-"
+"manage>」メニューをクリックしてから、ドロップダウンリストから権利者を選択することができます。AtoMはあなたを権利者のブラウズページに連れて行きます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:7
+msgid "edit"
+msgstr ""
+"Your request seems to be incomplete. You've provided the word \"edit\" which"
+" does not give me enough context to provide a translation. If you have "
+"specific text related to Archivematica that you need translated into "
+"Japanese, please provide the complete sentences or paragraphs, and I'll be "
+"happy to help you with the translation."
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of the Manage menu in the AtoM header bar"
+msgstr "AtoMヘッダーバーの「管理」メニューの画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:953
+msgid ""
+"For general information on navigation in AtoM, see: :ref:`Access content "
+"<access-content>`. For general information on browse menus in AtoM, see: "
+":ref:`browse`. See also our section on the :ref:`Manage menu <main-menu-"
+"manage>`"
+msgstr ""
+"AtoMにおけるナビゲーションの一般的な情報については、こちらをご覧ください： :ref:`アクセス可能なコンテンツ <access-"
+"content>`。AtoMのブラウズメニューに関する一般的な情報については、こちらをご覧ください： "
+":ref:`ブラウズ`。また、:ref:`管理メニュー <main-menu-manage>`に関するセクションもご参照ください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:958
+msgid ""
+"An :term:`administrator` can also customize the elements that appear in the "
+":ref:`main-menu` via **Admin > Menus**. For more information, see: "
+":ref:`manage-menus`."
+msgstr ""
+"管理者は **管理 > メニュー** 経由で :ref:`main-menu` "
+"に表示される要素もカスタマイズできます。詳細については、:ref:`manage-menus` を参照してください。"
+
+#: ../../user-manual/add-edit-content/rights.rst:962
+msgid ""
+"When you have arrived at the Rights holders records browse page, AtoM "
+"provides a dedicated search box for searching existing rights holders in the"
+" system. For more information on using the Rights holders dedicated search "
+"box, see: :ref:`dedicated-search-rights`. The list of rights holders can be "
+"browsed by \"most recent\" or \"alphabetic\" via the :ref:`recurring-sort-"
+"button` on the page."
+msgstr ""
+"あなたが権利保有者記録閲覧ページに到着した時、AtoMはシステム内の既存の権利保有者を検索するための専用の検索ボックスを提供しています。権利保有者専用検索ボックスの使用方法の詳細については、以下を参照してください:"
+" :ref:`dedicated-search-rights`。権利保有者のリストは、ページ上の :ref:`recurring-sort-"
+"button` を通じて、「最新のもの」または「アルファベット順」で閲覧することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of the Rights holders browse page"
+msgstr "権利保有者ブラウズページの画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:974
+msgid ""
+"If you click on the hyper-link name of a rights holder, AtoM takes you to "
+"the View rights holder page."
+msgstr "権利保持者のハイパーリンク名をクリックすると、AtoMは「権利保持者を表示」ページに移動します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of a Rights holder view page"
+msgstr "権利保持者ビューページの画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:982
+msgid ""
+"The View rights holder page lets the authorized user edit and delete the "
+"existing rights holder record, or add a new rights holder."
+msgstr ""
+"「View rights "
+"holder」ページにて、認証されたユーザーは既存の権利保有者レコードの編集や削除を行うことができるほか、新しい権利保有者を追加することができます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:985
+msgid ""
+"If you click on the edit button, AtoM takes you to the Edit rights holder "
+"template. There are two areas: the Identity area and the Contact area. In "
+"the Identity area there is one data entry field, authorized form of name. In"
+" the Contact area there is add new button, which allows you to add a new "
+"contact person. If you click on the add new button, AtoM opens a contact "
+"information dialogue with three tabs, Main, Physical location and Other "
+"details. Add as much information into the Related contact information "
+"dialogue and click on the Submit button."
+msgstr ""
+"編集ボタンをクリックすると、AtoMは「権利保有者テンプレートの編集」画面に移行します。そこには「アイデンティティエリア」と「コンタクトエリア」の2つのエリアがあります。アイデンティティエリアには「公式な名称」というデータ入力フィールドが1つあります。コンタクトエリアには「新規追加」ボタンがあり、これを使うことで新しい連絡先を追加できます。「新規追加」ボタンをクリックすると、AtoMは連絡先情報ダイアログを開き、「メイン」、「物理的所在地」、「その他の詳細」という3つのタブが表示されます。関連する連絡先情報ダイアログにできるだけ多くの情報を入力し、「送信」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of editing a Rights holder record"
+msgstr "権利保有者の記録を編集する画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:999
+msgid ""
+"Remember to click on the Save button at the bottom of the rights holder page"
+" to save all the new information you have added to the rights holder record."
+" AtoM will reload the Rights holder record in :term:`view mode`."
+msgstr ""
+"権利所有者ページの下部にある「保存」ボタンをクリックし、権利所有者レコードに追加した全ての新しい情報を保存してください。AtoMは権利所有者レコードを「表示モード」で再読込します。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of button block when in edit mode"
+msgstr "編集モード時のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/rights.rst:1008
+msgid ""
+"If you click on the :term:`Delete button` located at the bottom of the "
+"Rights holder record when in :term:`view mode`, AtoM will ask you to confirm"
+" that you want to delete the Rights holder record. Click the \"Delete\" "
+"button to delete, or the \"Cancel\" button to return to Rights holder record"
+" :term:`view page`. If you click \"Delete,\" the Rights holder record will "
+"be permanently deleted."
+msgstr ""
+"以下の:term:`削除ボタン`をクリックすると、:term:`表示モード`で権利保持者レコードの一番下に位置しています。AtoMは、権利保持者レコードを削除してもよいか確認を要求します。\"削除\"ボタンをクリックして削除するか、\"キャンセル\"ボタンをクリックして権利保持者レコードの:term:`表示ページ`に戻ります。\"削除\"をクリックした場合、権利保持者レコードは完全に削除されます。"
+
+#: ../../user-manual/add-edit-content/rights.rst:-1
+msgid "An image of a deletion confirmation message on a Rights holder record"
+msgstr "権利保持者の記録に関する削除確認メッセージの画像"

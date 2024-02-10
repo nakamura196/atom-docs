@@ -1,0 +1,2675 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/access-content/navigate.rst:5
+msgid "Navigation in AtoM"
+msgstr "AtoMでのナビゲーション"
+
+#: ../../user-manual/access-content/navigate.rst:7
+msgid ""
+"This section introduces users to key navigation elements in AtoM, as well as"
+" recurring page elements that can be used to perform a variety of functions "
+"throughout the application. Navigating involves understanding the current "
+"location (:ref:`entity <entity-types>` and page), what can be done from that"
+" location (view, edit, add new, search, etc.), how to get related "
+":ref:`entities <entity-types>`, and how to go to other pages to do other "
+"things unrelated to the current entity."
+msgstr ""
+"このセクションでは、AtoMの主要なナビゲーション要素と、アプリケーション全体で多様な機能を実行するために使用できる繰り返しページ要素をユーザーに紹介します。ナビゲーションには、現在の場所（:ref:`エンティティ"
+" <entity-types>` およびページ）、その場所からできること（表示、編集、新規追加、検索など）、関連する :ref:`エンティティ "
+"<entity-types>` へのアクセス方法、および現在のエンティティとは関係のない他のページへの移動方法を理解することが含まれます。"
+
+#: ../../user-manual/access-content/navigate.rst:15
+msgid "**Below you'll find an introduction to:**"
+msgstr "以下に、次の内容の紹介を見つけることができます："
+
+#: ../../user-manual/access-content/navigate.rst:17
+msgid ":ref:`The AtoM header bar <atom-header-bar>`"
+msgstr ":ref:`AtoMヘッダーバー <atom-header-bar>`"
+
+#: ../../user-manual/access-content/navigate.rst:19
+msgid ":ref:`The log-in button <log-in-button>`"
+msgstr ":ref:`ログインボタン <log-in-button>`"
+
+#: ../../user-manual/access-content/navigate.rst:20
+#: ../../user-manual/access-content/navigate.rst:92
+msgid ":ref:`The quick links menu <quick-links-menu>`"
+msgstr ":ref:`クイックリンクメニュー <quick-links-menu>`"
+
+#: ../../user-manual/access-content/navigate.rst:21
+#: ../../user-manual/access-content/navigate.rst:93
+msgid ":ref:`The language menu <language-menu>`"
+msgstr ":ref:`言語メニュー <language-menu>`"
+
+#: ../../user-manual/access-content/navigate.rst:22
+#: ../../user-manual/access-content/navigate.rst:94
+msgid ":ref:`The clipboard menu <clipboard-menu-header>`"
+msgstr ":ref:`クリップボードメニュー <clipboard-menu-header>`"
+
+#: ../../user-manual/access-content/navigate.rst:23
+#: ../../user-manual/access-content/navigate.rst:95
+msgid ":ref:`The main menu <main-menu>`"
+msgstr ":ref:`メインメニュー <main-menu>`"
+
+#: ../../user-manual/access-content/navigate.rst:25
+msgid "|plus| :ref:`Add <main-menu-add>`"
+msgstr "|plus| :ref:`追加 <main-menu-add>`"
+
+#: ../../user-manual/access-content/navigate.rst:245
+msgid "plus"
+msgstr "Certainly, please provide the text you'd like to translate."
+
+#: ../../user-manual/access-content/navigate.rst:26
+msgid "|pencil| :ref:`Manage <main-menu-manage>`"
+msgstr "|鉛筆| :ref:`管理 <main-menu-manage>`"
+
+#: ../../user-manual/access-content/navigate.rst:248
+msgid "pencil"
+msgstr ""
+"ご質問の趣旨が不明確です。単に「pencil」という語を日本語に翻訳する必要があるのか、それとも「pencil」という語を含むArchivematicaに関するドキュメントの一節を指しているのかを明確にしていただけますか？もし単語の翻訳を希望されているなら、「pencil」は日本語で「鉛筆」と訳されます。もし文脈が必要な場合は、その内容を示してください。"
+
+#: ../../user-manual/access-content/navigate.rst:27
+msgid "|import| :ref:`Import <main-menu-import>`"
+msgstr "|import| :ref:`インポート <main-menu-import>`"
+
+#: ../../user-manual/access-content/navigate.rst:251
+msgid "import"
+msgstr "申し訳ありませんが、翻訳するテキストが提供されていません。テキストを提供していただければ、それに基づいて翻訳を行います。"
+
+#: ../../user-manual/access-content/navigate.rst:28
+msgid "|gears| :ref:`Admin <main-menu-admin>`"
+msgstr "|gears| :ref:`管理者 <main-menu-admin>`"
+
+#: ../../user-manual/access-content/navigate.rst:254
+msgid "gears"
+msgstr "「ギア」または「歯車」"
+
+#: ../../user-manual/access-content/navigate.rst:30
+#: ../../user-manual/access-content/navigate.rst:96
+msgid ":ref:`The browse menu <browse-menu>`"
+msgstr ":ref:`ブラウズメニュー <browse-menu>`"
+
+#: ../../user-manual/access-content/navigate.rst:31
+#: ../../user-manual/access-content/navigate.rst:97
+msgid ":ref:`The search box <search-box>`"
+msgstr ":ref:`検索ボックス <search-box>`"
+
+#: ../../user-manual/access-content/navigate.rst:32
+#: ../../user-manual/access-content/navigate.rst:98
+msgid ":ref:`The site logo <site-logo-element>`"
+msgstr ":ref:`サイトロゴ <site-logo-element>`"
+
+#: ../../user-manual/access-content/navigate.rst:34
+msgid ":ref:`Recurring page elements <recurring-page-elements>`"
+msgstr ":ref:`繰り返し発生するページ要素 <recurring-page-elements>`"
+
+#: ../../user-manual/access-content/navigate.rst:38
+msgid ":ref:`Entity types <entity-types>`"
+msgstr ":ref:`エンティティタイプ <entity-types>`"
+
+#: ../../user-manual/access-content/navigate.rst:39
+msgid ":ref:`Page types <page-types>`"
+msgstr ":ref:`ページタイプ <page-types>`"
+
+#: ../../user-manual/access-content/navigate.rst:40
+#: ../../user-manual/access-content/navigate.rst:1131
+msgid ":ref:`Search <search-atom>`"
+msgstr ":ref:`検索 <search-atom>`"
+
+#: ../../user-manual/access-content/navigate.rst:41
+#: ../../user-manual/access-content/navigate.rst:1130
+msgid ":ref:`Browse <browse>`"
+msgstr ":ref:`ブラウズ <browse>`"
+
+#: ../../user-manual/access-content/navigate.rst:42
+#: ../../user-manual/access-content/navigate.rst:722
+msgid ":ref:`Context menu <context-menu>`"
+msgstr ":ref:`コンテキストメニュー <context-menu>`"
+
+#: ../../user-manual/access-content/navigate.rst:43
+#: ../../user-manual/access-content/navigate.rst:434
+msgid ":ref:`Manage menus <manage-menus>`"
+msgstr ":ref:`メニューの管理 <manage-menus>`"
+
+#: ../../user-manual/access-content/navigate.rst:44
+#: ../../user-manual/access-content/navigate.rst:437
+msgid ":ref:`Settings <settings>`"
+msgstr ":ref:`設定 <settings>`"
+
+#: ../../user-manual/access-content/navigate.rst:49
+msgid "The AtoM Header Bar"
+msgstr "AtoMヘッダーバー"
+
+#: ../../user-manual/access-content/navigate.rst:51
+msgid ""
+"The :term:`header bar` is the primary means to access, manage, and create "
+"content in AtoM. It is persistent, meaning it remains available on all pages"
+" throughout the application. The :term:`header bar` includes the log-in "
+"button, :term:`quick links menu`, :term:`language menu`, :term:`clipboard "
+"menu`, :term:`search box`, :term:`browse menu`, and :term:`site logo` for "
+"all users, and the :term:`main menu` for authenticated (i.e. logged in) "
+"users."
+msgstr ""
+"ヘッダーバーは、AtoMでコンテンツにアクセスしたり、管理したり、作成したりする主要な手段です。常時表示されるため、アプリケーション内のすべてのページで利用可能です。ヘッダーバーには、ログインボタン、クイックリンクメニュー、言語メニュー、クリップボードメニュー、検索ボックス、ブラウズメニュー、そしてすべてのユーザー向けのサイトロゴが含まれており、認証済みの（つまり、ログインしている）ユーザー向けにはメインメニューが含まれています。"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the AtoM Header bar for unauthenticated users"
+msgstr "認証されていないユーザー向けのAtoMヘッダーバーの画像"
+
+#: ../../user-manual/access-content/navigate.rst:64
+msgid ""
+"Additionally, an :term:`administrator` can add a :term:`site title` and a "
+":term:`site description` via **Admin > Settings > Site information**, and "
+"then determine whether or not these are visible in the :term:`header bar` "
+"via **Admin > Settings > Default page elements**. The visibility of the "
+":term:`site logo` can also be controlled via Default page elements. For more"
+" information see :ref:`Settings <settings>`."
+msgstr ""
+"また、:term:`管理者`は**管理 > 設定 > "
+"サイト情報**から:term:`サイトタイトル`と:term:`サイト説明`を追加でき、それらが:term:`ヘッダーバー`に表示されるかどうかを**管理"
+" > 設定 > "
+"デフォルトページ要素**で決定することができます。:term:`サイトロゴ`の表示もデフォルトページ要素を通じて制御できます。詳しくは:ref:`設定 "
+"<settings>`を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:73
+msgid ""
+"An administrator can also use the settings available in |gears| **Admin > "
+"Settings > Default page elements** to hide some user interface elements, "
+"including the :term:`language menu`. See :ref:`Settings <settings>`."
+msgstr ""
+"管理者は、|gears| **管理 > 設定 > デフォルトページ要素** "
+"で利用可能な設定を使用して、`:term:`言語メニュー`を含む一部のユーザーインターフェース要素を非表示にすることもできます。詳細は :ref:`設定"
+" <settings>` を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:77
+msgid ""
+"The :term:`main menu` only becomes visible in the :term:`header bar` after a"
+" user has logged in. Depending on a user's :term:`access privileges <access "
+"privilege>`, the :term:`main menu` may show/hide different options - for "
+"example, only :term:`administrators <administrator>` will see the "
+":term:`Admin menu`. Access privileges are based on defined :term:`user roles"
+" <user role>` (see :ref:`User roles <user-roles>`)."
+msgstr ""
+"`:term:`メインメニュー``は、ユーザーがログインした後にのみ、`:term:`ヘッダーバー``に表示されます。ユーザーの`:term:`アクセス権限"
+" <access "
+"privilege>`に応じて、`:term:`メインメニュー``には異なるオプションが表示または非表示になることがあります。例えば、`:term:`管理者"
+" <administrator>`だけが`:term:`管理メニュー``を見ることができます。アクセス権限は、定義された`:term:`ユーザーロール "
+"<user role>`に基づいています（`:ref:`ユーザーロール <user-roles>`を参照）。"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the AtoM Header bar for Administrators"
+msgstr "管理者用AtoMヘッダーバーの画像"
+
+#: ../../user-manual/access-content/navigate.rst:91
+msgid ":ref:`The Log-in button <log-in-button>`"
+msgstr ":ref:`ログインボタン <log-in-button>`"
+
+#: ../../user-manual/access-content/navigate.rst:103
+msgid "|login| Log-in button"
+msgstr "|ログイン| ログインボタン"
+
+#: ../../user-manual/access-content/navigate.rst:105
+msgid "login"
+msgstr "ログイン"
+
+#: ../../user-manual/access-content/navigate.rst:107
+msgid ""
+"The log-in button, located in the :term:`header bar`, directs "
+"unauthenticated (i.e. not logged in) users to a log in screen where users "
+"with a :term:`user account` can enter their credentials (email and password)"
+" to log into the application. Once a user has successfully logged in, the "
+"log-in button will display their chosen user name. Clicking on the log-in "
+"button after logging in will reveal a :term:`drop-down menu` with the option"
+" to log out, or to visit the user's profile page, where a user can upate "
+"their credentials (username, email, password)."
+msgstr ""
+"ログインボタンは、:term:`ヘッダーバー`にあり、認証されていない（つまり、ログインしていない）ユーザーをログイン画面に誘導します。この画面で、:term:`ユーザーアカウント`を持つユーザーは自分の認証情報（メールアドレスとパスワード）を入力してアプリケーションにログインすることができます。ユーザーが正常にログインすると、ログインボタンは選択したユーザー名を表示します。ログインした後でログインボタンをクリックすると、ログアウトするオプションが含まれる:term:`ドロップダウンメニュー`が開き、またはユーザーのプロフィールページにアクセスすることができます。ここでは、ユーザーは自身の認証情報（ユーザー名、メールアドレス、パスワード）を更新することができます。"
+
+#: ../../user-manual/access-content/navigate.rst:118
+msgid ""
+"If your AtoM site has :ref:`CAS single sign-on <cas-enabling>` enabled then "
+"you will not be able to update your credentials from your profile page. You "
+"will need to contact your CAS administrator to make any changes."
+msgstr ""
+"もしAtoMサイトに :ref:`CASシングルサインオン<cas-enabling>` "
+"が有効になっている場合は、プロフィールページから資格情報を更新することはできません。変更を加えるにはCAS管理者に連絡する必要があります。"
+
+#: ../../user-manual/access-content/navigate.rst:122
+msgid "For more information on logging in, see: :ref:`Log in <log-in>`"
+msgstr "ログインについての詳しい情報は、以下を参照してください。:ref:`ログイン <log-in>`"
+
+#: ../../user-manual/access-content/navigate.rst:123
+msgid "For information on user roles, see: :ref:`User roles <user-roles>`"
+msgstr "ユーザーロールに関する情報については、以下を参照してください： :ref:`ユーザーロール <user-roles>`"
+
+#: ../../user-manual/access-content/navigate.rst:127
+msgid ":doc:`Manage user accounts <../administer/manage-user-accounts>`"
+msgstr "ドキュメント「ユーザーアカウントの管理 <../administer/manage-user-accounts>」"
+
+#: ../../user-manual/access-content/navigate.rst:128
+msgid ":doc:`Edit permissions <../administer/edit-permissions>`"
+msgstr ":doc:`権限の編集 <../administer/edit-permissions>`"
+
+#: ../../user-manual/access-content/navigate.rst:130
+#: ../../user-manual/access-content/navigate.rst:168
+#: ../../user-manual/access-content/navigate.rst:208
+#: ../../user-manual/access-content/navigate.rst:229
+#: ../../user-manual/access-content/navigate.rst:443
+#: ../../user-manual/access-content/navigate.rst:486
+#: ../../user-manual/access-content/navigate.rst:533
+#: ../../user-manual/access-content/navigate.rst:565
+#: ../../user-manual/access-content/navigate.rst:1530
+msgid ":ref:`Back to top <navigate>`"
+msgstr ":ref:`トップに戻る <navigate>`"
+
+#: ../../user-manual/access-content/navigate.rst:135
+msgid "|info| Quick links menu"
+msgstr "|情報| クイックリンクメニュー"
+
+#: ../../user-manual/access-content/navigate.rst:137
+msgid "info"
+msgstr ""
+"申し訳ありませんが、\"info\"という文言だけでは、翻訳すべき具体的なテキストが何かを特定できません。デジタルデータの長期保存に関するドキュメント、特にArchivematicaについてのより詳細な情報や文脈を提供していただければ、その情報に基づいて日本語への翻訳を行います。もし「info」が翻訳すべきテキストのタイトルや見出しなのであれば、それが指し示す具体的な内容を提供していただけると幸いです。"
+
+#: ../../user-manual/access-content/navigate.rst:141
+msgid ""
+"The :term:`quick links menu`, located in the :term:`header bar` in the top-"
+"right corner of the page, allows users to navigate to :term:`static pages "
+"<static page>` and/or other external links added to the application by an "
+":term:`administrator`."
+msgstr ""
+"ページ右上隅の :term:`ヘッダーバー` にある :term:`クイックリンクメニュー` では、ユーザーは :term:`固定ページ <static"
+" page>`や、アプリケーションに :term:`管理者` によって追加されたその他の外部リンクへと移動することができます。"
+
+#: ../../user-manual/access-content/navigate.rst:146
+msgid ""
+"By default, several static pages are included in AtoM and available through "
+"the quick links menu - the :term:`home page` and the :term:`about page`. "
+":term:`Administrators <administrator>` can customize the content on these "
+"pages via the :term:`user interface` and/or create new static pages (see: "
+":ref:`manage-static-pages`). Additionally, external links can be added to "
+"the quick links menu (or any menu) via **Admin > Menus** - often an "
+"administrator will add a direct link to their institution home page, and/or "
+"a link to the AtoM documentation (as a\"Help\" link)."
+msgstr ""
+"AtoMにはデフォルトでいくつかの静的ページが含まれており、クイックリンクメニューを通じてアクセスできます。その中には`:term:`ホームページ`や`:term:`アバウトページ`が含まれます。`:term:`管理者"
+" "
+"<administrator>`は、`:term:`ユーザーインターフェース`を通じてこれらのページのコンテンツをカスタマイズしたり、新しい静的ページを作成することができます（参照：`:ref:`管理-"
+"静的ページ`）。さらに、**管理 > "
+"メニュー**を通じてクイックリンクメニュー（または任意のメニュー）に外部リンクを追加することができます。管理者はしばしば、自分の機関のホームページへの直接リンクや、AtoMドキュメントへのリンクを（「ヘルプ」としてのリンクとして）追加します。"
+
+#: ../../user-manual/access-content/navigate.rst:155
+msgid "**For more information on managing menus and static pages, see:**"
+msgstr "**メニューや静的ページの管理についての詳細は、以下を参照してください：**"
+
+#: ../../user-manual/access-content/navigate.rst:157
+msgid ":ref:`manage-menus`"
+msgstr ":ref:`管理メニュー`"
+
+#: ../../user-manual/access-content/navigate.rst:158
+msgid ":ref:`manage-static-pages`"
+msgstr ":ref:`静的ページの管理`"
+
+#: ../../user-manual/access-content/navigate.rst:162
+msgid ""
+"Don't need or want the quick links menu in the :term:`header bar`? You can "
+"remove it entirely if you prefer. :term:`Administrators <administrator>` can"
+"  also change what links appear in the  quick links menu (and all menus) via"
+" **Admin > Menus**. For more information,  see: :ref:`Manage menus <manage-"
+"menus>`."
+msgstr ""
+"ヘッダーバーにクイックリンクメニューは必要ない、または望まないですか？もしそうであれば、完全に削除することができます。管理者は、**管理 > "
+"メニュー**経由でクイックリンクメニュー（およびすべてのメニュー）に表示されるリンクを変更することもできます。詳細については、次を参照してください：`メニューの管理"
+" <manage-menus>`。"
+
+#: ../../user-manual/access-content/navigate.rst:173
+msgid "|globe2| Language menu"
+msgstr "|globe2| 言語メニュー"
+
+#: ../../user-manual/access-content/navigate.rst:175
+msgid "globe2"
+msgstr ""
+"It seems like you've provided the word \"globe2\" which does not appear to be a part of a sentence or a meaningful context for translation. If \"globe2\" is part of a filename or a specific term within the context of Archivematica documentation you're working on, it doesn't require translation, as names and identifiers are typically kept in their original form. \n"
+"\n"
+"If \"globe2\" was intended to be a placeholder for actual documentation text, please provide the full sentence or paragraph for an accurate translation."
+
+#: ../../user-manual/access-content/navigate.rst:179
+msgid ""
+"The :term:`language menu`, located in the :term:`header bar` in the top-"
+"right corner of the page, allows the user to switch to any of the "
+":term:`supported languages <supported language>` in AtoM. It is available to"
+" all users (whether or not they are logged in). It is represented by a "
+"|globe| icon - clicking the globe icon will reveal a :term:`drop-down menu` "
+"that lists the available languages. When a user selects a language from the "
+"menu, the page will reload and all translated interface elements (such as "
+"menus, edit templates, :term:`tooltips`, labels, help text, etc.) will "
+"appear in the selected language, and will remain in the selected language "
+"until the user changes the language again."
+msgstr ""
+"ページの右上隅にある:term:`ヘッダーバー`に位置する:term:`言語メニュー`は、ユーザーがAtoMで:term:`サポートされている言語<supported"
+" "
+"language>`に切り替えることを可能にします。これは、ログインしているかどうかにかかわらず、すべてのユーザーが利用できます。それは地球儀のアイコン|globe|によって表され、地球儀のアイコンをクリックすると、利用可能な言語がリストされた:term:`ドロップダウンメニュー`が表示されます。ユーザーがメニューから言語を選択すると、ページはリロードされ、翻訳されたインターフェイス要素全て（メニュー、編集テンプレート、:term:`ツールチップ`、ラベル、ヘルプテキストなど）が選択された言語で表示されます。そして、ユーザーが再び言語を変えるまでその言語で表示され続けます。"
+
+#: ../../user-manual/access-content/navigate.rst:196
+msgid "globe"
+msgstr "地球"
+
+#: ../../user-manual/access-content/navigate.rst:192
+msgid ""
+"If the language menu is not needed for your site, it can be disabled and "
+"hidden via |gears| **Admin > Settings > Default page elements**. For more "
+"information, see: :ref:`default-page-elements`."
+msgstr ""
+"もし言語メニューがあなたのサイトに必要ない場合は、|gears| **管理者 > 設定 > デフォルトページ要素** "
+"から無効にして隠すことができます。さらに情報については、以下を参照してください： :ref:`default-page-elements`。"
+
+#: ../../user-manual/access-content/navigate.rst:200
+msgid ""
+"For more information on changing the language, see: :ref:`Choose language "
+"<choose-language>`"
+msgstr "詳しい情報は、言語の変更については以下を参照してください。:ref:`言語の選択 <choose-language>`"
+
+#: ../../user-manual/access-content/navigate.rst:205
+msgid ":doc:`Default language <../administer/default-language>`"
+msgstr ":doc:`デフォルト言語 <../administer/default-language>`"
+
+#: ../../user-manual/access-content/navigate.rst:206
+msgid ":ref:`Add/remove languages <add-remove-languages>`"
+msgstr ":ref:`言語の追加・削除 <add-remove-languages>`"
+
+#: ../../user-manual/access-content/navigate.rst:213
+msgid "|clip1| Clipboard menu"
+msgstr "|clip1| クリップボード メニュー"
+
+#: ../../user-manual/access-content/navigate.rst:215
+msgid "clip1"
+msgstr ""
+"お使いのプロンプトが不完全なため、具体的なテキストの内容がわかりません。Archivematicaに関する文書を日本語に翻訳するには、元のテキストが必要です。適切な文書の内容を提供いただければ、その翻訳を行うことができます。お待ちしております。"
+
+#: ../../user-manual/access-content/navigate.rst:219
+msgid ""
+"The :term:`Clipboard` is a :term:`user interface` element that allows users "
+"to select archival descriptions while searching and browsing, and add them "
+"to a list (the \"clipboard\"), for later review or further action. The "
+":term:`Clipboard menu` can be used to manage selections added to the "
+"clipboard, or to navigate to the clipboard. For more information on using "
+"the clipboard and the clipboard menu, see:"
+msgstr ""
+"「:term:`クリップボード`は、:term:`ユーザーインターフェース`要素のひとつで、ユーザーが検索や閲覧を行いながらアーカイブ記述を選択し、それをリスト（「クリップボード」と呼ばれる）に追加して、後でレビューするか、さらなるアクションのために保持できるようにします。:term:`クリップボードメニュー`を使用して、クリップボードに追加された選択を管理したり、クリップボードへナビゲートしたりすることができます。クリップボードおよびクリップボードメニューの使用方法についての詳細は、以下を参照してください：」"
+
+#: ../../user-manual/access-content/navigate.rst:226
+msgid ":ref:`clipboard`"
+msgstr ""
+"このテキストはreStructuredText（reST）形式の参照ラベルです。Archivematicaのドキュメント内で特定のセクションを参照するために使用されます。直接日本語に翻訳せず、そのまま保持するか、ドキュメントのコンテキストに応じて適切な日本語のセクションタイトルに置き換える必要があります。セクションタイトルが日本語に翻訳されている場合はそのタイトルを用い、そうでない場合は「クリップボード」という意味の日本語に置き換えることができます。例えば:\n"
+"\n"
+"``:ref:`クリップボード` ``\n"
+"\n"
+"ただし、reStructuredTextにおいて参照ラベルの機能を保持するために、この置き換えは慎重に行わなければなりません。また、具体的な翻訳についてはドキュメント全体の翻訳方針に従う必要があります。"
+
+#: ../../user-manual/access-content/navigate.rst:234
+msgid "Main menu"
+msgstr "メインメニュー"
+
+#: ../../user-manual/access-content/navigate.rst:236
+msgid ""
+"The :term:`main menu`  is a navigational tool appears in the AtoM "
+":term:`header bar` for authenticated (i.e. logged in) users. It consists of "
+"4 sub-menus, represented by icons:"
+msgstr ""
+":term:`main menu`は認証済み（つまりログインしている）ユーザーのためにAtoM :term:`header "
+"bar`に表示されるナビゲーショナルツールです。これは4つのサブメニューから成り立っており、アイコンで表されています："
+
+#: ../../user-manual/access-content/navigate.rst:240
+msgid ":ref:`Add <main-menu-add>` - represented by a |plus| icon"
+msgstr ":ref:`追加 <main-menu-add>` - |plus| アイコンで表されます"
+
+#: ../../user-manual/access-content/navigate.rst:241
+msgid ":ref:`Manage <main-menu-manage>` - represented by a |pencil| icon"
+msgstr ":ref:`管理 <main-menu-manage>` - |pencil| アイコンで表されます"
+
+#: ../../user-manual/access-content/navigate.rst:242
+msgid ":ref:`Import <main-menu-import>` - represented by a |import| icon"
+msgstr ":ref:`インポート <main-menu-import>` - |import| アイコンで表されます"
+
+#: ../../user-manual/access-content/navigate.rst:243
+msgid ":ref:`Admin <main-menu-admin>` - represented by a |gears| icon"
+msgstr ":ref:`管理 <main-menu-admin>` - |gears| アイコンで表されます"
+
+#: ../../user-manual/access-content/navigate.rst:258
+msgid ""
+"Each sub-menu is designed as a :term:`drop-down menu` - hovering over an "
+"icon in the :term:`main menu` will cause a :term:`tooltip <tooltips>` to "
+"appear with the name of the sub-menu (Add, Manage, Import, or Admin). "
+"Clicking on one of the icons will cause the drop-down to reveal the options "
+"available."
+msgstr ""
+"各サブメニューは`:term:`ドロップダウンメニュー`<drop-down "
+"menu>`として設計されており、`:term:`メインメニュー`<main "
+"menu>`のアイコンにカーソルを合わせると、サブメニューの名前（追加、管理、インポート、または管理者）を表示する`:term:`ツールチップ<tooltips>`が現れます。アイコンのいずれかをクリックすると、ドロップダウンが開いて利用可能なオプションが表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:263
+msgid ""
+"Access to the elements of the main menu (the sub-menus) depends on the "
+":term:`access privileges <access privilege>` associated with each user "
+"account. Consequently, some users may not see some of the icons for the sub-"
+"menus in the :term:`main menu` after logging in. Access privileges are "
+"determined by the :term:`user role` associated with a :term:`user account` -"
+" for example, a :term:`contributor` will see the :ref:`Add <main-menu-add>` "
+"and :ref:`Manage <main-menu-manage>` menus, but not the :ref:`Import <main-"
+"menu-import>` or :ref:`Admin <main-menu-admin>` menus. Only "
+":term:`adminstrators <administrator>` will see all 4 sub-menus (Add, Manage,"
+" Import, Admin) in the :term:`main menu`."
+msgstr ""
+"メインメニュー（サブメニュー）へのアクセスは、各ユーザーアカウントに関連付けられた:term:`アクセス権限<access "
+"privilege>`に依存します。その結果、一部のユーザーは、ログイン後、:term:`メインメニュー`の一部のサブメニューのアイコンが表示されないことがあります。アクセス権限は:term:`ユーザーアカウント`に関連付けられた:term:`ユーザー役割`によって決定されます。例えば、:term:`貢献者`は:ref:`追加<main-"
+"menu-add>`と:ref:`管理<main-menu-manage>`メニューを表示しますが、:ref:`インポート<main-menu-"
+"import>`や:ref:`管理者<main-menu-"
+"admin>`メニューは表示されません。:term:`管理者<administrator>`だけが、:term:`メインメニュー`の4つのサブメニュー（追加、管理、インポート、管理者）全てを表示します。"
+
+#: ../../user-manual/access-content/navigate.rst:274
+msgid "For information on user roles, see: :ref:`User roles <user-roles>`."
+msgstr "ユーザーロールに関する情報は、次を参照してください： :ref:`ユーザーロール <user-roles>`。"
+
+#: ../../user-manual/access-content/navigate.rst:275
+msgid ""
+"For information on managing User accounts see: :ref:`manage-user-accounts`."
+msgstr "ユーザーアカウントの管理に関する情報は、こちらを参照してください: :ref:`manage-user-accounts`。"
+
+#: ../../user-manual/access-content/navigate.rst:276
+msgid ""
+"For information on changing the permissions associated with an account or a "
+"group, see: :ref:`edit-user-permissions`."
+msgstr "アカウントまたはグループに関連付けられた権限を変更する方法についての情報は、以下を参照してください: :ref:`ユーザー権限の編集`。"
+
+#: ../../user-manual/access-content/navigate.rst:281
+msgid ""
+":term:`Administrators <administrator>` can add and remove options in the "
+"sub-menus (Add, Manage, Import, Admin) of the main menu via **Admin > "
+"Menus**. For more information, see :ref:`manage-menus`"
+msgstr ""
+"管理者は、メインメニューのサブメニュー（追加、管理、インポート、管理者）でオプションを追加または削除することができます。詳細については、`:ref:`manage-"
+"menus`を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:288
+msgid "|plus2| Add"
+msgstr "|plus2| 追加"
+
+#: ../../user-manual/access-content/navigate.rst:290
+msgid "plus2"
+msgstr ""
+"I'm sorry, but there appears to be a misunderstanding. You have provided the text \"plus2\" which does not constitute a meaningful passage for translation in the context of Archivematica documentation or digital data long-term preservation.\n"
+"\n"
+"If you have a specific passage from Archivematica documentation or relevant content related to long-term digital data preservation that you need translated into Japanese, please provide the full and exact text, and I will be glad to assist you with the translation."
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the Add menu's options"
+msgstr "メニュー追加オプションの画像"
+
+#: ../../user-manual/access-content/navigate.rst:299
+msgid ""
+"The Add menu's options will redirect users to blank records in :term:`edit "
+"mode`, ready for data entry. Using the Add menu, users can quickly create "
+"new :term:`accession records <accession record>`, :term:`archival "
+"descriptions <archival description>`, :term:`archival institutions <archival"
+" institution>`, :term:`authority records <authority record>`, "
+":term:`functions <function>`, and :term:`terms <term>`."
+msgstr ""
+"「追加」メニューのオプションは、データ入力のために準備された空白のレコードへユーザーをリダイレクトします。この「追加」メニューを使用することで、ユーザーは迅速に新しい：用語「受入レコード」、：用語「アーカイバル記述」、：用語「アーカイバル機関」、：用語「権威レコード」、：用語「機能」、および：用語「用語」を作成することができます。"
+
+#: ../../user-manual/access-content/navigate.rst:306
+msgid ""
+"All records are created independently of other records, and will not be a "
+"part of a pre-existing hierarchy - that is to say, they will be top-level "
+"records."
+msgstr "すべての記録は他の記録と独立して作成され、既存の階層構造の一部ではありません – つまり、それらは最上位レベルの記録となります。"
+
+#: ../../user-manual/access-content/navigate.rst:310
+#: ../../user-manual/access-content/navigate.rst:350
+msgid "**Find more information on working with:**"
+msgstr "**以下のトピックについて、詳しい情報を見つける方法:**"
+
+#: ../../user-manual/access-content/navigate.rst:312
+#: ../../user-manual/access-content/navigate.rst:352
+msgid ":ref:`Accession records <accession-records>`"
+msgstr ":ref:`受入記録 <accession-records>`"
+
+#: ../../user-manual/access-content/navigate.rst:313
+#: ../../user-manual/access-content/navigate.rst:727
+msgid ":ref:`Archival descriptions <archival-descriptions>`"
+msgstr ":ref:`アーカイバル記述 <archival-descriptions>`"
+
+#: ../../user-manual/access-content/navigate.rst:314
+#: ../../user-manual/access-content/navigate.rst:729
+msgid ":ref:`Archival institutions <archival-institutions>`"
+msgstr ":ref:`アーカイブ施設 <archival-institutions>`"
+
+#: ../../user-manual/access-content/navigate.rst:315
+#: ../../user-manual/access-content/navigate.rst:728
+msgid ":ref:`Authority records <authority-records>`"
+msgstr ":ref:`権威レコード <authority-records>`"
+
+#: ../../user-manual/access-content/navigate.rst:316
+msgid ":ref:`Functions <functions>`"
+msgstr ":ref:`機能 <functions>`"
+
+#: ../../user-manual/access-content/navigate.rst:317
+#: ../../user-manual/access-content/navigate.rst:730
+msgid ":ref:`Terms <terms>`"
+msgstr ":ref:`用語 <terms>`"
+
+#: ../../user-manual/access-content/navigate.rst:322
+msgid "|pencil2| Manage"
+msgstr "|鉛筆2| 管理"
+
+#: ../../user-manual/access-content/navigate.rst:324
+msgid "pencil2"
+msgstr ""
+"申し訳ありませんが、ご指示の内容が不明確です。提供されたテキスト \"pencil2\" "
+"には、翻訳対象となる具体的な文章またはパラグラフが含まれていません。もし翻訳をご希望の文章があれば、テキストをこちらに提供してください。それに基づいて適切に翻訳いたします。"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the Manage menu's options"
+msgstr "管理メニューのオプションのイメージ"
+
+#: ../../user-manual/access-content/navigate.rst:333
+msgid ""
+"The Manage menu allows authenticated (i.e. logged in) users to quickly "
+"access browse lists for key :ref:`entity types <entity-types>` in AtoM - "
+":term:`accessions <accession record>`, donors, :term:`physical storage`, "
+":term:`rights holders <rights record>`, and :term:`taxonomies <taxonomy>`. "
+"When selecting from the Manage menu's :term:`drop-down <drop-down menu>`, "
+"the user is redirected to a browse page for the selected :term:`entity` or "
+"record type. Users can also access the :term:`Jobs <job>` page for managing "
+"asynchrononous jobs run in the background - for more information, see: "
+":ref:`manage-jobs`"
+msgstr ""
+"管理メニューは認証されたユーザー（つまりログインしているユーザー）がAtoMの主要な：ref:`エンティティタイプ <entity-"
+"types>`、すなわち：term:`受入記録 <accession record>`、寄贈者、：term:`物理的保存 <physical "
+"storage>`、：term:`権利保有者 <rights record>`、および：term:`分類法 "
+"<taxonomy>`の閲覧リストに素早くアクセスできるようにします。管理メニューの：term:`ドロップダウンメニュー <drop-down "
+"menu>`から選択すると、ユーザーは選ばれた：term:`エンティティ`や記録タイプの閲覧ページにリダイレクトされます。ユーザーはまた、バックグラウンドで実行される非同期ジョブを管理するための：term:`ジョブ"
+" <job>`ページにアクセスすることもできます。詳細については、以下を参照してください: :ref:`manage-jobs`"
+
+#: ../../user-manual/access-content/navigate.rst:343
+msgid ""
+"The Manage menu is distinct from the :term:`Browse menu` (available next to "
+"the :term:`search box` in the :term:`header bar`), in that it offers users "
+"direct access to browse pages that are not available to unauthenticated "
+"(i.e. not logged in) users - public users who are not logged in cannot view "
+"accessions, donor records, physical storage locations, rights records, or "
+"access the full taxonomies list and the jobs page."
+msgstr ""
+"「管理」メニューは、ヘッダーバーにある検索ボックスの隣で利用可能な「ブラウズメニュー」とは異なり、認証されていないユーザー（つまりログインしていないユーザー）がアクセスできないブラウズページにユーザーが直接アクセスできるようにしています。公開ユーザーでログインしていない場合は、アクセッション、寄贈記録、物理的な収蔵場所、権利記録を閲覧したり、完全な分類リストやジョブページにアクセスすることができません。"
+
+#: ../../user-manual/access-content/navigate.rst:353
+msgid ":ref:`Donors <donors>`"
+msgstr ":ref:`寄付者 <donors>`"
+
+#: ../../user-manual/access-content/navigate.rst:354
+msgid ":ref:`Physical storage <physical-storage>`"
+msgstr ":ref:`物理ストレージ <physical-storage>`"
+
+#: ../../user-manual/access-content/navigate.rst:355
+msgid ":ref:`Rights <rights>`"
+msgstr ":ref:`権利 <rights>`"
+
+#: ../../user-manual/access-content/navigate.rst:356
+msgid ":ref:`Taxonomy terms <terms>`"
+msgstr ":ref:`タクソノミー用語 <terms>`"
+
+#: ../../user-manual/access-content/navigate.rst:357
+msgid ":ref:`Jobs <manage-jobs>`"
+msgstr ":ref:`ジョブの管理 <manage-jobs>`"
+
+#: ../../user-manual/access-content/navigate.rst:362
+msgid "|import2| Import"
+msgstr "インポート"
+
+#: ../../user-manual/access-content/navigate.rst:364
+msgid "import2"
+msgstr ""
+"ご提供いただいたテキスト「import2」に対するコンテキストが不足しているため、直接的な翻訳を行うことはできません。もし「import2」がコマンド名、関数名、または特定の用語の一部であれば、それは特定の文脈で異なる意味を持ち得ます。\n"
+"\n"
+"もしそのテキストが実際に翻訳を必要とする文章の一部であるとするならば、完全な文を提供していただければ、適切に翻訳を行うことができます。\n"
+"\n"
+"しかし、もし「import2」というテキストが単独で使用されており、それ自体に特定の意味があるのであれば、英語の \"import\" を日本語に翻訳すると「インポート」となります。数字の \"2\" は日本語でも同じ「2」と表記されます。したがって、「import2」は日本語でそのまま「インポート2」と表現される可能性があります。\n"
+"\n"
+"しかし、これはあくまで想定される翻訳であり、正しい翻訳を提供するためには、より多くの情報が必要です。もし、より詳細な文脈を提供していただける場合は、その情報をもとに正確な翻訳を行います。"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the Import menu's options"
+msgstr "インポートメニューのオプションの画像"
+
+#: ../../user-manual/access-content/navigate.rst:373
+msgid ""
+"The import menu allows authenticated (i.e. logged in) users with sufficient "
+":term:`access privileges <access privilege>` to import records into the "
+"application. By default, only :term:`administrators <administrator>` have "
+"access to the import menu - however, administrators can also change user and"
+" group permissions (see: :ref:`edit-user-permissions` and :ref:`manage-user-"
+"accounts`)."
+msgstr ""
+"インポートメニューは、十分な:term:`アクセス権限<access "
+"privilege>`を持つ認証済み（つまりログインしている）ユーザーがアプリケーションにレコードをインポートするために使用します。デフォルトでは、:term:`管理者<administrator>`のみがインポートメニューにアクセスできますが、管理者はユーザーやグループの権限も変更できます（参照：:ref:`edit-"
+"user-permissions` および :ref:`manage-user-accounts`）。"
+
+#: ../../user-manual/access-content/navigate.rst:380
+msgid ""
+"Two options are offered in the dropdown menu - XML (short for `eXtensible "
+"Markup Language <https://en.wikipedia.org/wiki/Xml>`__) and CSV (short for "
+"`Comma-Separated Values <https://en.wikipedia.org/wiki/Comma-"
+"separated_values>`__). Selecting one of the options from the Import "
+":term:`drop-down menu` will redirect the user to an import page specific to "
+"the format chosen. Using these options, an :term:`administrator` can import "
+"descriptions and :term:`terms <term>` into AtoM."
+msgstr ""
+"ドロップダウンメニューでは2つのオプションが提供されています - XML（`eXtensible Markup Language "
+"<https://en.wikipedia.org/wiki/Xml>`__ の略）と CSV（`Comma-Separated Values "
+"<https://en.wikipedia.org/wiki/Comma-separated_values>`__ "
+"の略）。インポート用の:term:`ドロップダウンメニュー`からいずれかのオプションを選択すると、選択したフォーマットに特化したインポートページにユーザーはリダイレクトされます。これらのオプションを用いて、:term:`管理者`は説明と:term:`用語"
+" <term>`をAtoMにインポートすることができます。"
+
+#: ../../user-manual/access-content/navigate.rst:389
+msgid "**Find more information on:**"
+msgstr "**詳細情報を見るには：**"
+
+#: ../../user-manual/access-content/navigate.rst:391
+msgid ":ref:`Importing descriptions and terms <import-xml>`"
+msgstr ":ref:`説明と用語のインポート <import-xml>`"
+
+#: ../../user-manual/access-content/navigate.rst:395
+#: ../../user-manual/access-content/navigate.rst:1067
+msgid ":ref:`Upload digital objects <upload-digital-object>`"
+msgstr ":ref:`デジタルオブジェクトのアップロード <upload-digital-object>`"
+
+#: ../../user-manual/access-content/navigate.rst:396
+msgid ":ref:`cli-bulk-import-xml`"
+msgstr ""
+"`:ref:`cli-bulk-import-"
+"xml`というテキストは、Markdown形式やreStructuredText形式で使用される参照（リファレンス）用のラベルです。このラベルは、ドキュメント内の特定のセクションへのリンクを提供するために使われます。そのため、このテキストは翻訳対象として適切ではありません。それは一種のマークアップであり、実際には指し示すセクションのタイトルを翻訳する必要があるでしょう。ただし、もし参照しているセクションのタイトルがわかれば、それを日本語に翻訳することはできます。例えば「CLIによるXMLの一括インポート」などです。ただし、具体的なセクションタイトルが分からないため、このラベル単体を翻訳することは推奨されません。"
+
+#: ../../user-manual/access-content/navigate.rst:397
+msgid ":ref:`cli-bulk-export`"
+msgstr ":ref:`CLI一括エクスポート`"
+
+#: ../../user-manual/access-content/navigate.rst:402
+msgid "|gears2| Admin"
+msgstr "|gears2| 管理者"
+
+#: ../../user-manual/access-content/navigate.rst:404
+msgid "gears2"
+msgstr ""
+"申し訳ありませんが、提供されたテキスト「gears2」は、翻訳するには具体的で十分な情報を含んでいません。もし「gears2」が特定の用語やコンテキスト内で使われているものであれば、その文脈を提供していただければ適切な翻訳を提供できるかもしれません。また、Archivematicaに関連する文書の一部である場合、その部分の全文や、具体的な瞬間を提供していただければ、翻訳の手助けができます。それ以外の場合、「gears2」は単独では意味を持たないか、特定の製品名やコード名の可能性があり、そのままの形で使われることが通常です。"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the Admin menu's options"
+msgstr "管理者メニューのオプションの画像"
+
+#: ../../user-manual/access-content/navigate.rst:413
+msgid ""
+"The admin menu allows users with :term:`administrator <administrator>` "
+"access to customize AtoM to meet institution-specific requirements and to "
+"manage :term:`user accounts <user account>`, :term:`user profiles <user "
+"profile>` and :term:`access privileges <access privilege>`. An administrator"
+" can also create and manage :term:`static pages <static page>`, alter "
+"application menus, change the visibility of elements in the :term:`header "
+"bar`, and change other application default settings."
+msgstr ""
+"管理メニューでは、:term:`管理者 "
+"<administrator>`アクセス権を持つユーザーが、機関固有の要件に合わせてAtoMをカスタマイズしたり、:term:`ユーザーアカウント "
+"<user account>`、:term:`ユーザープロファイル <user profile>`、:term:`アクセス権限 <access "
+"privilege>`を管理することができます。管理者は、:term:`静的ページ <static "
+"page>`の作成と管理、アプリケーションメニューの変更、:term:`ヘッダーバー`の要素の表示設定、その他のアプリケーションのデフォルト設定の変更も行うことができます。"
+
+#: ../../user-manual/access-content/navigate.rst:422
+msgid ""
+"By default, the admin menu is only visible to users with "
+":term:`administrator` privileges. However, an :term:`administrator` can also"
+" change user and group permissions (:term:`access privileges <access "
+"privilege>`) via the Admin menu."
+msgstr ""
+"デフォルトでは、管理者用メニューは:term:`管理者`権限を持つユーザーにのみ表示されます。しかし、:term:`管理者`は管理メニューからユーザーとグループの権限（:term:`アクセス権限"
+" <access privilege>`）も変更することができます。"
+
+#: ../../user-manual/access-content/navigate.rst:427
+msgid ""
+"**For more information working with Admin menu options, see:** "
+":ref:`Administer <administer>`"
+msgstr "**管理メニューオプションの使用に関する詳細情報については、以下を参照してください。** :ref:`管理する <administer>`"
+
+#: ../../user-manual/access-content/navigate.rst:430
+msgid ":ref:`Manage user accounts <manage-user-accounts>`"
+msgstr "`<manage-user-accounts>`_ユーザーアカウントの管理"
+
+#: ../../user-manual/access-content/navigate.rst:431
+#: ../../user-manual/access-content/navigate.rst:1071
+msgid ":ref:`Manage digital object storage <manage-digital-object-storage>`"
+msgstr ":ref:`デジタルオブジェクトストレージの管理 <manage-digital-object-storage>`"
+
+#: ../../user-manual/access-content/navigate.rst:432
+msgid ":ref:`Edit user permissions <edit-user-permissions>`"
+msgstr ":ref:`ユーザー権限を編集する<edit-user-permissions>`"
+
+#: ../../user-manual/access-content/navigate.rst:433
+msgid ":ref:`Manage static pages <manage-static-pages>`"
+msgstr ":ref:`静的ページの管理 <manage-static-pages>`"
+
+#: ../../user-manual/access-content/navigate.rst:435
+msgid ":ref:`Manage plugins <manage-plugins>`"
+msgstr ":ref:`プラグインの管理 <manage-plugins>`"
+
+#: ../../user-manual/access-content/navigate.rst:436
+msgid ":ref:`Themes and theming <themes>`"
+msgstr ":ref:`テーマとテーミング <themes>`"
+
+#: ../../user-manual/access-content/navigate.rst:438
+msgid ":ref:`Default language <default-language>`"
+msgstr ":ref:`デフォルト言語 <default-language>`"
+
+#: ../../user-manual/access-content/navigate.rst:439
+msgid ":ref:`Site logo <site-logo>`"
+msgstr ":ref:`サイトロゴ <site-logo>`"
+
+#: ../../user-manual/access-content/navigate.rst:440
+msgid ":ref:`Search for updates <search-updates>`"
+msgstr ":ref:`更新を検索 <search-updates>`"
+
+#: ../../user-manual/access-content/navigate.rst:441
+msgid ":ref:`Visible elements <visible-elements>`"
+msgstr ":ref:`可視要素 <visible-elements>`"
+
+#: ../../user-manual/access-content/navigate.rst:448
+msgid "|browse-menu| Browse menu"
+msgstr "|ブラウズメニュー| ブラウズ メニュー"
+
+#: ../../user-manual/access-content/navigate.rst:450
+msgid "browse-menu"
+msgstr "ブラウズメニュー"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the Browse menu's options"
+msgstr ""
+"ブラウズメニューのオプションの画像\n"
+"\n"
+"(Note: Without context, \"Browse\" could be translated in a few ways in Japanese, depending on its function. If it is the name of a menu or a feature in software, it might stay untranslated as \"ブラウズ\". However, if it is a command or action, it might be \"閲覧\". Thus, \"ブラウズメニュー\" assumes it's a named feature that shouldn't be translated.)"
+
+#: ../../user-manual/access-content/navigate.rst:457
+msgid ""
+"The browse menu provides persistent access to browse pages for some of "
+"AtoM's key :ref:`entity types <entity-types>`. Browsing allows a user to see"
+" all records that have a certain type of :term:`access point` (such as "
+":term:`subject`, :term:`name`, or :term:`place`) or other type of filter, "
+"such as :term:`media type` or  type of :term:`entity`. Users can then browse"
+" through the results provided, and/or further narrow the results via the use"
+" of :term:`facet filters <facet filter>`."
+msgstr ""
+"ブラウズメニューは、AtoMの主要な:ref:`エンティティタイプ<entity-"
+"types>`いくつかのブラウズページへの持続的なアクセスを提供します。ブラウズを行うことで、ユーザーはある種の:term:`アクセスポイント`（例えば:term:`主題`、:term:`名称`、または:term:`場所`）や、:term:`メディアタイプ`や:term:`エンティティ`の種類などのその他のフィルターを持つすべての記録を見ることができます。ユーザーは、提供された結果をさらにブラウズしたり、:term:`ファセットフィルター<facet"
+" filter>`の使用を通じて結果をさらに絞り込むことができます。"
+
+#: ../../user-manual/access-content/navigate.rst:465
+msgid ""
+"In AtoM's default theme (the :term:`Dominion theme`) the browse menu appears"
+" in a :term:`drop-down <drop-down menu>` next to the :ref:`search box "
+"<search-box>` in the :ref:`header bar <atom-header-bar>` on all pages. The "
+":term:`drop-down menu` contains links to browse pages for :term:`archival "
+"descriptions <archival description>`, :term:`authority records <authority "
+"record>`, :term:`archival institutions <archival institution>`, "
+":term:`subjects <subject>`, :term:`places <place>`, and :term:`digital "
+"objects <digital object>`."
+msgstr ""
+"AtoMのデフォルトテーマ（`:term:`Dominion theme`）では、すべてのページの:ref:`ヘッダーバー <atom-header-"
+"bar>`の:ref:`検索ボックス <search-box>`の隣に、:term:`ドロップダウンメニュー <drop-down "
+"menu>`形式のブラウズメニューが表示されます。この:term:`ドロッドダウンメニュー`には、:term:`アーカイバル記述 <archival "
+"description>`、:term:`権威記録 <authority record>`、:term:`アーカイバル機関 <archival "
+"institution>`、:term:`主題 <subject>`、:term:`場所 <place>`、および:term:`デジタルオブジェクト "
+"<digital object>`のブラウズページへのリンクが含まれています。"
+
+#: ../../user-manual/access-content/navigate.rst:474
+msgid ""
+"Additionally, a browse menu is included on the :term:`home page` when users "
+"first :ref:`log in <log-in>` to the application."
+msgstr ""
+"さらに、ユーザーがアプリケーションに最初に :ref:`ログイン<log-"
+"in>`したときには、:term:`ホームページ`にブラウズメニューが含まれています。"
+
+#: ../../user-manual/access-content/navigate.rst:477
+msgid ""
+"**For more information on browsing in AtoM see:** :ref:`Browse <browse>`"
+msgstr "**AtoMでのブラウジングに関する詳細情報は、以下を参照してください:** :ref:`ブラウズ <browse>`"
+
+#: ../../user-manual/access-content/navigate.rst:481
+msgid ""
+":term:`Administrators <administrator>` can change what links appear in the "
+"browse menu (and all menus) via **Admin > Menus**. For more information, "
+"see: :ref:`Manage menus <manage-menus>`."
+msgstr ""
+"管理者は、**Admin > Menus** "
+"経由でブラウズメニュー（およびすべてのメニュー）に表示されるリンクを変更することができます。詳細については、以下を参照してください: "
+":ref:`メニューの管理 <manage-menus>`。"
+
+#: ../../user-manual/access-content/navigate.rst:491
+msgid "Search box |searchbox|"
+msgstr "検索ボックス |searchbox|"
+
+#: ../../user-manual/access-content/navigate.rst:493
+msgid "searchbox"
+msgstr "サーチボックス"
+
+#: ../../user-manual/access-content/navigate.rst:496
+msgid ""
+"The search box is used to find descriptions in AtoM that contain text "
+"matching a search query. The search box is located in the :term:`header bar`"
+" on all AtoM pages, including the home page. By default, when a user enters "
+"text and presses enter, the results returned are for :term:`archival "
+"descriptions <archival description>`."
+msgstr ""
+"検索ボックスは、検索クエリと一致するテキストを含むAtoM内の記述を見つけるために使用されます。検索ボックスは、ホームページを含むAtoMの全てのページにある`:term:`ヘッダーバー`に位置しています。デフォルトでは、ユーザーがテキストを入力してエンターを押すと、返される結果は`:term:`アーカイバル記述<archival"
+" description>`用になります。"
+
+#: ../../user-manual/access-content/navigate.rst:502
+msgid ""
+"To enable the quick location of other core :ref:`entity types <entity-"
+"types>` such as :term:`authority records <authority record>` and "
+":term:`archival institutions <archival institution>`, the AtoM search box "
+"also implements :term:`typeahead`. As a user enters text into the search "
+"box, one or more possible matches are found and presented to the user in a "
+":term:`drop-down <drop-down menu>` below the search box, which continue to "
+"narrow as the user enters further text. This allows a user to dynamically "
+"view results and select a resource without necessarily having to enter its "
+"full name or title. The search box :term:`typeahead` results are organized "
+"into record-type categories (or :term:`facets <facet filter>`), including:"
+msgstr ""
+"他のコアな:ref:`実体タイプ <entity-types>`、例えば:term:`権威記録 <authority "
+"record>`や:term:`アーカイブ機関 <archival "
+"institution>`を迅速に検索するために、AtoMの検索ボックスは:term:`タイプアヘッド "
+"<typeahead>`も実装しています。ユーザーが検索ボックスにテキストを入力すると、一つまたは複数の可能な一致が見つかり、ユーザーに検索ボックスの下の:term:`ドロップダウンメニュー"
+" <drop-down "
+"menu>`で提示され、ユーザーがさらにテキストを入力すると絞り込みが続けられます。これにより、ユーザーは結果を動的に表示し、フルネームやタイトルを必ずしも入力することなくリソースを選択することができます。検索ボックスの:term:`タイプアヘッド"
+" <typeahead>`結果は、記録タイプのカテゴリー（または:term:`ファセットフィルタ <facet "
+"filter>`）に分類されて表示されます。これには以下が含まれます："
+
+#: ../../user-manual/access-content/navigate.rst:513
+msgid ":term:`Archival description`"
+msgstr ":term:`アーカイバルディスクリプション`"
+
+#: ../../user-manual/access-content/navigate.rst:514
+msgid ":term:`Authority record`"
+msgstr "権威レコード"
+
+#: ../../user-manual/access-content/navigate.rst:515
+msgid ":term:`Archival institution`"
+msgstr ":term:`アーカイバル機関`"
+
+#: ../../user-manual/access-content/navigate.rst:516
+msgid ":term:`Subjects <subject>`"
+msgstr "`:term:`主題 <subject>`"
+
+#: ../../user-manual/access-content/navigate.rst:517
+msgid ":term:`Places <place>`"
+msgstr "用語: `場所 <place>`"
+
+#: ../../user-manual/access-content/navigate.rst:519
+msgid ""
+"When multiple results for a record type exist, the :term:`typeahead` drop-"
+"down includes an option to view all records for a particular record type - "
+"clicking the \"View all\" link for a particular type of record will redirect"
+" the user to a browse page of results."
+msgstr ""
+"レコードタイプに複数の結果が存在する場合、`:term:`typeahead`ドロップダウンには特定のレコードタイプのすべてのレコードを表示するオプションが含まれています"
+" - 特定のタイプのレコードに対して「すべて表示」リンクをクリックすると、ユーザーはその結果のブラウズページにリダイレクトされます。"
+
+#: ../../user-manual/access-content/navigate.rst:524
+msgid ""
+"Additionaly, when a user has viewed an :term:`archival institution` record, "
+"clicking in the search box will reveal a set of :term:`radio buttons <radio "
+"button>` that allow the user limit the search results to the holdings of the"
+" most recently viewed :term:`archival institution`, or to search globally "
+"(i.e., across all records in the application)."
+msgstr ""
+"さらに、ユーザーが:term:`アーカイブ施設` の記録を閲覧した後で、検索ボックスをクリックすると、ユーザーが検索結果を最近閲覧した "
+":term:`アーカイブ施設` "
+"の所蔵品に限定するか、グローバルに検索する（つまり、アプリケーション内の全ての記録を横断して検索する）かを選択するための一連の "
+":term:`ラジオボタン<radio button>` が表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:530
+msgid ""
+"**For more information on searching in AtoM, see:** :ref:`search-atom`. "
+"**See also:** :ref:`advanced-search`."
+msgstr ""
+"AtoMでの検索方法に関する詳細は、次を参照してください： :ref:`search-atom`。また、次も参照してください： "
+":ref:`advanced-search`。"
+
+#: ../../user-manual/access-content/navigate.rst:538
+msgid "|site-logo| Site logo"
+msgstr "サイトロゴ"
+
+#: ../../user-manual/access-content/navigate.rst:540
+msgid "site-logo"
+msgstr "サイトロゴ"
+
+#: ../../user-manual/access-content/navigate.rst:543
+msgid ""
+"The :term:`site logo` is the graphic that appears at the top of all pages in"
+" the left-hand corner of the :term:`header bar` in AtoM. Clicking on the "
+"logo will take the user to the :term:`home page`. AtoM ships with a default "
+"logo that can be replaced by :term:`administrators <administrator>` to theme"
+" the application to their own institution or :term:`network` if desired: see"
+" :ref:`Site logo <site-logo>`."
+msgstr ""
+"次の用語「サイトロゴ」は、AtoMの「ヘッダーバー」左上のすべてのページに表示されるグラフィックです。ロゴをクリックすると、ユーザーは「ホームページ」に移動します。AtoMにはデフォルトのロゴが付属していますが、もし希望があれば「管理者」によって自身の機関や「ネットワーク」に合わせたテーマに置き換えることができます：「サイトロゴ"
+" <site-logo>」を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:552
+msgid ""
+"Users who do not have a logo, or who simply want to add a :term:`site title`"
+" to the :term:`header bar`, can do so via **Admin > Settings > Site "
+"information**, and make it visible in the :term:`header bar` via **Admin > "
+"Settings > Default page elements**. The :term:`site title`, when visible, "
+"will also act as a hyperlink to the :term:`home page`. To add and control "
+"the visibility of the site title, you must be an :term:`administrator`. For "
+"more information, see :ref:`Settings <settings>`."
+msgstr ""
+"ロゴを持っていないユーザーや、単純に:term:`ヘッダーバー`に:term:`サイトタイトル`を追加したいユーザーは、**管理 > 設定 > "
+"サイト情報**から行うことができます。また、**管理 > 設定 > "
+"デフォルトページ要素**を通じて:term:`ヘッダーバー`に表示することもできます。:term:`サイトタイトル`が表示されている場合、それは:term:`ホームページ`へのハイパーリンクとしても機能します。サイトタイトルを追加し、その表示を制御するには、:term:`管理者`である必要があります。詳細については、:ref:`設定"
+" <settings>`を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst
+msgid "An image of the site logo with a site title visible"
+msgstr "サイトロゴの画像と見えるサイトタイトル"
+
+#: ../../user-manual/access-content/navigate.rst:570
+msgid "Recurring page elements"
+msgstr "定期的なページ要素"
+
+#: ../../user-manual/access-content/navigate.rst:572
+msgid ""
+"This section outlines :term:`user interface` elements that appear throughout"
+" the AtoM application on different :ref:`page types <page-types>`. "
+"Understanding how these reoccurring page elements are used in the "
+"application will improve a user's ability to navigate the application "
+"effectively. Recurring page elements listed below include:"
+msgstr ""
+"このセクションでは、AtoMアプリケーション内の異なる:ref:`ページタイプ<page-"
+"types>`にわたって現れる:term:`ユーザーインターフェース`要素について概説します。これらの繰り返し現れるページ要素の使い方を理解することは、ユーザーがアプリケーションを効果的にナビゲートする能力を向上させるでしょう。以下にリストされている反復的なページ要素には以下のものが含まれます："
+
+#: ../../user-manual/access-content/navigate.rst:578
+msgid ":ref:`Title bar <recurring-title-bar>`"
+msgstr ":ref:`タイトルバー <recurring-title-bar>`"
+
+#: ../../user-manual/access-content/navigate.rst:579
+msgid ":ref:`Text links <recurring-text-links>`"
+msgstr ":ref:`テキストリンク <recurring-text-links>`"
+
+#: ../../user-manual/access-content/navigate.rst:580
+msgid ":ref:`Context menu <recurring-context-menu>`"
+msgstr ":ref:`コンテキストメニュー <recurring-context-menu>`"
+
+#: ../../user-manual/access-content/navigate.rst:581
+msgid ":ref:`Column headers <recurring-column-headers>`"
+msgstr ":ref:`繰り返しの列ヘッダー <recurring-column-headers>`"
+
+#: ../../user-manual/access-content/navigate.rst:582
+msgid ":ref:`Information areas <recurring-information-areas>`"
+msgstr ":ref:`情報エリア <recurring-information-areas>`"
+
+#: ../../user-manual/access-content/navigate.rst:583
+msgid ":ref:`Carousel <recurring-carousel>`"
+msgstr ":ref:`カルーセル <recurring-carousel>`"
+
+#: ../../user-manual/access-content/navigate.rst:584
+msgid ":ref:`Facet filters <recurring-facet-filters>`"
+msgstr ":ref:`絞り込みフィルタ <recurring-facet-filters>`"
+
+#: ../../user-manual/access-content/navigate.rst:585
+msgid ":ref:`Button block <recurring-button-block>`"
+msgstr ":ref:`ボタンブロック <recurring-button-block>`"
+
+#: ../../user-manual/access-content/navigate.rst:586
+msgid ":ref:`Breadcrumb trail <recurring-breadcrumb-trail>`"
+msgstr ":ref:`パンくずリスト <recurring-breadcrumb-trail>`"
+
+#: ../../user-manual/access-content/navigate.rst:587
+msgid ":ref:`Sort buttons <recurring-sort-button>`"
+msgstr ":ref:`ソートボタン <recurring-sort-button>`"
+
+#: ../../user-manual/access-content/navigate.rst:588
+msgid ":ref:`Institution logos <recurring-institution-logos>`"
+msgstr ":ref:`機関のロゴ <recurring-institution-logos>`"
+
+#: ../../user-manual/access-content/navigate.rst:593
+msgid "Title bar"
+msgstr "タイトルバー"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the title bar on an archival description"
+msgstr "アーカイブ記述のタイトルバーの画像"
+
+#: ../../user-manual/access-content/navigate.rst:600
+msgid ""
+"The :term:`title bar` is a contextual element that appears throughout AtoM "
+"on various different :ref:`page types <page-types>`, offering the user an "
+"indication of the type of page, and/or the name of the record, currently "
+"being viewed."
+msgstr ""
+"タイトルバー(term:title bar)は、AtoM内のさまざまな :ref:`ページタイプ<page-"
+"types>`にわたって表示されるコンテキスト要素であり、ユーザーに対して現在表示されているページのタイプやレコードの名前を示す指標となります。"
+
+#: ../../user-manual/access-content/navigate.rst:605
+msgid ""
+"On a :term:`view <view page>` or :term:`edit <edit page>` page, the "
+":term:`title bar` displays the name (title) of the current entity. The title"
+" bar appears at the top of core :ref:`entity <entity-types>` records in "
+"AtoM, including :term:`archival descriptions <archival description>`, "
+":term:`authority records <authority record>`, :term:`archival institutions "
+"<archival institution>`, :term:`functions <function>`, and :term:`terms "
+"<term>` (such as :term:`subjects <subject>` and :term:`places <place>`), as "
+"well as at the top of :term:`physical storage` locations. On :term:`archival"
+" descriptions <archival description>`, the title bar also displays the "
+":term:`level of description` of the displayed description."
+msgstr ""
+"閲覧ページ (:term:`view <view page>`)または編集ページ (:term:`edit <edit page>`) "
+"では、タイトルバー (:term:`title bar`) "
+"が現在のエンティティの名前（タイトル）を表示します。タイトルバーは、AtoMの中核となるエンティティレコード (:ref:`entity "
+"<entity-types>`) の一番上に表示され、これにはアーカイブ記述 (:term:`archival descriptions "
+"<archival description>`)、権威記録 (:term:`authority records <authority "
+"record>`)、アーカイブ機関 (:term:`archival institutions <archival institution>`)、機能 "
+"(:term:`functions <function>`)、用語 (:term:`terms <term>`)（例えば、主題 "
+"(:term:`subjects <subject>`) や場所 (:term:`places <place>`) "
+"など）が含まれます。さらに、物理的保管場所 (:term:`physical storage`) の一番上にも表示されます。アーカイブ記述 "
+"(:term:`archival descriptions <archival description>`) "
+"においては、タイトルバーは表示されている記述の記述レベル (:term:`level of description`) も表示します。"
+
+#: ../../user-manual/access-content/navigate.rst:-1
+msgid "An image of the title bar on a search results page"
+msgstr "検索結果ページのタイトルバーの画像"
+
+#: ../../user-manual/access-content/navigate.rst:622
+msgid ""
+"On Donor and :term:`accession <accession record>` records, the title bar "
+"displays a message indicating whether the record is in :term:`view <view "
+"mode>` or :term:`edit <edit mode>` mode, with the record's name/title "
+"display below (as a sub-title)."
+msgstr ""
+"ドナーおよび：term:`accession <accession record>`記録において、タイトルバーは記録が:term:`view <view"
+" mode>`モードか:term:`edit <edit "
+"mode>`モードかを示すメッセージを表示し、その下に（サブタイトルとして）記録の名前/タイトルが表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:627
+msgid ""
+"On :ref:`Browse <browse>` and :ref:`Search <search-atom>` pages, the "
+":term:`title bar` displays the number of results returned for the current "
+"query. Elsewhere in the application, the title bar gives context to the user"
+" about the :ref:`page type <page-types>` currently being viewed."
+msgstr ""
+":ref:`参照 <browse>` および :ref:`検索 <search-atom>` ページでは、:term:`タイトルバー` "
+"に現在のクエリで返された結果の数が表示されます。アプリケーションのその他の箇所では、タイトルバーはユーザーに対して現在閲覧している "
+":ref:`ページタイプ <page-types>` に関する文脈を提供します。"
+
+#: ../../user-manual/access-content/navigate.rst:635
+msgid "Text links"
+msgstr "テキストリンク"
+
+#: ../../user-manual/access-content/navigate.rst:637
+msgid ""
+"Blue text always represents a link to a related entity (for example, from an"
+" :term:`archival description` to the :term:`authority record` of the "
+"record's :term:`creator`). When you hover your cursor over a link, the text "
+"darkens in color. Text links behave similarly to internet `hyperlinks "
+"<https://en.wikipedia.org/wiki/Hyperlink>`__, and can be used as "
+"navigational elements: clicking on a text link will cause AtoM to redirect a"
+" user to the related record referenced in the text of the text link."
+msgstr ""
+"青色のテキストは常に関連するエンティティへのリンクを表しています（例えば、`:term:`archival "
+"description`（アーカイバル記述）から記録の`:term:`creator`（作成者）の`:term:`authority "
+"record`（権威記録）へ）。リンクの上にカーソルを置くと、テキストの色が濃くなります。テキストリンクはインターネットの`ハイパーリンク "
+"<https://ja.wikipedia.org/wiki/ハイパーリンク>`__と同様に動作し、ナビゲーショナル要素として利用できます：テキストリンクをクリックすると、AtoMがユーザーをテキストリンクのテキストに記載されている関連レコードにリダイレクトさせます。"
+
+#: ../../user-manual/access-content/navigate.rst:647
+msgid ""
+"Some text links are white in the ArchivesCanada theme, such as in the "
+":term:`context menu` (including the :term:`treeview`) and the "
+":term:`breadcrumb trail` at the top of many :term:`entity` :term:`view pages"
+" <view page>`. Text links in the :term:`Dominion theme` included as the "
+"default theme in AtoM are almost universally blue."
+msgstr ""
+"アーカイブカナダのテーマでは、いくつかのテキストリンクが白色になっています。例えば :term:`コンテキストメニュー`（:term:`ツリービュー` "
+"を含む）や、多くの :term:`エンティティ` :term:`ビューページ<ビューページ>` の上部にある :term:`パンくずリスト` "
+"などです。AtoMにデフォルトで含まれている :term:`ドミニオンテーマ` のテキストリンクは、ほぼ例外なく青色です。"
+
+#: ../../user-manual/access-content/navigate.rst:656
+msgid "Context menu"
+msgstr "コンテキストメニュー"
+
+#: ../../user-manual/access-content/navigate.rst:658
+msgid ""
+"The context menu appears on all :term:`view <view page>` and some "
+":term:`edit pages <edit page>` to provide greater contextual information "
+"about the record currently being viewed."
+msgstr ""
+"コンテキストメニューは、表示中の記録についての文脈的な情報をより多く提供するために、全ての「表示ページ」といくつかの「編集ページ」で表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:662
+msgid ""
+"AtoM's :term:`view <view page>` and :term:`edit <edit page>` pages are "
+"generally displayed in the :term:`user interface` in either a 2 or 3 column "
+"layout - the current record's display data is presented in the central part "
+"of the page, while the side column(s) are generally used to provide "
+"additional options and further contextual information to enhance user "
+"orientation and navigation."
+msgstr ""
+"AtoMの :term:`表示 <view page>` と :term:`編集 <edit page>` "
+"のページは、一般的に、2段組または3段組のレイアウトで :term:`ユーザーインターフェース` "
+"に表示されます。現在のレコードの情報はページの中央部分に表示され、サイドカラムは通常、追加オプションや、ユーザーのオリエンテーションとナビゲーションを向上させるためのさらなる文脈情報を提供するために使用されます。"
+
+#: ../../user-manual/access-content/navigate.rst:675
+msgid "Example of the context menu on an archival description"
+msgstr "アーカイブ記述におけるコンテキストメニューの例"
+
+#: ../../user-manual/access-content/navigate.rst:675
+msgid "Context menu (on left and right sides) on an archival description"
+msgstr "左右のサイドにある文書記述に対するコンテキストメニュー"
+
+#: ../../user-manual/access-content/navigate.rst:678
+msgid ""
+"On :term:`archival description` :term:`view pages <view page>`, this "
+"includes the name and/or :ref:`logo <recurring-institution-logos>` of the "
+":term:`archival institution` or :term:`repository` who holds the "
+":term:`archival unit` the current record describes, and the "
+":term:`treeview`, which shows the current record's relationships to other "
+"records, with links, on the left-hand side of the screen. The right-hand "
+"side of the screen includes links to related people and organizations (i.e.,"
+" :term:`authority records <authority record>`), :term:`subjects <subject>`, "
+"and :term:`places <place>`, as well as available formats for export and "
+"printing. Links in the right-hand column of the context menu are drawn from"
+msgstr ""
+"アーカイブ記述の閲覧ページには、現在の記録が記述しているアーカイブ単位を所持しているアーカイブ機関やリポジトリの名前やロゴ（反復する機関のロゴを参照）が含まれ、画面の左側には現在の記録と他の記録との関係を示すツリービューがリンク付きで表示されます。画面の右側には、関連する人物や組織（つまり、権威記録）、主題、場所へのリンク、さらにはエクスポートと印刷のための使用可能なフォーマットが含まれています。コンテキストメニューの右列のリンクは引用されています。"
+
+#: ../../user-manual/access-content/navigate.rst:689
+msgid ""
+"When viewing an :term:`authority record` for a person, family, or "
+":term:`corporate body`, the left-hand side of the screen will show any "
+"relationships with :term:`archival descriptions <archival description>`, "
+"where the agent (the person, family, or corporate body described in the "
+":term:`authority record`) is linked as either a :term:`creator` (or as an "
+"agent in any other :term:`event`), or when added as a name :term:`access "
+"point`. The right-hand column of the page includes available export formats."
+msgstr ""
+"人物、家族、または：term：`corporate body`の:term:`authority "
+"record`を閲覧する際、画面の左側には、エージェント（:term:`authority "
+"record`で記述されている人物、家族、または法人）が:term:`creator`（またはその他の:term:`event`のエージェント）として、あるいは名前:term:`access"
+" point`として追加された場合の、:term:`archival descriptions <archival "
+"description>`との関係性が表示されます。ページの右側の列には、利用可能なエクスポート形式が含まれています。"
+
+#: ../../user-manual/access-content/navigate.rst:699
+msgid ""
+"When a relationship is created between two :term:`authority records "
+"<authority record>` or between an authority record and a :term:`function`, "
+"the relationship is expressed in the body (i.e. the main part or center "
+"column) of the authority record's :term:`view page`, in the "
+"\"Relationships\" :term:`area <information area>` of the record."
+msgstr ""
+"ある:term:`authority records <authority record>`同士、またはauthority "
+"recordと:term:`function`間で関連付けが作成されるとき、その関連性は、authority recordの:term:`view "
+"page` の本文（つまり、主要部分または中央の列）の「関連性」:term:`area <information area>`に表現されます。"
+
+#: ../../user-manual/access-content/navigate.rst:705
+msgid ""
+"When viewing an :ref:`ISDIAH <isdiah-template>` record for an "
+":term:`archival institution`, the context menu displays the institution's "
+"logo and a list of holdings on the left-hand side, with contact information "
+"for the :term:`repository` provided on the right-hand side of the record. "
+"The contact information is drawn from the information added to the "
+"\"Contact\" :term:`area <information area>` of the :term:`archival "
+"institution` record."
+msgstr ""
+"：ref:`ISDIAH <isdiah-"
+"template>`記録を:term:`アーカイブ機関`のものを閲覧する際には、コンテキストメニューに機関のロゴと、左側に保有物のリストが表示され、記録の右側には:term:`リポジトリ`の連絡先情報があります。連絡先情報は、:term:`アーカイブ機関`の記録の「連絡先」:term:`エリア"
+" <information area>`に追加された情報から引き出されます。"
+
+#: ../../user-manual/access-content/navigate.rst:712
+msgid ""
+"On :ref:`Browse <browse>` and :ref:`Search <search-atom>` pages, the context"
+" menu includes :term:`facet filters <facet filter>` that allow the user to "
+"iteratively narrow the results presented. If the browse page is for a "
+":term:`term` that can be organized hierarchically in a :term:`taxonomy` "
+"(such as a :term:`place` or :term:`subject` term), a version of the "
+":term:`treeview` is also presented, showing users the terms position in the "
+"hierarchy as well as related \"sibling\" (i.e. on the same level) terms."
+msgstr ""
+"参照「ブラウズ <browse>」および「検索 <search-"
+"atom>」ページには、ユーザーが結果を段階的に絞り込むことができる「ファセットフィルター <facet "
+"filter>」が含まれたコンテキストメニューがあります。ブラウズページが階層的に整理可能な「用語」（例えば「場所」や「主題」の用語）のためのものであれば、その用語が階層内でどの位置にあるか、および関連する「兄弟」用語（すなわち同じレベル上の用語）を表示する「ツリービュー」バージョンも提示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:720
+msgid "**Find more information on using the Context menu:**"
+msgstr "コンテキストメニューの使用に関する詳しい情報は、次をご覧ください："
+
+#: ../../user-manual/access-content/navigate.rst:723
+msgid ":ref:`Treeview <context-menu-treeview>`"
+msgstr ":ref:`トリービュー <context-menu-treeview>`"
+
+#: ../../user-manual/access-content/navigate.rst:735
+msgid "Column headers"
+msgstr "列見出し"
+
+#: ../../user-manual/access-content/navigate.rst:743
+msgid "Sortable column headers in the Browse physical storage page"
+msgstr "ブラウズ物理ストレージページの並べ替え可能な列ヘッダー"
+
+#: ../../user-manual/access-content/navigate.rst:743
+msgid "Name and Updated column headers in the Browse Rights holders page"
+msgstr "「権利保有者ページを閲覧」での「名前」と「更新日」のカラムヘッダー"
+
+#: ../../user-manual/access-content/navigate.rst:745
+msgid ""
+":term:`Column headers <column header>` appear at the top of the lists on "
+"list pages and some browse results (e.g., :term:`subject` and :term:`place` "
+"browse pages), and give the name of the :term:`field` for whatever is being "
+"isted below. On some pages, the column headers include a |caret-down-grey| "
+"caret icon next to the column header :term:`field` name - when pressed, "
+"these icons will reverse the sort order of the data in the list based on "
+"that column (i.e., changing from A-Z to Z-A, or from most recently updated "
+"first to oldest update first)."
+msgstr ""
+"用語「列ヘッダー<column "
+"header>」は、リストページや一部のブラウズ結果（例えば、用語「主題<subject>」や「場所<place>」のブラウズページ）のリストの上部に表示され、下にリストされているものに関連するフィールドの名前を示しています。いくつかのページでは、列ヘッダーにはフィールド名の隣に|caret-"
+"down-grey| 矢印アイコンが含まれていて、これを押すとその列に基づいてリストのデータの並び順が逆になります（例えば、A-ZからZ-"
+"Aへ、または最新の更新から最も古い更新へ）。"
+
+#: ../../user-manual/access-content/navigate.rst:758
+msgid "caret-down-grey"
+msgstr "「グレーの下向きキャレット」"
+
+#: ../../user-manual/access-content/navigate.rst:754
+msgid ""
+"Column headers appear wherever display data on a page has been organized "
+"into a table, and are used extensively throughout the pages available in the"
+" :ref:`Admin menu <main-menu-admin>`."
+msgstr ""
+"ページ上でデータがテーブルに整理されて表示される場所にはどこでも列のヘッダーが現れ、これは「:ref:`管理メニュー <main-menu-"
+"admin>`」で利用可能なページを通じて広く利用されています。"
+
+#: ../../user-manual/access-content/navigate.rst:764
+msgid "Information areas"
+msgstr "情報分野"
+
+#: ../../user-manual/access-content/navigate.rst:772
+msgid "The Identity and Context Areas in an ISAD(G) archival description"
+msgstr "ISAD(G)アーカイブ記述におけるアイデンティティとコンテキストのエリア"
+
+#: ../../user-manual/access-content/navigate.rst:774
+msgid ""
+"Information areas appear on :term:`view <view page>` and :term:`edit <edit "
+"page>` pages of any standards-based description template in AtoM, and group "
+"related :term:`fields <field>` based on the organization of elements of "
+"description in `ICA <http://www.ica.org/>`__ or other supported descriptive "
+"standards. They are comprised of a number of :term:`fields <field>` in the "
+"body of the information area, and an :term:`area header`, whose name is "
+"drawn from the related area or section of the standard upon which the "
+"descriptive template is based."
+msgstr ""
+"AtoMにおけるあらゆる基準に基づいた記述テンプレートの :term:`表示 <view page>` ページと :term:`編集 <edit "
+"page>` ページに情報エリアが表示されます。これらは、 `ICA <http://www.ica.org/>`__ "
+"やその他のサポートされている記述標準の説明要素の組織に基づいて関連する :term:`フィールド <field>` "
+"をグループ化します。情報エリアは、情報エリア本体にある複数の :term:`フィールド <field>` "
+"と、記述テンプレートが基づく標準の関連エリアまたはセクションから取られた名前の :term:`エリアヘッダー` で構成されています。"
+
+#: ../../user-manual/access-content/navigate.rst:783
+msgid ""
+"By default, when no data has been entered into a :term:`field` in an "
+"information area's edit template, the field is not displayed when in "
+":term:`view mode`. Consequently, the size (length on a page) of an "
+"information area will depend on the amount of data that has been entered (or"
+" imported) by a user."
+msgstr ""
+"デフォルトでは、情報エリアの編集テンプレートにおいて何もデータが入力されていない:term:`field`（フィールド）は、:term:`view "
+"mode`（表示モード）で表示されません。その結果、情報エリアのサイズ（ページ上の長さ）は、ユーザーが入力（またはインポート）したデータの量に依存します。"
+
+#: ../../user-manual/access-content/navigate.rst:789
+msgid ""
+"Clicking on the :term:`area header` of an information area toggles it "
+"between closed (all fields in that area hidden) and open (all fields "
+"visible) when in :term:`edit mode`; in :term:`view mode`, clicking on an "
+":term:`area header` will result in opening the related information area in "
+":term:`edit mode` (**if** the user is logged in and has sufficient "
+":term:`access privileges <access privilege>` to edit a record.)"
+msgstr ""
+"情報エリアの`:term:`エリアヘッダー`をクリックすると、`:term:`編集モード`の時は閉じた状態（そのエリアの全てのフィールドが隠れる）と開いた状態（全てのフィールドが見える）を切り替えることができます。`:term:`閲覧モード`では、`:term:`エリアヘッダー`をクリックすると関連する情報エリアが`:term:`編集モード`で開きます（**もし**ユーザーがログインしており、レコードを編集するための十分な`:term:`アクセス権限"
+" <access privilege>`を持っている場合）。"
+
+#: ../../user-manual/access-content/navigate.rst:796
+msgid "**For more information, on supported standards, see:**"
+msgstr "**対応している標準に関する詳細情報は、以下をご覧ください：**"
+
+#: ../../user-manual/access-content/navigate.rst:798
+msgid ":ref:`Descriptive standards <descriptive-standards>`"
+msgstr ":ref:`記述標準 <descriptive-standards>`"
+
+#: ../../user-manual/access-content/navigate.rst:799
+msgid ":ref:`Data entry / templates <data-entry>`"
+msgstr ":ref:`データ入力 / テンプレート <data-entry>`"
+
+#: ../../user-manual/access-content/navigate.rst:804
+msgid "Carousel"
+msgstr "カルーセル"
+
+#: ../../user-manual/access-content/navigate.rst:806
+msgid ""
+"The :term:`carousel` shows sets of :term:`thumbnails <thumbnail>` of "
+":term:`digital objects <digital object>` associated with :term:`archival "
+"descriptions <archival description>` and allows the user to scroll through "
+"the thumbnails using a mouse or keyboard scroll arrows. It is similar to the"
+" `cover flow <http://en.wikipedia.org/wiki/Cover_flow>`_ used in \"*the "
+"Macintosh Finder and other Apple Inc. products for visually flipping through"
+" snapshots of documents, website bookmarks, album artwork, or "
+"photographs.*\""
+msgstr ""
+"以下は、Archivematicaに関するドキュメントの一部を日本語に翻訳したものです。\n"
+"\n"
+"「カルーセル（carousel）」は、アーカイブ記述（archival description）と関連付けられたデジタルオブジェクト（digital object）のサムネイル（thumbnail）のセットを表示し、ユーザーがマウスやキーボードのスクロール矢印を使ってサムネイルをスクロールしてみることができます。これは、\"*Macintosh Finderやその他のApple Inc.製品で、ドキュメント、ウェブサイトのブックマーク、アルバムアートワーク、写真などのスナップショットを視覚的にめくり見るために使用される*”カバーフロー（cover flow）（http://en.wikipedia.org/wiki/Cover_flow）と似ています。」"
+
+#: ../../user-manual/access-content/navigate.rst:821
+msgid "An image of the carousel in AtoM"
+msgstr "AtoMのカルーセルの画像"
+
+#: ../../user-manual/access-content/navigate.rst:821
+msgid "An example of the carousel with the \"Show all\" button visible"
+msgstr "以下のテキストは「Show all」ボタンが表示されているカルーセルの一例です。"
+
+#: ../../user-manual/access-content/navigate.rst:823
+msgid ""
+"In AtoM a :term:`carousel` viewer appears at the top of :term:`archival "
+"descriptions <archival description>` (but below the :ref:`title bar "
+"<recurring-title-bar>`)whenever there are associated lower-level "
+"descriptions that have :term:`digital objects <digital object>` attached. "
+"The carousel includes:"
+msgstr ""
+"AtoMでは、関連する下位レベルの説明が添付されているデジタルオブジェクトがある場合、タイトルバーの下に、アーカイブ説明の上部にカルーセルビューアが表示されます。カルーセルには次のものが含まれます："
+
+#: ../../user-manual/access-content/navigate.rst:829
+msgid ":term:`Thumbnails <thumbnail>` of lower-level digital objects"
+msgstr "下位レベルのデジタルオブジェクトの:term:`サムネイル <thumbnail>`"
+
+#: ../../user-manual/access-content/navigate.rst:830
+msgid ""
+"The title of the description to which the digital object is attached (titles"
+" are truncated with an `...` elipsis after 25 characters)"
+msgstr "デジタルオブジェクトが添付されている説明のタイトル（タイトルは25文字後に`...`の省略記号で切り捨てられます）"
+
+#: ../../user-manual/access-content/navigate.rst:832
+msgid ""
+"A draggable slider bar (for navigating with touch or using a mouse - right "
+"and left arrow keys can also be used for keyboard navigation)"
+msgstr "タッチ操作またはマウス使用時にナビゲートするためのドラッグ可能なスライダーバー（キーボードナビゲーションには右と左の矢印キーも使用可能）"
+
+#: ../../user-manual/access-content/navigate.rst:834
+msgid ""
+"If the lower-levels of description include more than 10 digital objects, a "
+"count of all digital objects at lower levels, and a button to view all in a "
+"browse page."
+msgstr ""
+"説明の下位レベルにデジタルオブジェクトが10個を超える場合、下位レベルの全デジタルオブジェクト数を表示し、ブラウズページですべてを表示するボタンがあります。"
+
+#: ../../user-manual/access-content/navigate.rst:838
+msgid ""
+"The carousel is intended as a navigational element, and is not optimized for"
+" viewing or browsing all related digital objects. Using the carousel, a user"
+" can quickly browse the first 10 results - clicking on a :term:`thumbnail` "
+"will load the related lower level of description (:term:`child record`), "
+"where a larger version of the image and its description can be viewed. By "
+"default, whenever there are more than 10 digital objects at lower levels, "
+"only the first 10 will be displayed; a total count of related digital "
+"objects, with a button to \"View all\" digital objects in a tile-based "
+"digital object browse page appears to indicate to the user that there are "
+"more digital objects than those displayed, and providing an option to view "
+"them all."
+msgstr ""
+"カルーセルはナビゲーション要素として意図されており、関連するすべてのデジタルオブジェクトを表示または閲覧するために最適化されていません。カルーセルを使用することで、ユーザーは最初の10結果をすばやくブラウズすることができます"
+" - :term:`thumbnail`（サムネイル）をクリックすると関連する下位レベルの記述（:term:`child "
+"record`（子レコード））が読み込まれ、そこで画像の大きなバージョンやその説明を見ることができます。デフォルトでは、下位レベルに10個を超えるデジタルオブジェクトが存在する場合でも、最初の10個のみが表示されます。関連するデジタルオブジェクトの総数と、「View"
+" "
+"all」（すべて表示）ボタンが、タイルベースのデジタルオブジェクト閲覧ページにおいて表示されることで、表示されているデジタルオブジェクトよりも多く存在することをユーザーに示し、それらをすべて閲覧するオプションを提供しています。"
+
+#: ../../user-manual/access-content/navigate.rst:850
+msgid "**Using the carousel**"
+msgstr "**カルーセルの使用**"
+
+#: ../../user-manual/access-content/navigate.rst:852
+msgid ""
+"Drag the slider left/right to scroll through the :term:`thumbnails "
+"<thumbnail>`"
+msgstr "スライダーを左右にドラッグして :term:`サムネイル <thumbnail>` をスクロールします。"
+
+#: ../../user-manual/access-content/navigate.rst:855
+msgid ""
+"If no slider appears, this means there is only one :term:`digital object` at"
+" a lower :term:`level of description`."
+msgstr "スライダーが表示されない場合、これは下位の「説明レベル」に単一の「デジタル・オブジェクト」のみが存在することを意味します。"
+
+#: ../../user-manual/access-content/navigate.rst:857
+msgid "You can also use your keyboard right and left arrows to scroll"
+msgstr "また、キーボードの右矢印と左矢印を使用してスクロールすることもできます。"
+
+#: ../../user-manual/access-content/navigate.rst:859
+msgid ""
+"Click on a thumbnail to view its :term:`archival description` and a larger "
+"version of the :term:`digital object` that the thumbnail depicts"
+msgstr ""
+"サムネイルをクリックすると、そのサムネイルが表す:term:`デジタルオブジェクト`のより大きなバージョンと、:term:`アーカイブ記述`を閲覧できます。"
+
+#: ../../user-manual/access-content/navigate.rst:861
+msgid ""
+"If there are more than 10 digital objects, click the \"Show all\" button to "
+"view them all in a tile-based browse page. Click on a thumbnail in the "
+"browse page to navigate to the related :term:`archival description` and a "
+"larger version of the :term:`digital object` that the thumbnail depicts."
+msgstr ""
+"デジタルオブジェクトが10個以上ある場合、「すべて表示」ボタンをクリックして、タイルベースのブラウズページでそれらをすべて表示します。ブラウズページのサムネイルをクリックすると、サムネイルが表す:term:`デジタルオブジェクト`の関連する:term:`アーカイブ記述`と、より大きなバージョンへと進むことができます。"
+
+#: ../../user-manual/access-content/navigate.rst:868
+msgid ""
+"The carousel can be disabled and hidden if it is not desired, via |gears| "
+"**Admin > Settings > Default page elements**. For more information, see: "
+":ref:`default-page-elements`."
+msgstr ""
+"カルーセルは必要でない場合、|gears| **管理者 > 設定 > デフォルトのページ要素** "
+"から無効にして非表示にすることができます。詳しくは、:ref:`default-page-elements` を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:875
+msgid "Facet filters"
+msgstr "ファセットフィルタ"
+
+#: ../../user-manual/access-content/navigate.rst:877
+msgid ""
+"In information science, a facet is a clearly defined component (based on a "
+"particular concept group, characteristic or aspect) of a class or subject. "
+"Facets are used in a system of faceted classification, which \"*allows the "
+"assignment of an object to multiple characteristics (attributes), enabling "
+"the classification to be ordered in multiple ways, rather than in a single, "
+"predetermined, taxonomic order.*\" (`Wikipedia "
+"<http://en.wikipedia.org/wiki/Faceted_classification>`__)."
+msgstr ""
+"情報科学において、ファセットは、明確に定義されたコンポーネント（特定の概念群、特性、または側面に基づく）であり、クラスや主題の要素です。ファセットは、多面分類システムで使用されます。このシステムは「*オブジェクトを複数の特性（属性）に割り当てることを可能にし、分類を一つの予め決められた分類順序ではなく、複数の方法で順序付けることを可能にします。*」(`ウィキペディア"
+" <http://en.wikipedia.org/wiki/Faceted_classification>`__)。"
+
+#: ../../user-manual/access-content/navigate.rst:885
+msgid ""
+"Facets are made up of clearly defined, often mutually exclusive categories "
+"drawn from the properties of a group of information elements. When applied "
+"as filters, facets allow a user to access and order query (search or browse)"
+" results in multiple ways dynamically. Faceted searching and browsing has "
+"become popular in both library catalogues and e-commerce websites (such as "
+"Etsy, Amazon, Walmart, etc) to help users narrow down results to specific "
+"categories - for example, a music website might categorize its music by "
+"adding an artist facet, a genre facet, a price-range facet, and so forth. "
+"Users can then click on a particular sub-class to narrow the results "
+"displayed to only those that match the selected facet - choosing \"Virginia "
+"Woolf\" from an author's facet in an online library catalogue would display "
+"only books where Virginia Woolf was listed as the author."
+msgstr ""
+"ファセットは、情報要素のグループのプロパティから抽出された、明確に定義された、しばしば相互に排他的なカテゴリーで構成されます。フィルタとして適用される場合、ファセットを使用すると、ユーザーは動的にクエリ（検索や閲覧）結果にアクセスし、複数の方法で並べ替えを行うことができます。ファセットを使用した検索や閲覧は、図書館のカタログや電子商取引ウェブサイト（Etsy、Amazon、Walmartなど）で人気があり、ユーザーが特定のカテゴリーに結果を絞り込むのに役立ちます。たとえば、音楽ウェブサイトは、アーティストのファセット、ジャンルのファセット、価格帯のファセットなどを追加することによって音楽をカテゴリー分けするかもしれません。その後、ユーザーは特定のサブクラスをクリックして、選択されたファセットに一致するものだけが表示されるように結果を絞り込むことができます。例えば、オンライン図書館カタログで作者のファセットから「ヴァージニア・ウルフ」を選択すると、ヴァージニア・ウルフが著者としてリストされている書籍のみが表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:904
+msgid "An image of the facet filters on an archival description browse page"
+msgstr "アーカイブ記述閲覧ページにおけるファセットフィルターの画像"
+
+#: ../../user-manual/access-content/navigate.rst:904
+msgid "Facet filters available on an archival description browse page"
+msgstr "アーカイブ記述の閲覧ページに利用可能なファセットフィルター"
+
+#: ../../user-manual/access-content/navigate.rst:906
+msgid ""
+"**In AtoM**, facet filters are available to users on search and browse pages"
+" as a means of grouping and narrowing results by a common characteristic. "
+"They are drawn from available :term:`fields <field>` within the :ref:`entity"
+" <entity-types>` or record type being browsed or searched. A count of the "
+"records included in each facet appears next to the facet label, giving users"
+" a sense of how many search/browse results fall under each facet result."
+msgstr ""
+"**AtoMでは**、ファセットフィルターは、共通の特性によって結果をグループ化し、絞り込む手段として、検索と閲覧ページでユーザーが使用できます。これらは、閲覧または検索されている:ref:`エンティティ"
+" <entity-types>`やレコードタイプ内の利用可能な:term:`フィールド "
+"<field>`から引き出されます。各ファセットラベルの横には、そのファセットに含まれるレコードの数が表示され、ユーザーは各ファセット結果に含まれる検索/閲覧結果の数を把握することができます。"
+
+#: ../../user-manual/access-content/navigate.rst:916
+msgid ""
+"Facet filters are configured not to display if there are only 0 or 1 facets."
+" So for example, if you perform a search, and none of the results have "
+":term:`digital objects <digital object>` attached, then the \"Media types\" "
+"facet filter will not display. Only those facets relevant to the results "
+"being displayed will appear in the user interface."
+msgstr ""
+"ファセットフィルターは、0または1つのファセットのみの場合には表示されないように設定されています。例えば、検索を実行したときに、結果のどれにも`:term:`デジタルオブジェクト<digital"
+" "
+"object>`が添付されていない場合、「メディアタイプ」のファセットフィルターは表示されません。ユーザーインターフェースに表示されるのは、表示されている結果に関連するファセットのみです。"
+
+#: ../../user-manual/access-content/navigate.rst:923
+msgid ""
+"Facet filters in AtoM are configured so that each facet displays its results"
+" with the highest number of matches at the top. Currently, AtoM will only "
+"display a maximum of the top ten matched results in each facet. Facets are "
+"displayed in the :term:`user interface` as :term:`drop-down menus <drop-down"
+" menu>`; each facet can be expanded to view its available results/matches, "
+"or collapsed to hide match results, by clicking on the facet title - facet "
+"titles are highlighted in dark grey when opened in AtoM's :term:`Dominion "
+"theme`."
+msgstr ""
+"AtoMでのファセットフィルターは、それぞれのファセットが最も多いマッチ数の結果を上に表示するように設定されています。現在、AtoMは各ファセットにおいて上位10件までのマッチした結果を表示するだけです。ファセットは：用語：`ユーザーインターフェイス`として：用語：`ドロップダウンメニュー<ドロップダウンメニュー>`に表示されます。各ファセットは、利用可能な結果/マッチを見るために展開したり、マッチ結果を隠すために折りたたむことができます。ファセットのタイトルをクリックすると操作できます。ファセットのタイトルは、AtoMの：用語：`Dominionテーマ`で開かれたときに濃いグレーで強調表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:931
+msgid ""
+"Available facet results appear below each facet heading as blue :ref:`text "
+"links <recurring-text-links>`. When clicked by a user, the search/browse "
+"results on the page will reload, filtered to show only results that match "
+"the facet filter selected - for example, selecting \"Series\" in the Level "
+"of description facet on an :term:`archival description` search/browse page "
+"will reload the page results to display only series-level descriptions; "
+"clicking \"Ontario\" under the Places facet will reload the page to display "
+"only results that have a :term:`name` :term:`access point` of \"Ontario\" "
+"added to their descriptions."
+msgstr ""
+"利用可能なファセットの結果は、各ファセットの見出しの下に青い :ref:`テキストリンク<recurring-text-links>` "
+"として表示されます。ユーザーがこれらをクリックすると、ページ上の検索/閲覧結果がリロードされ、選択されたファセットフィルターに一致する結果のみが表示されるようになります。たとえば、:term:`アーカイブ記述`"
+" "
+"の検索/閲覧ページにおいて「シリーズ」という「説明のレベル」ファセットを選択すると、ページの結果がリロードされ、シリーズレベルの記述のみを表示します。同様に、「場所」ファセットの下で「オンタリオ」とクリックすると、その説明に「オンタリオ」という"
+" :term:`名前` :term:`アクセスポイント` が追加された結果のみを表示するようにページがリロードされます。"
+
+#: ../../user-manual/access-content/navigate.rst:941
+msgid ""
+"When a facet match result has been selected, the text changes from a blue "
+":ref:`text link <recurring-text-links>` to black underlined text. By "
+"default, all facet filters are set to \"All\" when a user first arrives at a"
+" search/browse page (unless a user has arrived from a pre-filtered query - "
+"for example, clicking \"Browse all holdings\" in the :term:`context menu` of"
+" an :term:`archival institution` page will take the user to a browse page "
+"filtered to the holdings of that institution). the \"All\" filter will "
+"become a blue :ref:`text link <recurring-text-links>` when another filter is"
+" engaged; clicking \"All\" will then remove the current facet filter and "
+"refresh the results page. When a filter is applied, all other facet results "
+"will be refreshed to reflect the current selection, presenting filter "
+"results that apply to the current results - for example, when \"Ontario\" "
+"has been applied as a place filter, the \"Levels of description\" facet "
+"results will now display results that apply only to the records being "
+"displayed (records with an \"Ontario\" place :term:`access point`), until "
+"the previous facet filter is removed."
+msgstr ""
+"ファセットマッチ結果が選択されたとき、テキストは青色の :ref:`テキストリンク <recurring-text-links>` "
+"から黒色の下線付きテキストに変わります。デフォルトでは、ユーザーが初めて検索/閲覧ページに到達したときにすべてのファセットフィルターは「全部」に設定されています（ただし、事前にフィルターがかけられたクエリから到達したユーザーの場合は除く"
+" - 例えば、:term:`アーカイブ機関` ページの :term:`コンテキストメニュー` "
+"で「全ての所蔵情報を閲覧」をクリックすると、その機関の所蔵情報にフィルターがかけられた閲覧ページに移動します）。別のフィルターが選択されると「全部」フィルターは青色の"
+" :ref:`テキストリンク <recurring-text-links>` "
+"になり、そこをクリックすると現在のファセットフィルターが削除されて結果ページがリフレッシュされます。フィルターが適用されると、他の全ファセット結果も現在の選択を反映してリフレッシュされ、現在の結果に適用されるフィルタリング結果が提示されます"
+" - 例えば、「オンタリオ」という場所のフィルターが適用された場合、「記述のレベル」のファセット結果は現在表示されている記録（「オンタリオ」の場所 "
+":term:`アクセスポイント` "
+"を持つ記録）にのみ適用される結果を表示するようになりますが、それまでのファセットフィルターが削除されるまでは変わりません。"
+
+#: ../../user-manual/access-content/navigate.rst:961
+msgid "Facets available by record type in AtoM"
+msgstr "AtoMで利用可能なレコードタイプによるファセット"
+
+#: ../../user-manual/access-content/navigate.rst:963
+msgid ""
+"Currently facets are only available on :term:`archival description`, "
+":term:`authority record`, and :term:`archival institution` search and browse"
+" pages. Additionally, filter buttons by media type are available in the top-"
+"right corner of the Browse digital objects page, which allow a user to limit"
+" the results by available media type (image, audio, video, text, or other)."
+msgstr ""
+"現在、ファセットはアーカイブ記述、権威記録、およびアーカイブ機関の検索ページと閲覧ページにのみ利用可能です。さらに、ブラウズ・デジタル・オブジェクトのページの右上隅にはメディアタイプ別にフィルタリングするボタンがあり、ユーザーは利用可能なメディアタイプ（画像、オーディオ、ビデオ、テキスト、その他）によって結果を絞り込むことができます。"
+
+#: ../../user-manual/access-content/navigate.rst:970
+msgid ""
+"Below, an outline of each :term:`facet filter` has been provided, with "
+"information on what :term:`field` in the related record the information is "
+"being pulled from."
+msgstr ""
+"以下に、各々の:term:`ファセットフィルタ`の概要が示されており、関連する記録のどの:term:`フィールド`から情報が引き出されるのかについての情報が提供されています。"
+
+#: ../../user-manual/access-content/navigate.rst:974
+msgid "**Archival descriptions**"
+msgstr "**アーカイブ記述**"
+
+#: ../../user-manual/access-content/navigate.rst:976
+#: ../../user-manual/access-content/navigate.rst:1007
+#: ../../user-manual/access-content/navigate.rst:1038
+msgid ""
+"**Language:** Filters for content in a different available language (i.e., "
+"if the content has been tranlsated into more than one language)"
+msgstr "**言語:** 異なる利用可能な言語に翻訳されたコンテンツのためのフィルター（つまり、コンテンツが複数の言語に翻訳されている場合）"
+
+#: ../../user-manual/access-content/navigate.rst:978
+msgid ""
+"**Part of:** Allows users to limit results to :term:`children <child "
+"record>` of the selected top-level description"
+msgstr ""
+"**パートの一部:** 選択したトップレベルの記述の:term:`子レコード <child record>`に結果を限定することをユーザーに許可します"
+
+#: ../../user-manual/access-content/navigate.rst:980
+msgid ""
+"**Archival institution:** Limits results to only the holdings of the "
+"selected institution"
+msgstr "**アーカイブ機関：** 選択された機関の所蔵品のみを結果に限定합니다"
+
+#: ../../user-manual/access-content/navigate.rst:982
+msgid ""
+"**Creator:** Limits results to only those where the :term:`name` matches "
+"that of the :term:`creator` associated with the :term:`archival description`"
+msgstr ""
+"**作成者:** "
+"結果を、その:term:`名前`が:term:`アーカイバル記述`に関連付けられている:term:`作成者`の名前と一致するものに限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:984
+msgid ""
+"**Name:** Limits results to those with a matching :term:`name` added as a "
+"name :term:`access point` to an :term:`archival description`"
+msgstr "**名称:** 名称をアクセスポイントとしてアーカイブ記述に追加された、一致する名称の用語を持つ結果に限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:986
+msgid ""
+"**Place:** Limits results to those with a matching :term:`place` added as a "
+"place :term:`access point` to an :term:`archival description`"
+msgstr "**場所:** 結果を、場所としてのアクセスポイントが付加されたアーカイブ記述に一致する場所に限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:988
+msgid ""
+"**Subject:** Limits results to those with a matching :term:`subject` added "
+"as a subject :term:`access point` to an :term:`archival description`"
+msgstr "**件名:** 検索結果を、件名としてアーカイブ記述の件名アクセスポイントに追加された一致する:term:`subject`に限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:990
+msgid ""
+"**Genre:** Limits results to those with a matching genre :term:`term` added "
+"as an :term:`access point` to an :term:`archival description`"
+msgstr ""
+"**ジャンル:** 対応するジャンルの :term:`用語` が :term:`アクセスポイント` として :term:`アーカイブ記述` "
+"に追加されている結果に限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:992
+msgid ""
+"**Level of description:** Limits results to those that match the selected "
+":term:`level of description` (e.g. fonds, collection, series, file, item, "
+"etc). Includes a :term:`top-level description filter`, that allows users to "
+"limit results to those that are :term:`parents <parent record>` - e.g. the "
+"top hierarchical record in a multi-level descriptive :term:`archival unit`"
+msgstr ""
+"**記述のレベル:** 選択した :term:`記述のレベル`（例: "
+"基本単位、コレクション、シリーズ、ファイル、アイテム等）に一致する結果に限定します。:term:`最上位記述フィルター`を含むことで、ユーザーが結果を:term:`親<親レコード>`に限定することができます"
+" - 例えば、複数レベルの記述的な:term:`アーカイブ単位`の最上位の階層レコードです。"
+
+#: ../../user-manual/access-content/navigate.rst:997
+msgid ""
+"**Media type:** Limits results to those with a :term:`digital object` "
+"attached that matches the selected media type (image, audio, text, video, or"
+" other)"
+msgstr ""
+"**メディアタイプ:** "
+"選択したメディアタイプ（画像、オーディオ、テキスト、ビデオ、その他）に一致する:term:`デジタルオブジェクト`が添付されている結果に限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:1001
+msgid ""
+"For more information on working with :term:`archival descriptions <archival "
+"description>`, see: :ref:`archival-descriptions`. For help with a specific "
+"standards-based data-entry template, see: :ref:`data-entry`."
+msgstr ""
+"アーカイブ記述に関する詳細情報については、以下を参照してください：`アーカイブ記述 <archival "
+"description>`。特定の標準ベースのデータ入力テンプレートに関するヘルプについては、以下を参照してください：`データ入力`。"
+
+#: ../../user-manual/access-content/navigate.rst:1005
+msgid "**Archival institutions**"
+msgstr "**アーカイブ機関**"
+
+#: ../../user-manual/access-content/navigate.rst:1009
+msgid ""
+"**Archive type:** Limits results to those with a type matching data in the "
+"\"Type\" :term:`field` in the Identity :term:`area <information area>` of "
+"the :ref:`ISDIAH <isdiah-template>` archival institution edit template"
+msgstr ""
+"**アーカイブの種類:** "
+"結果を、ISDIAHアーカイブ機関の編集テンプレート内の情報エリアにおけるアイデンティティフィールドの「タイプ」データと一致するタイプに限定する"
+
+#: ../../user-manual/access-content/navigate.rst:1012
+msgid ""
+"**Geographic region:** Limits results to those matching data entered into "
+"the \"Region/province\" :term:`field` in the physical location tab of the "
+"contact dialogue (available in the \"Contact\" :term:`area <information "
+"area>` of the :ref:`ISDIAH <isdiah-template>` archival institution edit "
+"template)"
+msgstr ""
+"**地理的地域**: "
+"結果を、連絡先ダイアログの物理的な場所タブの「地方/州」:term:`フィールド`に入力されたデータと一致するものに限定します（「連絡先」:term:`エリア<information"
+" area>`の:ref:`ISDIAH <isdiah-template>`アーカイブ施設編集テンプレートで利用可能）。"
+
+#: ../../user-manual/access-content/navigate.rst:1016
+msgid ""
+"**Geographic subregion:** Limits results to those institutions with a "
+"matching :term:`access point` added to the \"Geographic subregion\" "
+":term:`field` in the Access points :term:`area <information area>` of the "
+":ref:`ISDIAH <isdiah-template>` archival institution record"
+msgstr ""
+"**地理的小地域:** "
+"結果を、アクセスポイントの「地理的小地域」という項目にマッチする情報を持つ機関に限定します。この項目はアクセスポイントのエリア内にある情報分野の一部であり、ISDIAHのアーカイバル機関の記録の参照テンプレート内に記載されています。"
+
+#: ../../user-manual/access-content/navigate.rst:1020
+msgid ""
+"**Locality:** Limits results to those matching data entered into the "
+"\"City\" (e.g. city, town, etc) :term:`field` in the physical location tab "
+"of the contact dialogue (available in the \"Contact\" :term:`area "
+"<information area>` of the :ref:`ISDIAH <isdiah-template>` archival "
+"institution edit template)"
+msgstr ""
+"**地域:** 「連絡先」の「情報領域」にあるISDIAHアーカイブ機関の編集テンプレート(:ref:`ISDIAH <isdiah-"
+"template>`)の「連絡先ダイアログ」内の物理的な場所タブで「市」(例：市、町など) "
+"の項目(:term:`field`)に入力されたデータと一致する結果に限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:1025
+msgid ""
+"**Thematic area:** Limits results to those institutions with a matching "
+":term:`access point` added to the \"Thematic area\" :term:`field` in the "
+"Access points :term:`area <information area>` of the :ref:`ISDIAH <isdiah-"
+"template>` archival institution record"
+msgstr ""
+"**テーマ分野:** "
+"結果を絞り込み、\"テーマ分野\"の:term:`フィールド`に合致する:term:`アクセスポイント`がアクセスポイントの:term:`エリア<情報エリア>`の:ref:`ISDIAH"
+" <isdiah-template>`アーカイブ機関記録に追加された機関に限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:1030
+msgid ""
+"For more information on working with :term:`archival institutions <archival "
+"institution>`, see: :ref:`archival-institutions`. For help with specific "
+"fields in the archival institution edit template, see: :ref:`ISDIAH template"
+" <isdiah-template>`. For specific instructions on working with archival "
+"institution access points, see: :ref:`institution-access-points`."
+msgstr ""
+"アーカイバル・インスティテューション（:term:`archival "
+"institution`）との作業に関する詳細な情報については、:ref:`archival-"
+"institutions`をご覧ください。アーカイバル・インスティテューションの編集テンプレート内の特定のフィールドに関する支援が必要な場合は、:ref:`ISDIAH"
+" template <isdiah-"
+"template>`を参照してください。アーカイバル・インスティテューションのアクセスポイントに関する具体的な指示については、:ref:`institution-"
+"access-points`をご覧ください。"
+
+#: ../../user-manual/access-content/navigate.rst:1036
+msgid "**Authority records (People & organizations)**"
+msgstr "**権威記録（人物・組織）**"
+
+#: ../../user-manual/access-content/navigate.rst:1040
+msgid ""
+"**Entity type:** Limits results to those with a type matching data entered "
+"in the \"Type of entity\" :term:`field` available in the Identity "
+":term:`area <information area>` of the :ref:`ISAAR <isaar-template>` edit "
+"template for :term:`authority records <authority record>`"
+msgstr ""
+"**エンティティタイプ:** "
+"\"エンティティの種類\"という:term:`フィールド`に入力されたデータに一致する結果に結果を制限します。これは、:term:`権限レコード<authority"
+" record>`のための:ref:`ISAAR <isaar-"
+"template>`編集テンプレート内のアイデンティティ:term:`エリア<information area>`にあります。"
+
+#: ../../user-manual/access-content/navigate.rst:1044
+msgid ""
+"**Maintained by:** Lmits results to those records being maintained by the "
+"related :term:`archival institution`. Depends on the authority being linked "
+"to a repository via the \"Maintaining institution\" field in the authority "
+"record - for more information, see: :ref:`link-repo-actor`."
+msgstr ""
+"**維持管理者:** "
+":term:`アーカイブ施設`に関連する記録で、維持管理されているものに結果を限定します。この機能は、権威記録の「維持管理機関」フィールドを通じてリポジトリに権威がリンクされていることに依存します。詳しくは、:ref:`link-"
+"repo-actor`を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:1048
+msgid ""
+"**Occupations:** Limits results to those authority records with a matching "
+":term:`access point` added to the Occupations field in the \"Access points\""
+" :term:`area <information area>` of the authority record edit template."
+msgstr ""
+"**職業:** 検索結果を、権威レコードの編集テンプレートの「アクセスポイント」:term:`エリア <information area>` "
+"にある職業フィールドに一致する :term:`アクセスポイント` を追加した権威レコードに限定します。"
+
+#: ../../user-manual/access-content/navigate.rst:1052
+msgid ""
+"For more infomration on working with :term:`authority records <authority "
+"record>` for people, families, and :term:`corporate bodies <corporate "
+"body>`, see :ref:`authority-records`. For help with specific fields in the "
+"authority record edit template, see: :ref:`ISAAR(CPF) template <isaar-"
+"template>`."
+msgstr ""
+"人物、家族、法人団体に関する権威レコードの取り扱いについての詳細は、`権威レコード <authority-"
+"records>`をご覧ください。権威レコード編集テンプレートの特定のフィールドに関する助けが必要な場合は、以下を参照してください：`ISAAR(CPF)テンプレート"
+" <isaar-template>`。"
+
+#: ../../user-manual/access-content/navigate.rst:1057
+msgid "**Digital objects**"
+msgstr "**デジタルオブジェクト**"
+
+#: ../../user-manual/access-content/navigate.rst:1059
+msgid ""
+"The :term:`digital object` browse page is the same as the :term:`archival "
+"description` browse page - it merely has certain filters and facets already "
+"applied when the user arrives. All facets available for archival "
+"descriptions are available when browsing digital objects as well. See above "
+"for information on the archival description facets"
+msgstr ""
+"デジタルオブジェクトの閲覧ページは、アーカイブ記述の閲覧ページと同一であり、ユーザーがアクセスした際にはあらかじめ特定のフィルターやファセットが適用されています。アーカイブ記述で使用可能なすべてのファセットも、デジタルオブジェクトを閲覧する際にも利用可能です。アーカイブ記述のファセットについての情報は上記を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:1065
+msgid "For more information on uploading and managing digital objects, see:"
+msgstr "デジタルオブジェクトのアップロードと管理に関する詳細は、以下を参照してください："
+
+#: ../../user-manual/access-content/navigate.rst:1072
+msgid ""
+":ref:`Set a digital object upload limit for an archival institution <upload-"
+"limit>`"
+msgstr "アーカイブ機関に対するデジタルオブジェクトのアップロード制限を設定する <upload-limit>"
+
+#: ../../user-manual/access-content/navigate.rst:1077
+msgid ""
+"The usefulness of of the available :term:`facet filters <facet filter>` "
+"depends on the level of detail included in the related records. For example,"
+" if no :term:`place` :term:`access points <access point>` have been added to"
+" the :term:`archival descriptions <archival description>` in your "
+"installation, then no Places facet filter will be shown. The richer your "
+"descriptive data, the more useful the facet filters will be."
+msgstr ""
+"利用可能な`:term:`ファセットフィルター <facet "
+"filter>`の有用性は、関連する記録に含まれている詳細度に依存します。例えば、あなたのインストールした`:term:`アーカイブ記述 "
+"<archival description>`に`:term:`場所` :term:`アクセスポイント <access "
+"point>`が追加されていない場合、場所のファセットフィルターは表示されません。記述データが豊富であればあるほど、ファセットフィルターの有用性は高まります。"
+
+#: ../../user-manual/access-content/navigate.rst:1087
+msgid "Using facet filters in AtoM:"
+msgstr "AtoMでのファセットフィルターの使用:"
+
+#: ../../user-manual/access-content/navigate.rst:1089
+msgid "Navigate to a :ref:`browse <browse>` or :ref:`search-atom` page"
+msgstr "参照ページまたは検索-AtoMページに移動してください。"
+
+#: ../../user-manual/access-content/navigate.rst:1090
+msgid ""
+"Available :term:`facet filters <facet filter>` will appear on the left-hand "
+"side of the page (unless you are on the Digital objects browse page - the "
+"filter buttons there are in the upper right-hand corner of the page). If "
+"there are no facet filters present, they are not available for that "
+":term:`entity` (e.g. Place, Subject, Function browse pages, etc.)"
+msgstr ""
+"利用可能な:term:`ファセットフィルター<facet "
+"filter>`は、ページの左側に表示されます（ただし、デジタルオブジェクトの閲覧ページにいる場合は除く - "
+"そのページではフィルターボタンがページの右上隅にあります）。もしファセットフィルターが存在しない場合、その:term:`エンティティ`（例えば、場所、主題、機能の閲覧ページなど）には利用できません。"
+
+#: ../../user-manual/access-content/navigate.rst:1095
+msgid ""
+"Click on the heading of a facet to expand or collapse its available options"
+msgstr "ファセットの見出しをクリックして、利用可能なオプションを展開または折りたたんでください。"
+
+#: ../../user-manual/access-content/navigate.rst:1096
+msgid ""
+"The filter currently selected in a facet will appear in black underlined "
+"text. Available filters appear as blue :ref:`text links <recurring-text-"
+"links>`"
+msgstr ""
+"現在ファセットで選択されているフィルターは、黒の下線が引かれたテキストで表示されます。利用可能なフィルターは青色の :ref:`テキストリンク "
+"<recurring-text-links>` として表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1099
+msgid ""
+"By default, filter options are set to display \"All\" when a user arrives to"
+" a browse page (unless a specific query has brought them there that engages "
+"a filter)."
+msgstr ""
+"デフォルトでは、特定のクエリがフィルターを起動させた場合を除き、ユーザーが閲覧ページに到着したときに、「すべて表示」がフィルターオプションとして設定されています。"
+
+#: ../../user-manual/access-content/navigate.rst:1102
+msgid ""
+"Click on a blue :ref:`text link <recurring-text-links>` to apply a filter"
+msgstr "クリックして青色の :ref:`テキストリンク <recurring-text-links>` を使用し、フィルタを適用してください。"
+
+#: ../../user-manual/access-content/navigate.rst:1103
+msgid ""
+"Click on \"All\" under a facet to remove an applied filter. Alternately, you"
+" can click on the related :term:`filter tag` that will appear above the "
+"search or browse results. For more information on filter tags, see: "
+":ref:`search-atom`; see particularly :ref:`search-box-delimiters` for a "
+"screenshot and example application of the filter tags."
+msgstr ""
+"ファセットの下の「すべて」をクリックして、適用されたフィルタを削除します。または、検索結果やブラウズ結果の上に表示される関連する「フィルタタグ」をクリックしても構いません。フィルタタグに関する詳しい情報は、次を参照してください：「search-"
+"atom」；特にフィルタタグのスクリーンショットやその使用例については、「search-box-delimiters」をご覧ください。"
+
+#: ../../user-manual/access-content/navigate.rst:1108
+msgid ""
+"When a filter is applied, all other facet filters are updated to provide "
+"filters that relate only to the results currently being displayed. For "
+"example, if you filter by :term:`Level of description` to display only "
+"series-level :term:`archival descriptions <archival description>`, all other"
+" facets will only show results that relate to the series-level descriptions,"
+" until the first facet is removed."
+msgstr ""
+"フィルタが適用されると、他の全てのファセットフィルタは、現在表示されている結果にのみ関連するフィルタを提供するように更新されます。例えば、`:term:`記述のレベル"
+" <Level of description>`をフィルタにかけて、シリーズレベルの`:term:`アーカイバルディスクリプション <archival "
+"description>`のみを表示する場合、他の全てのファセットは、最初のファセットが削除されるまで、シリーズレベルのデスクリプションに関連する結果のみを表示します。"
+
+#: ../../user-manual/access-content/navigate.rst:1114
+msgid ""
+"In general, **facet filters in AtoM are mutually exclusive** - when one "
+"filter is applied, no further filters can be applied for that facet. "
+"However, if multiple :term:`name`, :term:`place`, or :term:`subject` "
+":term:`access points <access point>` have been added to a description, you "
+"may be able to apply more than one name/place/subject filter to the results."
+" For example, if a group of :term:`archival descriptions <archival "
+"description>` all bear the subject access points \"Logging\" \"Industry\" "
+"and \"Unions\", when a user filters by \"Logging\", the option to further "
+"filter the returned results by common subject access point (\"Industry\" and"
+" \"Union\") would remain."
+msgstr ""
+"一般に、AtoMにおける**ファセットフィルタは互いに排他的**です。つまり、一つのフィルタを適用すると、そのファセットに対して他のフィルタを適用することはできません。ただし、複数の:term:`name`（名称）、:term:`place`（場所）、または:term:`subject`（主題）の:term:`access"
+" points <access "
+"point>`（アクセスポイント）が記述に追加されている場合、結果に対して複数の名称/場所/主題フィルタを適用することができるかもしれません。例えば、あるグループの:term:`archival"
+" descriptions <archival "
+"description>`（アーカイブ記述）がすべて「林業」「産業」「労働組合」という主題のアクセスポイントを持っている場合、ユーザーが「林業」でフィルタリングしたときに、共通の主題アクセスポイント（「産業」と「労働組合」）によって返された結果をさらにフィルタリングするオプションが残ることになります。"
+
+#: ../../user-manual/access-content/navigate.rst:1124
+msgid ""
+"If no data exists in the related description fields for the records "
+"available under a facet, or there is only one result, then no facet filter "
+"for that data will appear."
+msgstr ""
+"ファセットで利用可能な記録に関連する説明欄にデータが存在しない場合や、結果が1つだけの場合、そのデータに対するファセットフィルターは表示されません。"
+
+#: ../../user-manual/access-content/navigate.rst:1136
+msgid "Button block"
+msgstr "ボタンブロック"
+
+#: ../../user-manual/access-content/navigate.rst:1144
+msgid "An image of the button block on an archival description"
+msgstr "アーカイブ記述におけるボタンブロックの画像"
+
+#: ../../user-manual/access-content/navigate.rst:1144
+msgid "The button block with all options visible on an archival description"
+msgstr "すべてのオプションが見える状態のアーカイブ記述におけるボタンブロック"
+
+#: ../../user-manual/access-content/navigate.rst:1146
+msgid ""
+"The button block allows authorized users to add, edit, delete, move, and "
+"duplicate content and to save or cancel changes made in the :term:`edit "
+"pages <edit page>`. It appears to authenticated (i.e. logged in) users with "
+"sufficient :term:`access privileges <access privilege>` at the bottom of all"
+" descriptive template :term:`view <view page>` and :term:`edit <edit page>` "
+"pages, including :term:`accessions <accession record>` (and deaccession "
+"records), :term:`archival descriptions <archival description>`, "
+":term:`archival institutions <archival institution>`, :term:`authority "
+"records <authority record>`, :term:`terms <term>` (such as :term:`places "
+"<place>` and :term:`subjects  <subject>`), :term:`functions <function>`, "
+":term:`physical storage` locations, donors, :term:`rights records <rights "
+"record>`, as well as on any other page or content type where a user might "
+"have to add, edit, or delte data (e.g. :term:`static pages <static page>`, "
+"user and group permissions pages, etc). In short, the :term:`button block` "
+"appears anywhere a user will need to perform actions (add, edit, delete, "
+"move, and/or duplicate) on user data and/or data entry templates in the "
+"application via the :term:`user interface`."
+msgstr ""
+"ボタンブロックは、承認されたユーザーがコンテンツを追加、編集、削除、移動、複製することを許可し、:term:`編集ページ <edit "
+"page>`で行われた変更を保存またはキャンセルすることができます。これは、適切な:term:`アクセス権限 <access "
+"privilege>`を持つ認証された（つまり、ログインしている）ユーザーに対して、:term:`アクセッション <accession "
+"record>`（および非アクセッション記録）、:term:`アーカイバル記述 <archival "
+"description>`、:term:`アーカイバル機関 <archival institution>`、:term:`権威記録 <authority"
+" record>`、:term:`用語 <term>`（例えば:term:`場所 <place>`や:term:`主題 "
+"<subject>`）、:term:`機能 <function>`、物理的な保管場所、寄贈者、:term:`権利記録 <rights "
+"record>`などを含む、すべての記述テンプレート:term:`ビュー <view page>`や:term:`編集 <edit "
+"page>`ページの下部に表示されます。また、ユーザーがデータを追加、編集、または削除する必要がある他のページやコンテンツタイプ（例えば:term:`静的ページ"
+" <static "
+"page>`、ユーザーとグループの権限ページなど）にも表示されます。要するに、:term:`ボタンブロック`は、アプリケーション内の:term:`ユーザーインターフェース`を介してユーザーデータやデータ入力テンプレートに対して（追加、編集、削除、移動、および/または複製といった）アクションを行う必要がある場所ならどこにでも表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1170
+msgid "An image of the button block on an archival institution"
+msgstr "アーカイブ機関のボタンブロックの画像"
+
+#: ../../user-manual/access-content/navigate.rst:1170
+msgid "The button block on an archival institution"
+msgstr "アーカイブ機関におけるボタンブロック"
+
+#: ../../user-manual/access-content/navigate.rst:1172
+msgid ""
+"The options available in the :term:`button block` depend on the possible "
+"actions associated with an :term:`entity` or record type. For example, the "
+"button block on an :term:`archival description`'s :term:`view <view page>` "
+"and :term:`edit <edit page>` pages includes a \"More\" button that does not "
+"appear in any other button block throughout the application - when clicked, "
+"further user options are revealed, including: Link physical storage, Link "
+"digital object, and Import digital objects (actions which only relate to "
+"archival descriptions)."
+msgstr ""
+"ボタンブロックに利用可能なオプションは、それに関連するエンティティや記録タイプに対する可能なアクションに依存します。例えば、アーカイブ記述の表示ページや編集ページにあるボタンブロックには、他のボタンブロックには現れない「さらに」ボタンが含まれています。これをクリックすると、さらなるユーザーオプションが明らかになります。これには、物理的な保管場所へのリンク、デジタルオブジェクトへのリンク、デジタルオブジェクトのインポート（これらのアクションはアーカイブ記述にのみ関連します）が含まれます。"
+
+#: ../../user-manual/access-content/navigate.rst:1181
+msgid "**Examples of buttons found in the button block throughout AtoM:**"
+msgstr "**AtoMで見られるボタンブロック内のボタン例：**"
+
+#: ../../user-manual/access-content/navigate.rst:1213
+msgid ""
+"|edit-button| **Edit**: Changes the current record from :term:`view mode` to"
+" :term:`edit mode`"
+msgstr "|編集ボタン| **編集**: 現在のレコードを:term:`閲覧モード`から:term:`編集モード`に変更します"
+
+#: ../../user-manual/access-content/navigate.rst:1183
+msgid "edit-button"
+msgstr "編集ボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1215
+msgid ""
+"|delete-button| **Delete**: Deletes the current record (a confirmation is "
+"required first)"
+msgstr "|削除ボタン| **削除**: 現在の記録を削除します（先に確認が必要です）"
+
+#: ../../user-manual/access-content/navigate.rst:1186
+msgid "delete-button"
+msgstr "「削除ボタン」"
+
+#: ../../user-manual/access-content/navigate.rst:1217
+msgid ""
+"|addnew-button| **Add new**: Opens a blank record in :term:`edit mode`. If "
+"you are viewing an :term:`archival description` when you click \"Add new\", "
+"the new record will be created as a :term:`child record` of the current "
+"description - i.e., it will be added as a lower :term:`level of "
+"description`."
+msgstr ""
+"|addnew-button| **新規追加**: "
+":term:`編集モード`で空のレコードを開きます。:term:`アーカイブ記述`を閲覧中に「新規追加」をクリックした場合、新しいレコードは現在の記述の:term:`子レコード`として作成されます"
+" - つまり、より下位の:term:`記述レベル`として追加されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1189
+msgid "addnew-button"
+msgstr "「新規追加」ボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1222
+msgid ""
+"|duplicate-button| **Duplicate**: Only available on :term:`archival "
+"descriptions <archival description>`. Creates a duplicate of the current "
+"description and opens the duplicate in :term:`edit mode`. This option exists"
+" to simplify the workflow for users working with many similar descriptions; "
+"by editing only what needs to be changed (title, identifier, etc.) a user "
+"can avoid unnecessarily repeating data entry - see: :ref:`duplicate-"
+"archival-description`"
+msgstr ""
+"|duplicate-button| **重複**: このオプションは:term:`アーカイブ記述 <archival "
+"description>`にのみ利用可能です。現在の記述の複製を作成し、その複製を:term:`編集モード`で開きます。このオプションは、似た記述を多く扱うユーザーのワークフローを簡素化するために存在します。タイトル、識別子などの必要な変更のみを編集することで、ユーザーは不必要なデータ入力の繰り返しを避けることができます"
+" - 詳細は: :ref:`duplicate-archival-description`を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:1195
+msgid "duplicate-button"
+msgstr "複製ボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1229
+msgid ""
+"|move-button| **Move**: Only available on :term:`archival descriptions "
+"<archival description>`. Allows a user to move an archival description to a "
+"new :term:`parent record` (or make it a top-level description) - see: "
+":ref:`move-archival-description`"
+msgstr ""
+"|move-button| **移動**: :term:`アーカイブ記述 <archival "
+"description>`にのみ適用されます。ユーザがアーカイブ記述を新しい :term:`親レコード` "
+"に移動させる（またはトップレベルの記述にする）ことを可能にします - 参照: :ref:`move-archival-description`"
+
+#: ../../user-manual/access-content/navigate.rst:1198
+msgid "move-button"
+msgstr "ムーブボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1233
+msgid ""
+"|cancel-button| **Cancel**: Aborts the current operation - no data entered "
+"is saved; the page will reload in :term:`view mode`"
+msgstr ""
+"|cancel-button| **キャンセル**：現在の操作を中止します ― "
+"入力されたデータは保存されません。ページは`:term:`ビューモード`で再読込されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1201
+msgid "cancel-button"
+msgstr "キャンセルボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1235
+msgid ""
+"|create-button| **Create**: Only appears when a new record is being created "
+"(when editing an existing record, the \"Save\" button will appear instead). "
+"Saves all user-entered data in the new record and reloads the page in "
+":term:`view mode`"
+msgstr ""
+"|create-button| **作成**: "
+"新しいレコードを作成している時のみ表示されます（既存のレコードを編集している場合は、「保存」ボタンが代わりに表示されます）。新しいレコードにユーザーが入力したデータを全て保存し、ページを:term:`ビューモード`で再読み込みします。"
+
+#: ../../user-manual/access-content/navigate.rst:1210
+msgid "create-button"
+msgstr "「作成」ボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1239
+msgid ""
+"|save-button| **Save**: Saves the current record when in :term:`edit mode`. "
+"All additions and changes made by the user to the current record are saved; "
+"the page will reload in :term:`view mode`."
+msgstr ""
+"|save-button| **保存**: "
+":term:`編集モード`で現在のレコードを保存します。ユーザーによって行われた追加や現在のレコードへの変更が保存されます。ページは:term:`表示モード`で再読み込みされます。"
+
+#: ../../user-manual/access-content/navigate.rst:1204
+msgid "save-button"
+msgstr "保存ボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1242
+msgid ""
+"|more-button| **More**: Only available on :term:`archival descriptions "
+"<archival description>` and :term:`accessions <accession record>`.  Reveals "
+"several further options. On archival descriptions, these include: Rename, "
+"Update publications status, Link physical storage, Link digital object, "
+"Import digital objects, and Create new rights. See: :ref:`rename-title-"
+"slug`, :ref:`physical-storage`, and :ref:`upload-digital-object`. If a "
+"digital object is already linked to the description, \"Edit digital object\""
+"  will be available instead of the link option - see: :ref:`edit-digital-"
+"object`. If rights have already been added to the description, the option to"
+" \"Manage rights inheritance\" will be available in addition to Create new "
+"rights - see: :ref:`rights-inheritance`. On accessions, the More menu "
+"includes the option to create new rights - see: :ref:`rights`."
+msgstr ""
+"|詳しくはここをクリック| **その他**: :term:`アーカイブ記述 <archival "
+"description>`および:term:`アクセッション記録 <accession "
+"record>`でのみ利用可能です。複数の追加オプションを表示します。アーカイブ記述では、これには以下が含まれます：名前の変更、公開ステータスの更新、物理的な保管場所のリンク、デジタルオブジェクトのリンク、デジタルオブジェクトのインポート、新しい権利の作成。参照：:ref:`rename-"
+"title-slug`、:ref:`physical-storage`、:ref:`upload-digital-"
+"object`。記述に既にデジタルオブジェクトがリンクしている場合は、リンクオプションの代わりに「デジタルオブジェクトの編集」が利用できます - "
+"参照：:ref:`edit-digital-"
+"object`。記述に既に権利が追加されている場合は、「権利継承の管理」オプションも新しい権利の作成に加えて利用できます - "
+"参照：:ref:`rights-inheritance`。アクセッションに関して、その他メニューには新しい権利の作成オプションが含まれます - "
+"参照：:ref:`rights`。"
+
+#: ../../user-manual/access-content/navigate.rst:1207
+msgid "more-button"
+msgstr "もっと見るボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1254
+msgid ""
+"|edittheme-button| **Edit theme**: Only available on :term:`archival "
+"institutions <archival institution>`. Opens an edit page where an "
+":term:`administrator` can customize the theme of a repository by changing "
+"the background color, uploading a logo and/or banner, and adding custom "
+"descriptive content - see: :ref:`edit-institution-theme`"
+msgstr ""
+"|edittheme-button| **テーマの編集**: :term:`アーカイブ機関 <archival "
+"institution>`専用です。:term:`管理者`がリポジトリのテーマをカスタマイズできる編集ページを開きます。背景色の変更、ロゴやバナーのアップロード、カスタム説明コンテンツの追加ができます。詳細はこちらを参照:"
+" :ref:`edit-institution-theme`"
+
+#: ../../user-manual/access-content/navigate.rst:1192
+msgid "edittheme-button"
+msgstr "エディットテーマボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1262
+msgid ""
+"The above list is not intended to be comprehensive - there may be other "
+"buttons found in the application!"
+msgstr "上記のリストは網羅的なものではありません - アプリケーション内には他にもボタンが存在する可能性があります！"
+
+#: ../../user-manual/access-content/navigate.rst:1266
+msgid "**For more infomation on adding and editing content in AtoM, see:**"
+msgstr "AtoMでコンテンツを追加および編集する方法の詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/navigate.rst:1268
+msgid ":ref:`add-edit-content`"
+msgstr ":ref:`コンテンツの追加・編集`"
+
+#: ../../user-manual/access-content/navigate.rst:1272
+msgid ":ref:`user-roles`"
+msgstr ""
+"このテキストは参照リンクとしてMarkdownまたはreStructuredText形式で書かれていると思われます。翻訳というよりは、そのままのコードで使用されることが一般的ですが、参照ラベルの「user-roles」が何を指しているのかに応じて、それに相当する日本語のテキストに置き換えることが可能です。\n"
+"\n"
+"ただし、単にリンクのラベルを翻訳するだけであれば、「ユーザーロール」や「利用者の役割」などが適切かもしれません。以下はその一例です。\n"
+"\n"
+"```\n"
+":ref:`利用者の役割`\n"
+"```\n"
+"\n"
+"しかし、リンクが機能するようにドキュメント内で定義されたラベルを正しく使用する必要があり、翻訳の際にはドキュメントの構造と一緒に確認を行う必要があります。"
+
+#: ../../user-manual/access-content/navigate.rst:1273
+msgid ":ref:`entity-types`"
+msgstr ""
+":ref:`entity-types` の部分は特定のリンクを指し示しているようですが、単体では情報が不足しているため直訳することはできません。通常、reStructuredText（reST）というマークアップ言語で記述されたドキュメントにおいて、`:ref:` はクロスリファレンス（相互参照）を作成するためのロール（機能）です。もし「entity-types」というセクションへの参照であれば、日本語ではそれが何を意味しているのかにもよりますが、以下のように訳することができます。\n"
+"\n"
+"「エンティティタイプ」\n"
+"\n"
+"しかし、実際のドキュメントの内容に即して適切な訳語を提供するためには、もっと文脈が必要です。例えば、もし「entity-types」が特定の技術用語やデータ型を指しているならば、それに合わせた適切な訳語が必要になるでしょう。詳細な文脈が提供されれば、もっと精確な翻訳を提供することが可能です。"
+
+#: ../../user-manual/access-content/navigate.rst:1278
+msgid "Breadcrumb trail"
+msgstr "パンくずリスト"
+
+#: ../../user-manual/access-content/navigate.rst:1280
+msgid ""
+"A breadcrumb trail is a navigational element in a :term:`user interface` "
+"that provides contextual information about the current location of a user in"
+" an application or document. Breadcrumb trails provide links back to each "
+"previous page the user navigated through to get to the current page or — in "
+"hierarchical site structures — the parent pages of the current one."
+msgstr ""
+"パンくずリストは、アプリケーションやドキュメント内でのユーザーの現在位置について文脈情報を提供する、:term:`ユーザーインターフェース`のナビゲーション要素です。パンくずリストは、ユーザーが現在のページに到達するまでに経由した各前のページへのリンクを提供します。または、階層的なサイト構造においては、現在のページの親ページへのリンクを提供します。"
+
+#: ../../user-manual/access-content/navigate.rst:1287
+msgid ""
+"**In AtoM,** a breadcrumb trail is displayed to add contextual information "
+"and to facilitate navigation in several places:"
+msgstr "**AtoMでは、**いくつかの場所で、文脈情報を追加し、ナビゲーションを容易にするために、パンくずリストが表示されます："
+
+#: ../../user-manual/access-content/navigate.rst:1290
+msgid ""
+"On :term:`archival descriptions <archival description>`, the breadcrumb "
+"trail is located at the top of record's :term:`view page` when viewing a "
+":term:`child decription <child record>` to provide information about where "
+"in the hierarchy the current description appears."
+msgstr ""
+"アーカイブ記述において、パンくずリストは、子記録の階層内のどの位置に現在の記述が現れるのかを提供するために、記録の閲覧ページの上部に位置しています。"
+
+#: ../../user-manual/access-content/navigate.rst:1301
+msgid "An image of breadcrumb trail on an archival description"
+msgstr "アーカイブ記述におけるパンくずリストの画像"
+
+#: ../../user-manual/access-content/navigate.rst:1301
+msgid ""
+"An example of a breadcrumb trail (below the title bar) on a lower-level "
+"archival description"
+msgstr "タイトルバーの下にある、下位レベルのアーカイブ記述のパンくずリストの例"
+
+#: ../../user-manual/access-content/navigate.rst:1304
+msgid ""
+"When moving :term:`archival descriptions <archival description>` (see: "
+":ref:`move-archival-description`), a breadcrumb trail is used to indicate "
+"where in a hierarchy the Move browse results are currently showing."
+msgstr ""
+"移動する際の「アーカイバル・ディスクリプション(アーカイブ記述)」（参照：「move-archival-"
+"description」）では、移動ブラウズの結果が現在表示されている階層の場所を示すためにパンくずリストが使用されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1314
+msgid "An image of a hierarchy expressed as a breadcrumb in the Move screen"
+msgstr "階層を表したイメージは、移動画面においてパンくずリストとして示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1314
+msgid ""
+"An example of a description hierarchy expressed as a breadcrumb trail in the"
+" Move screen"
+msgstr "移動画面に表された説明階層の例をパンくずリストとして"
+
+#: ../../user-manual/access-content/navigate.rst:1317
+msgid ""
+"At the top of :term:`archival institution` and :term:`authority record` "
+":term:`view pages <view page>`, the breadcrumb trail is used to provide a "
+"link back to the Browse page for each kind of record."
+msgstr ""
+"アーカイブ機関(:term:`archival institution`)と権威レコード(:term:`authority "
+"record`)のビューページ(:term:`view pages <view "
+"page>`)の上部では、ブレッドクラムトレイルが使用され、各種レコードのブラウズページへのリンクを提供しています。"
+
+#: ../../user-manual/access-content/navigate.rst:1327
+msgid "An image of a breadcrumb trail above an archival institution record"
+msgstr "アーカイブ機関記録の上にあるパンくずリストの画像"
+
+#: ../../user-manual/access-content/navigate.rst:1327
+msgid ""
+"An example of a breadcrumb trail (below the title bar) above an archival "
+"institution record"
+msgstr "タイトルバーの下にあるアーカイブ機関レコード上のパンくずリストの一例"
+
+#: ../../user-manual/access-content/navigate.rst:1330
+msgid ""
+"Additionally, :term:`taxonomy` :term:`terms <term>` (such as :term:`places "
+"<place>` and :term:`subjects <subject>`) that are organized hierarchically "
+"will also display parent terms as a breadcrumb trail when added to an "
+":term:`archival description` - for example, if the subject term 'Apple' is a"
+" child of the term 'Fruit', then when 'Apple' is added as a subject "
+":term:`access point` to an :term:`archival description`, it will be "
+"expressed as: **Fruit >> Apple**. These terms will be displayed in the "
+"\"Access\" :ref:`information area <recurring-information-areas>` of the "
+"related :term:`archival description`, as well as in the :ref:`context menu "
+"<recurring-context-menu>` on the right-hand-side. (See: :ref:`Terms <terms>`"
+" for more information on working with :term:`taxonomy` terms such as "
+":term:`subjects <subject>` and :term:`places <place>` in AtoM)"
+msgstr ""
+"また、階層的に整理された`:term:`分類法` :term:`用語<term>`（例えば :term:`場所<place>` や "
+":term:`主題<subject>`）は、`:term:`アーカイブ記述`に追加されると、上位の用語をパンくずリストとして表示します。例えば、主題用語の「リンゴ」が「果物」という用語の子である場合、アーカイブ記述に「リンゴ」を主題の`:term:`アクセスポイント`として追加すると、**果物"
+" >> リンゴ** "
+"のように表現されます。これらの用語は、関連する`:term:`アーカイブ記述`の「アクセス」:ref:`情報エリア<recurring-"
+"information-areas>`に表示されるほか、右側の:ref:`コンテキストメニュー<recurring-context-"
+"menu>`にも表示されます。(AtoMで:term:`分類法`用語、例えば:term:`主題<subject>`や:term:`場所<place>`を扱う詳細については、:ref:`用語"
+" <terms>`を参照してください)"
+
+#: ../../user-manual/access-content/navigate.rst:1349
+msgid "An image of a hierarchical place term expressed as a breadcrumb trail"
+msgstr "階層的な場所の用語を表すパンくずリストとしての画像"
+
+#: ../../user-manual/access-content/navigate.rst:1349
+msgid ""
+"An example of a hierarchical place term expressed as a breadcrumb trail in "
+"the \"Access points\" area of an archival description"
+msgstr "「アーカイブ記述」の「アクセスポイント」エリアにおける、階層的な場所の用語をパンくずリストとして表現した例"
+
+#: ../../user-manual/access-content/navigate.rst:1353
+msgid ""
+"In AtoM, breadcrumbs (i.e. individual components of a breadcrumb trail) are "
+"expressed as hyperlinks, and can be clicked to navigate to the related "
+"source or :term:`parent record`. Clicking a :term:`term` such as a "
+":term:`subject` or :term:`place` in an :term:`access point` will bring a "
+"user to a Browse page listing results for other :term:`desriptions <archival"
+" description>` that have also been tagged with the same access point."
+msgstr ""
+"AtoMでは、パンくずリスト（breadcrumb "
+"trail）の個々のコンポーネントはハイパーリンクとして表現され、関連するソースや「上位記録（parent "
+"record）」にナビゲートするためにクリックすることができます。アクセスポイント（access "
+"point）内で「用語（term）」、例えば「主題（subject）」や「場所（place）」をクリックすると、同じアクセスポイントでタグ付けされた他の「アーカイブ記述（archival"
+" description）」の結果をリスト表示するブラウズページにユーザーは導かれます。"
+
+#: ../../user-manual/access-content/navigate.rst:1363
+msgid "Sort buttons"
+msgstr "並べ替えボタン"
+
+#: ../../user-manual/access-content/navigate.rst:1371
+msgid "An image of sort buttons on an archival description browse page"
+msgstr "アーカイブ記述閲覧ページの並び替えボタンの画像"
+
+#: ../../user-manual/access-content/navigate.rst:1371
+msgid "An example of the sort buttons on an archival description browse page"
+msgstr "アーカイバルディスクリプションのブラウズページにある並び替えボタンの例"
+
+#: ../../user-manual/access-content/navigate.rst:1373
+msgid ""
+"The sort buttons (**Sort by** and **Direction**) are navigational tools that"
+" appear on some browse and search pages throughout AtoM. They allow a user "
+"to change the sort order of the results being displayed. Common values used "
+"in the Sort by button as it appears in AtoM include: Alphabetic, Relevance, "
+"Identifier, :term:`Reference code` Most recent, or Start date and End date. "
+"The **Direction** sort button reverses the direction (ascending or "
+"descending) of items according to the **Sort by** option."
+msgstr ""
+"ソートボタン（**並べ替え**および**方向**）は、AtoMの一部の閲覧および検索ページに表示されるナビゲーションツールです。これらはユーザーが表示される結果の並べ替え順序を変更することを可能にします。AtoMにおいて**並べ替え**ボタンでよく使用される値には、アルファベット順、関連性、識別子、:term:`参照コード`"
+" 最近のもの、または開始日と終了日が含まれます。**方向**ソートボタンは、**並べ替え**オプションに従って項目の方向（昇順または降順）を逆にします。"
+
+#: ../../user-manual/access-content/navigate.rst:1381
+msgid ""
+"On search and/or browse pages, the Sort buttons appear as small :term:`drop-"
+"down menus <drop-down menu>` at the top right of the results. Hovering over "
+"the buttons reveal the option(s) currently not selected - a user can click "
+"the desired option in the drop-down menu, and the page will reload in the "
+"new sort order."
+msgstr ""
+"検索および/またはブラウズページにおいて、並び替えボタンは結果の右上に小さな「ドロップダウンメニュー」として表示されます。ボタンの上にマウスを置くと、現在選択されていないオプションが表示されます。ユーザーはドロップダウンメニューで望むオプションをクリックすると、ページが新しいソート順でリロードされます。"
+
+#: ../../user-manual/access-content/navigate.rst:1387
+msgid ""
+"When the sort order is set to \"Alphabetic,\"results are organized A-Z. Note"
+" that this is an **ASCII sort** - see the IMPORTANT note below for more "
+"information."
+msgstr ""
+"ソート順を「アルファベット順」に設定すると、結果がA-"
+"Zで整理されます。これは**ASCIIソート**であることに注意してください。詳細については、以下の重要な注意事項を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:1391
+msgid ""
+"When results are ordered by \"Most recent,\" the most recently added and/or "
+"edited records in the results will appear at the top of the list, allowing "
+"users to discover new or recently updated content."
+msgstr ""
+"結果が「最新順」で並べられると、最近追加されたり編集されたりしたレコードが結果のリストの上部に表示され、ユーザーが新しいまたは最近更新されたコンテンツを見つけることができます。"
+
+#: ../../user-manual/access-content/navigate.rst:1395
+msgid ""
+"When the sort order is set to \"Identifier,\" results are displayed by the "
+"identifier, based on an alphabetic **ASCII sort** (more information on ASCII"
+" sort is included in the IMPORTANT note below)."
+msgstr ""
+"ソート順が「識別子」に設定されている場合、結果はアルファベット順の**ASCIIソート**に基づいて識別子ごとに表示されます（ASCIIソートの詳細については、以下の重要な注意に記載されています）。"
+
+#: ../../user-manual/access-content/navigate.rst:1399
+msgid ""
+"When the sort order is set to \"Reference code,\" (on the :term:`archival "
+"description` browse page) results are based on the full inherited reference "
+"code, and NOT on the individual identifiers of each record, regardless of "
+"whether or not :ref:`reference code inheritance <inherit-reference-code>` is"
+" turned on in **Admin > Settings** or not. For more information on reference"
+" codes vs. identifiers and display options, see: :ref:`inherit-reference-"
+"code`."
+msgstr ""
+"参照コード順に並び替えが設定されている場合（:term:`アーカイブ記述`ブラウズページ上で）、結果は各記録の個々の識別子ではなく、完全な継承された参照コードに基づきます。これは、**管理"
+" > 設定** で :ref:`参照コードの継承 <inherit-reference-code>` "
+"がオンになっているかどうかに関わりません。参照コードと識別子および表示オプションの詳細については、:ref:`inherit-reference-"
+"code`を参照してください。"
+
+#: ../../user-manual/access-content/navigate.rst:1406
+msgid ""
+"When the sort order is set to \"Start date\" or \"End date\" (currently only"
+" available on :term:`archival descriptions <archival description>`), AtoM "
+"will order the results by the internal, ISO-8601 formatted (e.g. YYYY-MM-DD)"
+" start date or end date values - **not** the display date shown to public "
+"users, which is a free text field allowing users to express approximation or"
+" uncertainty. Results without a start date value or end date value will "
+"appear last."
+msgstr ""
+"ソート順が「開始日」または「終了日」（現在は`:term:`アーカイブ記述 "
+"<アーカイブ記述>`にのみ使用可能）に設定されている場合、AtoMは結果を内部のISO-8601形式（例：YYYY-MM-"
+"DD）で整列された開始日または終了日の値で並び替えます。これは一般ユーザーに表示される日付とは異なります。表示される日付は自由記述フィールドであり、ユーザーが近似値や不確実性を表現できるようになっています。開始日または終了日の値がない結果は最後に表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1415
+msgid ""
+"Elasticsearch does not naturally apply alphabetic sort in a human-friendly "
+"way (what is often known as \"**natural sort**\" in computer science) - "
+"instead, it applies what is known as **ASCII sort**, based on the order of "
+"the characters in the `ASCII <https://en.wikipedia.org/wiki/Ascii>`__ "
+"character encoding scheme. Consequently, some results may appear out of "
+"order, depending on how the titles have been entered. Artefactual hopes to "
+"improve sorting in AtoM for future releases. In the meantime, below is an "
+"image of an ASCII table - sort order is determined based on this schema - so"
+" that a description whose title starts with \"A\" will be preceded by one "
+"starting with a number, which in turn will be preceded by one beginning with"
+" a quotation mark, which will be preceded by a description that begins with "
+"a space before its first character. **If you are concerned about sort order,"
+" be sure to consider this when naming your records.**"
+msgstr ""
+"Elasticsearchは、コンピュータサイエンスでよく \"**ナチュラルソート**\" "
+"として知られている人間にとって分かりやすいアルファベット順の並べ替えを自然に適用するわけではありません。代わりに、`ASCII "
+"<https://en.wikipedia.org/wiki/Ascii>`__ 文字エンコーディングスキームに基づいた順序、つまり "
+"**ASCIIソート** "
+"が適用されます。その結果、タイトルがどのように入力されたかによっては、一部の結果が順不同で表示されることがあります。Artefactualは将来のリリースでAtoMのソート機能を改善することを望んでいます。その間、以下にASCIIテーブルの画像があります。ソート順序はこのスキーマに基づいて決定されます。そのため、タイトルが\"A\"で始まる記述は数字で始まる記述に先行され、それは引用符で始まる記述に先行され、それは最初の文字の前にスペースがある記述に先行されることになります。**並べ替え順序が気になる場合は、レコードの命名時にこのことを考慮することが重要です。**"
+
+#: ../../user-manual/access-content/navigate.rst:1434
+msgid ""
+"Sort buttons appear for the following records when on search, browse, or "
+"list pages:"
+msgstr "検索、閲覧、リストページにいる時に、以下のレコードに対してソートボタンが表示されます："
+
+#: ../../user-manual/access-content/navigate.rst:1437
+msgid ":term:`Accession <accession record>`"
+msgstr "登録記録(アクセッション・レコード)"
+
+#: ../../user-manual/access-content/navigate.rst:1438
+msgid ":term:`Archival descriptions <archival description>`"
+msgstr "用語：`アーカイバルディスクリプション <archival description>`"
+
+#: ../../user-manual/access-content/navigate.rst:1439
+msgid ":term:`Archival institututions <archival institution>`"
+msgstr "専門用語: `アーカイブ機関 <archival institution>`"
+
+#: ../../user-manual/access-content/navigate.rst:1440
+msgid ":term:`Authority records <authority record>`"
+msgstr "権威記録(オーソリティレコード)"
+
+#: ../../user-manual/access-content/navigate.rst:1441
+msgid "Donors"
+msgstr "寄贈者"
+
+#: ../../user-manual/access-content/navigate.rst:1442
+msgid ":term:`Functions <function>`"
+msgstr ":term:`機能 <function>`"
+
+#: ../../user-manual/access-content/navigate.rst:1443
+msgid ":term:`Rights holders <rights record>`"
+msgstr ":term:`権利保持者 <rights record>`"
+
+#: ../../user-manual/access-content/navigate.rst:1444
+msgid "Browse :term:`digital objects <digital object>`"
+msgstr "閲覧：用語「デジタルオブジェクト」"
+
+#: ../../user-manual/access-content/navigate.rst:1445
+msgid ":ref:`Clipboard results page <clipboard>`"
+msgstr ":ref:`クリップボード結果ページ <clipboard>`"
+
+#: ../../user-manual/access-content/navigate.rst:1446
+msgid ":term:`Taxonomies <taxonomy>`"
+msgstr ":term:`分類法 <taxonomy>`"
+
+#: ../../user-manual/access-content/navigate.rst:1449
+msgid ""
+"Sort buttons are customized for particular entities. For example, on the "
+"browse page for :term:`accessions <accession record>`, the sort button has "
+"been customized to offer sorting options specific to accession records, "
+"including:"
+msgstr ""
+"ソートボタンは特定のエンティティに合わせてカスタマイズされています。たとえば、:term:`アクセッション <accession record>` "
+"の閲覧ページにおいて、ソートボタンはアクセッション記録に特有のソートオプションを提供するようにカスタマイズされています。これには以下が含まれます："
+
+#: ../../user-manual/access-content/navigate.rst:1453
+msgid "Accession number"
+msgstr "アクセッション番号"
+
+#: ../../user-manual/access-content/navigate.rst:1454
+msgid "Most recent (created or updated)"
+msgstr "最新 (作成または更新されたもの)"
+
+#: ../../user-manual/access-content/navigate.rst:1455
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/access-content/navigate.rst:1456
+msgid "Acquisition date"
+msgstr "取得日"
+
+#: ../../user-manual/access-content/navigate.rst:1460
+msgid ":ref:`browse-result-limits`"
+msgstr ":ref:`ブラウズ結果の上限`"
+
+#: ../../user-manual/access-content/navigate.rst:1461
+msgid ":ref:`config-search`"
+msgstr ":ref:`検索設定`"
+
+#: ../../user-manual/access-content/navigate.rst:1462
+msgid ":ref:`browse`"
+msgstr "「:ref:`ブラウズ`」"
+
+#: ../../user-manual/access-content/navigate.rst:1467
+msgid "Institution logos"
+msgstr "機関のロゴ"
+
+#: ../../user-manual/access-content/navigate.rst:1469
+msgid ""
+"Institution logos are theming elements that can be added by an "
+":term:`administrator` to an :term:`archival institution` record. As part of "
+"the institutional theming module, an archival institution record can be "
+"customized by adding a logo, banner, custom background color, and/or "
+"customized descriptive content - see: :ref:`edit-institution-theme`. Some "
+"theming elements, such as a logo or a custom background color, will also be "
+"applied to any related :term:`archival descriptions <archival description>`,"
+" offering user a visual cue as to which institution holds the current "
+"description. When a logo has not been uploaded, a placeholder, which "
+"displays the institution name, will still appear on the institution record "
+"and any related archival descriptions."
+msgstr ""
+"機関のロゴはテーマ要素であり、:term:`管理者`によって:term:`アーカイブ機関`の記録に追加することができます。機関テーマモジュールの一環として、アーカイブ機関の記録はロゴ、バナー、カスタム背景色、および/またはカスタマイズされた説明コンテンツを追加することによってカスタマイズすることができます"
+" - 参照: :ref:`edit-institution-"
+"theme`。ロゴやカスタム背景色などの一部のテーマ要素は、どの機関が現在の記述を保持しているかをユーザーに視覚的な手がかりとして提供するため、関連する:term:`アーカイブ記述"
+" <archival "
+"description>`にも適用されます。ロゴがアップロードされていない場合でも、機関名を表示するプレースホルダーが機関の記録と関連するアーカイブ記述に表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1481
+msgid ""
+"In addition to providing a customized look and greater context when viewing "
+"related archival descriptions, the institutional logo also acts as a "
+"navigational element: the logo (or its placeholder if no logo has been "
+"uploaded) operates as a hyperlink to the related :term:`archival "
+"institution`. This allows a user to quickly navigate to the institution's "
+"record to find out its location, opening hours, etc. as well as to view a "
+"list of other :term:`holdings` held by the :term:`archival institution`."
+msgstr ""
+"関連するアーカイブ記述を表示する際にカスタマイズされた見栄えとより大きな文脈を提供するだけでなく、機関のロゴはナビゲーション要素としても機能します：ロゴ（またはロゴがアップロードされていない場合のプレースホルダー）は、関連する「アーカイブ機関」へのハイパーリンクとして動作します。これにより、ユーザーはすぐに機関の記録にナビゲートしてその場所、開館時間などを見つけることができますし、「アーカイブ機関」が保有する他の「資料」のリストを表示することもできます。"
+
+#: ../../user-manual/access-content/navigate.rst:1489
+msgid ""
+"On :term:`archival institution` records and related :term:`archival "
+"descriptions <archival description>`, the institution logo appears on in the"
+" top-left hand corner of the page, in the :term:`context menu`. On related "
+":term:`archival descriptions <archival description>`, it is positioned above"
+" the :term:`treeview`; on the :term:`archival institution` record page, it "
+"is positioned above the list of related :term:`holdings`."
+msgstr ""
+"アーカイブ機関のレコードと関連するアーカイブ記述において、機関のロゴはページの左上隅、コンテキストメニューに表示されます。関連するアーカイブ記述では、ロゴはツリービューの上に配置され、アーカイブ機関のレコードページでは、関連するホールディングスのリストの上に配置されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1502
+msgid "An image of an institution logo on a related archival description"
+msgstr "関連するアーカイブ記述における機関のロゴ画像"
+
+#: ../../user-manual/access-content/navigate.rst:1502
+msgid "An example of an institution logo on a related archival description"
+msgstr "関連するアーカイブ記述における機関のロゴの例"
+
+#: ../../user-manual/access-content/navigate.rst:1504
+msgid ""
+"Additionally, institution logos are used on the :term:`archival institution`"
+" browse page (available via the :ref:`browse menu <browse-menu>`), the logos"
+" (or logo placeholders if no logo has been uploaded) are presented to the "
+"user in a tiled browse layout, with the title appearing below the logo in "
+"grey."
+msgstr ""
+"さらに、機関のロゴは、:term:`アーカイブ機関` のブラウズページ（:ref:`ブラウズメニュー <browse-menu>` "
+"経由で利用可能）で使用されます。ロゴ（またはロゴがアップロードされていない場合のロゴのプレースホルダー）は、タイル状のブラウズレイアウトでユーザーに提示され、タイトルはロゴの下にグレーで表示されます。"
+
+#: ../../user-manual/access-content/navigate.rst:1515
+msgid "An image of institution logos the archival institution browse page"
+msgstr "機関ロゴの画像、アーカイブ機関の閲覧ページ"
+
+#: ../../user-manual/access-content/navigate.rst:1515
+msgid ""
+"Institution logos on the Archival institution browse page. In the image, the"
+" Alberton Museum and the Alex Youck School Museum represent institutions "
+"without uploaded logos, showing placeholders instead."
+msgstr ""
+"アーカイブ機関の閲覧ページにおける機関のロゴ画像。画像では、アルバートン博物館とアレックス・ユーク学校博物館がロゴをアップロードしていない機関として表され、代わりにプレースホルダーが表示されています。"
+
+#: ../../user-manual/access-content/navigate.rst:1519
+msgid "**For information on adding a logo to an archival institution, see:**"
+msgstr "**アーカイバル機関にロゴを追加する方法についての情報は、次を参照してください：**"
+
+#: ../../user-manual/access-content/navigate.rst:1521
+msgid ":ref:`add-institution-logo`"
+msgstr ":ref:`機関ロゴの追加`"
+
+#: ../../user-manual/access-content/navigate.rst:1525
+msgid ":ref:`archival-institutions`"
+msgstr ":ref:`アーカイバル機関`"
+
+#: ../../user-manual/access-content/navigate.rst:1526
+msgid ":ref:`edit-institution-theme`"
+msgstr ""
+":ref:`edit-institution-theme`は、そのままの形式でRef Role（参照ロール）または内部リンクに使用されるSphinxの標記であり、これを直訳することは意図されていません。しかし、もし文脈に基づいた通常テキストの翻訳が必要な場合、次のようになります：\n"
+"\n"
+"`機関テーマの編集`"
+
+#: ../../user-manual/access-content/navigate.rst:1527
+msgid ":ref:`ISDIAH template <isdiah-template>`"
+msgstr ":ref:`ISDIAHテンプレート <isdiah-template>`"
+
+#: ../../user-manual/access-content/navigate.rst:1528
+msgid ":ref:`link-archival-institution`"
+msgstr ":ref:`リンク-アーカイブ機関`"

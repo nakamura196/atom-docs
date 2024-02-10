@@ -1,0 +1,1909 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:5
+msgid "Authority records"
+msgstr "権威記録"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:7
+msgid ""
+"Authority records are one of the core :ref:`entity-types` in AtoM and "
+"provide users with a means to control the representation of information "
+"about actors - :term:`corporate bodies <corporate body>`, persons, or "
+"families - who interact with archival materials, typically as "
+":term:`creators <creator>`. Typically, authority records contain information"
+" about the authorized form of name and other forms of name by which the "
+"actor is known, dates of existence, relevant administrative or biographical "
+"history details, and other contextual information; additionally, roles in "
+":term:`events <event>` and relationships with archival materials are also "
+"captured and expressed."
+msgstr ""
+"権限レコードは、AtoMにおける中核的な:ref:`entity-types`の一つであり、アーカイブ資料と交流する行為者、つまり:term:`法人団体"
+" <corporate "
+"body>`、個人、家族などに関する情報の表現をコントロールする手段をユーザーに提供します。通常、権限レコードには、行為者が知られている認可された名前の形態やその他の名前の形態、存在期間、関連する行政又は伝記的な歴史の詳細、およびその他の文脈情報が含まれます。さらに、:term:`イベント"
+" <event>`における役割やアーカイブ資料との関連性も捕捉されて表現されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:17
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org/>`__) "
+"defines an authority record as \"*The authorized form of name combined with "
+"other information elements that identify and describe the named entity and "
+"may also point to other related authority records.*\" Maintaining contextual"
+" information about records :term:`creators <creator>` and other actors is "
+"essential to archival practice, and helps establish the provenance and "
+"authenticity of the related records. Additionally, archival authority "
+"records, like library authority records, can be used to control the creation"
+" and use of :term:`access points <access point>`, thereby improving access "
+"for :term:`researchers <researcher>` and other members of the public. By "
+"maintaining authority records separately from :term:`archival descriptions "
+"<archival description>`, complex relationships of creation and contribution "
+"can be expressed, even between materials held by different :term:`archival "
+"institutions <archival institution>` or in different kinds of "
+":term:`repositories <repository>` such as libraries and museums. By using a "
+"recognized international standard to control the creation of authority "
+"records, :term:`archival institutions <archival institution>` have the "
+"opportunity to share authority records. As the `ICA <http://www.ica.org/>`__"
+" notes,"
+msgstr ""
+"国際アーカイブス評議会（`ICA <http://www.ica.org/>`__）は、権威ファイル（authority "
+"record）を「*認定された名称の標準形式とそれに結びつく他の情報要素を組み合わせたもので、その名称で示される実体を識別し記述し、関連する他の権威ファイルを指し示すこともあるもの*」と定義しています。記録のコンテキスト情報、すなわち記録の:term:`作成者"
+" "
+"<creator>`や他の行為者に関する情報を維持することは、アーカイブの実践において不可欠であり、関連する記録の出所（provenance）と真正性を確立するのに役立ちます。さらに、アーカイブの権威ファイルは、図書館の権威ファイルと同様に、:term:`アクセスポイント"
+" <access point>`の作成と使用をコントロールするために使用され、これにより:term:`研究者 "
+"<researcher>`やその他の公衆のアクセスが向上します。権威ファイルを:term:`アーカイブ記述 <archival "
+"description>`とは別に維持することによって、異なる:term:`アーカイブ機関 <archival "
+"institution>`が保持している資料や、図書館や博物館のような異なる種類の:term:`リポジトリ "
+"<repository>`との間の複雑な創造や寄与の関係を表現することができます。国際的に認められた基準を使用して権威ファイルの作成をコントロールすることによって、:term:`アーカイブ機関"
+" <archival institution>`は権威ファイルを共有する機会を持つことができます。`ICA "
+"<http://www.ica.org/>`__が指摘するように、"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:37
+msgid ""
+"\"*Such standardization is of particular international benefit when the "
+"sharing or linking of contextual information is likely to cross national "
+"boundaries. The multinational character of past and present record keeping "
+"creates the incentive for international standardization which will support "
+"the exchange of contextual information. For example, processes such as "
+"colonialization, immigration and trade have contributed to the multinational"
+" character of recordkeeping.*\" (ISAAR Introduction)"
+msgstr ""
+"そのような標準化は、文脈情報の共有やリンクが国境を越える可能性がある場合に特に国際的な利点となります。過去および現在の記録保持の多国籍な特徴は、文脈情報の交換を支援する国際標準化の動機付けとなります。例えば、植民地化、移民、貿易といったプロセスが記録保持の多国籍な特徴に寄与しています。"
+" (ISAAR 序文)"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:46
+msgid ""
+"In AtoM, the :term:`data elements <data element>` used to describe authority"
+" records are based on the `ICA's <http://www.ica.org/>`__ *International "
+"Standard Archival Authority Record for Corporate Bodies, Persons and "
+"Families*, or :ref:`ISAAR(CPF) <isaar-template>`."
+msgstr ""
+"AtoMにおいて、権威レコードを記述するために用いられる`:term:`データ要素<data element>`は、`ICA "
+"<http://www.ica.org/>`__が定める*国際標準の法人・個人・家族のための権威レコード（ISAAR(CPF)）*または "
+":ref:`ISAAR(CPF) <isaar-template>`に基づいています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of an Authority record in AtoM"
+msgstr "AtoMでの権限レコードの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:59
+msgid "AtoM, Authority records, Biographical histories, and Access points"
+msgstr "AtoM（Access to Memory）、権限記録、伝記的歴史、およびアクセスポイント"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:61
+msgid ""
+"In AtoM, authority records are maintained separately from archival "
+"descriptions, but can be :ref:`linked <link-authority-to-description>` to "
+"them by adding persons, families, or :term:`corporate bodies <corporate "
+"body>` as :term:`creators <creator>` or as name :term:`access points <access"
+" point>`. To take advantage of this capability, and to enforce greater "
+"standards compliance, AtoM's standards-based archival description templates "
+"for :ref:`ISAG(G) <isad-template>`, :ref:`RAD <rad-template>`, and "
+":ref:`DACS <dacs-template>`, there is no :term:`field` provided for an "
+"administrative or biographical history, despite the fact that such a field "
+"exists in all three related standards."
+msgstr ""
+"AtoMでは、権威記録はアーカイブ記述とは別に保持されますが、個人、家族、または:term:`法人<corporate "
+"body>`を:term:`作成者<creator>`や名称:term:`アクセスポイント<access "
+"point>`として追加することによって、それらに:ref:`リンクして<link-authority-to-"
+"description>`結びつけることができます。この機能を活用し、より高い標準への準拠を強化するために、AtoMでは:ref:`ISAG(G) "
+"<isad-template>`、:ref:`RAD <rad-template>`、および:ref:`DACS <dacs-"
+"template>`用の標準に基づいたアーカイブ記述テンプレートが用意されていますが、すべての関連する標準にそのようなフィールドが存在するにもかかわらず、管理又は伝記的履歴に対して提供されている:term:`フィールド<field>`はありません。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:72
+msgid ""
+"This is not because the data cannot be added - rather it is because as a "
+"database, AtoM provides a method of  pulling the related administrative or "
+"biographical history from the :term:`authority record`, directly into the "
+"linked description. Here's why:"
+msgstr ""
+"これはデータが追加できないからではありません。むしろ、データベースとしてのAtoMは、関連する行政的または伝記的履歴を:term:`authority "
+"record`（権威記録）から直接、リンクされた記述に引き出す方法を提供しているからです。その理由を説明しましょう："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:77
+msgid ""
+"ISAD(G) defines 3.2.2 Administrative / Biographical history in the following"
+" way:"
+msgstr "ISAD(G)は、3.2.2 行政的／伝記的歴史を次のように定義しています："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:79
+msgid ""
+"**Purpose:** *To provide an administrative history of, or biographical "
+"details on, the creator (or creators) of the unit of description to place "
+"the material in context and make it better understood.* **Rules:** *Record "
+"concisely any significant information on the origin, progress, development "
+"and work of the organization (or organizations) or on the life and work of "
+"the individual (or individuals) responsible for the creation of the unit of "
+"description.*"
+msgstr ""
+"**目的：** "
+"*記述単位の作成者（複数の作成者の場合も含む）の行政上の歴史や伝記的詳細を提供し、資料の文脈を明らかにし、より深く理解できるようにするため。* "
+"**規則：** "
+"*記述単位の作成に責任を持つ組織（複数の組織の場合も含む）または個人（複数の場合も含む）の起源、進行、発展、および仕事に関する重要な情報を簡潔に記録する。*"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:87
+msgid ""
+"The entry in ISAD 3.2.2 goes on to indicate that the :ref:`ISAAR(CPF) "
+"<isaar-template>` standard (for :term:`authority record` creation) be "
+"consulted for specific informational elements that may be included. As such,"
+" the 3.2.2 :term:`field` is not intended to include information that is "
+"particular to either the :term:`archival description`,or the :term:`fonds`, "
+"or its internal management - instead, it should **only** contain general "
+"historic information that is included in the description to provide greater "
+"context. Separate maintenance of authority records is also discussed at 1.5,"
+" 1.6, and 1.8 of the ISAAR-CPF standard."
+msgstr ""
+"ISADの3.2.2の項目は、特定の情報要素が含まれる可能性があることを示していますが、それについては`:ref:`ISAAR(CPF) <isaar-"
+"template>`基準（`:term:`権威レコード`作成用）を参照するようにしています。したがって、3.2.2：term:`フィールド`は、`:term:`アーカイブ記述`、または`:term:`フォンド`、もしくはその内部管理に固有の情報を含むことを意図していません。その代わりに、**唯一**含まれるべきは、より大きな文脈を提供するために記述に含まれる一般的な歴史情報のみです。権威レコードの別個のメンテナンスについても、ISAAR-"
+"CPF基準の1.5、1.6、および1.8で論じられています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:97
+msgid ""
+"The Canadian Rules for Archival Description (:ref:`RAD <rad-template>`) is "
+"even more explicit, noting in a footnote that:"
+msgstr "カナダのアーカイブ記述ルール(:ref:`RAD <rad-template>`)はさらに明確で、脚注で以下のように記しています："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:100
+msgid ""
+"*If the institution maintains a separate file containing authority records "
+"for persons, families and corporate bodies, etc., the biographical "
+"information or administrative history may be kept as part of the record for "
+"that person, family, or corporate body and, therefore, does not have to be "
+"given in the description of the material. This enables the same authority "
+"record and the biographical information or administrative history that it "
+"contains, to be used for other descriptions and used in finding aids and "
+"products, e.g., when the name is associated with a subject index entry, or "
+"the same person, family or corporate body occurs in other descriptions.* "
+"(footnote 25, 1-52)"
+msgstr ""
+"もし機関が個人、家族、企業団体などの権威レコードを含む別のファイルを維持している場合、その人物、家族、または企業団体に関する伝記情報や行政の歴史は、その人物、家族、あるいは企業団体のレコードの一部として保持されるため、資料の説明で記載する必要はありません。これにより、同じ権威レコードとそれに含まれる伝記情報や行政の歴史を、他の説明や、例えば名前が主題索引エントリと関連付けられた時や同じ個人、家族、企業団体が他の説明に現れる時などの、検索支援や製品で利用することができます。（脚注25、1-52）"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:111
+msgid ""
+"This echoes the conclusions of the United States archival standard, "
+"Describing Archives: A Content Standard (:ref:`DACS <dacs-template>`):"
+msgstr ""
+"これは、米国のアーカイブ標準である「Describing Archives: A Content Standard (:ref:`DACS <dacs-"
+"template>`)」の結論を反映しています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:114
+msgid ""
+"*Information about the corporate body, person, or family that created, "
+"assembled, accumulated, and/or maintained and used the materials being "
+"described may be described in one of two ways: 1. Incorporated into the "
+"description using biographical/historical notes. 2. Held in a separate "
+"system of authority files that are linked to the archival descriptions and "
+"displayed together.*"
+msgstr ""
+"記述されている資料を作成・集積・蓄積し、かつ／または保持・使用した企業体、個人、あるいは家族に関する情報は、以下の二つの方法のいずれかで記述することができます。1."
+" 経歴・歴史に関する注記を使用して説明に組み込む。2. 権威ファイルの別個のシステムに保持され、アーカイブ記述にリンクされ、一緒に表示される。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:121
+msgid ""
+"In light of this, and in an effort to provide greater re-usability of "
+":term:`authority records <authority record>` (and hence more authority "
+"control overall) in the application, AtoM behaves in several specific ways:"
+msgstr ""
+"このことを踏まえ、アプリケーション内での:term:`権威レコード <authority "
+"record>`（それにより、より多くの権威管理を全体的に）の再利用性を向上させるために、AtoMはいくつかの特定の方法で動作します："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:125
+msgid ""
+"Whenever a new :term:`name` is added to a description (either as a "
+":term:`creator`, or as a name :term:`access point`), a new stub "
+":term:`authority record` is automatically generated for that person, family,"
+" or :term:`corporate body`, which can then be supplemented by navigating to "
+"the authority record itself. The new authority record is linked to the "
+":term:`archival description`, and the new name will now appear in the "
+"autocomplete :term:`drop-downs <drop-down menu>` when a user starts typing "
+"to add any other creator names or name access points in subsequent "
+"descriptions."
+msgstr ""
+"新しい:term:`名前`が説明に追加されるたび（:term:`作成者`として、あるいは名前:term:`アクセスポイント`として）、その人物、家族、または:term:`法人`に対して新しいスタブ:term:`権威レコード`が自動的に生成されます。その後、権威レコード自体に移動して補完することができます。新しい権威レコードは:term:`アーカイブ記述`にリンクされており、新しい名前はユーザーが他の作成者名や名前アクセスポイントを後続の記述に追加し始めると、自動補完:term:`ドロップダウン<ドロップダウンメニュー>`に表示されるようになります。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:134
+msgid ""
+"When a :term:`creator` name is added to an :term:`archival description`, the"
+" biographical/administrative history for that creator will appear at the "
+"level of description where the name has been added, but will not repeat at "
+"lower levels. The creator name **will** be inherited by lower levels "
+"however, unless a different name is explicitly added at a lower level. By "
+"inheriting the name, AtoM supports the recommended practice of not repeating"
+" information unnecessarily at lower levels of description."
+msgstr ""
+"デジタルデータの長期保存に関する専門家として、「:term:`creator`（作成者）」の名前が「:term:`archival "
+"description`（アーカイブ記述）」に追加されると、その作成者の伝記的・行政的歴史は、名前が追加された記述のレベルでは表示されますが、下位レベルでは繰り返されません。しかし、作成者の名前は下位レベルに**継承されます**が、下位レベルで別の名前が明示的に追加されない限りです。作成者の名前を継承することにより、AtoMは、記述の下位レベルで不必要な情報を繰り返さないという推奨される実践を支援します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:141
+msgid ""
+"If a user navigates to the related :term:`creator's <creator>` "
+":term:`authority record` and edits it, adding data to the \"History\" "
+":term:`field` (ISAAR-CPF 5.2.2), that data will appear in the related "
+":term:`archival description` as the administrative or biographical history. "
+"If the authority record's entity type is set to \"Person\" or \"Family\", "
+"the history will display as a Biographical history in the related "
+"description under the creator name; if the entity type is set \"Corporate "
+"body,\" it will appear as an Administrative history."
+msgstr ""
+"ユーザーが関連する:term:`creator's <creator>` :term:`authority "
+"record`にナビゲートし、それを編集して\"History\" :term:`field`（ISAAR-CPF "
+"5.2.2）にデータを追加する場合、そのデータは関連する:term:`archival "
+"description`に管理上の歴史または伝記歴史として表示されます。オーソリティレコードのエンティティタイプが「個人」または「家族」に設定されている場合、履歴は作成者名の下の関連する記述の中で伝記歴史として表示されます；エンティティタイプが「法人団体」に設定されている場合、それは管理歴史として現れます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:149
+msgid ""
+"Similarly, any Administrative / biographical history data in an archival "
+"description `EAD <http://www.loc.gov/ead/>`__ import (i.e. data contained in"
+" the ``<bioghist>`` EAD element) will be mapped to the \"History\" "
+":term:`field` (ISAAR-CPF 5.2.2) in the related :term:`authority record`, "
+"(generated from the data contained in the ``<origination>`` element of the "
+"EAD) and then is presented in AtoM in any related descriptions where the "
+"entity is listed as a creator."
+msgstr ""
+"同様に、アーカイブ記述のEADインポート（``<bioghist>`` "
+"EAD要素に含まれるデータ、例えば）におけるあらゆる行政的／伝記的歴史データは、関連する権威記録（EADの``<origination>``要素に含まれるデータから生成される）の「歴史」：用語`フィールド`（ISAAR-"
+"CPF 5.2.2）にマッピングされ、その後、そのエンティティが作成者としてリストされている関連する記述でAtoMで表示されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:156
+msgid ""
+"Where multiple creator names and histories are included in an import, "
+"``<origination>`` and ``<bioghist>`` elements are matched 1:1 in the  order "
+"they appear in the EAD."
+msgstr ""
+"複数の作成者の名前と履歴がインポートに含まれている場合、``<origination>``要素と``<bioghist>``要素は、EAD内に表示される順序で1:1に対応付けられます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:159
+msgid ""
+"If a ``<bioghist>`` element is included in an EAD import, but no creator "
+"name is included, AtoM will still automatically generate a stub "
+":term:`authority record` and map the ``<bioghist>`` data to the \"History\" "
+":term:`field` (ISAAR-CPF 5.2.2) - the authority record will be left "
+"untitled, until the user manually adds the appropriate :term:`name` to the "
+"authority record. Similarly, if there are more ``<bioghist>`` elements "
+"included in an import than creator names included in ``<origination>`` "
+"elements, the final biographical/administrative history will be mapped to an"
+" untitled authority record."
+msgstr ""
+"EADインポートに「<bioghist>」要素が含まれているが、作成者名が含まれていない場合、AtoMは自動的にスタブの「権威記録」を生成し、「<bioghist>」データを「歴史」フィールド（ISAAR-"
+"CPF "
+"5.2.2）にマッピングします。その権威記録は無題のままで、利用者が手動で適切な「名前」を権威記録に追加するまで変更されません。同様に、インポートに含まれる「<origination>」要素に含まれる作成者名よりも多くの「<bioghist>」要素がある場合、最終的な伝記及び管理履歴は無題の権威記録にマッピングされます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:171
+#: ../../user-manual/add-edit-content/authority-records.rst:198
+#: ../../user-manual/add-edit-content/authority-records.rst:470
+msgid ":ref:`term-name-vs-subject`"
+msgstr ":ref:`用語-名称対主題`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:172
+msgid ":ref:`ead-actors-import`"
+msgstr ""
+"`:ref:`ead-actors-import``は埋め込み参照またはリンク可能なクロスリファレンスのラベルであるため、これ自体は特定の文章や段落を持っていません。このラベルは、ドキュメント内の特定のセクションやエレメントにリンクするためのプレースホルダーやマーカーとして機能します。\n"
+"\n"
+"もし「ead-actors-import」というラベルに対応するセクションの実際のテキストを翻訳する必要がある場合は、そのセクションの内容が必要です。しかし、このコンテキストでは、このラベルはおそらく固有名詞や特定の機能名を参照しており、通常は翻訳されません。\n"
+"\n"
+"参考までに、あなたが翻訳作業を進めるために使用すべき文脈では、次のように日本語に書き下すことが一般的です：\n"
+"\n"
+"`:ref:`ead-actors-import``\n"
+"\n"
+"これは、原文の指示や機能名をそのまま保持するために、原語のラベルをそのまま用いています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:173
+#: ../../user-manual/add-edit-content/authority-records.rst:1001
+msgid ":ref:`csv-actors-import`"
+msgstr ""
+"`:ref:`csv-actors-import` の部分はreStructuredText (reST) でのクロスリファレンス（相互参照）のマークアップです。翻訳する際は、このラベルが指し示すコンテンツに応じた適切な翻訳が必要です。ただし、このマークアップ自体はそのまま保持します。ですので、翻訳者はこのラベルがどこを指しているのか文脈を理解し、ラベル名自体（この場合は `csv-actors-import`）を変更してはなりません。ただし訳文としてこのラベル名をそのまま使用するわけにもいかないため、文脈に基づいて適切な訳を用意する必要があります。\n"
+"\n"
+"もしこのラベルが「CSVからのアクターインポート」というセクションを指している場合、適切な翻訳は以下のようになるでしょう：\n"
+"\n"
+"``:ref:`CSVからのアクターインポート` ``\n"
+"\n"
+"ただし、実際の文脈や指し示すセクションの正確なタイトルに基づいて修正することが必要です。また、ドキュメント全体の翻訳時にはこの参照ラベルが正しく機能するように、対応するセクションのタイトルも適切に設定されている必要があることに注意してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:176
+msgid ""
+"**Below are instructions for using the AtoM Authority records module to:**"
+msgstr "以下は、AtoM Authority recordsモジュールを使用するための指示です："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:178
+msgid ":ref:`Create a new authority record <create-authority-record>`"
+msgstr ":ref:`新しい権限記録を作成する<create-authority-record>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:179
+msgid ":ref:`Edit an existing authority record <edit-authority-record>`"
+msgstr ":ref:`既存の権威レコードを編集する<edit-authority-record>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:180
+#: ../../user-manual/add-edit-content/authority-records.rst:520
+msgid ":ref:`authority-access-points`"
+msgstr "`:ref:`権限アクセスポイント`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:181
+msgid ":ref:`link-authority-to-description`"
+msgstr ":ref:`説明への権威リンク`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:182
+msgid ":ref:`link-repo-actor`"
+msgstr ""
+"`:ref:`link-repo-"
+"actor``のように特定のマークアップ言語と参照ラベルを使用したテキストは、通常ドキュメント内の別のセクションへの参照を作成するために使用されます。この場合、`link-"
+"repo-"
+"actor`はおそらく特定のセクションや定義へのリンクラベルです。これが翻訳文脈での記述であれば、単に参照先の日本語のタイトルやラベルに変更する必要があります（もし日本語のドキュメントがあれば）。しかし、そのままのマークアップの参照を保持したい場合は、直訳するテキストはありません。それゆえに、その参照を翻訳の対象とすることはできません。翻訳が必要な実際のテキストがもしあれば、それを提供していただければ、適切な日本語訳を提供できます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:183
+msgid ":ref:`link-two-authority-records`"
+msgstr ":ref:`リンク-2つの権限レコード`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:184
+msgid ":ref:`link-authority-record-function`"
+msgstr ":ref:`リンク-権限記録機能`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:185
+msgid ":ref:`delete-authority-record`"
+msgstr ":ref:`権限レコードの削除`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:189
+msgid ""
+"For more information on using the specific :term:`fields <field>` within the"
+" Authority record template, see: :ref:`ISAAR template <isaar-template>`"
+msgstr ""
+"特定の権限レコードテンプレート内の:term:`フィールド "
+"<field>`の使用についての詳細は、以下を参照してください：:ref:`ISAARテンプレート <isaar-template>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:194
+msgid ":ref:`add-term-fly`"
+msgstr ""
+"このテキストは、参照リンクの書式に関連しており、特定のドキュメントや用語を指し示すマークアップの一例です。ただし、与えられたコンテキストが不足しているため、この特定の参照がどのような用語やドキュメントに関連しているかは不明です。\n"
+"\n"
+"実際の翻訳を行うには、参照されている用語やドキュメントのタイトルが必要です。しかしながら、リテラル（字面通り）の翻訳ならば以下のようになります：\n"
+"\n"
+"```:ref:`用語を追加する` ```\n"
+"\n"
+"通常、「:ref:`」というマークは、技術的なドキュメントで内部リンクを作成する際に使われるもので、Sphinxなどのドキュメント生成ツールで見られます。ここでは、実際のリンク先の識別子（ここでは 'add-term-fly'）とその表示されるテキスト（翻訳が必要な部分）を日本語に翻訳する必要があります。もし、リンク先の識別子を翻訳する必要があれば、それも含めて適切な日本語の識別子に置き換える必要があります。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:195
+msgid ":ref:`formatting`"
+msgstr ""
+"`:ref:`formatting`` は、テキストマークアップ言語におけるクロスリファレンス（相互参照）機能を示す記法で、そのまま翻訳するものではありませんが、文脈に応じた適切な日本語訳を付記します。\n"
+"\n"
+"例えば、日本語の文書にこのクロスリファレンスを含める場合は、次のように変換するかもしれません：\n"
+"\n"
+"「参照：`書式設定`」\n"
+"\n"
+"ただし、これはマークアップ言語内でのレファレンスであり、出力されたドキュメントでは実際のセクション名やタイトルに変換されます。実際の翻訳作業では、このクロスリファレンスがどの文脈で、どのように使われているかを把握し、適切に処理する必要があります。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:196
+msgid ":ref:`entity-types`"
+msgstr "`:ref:`エンティティのタイプ``"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:197
+msgid ":ref:`Exit edit mode <exit-edit-mode>`"
+msgstr ":ref:`編集モードを終了する <exit-edit-mode>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:199
+msgid ":ref:`import-actor-xml`"
+msgstr ""
+":ref:`import-actor-xml` は特定のコードやドキュメントにおいて参照リンクとして機能するマークアップです。しかし、翻訳においては、参照対象の実際のテキストや章題が必要です。したがって、直接的な日本語翻訳は提供できませんが、「アクターXMLをインポート」という節を指している場合は以下のように訳すことができます。\n"
+"\n"
+"「アクターXMLのインポート」\n"
+"\n"
+"ただし、実際には対応する日本語ドキュメント内での正確な節名または文脈によって翻訳が異なる可能性があります。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:200
+msgid ":ref:`csv-import-authority-records-gui`"
+msgstr ""
+":ref:`csv-import-authority-records-gui` の部分は、テキストの参照リンクです。ドキュメンテーションの文脈で翻訳する必要がある場合は、そのリンクが指しているセクションのタイトルに合わせて翻訳すると良いでしょう。リンク先のタイトルが「CSVを使用した権限記録のインポート（GUI）」といったタイトルであるならば、翻訳は次のようになるかもしれません。\n"
+"\n"
+"``:ref:`csv-を使用した権限記録のインポート-グラフィカルユーザーインターフェース` ``\n"
+"\n"
+"ただし、リンクの実際のラベル（この場合csv-import-authority-records-gui）は変更されるべきではないことに注意してください。これはドキュメント内の特定のセクションへの参照用の識別子であり、翻訳されるべきではありません。実際のドキュメントにおいては、リンクの参照部分をどのように取り扱うかが、ドキュメント管理システムの仕様によって異なるため、この部分はそのまま残し、リンクテキストのみを翻訳します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:206
+msgid "Create a new authority record"
+msgstr "新しい権威レコードを作成する"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:208
+msgid ""
+"The `ICA's <http://www.ica.org/>`__ model of authority record use and "
+"maintenance means that separate records are created for all actors (persons,"
+" families, and :term:`corporate bodies <corporate body>`), which can then be"
+" linked to related :term:`archival descriptions <archival description>`. In "
+"AtoM this process has been automated wherever possible to simplify the "
+"workflow - consequently, a new :term:`authority record` is automatically "
+"created any time a new name (such as a :term:`creator` name or a name "
+":term:`access point`) is associated with a description. This means that "
+"there are several different ways to create new authority records:"
+msgstr ""
+"ICAの権威記録使用およびメンテナンスモデルでは、すべてのアクター（個人、家族、団体）について別々の記録を作成し、それらを関連するアーカイブ記述にリンクすることができます。AtoMでは、このプロセスを可能な限り自動化してワークフローを簡素化しており、結果として、新しい名前（作成者名やアクセスポイントの名前など）が記述に関連付けられるたびに、新しい権威記録が自動的に作成されます。つまり、新しい権威記録を作成する方法はいくつかあります。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:218
+msgid ":ref:`From the main menu <add-authority-main>`"
+msgstr ":ref:`メインメニューから <add-authority-main>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:219
+msgid ":ref:`From a related archival description <add-authority-description>`"
+msgstr "関連するアーカイブ記述から :ref:`<add-authority-description>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:220
+msgid ":ref:`From an authority record view page <add-authority-view-page>`"
+msgstr ":ref:`権威レコードビューページから <add-authority-view-page>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:224
+msgid ""
+"To create new authority records, you must be logged in to AtoM with a "
+":term:`user account` with sufficient edit permissions to create authority "
+"records, such as an :term:`administrator`, :term:`editor`, or "
+":term:`contributor`. For more information on types of users and edit "
+"permissions, see :ref:`User roles <user-roles>`"
+msgstr ""
+"新しい権威レコードを作成するためには、権威レコードを作成するための十分な編集権限を持つ`:term:`ユーザーアカウント`でAtoMにログインしている必要があります。例えば、`:term:`管理者`、`:term:`エディター`、または`:term:`寄稿者`のようなアカウントです。ユーザータイプと編集権限についての詳細は、`:ref:`ユーザーロール<user-"
+"roles>`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:233
+msgid "Add a new authority record from the main menu"
+msgstr "メインメニューから新しい権限レコードを追加してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:239
+msgid ""
+"In the :term:`main menu` located in the :term:`header bar`, click the "
+"|plus|:ref:`\"Add\" <main-menu-add>` and select \"Authority record\". "
+"Alternatively, navigate to an authority record view page and click the "
+":term:`\"Add new\" button <add new button>` in the :term:`button block`. "
+"AtoM takes you to a blank edit page for data entry."
+msgstr ""
+"ヘッダーバーの:term:`メインメニュー`にある |plus|:ref:`\"追加\" <main-menu-add>` "
+"をクリックし、「権威記録」を選択します。あるいは、権威記録のビューページに移動して、:term:`ボタンブロック`内の:term:`\"新規追加\"ボタン"
+" <add new button>`をクリックします。するとAtoMはデータ入力のための空の編集ページに移動します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:235
+msgid "plus"
+msgstr ""
+"お知らせいただいた情報が不足しているため、テキストの翻訳を行うことができません。Archivematicaに関するドキュメントの具体的な文章や段落を提供していただければ、その内容を日本語に翻訳いたします。もし翻訳を希望するテキストが手元にございましたら、それをこちらに共有してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Add menu's options"
+msgstr "以下は、「Add（追加）」メニューのオプションを示す画像です。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:250
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an "
+":term:`information area` to access the :term:`fields <field>` grouped under "
+"it."
+msgstr ""
+"読み込み時に、`:term:`編集ページ`は、すべての`:term:`情報エリア <information "
+"area>`を閉じた状態でレコードを表示します。ある`:term:`情報エリア`をクリックすると、その下にグループ化された`:term:`フィールド "
+"<field>`にアクセスできます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of a new authority record"
+msgstr "新しい権威レコードの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:260
+#: ../../user-manual/add-edit-content/authority-records.rst:494
+msgid ""
+"Enter data as required. The authority record edit template is based on the "
+"`ICA's <http://www.ica.org/>`__ *International Standard Archival Authority "
+"Record for Corporate Bodies, Persons and Families* (`ISAAR "
+"<https://www.ica.org/isaar-cpf-international-standard-archival-authority-"
+"record-corporate-bodies-persons-and-families-2nd>`__). For more information "
+"on the use of particular fields in the ISAAR authority record edit template,"
+" see: :ref:`ISAAR(CPF) <isaar-template>`."
+msgstr ""
+"必要に応じてデータを入力します。権威レコード編集テンプレートは、`ICA <http://www.ica.org/>`__ "
+"の*国際標準アーカイブ権威レコード（企業体、個人及び家族用）* (`ISAAR <https://www.ica.org/isaar-cpf-"
+"international-standard-archival-authority-record-corporate-bodies-persons-"
+"and-families-2nd>`__) "
+"に基づいています。ISAAR権威レコード編集テンプレートの特定のフィールドの使用に関する詳細は、以下を参照してください: "
+":ref:`ISAAR(CPF) <isaar-template>`。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:266
+#: ../../user-manual/add-edit-content/authority-records.rst:500
+msgid ""
+"You can quit the creation process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new record will be created. Note that simply navigating away "
+"from the page by any other means, **without first clicking \"Create\"** will"
+" also result in no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることにより作成プロセスを終了できます。このボタンは:term:`button "
+"block`にあります；すでに入力されたデータは保存されず、新しいレコードは作成されません。単にページから別の手段でナビゲートするだけで、**先に「作成」をクリックしていない場合**、新しいレコードが作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:271
+#: ../../user-manual/add-edit-content/authority-records.rst:505
+msgid ""
+"To save the new record, click the :term:`\"Create\" button <create button>` "
+"located in the :term:`button block` at the bottom of the record."
+msgstr ""
+"新しいレコードを保存するには、レコードの下部にある :term:`ボタンブロック` の :term:`「作成」ボタン <create button>` "
+"をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the create button on a new authority record"
+msgstr "新規権限レコードに「作成」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:279
+#: ../../user-manual/add-edit-content/authority-records.rst:513
+msgid ""
+"Once the new :term:`authority record` is saved, you will be redirected to "
+"the record's :term:`view page`, where you can review your work. Clicking "
+"\"Edit\" in the :term:`button block` at the bottom of the record will re-"
+"open the authority record in :term:`edit mode`."
+msgstr ""
+"新しい：term:`権威レコード`が保存されると、作業内容を確認できるレコードの：term:`ビューページ`にリダイレクトされます。レコードの下部にある：term:`ボタンブロック`内の「編集」をクリックすると、：term:`編集モード`で再度権威レコードを開くことができます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:286
+msgid ""
+"Currently, there is no \"Draft\" publication status for an :term:`authority "
+"record` in AtoM. This means that as soon as you create an authority record, "
+"it will be visible to public users (i.e. unauthenticated users who are not "
+"logged in). Unauthenticated users will not have access to the :term:`button "
+"block`, and cannot edit the record."
+msgstr ""
+"現在、AtoMにおいては、`:term:`authority "
+"record`（権威記録）に「下書き」の公開状態が存在しません。つまり、権威記録を作成した時点で、それは一般ユーザー（つまり、ログインしていない未認証ユーザー）に対して見える状態になります。未認証ユーザーは`:term:`button"
+" block`（ボタンブロック）にアクセスできず、記録を編集することはできません。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:295
+msgid "Add a new authority record from a related archival description"
+msgstr "関連するアーカイブ記述から新しい権威記録を追加"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:297
+msgid ""
+"In AtoM, whenever a new name is added to an archival description (generally,"
+" either as a :term:`creator` or as a subject by adding a name :term:`access "
+"point`), an authority record is automatically created for the new name. AtoM"
+" :term:`creator` names and name :term:`access points  <access point>` are "
+"added via a :term:`value list` that appears in a :term:`drop-down menu` - as"
+" you type data into the :term:`field`, the value list will narrow its "
+"options to present related suggestions. If an authority record already "
+"exists, you can select the name from the values and a link will be created. "
+"If no authority record already exists, however, new names can be added \"on "
+"the fly\" in these fields:"
+msgstr ""
+"AtoMでは、新しい名前がアーカイブ記述に追加されるとき（一般的には、`:term:`作成者`または名前`:term:`アクセスポイント`を追加することによる被記述者として）、その新しい名前のための権威レコードが自動的に作成されます。AtoMの`:term:`作成者`名と名前`:term:`アクセスポイント"
+" <access point>`は、`:term:`ドロップダウンメニュー`に表示される`:term:`値リスト`を通じて追加されます - "
+"データを`:term:`フィールド`に入力すると、値リストは関連する提案を表示するために選択肢を絞り込んでいきます。もし権威レコードが既に存在する場合、その名前を値から選択してリンクが作成されます。しかし、まだ権威レコードが存在しない新しい名前の場合は、これらのフィールドで「その場で」新しい名前を追加することができます："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:307
+msgid ":ref:`Creator names <authority-record-creator-names>`"
+msgstr ":ref:`作成者名 <authority-record-creator-names>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:308
+msgid ":ref:`Name access points <authority-record-name-access>`"
+msgstr ":ref:`ネームアクセスポイント <authority-record-name-access>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:312
+msgid ""
+"When you are finished creating or editing your :term:`archival description`,"
+" the new names will appear in the archival description as hyperlinks to the "
+"new :term:`authority records <authority record>`. The authority records "
+"generated this way (\"on the fly\") are merely stub records or placeholders "
+"- after reviewing your archival description, you should follow the hyperlink"
+" to the authority record, where you can edit it to supplement the contents, "
+"such as indicating if it is a person, family, or :term:`corporate body`, and"
+" adding dates of existence, history, etc. For more information on working "
+"with the ISAAR-CPF Authority record template :term:`fields <field>`, see: "
+":ref:`ISAAR-CPF <isaar-template>`. For more information on editing an "
+"authority record, see below, :ref:`Edit an existing authority record <edit-"
+"authority-record>`."
+msgstr ""
+"アーカイブ記述の作成または編集を終えたとき、新しい名前がアーカイブ記述内に新しく作成された「権威レコード」へのハイパーリンクとして表示されます。このようにして生成された権威レコード（\"その場で\"生成されたもの）は、単なる仮記録またはプレースホルダーです。アーカイブ記述をレビューした後、権威レコードへのハイパーリンクをたどり、内容を補足するために編集することができます。たとえば、それが個人、家族、または「法人」であるかを示し、存在期間、歴史などを追加します。ISAAR-"
+"CPF権威レコードテンプレートの「フィールド」についての詳細は、以下を参照してください：「ISAAR-CPF <isaar-"
+"template>」。権威レコードの編集方法の詳細については、以下を参照してください：「既存の権威レコードを編集する <edit-authority-"
+"record>」。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:329
+msgid "Adding Creator names"
+msgstr "クリエイター名の追加"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:331
+msgid ""
+"Whenever a new :term:`creator` name is added to an archival description, a "
+"new :term:`authority record` for that name will be generated when the "
+":term:`archival description` is saved. Because each edit template uses "
+"different labels for the field to add a new creator, template specific "
+"instructions have been included below."
+msgstr ""
+"アーカイブ記述に新しい:term:`creator`（作成者）の名前が追加されると、その名前に対する新しい:term:`authority "
+"record`（権威レコード）が、:term:`archival "
+"description`（アーカイブ記述）を保存した際に生成されます。編集テンプレートごとに新しい作成者を追加するためのフィールドのラベルが異なるため、テンプレート固有の指示を以下に含めました。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:339
+#: ../../user-manual/add-edit-content/authority-records.rst:847
+#: ../../user-manual/add-edit-content/authority-records.rst:940
+msgid ""
+"**Creators added will inherit to lower-levels of description.** In an effort"
+" simplify the description workflow, lower-levels of description in AtoM will"
+" automatically inherit the :term:`creator` name(s) added at higher levels. "
+"So for example, if you add a creator to a :term:`fonds`-level description, "
+"you do not need to add the same name to all of the series, files, and items "
+"below - the name will automatically appear in the :term:`view page` of the "
+"lower-level descriptions, unless a different creator name is explicitly "
+"added in the :term:`edit page`. This behavior conforms with the principles "
+"outlined in :ref:`ISAD <isad-template>` 2.4, which states: \"*At the "
+"hightest appropriate level, give information that is common to the component"
+" parts. Do not repeat information at a lower level of description that has "
+"already been given at a higher level.*\""
+msgstr ""
+"下位レベルの説明には作成者が引き継がれます。説明ワークフローを簡素化するために、AtoMの下位レベルの説明では、上位レベルに追加された "
+":term:`creator`(作成者) 名が自動的に引き継がれます。例えば、ある :term:`fonds` "
+"レベルの説明に作成者を追加した場合、その下にあるシリーズ、ファイル、アイテムすべてに同じ名前を追加する必要はありません - "
+"その名前は、明示的に異なる作成者名が :term:`edit page`(編集ページ) で追加されない限り、下位レベルの説明の :term:`view "
+"page`(表示ページ) に自動的に表示されます。この挙動は、 :ref:`ISAD <isad-template>` "
+"2.4で概説されている原則に準じています。そこでは「*最も適切なレベルで、構成要素の共通情報を提供する。高位レベルで既に与えられた情報を下位レベルで繰り返さない。*」と記されています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:354
+msgid ""
+"The creator name :term:`fields <field>` in AtoM are auto-complete fields - "
+"as you type AtoM will look for matches in the existing :term:`authority "
+"records <authority record>`. If you type a name quickly and press enter or "
+"move away from the field, AtoM will create a **new** authority record "
+"instead of linking to an existing one, even if you have entered the name "
+"identically to an existing one. If you are intending to link to an existing "
+"authority record instead of creating a new one, be sure that you wait for "
+"the autocomplete and select the matching record from the :term:`drop-down "
+"menu`! For more information on linking to an existing authority record, see "
+"below: :ref:`link-authority-to-description`"
+msgstr ""
+"AtoMの作成者名:term:`フィールド "
+"<field>`はオートコンプリート機能が備わっています。名前を入力すると、AtoMは既存の:term:`権威レコード <authority "
+"record>`内で一致するものを検索します。名前を素早く入力してエンターを押すか、フィールドから移動すると、たとえ既存のものと同じ名前を入力した場合でも、AtoMは**新しい**権威レコードを作成することになります。既存の権威レコードにリンクする代わりに新しいものを作成するつもりがない場合は、オートコンプリートが表示されるのを待って、:term:`ドロップダウンメニュー`から一致するレコードを選択してください。既存の権威レコードにリンクする方法の詳細については、以下を参照してください：:ref:`link-"
+"authority-to-description`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:365
+msgid "**ISAD(G) edit template**"
+msgstr "**ISAD(G) 編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:367
+msgid ""
+"In the \"Context :term:`area <information area>`\" of the :ref:`ISAD(G) "
+"template <isad-template>`, enter a new name in the :term:`field` named "
+"\"Name of creator(s).\""
+msgstr ""
+"「:ref:`ISAD(G) template <isad-template>`の \"Context :term:`area <information"
+" area>`\"にある\"Name of creator(s)\"という名前の:term:`field`に新しい名前を入力してください。」"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:370
+#: ../../user-manual/add-edit-content/authority-records.rst:413
+msgid ""
+"The name will be saved as a new :term:`authority record` when you save the "
+":term:`archival description`."
+msgstr "アーカイバルディスクリプションを保存するとき、その名前は新しい「権威レコード」として保存されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of adding a new creator in the ISAD template"
+msgstr "ISADテンプレートで新しい作成者を追加する画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:378
+msgid "**Rules for Archival Description (RAD) edit template**"
+msgstr "**アーカイブ記述規則（RAD）編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:380
+msgid ""
+"In the \"Dates of creation\" :term:`information area` of the :ref:`RAD "
+"template <rad-template>`, click the \"Add new\" button that appears under "
+"the heading, \"Add new name and/or date(s).\""
+msgstr ""
+"「作成日」:term:`情報領域` で、:ref:`RADテンプレート <rad-template>` "
+"において、見出し「新しい名前および/または日付の追加」の下にある「新規追加」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:383
+msgid ""
+"A dialog will appear with several fields, including \"Actor name,\" \"Event "
+"type,\" \"Date,\" etc."
+msgstr "ダイアログが表示され、\"アクター名\"、\"イベントタイプ\"、\"日付\"など、いくつかのフィールドが含まれます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:385
+#: ../../user-manual/add-edit-content/authority-records.rst:440
+msgid ""
+"Enter a new name in the \"Actor name\" field of the pop-up dialog, and then "
+"click \"Submit\". The name will be saved as a new :term:`authority record` "
+"when you save the :term:`archival description`."
+msgstr ""
+"ポップアップダイアログの「アクター名」フィールドに新しい名前を入力し、「提出する」をクリックしてください。この名前は、アーカイブ記述を保存する際に、新しい「権威レコード」:term:`authority"
+" record` として保存されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of adding a new creator in the RAD template"
+msgstr "RADテンプレートに新しい作成者を追加する画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:394
+msgid "**Describing Archives: A Content Standard (DACS) edit template**"
+msgstr "**アーカイブの記述：コンテンツ標準 (DACS) 編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:396
+msgid ""
+"In the \"Identity elements\" :term:`information area` of the :ref:`DACS "
+"template <dacs-template>`, navigate to the \"Name of creator(s)\" section, "
+"and enter a new name. The name will be saved as a new :term:`authority "
+"record` when you save the :term:`archival description`."
+msgstr ""
+"\"Identity elements\" の :term:`情報エリア` では、:ref:`DACSテンプレート <dacs-"
+"template>`に移動し、「作成者名」セクションを探します。ここに新しい名前を入力してください。名前は、:term:`アーカイブ記述` "
+"を保存するときに新たな :term:`権威レコード` として保存されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of adding a new creator in the DACS template"
+msgstr "DACStemplateで新規作成者を追加する画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:406
+msgid "**Dublin Core Version 1.1 (DC) edit template**"
+msgstr "**ダブリンコアバージョン1.1（DC）編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:408
+msgid ""
+"In the :ref:`Dublin Core template <dc-template>`, there is only one main "
+":term:`information area`, in which a section called \"Name(s)\" appears, "
+"close to the top of the record's :term:`edit page`."
+msgstr ""
+":ref:`ダブリンコアテンプレート<dc-template>`では、\"Name(s)\"（名前）と呼ばれるセクションが含まれている唯一の主要な "
+":term:`情報エリア`があり、レコードの:term:`編集ページ`の上部近くに表示されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:411
+msgid ""
+"Navigate to the \"Name(s)\" section, and under the :term:`field` labelled "
+"\"Actor name,\" enter a new  name."
+msgstr "「Name(s)」セクションに移動し、「Actor name」とラベル付けられた:term:`field`の下に新しい名前を入力します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of adding a new creator in the DC template"
+msgstr "DCテンプレートへの新規作成者追加の画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:421
+msgid "**Metadata Object Description Schema (MODS) edit template**"
+msgstr "メタデータオブジェクト記述スキーマ（MODS）編集テンプレート"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:423
+msgid ""
+"In the :ref:`MODS template <mods-template>`, there is only one main "
+":term:`information area`, in which a section called \"Names and origin "
+"info\" appears, close to the top of the record's :term:`edit page`."
+msgstr ""
+":ref:`MODSテンプレート<mods-template>`では、\"Names and origin "
+"info\"と呼ばれるセクションが含まれている唯一の主要な:term:`情報エリア`があります。このセクションは、レコードの:term:`編集ページ`の上部近くに表示されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of adding a new creator in the MODS template"
+msgstr "MODSテンプレートに新しい作成者を追加する画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:432
+msgid ""
+"Navigate to the \"Names\" and origin info section, and click the \"Add new\""
+" button that appears under the heading, \"Add new name and/or date(s).\""
+msgstr ""
+"「名前」と起源情報セクションに移動し、「新しい名前と/または日付を追加する」という見出しの下に表示される「新規追加」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:447
+msgid "Adding Name access points"
+msgstr "名前アクセスポイントの追加"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:449
+msgid ""
+"The :ref:`ISAD(G) <isad-template>`, :ref:`RAD <rad-template>`, and "
+":ref:`DACS <dacs-template>` content standards support the inclusion of name "
+":term:`accesss points <access point>` in :term:`archival descriptions "
+"<archival description>`; consequently, an \"Access points\" "
+":term:`information area` with a :term:`field` for name :term:`access points "
+"<access point>` has been included on these templates."
+msgstr ""
+":ref:`ISAD(G) <isad-template>`、:ref:`RAD <rad-template>`、及び :ref:`DACS "
+"<dacs-template>`の内容基準は、:term:`アーカイブ記述 <archival "
+"description>`に名前の:term:`アクセスポイント <access "
+"point>`を含めることをサポートしています。その結果、「アクセスポイント」という:term:`情報エリア`に、名前の:term:`アクセスポイント "
+"<access point>`用の:term:`フィールド`がこれらのテンプレートに含まれています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:456
+msgid ""
+"This field can be used to create an :term:`authority record` for a person, "
+"family, or :term:`corporate body` who is the subject of an archival "
+"description, but not its :term:`creator`. Type a new name into a Name "
+":term:`access point` :term:`field`. When you save the :term:`archival "
+"description` record, AtoM creates a new :term:`authority record` for the "
+"name."
+msgstr ""
+"このフィールドは、アーカイブ記述の主題である個人、家族、または :term:`corporate body`(法人)に対する "
+":term:`authority record`(権威レコード)を作成するために使用できますが、その "
+":term:`creator`(作成者)ではありません。新しい名前をName :term:`access point`(アクセスポイント) "
+":term:`field`(フィールド)に入力してください。:term:`archival "
+"description`(アーカイブ記述)レコードを保存すると、AtoMはその名前に対して新しい :term:`authority "
+"record`(権威レコード)を作成します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of creating a new authority record on the fly"
+msgstr "その場で新しい権威レコードを作成する画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:475
+msgid "Add a new authority record from an authority record view page"
+msgstr "権威レコードビューページから新しい権威レコードを追加する"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:477
+msgid ""
+"A new :term:`authority record` can also be added to AtoM from the "
+":term:`view page` of any other authority record via the \"Add new\" button "
+"in the :term:`button block`. To do so:"
+msgstr ""
+"新しい:term:`authority record`（権威レコード）は、他の権威レコードの:term:`view page`（閲覧ページ）から「Add"
+" new」ボタンを使って:term:`button block`（ボタンブロック）からAtoMに追加することもできます。その手順は以下の通りです："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:481
+msgid ""
+"Navigate to an existing :term:`authority record` in AtoM. You can do this by"
+" :ref:`browsing <browse>` or by :ref:`searching <search-atom>` for a "
+"specific :term:`authority record` - see :ref:`access-content` for more "
+"information on navigation in AtoM."
+msgstr ""
+"AtoM内に既存の:term:`権威記録`に移動します。これは、:ref:`ブラウズ<browse>`するか、特定の:term:`権威記録`について:ref:`検索<search-"
+"atom>`することで行うことができます - AtoM内でのナビゲーションに関する詳細は、:ref:`アクセス内容<access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:485
+msgid ""
+"At the bottom of the authority record's :term:`view page`, you will see the "
+":term:`button block` with several options (Edit, Delete, and Add new). Click"
+" \"Add new\"."
+msgstr ""
+"権威レコードの：term：`view page`の一番下には、いくつかのオプション（編集、削除、新規追加）が含まれた：term：`button "
+"block`が表示されます。\"新規追加\"をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Add new button on an existing authority record"
+msgstr "既存の権威レコードに「新規追加」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:522
+#: ../../user-manual/add-edit-content/authority-records.rst:572
+#: ../../user-manual/add-edit-content/authority-records.rst:731
+#: ../../user-manual/add-edit-content/authority-records.rst:953
+#: ../../user-manual/add-edit-content/authority-records.rst:1041
+#: ../../user-manual/add-edit-content/authority-records.rst:1173
+#: ../../user-manual/add-edit-content/authority-records.rst:1320
+msgid ":ref:`Back to top <authority-records>`"
+msgstr ":ref:`トップに戻る <authority-records>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:527
+msgid "Edit an existing authority record"
+msgstr "既存の権威レコードを編集する"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:529
+#: ../../user-manual/add-edit-content/authority-records.rst:618
+msgid ""
+"First, navigate to an existing :term:`authority record` in AtoM. You can do "
+"this by :ref:`browsing <browse>` or by :ref:`searching <search-atom>` for a "
+"specific :term:`authority record` - see :ref:`access-content` for more "
+"information on navigation in AtoM. See :ref:`ISAAR-CPF <isaar-template>` for"
+" more information on specific fields in the authority record edit template."
+msgstr ""
+"まず、AtoMで既存の「権限記録」に移動します。これは、「閲覧」でブラウズするか、「検索」で特定の「権限記録」を検索することで行うことができます。AtoMでのナビゲーションの詳細については「アクセスコンテンツ」を参照してください。権限記録編集テンプレートの特定のフィールドについての詳細は「ISAAR-"
+"CPF」を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:535
+#: ../../user-manual/add-edit-content/authority-records.rst:635
+#: ../../user-manual/add-edit-content/authority-records.rst:766
+#: ../../user-manual/add-edit-content/authority-records.rst:869
+#: ../../user-manual/add-edit-content/authority-records.rst:1011
+#: ../../user-manual/add-edit-content/authority-records.rst:1052
+#: ../../user-manual/add-edit-content/authority-records.rst:1201
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking \"Edit\" "
+"button in the :term:`button block`, or by clicking on one of the "
+":term:`information area` headings; this takes you to the record's "
+":term:`edit page`."
+msgstr ""
+"「ビューモード」という用語を「編集モード」に切り替えるには、「ボタンブロック」という用語にある「編集」ボタンをクリックするか、あるいは「情報エリア」という用語の見出しの1つをクリックします。これにより、記録の「編集ページ」という用語に移動します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the button block on an authority record"
+msgstr "権限レコード上のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:545
+#: ../../user-manual/add-edit-content/authority-records.rst:645
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an information"
+" area to access the :term:`fields <field>` grouped under it"
+msgstr ""
+"読み込み時、`:term:`編集ページ`はすべての`:term:`情報エリア <information "
+"area>`を閉じた状態でレコードを表示します。それぞれの情報エリアをクリックすると、その下にグループ化された`:term:`フィールド "
+"<field>`にアクセスできます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:548
+msgid "Add and/or revise data as required."
+msgstr "必要に応じてデータを追加または修正してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:549
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved. Note"
+" that simply navigating away from the page by any other means, **without "
+"first clicking \"Save\"** will also result in no changes being saved to the "
+"authority record."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを中断できます。これは:term:`button "
+"block`にあります。変更は保存されません。また、「保存」をクリックせずに他の方法でページから移動すると、変更は権限レコードに保存されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:554
+#: ../../user-manual/add-edit-content/authority-records.rst:713
+msgid ""
+"To save your edits, click the \"Save\" button located in the :term:`button "
+"block` at the bottom of the record."
+msgstr "編集内容を保存するには、レコードの下部にある`:term:`ボタンブロック`に位置する「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the button block when editing an authority record"
+msgstr "権威レコードを編集中のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:562
+#: ../../user-manual/add-edit-content/authority-records.rst:721
+msgid ""
+"You will be redirected to the :term:`view page` for the edited "
+":term:`authority record`, where you can review your work."
+msgstr ""
+"編集された :term:`権威レコード` の :term:`ビューページ` にリダイレクトされます。そこで、あなたの作業内容を確認することができます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:567
+msgid ""
+"Did you know that you can also use a CSV import to update your authority "
+"records? See:"
+msgstr "ご存知でしたか？CSVインポートを使用して、権威レコードを更新することもできます。参照："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:570
+#: ../../user-manual/add-edit-content/authority-records.rst:993
+msgid ":ref:`csv-update-actors`"
+msgstr ""
+"```\n"
+":ref:`csv-アクターを更新`\n"
+"```"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:577
+msgid "Add access points to your authority record"
+msgstr "権威レコードにアクセスポイントを追加する"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:579
+msgid ""
+"The International Council on Archives' :ref:`ISAD(G) <isad-template>` "
+"standard defines an :term:`access point` as a \"*name, term, keyword, phrase"
+" or code that may be used to search, identify and locate an archival "
+"description.*\" Access points help users not only understand contextual "
+"information, but discover further related content. In AtoM, you can now "
+"apply access points to an :term:`authority record` as well."
+msgstr ""
+"国際アーカイブス評議会の :ref:`ISAD(G) <isad-template>` "
+"標準では、:term:`アクセスポイント`を「*検索、識別、およびアーカイブ記述を位置付けるために使用される名前、用語、キーワード、フレーズ、またはコード*」と定義しています。アクセスポイントは、利用者が文脈情報を理解するだけでなく、関連するコンテンツをさらに発見するのに役立ちます。AtoMでは、:term:`権威記録`にもアクセスポイントを適用できるようになりました。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:586
+msgid ""
+"In AtoM, access points are controlled value :term:`terms <term>` maintained "
+"in a :term:`taxonomy`, which can be used to aid in discovery. With the 2.5 "
+"release, AtoM supports three types of access points for authority records - "
+"Occupations, Places, and Subjects. By default in a new installation, the "
+"related taxonomy is empty, but as users add access point data to authority "
+"records, they are preserved as terms in the Actor occupation, Places, and "
+"Subjects taxonomies, so they can be managed and reused. For more information"
+" on working with terms and taxonomies in AtoM, see: :ref:`terms`."
+msgstr ""
+"AtoMでは、アクセスポイントは発見を助けるために使用される、系統的に保守された制御された値である用語です。2.5リリースにおいて、AtoMは権威レコード用のアクセスポイントとして3つのタイプ──職業、場所、主題──をサポートしています。新規インストールでは既定で、関連する分類体系は空ですが、ユーザーが権威レコードにアクセスポイントデータを追加すると、それらはアクター職業、場所、主題の分類体系内の用語として保存されるため、管理や再利用が可能になります。AtoMでの用語や分類体系の取り扱いについての詳細は、次を参照してください：`用語"
+" <terms>`。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:595
+msgid ""
+"Each of the three access points includes an autocomplete field linked to the"
+" relevant taxonomy. The Actor occupations entry also includes a free-text "
+"note field, where you can add further context specific to the person, "
+"family, or corporate body described in the related :term:`authority record`."
+msgstr ""
+"3つのアクセスポイントそれぞれには、関連する分類法にリンクされたオートコンプリートフィールドが含まれています。俳優の職業のエントリには、関連する`権威レコード`で説明されている個人、家族、または法人体に特有の文脈を追加できる自由記述のノートフィールドも含まれています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:600
+msgid ""
+"Once access points have been added to your authority records, they will show"
+" up as a :term:`facet <facet filter>` on the authority record browse page. "
+"The following example shows the occupation taxonomy:"
+msgstr ""
+"アクセスポイントが権威レコードに追加されると、それらは権威レコードの閲覧ページで :term:`ファセット <facet filter>` "
+"として表示されます。以下の例は、職業分類に関するものです："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid ""
+"An image of the authority record browse page, with the Occupations facet\n"
+"visible in the left-hand context menu."
+msgstr "権限レコード閲覧ページの画像で、左側のコンテキストメニューに「職業」のファセットが表示されています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:612
+#: ../../user-manual/add-edit-content/authority-records.rst:729
+msgid ":ref:`browse-authority-records`"
+msgstr ":ref:`権限レコードの閲覧`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:613
+msgid ":ref:`Search for authority records <dedicated-search-authority>`"
+msgstr ":ref:`権威記録を検索 <dedicated-search-authority>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:616
+msgid "**To add access points to your authority record:**"
+msgstr "**権限レコードにアクセスポイントを追加するには：**"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:627
+msgid ""
+"You can always add access points to new authority records as you create them"
+" as well - for more information on creating authority records, see above:"
+msgstr "新しい権限記録を作成する際にも、アクセスポイントを追加することができます - 権限記録の作成方法についての詳細は、上記を参照してください:"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:630
+#: ../../user-manual/add-edit-content/authority-records.rst:728
+msgid ":ref:`add-authority-main`"
+msgstr ""
+"`:ref:`add-authority-main`` の部分は、Sphinxドキュメントジェネレータで使われる参照タグです。通常は特定のセクションやタイトルへのリンクを作成するために使われます。このタグ自体を日本語に直訳することは通常されませんが、文脈に応じてそれが指し示すセクションのタイトルを日本語に翻訳することが必要になるかもしれません。\n"
+"\n"
+"参照がどのドキュメントのセクションに対して行われているのかがわからないので、直接`:ref:`add-authority-main`` を翻訳することはできません。しかしながら、もし \"add-authority-main\" が \"Add Authority Main\" というセクションタイトルを指しているとすれば、それを日本語にすると「権限主を追加」となるかもしれません。しかし、これは憶測に過ぎません。正しいコンテキストまたはセクションタイトルを提供いただければ、より正確な翻訳が可能です。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:632
+msgid ""
+"Steps 4-7 of these instructions will provide further specific guidance on "
+"using the access point fields."
+msgstr "これらの指示のステップ4から7までは、アクセスポイントフィールドの使用に関する具体的なガイダンスをさらに提供します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:648
+msgid ""
+"Navigate to the Access points :term:`area <information area>`, near the "
+"bottom of the :term:`edit page`. If it is not already expanded to display "
+"the available fields, you can click on the \"Access points\" :term:`area "
+"header` to expand it."
+msgstr ""
+"アクセスポイント:term:`エリア<情報エリア>`に移動します。これは:term:`編集ページ`の下部近くにあります。利用可能なフィールドを表示するためにまだ展開されていない場合は、「アクセスポイント」:term:`エリアヘッダー`をクリックして展開できます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Access points area in an Authority record"
+msgstr "権限レコード内のアクセスポイントエリアの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:658
+msgid ""
+"Add data as required to each :term:`access point` for \"Occupation\", "
+"\"Place\", and \"Subject\". Each :term:`field` is an auto-complete field, "
+"linked to the relevant :term:`taxonomy`. If you have previously added terms "
+"to the taxonomies, then as you type, matches will appear below - click on a "
+"matching term that appears in the :term:`drop-down menu` to select it. "
+"Alternatively, you can create a new access point simply by entering it into "
+"the field - on save, the access point will be saved as a :term:`term` in the"
+" relevant taxonomy so you can reuse it in the future. The image below shows "
+"examples for the Occupation access point."
+msgstr ""
+"\"職業\"、\"場所\"、\"主題\"の各:term:`アクセスポイント`に必要なデータを追加します。各:term:`フィールド`は、関連する:term:`タクソノミー`にリンクされている自動補完フィールドです。以前にタクソノミーへ用語を追加した場合、タイプすると一致する単語が下に表示されます"
+" - "
+":term:`ドロップダウンメニュー`に表示される一致する用語をクリックして選択します。または、フィールドに直接新しいアクセスポイントを入力することもできます"
+" - "
+"保存時に、アクセスポイントは関連するタクソノミー内の:term:`用語`として保存されるので、将来再利用することができます。下の画像は、職業アクセスポイントの例を示しています。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid ""
+"An image of the terms drop-down beneath the Occupations field as a user\n"
+"types"
+msgstr "ユーザーがタイプすると出現する「職業」フィールド下のドロップダウンにある用語の画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:676
+msgid ""
+"If you are not careful, it is easy to accidentally create duplicate terms! "
+"To avoid duplication, matching terms **must** be selected from the auto-"
+"complete :term:`drop-down <drop-down menu>` - otherwise, even exact matches "
+"will create duplicates when the user presses enter."
+msgstr ""
+"注意しないと、誤って重複した用語を作成してしまうことが容易です！重複を避けるためには、自動補完が可能な用語:term:`ドロップダウン "
+"<ドロップダウンメニュー>`から一致する用語を**必ず**選択する必要があります。そうでないと、ユーザーがエンターキーを押したときに、完全に一致する項目でさえも重複を作り出してしまうでしょう。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:681
+msgid ""
+"The \"Note\" :term:`field` available for Occupation access points is a free-"
+"text field where you can add further contextual information specific to the "
+"current person, organization, or family being described. This note data is "
+"**not** stored in the Actor occupations taxonomy - it is only associated "
+"with the current :term:`authority record`."
+msgstr ""
+"「注釈」：職業アクセスポイントに利用できる :term:`field` "
+"は、自由記述形式のフィールドであり、現在記述している個人、組織、または家族に特有の文脈情報を追加することができる。この注釈データは「アクターの職業」分類には**保存されない**"
+" - これは現在の :term:`authority record` にのみ関連付けられる。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Note field in the Occupations access point"
+msgstr "職業アクセスポイントの「備考」フィールドの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:692
+msgid ""
+"You can add multiple access points at once, as needed. To add an additional "
+":term:`access point`, click the \"Add new\" link beneath the access point "
+"fields. AtoM will add a new row of fields, and you can continue your data "
+"entry as needed. If you decide you wish to remove one or more of the access "
+"points, click the **X** to the right of the Note field, and AtoM will delete"
+" the row."
+msgstr ""
+"必要に応じて、複数のアクセスポイントを一度に追加することができます。追加の:term:`access "
+"point`を追加するには、アクセスポイント欄の下にある「新規追加」リンクをクリックします。AtoMは新しい行のフィールドを追加し、必要に応じてデータ入力を続行できます。アクセスポイントを一つ以上削除したいと決めた場合は、備考欄の右にある**X**をクリックすると、AtoMがその行を削除します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:700
+msgid ""
+"If you have added a new access point and saved your record, then re-entering"
+" :term:`edit mode` and deleting the access point  will **only** remove it "
+"from the :term:`authority record` - it will **not** delete the term from the"
+" Actor occupations taxonomy. If you wish to delete the term from AtoM "
+"completely, you will need to do so via **Manage > Terms**. For more "
+"information, see:"
+msgstr ""
+"新しいアクセスポイントを追加してレコードを保存した後、:term:`編集モード`に再度入りアクセスポイントを削除した場合、その操作は**のみ**アクセスポイントを:term:`権威レコード`から削除するものであり、Actor職業タクソノミーから用語を**削除するわけではありません**。AtoMから完全に用語を削除したい場合は、**管理"
+" > 用語** から操作する必要があります。詳しくは、次を参照してください："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:706
+msgid ":ref:`Delete a term <delete-term>`"
+msgstr ":ref:`用語を削除する <delete-term>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:708
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block` at the bottom of the page; any changes "
+"made will not be saved. Note that simply navigating away from the page by "
+"any other means, **without first clicking \"Save\"** will also result in no "
+"changes being saved to the authority record."
+msgstr ""
+"いつでもページの下部にある「:term:`button "
+"block`」内の「キャンセル」ボタンをクリックすることで作成プロセスを終了できます。その場合、行われた変更は保存されません。また、**先に「保存」をクリックせずに**、他の方法でページから離れると、変更内容が権威レコードに保存されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:726
+msgid ":ref:`terms`"
+msgstr ""
+"`:ref:`terms`` を直訳するには文脈が不足していますが、通常、このようなマークアップは文書内で用語集への参照を示すのに使われます。したがって、テキストが指し示しているのは「用語集への参照」である可能性が高いです。文書内で直接使用するには、対象となるドキュメントのフォーマットやマークアップ言語に基づいた適切な訳語または記述が必要です。\n"
+"\n"
+"もしSphinxドキュメントジェネレータの reStructuredText (reST) を使用していると仮定するなら、次のような翻訳が考えられます：\n"
+"\n"
+"``:ref:`用語集` ``\n"
+"\n"
+"これにより、日本語のドキュメントにおいて「用語集」がリンクテキストとして使用され、「terms」というラベルが付けられたセクションへの参照が生成されます。ただし、実際には具体的な用語集のセクション名や文書のマークアップ言語に合わせて修正する必要があります。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:727
+msgid ":ref:`edit-authority-record`"
+msgstr ":ref:`編集-権威レコード`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:736
+msgid "Link an existing authority record to an archival description"
+msgstr "既存の権威レコードをアーカイブ記述にリンクする"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:738
+msgid ""
+"Links between existing authority records and existing archival descriptions "
+"can be added at any time by an authenticated (i.e. logged in) user with "
+"sufficient edit permissions. For more information on types of users and edit"
+" permissions, see :ref:`User roles <user-roles>`. There are two main ways to"
+" create a link between an authority record and an archival description:"
+msgstr ""
+"既存の権限レコードおよび既存のアーカイブ記述との間のリンクは、適切な編集権限を持つ認証済み（つまりログインしている）ユーザーによっていつでも追加することができます。ユーザーの種類と編集権限に関する詳細は、:ref:`ユーザーロール"
+" <user-roles>`を参照してください。権限レコードとアーカイブ記述との間にリンクを作成する主な方法は2つあります："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:744
+msgid ":ref:`From the archival description <authority-link-from-description>`"
+msgstr ":ref:`アーカイブ記述からの権限リンク <authority-link-from-description>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:745
+msgid ":ref:`From the authority record <authority-link-from-authority>`"
+msgstr ":ref:`権威記録から <authority-link-from-authority>`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:750
+msgid "From the archival description"
+msgstr "アーカイブ記述から"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:754
+msgid ""
+"If you are linking an authority record as a :term:`creator`, contributor, or"
+" other role other than as a name access point, the exact instructions will "
+"be particular to which standards-based description template you are using "
+"(e.g. ISAD, RAD, DACS, Dublin Core, MODS). Specific details on the location "
+"of the relevant field in each template have been included in the section "
+"above - when you reach step 3, see: :ref:`authority-record-creator-names` "
+"for further guidance if necessary."
+msgstr ""
+"あなたが権限レコードを:term:`creator`、貢献者、または名前アクセスポイント以外のその他の役割としてリンクする場合、正確な手順は、あなたが使用している標準に基づいた記述テンプレートに特有のものになります（例：ISAD、RAD、DACS、ダブリンコア、MODS）。各テンプレート内の該当するフィールドの位置に関する詳細情報は上のセクションに含まれています"
+" - ステップ3に進んだら、必要に応じてさらなるガイダンスのために:ref:`authority-record-creator-"
+"names`を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:762
+msgid ""
+"First, navigate to the :term:`archival description` you wish to edit. You "
+"can do this by :ref:`browsing <browse>` or :ref:`searching <search-atom>` "
+"for the :term:`archival description` - see :ref:`access-content` for more "
+"information on navigation in AtoM."
+msgstr ""
+"まず、編集したい`:term:`アーカイブ記述`に移動してください。これは、`:ref:`ブラウジング <browse>`や`:ref:`検索 "
+"<search-atom>`を使って`:term:`アーカイブ記述`を見つけることで行えます - "
+"AtoM内のナビゲーションについての詳細は`:ref:`アクセスコンテンツ`を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the button block on an archival description"
+msgstr "アーカイブ記述におけるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:776
+msgid ""
+"To create a link to an authority record for a **creator**, follow the steps "
+"above for :ref:`adding a new creator <authority-record-creator-names>` - "
+"however, instead of entering a new name, begin typing the name of the "
+"authority record to which you would like to create a link. The name "
+":term:`field` is an auto-complete - as you type, matching results will load "
+"in a :term:`drop-down menu` below the field. When you see the authority "
+"record you would like to link, click on it to select it."
+msgstr ""
+"作成者の権威レコードへのリンクを作成するには、上記の「:ref:`新しい作成者の追加 <authority-record-creator-"
+"names>`」の手順に従います。ただし、新しい名前を入力する代わりに、リンクを作成したい権威レコードの名前を入力し始めます。名前 "
+":term:`フィールド` は自動補完機能を持っています - 入力すると、フィールドの下にある :term:`ドロップダウンメニュー` "
+"に一致する結果がロードされます。リンクしたい権威レコードが表示されたら、それをクリックして選択します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:790
+msgid "An image of linking an authority record in ISAD"
+msgstr "ISADにおける権限記録のリンク付けの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:790
+msgid ""
+"This image shows an example of linking an authority record as a creator in "
+"the ISAD(G) template. For template specific instructions, see the section "
+"above, :ref:`authority-record-creator-names`"
+msgstr ""
+"この画像は、ISAD(G)テンプレート内での権限レコードを作成者としてリンクする一例を示しています。テンプレート固有の指示については、上記のセクション "
+":ref:`authority-record-creator-names` を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:796
+#: ../../user-manual/add-edit-content/authority-records.rst:818
+msgid ""
+"This method makes use of  an `auto-complete <https://en.wikipedia.org/wiki "
+"/Auto-complete>`__ field to find the related :term:`authority record` as you"
+" begin to type its name/title. **Be sure** to pick the record from the "
+":term:`drop-down <drop-down menu>` when it appears - if you type the full "
+"name and press enter, a new :term:`authority record` will be generated "
+"instead of a link being created to an existing one!"
+msgstr ""
+"この方法では、その名前/タイトルを入力し始めると関連する:term:`権威レコード`を見つけるために`オートコンプリート<https://en.wikipedia.org/wiki/Auto-"
+"complete>`__フィールドを利用します。表示された際には、:term:`ドロップダウン<ドロップダウンメニュー>`からレコードを選択するように**確実に行ってください**。全名を入力してエンターキーを押すと、既存のものへのリンクが生成される代わりに新しい:term:`権威レコード`が生成されてしまいます！"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:803
+msgid ""
+"To create a link to an authority record as a **name access point**, scroll "
+"down to the \"Access points\" :term:`information area` and in the Name "
+"access points field, begin typing the name of the authority record to which "
+"you would like to create a link. The name :term:`field` is an auto-complete "
+"- as you type, matching results will load in a :term:`drop-down menu` below "
+"the field. When you see the authority record you would like to link, click "
+"on it to select it."
+msgstr ""
+"**名前アクセスポイント**として権限レコードへのリンクを作成するには、\"アクセスポイント\" "
+":term:`情報エリア`までスクロールダウンし、名前アクセスポイントフィールドにリンクを作成したい権限レコードの名前を入力し始めます。名前 "
+":term:`フィールド`は自動補完機能が付いており、タイプするとマッチする結果がフィールドの下にある "
+":term:`ドロップダウンメニュー`に読み込まれます。リンクしたい権限レコードが表示されたら、それをクリックして選択します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of linking an authority record"
+msgstr "権限レコードのリンクを示す画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:825
+msgid ""
+"To create links to multiple authority records, you can repeat this process "
+"as needed - both the creator fields, and the name access point fields in "
+"AtoM will allow for multiple entries."
+msgstr ""
+"複数の権威記録へのリンクを作成するには、必要に応じてこのプロセスを繰り返すことができます。AtoMのcreatorフィールドとname access "
+"pointフィールドは、複数のエントリーを許容します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:829
+msgid ""
+"When you are done editing the record, save the :term:`archival description` "
+"by scrolling down and pressing \"Save\" in the :term:`button block`."
+msgstr "レコードの編集が完了したら、下にスクロールして「ボタンブロック」内の「保存」を押して、`:term:`アーカイブ記述`を保存してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the button block when editing an archival description"
+msgstr "編集中のアーカイバル記述時のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:838
+msgid ""
+"The :term:`archival description` will reload in :term:`view mode`. You "
+"should be able to see the creator name as a hyperlink on the archival "
+"description. Follow the link to ensure you have linked to the proper "
+":term:`authority record`. The linked archival description will also appear "
+"in the \"Relationships\" :term:`information area` of the :term:`authority "
+"record`."
+msgstr ""
+"アーカイブ記述は表示モードで再読み込みされます。アーカイブ記述上に作成者の名前がハイパーリンクとして表示されるはずです。リンクが適切な権威記録に結び付いていることを確認するためにそのリンクをたどってください。リンクされたアーカイブ記述は、権威記録の「関係性」情報エリアにも表示されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:863
+msgid "From the authority record"
+msgstr "権威レコードより"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:865
+#: ../../user-manual/add-edit-content/authority-records.rst:1007
+#: ../../user-manual/add-edit-content/authority-records.rst:1048
+msgid ""
+"First, navigate to the :term:`authority record` you wish to edit. You can do"
+" this by :ref:`browsing <browse>` or :ref:`searching <search-atom>` for the "
+":term:`archival description` - see :ref:`access-content` for more "
+"information on navigation in AtoM."
+msgstr ""
+"まず、編集したい:term:`権威記録`へ移動します。これは、:ref:`閲覧<browse>`または:ref:`検索<search-"
+"atom>`を使って:term:`アーカイブ記述`を探すことにより行えます。AtoMでのナビゲーションに関する詳細情報については、:ref:`コンテンツへのアクセス<access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:879
+msgid ""
+"In the \"Relationships\" :term:`information area` of the authority record's "
+":term:`edit page`, click the \"Add new\" button under \"Related resources\"."
+msgstr ""
+"権威レコードの「編集ページ」にある「関連付け」:term:`情報エリア`で、「関連リソース」の下にある「新規追加」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Relationships area in an authority record"
+msgstr "権威レコード内の「関係性」エリアの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:887
+msgid ""
+"AtoM will open a pop-up dialog where you can select the related "
+":term:`archival description` and define the nature and time frame of the "
+"relationship."
+msgstr "AtoMは、関連する:term:`アーカイブ記述`を選択し、その関係の性質と時間枠を定義できるポップアップダイアログを開きます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:890
+msgid ""
+"The first :term:`field` in the pop-up dialog, \"Title of the related "
+"resource,\" is an `auto-complete <https://en.wikipedia.org/wiki /Auto- "
+"complete>`__ field: as you type, matching results will load in a :term "
+":`drop-down menu` below the field. When you see the :term:`archival "
+"description` you would like to link, click on it to select it."
+msgstr ""
+"ポップアップ・ダイアログの最初の:term:`field`、「関連するリソースのタイトル」は、`オートコンプリート "
+"<https://ja.wikipedia.org/wiki/オートコンプリート>`__ "
+"フィールドです：タイプすると、マッチした結果がフィールドの下にある :term:`ドロップダウンメニュー` "
+"にロードされます。リンクしたい:term:`アーカイバル記述`が表示されたら、それをクリックして選択します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Relationships dialog in AtoM"
+msgstr "AtoMでの「リレーションシップス」ダイアログの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:902
+msgid ""
+"Add additional details in the subsequent fields to qualify the relationship:"
+" the \"Nature of relationship\" field is a :term:`drop-down menu` whose "
+"values are pulled from the Event types :term:`taxonomy` (see :ref:`terms` "
+"for more information on working  with taxonomies); start, end, and display "
+"dates can be added as well. When you are finished, click \"Submit\"."
+msgstr ""
+"関連性を特定するために、以下のフィールドに追加の詳細情報を入力してください。\"関係性の特性\"フィールドは、イベントタイプの:term:`タクソノミー`から取得される値を含む:term:`ドロップダウンメニュー`です（タクソノミーの使用方法についての詳細は、:ref:`terms`を参照してください）。開始日、終了日、表示日も追加することができます。すべての入力が完了したら、「送信」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:907
+msgid ""
+"The related :term:`archival description` will now appear in the Related "
+"resources table of the Relationships area. Click the pencil icon to re-open "
+"the pop-up dialog and edit the relationship, or click the **X** icon to "
+"remove the relationship link. You can also repeat this process to add "
+"multiple links by clicking the \"Add new\" button below the Related "
+"resources again - AtoM will open a new pop-up dialog. Repeat steps 3-7 as "
+"needed. If more desccriptions have been linked than the global :ref:`results"
+" per page <results-page>` setting (which defaults to 10 in new "
+"installations), AtoM will add a pager - you can click \"Show more\" button "
+"below the list of linked descriptions to load the next set"
+msgstr ""
+"関連する:term:`アーカイブ記述`は、関連資料の表に関係エリアで表示されます。鉛筆のアイコンをクリックしてポップアップダイアログを再度開いて関係を編集するか、**X**"
+" "
+"アイコンをクリックして関係リンクを削除します。関連資料の下にある「新規追加」ボタンをクリックすることで複数のリンクを追加する過程を繰り返すこともできます。AtoMは新しいポップアップダイアログを開きます。必要に応じて3-7の手順を繰り返します。もしリンクされた記述がグローバルの:ref:`ページごとの結果"
+" <results-page>` "
+"設定（新規インストールではデフォルトで10）より多い場合、AtoMはページャーを追加します。リストにあるリンクされた記述の下の「さらに表示」ボタンをクリックすると次のセットを読み込むことができます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid ""
+"An image of the \"Show more\" button when linking many descriptions to an\n"
+"authority record"
+msgstr "説明を多数権限レコードにリンクする際の「もっと見る」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:924
+#: ../../user-manual/add-edit-content/authority-records.rst:1136
+msgid ""
+"When you are finished, click \"Save\" in the :term:`button block` at the "
+"bottom of the authority record's :term:`edit page` to save your changes and "
+"exit :term:`edit mode`."
+msgstr "終了したら、権限レコードの編集ページの下部にある「ボタンブロック」内の「保存」をクリックして変更を保存し、編集モードを終了してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:933
+msgid ""
+"AtoM will reload the :term:`authority record` in :term:`view mode`. The "
+"relationship link will appear in the :term:`context menu` on the left-hand "
+"side of the page. You can click on the related description's title to "
+"navigate to the related :term:`archival description`."
+msgstr ""
+"AtoMは、:term:`authority record`を:term:`view "
+"mode`で再読み込みします。関連リンクは、ページの左側にある:term:`context "
+"menu`に表示されます。関連する:term:`archival description`へ移動するために、関連する記述のタイトルをクリックできます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:958
+msgid "Link an authority record to a repository as its maintainer"
+msgstr ""
+"以下のテキストを日本語に翻訳します。\n"
+"\n"
+"\"Link an authority record to a repository as its maintainer\"\n"
+"\n"
+"権威レコードをその保守者としてリポジトリに関連付ける"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:960
+msgid ""
+"In a :term:`multi-repository system`, it is possible to have two authority "
+"records for two different individuals with same name. It is also possible to"
+" have one authority record created and maintained by a single institution, "
+"but used as a name :term:`access point` or even as the :term:`creator` by "
+"many other institutions in their descriptions."
+msgstr ""
+"複数のリポジトリシステムにおいては、同じ名前の異なる個人に対する二つの権威レコードが存在することがあります。同時に、単一の機関によって作成・管理されている権威レコードが、その名前をアクセスポイントや他の多くの機関による記述の中での制作者として使用されることも可能です。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:966
+msgid ""
+"To clarify who is responsible for maintaining an authority record and to "
+"improve actor matching during imports, AtoM includes the ability to link an "
+"authority record to an :term:`archival institution` as its maintainer."
+msgstr ""
+"権限レコードの維持責任者を明確にし、インポート時のアクター照合を改善するために、AtoMは権限レコードをその維持者としての:term:`アーカイブ機関`にリンクする機能を含んでいます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:970
+msgid ""
+"When a link is created between an authority record and a repository, it will"
+" additionally appear as a :term:`facet filter` on the authority record "
+"browse page, and in the list of maintained authority records visible on the "
+"archival institution's browse page:"
+msgstr ""
+"権限記録とリポジトリとの間にリンクが作成されると、該当リンクは権限記録のブラウズページ上で:term:`ファセットフィルター`としても表示されるほか、アーカイブ施設のブラウズページで閲覧可能な維持されている権限記録のリストにも表示されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid ""
+"An image of list of maintained authority records on an archival\n"
+"institution's view page"
+msgstr "アーカイブ機関の閲覧ページにおける、維持されている権威レコードのリストの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid ""
+"An image of the \"Maintained by\" facet on the authority record browse\n"
+"page"
+msgstr "権限レコード参照ページにある「維持管理者」ファセットの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:989
+msgid ""
+"For more information on how linking a repository to an authority record can "
+"improve import matching, see:"
+msgstr "リポジトリを権威レコードにリンクすることでインポートマッチングがどのように向上するかについての詳細情報は、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:992
+msgid ":ref:`csv-actor-matching`"
+msgstr ""
+"「:ref:`csv-actor-matching`」は特定の文書内の参照リンクを意味するreStructuredTextのマークアップです。これだけの情報では正確な日本語訳を提供することが難しいのですが、ドキュメントの内容に応じて次のように翻訳できます。\n"
+"\n"
+"「:ref:`CSV形式のアクター照合について`」"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:994
+msgid ":ref:`actor-xml-matching`"
+msgstr ":ref:`アクター-XMLマッチング`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:995
+msgid ":ref:`delete-replace-actor-xml`"
+msgstr ":ref:`アクター-XMLの削除と置換`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:999
+msgid ":ref:`browse-maintained-actors`"
+msgstr ":ref:`維持されているアクターの閲覧`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1000
+msgid ":ref:`recurring-facet-filters`"
+msgstr "定期的なファセットフィルター"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1002
+msgid ":ref:`archival-institutions`"
+msgstr ""
+":ref:`archival-institutions` \n"
+"\n"
+"この部分の翻訳ですが、これは通常参照リンクが指し示す特定のセクション名やタイトル名を示すものです。したがって、ドキュメントの具体的なコンテキストに依存する可能性があります。もし参照しているのが「Archival Institutions」（アーカイブ機関）のセクションである場合は、以下のように翻訳されるでしょう。\n"
+"\n"
+"```\n"
+":ref:`アーカイブ機関`\n"
+"```\n"
+"\n"
+"しかし、この参照がリンクされている実際のセクション名やドキュメントの他の部分が必要ですが、その情報が提供されていないため、適切な翻訳を提供するためには、その文脈が必要です。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1003
+msgid ":ref:`browse`"
+msgstr "`参照`"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1005
+msgid "**To link an authority record to an archival institution**"
+msgstr "**権威レコードと公文書館をリンクするには**"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1021
+msgid ""
+"In the Control :term:`information area`, place your cursor in the field "
+"labelled \"Maintaining repository\":"
+msgstr "管理：用語「情報エリア」にて、\"Maintaining repository\" とラベル付けされたフィールド内にカーソルを置いてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Maintaining repository field"
+msgstr "リポジトリ維持フィールドの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1029
+msgid ""
+"The field is an auto-complete :term:`drop-down menu` - it will show the "
+"first 10 repository records in the drop-down menu by default. You can also "
+"begin typing the name of a repository to find it - as you begin to type, "
+"AtoM will update the auto-complete results to show repository records that "
+"match. Select the matching repository to which you want to link your "
+"authority record from the drop-down list."
+msgstr ""
+"このフィールドは自動補完される :term:`ドロップダウンメニュー` です - "
+"デフォルトで最初の10件のリポジトリレコードがドロップダウンメニューに表示されます。リポジトリの名前を入力し始めると、AtoMは一致するリポジトリレコードを表示するために自動補完結果を更新します。ドロップダウンリストからあなたの権威レコードにリンクしたい一致するリポジトリを選択してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1035
+msgid ""
+"When you are finished, scroll down to the :term:`button block` at the bottom"
+" of the :term:`edit page` and click the \"Save\" button. AtoM will reload "
+"the page in :term:`view mode` so you can review your work. The related "
+"repository will be displayed as a hyperlink in the Control area of your "
+"authority record."
+msgstr ""
+"作業が終わったら、:term:`edit page`の下部にある:term:`button "
+"block`までスクロールダウンし、「Save」ボタンをクリックしてください。AtoMは:term:`view "
+"mode`でページを再読み込みし、あなたの作業内容を確認できるようにします。関連するリポジトリは、権威レコードのコントロールエリアにハイパーリンクとして表示されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1046
+msgid "Create a relationship between two authority records"
+msgstr "二つの権威記録間の関係を作成する"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1062
+msgid ""
+"In the \"Relationships\" :term:`information area` of the authority record's "
+":term:`edit page`, click the \"Add new\" button under \"Related  corporate "
+"bodies, persons, or families\"."
+msgstr ""
+"権限レコードの編集ページ上の「関係情報エリア」において、「関連する企業体、個人、または家族」の下にある「新規追加」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1071
+#: ../../user-manual/add-edit-content/authority-records.rst:1214
+msgid ""
+"AtoM will open a pop-up dialog where you can select the related "
+":term:`authority record` and define the nature and time frame of the "
+"relationship."
+msgstr "AtoMは、関連する:term:`権威記録`を選択し、関係の性質と時間枠を定義できるポップアップダイアログを開きます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1074
+msgid ""
+"The first :term:`field` in the pop-up dialog, \"Title of the related "
+"resource,\" is an `auto-complete <https://en.wikipedia.org/wiki /Auto- "
+"complete>`__ field: as you type, matching results will load in a "
+":term:`drop-down menu` below the field. When you see the :term:`authority "
+"record` you would like to link, click on it to select it."
+msgstr ""
+"ポップアップダイアログの最初の「関連リソースのタイトル」という`:term:`フィールド`は、`自動補完<https://ja.wikipedia.org/wiki/オートコンプリート>`_フィールドです。入力すると、一致する結果がフィールドの下にある`:term:`ドロップダウンメニュー`にロードされます。リンクしたい`:term:`権威レコード`を見つけたら、それをクリックして選択してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Relationships dialog in an authority record"
+msgstr "権威レコードにおける「関係性」ダイアログの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1088
+msgid ""
+"You cannot create a new authority record from this dialog by entering a new "
+"name. If the second authority record does not exist yet, follow the steps "
+"above to :ref:`create a new authority record <create-authority-record>` and "
+"then follow these steps from the new record to create the relationship."
+msgstr ""
+"このダイアログから新しい名前を入力して新しい権威レコードを作成することはできません。もしまだ第二の権威レコードが存在していない場合は、上記の手順に従って"
+" :ref:`新しい権威レコードを作成<create-authority-record>` "
+"し、その後、新しいレコードからこれらの手順に従って関係を作成してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1094
+msgid ""
+"The \"Type of relationship\" field is pre-populated with default terms, "
+"pictured in the image below. These terms can be edited and managed in the "
+"Actor Relation Type :term:`taxonomy`, and new terms can be added as well. "
+"For more information on managing terms, see: :ref:`terms`; see specifically "
+":ref:`add-converse-term`."
+msgstr ""
+"「関係の種類」フィールドは、下の画像に写されているデフォルトの用語で事前に入力されています。これらの用語は「役割関係の種類 "
+":term:`taxonomy`」で編集および管理することができ、新しい用語も追加可能です。用語の管理方法の詳細については、:ref:`terms`を参照してください。特に、:ref:`add-"
+"converse-term`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Relationship type default terms"
+msgstr "関係タイプのデフォルト用語の画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1105
+#: ../../user-manual/add-edit-content/authority-records.rst:1237
+msgid ""
+"Add additional details in the subsequent fields to qualify the relationship."
+" When you are finished, click \"Submit\"."
+msgstr "追加の詳細情報を後続のフィールドに入力し、関係を特定します。入力が完了したら、「送信」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the submit button in the Relationships dialog"
+msgstr "関係ダイアログにおける「送信」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1113
+msgid ""
+"The related :term:`authority record` will now appear in the *Related "
+"corporate bodies, persons, or families* table of the Relationships area. "
+"Click the pencil icon to re-open the pop-up dialog and edit the "
+"relationship, or click the **X** icon to remove the relationship link. You "
+"can also repeat this process to add multiple links by clicking the \"Add "
+"new\" button below the *Related corporate bodies, persons, or families* "
+"again - AtoM will open a new pop-up dialog. Repeat steps 3-6 as needed."
+msgstr ""
+"関連する:term:`権威記録`は、関係エリアの*関連法人、個人、または家族*テーブルに表示されるようになります。鉛筆アイコンをクリックしてポップアップダイアログを再度開き、関係を編集するか、**X**アイコンをクリックして関係リンクを削除します。また、*関連法人、個人、または家族*の下にある「新規追加」ボタンをクリックして、複数のリンクを追加するプロセスを繰り返すこともできます。AtoMは新しいポップアップダイアログを開きます。必要に応じてステップ3から6を繰り返します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the relationships area in the edit template"
+msgstr "編集テンプレート内のリレーションシップエリアのイメージ"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1128
+msgid ""
+"The amount of related authorities shown by default in the *Related corporate"
+" bodies, persons, or families* table is determined by the global "
+":ref:`results per page <results-page>` setting, which defaults to 10 in new "
+"installations unless adjusted by an :term:`administrator`. If more "
+"relationships have been added than the global results per page value, AtoM "
+"will display a \"Show more\" button beneath the table - click it to load the"
+" next set of relationships."
+msgstr ""
+"新規インストールではデフォルトで10に設定されているが、:term:`管理者`によって調整されない限り、*関連する法人、個人、または家族*テーブルにデフォルトで表示される関連権限の数は、グローバル:ref:`1ページあたりの結果数"
+" <results-"
+"page>`設定によって決まります。グローバルの1ページあたりの結果数の値を上回る関連付けが追加されている場合、AtoMはテーブルの下に「もっと表示する」ボタンを表示します。そのボタンをクリックすると、次の一連の関連付けが読み込まれます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the button block when in Edit mode"
+msgstr "編集モード時のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1145
+msgid ""
+"AtoM will reload the :term:`authority record` in :term:`view mode`. "
+"relationship is expressed in the \"Relationships\" :term:`information area` "
+"of the authority record's :term:`view page`, and the related record's name "
+"will appear as a hyperlink."
+msgstr ""
+"AtoMは、:term:`ビューモード`で:term:`権威レコード`を再読み込みします。関係性は権威レコードの:term:`ビューページ`内の\"Relationships\""
+" :term:`情報エリア`で表され、関連するレコードの名前はハイパーリンクとして表示されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the relationships area in the view template"
+msgstr "ビューテンプレート内の関係エリアの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1155
+msgid ""
+"Additionally, :term:`converse <converse term>` information will also be "
+"added to the related authority record."
+msgstr "さらに、`:term:`相互参照 <converse term>` 情報も関連する権威レコードに追加されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1165
+msgid ""
+"Relationship types with opposites (such as *parent of* and *child of*) are "
+"known in AtoM as **converse** terms. AtoM includes a number of default "
+"relationship terms for use in the Relationship dialogue. These terms and "
+"their relationships to each other can be edited and managed in the Actor "
+"Relation Type :term:`taxonomy`, and new terms can be added as well. For more"
+" information on managing terms, see: :ref:`terms`; see specifically "
+":ref:`add-converse-term`."
+msgstr ""
+"AtoMにおいて、相反する関係性を持つ関係タイプ（例えば、「親子関係」や「子供の親関係」など）は**converse**用語として知られています。AtoMには、関係ダイアログで使用するためのデフォルトの関係用語がいくつか含まれています。これらの用語とそれらの相互関係は、俳優関係タイプ"
+" :term:`分類`で編集および管理することができ、新たな用語も追加することができます。用語の管理に関する詳細は、:ref:`terms`; 特に "
+":ref:`add-converse-term`を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1178
+msgid "Create a relationship between an authority record and a function"
+msgstr "権威レコードと機能との関連付けを作成する"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1180
+msgid ""
+"AtoM can also create a linked relationship between a :term:`function` and an"
+" :term:`authority record`. A function is a type of entity that describes "
+"activities linked to records creation, maintenance and use. For more "
+"information on working with Functions in AtoM, see: :doc:`Functions <../add-"
+"edit-content/functions>`. Below are the steps to create a relationship "
+"between an existing authority record and an existing function:"
+msgstr ""
+"AtoMは、:term:`機能（function）`と:term:`権威レコード（authority "
+"record）`の間に関連性をリンクさせることもできます。機能とは、レコードの作成、維持、および使用に関連する活動を記述するエンティティの一種です。AtoMでの機能の使い方についての詳細は、:doc:`機能（Functions）"
+" <../add-edit-content/functions>`をご覧ください。以下は、既存の権威レコードと既存の機能の間の関連性を作成する手順です："
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1187
+msgid ""
+"Navigate to the :term:`function` you would like to relate to an "
+":term:`authority record`. You can do this by going to the Browse page for "
+"functions (**Browse > Functions**) and then either browsing through the "
+"list, or using the dedicated Functions search bar on the Browse functions "
+"page to find the related function. Click on the related function to navigate"
+" to its :term:`view page`. For more information on browsing and searching in"
+" AtoM, see: :ref:`Browse <browse>` or :ref:`Search <search-atom>`."
+msgstr ""
+"関連付けたい:term:`機能`に移動します。これを行うには、機能の閲覧ページ(Browse > "
+"Functions)に移動し、リストを閲覧するか、または機能の閲覧ページにある専用の機能検索バーを使用して関連する機能を見つけます。関連する機能をクリックして、その:term:`ビューページ`に移動します。AtoMでの閲覧や検索の詳細については、:ref:`ブラウズ"
+" <browse>` または :ref:`検索 <search-atom>` をご覧ください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Browse menu"
+msgstr "ブラウズメニューの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the button block on a function record"
+msgstr "機能記録におけるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1211
+msgid ""
+"In the \"Relationships\" :term:`information area` of the function's "
+":term:`edit page`, click the \"Add new\" button under \"Related  authority "
+"records\"."
+msgstr ""
+"「関係」:term:`情報エリア` の関数の :term:`編集ページ` で、\"Related authority records\" の下にある "
+"\"Add new\" ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1217
+msgid ""
+"The first :term:`field` in the pop-up dialog, \"Title of the related "
+"resource,\" is an `auto-complete <https://en.wikipedia.org/wiki /Auto- "
+"complete>`__ field: as you type, matching results will load in a :term "
+":`drop-down menu` below the field. When you see the :term:`authority record`"
+" you would like to link, click on it to select it."
+msgstr ""
+"ポップアップダイアログの最初の「関連リソースのタイトル」という`:term:`フィールド`には、`オートコンプリート "
+"<https://en.wikipedia.org/wiki/Auto-complete>`__ "
+"機能があります。入力すると、その下の`:term:`ドロップダウンメニュー`で一致する結果が表示されます。リンクしたい`:term:`権威レコード`を見つけたら、クリックして選択します。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Functions relationship dialog"
+msgstr "関数関係ダイアログのイメージ"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1231
+msgid ""
+"You cannot create a new authority record from this dialog by entering a new "
+"name. If the related authority record does not exist yet, follow the steps "
+"above to :ref:`create a new authority record <create-authority-record>` and "
+"then follow these steps from the beginning to create the relationship."
+msgstr ""
+"このダイアログから新しい名前を入力して新しい権限レコードを作成することはできません。関連する権限レコードがまだ存在していない場合は、上記の手順に従って "
+":ref:`新しい権限レコードを作成<create-authority-record>` してから、最初からこれらの手順に従って関係を作成してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the submit button in the Functions relationship dialog"
+msgstr "ファンクション関連ダイアログ内の「送信」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1245
+msgid ""
+"The related :term:`authority record` will now appear in the *Related "
+"authority records* table of the Relationships area. Click the pencil icon to"
+" re-open the pop-up dialog and edit the relationship, or click the **X** "
+"icon to remove the relationship link. You can also repeat this process to "
+"add multiple links by clicking the \"Add new\" button below the *Related "
+"authority records* again - AtoM will open a new pop-up dialog. Repeat steps "
+"3-6 as needed."
+msgstr ""
+"関連する:term:`権威レコード`は、関連性エリア内の *関連権威レコード* "
+"テーブルに表示されるようになります。鉛筆アイコンをクリックしてポップアップダイアログを再度開き、関係を編集するか、**X** "
+"アイコンをクリックして関係リンクを削除してください。また、*関連権威レコード* "
+"の下にある「新規追加」ボタンをクリックすることで、このプロセスを繰り返し、複数のリンクを追加することができます - "
+"AtoMは新しいポップアップダイアログを開きます。必要に応じて、ステップ3から6を繰り返してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the Relationships area in a function record"
+msgstr "関数レコードの「関係性」エリアの画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1258
+msgid ""
+"When you are finished, click \"Save\" in the :term:`button block` at the "
+"bottom of the function's :term:`edit page` to save your changes and exit "
+":term:`edit mode`."
+msgstr ""
+"作業が完了したら、機能の:term:`編集ページ`の下部にある:term:`ボタンブロック`の「保存」をクリックして、変更内容を保存し、:term:`編集モード`を終了してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1267
+msgid ""
+"AtoM will reload the :term:`function` in :term:`view mode`. :ref:`Back to "
+"top <authority-records>`. The relationship is expressed in the "
+"\"Relationships\" :term:`information area` of the function's :term:`view "
+"page`, and the related record's name will appear as a hyperlink. If you "
+"follow the hyperlink, you will see that the related function now appears in "
+"the \"Relationships\" area of the linked authority record."
+msgstr ""
+"AtoMは、:term:`閲覧モード`で:term:`機能`を再読み込みします。:ref:`トップに戻る <authority-"
+"records>`。関連性は、機能の:term:`閲覧ページ`の「関連性」:term:`情報エリア`で表現され、関連するレコードの名前はハイパーリンクとして表示されます。そのハイパーリンクをフォローすると、関連する機能がリンクされた権威レコードの「関連性」エリアにも表示されていることがわかります。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1278
+msgid "Delete an authority record"
+msgstr "権威レコードを削除する"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1280
+msgid ""
+"Navigate to the :term:`authority record` you wish to edit. You can do this "
+"by :ref:`browsing <browse>` or :ref:`searching <search-atom>` for the "
+":term:`authority record` - see :ref:`access-content` for more information on"
+" navigation in AtoM."
+msgstr ""
+"編集したい :term:`権威記録` へ移動します。これを行うには、 :ref:`閲覧<browse>` または :ref:`検索<search-"
+"atom>` を使って :term:`権威記録` を探します - AtoMでのナビゲーションの詳細については "
+":ref:`アクセスコンテンツ<access-content>` を参照してください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1284
+msgid "Click the :term:`Delete button` in the :term:`button block`."
+msgstr "ボタンブロックにある「削除ボタン」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1291
+msgid ""
+"AtoM prompts you to confirm the delete request: click \"Delete\" to proceed "
+"(or you can click \"Cancel\" to return to the authority record's :term:`view"
+" page`)."
+msgstr ""
+"AtoM は削除リクエストの確認を求めます。続行するには「削除」をクリックします（または、権威レコードの：term:`view "
+"page`に戻るには「キャンセル」をクリックできます）。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:-1
+msgid "An image of the warning when Delete is selected on an authority"
+msgstr "権限が選択された際に削除を選択すると表示される警告の画像"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1300
+msgid ""
+"AtoM deletes the record and opens the :term:`authority record` browse "
+"results page."
+msgstr "AtoMはその記録を削除し、`:term:`権威記録` のブラウズ結果ページを開きます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1305
+msgid "**Consequences of deleting an authority record:**"
+msgstr "**権限記録を削除することの結果:**"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1307
+msgid ""
+"AtoM uses authority records as the basis for its :term:`archival "
+"institution` :ref:`ISDIAH <isdiah-template>` template - that is, an archival"
+" institution record is a special kind of authority record. IF the authority "
+"record being deleted is also registered as an :term:`archival institution`, "
+"the archival institution record is ALSO deleted."
+msgstr ""
+"AtoMは、その:term:`archival institution` :ref:`ISDIAH <isdiah-template>` "
+"テンプレートの基盤として権威レコードを使用しています。つまり、アーカイブ機関のレコードは特別な種類の権威レコードです。削除される権威レコードが:term:`archival"
+" institution`としても登録されている場合、それに伴ってアーカイブ機関のレコードも削除されます。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1312
+msgid ""
+"Any creation :term:`events <event>` linked to the :term:`authority record` "
+"are disassociated from the related :term:`archival description`, but the "
+":term:`archival description` itself is NOT deleted."
+msgstr ""
+":term:`権限記録`に関連付けられている任意の生成 "
+":term:`イベント<event>`は、関連する:term:`アーカイブ記述`から切り離されますが、:term:`アーカイブ記述`自体は削除されません。"
+
+#: ../../user-manual/add-edit-content/authority-records.rst:1315
+msgid ""
+"Similarly, if a :term:`function` is linked to an :term:`authority record` "
+"and the authority record is deleted, the relationship is disassociated, but "
+"the related :term:`function` is NOT deleted."
+msgstr ""
+"同様に、ある:term:`function`が:term:`authority "
+"record`にリンクされており、その権威レコードが削除された場合、関連性は解除されますが、関連する:term:`function`は削除されません。"

@@ -1,0 +1,2919 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/glossary/glossary.rst:5
+msgid "Glossary"
+msgstr "用語集"
+
+#: ../../user-manual/glossary/glossary.rst:10
+msgid "About page"
+msgstr "「About」ページ\n"
+
+#: ../../user-manual/glossary/glossary.rst:12
+msgid ""
+"The about page provides general information on AtoM. It can be reached via "
+"the :term:`header bar` at the top of all pages. The content of the about "
+"page can be edited by  :term:`administrators <administrator>` (see "
+":ref:`Manage static pages <manage-static-pages>`)."
+msgstr ""
+"「アバウトページ」には、AtoMについての一般的な情報が記載されています。これは、すべてのページの上部にある「ヘッダーバー」を通じてアクセスすることができます。アバウトページのコンテンツは、「管理者」によって編集可能です（「静的ページの管理<manage-"
+"static-pages>」を参照してください）。"
+
+#: ../../user-manual/glossary/glossary.rst:16
+msgid "Accession record"
+msgstr "アクセッション記録\n"
+
+#: ../../user-manual/glossary/glossary.rst:18
+msgid ""
+"The accession record is an administrative and descriptive document that "
+"summarizes standard information about the process of transferring materials "
+"to a :term:`repository`, including information about the provenance, "
+"contents and legal and physical transfer of the records such as, rights and "
+"restrictions. See :ref:`entity-types` and :ref:`accession-records`."
+msgstr ""
+"受入記録は、資料の移管プロセスに関する標準情報をまとめた管理的および記述的文書であり、それには、資料の出所、内容、法的および物理的な記録の移送に関する情報など、権利や制限事項が含まれています。詳細については、`:ref:`エンティティの種類`と`:ref:`受入記録`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:23
+msgid "Access point"
+msgstr "アクセスポイント"
+
+#: ../../user-manual/glossary/glossary.rst:25
+msgid ""
+"An access point is \"A name, term, keyword, phrase or code that may be used "
+"to search, identify and locate an archival description.\" (ISAD glossary). "
+"In AtoM, access points are derived from :term:`authority records <authority "
+"record>` and :term:`taxonomies <taxonomy>` created and customized by users. "
+"See :ref:`terms`."
+msgstr ""
+"アクセスポイントとは「アーカイブ記述を検索、識別、そして位置づけるために使用される名前、用語、キーワード、フレーズまたはコードのことである。」（ISAD用語集）です。AtoMでは、アクセスポイントはユーザーによって作成されカスタマイズされた、`:term:`権威記録"
+" <authority record>`および`:term:`分類法 "
+"<taxonomy>`から派生します。詳細は`:ref:`用語`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:30
+msgid "Access privilege"
+msgstr "アクセス権限"
+
+#: ../../user-manual/glossary/glossary.rst:32
+msgid ""
+"Access privileges control the ways a user is able to interact with AtoM. For"
+" example, some users are able to add and edit content while others may only "
+"be able to search and browse content. Access privileges are based on defined"
+" :term:`user roles <user role>` (see :ref:`User roles <user-roles>`). See : "
+":ref:`edit-user-permissions`."
+msgstr ""
+"アクセス権限は、ユーザーがAtoMとどのようにやり取りすることができるかを制御します。例えば、一部のユーザーはコンテンツを追加したり編集したりすることができますが、他のユーザーはコンテンツを検索したり閲覧したりすることしかできないかもしれません。アクセス権限は定義された:term:`ユーザー役割<user"
+" role>`（:ref:`ユーザー役割<user-roles>`を参照）に基づいています。:ref:`edit-user-"
+"permissions`も参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:37
+msgid "Accrual"
+msgstr ""
+"Accrualとは「累積」という意味で、記録管理やアーカイビングのプロセスにおいて、記録や資料が時間をかけて段階的に収集され、蓄積されていくことを指します。アーカイブにおけるAccrualは、組織の活動が続く限り継続的に行われるプロセスであり、追加される資料は通常、既存のコレクションやフォンドの一部として整理され、管理されます。"
+
+#: ../../user-manual/glossary/glossary.rst:39
+msgid ""
+"An accrual is \"an acquisition additional to a unit of description already "
+"held by a :term:`repository`.\" (ISAD glossary). In AtoM, an accrual can be "
+"added to an existing :term:`accession record`. See: :ref:`Accessions "
+"<accession-records>`."
+msgstr ""
+"所蔵物への追加とは、「すでに:term:`リポジトリ`に保持されている説明単位に加えて取得される資料群」（ISAD用語集）である。AtoMでは、既存の:term:`受入記録`に追加を行うことができる。参照：:ref:`受入"
+" <accession-records>`。"
+
+#: ../../user-manual/glossary/glossary.rst:43
+msgid "Act"
+msgstr ""
+"\"Act\" is a rather ambiguous term and could refer to various contexts. If "
+"it is a standalone request and you're looking to translate the term \"Act\" "
+"into Japanese for a document about Archivematica related to digital data "
+"long-term preservation, it could be translated as \"行動\" (kōdō) if it refers"
+" to an action someone takes or \"法令\" (hōrei) if it refers to legislation. "
+"Knowing how it's used in a sentence would provide a more accurate "
+"translation. Could you provide the sentence or the context in which \"Act\" "
+"is used?"
+
+#: ../../user-manual/glossary/glossary.rst:45
+msgid ""
+"According to PREMIS, an act is \"The action the preservation repository is "
+"allowed to take.\" In AtoM, a set vocabulary of acts are used in PREMIS "
+"rights records, which are then actionable upon digital objects. See: "
+":ref:`Rights <rights>`."
+msgstr ""
+"PREMISによれば、行為とは「保存リポジトリが実行を許可されているアクション」です。AtoMでは、PREMISの権利記録で使用される行為の語彙が決まっており、それがデジタルオブジェクトでの実行可能な行動になります。詳しくは：:ref:`権利"
+" <rights>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:49
+msgid "Add menu"
+msgstr "追加メニュー"
+
+#: ../../user-manual/glossary/glossary.rst:51
+msgid ""
+"The \"Add\" menu allows authorized users to add new :term:`archival "
+"descriptions <archival description>`, :term:`authority records <authority "
+"record>`, :term:`archival institutions <archival institution>`, :term:`terms"
+" <term>`, and :term:`functions <function>`. Only logged-in users can see the"
+" \"Add\" menu, which appears in the :term:`main menu` located in the "
+":term:`header bar`. See: :ref:`main-menu`."
+msgstr ""
+"「追加」メニューは、認証されたユーザーが新しい:term:`アーカイブ記述<archival "
+"description>`、:term:`権威記録<authority record>`、:term:`アーカイブ機関<archival "
+"institution>`、:term:`用語<term>`、そして:term:`機能<function>`を追加することを許可します。ログインしているユーザーのみが「追加」メニューを見ることができ、これは:term:`ヘッダーバー<header"
+" bar>`に位置する:term:`メインメニュー<main menu>`に表示されます。参照：:ref:`main-menu`。"
+
+#: ../../user-manual/glossary/glossary.rst:57
+msgid "Add new button"
+msgstr "新規追加ボタン"
+
+#: ../../user-manual/glossary/glossary.rst:59
+msgid ""
+"The add new button is located in the :term:`button block <button block>` of "
+"the :term:`view page <view page>` and allows users to add new records "
+"(:term:`archival descriptions <archival description>`, :term:`authority "
+"records <authority record>`, :term:`archival institutions <archival "
+"institution>`, and :term:`terms <term>`) to AtoM."
+msgstr ""
+"「新規追加」ボタンは、:term:`ビューページ <view page>`の:term:`ボタンブロック <button "
+"block>`に位置し、ユーザーが新しいレコード（:term:`アーカイブ記述 <archival description>`、:term:`権威記録 "
+"<authority record>`、:term:`アーカイブ機関 <archival institution>`、および:term:`用語 "
+"<term>`）をAtoMに追加することを可能にします。"
+
+#: ../../user-manual/glossary/glossary.rst:65
+msgid "Admin menu"
+msgstr "管理メニュー"
+
+#: ../../user-manual/glossary/glossary.rst:67
+msgid ""
+"The admin menu allows users with :term:`administrator <administrator>` "
+"access to customize AtoM to meet institution-specific requirements and to "
+"manage :term:`user accounts <user account>` and :term:`user profiles <user "
+"profile>`. The admin menu is only visible to users with administrator "
+"privileges. See :ref:`Administer <administer>` and :ref:`main-menu-admin`."
+msgstr ""
+"管理メニューでは、:term:`管理者 "
+"<administrator>`権限を持つユーザーが、特定の機関の要件に応じてAtoMをカスタマイズしたり、:term:`ユーザーアカウント <user"
+" account>`や:term:`ユーザープロファイル <user "
+"profile>`の管理を行うことができます。管理メニューは、管理者権限を持つユーザーのみに表示されます。:ref:`管理 "
+"<administer>`および:ref:`メインメニュー-管理 <main-menu-admin>`をご覧ください。"
+
+#: ../../user-manual/glossary/glossary.rst:73
+msgid "Administration area"
+msgstr "管理エリア"
+
+#: ../../user-manual/glossary/glossary.rst:75
+msgid ""
+"The Administration area is part of the resource description edit template. "
+"It allows the User to change the publication status of the resource - Draft "
+"(this resource description is not available for public viewing) and "
+"Published (this resource description is available for public viewing). It "
+"also allows the user to set a default :term:`display standard` for an "
+":term:`archival description`."
+msgstr ""
+"管理エリアは、リソース記述編集テンプレートの一部です。このエリアでは、ユーザーがリソースの公開状態を変更することができます ── "
+"下書き（このリソース記述は一般公開されていません）および公開（このリソース記述は一般公開されています）。また、ユーザーは、`:term:`アーカイブ記述`のデフォルトの`:term:`表示標準`を設定することもできます。"
+
+#: ../../user-manual/glossary/glossary.rst:81
+msgid "Administrator"
+msgstr "管理者"
+
+#: ../../user-manual/glossary/glossary.rst:83
+msgid ""
+"The administrator is a type of user who has :term:`access privileges <access"
+" privilege>` to do the following: install or uninstall AtoM; create, read, "
+"update, or delete any record; customize AtoM to institution-specific "
+"requirements or themes; and manage :term:`user accounts <user account>` and "
+":term:`user profiles <user profile>` (see :ref:`User roles <user-roles>` and"
+" :ref:`Administer <administer>`)."
+msgstr ""
+"管理者は、次のことを行うための:term:`アクセス権限 <access "
+"privilege>`を持つユーザーの一種です：AtoMのインストールまたはアンインストール；任意のレコードの作成、読取、更新または削除；AtoMを機関特有の要件やテーマにカスタマイズ；そして:term:`ユーザーアカウント"
+" <user account>`と:term:`ユーザープロファイル <user profile>`の管理（:ref:`ユーザーロール <user-"
+"roles>`と:ref:`管理 <administer>`を参照）。"
+
+#: ../../user-manual/glossary/glossary.rst:89
+msgid "Advanced search"
+msgstr "詳細検索"
+
+#: ../../user-manual/glossary/glossary.rst:91
+msgid ""
+"The advanced search is used to find descriptions in AtoM that contain text "
+"matching a search query. The advanced search hyperlink can be accessed in "
+"the drop-down that appears when a user places the cursor in the "
+":term:`search box`. It is also available on all :term:`archival description`"
+" search and browse pages, in the :term:`Advanced search panel`. In the "
+"advanced search panel, the user can select \"and, or, not\" operators, and "
+"search specific fields, to create a powerful search query. The option to "
+"apply filters to limit or narrow the search are also provided. See: "
+":ref:`advanced-search`."
+msgstr ""
+"アドバンストサーチは、検索クエリに一致するテキストを含むAtoM内の記述を見つけるために使用されます。アドバンストサーチのハイパーリンクには、ユーザーが:term:`検索ボックス`にカーソルを置くと表示されるドロップダウンからアクセスできます。また、すべての:term:`アーカイバル記述`検索および表示ページにおいて、:term:`アドバンストサーチパネル`で利用可能です。アドバンストサーチパネルでは、ユーザーは「and,"
+" or, "
+"not」のオペレーターを選択し、特定のフィールドを検索して、強力な検索クエリを作成することができます。検索を限定あるいは絞り込むためのフィルタを適用するオプションも提供されています。参照：:ref:`advanced-"
+"search`。"
+
+#: ../../user-manual/glossary/glossary.rst:100
+msgid "Advanced search panel"
+msgstr "詳細検索パネル"
+
+#: ../../user-manual/glossary/glossary.rst:102
+msgid ""
+"The advanced search panel appears on :term:`archival description` search and"
+" browse pages, contained in a collapsible section at the top of the results "
+"page. Click on the panel to expand or collapse it. The options in the panel "
+"can be used to perform advanced search queries, and/or to further refine "
+"initial search or browse results. For more information, see: :ref:`advanced-"
+"search`."
+msgstr ""
+"詳細検索パネルは、「アーカイブ記述」の検索および閲覧ページ上にあり、結果ページの上部に折りたたみ式セクションとして含まれています。このパネルをクリックすると展開したり折りたたんだりできます。パネル内のオプションを使用して詳細検索クエリを実行したり、初期検索または閲覧結果をさらに絞り込んだりすることができます。詳細については、次を参照してください："
+" `詳細検索`。"
+
+#: ../../user-manual/glossary/glossary.rst:108
+msgid "Archival description"
+msgstr "アーカイブ記述"
+
+#: ../../user-manual/glossary/glossary.rst:110
+msgid ""
+"An archival description is a body of information about an archival record or"
+" records. The descriptions provide contextual information about the archival"
+" materials and are arranged into hierarchical levels (:term:`fonds`, series,"
+" files, items, and variations of these in accordance with institutional "
+"standards)."
+msgstr ""
+"アーカイバル・デスクリプションとは、アーカイバル記録（複数可）に関する情報の集成体です。これらの説明はアーカイバル資料についての文脈情報を提供し、機関の標準に応じた階層レベル（：専門用語`fonds`、シリーズ、ファイル、アイテム、およびこれらの変形）に配置されます。"
+
+#: ../../user-manual/glossary/glossary.rst:116
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org/>`__) "
+"defines an archival description as \"The creation of an accurate "
+"representation of a unit of description and its component parts, if any, by "
+"capturing, analyzing, organizing and recording information that serves to "
+"identify, manage, locate and explain archival materials and the context and "
+"records systems which produced it. This term also describes the products of "
+"the process\" (ISAD glossary)."
+msgstr ""
+"国際アーカイブス理事会（`ICA "
+"<http://www.ica.org/>`__）は、アーカイブ概要を「記述単位及びその構成要素（存在する場合）についての正確な表現を作成することにより、それを特定・管理・位置付けるとともに、アーカイブ資料及びそれを生み出したコンテキストや記録システムを説明する情報を捉え・分析・編成・記録すること。また、この用語はそのプロセスの産物も指す」と定義しています（ISAD用語集）。"
+
+#: ../../user-manual/glossary/glossary.rst:124
+msgid ""
+"In AtoM the :term:`data elements <data element>` used for describing "
+"archival records are derived from the ICA's *General International Standard "
+"Archival Description* (ISAD). See :ref:`entity-types` and :ref:`archival-"
+"descriptions`."
+msgstr ""
+"AtoMでは、アーカイブ記録の記述に使用される:term:`データ要素 <data "
+"element>`は、ICAの*国際標準アーカイブ記述*(ISAD)に基づいています。:ref:`entity-"
+"types`と:ref:`archival-descriptions`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:128
+msgid "Archival institution"
+msgstr "アーカイブ機関"
+
+#: ../../user-manual/glossary/glossary.rst:130
+msgid ""
+"An archival institution is \"An organization which keeps and preserves "
+"archival material and makes it accessible to the public\" (ISDIAH glossary)."
+" In AtoM the :term:`data elements <data element>` used to describe such "
+"institutions are based on the ICA's *International Standard for Describing "
+"Institutions with Archival Holdings* (ISDIAH). See :ref:`entity-types` and "
+":ref:`Archival institutions <archival-institutions>`."
+msgstr ""
+"アーカイブ機関は、「アーカイブ資料を保管し、それを公開して閲覧できるようにする組織」（ISDIAH用語集）と定義されます。AtoMでは、このような機関を記述するために使用される:data"
+" elements <data "
+"element>:は、国際アーカイブ評議会（ICA）の*アーカイブ資料を保有する機関を記述するための国際標準*（ISDIAH）に基づいています。:ref:`entity-"
+"types`および:ref:`アーカイブ機関<archival-institutions>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:136
+msgid "Archival unit"
+msgstr "アーカイバルユニット"
+
+#: ../../user-manual/glossary/glossary.rst:138
+msgid ""
+"Archival unit is a generic term for an aggregation of archival materials. A "
+"unit can be a :term:`fonds`, series, file, item, or variation thereof, "
+"depending on institutional standards. A unit may be divided into sub-units "
+"for the purposes of description: e.g. a :term:`fonds` may contain several "
+"series, each of which may contain several files, and so forth. The smallest "
+"(and therefore indivisible) unit is the item. See also :term:`level of "
+"description`."
+msgstr ""
+"アーカイバル・ユニットは、アーカイバル素材の集合体を指す一般的な用語です。ユニットは、機関の標準に応じて、`:term:`fonds`（基礎資料）、シリーズ、ファイル、項目、またはそれらのバリエーションかもしれません。説明の目的でユニットはサブユニットに分割される場合があります。例えば、`:term:`fonds`（基礎資料）はいくつかのシリーズを含んでいるかもしれず、それぞれのシリーズがいくつかのファイルを含んでいるなどです。最も小さい（そしてしたがって不可分な）ユニットは項目です。`:term:`記述のレベル`についても参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:145
+msgid "Area header"
+msgstr "エリアヘッダー"
+
+#: ../../user-manual/glossary/glossary.rst:147
+msgid ""
+"The title/heading that appears at the top of :term:`information areas "
+"<information area>` in :term:`archival descriptions <archival description>`,"
+" :term:`authority records <authority record>`, :term:`archival institutions "
+"<archival institution>`, :term:`functions <function>`, and other records. "
+"When an authenticated (i.e., logged in) user with edit privileges clicks on "
+"the heading of an :term:`information area` when in :term:`view mode`, the "
+"page reloads in :term:`edit mode` so the user can edit content. See: "
+":ref:`recurring-information-areas`."
+msgstr ""
+"対象となる：用語「情報エリア<information area>」や用語「アーカイバルディスクリプション<archival "
+"description>」、用語「オーソリティレコード<authority record>」、用語「アーカイバル機関<archival "
+"institution>」、用語「機能<function>」などの他のレコードにおいて、ページの最上部に現れるタイトル/見出し。認証済み（つまり、ログインしている）で編集権限を持つユーザーが参照モードで用語「情報エリア」の見出しをクリックすると、ページは編集モードでリロードされ、ユーザーはコンテンツを編集することができる。参照：：ref:`recurring-"
+"information-areas`。"
+
+#: ../../user-manual/glossary/glossary.rst:155
+msgid "Arrangement"
+msgstr "整理"
+
+#: ../../user-manual/glossary/glossary.rst:157
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org/>`__) "
+"defines arrangement as \"the intellectual and physical processes and results"
+" of analyzing and organizing documents in accordance with archival "
+"principles\" (ISAD glossary)."
+msgstr ""
+"国際アーカイブス評議会（`ICA "
+"<http://www.ica.org/>`__）は、配置（arrangement）を「アーカイブの原則に従って文書を分析し、整理する知的および物理的なプロセスとその結果」と定義しています（ISAD用語集）。"
+
+#: ../../user-manual/glossary/glossary.rst:161
+msgid "Authority record"
+msgstr "権限レコード"
+
+#: ../../user-manual/glossary/glossary.rst:163
+msgid ""
+"In AtoM, authority records are collections of information about actors - "
+"corporate bodies, persons, or families - who interact with archival "
+"materials, typically as :term:`creators <creator>`. The :term:`data elements"
+" <data element>` used to describe authority records are based on the ICA's "
+"*International Standard Archival Authority Record for Corporate Bodies, "
+"Persons and Families* (ISAAR). ISAAR defines authority record as \"The "
+"authorized form of name combined with other information elements that "
+"identify and describe the named entity and may also point to other related "
+"authority records.\" See :ref:`entity-types` and :ref:`authority-records`."
+msgstr ""
+"AtoMにおいて、権威記録は、アーカイブ資料と交流する法人、個人、家族などのアクターについての情報コレクションであり、典型的には「創作者」の項目として記述されます。権威記録を記述するために使用されるデータ要素は、ICAの「法人、個人、及び家族に関する国際標準権威記録」（ISAAR）に基づいています。ISAARは権威記録を「認定された名称の形式に、その名前のエンティティを識別し説明するための他の情報要素が組み合わされ、関連する他の権威記録を指し示す場合もある」と定義しています。詳細は「エンティティタイプ」と「権威記録」を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:173
+msgid "Base URL"
+msgstr "ベースURL"
+
+#: ../../user-manual/glossary/glossary.rst:175
+msgid ""
+"The base URL is used to create absolute URLs included in XML exports (e.g. "
+"MODS and EAD exports). For example, your AtoM site is made up a series of "
+"web pages. Each page has a full Uniform Resource Locator (URL) something "
+"like ``http://www.your-atom-site.com/your-description``. The Base URL is the"
+" part of this URL that does not change - in this example, ``http://www.your-"
+"atom-site.com``."
+msgstr ""
+"基本URLは、XMLエクスポート（例えばMODSやEADのエクスポートなど）に含まれる絶対URLを作成するために使用されます。たとえば、あなたのAtoMサイトは一連のウェブページで構成されています。各ページには、``http://www.your-"
+"atom-site.com/your-description`` "
+"のような完全な統一資源ロケータ（URL）があります。基本URLは、このURLの中で変わらない部分であり、この例では、``http://www.your-"
+"atom-site.com`` となります。"
+
+#: ../../user-manual/glossary/glossary.rst:182
+msgid ""
+"Setting this value will ensure that links included in your XML exports will "
+"be properly formed. The Base URL value can be set in AtoM via **Admin > "
+"Settings > Site information**. See: :ref:`site-information`."
+msgstr ""
+"この値を設定することで、XMLエクスポートに含まれるリンクが適切に形成されることが保証されます。Base URLの値はAtoMの**管理 > 設定 > "
+"サイト情報**から設定できます。詳しくは：:ref:`site-information`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:185
+msgid "Boolean search"
+msgstr "ブール検索"
+
+#: ../../user-manual/glossary/glossary.rst:187
+msgid ""
+"Boolean searching is a particular application of what is known as Boolean "
+"logic, a subset of algebra used for creating true/false statements "
+"originally developed by George Boole, a 19th century English mathematician. "
+"Since computers operate in binary (using ones and zeroes), computer logic "
+"can often be expressed in boolen terms (true/false). Boolean expressions use"
+" a number of operators, the most common of which are AND, OR, and NOT - "
+"using Boolean operators in terms of search queries (Boolean search) allows a"
+" user to limit, widen, or otherwise define a search in granular terms. Most "
+"modern web search engines support Boolean search statements,allowing complex"
+" queries to be expressed in human- readable form - for example, searching "
+"\"fonds OR collection\" would widen a search to include results that have "
+"either term in their title. In AtoM, boolean search operators are supported "
+"in the :term:`search box` and in the Adanced search menu - see: :ref:`Search"
+" <search-atom>` and :ref:`Advanced search <advanced-search>`."
+msgstr ""
+"ブール検索は、ブール論理、別名ブール代数の一部門であり、真偽のステートメントを作成するために使用される代数です。これは、19世紀のイングランドの数学者ジョージ・ブールによって開発されました。コンピュータは二進法（1と0の使用）で動作するため、コンピュータのロジックはしばしばブール用語（真/偽）で表現されます。ブール式は、いくつかの演算子を使用しており、最も一般的なのはAND、OR、NOTです。検索クエリにおけるブール演算子の使用（ブール検索）によって、ユーザは検索を限定したり、広げたり、または詳細に定義したりすることができます。ほとんどの現代のウェブ検索エンジンはブール検索のステートメントをサポートしており、複雑なクエリを人が読める形式で表現することを可能にしています。例えば、\"fonds"
+" OR "
+"collection\"と検索することで、いずれかの用語がタイトルに含まれている結果を含めて検索を広げることができます。AtoMでは、ブール検索演算子は`:term:`検索ボックス`とアドバンスド検索メニューでサポートされております。詳しくは`:ref:`検索"
+" <search-atom>`と`:ref:`アドバンスド検索 <advanced-search>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:202
+msgid "Breadcrumb trail"
+msgstr "パンくずリスト"
+
+#: ../../user-manual/glossary/glossary.rst:204
+msgid ""
+"A breadcrumb trail is a navigational element in a :term:`user interface` "
+"that provides contextual information about the current location of a user in"
+" an application or document. Breadcrumb trails provide links back to each "
+"previous page the user navigated through to get to the current page or — in "
+"hierarchical site structures — the parent pages of the current one."
+msgstr ""
+"パンくずリストは、アプリケーションやドキュメント内でのユーザーの現在地に関するコンテキスト情報を提供する、`:term:`ユーザーインターフェース`のナビゲーショナル要素です。パンくずリストは、ユーザーが現在のページに到達するために経由した各前のページへのリンクを提供するか、または階層的なサイト構造においては、現在のページの親ページへのリンクを提供します。"
+
+#: ../../user-manual/glossary/glossary.rst:211
+msgid ""
+"In AtoM a breadcrumb trail is displayed to add contextual information and to"
+" facilitate navigation in several places. On :term:`archival descriptions "
+"<archival description>`, the breadcrumb trail is located at the top of "
+"record's :term:`view page` when viewing a :term:`child description <child "
+"record>` to provide information about where in the hierarchy the current "
+"description appears. When moving archival descriptions (see: :ref:`move-"
+"archival-description`), A breadcrumb trail is used to indicate where in a "
+"hierarchy the Move browse results are currently showing. At the top "
+"of:term:`archival institution` and :term:`authority record` view pages, the "
+"breadcrumb trail is used to provide a link back to the Browse page for each "
+"kind of record. Additionally, :term:`taxonomy` :term:`terms <term>` (such as"
+" :term:`places <place>` and :term:`subjects <subject>`) that are organized "
+"hierarchically will also display parent terms as a breadcrumb trail when "
+"added to an :term:`archival description` - for example, if the subject term "
+"'Apple' is a child of the term 'Fruit', then when 'Apple' is added as a "
+"subject :term:`access point` to an :term:`archival description`, it will be "
+"expressed as: **Fruit >> Apple**"
+msgstr ""
+"AtoMでは、コンテキスト情報を追加するためとナビゲーションを容易にするために、いくつかの場所でパンくずリストが表示されます。アーカイブ記述において、パンくずリストは、現在の記述が階層のどの位置にあるかを示す情報を提供するために、子記述を表示する際の記録のビューページの上部に位置しています。アーカイブ記述の移動時（参照：`move-"
+"archival-"
+"description`）、パンくずリストは移動ブラウズ結果が現在どの階層を示しているかを示すために使用されます。アーカイブ機関や権威記録のビューページの上部では、それぞれの種類の記録のブラウズページに戻るリンクを提供するためにパンくずリストが使用されます。さらに、階層的に整理されたタクソノミー用語（例えば場所や主題）も、アーカイブ記述に追加される際に親用語をパンくずリストとして表示します。例えば、主題用語「リンゴ」が用語「果物」の子である場合、主題アクセスポイントとしてアーカイブ記述に「リンゴ」が追加されたとき、それは**果物"
+" >> リンゴ**のように表されます。"
+
+#: ../../user-manual/glossary/glossary.rst:230
+msgid ""
+"In AtoM, breadcrumbs (i.e. individual components of a breadcrumb trail) are "
+"expressed as hyperlinks, and can be clicked to navigate to the related "
+"source or parent record."
+msgstr ""
+"AtoMでは、パンくずリスト（すなわちパンくずの個々の要素）はハイパーリンクとして表現され、関連する出典や親レコードにナビゲートするためにクリックできます。"
+
+#: ../../user-manual/glossary/glossary.rst:233
+msgid "Browse menu"
+msgstr "ブラウズメニュー"
+
+#: ../../user-manual/glossary/glossary.rst:235
+msgid ""
+"Browsing allows a user to see all records that have a certain type of "
+":term:`access point` (such as :term:`subject`, :term:`name`, or "
+":term:`place`) or other type of filter, such as :term:`media type` or type "
+"of :term:`entity`. In AtoM's default theme (the Dominion theme) the browse "
+"menu appears in a drop-down next to the :term:`search box` in the "
+":term:`header bar` on all pages, as well as on the :term:`home page`. See: "
+":ref:`navigate` and :ref:`Browse <browse>`; see also: :ref:`browse-menu`."
+msgstr ""
+"ブラウズ機能により、利用者は特定の種類のアクセスポイント（例えば、主題、名前、または場所）やメディアタイプやエンティティの種類など、その他さまざまなフィルターに一致するすべてのレコードを見ることができます。AtoMのデフォルトテーマ（Dominionテーマ）では、ブラウズメニューは、全ページのヘッダーバーにある検索ボックスの隣のドロップダウンに加えて、ホームページにも表示されます。参照：「ナビゲーション」と「ブラウズ<ブラウズ>」;"
+" また、「ブラウズメニュー」を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:243
+msgid "Button block"
+msgstr "ボタンブロック"
+
+#: ../../user-manual/glossary/glossary.rst:245
+msgid ""
+"The button block allows authorized users to add, edit, delete, move, and "
+"duplicate content and to save or cancel changes made in the :term:`edit "
+"pages <edit page>`. See: :ref:`recurring-button-block`."
+msgstr ""
+"ボタンブロックでは、承認されたユーザがコンテンツの追加、編集、削除、移動、そしてコンテンツの複製を行ったり、:term:`編集ページ <edit "
+"page>` で行われた変更を保存またはキャンセルすることができます。参照：:ref:`recurring-button-block`。"
+
+#: ../../user-manual/glossary/glossary.rst:248
+msgid "Carousel"
+msgstr "Carousel"
+
+#: ../../user-manual/glossary/glossary.rst:250
+msgid ""
+"The carousel shows sets of :term:`thumbnails <thumbnail>` of :term:`digital "
+"objects <digital object>` and allows the user to scroll through the "
+"thumbnails using a mouse or keyboard scroll arrows. It is similar to the "
+"`cover flow <http://en.wikipedia.org/wiki/Cover_flow>`_ used in \"the "
+"Macintosh Finder\" and other Apple Inc. products for visually flipping "
+"through snapshots of documents, website bookmarks, album artwork, or "
+"photographs. In AtoM, a carousel viewer appears at the top of "
+":term:`archival descriptions <archival description>` whenever there are "
+"associated lower-level descriptions that have digital objects attached. See:"
+" :ref:`recurring-carousel`; see also: :ref:`upload-digital-object`."
+msgstr ""
+"カルーセルは、:term:`デジタルオブジェクト<デジタル オブジェクト>`の "
+":term:`サムネイル<サムネイル>`のセットを表示し、ユーザーがマウスやキーボードのスクロール矢印を使用してサムネイルをスクロールすることができます。これは、\"Macintosh"
+" Finder\"やその他のApple "
+"Inc.製品で文書、ウェブサイトのブックマーク、アルバムアートワーク、写真などのスナップショットを視覚的にめくりながら見ることができる`カバーフロー "
+"<http://ja.wikipedia.org/wiki/カバーフロー>`_ "
+"に似ています。AtoMでは、デジタルオブジェクトが添付されている下位レベルの記述が関連付けられている場合、カルーセルビューアが "
+":term:`アーカイブ記述<アーカイブ記述>` の上部に表示されます。参照: :ref:`recurring-carousel`；関連項目: "
+":ref:`upload-digital-object`。"
+
+#: ../../user-manual/glossary/glossary.rst:261
+msgid "Child record"
+msgstr "子レコード"
+
+#: ../../user-manual/glossary/glossary.rst:263
+msgid ""
+"Child record refers to a description of the :term:`archival unit` that is "
+"one :term:`level of description` lower than the current unit, e.g. if a "
+"series belongs to a :term:`fonds`, the series is the child record of the "
+"fonds. :term:`Terms <term>` can also be organized hierarchically (with "
+"parent-child relationships) in a :term:`taxonomy`, and expressed as broader "
+"or narrower terms. A narrower term would be a child of the parent broader "
+"term. See also: :term:`Parent record`."
+msgstr ""
+"子レコードとは、現在の単位よりも一つ下の:term:`記述レベル`にある:term:`アーカイブ単位`の説明を指します。例えば、シリーズが:term:`分野`に属している場合、そのシリーズは分野の子レコードです。:term:`用語<term>`も、:term:`分類法`内で階層的（親子関係）に組織され、より広い用語または狭い用語として表現されることがあります。より狭い用語は、より広い親用語の子となります。関連項目:"
+" :term:`親レコード`。"
+
+#: ../../user-manual/glossary/glossary.rst:270
+msgid "Clipboard"
+msgstr "クリップボード"
+
+#: ../../user-manual/glossary/glossary.rst:272
+msgid ""
+"The Clipboard is a :term:`user interface` element that allows users to "
+"select records while searching and browsing, and add them to a list (the "
+"\"clipboard\"), for later review or further action. Authenicated users (i.e."
+" those logged in) can also perform CSV exports of Clipboard results via the "
+"user interface. The clipboard is **session-based** - meaning that it does "
+"not persist between user sessions. When you close your browser, any results "
+"on the clipboard will be lost. However, users have the option of saving "
+"clipboard results, which can then be loaded in a future session. See: "
+":ref:`clipboard`"
+msgstr ""
+"クリップボードは、利用者が検索や閲覧をしながら記録を選択し、後で確認するためや、さらなる処理のためにリスト（「クリップボード」と呼ばれます）に追加することを可能にする"
+" :term:`ユーザーインターフェース` "
+"要素です。認証された利用者（つまりログインしている者）は、ユーザーインターフェースを介してクリップボード結果のCSVエクスポートも実行できます。クリップボードは"
+" **セッションベース** です - "
+"つまり、ユーザーセッション間で持続しません。ブラウザを閉じると、クリップボードにある結果は失われます。しかし、利用者はクリップボード結果を保存するオプションを持っており、それにより将来のセッションで結果を読み込むことができます。参照："
+" :ref:`clipboard`"
+
+#: ../../user-manual/glossary/glossary.rst:281
+msgid "Clipboard menu"
+msgstr "クリップボードメニュー"
+
+#: ../../user-manual/glossary/glossary.rst:283
+msgid ""
+"The Clipboard menu appears in the AtoM :term:`header bar` for all users. It "
+"is represented by a paperclip icon, and allows users to manage "
+":term:`Clipboard` selections as the navigate around the application. See: "
+":ref:`clipboard`, especially :ref:`clipboard-menu`."
+msgstr ""
+"クリップボードメニューは、全てのユーザーに対してAtoMの:term:`ヘッダーバー`上に表示されます。それはクリップアイコンで表され、ユーザーがアプリケーション内を移動する際に:term:`クリップボード`の選択を管理することを可能にします。詳細は:ref:`クリップボード`を参照してください、特に:ref:`クリップボードメニュー`。"
+
+#: ../../user-manual/glossary/glossary.rst:287
+msgid "Collection"
+msgstr "コレクション"
+
+#: ../../user-manual/glossary/glossary.rst:289
+msgid ""
+"In ISAD, a collection is \"[a]n artificial assemblage of documents "
+"accumulated on the basis of some common characteristic without regard to the"
+" provenance of those documents. Not to be confused with an archival fonds.\""
+" In the Canadian Rules for Archival Description, it is \"[a] grouping of "
+"documents of any provenance intentionally assembled on the basis of some "
+"common characteristic.\" In Dublin Core, a collection is \"[a]n aggregation "
+"of resources. A collection is described as a group; its parts may also be "
+"separately described.\""
+msgstr ""
+"ISADでは、コレクションは「その文書の出所にかかわらず、何らかの共通の特徴に基づいて蓄積された人工的な文書群。アーカイブ資産と混同されるべきではない。」とされています。カナダのアーカイブ記述規則では、それは「何らかの共通の特徴に基づいて意図的に集められた、いかなる出所の文書のグルーピング」と定義されています。ダブリンコアでは、コレクションは「リソースの集まりです。コレクションはグループとして記述され、その部分は個別に記述することもできます。」と説明されています。"
+
+#: ../../user-manual/glossary/glossary.rst:297
+msgid "Color picker"
+msgstr "カラーピッカー"
+
+#: ../../user-manual/glossary/glossary.rst:299
+msgid ""
+"A color picker is a graphical :term:`user interface` element that allows "
+"users to set a :term:`hex color code` when theming an element of the "
+"application by selecting from a visual representation of a color pallette, "
+"instead of keying in alphanumeric values such as a :term:`hex color code`. "
+"In AtoM, the color picker is made up of a text-box where users can enter a "
+":term:`hex color code`, a preview box where the color selected is displayed,"
+" a slider (on the right-hand side of the drop-down) where a user can select "
+"a hue, and a pallette (main part of drop-down) where a user can select a "
+"tint. In AtoM a color picker is used when choosing the background color of "
+"an :term:`archival institution` - see: :ref:`change-institution-background`."
+msgstr ""
+"色選択ツールはグラフィカルな:term:`ユーザーインターフェース`要素であり、アプリケーションの要素のテーマを設定する際に、アルファベットと数字の値（例えば:term:`ヘックスカラーコード`）を入力する代わりに、色のパレットの視覚的表示から選択することでユーザーが:term:`ヘックスカラーコード`を設定できるようにします。AtoMでは、色選択ツールは、ユーザーが:term:`ヘックスカラーコード`を入力できるテキストボックス、選択した色が表示されるプレビューボックス、ユーザーが色相を選択できるスライダー（ドロップダウンの右側）、ユーザーが色合いを選択できるパレット（ドロップダウンの主要部分）から構成されています。AtoMでは、:term:`アーカイブ機関`の背景色を選択する際に色選択ツールを使用します"
+" - 参照：:ref:`change-institution-background`。"
+
+#: ../../user-manual/glossary/glossary.rst:310
+msgid "Column header"
+msgstr "列見出し"
+
+#: ../../user-manual/glossary/glossary.rst:312
+msgid ""
+":term:`Column headers <column header>` appear at the top of the lists on "
+"list pages and some browse results (e.g., :term:`subject` and :term:`place` "
+"browse pages), and give the name of the :term:`field` for whatever is being "
+"listed below. On some pages, the column headers include a |caret-down-grey| "
+"caret icon next to the column header :term:`field` name - when clicked, "
+"these icons will reverse the sort order of the data in the list based on "
+"that column (i.e., changing from A-Z to Z-A, or from most recently updated "
+"first to oldest update first)."
+msgstr ""
+"リストページや一部の閲覧結果（例えば、:term:`主題`や:term:`場所`の閲覧ページ）の上部に表示される:term:`列見出し <column "
+"header>`は、下にリストされているものの:term:`フィールド`の名前を示します。いくつかのページでは、列見出しの:term:`フィールド`名の隣に"
+" |caret-down-grey| "
+"キャレットアイコンが含まれており、これらのアイコンをクリックすると、その列に基づいてリスト内のデータの並び順が逆になります（つまり、A-ZからZ-"
+"Aへの変更、または最も最近更新されたものから最も古い更新への変更）。"
+
+#: ../../user-manual/glossary/glossary.rst:7
+msgid "caret-down-grey"
+msgstr "「グレーの矢印下」"
+
+#: ../../user-manual/glossary/glossary.rst:321
+msgid ""
+"Column headers appear wherever display data on a page has been organized "
+"into a table, and are used extensively throughout the pages available in the"
+" :ref:`Admin menu <main-menu-admin>`. See: :ref:`Column headers <recurring-"
+"column-headers>` for screenshots."
+msgstr ""
+"ページ上でデータが表形式で整理されている場所には、どこでも列見出しが表示されます。これらは「管理メニュー<main-menu-"
+"admin>」で利用可能なページ全体にわたって広く使用されています。スクリーンショットについては、「列見出し<recurring-column-"
+"headers>」をご覧ください。"
+
+#: ../../user-manual/glossary/glossary.rst:325
+msgid "Context menu"
+msgstr "コンテキストメニュー"
+
+#: ../../user-manual/glossary/glossary.rst:327
+msgid ""
+"The context menu appears on all :term:`view pages <view page>` and some "
+":term:`edit pages <edit page>` to provide greater contextual information "
+"about the record currently being viewed."
+msgstr ""
+"コンテキストメニューは、現在閲覧中のレコードについてのより詳細な文脈情報を提供するために、すべての「ビューページ」と一部の「編集ページ」に表示されます。"
+
+#: ../../user-manual/glossary/glossary.rst:331
+msgid ""
+"AtoM's :term:`view pages <view page>` and :term:`edit pages <edit page>` are"
+" generally displayed in the :term:`user interface` in either a 2 or 3 column"
+"  layout - the current record’s display data is presented in the central "
+"part of  the page, while the side column(s) are generally used to provide "
+"additional options and further contextual information to enhance user "
+"orientation and navigation. These side columns make up the context menu."
+msgstr ""
+"AtoMの :term:`表示ページ <view page>` および :term:`編集ページ <edit page>` "
+"は、一般に、2列または3列のレイアウトで :term:`ユーザーインターフェイス` に表示されます - "
+"現在のレコードの表示データはページの中央部に提示され、サイドの列（複数の場合）は通常、ユーザーの方向感覚とナビゲーションを強化するための追加オプションやさらなる文脈情報を提供するために使われます。これらのサイド列はコンテキストメニューを形成しています。"
+
+#: ../../user-manual/glossary/glossary.rst:339
+msgid ""
+"The information provided in the context menu varies by the :term:`entity` "
+"type (i.e. :term:`archival description` :term:`view pages <view page>`, "
+":term:`authority records <authority record>` or :term:`archival "
+"institution`) or display. For more information and screenshots, see: "
+":ref:`context-menu` and :ref:`recurring-page-elements`."
+msgstr ""
+"コンテキストメニューに提供される情報は、:term:`エンティティ`タイプ（例えば :term:`アーカイバル記述` "
+":term:`ビューページ<view page>`、:term:`権威記録<authority record>`または "
+":term:`アーカイブ機関`）や表示によって異なります。詳細情報とスクリーンショットについては、:ref:`context-menu` と "
+":ref:`recurring-page-elements` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:345
+msgid "Contributor"
+msgstr "貢献者"
+
+#: ../../user-manual/glossary/glossary.rst:347
+msgid ""
+"A contributor is a type of user who can search, browse, create, and edit "
+"descriptions. See :ref:`User roles <user-roles>`; see also "
+":ref:`contributor-default`."
+msgstr ""
+"投稿者は、検索、閲覧、記述の作成および編集が可能なユーザータイプです。ユーザーロールに関する詳細については、`:ref:`User roles "
+"<user-roles>`を参照してください。また、デフォルトの投稿者権限については`:ref:`contributor-"
+"default`も参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:350
+msgid "Controlled vocabulary"
+msgstr "統制語彙"
+
+#: ../../user-manual/glossary/glossary.rst:352
+msgid ""
+"A controlled vocabulary is a set of pre-defined, authorized :term:`terms "
+"<term>` grouped into :term:`taxonomies <taxonomy>` or entered into "
+":term:`authority records <authority record>` and used for generating "
+":term:`value lists <value list>` and :term:`access points <access point>`. "
+"See :ref:`terms`."
+msgstr ""
+"制御語彙は、予め定義され認可された:term:`用語<term>`のセットであり、:term:`分類体系<taxonomy>`にグループ化したり、:term:`権威レコード<authority"
+" record>`に入力したりして、:term:`値リスト<value list>`や:term:`アクセスポイント<access "
+"point>`を生成するために使われます。詳細は:ref:`用語`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:357
+msgid "Converse term"
+msgstr "対話用語"
+
+#: ../../user-manual/glossary/glossary.rst:359
+msgid ""
+"A :term:`term` that has an inverse reciprocal relationship to another term "
+"in the same :term:`taxonomy`. Converse term relationships can be managed via"
+" a term's :term:`edit page`; currently converse relationships are only used "
+"in the Actor relations taxonomy, though the field is available in all term "
+"edit pages. Examples of default converse terms include: *is the parent of* "
+"and *is the child of*, or *is the employer of* and *is the employee of*. "
+"Actor relation terms are used in the ISAAR Relationships dialogue to "
+"establish relationshps between :term:`authority records <authority record>`."
+" When one term is added as a relationship qualifier to an authority record, "
+"its converse term will automatically appear on the related authority record."
+" A term whose converse is itself (e.g. *is the sibling of*) is known as a "
+":term:`self-reciprocal term`. For more information, see: :ref:`add-converse-"
+"term` and :ref:`link-two-authority-records`."
+msgstr ""
+"逆双方向の関係を持つ用語は、同じタクソノミー内の別の用語と逆相互の関係を持つ用語です。逆用語関係は、用語の編集ページを介して管理できます。現在、逆関係はアクター関係タクソノミーでのみ使用されていますが、そのフィールドはすべての用語編集ページで利用可能です。デフォルトの逆用語の例には、「親である」と「子である」、「雇用主である」と「従業員である」などがあります。アクター関係用語は、ISAAR関係ダイアログで権威レコード間の関係を確立するために使用されます。ある用語が権威レコードに関係修飾子として追加されると、その逆用語は関連する権威レコードに自動的に現れます。逆用語が自身と同じである用語（例:「兄弟である」）は、自己相互用語として知られています。詳細については、次を参照してください：「逆用語を追加する」と「２つの権威レコードをリンクする」。"
+
+#: ../../user-manual/glossary/glossary.rst:373
+msgid "Corporate body"
+msgstr "法人"
+
+#: ../../user-manual/glossary/glossary.rst:375
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org/>`__) "
+"defines a corporate body as \"An organization or group of persons that is "
+"identified by a particular name and that acts, or may act, as an entity\" "
+"(ISAD glossary)."
+msgstr ""
+"国際アーカイブス評議会（`ICA "
+"<http://www.ica.org/>`__）は、企業体を「特定の名称で識別され、実体として行動するか、または行動しうる組織または人々の集団」と定義しています（ISAD用語集）。"
+
+#: ../../user-manual/glossary/glossary.rst:380
+msgid ""
+"Similarly, in the Canadian Rules for Archival Description (RAD), a corporate"
+" body is defined as \"an organization or association of persons that is "
+"identified by a particular name and that acts, or may act, as an entity. "
+"Typical examples of corporate bodies are societies, institutions, business "
+"firms, nonprofit enterprises, governments, government agencies, religious "
+"bodies, places of worship, and conferences.\""
+msgstr ""
+"同様に、カナダのアーカイブ記述ルール（RAD）においては、企業体は「特定の名前で識別され、実体として行動する、または行動する可能性のある人々の組織または連合」と定義されています。企業体の典型的な例には、社団、機関、商社、非営利企業、政府、政府機関、宗教団体、礼拝場所、および会議などがあります。"
+
+#: ../../user-manual/glossary/glossary.rst:387
+msgid "Create button"
+msgstr "作成ボタン"
+
+#: ../../user-manual/glossary/glossary.rst:389
+msgid ""
+"The create button, located on the :term:`button block`, is used to save new "
+":term:`entities <entity>`. Once an entity has been saved for the first time,"
+" the create button disappears and is replaced by the \"Save\" button, which "
+"is used to save all subsequent changes. See: :ref:`recurring-button-block`."
+msgstr ""
+"作成ボタンは、`:term:'button block'`に位置しており、新しい`:term:'entities "
+"<entity>'`を保存するために使用されます。エンティティが初めて保存されると、作成ボタンは消えて「保存」ボタンに置き換えられます。このボタンはその後のすべての変更を保存するために使用されます。参照：`:ref:'recurring-"
+"button-block'`。"
+
+#: ../../user-manual/glossary/glossary.rst:394
+msgid "Creator"
+msgstr "作成者"
+
+#: ../../user-manual/glossary/glossary.rst:396
+msgid ""
+"A creator is \"any entity (:term:`corporate body`, family or person) that "
+"created, accumulated and/or maintained records in the conduct of personal or"
+" corporate activity\" (ISAAR glossary). In AtoM, the creator is described in"
+" an :term:`authority record` linked to an :term:`archival description`, "
+"usually at the highest :term:`level of description` only. Lower levels "
+"inherit the creator from the :term:`parent record`, unless a different "
+"creator is specified. AtoM can accommodate multiple creators at all levels "
+"of description. Information about the creator is entered into the context "
+"area in the archival description :term:`edit page` (ISAD-G template)."
+msgstr ""
+"創作者とは「個人や企業活動を行う過程で記録を創出し、蓄積または保持したあらゆる実体（：用語`法人団体`、家族あるいは個人）」（ISAAR用語集）を意味します。AtoMでは、創作者は通常、最上位の：用語`記述レベル`のみにリンクされた：用語`権威記録`に記述されます。下位レベルは、異なる創作者が指定されていない限り、：用語`親記録`から創作者を継承します。AtoMは、記述の全レベルで複数の創作者を受け入れることができます。創作者に関する情報は、アーカイブ記述の文脈エリア：用語`編集ページ`（ISAD-"
+"Gテンプレート）に入力されます。"
+
+#: ../../user-manual/glossary/glossary.rst:406
+msgid "CSV"
+msgstr "CSV (Comma-Separated Values)"
+
+#: ../../user-manual/glossary/glossary.rst:408
+msgid ""
+"Most often understood as an acronym for \"comma-separated values\" (though "
+"sometimes called \"character-separated values\" because the separator "
+"character does not have to be a comma), CSV is a file format that stores "
+"tabular data in plain-text form. Information with common properties that can"
+" be expressed as a sequence of fields sharing a common header can be stored "
+"in plain-text using the CSV format, making it application agnostic and "
+"highly transportable."
+msgstr ""
+"最も一般的には「カンマ区切り値」(comma-separated "
+"values)の略語と理解されていますが（セパレーター文字がカンマである必要はないため、時に「文字区切り値」(character-separated "
+"values)とも呼ばれます）、CSVは、表形式のデータをプレーンテキスト形式で保存するファイル形式です。共通のプロパティを持つ情報であり、共通のヘッダーを共有する一連のフィールドとして表現できるものは、アプリケーションに依存しないCSV形式を使用してプレーンテキストで保存することが可能です。これにより、高い移植性を持ちます。"
+
+#: ../../user-manual/glossary/glossary.rst:416
+msgid ""
+"A CSV file consists of a number of records (rows), that have identical "
+"fields, separated by commas (or in some cases, another separator). Often a "
+"header column (i.e. the cell values in first or top row of a CSV file) is "
+"included, naming each column and indicating what kind of data the column "
+"contains. Data is then entered using a separator or delimitor (such as a "
+"comma) to indicate a separation of fields (or cells), and a line break or "
+"carriage return to indicate rows (i.e. different records). Most spreadsheet "
+"applications (such as OpenOffice Calc or MS Excel) can open CSV files and "
+"express them as a spreadsheet. See `Wikipedia "
+"<http://en.wikipedia.org/wiki/Comma-separated_values>`__ for more "
+"information on CSV. In AtoM, CSV templates conforming to content standards "
+"templates such as :ref:`ISAD(G) <isad-template>` and :ref:`RAD <rad-"
+"template>` can be used to migrate large datasets into the application. For "
+"more information, see: :ref:`csv-import`."
+msgstr ""
+"CSVファイルは、カンマで区切られた（あるいは場合によっては他の区切り文字を使用）、同一のフィールドを持つ複数のレコード（行）で構成されています。しばしばヘッダー列（すなわち、CSVファイルの最初または上部の行のセル値）が含まれており、各列の名前を示しており、その列がどの種類のデータを含んでいるかを示しています。データは、フィールド（またはセル）の区切りを示す区切り文字やデリミタ（例えばカンマ）を使用して入力され、改行またはキャリッジリターンを使用して行（つまり異なるレコード）を示します。ほとんどのスプレッドシートアプリケーション（OpenOffice"
+" CalcやMS "
+"Excelなど）は、CSVファイルを開くことができ、スプレッドシートとして表現することができます。CSVに関する詳細は、`Wikipedia "
+"<http://en.wikipedia.org/wiki/Comma-separated_values>`__ "
+"を参照してください。AtoMでは、:ref:`ISAD(G) <isad-template>` や :ref:`RAD <rad-template>` "
+"などの内容標準テンプレートに準拠したCSVテンプレートを使用して、大量のデータセットをアプリケーションに移行することができます。詳しくは、:ref:`csv-"
+"import` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:430
+msgid "Current language"
+msgstr "現行の言語"
+
+#: ../../user-manual/glossary/glossary.rst:432
+msgid ""
+"Refers to the language in which the :term:`user interface` elements and "
+":term:`database content` are displayed. Users can switch between languages "
+"by using the :term:`language menu`. See: :ref:`language-menu`."
+msgstr ""
+"これは、:term:`ユーザーインターフェース`の要素や:term:`データベースの内容`が表示される言語を指します。ユーザーは:term:`言語メニュー`を使用して言語を切り替えることができます。参照：:ref:`language-"
+"menu`。"
+
+#: ../../user-manual/glossary/glossary.rst:435
+msgid "Data element"
+msgstr "データ要素"
+
+#: ../../user-manual/glossary/glossary.rst:437
+msgid ""
+"Data elements, or elements of description, are `ICA <http://www.ica.org>`__ "
+"standards-based units of information applied to :term:`archival descriptions"
+" <archival description>`, :term:`authority records <authority record>`, "
+":term:`archival institutions <archival institution>`, and :term:`terms "
+"<term>`. The elements are entered into fields in AtoM's :term:`edit pages "
+"<edit page>`."
+msgstr ""
+"データ要素、または記述の要素は、`ICA <http://www.ica.org>`__ 標準に基づく情報の単位であり、:term:`アーカイバル記述 "
+"<archival description>`、:term:`権威記録 <authority record>`、:term:`アーカイバル機関 "
+"<archival institution>`、および:term:`用語 "
+"<term>`に適用されます。これらの要素は、AtoMの:term:`編集ページ <edit page>`にあるフィールドに入力されます。"
+
+#: ../../user-manual/glossary/glossary.rst:444
+msgid "Database content"
+msgstr "データベースの内容"
+
+#: ../../user-manual/glossary/glossary.rst:446
+msgid ""
+"Database content refers to information stored in Atom's database tables, "
+"including :term:`data elements <data element>`, :term:`static page` content,"
+" and :term:`user profile` information."
+msgstr ""
+"データベースの内容とは、Atomのデータベーステーブルに保存された情報を指し、`:term:`データ要素<data "
+"element>`、`:term:`スタティックページ` のコンテンツ、そして `:term:`ユーザープロファイル`の情報が含まれます。"
+
+#: ../../user-manual/glossary/glossary.rst:449
+msgid "Deaccession record"
+msgstr "非所蔵記録"
+
+#: ../../user-manual/glossary/glossary.rst:451
+msgid ""
+"The deaccession record is used to indicate that a :term:`repository` has "
+"removed an accession, in part or whole, from the collection. Instead of "
+"deleting an :term:`accession record`, the repository will create a "
+"deaccession record that is kept. See: :ref:`deaccessions`."
+msgstr ""
+"アクセッション・レコードが削除された代わりに、リポジトリは保持されるデアクセッション・レコードを作成します。デアクセッションの詳細については、:ref:`deaccessions`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:455
+msgid "Dedicated search box"
+msgstr "専用の検索ボックス"
+
+#: ../../user-manual/glossary/glossary.rst:457
+msgid ""
+"A search box, generally provided on a :ref:`Browse page <page-type-browse>`,"
+" that will search only one :term:`entity` or record type, giving users a "
+"means to search for particular content within that type. In AtoM, dedicated "
+"search bars are provided for: Accessions, Archival institutions, authority "
+"records, Place terms, Subject terms, Donors, Rights holders, Functions, and "
+"Users. For more information, see: :ref:`dedicated-search`."
+msgstr ""
+"一般的には「参照ページ <page-type-"
+"browse>」で提供される検索ボックスで、一つの:term:`エンティティ`やレコードタイプのみを検索し、ユーザーがそのタイプ内の特定のコンテンツを検索する手段を提供します。AtoMでは、以下のための専用検索バーが提供されています：アクセッション、アーカイブ機関、権威レコード、場所の項目、主題の項目、寄贈者、権利保持者、機能、そしてユーザー。詳細については、:ref:`dedicated-"
+"search` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:464
+msgid "Default content"
+msgstr "デフォルトのコンテンツ"
+
+#: ../../user-manual/glossary/glossary.rst:466
+msgid ""
+"Default content is any :term:`database content` that is included by default "
+"when AtoM is installed. This includes things like the default :term:`home "
+"page` and :term:`drop-down menu` values that are stored in :term:`taxonomies"
+" <taxonomy>`."
+msgstr ""
+"デフォルトコンテンツとは、AtoMがインストールされた際にデフォルトで含まれるあらゆる「データベースコンテンツ」のことです。これには、デフォルトの「ホームページ」や「タクソノミー」に保存されている「ドロップダウンメニュー」の値などが含まれます。"
+
+#: ../../user-manual/glossary/glossary.rst:470
+msgid "Default language"
+msgstr "デフォルト言語"
+
+#: ../../user-manual/glossary/glossary.rst:472
+msgid ""
+"The default language is the language in which all :term:`user interface` "
+"elements are displayed when AtoM is opened. The language is specified when "
+"the application is installed. Users can switch to other :term:`supported "
+"languages <supported language>` (see: :ref:`language-menu`) and "
+":term:`translators <translator>` can translate :term:`database content` and "
+":term:`user interface` elements. See :ref:`choose-language` and "
+":ref:`Translate <translate>`."
+msgstr ""
+"AtoMを開いたときにすべての :term:`ユーザーインターフェース` "
+"の要素が表示されるデフォルト言語は、アプリケーションがインストールされる際に指定されます。ユーザーは他の :term:`対応言語<supported "
+"language>` に切り替えることができ（:ref:`言語メニュー<language-menu>`を参照）、 "
+":term:`翻訳者<translator>` は :term:`データベースの内容<database content>` や "
+":term:`ユーザーインターフェース<user interface>` の要素を翻訳することができます。詳細は :ref:`言語の選択<choose-"
+"language>` および :ref:`翻訳<translate>` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:479
+msgid "Delete button"
+msgstr "削除ボタン"
+
+#: ../../user-manual/glossary/glossary.rst:481
+msgid ""
+"The delete button appears in the :term:`button block`. Clicking on the "
+"delete button will prompt a warning to appear asking whether the user really"
+" intends to delete the :term:`entity`. See: :ref:`recurring-button-block`."
+msgstr ""
+"削除ボタンは`:term:`ボタンブロック`に表示されます。削除ボタンをクリックすると、ユーザーが本当に`:term:`エンティティ`を削除する意図があるかどうかを尋ねる警告が表示されます。詳細は、`:ref:`recurring-"
+"button-block`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:485
+msgid "Delete icon"
+msgstr "削除アイコン"
+
+#: ../../user-manual/glossary/glossary.rst:487
+msgid ""
+"Delete icons are small buttons in :term:`edit pages <edit page>` used to "
+"delete values from :term:`multi-value fields <multi-value field>`, such as "
+"those containing :term:`event` dates or :term:`access points <access "
+"point>`. They are generally portrayed as an \"**X**\"."
+msgstr ""
+"「削除」アイコンは**:term:`編集ページ <edit "
+"page>`**内で使用される小さなボタンであり、**:term:`イベント`**の日付や**:term:`アクセスポイント <access "
+"point>`**など、**:term:`複数値フィールド <multi-value "
+"field>`**から値を削除するために使用されます。一般的に\"**X**\"として表されます。"
+
+#: ../../user-manual/glossary/glossary.rst:491
+msgid "Developer"
+msgstr "開発者"
+
+#: ../../user-manual/glossary/glossary.rst:493
+msgid ""
+"A developer is a `programmer <http://en.wikipedia.org/wiki/Programmer>`_ who"
+" is able to modify the underlying software code of an AtoM application."
+msgstr ""
+"開発者とは、AtoMアプリケーションの基礎となるソフトウェアコードを変更することができる「プログラマー<http://en.wikipedia.org/wiki/Programmer>」のことです。"
+
+#: ../../user-manual/glossary/glossary.rst:496
+msgid "Digital object"
+msgstr "デジタル・オブジェクト"
+
+#: ../../user-manual/glossary/glossary.rst:498
+msgid ""
+"Digital objects are computer files that can be uploaded into and displayed "
+"by AtoM. They include scanned images, digital photographs, sound and moving "
+"image files, and other scanned or born-digital items. See :ref:`upload-"
+"digital-object` and :ref:`File formats <file-formats>`."
+msgstr ""
+"デジタルオブジェクトは、AtoMにアップロードして表示することができるコンピュータファイルです。それらには、スキャンされた画像、デジタル写真、音声や動画ファイル、その他のスキャンされたものや生まれながらのデジタルアイテムが含まれます。詳細については、`:ref:`upload-"
+"digital-object``と`:ref:`ファイルフォーマット<file-formats>``を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:502
+msgid "Display standard"
+msgstr "標準表示"
+
+#: ../../user-manual/glossary/glossary.rst:504
+msgid ""
+"The display standard indicates which archival description standard is used "
+"to display and edit the :term:`archival unit`. The default display standard "
+"for the application can be set by an :term:`Administrator <administrator>` "
+"in the Default template area of the Settings menu. See :ref:`settings`."
+msgstr ""
+"表示標準は、どのアーカイブ記述標準が:term:`archival "
+"unit`（アーカイバルユニット）の表示と編集に使用されるかを示します。アプリケーションのデフォルトの表示標準は、設定メニューのデフォルトテンプレートエリアで:term:`Administrator"
+" <administrator>`（管理者）によって設定することができます。詳細については、:ref:`settings`（設定）をご覧ください。"
+
+#: ../../user-manual/glossary/glossary.rst:510
+msgid ""
+"AtoM also allows an authenticated user with the appropriate permissions to "
+"set which :term:`archival description` standards template is used to display"
+" the current description, and if desired, all of its related :term:`child "
+"records <child record>`. Users can select from multiple standards-based "
+"templates supported in AtoM. Using this feature, located in the "
+":term:`Administration area <administration area>` of an :term:`archival "
+"description`'s :term:`edit page`, users can choose if archival descriptions "
+"held by the same :term:`archival institution` are displayed to end-users "
+"with different archival standards templates, or even if different "
+":term:`levels of description <level of description>` in the same "
+":term:`fonds` or :term:`collection` are displayed with different standards "
+"templates. See :ref:`entity-types`, :ref:`descriptive-standards`, and "
+":ref:`archival-descriptions`."
+msgstr ""
+"AtoMでは、適切な権限を持つ認証済みユーザーは、現在の記述に使用されるアーカイブ記述標準のテンプレートを設定することができます。また、もしそう望むなら、それに関連する:term:`child"
+" records "
+"<子レコード>`すべてに対しても適用することができます。ユーザーは、AtoMでサポートされている複数の標準ベースのテンプレートから選択することができます。この機能を使用して、:term:`archival"
+" description`の:term:`edit page<編集ページ>`にある:term:`Administration "
+"area<管理エリア>`でユーザーは、同じ:term:`archival "
+"institution<アーカイブ機関>`に保持されているアーカイブ記述が、異なるアーカイブ標準テンプレートで最終ユーザーに表示されるか、あるいは同じ:term:`fonds<全体記録>`または:term:`collection<コレクション>`内の異なる:term:`levels"
+" of description<記述レベル>`が異なる標準テンプレートで表示されるかを選択することができます。詳しくは:ref:`entity-"
+"types<エンティティタイプ>`, :ref:`descriptive-standards<記述標準>`, および :ref:`archival-"
+"descriptions<アーカイブ記述>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:524
+msgid "Document"
+msgstr "ドキュメント"
+
+#: ../../user-manual/glossary/glossary.rst:526
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org>`__), in the"
+" ISAD glossary, defines a document as \"recorded information regardless of "
+"medium or characteristics. (See also :term:`Record <record>`)\"."
+msgstr ""
+"国際アーカイブス会議（`ICA "
+"<http://www.ica.org>`__）は、ISAD用語集において文書を「媒体や特性に関係なく記録された情報」と定義しています。（参照：:term:`記録"
+" <record>`）。"
+
+#: ../../user-manual/glossary/glossary.rst:530
+msgid "Dominion theme"
+msgstr "ドミニオン テーマ"
+
+#: ../../user-manual/glossary/glossary.rst:532
+msgid ""
+"The Dominion theme is the default theme that ships with AtoM 2.0. It has "
+"been built using `Twitter Bootstrap <http://getbootstrap.com/>`__, with some"
+" added `JavaScript <https://en.wikipedia.org/wiki/Javascript>`__ elements, "
+"and features a black :term:`header bar` and a light grey application "
+"background color. AtoM 2.7 ships with a newer version of the Dominion theme "
+"based on Bootsrap version 5 that provides accessibility and other user "
+"interface improvements. AtoM has been designed so that other themes can be "
+"added to the application as plugins, after which an :term:`administrator` "
+"can change the application theme via the :term:`user interface` by "
+"navigating to **Admin > Themes**. See :ref:`Themes and theming <themes>`."
+msgstr ""
+"Dominionテーマは、AtoM 2.0に標準で同梱されているデフォルトテーマです。これは`Twitter Bootstrap "
+"<http://getbootstrap.com/>`__ を使って構築されており、いくつかの追加された `JavaScript "
+"<https://en.wikipedia.org/wiki/Javascript>`__ 要素を備えており、黒い :term:`ヘッダーバー` "
+"と、薄い灰色のアプリケーション背景色が特徴です。AtoM "
+"2.7では、アクセシビリティとその他のユーザーインターフェースの改善を提供する、Bootstrapバージョン5に基づいたDominionテーマの新しいバージョンが同梱されています。AtoMは、他のテーマをプラグインとしてアプリケーションに追加できるように設計されており、その後、:term:`管理者`"
+" は :term:`ユーザーインターフェース` を介して、**管理 > テーマ** "
+"へのナビゲートによりアプリケーションのテーマを変更することができます。詳細は :ref:`テーマとテーミング <themes>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:543
+msgid "Donor dialog"
+msgstr "ドナー対話"
+
+#: ../../user-manual/glossary/glossary.rst:545
+msgid ""
+"The dialog that opens when adding donor contact information to the "
+":term:`accession record` or when selecting to edit an existing donor record."
+" Donor records are located under the \"Manage\" tab in the menu. Donor "
+"records are only available to logged-in users with permissions. See: "
+":ref:`donors`."
+msgstr ""
+"アクセッション記録に寄贈者の連絡先情報を追加する際、または既存の寄贈者記録を編集する際に開くダイアログ。寄贈者記録はメニュー内の「管理」タブの下に位置しています。寄贈者記録は、権限を持つログイン済みユーザーのみが利用可能です。参照：`:ref:`寄贈者`。"
+
+#: ../../user-manual/glossary/glossary.rst:550
+msgid "Draft record"
+msgstr "ドラフトレコード"
+
+#: ../../user-manual/glossary/glossary.rst:552
+msgid ""
+"A draft record is an :term:`archival description` that has not been "
+"published. All new and imported :term:`archival descriptions <archival "
+"description>` have draft status until the user changes that status to "
+"published in the :term:`Administration area <administration area>` the "
+"bottom of the archival description :term:`edit page`. The "
+":term:`Administrator <administrator>` can change the default publication "
+"status from draft to published in the **Admin > Settings > Global > Default "
+"publication status**."
+msgstr ""
+"未公開の記録は、公開されていない:term:`アーカイバルディスクリプション`です。すべての新規およびインポートされた:term:`アーカイバルディスクリプション"
+" "
+"<アーカイバルディスクリプション>`は、ユーザーがそのステータスをアーカイバルディスクリプションの:term:`編集ページ`の下部にある:term:`管理エリア"
+" <管理エリア>`で公開に変更するまで、ドラフトの状態を保ちます。:term:`管理者 <管理者>`は **管理 > 設定 > グローバル > "
+"デフォルトの公開ステータス** で、デフォルトの公開ステータスをドラフトから公開に変更することができます。"
+
+#: ../../user-manual/glossary/glossary.rst:561
+msgid ""
+"The publication status is inherited from the highest :term:`level of "
+"description`. Users who are not authenticated cannot view draft records. See"
+" also :term:`Published record <published record>`. See: :ref:`Publish an "
+"archival description <publish-archival-description>`."
+msgstr ""
+"公開状態は、最も高い:term:`記述のレベル`から継承されます。認証されていないユーザーは、下書きの記録を閲覧することはできません。また、:term:`公開された記録<published"
+" record>`を参照してください。参照：:ref:`アーカイブ記述を公開する<publish-archival-description>`。"
+
+#: ../../user-manual/glossary/glossary.rst:565
+msgid "Drop-down menu"
+msgstr "ドロップダウンメニュー"
+
+#: ../../user-manual/glossary/glossary.rst:567
+msgid ""
+"A drop-down list menu is a list of data-entry options that appears below "
+"certain :term:`fields <field>` in :term:`edit pages <edit page>`. Values are"
+" drawn from :term:`controlled-vocabulary <controlled vocabulary>` "
+":term:`terms <term>`, :term:`authority records <authority record>`, and "
+"default data contained in AtoM's database tables."
+msgstr ""
+"ドロップダウンリストメニューは、:term:`編集ページ <edit page>` の特定の :term:`フィールド <field>` "
+"の下に表示されるデータ入力オプションのリストです。値は :term:`管理された語彙 <controlled vocabulary>` "
+":term:`用語 <term>`、:term:`権威レコード <authority record>` "
+"、およびAtoMのデータベーステーブルに含まれるデフォルトデータから取得されます。"
+
+#: ../../user-manual/glossary/glossary.rst:572
+msgid "Duplicate button"
+msgstr "重複ボタン"
+
+#: ../../user-manual/glossary/glossary.rst:574
+msgid ""
+"The duplicate button appears at the bottom of the :term:`view page`; "
+"clicking the button takes the user to the :term:`edit duplicate`; this page "
+"is an :term:`edit page` that is pre-populated with the existing data from "
+"the original record. The user can edit the duplicate record page and then "
+"save it as a new record. Some users use the duplicate function in AtoM like "
+"a record skeleton when doing large amounts of data-entry on similar records."
+" See: :ref:`duplicate-archival-description`; see also: :ref:`recurring-"
+"button-block`."
+msgstr ""
+"重複ボタンは、:term:`ビューページ`の下部に表示されます。このボタンをクリックすると、ユーザーは:term:`複製の編集`に移動します。このページは、既存のレコードからデータが予め入力された状態の:term:`編集ページ`です。ユーザーは複製したレコードページを編集し、新しいレコードとして保存することができます。AtoMにおいて、あるユーザーは類似のレコードに大量のデータ入力を行う際に、記録の骨格のようなものとして重複機能を利用しています。参照：:ref:`duplicate-"
+"archival-description`；関連項目：:ref:`recurring-button-block`。"
+
+#: ../../user-manual/glossary/glossary.rst:583
+msgid "Edit button"
+msgstr "編集ボタン"
+
+#: ../../user-manual/glossary/glossary.rst:585
+msgid ""
+"The edit button appears at the bottom of :term:`view pages <view page>`; "
+"clicking the button takes the user to the :term:`edit page` for that "
+":term:`record`."
+msgstr ""
+"編集ボタンは:term:`表示ページ <view "
+"page>`の下部に現れます。そのボタンをクリックすると、ユーザーはその:term:`レコード`の:term:`編集ページ`へと移動します。"
+
+#: ../../user-manual/glossary/glossary.rst:589
+msgid ""
+"The user can also switch between view and edit pages by clicking the "
+":term:`title bar` of an :term:`information area`. See: :ref:`recurring-"
+"button-block`."
+msgstr ""
+"ユーザーは、情報エリアのタイトルバーをクリックすることで、ビューと編集のページとを切り替えることができます。詳細は、「繰り返し出現するボタンブロック」を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:592
+msgid "Edit duplicate"
+msgstr "重複を編集"
+
+#: ../../user-manual/glossary/glossary.rst:594
+msgid ""
+"After the user clicks the :term:`duplicate button` the :term:`edit page` "
+"provides a warning. The user is now editing a duplicate record "
+"(automatically draft status). After editing the duplicate record the user "
+"can click the cancel or save button at the bottom of the screen."
+msgstr ""
+"ユーザーが「複製ボタン」をクリックすると、「編集ページ」に警告が表示されます。ユーザーは、複製されたレコード（自動的にドラフト状態）の編集を行っています。複製レコードの編集後、ユーザーは画面の下部にあるキャンセルボタンまたは保存ボタンをクリックすることができます。"
+
+#: ../../user-manual/glossary/glossary.rst:598
+msgid "Edit icon"
+msgstr "編集アイコン"
+
+#: ../../user-manual/glossary/glossary.rst:600
+msgid ""
+"The edit icon appears in :term:`edit pages <edit page>` next to "
+":term:`fields <field>` that derive data from a related record. The user "
+"clicks the icon to edit the text in the related record, e.g. to edit the "
+"\"Administrative/biographical history\" in an :term:`archival description`, "
+"the user must click the edit icon because the data resides in the "
+":term:`creator's <creator>` :term:`authority record`."
+msgstr ""
+"編集アイコンは、関連するレコードからデータが派生する各:term:`フィールド<field>`の隣にある:term:`編集ページ<edit "
+"page>`に表示されます。ユーザーはこのアイコンをクリックして関連レコードのテキストを編集します。例えば、:term:`アーカイブ記述`の「管理上の/伝記的歴史」を編集するためには、データが:term:`作成者<creator>`の:term:`権威レコード`に存在するため、ユーザーは編集アイコンをクリックする必要があります。"
+
+#: ../../user-manual/glossary/glossary.rst:606
+msgid "Edit mode"
+msgstr "編集モード"
+
+#: ../../user-manual/glossary/glossary.rst:608
+msgid ""
+"Edit mode allows the user to add, modify, or delete the contents of "
+":term:`archival descriptions <archival description>`, :term:`authority "
+"records <authority record>`, :term:`archival institutions <archival "
+"institution>`, :term:`terms <term>`, and other database content using "
+":term:`edit pages <edit page>`. In edit mode, AtoM displays all "
+":term:`fields <field>` in a :term:`record` for data entry."
+msgstr ""
+"編集モードでは、ユーザーは:term:`編集ページ<edit page>`を使用して、:term:`アーカイバルディスクリプション<archival "
+"description>`、:term:`オーソリティレコード<authority "
+"record>`、:term:`アーカイバルインスティテューション<archival "
+"institution>`、:term:`用語<term>`など、データベースコンテンツの内容を追加、変更、または削除することができます。編集モードでは、AtoMはデータ入力のために:term:`レコード`内のすべての:term:`フィールド<field>`を表示します。"
+
+#: ../../user-manual/glossary/glossary.rst:614
+msgid "Editor"
+msgstr "エディター"
+
+#: ../../user-manual/glossary/glossary.rst:616
+msgid ""
+"An editor is a type of user who can search, browse, add, edit and delete "
+":term:`archival descriptions <archival description>`, :term:`authority "
+"records <authority record>`, :term:`archival institutions <archival "
+"institution>`, :term:`functions <function>`, and :term:`terms <term>`. See "
+":ref:`User roles <user-roles>`."
+msgstr ""
+"エディタは、検索、閲覧、追加、編集、そして:term:`アーカイバルディスクリプション（archival "
+"description）<アーカイバルディスクリプション>`、:term:`オーソリティレコード（authority "
+"record）<オーソリティレコード>`、:term:`アーカイバルインスティテューション（archival "
+"institution）<アーカイバルインスティテューション>`、:term:`機能（function）<機能>`、:term:`用語（term）<用語>`の情報を削除することもできるユーザーのタイプです。詳細は"
+" :ref:`ユーザーロール（user-roles）<ユーザーロール>` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:621
+msgid "Edit page"
+msgstr "ページを編集"
+
+#: ../../user-manual/glossary/glossary.rst:623
+msgid ""
+"Edit pages allow users to add, edit and delete the contents of "
+":term:`archival descriptions <archival description>`, :term:`authority "
+"records <authority record>`, :term:`archival institutions <archival "
+"institution>`, :term:`functions <function>`, :term:`terms <term>`, and "
+":term:`accession records <accession record>`. They are also used to carry "
+"out administrative functions such as changing :term:`user profiles <user "
+"profile>` and editing :term:`static pages <static page>`."
+msgstr ""
+"編集ページは、ユーザーが「アーカイブ記述」「権威記録」「アーカイブ機関」「機能」「用語」「アクセッション記録」の内容を追加、編集、削除するために使用されます。また、ユーザープロファイルの変更や静的ページの編集などの管理機能を実行するためにも使用されます。"
+
+#: ../../user-manual/glossary/glossary.rst:630
+msgid "Entity"
+msgstr "実体"
+
+#: ../../user-manual/glossary/glossary.rst:632
+msgid ""
+"An entity is an object about which an information system collects data. From"
+" the user's perspective, in AtoM there are six main entities: "
+":term:`archival descriptions <archival description>`, :term:`authority "
+"records <authority record>`, :term:`archival institutions <archival "
+"institution>`, :term:`functions <function>`, :term:`rights records <rights "
+"record>`, and :term:`terms <term>`. See :ref:`entity-types`."
+msgstr ""
+"情報システムがデータを収集する対象のことをエンティティと言います。ユーザーの視点から見ると、AtoMには六つの主要なエンティティがあります： "
+"`アーカイブ記述 <archival description>`、`権威記録 <authority record>`、`アーカイブ機関 "
+"<archival institution>`、`機能 <function>`、`権利記録 <rights record>`、そして`用語 "
+"<term>`です。詳細は `エンティティの種類 <entity-types>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:639
+msgid "Error message"
+msgstr "エラーメッセージ"
+
+#: ../../user-manual/glossary/glossary.rst:641
+msgid ""
+"An error message will display when AtoM is unable to execute an action. See "
+":ref:`Error <page-type-error>` for examples of types of error messages."
+msgstr ""
+"AtoMがアクションを実行できない場合は、エラーメッセージが表示されます。エラーメッセージの例については、:ref:`エラー <page-type-"
+"error>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:644
+msgid "Event"
+msgstr "イベント"
+
+#: ../../user-manual/glossary/glossary.rst:646
+msgid ""
+"In AtoM, an event registers an action by an actor (:term:`corporate body`, "
+"person, or family) at a particular time or over a span of time and may "
+"establish a relationship between the actor and other actors or "
+":term:`entities <entity>`. This is accomplished through the use of start and"
+" end dates in the context area of the :term:`archival description` (ISAD-G "
+"template), which links the :term:`creator` or other actor to the records for"
+" the period of time delimited by the dates. See :ref:`entity-types` and "
+":ref:`context-menu`."
+msgstr ""
+"AtoMでは、イベントは特定の時点または一定期間にわたり、行為者（法人、個人、家族）による行動を記録し、その行為者と他の行為者やエンティティとの関係を確立することができます。これは、アーカイブ記述(ISAD-"
+"Gテンプレート)のコンテキスト領域における開始日と終了日の使用を通じて実現され、記録作成者またはその他の行為者を、日付によって区切られた期間の記録に関連付けます。エンティティの種類やコンテキストメニューについては、「エンティティの種類」および「コンテキストメニュー」を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:653
+msgid "Facet filter"
+msgstr "ファセットフィルター"
+
+#: ../../user-manual/glossary/glossary.rst:655
+msgid ""
+"In information science, a facet is a clearly defined component (based on a "
+"particular concept group, characteristic or aspect) of a class or subject. "
+"Facets are used in a system of faceted classification, which \"*allows the "
+"assignment of an object to multiple characteristics (attributes), enabling "
+"the classification to be ordered in multiple ways, rather than in a single, "
+"predetermined, taxonomic order.*\" (`Wikipedia "
+"<http://en.wikipedia.org/wiki/Faceted_classification>`__)."
+msgstr ""
+"情報科学において、ファセットとは、明確に定義された成分（特定の概念群、特性、または側面に基づく）であり、クラスや主題の一部を構成します。ファセットは、ファセット分類の体系で使用され、それは「*オブジェクトを複数の特性（属性）に割り当てることを可能にし、分類を単一の予め決められた分類学的順序ではなく、複数の方法で順序付けすることができます。*」（`Wikipedia"
+" <http://en.wikipedia.org/wiki/Faceted_classification>`__）。"
+
+#: ../../user-manual/glossary/glossary.rst:663
+msgid ""
+"Facets are made up of clearly defined, often mutually exclusive categories "
+"drawn from the properties of a group of information elements. When applied "
+"as filters, facets allow a user to access and order query (search or browse)"
+" results in multiple ways dynamically."
+msgstr ""
+"ファセットは、情報要素のグループから引き出された明確に定義された、しばしば相互に排他的なカテゴリーで構成されます。フィルタとして適用されると、ファセットはユーザーが動的に複数の方法でクエリ（検索またはブラウズ）の結果にアクセスし、それを整理することを可能にします。"
+
+#: ../../user-manual/glossary/glossary.rst:668
+msgid ""
+"In AtoM, facet filters are available to users on search and browse pages as "
+"a means of grouping and narrowing results. They are drawn from available "
+":term:`fields <field>` within the :ref:`entity type <entity-types>` being "
+"browsed or searched. For further information and usage, see: "
+":ref:`recurring-facet-filters` and :ref:`settings`. See also: :ref:`Browse "
+"<browse>`, :ref:`search-atom`, and :ref:`Navigate <navigate>`."
+msgstr ""
+"AtoMでは、検索およびブラウズページにおいて、結果をグルーピングし絞り込む手段として、ファセットフィルタがユーザーに提供されています。これらは、ブラウズまたは検索されている:ref:`エンティティタイプ"
+" <entity-types>`内の利用可能な:term:`フィールド "
+"<field>`から取り出されます。さらなる情報と使用方法については、:ref:`recurring-facet-"
+"filters`および:ref:`settings`を参照してください。また、:ref:`ブラウズ <browse>`、:ref:`search-"
+"atom`、:ref:`ナビゲート <navigate>`も参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:674
+msgid "Facets title"
+msgstr "ファセット タイトル"
+
+#: ../../user-manual/glossary/glossary.rst:677
+msgid ""
+"The facets title is the text that appear above the list of :term:`facet "
+"filter` headings and results. By default, the text appears as \"Narrow your "
+"results by:\". For further information and usage, see: :ref:`recurring-"
+"facet-filters` and :ref:`settings`. See also: :ref:`Browse <browse>`, "
+":ref:`search-atom`, and :ref:`Navigate <navigate>`."
+msgstr ""
+"ファセットタイトルとは、リストの上に表示される:term:`facet "
+"filter`の見出しと結果のテキストのことを指します。デフォルトでは、このテキストは「結果を絞り込む:」として表示されます。詳細情報と使用方法については、:ref:`recurring-"
+"facet-filters`や:ref:`settings`を参照してください。また、:ref:`Browse "
+"<browse>`、:ref:`search-atom`、:ref:`Navigate <navigate>`も参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:682
+msgid "Field"
+msgstr "分野"
+
+#: ../../user-manual/glossary/glossary.rst:684
+#, python-format
+msgid ""
+"A field is a container for a :term:`data element`. Content is added to or "
+"modified in fields in :term:`edit pages <edit page>`. For further "
+"information, see the Wikipedia entry for `Field "
+"<https://en.wikipedia.org/wiki/Field_%28computer_science%29>`_."
+msgstr ""
+"フィールドは:term:`データ要素`を格納する容器です。コンテンツは:term:`編集ページ<edit "
+"page>`でフィールドに追加されたり変更されたりします。詳細については、ウィキペディアの `フィールド "
+"<https://en.wikipedia.org/wiki/Field_%28computer_science%29>`_ の項目をご覧ください。"
+
+#: ../../user-manual/glossary/glossary.rst:688
+msgid "Field label"
+msgstr "フィールドラベル"
+
+#: ../../user-manual/glossary/glossary.rst:690
+msgid ""
+"Field labels identify :term:`fields <field>` in :term:`view pages <view "
+"page>` and :term:`edit pages <edit page>`. In AtoM, the :term:`Administrator"
+" <administrator>` can select certain field labels and hide them from public "
+"(unauthorized Users) views. See :ref:`visible-elements`."
+msgstr ""
+"フィールドラベルは、:term:`ビューページ<view page>`や:term:`編集ページ<edit "
+"page>`内の:term:`フィールド<field>`を識別します。AtoMでは、:term:`管理者<administrator>`は特定のフィールドラベルを選択し、一般（権限のないユーザー）のビューから隠すことができます。詳細は:ref:`visible-"
+"elements`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:695
+msgid "Filter tag"
+msgstr "フィルタータグ"
+
+#: ../../user-manual/glossary/glossary.rst:697
+msgid ""
+"A filter tag appears at the top of a search or browse results page when a "
+"user arrives there with a search already delimited to a particular "
+":term:`collection`, :term:`archival institution`, or other aspect of the "
+"results (for example, showing only :term:`digital objects <digital "
+"object>`). Displayed as a white tag with orange text indicating the filter "
+"being applied (for example, the name of a :term:`repository` to which search"
+" or browse results have been limited), the filter tag also includes a grey "
+"\"**X**\" that, when clicked by a user, will remove the filter and reload "
+"the page to display global search results (i.e. results from throughout all "
+":term:`holdings` in the application)."
+msgstr ""
+"検索または閲覧結果ページの上部に表示されるフィルタータグは、ユーザーが特定の:term:`コレクション`、:term:`アーカイブ機関`、あるいは結果の他の側面（例えば、:term:`デジタルオブジェクト<digital"
+" "
+"object>`のみを表示するなど）への検索をすでに絞り込んだ状態でそこに到着したときに現れます。このフィルタータグは、白いタグに適用されているフィルターを示すオレンジ色のテキスト（例えば、検索または閲覧結果が限定されている:term:`リポジトリ`の名前など）で表示され、灰色の「**X**」が含まれています。ユーザーがこれをクリックすると、フィルターが削除され、ページが再読み込みされてアプリケーション内のすべての:term:`所蔵品`からのグローバル検索結果が表示されます。"
+
+#: ../../user-manual/glossary/glossary.rst:708
+msgid ""
+"The most common uses of filter tags in AtoM are: **1)** When a user clicks "
+"the \"Show results with digital objects\" option provided at the top of "
+":term:`archival description` search/browse pages, the page will reload with "
+"a filter tag in place reading, \"Only digital objects.\" **2)** When a user "
+"performs a search in the :term:`search box` using the :ref:`search-box-"
+"delimiters`, a search results page with a filter tag for that institution "
+"will appear (limiting results to the :term:`holdings` of the related "
+":term:`repository`). **3)** When a user visits an :term:`archival "
+"institution` page, and clicks the \"Browse # holdings\" option below the "
+"list of the institution's :term:`holdings` in the left-hand :term:`context "
+"menu`, a browse results page with a filter tag for that institution will "
+"appear. **4)** When a user performs a :ref:`quick search <treeview-search>` "
+"on an :term:`archival description` using the :term:`treeview` search tab, an"
+" option to \"Browse all descriptions\" is presented. If the user clicks the "
+"option, AtoM will redirect the user to a browse page with a filter tag in "
+"place limiting the results to the current :term:`fonds` or "
+":term:`collection`. In all cases, clicking the \"**X**\" will remove the "
+"filter tag and reload the search results correspondingly."
+msgstr ""
+"AtoMでのフィルタータグの最も一般的な使用例は以下のとおりです。\n"
+"\n"
+"**1)** ユーザーがアーカイブ記述の検索/閲覧ページの上部に提供されている「デジタルオブジェクトを表示」オプションをクリックすると、ページがリロードされ、「デジタルオブジェクトのみ」というフィルタータグが表示されます。\n"
+"\n"
+"**2)** ユーザーが検索ボックスで検索区切り文字を使用して検索を行うと、その機関に対するフィルタータグを含む検索結果ページが表示されます（結果は関連するリポジトリの所蔵資料に限定されます）。\n"
+"\n"
+"**3)** ユーザーがアーカイバル機関のページを訪れ、左側のコンテキストメニュー内で機関の所蔵資料リストの下にある「#所蔵を閲覧」オプションをクリックすると、その機関のフィルタータグ付きの閲覧結果ページが表示されます。\n"
+"\n"
+"**4)** ユーザーがツリービューの検索タブを使用してアーカイバル記述のクイック検索を実行すると、「すべての記述を閲覧」するオプションが提示されます。ユーザーがそのオプションをクリックすると、AtoMはユーザーをフィルタータグが適用された閲覧ページにリダイレクトし、結果は現在のフォンドまたはコレクションに限定されます。\n"
+"\n"
+"すべての場合において、「**X**」をクリックするとフィルタータグが削除され、それに応じて検索結果がリロードされます。"
+
+#: ../../user-manual/glossary/glossary.rst:727
+msgid ""
+"See: :ref:`search-atom`; see particularly :ref:`search-box-delimiters` for a"
+" screenshot and example application of the filter tags."
+msgstr ""
+"参照: :ref:`search-atom`; 特にフィルタータグのスクリーンショットと例の応用については :ref:`search-box-"
+"delimiters` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:729
+msgid "Finding aid"
+msgstr "ファインディング・エイド"
+
+#: ../../user-manual/glossary/glossary.rst:731
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org/>`__) "
+"defines a finding aid as \"The broadest term to cover any description or "
+"means of reference made or received by an archives service in the course of "
+"establishing administrative or intellectual control over archival material\""
+" (ISAD Glossary)"
+msgstr ""
+"国際アーカイブズ評議会（`ICA "
+"<http://www.ica.org/>`__）は、検索支援ツールについて「アーカイブサービスによってアーカイブ資料の管理的もしくは知的統制を行う過程で作成または受け取られる、あらゆる種類の記述や参照手段を総称する最も広い用語」と定義しています（ISAD用語集）。"
+
+#: ../../user-manual/glossary/glossary.rst:737
+msgid ""
+"The finding aid is a tool for discovering information about the "
+":term:`fonds` or :term:`collection`. In AtoM, the entirety of an archival "
+"description (including all :term:`child records <child record>` and the "
+":term:`parent record` can be understood as an online finding aid, used for "
+"discovery and access. The View archival description screen can also be "
+"printed and saved as a Finding Aid in `pdf "
+"<http://en.wikipedia.org/wiki/Portable_Document_Format>`_."
+msgstr ""
+"調査支援ツールは、:term:`fonds`や:term:`collection`に関する情報を発見するためのツールです。AtoMでは、書庫的説明の全体（全ての:term:`子レコード"
+" <child "
+"record>`と:term:`親レコード`を含む）がオンライン調査支援ツールとして理解され、発見とアクセスのために使用されます。書庫的説明の表示画面からは、調査支援ツールを`pdf"
+" "
+"<http://en.wikipedia.org/wiki/Portable_Document_Format>`_として印刷および保存することもできます。"
+
+#: ../../user-manual/glossary/glossary.rst:744
+msgid "Fonds"
+msgstr "フォンド"
+
+#: ../../user-manual/glossary/glossary.rst:746
+msgid ""
+"Fonds is an :term:`archival unit` defined as \"The whole of the records, "
+"regardless of form or medium, organically created and/or accumulated and "
+"used by a particular person, family, or :term:`corporate body` in the course"
+" of that :term:`creator's <creator>` activities and :term:`functions "
+"<function>`.\" (ISAD glossary)."
+msgstr ""
+"フォンズとは、「特定の個人、家族、または企業体が行う活動や機能の過程で有機的に作成されたり蓄積されたりした、形態や媒体に関わらず、その全ての記録のこと」(ISAD用語集)と定義される「アーカイブ単位」です。"
+
+#: ../../user-manual/glossary/glossary.rst:753
+msgid ""
+"In AtoM, the fonds is by default the highest :term:`level of description`. "
+"This default can be changed by :term:`administrators <administrator>` (see "
+":ref:`User interface labels <user-interface-labels>`)."
+msgstr ""
+"AtoMでは、標準設定として「フォンズ」が最高の「記述レベル」となっています。このデフォルト設定は「管理者」によって変更することができます（「ユーザインターフェースラベル」参照）。"
+
+#: ../../user-manual/glossary/glossary.rst:757
+msgid "Function"
+msgstr "機能"
+
+#: ../../user-manual/glossary/glossary.rst:759
+msgid ""
+"A function is a type of entity that describes activities linked to records "
+"creation, maintenance and use. The International Council on Archives (`ICA "
+"<http://www.ica.org/>`__) defines a function as \"Any high level purpose, "
+"responsibility or task assigned to the accountability agenda of a corporate "
+"body by legislation, policy or mandate. Functions may be decomposed into "
+"sets of co-ordinated operations such as subfunctions, business processes, "
+"activities, tasks or transactions\" (ISDF Glossary)."
+msgstr ""
+"機能とは、記録の作成、維持及び使用に関連する活動を記述するエンティティの一種を指します。国際アーカイブズ評議会（`ICA "
+"<http://www.ica.org/>`__）は、機能を「法律、方針、または命令により企業団体の責任範囲に割り当てられた、あらゆる高水準の目的、責任、またはタスクとして定義しています。機能は、サブファンクション、ビジネスプロセス、活動、タスク、またはトランザクションなどの調整された操作のセットに細分化される場合があります」（ISDF用語集）。"
+
+#: ../../user-manual/glossary/glossary.rst:768
+msgid ""
+"Functions in AtoM are linked to :term:`archival descriptions <archival "
+"description>`, :term:`authority records <authority record>` and other "
+"functions. In AtoM the :term:`fields <field>` for describing functions are "
+"taken from the ICA's International Standard for Describing Functions (ISDF)."
+" See :doc:`Entity types <../overview/entity-types>` and :ref:`functions`."
+msgstr ""
+"AtoMにおける機能は、:term:`アーカイブ記述<archival description>`、:term:`権限記録<authority "
+"record>`、その他の機能にリンクされています。AtoMにおける機能の記述に使われる:term:`フィールド<field>`は、ICAの国際標準機能記述"
+" (ISDF) から取られています。:doc:`エンティティタイプに関して<../overview/entity-types>` と :ref:`機能`"
+" を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:774
+msgid "Group profile"
+msgstr "グループプロファイル"
+
+#: ../../user-manual/glossary/glossary.rst:776
+msgid ""
+"A \"Group\" profile is information about a user group in AtoM. The following"
+" 4 :term:`user roles <user role>` are established as default \"Groups\" in "
+"AtoM and each contain their own Group profile: :term:`Administrator`; "
+":term:`Editor`; :term:`Contributor`; and :term:`Translator` (see: "
+":ref:`user-roles`). Additional Group profiles can also be created and "
+"maintained by authenticated (i.e. logged-in) :term:`administrators "
+"<administrator>`. See: :ref:`manage-user-accounts`."
+msgstr ""
+"「グループ」プロファイルは、AtoMのユーザーグループに関する情報です。以下の4つの:term:`ユーザーロール<user "
+"role>`がAtoMのデフォルトの「グループ」として設定され、それぞれ独自のグループプロファイルを含んでいます：:term:`管理者`; "
+":term:`エディター`; :term:`寄稿者`; :term:`翻訳者`（参照：:ref:`user-"
+"roles`）。追加のグループプロファイルも、認証された（つまりログインしている）:term:`管理者<administrator>`によって作成および維持されることができます。参照：:ref:`manage-"
+"user-accounts`。"
+
+#: ../../user-manual/glossary/glossary.rst:783
+msgid "Header bar"
+msgstr "ヘッダーバー"
+
+#: ../../user-manual/glossary/glossary.rst:785
+msgid ""
+"The header bar is the navigational tool at the top of all pages in AtoM. It "
+"includes the :term:`search box`, :term:`browse menu`, and :term:`site logo` "
+"for all users, and the :term:`main menu` for authenticated (i.e. logged in) "
+"users. See: :ref:`atom-header-bar`."
+msgstr ""
+"ヘッダーバーは、AtoMの全ページの上部にあるナビゲーションツールです。これには、すべてのユーザー向けに`:term:`検索ボックス`、:term:`ブラウズメニュー`、および:term:`サイトロゴ`が含まれており、認証された（つまりログインしている）ユーザー向けには:term:`メインメニュー`が含まれています。参照：:ref:`atom-"
+"header-bar`。"
+
+#: ../../user-manual/glossary/glossary.rst:790
+msgid "Hex color code"
+msgstr "Hex color code を日本語で「16進数カラーコード」と言います。"
+
+#: ../../user-manual/glossary/glossary.rst:792
+msgid ""
+"A hexidecimal color code is a method of expressing web based colors using "
+"hexidecimal notation. Hexidecimal notatation is a positional numerical "
+"system that uses a base of 16 distinct symbols (0-9 to represent values zero"
+" to nine, A-F to represent values ten to fifteen) to represent binary "
+"notation in a more human-readable manner. In a hex color code, 6 consecutive"
+" symbols (a hex triplet) are used to represent the red, green, and blue "
+"(RGB) components of a color - the first 2 symbols represent the red value, "
+"the next two (3 and 4) represent the green value, and the last two (5 and 6)"
+" represent the blue value. Each hex triplet has a value range between 00 and"
+" FF, and when added together, a hex color code can represent a total of "
+"16,777,216 colors. For example, pure black is represented in hex color code "
+"as 00 00 00 or `#000000`, while pure white is represented as FF FF FF or "
+"`#ffffff`. Hex color codes are often used in HTML, CSS, SVG, and other "
+"computing applications to represent web colors. In AtoM, a user can enter a "
+"hex color code when choosing a background color for an :term:`archival "
+"institution`. See: :ref:`change-institution-background`."
+msgstr ""
+"16進数カラーコードは、16進記法を用いてウェブベースの色を表現する方法です。16進記法は、位置数詞法の一種であり、基数として16個の異なる記号（0-9はゼロから九の値を表し、A-Fは十から十五の値を表します）を使用して、バイナリの表記を人間が読みやすい形で表すシステムです。16進カラーコードでは、6つの連続した記号（16進トリプレット）を使用して、色の赤、緑、青（RGB）成分をそれぞれ表します"
+" - "
+"最初の2つの記号が赤の値を、次の二つ（3と4番目）が緑の値を、最後の二つ（5と6番目）が青の値を表しています。各16進トリプレットの値の範囲は00からFFまでで、合わせて16進カラーコードは合計で16,777,216色を表現することができます。例えば、純黒は16進カラーコードで00"
+" 00 00あるいは`#000000`と表され、純白はFF FF "
+"FFまたは`#ffffff`と表されます。16進カラーコードは、HTML、CSS、SVG、その他のコンピューティングアプリケーションでウェブカラーを表現するためによく使用されます。AtoMでは、ユーザーが`:term:`archival"
+" institution`の背景色を選択するときに16進カラーコードを入力することができます。参照：`:ref:`change-institution-"
+"background`。"
+
+#: ../../user-manual/glossary/glossary.rst:809
+msgid "Hierarchy browser"
+msgstr "階層ブラウザ"
+
+#: ../../user-manual/glossary/glossary.rst:811
+msgid ""
+"The hierarchy browser is a :term:`user interface` element that can be "
+"enabled or disabled by an :term:`administrator` via the :term:`treeview` "
+"settings page. When enabled, it provides users with a full-width treeview of"
+" all of AtoM's :term:`archival description` :term:`holdings`. Users can "
+"expand and collapse individual nodes to explore the hierarchical arrangement"
+" of a specific :term:`archival unit`; however, clicking any node in the "
+"hierarchy browser will redirect the user to the related description's "
+":term:`view page`. See: :ref:`browse-hierarchy-browser` and :ref:`treeview-"
+"settings`."
+msgstr ""
+"階層ブラウザは、管理者がツリービュー設定ページを通じて有効化または無効化できるユーザーインターフェイスの要素です。有効にすると、ユーザーはAtoMのアーカイブ記述保持物の全幅のツリービューを利用できます。ユーザーは、個々のノードを展開または折りたたむことで、特定のアーカイブ単位の階層的な配置を探索することができます。しかし、階層ブラウザのどのノードをクリックしても、ユーザーは関連する記述の閲覧ページにリダイレクトされます。参照：「browse-"
+"hierarchy-browser」と「treeview-settings」。"
+
+#: ../../user-manual/glossary/glossary.rst:820
+msgid "Holdings"
+msgstr "ホールディングス"
+
+#: ../../user-manual/glossary/glossary.rst:822
+msgid ""
+"Holdings is a generic term referring to the :term:`records <record>` and "
+"other materials held by :term:`archival institutions <archival "
+"institution>`. In AtoM a list of holdings is displayed in the :term:`context"
+" menu` on :term:`archival institution` :term:`view pages <view page>`. The "
+"list is generated from the titles of :term:`archival descriptions <archival "
+"description>` that have the :term:`archival institution` selected as a "
+":term:`repository`. See :ref:`context-menu`, :ref:`archival-institutions` "
+"and :ref:`browse-holdings`."
+msgstr ""
+"保管資料は、:term:`アーカイブ機関<archival "
+"institution>`が保持している:term:`記録<record>`やその他の資料を指す一般的な用語です。AtoMでは、保管資料のリストが:term:`アーカイブ機関`の:term:`表示ページ<view"
+" "
+"page>`における:term:`コンテキストメニュー`で表示されます。このリストは、:term:`リポジトリ`として該当する:term:`アーカイブ機関`が選ばれている:term:`アーカイブ記述<archival"
+" description>`のタイトルから生成されます。詳しくは:ref:`context-menu`、:ref:`archival-"
+"institutions`、:ref:`browse-holdings`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:830
+msgid "Home page"
+msgstr "ホームページ"
+
+#: ../../user-manual/glossary/glossary.rst:832
+msgid ""
+"The home page is the first page the user sees when opening the AtoM "
+"application. It can also be accessed by clicking the site logo. The content "
+"of the home page can be edited by :term:`administrators <administrator>` "
+"(see :ref:`home-page` and :ref:`manage-static-pages`)."
+msgstr ""
+"ホームページは、AtoMアプリケーションを開いたときにユーザーが最初に見るページです。サイトロゴをクリックすることでもアクセスできます。ホームページの内容は`:term:`管理者<administrator>`（`:ref:`home-"
+"page`と`:ref:`manage-static-pages`を参照）によって編集することができます。"
+
+#: ../../user-manual/glossary/glossary.rst:836
+msgid "Information area"
+msgstr "情報エリア"
+
+#: ../../user-manual/glossary/glossary.rst:838
+msgid ""
+"Information areas appear on :term:`view pages <view page>` and :term:`edit "
+"pages <edit page>` of any standards-based description template in AtoM, and "
+"group related :term:`fields <field>` based on the organization of elements "
+"of description in `ICA <http://www.ica.org/>`__ (or other supported) "
+"descriptive standards. They are comprised of a number of :term:`fields "
+"<field>` in the body of the information area, and an :term:`area header`, "
+"whose name is drawn from the related area or section of the standard upon "
+"which the descriptive template is based."
+msgstr ""
+"次のテキストを日本語に翻訳してください。\n"
+"\n"
+"AtoMの任意の標準ベースの記述テンプレートの「表示ページ(view pages)」および「編集ページ(edit pages)」には情報エリアが表示され、ICA (国際アーカイブ評議会)（またはその他のサポートされている）記述標準の要素の組織に基づいて関連する「フィールド(fields)」がグループ化されます。これらは情報エリアの本体内に数個の「フィールド(fields)」と、記述テンプレートの基礎となっている標準の関連エリアまたはセクションから名前を取っている「エリアヘッダ(area header)」で構成されています。"
+
+#: ../../user-manual/glossary/glossary.rst:847
+msgid ""
+"Clicking on the :term:`area header` of an information area toggles it "
+"between closed (all fields in that area hidden) and open (all fields "
+"visible) when in :term:`edit mode`; in :term:`view mode`, clicking on an "
+":term:`area header` will result in opening the related information area in "
+":term:`edit mode` (if the user is logged in and has sufficient :term:`access"
+" privileges <access privilege>` to edit a record). For more information and "
+"a screenshot, see: :ref:`recurring-information-areas`."
+msgstr ""
+"情報エリアの`:term:`エリアヘッダー``をクリックすると、:term:`編集モード`時にはそのエリアが閉じた状態（そのエリアの全てのフィールドが非表示）と開いた状態（全てのフィールドが表示）を切り替えることができます。:term:`表示モード`では、:term:`エリアヘッダー`をクリックすると関連する情報エリアが:term:`編集モード`で開きます（ユーザーがログインしており、レコードの編集が許可される:term:`アクセス権限<access"
+" privilege>`を持っている場合）。詳細とスクリーンショットについては、:ref:`recurring-information-"
+"areas`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:854
+msgid "Information object"
+msgstr "情報オブジェクト"
+
+#: ../../user-manual/glossary/glossary.rst:856
+msgid ""
+"An information object is another term for an :term:`archival description` "
+"that can be more broadly applied to any description of a resource, not "
+"necessarily archival in origin."
+msgstr ""
+"情報オブジェクトは、必ずしもアーカイブ起源のものではないリソースの記述にも広く適応できるため、`:term:`アーカイブ記述`の別の用語である。"
+
+#: ../../user-manual/glossary/glossary.rst:859
+msgid "Institution block"
+msgstr "機関ブロック"
+
+#: ../../user-manual/glossary/glossary.rst:861
+msgid ""
+"An element of the Institutional scoping setting (found in **Admin > Settings"
+" > Global**), this :term:`user interface` element comprises of a "
+":term:`repository` logo, dedicated search box, and dedicated browse menu "
+"that will return search or browse pages related to the :term:`holdings` of a"
+" particular institution. When enabled, the institution block appears on the "
+":term:`view page` of a repository, as well as any search or browse page that"
+" has been filtered (i.e. \"scoped\") to a particular :term:`archival "
+"institution`. For more information, see: :ref:`enable-scoping`."
+msgstr ""
+"機関向けスコーピング設定の要素であり（**管理 > 設定 > "
+"グローバル**で見つかる）、この:term:`ユーザーインターフェース`要素は、:term:`リポジトリ`のロゴ、専用の検索ボックス、および特定の機関の:term:`所蔵品`に関連した検索結果やブラウズページを返す専用のブラウズメニューで構成されています。有効にすると、機関ブロックはリポジトリの:term:`閲覧ページ`や、特定の:term:`アーカイブ機関`に（つまり「スコープされた」）フィルターされた任意の検索やブラウズページに表示されます。詳しくは、:ref:`enable-"
+"scoping`をご覧ください。"
+
+#: ../../user-manual/glossary/glossary.rst:869
+msgid "Job"
+msgstr "仕事"
+
+#: ../../user-manual/glossary/glossary.rst:871
+msgid ""
+"In AtoM, a job refers to a set of operations requested by a user that are "
+"performed asynchronously in the background, rather than via the web browser,"
+" to guarantee that web requests are handled promptly and work loads can be "
+"distributed across multiple machines. This ensures time and/or resource-"
+"intensive tasks do not timeout when running via the web browser. Example "
+"asynchronous jobs in AtoM include generating finding aids, managing PREMIS "
+"rights inheritance, and uploading DIPs from `Archivematica "
+"<https://www.archivematica.org>`__. Jobs in AtoM are handled by `Gearman "
+"<http://gearman.org>`__, and the status of AtoM jobs can be seen in the "
+":term:`user interface` via the **Manage > Jobs** page. For more information,"
+" see: :ref:`manage-jobs` and :ref:`maintenance-asynchronous-jobs`."
+msgstr ""
+"AtoMでは、ジョブとはユーザーによって要求された一連の操作であり、Webブラウザを介さずにバックグラウンドで非同期に実行され、Webリクエストが迅速に処理され、作業負荷を複数のマシンに分散できるようにするものです。これにより、Webブラウザを介して実行する際に、時間および/またはリソース集約型のタスクがタイムアウトしないことを保証します。AtoMにおける非同期ジョブの例としては、検索補助ツールの生成、PREMIS権利継承の管理、`Archivematica"
+" <https://www.archivematica.org>`__ からのDIPsのアップロードなどがあります。AtoM内のジョブは "
+"`Gearman <http://gearman.org>`__ によって処理され、AtoMジョブの状態は **管理 > ジョブ** ページを通じて "
+":term:`ユーザーインターフェイス` で確認することができます。詳細については、:ref:`manage-jobs` および "
+":ref:`maintenance-asynchronous-jobs` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:882
+msgid "Language menu"
+msgstr "言語メニュー"
+
+#: ../../user-manual/glossary/glossary.rst:884
+msgid ""
+"The language menu, located in the top-right corner of the page, allows the "
+"user to switch to any of the :term:`supported languages <supported "
+"language>` in AtoM. See :ref:`Choose language <choose-language>`; see also "
+":ref:`Default language <default-language>` and :ref:`Add/remove languages "
+"<add-remove-languages>` ."
+msgstr ""
+"ページの右上隅にある言語メニューを使うと、ユーザーはAtoMでサポートされている任意の「対応言語」に切り替えることが可能です。「言語の選択」を参照してください。また、「デフォルト言語」と「言語の追加・削除」も参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:889
+msgid "Level of description"
+msgstr "記述のレベル"
+
+#: ../../user-manual/glossary/glossary.rst:891
+msgid ""
+"The level of description is \"the position of the unit of description in the"
+" hierarchy of the :term:`fonds`\" (ISAD glossary). In AtoM, the level of "
+"description is selected from a :term:`value list` in the :term:`edit page` "
+"of an :term:`archival description`. See: :ref:`data-entry`. Level of "
+"description values are maintained as :term:`terms <term>` in a "
+":term:`taxonomy` - AtoM ships with a number of common archival default "
+"values, but these can be edited or deleted, and new values can be added by "
+"authorized users. See: :ref:`terms`."
+msgstr ""
+"説明レベルとは、「フォンズ（:term:`fonds`）の階層における記述単位の位置」(ISAD用語集)を意味します。AtoMでは、説明レベルは、アーカイブ記述の:term:`編集ページ`にある:term:`値リスト`から選択されます。参照：:ref:`data-"
+"entry`。説明レベルの値は、:term:`用語<term>`として:term:`分類法`に保持されます。AtoMは一般的なアーカイブのデフォルト値をいくつか持っていますが、これらは編集または削除されることがありますし、承認されたユーザーによって新しい値を追加することができます。参照：:ref:`terms`。"
+
+#: ../../user-manual/glossary/glossary.rst:899
+msgid "Main menu"
+msgstr "メインメニュー"
+
+#: ../../user-manual/glossary/glossary.rst:901
+msgid ""
+"The main menu is the the navigational tool located at the top of all pages "
+"for authenticated  (logged in) users, as part of the :term:`header bar`. It "
+"allows the user to navigate to all the main areas of AtoM. See: :ref:`main-"
+"menu`"
+msgstr ""
+"メインメニューは認証済み（ログインした）ユーザー向けにすべてのページの上部に配置されているナビゲーションツールであり、:term:`ヘッダーバー` "
+"の一部です。これにより、ユーザーはAtoMのすべての主要エリアに移動することができます。詳細は :ref:`main-menu` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:905
+msgid "Master digital object"
+msgstr "マスターデジタルオブジェクト"
+
+#: ../../user-manual/glossary/glossary.rst:907
+msgid ""
+"The master digital object is the unaltered version of a :term:`digital "
+"object` that has been uploaded to AtoM. AtoM automatically generates a "
+":term:`thumbnail` and a :term:`reference display copy` of the object. Only "
+"authenticated users may view master digital objects. See :ref:`upload-"
+"digital-object`."
+msgstr ""
+"マスターデジタルオブジェクトとは、AtoMにアップロードされた変更されていない:term:`デジタルオブジェクト`のバージョンです。AtoMは自動的にそのオブジェクトの:term:`サムネイル`と:term:`リファレンス表示用コピー`を生成します。マスターデジタルオブジェクトは認証されたユーザーのみが閲覧可能です。詳しくは:ref:`upload-"
+"digital-object`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:912
+msgid "Media type"
+msgstr "メディアタイプ"
+
+#: ../../user-manual/glossary/glossary.rst:914
+msgid ""
+"Media type refers to the format of uploaded :term:`digital objects <digital "
+"object>`. The media type is selected automatically by AtoM when a "
+":term:`digital object` is uploaded and the :term:`thumbnail` and "
+":term:`reference display copies <reference display copy>` of the object are "
+"generated. See :ref:`upload-digital-object`."
+msgstr ""
+"メディアタイプとは、アップロードされた:term:`デジタルオブジェクト`の形式を指します。メディアタイプは、:term:`デジタルオブジェクト`がアップロードされ、そのオブジェクトの:term:`サムネイル`と:term:`参照表示コピー<reference"
+" display copy>`が生成される際に、AtoMによって自動的に選択されます。詳細は:ref:`upload-digital-"
+"object`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:922
+msgid ""
+"Media type terms are controlled by the media type :term:`taxonomy`. AtoM "
+"ships with five :term:`terms <term>` (audio, image, text, video, other) that"
+" are locked; these cannot be edited or deleted because they are referenced "
+"by AtoM's code. :term:`Editors <editor>` and :term:`administrators "
+"<administrator>` can add new :term:`media type` terms, but unless "
+":term:`developers <developer>` incorporate these into the code, the system "
+"will not be able to do anything with them."
+msgstr ""
+"メディアタイプの用語はメディアタイプの「分類法（タクソノミー）」によって管理されています。AtoMは、オーディオ、イメージ、テキスト、ビデオ、その他の5つの「用語」を出荷時に含んでおり、これらは固定されています。それらはAtoMのコードによって参照されているため、編集や削除はできません。「編集者」と「管理者」は新しい「メディアタイプ」の用語を追加することができますが、「開発者」がこれらをコードに組み込まない限り、システムはそれらを処理することはできません。"
+
+#: ../../user-manual/glossary/glossary.rst:930
+msgid "Multi-repository system"
+msgstr "マルチリポジトリシステム"
+
+#: ../../user-manual/glossary/glossary.rst:932
+msgid ""
+"A multi-repository system exists when a single instance of AtoM is used by a"
+" :term:`network` of :term:`archival institutions <archival institution>` or "
+"other types of :term:`repositories <repository>`."
+msgstr ""
+"複数のリポジトリシステムとは、単一のAtoMインスタンスが、アーカイブ機関やその他の種類のリポジトリのネットワークによって使用されている状態のことです。"
+
+#: ../../user-manual/glossary/glossary.rst:935
+msgid "Multi-value field"
+msgstr "マルチバリュー フィールド"
+
+#: ../../user-manual/glossary/glossary.rst:937
+msgid ""
+"A multi-value field is a :term:`field` that is structured to contain more "
+"than one data entry."
+msgstr "マルチバリューフィールドは、複数のデータエントリを含むように構造化された:term:`フィールド`です。"
+
+#: ../../user-manual/glossary/glossary.rst:939
+msgid "Name"
+msgstr "名前"
+
+#: ../../user-manual/glossary/glossary.rst:941
+msgid ""
+"In AtoM, names are registered in :term:`authority records <authority "
+"record>` for :term:`corporate bodies <corporate body>`, persons, and "
+"families who interact with archival materials as e.g. :term:`creators "
+"<creator>`, custodians and publishers. Names can be applied as :term:`access"
+" points <access point>` to :term:`archival descriptions <archival "
+"description>`. See :ref:`terms`; see also :ref:`authority-records` and "
+":ref:`term-name-vs-subject`."
+msgstr ""
+"AtoMでは、アーカイブ資料として、たとえば：term:`creator`（作成者）、保管者、出版者などとやり取りする`corporate "
+"bodies`（法人体）、個人、家族の名前は`authority record`（権威記録）に登録されます。名前は`archival "
+"description`（アーカイブ記述）に`access "
+"point`（アクセスポイント）として適用できます。`terms`（用語）を参照してください。また、`authority-"
+"records`（権威記録）と`term-name-vs-subject`（用語名対主題）についても参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:948
+msgid "Network"
+msgstr "ネットワーク"
+
+#: ../../user-manual/glossary/glossary.rst:950
+msgid ""
+"A network is an aggregation of institutions using one instance of AtoM to "
+"produce a union list of archival holdings (a :term:`multi-repository "
+"system`)."
+msgstr ""
+"ネットワークとは、アーカイブ収蔵品の統合リスト（「多機関システム」という用語）を作成するために、一つのAtoMインスタンスを利用する機関の集合です。"
+
+#: ../../user-manual/glossary/glossary.rst:953
+msgid "Parent record"
+msgstr "親レコード"
+
+#: ../../user-manual/glossary/glossary.rst:955
+msgid ""
+"The parent record refers to the description of the :term:`archival unit` "
+"that is one :term:`level of description` higher than the current unit. For "
+"example, a :term:`fonds` may be the parent record of a series. A parent "
+"record may have multiple :term:`child records <child record>`. :term:`Terms "
+"<term>` can also be organized hierarchically (with parent-child "
+"relationships) in a :term:`taxonomy`, and expressed as broader or narrower "
+"terms. A broader term would be the parent of its narrower child terms. See "
+"also: :term:`Child record`."
+msgstr ""
+"親レコードは、現在の単位よりも一つ上の：用語：`記述レベル`の：用語：`アーカイブ単位`の説明を指します。例えば、：用語：`全体記録（fonds）`がシリーズの親レコードになる場合があります。親レコードには複数の：用語：`子レコード<child"
+" "
+"record>`を持つことができます。：用語：`用語<term>`も階層的に（親子関係で）：用語：`分類体系`内で組織され、より広範な用語やより狭範な用語として表現されることがあります。より広範な用語は、より狭範な子用語の親になります。参照：：用語：`子レコード`。"
+
+#: ../../user-manual/glossary/glossary.rst:963
+msgid "Password"
+msgstr "パスワード"
+
+#: ../../user-manual/glossary/glossary.rst:965
+msgid ""
+"A password is a case-sensitive, unspaced string of characters (alpha- "
+"numeric and/or special characters) associated with a :term:`user account` "
+"and intended to be kept private, to provide a user with a secure means of "
+"logging into the AtoM application. Passwords are required by every user of "
+"the system who needs to be able to add, edit, delete, or translate content. "
+"The initial passwords are set by the system :term:`administrator` (see "
+":ref:`manage-user-accounts`) and can subsequently be changed by the user "
+"(see :ref:`change-password`). System administrators can also change user "
+"passwords via the command-line - see: :ref:`cli-change-password`."
+msgstr ""
+"パスワードとは、大文字小文字を区別する、空白のない文字列（英数字および/または特殊文字）であり、:term:`user "
+"account`（ユーザーアカウント）に関連付けられ、プライベートに保たれることが意図されています。これにより、ユーザーはAtoMアプリケーションへのログインを安全に行う手段を提供されます。パスワードは、内容を追加、編集、削除、または翻訳する必要があるシステムの全てのユーザーによって必要とされています。初期パスワードはシステム:term:`administrator`（管理者）によって設定されます（参照：:ref:`manage-"
+"user-accounts`）し、その後ユーザー自身によって変更することができます（参照：:ref:`change-"
+"password`）。システム管理者は、コマンドラインを通じてユーザーパスワードを変更することも可能です（参照：:ref:`cli-change-"
+"password`）。"
+
+#: ../../user-manual/glossary/glossary.rst:975
+msgid "Permissions tab"
+msgstr "権限タブ"
+
+#: ../../user-manual/glossary/glossary.rst:977
+msgid ""
+"In AtoM, permissions tabs can be viewed by navigating through :term:`user "
+"profiles <user profile>` and :term:`group profiles <group profile>`. An "
+"administrator can view and maintain user and group :term:`access privileges "
+"<access privilege>` by navigating through these tabs. When editing a user's "
+"access privileges, these tabs will appear under the user's name as follows: "
+"\"Archival description permissions\"; \"Authority records permissions\"; "
+"\"Taxonomy permissions\"; and \"Archival institution permissions\". When "
+"editing a group's access privileges, these tabs will appear under the user "
+"group's name as follows: \"Information object permissions\"; \"Actor "
+"permissions\"; \"Taxonomy permissions\"; and \"Archival institution "
+"permissions\". See: :ref:`Edit user permissions <edit-user-permissions>`."
+msgstr ""
+"AtoMでは、`:term:`ユーザープロファイル<user profile>` や `:term:`グループプロファイル<group "
+"profile>` を通じて、権限タブを表示することができます。管理者はこれらのタブを通じて、ユーザーやグループの "
+"`:term:`アクセス権限<access privilege>` "
+"を閲覧し、管理することができます。ユーザーのアクセス権限を編集する際には、次のようにユーザー名の下にタブが表示されます：「アーカイバル記述の権限」；「権威レコードの権限」；「分類学の権限」；「アーカイバル機関の権限」。グループのアクセス権限を編集する際には、次のようにユーザーグループ名の下にタブが表示されます：「情報オブジェクトの権限」；「アクターの権限」；「分類学の権限」；「アーカイバル機関の権限」。参照：`:ref:`ユーザー権限の編集<edit-"
+"user-permissions>`。"
+
+#: ../../user-manual/glossary/glossary.rst:988
+msgid "Physical storage"
+msgstr "物理的ストレージ"
+
+#: ../../user-manual/glossary/glossary.rst:990
+msgid ""
+"Physical storage is a grouping of :term:`fields <field>` relating to the "
+"management of physical objects such as folders, boxes, shelves, and "
+"cabinets. In AtoM, users can create and edit information about physical "
+"objects by clicking on the \"Link physical storage\" option, found under the"
+" \"More\" menu in the :term:`button block` of an :term:`archival "
+"description` or :term:`accession record`. See :ref:`Physical storage "
+"<physical-storage>`."
+msgstr ""
+"物理的な保管場所は、フォルダー、箱、棚、キャビネットなどの物理的なオブジェクトの管理に関連する:term:`フィールド<field>`のグループを指します。AtoMでは、ユーザーは「もっと」メニューの下にある:term:`ボタンブロック`の:term:`アーカイブ記述`または:term:`受領記録`に「物理的保管場所のリンク」オプションをクリックすることで、物理的オブジェクトに関する情報を作成または編集することができます。詳細は"
+" :ref:`物理的保管場所<physical-storage>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:997
+msgid "Place"
+msgstr "場所"
+
+#: ../../user-manual/glossary/glossary.rst:999
+msgid ""
+"In AtoM, a place is a geographic location registered in a :term:`taxonomy` "
+"and used as an :term:`access point` in :term:`archival descriptions "
+"<archival description>`, :term:`authority records <authority record>`, and "
+":term:`archival institutions <archival institution>`. See: :ref:`terms` and "
+":ref:`add-term-fly`."
+msgstr ""
+"AtoMでは、場所とは、:term:`分類法（taxonomy）`に登録された地理的な位置を指し、:term:`アーカイブ記述 <archival "
+"description>`、:term:`権威記録 <authority record>`、および:term:`アーカイブ機関 <archival "
+"institution>` での:term:`アクセスポイント（access "
+"point）`として使用されます。:ref:`terms`および:ref:`add-term-fly`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1004
+msgid "Print icon"
+msgstr "印刷アイコン"
+
+#: ../../user-manual/glossary/glossary.rst:1006
+msgid ""
+"An icon of a printer is located in the :term:`title bar` of the View "
+"Physical storage and Search/Advanced Search results screen. Clicking the "
+"icon will take the user to a print preview page (simple black and white). Go"
+" to the browser tabs and select file, from the drop-down list select print. "
+"See :ref:`Reports/printing <reports-printing>`."
+msgstr ""
+"画面上部にある「タイトルバー」に、プリンタのアイコンがあります。このアイコンは、「物理的な保管場所の表示」と「検索/高度な検索結果」画面に位置しています。アイコンをクリックすると、ユーザーは印刷プレビューページ（シンプルな白黒表示）に移動します。ブラウザのタブに行き、ファイルを選択し、ドロップダウンリストから印刷を選択してください。詳しくは、「レポート/印刷」をご覧ください（reports-"
+"printing）。"
+
+#: ../../user-manual/glossary/glossary.rst:1010
+msgid "Publication status"
+msgstr "出版状況"
+
+#: ../../user-manual/glossary/glossary.rst:1012
+msgid ""
+"The publication status of a record, which can be set to either :term:`draft "
+"<draft record>` or :term:`published <published record>`, determines whether "
+"or not the associated description is visible to unauthenticated (i.e., not "
+"logged in) users, such as :term:`researchers <researcher>`. It can be "
+"changed in the :term:`administration area` of a description's :term:`edit "
+"page` by a user with edit permissions. See: :ref:`publish-archival-"
+"description`."
+msgstr ""
+"レコードの公開ステータスは、:term:`草稿 <draft record>`か:term:`公開 <published "
+"record>`のどちらかに設定することができ、関連する説明が認証されていない（つまり、ログインしていない）ユーザー、例えば:term:`研究者 "
+"<researcher>`に対して可視かどうかを決定します。これは、編集権限を持つユーザーによって、説明の:term:`編集ページ`の:term:`管理エリア`で変更することができます。参照:"
+" :ref:`publish-archival-description`。"
+
+#: ../../user-manual/glossary/glossary.rst:1018
+msgid "Published record"
+msgstr "公開記録"
+
+#: ../../user-manual/glossary/glossary.rst:1020
+msgid ""
+"A published record is an :term:`archival description` that has had its "
+"status changed from draft to published in the :term:`Administration area "
+"<administration area>` at the bottom of the :term:`archival description` "
+":term:`edit page`. See: :ref:`publish-archival-description`."
+msgstr ""
+"公開された記録とは、下書きから公開ステータスに変更された`:term:`アーカイブ記述`であり、`:term:`アーカイブ記述` "
+":term:`編集ページ`の一番下にある`:term:`管理エリア <administration "
+"area>`での状態の変更を通じて行われます。参照：`:ref:`publish-archival-description`。"
+
+#: ../../user-manual/glossary/glossary.rst:1027
+msgid ""
+"The publication status is inherited from the highest :term:`level of "
+"description`; e.g. when a :term:`fonds` description is changed from draft to"
+" published, all :term:`child records <child record>` within the fonds are "
+"automatically changed as well. Once archival descriptions have been "
+"published, users who are not logged in can view them. See :ref:`publish-"
+"archival-description`."
+msgstr ""
+"公開ステータスは、最上位の:term:`記述レベル`から継承されます。例えば、:term:`全体記録(fonds)`の記述が下書きから公開へと変更されると、その全体記録内のすべての:term:`下位記録<child"
+" record>`も自動的に変更されます。アーカイブ記述が公開されると、ログインしていないユーザーでもそれらを閲覧できるようになります。詳しくは "
+":ref:`publish-archival-description` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1033
+msgid "Quick links menu"
+msgstr "クイックリンクメニュー"
+
+#: ../../user-manual/glossary/glossary.rst:1035
+msgid ""
+"The quick links menu, located in the :term:`header bar` in the top-right "
+"corner of the page, allows users to navigate to :term:`static pages <static "
+"page>` and/or other external links added to the application by an "
+":term:`administrator`. See: :ref:`quick-links-menu`."
+msgstr ""
+"クイックリンクメニューはページの右上隅にある:term:`ヘッダーバー`に位置し、ユーザーは:term:`スタティックページ <static "
+"page>`や:term:`管理者`がアプリケーションに追加した他の外部リンクに移動することができます。詳細は:ref:`quick-links-"
+"menu`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1039
+msgid "Radio button"
+msgstr "ラジオボタン"
+
+#: ../../user-manual/glossary/glossary.rst:1041
+msgid ""
+"A radio button is an element of a :term:`user interface` that allows a user "
+"to select only one of a predefined list of options. Radio buttons are used "
+"throughout the AtoM application, including in the **Admin > Themes** page to"
+" select a theme, and in the **Admin > Settings** page to control a number of"
+" different options."
+msgstr ""
+"ラジオボタンとは、:term:`ユーザーインターフェイス` "
+"の要素で、利用者があらかじめ定められたオプションリストの中から一つだけを選択することを可能にします。ラジオボタンはAtoMアプリケーション内の様々な所で使用されており、**管理"
+" > テーマ** ページでテーマを選択する際や、**管理 > 設定** ページで様々なオプションを制御する際にも利用されています。"
+
+#: ../../user-manual/glossary/glossary.rst:1046
+msgid "Record"
+msgstr "記録"
+
+#: ../../user-manual/glossary/glossary.rst:1048
+msgid ""
+"The International Council on Archives (`ICA <http://www.ica.org/>`__) "
+"defines a record as \"recorded information in any form or medium, created or"
+" received and maintained, by an organization or person in the transaction of"
+" business or the conduct of affairs\" (ISAD glossary)."
+msgstr ""
+"国際アーカイブス協議会（`ICA "
+"<http://www.ica.org/>`__）は、記録を「あらゆる形態または媒体に記録された情報であり、組織や個人が業務の遂行や事務の処理の中で作成または受領し、保持しているもの」と定義しています（ISAD用語集）。"
+
+#: ../../user-manual/glossary/glossary.rst:1054
+msgid ""
+"The Society of American Archivists (`SAA <http://www2.archivists.org/>`_), "
+"which maintains an excellent glossary of `archival terminology "
+"<http://www2.archivists.org/glossary>`_, holds several different definitions"
+" of a record, including: \"data or information in a fixed form that is "
+"created or received in the course of individual or institutional activity "
+"and set aside (preserved) as evidence of that activity for future "
+"reference.\""
+msgstr ""
+"アメリカのアーキビスト協会（SAA <http://www2.archivists.org/>`_）は、`アーカイブ用語集 "
+"<http://www2.archivists.org/glossary>`_ "
+"を保守しており、記録に関していくつかの異なる定義を持っています。その中には、「個人または機関の活動の過程で作成または受信された、固定形式のデータや情報であり、その活動の証拠として将来の参照のために（保存されて）取り置かれるもの」というものが含まれます。"
+
+#: ../../user-manual/glossary/glossary.rst:1063
+msgid ""
+"In AtoM, an :term:`archival description` is used to provide contextual "
+"information about and intellectual control over archival materials, which "
+"include records. See: :ref:`archival-descriptions`."
+msgstr ""
+"AtoMでは、`:term:`アーカイバルディスクリプション`（アーカイブ記述）`を使用して、記録を含むアーカイブ資料についての文脈的な情報と知的管理を提供します。参照：`:ref:`アーカイバルディスクリプションズ`（アーカイブ記述について）。"
+
+#: ../../user-manual/glossary/glossary.rst:1066
+msgid "Reference code"
+msgstr "参照コード"
+
+#: ../../user-manual/glossary/glossary.rst:1068
+msgid ""
+"In AtoM, a reference code is a unique identifier string associated with an "
+":term:`archival description`, created through the combination of inherited "
+"identifiers from other related entities. This unique string is built using "
+"the archival description identifier plus the identifier of all its ancestors"
+" (:term:`parent records <parent record>`), as well as the related repository"
+" identifier and country code if they have been entered. The string will "
+"appear in this order with the applicable elements:"
+msgstr ""
+"AtoMでは、参照コードとは、関連する他のエンティティから引き継がれた識別子を組み合わせて作成される、:term:`アーカイブ記述`に関連付けられる一意の識別子文字列です。この一意の文字列は、アーカイブ記述の識別子に加え、そのすべての祖先（:term:`親レコード<parent"
+" "
+"record>`）の識別子、さらにリポジトリ識別子と国コード（入力されている場合）を使用して構築されます。適用される要素と共にこの順序で文字列は表示されます："
+
+#: ../../user-manual/glossary/glossary.rst:1076
+msgid ""
+"Country code (derived from the country code of the country entered into the "
+"contact information of the related :term:`archival institution`)"
+msgstr "国コード（関連する:term:`アーカイブ機関`の連絡先情報に入力された国の国コードから導出される）"
+
+#: ../../user-manual/glossary/glossary.rst:1078
+msgid ""
+"Repository identifier (derived from the identifier field on the related "
+":term:`archival institution`)"
+msgstr "関連する:term:`アーカイブ施設`の識別子フィールドから導き出されるリポジトリ識別子"
+
+#: ../../user-manual/glossary/glossary.rst:1080
+msgid "Fonds/Collection level identifier"
+msgstr "フォンズ/コレクションレベル識別子"
+
+#: ../../user-manual/glossary/glossary.rst:1081
+msgid "Series identifier"
+msgstr "シリーズ識別子"
+
+#: ../../user-manual/glossary/glossary.rst:1082
+msgid "Subseries identifier"
+msgstr "サブシリーズ識別子"
+
+#: ../../user-manual/glossary/glossary.rst:1083
+msgid "File identifier"
+msgstr "ファイル識別子"
+
+#: ../../user-manual/glossary/glossary.rst:1084
+msgid "Item identifier"
+msgstr "アイテム識別子"
+
+#: ../../user-manual/glossary/glossary.rst:1086
+msgid ""
+"The display of either the full inherited reference code, or only the "
+"identifier associated with the current description, is managed by a setting "
+"available to an :term:`administrator` in **Admin > Settings > Global**. For "
+"more information, see: :ref:`inherit-reference-code`."
+msgstr ""
+"遺伝的な参照コードの完全な表示、または現在の説明に関連する識別子のみの表示は、**管理者 > 設定 > グローバル** "
+"の設定で管理される項目です。詳細については、以下をご覧ください： :ref:`inherit-reference-code`。"
+
+#: ../../user-manual/glossary/glossary.rst:1090
+msgid "Reference display copy"
+msgstr "参照用表示コピー"
+
+#: ../../user-manual/glossary/glossary.rst:1092
+msgid ""
+"A reference display copy is a low-resolution version of a :term:`master "
+"digital object` generated automatically by AtoM on upload. It is used to "
+"display images on the :term:`digital object` :term:`view page` when the user"
+" clicks on a :term:`thumbnail`, on :term:`archival descriptions <archival "
+"description>` that have linked digital objects, and in the digital object "
+"area of :term:`edit pages <edit page>`. See See :ref:`upload-digital-"
+"object`."
+msgstr ""
+"参照表示用コピーは、アップロード時にAtoMによって自動的に生成される`:term:`マスターデジタルオブジェクト`の低解像度バージョンです。このコピーは、ユーザーが`:term:`サムネイル`をクリックした時、リンクされたデジタルオブジェクトを含む`:term:`アーカイバル記述"
+" <archival description>`に表示される画像、ならびに`:term:`編集ページ <edit "
+"page>`のデジタルオブジェクトエリアで使用されます。詳細については、`:ref:`upload-digital-object`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1099
+msgid "Report icon"
+msgstr "レポートアイコン"
+
+#: ../../user-manual/glossary/glossary.rst:1101
+msgid ""
+"In AtoM a report icon can be found in the right hand :term:`context menu` of"
+" an :term:`archival description` :term:`view page`. Clicking on the report "
+"icon takes the user to a Reports screen and the choice of printing 4 "
+"different reports: File list, Item list, :term:`Physical storage <physical "
+"storage>` locations, or a set of Box labels. See :ref:`Reports/printing "
+"<reports-printing>`."
+msgstr ""
+"AtoMでは、アーカイブ記述の表示ページにある右側のコンテキストメニューにレポートアイコンがあります。レポートアイコンをクリックすると、ユーザーはレポート画面に移動し、4種類の異なるレポートを印刷する選択が可能です：ファイルリスト、アイテムリスト、物理的保管場所、または一連のボックスラベル。詳細は「レポート/印刷」を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1107
+msgid "Repository"
+msgstr "リポジトリ"
+
+#: ../../user-manual/glossary/glossary.rst:1109
+msgid ""
+"The Society of American Archivists `Glossary "
+"<http://www2.archivists.org/glossary>`__ defines a repository as \"any type "
+"of organization that holds documents, including business, institutional, and"
+" government archives, manuscript collections, libraries, museums, and "
+"historical societies, and in any form, including manuscripts, photographs, "
+"moving image and sound materials, and their electronic equivalents.\""
+msgstr ""
+"アメリカのアーキビスト協会の「用語集<http://www2.archivists.org/glossary>」では、リポジトリを「ビジネス、機関、政府のアーカイブ、手稿コレクション、図書館、博物館、歴史協会など、書類を保管しているどのような形態の組織も指し、手稿、写真、動画や音声資料、およびそれらの電子的相当物を含む様々な形態を含む」と定義しています。"
+
+#: ../../user-manual/glossary/glossary.rst:1117
+msgid ""
+"In AtoM, the term is sometimes used as a more generic term for "
+":term:`archival institution` that includes all cultural heritage "
+"organizations. For instructions on working with repositories in AtoM, see: "
+":ref:`archival-institutions`."
+msgstr ""
+"AtoMでは、「:term:`archival "
+"institution`」（アーカイバル機関）という用語が、文化遺産機関すべてを含むより一般的な用語として使われることがあります。AtoMでリポジトリを扱う方法についての指示については、以下を参照してください：`:ref:`archival-"
+"institutions`（アーカイバル機関）。"
+
+#: ../../user-manual/glossary/glossary.rst:1121
+msgid "Researcher"
+msgstr "研究者"
+
+#: ../../user-manual/glossary/glossary.rst:1123
+msgid ""
+"A researcher is a type of user who is limited to searching and browsing "
+"descriptions. See :ref:`User roles <user-roles>` and :ref:`researcher-"
+"default`."
+msgstr ""
+"研究者は、検索および記述内容の閲覧に限定されたユーザーのタイプです。ユーザーの役割に関しては「:ref:`ユーザーの役割 <user-"
+"roles>`」、研究者のデフォルト設定については「:ref:`researcher-default`」を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1126
+msgid "Rights record"
+msgstr "権利記録"
+
+#: ../../user-manual/glossary/glossary.rst:1128
+msgid ""
+"In AtoM, Rights records can be linked to :term:`accession records <accession"
+" record>`, :term:`archival descriptions <archival description>` and "
+":term:`digital objects <digital object>`. AtoM Rights metadata elements use "
+"`PREMIS rights elements <http://www.loc.gov/standards/premis/>`_. In AtoM "
+"restrictions can be based on Copyright(s), License, Statute(s) and Policy. "
+"For a full explanation see :ref:`rights`."
+msgstr ""
+"AtoMでは、権利記録は「受入記録<accession record>」、「アーカイブ記述<archival "
+"description>」および「デジタルオブジェクト<digital "
+"object>」にリンクできます。AtoMの権利メタデータ要素は、`PREMIS権利要素<http://www.loc.gov/standards/premis/>`_を使用しています。AtoMでは、制限は著作権、ライセンス、法令、およびポリシーに基づくことができます。詳細な説明については、「権利<rights>」を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1135
+msgid "Search box"
+msgstr "検索ボックス"
+
+#: ../../user-manual/glossary/glossary.rst:1137
+msgid ""
+"The search box is used to find descriptions in AtoM that contain text "
+"matching a search query. The search box is located in the :term:`header bar`"
+" on all AtoM pages, including the home page. See :ref:`Access content "
+"<access-content>` and :ref:`search-atom`"
+msgstr ""
+"検索ボックスは、検索クエリに一致するテキストを含むAtoM内の記述を見つけるために使用されます。検索ボックスは、ホームページを含む全てのAtoMページの:term:`ヘッダーバー`に位置しています。:ref:`アクセスコンテンツ<access-"
+"content>`および:ref:`search-atom`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1141
+msgid "Self-reciprocal term"
+msgstr "自己相反項"
+
+#: ../../user-manual/glossary/glossary.rst:1143
+msgid ""
+"A :term:`term` that has an inverse reciprocal relationship to another term "
+"in the same :term:`taxonomy` is known as a :term:`converse term`. A self-"
+"reciprocal term, in contrast, is one whose inverse reciprocal term is "
+"itself. Converse  and self-reciprocal term relationships can be managed via "
+"the term's :term:`edit page`; currently converse and self-reciprocal "
+"relationships  are only used in the Actor relations taxonomy, though the "
+"field is available in all term edit pages. Examples of default converse "
+"terms include: *is the parent of* and *is the child of*, or *is the employer"
+" of* and *is the employee of*, while examples of a default self-reciprocal "
+"terms include *is the sibling of* and *is the associate of*. Actor relation "
+":term:`terms <term>` are used in the ISAAR Relationships dialogue to "
+"establish relationshps between :term:`authority records <authority record>`."
+" When one term is added as a relationship qualifier to an authority record, "
+"its converse term will automatically appear on the related authority record."
+" Terms marked as self-reciprocal will automatically appear similarly on "
+"*both* related authority records. For more information, see: :ref:`add-"
+"converse-term` and :ref:`link-two-authority-records`."
+msgstr ""
+"同じ:term:`分類 (taxonomy)`内で別の用語と逆相補関係にある:term:`用語 (term)`を:term:`相反用語 "
+"(converse "
+"term)`と呼びます。逆に、自己相補的な用語とは、その逆相補的な用語が自分自身である用語です。相反用語および自己相補的な用語の関係は用語の:term:`編集ページ"
+" (edit "
+"page)`を通じて管理が可能です。現在、相反および自己相補的な関係はアクター関係の分類でのみ使用されていますが、このフィールドはすべての用語編集ページで利用可能です。デフォルトの相反用語の例には、*はの親である*と*はの子である*、または*はの雇用主である*と*はの従業員である*などがあります。一方、デフォルトの自己相補的な用語の例には、*はの兄弟姉妹である*と*はの同僚である*が含まれます。アクター関係の:term:`用語"
+" (terms <term>)`は、:term:`権威レコード (authority records <authority "
+"record>)`の間の関連を確立するためにISAAR関係ダイアログで使用されます。ある用語が権威レコードに関係修飾子として追加されると、その相反用語は関連する権威レコードに自動的に表示されます。自己相補的とマークされた用語は、関連する*両方*の権威レコードに同様に自動的に表示されます。詳細については、:ref:`add-"
+"converse-term`と:ref:`link-two-authority-records`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1160
+msgid "Setting"
+msgstr "設定"
+
+#: ../../user-manual/glossary/glossary.rst:1162
+msgid ""
+"Settings is a broad term used to describe the properties that affect the way"
+" a program looks and functions. In AtoM, certain settings can be changed by "
+"an :term:`administrator` in order to customize AtoM to institution-specific "
+"requirements. See :ref:`settings`."
+msgstr ""
+"「設定」とは、プログラムの見た目や機能に影響を与える属性を表す広範な用語です。AtoMでは、:term:`管理者`が特定の設定を変更し、AtoMを機関固有の要件に合わせてカスタマイズすることができます。詳細については:ref:`settings`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1166
+msgid "Site description"
+msgstr "サイトの説明"
+
+#: ../../user-manual/glossary/glossary.rst:1168
+msgid ""
+"The site description is a brief description of the site's purpose or its "
+"contents, that can be optionally included by an :term:`administrator` when "
+"configuring the :term:`settings <setting>` of an AtoM installation. When "
+"made visible via AtoM's :ref:`Settings <settings>`, the site title appears "
+"at the top of the page directly under the :term:`header bar`. It is a "
+"configurable element - the text can be changed or removed. See :ref:`Site "
+"information <site-information>` and :ref:`Default page elements <default-"
+"page-elements>`. See also :ref:`atom-header-bar` and :ref:`recurring-page-"
+"elements`."
+msgstr ""
+"サイトの説明は、サイトの目的やコンテンツの概要を簡潔に説明したもので、オプションとしてAtoMインストール時に:term:`管理者`が:term:`設定<setting>`を構成する際に含めることができます。設定がAtoMの"
+" :ref:`設定 "
+"<settings>`を通じて可視化された場合、サイトタイトルはページの上部、:term:`ヘッダーバー`の直下に表示されます。これは設定可能な要素であり、テキストは変更または削除が可能です。:ref:`サイト情報"
+" <site-information>`や:ref:`デフォルトのページ要素 <default-page-"
+"elements>`を参照してください。また、:ref:`atom-header-"
+"bar`や:ref:`繰り返し現れるページ要素`についても参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1178
+msgid "Site base URL"
+msgstr "サイトのベースURL"
+
+#: ../../user-manual/glossary/glossary.rst:1180
+msgid ""
+"The site base URL is the absolute URL to your site's homepage. This URL will"
+" be included in MODS and EAD XML exports to formulate absolute links to AtoM"
+" resources. If your domain is \"townarchives.org\", for example, your base "
+"URL would normally be \"http://townarchives.org\"."
+msgstr ""
+"サイトのベースURLは、あなたのサイトのホームページへの絶対URLです。このURLはMODSおよびEADのXMLエクスポートに含まれ、AtoMリソースへの絶対リンクを作成するために使用されます。たとえば、あなたのドメインが\"townarchives.org\"である場合、通常ベースURLは\"http://townarchives.org\"になります。"
+
+#: ../../user-manual/glossary/glossary.rst:1184
+msgid "Site logo"
+msgstr "サイトロゴ"
+
+#: ../../user-manual/glossary/glossary.rst:1186
+msgid ""
+"The site logo is the graphic that appears at the top of all pages in the "
+"left-hand corner of the :term:`header bar` in AtoM. Clicking on the logo "
+"will take the user to the :term:`home page`. AtoM ships with a default logo "
+"that can be replaced by :term:`administrators <administrator>` to theme the "
+"application to their own institution or :term:`network` if desired. See "
+":ref:`Site logo <site-logo>`; see also: :ref:`atom-header-bar`. An "
+":term:`administrator` can also control via the :ref:`settings` whether or "
+"not the logo is displayed in the AtoM :term:`header bar` - see: "
+":ref:`default-page-elements`."
+msgstr ""
+"ウェブサイトのロゴは、AtoMの:term:`ヘッダーバー`にある左上角のすべてのページの上部に表示されるグラフィックです。ロゴをクリックすると、ユーザーは:term:`ホームページ`に移動します。AtoMには、希望に応じて、各自の機関や:term:`ネットワーク`に合わせてアプリケーションのテーマを設定できるように、デフォルトのロゴが付属しており、:term:`管理者<管理者>`によって交換が可能です。詳しくは:ref:`サイトロゴ"
+" <site-logo>`を参照してください。また、:ref:`atom-header-"
+"bar`も参照してください。:term:`管理者`は、:ref:`設定`を介してAtoMの:term:`ヘッダーバー`にロゴを表示するかどうかも制御できます"
+" - 詳しくは:ref:`デフォルトページ要素`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1195
+msgid "Site title"
+msgstr "サイトタイトル"
+
+#: ../../user-manual/glossary/glossary.rst:1197
+msgid ""
+"The site title is a configurable element in AtoM that can be managed by an "
+":term:`administrator` through the application :term:`settings <setting>`. "
+"The site title will appear in the AtoM :term:`header bar` if it is made "
+"visible via the Default page elements settings. See :ref:`site-information`;"
+" see also: :ref:`default-page-elements` and :ref:`atom-header-bar`."
+msgstr ""
+"サイトのタイトルは、AtoMにおいて管理者がアプリケーションの設定を通じて管理できる設定可能な要素です。サイトのタイトルは、デフォルトページ要素の設定を通じて表示された場合、AtoMのヘッダーバーに表示されます。サイト情報に関しては「site-"
+"information」セクションを参照し、また、「default-page-elements」と「atom-header-"
+"bar」セクションも参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1203
+msgid "SKOS"
+msgstr ""
+"SKOSはSimple Knowledge Organization Systemの略で、共有される知識組織体系(たとえば、分類法、シソーラス、主題見出しリスト)をサポートするためのW3C標準です。この標準は、リンクされたデータの原則を使用して、概念体系を構築し、公開し、共有するための共通のデータモデルを提供します。SKOSはセマンティックウェブ技術の一部であり、リソース記述フレームワーク(RDF) 上で定義されます。\n"
+"\n"
+"SKOSの概念スキーマは3つの基本クラスで構成されます：`skos:Concept`、`skos:ConceptScheme` および `skos:Collection`。`skos:Concept` は、概念またはそのアイディアを表すために使用されます。`skos:ConceptScheme` は、一連の概念が組織体系の一部であることを示すためのコンテナとして機能します。そして `skos:Collection` は、積極的に整理された概念のグループ（例えば、アルファベット順や主題順に整理される概念）を表します。\n"
+"\n"
+"SKOSは概念間の関係をモデル化するために、プロパティを提供します。たとえば、`skos:broader` はより一般的な概念と、より具体的な概念との間の関係を示すために使われます。`skos:narrower` はその逆です。さらに、`skos:related` は、同じ概念スキーマ内で関連するが階層的でない概念間の関係を示します。 \n"
+"\n"
+"SKOSでは、概念にラベルを付けるためのプロパティも用意されています。これには、優勢なラベル（`skos:prefLabel`）、代替ラベル（`skos:altLabel`）、および隠されたラベル（`skos:hiddenLabel`）が含まれます。これらのラベルを使用することで、異なるコンテキストやさまざまな使用者に対応するための概念の呼称をモデル化することができます。\n"
+"\n"
+"SKOSデータは通常、XMLまたはTurtle形式で表現され、それを元に知識組織体系を探索したり、異なるスキーマ間での概念のマッピングを促進したりするために使われます。SKOSの枠組みは、図書館、博物館、アーカイブなどの様々な情報機関での情報管理と知識発見の基盤として広範に利用されています。"
+
+#: ../../user-manual/glossary/glossary.rst:1205
+msgid ""
+"Simple Knowledge Organization System (SKOS) is a data standard model "
+"developed by the `World Wide Web Consortium <http://www.w3.org/>`_ (W3C) as "
+"a common data model \"for expressing the basic structure and content of "
+"concept schemes such as thesauri, classification schemes, subject heading "
+"lists, taxonomies, folksonomies, and other similar types of controlled "
+"vocabulary.\" (`W3C SKOS Primer, 18 August 2009 "
+"<http://www.w3.org/TR/2009/NOTE-skos-primer-20090818/>`_). It is used in "
+"AtoM to import and export hierarchical :term:`taxonomies <taxonomy>`. See: "
+":ref:`export-xml`. See also: :ref:`terms` and :ref:`import-skos`."
+msgstr ""
+"シンプル・ナレッジ・オーガナイゼーション・システム（SKOS）は、World Wide Web "
+"Consortium（W3C）<http://www.w3.org/>によって開発されたデータ標準モデルであり、それは「シソーラス、分類体系、主題見出しリスト、タクソノミー、フォークソノミーなど、制御された語彙の基本構造と内容を表現するための共通のデータモデル」として位置づけられています（W3C"
+" SKOSプライマー、2009年8月18日 <http://www.w3.org/TR/2009/NOTE-skos-"
+"primer-20090818/>）。AtoMでは、階層的な:term:`タクソノミー<taxonomy>`をインポートおよびエクスポートするために使用されます。参照：:ref:`export-"
+"xml`。関連項目：:ref:`terms` および :ref:`import-skos`。"
+
+#: ../../user-manual/glossary/glossary.rst:1215
+msgid "Slug"
+msgstr ""
+"Slugとは、アイテムを一意に識別し、ウェブ上で使いやすくするために、URL内で使用される短絡的で理解しやすい文字列のことです。通常、スラグはアイテムのタイトルや名前から生成され、スペースや特殊文字はハイフンやアンダースコアなどのウェブフレンドリーな文字に置き換えられます。プログラムやデータベースでの検索と結びつけやすくするために、内容を反映した簡潔で記憶しやすいキーワードが選ばれることが多いです。"
+
+#: ../../user-manual/glossary/glossary.rst:1217
+msgid ""
+"A :term:`slug` is a word or sequence of words which make up the last part of"
+" a URL in AtoM. It is the part of the URL that uniquely identifies the "
+"resource and often is indicative of the name or title of the page (e.g.: in "
+"*www.yourwebpage.com/about*, the slug is *about*). The slug is meant to "
+"provide a unique, human-readable, permanent link to a resource. In AtoM, all"
+" pages based on user data (such as :term:`archival descriptions <archival "
+"description>`, :term:`archival institutions <archival institution>`, "
+":term:`authority records <authority record>`, :term:`terms <term>`, etc.) "
+"are automatically assigned a slug based on the title (or authorized form of "
+"name) of the resource. See :ref:`slugs-in-atom` for further details."
+msgstr ""
+"AtoMにおける「スラッグ(slug)」とは、URLの最後の部分を形成する単語または単語の並びのことです。これはURL内でリソースを一意に特定する部分であり、多くの場合、ページの名前やタイトルを示唆しています（例：*www.yourwebpage.com/about*"
+" におけるスラッグは *about* "
+"です）。スラッグはリソースへのユニークで人が読める恒久的なリンクを提供することを意味しています。AtoMでは、ユーザーデータに基づいている全てのページ（例えば"
+" :term:`アーカイバル記述<archival description>`、:term:`アーカイバル機関<archival "
+"institution>`、:term:`権威記録<authority record>`、:term:`用語<term>` "
+"など）は、リソースのタイトル（または公認形式の名前）に基づいて自動的にスラッグが割り当てられます。さらに詳細は :ref:`slugs-in-atom`"
+" を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1229
+msgid ""
+"As well, :term:`static pages <static page>`, or permanent links, include a "
+"slug :term:`field` option, but only slugs for new static pages can be edited"
+" by users; the slugs for the default :term:`Home page` and :term:`About "
+"page` in AtoM **cannot** be edited. New static page slugs can either be "
+"customized by users or automatically generated by AtoM if the field is left "
+"blank; AtoM will automatically generate a slug that is based on the "
+"\"Title\" you have indicated for the new static page."
+msgstr ""
+"また、「静的ページ」または永続的なリンクにはスラッグという「フィールド」オプションが含まれていますが、新しい静的ページのスラッグのみがユーザーによって編集可能です。AtoMのデフォルトの「ホームページ」と「アバウトページ」のスラッグは編集**できません**。新しい静的ページのスラッグは、ユーザーによってカスタマイズすることも、フィールドを空白のままにしておけばAtoMが自動的に生成することもできます。AtoMは、新しい静的ページの「タイトル」に基づいたスラッグを自動的に生成します。"
+
+#: ../../user-manual/glossary/glossary.rst:1236
+msgid "Sort button"
+msgstr "ソートボタン"
+
+#: ../../user-manual/glossary/glossary.rst:1238
+msgid ""
+"The sort button is a navigational element that appears on some browse and "
+"search pages throughout AtoM. It allows a user to change the sort order of "
+"the results being displayed, from alphabetic to most recent. When the sort "
+"order is set to \"Alphabetic,\" results are organized A-Z. When results are "
+"ordered by \"Most recent\" the most recently added and/or edited records in "
+"the results will appear at the top of the list, allowing users to discover "
+"new or recently updated content. See: :ref:`recurring-sort-button`."
+msgstr ""
+"ソートボタンはAtoM内のいくつかの閲覧および検索ページに表示されるナビゲーショナルエレメントであり、ユーザーが表示されている結果の並び替え順をアルファベット順から最新順に変更することができます。並び替え順が「アルファベット順」に設定されている場合、結果はA-"
+"Zの順に整理されます。「最新順」で結果が並べられている場合、結果内で最も最近追加されたり編集されたりした記録がリストの上部に表示され、ユーザーが新しく更新されたコンテンツを発見できるようになります。参照："
+" :ref:`recurring-sort-button`。"
+
+#: ../../user-manual/glossary/glossary.rst:1245
+msgid "Static page"
+msgstr "静的ページ"
+
+#: ../../user-manual/glossary/glossary.rst:1247
+msgid ""
+"Static pages are pages that are designed to look the same each time they are"
+" accessed, in contrast to dynamic pages such as, :doc:`search pages "
+"<../access-content/search-atom>`, :term:`view pages <view page>`, or "
+":term:`edit pages <edit page>`. AtoM has two static pages, the :term:`home "
+"page` and the :term:`about page`. Static pages can be edited by an "
+":term:`administrator`, and new static pages can be created. (see "
+":ref:`Manage static pages <manage-static-pages>`; see also: :ref:`quick-"
+"links-menu`)."
+msgstr ""
+"静的ページとは、アクセスするたびに同じ見た目になるように設計されたページのことであり、:doc:`検索ページ <../access-"
+"content/search-atom>`、:term:`閲覧ページ <view page>`、あるいは :term:`編集ページ <edit "
+"page>` のような動的ページと対照的です。AtoMには :term:`ホームページ` および :term:`アバウトページ` "
+"の2つの静的ページがあります。静的ページは :term:`管理者` "
+"によって編集が可能であり、新しい静的ページを作成することもできます（参照：:ref:`静的ページの管理 <manage-static-pages>`; "
+"関連情報：:ref:`クイックリンクメニュー`)."
+
+#: ../../user-manual/glossary/glossary.rst:1256
+msgid "Subject"
+msgstr "件名"
+
+#: ../../user-manual/glossary/glossary.rst:1258
+msgid ""
+"In AtoM, subjects are :term:`controlled-vocabulary <controlled vocabulary>` "
+":term:`terms <term>` grouped in a :term:`taxonomy` and used as :term:`access"
+" points <access point>` in :term:`archival descriptions <archival "
+"description>`. See: :ref:`terms`."
+msgstr ""
+"AtoMでは、主題は制御された語彙（:term:`コントロールド・ボキャブラリー <controlled "
+"vocabulary>`）における用語（:term:`ターム "
+"<term>`）であり、分類学（:term:`タクソノミー`）にグループ化され、アーカイブ記述（:term:`アーカイバル・ディスクリプション "
+"<archival description>`）においてアクセスポイント（:term:`アクセス・ポイント <access "
+"point>`）として使用されます。参照：:ref:`タームズ`。"
+
+#: ../../user-manual/glossary/glossary.rst:1262
+msgid "Supported language"
+msgstr "サポートされる言語"
+
+#: ../../user-manual/glossary/glossary.rst:1264
+msgid ""
+"In AtoM, a supported language is one into which both :term:`data elements "
+"<data element>` and :term:`user interface` elements can be translated. See: "
+":ref:`Default language <default-language>`; see also: :ref:`translate`."
+msgstr ""
+"AtoMでサポートされている言語とは、:term:`data elements <data element>`（データ要素）と:term:`user "
+"interface`（ユーザーインターフェース）の要素の両方が翻訳可能な言語のことを指します。参照：:ref:`Default language "
+"<default-language>`（デフォルト言語）；また、参照：:ref:`translate`（翻訳）。"
+
+#: ../../user-manual/glossary/glossary.rst:1268
+msgid "Taxonomy"
+msgstr "分類学"
+
+#: ../../user-manual/glossary/glossary.rst:1270
+msgid ""
+"A taxonomy is a grouping of :term:`controlled-vocabulary <controlled "
+"vocabulary>` :term:`terms <term>` used to generate :term:`value lists <value"
+" list>` and :term:`access points <access point>`. See :ref:`terms`."
+msgstr ""
+"分類法とは、:term:`値リスト<value list>`や:term:`アクセスポイント<access "
+"point>`を生成するために使用される:term:`制御語彙<controlled "
+"vocabulary>`の:term:`用語<term>`をグループ化したものです。詳細は:ref:`用語<terms>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1274
+msgid "Term"
+msgstr "用語"
+
+#: ../../user-manual/glossary/glossary.rst:1276
+msgid ""
+"Terms are the values that make up :term:`controlled vocabularies <controlled"
+" vocabulary>`. In AtoM, terms are grouped into :term:`taxonomies <taxonomy>`"
+" that can be added, edited, and deleted through the \"Term\" item of the add"
+" menu. See :ref:`terms`."
+msgstr ""
+"用語は、:term:`制御語彙 <controlled vocabulary>` を構成する値です。AtoMでは、用語は:term:`分類法 "
+"<taxonomy>` "
+"にグループ化され、追加メニューの「Term」項目を通じて追加、編集、削除することができます。詳しくは、:ref:`terms`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1280
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: ../../user-manual/glossary/glossary.rst:1282
+msgid ""
+"A thumbnail is a small, low-resolution version of a :term:`master digital "
+"object` generated automatically by AtoM on upload. Thumbnails are displayed "
+"in search and browse results and in :term:`carousel` views at higher "
+":term:`levels of description <level of description>`. See :ref:`upload-"
+"digital-object` and :ref:`File formats <file-formats>`."
+msgstr ""
+"サムネイルは、アップロード時にAtoMによって自動的に生成される、:term:`マスターデジタルオブジェクト`の小さな低解像度バージョンです。サムネイルは、検索結果や閲覧結果、そしてより高い:term:`記述レベル<記述レベル>`での:term:`カルーセル`ビューに表示されます。:ref:`upload-"
+"digital-object` と :ref:`ファイルフォーマット <file-formats>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1287
+msgid "Title bar"
+msgstr "タイトルバー"
+
+#: ../../user-manual/glossary/glossary.rst:1289
+msgid ""
+"The :term:`title bar` is a contextual element that appears throughout AtoM "
+"on various different :ref:`page types <page-types>`, offering the user an "
+"indication of the type of page, and/or the name of the record, currently "
+"being viewed. On a :term:`view <view page>` or :term:`edit <edit page>` "
+"page, the :term:`title bar` displays the name (title) of the current entity."
+" The title bar appears at the top of core :ref:`entity <entity-types>` "
+"records in AtoM, including :term:`archival descriptions <archival "
+"description>`, :term:`authority records <authority record>`, :term:`archival"
+" institutions <archival institution>`, :term:`functions <function>`, and "
+":term:`terms <term>` (such as :term:`subjects <subject>` and :term:`places "
+"<place>`), as well as at the top of :term:`physical storage` locations. On "
+"Donor and :term:`accession <accession record>` records, the title bar "
+"displays a message indicating whether the record is in :term:`view <view "
+"mode>` or :term:`edit <edit mode>` mode, with the record's name/title "
+"display below (as a sub-title). On :term:`archival descriptions <archival "
+"description>`, the title bar also displays the :term:`level of description` "
+"of the displayed description. See: :ref:`Title bar <recurring-title-bar>`."
+msgstr ""
+"タイトルバー（:term:`title bar`）は、さまざまな種類のページ（:ref:`ページタイプ <page-"
+"types>`を参照）にわたり、AtoMに表示されるコンテキスト要素で、ユーザーが現在閲覧しているページのタイプやレコードの名前を示します。閲覧（:term:`view"
+" <view page>`）ページや編集（:term:`edit <edit "
+"page>`）ページでは、タイトルバーが現在のエンティティの名前（タイトル）を表示します。タイトルバーは、アトムのコア :ref:`エンティティ "
+"<entity-types>` レコード（アーカイバル記述（:term:`archival descriptions <archival "
+"description>`）、権威記録（:term:`authority records <authority "
+"record>`）、アーカイブ施設（:term:`archival institutions <archival "
+"institution>`）、機能（:term:`functions <function>`）、用語（:term:`terms "
+"<term>`）（主題（:term:`subjects <subject>`）や場所（:term:`places "
+"<place>`）など）、および物理的貯蔵場所（:term:`physical "
+"storage`）の上部に表示されます。寄贈者とアクセッション記録（:term:`accession <accession "
+"record>`）では、タイトルバーがレコードが閲覧モード（:term:`view <view mode>`）か編集モード（:term:`edit "
+"<edit "
+"mode>`）かを示すメッセージを表示し、その下にレコードの名前／タイトルがサブタイトルとして表示されます。アーカイバル記述（:term:`archival"
+" descriptions <archival "
+"description>`）においては、タイトルバーに表示された記述の記述レベル（:term:`level of "
+"description`）も表示されます。参照： :ref:`タイトルバー <recurring-title-bar>`。"
+
+#: ../../user-manual/glossary/glossary.rst:1307
+msgid "Tooltips"
+msgstr "ツールチップ"
+
+#: ../../user-manual/glossary/glossary.rst:1309
+msgid ""
+"Tooltips are online text designed to assist users to enter data in "
+":term:`edit pages <edit page>`. Tooltip text is usually derived from the "
+"standards on which the edit templates are based; in rare occasions where the"
+" :term:`field` does not correspond directly to a standard, this text has "
+"been supplied. Note that :term:`administrators <administrator>` can turn "
+"tooltips on or off. See :ref:`Global settings <global-settings>`."
+msgstr ""
+"ツールチップは、:term:`編集ページ <edit "
+"page>`でデータを入力する際にユーザーを支援するためのオンラインテキストです。ツールチップテキストは、通常、その編集テンプレートが基づいている標準から取り出されたものです。しかし、:term:`フィールド`が直接標準に対応していない稀な場合には、このテキストが提供されています。:term:`管理者"
+" <administrator>`はツールチップをオンまたはオフにすることができることに留意してください。詳細については、:ref:`グローバル設定 "
+"<global-settings>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1316
+msgid "Top-level description filter"
+msgstr "トップレベルの説明フィルター"
+
+#: ../../user-manual/glossary/glossary.rst:1318
+msgid ""
+"The top-level description filter appears on the search and browse pages for "
+":term:`archival descriptions <archival description>`. It limits the returned"
+" results to those descriptions without any :term:`parents <parent record>` -"
+" that is, those that are not part of a hierarchy with any records higher "
+"than them in the hierarchy. By default, the filter is engaged on the browse "
+"page for archival descriptions, and disengaged by default on the search "
+"results page - but users can manually set the filter setting via the "
+":term:`radio button` above the Levels of description :term:`facet filter`. "
+"See: :ref:`browse-descriptions`"
+msgstr ""
+"検索およびブラウズのページに表示される最上位の記述フィルターは、`:term:`アーカイブ記述 <archival "
+"description>`のためのものです。これにより、返される結果が:term:`親レコード <parent "
+"record>`を有していない記述に限定されます － "
+"つまり、階層構造内で高位のレコードと関係しない記述に限定されます。デフォルトでは、このフィルターはアーカイブの記述をブラウズするページで有効になっており、検索結果のページではデフォルトで非アクティブですが、ユーザーは記述レベルの:term:`ファセットフィルター`上の:term:`ラジオボタン`を使ってフィルター設定を手動で行うことができます。参照:"
+" :ref:`browse-descriptions`"
+
+#: ../../user-manual/glossary/glossary.rst:1328
+msgid "Translation bar"
+msgstr "翻訳バー"
+
+#: ../../user-manual/glossary/glossary.rst:1330
+msgid ""
+"The translation bar appears at the bottom of the page when users with "
+":term:`translator` :term:`access privileges <access privilege>` select a "
+"language from the :term:`language menu`. Clicking on \"Translate user "
+"interface\" in the bottom right-hand corner of the bar opens up the "
+":term:`translation panel`, where the user translates :term:`user interface` "
+"elements. See :ref:`Translate <translate>`."
+msgstr ""
+"ページの下部に表示される翻訳バーは、`translator` の `access privileges <access privilege>` "
+"を持つユーザーが `language menu` から言語を選択するときに現れます。バーの右下隅にある「Translate user "
+"interface」をクリックすると、`translation panel` が開き、ユーザーは `user interface` "
+"の要素を翻訳できます。詳しくは `Translate <translate>` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1336
+msgid "Translation panel"
+msgstr "翻訳パネル"
+
+#: ../../user-manual/glossary/glossary.rst:1338
+msgid ""
+"The translation panel is used by :term:`translators <translator>` to edit "
+":term:`user interface` elements and is accessed via the :term:`translation "
+"bar`. See :ref:`translate-interface`."
+msgstr ""
+"翻訳パネルは、:term:`翻訳者 "
+"<translator>`が:term:`ユーザーインターフェース`の要素を編集するために使用し、:term:`翻訳バー`を通じてアクセスされます。詳細は"
+" :ref:`translate-interface` を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1341
+msgid "Translator"
+msgstr ""
+"\"Translator\" simply translates to \"翻訳者\" in Japanese. If you require more"
+" translation assistance, feel free to ask!"
+
+#: ../../user-manual/glossary/glossary.rst:1343
+msgid ""
+"A translator is a type of user who can translate :term:`data elements <data "
+"element>` and :term:`user interface` elements. See :ref:`user-roles`; see "
+"also: :ref:`translator-default` and :ref:`translate`."
+msgstr ""
+"翻訳者とは、:term:`データ要素<data "
+"element>`や:term:`ユーザーインターフェイス`要素を翻訳できる種類のユーザーのことです。:ref:`ユーザーロール<user-"
+"roles>`を参照してください。また、:ref:`翻訳者デフォルト<translator-"
+"default>`や:ref:`翻訳<translate>`も参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1346
+msgid "Treeview"
+msgstr "ツリービュー"
+
+#: ../../user-manual/glossary/glossary.rst:1348
+msgid ""
+"The treeview is a contextual and navigation element located in the "
+":term:`context menu` for :term:`archival descriptions <archival "
+"description>`, :term:`places <place>`, and :term:`subjects <subject>`. It "
+"shows the current record's relationships to other records, with links, e.g. "
+"the hierarchical placement of :term:`archival descriptions <archival "
+"description>` within a :term:`fonds`, or the hierarchical placement of a "
+":term:`term` (such as a :term:`subject` or :term:`place`) within a "
+":term:`taxonomy`. The treeview can also be used for navigation. See: "
+":ref:`Context menu <context-menu>`."
+msgstr ""
+"treeviewは、:term:`アーカイバルディスクリプション<archival "
+"description>`、:term:`場所<place>`、そして:term:`主題<subject>`に対して配置された、:term:`コンテキストメニュー`"
+" "
+"の中の文脈的要素でありナビゲーション要素です。これは、現在の記録が他の記録とどのような関係にあるかを示すもので、リンクを含みます。例えば、:term:`アーカイバルディスクリプション<archival"
+" "
+"description>`が:term:`フォンド`内でどのような階層構造を持っているか、あるいは、:term:`用語`(例えば:term:`主題`や:term:`場所`)が:term:`分類法`内でどのような階層構造を持っているかがそれにあたります。treeviewは、ナビゲーション目的にも使われます。詳細はこちらを参照:"
+" :ref:`コンテキストメニュー<context-menu>`。"
+
+#: ../../user-manual/glossary/glossary.rst:1357
+msgid "Typeahead"
+msgstr "\"タイプアヘッド\""
+
+#: ../../user-manual/glossary/glossary.rst:1359
+msgid ""
+"Typeahead (also known as incremental search or real-time suggestions) is a "
+"form of auto-complete used in a :term:`user interface`. As a user enters "
+"text, one or more possible matches are found and presented to the user, "
+"which continue to narrow as a user enters further text. This allows a user "
+"to dynamically view results and select a resource without necessarily having"
+" to enter its full name or title. In AtoM, the :term:`search box` implements"
+" typeahead, and presents the user with results divided into :ref:`entity "
+"types <entity-types>` such as :term:`archival description`, :term:`authority"
+" record`, :term:`archival institution`, :term:`subject`, and :term:`place`. "
+"It appears as a :term:`drop-down <drop-down menu>` below the :term:`search "
+"box` as a user enters text. See: :ref:`search-atom` and :ref:`search-box`."
+msgstr ""
+"Typeahead（インクリメンタルサーチまたはリアルタイム提案とも呼ばれる）は、:term:`ユーザーインターフェース`で使用されるオートコンプリートの一形態です。ユーザーがテキストを入力すると、一つまたは複数の可能な一致が見つかり、ユーザーへ提示されます。これがユーザーがさらにテキストを入力すると継続的に絞り込まれます。これによりユーザーは、必ずしもその完全な名前やタイトルを入力せずに、動的に結果を表示し、リソースを選択できます。AtoMでは、:term:`検索ボックス`がtypeaheadを実装しており、:term:`アーカイブ記述`、:term:`権威レコード`、:term:`アーカイブ機関`、:term:`主題`、:term:`場所`などの:ref:`エンティティタイプ"
+" <entity-"
+"types>`に分けてユーザーに結果を提示します。これは、ユーザーがテキストを入力すると、:term:`検索ボックス`の下にある:term:`ドロップダウン"
+" <ドロップダウンメニュー>`として現れます。参照：:ref:`search-atom`および:ref:`search-box`。"
+
+#: ../../user-manual/glossary/glossary.rst:1371
+msgid "User account"
+msgstr "ユーザーアカウント"
+
+#: ../../user-manual/glossary/glossary.rst:1373
+msgid ""
+"User accounts are established in order to manage :term:`access privileges "
+"<access privilege>` through the assignment of :term:`user roles <user "
+"role>`. Every user who must be able to add, edit, delete, or translate "
+"content must have a user account. In AtoM user accounts are established and "
+"maintained by :term:`administrators <administrator>`. See :ref:`user-roles`,"
+" :ref:`manage-user-accounts`, and :ref:`edit-user-permissions`."
+msgstr ""
+"ユーザーアカウントは、:term:`ユーザーロール<user role>`の割り当てを通じて:term:`アクセス権限<access "
+"privilege>`を管理するために設立されます。コンテンツを追加、編集、削除、または翻訳できる必要があるすべてのユーザーはユーザーアカウントを持っていなければなりません。AtoMでは、ユーザーアカウントは:term:`管理者<administrator>`によって設立され、維持されます。:ref:`user-"
+"roles`、:ref:`manage-user-accounts`、:ref:`edit-user-permissions`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1380
+msgid "User interface"
+msgstr "ユーザーインターフェース"
+
+#: ../../user-manual/glossary/glossary.rst:1382
+msgid ""
+"The user interface is the set of elements that allow the user to interact "
+"with the AtoM application. These elements include the : :term:`main menu`, "
+":term:`drop-down menus <drop-down menu>`, :term:`context menu`, :term:`title"
+" bar`, :term:`column headers <column header>`, buttons and :term:`button "
+"block`, :term:`fields <field>`, and :term:`field labels <field label>`, and "
+"any other elements used to navigate AtoM or to search for, view, add, edit, "
+"and delete :term:`database content`. The labels of some user interface "
+"elements can be customized by :term:`administrators <administrator>` (see "
+":ref:`User interface labels <user-interface-labels>`)."
+msgstr ""
+"ユーザーインターフェースは、ユーザーがAtoMアプリケーションと対話するための要素のセットです。これらの要素には、:term:`メインメニュー`、:term:`ドロップダウンメニュー<ドロップダウンメニュー>`、:term:`コンテキストメニュー`、:term:`タイトルバー`、:term:`カラムヘッダ<カラムヘッダー>`、ボタンや:term:`ボタンブロック`、:term:`フィールド<フィールド>`、:term:`フィールドラベル<フィールドラベル>`、およびAtoMでのナビゲーションや、:term:`データベースコンテンツ`の検索、閲覧、追加、編集、削除に使用されるその他の要素が含まれます。いくつかのユーザーインターフェース要素のラベルは、:term:`管理者<管理者>`によってカスタマイズすることができます（:ref:`ユーザーインターフェースのラベル<user-"
+"interface-labels>`を参照）。"
+
+#: ../../user-manual/glossary/glossary.rst:1392
+msgid "Username"
+msgstr "ユーザー名"
+
+#: ../../user-manual/glossary/glossary.rst:1394
+msgid ""
+"The username is a name supplied by an :term:`administrator` to any user "
+"(other than a :term:`researcher`) of the AtoM application as part of the "
+":term:`user account`. See :ref:`manage-user-accounts`."
+msgstr ""
+"ユーザー名は、AtoMアプリケーションの任意のユーザー（:term:`研究者`以外）に:term:`管理者`によって供給される名前であり、:term:`ユーザーアカウント`の一部として提供されます。:ref:`manage-"
+"user-accounts`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1397
+msgid "User profile"
+msgstr "ユーザープロファイル"
+
+#: ../../user-manual/glossary/glossary.rst:1399
+msgid ""
+"A user profile is information about a user managed in a :term:`user "
+"account`. User profiles are created and maintained by :term:`administrators"
+"  <administrator>` (see :ref:`manage-user-accounts`), although authenticated"
+" (i.e., logged in) users can view their own profiles (and change their "
+":term:`passwords <password>`) by going through the :term:`header bar` (see: "
+":ref:`Change password <change-password>`). See: :ref:`manage-user-accounts`."
+msgstr ""
+"ユーザープロファイルは、:term:`user "
+"account`（ユーザーアカウント）で管理されるユーザーに関する情報です。ユーザープロファイルは:term:`administrators "
+"<administrator>`（管理者）によって作成および維持されます（:ref:`manage-user-"
+"accounts`を参照）、ただし認証された（つまり、ログインした）ユーザーは自身のプロファイルを閲覧することができ（また、:term:`passwords"
+" <password>`（パスワード）を変更することもできます）これは:term:`header "
+"bar`（ヘッダーバー）を通じて行います（:ref:`Change password <change-"
+"password>`を参照）。:ref:`manage-user-accounts`も参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1406
+msgid "User role"
+msgstr "ユーザーの役割"
+
+#: ../../user-manual/glossary/glossary.rst:1408
+msgid ""
+"User roles define levels of access to functions in AtoM, ranging from view-"
+"only access to full administration rights. User roles are defined by groups "
+"that an :term:`administrator` can add and edit. See :ref:`User roles <user-"
+"roles>`, :ref:`manage-user-accounts`, and :ref:`edit-user-permissions`."
+msgstr ""
+"ユーザーの役割は、閲覧のみのアクセスから完全な管理権限に至るまで、AtoM内の機能へのアクセスレベルを定義します。ユーザーの役割は、:term:`管理者`が追加や編集が可能なグループによって定義されます。ユーザーの役割についての詳細は、:ref:`ユーザーの役割"
+" <user-roles>`、:ref:`ユーザーアカウントの管理 <manage-user-accounts>`、および "
+":ref:`ユーザー権限の編集 <edit-user-permissions>`を参照してください。"
+
+#: ../../user-manual/glossary/glossary.rst:1413
+msgid "Value list"
+msgstr "値のリスト"
+
+#: ../../user-manual/glossary/glossary.rst:1415
+msgid ""
+"Value lists restrict data entry in certain :term:`fields <field>` to "
+":term:`controlled vocabulary` :term:`terms <term>` or terms derived from "
+":term:`authority records <authority record>`. They appear as :term:`drop-"
+"down menus <drop-down menu>` in :term:`edit pages <edit page>`."
+msgstr ""
+"値のリストは、特定の:term:`フィールド <field>`でのデータエントリーを:term:`管理された語彙` :term:`用語 "
+"<term>`や:term:`権威レコード <authority record>`から派生した用語に制限します。それらは:term:`編集ページ "
+"<edit page>`内で:term:`ドロップダウンメニュー <drop-down menu>`として表示されます。"
+
+#: ../../user-manual/glossary/glossary.rst:1420
+msgid "View mode"
+msgstr "表示モード\n"
+
+#: ../../user-manual/glossary/glossary.rst:1422
+msgid ""
+"View mode provides read-only access to the contents of :term:`archival "
+"descriptions <archival description>`, :term:`authority records <authority "
+"record>`, :term:`functions <function>` and :term:`archival institutions "
+"<archival institution>` using :term:`view pages <view page>`. In view mode, "
+"AtoM displays only those :term:`fields <field>` in a :term:`record` which "
+"contain data."
+msgstr ""
+"表示モードは、用語集「アーカイブ記述」、「権威記録」、「機能」および「アーカイブ機関」の内容に対する読み取り専用アクセスを、「表示ページ」を使用して提供します。表示モードでは、AtoMはデータを含む「フィールド」のみを「レコード」に表示します。"
+
+#: ../../user-manual/glossary/glossary.rst:1428
+msgid "View page"
+msgstr "閲覧ページ"
+
+#: ../../user-manual/glossary/glossary.rst:1430
+msgid ""
+"View pages allow users to view in detail the contents of :term:`archival "
+"descriptions <archival description>`, :term:`authority records <authority "
+"record>`, :term:`functions <function>` and :term:`archival institutions "
+"<archival institution>`."
+msgstr "ビューページを使用すると、ユーザーは「アーカイブ記述」、「権威レコード」、「機能」および「アーカイブ施設」の内容を詳細に閲覧できます。"
+
+#: ../../user-manual/glossary/glossary.rst:1434
+msgid "Visible elements"
+msgstr "可視要素"
+
+#: ../../user-manual/glossary/glossary.rst:1436
+msgid ""
+"Visible elements enables an :term:`administrator` to \"hide\" specific "
+":term:`fields <field>` in the database from the public (i.e., unauthorized "
+"users, or users who are not logged in). To review which fields can be hidden"
+" from view, select ISAD template, RAD template, Digital object metadata "
+"area, and/or Physical Storage. The :term:`administrator` can click on the "
+"checkboxes to reveal the field, while an unchecked box hides the field. See "
+":ref:`Visible elements <visible-elements>`."
+msgstr ""
+"可視要素は、:term:`管理者`が公開から特定の:term:`フィールド "
+"<field>`を「隠蔽」することを可能にします（例えば、認証されていないユーザーやログインしていないユーザーから）。どのフィールドを非表示にできるかを確認するために、ISAD"
+" テンプレート、RAD "
+"テンプレート、デジタルオブジェクトのメタデータエリア、及び物理的保管エリアを選択します。:term:`管理者`はチェックボックスをクリックしてフィールドを表示でき、チェックなしのボックスはフィールドを隠します。詳細は"
+" :ref:`可視要素 <visible-elements>` を参照してください。"

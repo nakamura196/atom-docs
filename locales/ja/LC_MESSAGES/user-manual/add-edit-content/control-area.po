@@ -1,0 +1,427 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/control-area.rst:5
+msgid "Control area"
+msgstr "管理領域"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Control area in an archival description"
+msgstr "アーカイブ記述における管理領域"
+
+#: ../../user-manual/add-edit-content/control-area.rst:12
+msgid ""
+"The control area is similar, with some variations, for :ref:`archival "
+"descriptions <archival-descriptions>` (ISAD, DACS, and RAD templates only), "
+":ref:`authority records <authority-records>`, :ref:`archival institutions "
+"<archival-institutions>` and :ref:`functions <functions>`. It contains "
+"fields that uniquely identify the description itself and records how, when, "
+"and by which archival institution the description was created and "
+"maintained."
+msgstr ""
+"制御領域は、:ref:`アーカイブ記述 <archival-descriptions>`（ISAD、DACS、RAD "
+"テンプレートのみ）、:ref:`権限レコード <authority-records>`、:ref:`アーカイブ施設 <archival-"
+"institutions>`、そして :ref:`機能 "
+"<functions>`において、いくつかのバリエーションを持ちながらも似た構造をしています。これには、記述自体を一意に識別するフィールドが含まれており、記述が作成・維持された方法、時間、そしてどのアーカイブ施設によって行われたかを記録します。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:20
+msgid ""
+"The following notes aim primarily to clarify AtoM procedures; for guidelines"
+" on what information to record in particular fields, consult the relevant "
+"content standard. Users may note that the AtoM templates offer more fields "
+"than exist in the content standards, which originated from an effort to "
+"harmonize the templates with all four standards. The notes are organized by "
+"field, with links to the applicable section(s) of the standards. Where there"
+" is a one-to-one correspondence between a data element in the standard and "
+"an AtoM field, the note simply gives the standard rule verbatim."
+msgstr ""
+"次の注意事項は、主にAtoM手順を明確にすることを目的としています。特定のフィールドに記録する情報のガイドラインについては、関連する内容標準を参照してください。ユーザーは、AtoMテンプレートが内容標準に存在するものよりも多くのフィールドを提供していることに気付くかもしれません。これは、テンプレートを4つの標準すべてと調和させる努力から生じたものです。注意事項はフィールドごとに整理され、標準の適用可能な節へのリンクが付されています。標準のデータ要素とAtoMフィールドの間に一対一の対応がある場合は、注記は単に標準の規則をそのまま提供します。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:31
+msgid "Description identifier"
+msgstr "説明識別子"
+
+#: ../../user-manual/add-edit-content/control-area.rst:33
+msgid ""
+"\"Record a unique description identifier in accordance with local and/or "
+"national conventions. If the description is to be used internationally, "
+"record the code of the country in which the description was created in "
+"accordance with the latest version of ISO 3166, Codes for the representation"
+" of names of countries. Where the creator of the description is an "
+"international organisation, give the organisational identifier in place of "
+"the country code.\" ISDIAH 5.6.1, ISAAR 5.4.1, ISDF 5.4.1"
+msgstr ""
+"地域または国の慣習に従って、ユニークな記述識別子を記録してください。記述が国際的に使用される場合は、記述が作成された国のコードを、国名の表記のためのISO"
+" 3166の最新版に従って記録してください。記述の作成者が国際機関である場合は、国コードの代わりに組織識別子を記載してください。 ISDIAH "
+"5.6.1, ISAAR 5.4.1, ISDF 5.4.1"
+
+#: ../../user-manual/add-edit-content/control-area.rst:42
+msgid "Institution identifier"
+msgstr "機関識別子"
+
+#: ../../user-manual/add-edit-content/control-area.rst:44
+msgid ""
+"\"Record the full authorised form of name(s) of the agency(ies) responsible "
+"for creating, modifying or disseminating the description or, alternatively, "
+"record a code for the agency in accordance with the national or "
+"international agency code standard.\" ISDIAH 5.6.2, ISAAR 5.4.2, ISDF 5.4.2"
+msgstr ""
+"「説明の作成、変更、または配布に責任を持つ機関の公式な名称の完全な形態を記録するか、あるいは、国内または国際的な機関コード標準に従って機関のコードを記録します。」"
+" ISDIAH 5.6.2、ISAAR 5.4.2、ISDF 5.4.2"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Institution identifier field in the Description control area"
+msgstr "記述制御領域の機関識別子フィールド"
+
+#: ../../user-manual/add-edit-content/control-area.rst:56
+msgid ""
+"If you are using the reference-code inheritance option available in **Admin "
+"> Settings > Global** (learn more :ref:`here <inherit-reference-code>`), the"
+" Institution identifier you have entered on the :ref:`ISDIAH <isdiah-"
+"template>` :term:`archival institution` record will appear as part of your "
+"inherited reference code. If you are not using the reference code "
+"inheritance, this field offers users a way to record the related "
+":term:`repository` identifier with an associated :term:`archival "
+"description`."
+msgstr ""
+"参照コード継承オプションを使用している場合、**管理 > 設定 > グローバル**で利用可能です（さらに詳しくはこちらを参照：ref:`こちら "
+"<inherit-reference-code>`）、:ref:`ISDIAH <isdiah-"
+"template>`の:term:`アーカイブ機関`レコードに入力した機関識別子が、継承された参照コードの一部として表示されます。参照コード継承を使用していない場合、このフィールドはユーザーに対して、関連する:term:`リポジトリ`識別子を関連する:term:`アーカイブ記述`に記録する方法を提供します。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:66
+msgid "Rules or conventions"
+msgstr "規則または規約"
+
+#: ../../user-manual/add-edit-content/control-area.rst:68
+msgid ""
+"\"Record the international, national and/or local rules or conventions "
+"followed in preparing the description.\" ISAD 3.7.2, DACS 8.1.4"
+msgstr "「説明の準備において従った国際的、国内的、または地域的規則または慣習を記録する。」ISAD 3.7.2, DACS 8.1.4"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Rules or conventions field in the Description control area"
+msgstr "説明管理エリアの規則または慣例フィールド"
+
+#: ../../user-manual/add-edit-content/control-area.rst:76
+msgid ""
+"\"Record the names, and where useful the editions or publication dates, of "
+"the conventions or rules applied. Specify separately which rules have been "
+"applied for creating the Authorised form of name. Include reference to any "
+"system(s) of dating used to identify dates in this description (e.g. ISO "
+"8601).\" ISDIAH 5.6.3, ISAAR 5.4.3"
+msgstr ""
+"記録の名称および、役立つ場合は版や出版日を記録します。認可された名称の形式を作成するために適用されたルールを別途明記してください。この説明で日付を識別するために使用された日付システムへの参照も含めてください（例：ISO"
+" 8601）。 ISDIAH 5.6.3, ISAAR 5.4.3"
+
+#: ../../user-manual/add-edit-content/control-area.rst:82
+msgid ""
+"\"Record the names and, when useful, the editions or publication dates of "
+"the conventions or rules applied.\" ISDF 5.4.3"
+msgstr "「適用された規約またはルールの名称および、役立つ場合はその版や出版日を記録する。」 ISDF 5.4.3"
+
+#: ../../user-manual/add-edit-content/control-area.rst:86
+msgid "Status"
+msgstr "ステータス"
+
+#: ../../user-manual/add-edit-content/control-area.rst:88
+msgid ""
+"\"Record the current status of the description, indicating whether it is a "
+"draft, finalized and/or revised....\" ISDIAH 5.6.4; ISAAR 5.4.4, ISDF 5.4.4"
+msgstr ""
+"説明の現在の状態を記録し、それが下書きであるか、最終版であるか、または改訂されたものであるかを示します...。 ISDIAH 5.6.4; ISAAR "
+"5.4.4, ISDF 5.4.4"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Status field in the Description control area"
+msgstr "説明管理エリアのステータスフィールド"
+
+#: ../../user-manual/add-edit-content/control-area.rst:96
+msgid ""
+"AtoM has a :term:`drop-down menu` using values drawn from the description "
+"statuses :term:`taxonomy`; by default in AtoM this drop-down is populated "
+"with the following terms:"
+msgstr ""
+"AtoMには、説明ステータスの:term:`分類(taxonomy)`から引き出される値を使用する:term:`ドロップダウンメニュー`があります。デフォルトでは、AtoMのこのドロップダウンは以下の用語で構成されています："
+
+#: ../../user-manual/add-edit-content/control-area.rst:100
+msgid "Final"
+msgstr ""
+"Certainly! Please provide me with the text you wish to have translated into "
+"Japanese related to Archivematica."
+
+#: ../../user-manual/add-edit-content/control-area.rst:101
+msgid "Revised"
+msgstr ""
+"申し訳ありませんが、翻訳するための原文が提供されていませんでした。もし翻訳したいテキストがあれば、そのテキストをこちらに提供してください。その後、翻訳のお手伝いをさせていただきます。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:102
+msgid "Draft"
+msgstr "ドラフト"
+
+#: ../../user-manual/add-edit-content/control-area.rst:106
+#: ../../user-manual/add-edit-content/control-area.rst:134
+msgid ""
+":term:`Administrators <administrator>` and :term:`editors <editor>` can "
+"customize the taxonomy to match institutional standards if desired, adding "
+"new terms, or changing/deleting the default terms. For more information, "
+"see: :ref:`terms`."
+msgstr ""
+"管理者や編集者は、必要に応じて機関の基準に合わせて分類法をカスタマイズすることができ、新しい用語の追加やデフォルトの用語の変更・削除が行えます。詳細については、:ref:`terms`を参照してください。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:113
+msgid "Level of detail"
+msgstr "詳細度"
+
+#: ../../user-manual/add-edit-content/control-area.rst:115
+msgid ""
+"\"Record whether the description consists of a minimal, partial or full "
+"level of detail in accordance with relevant international and/or national "
+"guidelines and/or rules...\" ISDIAH 5.6.5, ISAAR 5.4.5, ISDF 5.4.5"
+msgstr ""
+"「説明が関連する国際的および/または国内のガイドラインや規則に従って、最小限のレベルから部分的なレベル、完全なレベルの詳細で構成されているかどうかを記録してください...」"
+" ISDIAH 5.6.5、ISAAR 5.4.5、ISDF 5.4.5"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Level of detail field in the Description control area"
+msgstr "説明管理エリアの詳細レベルフィールド"
+
+#: ../../user-manual/add-edit-content/control-area.rst:124
+msgid ""
+"AtoM has a :term:`drop-down menu` using values drawn from the description "
+"detail levels :term:`taxonomy`; by default in AtoM this drop-down is "
+"populated with the following terms:"
+msgstr ""
+"AtoMには、記述の詳細レベルの:term:`分類(taxonomy)`から値を引用して使用する:term:`ドロップダウンメニュー`があります。AtoMではデフォルトで、このドロップダウンには次の用語が含まれています："
+
+#: ../../user-manual/add-edit-content/control-area.rst:128
+msgid "Full"
+msgstr "完全"
+
+#: ../../user-manual/add-edit-content/control-area.rst:129
+msgid "Partial"
+msgstr "部分的"
+
+#: ../../user-manual/add-edit-content/control-area.rst:130
+msgid "Minimal"
+msgstr "ミニマル"
+
+#: ../../user-manual/add-edit-content/control-area.rst:140
+msgid "Dates of creation, revision and deletion"
+msgstr "作成、改訂、削除の日付"
+
+#: ../../user-manual/add-edit-content/control-area.rst:142
+msgid ""
+"\"Record the date(s) the entry was prepared and/or revised...\" (ISAD 3.7.3)"
+msgstr "「(ISAD 3.7.3) エントリが作成され、または改訂された日付を記録してください...」"
+
+#: ../../user-manual/add-edit-content/control-area.rst:144
+msgid ""
+"\"Record the date the description was created and the dates of any revisions"
+" to the description.\" ISDIAH 5.6.6, ISAAR 5.4.6, ISDF 5.4.6"
+msgstr ""
+"「説明が作成された日付と、説明の改訂があった場合のそれらの日付を記録すること。」 ISDIAH 5.6.6, ISAAR 5.4.6, ISDF "
+"5.4.6"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Dates of creation, revision, and deletion in the Control area"
+msgstr "制御領域における作成、改訂、および削除の日付"
+
+#: ../../user-manual/add-edit-content/control-area.rst:153
+msgid "Language(s) and Script(s)"
+msgstr "言語と文字（スクリプト）"
+
+#: ../../user-manual/add-edit-content/control-area.rst:155
+msgid ""
+"\"Record the language(s) and/or script(s) of the description... ISDIAH "
+"5.6.7, \"ISAAR 5.4.7, ISDF 5.4.7"
+msgstr "説明の言語および/または文字を記録する... ISDIAH 5.6.7、\"ISAAR 5.4.7、ISDF 5.4.7"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Languages and scripts fields in the Control area"
+msgstr "コントロール領域における「言語」と「文字体系」フィールド"
+
+#: ../../user-manual/add-edit-content/control-area.rst:163
+msgid ""
+"AtoM implements this data element as two separate :term:`multi-value fields "
+"<multi-value field>`.  The :term:`value lists <value list>` are based on the"
+" ISO standards and cannot be edited."
+msgstr ""
+"AtoMはこのデータ要素を二つの別々の:term:`マルチバリューフィールド <multi-value "
+"field>`として実装しています。:term:`値のリスト <value list>`はISO規格に基づいており、編集することはできません。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:168
+msgid ""
+"Click on the desired field and begin to type the name of the language or "
+"script. AtoM will auto-suggest as you type. When the correct name appears in"
+" the field, click on it to add. There is no limit to the number of languages"
+" or scripts you can add."
+msgstr ""
+"目的のフィールドをクリックし、言語またはスクリプトの名前を入力し始めます。入力すると、AtoMが自動で提案します。正しい名前がフィールドに表示されたら、それをクリックして追加します。追加できる言語やスクリプトの数には制限がありません。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "Using the language autocomplete field to select a language"
+msgstr "言語オートコンプリートフィールドを使用して言語を選択する"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "removing a language"
+msgstr "言語の削除"
+
+#: ../../user-manual/add-edit-content/control-area.rst:183
+msgid ""
+"To remove a language or script already added, hover your cursor over the "
+"bullet next to the language/script. The bullet will change into an **X** - "
+"if you click the **X**, the language or script will be removed."
+msgstr ""
+"既に追加されている言語やスクリプトを削除するには、言語/スクリプトの隣の小さい丸にカーソルを合わせてください。小さい丸は**X**マークに変わります。その**X**をクリックすると、言語やスクリプトが削除されます。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:187
+msgid ""
+"To record a narrative note relating to either :term:`field`, use the "
+":ref:`Maintenance Notes <maintenance-notes>` area (this field is not "
+"available in the :term:`archival description` edit templates)."
+msgstr ""
+"関連する:term:`field`に関する説明的な注記を記録するには、:ref:`メンテナンスノート <maintenance-"
+"notes>`エリアを使用してください（このフィールドは:term:`アーカイブ記述`の編集テンプレートでは利用できません）。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:193
+msgid ""
+"These fields are intended to capture information about the language of the "
+"*description*, rather than the language of the *materials* themselves. For "
+":term:`archival descriptions <archival description>`, there are already "
+"fields available in the :term:`edit page` to capture information about the "
+"language of the materials being described - in the :ref:`ISAD(G) template "
+"<isad-template>`, these fields are found in the *Conditions of access and "
+"use* :term:`information area`; in the :ref:`RAD template <rad-template>`, "
+"these fields are found in the *Notes* :term:`information area`; in the "
+":ref:`DACS template <dacs-template>`, these are in the *Conditions of access"
+" and use elements*. For further information, see the section on :ref:`Data "
+"entry <data-entry>` for each specific edit template."
+msgstr ""
+"これらのフィールドは、*資料*自体ではなく、*説明*の言語に関する情報を捉えることを意図しています。:term:`アーカイバル記述 <archival "
+"description>`に関しては、記述されている資料の言語についての情報を捉えるために:term:`編集ページ`にすでに利用可能なフィールドがあります。:ref:`ISAD(G)"
+" テンプレート <isad-template>`では、これらのフィールドは*アクセスと使用の条件* :term:`情報エリア`にあります; "
+":ref:`RAD テンプレート <rad-template>`では、これらのフィールドは*ノート* :term:`情報エリア`にあります; "
+":ref:`DACS テンプレート <dacs-"
+"template>`では、これらは*アクセスと使用の条件の要素*にあります。さらに詳しい情報については、それぞれの編集テンプレートにおける:ref:`データ入力"
+" <data-entry>`のセクションを参照してください。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:207
+msgid "Sources"
+msgstr "情報源"
+
+#: ../../user-manual/add-edit-content/control-area.rst:209
+msgid ""
+"\"Record the sources consulted in establishing the description.\" ISDIAH "
+"5.6.8, ISAAR 5.4.8, ISDF 5.4.8"
+msgstr "「記述を確立する際に参照した情報源を記録する。」ISDIAH 5.6.8、ISAAR 5.4.8、ISDF 5.4.8"
+
+#: ../../user-manual/add-edit-content/control-area.rst:212
+msgid ""
+"\"Record relevant information about sources conslulted in establishing or "
+"revising the description.\" DACS 8.1.3. **Note** that this field is labeled "
+"\"Sources used\" in the :ref:`DACS template <dacs-template>`."
+msgstr ""
+"「説明の策定または改訂において参照した情報源に関する関連情報を記録してください。」DACS 8.1.3。**注記**：このフィールドは "
+":ref:`DACSテンプレート <dacs-template>` では「使用した情報源」と表示されます。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "The sources field in the Control area"
+msgstr "コントロール領域の「sources」フィールド"
+
+#: ../../user-manual/add-edit-content/control-area.rst:221
+#: ../../user-manual/add-edit-content/control-area.rst:247
+msgid ""
+"This is a text field; AtoM does not structure the data in any predetermined "
+"way."
+msgstr "これはテキストフィールドです。AtoMはデータを事前に定められた方法で構造化しません。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:226
+msgid "Maintenance notes"
+msgstr "メンテナンスノート"
+
+#: ../../user-manual/add-edit-content/control-area.rst:228
+msgid ""
+"\"Record notes pertinent to the creation and maintenance of the description."
+" For example, the names of persons responsible for creating and/or revising "
+"the description may be recorded here.\" ISDIAH 5.6.9, ISAAR 5.4.9"
+msgstr ""
+"説明の作成と維持に関連する記録メモを記録してください。例えば、説明の作成及び／または改定に責任を持つ人物の名前は、ここに記録することができます。」 "
+"ISDIAH 5.6.9, ISAAR 5.4.9"
+
+#: ../../user-manual/add-edit-content/control-area.rst:232
+msgid ""
+"\"Record notes pertinent to the creation and maintenance of the "
+"description.\" ISDF 5.4.9"
+msgstr "「説明の作成と維持に関連する記録ノート。」ISDF 5.4.9"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "The Maintenance notes field in the Control area"
+msgstr "制御エリア内のメンテナンスノート欄"
+
+#: ../../user-manual/add-edit-content/control-area.rst:240
+msgid ""
+"This element appears in the templates for :ref:`authority records "
+"<authority-records>`, :ref:`archival institutions <archival-institutions>` "
+"and :ref:`functions <functions>`. For :term:`archival descriptions <archival"
+" description>` see Archivist's notes, below."
+msgstr ""
+"この要素は、:ref:`権威記録（authority records）<authority-"
+"records>`、:ref:`アーカイブ機関（archival institutions）<archival-institutions>`、および "
+":ref:`機能（functions）<functions>`のテンプレートに現れます。:term:`アーカイブ記述（archival "
+"description）<archival description>`については、以下のアーキビストの注記を参照してください。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:250
+msgid "Archivist's notes"
+msgstr "アーキビストのノート"
+
+#: ../../user-manual/add-edit-content/control-area.rst:252
+msgid ""
+"\"Record notes on sources consulted in preparing the description and who "
+"prepared it.\" ISAD 3.7.1"
+msgstr "「説明の準備にあたって参照した情報源とそれを準備した人についてのメモを記録する。」ISAD 3.7.1"
+
+#: ../../user-manual/add-edit-content/control-area.rst:255
+msgid ""
+"\"Record the name(s) of the person(s) who created or revised the "
+"description, as well as the creation or revision date.\" DACS 8.1.5. "
+"**Note** that this field is labeled \"Archivist and date\" in the :ref:`DACS"
+" template <dacs-template>`."
+msgstr ""
+"「説明を作成または改訂した人物の名前、および作成または改訂の日付を記録してください。」DACS 8.1.5。**注意** "
+"この項目は、:ref:`DACSテンプレート<dacs-template>`で「アーキビストと日付」と表示されています。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:-1
+msgid "The Archivist's notes field in the Control area"
+msgstr "コントロール領域内のアーカイビストのノート欄"
+
+#: ../../user-manual/add-edit-content/control-area.rst:265
+msgid ""
+"This element appears only in the :ref:`ISAD(G) <isad-template>` and "
+":ref:`DACS <dacs-template>` :term:`archival description` templates. This is "
+"a text field; AtoM does not structure the data in any predetermined way. "
+"There is no limit to the number of notes you can add."
+msgstr ""
+"この要素は、:ref:`ISAD(G) <isad-template>` 及び :ref:`DACS <dacs-template>` "
+"の用語「アーカイブ記述」テンプレートにのみ現れます。これはテキストフィールドであり、AtoMは事前に定められた方法でデータを構造化しません。追加できる注記の数に制限はありません。"
+
+#: ../../user-manual/add-edit-content/control-area.rst:270
+msgid ":ref:`Back to top <control-area>`"
+msgstr ":ref:`トップに戻る <control-area>`"

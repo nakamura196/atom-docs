@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../dev-manual/api/download-do.rst:5
+msgid "Download digital object endpoint"
+msgstr "デジタルオブジェクトのエンドポイントをダウンロード"
+
+#: ../../dev-manual/api/download-do.rst:7
+msgid "**GET /api/informationobjects/<slug>/digitalobject**"
+msgstr "**GET /api/informationobjects/<スラッグ>/digitalobject**"
+
+#: ../../dev-manual/api/download-do.rst:9
+msgid ""
+"This endpoint will stream the content of the master :term:`digital object` "
+"associated with the :term:`archival description` whose slug is provided."
+msgstr ""
+"このエンドポイントは、提供されたスラッグに関連する:term:`アーカイバル記述`に関連付けられたマスター:term:`デジタルオブジェクト`の内容をストリーミングします。"
+
+#: ../../dev-manual/api/download-do.rst:14
+msgid ""
+"This endpoint supports streaming locally stored online :term:`digital "
+"objects <digital object>`, as well as external digital objects linked via a "
+"public URI. It is not possible to stream offline digital objects with this "
+"endpoint."
+msgstr ""
+"このエンドポイントは、ローカルに保存されているオンラインの:term:`デジタルオブジェクト<digital "
+"object>`をストリーミングすること、および公開URIを介してリンクされた外部デジタルオブジェクトをサポートしています。このエンドポイントでは、オフラインのデジタルオブジェクトをストリーミングすることはできません。"
+
+#: ../../dev-manual/api/download-do.rst:19
+msgid ""
+"To be able to query the endpoint, you will need to know the :term:`slug` of "
+"the information object (aka :term:`archival description`) whose digital "
+"object you wish to download. Note that the slug is included in the "
+":ref:`api-browse-io` response, so you could use it to determine the slug of "
+"a particular description if needed."
+msgstr ""
+"エンドポイントを問い合わせるためには、ダウンロードしたいデジタルオブジェクトが関連する情報オブジェクト（すなわち：用語`アーカイバル記述`）の:用語`スラッグ`を知る必要があります。スラッグは:ref:`api-"
+"browse-io`のレスポンスに含まれているので、特定の記述のスラッグを決定する必要がある場合にはそれを使うことができます。"
+
+#: ../../dev-manual/api/download-do.rst:28
+msgid "Example request"
+msgstr "申し込みの例"
+
+#: ../../dev-manual/api/download-do.rst:37
+msgid "Example response"
+msgstr ""
+"申し訳ありませんが、テキストが提供されていないため、翻訳することができません。翻訳を希望するテキストを提供していただければ、それに対応する翻訳を提供いたします。"
+
+#: ../../dev-manual/api/download-do.rst:39
+msgid "Example response is truncated and edited for readability."
+msgstr ""
+"文書の完全な翻訳には対応できませんが、提供されたテキストの一部を翻訳することが可能です。具体的なテキストを送っていただければ、その部分の翻訳を手伝わせていただきます。"
+
+#: ../../dev-manual/api/download-do.rst:55
+msgid ":ref:`Back to top <api-download-do>`"
+msgstr ":ref:`トップに戻る <api-download-do>`"

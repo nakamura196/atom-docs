@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/import-export/import-export-skos.rst:5
+msgid "Import and export terms with SKOS"
+msgstr "SKOSを使って用語をインポートおよびエクスポート"
+
+#: ../../user-manual/import-export/import-export-skos.rst:15
+msgid ""
+"A :term:`term` in AtoM is generally understood as a word or phrase making up"
+" part of a :term:`controlled vocabulary`, which are grouped into "
+":term:`taxonomies <taxonomy>` for use throughout the application, as either "
+":term:`value lists <value list>`, or :term:`access points <access point>`. "
+"To learn more about terms and taxonomies in AtoM, see:"
+msgstr ""
+"AtoMでは、一般に「用語（:term:`term`）」は、アプリケーション全体で使用されるよう「コントロールされた語彙（:term:`controlled"
+" vocabulary`）」の一部を構成する単語やフレーズと理解されています。これらは、値リスト（:term:`value lists <value "
+"list>`）、またはアクセスポイント（:term:`access points <access "
+"point>`）として使用されるために、「タクソノミー（:term:`taxonomies "
+"<taxonomy>`）」にグループ化されます。AtoM内の用語とタクソノミーについての詳細は、次のリンクを参照してください："
+
+#: ../../user-manual/import-export/import-export-skos.rst:21
+#: ../../user-manual/import-export/import-export-skos.rst:59
+#: ../../user-manual/import-export/import-export-skos.rst:212
+msgid ":ref:`terms`"
+msgstr ""
+"このテキスト自体は、参照を指し示しており、そのままでは具体的な内容を持っていませんが、Archivematicaのドキュメントにおける通常の使い方に基づいて翻訳すると以下のようになります：\n"
+"\n"
+"`:ref:`terms`` は、ドキュメント内の「用語」セクションへの参照を意味しています。日本語で文脈に応じて自然に表示させたい場合は、例えば「用語集」や「用語定義」など適切な節のタイトルを設定する必要があります。それを踏まえ、以下のように表現できます：\n"
+"\n"
+"「用語集」(参照：terms)\n"
+"\n"
+"または目次や索引にリンクを設定する場合は以下のように表示させます：\n"
+"\n"
+"参照：「用語集」"
+
+#: ../../user-manual/import-export/import-export-skos.rst:23
+msgid ""
+"You can import and export terms in AtoM using the Simple Knowledge "
+"Organization System (SKOS) format, described as a \"*W3C recommendation "
+"designed for representation of thesauri, classification schemes, taxonomies,"
+" subject-heading systems, or any other type of structured controlled "
+"vocabulary*\" (`Wikipedia "
+"<https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System>`__)."
+msgstr ""
+"AtoMでは、Simple Knowledge Organization "
+"System（SKOS）形式を使用して用語をインポートおよびエクスポートすることができます。これは、\"*類語辞典、分類スキーマ、タクソノミー、件名見出しシステム、またはその他の種類の構造化された統制語彙の表現用に設計されたW3Cの勧告*\"として説明されています（`Wikipedia"
+" <https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System>`__）。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:29
+msgid ""
+"The following documentation will introduce term import and export via the "
+":term:`user interface`."
+msgstr "以下のドキュメントでは、:term:`ユーザーインターフェース`を介した用語のインポートおよびエクスポートについて紹介します。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:32
+msgid "**Jump to:**"
+msgstr "**ジャンプ先:**"
+
+#: ../../user-manual/import-export/import-export-skos.rst:34
+msgid ":ref:`import-skos`"
+msgstr ""
+"`:ref:`import-skos`` の部分はreStructuredText (reST) 形式での相互参照 (cross-reference) マークアップです。これは、別のドキュメント部分へのリンクを示します。翻訳する際には、実際のテキストを上書きせず、該当する参照先の日本語のタイトルに適宜変更する必要があります。ただし、このマークアップ自体の構造を維持することが重要です。\n"
+"\n"
+"もし「import-skos」という節の名称が変わらない場合、この参照は次のように日本語に翻訳されます：\n"
+"\n"
+"`:ref:`import-skos``（SKOSのインポート）\n"
+"\n"
+"「SKOSのインポート」は、対応する節の日本語タイトルに置き換えるべきです。もし節のタイトルが変更されている場合は、その新しいタイトルを使用することになります。例えば、:\n"
+"\n"
+"`:ref:`skos-import-section``（SKOSインポートセクション）\n"
+"\n"
+"これにより、日本語読者は日本語の文脈で正しいドキュメントの場所に参照できるようになります。実際にどのようなドキュメントにリンクされているかに基づいて、参照する節のタイトルは適切に翻訳する必要があります。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:35
+msgid ":ref:`export-skos`"
+msgstr ""
+"この`:ref:`export-skos``は、マークアップ言語の一部であり、具体的なテキスト情報が欠けているため、直訳することはできません。しかし、これはテキスト内で参照リンクを指していると考えられます。`export-skos`は、特定の文脈において「SKOS形式でエクスポート」といった意味合いで使われることが想定されます。SKOS（Simple Knowledge Organization System）は、知識組織システムのためのW3C標準です。\n"
+"\n"
+"したがって、このマークアップに基づき、次のような日本語の文が考えられます：\n"
+"\n"
+"``:ref:`export-skos`を参照してください。``\n"
+"\n"
+"ここで`を参照してください。`は、日本語文脈に適した補足情報です。実際の文脈に即して、必要に応じて補足情報は調整するべきです。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:39
+msgid ""
+"A system administrator can also import SKOS XML via the command-line, and "
+"generate a list of terms currently linked to descriptions in a given "
+"taxonomy. For more information, see:"
+msgstr ""
+"システム管理者はコマンドラインを使用してSKOS "
+"XMLもインポートできるほか、特定のタクソノミーに現在リンクされている用語のリストを生成することができます。詳細については、以下を参照してください。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:43
+msgid ":ref:`cli-bulk-import-xml`"
+msgstr ":ref:`CLIによる大量インポートXML`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:44
+msgid ":ref:`cli-count-terms`"
+msgstr ""
+"CLI ターム数カウント\n"
+"\n"
+"[コマンドラインインターフェースのターム数を数えるためのリファレンス]"
+
+#: ../../user-manual/import-export/import-export-skos.rst:49
+msgid "Import terms with SKOS files"
+msgstr "SKOSファイルを使用した用語のインポート"
+
+#: ../../user-manual/import-export/import-export-skos.rst:51
+msgid ""
+"AtoM supports SKOS RDF imports via the :term:`user interface` for the import"
+" of :term:`terms <term>`, to be used in :term:`taxonomies <taxonomy>` in "
+"AtoM. The most common reason terms are imported are to add a list of "
+"controlled values to the taxonomies used as :term:`access points <access "
+"point>` in AtoM, such as Places, Subjects, Genres, Actor occupations, etc."
+msgstr ""
+"AtoMは、AtoM内の分類法で使用するために、用語をインポートする際のユーザーインターフェース経由でSKOS "
+"RDFのインポートをサポートしています。用語がインポートされる最も一般的な理由は、場所、主題、ジャンル、アクターの職業など、AtoMにおけるアクセスポイントとして使用される分類法に制御された値のリストを追加するためです。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:61
+msgid ""
+"Term import in the :term:`user interface` is managed by the AtoM job "
+"scheduler and run asynchronously in the background as a job. To be able to "
+"import terms via the user interface, you must have the AtoM job scheduler "
+"properly installed and configured. For more information see:"
+msgstr ""
+"用語「ユーザーインターフェース」内の項目のインポートは、AtoMジョブスケジューラによって管理され、ジョブとしてバックグラウンドで非同期に実行されます。ユーザーインターフェースを通じて項目をインポートするには、AtoMジョブスケジューラが適切にインストールされ、設定されている必要があります。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/import-export-skos.rst:66
+msgid ":ref:`maintenance-asynchronous-jobs`"
+msgstr "`:ref:`maintenance-asynchronous-jobs`` メンテナンス：非同期ジョブ"
+
+#: ../../user-manual/import-export/import-export-skos.rst:67
+msgid ":ref:`manage-jobs`"
+msgstr "`ジョブの管理<manage-jobs>`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:69
+msgid ""
+"You must be logged in with sufficient :term:`access privileges <access "
+"privilege>` to be able to import terms. Access privileges are based on "
+"defined :term:`user roles <user role>` in AtoM - for more information, see "
+"the following:"
+msgstr ""
+"用語をインポートするには、十分な:term:`アクセス権限 <access "
+"privilege>`でログインしている必要があります。アクセス権限はAtoM内で定義された:term:`ユーザーの役割 <user "
+"role>`に基づいています。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/import-export-skos.rst:74
+msgid ":ref:`User roles <user-roles>`"
+msgstr ":ref:`ユーザーロール <user-roles>`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:75
+msgid ":ref:`manage-user-accounts`"
+msgstr ":ref:`ユーザーアカウントの管理`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:76
+msgid ":ref:`edit-user-permissions`."
+msgstr "`:ref:`ユーザー権限の編集`。`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:78
+msgid ""
+"SKOS RDF data can be serialized into many different formats. On import, AtoM"
+" uses a third-party library called `EasyRDF <http://www.easyrdf.org/>`__ to "
+"parse and consume the SKOS data - so multiple different serializations are "
+"supported for term import. Examples include SKOS RDF XML, Turtle, N3, etc."
+msgstr ""
+"SKOS RDFデータは、多くの異なるフォーマットでシリアライズすることができます。インポート時に、AtoMは`EasyRDF "
+"<http://www.easyrdf.org/>`__ "
+"というサードパーティのライブラリを使用してSKOSデータを解析し取り込むため、用語のインポートには複数の異なるシリアライゼーションがサポートされています。例としては、SKOS"
+" RDF XML、Turtle、N3などがあります。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:83
+msgid ""
+"SKOS files can be uploaded locally, or if you have a URL to the ``.rdf`` "
+"SKOS file of your terms available online, then AtoM can fetch the terms from"
+" the web directly."
+msgstr ""
+"SKOSファイルはローカルにアップロードすることができます。また、オンラインで利用可能な用語の「.rdf」SKOSファイルのURLをお持ちの場合は、AtoMが直接Webから用語を取得することができます。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:89
+msgid ""
+"To be able to import terms remotely from a URL, the URL must point directly "
+"to the SKOS RDF file - generally, this means the URL **must** end in "
+"``.rdf``. An HTML landing page for terms, made for easier human readability,"
+" will not work!"
+msgstr ""
+"遠隔地からURLを介して用語をインポートするためには、そのURLがSKOS "
+"RDFファイルを直接指している必要があります。通常、これはURLが``.rdf``で終わることを**必須**と意味します。人間が読みやすいように作られている用語のHTMLランディングページでは機能しません！"
+
+#: ../../user-manual/import-export/import-export-skos.rst:94
+msgid ""
+"Because the AtoM job scheduler manages SKOS imports, an administrator can "
+"always review the status of any SKOS import on the Jobs page - the console "
+"output of the import task will be captured in the :ref:`Job details <job-"
+"details>` page of the related import job - see: :ref:`manage-jobs` for more "
+"information. This can be useful for troubleshooting as well - any warnings "
+"and errors generated on import will be captured in the console output."
+msgstr ""
+"AtoMジョブスケジューラはSKOSインポートを管理しているため、管理者は常に「ジョブ」ページで任意のSKOSインポートの状態を確認できます。インポートタスクのコンソール出力は、関連するインポートジョブの「ジョブ詳細<job-"
+"details>」ページに記録されます。詳細については「ジョブの管理<manage-"
+"jobs>」をご覧ください。これはトラブルシューティングにも役立ちます。インポート時に発生した警告やエラーはコンソール出力に記録されます。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:102
+msgid "**To import terms using SKOS**:"
+msgstr "**SKOS を使用して用語をインポートするには**："
+
+#: ../../user-manual/import-export/import-export-skos.rst:104
+msgid "Click on the |import| import menu, then click on SKOS."
+msgstr "|import|インポートメニューをクリックし、その後にSKOSをクリックしてください。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:7
+msgid "import"
+msgstr ""
+"\"Import\" を直訳すると日本語では「インポート」となりますが、アーカイブの文脈で使われる場合は「取り込み」と表現されることもあります。文脈に応じて使用してください。以下に例文があります。\n"
+"\n"
+"「データをアーカイブシステムにインポートする。」\n"
+"「アーカイブシステムへのデータ取り込み。」"
+
+#: ../../user-manual/import-export/import-export-skos.rst:-1
+msgid "The import menu"
+msgstr "インポートメニュー"
+
+#: ../../user-manual/import-export/import-export-skos.rst:113
+msgid ""
+"There is also a link to the SKOS import page on the XML import page, in the "
+"blue notification below the Type of import :term:`drop-down menu`:"
+msgstr ""
+"XMLインポートページにも、インポートの種類 :term:`ドロップダウンメニュー` の下の青い通知内に、SKOSインポートページへのリンクがあります："
+
+#: ../../user-manual/import-export/import-export-skos.rst
+msgid "Import menu showing link to SKOS import page."
+msgstr "インポートメニューに「SKOSインポートページへのリンク」が表示されています。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:121
+msgid "AtoM will redirect you to the SKOS import page."
+msgstr "AtoMはSKOSインポートページにリダイレクトします。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:-1
+msgid "The SKOS import page"
+msgstr "SKOSインポートページ"
+
+#: ../../user-manual/import-export/import-export-skos.rst:128
+msgid ""
+"The \"Taxonomy\" :term:`field` on the SKOS import page determines the "
+":term:`taxonomy` into which your SKOS terms will be imported. This field is "
+"an auto-complete - as you begin to type the name of the target taxonomy, "
+"matching results will appear in a :term:`drop-down menu` beneath the field. "
+"When you see the target taxonomy, click on it in the drop-down menu to "
+"select it."
+msgstr ""
+"「タクソノミー」：用語`field`は、SKOSインポートページ上で、あなたのSKOS用語がインポートされる:用語`taxonomy`を決定します。このフィールドは自動補完機能がついており"
+" - "
+"目的のタクソノミーの名前を入力し始めると、一致する結果がフィールドの下に:用語`ドロップダウン・メニュー`として表示されます。目的のタクソノミーを見つけたら、ドロップダウンメニューでそれをクリックして選択します。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:137
+msgid ""
+"AtoM currently defaults to \"Places\" in the taxonomy field. Users can "
+"replace this with the name of any taxonomy by typing it into the field."
+msgstr ""
+"AtoMは現在、分類学フィールドでデフォルト値として「Places」を使用しています。ユーザーはこのフィールドに任意の分類学の名前を入力することによって、これを置き換えることができます。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:140
+msgid ""
+"To upload a local SKOS file for import, click the \"Browse\" button to open "
+"a window on your local computer. Select the SKOS file that you would like to"
+" import."
+msgstr ""
+"ローカルのSKOSファイルをインポートするためにアップロードするには、「Browse」ボタンをクリックして、あなたのローカルコンピューター上のウィンドウを開きます。インポートしたいSKOSファイルを選択してください。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:-1
+msgid "Clicking the \"Browse\" button in the SKOS import page"
+msgstr "「SKOSインポートページ」の「ブラウズ」ボタンをクリックすると"
+
+#: ../../user-manual/import-export/import-export-skos.rst:149
+msgid ""
+"When you have selected the file from your device, its name will appear next "
+"to the \"Browse\" button."
+msgstr "お使いのデバイスからファイルを選択すると、その名前が「参照」ボタンの隣に表示されます。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:152
+msgid ""
+"To upload remote SKOS RDF resource from an online source, enter the URL into"
+" the Remote resource field. Remember, valid URLs must begin with ``http://``"
+" or ``https://``, and end in a ``.rdf`` file extension."
+msgstr ""
+"オンラインソースからリモートSKOS "
+"RDFリソースをアップロードするには、URLを「リモートリソース」フィールドに入力してください。有効なURLは「http://」または「https://」で始まり、「.rdf」ファイル拡張子で終わる必要があることを覚えておいてください。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:-1
+msgid "The SKOS import page's Remote resource field"
+msgstr "SKOSインポートページの「リモートリソース」フィールド"
+
+#: ../../user-manual/import-export/import-export-skos.rst:161
+msgid ""
+"When you have configured all the options, click the \"Import\" button in the"
+" :term:`button block` at the bottom of the SKOS import page to begin your "
+"import."
+msgstr ""
+"すべてのオプションを設定したら、SKOSインポートページの下部にある「ボタンブロック」：term:`button "
+"block`内の「インポート」ボタンをクリックして、インポートを開始してください。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:-1
+msgid "The import button on the SKOS import page."
+msgstr "SKOSインポートページ上のインポートボタン。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:172
+msgid ""
+"Depending on the size of your SKOS import, this can take some time to "
+"complete. Be patient! Remember, you can always check on the status of an "
+"import by reviewing the :ref:`Job details <job-details>` page of the related"
+" import job - see: :ref:`manage-jobs` for more information."
+msgstr ""
+"SKOSインポートのサイズによっては、完了までに時間がかかることがあります。忍耐強く待ちましょう！インポートの状態は、関連するインポートジョブの「ジョブ詳細<job-"
+"details>」ページを確認することでいつでもチェックできます。詳しくは、「ジョブの管理<manage-jobs>」をご覧ください。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:177
+msgid ""
+"After your import has begun, AtoM will reload the SKOS import page and "
+"indicate that the import has been initiated with a notification at the top "
+"of the page. This notification will also provide you with a link to the "
+":ref:`Job details <job-details>` page of the related import job, where you "
+"can check on the status of the import. You can begin another SKOS import at "
+"this time, or navigate elsewhere in the application."
+msgstr ""
+"インポートが開始された後、AtoMはSKOSインポートページを再読み込みし、ページの上部にある通知でインポートが開始されたことを示します。この通知には、関連するインポートジョブの「:ref:`ジョブ詳細<job-"
+"details>`」ページへのリンクも含まれており、そこでインポートの状態を確認することができます。この時点で別のSKOSインポートを開始することも、アプリケーション内の他の場所に移動することもできます。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:184
+#: ../../user-manual/import-export/import-export-skos.rst:253
+msgid ":ref:`Back to top <import-export-skos>`"
+msgstr ":ref:`トップに戻る <import-export-skos>`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:189
+msgid "Export terms as SKOS XML"
+msgstr "SKOS XMLとして用語をエクスポートする"
+
+#: ../../user-manual/import-export/import-export-skos.rst:191
+msgid ""
+"AtoM supports SKOS RDF XML exports from the :term:`term` view page. When "
+"exported, the term currently being viewed, as well as any :term:`child "
+"<child record>` terms, will be captured in the SKOS XML generated. SKOS XML "
+"exports are available all users on the term :term:`view pages <view page>` "
+"accessible to public users (such as Subjects and Places). Some taxonomies in"
+" AtoM are not publicly accessible, and therefore only authenticated (i.e. "
+"logged in) users will be able to export them."
+msgstr ""
+"AtoMは、:term:`term` 表示ページからSKOS RDF "
+"XMLエクスポートをサポートしています。エクスポートされる際、現在表示されている用語およびその :term:`child <child record>`"
+" 用語が、生成されたSKOS XMLに記録されます。SKOS XMLエクスポートは、公開ユーザーがアクセス可能な :term:`view pages "
+"<view "
+"page>`（例えば、主題や場所など）で全ユーザーが利用可能です。AtoM内の一部の分類体系は公開アクセス可能ではないため、認証された（つまり、ログインした）ユーザーのみがそれらをエクスポートすることができます。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:200
+msgid ""
+"SKOS XML term exports are not currently supported by the job scheduler, "
+"meaning they are generated on-request. This means that very large "
+"hierarchies may not be able to be exported via the :term:`user interface`, "
+"as the browser's built-in time out limits (to prevent long-running requests "
+"from consuming all available resources - usually about 1 minute in most "
+"modern browsers) may be reached before the SKOS file can be generated."
+msgstr ""
+"SKOS "
+"XML用語エクスポートは、現在ジョブスケジューラーによってサポートされていません。つまり、これらは要求に応じて生成されます。これは、非常に大規模な階層が、:term:`ユーザーインターフェース`を通じてエクスポートすることができない可能性があることを意味します。なぜなら、ブラウザの組み込みタイムアウト制限（長時間実行されるリクエストが利用可能なリソースをすべて消費するのを防ぐためのもので、ほとんどの現代のブラウザで約1分です）に到達する前に、SKOSファイルが生成されることがないかもしれないからです。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:207
+msgid ""
+"At this time it is not possible to export an entire taxonomy - exports must "
+"be initiated from the top-level term view page."
+msgstr ""
+"現時点では、全体の分類体系をエクスポートすることはできません - エクスポートは、最上位レベルの用語ビューページから開始する必要があります。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:210
+msgid ""
+"For more information on working with terms and navigation in AtoM, see:"
+msgstr "AtoMで用語やナビゲーションを使用する方法の詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/import-export-skos.rst:213
+msgid ":ref:`browse-subjects-places`"
+msgstr ""
+"このテキストの断片だけでは、完全な文脈を把握することが難しいですが、普通に翻訳するだけであれば以下のようになります。\n"
+"\n"
+":ref:`対象・場所を閲覧する`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:214
+msgid ":ref:`navigate`"
+msgstr ":ref:`ナビゲート`"
+
+#: ../../user-manual/import-export/import-export-skos.rst:216
+msgid "**To export terms in SKOS RDF XML:**"
+msgstr "**SKOS RDF XML形式で用語をエクスポートするには：**"
+
+#: ../../user-manual/import-export/import-export-skos.rst:218
+msgid ""
+"Navigate to the term(s) you wish to export. You can access terms by "
+"navigating to |pencil| **Manage > Taxonomies**, selecting the "
+":term:`taxonomy` that contains the terms you wish to export, and then "
+"finding the term and clicking on it. Alternatively, if your term is part of "
+"the :term:`Subjects <subject>` or :term:`Places <place>` taxonomy, you can "
+"use the :term:`Browse menu` located in the AtoM header bar to access those "
+"taxonomies. Click through to the term's :term:`view page`."
+msgstr ""
+"エクスポートしたい用語に移動します。用語にアクセスするには、|pencil| **管理 > "
+"タクソノミー**に移動し、エクスポートしたい用語を含む:term:`タクソノミー`を選択し、その後用語を見つけてクリックします。あるいは、用語が:term:`主題"
+" <subject>`や:term:`場所 "
+"<place>`のタクソノミーの一部である場合は、AtoMヘッダーバーにある:term:`ブラウズメニュー`を使用してこれらのタクソノミーにアクセスできます。用語の:term:`ビューページ`に進みます。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:11
+msgid "pencil"
+msgstr "鉛筆"
+
+#: ../../user-manual/import-export/import-export-skos.rst:-1
+msgid "The view page for a term in the Subjects taxonomy"
+msgstr "主題（Subjects）分類における用語の表示ページ"
+
+#: ../../user-manual/import-export/import-export-skos.rst:232
+msgid ""
+"In the right-hand :term:`context menu` of the term :term:`view page`, click "
+"on the SKOS button under the \"Export\" heading."
+msgstr "用語「ビューページ」の右側の:term:`コンテキストメニュー`にて、「エクスポート」見出しの下にあるSKOSボタンをクリックします。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:-1
+msgid "Export SKOS button on the term view page"
+msgstr "用語ビューページのSKOSをエクスポートするボタン"
+
+#: ../../user-manual/import-export/import-export-skos.rst:240
+msgid ""
+"AtoM will reload the page to display your SKOS XML. You should be able to "
+"right-click in your browser to save the page."
+msgstr "AtoMはSKOS XMLを表示するためにページを再読み込みします。ブラウザで右クリックしてページを保存できるはずです。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:245
+msgid ""
+"Be aware that some browsers (e.g., Safari) may only allow you to save the "
+"Exported SKOS file as HTML. Firefox and Chrome provide the ability to Save "
+"page as XML, which enables Importing as XML into another program or into "
+"another version of AtoM."
+msgstr ""
+"注意してください。一部のブラウザ（例：Safari）では、エクスポートされたSKOSファイルをHTMLとしてのみ保存できる場合があります。FirefoxやChromeは「ページをXMLとして保存」する機能を提供しており、これにより他のプログラムやAtoMの別のバージョンにXMLとしてインポートすることが可能になります。"
+
+#: ../../user-manual/import-export/import-export-skos.rst:250
+msgid ""
+"If you have problems with the save options provided by one browser, we "
+"suggest trying another if possible."
+msgstr "一つのブラウザで保存オプションに問題がある場合、可能であれば別のブラウザを試してみることをお勧めします。"

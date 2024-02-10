@@ -1,0 +1,1561 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/terms.rst:5
+msgid "Terms"
+msgstr "用語"
+
+#: ../../user-manual/add-edit-content/terms.rst:7
+msgid ""
+"A term in AtoM is generally understood as a word or phrase making up part of"
+" a :term:`controlled vocabulary`, which are grouped into :term:`taxonomies "
+"<taxonomy>` for use throughout the application, as either :term:`value lists"
+" <value list>`, or :term:`access points <access point>`. Generally, a "
+"taxonomy is a system of classification, often (but not necessarily) "
+"organized hierarchically; in AtoM taxonomies are groupings of controlled "
+"vocabulary :term:`terms <term>`. Throughout AtoM, these controlled "
+"vocabularies are used to generate the values that appear in :term:`drop-down"
+" menus <drop-down menu>`. These drop-down menus provide value lists that "
+"restrict data entry in certain :term:`fields <field>` to certain values "
+"(i.e. the controlled values in the taxonomy). AtoM typically stores these "
+"values as term records in the database, and assigns them to taxonomies - for"
+" example,  the \"type of entity\" field of an :term:`authority record` can "
+"by default accept only one of the three values, \"corporate body,\" "
+"\"person,\" or \"family.\" Each of these values is a term assigned to the "
+"*Actor entity types* taxonomy. All controlled vocabularies are managed via "
+"taxonomies in AtoM, accessible to authorized users via the **Manage > "
+"Taxonomies** menu."
+msgstr ""
+"AtoM内の用語は、一般的に`:term:`制御語彙`の一部を構成する単語やフレーズとして理解されます。これらはアプリケーション内で`:term:`値リスト"
+" <value list>`または`:term:`アクセスポイント <access "
+"point>`として使用される`:term:`分類体系<taxonomy>`にグループ化されます。一般的に、分類体系はしばしば（ただし必ずしもではありません）階層的に構成される分類システムです。AtoMでは、分類体系は制御語彙の`:term:`用語"
+" <term>`のグルーピングです。AtoM全体で、これらの制御語彙は`:term:`ドロップダウンメニュー <drop-down "
+"menu>`に表示される値を生成するために使用されます。これらのドロップダウンメニューは、特定の`:term:`フィールド "
+"<field>`でデータ入力を分類体系内の特定の値（つまり、制御された値）に限定する値リストを提供します。AtoMは通常、これらの値をデータベース内の用語レコードとして保存し、分類体系に割り当てます。たとえば、`:term:`権威記録`の「エンティティの種類」フィールドは、デフォルトで「法人」、「個人」、または「家族」という3つの値のいずれか1つのみを受け入れることができます。これらの各値は、*アクターエンティティタイプ*分類体系に割り当てられた用語です。すべての制御語彙はAtoM内の分類体系を介して管理され、**管理"
+" > 分類体系**メニューから権限のあるユーザーがアクセスできます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:25
+#: ../../user-manual/add-edit-content/terms.rst:847
+msgid ""
+"AtoM ships with a fixed number of :term:`taxonomies <taxonomy>` containing "
+"default values (:term:`terms <term>`). Some terms are locked, i.e. cannot be"
+" edited or deleted, because they are used by the application's underlying "
+"code. Most terms, however, can be edited or deleted, and all taxonomies can "
+"be assigned new terms in addition to any locked values."
+msgstr ""
+"AtoMは、デフォルト値（:term:`用語 <term>`）を含む固定数の:term:`タクソノミー "
+"<taxonomy>`を搭載しています。いくつかの用語はロックされており、つまり編集や削除ができません。なぜならそれらはアプリケーションの基礎となるコードによって使用されているためです。しかし、ほとんどの用語は編集や削除が可能で、すべてのタクソノミーにはロックされた値に加えて、新しい用語を割り当てることができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:33
+msgid "**An example of locked terms: Physical object type taxonomy**"
+msgstr "**ロックされた用語の例：物理的オブジェクトタイプ分類法**"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "Physical object taxonomy showing hierarchy"
+msgstr "物理的オブジェクトの分類法と階層の表示"
+
+#: ../../user-manual/add-edit-content/terms.rst:40
+msgid ""
+"The Physical object type taxonomy contains terms that are used by the "
+"Physical storage module in AtoM - for more information on working with "
+"physical storage, see: :ref:`physical-storage`. In the Physical object type "
+"taxonomy, a set of default terms is included by default at installation. "
+"While some of these terms can be edited or deleted by users, and new terms "
+"can be added, key parent terms (Artefact, Container, and Location) are "
+"locked terms, because they are used by AtoM's underlying code."
+msgstr ""
+"物理オブジェクトタイプの分類には、AtoMの物理ストレージモジュールで使用される用語が含まれています。物理ストレージの操作に関する詳細は、:ref:`physical-"
+"storage`を参照してください。物理オブジェクトタイプの分類では、デフォルトで一連の既定の用語がインストール時に含まれています。これらの用語のいくつかはユーザーによって編集や削除が可能ですが、新たな用語を追加することもできますが、主要な親用語（アーティファクト、コンテナー、ロケーション）は、AtoMの基盤となるコードで使用されているため、ロックされた用語です。"
+
+#: ../../user-manual/add-edit-content/terms.rst:48
+msgid ""
+"The intended use is for \"Containers\" to include specific storage "
+"containers, such as box numbers, cabinet drawers, etc., and for "
+"\"Locations\" to include more general storage locations, such as \"Cold "
+"storage,\" \"Vault,\" etc. Storage types and uses can be customized to meet "
+"institutional practices, however in order to :ref:`link <link-physical-"
+"storage>` a custom storage container to a new or existing :term:`archival "
+"description` you must nest the storage container under \"Container.\" "
+"Similarly, new locations can be created by users through the physical "
+"storage module's :term:`user interface`, and they will automatically be "
+"added a children of the locked term \"Location.\""
+msgstr ""
+"意図された用途として、「コンテナ」は特定の保管容器、例えば箱番号、キャビネットの引き出しなどを含めるためのものであり、「場所」はより一般的な保管場所を含めるためのもので、「低温保存」、「金庫」などとします。保管の種類と使用方法は機関の慣行に合わせてカスタマイズすることができますが、カスタム保管容器を新しく作成された、または既存の"
+" :term:`アーカイバル記述` に :ref:`リンク <link-physical-storage>` "
+"するためには、「コンテナ」の下にその保管容器をネストさせる必要があります。同様に、物理保管モジュールの :term:`ユーザインターフェイス` "
+"を通じて、ユーザーが新しい場所を作成することができ、それらは自動的にロックされた用語「場所」の子として追加されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:59
+msgid ""
+"Other default terms (such as Box, Filing cabinet, Folder, etc) can be edited"
+" or delted by users - these are not locked terms, but are included by "
+"default for convenience. New terms can be added by users - see :ref:`add-"
+"term`, below, for more information."
+msgstr ""
+"デフォルトのその他の用語（ボックス、ファイリングキャビネット、フォルダーなど）は、ユーザーによって編集または削除が可能です - "
+"これらはロックされた用語ではありませんが、便宜のためにデフォルトで含まれています。新しい用語はユーザーによって追加することができます - "
+"詳細については以下の「add-term」を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:64
+msgid ""
+"Terms are also used throughout the application as :term:`access points "
+"<access point>`, such as :term:`subject` and :term:`place` access points "
+"added to :term:`archival descriptions <archival description>`. The place and"
+" subject taxonomies are the two :term:`taxonomies <taxonomy>` that users "
+"will likely interact with the most. AtoM's use of a taxonomy to manage "
+"access points allows them to be organized hierarchically, with broader "
+"terms, related terms, and narrower terms. This is of particular use for "
+":term:`place` access points, as all parent terms will appear on a record as "
+"a :term:`breadcrumb trail` when a term is added as an access point - for "
+"example, if the term \"Vancouver\" is added as a place access point to an "
+":term:`archival description`, and in the Places taxonomy \"Vancouver\" has "
+"the broader (or parent) term of \"British columbia\", the access point will "
+"appear on the related archival description as \"**British columbia >> "
+"Vancouver**\":"
+msgstr ""
+"アプリケーション全体で用語は、アーカイブ記述に追加される「主題」と「場所」のアクセスポイントなど、アクセスポイントとしても使用されます。場所と主題の分類法は、ユーザーが最も頻繁に対話するであろう2つの分類法です。AtoMがアクセスポイントを管理するために分類法を使用することによって、これらは上位の用語、関連する用語、下位の用語と階層的に整理されます。これは特に場所のアクセスポイントに有用です。なぜなら、用語がアクセスポイントとして追加された際には全ての親用語がレコード上で階層構造を示す「パンくずリスト」として表示されるからです。例えば、「バンクーバー」という用語がアーカイブ記述の場所のアクセスポイントとして追加され、場所の分類法内で「バンクーバー」に「ブリティッシュコロンビア」という上位（または親）用語がある場合、関連するアーカイブ記述にアクセスポイントは「**ブリティッシュコロンビア"
+" >> バンクーバー**」として表示されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "An example of place access points in AtoM"
+msgstr "AtoMでのアクセスポイントの例"
+
+#: ../../user-manual/add-edit-content/terms.rst:83
+msgid ""
+"By allowing authorized :term:`administrators <administrator>` access to all "
+"taxonomies, users have the ability to customize descriptive templates to "
+"meet local or regional descriptive practices, or to remove controlled field "
+"terms that are not in use within the institution. This ability to customize "
+"is one of the strengths of AtoM as a freely available open-source software "
+"application."
+msgstr ""
+"認証を受けた用語`管理者<administrator>`に全ての分類法にアクセスを許可することにより、ユーザーは地方または地域の記述慣行に合わせた記述テンプレートをカスタマイズしたり、機関内で使用されていないコントロールされたフィールド用語を削除する能力を持ちます。このカスタマイズの能力は、AtoMがフリーで公開されているオープンソースソフトウェアアプリケーションとしての強みの一つです。"
+
+#: ../../user-manual/add-edit-content/terms.rst:92
+msgid ""
+"Users (even :term:`administrators <administrator>`) cannot add new "
+":term:`taxonomies <taxonomy>`; the number and names of taxonomies are fixed "
+"and can only be altered by :term:`developers <developer>` working directly "
+"with the code."
+msgstr ""
+"ユーザー（:term:`管理者 <administrator>`であっても）は新しい:term:`タクソノミー "
+"<taxonomy>`を追加することはできません。タクソノミーの数と名前は固定されており、:term:`開発者 "
+"<developer>`が直接コードを操作してのみ変更することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:97
+msgid "**Below are instruction for using the Terms module in AtoM to:**"
+msgstr "**以下は、AtoMのTermsモジュールを使用するための指示です：**"
+
+#: ../../user-manual/add-edit-content/terms.rst:99
+msgid ":ref:`Add a new term <add-term>`"
+msgstr ":ref:`新しい用語の追加 <add-term>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:100
+msgid ":ref:`Manage hierarchical taxonomies <hierarchical-taxonomies>`"
+msgstr ":ref:`階層的分類を管理する <hierarchical-taxonomies>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:101
+msgid ":ref:`Edit an existing term <edit-term>`"
+msgstr ":ref:`既存の用語を編集する <edit-term>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:102
+msgid ":ref:`Delete a term <delete-term>`"
+msgstr ":ref:`用語の削除 <delete-term>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:106
+msgid ":ref:`term-name-vs-subject`"
+msgstr ":ref:`用語-名称対主題`"
+
+#: ../../user-manual/add-edit-content/terms.rst:107
+msgid ":ref:`browse-subjects-places`"
+msgstr ":ref:`主題や場所を閲覧する`"
+
+#: ../../user-manual/add-edit-content/terms.rst:108
+msgid ":ref:`import-export-skos`"
+msgstr ""
+"`:ref:`import-export-skos`はリファレンス（参照）リンク用のマークアップです。そのため、これだけでは完全な文章になっておらず、日本語に翻訳しにくいです。しかしながら、直訳すると「インポート・エクスポートSKOS（参照）」のような意味になります。SKOSは\"Simple Knowledge Organization System\"の略で、データや概念を組織・共有するための一般的な方法を提供するW3Cのスタンダードです。\n"
+"\n"
+"もし、「:ref:`import-export-skos`」が文脈の中にある場合は、その文脈に応じた日本語の訳を提供できますが、ここだけの情報で具体的な翻訳をするのは困難です。もし文脈が提供されたら、より適切な翻訳を提供できます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:109
+msgid ":ref:`The Manage menu <main-menu-manage>`"
+msgstr "の「Manage（管理）」メニューについては、<main-menu-manage>セクションを参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:110
+msgid ":ref:`term-data-entry`"
+msgstr ""
+"`:ref:`term-data-entry`` という表記は、特定の文書やフォーマットにおいて参照(references)や索引(index)を用いた際のマークアップ言語に基づいています。通常、これはSphinxやReStructuredTextのドキュメントにおける内部参照を示すタグです。直訳すると、「データ入力項目」となりますが、この文脈では、このタグがどこを指しているのか、周辺の文章や構造が無いため正確な翻訳は困難です。本来であればタグは対応するターゲットを参照しているため、そのターゲットに応じた適切な日本語訳を見つける必要があります。\n"
+"\n"
+"そのため翻訳する場合、対象となる文書全体を理解した上で、それに即した文脈を考えながら次のように翻訳することになるでしょう：\n"
+"\n"
+"「データ入力に関する用語説明」\n"
+"\n"
+"しかしこれは、参照が指し示す先や文書全体の内容に基づき、適切に文脈に即した日本語訳を行う必要がある場合の一例です。"
+
+#: ../../user-manual/add-edit-content/terms.rst:111
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイバル・ディスクリプション`"
+
+#: ../../user-manual/add-edit-content/terms.rst:112
+msgid ":ref:`entity-types`"
+msgstr "エンティティタイプ（entity-types）"
+
+#: ../../user-manual/add-edit-content/terms.rst:113
+msgid ":ref:`exit-edit-mode`"
+msgstr "参照：`編集モードを終了する`"
+
+#: ../../user-manual/add-edit-content/terms.rst:119
+msgid "Add a new term"
+msgstr "新しい用語を追加"
+
+#: ../../user-manual/add-edit-content/terms.rst:121
+msgid ""
+"There are two main ways to add :term:`terms <term>` in AtoM, depending on "
+"what type of term is being added. Adding a term via the Manage taxonomy "
+"screen offers the most options for creating a :term:`controlled vocabulary` "
+"term, as the entire term :term:`edit page` is available to the user for data"
+" entry. However, if the term being created is a :term:`place` or "
+":term:`subject` :term:`access point`, users with sufficient :term:`access "
+"privileges <access privilege>` can also create new place and subject terms "
+"\"on the fly\" from the :term:`archival description` edit page when adding "
+"them as access points to an archival description. See below for assistance "
+"with:"
+msgstr ""
+"AtoMで用語を追加する主要な方法は2つあり、どのタイプの用語を追加するかによって異なります。管理用タクソノミー画面を通じて用語を追加することは、制御された語彙の用語を作成する際に最も多くのオプションを提供します。これは、ユーザーがデータ入力を行うために用語の編集ページ全体が利用可能だからです。しかしながら、作成される用語が場所または主題のアクセスポイントである場合、十分なアクセス権限を持つユーザーは、「その場」で新しい場所や主題の用語をアーカイブ記述の編集ページから直接作成し、それらをアーカイブ記述にアクセスポイントとして追加することも可能です。以下で、次のことに関する支援をご覧ください："
+
+#: ../../user-manual/add-edit-content/terms.rst:132
+msgid ""
+":ref:`Adding a new term from the Manage Taxonomy screen <add-term-taxonomy>`"
+msgstr "「Manage Taxonomy画面から新しい用語を追加する<add-term-taxonomy>」"
+
+#: ../../user-manual/add-edit-content/terms.rst:135
+msgid ":ref:`Term data entry (help with fields) <term-data-entry>`"
+msgstr ":ref:`用語データ入力（フィールドの使用方法）<term-data-entry>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:137
+msgid ""
+":ref:`Adding an access point \"on the fly\" from an archival description "
+"<add-term-fly>`"
+msgstr ":ref:`アーカイブ説明から \"その場で\" アクセスポイントを追加する <add-term-fly>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:143
+msgid "Add a new term from the Manage Taxonomy screen"
+msgstr "管理分類画面から新しい用語を追加"
+
+#: ../../user-manual/add-edit-content/terms.rst:149
+#: ../../user-manual/add-edit-content/terms.rst:497
+#: ../../user-manual/add-edit-content/terms.rst:863
+#: ../../user-manual/add-edit-content/terms.rst:973
+msgid ""
+"In the :term:`main menu` located in the AtoM :term:`header bar`, click the "
+"|manage| :ref:`\"Manage\" <main-menu-manage>` menu and select \"Taxonomies\""
+" from the :term:`drop-down menu`. AtoM will redirect you to a list of the "
+"the :term:`taxonomies <taxonomy>` available in AtoM."
+msgstr ""
+"AtoMの:term:`ヘッダーバー`にある:term:`メインメニュー`で、|manage| :ref:`「管理」<main-menu-"
+"manage>`メニューをクリックし、:term:`ドロップダウンメニュー`から「タクソノミー」を選択してください。AtoMはあなたをAtoMで利用可能な:term:`タクソノミー<taxonomy>`のリストへとリダイレクトします。"
+
+#: ../../user-manual/add-edit-content/terms.rst:145
+msgid "manage"
+msgstr "管理"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "The List taxonomy page in AtoM"
+msgstr "AtoMのリスト分類ページ"
+
+#: ../../user-manual/add-edit-content/terms.rst:159
+msgid ""
+"Click on the :term:`taxonomy` you want to edit to expand it and view the "
+":term:`terms <term>` associated with the taxonomy."
+msgstr "編集したい:term:`分類法`をクリックして展開し、その分類法に関連付けられた:term:`用語 <term>`を表示します。"
+
+#: ../../user-manual/add-edit-content/terms.rst:164
+msgid ""
+"In general, if you are adding :term:`access points <access point>` for use "
+"in :term:`archival descriptions <archival description>`, you will be "
+"navigating to the **Places** or **Subjects** taxonomies - the other "
+":term:`taxonomy` options listed manage the :term:`terms <term>` found in "
+"controlled fields throughout the templates in AtoM. Unless you are an "
+"advanced user with administrative permissions in your institution, we "
+"recommend that you do not add or edit other terms in the Taxonomies."
+msgstr ""
+"一般に、:term:`アーカイブ記述 <archival description>` で使用するための:term:`アクセスポイント <access "
+"point>`を追加する場合、**場所**または**主題**のタクソノミーに移動します - その他のリストされた :term:`タクソノミー` "
+"オプションは、AtoMのテンプレート内で管理されている制御フィールドに見つかる:term:`用語 "
+"<term>`を管理します。あなたがあなたの機関で管理者権限を持つ上級ユーザーでない限り、タクソノミーに他の用語を追加または編集することをお勧めしません。"
+
+#: ../../user-manual/add-edit-content/terms.rst:172
+msgid ""
+"Click the :term:`Add new button` located in the :term:`button block` at the "
+"bottom of the page to add a new :term:`term` to the :term:`taxonomy`. This "
+"will open the :term:`edit page` for data entry."
+msgstr ""
+"ページの下部にある「ボタンブロック」に位置する「新規追加ボタン」をクリックして、新しい「用語」を「分類体系」に追加します。これにより、データ入力のための「編集ページ」が開きます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid ""
+"An example of a Taxonomy list page - showing the Copyright status\n"
+"taxonomy"
+msgstr "著作権ステータスのタクソノミーの一例を表示するタクソノミー・リスト・ページ"
+
+#: ../../user-manual/add-edit-content/terms.rst:182
+msgid ""
+"See the :ref:`Term data entry <term-data-entry>` section below for guidance "
+"in using specific :term:`fields <field>` in the Taxonomy :term:`edit page`."
+msgstr ""
+"以下の「:ref:`用語データ入力 <term-data-entry>`」セクションを参照し、分類:term:`編集ページ <edit "
+"page>`内の特定の:term:`フィールド <field>`の使用方法についてのガイダンスを確認してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:185
+msgid ""
+"You can quit the creation process at any by clicking the \"Cancel\" button "
+"in the :term:`button block` at the bottom of the page; no new :term:`term` "
+"will be created. Note that navigating away from the :term:`edit page` "
+"**without first saving your work** will also result in no new term being "
+"created."
+msgstr ""
+"ページの下部にある「ボタンブロック」の「キャンセル」ボタンをクリックすることで、いつでも作成プロセスを中止することができます。新しい「用語」は作成されません。また、**作業を保存せずに**「編集ページ」から離れると、新しい用語が作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:190
+msgid ""
+"When you are finished entering data, click the :term:`Create button` to save"
+" the new record. AtoM will redirect you to the new term's :term:`view page`,"
+" where you can review your work."
+msgstr ""
+"データの入力が完了したら、「作成ボタン」をクリックして新しいレコードを保存します。AtoMはあなたを新しい用語の「表示ページ」へリダイレクトし、そこであなたの作業内容を確認することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:197
+msgid "Term data entry"
+msgstr "用語データ入力"
+
+#: ../../user-manual/add-edit-content/terms.rst:199
+msgid ""
+"The following gives a brief overview of the fields included in the Term "
+":term:`edit template <edit page>`, to assist users in adding data:"
+msgstr ""
+"次に、ユーザーがデータを追加する際に役立つよう、用語 :term:`編集テンプレート<edit "
+"page>`に含まれるフィールドの簡単な概要を説明します。"
+
+#: ../../user-manual/add-edit-content/terms.rst:208
+msgid "An example of a term from the Places taxonomy"
+msgstr "Places taxonomy からの用語の一例"
+
+#: ../../user-manual/add-edit-content/terms.rst:210
+msgid ""
+"**Taxonomy**: This :term:`field` is completed automatically according to the"
+" :term:`taxonomy` to which the :term:`term` belongs."
+msgstr "**分類学**: この:term:`フィールド`は、:term:`用語`が属する:term:`分類学`に基づいて自動的に完成されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:212
+msgid ""
+"**Name**: Enter the name of the :term:`term` as you would like to see it "
+"appear in value lists in :term:`edit pages <edit page>` (e.g. as options in "
+"a :term:`drop-down menu`)and as labels in the :term:`view pages <view "
+"page>`."
+msgstr ""
+"**名前**: :term:`編集ページ<edit "
+"page>`（例：:term:`ドロップダウンメニュー`内のオプション）や:term:`表示ページ<view "
+"page>`で、値のリストで見たいと思う形で:term:`用語`の名前を入力してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:215
+msgid ""
+"**Use for**: You can create one or more non-preferred :term:`terms <term>` "
+"using this :term:`field`. When users attempt to add the non-preferred term "
+"to a record, the preferred term will be added instead. Similarly, if users "
+"search on the non-preferred term, AtoM will automatically substitute the "
+"preferred term."
+msgstr ""
+"**使用目的**: この:term:`フィールド`を使用して、一つ以上の非推奨の:term:`用語 "
+"<term>`を作成することができます。ユーザーが非推奨の用語をレコードに追加しようとした場合、代わりに推奨用語が追加されます。同様に、ユーザーが非推奨の用語で検索した場合、AtoMは自動的に推奨用語に置き換えます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:220
+msgid ""
+"**Code**: This field is under development. Currently, it allows "
+":term:`administrators <administrator>` and :term:`editors <editor>` to add a"
+" static `Google Map <http://maps.google.com/>`__ to a term description, as a"
+" basic form of geo-referencing. As such, it is most useful for the Places "
+"taxonomy.  The field behaves similarly to the search bar on a Google Map, "
+"and will generate a static map image based on the term entered using "
+"Google's Static Map API. Terms entered can include addresses, "
+"latitude/longitude coordinates, and place names (such as cities, "
+"neighborhoods, etc.). Unlike Google Maps, a pin will not be added to the map"
+" to mark the selected location, and currently the user cannot specify the "
+"scale of the map generated or refine the result in any way other than re-"
+"entering new data into the Code field."
+msgstr ""
+"**コード**：このフィールドは現在開発中です。現時点では、:term:`管理者<administrator>`および:term:`編集者<editor>`が、基本的な地理参照形式として用語の説明に静的な`Google"
+" Map "
+"<http://maps.google.com/>`__を加えることができます。そのため、場所のタクソノミーにとって最も有用です。このフィールドはGoogle"
+" Mapの検索バーに似た動作をし、使用者が入力した用語をもとに、GoogleのStatic Map "
+"APIを使用して静的な地図イメージを生成します。入力できる用語には、住所、緯度/経度の座標、場所の名前（都市、地区など）が含まれます。Google "
+"Mapsと異なり、選択した位置をマークするためのピンは地図に追加されず、現在はユーザーが生成される地図のスケールを指定したり、コードフィールドに新たなデータを再入力する以外の方法で結果を細かく調整することはできません。"
+
+#: ../../user-manual/add-edit-content/terms.rst:232
+msgid "**Scope note(s)**: Enter descriptive information about the term."
+msgstr "**適用範囲のメモ**: 用語についての記述的情報を入力してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:233
+msgid ""
+"**Source note(s)**: Enter the source of the term, if applicable. This can be"
+" textual (if the term comes from an external controlled vocabulary, "
+"taxonomy, or thesaurus, such as the Library of Congress Subject Headings, "
+"the Getty Art & Architecture Thesaurus, etc.) and/or it can be a URL."
+msgstr ""
+"**ソースノート**: "
+"用語の出典が該当する場合に入力します。これはテキスト形式（用語が外部の統制された語彙、分類法、シソーラス、例えばアメリカ議会図書館の主題標目（Library"
+" of Congress Subject Headings）、ゲッティ美術建築シソーラス（Getty Art & Architecture "
+"Thesaurus）などから来る場合）である可能性があります、またはURLである可能性もあります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:237
+msgid ""
+"**Display note(s)**: Enter an alternate label for the term if applicable."
+msgstr "**表示ノート**: 適用可能であれば、用語の代替ラベルを入力してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:241
+msgid ""
+"In the current version of AtoM, the Display note(s) :term:`field` applies "
+"only to the :term:`events <event>` taxonomy. For example, for the term "
+"\"distribution\" the display note is \"distributor\"."
+msgstr ""
+"AtoMの現行バージョンでは、「表示ノート」:term:`フィールド` は :term:`イベント<event>` "
+"タクソノミーにのみ適用されます。例えば、「配布」という用語に対して、表示ノートは「配布者」となります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:247
+msgid ""
+"For help working with the **Relationships area** in the taxonomy term edit "
+"page, see the section :ref:`below <hierarchical-taxonomies>` on Managing "
+"hierarchical taxonomies."
+msgstr ""
+"分類語彙編集ページ内の**関連付けエリア**の使用についての助けは、下記の「階層的分類語彙の管理」セクション（:ref:`以下 "
+"<hierarchical-taxonomies>`）を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:251
+#: ../../user-manual/add-edit-content/terms.rst:369
+#: ../../user-manual/add-edit-content/terms.rst:474
+#: ../../user-manual/add-edit-content/terms.rst:693
+#: ../../user-manual/add-edit-content/terms.rst:833
+#: ../../user-manual/add-edit-content/terms.rst:953
+#: ../../user-manual/add-edit-content/terms.rst:1044
+msgid ":ref:`Back to top <terms>`"
+msgstr ":ref:`トップに戻る <terms>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:256
+msgid "Add an access point \"on the fly\" from an archival description"
+msgstr "アーカイブ記述から「その場で」アクセスポイントを追加する"
+
+#: ../../user-manual/add-edit-content/terms.rst:258
+msgid ""
+"The ISAD Glossary deines an :term:`access point` as a \"name, term, keyword,"
+" phrase or code that may be used to search, identify and locate an archival "
+"description.\" In AtoM, :term:`name`, :term:`place`, and :term:`subject` "
+"access points are a way of associating specific terms contained or "
+"referenced within an information object (e.g. items within a file; a video; "
+"a picture) to its :term:`archival description`, and creating searchable "
+"entry points for users. They can be conceptualized as similar to \"tags\" "
+"and help contextualize information objects while returning better search "
+"results. In AtoM, subject and place access points are derived from "
+"taxonomies created and customized by users. Like other taxonomies and AtoM, "
+"these can be preloaded by administrators by importing SKOS XML files with "
+"predefined controlled vocabularies and relationships (see: "
+":ref:`Import/export <import-export>`, but they can also be created on the "
+"fly by users."
+msgstr ""
+"ISAD用語集では、`アクセスポイント`を「検索、特定、またはアーカイブ記述を位置づけるために使用され得る名前、用語、キーワード、フレーズまたはコード」と定義しています。AtoMでは、`名前`、`場所`、`主題`のアクセスポイントは、情報オブジェクト（例えばファイル内のアイテム、ビデオ、写真など）に含まれている、または参照されている特定の用語をその`アーカイブ記述`に関連付け、ユーザーのための検索可能な入口を作成する方法です。これらは「タグ」と同様のものと考えることができ、情報オブジェクトの文脈を理解しやすくしながら、より良い検索結果を返します。AtoMでは、主題と場所のアクセスポイントは、ユーザーによって作成されカスタマイズされた分類学から導き出されます。他の分類学やAtoMと同様に、これらは管理者によってあらかじめ定義された制御された語彙や関係を含むSKOS"
+" XMLファイルをインポートすることによってプリロードされることがあります（参照：`:ref:`インポート／エクスポート <import-"
+"export>`）、しかしながら、ユーザーによって即興で作成されることも可能です。"
+
+#: ../../user-manual/add-edit-content/terms.rst:272
+msgid ""
+"Access points can be added by users with edit permissions on the fly "
+"(without leaving an :term:`archival description`) from an archival "
+"description :term:`edit page` by simply adding a new subject or place to the"
+" corresponding field in the Access points area."
+msgstr ""
+"アクセスポイントは、:term:`アーカイバル記述` のページを離れることなく、アーカイバル記述の :term:`編集ページ` "
+"で、アクセスポイント領域に新しい主題または場所を対応するフィールドに単に追加することによって、編集権限を持つユーザーがその場で追加することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:277
+msgid ""
+"Any terms previously created and any access point taxonomies already "
+"imported into AtoM will populate a the :term:`drop-down menu` when a user "
+"places the cursor in the related access point :term:`field`, to ensure that "
+":term:`controlled vocabulary` terms are maintained, but multiple new terms "
+"can also be added. However, if a hierarchical relationship is to be "
+"established between terms (for example, nesting \"Mount Pleasant\" as a "
+"narrower term of \"Vancouver\"), an :term:`administrator` or :term:`editor` "
+"will have to edit the term through the taxonomies list (see below, "
+":ref:`hierarchical-taxonomies`)."
+msgstr ""
+"既に作成された用語とAtoMにインポートされたアクセスポイント分類は、ユーザーが関連するアクセスポイントのフィールドにカーソルを置くと、制御された語彙の用語が維持されるように、ドロップダウンメニューとして表示されますが、複数の新しい用語も追加することができます。ただし、用語間に階層関係を確立する必要がある場合（たとえば、「Mount"
+" "
+"Pleasant」を「Vancouver」のより狭い用語としてネストさせるなど）、管理者または編集者が分類リストを通じて用語を編集する必要があります（以下参照：階層分類）。"
+
+#: ../../user-manual/add-edit-content/terms.rst:286
+msgid "**To add an access point on the fly from an archival description:**"
+msgstr "アーカイブ記述から即興でアクセスポイントを追加するには："
+
+#: ../../user-manual/add-edit-content/terms.rst:288
+msgid ""
+"Navigate to the :term:`archival description` to which you would like to add "
+"a new :term:`place` or :term:`subject` access point. You can do this either "
+"by :ref:`searching <search-atom>` or :ref:`browsing <browse>` - for more "
+"information on navigation in AtoM, see :ref:`access-content`."
+msgstr ""
+"編集するアーカイブ記述に新しい「場所」または「主題」のアクセスポイントを追加したい場合は、AtoMでの検索機能(:ref:`search-"
+"atom`)や閲覧機能(:ref:`browse`)を使って、該当するアーカイブ記述に移動します。AtoM内でのナビゲーションの詳細については、`アクセス内容"
+" <access-content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:292
+msgid ""
+"At the bottom of the archival description's :term:`view page`, you will see "
+"the :term:`button block` with several options (Edit, Delete, and Add new). "
+"Click the \"Edit\" button, or click on any of the information area "
+":term:`headers <area header>`, to enter :term:`edit mode`."
+msgstr ""
+"アーカイブ説明の:term:`view page` の下部に、いくつかのオプション（編集、削除、新規追加）が含まれる:term:`button "
+"block` が表示されます。\"編集\"ボタンをクリックするか、情報エリアの:term:`headers <area header>` "
+"のどれかをクリックして、:term:`edit mode` に入ります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:303
+msgid "An image of the button block on an archival description"
+msgstr "アーカイブ記述におけるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:303
+msgid "The button block available on an archival description"
+msgstr "該当するアーカイブ記述に使用可能なボタンブロック"
+
+#: ../../user-manual/add-edit-content/terms.rst:305
+msgid ""
+"Navigate to the Access points :term:`information area` and beginning typing "
+"your :term:`place` or :term:`subject` access point into the relevant "
+":term:`field`. Wait a moment and do not press enter immediately - the access"
+" point fields will auto-complete any matching terms in a :term:`drop-down "
+"menu`, allowing you to see if your access point already exists."
+msgstr ""
+"アクセスポイント :term:`情報エリア` に移動し、関連する :term:`フィールド` にあなたの :term:`場所` や :term:`主題`"
+" のアクセスポイントを入力し始めます。すぐにエンターキーを押さず、少し待ってください - アクセスポイントフィールドは、一致する用語を "
+":term:`ドロップダウンメニュー` で自動補完し、アクセスポイントがすでに存在するかどうかを確認することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:317
+msgid "An image of adding a place access point to an archival description"
+msgstr "アーカイブ記述への場所アクセスポイントの追加のイメージ"
+
+#: ../../user-manual/add-edit-content/terms.rst:317
+msgid ""
+"When you begin typing in an access point field, the drop-down will provide "
+"matching suggestions - select from the list to use an existing term, or "
+"enter a new term. Be careful: if you type the full name of an existing term "
+"and press enter (instead of selecting from the list), you could accidentally"
+" create a duplicate term!"
+msgstr ""
+"アクセスポイントフィールドに入力を開始すると、ドロップダウンが一致する提案を表示します - "
+"リストから既存の用語を選択するか、新しい用語を入力してください。注意が必要です：リストから選択する代わりに既存の用語の全名を入力してエンターキーを押すと、偶然にも重複した用語を作成してしまう可能性があります！"
+
+#: ../../user-manual/add-edit-content/terms.rst:323
+msgid ""
+"If a matching term *DOES* exist, select from the drop-down list and save the"
+" :term:`archival description` by using the \"save\" button in the "
+":term:`button block` at the bottom of the :term:`edit page`."
+msgstr ""
+"対応する用語が存在する場合は、ドロップダウンリストから選択し、ページ下部の「ボタンブロック」にある「保存」ボタンを使用して、`:term:`アーカイブ記述`を保存してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:329
+msgid ""
+"If you are not careful, it is easy to accidentally create duplicate terms! "
+"To avoid duplication, matching terms **must** be selected from the auto-"
+"complete :term:`drop-down <drop-down menu>` - otherwise, even exact matches "
+"will create duplicates when the user presses enter."
+msgstr ""
+"注意を怠ると、簡単に重複する用語を作り出してしまうことがあります！重複を避けるためには、一致する用語は自動補完の "
+":term:`ドロップダウン<ドロップダウンメニュー>` から**必ず**選択されなければなりません - "
+"さもなければ、完全に一致している場合であっても、ユーザーがエンターキーを押すと重複が作成されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:334
+msgid ""
+"If a matching term does *not* exist, press the Tab key to exit the field, or"
+" use your cursor. A new term will be created in the related :term:`taxonomy`"
+" (e.g. places or subjects) when the description is saved."
+msgstr ""
+"対応する用語が*存在しない*場合は、Tabキーを押してフィールドから抜けるか、カーソルを使用してください。記述が保存されると、関連する:term:`分類法`（例えば、地名や主題など）に新しい用語が作成されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:337
+msgid ""
+"You can add multiple terms at a time - when you exit the :term:`field` with "
+"your cursor, AtoM will provide a new blank field. Repeat steps 4-5 as "
+"necessary. If you need to **edit** or **remove** a term you have just added,"
+" place your cursor to the left of the term - an **X** icon will appear in "
+"place of the bullet next to the term. You can click the **X** to remove the "
+"term."
+msgstr ""
+"一度に複数の用語を追加することができます。カーソルで:term:`フィールド`から出ると、AtoMは新しい空白のフィールドを提供します。必要に応じて、ステップ4から5を繰り返してください。ちょうど追加した用語を**編集**または**削除**する必要がある場合は、用語の左側にカーソルを置いてください。用語の隣の箇条書きの場所に**X**アイコンが表示されます。その**X**をクリックすると、用語を削除することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:350
+msgid "An image of removing a subject access point"
+msgstr "被写体アクセスポイントを削除する画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:350
+#: ../../user-manual/add-edit-content/terms.rst:684
+msgid ""
+"Place your cursor to the left of a term to see the option to remove it - the"
+" bullet icon will change to an **X** icon. Click to remove the term."
+msgstr ""
+"項目の左にカーソルを置くと、その項目を削除するオプションが表示されます - "
+"弾丸アイコンが**X**アイコンに変わります。クリックして項目を削除してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:353
+msgid ""
+"At the bottom of the description's :term:`edit page`, click the \"Save\" "
+"button in the :term:`button block` when you are done editing. AtoM will "
+"reload the :term:`archival description` in :term:`view mode`, and your new "
+"access point(s) will appear in the Access points :term:`information area` as"
+" a blue hyperlink. You can now edit the term to add supplementary "
+"information if needed - instructions are provided :ref:`below <edit-term>`."
+msgstr ""
+"説明の:term:`編集ページ`の最下部にある:term:`ボタンブロック`内の「保存」ボタンをクリックして編集が完了しましたら、AtoMは:term:`アーカイブ記述`を:term:`表示モード`で再読込みし、新しく追加されたアクセスポイントはアクセスポイント:term:`情報エリア`に青色のハイパーリンクとして表示されます。必要に応じて補足情報を追加するため、用語を編集することができます"
+" - 手順については以下の「<edit-term>を編集する」で説明しています。"
+
+#: ../../user-manual/add-edit-content/terms.rst:363
+msgid ""
+"If you wish to manage your new term by adding further data or organizing it "
+"hierarchically, you will need to access it in its relevant taxonomy by "
+"navigating to **Manage > Taxonomies** and locating the term in the relevant "
+"taxonomy - see: :ref:`edit-term` or :ref:`hierarchical-taxonomies` for more "
+"information."
+msgstr ""
+"新しい用語にさらなるデータを追加したり、階層的に整理したりする場合は、**管理 > タクソノミー** "
+"に移動して関連するタクソノミー内でその用語を見つけ、アクセスする必要があります。詳細については、:ref:`edit-term` や "
+":ref:`hierarchical-taxonomies` を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:374
+msgid "On Name vs. Subject Access Points"
+msgstr "名前と主題アクセスポイントについて"
+
+#: ../../user-manual/add-edit-content/terms.rst:376
+msgid ""
+"Name :term:`access points <access point>` provide linked access to "
+"information about actors (e.g. persons, families, or corporate bodies) "
+"associated with an :term:`archival description` – either as :term:`creators "
+"<creator>`, or as subjects, or via other types of relation (including "
+"contributor, publisher, collector, distributor, etc.). The type of "
+"relationship of a name :term:`access point` to an archival description can "
+"be managed via the ISAAR-CPF :term:`authority record` template for that name"
+" (which the user is directed to when clicking on the name access point in an"
+" archival description)."
+msgstr ""
+"名前：用語「アクセスポイント <access "
+"point>」は、アクセスポイントを介した情報へのリンクされたアクセスを提供します。これは、アクセスポイントが関連付けられているアクティブな記述（人物、家族、法人団体など）の役者に関する情報についてです。役者は、アクセスポイントがアクティブな記述に関連付けられている方法のタイプは、その名前のISAAR-"
+"CPF権威レコードテンプレートを介して管理できます（ユーザーは、アーカイブ記述内の名前アクセスポイントをクリックすると、当該テンプレートに案内されます）。"
+
+#: ../../user-manual/add-edit-content/terms.rst:385
+msgid ""
+"Unlike :term:`subject` or :term:`place` access points, which are managed via"
+" a terms :term:`taxonomy`, Name access points are managed as authority "
+"records in AtoM in two ways:"
+msgstr ""
+"「:term:`subject`や:term:`place`のアクセスポイントは:term:`taxonomy`を通じて管理されるのに対し、名前アクセスポイントはAtoMで権威レコードとして二通りの方法で管理されます：」"
+
+#: ../../user-manual/add-edit-content/terms.rst:389
+msgid ""
+"First, name (creator) access points are automatically derived from ISAAR "
+":term:`authority records <authority record>` in AtoM. Whenever a "
+":term:`creator` is added to an :term:`archival description`, the creator "
+"name is **also** added as a name :term:`access point` in the Access points "
+":term:`information area` of the :term:`archival description`. Doing so "
+"conforms to the recommendations found in :ref:`ISAAR-CPF <isaar-template>` "
+"1.5 and 1.6, and 1.8:"
+msgstr ""
+"まず、名前（作成者）アクセスポイントは自動的にAtoMのISAAR :term:`権限レコード<authority "
+"record>`から導出されます。:term:`作成者`が:term:`アーカイブ記述`に追加されると、作成者の名前は**また**アクセスポイント情報エリア内の:term:`アーカイブ記述`の名前:term:`アクセスポイント`として追加されます。これは:ref:`ISAAR-"
+"CPF <isaar-template>` の1.5、1.6、1.8項にある推奨事項に従って行われます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:396
+msgid ""
+"*1.5 - There are many reasons why separate capture and maintenance of this "
+"type of contextual information is a vital component of archival description."
+" The practice enables the linking of descriptions of records creators and "
+"contextual information to descriptions of records from the same creator(s) "
+"that may be held by more than one repository and to descriptions of other "
+"resources such as library and museum materials that relate to the entity in "
+"question. Such links improve records management practices and facilitate "
+"research.*"
+msgstr ""
+"1.5 - "
+"このタイプの文脈情報を別々にキャプチャし、維持することがアーカイブ記述の重要な構成要素である理由はたくさんあります。この実践は、記録の作成者と文脈情報の説明を、同じ作成者による記録の説明とリンクさせることを可能にします。これらの記録は一つ以上のリポジトリによって保持されているかもしれませんし、さらには問題の実体に関連する図書館や博物館の資料などの他のリソースの説明ともリンクさせることができます。このようなリンクは、記録管理の実践を改善し、研究を容易にします。"
+
+#: ../../user-manual/add-edit-content/terms.rst:405
+msgid ""
+"*1.6 - Where a number of repositories hold records from a given source they "
+"can more easily share or link contextual information about this source if it"
+" has been maintained in a standardized manner. Such standardization is of "
+"particular international benefit when the sharing or linking of contextual "
+"information is likely to cross national boundaries. The multinational "
+"character of past and present record keeping creates the incentive for "
+"international standardization which will support the exchange of contextual "
+"information. For example, processes such as colonialization, immigration and"
+" trade have contributed to the multinational character of recordkeeping.*"
+msgstr ""
+"*1.6 - "
+"ある特定の情報源からの記録を複数のリポジトリが保持している場合、その情報源に関する文脈情報を標準化された方法で維持していれば、それらの情報を容易に共有したりリンクさせたりすることができます。このような標準化は、文脈情報の共有やリンクが国境を越える可能性がある場合に、特に国際的な利益をもたらします。過去及び現在の記録保持の多国籍的な特性は、文脈情報の交換を支援する国際的な標準化のための動機付けを生み出します。たとえば、植民地化、移民、貿易などのプロセスが記録保持の多国籍的な特徴に寄与しています。*"
+
+#: ../../user-manual/add-edit-content/terms.rst:416
+msgid ""
+"*1.8 - Archival authority records are similar to library authority records "
+"in as much as both forms of authority record need to support the creation of"
+" standardized access points in descriptions. The name of the creator of the "
+"unit of description is one of the most important of such access points. "
+"Access points may rely on the use of qualifiers that are deemed essential to"
+" clarify the identity of the entity thus named, so that accurate "
+"distinctions may be made between different entities that have the same or "
+"very similar names.*"
+msgstr ""
+"1.8 - "
+"アーカイブ権威レコードは、説明文中で標準化されたアクセスポイントの作成を支援する必要があるという点で、図書館の権威レコードに似ています。説明の単位の作成者の名前は、そのようなアクセスポイントの中で最も重要なものの一つです。アクセスポイントは、同じ名前または非常に似ている名前を持つ異なる実体を正確に区別するため、必要不可欠とみなされる修飾語の使用に依存することがあります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:425
+msgid ""
+"By generating a :term:`creator` name :term:`access point` from an "
+":term:`authority record`, AtoM thereby supports the linking of "
+":term:`archival descriptions <archival description>` related by creator by "
+"using a standardized name (as access point) drawn from the authority record."
+" Clicking on a name access point in an archival description will bring a "
+"user to the AtoM ISAAR-CPF Authority Record for the name. Name entity types "
+"can be defined in the authority record as either a person, a family, or "
+"corporate body."
+msgstr ""
+"権威レコードから作成者名のアクセスポイントを生成することにより、AtoMは、権威レコードから抽出された標準化された名前（アクセスポイントとして）を使用して、作成者に関連するアーカイブ記述をリンクするサポートを提供します。アーカイブ記述における名前アクセスポイントをクリックすると、ユーザーはその名前のAtoM"
+" ISAAR-CPF権威レコードに移動します。権威レコードの中で、名前エンティティのタイプは個人、家族、または法人として定義することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:433
+msgid ""
+"AtoM also allows users to add new :term:`name` access points on the fly, so "
+"other important names can be associated with an :term:`archival "
+"description`. When a user adds a name access point, a new :term:`authority "
+"record` for the added entry is generated, and the :term:`access point` is "
+"automatically listed with the qualification of \"(subject)\" next to the "
+"link, for added clarity about the role of the named entity. Authorized users"
+" (e.g., authenticated :term:`editors <editor>` or :term:`administrators "
+"<administrator>`, etc.) can then add descriptive contextual information to "
+"the :term:`authority record`. If an added name is the :term:`creator` of "
+"another :term:`fonds` or :term:`collection` in AtoM, this relationship can "
+"be defined through the authority record, just as relationships between other"
+" entities can be defined as either hierarchical, temporal, associative, or "
+"family. Similarly, the relationship to the linked archival description can "
+"be managed by defining the Nature of relationship in the Relationships Area "
+"of the Authority record."
+msgstr ""
+"AtoMでは、ユーザーがその場で新しい「名前」アクセスポイントを追加することができるため、他の重要な名前を「アーカイブ記述」と関連付けることができます。ユーザーが名前アクセスポイントを追加すると、追加されたエントリのための新しい「権威レコード」が生成され、その「アクセスポイント」は、指名された実体の役割を明確にするために、リンクの隣に「（主題）」という資格付きで自動的に一覧表示されます。認可されたユーザー（例えば、認証された「編集者」や「管理者」など）は、その後「権威レコード」に記述的なコンテキスト情報を追加することができます。追加された名前が、AtoM内の別の「基金」や「コレクション」の「作成者」である場合、この関係は権威レコードを通じて定義されることができ、他の実体間の関係が階層的、時間的、連携的、または家族的なものとして定義されるのと同様に行われます。同様に、リンクされたアーカイブ記述への関係は、権威レコードの関係エリアで関係の性質を定義することによって管理することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:448
+msgid ""
+"In contrast, :term:`subject` access points are managed via the "
+":term:`taxonomies <taxonomy>`, and are intended to add topical information "
+"about events, objects, etc. covered in the materials of a fonds/collection, "
+"allowing users to gain a sense of the topics covered therein, obtain better "
+"search results, and easily view other :term:`archival descriptions <archival"
+" description>` that contain materials on the same subject. Clicking on a "
+"subject :term:`access point` will bring the user to a search results page, "
+"displaying summary descriptive information about descriptions that also "
+"contain the same subject access point. Authorized users (ex: :term:`editors "
+"<editor>`, :term:`administrators <administrator>`) can add subject access "
+"points on the fly straight from the archival description :term:`edit page` "
+"(instructions :ref:`above <add-term-fly>`, and they can provide descriptive "
+"summaries and manage hierarchical relationships of the access point by "
+"navigating to **Manage > Taxonomies > Subjects**."
+msgstr ""
+"対照的に、`:term:`件名` アクセスポイントは :term:`分類法 <taxonomy>` "
+"を介して管理され、資料群やコレクションの中の出来事、物体などに関するトピック情報を追加することを意図しています。これによりユーザーは、その中で取り扱われている話題を把握しやすくなり、より良い検索結果が得られ、同じ件名の資料を含む他の"
+" :term:`アーカイブ記述 <archival description>` を簡単に閲覧できます。件名 :term:`アクセスポイント` "
+"をクリックすると、ユーザーは検索結果のページに移動し、同じ件名アクセスポイントを含む記述についての要約記述情報を表示されます。権限のあるユーザー（例: "
+":term:`編集者 <editor>`、:term:`管理者 <administrator>`）は、アーカイブ記述 :term:`編集ページ` "
+"から、その場で件名アクセスポイントを追加することができます（インストラクション :ref:`上述 <add-term-fly>`） "
+"そして、アクセスポイントの階層関係を管理し、記述の要約を提供するには、**管理 > 分類法 > 件名** に移動します。"
+
+#: ../../user-manual/add-edit-content/terms.rst:463
+msgid ""
+"In summary, :term:`Name` access points support :ref:`ISAAR-CPF <isaar-"
+"template>`’s requirements, and can be thought of as similar to the 245$c, "
+"700, 710, 600, and 610 fields in a library MARC record (depending on the "
+"type of relationship, as defined in the :term:`authority record`). In "
+"contrast, :term:`Subject` access points relate to topical information and "
+"general subject terms, similar to the 650 field in a library MARC record."
+msgstr ""
+"要約すると、:term:`Name` アクセスポイントは :ref:`ISAAR-CPF <isaar-template>` "
+"の要件をサポートしており、図書館のMARCレコード内の245$c、700、710、600、610フィールドに似ていると考えることができます（:term:`authority"
+" record` で定義される関連性のタイプに依存します）。対照的に、:term:`Subject` "
+"アクセスポイントはトピック情報や一般的な主題用語に関連しており、図書館のMARCレコード内の650フィールドに似ています。"
+
+#: ../../user-manual/add-edit-content/terms.rst:470
+msgid "**For information on working with authority records in AtoM, see:**"
+msgstr "AtoMで権威レコードを扱う方法に関する情報については、以下を参照してください："
+
+#: ../../user-manual/add-edit-content/terms.rst:472
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権限レコード`"
+
+#: ../../user-manual/add-edit-content/terms.rst:480
+msgid "Manage hierarchical taxonomies"
+msgstr "階層的分類法を管理する"
+
+#: ../../user-manual/add-edit-content/terms.rst:488
+msgid "The edit fields available in the terms edit page Relationships area"
+msgstr "用語編集ページの関連性エリアで利用可能な編集フィールド"
+
+#: ../../user-manual/add-edit-content/terms.rst:490
+msgid ""
+"In AtoM, the :term:`term` :term:`edit page` includes a special section (the "
+"\"Relationships\" area) that allows users to create hierarchical thesauri in"
+" accordance with ISO 2788. This section will outline how to use the "
+":term:`fields <field>` in this area to manage broader, related, and narrower"
+" terms. All of the following instructions involve first navigating to the "
+"term you would like to alter, and entering :term:`edit mode`:"
+msgstr ""
+"AtoMでは、:term:`用語` :term:`編集ページ`には特別なセクション（「関連性」エリア）があり、ユーザーはISO "
+"2788に従って階層的シソーラスを作成することができます。このセクションでは、このエリアの:term:`フィールド "
+"<field>`を使用して、より広範な用語、関連用語、および狭い用語を管理する方法について説明します。以下のすべての指示には、まず変更したい用語にナビゲートし、:term:`編集モード`に入ることが含まれます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "An image of the list taxonomies page"
+msgstr "リスト分類ページの画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:507
+#: ../../user-manual/add-edit-content/terms.rst:873
+#: ../../user-manual/add-edit-content/terms.rst:983
+msgid ""
+"Click on the :term:`taxonomy` you want to edit to expand it and view the "
+":term:`terms <term>` associated with the taxonomy. You can use the dedicated"
+" search bar on the terms page to search for your term by name, or you can "
+"browse the terms listed in the taxonomy. When you have found the term you "
+"would like to edit, click on it to navigate to the term's :term:`view page`."
+msgstr ""
+"編集したい:term:`taxonomy`をクリックして展開し、その分類に関連付けられている:term:`terms "
+"<term>`を表示します。用語のページにある専用の検索バーを使用して、名前で用語を検索することもできますし、分類にリストされた用語を閲覧することもできます。編集したい用語を見つけたら、その用語をクリックしてその:term:`view"
+" page`に進みます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:520
+#: ../../user-manual/add-edit-content/terms.rst:886
+#: ../../user-manual/add-edit-content/terms.rst:996
+msgid "An example taxonomy page - the Repository types taxonomy"
+msgstr "リポジトリ種類の分類 - 一例となる分類ページ"
+
+#: ../../user-manual/add-edit-content/terms.rst:522
+#: ../../user-manual/add-edit-content/terms.rst:888
+msgid ""
+"Click on the \"Edit\" button located in the :term:`button block` at the "
+"bottom of the term page to enter :term:`edit mode`. AtoM will redirect you "
+"to the term's :term:`edit page`."
+msgstr ""
+"用語ページの下部にある「:term:`ボタンブロック`」内の「編集」ボタンをクリックすると、:term:`編集モード`に入ります。AtoMはあなたを用語の:term:`編集ページ`にリダイレクトします。"
+
+#: ../../user-manual/add-edit-content/terms.rst:526
+msgid "**You are now ready work with term relationships in AtoM. You can:**"
+msgstr "**AtoMで用語関係を扱う準備が整いました。以下の操作ができます：**"
+
+#: ../../user-manual/add-edit-content/terms.rst:528
+msgid ":ref:`Add/edit a broader term <add-broader-term>`"
+msgstr ":ref:`上位語を追加/編集する <add-broader-term>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:529
+msgid ":ref:`Add/edit a narrower term <add-narrower-term>`"
+msgstr ":ref:`より具体的な用語を追加/編集する <add-narrower-term>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:530
+msgid ":ref:`Add/edit a related term <add-related-term>`"
+msgstr ":ref:`関連用語の追加/編集 <add-related-term>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:531
+msgid ":ref:`Add/edit a converse term <add-converse-term>`"
+msgstr ":ref:`逆語を追加/編集する <add-converse-term>`"
+
+#: ../../user-manual/add-edit-content/terms.rst:536
+msgid "Add/edit a broader term"
+msgstr "より広範な用語を追加/編集"
+
+#: ../../user-manual/add-edit-content/terms.rst:538
+msgid ""
+"To create a hierarchical parent/child relationship between terms, AtoM "
+"allows you to add an existing record as a broader term, via an auto-complete"
+" :term:`drop-down menu`."
+msgstr ""
+"用語間の階層的な親/子関係を作成するために、AtoMでは既存のレコードを、オートコンプリート機能付きの :term:`ドロップダウンメニュー` "
+"を経由して、より幅広い用語として追加することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:544
+msgid ""
+"You cannot create a new term by adding it to the Broader term field - to add"
+" a broader term, the term must already have been created in AtoM. To create "
+"new terms in AtoM, see :ref:`above <add-term>`. A term can **only have one "
+"broader term** - you cannot add multiple broader terms."
+msgstr ""
+"Broader "
+"term（上位語）フィールドに追加することで、新しい用語を作成することはできません。上位語を追加するためには、その用語がすでにAtoM内で作成されている必要があります。AtoMで新しい用語を作成する方法については、:ref:`上記<add-"
+"term>`を参照してください。用語は**上位語を1つだけ持つことができます**。複数の上位語を追加することはできません。"
+
+#: ../../user-manual/add-edit-content/terms.rst:549
+msgid "**To add or edit a broader term in AtoM**"
+msgstr "**AtoMで上位概念を追加または編集するには**"
+
+#: ../../user-manual/add-edit-content/terms.rst:558
+msgid ""
+"An example of selecting a broad term within the Description Statuses\n"
+"taxonomy"
+msgstr "説明ステータス分類の中から広範な用語を選択する一例"
+
+#: ../../user-manual/add-edit-content/terms.rst:558
+msgid ""
+"An example of selecting a broad term from the existing terms available "
+"within the Description Statuses taxonomy"
+msgstr "既存の「記述状況」分類法から広範な用語を選択する例"
+
+#: ../../user-manual/add-edit-content/terms.rst:561
+msgid ""
+"In the Relationships area of the term's edit page, begin typing the name of "
+"the broader term into the \"Broader term\" :term:`field`."
+msgstr "用語の編集ページの「関連性」エリアで、\"上位用語\" :term:`フィールド` への入力を始めるには、上位用語の名前を入力してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:563
+#: ../../user-manual/add-edit-content/terms.rst:653
+#: ../../user-manual/add-edit-content/terms.rst:787
+msgid ""
+"As you type, atom will search available term records (those that are part of"
+" the same :term:`taxonomy`) and populate the field's :term:`drop-down menu` "
+"with matching terms."
+msgstr ""
+"入力すると、atomは利用可能な用語レコード（同じ:term:`taxonomy`の一部であるもの）を検索し、フィールドの:term:`ドロップダウンメニュー`に一致する用語で項目を埋めます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:566
+msgid ""
+"When you see the term you would like to add as a broader (i.e. parent) term,"
+" click on it - it will be added to the field."
+msgstr "見たい用語をより広い（つまり親）用語として追加したい場合は、それをクリックしてください。それがフィールドに追加されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:568
+msgid ""
+"If you wish to **edit** or **remove** an existing broader term, place your "
+"cursor in the field and delete the existing term. The :term:`drop-down menu`"
+" will show the available terms that you can add - follow steps 1-3 to add "
+"the desired term. Leave the field blank if you do not wish to link the term "
+"to a broader term."
+msgstr ""
+"既存の上位語を**編集**または**削除**したい場合は、カーソルをフィールドに置き、既存の語を削除してください。`:term:`ドロップダウンメニュー`が表示され、追加できる利用可能な語が表示されます"
+" - 希望する語を追加するには、ステップ1から3に従ってください。上位語にリンクしたくない場合は、フィールドを空白のままにしてください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:573
+#: ../../user-manual/add-edit-content/terms.rst:687
+#: ../../user-manual/add-edit-content/terms.rst:811
+msgid ""
+"When you are finished, click the \"Save\" button in the :term:`button block`"
+" at the bottom of the term's :term:`edit page`. AtoM will redirect you to "
+"the term's :term:`view page`, where you can review your changes. You can "
+"click the \"Edit\" button in the button block to make further changes if "
+"needed."
+msgstr ""
+"作業が終わったら、用語の:term:`編集ページ`の下部にある:term:`ボタンブロック`内の「保存」ボタンをクリックしてください。AtoMはあなたを用語の:term:`表示ページ`へリダイレクトし、そこで変更内容を確認することができます。必要に応じてさらに変更を加えるために、ボタンブロック内の「編集」ボタンをクリックすることができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:582
+msgid "Add/edit a narrower term"
+msgstr "狭義語を追加/編集する"
+
+#: ../../user-manual/add-edit-content/terms.rst:590
+msgid "An example of adding new narrower terms to a place term"
+msgstr "用語に新しい具体的な用語を追加する一例"
+
+#: ../../user-manual/add-edit-content/terms.rst:590
+msgid ""
+"An example of adding new narrower terms to a a place term. In this example, "
+"cities are being added as narrower terms to \"Alberta\" (A Canadian "
+"province) in the Places taxonomy"
+msgstr ""
+"場所用語に新しい下位用語を追加する例。この例では、「アルバータ」（カナダの州）に対して、下位用語として都市が「場所」分類に追加されています。"
+
+#: ../../user-manual/add-edit-content/terms.rst:594
+msgid ""
+"AtoM will allow you to add multiple *new* narrower terms (i.e. child terms) "
+"to a term. This is intended to simplify the workflow for users who are "
+"building complex hierarchical taxonomies on the fly - by beginning with the "
+"top-level terms, users can generate new narrower terms from the edit screen "
+"of an existing term, and then supplement the narrower term records later as "
+"necessary."
+msgstr ""
+"AtoMでは、用語に複数の*新しい*下位用語（つまり子用語）を追加することができます。これは、フライで複雑な階層的なタクソノミーを構築しているユーザーのワークフローを簡略化することを意図しています。最上位用語から始めることにより、ユーザーは既存の用語の編集画面から新しい下位用語を生成し、その後必要に応じて下位用語レコードを補完することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:603
+msgid ""
+"You cannot add existing terms as narrower terms using this method - instead,"
+" navigate to the narrower term record and add the corresponding broader term"
+" to it, following the instructions listed :ref:`above <add-broader-term>`."
+msgstr ""
+"この方法を使用して既存の用語をより狭い用語として追加することはできません—代わりに、より狭い用語のレコードに移動し、上記の指示に従って対応するより広い用語を追加してください"
+" :ref:`上記 <add-broader-term>`。"
+
+#: ../../user-manual/add-edit-content/terms.rst:608
+msgid "**To add new narrower terms on the fly from an existing term:**"
+msgstr "既存の用語からその場で新しい下位用語を追加するには："
+
+#: ../../user-manual/add-edit-content/terms.rst:610
+msgid ""
+"In the Relationships area of the term's edit page, enter the name of the new"
+" narrower term into the \"Add new narrower term\" :term:`field`."
+msgstr "用語編集ページの「関連情報」エリアで、「新しい狭義の用語を追加」の:term:`フィールド`に、新しい狭義の用語の名前を入力します。"
+
+#: ../../user-manual/add-edit-content/terms.rst:612
+msgid ""
+"When you have entered the new term's name, press enter, or click your cursor"
+" out of the input field - AtoM will provide a new input field below so you "
+"can add further new narrower terms (i.e. child terms)."
+msgstr ""
+"新しい用語の名称を入力したら、エンターキーを押すか、入力フィールド外をクリックしてください。AtoMは新しい入力フィールドを下に提供し、さらに新しい下位用語（つまり子用語）を追加できるようになります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:615
+msgid ""
+"Continue adding narrower terms as desired. When you are finished, click the "
+"\"Save\" button in the :term:`button block` at the bottom of the term's "
+":term:`edit page`."
+msgstr ""
+"必要に応じてより狭い用語を追加し続けてください。終了したら、用語の:term:`編集ページ`の下部にある:term:`ボタンブロック`内の「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:618
+msgid ""
+"AtoM will redirect you to the term's :term:`view page` so you can review "
+"your work. The new narrower terms will appear as hyperlinks - clicking on "
+"one will take you to the related narrower term's view page where, if you "
+"want, you can edit the narrower term to supplement it further (instructions "
+":ref:`below <edit-term>`)."
+msgstr ""
+"AtoMは用語の「閲覧ページ」にリダイレクトしますので、作業内容を確認できます。新たに追加された下位用語はハイパーリンクとして表示されます。そのリンクのいずれかをクリックすると、関連する下位用語の閲覧ページに移動し、必要に応じてさらに下位用語を編集して情報を補足することができます（編集方法については「以下の説明を参照してください<edit-"
+"term>」）。"
+
+#: ../../user-manual/add-edit-content/terms.rst:626
+msgid ""
+"You cannot remove a narrower term by entering :term:`edit mode` on the "
+"related broader term's record. To remove a hierarchical relationship between"
+" two records, navigate to the child term (e.g. the narrower term), enter "
+":term:`edit mode`, and delete the value from the \"Broader term\" "
+":term:`field` in the Relationships area. When you save the record, the two "
+"terms will no longer be hierarchically related."
+msgstr ""
+"関連する上位用語のレコードで`:term:`編集モード`に入っても、下位用語を削除することはできません。2つのレコード間の階層関係を取り消すには、子用語（例えば、下位用語）にナビゲートし、`:term:`編集モード`に入ってから、関係エリア内の「上位用語」:term:`フィールド`から値を削除してください。レコードを保存すると、2つの用語の階層関係は解除されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:636
+msgid "Add/edit a related term"
+msgstr "関連用語を追加/編集"
+
+#: ../../user-manual/add-edit-content/terms.rst:638
+msgid ""
+"In AtoM, you can also create associative relationships between related "
+"terms. A term can have multiple relationships. This can be a useful way of "
+"managing complex hierarchies, and drawing users to other terms they may be "
+"interested in viewing."
+msgstr ""
+"AtoMでは、関連する用語間に関連付け関係を作成することもできます。一つの用語は複数の関係を持つことが可能です。これは複雑な階層を管理する便利な方法であり、また、利用者が閲覧に関心を持ちそうな他の用語へと導くために有効です。"
+
+#: ../../user-manual/add-edit-content/terms.rst:645
+msgid ""
+"You cannot create new terms on the fly by adding a new value to the related "
+"terms field - the related term must already exist. See :ref:`above <add-"
+"term>` for instructions on how to create a new term in AtoM."
+msgstr ""
+"関連する用語フィールドに新しい値を追加することで、その場で新しい用語を作成することはできません - "
+"関連する用語は既に存在していなければなりません。AtoMで新しい用語を作成する方法については、 :ref:`上記 <add-term>` "
+"の指示を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:649
+msgid "**To add a related term to an existing term in AtoM:**"
+msgstr "AtoMに既存の用語に関連する用語を追加するには："
+
+#: ../../user-manual/add-edit-content/terms.rst:651
+msgid ""
+"In the Relationships area of the term's edit page, begin typing the name of "
+"the related term into the \"Related term\" :term:`field`."
+msgstr "用語の編集ページの「関連する項目」エリアで、「関連する項目」:term:`フィールド`に関連項目の名前を入力し始めます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:663
+msgid "An example of adding a related term to a place term"
+msgstr "場所の用語に関連用語を追加する例"
+
+#: ../../user-manual/add-edit-content/terms.rst:663
+msgid ""
+"An example of adding a related term to an existing term in the subjects "
+"taxonomy - \"Buildings and structures\" is being related to \"Architecture\""
+msgstr "既存の主題分類に関連用語を追加する一例 - 「建築物と構造物」が「建築」に関連付けられています。"
+
+#: ../../user-manual/add-edit-content/terms.rst:666
+msgid ""
+"When you see the term you would like to add as a related term, click on it -"
+" it will be added to the field. Remeber, you cannot create new terms from "
+"this field - they must already exist in AtoM to be added as related terms. "
+"For instructions on creating a new term, see :ref:`above <add-term>`."
+msgstr ""
+"関連する用語として追加したい用語が見つかったら、それをクリックしてください。そうするとその用語がフィールドに追加されます。このフィールドから新しい用語を作成することはできないことを覚えておいてください。関連用語として追加するためには、それらがAtoMに既に存在している必要があります。新しい用語を作成する方法については、上記の「add-"
+"term」の項目を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:670
+msgid ""
+"Once you have selected the related :term:`term` from the :term:`drop-down "
+"menu`,  AtoM will provide a new input field below so you can add further "
+"related terms. Continue inputting related terms as needed."
+msgstr ""
+"関連する:term:`用語`を:term:`ドロップダウンメニュー`から選択すると、AtoMは追加の関連用語を入力できる新しい入力フィールドを下に提供します。必要に応じて関連用語を続けて入力してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:673
+msgid ""
+"If you need to **edit** or **remove** a related term you have just  added, "
+"place your cursor to the left of the term - an **X** icon will  appear in "
+"place of the bullet next to the term. You can click the **X** to remove the "
+"term."
+msgstr ""
+"関連する用語を**編集**したり**削除**したりする必要がある場合は、用語の左側にカーソルを置いてください。そうすると、用語の隣の箇条書きの記号の代わりに**X**アイコンが表示されます。**X**をクリックすると、用語を削除できます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:684
+msgid "An image of removing a related term"
+msgstr "関連用語を削除する画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:698
+msgid "Add/edit a converse term"
+msgstr "用語を追加/編集する"
+
+#: ../../user-manual/add-edit-content/terms.rst:700
+msgid ""
+"In AtoM, terms with matching or related opposite terms (such as \"parent "
+"of\" and its converse, \"child of\") used to describe relationships are "
+"known as **converse terms**. If a term has no opposite but itself (for "
+"example, \"sibling of\"), it can be marked as \"self-reciprocal\", meaning "
+"its converse term is itself. AtoM includes a number of default relationship "
+"terms for use in the :term:`authority record` Relationship dialogue (more "
+"information :ref:`here <link-two-authority-records>`). These default terms "
+"have been given :term:`converse <converse term>` or :term:`self-reciprocal "
+"<self-reciprocal term>` relationships to support their use in the "
+":ref:`ISAAR <isaar-template>`-based authority record template, but the "
+"default terms, and their relationships, can be edited users with the "
+"appropriate edit permissions."
+msgstr ""
+"AtoMでは、関係性を記述するために使用される、一致するもしくは関連する反対の用語（例えば「親子関係の親」と、その逆の「親子関係の子」）を**逆語**として知られています。もし用語に反対語がなく、それ自身が反対語である場合（たとえば「兄弟姉妹関係の」）、それは「自己相互」としてマークされ、その逆語はそれ自身を意味します。AtoMには、:term:`権威レコード`関係ダイアログで使用するためのデフォルトの関係用語が多数含まれています（詳細はこちら:ref:`ここ<link-"
+"two-authority-"
+"records>`）。これらのデフォルト用語は:term:`逆<逆語>`または:term:`自己相互<自己相互用語>`の関係性が与えられており、:ref:`ISAAR<isaar-"
+"template>`ベースの権威レコードテンプレートでの使用をサポートしていますが、デフォルト用語とその関係は、適切な編集権限を持つユーザーによって編集することができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:718
+msgid "Example of converse terms"
+msgstr "会話形式の用語例"
+
+#: ../../user-manual/add-edit-content/terms.rst:718
+msgid "An example of converse terms on two related authority records"
+msgstr "関連する二つの権限記録における逆語の例"
+
+#: ../../user-manual/add-edit-content/terms.rst:722
+msgid ""
+"Though the field is available in all term :term:`edit pages <edit page>`, "
+"the \"Converse term\" :term:`field` is currently only used in AtoM in the "
+"Actor Relation Type taxonomy. This :term:`taxonomy` is used to supply terms "
+"to the Relationships dialogue, when two authority records are linked. For "
+"more information on creating relationships between authority records in "
+"AtoM, see: :ref:`link-two-authority-records`."
+msgstr ""
+"このフィールドは、すべての用語:term:`編集ページ<edit "
+"page>`で利用可能ですが、「逆語」:term:`フィールド`は現在のところ、AtoMのアクター関連タイプの分類にのみ使用されています。この:term:`分類体系`は、二つの権威レコードがリンクされるときに、関係ダイアログに用語を提供するために使用されます。AtoM内の権威レコード間の関連付けの作成についての詳細は、:ref:`link-"
+"two-authority-records`を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:729
+msgid ""
+"These default terms and their relationships to each other can be edited and "
+"managed in the Actor Relation Type :term:`taxonomy`, and new terms can be "
+"added as well. Below is an overview of the default terms included and their "
+"relationships, and instructions on how to add new converse relationships."
+msgstr ""
+"これらのデフォルト用語とそれらの相互関係は、Actor Relation Type "
+":term:`分類学（taxonomy）`で編集・管理することができ、新しい用語も追加することが可能です。以下にデフォルトで含まれている用語とその関係性の概要、および新しい対話関係を追加する方法についての説明があります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:737
+msgid "Default Actor relation type terms in AtoM"
+msgstr "AtoMでのデフォルトのアクター関係タイプ用語"
+
+#: ../../user-manual/add-edit-content/terms.rst:739
+msgid ""
+"AtoM comes with several pre-loaded default terms in the Actor relation type "
+":term:`taxonomy`. The parent terms (*associative*, *hierarchical*, *family*,"
+" and *temporal*) are all taken directly from the International Council on "
+"Archives' :ref:`ISAAR-CPF standard <isaar-template>` - the international "
+"standard for the creation of :term:`authority records <authority record>` "
+"upon which the AtoM authority record edit template is based."
+msgstr ""
+"AtoMには、アクター関係タイプの用語`タクソノミー`にいくつかのデフォルト用語があらかじめロードされています。親用語（*結合的*、*階層的*、*家族的*、*時間的*）はすべて、国際アーカイブス評議会の`:ref:`ISAAR-"
+"CPF 標準<isaar-"
+"template>`から直接取られており、これはAtoM権威レコード編集テンプレートが基づいている`:term:`権威レコード<authority "
+"record>`の作成に関する国際標準です。"
+
+#: ../../user-manual/add-edit-content/terms.rst:746
+msgid ""
+"The child terms, nested under the 4 parent terms mentioned above, are taken "
+"from some of the examples used in the ISAAR-CPF standard when describing "
+"relationships. Here is a list of the default terms included in AtoM in this "
+"taxonomy:"
+msgstr ""
+"上記の4つの親用語の下にネストされている子用語は、関係性を記述する際にISAAR-"
+"CPF標準で使用されるいくつかの例から取られています。ここに、この分類法でAtoMに含まれるデフォルト用語のリストがあります："
+
+#: ../../user-manual/add-edit-content/terms.rst:757
+msgid "default terms in the Actor relation type taxonomy"
+msgstr "アクター関連タイプ分類におけるデフォルト用語"
+
+#: ../../user-manual/add-edit-content/terms.rst:757
+msgid "The default terms included in the Actor relation type taxonomy"
+msgstr "デフォルトで含まれるアクター関連性タイプのタクソノミー"
+
+#: ../../user-manual/add-edit-content/terms.rst:759
+msgid ""
+"Some of these terms have a **converse** (e.g. opposite and reciprocal) "
+"relationhip to other sibling terms. Others are **self-reciprocal** (e.g. "
+"they act as their own converse term as well). For example:"
+msgstr ""
+"これらの用語の中には、他の兄弟用語と**逆**（たとえば、対立するか、相互的な）関係を持つものがあります。また、自己相互のもの（つまり、それ自体が逆の用語として機能する）もあります。例えば："
+
+#: ../../user-manual/add-edit-content/terms.rst:763
+msgid "Under the *family* term:"
+msgstr "*家族* という用語の下で："
+
+#: ../../user-manual/add-edit-content/terms.rst:765
+msgid ""
+"*is the parent of* and *is the child of* are :term:`converse <converse "
+"term>` terms"
+msgstr "「is the parent of」と「is the child of」は、:term:`逆語 <逆語>`です。"
+
+#: ../../user-manual/add-edit-content/terms.rst:766
+msgid ""
+"*is the sibling of* is a :term:`self-reciprocal <self-reciprocal term>` term"
+msgstr "「is the sibling of」は、「自己相互 <自己相互用語>」用語の一つです。"
+
+#: ../../user-manual/add-edit-content/terms.rst:768
+msgid ""
+"Below is an image outlining all the default relationships between terms in "
+"the Actor relation type taxonomy:"
+msgstr "以下は、アクター関連タイプ分類における用語間のデフォルトの関連を示す画像です："
+
+#: ../../user-manual/add-edit-content/terms.rst:777
+msgid "default terms in Actor relation type and their relationship"
+msgstr "アクター関係タイプのデフォルト用語とその関係性"
+
+#: ../../user-manual/add-edit-content/terms.rst:777
+msgid ""
+"The default terms included in the Actor relation type taxonomy, and their "
+"relationships (as either converse to another sibling term, or self-"
+"reciprocal)"
+msgstr "アクター関連タイプ分類法に含まれるデフォルト用語及び、それらの関連性（他の同一階層用語との相互関係または自己相互）"
+
+#: ../../user-manual/add-edit-content/terms.rst:781
+msgid "Add a new converse relationship"
+msgstr "新しい逆関係を追加"
+
+#: ../../user-manual/add-edit-content/terms.rst:783
+msgid "**To create a new converse relationship between terms in AtoM:**"
+msgstr "AtoMで用語間に新しい逆関係を作成するために："
+
+#: ../../user-manual/add-edit-content/terms.rst:785
+msgid ""
+"In the Relationships area of the term's edit page, begin typing the name of "
+"the related term into the \"Converse term\" :term:`field`."
+msgstr ""
+"用語の編集ページにある「関連性領域」で、「対話形式用語（Converse "
+"term）」：term:`field`に関連する用語の名前を入力し始めてください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:790
+msgid ""
+"When you see the term you would like to add as a related term, click on it -"
+" it will be added to the field."
+msgstr "関連用語として追加したい用語が表示されたら、それをクリックします。するとその用語がフィールドに追加されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:792
+msgid ""
+"You can also create a new :term:`converse term` directly from the converse "
+"term :term:`field`. If the term you have entered in the converse term field "
+"does not yet exist, AtoM will create it when saving your edits."
+msgstr ""
+"また、逆語フィールドから直接新しい用語を作成することができます。逆語フィールドに入力した用語がまだ存在しない場合、AtoMはあなたの編集を保存する際にそれを作成します。"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "An image of a new converse term being created"
+msgstr "新しい交換用語が作成される様子の画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:801
+msgid ""
+"If the term is **self-reciprocal**, simply check the checkbox next to the "
+"converse term field. AtoM will grey-out the field:"
+msgstr "用語が**自己相互の場合**、逆語フィールドの隣のチェックボックスをチェックしてください。AtoMはそのフィールドをグレーアウトします："
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "An image of the self-reciprocal checkbox in a Terms edit page"
+msgstr "用語編集ページにおける自己相互チェックボックスの画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:809
+msgid ""
+"If you need to **edit** or **remove** a related term you have just  added, "
+"place your cursor back in the field, and make your changes directly."
+msgstr "関連する用語を**編集**または**削除**する必要がある場合は、カーソルをフィールドに戻し、直接変更を行ってください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:823
+msgid "An example of a converse term's view page"
+msgstr "「逆語のビューページの例」"
+
+#: ../../user-manual/add-edit-content/terms.rst:831
+msgid "An example of a self-reciprocal term's view page"
+msgstr "「自己相反語のビューページの例」"
+
+#: ../../user-manual/add-edit-content/terms.rst:838
+msgid "Edit an existing term"
+msgstr "既存の用語を編集"
+
+#: ../../user-manual/add-edit-content/terms.rst:840
+msgid ""
+"In AtoM, an :term:`administrator` can edit terms in AtoM's taxonomies at any"
+" time. This can be useful for customizing the values of a :term:`controlled "
+"vocabulary` to match local descriptive standards, adding supplemental "
+"information, managing relationships between terms, and more."
+msgstr ""
+"AtoMでは、管理者はいつでもAtoMの分類体系における用語を編集することができます。これにより、制御された語彙の値を地域の記述標準と一致させてカスタマイズしたり、補足情報を追加したり、用語間の関係を管理したりすることが容易になります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:855
+msgid ""
+"AtoM's file and item list reports are hard-coded to use the \"File\" and "
+"\"Item\" level of description :term:`terms <term>` in the \"Levels of "
+"description\" :term:`taxonomy`. If you edit or remove these terms from the "
+"taxonomy, you may break the reports feature. For more information on file "
+"and item-level reports in AtoM, see: :ref:`reports-printing`."
+msgstr ""
+"AtoMのファイルおよびアイテムリストレポートは、「説明レベル」:term:`分類 "
+"<term>`の中で「ファイル」と「アイテム」という:term:`用語 "
+"<term>`を使ってハードコーディングされています。これらの用語を分類から変更または削除すると、レポート機能が機能しなくなる可能性があります。AtoMのファイルおよびアイテムレベルのレポートについての詳細は、以下を参照してください:"
+" :ref:`reports-printing`。"
+
+#: ../../user-manual/add-edit-content/terms.rst:861
+msgid "**To edit an existing term in AtoM:**"
+msgstr "**AtoMにおいて既存の用語を編集するには：**"
+
+#: ../../user-manual/add-edit-content/terms.rst:891
+msgid ""
+"See the :ref:`term-data-entry` section for guidance on working with "
+"particular fields in the :term:`term` edit template."
+msgstr ""
+"特定のフィールドを:term:`term` 編集テンプレートで作業する際のガイダンスについては、:ref:`term-data-entry` "
+"セクションを参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:893
+msgid ""
+"See the sections above for instructions on working with the fields in the "
+"Relationships area, for :ref:`broader terms <add-broader-term>`, "
+":ref:`related terms <add-related-term>`, and :ref:`narrower terms <add-"
+"narrower-term>`."
+msgstr ""
+"上記のセクションを参照して、関係（Relationships）エリア内のフィールドを操作する手順についてご確認ください。該当する手順は、「:ref:`上位用語"
+" <add-broader-term>`」、「:ref:`関連用語 <add-related-term>`」、および「:ref:`下位用語 <add-"
+"narrower-term>`」で説明されています。"
+
+#: ../../user-manual/add-edit-content/terms.rst:897
+msgid ""
+"Make changes to your record as needed. You can cancel the editing process at"
+" any time by clicking the \"Cancel\" button in the :term:`button block` at "
+"the bottom of the term :term:`edit page`; no changes will be saved, and you "
+"will be redirected to the term's :term:`view page`. Note that navigating "
+"away from the edit page **without first clicking Save** will also result in "
+"no changes to the term record being saved."
+msgstr ""
+"必要に応じて記録を変更してください。編集処理はいつでもキャンセルできます。その場合、用語「編集ページ」の下部にある用語「ボタンブロック」内の「キャンセル」ボタンをクリックしてください。変更は保存されず、用語の「表示ページ」にリダイレクトされます。**「保存」をクリックせずに**"
+" 編集ページから離れた場合も、用語の記録への変更は保存されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:903
+msgid ""
+"When you are finished with your edits, click the \"Save\" button in the "
+":term:`button block` at the bottom of the page. AtoM will save your changes "
+"and redirect you to the term's :term:`view page` where you can review your "
+"work. You can repeat the process as needed by clicking \"Edit\" again."
+msgstr ""
+"編集が終了したら、ページの下部にある「ボタンブロック」にある「保存」ボタンをクリックしてください。AtoMはあなたの変更を保存し、用語の「ビューページ」にリダイレクトします。ここであなたの作業を確認することができます。「編集」を再度クリックして、必要に応じてこのプロセスを繰り返すことができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:912
+msgid "Subject and Place terms - an alternate workflow"
+msgstr "件名と場所の用語 - 代替のワークフロー"
+
+#: ../../user-manual/add-edit-content/terms.rst:914
+msgid ""
+"The :term:`Subject` and :term:`Place` terms are often those most frequently "
+"accessed by AtoM users, as they can be linked to archival descriptions as as"
+" :term:`access points <access point>`, and are therefore visible to public "
+"users. To simplify the workflow for authenticated users, the :term:`button "
+"block` will be visible to logged-in users directly on the subject and place "
+"browse pages. The following example demonstrates this for the subjects "
+"browse - however the workflow will be the same for the places browse page."
+msgstr ""
+"「件名」と「場所」の用語は、アクセスポイントとしてアーカイブ記述にリンクされるため、AtoMユーザーによって最も頻繁にアクセスされることが多く、したがって公開ユーザーに見えるものです。認証されたユーザーのワークフローを簡素化するために、ログインユーザーは件名と場所のブラウズページで直接ボタンブロックが表示されます。以下の例は件名のブラウズを示していますが、場所のブラウズページでもワークフローは同じになります。"
+
+#: ../../user-manual/add-edit-content/terms.rst:922
+msgid ""
+"Using the :term:`browse menu` located in the AtoM :term:`header bar`, "
+"navigate to **Browse > Subjects**. AtoM will redirect you to the Subjects "
+"browse page. For more information on the Browse menu, see: :ref:`browse-"
+"menu`. For general information on browsing in AtoM, see :ref:`browse`"
+msgstr ""
+"AtoMの:term:`ヘッダーバー`にある:term:`ブラウズメニュー`を使用して、**ブラウズ > "
+"主題**に移動します。AtoMはあなたを主題のブラウズページにリダイレクトします。ブラウズメニューの詳細については、:ref:`browse-"
+"menu`を参照してください。AtoMでの一般的なブラウジング情報については、:ref:`browse`を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:926
+msgid ""
+"The AtoM browse page includes a list of :term:`subjects <subject>` linked to"
+" :term:`archival descriptions <archival description>`. For more information "
+"on browsing subjects and places, see: :ref:`browse`. When logged in, users "
+"will see a :term:`button block` with an Add button directly on the subjects "
+"(or places) browse page."
+msgstr ""
+"AtoMのブラウズページには、:term:`アーカイブ記述 <archival description>`にリンクされた:term:`主題 "
+"<subject>`のリストが含まれています。主題や場所のブラウズについての詳細情報については、:ref:`browse`を参照してください。ログインしているユーザーは、主題（または場所）のブラウズページに直接追加ボタンのある:term:`ボタンブロック`を表示されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "An image of the button block in the Subjects browse page"
+msgstr "主題ブラウズページにあるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:938
+msgid ""
+"You can also select a :term:`term` from the browse page. AtoM will redirect "
+"you to a page listing descriptions in which the chosen term has been added "
+"as an :term:`access point`. On the term page, the :term:`button block` will "
+"also be visible so users can directly edit or delete the term (or add new "
+"terms) without having to navigate to the Taxonomy via **Manage > "
+"Taxonomies**."
+msgstr ""
+"ブラウズページからも:term:`用語`を選択することができます。AtoMは、選択された用語が:term:`アクセスポイント`として追加された記述をリストアップするページへリダイレクトします。用語ページには、:term:`ボタンブロック`も表示されるので、ユーザーは**管理"
+" > タクソノミー**を経由せずに直接用語の編集や削除を行うことができます（または新しい用語を追加することもできます）。"
+
+#: ../../user-manual/add-edit-content/terms.rst:-1
+msgid "An image of the button block on a Subject term browse page"
+msgstr "件名用語ブラウズページにあるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/terms.rst:950
+msgid ""
+"From here, you can follow steps 2-7 :ref:`above <edit-term>` as needed to "
+"edit your terms."
+msgstr "ここから、必要に応じて上記のステップ2-7 `を参照 <edit-term>`し、用語の編集を行うことができます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:958
+msgid "Delete a term"
+msgstr "用語を削除"
+
+#: ../../user-manual/add-edit-content/terms.rst:960
+msgid ""
+"In general, users can delete :term:`terms <term>` from :term:`taxonomies "
+"<taxonomy>` via the user interface. Note that some terms are locked, meaning"
+" that they cannot be deleted, because they are used by the application's "
+"underlying code. For an example, please see the tip section at the :ref:`top"
+" <terms>` of this page. Most terms, however, can be edited or deleted, and "
+"all taxonomies can be assigned new terms in addition to any locked values. "
+"To delete a term, a user must also have a user account with sufficient "
+":term:`access privileges <access privilege>` to access the relevant "
+":term:`taxonomy`. For more information on access privileges, see :ref:`user-"
+"roles` and :ref:`edit-user-permissions`."
+msgstr ""
+"一般的に、ユーザーはユーザーインターフェイスを通じて、:term:`タクソノミー <taxonomy>` から :term:`用語 <term>` "
+"を削除することができます。ただし、いくつかの用語はアプリケーションの下位のコードで使用されているため、ロックされており、削除できないことに注意してください。例については、このページの"
+" :ref:`先頭 <terms>` "
+"のヒントセクションをご覧ください。しかし、ほとんどの用語は編集や削除が可能で、すべてのタクソノミーにはロックされた値に加えて、新しい用語を割り当てることができます。用語を削除するためには、関連する"
+" :term:`タクソノミー` にアクセスするのに十分な :term:`アクセス権限 <access privilege>` "
+"を持つユーザーアカウントも必要です。アクセス権限に関する詳細は、:ref:`user-roles` と :ref:`edit-user-"
+"permissions` を参照してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:971
+msgid "**To delete a term in AtoM:**"
+msgstr "**AtoMで用語を削除するには：**"
+
+#: ../../user-manual/add-edit-content/terms.rst:998
+msgid ""
+"At the bottom of the term :term:`view page`, click on the \"Delete\" button "
+"in the :term:`button block`. Remember, locked terms cannot be deleted."
+msgstr ""
+"用語「ビューページ」の下部にある「ボタンブロック」内の「削除」ボタンをクリックしてください。ロックされた用語は削除できないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:1000
+msgid ""
+"You will be redirected to a page where AtoM asks you to confirm your delete "
+"request. If the term is used in any way in one or more archival "
+"descriptions, a count of related descriptions from which the term will be "
+"removed is supplied. Additionally, if the term has narrower (e.g. child) "
+"terms, these will also be deleted - AtoM will list all narrower terms that "
+"will also be deleted in the confirmation page, so you can review the "
+"consequences of your actions before proceeding."
+msgstr ""
+"あなたは削除リクエストを確認するためにAtoMが求めるページにリダイレクトされます。その用語が1つ以上のアーカイブ記述で何らかの形で使用されている場合、用語が削除される関連記述の数が提供されます。さらに、その用語により狭い（例えば、子）用語がある場合、これらも削除されます"
+" - AtoMは、進行する前にあなたが実際に行うことになる削除の影響を確認できるように、確認ページ上で削除されるすべての狭い用語を一覧表示します。"
+
+#: ../../user-manual/add-edit-content/terms.rst:1014
+msgid "An example of the delete term confirmation page"
+msgstr "削除確認ページの例"
+
+#: ../../user-manual/add-edit-content/terms.rst:1014
+msgid ""
+"An example of the deletion confirmation page for a place term with many "
+"descendants (narrower terms) - in this case, the term \"Canada\" has 2753 "
+"narrower terms that will also be deleted, and \"Canada\" is used as a place "
+"access point in 1 archival description."
+msgstr ""
+"多くの下位用語（より具体的な用語）を持つ地名用語の削除確認ページの例 - "
+"この場合、用語「カナダ」には2,753個の下位用語があり、これらも同時に削除されます。また、「カナダ」は1件のアーカイブ記述で地名アクセスポイントとして使用されています。"
+
+#: ../../user-manual/add-edit-content/terms.rst:1019
+msgid ""
+"You can cancel the delete request by clicking the \"Cancel\" button in the "
+":term:`button block` at the bottom of the confirmation page. Note that "
+"navigating away to any other page without clicking the \"Delete\" button "
+"will also result in no terms being deleted."
+msgstr ""
+"確認ページの下部にある`:term:`ボタンブロック`で「キャンセル」ボタンをクリックすることで削除リクエストをキャンセルできます。「削除」ボタンをクリックせずに他のページへ移動した場合も、用語は削除されませんのでご注意ください。"
+
+#: ../../user-manual/add-edit-content/terms.rst:1023
+msgid ""
+"If you are certain you would like to delete the :term:`term`, click the "
+"\"Delete\" button at the bottom of the confirmation page. AtoM will delete "
+"the term and return you to the related :term:`taxonomy` view page."
+msgstr ""
+"関連する用語を削除してもよいと確信している場合は、確認ページの下部にある「削除」ボタンをクリックしてください。AtoMはその用語を削除し、関連する用語分類（タクソノミー）のビューページに戻します。"
+
+#: ../../user-manual/add-edit-content/terms.rst:1029
+msgid "**Consequences of deleting a term:**"
+msgstr "**用語を削除することの結果:**"
+
+#: ../../user-manual/add-edit-content/terms.rst:1031
+msgid ""
+"The term is removed from all related :term:`archival descriptions <archival "
+"description>`, :term:`authority records <authority record>`, :term:`archival"
+" institutions <archival institution>`, etc."
+msgstr ""
+"用語は、関連するすべての:term:`アーカイブ記述 <アーカイブ記述>`, :term:`権威レコード <権威レコード>`, "
+":term:`アーカイブ機関 <アーカイブ機関>`などから削除されます。"
+
+#: ../../user-manual/add-edit-content/terms.rst:1035
+msgid ""
+"The related records are **not** deleted - e.g. if you delete a :term:`place`"
+" term used as an :term:`access point` on an :term:`archival description`, "
+"the place term will be removed from the related description, but th archival"
+" description itself will not be deleted"
+msgstr ""
+"関連する記録は**削除されません** - 例えば、：term:`place` の用語を：term:`archival "
+"description`の：term:`access "
+"point`として使用し、その場所の用語を削除する場合は、関連する記述から場所の用語が削除されますが、アーカイブの記述自体は削除されません。"
+
+#: ../../user-manual/add-edit-content/terms.rst:1040
+msgid ""
+"Any narrower terms (e.g. descendants, or child terms) that are nested under "
+"the term will also be deleted."
+msgstr "その用語の下にネストされているより狭い用語（例：子孫や子用語）もまた削除されます。"

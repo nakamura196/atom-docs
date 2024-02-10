@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:5
+msgid "Populate search index"
+msgstr "検索インデックスを充実させる"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:7
+msgid ""
+"AtoM maintains an `Elasticsearch <http://www.elasticsearch.org/>`__ search "
+"index to provide fast, full-text search results with :term:`faceting <Facet "
+"filter>`."
+msgstr ""
+"AtoMは、`:term:`ファセティング <ファセットフィルタ>`を使用した高速な全文検索結果を提供するために、`Elasticsearch "
+"<http://www.elasticsearch.org/>`__ 検索インデックスを維持しています。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:11
+msgid ""
+"Occasionaly it is necessary to repopulate the Elasticsearch index from the "
+"primary database, especially after operations that affect many records, e.g."
+msgstr ""
+"時折、特に多くのレコードに影響を与える操作を行った後など、プライマリデータベースからElasticsearchインデックスを再構築する必要が生じます。例えば、"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:14
+msgid "Importing data (CSV or EAD import)"
+msgstr "データのインポート（CSVまたはEADインポート）"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:15
+msgid "Moving a large series to a new :term:`parent record`"
+msgstr "大量のシリーズを新しい:term:`親レコード`に移動"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:16
+msgid ""
+"Moving a :term:`Fonds` or :term:`Collection` to a different :term:`archival "
+"institution`"
+msgstr "「フォンド」または「コレクション」を異なる「アーカイブ施設」へ移動する"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:18
+msgid "Doing any bulk search and replace operation"
+msgstr "一括検索および置換操作を実行する"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:20
+msgid ""
+"Populating the search index requires running a Symfony command line task, "
+"which is located in the root directory of the application. By default, "
+"running this task will delete the current index, then repopulate and "
+"optimize the index - though an option exists that will allow you to update "
+"the index in place, without first deleting the existing index. Depending on "
+"the number of records in your installation, this task can take a while to "
+"run - for production sites, we recommend running this task after regular "
+"business hours."
+msgstr ""
+"検索インデックスの充填には、アプリケーションのルートディレクトリにあるSymfonyコマンドラインタスクを実行する必要があります。デフォルトでは、このタスクを実行すると現在のインデックスが削除され、その後インデックスが再充填および最適化されますが、既存のインデックスを削除せずにその場でインデックスを更新するオプションも存在します。インストールされている記録の数によっては、このタスクの実行に時間がかかる可能性があります。本番環境のサイトでは、通常の営業時間外にこのタスクを実行することをお勧めします。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:28
+msgid ""
+"To run the task without any of the available options, enter the following in"
+" the command-line interface, in the root AtoM directory:"
+msgstr ""
+"利用可能なオプションを一切使用せずにタスクを実行するには、コマンドラインインターフェースで、AtoMのルートディレクトリに以下を入力してください："
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:35
+msgid ""
+"You can also run ``php symfony help search:populate`` to see the available "
+"options for this command-line task:"
+msgstr ""
+"また、このコマンドラインタスクで利用可能なオプションを確認するために、「php symfony help "
+"search:populate」と実行することもできます。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:-1
+msgid "An image of the description and options for the search:populate task"
+msgstr "説明とsearch:populateタスクのオプションに関する画像"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:43
+msgid ""
+"The ``--application`` and ``--env`` options **should not be used** - AtoM "
+"requires the uses of the pre-set defaults for Symfony to be able to execute "
+"the task."
+msgstr ""
+"「`--application` と `--env` オプションは **使用すべきではありません** - "
+"AtoMは、タスクを実行できるようにSymfonyの事前に設定されたデフォルトを使用する必要があります。」"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:47
+msgid ""
+"The ``--slug`` option can be used to specify a specifc resource to be re-"
+"indexed. If the target resource is hierarchical (i.e. an :term:`archival "
+"description` with lower-level :term:`children <child record>`), the "
+"descendant records will also be indexed. If you **don't** want lower-level "
+"records to be indexed when using this option, you can also use the "
+"``--ignore-descendants`` option - in this case, any lower-level records "
+"below the target resource will not be re-indexed as part of the process."
+msgstr ""
+"``--slug`` "
+"オプションを使用して、再インデックス化する特定のリソースを指定することができます。対象リソースが階層的である場合（例えば、下位レベルの:term:`子記録<child"
+" "
+"record>`を持つ:term:`アーカイブ記述`）、子孫のレコードもインデックス化されます。このオプションを使用していて下位レベルのレコードをインデックス化したくない場合は、``--ignore-"
+"descendants`` オプションも使用できます - "
+"この場合、対象リソースの下位にある任意のレコードはプロセスの一部として再インデックス化されません。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:57
+msgid ""
+"When used the ``--slug`` option will ignore any parameters set by the "
+"``--exclude types`` option"
+msgstr "「--slug」オプションを使用すると、「--exclude-types」オプションで設定されたパラメーターを無視します。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:59
+msgid ""
+"The ``--ignore-descendants`` option will **only** work when used in "
+"conjunction with the ``--slug`` option"
+msgstr "「--ignore-descendants」オプションは、「--slug」オプションと併用した場合に**のみ**機能します。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:62
+msgid ""
+"The ``--exclude-types`` option can be used if you do not want to re-index "
+"certain record types. When this option is used, the existing index is not "
+"completely flushed - the current part of the index for the excluded types "
+"will be maintained, while other entities will be flushed and re-indexed. "
+"This can be useful if, for example, you have many archival descriptions "
+"(which would take a long time to re-index), but only need to re-index your "
+"authority records and/or other entities - you could then use the command "
+"with ``--exclude-types=\"informationobject`` and the existing index for "
+"descriptions would be maintained."
+msgstr ""
+"「--exclude-"
+"types」オプションは、特定のレコードタイプを再インデックスしたくない場合に使用できます。このオプションを使用すると、既存のインデックスは完全にフラッシュされません"
+" - "
+"除外されたタイプの現在のインデックス部分は維持され、他のエンティティはフラッシュされ、再インデックスされます。たとえば、多数のアーカイブ記述があり（再インデックスに長い時間がかかる）、ただし権威レコードやその他のエンティティのみを再インデックスする必要がある場合に便利です"
+" - その場合、「--exclude-"
+"types=\"informationobject\"」のコマンドを使用して、既存の記述のインデックスを維持できます。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:72
+msgid "Below is a list of the types that can be excluded using this option:"
+msgstr "以下は、このオプションを使用して除外できるタイプのリストです："
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:74
+msgid ":term:`accession <accession record>`"
+msgstr "用語：`搬入記録 <搬入記録>`"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:75
+msgid "actor (i.e. :term:`authority record`)"
+msgstr "アクター（例：用語：`権威レコード`）"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:76
+msgid ""
+"aip (indexed during a DIP upload from `Archivematica "
+"<https://www.archivematica.org/>`__)"
+msgstr ""
+"AIP（`Archivematica <https://www.archivematica.org/>`__ "
+"からのDIPアップロード中にインデックス化される）"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:77
+msgid ":term:`function`"
+msgstr ""
+"`:term:`function``のようなマークアップは通常、特定の文書のマークダウンやreStructuredTextなどのライトウェイトマークアップ言語における専門用語や概念を参照するために使われます。しかし、このテキストスニペットだけでは、実際に何を参照しているのか、またはそのコンテキストが不明確です。ですが、指示された通り、このテキストを日本語に翻訳すると次のようになります：\n"
+"\n"
+"`:term:`機能``\n"
+"\n"
+"この翻訳は、英語の\"function\"を日本語の\"機能\"に翻訳していますが、文脈に応じて「関数」など他の語句が適切な場合もあります。なお、マークアップの構文は維持されています。詳細なコンテキストが提供されると、より正確な翻訳が可能になります。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:78
+msgid "informationobject (i.e. :term:`archival description`)"
+msgstr "インフォメーションオブジェクト（例：用語 `アーカイバルディスクリプション`）"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:79
+msgid "repository (i.e. :term:`archival institution`)"
+msgstr "リポジトリ（例：用語「アーカイブ機関」）"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:80
+msgid ""
+":term:`term` (such as :term:`subjects <subject>` and :term:`places <place>`,"
+" etc)"
+msgstr "`:term:`用語（例えば`:term:`主題 <subject>`や`:term:`場所 <place>`など）"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:83
+msgid ""
+"You can exclude multiple types at once, by separating them with commas - "
+"**don't leave spaces** between the commas. For example, to re-index your "
+"site but skip indexing terms (such as subject and place :term:`access points"
+" <access point>`), authority records, and archival descriptions, you could "
+"enter the command like so:"
+msgstr ""
+"複数のタイプを一度に除外するには、それらをコンマで区切ってください - "
+"コンマの間に**スペースを入れないでください**。たとえば、サイトを再インデックス化する際に用語（たとえば対象と場所のアクセスポイント）、権威レコード、およびアーカイブ記述をインデックス化からスキップしたい場合、次のようにコマンドを入力できます："
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:93
+msgid ""
+"The command will indicate at the beginning which types are being re-indexed,"
+" and then will output the results of indexing the remaining entities:"
+msgstr "このコマンドは、開始時にどのタイプが再インデックスされているかを示し、その後、残りのエンティティをインデックス化した結果を出力します。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:-1
+msgid ""
+"An image of the console output when excluding actors, terms, and\n"
+"information objects during a search index repopulation"
+msgstr "コンソール出力の画像で、検索インデックスの再生時に、アクター、用語、情報オブジェクトを除外する場合"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:102
+msgid ""
+"You can also use the ``--show-types`` option to display the available index "
+"types prior to indexing. When run, the task will display a list of available"
+" types in your AtoM instance:"
+msgstr ""
+"また、インデックス作成前に利用可能なインデックスタイプを表示するために ``--show-types`` "
+"オプションを使用することができます。このタスクを実行すると、あなたのAtoMインスタンスで利用可能なタイプのリストが表示されます："
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:-1
+msgid "An image of the console output when showing available record types"
+msgstr "コンソール出力の画像で、利用可能なレコードタイプを表示しています"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:111
+msgid ""
+"Pressing enter will continue and run the ``search:populate`` task (with no "
+"types), or alternatively, you can exit the task by entering ``CTRL+C`` and "
+"then re-enter your parameters, using ``--exclude-types`` as needed."
+msgstr ""
+"エンターキーを押すと、「search:populate」タスクが（タイプ指定なしで）続行されます。または、``CTRL+C`` "
+"を入力してタスクを終了し、必要に応じて ``--exclude-types`` を使用してパラメータを再入力することができます。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:115
+msgid ""
+"Finally, the ``--update`` option can be used to update the index in place, "
+"**without** first deleting the existing index. The process may take slightly"
+" longer, but it can be useful for indexing on production sites, as there is "
+"no downtime for end users - without this option, no records will display in "
+"the search/browse results until indexing has completed."
+msgstr ""
+"最後に、``--update`` "
+"オプションは、既存のインデックスを先に削除することなく、その場でインデックスを更新するために使用できます。このプロセスは少し時間がかかるかもしれませんが、プロダクションサイトでのインデックス作成には便利です。エンドユーザーにダウンタイムが発生しません"
+" - このオプションがない場合、インデックス作成が完了するまで検索/閲覧結果にレコードが表示されません。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:121
+msgid "Example use:"
+msgstr "例の使用法："
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:129
+msgid ":ref:`cli-search-status`"
+msgstr ""
+"`:ref:`cli-search-status``は特定の文脈がないため、直接日本語に翻訳することはできません。通常、これは技術文書の中で使われるリファレンス（参照）タグであり、特定のセクションや命令にリンクするためのものです。文書内でこのタグは特定の「CLI (コマンドラインインターフェース) の検索状態」に関連するセクションを指していると考えられます。ただし、命令やセクションのタイトルをそのまま日本語に訳す場合は、次のようになるかもしれません:\n"
+"\n"
+"「CLIの検索状態に関する参照」\n"
+"\n"
+"それでも、実際の文書でこのリファレンスがどのように使われているかを見ないと、正確な翻訳を提供することは困難です。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:130
+msgid ":ref:`maintenance-clear-cache`"
+msgstr ":ref:`メンテナンス-キャッシュのクリア`"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:131
+msgid ":ref:`maintenance-cli-tools`"
+msgstr ""
+"`:ref:`maintenance-cli-tools`` というテキストは、おそらく特定のドキュメント内のリファレンスラベルかアンカーポイントを指しています。これがHTMLまたはマークダウンファイルの一部である場合、これは通常、同じドキュメント内の「maintenance-cli-tools」という名前のセクションまたは別の場所にリンクするために使われるリファレンスです。\n"
+"\n"
+"ただし、リンクのテキスト自体に意味がないため、このテキストの翻訳は意味をなさない可能性があります。ドキュメント内でコンテキストが与えられていなければ、翻訳者としてはリファレンスタグ自体を翻訳することはできません。日本語のドキュメント内で使われる場合、このリファレンスタグは通常、そのまま残されます。\n"
+"\n"
+"もし、このリファレンスが指す実際のセクションタイトルや内容を翻訳する必要がある場合、その具体的なテキストが必要になります。例えば、\"Maintenance CLI Tools\" というセクションタイトルであれば、「メンテナンス用CLIツール」といった形で翻訳することができます。"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:132
+msgid ":ref:`maintenance-troubleshooting`"
+msgstr ":maint:`メンテナンスとトラブルシューティング`"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:133
+msgid ":ref:`maintenance-webserver`"
+msgstr ""
+"このテキストは参照リンクです。そのため、このコンテキストでは正しい翻訳を提供するのは難しいですが、仮にドキュメントのセクションタイトル「Maintenance of the Web Server」を翻訳するとした場合、以下のようになるでしょう。\n"
+"\n"
+":ref:`ウェブサーバーのメンテナンス`"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:134
+msgid ":ref:`maintenance-elasticsearch`"
+msgstr ":ref:`メンテナンス-Elasticsearch`"
+
+#: ../../admin-manual/maintenance/populate-search-index.rst:136
+msgid ":ref:`Back to top <maintenance-populate-search-index>`"
+msgstr ":ref:`トップに戻る <maintenance-populate-search-index>`"

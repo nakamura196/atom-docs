@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/installation/requirements.rst:5
+msgid "Technical Requirements"
+msgstr "技術要件"
+
+#: ../../admin-manual/installation/requirements.rst:7
+msgid "*On this page*"
+msgstr "*このページ上で*"
+
+#: ../../admin-manual/installation/requirements.rst:9
+msgid ":ref:`Hardware and server environment <hardware>`"
+msgstr ":ref:`ハードウェアおよびサーバー環境 <hardware>`"
+
+#: ../../admin-manual/installation/requirements.rst:10
+msgid ":ref:`Minimum hardware requirements <minreq>`"
+msgstr ":ref:`最小ハードウェア要件 <minreq>`"
+
+#: ../../admin-manual/installation/requirements.rst:11
+msgid ":ref:`Software dependencies <soft_dep>`"
+msgstr ":ref:`ソフトウェア依存関係 <soft_dep>`"
+
+#: ../../admin-manual/installation/requirements.rst:12
+msgid ":ref:`Other dependencies <other-dependencies>`"
+msgstr ":ref:`その他の依存関係 <other-dependencies>`"
+
+#: ../../admin-manual/installation/requirements.rst:17
+msgid "Hardware and server environment"
+msgstr "ハードウェアとサーバー環境"
+
+#: ../../admin-manual/installation/requirements.rst:19
+msgid ""
+"Please note that it is difficult to provide an authoritative baseline or "
+"recommended system specification for running AtoM. What is considered an "
+"\"acceptable\" performance level is subjective, and the performance of the "
+"application depends greatly on factors such as the how much data is in the "
+"database and how many users are accessing the site simultaneously."
+msgstr ""
+"以下のことにご注意ください。AtoMを実行するための権威あるベースラインや推奨されるシステム仕様を提供することは困難です。\"許容される\"パフォーマンスレベルは主観的であり、アプリケーションのパフォーマンスは、データベースに含まれるデータの量や同時にサイトにアクセスしているユーザー数などの要因に大きく依存します。"
+
+#: ../../admin-manual/installation/requirements.rst:25
+msgid ""
+"Furthermore, AtoM makes use of different components and services that could "
+"be deployed in a distributed manner (across multiple machines in a network) "
+"in order to accept an escalating number of users. The main goal of this "
+"documentation is to describe the configuration of AtoM and its dependencies "
+"on a single machine, but some aspects of a multi-node installation will also"
+" be discussed."
+msgstr ""
+"さらに、AtoMはさまざまなコンポーネントとサービスを利用しており、それらは分散展開（ネットワーク内の複数のマシン上で）が可能です。これにより、増加するユーザー数に対応することができます。本ドキュメントの主な目的は、シングルマシン上でのAtoM及びその依存関係の設定について説明することですが、マルチノードインストールのいくつかの側面についても議論します。"
+
+#: ../../admin-manual/installation/requirements.rst:35
+msgid "Minimum hardware requirements"
+msgstr "最小ハードウェア要件"
+
+#: ../../admin-manual/installation/requirements.rst:39
+msgid ""
+"The following information is intended to provide a starting point for "
+"setting up your system. It provides specifications for an \"all-in-one\" "
+"deployment, with all of the services (i.e. nginx, Percona server, ES, "
+"memcached) installed in a single virtual machine."
+msgstr ""
+"以下の情報は、システムの設定を始めるための出発点を提供することを目的としています。これは「オールインワン」デプロイメントのための仕様を提供し、全てのサービス（例えばnginx、Perconaサーバー、ES、memcached）が単一の仮想マシンにインストールされます。"
+
+#: ../../admin-manual/installation/requirements.rst:44
+msgid ""
+"For a frame of reference, Artefactual's standard AtoM test/demo site "
+"deployment is a cloud VM with the following specifications:"
+msgstr "参考のために、Artefactualが標準的に使用するAtoMのテスト/デモサイトのデプロイメントは、以下の仕様を持つクラウドVMです："
+
+#: ../../admin-manual/installation/requirements.rst:47
+msgid "Processor: 2 vCPUs @ 2.3GHz"
+msgstr "プロセッサ：2 vCPU @ 2.3GHz"
+
+#: ../../admin-manual/installation/requirements.rst:48
+msgid "Memory: 7GB"
+msgstr "メモリ: 7GB"
+
+#: ../../admin-manual/installation/requirements.rst:49
+msgid ""
+"Disk space (processing):  50GB at a minimum for AtoM's core stack plus more "
+"storage would be required for supporting any substantial number of digital "
+"objects."
+msgstr ""
+"ディスクスペース（処理）：AtoMのコアスタックに最低50GBが必要です。さらに大量のデジタルオブジェクトをサポートするためには、より多くのストレージが必要となるでしょう。"
+
+#: ../../admin-manual/installation/requirements.rst:56
+msgid "Software dependencies (required)"
+msgstr "ソフトウェアの依存関係（必須）"
+
+#: ../../admin-manual/installation/requirements.rst:58
+msgid ""
+"These are the minimum requirements, but please remember that in most of the "
+"cases you'll experience better results working with the latest stable "
+"releases of each component."
+msgstr "これらは最低要件ですが、ほとんどの場合、各コンポーネントの最新の安定版を使用することで、より良い結果が得られることを覚えておいてください。"
+
+#: ../../admin-manual/installation/requirements.rst:62
+msgid ""
+"A webserver like `Apache <https://httpd.apache.org/>`__ or `Nginx "
+"<http://nginx.com/>`__; Artefactual prefers the latter in development"
+msgstr ""
+"以下のテキストを日本語に翻訳しました：\n"
+"\n"
+"Apache <https://httpd.apache.org/> や Nginx <http://nginx.com/> のようなウェブサーバーです。Artefactualでは後者の開発を優先しています。"
+
+#: ../../admin-manual/installation/requirements.rst:65
+msgid ""
+"`Elasticsearch <https://www.elastic.co/products/elasticsearch>`__ 5.x (we "
+"use ES 5.6 in development). Elasticsearch 6.0 or newer is not supported as "
+"they have deprecated a number of APIs still used in AtoM"
+msgstr ""
+"以下は、指定されたテキストの日本語訳です：\n"
+"\n"
+"Elasticsearch <https://www.elastic.co/products/elasticsearch> 5.x（開発ではES 5.6を使用しています）。 Elasticsearch 6.0またはそれ以降のバージョンは、AtoMでまだ使用されている多くのAPIが非推奨になったため、サポートされていません。"
+
+#: ../../admin-manual/installation/requirements.rst:68
+msgid "`Java <https://www.java.com/en/>`__ 8 (required for Elasticsearch)"
+msgstr "Elasticsearch用の Java 8（必須）<https://www.java.com/ja/>"
+
+#: ../../admin-manual/installation/requirements.rst:69
+msgid "`MySQL <https://www.mysql.com/>`__ 8.0"
+msgstr "MySQL <https://www.mysql.com/> 8.0"
+
+#: ../../admin-manual/installation/requirements.rst:70
+msgid "`PHP <http://php.net/>`__ 7.4"
+msgstr ""
+"`PHP <http://php.net/>`__ 7.4\n"
+"\n"
+"このテキストは、PHP 7.4というプログラミング言語のバージョンに関連するWebリンクを示しています。しかし、実際の翻訳にあたっては、上記のテキストでは不足しており、何かしらの関連文脈または前後の文が必要です。もし仮にテキストを簡潔に日本語に翻訳する必要がある場合、以下のようになります。\n"
+"\n"
+"「PHP <http://php.net/> 7.4」"
+
+#: ../../admin-manual/installation/requirements.rst:71
+msgid "`Gearman job server <http://gearman.org>`__"
+msgstr "Gearmanジョブサーバー `<http://gearman.org>`__"
+
+#: ../../admin-manual/installation/requirements.rst:73
+msgid "Optionally, Memcached can be used as cache engine:"
+msgstr "オプションとして、Memcachedはキャッシュエンジンとして使用することができます。"
+
+#: ../../admin-manual/installation/requirements.rst:75
+msgid "`Memcached <http://memcached.org>`__"
+msgstr "Memcached <http://memcached.org>"
+
+#: ../../admin-manual/installation/requirements.rst:77
+msgid "Additionally, the following PHP extensions are mandatory:"
+msgstr "また、以下のPHPエクステンションのインストールが必須です："
+
+#: ../../admin-manual/installation/requirements.rst:79
+msgid "cURL"
+msgstr ""
+"cURLは英語のままとして、翻訳が必要かどうかについて特に指示がないため、cURLという用語はそのまま文中で使用されることに注意してください。もし文脈に応じて翻訳や説明が必要な場合は、その旨を指摘してください。以下のテキストの翻訳を提供します。\n"
+"\n"
+"---\n"
+"\n"
+"cURLは、さまざまなプロトコルを使用してサーバーと通信するためのライブラリとコマンドラインツールです。通常、データのアップロードやダウンロードなどのインターネットを介したファイル転送に使用されます。さらに、cURLはHTTP POST、HTTP PUT、FTPアップロード、HTTP形式ベースのアップロード、プロキシ、認証、クッキーなど、多くの機能をサポートしています。Archivematicaでは、HTTP経由で外部サービスに接続する際に、cURLが利用されることがあります。"
+
+#: ../../admin-manual/installation/requirements.rst:80
+msgid "JSON"
+msgstr ""
+"JSON（JavaScript Object "
+"Notation）は、データを軽量フォーマットで交換するためのテキストベースの標準フォーマットです。JSONは人間が読み書きしやすく、マシンが解析して生成するのは容易です。JSON形式は、JavaScriptのオブジェクトリテラル記法から派生しているが、JavaScriptに限らず多くのプログラミング言語で使用できる。JSONはウェブアプリケーションでデータをサーバーとクライアント間でやり取りする場合や、設定ファイルとしても多く利用されており、XMLの代替としても広く受け入れられています。"
+
+#: ../../admin-manual/installation/requirements.rst:81
+msgid "APC (apcu-bc also required)"
+msgstr "APC（APCu互換性を持つapcu-bcも必要）"
+
+#: ../../admin-manual/installation/requirements.rst:82
+msgid "PDO and PDO-MySQL"
+msgstr "PDO および PDO-MySQL"
+
+#: ../../admin-manual/installation/requirements.rst:83
+msgid "XSL"
+msgstr ""
+"XSLは、Extensible Stylesheet Language（拡張可能スタイルシート言語）の略であり、XML文書のスタイリングと表示に使用される一連の言語のファミリーを指します。XSLは、主にXSLT（XSL Transformations）、XPath（XML Path Language）、およびXSL-FO（XSL Formatting Objects）の3つの部分から構成されます。\n"
+"\n"
+"XSLTは、XML文書を別のXML文書に変換するための言語で、このプロセスは\"変換\"と呼ばれます。この技術は、XMLデータをHTMLやテキストなどの異なる形式に変換するために広く使用されています。例えば、XSLTを使用してXMLベースのアーカイブから情報を抽出し、ユーザにとって読みやすい形式に変換することができます。\n"
+"\n"
+"XPathは、XML文書内の特定の部分をナビゲートし、選択するための言語です。XPath式は、XSLTにおいて変換の際の具体的な要素や属性を指定するために用います。\n"
+"\n"
+"XSL-FOは、XMLデータをページレイアウト形式に変換するための言語であり、高度に制御された印刷物の出力を生成することができます。XSL-FOはPDFや紙の印刷など、精密なレイアウト要求を有する出力に適しています。\n"
+"\n"
+"これらの技術は、デジタルアーカイブのコンテキストで重要となることが多く、特にデータを保存可能なフォーマットに変換する際や、アーカイブされた情報をアクセス可能でユーザフレンドリーな形式に提示するために使用されます。また、標準化された方法でメタデータを扱うためにも利用されます。"
+
+#: ../../admin-manual/installation/requirements.rst:85
+msgid "And the following PHP extensions are optional:"
+msgstr "以下のPHP拡張機能はオプションです："
+
+#: ../../admin-manual/installation/requirements.rst:87
+msgid "Readline (not available in Windows)."
+msgstr "Windowsでは使用できません（Readline）。"
+
+#: ../../admin-manual/installation/requirements.rst:88
+msgid "Memcache (needs`php-memcache`, not `php-memcached`)."
+msgstr "Memcache (必要なのは `php-memcache` で、`php-memcached` ではありません)。"
+
+#: ../../admin-manual/installation/requirements.rst:92
+msgid ""
+"All these dependencies can run in a number of different operative systems, "
+"including :ref:`installation-windows`, :ref:`installation-macosx`, or Ubuntu"
+" Linux :ref:`installation-ubuntu`."
+msgstr ""
+"これらの依存関係は、:ref:`installation-windows`、:ref:`installation-macosx`、またはUbuntu "
+"Linux :ref:`installation-ubuntu`を含むいくつかの異なるオペレーティングシステムで動作することができます。"
+
+#: ../../admin-manual/installation/requirements.rst:99
+msgid "Other dependencies"
+msgstr "他の依存関係"
+
+#: ../../admin-manual/installation/requirements.rst:101
+msgid "**ImageMagick**"
+msgstr "**ImageMagick** (イメージマジック)"
+
+#: ../../admin-manual/installation/requirements.rst:103
+msgid ""
+"*ImageMagick® is a software suite to create, edit, compose, or convert "
+"bitmap images. It can read and write images in a variety of formats (over "
+"100) including DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, "
+"Postscript, SVG, and TIFF. Use ImageMagick to resize, flip, mirror, rotate, "
+"distort, shear and transform images, adjust image colors, apply various "
+"special effects, or draw text, lines, polygons, ellipses and Bézier curves.*"
+msgstr ""
+"ImageMagick®は、ビットマップ画像を作成、編集、構成、または変換するためのソフトウェアスイートです。100種類以上のフォーマット（DPX、EXR、GIF、JPEG、JPEG-2000、PDF、PhotoCD、PNG、Postscript、SVG、TIFFなど）の画像を読み取り、書き込むことができます。ImageMagickを使用して、画像のサイズ変更、反転、ミラー、回転、歪み、シアリング、変形を行ったり、画像の色を調整したり、さまざまな特殊効果を適用したり、テキスト、線、多角形、楕円、ベジェ曲線を描画することができます。"
+
+#: ../../admin-manual/installation/requirements.rst:111
+msgid ""
+"`ImageMagick <http://www.imagemagick.org/script/index.php>`__ is used in "
+"AtoM to create image derivatives (reference and :term:`thumbnail`) from the "
+":term:`master digital object`, including the creation of derivatives from "
+"uploaded multi-page TIFFs. ImageMagick *and* Ghostscript are required for "
+"creating single page and mulit-page PDF derivative images as well."
+msgstr ""
+"`ImageMagick <http://www.imagemagick.org/script/index.php>`__ "
+"は、AtoM内でマスターデジタルオブジェクトからイメージの派生物（参照用及び縮小版）を作成するために使用されます。これには、アップロードされたマルチページTIFFからの派生物の作成を含みます。ImageMagick"
+" *および* Ghostscript は、単一ページ及びマルチページPDF派生イメージを作成するためにも必要です。"
+
+#: ../../admin-manual/installation/requirements.rst:117
+msgid "**Ghostscript**"
+msgstr "**ゴーストスクリプト**"
+
+#: ../../admin-manual/installation/requirements.rst:119
+msgid ""
+"*Ghostscript is a suite of software based on an interpreter for Adobe "
+"Systems' PostScript and Portable Document Format (PDF) page description "
+"languages. Its main purposes are the rasterization or rendering of such page"
+" description language files, for the display or printing of document pages, "
+"and the conversion between PostScript and PDF files.* (`Wikipedia "
+"<https://en.wikipedia.org/wiki/Ghostscript>`__)"
+msgstr ""
+"*Ghostscriptは、Adobe SystemsのPostScriptおよびPortable Document "
+"Format（PDF）ページ記述言語のためのインタープリタに基づくソフトウェアスイートです。その主な目的は、このようなページ記述言語ファイルのラスタライゼーションまたはレンダリングであり、文書ページの表示または印刷、およびPostScriptとPDFファイル間の変換にあります。*"
+" (`Wikipedia <https://en.wikipedia.org/wiki/Ghostscript>`__)"
+
+#: ../../admin-manual/installation/requirements.rst:126
+msgid ""
+"`Ghostscript <http://www.ghostscript.com/>`__ is used in AtoM *with* "
+"ImageMagick for creating single-page and multi-page PDF derivative images"
+msgstr ""
+"Archivematicaでは、単ページおよび複数ページのPDF派生イメージを作成するために、ImageMagickと共にGhostscript（http://www.ghostscript.com/）が利用されています。"
+
+#: ../../admin-manual/installation/requirements.rst:129
+msgid "**FFmpeg**"
+msgstr "FFmpeg (エフエフエムペグ)"
+
+#: ../../admin-manual/installation/requirements.rst:131
+msgid ""
+"*FFmpeg is a complete, cross-platform solution to record, convert and stream"
+" audio and video. It includes libavcodec - the leading audio/video codec "
+"library.*"
+msgstr ""
+"FFmpegは、オーディオおよびビデオの録音、変換、ストリーミングを行うための完全なクロスプラットフォームソリューションです。これは、主要なオーディオ/ビデオコーデックライブラリであるlibavcodecを含んでいます。"
+
+#: ../../admin-manual/installation/requirements.rst:135
+msgid ""
+"`FFmpeg <http://ffmpeg.org/>`__ is used in AtoM to create video derivatives,"
+" including creating a flash reference video derivative for in-browser "
+"viewing."
+msgstr ""
+"`FFmpeg <http://ffmpeg.org/>`__ "
+"は、AtoM内でビデオの派生ファイルを作成するために使用されており、ブラウザ内視聴のためのフラッシュ参照ビデオ派生ファイルを作成することを含んでいます。"
+
+#: ../../admin-manual/installation/requirements.rst:138
+msgid "**pdftotext (part of poppler-utils)**"
+msgstr "**pdftotext（poppler-utilsの一部）**"
+
+#: ../../admin-manual/installation/requirements.rst:140
+msgid ""
+"*pdftotext is an open source command-line utility for converting PDF files "
+"to plain text files —i.e. extracting text data from PDF-encapsulated files. "
+"It is freely available and included by default with many Linux "
+"distributions, and is also available for Windows as part of the Xpdf Windows"
+" port.* (`Wikipedia <https://en.wikipedia.org/wiki/Pdftotext>`__)"
+msgstr ""
+"*pdftotextは、PDFファイルから純粋なテキストファイルへの変換、つまりPDFでカプセル化されたファイルからテキストデータを抽出するためのオープンソースのコマンドラインユーティリティです。これは自由に利用可能で、多くのLinuxディストリビューションにデフォルトで含まれており、Xpdf"
+" Windowsポートの一部としてWindowsでも利用可能です。* (`Wikipedia "
+"<https://en.wikipedia.org/wiki/Pdftotext>`__)"
+
+#: ../../admin-manual/installation/requirements.rst:146
+msgid ""
+"pdftotext is used in AtoM to extract PDF text to make it searchable via "
+"AtoM's :term:`user interface`."
+msgstr ""
+"AtoMでは、pdftotextを使用してPDFテキストを抽出し、AtoMの:term:`ユーザーインターフェース`を通じて検索可能にします。"
+
+#: ../../admin-manual/installation/requirements.rst:149
+msgid "**Apache FOP**"
+msgstr ""
+"Apache FOP (Formatting Objects "
+"Processor)は、XML文書をページ記述言語に変換するプリンターフォーマットを生成するためのアプリケーションです。これは、特にXSL-FO "
+"(Extensible Stylesheet Language Formatting Objects)を使用して、PDFやPS "
+"(PostScript)、PCL (Printer Command "
+"Language)などの出力フォーマットに変換することが可能です。FOPは、Apache Software "
+"Foundationがサポートするオープンソースプロジェクトの一部であり、コミュニティによるメンテナンスと拡張が行われています。"
+
+#: ../../admin-manual/installation/requirements.rst:151
+msgid ""
+"*Apache™ FOP (Formatting Objects Processor) is a print formatter driven by "
+"XSL formatting objects (XSL-FO) and an output independent formatter. It is a"
+" Java application that reads a formatting object (FO) tree and renders the "
+"resulting pages to a specified output.*"
+msgstr ""
+"*Apache™ FOP（Formatting Objects Processor）は、XSLフォーマットオブジェクト（XSL-"
+"FO）によって制御される印刷フォーマッターであり、出力に依存しないフォーマッターです。これは、フォーマッティングオブジェクト（FO）ツリーを読み込み、結果として得られるページを指定された出力にレンダリングするJavaアプリケーションです。*"
+
+#: ../../admin-manual/installation/requirements.rst:156
+msgid ""
+"`Apache FOP <https://xmlgraphics.apache.org/fop/>`__ is used in AtoM to "
+"create PDF finding aids."
+msgstr ""
+"Apache FOP <https://xmlgraphics.apache.org/fop/> "
+"は、AtoM内でPDFファインディングエイドを作成するために使用されます。"

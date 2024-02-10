@@ -1,0 +1,357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:5
+msgid "Deaccession records"
+msgstr "アクセス解除記録"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:7
+msgid ""
+"The :term:`accession record` is the means by which the accessioning process "
+"is documented - an accession record is an administrative and descriptive "
+"document that summarizes standard information about the process of "
+"transferring materials to a repository, including information about the "
+"provenance, contents and legal and physical transfer of the records such as,"
+" rights and restrictions. It often precedes arrangement and description, and"
+" can be used as the basis for the creation of an :term:`archival "
+"description` once the materials have been arranged."
+msgstr ""
+"アクセッション記録とは、収蔵過程を文書化する手段です。アクセッション記録は、資料をリポジトリに移転するプロセスについての標準情報をまとめた管理的かつ記述的な文書であり、出所、内容、および記録の法的及び物理的移転に関する情報、例えば権利や制限事項などを含んでいます。この記録はしばしば、配列および記述よりも前に行われ、資料が配列された後にアーカイバル記述の作成の基礎として使用することができます。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:16
+msgid ""
+"Sometimes archival materials are deaccessioned by an institution - the "
+"materials are removed from the collection for destruction or transfer of "
+"custody. To maintain a complete record, many archivists will create a "
+":term:`deaccession record` and associate it with the original "
+":term:`accession record`, rather than simply destroying all records "
+"associated with the former holdings. For long-term accountability and "
+"provenance, this is recommended practice."
+msgstr ""
+"時には、アーカイブ資料が機関によって脱収集されます。つまり、資料が収蔵品から削除され、破棄または管理の移転が実施されます。完全な記録を維持するために、多くのアーキビストは、単に元の収蔵物に関連する全ての記録を破壊するのではなく、`:term:`脱収集記録`を作成し、それを元の`:term:`収集記録`に関連付けることを行います。長期的な責任と出自の追跡を考慮に入れて、これは推奨される方法です。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:24
+msgid ""
+"In AtoM, a :term:`deaccession record` can be added to an existing "
+":term:`accession record`. The deacession record comprises several basic "
+"fields to capture information about the materials being deaccession and the "
+"reasons behind the deaccssion. Fields include:"
+msgstr ""
+"AtoMでは、:term:`アクセッション記録`に対して、:term:`除籍記録`を追加することができます。除籍記録は、除籍される資料に関する情報や除籍に至った理由を記録するためのいくつかの基本フィールドで構成されています。フィールドには以下が含まれます："
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:29
+msgid "Deaccession number"
+msgstr "アクセッション解除番号"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:30
+msgid "Scope (whole accession, or only part)"
+msgstr "範囲（全体の寄贈品、または一部のみ）"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:31
+msgid "Date (of deaccession)"
+msgstr "データ (削除日)"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:32
+msgid "Description (of materials being deaccessioned)"
+msgstr "資料の削除に関する説明"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:33
+msgid ""
+"Extent (number of units and the measurement of the records to be "
+"deaccessioned)"
+msgstr "アクセス解除される記録の範囲（単位数と記録の測定）"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:35
+msgid "Reason"
+msgstr "理由"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:37
+msgid "**Below are instructions for using the Accessions module in AtoM to:**"
+msgstr "以下に、AtoMのアクセションモジュールを使用するための指示を記載します。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:39
+msgid ":ref:`Add a new deaccession record <add-deaccession-record>`"
+msgstr ":ref:`新しい除籍（ディアクセッション）記録を追加する<add-deaccession-record>`"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:40
+msgid ":ref:`Edit an existing deaccession record <edit-deaccession-record>`"
+msgstr ":ref:`既存の廃棄記録を編集する<edit-deaccession-record>`"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:41
+msgid ":ref:`Delete a deaccession record <delete-deaccession-record>`"
+msgstr ":ref:`非保管記録の削除 <delete-deaccession-record>`"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:45
+msgid ":ref:`Accessions <accession-records>`"
+msgstr ":ref:`受入れ <accession-records>`"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:46
+msgid ":ref:`Searching for accession records <dedicated-search-accessions>`"
+msgstr ":ref:`受入記録を検索する <dedicated-search-accessions>`"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:47
+msgid ":ref:`csv-import-deaccessions-cli` (from the command-line)"
+msgstr ":ref:`csv-import-deaccessions-cli`（コマンドラインから）"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:51
+msgid ""
+"To create and manage deaccession records, you must be logged in to AtoM with"
+" a :term:`user account` with sufficient edit permissions, such as an "
+":term:`administrator`, :term:`editor`, or :term:`contributor`. For more "
+"information on types of users and edit permissions, see :ref:`User roles "
+"<user-roles>`. For help logging into AtoM, see: :ref:`Log in <log-in>`."
+msgstr ""
+"アクセス権の削除記録を作成および管理するには、適切な編集権限を持つユーザーアカウント（例: "
+"管理者、エディター、寄稿者）でAtoMにログインしている必要があります。ユーザーの種類と編集権限についての詳細は、「ユーザーロール <user-"
+"roles>」を参照してください。AtoMへのログイン方法についての支援は、「ログイン <log-in>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:62
+msgid "Add a new deaccession record"
+msgstr "新しい除籍記録を追加"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:64
+msgid ""
+"Deaccession records are not created independently from :term:`accession "
+"records <accession record>` in AtoM - instead, they are appended to existing"
+" accession records. To add a new deaccession record to an existing accession"
+" record:"
+msgstr ""
+"AtoMでは、アクセス権レコード(:term:`アクセス権レコード <accession "
+"record>`)から独立して除籍レコードが作成されることはありません。代わりに、それらは既存のアクセス権レコードに追加されます。既存のアクセス権レコードに新しい除籍レコードを追加するには："
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:69
+msgid ""
+"Navigate to the :term:`accession record` you want to deaccession. You can do"
+" this via the :term:`main menu` in the AtoM :term:`header bar`, by clicking "
+"on **Manage > Accessions**. For more information on navigation in AtoM, see:"
+" :ref:`Access content <access-content>`."
+msgstr ""
+"アクセスを解除したい:term:`accession record`に移動します。これはAtoM :term:`header "
+"bar`の:term:`main menu`を通じて行うことができ、**管理 > "
+"アクセス**をクリックします。AtoMでのナビゲーションについての詳細は、:ref:`コンテンツへのアクセス <access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of searching for an accession record"
+msgstr "受け入れ記録を検索する画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:79
+msgid ""
+"Click on the \"Deaccession\" button located in the :term:`button block` at "
+"the bottom of the accession record's :term:`view page`."
+msgstr ""
+"アクセッションレコードの :term:`view page` の下部にある :term:`button block` "
+"に位置する「Deaccession」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the button block on an accession record"
+msgstr "アクセッションレコード上のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:87
+msgid ""
+"AtoM takes you to the empty deaccession edit template, open and ready for "
+"data entry. Note that the Deaccession number will be added to the original "
+"Accession record ID (shown at the top of the :term:`edit page`)."
+msgstr ""
+"AtoMは、データ入力の準備ができた空の出蔵編集テンプレートにあなたを導きます。出蔵番号は元の受入記録ID（編集ページの上部に表示される）に追加されることに注意してください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of a new deaccession record"
+msgstr "新しい除籍記録の画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:96
+msgid ""
+"Add data as required. The *Scope* area is a :term:`drop-down menu`: "
+"\"Whole\" or \"Part,\" so you can deaccession all or some of the records in "
+"the original accession."
+msgstr ""
+"必要に応じてデータを追加してください。*スコープ* エリアは :term:`ドロップダウンメニュー` "
+"で、「全体」または「一部」から選択でき、元のアクセッション内の記録の全てまたは一部を撤去することができます。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the Scope field on a deaccession record"
+msgstr "アクセス解除記録のスコープフィールドの画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:105
+msgid ""
+"You can quit the creation process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new record will be created. Note that simply navigating away "
+"from the page by any other means, **without first clicking \"Create\"** will"
+" also result in no new record being created."
+msgstr ""
+"作成プロセスはいつでも、`:term:`ボタンブロック`の中の「キャンセル」ボタンをクリックすることで中止することができます。すでに入力されたデータは保存されず、新しいレコードも作成されません。ただし、**「作成」をクリックせずに**"
+" 他の方法でページから離れた場合も、新しいレコードは作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:110
+msgid ""
+"To save the new record, click the :term:`\"Create\" button <create button>` "
+"located in the :term:`button block` at the bottom of the record."
+msgstr ""
+"新しいレコードを保存するには、レコードの下部にある :term:`ボタンブロック` に位置する :term:`「作成」ボタン <create "
+"button>` をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the button block when creating a new record"
+msgstr "新しいレコードを作成する際のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:118
+msgid ""
+"AtoM takes you to the view accession record screen. At the bottom of the "
+":term:`accession record`, there is a new \"Deaccession\" :term:`information "
+"area`. The :term:`deaccession record` has been added as a hyperlink to the "
+"accession record."
+msgstr ""
+"AtoMはあなたを閲覧用のアクセッションレコード画面に案内します。アクセッションレコードの末尾には、新しい「ディアクセッション」情報エリアがあります。ディアクセッションレコードへのハイパーリンクがアクセッションレコードに追加されています。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:123
+#: ../../user-manual/add-edit-content/deaccessions.rst:184
+#: ../../user-manual/add-edit-content/deaccessions.rst:230
+msgid ":ref:`Back to top <deaccessions>`"
+msgstr ":ref:`トップに戻る <deaccessions>`"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:128
+msgid "Edit an existing deaccession record"
+msgstr "既存の廃棄記録を編集する"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:130
+msgid ""
+"To locate and edit a :term:`deaccession record`, you must first navigate to "
+"its associated :term:`accession record`.  You can do this via the "
+":term:`main menu` in the AtoM :term:`header bar`, by clicking on **Manage > "
+"Accessions**. For more information on navigation in AtoM, see: :ref:`Access "
+"content <access-content>`."
+msgstr ""
+"アクセションレコードに関連付けられている除籍レコードを検索して編集するには、まずそのアクセションレコードに移動する必要があります。これは、AtoMヘッダーバーのメインメニューから**管理"
+" > アクセション**をクリックすることで行うことができます。AtoMでのナビゲーションについての詳細は、こちらを参照してください: "
+":ref:`コンテンツにアクセスする <access-content>`。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the Manage menu"
+msgstr "「管理」メニューの画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:141
+#: ../../user-manual/add-edit-content/deaccessions.rst:202
+msgid ""
+"At the bottom of the related :term:`accession record`, in the "
+"\"Deaccession\" :term:`information area`, click on the hyperlink deaccession"
+" number."
+msgstr ""
+"関連する:term:`受入記録`の最下部にある「Deaccession」:term:`情報エリア`内で、ハイパーリンクとなっている除籍番号をクリックします。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the Deaccession area on an accession record"
+msgstr "アクセッション記録における除籍エリアの画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:149
+#: ../../user-manual/add-edit-content/deaccessions.rst:210
+msgid "AtoM takes you to the related deaccession record's :term:`view page`."
+msgstr "AtoMは、関連する除籍レコードの:term:`ビューページ`にあなたを案内します。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of a deaccession record"
+msgstr "非所蔵記録の画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:156
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking \"Edit\" "
+"button in the :term:`button block`; this takes you to the record's "
+":term:`edit page`."
+msgstr ""
+"「表示モード」から「編集モード」に切り替えるには、「ボタンブロック」内の「編集」ボタンをクリックします。これにより、レコードの「編集ページ」に移動します。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the button block on a deaccession record"
+msgstr "アクセス権を剥奪された記録にあるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:165
+msgid "Add, remove, or edit data as required."
+msgstr "必要に応じて、データを追加、削除、または編集してください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:166
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved. Note"
+" that simply navigating away from the page by any other means, **without "
+"first clicking \"Save\"** will also result in no changes being saved to the "
+"authority record."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを終了できます。それは:term:`ボタンブロック`にあります。変更された内容は保存されませんのでご注意ください。また、「保存」をクリックせずにその他の方法でページから移動するだけでは、変更が権威レコードに保存されないことにもご注意ください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:171
+msgid ""
+"To save your edits, click the \"Save\" button located in the :term:`button "
+"block` at the bottom of the record."
+msgstr "編集内容を保存するには、レコードの下部にある`:term:`ボタンブロック`に位置する「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the button block in edit mode"
+msgstr "編集モード時のボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:179
+msgid ""
+"Upon saving the record, AtoM will reload the :term:`accession record` view "
+"page - you can click on the deaccession record hyperlink in the "
+"\"Deaccession\" area to return to the :term:`deaccession record` to review "
+"your changes."
+msgstr ""
+"レコードの保存後、AtoM "
+"は用語「アクセッションレコード」のビューページを再読み込みします。変更内容を確認するには、「Deaccession」エリアにある除籍レコードハイパーリンクをクリックして、用語「除籍レコード」に戻ってください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:189
+msgid "Delete a deaccession record"
+msgstr "アクセションレコードの削除"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:191
+msgid ""
+"To locate and delete a :term:`deaccession record`, you must first navigate "
+"to its associated :term:`accession record`.  You can do this via the "
+":term:`main menu` in the AtoM :term:`header bar`, by clicking on **Manage > "
+"Accessions**. For more information on navigation in AtoM, see: :ref:`Access "
+"content <access-content>`."
+msgstr ""
+"アクセス記録に関連する取り消し記録を見つけて削除するには、まずそれに関連するアクセス記録にナビゲートする必要があります。これは、AtoMヘッダーバーのメインメニューから"
+" **管理 > アクセス** "
+"をクリックすることで行うことができます。AtoMでのナビゲーションの詳細については、次を参照してください。：ref:`コンテンツへのアクセス "
+"<access-content>`。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:211
+msgid ""
+"To delete the deaccession record, click on the \"Delete\" button in the "
+":term:`button block`."
+msgstr "アクセス権の剥奪記録を削除するには、`:term:`ボタンブロック``内の「削除」ボットンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:219
+msgid "AtoM will take you to a warning page and ask you to confirm."
+msgstr "AtoMはあなたを警告ページに案内し、確認を求めます。"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:-1
+msgid "An image of the delete warning screen on a deaccession record"
+msgstr "非アクセス記録の削除警告画面の画像"
+
+#: ../../user-manual/add-edit-content/deaccessions.rst:226
+msgid ""
+"Click on the \"Delete\" button to permanently delete the deaccession record."
+" Alternately, you can click on the \"Cancel\" button, and AtoM will return "
+"you to the deaccession record's :term:`view page`."
+msgstr ""
+"\"削除\"ボタンをクリックすると、非保有記録が完全に削除されます。または、\"キャンセル\"ボタンをクリックすると、AtoMはあなたを非保有記録の：term:`view"
+" page`に戻します。"

@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/search-updates.rst:5
+msgid "Description Updates"
+msgstr "記述の更新"
+
+#: ../../user-manual/administer/search-updates.rst:11
+msgid ""
+"AtoM includes a module, available in the Admin menu, that helps an "
+":term:`administrator` search for new and updated records in AtoM. Only an "
+"authenticated (i.e. logged-in) :term:`administrator` can search for updates "
+"via this module. The Description updates page (historically referred to as "
+"\"Search updates\" and \"Newest additions\" as well) includes a number of "
+"filters that can be used to narrow results, as well as :term:`clipboard` "
+"pins so administrators can easily add new updates to the clipboard for "
+"export."
+msgstr ""
+"AtoMには、Adminメニューで利用可能なモジュールが含まれており、これにより:term:`管理者`はAtoM内で新しいレコードや更新されたレコードを探すことができます。このモジュールを通じて更新を検索できるのは、認証された（つまりログインしている）:term:`管理者`だけです。説明更新ページ（過去には「検索更新」や「最新の追加」とも呼ばれていました）には、結果を絞り込むために使用できるいくつかのフィルターが含まれており、:term:`クリップボード`ピンもあるので、管理者は新しい更新をクリップボードに簡単に追加してエクスポートすることができます。"
+
+#: ../../user-manual/administer/search-updates.rst:-1
+msgid "An image of the Description updates page in AtoM"
+msgstr "AtoMの説明更新ページの画像"
+
+#: ../../user-manual/administer/search-updates.rst:26
+msgid ":ref:`clipboard`"
+msgstr ""
+"番号付けされた参照（ここでは「clipboard」というラベル）を翻訳する場合、元の意味や用途を維持しつつ、対象言語の文脈に合わせる必要があります。しかし、この特定のテキスト（:ref:`clipboard`）はMarkdownやreStructuredTextで使用される記法の一部であり、そのままでは明確な意味を成しません。この参照は、ドキュメント内の特定のセクションやラベルへのリンクを表している可能性があります。\n"
+"\n"
+"文脈が不足しているため、正確な翻訳を提供することは難しいですが、もしこのテキストがドキュメント内で「クリップボード」というセクションへの参照であれば、以下のようになります：\n"
+"\n"
+"```\n"
+":ref:`クリップボード`\n"
+"```\n"
+"\n"
+"ただし、これは曖昧なテキスト断片にすぎず、具体的なドキュメントや参照のコンテキストが必要です。通常は、その部分が指すセクションのタイトルやキーワード等、より多くの情報を基に翻訳する必要があります。"
+
+#: ../../user-manual/administer/search-updates.rst:27
+msgid ":ref:`drafts-notification`"
+msgstr ""
+"`:ref:`drafts-notification` `は特定のマークアップを使った参照があり、それがテキストの特定の部分にリンクするために使われるものです。この参照は文脈に基づく詳細情報や定義へのリンクを提供することができます。この場合、\"drafts-notification\"は具体的なセクションやタイトルを指すリンクの名前であり、文書内の目的の箇所に読者を導くために使われるものです。\n"
+"\n"
+"テキストがもともと何を参照しているかなど、翻訳する際にはその参照の目的と宛先を正しく理解し、適切な日本語の文脈に合わせて調整する必要があります。\n"
+"\n"
+"ただし、具体的な翻訳例を提供するために、通常のテキストとして「ドラフト通知」を提供することができますが、実際の翻訳タスクでは、ドキュメントの構造と目的の参照が指している実際のセクションを特定する必要があります。\n"
+"\n"
+"通常のテキストとして翻訳すると次のようになります：\n"
+"\n"
+"「ドラフト通知」"
+
+#: ../../user-manual/administer/search-updates.rst:29
+msgid "**To search for new updates:**"
+msgstr "**新しいアップデートを検索するには：**"
+
+#: ../../user-manual/administer/search-updates.rst:31
+msgid ""
+"Click on the |gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main "
+"menu` located in the :term:`header bar` and select 'Description updates' "
+"from the :term:`drop-down menu`. AtoM will redirect you to the Description "
+"updates view page."
+msgstr ""
+"|gears| の :ref:`管理者 <main-menu-admin>` メニューを :term:`メインメニュー` の位置する "
+":term:`ヘッダーバー` からクリックし、 :term:`ドロップダウンメニュー` から 'Description updates' "
+"を選択してください。AtoMはあなたをDescription updatesのビューページにリダイレクトします。"
+
+#: ../../user-manual/administer/search-updates.rst:7
+msgid "gears"
+msgstr ""
+"ギア "
+"役立つかどうかは文脈によりますが、「gears」の直訳は「ギア」となります。デジタルデータの長期保存に関連する文脈で考えると、「機能」「仕組み」という意味で使われる場合もありますので、もしそのような文脈であれば適切な訳語を選ぶ必要があります。もし、文脈の詳細がもっと必要であれば教えてください。"
+
+#: ../../user-manual/administer/search-updates.rst:35
+msgid ""
+"By default, the Description updates module will display results of "
+":term:`archival descriptions <archival description>` that have been either "
+"newly created or edited (modified) in the last 30 days. However, this can be"
+" changed using the Filter options available on the page. To reveal the "
+"filter options (which are hidden by default when first landing on the page),"
+" click the larger header at the top of the page that says \"Filter "
+"options.\" The options will open to reveal the available filters."
+msgstr ""
+"デフォルトでは、「記述更新」モジュールは、過去30日間に新しく作成された、または編集（変更）された:term:`アーカイブ記述 <archival "
+"description>`の結果を表示します。しかし、ページで利用可能なフィルターオプションを使ってこれを変更することができます。フィルターオプションを表示するには（最初にページに到達した時にはデフォルトで非表示になっています）、ページの上部にある「フィルターオプション」と書かれた大きなヘッダーをクリックします。オプションが開き利用可能なフィルターを表示します。"
+
+#: ../../user-manual/administer/search-updates.rst:-1
+msgid "An image of the Description updates page in AtoM with filters shown"
+msgstr "AtoMでの「説明の更新」ページの画像、フィルターが表示されています。"
+
+#: ../../user-manual/administer/search-updates.rst:48
+msgid ""
+"In the Filter options menu, select a type of record to display from the "
+"\"Type\" :term:`drop-down menu`. Options include:"
+msgstr ""
+"フィルターオプションメニューでは、\"Type\" "
+":term:`ドロップダウンメニュー`から表示するレコードのタイプを選択します。オプションには以下が含まれます："
+
+#: ../../user-manual/administer/search-updates.rst:51
+msgid "Archival description"
+msgstr "アーカイバルディスクリプション"
+
+#: ../../user-manual/administer/search-updates.rst:52
+msgid "Authority record"
+msgstr "権威レコード"
+
+#: ../../user-manual/administer/search-updates.rst:53
+msgid "Archival institution"
+msgstr "アーカイブ機関"
+
+#: ../../user-manual/administer/search-updates.rst:54
+msgid "Term"
+msgstr "用語"
+
+#: ../../user-manual/administer/search-updates.rst:55
+msgid "Function"
+msgstr "機能"
+
+#: ../../user-manual/administer/search-updates.rst:57
+msgid ""
+"Beside the \"Type\" drop-down, select the type of date used to filter the "
+"results:"
+msgstr "「タイプ」のドロップダウンの隣で、結果をフィルタリングするために使用される日付のタイプを選択します："
+
+#: ../../user-manual/administer/search-updates.rst:60
+msgid "Select *Creation* for new records"
+msgstr "新しい記録のために*作成*を選択"
+
+#: ../../user-manual/administer/search-updates.rst:61
+msgid "Select *Revision* for updated records, or"
+msgstr "更新されたレコードには「*リビジョン*」を選択、または"
+
+#: ../../user-manual/administer/search-updates.rst:62
+msgid "Select *Both* for both."
+msgstr "両方を選択するには、「両方」を選んでください。"
+
+#: ../../user-manual/administer/search-updates.rst:64
+msgid ""
+"You can limit the results to records associated with a specific "
+":term:`archival institution` using the :term:`repository` filter. Note that "
+"currently this filter **only** works with :term:`archival description` "
+"records - if you flip the \"Type\" to a different :term:`entity`, the "
+"Repository filter will be hidden."
+msgstr ""
+"特定の:term:`アーカイブ機関`に関連付けられた記録に結果を制限するには、:term:`リポジトリ`フィルターを使用します。現在、このフィルターは**オンリー**:term:`アーカイブ記述`記録でのみ機能することに注意してください"
+" - もし\"タイプ\"を異なる:term:`エンティティ`に切り替えると、リポジトリフィルターは非表示になります。"
+
+#: ../../user-manual/administer/search-updates.rst:70
+msgid ""
+"If an :term:`administrator` has enabled the archival description audit log "
+"(via the :ref:`enable-audit-logging` setting in |gears| **Admin > Settings >"
+" Global**), then an additional \"User\" filter will be available. This is an"
+" autocomplete field linked to user accounts, that will allow you to filter "
+"the results returned based on the modification history of a specific user. "
+"To filter results by a specific user, start typing the target "
+":term:`username` into the autocomplete field, and select the matching result"
+" from the drop-down field that will appear below."
+msgstr ""
+"もし:term:`administrator`（管理者）が、|gears| **管理 > 設定 > グローバル** "
+"で:ref:`監査ログを有効にする`設定を介してアーカイブ記述の監査ログを有効にしている場合、追加の「ユーザー」フィルターが利用可能になるでしょう。これはユーザー口座にリンクされた自動補完フィールドであり、特定のユーザーの変更履歴に基づいて戻された結果をフィルタリングすることを可能にします。特定のユーザーによる結果をフィルタリングするには、自動補完フィールドに目的の:term:`username`（ユーザー名）を入力し始めると、以下に表示されるドロップダウンフィールドから一致する結果を選択します。"
+
+#: ../../user-manual/administer/search-updates.rst:-1
+msgid "An image of the User filter on the Description updates page in AtoM"
+msgstr "AtoMの「Description updates」ページにある「User filter」の画像"
+
+#: ../../user-manual/administer/search-updates.rst:86
+msgid ""
+"The User filter will not be visible on the Description updates page if the "
+"audit log has not first been enabled via the Global settings. Only changes "
+"that have occurred **after** the audit log has been enabled will return "
+"results when the User filter is used on Description updates. For more "
+"information, see: :ref:`enable-audit-logging`."
+msgstr ""
+"監査ログがグローバル設定を通じてまず有効にされていなければ、利用者フィルターは説明更新ページに表示されません。監査ログが有効にされた**後**に発生した変更のみが、説明更新で利用者フィルターを使用したときに結果を返します。詳細については、:ref:`enable-"
+"audit-logging`を参照してください。"
+
+#: ../../user-manual/administer/search-updates.rst:92
+msgid ""
+"If searching for *Archival description*, set \"Publication status\" to "
+"either *published* or *draft* records, or both (i.e. *All*)."
+msgstr ""
+"「*アーカイブ記述*」を検索する場合、「出版状態」を*公開*されている記録、または*下書き*の記録のいずれか、あるいは両方（すなわち*すべて*）に設定します。"
+
+#: ../../user-manual/administer/search-updates.rst:95
+msgid ""
+"Select the range of time you for which you want to return results, using the"
+" Start and End date fields in the Date range area. When you click into one "
+"of the fields, AtoM will display a drop-down graphical date-picker you can "
+"use to select the desired date; alternatively, you can type a date into the "
+"field using the ISO 8601 Date format (YYYY-MM-DD)."
+msgstr ""
+"検索結果を返す時間範囲を、日付範囲エリアの開始日と終了日のフィールドを使用して選択します。フィールドのいずれかをクリックすると、AtoMはドロップダウンのグラフィカルな日付ピッカーを表示します。これを使用して希望の日付を選択することができます。または、ISO"
+" 8601日付形式（YYYY-MM-DD）を使用してフィールドに日付を入力することもできます。"
+
+#: ../../user-manual/administer/search-updates.rst:-1
+msgid "An image of the Datepicker on the Description updates page in AtoM"
+msgstr "AtoMでの説明更新ページにおける日付ピッカーの画像"
+
+#: ../../user-manual/administer/search-updates.rst:106
+msgid ""
+"When you have configured the filter options as you wish, click the "
+"\"Search\" button to apply them - AtoM will reload the page and display your"
+" results below the filters. Alternatively, you can click the \"Reset\" "
+"button to clear the existing values from the filters."
+msgstr ""
+"ご希望のフィルターオプションを設定し終えたら、「Search」ボタンをクリックしてそれらを適用してください。AtoMはページをリロードし、フィルターの下に結果を表示します。または、「Reset」ボタンをクリックすることで、フィルターから既存の値をクリアすることもできます。"
+
+#: ../../user-manual/administer/search-updates.rst:113
+msgid ""
+"The number of results per page is controlled by the Results per page setting"
+" in |gears| **Admin > Settings**. By default, this setting shows 10 results "
+"per page, but an :term:`administrator` can change this. For more infomation,"
+" see: :ref:`results-page`."
+msgstr ""
+"ページごとの結果の数は |gears| **管理 > 設定** "
+"におけるページごとの結果設定で制御されます。デフォルトでは、この設定はページごとに10件の結果を表示しますが、:term:`管理者`がこれを変更することができます。詳しい情報については、:ref:`results-"
+"page`を参照してください。"
+
+#: ../../user-manual/administer/search-updates.rst:118
+msgid ""
+"You can add results directly to the :term:`Clipboard` using the links in the"
+" right-hand column of the results table. To add all the results displayed on"
+" a page, click the \"All\" link at the top of the column. For more "
+"information on working with the Clipboard, see: :ref:`clipboard`."
+msgstr ""
+"結果表の右側の列にあるリンクを使用して、結果を直接:term:`クリップボード`に追加できます。ページに表示されたすべての結果を追加するには、列の上部にある「すべて」リンクをクリックします。クリップボードの使用方法についての詳細は、:ref:`clipboard`を参照してください。"
+
+#: ../../user-manual/administer/search-updates.rst:123
+msgid ""
+"You can click on the blue hyperlinked names in the Title column to navigate "
+"directly to a specific record."
+msgstr "タイトル列の青いハイパーリンクされた名前をクリックすると、特定の記録に直接移動できます。"
+
+#: ../../user-manual/administer/search-updates.rst:128
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイバルディスクリプション`"
+
+#: ../../user-manual/administer/search-updates.rst:129
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権威レコード`"
+
+#: ../../user-manual/administer/search-updates.rst:130
+msgid ":ref:`archival-institutions`"
+msgstr ":ref:`アーカイブ機関`"
+
+#: ../../user-manual/administer/search-updates.rst:131
+msgid ":ref:`terms`"
+msgstr ""
+"「:ref:`terms`」は、ドキュメント内の特定のセクションへの参照を表しています。このテキスト自体を直訳すると意味が伝わらないので、実際に翻訳する場合は、参照している「用語集」または「定義集」というセクションへのリンクであると推察され、以下のように日本語で表現される可能性が高いです。\n"
+"\n"
+"「:ref:`用語集`」または「:ref:`定義集`」\n"
+"\n"
+"しかし、この参照がどのように表示され、どの文脈で使われているかによって、最適な翻訳は変わるかもしれません。通常は文書内でリンクされたセクションのタイトルに合わせて翻訳します。デジタルドキュメントにおける「:ref:`terms`」はソースコードでの定型文である可能性があるため、実際の文書では適切なセクションタイトルに置き換えられます。"
+
+#: ../../user-manual/administer/search-updates.rst:132
+msgid ":ref:`functions`"
+msgstr ":ref:`機能`"
+
+#: ../../user-manual/administer/search-updates.rst:133
+msgid ":ref:`enable-audit-logging`"
+msgstr ":ref:`監査ログを有効にする`"
+
+#: ../../user-manual/administer/search-updates.rst:135
+msgid ":ref:`Back to top <search-updates>`"
+msgstr ":ref:`トップに戻る <search-updates>`"

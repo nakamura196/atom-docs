@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:5
+msgid ""
+"International Standard for Describing Institutions with Archival Holdings"
+msgstr "アーカイブ所蔵資料を記述するための国際標準"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:7
+msgid ""
+"On this page you will find a description of the fields used when entering "
+":term:`archival institution` data  into AtoM's ISDIAH-based template"
+msgstr ""
+"このページでは、AtoMのISDIAHベースのテンプレートに:term:`アーカイブ機関`のデータを入力する際に使用されるフィールドの説明が記載されています。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:12
+msgid ":ref:`archival-institutions`"
+msgstr ""
+":ref:`archival-institutions`の部分は、ドキュメント内の参照リンクのラベルです。通常、これは特定の節や章へのリンクを意味しています。翻訳する際には、リンクの宛先を日本語の節や章のタイトルに合わせる必要がありますが、このテキストスニペットだけでは宛先の文脈が分かりません。ですので、以下の翻訳はラベル自体の直訳になります。\n"
+"\n"
+"`:ref:`アーカイバル機関\n"
+"\n"
+"ただし、通常ドキュメントを翻訳する場合は、より具体的なタイトルを参照リンクに設定します。例えば、もし参照している部分が「アーカイバル機関に関するセクション」であれば、そのセクションの日本語名に合わせて翻訳する必要があるでしょう。そのため正確な翻訳には、ドキュメントの他の部分の情報が必要です。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:13
+msgid ":ref:`csv-import`"
+msgstr ""
+"こちらは特定の文脈がないため直接的な翻訳は困難ですが、`:ref:`csv-import`` はおそらく、特定のガイドやドキュメント内で`csv-import`というセクションまたはラベルへの参照を指しています。これを日本語の文脈に沿った翻訳にするためには、実際の文書内での使い方を確認する必要があります。\n"
+"\n"
+"ただし、一般的にドキュメント内で参照を示す場合には、\"参照：\"といった形で日本語ドキュメントにも使用されます。したがって、もし直接的な参照を示したいだけであれば、次のように表現することができます：\n"
+"\n"
+"``参照：CSVインポート``\n"
+"\n"
+"ただしこれは、実際の文書の「CSVインポート」というセクションやエントリーを指しているという仮定のもとに書かれています。完全に適切な翻訳を提供するためには、文書全体のコンテキストを理解する必要があります。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:14
+msgid ":ref:`csv-export`"
+msgstr ""
+"`:ref:`csv-export`の部分は、通常、reStructuredText (reST) 形式のドキュメント内で使用される参照構文です。これは、文書内の特定のセクションやラベルにリンクするために使われます。翻訳の必要はなく、マークアップそのものが参照として機能します。しかし、このテキストが参照する具体的な内容について日本語訳が要求される場合は、実際にそのセクションのタイトルや関連する文を提供する必要があります。\n"
+"\n"
+"ただし、もしドキュメントの内容を翻訳することが要求されている場合は、\"csv-export\" というラベルタイトルも翻訳を行う必要があります。この場合は、ラベルタイトル「CSVエクスポート」や関連するセクションのタイトルに対応する日本語表現に翻訳することになるでしょう。例えば:\n"
+"\n"
+"```\n"
+"CSVエクスポート\n"
+"```\n"
+"\n"
+"しかし、具体的な文脈がなければ、このラベルにどのようなテキストが関連付けられているかを知ることはできません。通常、`:ref:`タグは、ドキュメント内で事前に定義されたラベルを指しており、ラベル名「csv-export」と対応するタイトルや説明がドキュメント他の場所にあります。それを見つけ出し、その内容に基づいて適切な翻訳を行う必要があります。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:18
+msgid "Field descriptions"
+msgstr "フィールドの説明"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:20
+msgid ""
+"ISDIAH is maintained by the `International Council on Archives "
+"<http://www.ica.org/>`_ and is available at:"
+msgstr ""
+"ISDIAHは国際アーカイブス評議会（`International Council on Archives "
+"<http://www.ica.org/>`_）によって維持管理されており、以下の場所で入手できます："
+
+#: ../../user-manual/data-templates/isdiah-template.rst:23
+msgid ""
+"http://www.ica.org/en/isdiah-international-standard-describing-institutions-"
+"archival-holdings"
+msgstr ""
+"国際アーカイブ所蔵機関記述標準\n"
+"http://www.ica.org/en/isdiah-international-standard-describing-institutions-archival-holdings"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:25
+msgid "Information below includes:"
+msgstr "以下の情報には以下のものが含まれます："
+
+#: ../../user-manual/data-templates/isdiah-template.rst:27
+msgid "**Template field** refers to the default label for that field in AtoM"
+msgstr "「テンプレートフィールド」とは、AtoM内でそのフィールドに対してデフォルトで設定されているラベルを指します。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:28
+msgid ""
+"**ISDIAH Rule** refers to the rule from the applicable standard and/or the "
+"instructions provided by AtoM."
+msgstr "**ISDIAH規則**とは、適用される標準またはAtoMによって提供される指示に関する規則を指します。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:30
+msgid ""
+"**Notes** includes any other information needed for successful data entry"
+msgstr "**備考**には、データ入力を成功させるために必要なその他の情報を含みます。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:32
+msgid "**Skip to**:"
+msgstr "**スキップ先**："
+
+#: ../../user-manual/data-templates/isdiah-template.rst:34
+msgid ":ref:`isdiah-identity-area`"
+msgstr ":ref:`isdiah-identity-area`（ISDIAHアイデンティティ領域）"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:35
+msgid ":ref:`isdiah-contact-area`"
+msgstr ":ref:`isdiah-連絡先エリア`"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:36
+msgid ":ref:`isdiah-description-area`"
+msgstr ""
+"このテキストはreStructuredText（reST）記法を用いた参照用のラベルですが、それ自体に直接的な翻訳内容は含まれておらず、参照先のセクションのタイトルや内容に依存します。もし、その具体的なセクションのタイトルを「ISAD(G) 説明エリア」という風に翻訳するならば、参照ラベルも以下のように日本語で書けます：\n"
+"\n"
+"``:ref:`ISAD(G)-setsumei-area` ``\n"
+"\n"
+"ただし、実際にreSTファイル内でこの日本語のラベルを使う場合は、参照先のセクションも同様の日本語のラベルでマークアップされている必要があります。そのため、正確な翻訳には文脈が必要です。もし「ISAD(G) 説明エリア」が実際のセクションタイトルでない場合、それに合わせて翻訳を変更する必要があります。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:37
+msgid ":ref:`isdiah-access-area`"
+msgstr "`:ref:`isdiah-access-area`（参照: ISDIAHアクセス領域）"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:38
+msgid ":ref:`isdiah-services-area`"
+msgstr ""
+"この場合、特定のセクションや文書への参照を示している書式であることがわかります。しかし、該当するテキストの内容が示されていないため、翻訳は困難です。`isdiah-services-area`はおそらく文書内の特定のタイトルやセクションを指しています。通常、このような参照は文章そのまま翻訳するのではなく、対応するセクションが翻訳された文書の中でどのように参照されているかに基づいて調整する必要があります。\n"
+"\n"
+"翻訳にはコンテキストが必要ですが、仮に文書のタイトルを翻訳するとした場合、おおよその翻訳例は次のようになります。\n"
+"\n"
+":ref:`isdiah-services-area`\n"
+"\n"
+":ref:`ISDIAHのサービス領域`\n"
+"\n"
+"ここで「ISDIAH」とは、おそらく「International Standard for Describing Institutions with Archival Holdings」の略であり、アーカイブ保有機関の記述に関する国際標準を意味している可能性が高いです。ただし、上述の通り、これはあくまで予測であり、リンク先の正確なタイトルやセクション名を知らない限り、正確な翻訳を提供することはできません。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:39
+msgid ":ref:`isdiah-control-area`"
+msgstr ""
+"このテキストは、Archivematicaのドキュメントにおける特定の参照部分（リファレンス・セクションまたはインデックス用語）を表している可能性が高いです。このようなコード型の参照は、通常ドキュメント内の特定のセクションや説明を指し示しています。\n"
+"\n"
+"ただし、文章としての直訳を求められている場合、以下のように訳すことができます：\n"
+"\n"
+"```\n"
+":ref:`isdiah-control-area`\n"
+"```\n"
+"\n"
+"を日本語に直訳すると、以下のようになります：\n"
+"\n"
+"```\n"
+":ref:`ISDIAH統制領域`\n"
+"```\n"
+"\n"
+"\"`ISDIAH`\" は「International Standard for Describing Institutions with Archival Holdings（国際的にアーカイブ所蔵機関を記述するための標準）」を指している可能性があります。\"`統制領域`\"は、この標準において、所蔵機関の管理に関する情報を記述するセクションを指していると考えられます。\n"
+"\n"
+"ただし、これはあくまでコンテキストを推測した翻訳であり、実際の用途によって適切な訳語は異なる場合がありますので、ご注意ください。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:44
+msgid "Identity area"
+msgstr "アイデンティティー領域"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:52
+msgid "An image of the data entry fields in the ISDIAH Identity area."
+msgstr "ISDIAH識別領域におけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:52
+msgid ""
+"The data entry fields for the Identity area of the ISDIAH archival "
+"institution template."
+msgstr "ISDIAHアーカイブ施設テンプレートのアイデンティティ領域のデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:55
+msgid "TO DO"
+msgstr ""
+"\"TO DO\" は、特に文脈がない限り、日本語で \"やるべきこと\" または \"実行すべき事項\" "
+"と訳すことができます。しかし、このフレーズがリストのアイテムやタスク管理システム内で使用されている場合は「To "
+"Do」リストとして認識されることが多く、日本語では「やることリスト」や「タスクリスト」と表現されることもあります。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:57
+#: ../../user-manual/data-templates/isdiah-template.rst:75
+#: ../../user-manual/data-templates/isdiah-template.rst:93
+#: ../../user-manual/data-templates/isdiah-template.rst:111
+#: ../../user-manual/data-templates/isdiah-template.rst:129
+#: ../../user-manual/data-templates/isdiah-template.rst:147
+msgid ":ref:`Back to the top <isaar-template>`"
+msgstr ":ref:`トップに戻る <isaar-template>`"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:62
+msgid "Contact area"
+msgstr "連絡先エリア"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:70
+msgid "An image of the data entry fields in the ISDIAH Contact area."
+msgstr "ISDIAHコンタクトエリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:70
+msgid ""
+"The data entry fields for the Contact area of the ISDIAH archival "
+"institution template."
+msgstr "ISDIAHアーカイブ機関テンプレートの「コンタクト」エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:73
+#: ../../user-manual/data-templates/isdiah-template.rst:91
+#: ../../user-manual/data-templates/isdiah-template.rst:109
+#: ../../user-manual/data-templates/isdiah-template.rst:127
+#: ../../user-manual/data-templates/isdiah-template.rst:145
+msgid "To DO"
+msgstr ""
+"この文は翻訳するには情報が不足しているようです。\"To DO\" "
+"は、多くの場合、タスクリストで未完了の項目を示すラベルや見出しなどに使われるフレーズです。もしこれが翻訳するべき独立した文であれば、それは単に「やるべきこと」や「実行予定」などと訳すことができますが、文脈によって異なるかもしれません。もしこのフレーズがリストの一部である場合は、リストの内容に応じた翻訳が必要になります。さらに詳細な情報が提供されない限り、具体的な翻訳は難しいでしょう。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:80
+msgid "Description area"
+msgstr "説明エリア"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:88
+msgid "An image of the data entry fields in the ISDIAH Description area."
+msgstr "ISDIAH説明エリアにおけるデータ入力欄の画像。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:88
+msgid ""
+"The data entry fields for the Description area of the ISDIAH archival "
+"institution template."
+msgstr "ISDIAHアーカイブ機関テンプレートの説明エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:98
+msgid "Access area"
+msgstr "アクセスエリア"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:106
+msgid "An image of the data entry fields in the ISDIAH Access area."
+msgstr "ISDIAHアクセス領域におけるデータ入力フィールドのイメージ。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:106
+msgid ""
+"The data entry fields for the Access area of the ISDIAH archival institution"
+" template."
+msgstr "ISDIAHアーカイブ機関テンプレートのアクセス領域のデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:116
+msgid "Services area"
+msgstr "サービスエリア"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:124
+msgid "An image of the data entry fields in the ISDIAH Services area."
+msgstr "ISDIAHサービス領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:124
+msgid ""
+"The data entry fields for the Services area of the ISDIAH archival "
+"institution template."
+msgstr "ISDIAHアーカイブ施設テンプレートのサービスエリアに関するデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:134
+msgid "Control area"
+msgstr "管理領域"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:142
+msgid "An image of the data entry fields in the ISDIAH Control area."
+msgstr "ISDIAHコントロールエリア内のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isdiah-template.rst:142
+msgid ""
+"The data entry fields for the Control area of the ISDIAH archival "
+"institution template."
+msgstr "ISDIAHアーカイブ機関テンプレートの「管理領域」に関するデータ入力フィールド。"

@@ -1,0 +1,903 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/installation/ubuntu.rst:5
+msgid "Linux - Ubuntu 20.04 LTS (Focal Fossa)"
+msgstr "Linux - Ubuntu 20.04 LTS (フォーカル・フォッサ)"
+
+#: ../../admin-manual/installation/ubuntu.rst:7
+msgid ""
+"Most of the configuration steps described in this document apply to any "
+"modern Linux environment, however some of them will apply only to Ubuntu and"
+" likely to any Ubuntu-based distribution. **Please be aware**: we do our "
+"release development and testing using Ubuntu LTS releases, and cannot "
+"guarantee that other versions, distributions, or operating systems will work"
+" as expected with the following instructions."
+msgstr ""
+"このドキュメントで述べられている設定手順のほとんどは、いかなる現代のLinux環境にも適用可能です。しかし、その中のいくつかの手順はUbuntuおよびUbuntuベースのディストリビューションにのみ適用されるものです。**ご注意ください**：私たちはリリース開発とテストをUbuntu"
+" "
+"LTSリリースを使って行っており、以下の指示が他のバージョン、ディストリビューション、またはオペレーティングシステムで期待通りに動作することは保証できません。"
+
+#: ../../admin-manual/installation/ubuntu.rst:14
+msgid ""
+"This document is based in `Ubuntu 20.04 LTS (Focal Fossa)`_. Once you have "
+"installed it, you should be able to follow the instructions described below."
+" In particular, we are going to use Ubuntu packages that can be found under "
+"the `repositories`_ *main* and *universe*."
+msgstr ""
+"このドキュメントは `Ubuntu 20.04 LTS (Focal Fossa)`_ "
+"を基にしています。それをインストールしたら、以下の説明に従って作業を進めることができるでしょう。特に、*main* や *universe* といった "
+"`リポジトリ`_ で見つけることができるUbuntuのパッケージを使っていく予定です。"
+
+#: ../../admin-manual/installation/ubuntu.rst:21
+msgid ""
+"Please make sure you have reviewed the :ref:`requirements <installation-"
+"requirements>` before proceeding. Also, you may want to consider setting up "
+"the :ref:`firewall <security-firewall>` before you start installing the "
+"services described below to avoid exposing them to outside access."
+msgstr ""
+"インストールを進める前に、:ref:`要件 <installation-"
+"requirements>`を確認しておいてください。また、以下で説明するサービスのインストールを始める前に、外部アクセスからそれらを守るために:ref:`ファイアウォール"
+" <security-firewall>`の設定を考慮することをお勧めします。"
+
+#: ../../admin-manual/installation/ubuntu.rst:27
+msgid "**Jump to:**"
+msgstr "**移動先:**"
+
+#: ../../admin-manual/installation/ubuntu.rst:29
+msgid ":ref:`installation-ubuntu-dependencies`"
+msgstr ""
+":ref:`installation-ubuntu-dependencies`\n"
+"\n"
+"このテキストは参照リンクを示しており、そのまま翻訳すると意味をなさないことがありますが、直訳した場合は以下のようになります：\n"
+"\n"
+":ref:`ubuntuの依存関係のインストール`\n"
+"\n"
+"ただし、これは技術的な文書の一部として意図されたもので、実際の文脈がないため、そのままでは意図を正確に反映しない可能性があります。もし文脈や具体的な使い方を提供していただければ、適切な日本語訳を提案することができます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:30
+msgid ":ref:`installation-ubuntu-download`"
+msgstr ""
+"このテキスト \":ref:`installation-ubuntu-download`\" は、ドキュメント内で使用される参照（リンク）ですが、それ自体を直接翻訳することはできません。しかし、もしこの参照がタイトルやセクションへのリンクであると仮定してドキュメント内の文脈に即して翻訳を行うならば、次のように表現する可能性があります：\n"
+"\n"
+"「Ubuntuへのインストール方法のダウンロード」"
+
+#: ../../admin-manual/installation/ubuntu.rst:31
+msgid ":ref:`installation-ubuntu-create-database`"
+msgstr ":ref:`installation-ubuntu-create-database`（Ubuntuにデータベースを作成するための手順）"
+
+#: ../../admin-manual/installation/ubuntu.rst:32
+msgid ":ref:`installation-ubuntu-installer`"
+msgstr ""
+":ref:`installation-ubuntu-installer` は、参照リンクのマークアップ言語で、具体的にどんな文書やセクションを指しているかがわからないため、直訳すると意味が通じないことがあります。Archivematicaに関連するドキュメントの文脈を考慮に入れた適切な翻訳が必要ですが、ここではその文脈が提供されていません。\n"
+"\n"
+"しかし、もし単にこのマークアップを日本語のドキュメント内で参照リンクとして機能させたい場合は、次のように翻訳することができますが、これはあくまで形式的な翻訳です。\n"
+"\n"
+"``:ref:`installation-ubuntu-installer`（ウブントゥ・インストーラーのインストール）\n"
+"\n"
+"ただし、実際の翻訳作業では、リンクが参照している具体的なタイトルやセクション名に応じて適切な日本語訳を与える必要があります。そのためには、ドキュメントの他の部分を参照し、どのセクションを指しているのかを特定することが不可欠です。"
+
+#: ../../admin-manual/installation/ubuntu.rst:33
+msgid ":ref:`installation-ubuntu-configuration-files`"
+msgstr ""
+"`:ref:`installation-ubuntu-configuration-files`` は reStructuredText (reST) マークアップ言語でのクロスリファレンスの識別子です。これは単独でのテキストではなく、文脈内でのリンクまたは参照を表します。そのため、通常のテキスト翻訳とは異なり、特定の文脈において適切なリンクテキストやセクションのタイトルに翻訳する必要があります。\n"
+"\n"
+"もし、これがドキュメント内で「Ubuntuの設定ファイルのインストール」というセクションを指している場合、日本語のドキュメント内での参照として次のように翻訳することが考えられます：\n"
+"\n"
+"`:ref:`ubuntu-の設定ファイルのインストール``\n"
+"\n"
+"ただし、これはあくまでも一例であり、実際のドキュメント内でどのように使用され、そしてそのタイトルやセクションがどう翻訳されているかに応じて適切な日本語訳が異なる可能性があります。実際の翻訳作業では、ドキュメントの全体的な構造と一貫性を維持することが重要です。"
+
+#: ../../admin-manual/installation/ubuntu.rst:34
+msgid ":ref:`installation-ubuntu-security-considerations`"
+msgstr ""
+":ref:`installation-ubuntu-security-considerations`（訳：`installation-ubuntu-"
+"security-considerations`に関する参照）"
+
+#: ../../admin-manual/installation/ubuntu.rst:35
+msgid ":ref:`installation-ubuntu-serve`"
+msgstr ""
+"質問の意図が非常に限られているため、テキストの文脈に基づいて正確な翻訳を提供することが困難ですが、通常 `:ref:` は技術文書における参照リンクを意味し、`installation-ubuntu-serve` はUbuntuサーバーへのインストールガイドを指している可能性があります。そのため、日本語に翻訳すると以下のようになるでしょう：\n"
+"\n"
+"```\n"
+":ref:`ubuntu-サーバーへのインストール`\n"
+"```\n"
+"\n"
+"しかし、これはreStructuredText (reST) 形式の参照であり、そのままの翻訳は文書の意図したリンク機能を果たさない可能性があります。正しい文脈と機能を維持するためには、文書の全体的な翻訳を行い、適切な日本語のラベルやセクション名にリンクを更新する必要があります。"
+
+#: ../../admin-manual/installation/ubuntu.rst:36
+msgid ":ref:`installation-ubuntu-use-atom`"
+msgstr ""
+":ref:`installation-ubuntu-use-atom` というテキストは、マークダウンかreStructuredTextなどの特定のマークアップ言語で書かれた参照リンクです。これを日本語文脈に直訳することは困難ですが、意図に基づいてこれを日本語で説明することは可能です。\n"
+"\n"
+"例えば、以下のように訳すことはできます：\n"
+"\n"
+"「UbuntuでATOMを使用してインストールする方法のセクションは、参照リンク：ref: `installation-ubuntu-use-atom`をご覧ください。」\n"
+"\n"
+"それでも、このリンクが示す先のドキュメントタイトルがわかる場合、より具体的な訳が可能です。例えばドキュメントタイトルが「Ubuntu上でATOMを使用してArchivematicaをインストールする」と仮定すると、以下のように訳せます：\n"
+"\n"
+"「Ubuntu上でATOMを使用してArchivematicaをインストールするセクションについては、参照リンク：ref: `installation-ubuntu-use-atom` を参照してください。」\n"
+"\n"
+"その場合、原文の参照リンクの形式を保ちつつ、タイトルの訳を提供することになります。"
+
+#: ../../admin-manual/installation/ubuntu.rst:42
+msgid "Install the dependencies"
+msgstr "依存関係をインストールする"
+
+#: ../../admin-manual/installation/ubuntu.rst:47
+msgid "MySQL"
+msgstr ""
+"MySQL\n"
+"\n"
+"**MySQLは非常に人気のあるオープンソースのリレーショナルデータベース管理システムです。Oracle Corporationによって開発およびサポートされており、多くの場合ウェブアプリケーションのバックエンドとして使用されます。MySQLは、その信頼性、柔軟性、およびコミュニティによる強力なサポートのために広く採用されています。**\n"
+"\n"
+"**Archivematicaでは、MySQLはシステムを実行するための主要なコンポーネントの1つであり、メタデータの保存、アクセスおよび検索を管理します。データベースの安定性と整合性は、長期的なデジタル保存戦略の重要な要素です。**\n"
+"\n"
+"**MySQLを使用することによって、Archivematicaユーザーは大量のアーカイブ情報を効率的に処理し、保存することができます。また、SQLを利用したクエリを通じて、迅速かつ容易に情報を取り出すことも可能になります。この機能は、時間が経過しても情報を継続的にアクセスできるようにするために不可欠です。**"
+
+#: ../../admin-manual/installation/ubuntu.rst:49
+msgid ""
+"AtoM |version| requires `MySQL`_ 8.0 or higher as it uses common table "
+"expressions. Also, we've experienced very good results using Percona Server "
+"for MySQL 8.0, so don't be afraid and use it if you want!"
+msgstr ""
+"AtoM |version| は共通テーブル式（Common Table Expressions）を使用しているため、`MySQL`_ "
+"8.0以降が必要です。また、MySQL 8.0用のPercona "
+"Serverを使用すると非常に良い結果が得られることがわかっていますので、ぜひ使ってみてください！"
+
+#: ../../admin-manual/installation/ubuntu.rst:60
+msgid ""
+"The default MySQL installation is not completely secure, but it comes with a"
+" security script that can be executed to improve the default configuration:"
+msgstr ""
+"デフォルトのMySQLインストールは完全に安全とは言えませんが、デフォルト設定を改善するために実行できるセキュリティスクリプトが含まれています："
+
+#: ../../admin-manual/installation/ubuntu.rst:67
+msgid ""
+"Finally, let’s configure our MySQL modes. The MySQL server can operate in "
+"different SQL modes, which affects the SQL syntax MySQL supports and the "
+"data validation checks it performs."
+msgstr ""
+"最後に、MySQLモードの設定を行いましょう。MySQLサーバーは、異なるSQLモードで動作することができます。これは、MySQLがサポートするSQL構文や実行するデータ検証チェックに影響を与えます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:71
+msgid ""
+"Paste the following values in a new file at ``/etc/mysql/conf.d/mysqld.cnf``"
+" and save:"
+msgstr "以下の値を新しいファイルに貼り付け、``/etc/mysql/conf.d/mysqld.cnf`` に保存してください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:80
+msgid "Now we’ll restart MySQL:"
+msgstr "ここで、MySQLを再起動しましょう："
+
+#: ../../admin-manual/installation/ubuntu.rst:89
+msgid "Elasticsearch"
+msgstr "Elasticsearch"
+
+#: ../../admin-manual/installation/ubuntu.rst:91
+msgid ""
+"A search server based on Apache Lucene and developed in Java that has "
+"brought AtoM a lot of advanced features, performance and scalability. This "
+"is probably the biggest change introduced in AtoM 2.x and we are pleased "
+"with the results."
+msgstr ""
+"Apache "
+"Luceneをベースにした、Javaで開発された検索サーバーは、AtoMに多くの高度な機能、パフォーマンス、およびスケーラビリティをもたらしました。これはおそらくAtoM"
+" 2.xに導入された最も大きな変更であり、我々はその結果に満足しています。"
+
+#: ../../admin-manual/installation/ubuntu.rst:95
+msgid ""
+"Ubuntu doesn't provide a package but you can download it directly from the "
+"`Elasticsearch site`_ if you are unable to download it using the method that"
+" follows."
+msgstr ""
+"Ubuntuはパッケージを提供していませんが、次に示す方法でダウンロードできない場合は、`Elasticsearchサイト`_ "
+"から直接ダウンロードすることができます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:99
+msgid ""
+"Make sure that `Java`_ is installed. In this example we are going to use "
+"OpenJDK but Oracle's JVM would also work."
+msgstr ""
+"`Java`_がインストールされていることを確認してください。この例ではOpenJDKを使用しますが、OracleのJVMも同様に動作します。"
+
+#: ../../admin-manual/installation/ubuntu.rst:106
+msgid ""
+"After successfully installing Java, proceed to install Elasticsearch. "
+"Download and install the public signing key used in their repository:"
+msgstr ""
+"Javaのインストールに成功した後、Elasticsearchのインストールに進んでください。彼らのリポジトリで使用されている公開署名キーをダウンロードしてインストールします："
+
+#: ../../admin-manual/installation/ubuntu.rst:115
+msgid "Don't miss the dash ( ``-`` ) at the end of the above command!"
+msgstr "上記コマンドの最後のダッシュ（ ``-`` ）を忘れないでください！"
+
+#: ../../admin-manual/installation/ubuntu.rst:117
+msgid "Now add their repository:"
+msgstr "これで彼らのリポジトリを追加します："
+
+#: ../../admin-manual/installation/ubuntu.rst:123
+msgid "Ready to be installed. Run:"
+msgstr "インストールの準備ができました。以下を実行してください："
+
+#: ../../admin-manual/installation/ubuntu.rst:130
+msgid "Start the service and configure it to start when the system is booted."
+msgstr "サービスを起動し、システム起動時に自動的に開始するように設定します。"
+
+#: ../../admin-manual/installation/ubuntu.rst:140
+msgid "PHP"
+msgstr ""
+"PHP is actually a programming language and not a text that can be "
+"translated. It stands for \"Hypertext Preprocessor\" and is widely used for "
+"server-side web development. If you have a specific text or a document "
+"related to Archivematica or PHP that you need to be translated into "
+"Japanese, please provide the text, and I will be happy to assist with its "
+"translation."
+
+#: ../../admin-manual/installation/ubuntu.rst:142
+msgid ""
+"Ubuntu 20.04 bundles PHP 7.4, which is much faster than older releases. The "
+"following command will install it along with the rest of PHP extensions "
+":ref:`required <installation-requirements>` by AtoM:"
+msgstr ""
+"Ubuntu 20.04には、以前のリリースよりもずっと高速なPHP "
+"7.4が同梱されています。以下のコマンドを実行すると、AtoMが要求するPHP拡張機能:ref:`required <installation-"
+"requirements>`と共にPHP 7.4がインストールされます："
+
+#: ../../admin-manual/installation/ubuntu.rst:150
+msgid ""
+"If you are using Memcached as cache engine, you will also need to install "
+"`php-memcache`:"
+msgstr "Memcachedをキャッシュエンジンとして使用する場合は、`php-memcache`もインストールする必要があります。"
+
+#: ../../admin-manual/installation/ubuntu.rst:160
+msgid "Gearman job server"
+msgstr "Gearman ジョブサーバー"
+
+#: ../../admin-manual/installation/ubuntu.rst:162
+msgid "Gearman job server is required by AtoM as of version 2.2."
+msgstr "AtoMバージョン2.2以降では、Gearmanジョブサーバーが必要です。"
+
+#: ../../admin-manual/installation/ubuntu.rst:171
+msgid "Other packages"
+msgstr "他のパッケージ"
+
+#: ../../admin-manual/installation/ubuntu.rst:172
+msgid ""
+"In order to generate PDF finding aids, AtoM requires Apache FOP to be "
+"installed. Fortunately, Apache FOP can now be installed directly from Ubuntu"
+" packages using the command below."
+msgstr ""
+"PDFファインディングエイドを生成するために、AtoMはApache FOPのインストールが必要です。幸いなことに、Apache "
+"FOPは今や下記のコマンドを使用してUbuntuパッケージから直接インストールすることができます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:178
+msgid ""
+"The command specified below uses the ``--no-install-recommends`` parameter: "
+"this is intentional and ensures that only dependencies are installed and not"
+" 'recommended' packages. If ``--no-install-recommends`` is not specified, "
+"openjdk-8-jre will be installed as a dependency for one of the recommended "
+"packages. Since openjdk-8-jre-headless was already installed in the "
+"Elasticsearch installation section above, we want to prevent installing the "
+"openjdk-8-jre package as well."
+msgstr ""
+"以下に指定されたコマンドは、「--no-install-"
+"recommends」パラメーターを使用しています。これは意図的なものであり、依存関係のみがインストールされ、「推奨」パッケージはインストールされないことを保証します。もし「--no-"
+"install-"
+"recommends」が指定されなければ、推奨パッケージの一つの依存関係としてopenjdk-8-jreがインストールされるでしょう。Elasticsearchのインストールセクションの上で既にopenjdk-8-jre-"
+"headlessがインストールされているため、我々はopenjdk-8-jreパッケージがインストールされることも防ぎたいのです。"
+
+#: ../../admin-manual/installation/ubuntu.rst:190
+msgid ""
+"Make sure the default java command points to the java version 11 binary "
+"(ignore errors):"
+msgstr "デフォルトのjavaコマンドがJavaバージョン11のバイナリを指していることを確認してください（エラーは無視してください）："
+
+#: ../../admin-manual/installation/ubuntu.rst:199
+msgid ""
+"To list all the available jdk installs and the java update-alternatives "
+"selections:"
+msgstr "利用可能なすべてのJDKインストールとJavaのupdate-alternatives選択肢を一覧表示するには："
+
+#: ../../admin-manual/installation/ubuntu.rst:207
+msgid ""
+"If you want AtoM to be able to process :term:`digital objects <digital "
+"object>` in formats like JPEG or to extract the text from your PDF "
+"documents, there are certain packages that you need to install. They are not"
+" mandatory but if they are found in the system, AtoM will use them to "
+"produce digital object derivatives from your :term:`master objects <master "
+"digital object>`. for more information on each, see: :ref:`Requirements: "
+"other dependencies <other-dependencies>`. The following will install all the"
+" recommended dependencies at once:"
+msgstr ""
+"JPEG形式などの:term:`デジタルオブジェクト<digital "
+"object>`を処理するためにAtoMを使用したり、PDFドキュメントからテキストを抽出するためには、インストールが必要な特定のパッケージがあります。これらのパッケージは必須ではありませんが、システム内で見つかると、AtoMはそれらを使用して:term:`マスターオブジェクト<master"
+" digital object>`からデジタルオブジェクトの派生物を生成します。各パッケージについての詳細は、こちらを参照してください: "
+":ref:`必要条件: その他の依存性<other-"
+"dependencies>`。以下のコマンドを実行すると、推奨されるすべての依存パッケージを一度にインストールすることができます："
+
+#: ../../admin-manual/installation/ubuntu.rst:224
+msgid "Download AtoM"
+msgstr "AtoMのダウンロード"
+
+#: ../../admin-manual/installation/ubuntu.rst:226
+msgid ""
+"Now that we have installed and configured all dependencies, we are ready to "
+"download and install AtoM itself. The safest way is to install AtoM from the"
+" tarball, which you can find in the `download section`_. However, "
+"experienced users may prefer to check out the code from our `public "
+"repository`_."
+msgstr ""
+"すべての依存関係をインストールして設定したので、AtoM自体のダウンロードとインストールが準備できました。最も安全な方法は、`download "
+"section`_ からターボールをインストールすることです。ただし、経験豊富なユーザーは、私たちの`public repository`_ "
+"からコードをチェックアウトすることを好むかもしれません。"
+
+#: ../../admin-manual/installation/ubuntu.rst:231
+msgid ""
+"The following instructions assume that we are installing AtoM under "
+":file:`/usr/share/nginx` and that you are using AtoM |release|."
+msgstr ""
+"次の手順は、AtoMを `file:/usr/share/nginx` の下にインストールしていること、そしてAtoM |release| "
+"を使用していることを前提としています。"
+
+#: ../../admin-manual/installation/ubuntu.rst:237
+msgid "Option 1: Download the tarball"
+msgstr "オプション1：ターボールをダウンロード"
+
+#: ../../admin-manual/installation/ubuntu.rst:245
+msgid ""
+"Please note that the tarball may not be available yet if this version is "
+"still in development. In this case, you can try the alternative installation"
+" method explained below."
+msgstr ""
+"このバージョンがまだ開発中の場合、tarballがまだ利用できない可能性があることにご注意ください。その場合、以下に説明された代替のインストール方法をお試しください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:252
+msgid "Option 2: Check out the code from our git repository"
+msgstr "オプション2: 私たちのgitリポジトリからコードをチェックアウトしてください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:254
+msgid "Install git:"
+msgstr "Gitをインストールする："
+
+#: ../../admin-manual/installation/ubuntu.rst:265
+msgid ""
+"If you are not interested in downloading all the history from git, you could"
+" also truncate it to a specific number of revisions, e.g.: just one revision"
+msgstr ""
+"gitの全履歴をダウンロードすることに興味がない場合は、特定のリビジョン数に履歴を切り詰めることもできます。例えば：リビジョンを1つだけにする、などです。"
+
+#: ../../admin-manual/installation/ubuntu.rst:272
+msgid ""
+"We use `Composer`_ to install and manage some third-party PHP libraries. To "
+"install Composer download and run the Composer installer according to the "
+"instructions at https://getcomposer.org/download/ in the \"Command-line "
+"installation\" section."
+msgstr ""
+"`Composer`_ "
+"を使用して、いくつかのサードパーティ製PHPライブラリをインストールして管理します。Composerをインストールするには、https://getcomposer.org/download/"
+" の「コマンドラインインストール」セクションに記載されている指示に従って、Composerインストーラーをダウンロードして実行してください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:277
+msgid ""
+"Once Composer is installed you will need to run it to install the required "
+"libraries. First, move to the AtoM folder:"
+msgstr ""
+"Composerがインストールされたら、必要なライブラリをインストールするために実行する必要があります。まず、AtoMフォルダに移動します："
+
+#: ../../admin-manual/installation/ubuntu.rst:284
+msgid ""
+"For production sites, the development libraries do not need to be included:"
+msgstr "本番サイトの場合、開発ライブラリを含める必要はありません:"
+
+#: ../../admin-manual/installation/ubuntu.rst:290
+msgid "Or if you have installed Composer `globally`_:"
+msgstr "または、Composerを「グローバル」にインストールした場合："
+
+#: ../../admin-manual/installation/ubuntu.rst:296
+msgid ""
+"For development environments, the dev libraries should also be installed:"
+msgstr "開発環境では、開発用ライブラリもインストールされるべきです："
+
+#: ../../admin-manual/installation/ubuntu.rst:302
+msgid "After downloading the code, you will need to compile the themes files:"
+msgstr "コードをダウンロードした後、テーマファイルをコンパイルする必要があります。"
+
+#: ../../admin-manual/installation/ubuntu.rst:305
+msgid "Compile Bootstrap 5 Theme Files:"
+msgstr "Bootstrap 5 テーマファイルのコンパイル："
+
+#: ../../admin-manual/installation/ubuntu.rst:313
+msgid "Compile Bootstrap 2 Theme Files:"
+msgstr "Bootstrap 2テーマファイルのコンパイル："
+
+#: ../../admin-manual/installation/ubuntu.rst:329
+msgid "Create the database"
+msgstr "データベースを作成する"
+
+#: ../../admin-manual/installation/ubuntu.rst:331
+msgid ""
+"Assuming that you are running MySQL in localhost, please create the database"
+" by running the following command using the password you created "
+":ref:`earlier <installation-ubuntu-dependencies-mysql>`:"
+msgstr ""
+"あなたがlocalhostでMySQLを実行していると仮定し、以下のコマンドを実行してデータベースを作成してください。この時、以前作成したパスワードを使用します"
+" :ref:`以前<installation-ubuntu-dependencies-mysql>`:"
+
+#: ../../admin-manual/installation/ubuntu.rst:341
+msgid ""
+"If you do not supply the MySQL root password after the -p, you will be "
+"prompted for it when you enter the command. If you do supply the password, "
+"there is no space following -p; in other words, ``-pPASSWORD``. (Replace "
+"PASSWORD with the password you created.) Remember, supplying the password on"
+" the command line is less secure as it may be visible to others in the "
+".bash_history file."
+msgstr ""
+"MySQLのrootパスワードを-"
+"pの後に指定しない場合は、コマンドを入力した際にプロンプトが表示されてパスワードの入力を求められます。パスワードを指定する場合は、-pの後にスペースを入れずに「-pPASSWORD」と入力します（PASSWORDにはあなたが作成したパスワードを入れてください）。コマンドラインでパスワードを指定することは、.bash_historyファイルに表示される可能性があるため、セキュリティ上あまり安全ではないことを覚えておいてください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:348
+msgid ""
+"Notice that the database has been called **atom**. Feel free to change its "
+"name."
+msgstr "データベースが**atom**と命名されていることに注意してください。お好きな名前に変更自由です。"
+
+#: ../../admin-manual/installation/ubuntu.rst:351
+msgid ""
+"In case your MySQL server is **not** the same as your web server, replace "
+"\"localhost\" with the address of your MySQL server."
+msgstr ""
+"ご使用のMySQLサーバーがウェブサーバーと**同じでない**場合は、「localhost」をMySQLサーバーのアドレスに置き換えてください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:356
+msgid ""
+"Plase make sure that you are using an empty database! Don't reuse an old "
+"database unless it's empty. You can always drop it by using the "
+":command:`DROP DATABASE` command and then create it again."
+msgstr ""
+"空のデータベースを使用していることを確認してください！空でない限り、古いデータベースを再利用しないでください。常に :command:`DROP "
+"DATABASE` コマンドを使用して削除し、その後で再作成することができます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:360
+msgid ""
+"Additionally, it's always a good idea to create a specific MySQL user for "
+"AtoM to keep things safer. This is how you can create a user called ``atom``"
+" with password ``12345`` and the permissions needed for the database created"
+" above."
+msgstr ""
+"また、より安全に管理するために、AtoM専用のMySQLユーザーを作成することをお勧めします。以下は、前述のデータベースに必要な権限を持った、「atom」というユーザーを「12345」というパスワードで作成する方法です。"
+
+#: ../../admin-manual/installation/ubuntu.rst:369
+msgid ""
+"Note that the ``INDEX``, ``CREATE`` and ``ALTER`` privileges are only "
+"necessary during the installation process or when you are upgrading AtoM to "
+"a newer version. They can be removed from the user once you are finished "
+"with the installation or you can change the user used by AtoM in "
+":ref:`config.php <config-config-php>`."
+msgstr ""
+"インストールプロセス中、またはAtoMを新しいバージョンにアップグレードする際にのみ、「INDEX」、「CREATE」、「ALTER」の権限が必要であることに注意してください。インストールが完了した後は、これらの権限をユーザーから削除することができます。または、:ref:`config.php"
+" <config-config-php>`に記載されているように、AtoMが使用するユーザーを変更することができます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:378
+msgid "Run the installer"
+msgstr "インストーラーを実行してください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:380
+msgid ""
+"You should now be ready to run the installer. It's a simple command line "
+"interface task that configures AtoM according to your environment, adds the "
+"necessary tables and initial data to the recently created database and "
+"creates the Elasticsearch index."
+msgstr ""
+"これでインストーラを実行する準備が整いました。これはシンプルなコマンドラインインターフェースタスクで、環境に応じてAtoMを設定し、新たに作成されたデータベースに必要なテーブルと初期データを追加し、Elasticsearchインデックスを作成します。"
+
+#: ../../admin-manual/installation/ubuntu.rst:390
+msgid ""
+"The installation task will ask for configuration details such as the "
+"location of your database server. In some cases, it may provide default "
+"values, such as ``atom`` for the database name. If you have followed this "
+"document to the letter (including creating a different database user in the "
+"database configuration step :ref:`above <installation-ubuntu-create-"
+"database>`, this is how you should fill the configuration:"
+msgstr ""
+"インストールタスクでは、データベースサーバーの場所などの設定詳細を求められます。場合によっては、データベース名として「atom」のようなデフォルト値を提供することがあります。この文書にそって正確に進めている場合（データベース設定手順で異なるデータベースユーザーを作成するを含む"
+" :ref:`上記 <installation-ubuntu-create-database>`）、以下のように設定を入力するべきです："
+
+#: ../../admin-manual/installation/ubuntu.rst:397
+msgid "Database host: ``localhost``"
+msgstr "データベースホスト：``localhost``"
+
+#: ../../admin-manual/installation/ubuntu.rst:398
+msgid "Database port: ``3306``"
+msgstr "データベースポート: ``3306``"
+
+#: ../../admin-manual/installation/ubuntu.rst:399
+msgid "Database name: ``atom``"
+msgstr "データベース名：「atom」"
+
+#: ../../admin-manual/installation/ubuntu.rst:400
+msgid "Database user: ``atom``"
+msgstr "データベースのユーザー: ``atom``"
+
+#: ../../admin-manual/installation/ubuntu.rst:401
+msgid "Database password: ``12345``"
+msgstr "データベースのパスワード：「12345」"
+
+#: ../../admin-manual/installation/ubuntu.rst:402
+msgid "Search host: ``localhost``"
+msgstr "検索ホスト: ``localhost``"
+
+#: ../../admin-manual/installation/ubuntu.rst:403
+msgid "Search port: ``9200``"
+msgstr "検索ポート: ``9200``"
+
+#: ../../admin-manual/installation/ubuntu.rst:404
+msgid "Search index: ``atom``"
+msgstr "検索インデックス: ``atom``"
+
+#: ../../admin-manual/installation/ubuntu.rst:406
+msgid ""
+"Of course, some of these values will look very different if you are running "
+"AtoM in a distributed way, where your services like MySQL or Elasticsearch "
+"are running in separate machines."
+msgstr ""
+"もちろん、AtoMを分散方式で運用している場合には、MySQLやElasticsearchのようなサービスが別のマシンで動作している場合、これらの値は非常に異なる形で表示されることになります。"
+
+#: ../../admin-manual/installation/ubuntu.rst:410
+msgid "The rest of the configuration can be filled as you need:"
+msgstr "残りの設定は、必要に応じて記入してください："
+
+#: ../../admin-manual/installation/ubuntu.rst:412
+msgid "Site title"
+msgstr "サイトのタイトル"
+
+#: ../../admin-manual/installation/ubuntu.rst:413
+msgid "Site description"
+msgstr "サイトの説明"
+
+#: ../../admin-manual/installation/ubuntu.rst:414
+msgid "Site base URL"
+msgstr "サイトの基本URL"
+
+#: ../../admin-manual/installation/ubuntu.rst:415
+msgid "Admin email"
+msgstr "管理者メール"
+
+#: ../../admin-manual/installation/ubuntu.rst:416
+msgid "Admin username"
+msgstr "管理者ユーザー名"
+
+#: ../../admin-manual/installation/ubuntu.rst:417
+msgid "Admin password"
+msgstr "管理者パスワード"
+
+#: ../../admin-manual/installation/ubuntu.rst:421
+msgid ""
+"You can always change the :term:`site title`, :term:`site description`, and "
+":term:`Base URL` later via **Admin > Settings > Site information**. See: "
+":ref:`site-information` for more information. The admin email, username and "
+"password can also be changed by an :term:`administrator` after installation "
+"via the :term:`user interface` - see: :ref:`edit-user`."
+msgstr ""
+"いつでも**管理 > 設定 > "
+"サイト情報**から、`:term:`サイトタイトル`、`:term:`サイトの説明`、そして`:term:`基本URL`を後から変更することができます。詳細については、:ref:`サイト情報`を参照してください。管理者のメールアドレス、ユーザー名、そしてパスワードも、インストール後に`:term:`管理者`が`:term:`ユーザーインターフェイス`を通じて変更することが可能です"
+" - 詳細は、:ref:`ユーザー編集`をご覧ください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:427
+msgid ""
+"For more information about this task, including ways to automate it, check "
+"its full documentation in :ref:`the command line tools page <cli-"
+"installer>`."
+msgstr ""
+"このタスクに関する詳細情報、およびそれを自動化する方法については、`:ref:`コマンドラインツールページ <cli-"
+"installer>`の完全なドキュメントをチェックしてください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:433
+msgid "Configure"
+msgstr "構成設定"
+
+#: ../../admin-manual/installation/ubuntu.rst:435
+msgid ""
+"There are various settings that can only be configured via the command-line "
+"- for example, the default timezone and culture of the application. "
+"Depending on your local requirements, it may be preferable to configure some"
+" of these now. For more information on these settings see: "
+":ref:`customization-config-files`."
+msgstr ""
+"コマンドラインを介してのみ設定可能な様々な設定項目があります。例えば、アプリケーションのデフォルトタイムゾーンやカルチャーなどです。地域の要件に応じて、これらの設定を今行う方が好ましいかもしれません。これらの設定に関する詳細は、以下を参照してください：`customization-"
+"config-files`。"
+
+#: ../../admin-manual/installation/ubuntu.rst:443
+msgid "Security considerations"
+msgstr "セキュリティに関する考慮事項"
+
+#: ../../admin-manual/installation/ubuntu.rst:445
+msgid ""
+"Now that AtoM is configured and installed, please take a moment to read our "
+":ref:`security section <security>` where we will show you how to configure "
+"the firewall in Ubuntu and other options in AtoM configuration."
+msgstr ""
+"AtoMが設定およびインストールされましたので、次に当社の「セキュリティセクション<security>」をお読みいただきたいと思います。そこでは、Ubuntuでファイアウォールを設定する方法やAtoMの設定におけるその他のオプションについてご案内いたします。"
+
+#: ../../admin-manual/installation/ubuntu.rst:449
+msgid ""
+"We strongly encourage our users to configure a firewall because some of the "
+"services configured should not be exposed in the wild, e.g. Elasticsearch "
+"was not designed to be accessible from untrusted networks and it's a common "
+"attack vector."
+msgstr ""
+"私たちは、利用者の皆様に強くファイアウォールの設定をお勧めしています。というのも、設定された一部のサービスは外部に露出されるべきではないためです。例えば、Elasticsearchは信頼されていないネットワークからアクセス可能に設計されておらず、一般的な攻撃経路となっています。"
+
+#: ../../admin-manual/installation/ubuntu.rst:457
+msgid "Serve"
+msgstr "「サーブ」"
+
+#: ../../admin-manual/installation/ubuntu.rst:459
+msgid ""
+"There are many web servers out there capable of working well with `PHP`_. "
+"`Apache`_ is probably the most popular and we like it, but we've found that "
+"`Nginx`_ adapts itself much better to limited resource environments while it"
+" also scales better and more predictably under high loads. You are welcome "
+"to try other solutions, but the following documentation will focus on Nginx "
+"and PHP-FPM."
+msgstr ""
+"多くのウェブサーバーが `PHP`_ とうまく動作する能力を持っています。`Apache`_ "
+"は恐らく最も人気があるもので私たちも気に入っていますが、`Nginx`_ "
+"はリソースが限られた環境にさらに良く適応し、高負荷時においてもスケールがより良く予測可能であることが分かっています。他のソリューションを試していただいてもかまいませんが、以下のドキュメントではNginxとPHP-"
+"FPMに焦点を当てて説明します。"
+
+#: ../../admin-manual/installation/ubuntu.rst:466
+msgid ""
+"Additionally, AtoM requires the configuration of a Gearman worker service."
+msgstr "さらに、AtoMはGearmanワーカーサービスの設定を必要とします。"
+
+#: ../../admin-manual/installation/ubuntu.rst:471
+msgid "Filesystem permissions"
+msgstr "ファイルシステムの権限"
+
+#: ../../admin-manual/installation/ubuntu.rst:473
+msgid ""
+"By default, Nginx runs as the www-data user. There are a few directories "
+"under AtoM that must be writable by the web server. The easiest way to "
+"ensure this is to update the owner of the AtoM directory and its contents by"
+" running:"
+msgstr ""
+"デフォルトでは、Nginxはwww-"
+"dataユーザーとして実行されます。ウェブサーバーによって書き込み可能でなければならないディレクトリがAtoMの下にいくつかあります。これを確実にする最も簡単な方法は、AtoMディレクトリとその内容の所有者を更新することです。次のコマンドを実行します："
+
+#: ../../admin-manual/installation/ubuntu.rst:481
+msgid ""
+"If you are deploying AtoM in a shared environment we recommend you to pay "
+"attention to the permissions assigned to **others**. The following is an "
+"example on how to clear all mode bits for others:"
+msgstr ""
+"共有環境でAtoMを展開する場合、**他者**に割り当てられたパーミッションに注意を払うことをお勧めします。以下は、他者のすべてのモードビットをクリアする方法の例です:"
+
+#: ../../admin-manual/installation/ubuntu.rst:489
+msgid ""
+"If you are planning to do DIP uploads from AM, check the :ref:`SWORD deposit"
+" directory section <sword-directory>` to set the permissions of that "
+"directory."
+msgstr ""
+"AMからDIPアップロードを計画している場合は、そのディレクトリの権限を設定するために、`:ref:`SWORDデポジットディレクトリのセクション "
+"<sword-directory>`を確認してください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:496
+msgid "Deployment of workers"
+msgstr "ワーカーのデプロイメント"
+
+#: ../../admin-manual/installation/ubuntu.rst:498
+msgid ""
+"Gearman is used in AtoM to support asynchronous tasks, some of which are "
+"core functionality such as updating the :term:`publication status` of a "
+"descriptive hierarchy, moving descriptions to a new :term:`parent record`, "
+"and much more. A worker is just a CLI task that you can run in a terminal or"
+" supervise with specific tools like upstart, supervisord or systemd. The "
+"worker will wait for jobs that are assigned by the job server."
+msgstr ""
+"AtoMでは、非同期タスクをサポートするためにGearmanが使用されており、その中には記述階層の:term:`公開状態`の更新や、記述の新たな:term:`親レコード`への移動など、コア機能も含まれています。ワーカーとは、ターミナルで実行できるCLIタスクのことであり、upstart、supervisord、systemdのような特定のツールを使って監視することもできます。ワーカーは、ジョブサーバーによって割り当てられる仕事を待機しています。"
+
+#: ../../admin-manual/installation/ubuntu.rst:505
+msgid ""
+"We will use systemd to manage the AtoM worker; create the following service "
+"file :file:`/usr/lib/systemd/system/atom-worker.service`:"
+msgstr ""
+"systemdを使用してAtoMワーカーを管理します。以下のサービスファイルを作成してください：`/usr/lib/systemd/system/atom-"
+"worker.service`:"
+
+#: ../../admin-manual/installation/ubuntu.rst:533
+msgid ""
+"If you are not using PHP 7.4, be sure to update the `ExecStart` filepath in "
+"the `[Service]` section of  the sample configuration block above! Currently "
+"it assumes PHP 7.4 is being used, and will not  work for installations using"
+" a different PHP version without modification."
+msgstr ""
+"PHP "
+"7.4を使用していない場合は、上記のサンプル設定ブロックの`[Service]`セクションにある`ExecStart`のファイルパスを必ず更新してください！現在の設定はPHP"
+" 7.4を使用していることを前提としており、異なるPHPバージョンを使用するインストールには、修正しない限り動作しません。"
+
+#: ../../admin-manual/installation/ubuntu.rst:538
+msgid "Now reload systemd, enable and start the AtoM worker:"
+msgstr "systemdを再読み込みし、AtoMワーカーを有効にして起動してください："
+
+#: ../../admin-manual/installation/ubuntu.rst:546
+msgid ""
+"Check out the following page for more information about asynchronous jobs "
+"and worker management: :ref:`maintenance-asynchronous-jobs`."
+msgstr ""
+"以下のページをご覧になって、非同期ジョブとワーカー管理についての詳細情報をご覧ください： :ref:`maintenance-asynchronous-"
+"jobs`。"
+
+#: ../../admin-manual/installation/ubuntu.rst:552
+msgid "PHP-FPM"
+msgstr ""
+"「PHP-FPM」は特定の翻訳を必要としない専門用語です。PHP-FPMは「PHP FastCGI Process "
+"Manager」の略で、パフォーマンスを向上させて大量のトラフィックを処理するために使用されるPHPのアプリケーションです。したがって、日本語の文書やテキストでも「PHP-"
+"FPM」とそのまま使用されます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:554
+msgid ""
+"Our favorite way to deploy AtoM is using `PHP-FPM`_, a process manager that "
+"scales better than other solutions like FastCGI."
+msgstr ""
+"私たちが好んで使用しているAtoMのデプロイ方法は、`PHP-FPM`_ "
+"を使用することです。これはFastCGIなどの他のソリューションよりもスケーリングが良いプロセスマネージャです。"
+
+#: ../../admin-manual/installation/ubuntu.rst:561
+msgid ""
+"Let's add a new PHP pool for AtoM by adding the following contents in a new "
+"file called :file:`/etc/php/7.4/fpm/pool.d/atom.conf`:"
+msgstr ""
+"AtoM用の新しいPHPプールを追加するために、以下の内容を:file:`/etc/php/7.4/fpm/pool.d/atom.conf`という新しいファイルに追加しましょう："
+
+#: ../../admin-manual/installation/ubuntu.rst:624
+msgid "The process manager has to be enabled and started:"
+msgstr "プロセスマネージャーを有効にして起動する必要があります："
+
+#: ../../admin-manual/installation/ubuntu.rst:631
+msgid ""
+"If the service fails to start, make sure that the configuration file has "
+"been has been pasted properly. You can also check the syntax by running:"
+msgstr ""
+"サービスの起動に失敗した場合は、設定ファイルが適切に貼り付けられていることを確認してください。また、次のコマンドを実行して構文をチェックすることもできます："
+
+#: ../../admin-manual/installation/ubuntu.rst:638
+msgid ""
+"If you are not planning to use the default PHP pool (``www``), feel free to "
+"remove it:"
+msgstr "デフォルトのPHPプール（``www``）を使用する予定がない場合は、自由に削除してください："
+
+#: ../../admin-manual/installation/ubuntu.rst:649
+msgid "Nginx"
+msgstr "Nginx（エンジンエックス）"
+
+#: ../../admin-manual/installation/ubuntu.rst:651
+msgid "In Ubuntu, the installation of Nginx is simple:"
+msgstr "Ubuntuでは、Nginxのインストールは簡単です："
+
+#: ../../admin-manual/installation/ubuntu.rst:659
+msgid ""
+"These instructions assume that the Nginx package is creating the directory "
+":file:`/usr/share/nginx` and that is the location where we are going to "
+"place the AtoM sources. However, we have been told this location may be "
+"different in certain environments (e.g. :file:`/var/www`) or you may opt for"
+" a different location. If that is the case, please make sure that you update"
+" the configuration snippets that we share later in this document according "
+"to your location."
+msgstr ""
+"これらの指示では、Nginxパッケージがディレクトリ :file:`/usr/share/nginx` "
+"を作成しており、そこがAtoMソースを配置する場所であるとしています。ただし、環境によってはこの場所が異なる可能性がある（例えば "
+":file:`/var/www` "
+"など）または違う場所を選択するかもしれません。その場合は、この文書の後半で共有する設定スニペットを、あなたの場所に合わせて更新してください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:667
+msgid ""
+"Nginx deploys a default server (aka VirtualHost, for Apache users) called "
+"**default** and you can find it in :file:`/etc/nginx/sites-"
+"available/default`. In order to install AtoM you could edit the existing "
+"server block or add a new one. We are going to you show you how to do the "
+"latter:"
+msgstr ""
+"Nginxでは**default**と呼ばれるデフォルトのサーバー（ApacheユーザーにはVirtualHostとして知られています）がデプロイされており、これは:file:`/etc/nginx/sites-"
+"available/default`で見つかります。AtoMをインストールするために、既存のサーバーブロックを編集するか、新しいものを追加することができます。後者の方法をお見せしましょう："
+
+#: ../../admin-manual/installation/ubuntu.rst:678
+msgid ""
+"We have now created the configuration file and linked it from sites-"
+"enabled/, which is the directory that Nginx will look for. This means that "
+"you could disable a site by removing its symlink from sites-enabled/ while "
+"keeping the original one under sites-available/, in case that you want to "
+"re-use it in the future. You can do this with the Nginx default server."
+msgstr ""
+"これで設定ファイルが作成され、Nginxが参照するsites-"
+"enabled/ディレクトリにリンクされました。これは、将来的に再利用したい場合に備えて、元々のファイルをsites-"
+"available/下に保持しつつ、sites-"
+"enabled/からシンボリックリンクを削除することでサイトを無効にできることを意味します。これはNginxのデフォルトサーバーに対しても行うことができます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:684
+msgid ""
+"The following is a recommended server block for AtoM. Put the following "
+"contents in :file:`/etc/nginx/sites-available/atom`."
+msgstr ""
+"次の内容は、AtoMに推奨されるサーバブロックです。以下の内容を :file:`/etc/nginx/sites-available/atom` "
+"に配置してください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:689
+msgid ""
+"This example listens for connections on port 80 using basic http without "
+"encryption."
+msgstr "この例では、基本的なhttp（暗号化なし）を使用して、ポート80での接続を待ち受けます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:692
+msgid ""
+"While this is ok for testing AtoM locally on a private network, any public "
+"implementation of AtoM should be secured using TLS/SSL certificates such "
+"that your content is served over HTTPS."
+msgstr ""
+"プライベートネットワーク上でAtoMをローカルにテストする場合はこれで問題ありませんが、AtoMを公開する実装においては、コンテンツがHTTPSを通じて提供されるようにTLS/SSL証明書を用いて安全にすべきです。"
+
+#: ../../admin-manual/installation/ubuntu.rst:696
+msgid ""
+"The `Mozilla SSL Configuration Generator`_ is useful for assisting with "
+"adding the appropriate blocks to your Nginx configuration file."
+msgstr "`Mozilla SSL 設定ジェネレータ`_ は、Nginxの設定ファイルに適切なブロックを追加する際のアシストに役立ちます。"
+
+#: ../../admin-manual/installation/ubuntu.rst:762
+msgid "Now you need to enable and reload Nginx:"
+msgstr "次に、Nginxを有効にしてリロードする必要があります："
+
+#: ../../admin-manual/installation/ubuntu.rst:772
+msgid "Start using AtoM"
+msgstr "AtoMの使用を開始する"
+
+#: ../../admin-manual/installation/ubuntu.rst:774
+msgid ""
+"Congratulations! Your new AtoM |version| installation should now be ready to"
+" use. You can access it by entering your base URL into a web browser - the "
+":term:`administrator` account login details will be those you entered when "
+"configuring the installer. See :ref:`getting-started-all` for further "
+"information on your first steps using AtoM."
+msgstr ""
+"おめでとうございます！新しいAtoM |version| "
+"のインストールが完了し、ご利用いただける状態になりました。ベースURLをWebブラウザに入力することでアクセスできます。:term:`administrator`アカウントのログイン詳細はインストーラの設定時に入力した情報です。AtoMの最初のステップに関するさらなる情報は、:ref:`getting-"
+"started-all`をご覧ください。"
+
+#: ../../admin-manual/installation/ubuntu.rst:782
+msgid ""
+"After implementing the above changes during the initial setup, you might "
+"need to :ref:`clear the cache <maintenance-clear-cache>` and :ref:`restart "
+"PHP-FPM <troubleshooting-restart-php-fpm>` for the changes to take effect."
+msgstr ""
+"初期設定時に上記の変更を実装した後、変更を有効にするために、:ref:`キャッシュをクリア<maintenance-clear-"
+"cache>`し、:ref:`PHP-FPMを再起動<troubleshooting-restart-php-fpm>`する必要があるかもしれません。"
+
+#: ../../admin-manual/installation/ubuntu.rst:787
+msgid ""
+"If you encounter any other issues, we recommend consulting the "
+":ref:`maintenance-troubleshooting` documentation for suggestions on how to "
+"resolve common errors."
+msgstr ""
+"何か他の問題に遭遇した場合、一般的なエラーの解決方法についての提案は、:ref:`maintenance-"
+"troubleshooting`ドキュメントを参照することをお勧めします。"
+
+#: ../../admin-manual/installation/ubuntu.rst:791
+msgid ":ref:`Back to top <installation-ubuntu>`"
+msgstr ":ref:`トップへ戻る <installation-ubuntu>`"

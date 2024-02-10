@@ -1,0 +1,868 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/import-export/csv-export.rst:5
+msgid "CSV export"
+msgstr "CSVエクスポート"
+
+#: ../../user-manual/import-export/csv-export.rst:21
+msgid ""
+"Most often understood as an acronym for \"comma-separated values\" (though "
+"sometimes called \"character-separated values\" because the separator "
+"character does not have to be a comma), CSV is a file format that stores "
+"tabular data in plain-text form. Information with common properties that can"
+" be expressed as a sequence of fields sharing a common header can be stored "
+"in plain-text using the CSV format, making it application agnostic and "
+"highly transportable."
+msgstr ""
+"最も一般的には「カンマ区切り値」(comma-separated "
+"values)の頭文字をとった略語として理解されていますが（時にはセパレータ文字がカンマでなくてもよいため「文字区切り値」(character-"
+"separated "
+"values)と呼ばれることもあります）、CSVは表形式のデータをプレーンテキスト形式で保存するファイル形式です。共通のプロパティを持つ情報で、共通のヘッダーを共有するフィールドのシーケンスとして表現することができるものは、プレーンテキストを使ってCSV形式で保存することができ、それによってアプリケーションに依存しない形式であり、高い移植性を持ちます。"
+
+#: ../../user-manual/import-export/csv-export.rst:28
+msgid ""
+"A CSV file consists of a number of records (rows), that have identical "
+"fields, separated by commas (or in some cases, another separator). Often a "
+"header column (i.e. the cell values in first or top row of a CSV file) is "
+"included, naming each column and indicating what kind of data the column "
+"contains. Data is then entered using a separator or delimitor (such as a "
+"comma) to indicate a separation of fields (or cells), and a line break or "
+"carriage return to indicate rows (i.e. different records). Most spreadsheet "
+"applications (such as OpenOffice Calc or MS Excel) can open CSV files and "
+"express them as a spreadsheet. See `Wikipedia "
+"<http://en.wikipedia.org/wiki/Comma-separated_values>`__ for more "
+"information on CSV."
+msgstr ""
+"CSVファイルは、カンマ（または場合によっては別の区切り文字）で分離された同一フィールドを持つ多数のレコード（行）で構成されています。しばしば、ヘッダー列（すなわちCSVファイルの最初または最上行にあるセルの値）が含まれ、各列に名前を付け、その列がどの種類のデータを含んでいるかを示しています。次いで、区切り文字やデリミター（カンマなど）を使用してフィールド（またはセル）の分離を示し、改行またはキャリッジリターンを使用して行（すなわち異なるレコード）を示してデータが入力されます。ほとんどのスプレッドシートアプリケーション（OpenOffice"
+" CalcやMS Excelなど）はCSVファイルを開き、それをスプレッドシートとして表示することができます。CSVに関する詳細は、`Wikipedia"
+" <http://en.wikipedia.org/wiki/Comma-separated_values>`__ をご覧ください。"
+
+#: ../../user-manual/import-export/csv-export.rst:40
+msgid ""
+"**In AtoM**, there are several kinds of CSV exports available exports from "
+"the :ref:`clipboard`; export of :term:`archival description` advanced search"
+" results; and an export of jobs completed. Each will be outlined below."
+msgstr ""
+"**AtoMにおいて**、いくつかの種類のCSVエクスポートが利用可能です：:ref:`クリップボード`からのエクスポート；:term:`アーカイブ記述`の高度検索結果のエクスポート；そして完了したジョブのエクスポートです。以下にそれぞれについて説明します。"
+
+#: ../../user-manual/import-export/csv-export.rst:46
+msgid ""
+"CSV exports performed via the :term:`user interface` are generated as "
+"compressed `ZIP`_ packages, stored in the ``jobs`` subdirectory of the AtoM "
+"``downloads`` directory. These packages are **not** automatically deleted "
+"after download, meaning a system administrator should periodically remove "
+"unnecessary older packages to conserve disk space, such as during upgrades. "
+"For more information on the structure of the ``downloads`` directory, see:"
+msgstr ""
+":term:`ユーザーインターフェース`を介して実行されるCSVエクスポートは、圧縮された`ZIP`_パッケージとして生成され、AtoMの``downloads``ディレクトリ内の``jobs``サブディレクトリに保存されます。これらのパッケージはダウンロード後に自動的に削除される**わけではない**ため、システム管理者はディスクスペースを節約するために、アップグレード時などに不要な古いパッケージを定期的に削除する必要があります。``downloads``ディレクトリの構造についての詳細は、以下を参照してください："
+
+#: ../../user-manual/import-export/csv-export.rst:53
+msgid ":ref:`backup-uploads-downloads`"
+msgstr ":ref:`バックアップ-アップロード-ダウンロード`"
+
+#: ../../user-manual/import-export/csv-export.rst:55
+msgid ""
+"Note that AtoM also has a command-line task that can be used by a system "
+"administrator to manage and delete the contents of the ``jobs`` "
+"subdirectory. For more information, see:"
+msgstr ""
+"AtoMにはシステム管理者が「jobs」サブディレクトリの内容を管理および削除するために使用できるコマンドラインタスクも存在していることに注意してください。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/csv-export.rst:59
+msgid ":ref:`tools-expire`"
+msgstr ""
+":ref:`tools-"
+"expire`（この参照マークはドキュメント内の特定のセクションやツールへの参照を示しますが、テキストが提供されていないので、直接的な翻訳は行えません。ドキュメント内の「tools-"
+"expire」というセクションもしくはツールを参照してください。）"
+
+#: ../../user-manual/import-export/csv-export.rst:61
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../user-manual/import-export/csv-export.rst:63
+msgid ":ref:`csv-export-search`"
+msgstr ""
+":ref:`csv-export-search` \n"
+"\n"
+"この部分は単独で文として成立していないため、正確な翻訳が難しいです。これは恐らくマークダウンやreStructuredTextなどのテキスト形式で、内部のリファレンスやドキュメントのリンクを示す参照タグです。\n"
+"\n"
+"このタグが示す具体的なドキュメントのタイトルや文脈がなければ、直接的な翻訳はできませんが、もしこれが\"CSVエクスポート検索\"というセクションを参照している場合、「CSVエクスポートの検索」という意味になるでしょう。ただし、正しい翻訳のためには、文脈が必要です。"
+
+#: ../../user-manual/import-export/csv-export.rst:64
+msgid ":ref:`csv-export-clipboard`"
+msgstr ""
+"このテキストは、文書内の特定のリファレンスやリンクを示しているようですが、翻訳するにはそれが指す内容や文脈が必要です。ただし、見出しの翻訳が必要な場合は、「CSVエクスポートクリップボード」となるでしょう。これは、「CSVエクスポート: クリップボード」というセクションまたは参照を指している可能性があります。Archivematicaのドキュメントであれば、その部分がCSVファイルのエクスポートやクリップボード機能に関する指示や説明を含んでいる可能性が高いです。\n"
+"\n"
+"もしこれがリンクである場合、通常の文章内で翻訳すると以下のようになるかもしれません。\n"
+"\n"
+"参照：`CSVエクスポート: クリップボード`\n"
+"\n"
+"この場合、実際にドキュメント上で機能するリンクを作成するには、実際のドキュメント上のリンク・アンカーへの適切な参照が必要です。"
+
+#: ../../user-manual/import-export/csv-export.rst:65
+msgid ":ref:`csv-export-jobs`"
+msgstr ""
+":ref:`csv-export-jobs`は特定のドキュメントやマニュアル内の参照ラベルかリンクであり、この文脈において独立した文として日本語に翻訳することはできません。文書内でこれがどのように使われているか、または参照している内容が何かを知る必要があります。\n"
+"\n"
+"しかし、もし「CSVエクスポートジョブ」というセクションまたは項目を参照しているのであれば、日本語では次のように翻訳される可能性があります。\n"
+"\n"
+"`CSVエクスポートジョブ`"
+
+#: ../../user-manual/import-export/csv-export.rst:69
+msgid ":ref:`csv-import`"
+msgstr ""
+"このテキスト自体は、特定のドキュメントやセクションへの参照を示すreStructuredText（reST）形式のマークアップ要素です。実際のドキュメントの翻訳では、この参照が指している具体的なセクションの名前や内容に応じて適切な日本語訳を当てはめる必要があります。この場合、参照のタグ `csv-import` は「CSVインポート」というセクションを指している可能性が高いです。ただし、この参照が実際にどのような文脈で使われているかに応じた翻訳が求められます。\n"
+"\n"
+"したがって、日本語に直訳すると以下のようになりますが、文脈に応じて変更が必要かもしれません。\n"
+"\n"
+"```\n"
+":ref:`csv-import`\n"
+"```\n"
+"\n"
+"↓\n"
+"\n"
+"```\n"
+":ref:`CSVインポート`\n"
+"```\n"
+"\n"
+"ただし、reStructuredText 形式の参照がドキュメント内のどの部分へリンクしているかは、そのドキュメントの構造によって異なりますので、正確な翻訳を行うにはドキュメント全体のコンテキストが必要です。"
+
+#: ../../user-manual/import-export/csv-export.rst:70
+msgid ":ref:`import-export-skos`"
+msgstr ""
+":ref:`import-export-"
+"skos`（このテキストは参照用のマークアップであり、実際の翻訳内容ではありません。適切な文脈が提供されていないため、この特定のフレーズを直接日本語に翻訳することはできません。`import-"
+"export-"
+"skos`は特定のセクションやドキュメント内のラベルを指しており、そのセクションが何について言及しているかに応じて翻訳が異なります。このラベルが参照している内容に応じた適切な日本語の題名や説明が必要です。）"
+
+#: ../../user-manual/import-export/csv-export.rst:71
+#: ../../user-manual/import-export/csv-export.rst:93
+msgid ":ref:`advanced-search`"
+msgstr ""
+"このテキストは、特定の文脈や完全なセンテンスが不足しているため、直訳することは難しいですが、おそらく参照用のリンクのラベルを示しています。`advanced-search`は進んだ検索機能のセクションまたはページを指しているのでしょう。そのため、これを日本語文脈に合わせて翻訳する場合は以下のようになります。\n"
+"\n"
+":ref:`高度な検索`\n"
+"\n"
+"ただし、これはMarkdownやreStructuredTextのリンク参照ラベルの形式の一例であり、実際の文書でどのように使われるかは文書のマークアップ言語やスタイルに依存します。実際には、このラベルがリンク先のタイトルやIDと一致していることが重要です。"
+
+#: ../../user-manual/import-export/csv-export.rst:72
+#: ../../user-manual/import-export/csv-export.rst:96
+#: ../../user-manual/import-export/csv-export.rst:223
+msgid ":ref:`manage-jobs`"
+msgstr ":ref:`ジョブの管理`"
+
+#: ../../user-manual/import-export/csv-export.rst:73
+#: ../../user-manual/import-export/csv-export.rst:222
+msgid ":ref:`clipboard`"
+msgstr ":ref:`クリップボード`"
+
+#: ../../user-manual/import-export/csv-export.rst:74
+#: ../../user-manual/import-export/csv-export.rst:204
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイブ記述`"
+
+#: ../../user-manual/import-export/csv-export.rst:75
+msgid ":ref:`csv-export-cli`"
+msgstr ""
+"このテキストは、Archivematicaのマニュアルやドキュメントからの参照リンクのように見えます。ただし、そのままでは直訳する文がありませんので、このリンクが指し示すものについて想定して翻訳します。仮にこれがCSV形式でエクスポートするコマンドラインインターフェース（CLI）の説明をしているセクションの参照であれば、そのセクションのタイトルは次のように日本語で翻訳できます：\n"
+"\n"
+"``:ref:`csv-export-cli`（参照：CSV形式エクスポートのコマンドラインインターフェース）``\n"
+"\n"
+"もちろん、実際の文脈に応じて適切なタイトルが必要ですが、与えられた情報のみからは具体的な翻訳文を提供することは難しいです。"
+
+#: ../../user-manual/import-export/csv-export.rst:76
+msgid ":ref:`csv-import-cli`"
+msgstr ""
+"このテキストは、文脈が不十分で、何を指しているか特定するのが難しいですが、単純な参照タグであると仮定して、それを日本語に翻訳すると以下のようになります：\n"
+"\n"
+"``csv-import-cli`` の参照\n"
+"\n"
+"ただし、これは技術的なドキュメントの一部であれば、そのまま残すべきかもしれません。翻訳の際には、ドキュメントの他の部分との整合性を保ち、参照先が明確になるように配慮する必要があります。"
+
+#: ../../user-manual/import-export/csv-export.rst:77
+msgid ":ref:`cli-bulk-import-xml`"
+msgstr ":ref:`CLI一括インポート-XML`"
+
+#: ../../user-manual/import-export/csv-export.rst:78
+msgid ":ref:`cli-bulk-export`"
+msgstr ""
+"`:ref:`cli-bulk-export`` は特定のフォーマットで書かれたテキストを参照しており、これはそれが所属するドキュメント内で特定のセクションや命令に直接リンクするためのマークアップです。翻訳作業を行う際には、この参照が指し示す特定のコンテンツやドキュメントの構造に応じて適切に変換する必要があります。しかし、このコンテクストの提示のみでは、何にリンクしているのか具体的な内容は不明です。\n"
+"\n"
+"もしこのテキストが Archivematica のドキュメントの一部の場合、「CLIバルクエクスポート」という機能や章節を参照する可能性があります。その場合、実際の翻訳作業をする際には、そのリファレンスが指す範囲や目的に合わせた適切な日本語表現に置き換える必要があります。\n"
+"\n"
+"実際の文書内での参照表現は以下のように置き換えれられるでしょう：\n"
+"\n"
+"``CLIバルクエクスポート``\n"
+"\n"
+"ただしここで重要な点は、翻訳時に参照先が失われないように、リンクやマークアップの構造を適切に保持することです。翻訳者は実際のドキュメントフォーマット（例えば、reStructuredTextやMarkdown）の構文に精通している必要があり、元のドキュメントの機能を維持しつつ翻訳が行えるように要注意です。"
+
+#: ../../user-manual/import-export/csv-export.rst:84
+msgid "Export search and browse results in CSV format"
+msgstr "検索結果と閲覧結果をCSV形式でエクスポート"
+
+#: ../../user-manual/import-export/csv-export.rst:86
+msgid ""
+"Any authenticated (i.e. logged in) user can generate a :term:`CSV` export of"
+" :term:`archival description` :ref:`search-atom` or :ref:`browse` results. "
+"The CSV export, after it is generated, is made available for download from "
+"the jobs page."
+msgstr ""
+"認証された（つまり、ログインした）ユーザーであれば、誰でも :term:`アーカイブ記述` :ref:`search-atom` や "
+":ref:`browse` 結果に関する :term:`CSV` "
+"エクスポートを生成することができます。CSVエクスポートは生成された後、ジョブページからダウンロードするために利用可能になります。"
+
+#: ../../user-manual/import-export/csv-export.rst:94
+msgid ":ref:`search-atom`"
+msgstr ""
+"`:ref:`search-atom`` は、通常はドキュメント内の特定の部分にリンクするために使用される Sphinx ドキュメンテーションツールのマークアップです。したがって、これは翻訳の対象ではないことに注意してください。このマークアップ自体は、翻訳の際にそのまま残す必要がありますが、リンクテキストは翻訳されるべきです。\n"
+"\n"
+"しかし、与えられた文脈が不足しているため、マークアップが何を参照しているのか、または「search-atom」というフレーズが指している具体的なものが不明です。もし「search-atom」が章や節のタイトルを参照していると仮定するならば、そのタイトルが実際に翻訳対象となります。例えば、もし「search-atom」が「Search in AtoM」という節を参照しているなら、これを日本語では以下のように翻訳されるかもしれません:\n"
+"\n"
+"``.. _search-atom:``\n"
+"\n"
+"「AtoMでの検索」\n"
+"\n"
+"ただし、これはあくまで一例であり、実際のドキュメントにおける正しいコンテキストと用語を使用して適切な翻訳を行う必要があります。"
+
+#: ../../user-manual/import-export/csv-export.rst:95
+msgid ":ref:`browse`"
+msgstr ":ref:`参照する`"
+
+#: ../../user-manual/import-export/csv-export.rst:98
+msgid ""
+"When downloaded, the file will be compressed in a `ZIP "
+"<https://wikipedia.org/wiki/Zip_(file_format)>`__ archive - there are many "
+"free utilities (likely there is one already included on your computer) that "
+"will allow you to \"unzip\" a ZIP file."
+msgstr ""
+"ダウンロードされたファイルは、`ZIP <https://wikipedia.org/wiki/Zip_(file_format)>`__ "
+"アーカイブ形式で圧縮されています — "
+"ZIPファイルを「解凍」するための多くの無料ユーティリティがあります（おそらくすでにコンピュータにインストールされているでしょう）。"
+
+#: ../../user-manual/import-export/csv-export.rst:105
+msgid "You must be logged in to perform a CSV export of search results."
+msgstr "検索結果のCSVエクスポートを行うには、ログインしている必要があります。"
+
+#: ../../user-manual/import-export/csv-export.rst:107
+msgid "**To generate and download a CSV export of search or browse results:**"
+msgstr "**検索または閲覧結果をCSVファイルとして生成し、ダウンロードするには：**"
+
+#: ../../user-manual/import-export/csv-export.rst:109
+msgid ""
+"Navigate to the :term:`archival description` :ref:`browse` page. You can get"
+" there using the :term:`browse menu` located in the AtoM :term:`header bar` "
+"- for more information, see: :ref:`browse-menu`. You can also perform a "
+"search directly via the global :term:`search box` in the AtoM header bar, or"
+" by placing your cursor in the search box, selecting \"Advanced search\" "
+"from the :term:`drop-down menu` that appears, and then using the "
+":term:`advanced search panel` to perform a search. For more information, "
+"see: :ref:`search-atom` and :ref:`advanced-search`"
+msgstr ""
+"アーカイブ記述の参照ページへ移動してください。AtoMヘッダーバーにある参照メニューを使用してそこに辿り着くことができます。詳細については、参照メニューを参照してください。また、AtoMヘッダーバーのグローバル検索ボックスを直接使用して検索を実行することも、検索ボックスにカーソルを置き、「ドロップダウンメニュー」から「詳細検索」を選択し、その後「詳細検索パネル」を使用して検索を実行することもできます。詳細については、検索-"
+"atom および 詳細検索を参照してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:117
+msgid ""
+"If you wish to limit the results returned based on a search query before "
+"exporting, perform a search using the :term:`advanced search panel`, and/or "
+"limit the results using the :term:`facet filters <facet filter>` available "
+"in the left column. For more information on working with the fields and "
+"filters available on the advanced search panel, see: :ref:`advanced-search-"
+"interface`. For information on using the facets, see: :ref:`recurring-facet-"
+"filters`; particularly, :ref:`using-facet-filters`."
+msgstr ""
+"エクスポートする前に検索クエリに基づいて返される結果を制限したい場合は、`:term:`詳細検索パネル`を使用して検索を行うか、左列にある`:term:`ファセットフィルター"
+" <facet "
+"filter>`を使用して結果を絞り込んでください。詳細検索パネルで利用可能なフィールドやフィルターの使用方法についての詳細は、:ref:`advanced-"
+"search-interface`を参照してください。ファセットの使用に関する情報については、:ref:`recurring-facet-"
+"filters`を参照し、特に、:ref:`using-facet-filters`に記載されています。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An example query on the advanced search page"
+msgstr "高度な検索ページにおける一例のクエリ"
+
+#: ../../user-manual/import-export/csv-export.rst:130
+msgid ""
+"When you want to export the search results returned, click on the \"Export "
+"CSV\" link - it's located below the :term:`advanced search panel`, but above"
+" the results, on the left."
+msgstr ""
+"検索結果をエクスポートしたい場合は、「Export CSV」というリンクをクリックしてください。これは、:term:`advanced search "
+"panel` の下で、しかし結果の上に、左側に位置しています。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image of the Export CSV button on the advanced search page"
+msgstr "詳細検索ページの「CSVをエクスポート」ボタンの画像"
+
+#: ../../user-manual/import-export/csv-export.rst:141
+msgid ""
+"Public users will **not** be able to see this export link. Currently, the "
+"search CSV export feature is only available to authenticated (i.e. logged "
+"in) users."
+msgstr ""
+"一般ユーザーはこのエクスポートリンクを**見ることはできません**。現在、検索CSVエクスポート機能は認証された（つまり、ログインした）ユーザーのみが利用可能です。"
+
+#: ../../user-manual/import-export/csv-export.rst:145
+msgid ""
+"The CSV export of the search results will be generated by the job scheduler."
+" After clicking the \"Export CSV\" link, AtoM will reload the page - scroll "
+"back up to the top to see a notification about the job, with a link to the "
+"jobs page where you can see the status of your job and download the CSV when"
+" it is ready. Click on the link in the notification to go to the jobs page."
+msgstr ""
+"検索結果のCSVエクスポートは、ジョブスケジューラによって生成されます。\"Export "
+"CSV\"（CSVをエクスポート）のリンクをクリックすると、AtoMはページを再読み込みします - "
+"上にスクロールしてジョブについての通知を確認してください。そこには、ジョブの状態を確認し、CSVが準備できたらダウンロードできるジョブページへのリンクがあります。通知内のリンクをクリックして、ジョブページにアクセスしてください。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image of the notification after an export csv job is initiated"
+msgstr "エクスポートCSVジョブが開始された後の通知の画像"
+
+#: ../../user-manual/import-export/csv-export.rst:157
+msgid ""
+"On the jobs page, you will find information about the export job, including "
+"a download link when the task is done. Check the \"Job status\" column - if "
+"it says \"Completed,\" then the job has successfully finished and you can "
+"now download your CSV. It is says \"Running,\" then the task is still being "
+"executed - try refreshing the page in a moment for an updated status. If the"
+" Job status column says \"Error,\" then the CSV export has failed for some "
+"reason - talk to your system administrator for assistance. See the "
+":ref:`manage-jobs` page for more information."
+msgstr ""
+"ジョブのページでは、エクスポートのジョブに関する情報が確認でき、タスクが完了したときにはダウンロードリンクが表示されます。「ジョブ状況」の列を確認してください。もしそこに「完了」と表示されていれば、ジョブは正常に終了したことを意味し、CSVファイルをダウンロードすることができます。もし「実行中」と表示されている場合は、タスクがまだ実行中ですので、更新された状態を確認するためにしばらくしてからページを更新してください。ジョブ状況が「エラー」と表示されている場合は、何らかの理由でCSVエクスポートに失敗しています"
+" - 支援のためにシステム管理者に相談してください。詳細については、:ref:`manage-jobs` ページを参照してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:166
+#: ../../user-manual/import-export/csv-export.rst:409
+msgid ""
+"When the job is complete, click on the Download link in the \"Info\" column,"
+" and the CSV, compressed in a ZIP file, will be downloaded to your computer."
+msgstr ""
+"ジョブが完了したら、「情報」列の「ダウンロード」リンクをクリックすると、CSVがZIPファイルで圧縮され、あなたのコンピュータにダウンロードされます。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image of the jobs page after a CSV export has been executed"
+msgstr "CSVエクスポート実行後のジョブページの画像"
+
+#: ../../user-manual/import-export/csv-export.rst:176
+#: ../../user-manual/import-export/csv-export.rst:419
+msgid ""
+"The CSV export is formatted similarly to our CSV import templates. Curious "
+"about what fields are included, or uncertain what a certain field represents"
+" in the corresponding content standard? Take a look at our :ref:`csv-import`"
+" documentation on archival descriptions, or check out the CSV import "
+"templates on our wiki:"
+msgstr ""
+"CSVエクスポートは、当社のCSVインポートテンプレートに似た形式で作成されています。どのようなフィールドが含まれているのか、または特定のフィールドが対応するコンテンツ標準で何を表しているのか不確かな場合は、アーカイブ記述に関する当社の`:ref:`csv-"
+"import`ドキュメントを参照するか、私たちのウィキでCSVインポートテンプレートを確認してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:182
+#: ../../user-manual/import-export/csv-export.rst:425
+msgid "https://wiki.accesstomemory.org/Resources/CSV_templates"
+msgstr ""
+"こちらは、Archivematicaに関連する文書のURLですが、翻訳を依頼されたテキストが含まれていません。ただし、URLの内容から推測すると、「Access to Memory (AtoM)」ウィキの「CSVテンプレート」に関するリソースページのリンクであると考えられます。このことを踏まえ、URLを日本語に翻訳すると下記のようになります：\n"
+"\n"
+"https://wiki.accesstomemory.org/Resources/CSV_templates\n"
+"→\n"
+"https://wiki.accesstomemory.org/リソース/CSVテンプレート\n"
+"\n"
+"ご参考までに、上記URLを文章として翻訳すると以下のようになります。\n"
+"\n"
+"\"「Access to Memory (AtoM)」ウィキにある「CSVテンプレート」に関するリソースページへのリンクです。\"\n"
+"\n"
+"リンク先の具体的な内容について翻訳を希望される場合は、そのテキストを明記していただければ翻訳いたします。"
+
+#: ../../user-manual/import-export/csv-export.rst:184
+#: ../../user-manual/import-export/csv-export.rst:457
+#: ../../user-manual/import-export/csv-export.rst:493
+msgid ":ref:`Back to top <csv-export>`"
+msgstr ":ref:`トップに戻る <csv-export>`"
+
+#: ../../user-manual/import-export/csv-export.rst:189
+msgid "Export Clipboard results in CSV format"
+msgstr "クリップボードの結果をCSV形式でエクスポート"
+
+#: ../../user-manual/import-export/csv-export.rst:193
+msgid ""
+"AtoM includes a :term:`clipboard` that allows users to \"pin\" results to it"
+" for review or further action. For more information, see: :ref:`clipboard`."
+msgstr ""
+"AtoMには、ユーザーが結果をレビューするためやさらなるアクションのために「ピン」できる「クリップボード」という機能が含まれています。詳細については、以下を参照してください：「クリップボード」。"
+
+#: ../../user-manual/import-export/csv-export.rst:196
+msgid ""
+"Any user can generate a :term:`CSV` export of :term:`Clipboard` results. The"
+" CSV export, after it is generated, is made available for download from the "
+"jobs page. For public users who do not have access to the Jobs page, a "
+"notification will be displayed with a direct link to the download when the "
+"export is ready."
+msgstr ""
+"ユーザーは誰でも、:term:`クリップボード`の結果を:term:`CSV`形式でエクスポートすることができます。CSVエクスポートが生成された後、ジョブページからダウンロードできるようになります。ジョブページにアクセスできない一般ユーザーには、エクスポートが準備でき次第、ダウンロードへの直接リンクが表示される通知が表示されます。"
+
+#: ../../user-manual/import-export/csv-export.rst:201
+msgid ""
+"Currently users can export the following :term:`entity` types from the "
+"clipboard in CSV format:"
+msgstr "現在、ユーザーはクリップボードからCSV形式で以下の:term:`エンティティ`タイプをエクスポートできます："
+
+#: ../../user-manual/import-export/csv-export.rst:205
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権威レコード`"
+
+#: ../../user-manual/import-export/csv-export.rst:206
+msgid ":ref:`archival-institutions`"
+msgstr ""
+"`:ref:`archival-institutions`` というテキストは、通常、文書内の特定の参照やセクションを指しているマークアップです。これを日本語にそのまま翻訳することは不適切であり、文脈やその参照が指している具体的なセクションのタイトルが必要です。ただし、もし単にセクションタイトルを日本語に翻訳する場合は、「アーカイバル機関」となるでしょう。それを踏まえて、マークアップを含むように本文を翻訳すると次のようになります。\n"
+"\n"
+"`:ref:`アーカイバル機関``\n"
+"\n"
+"ただし、このマークアップが機能するためには、翻訳された文書が正しい参照リンクを持つシステムで設定されている必要があります。"
+
+#: ../../user-manual/import-export/csv-export.rst:210
+msgid ""
+"You can also perform XML imports from the clipboard. For more information, "
+"see: :ref:`xml-export-clipboard`."
+msgstr ""
+"クリップボードからのXMLインポートも実行できます。詳細については、以下を参照してください: :ref:`xml-export-clipboard`。"
+
+#: ../../user-manual/import-export/csv-export.rst:213
+msgid ""
+"Depending on the settings enabled by an :term:`administrator`, it may also "
+"be possible for users to download :term:`digital objects <digital object>` "
+"associated with archival descriptions from the clipboard. See:"
+msgstr ""
+"設定によっては、:term:`管理者`によって有効化された設定に応じて、ユーザーがクリップボードからアーカイブ記述に関連する:term:`デジタルオブジェクト<digital"
+" object>`をダウンロードできる場合もあります。参照してください："
+
+#: ../../user-manual/import-export/csv-export.rst:217
+#: ../../user-manual/import-export/csv-export.rst:312
+msgid ":ref:`csv-export-clipboard-do`"
+msgstr ""
+":ref:`csv-export-clipboard-do` という参照タグそのものの翻訳は不要です。もしこれが参照先のタイトルである場合、タイトルの内容に応じた適切な日本語タイトルへの翻訳が必要です。しかし、コンテキストが不足しているため、正確な翻訳を提供することはできません。\n"
+"\n"
+"「CSVエクスポートクリップボードへの出力」\n"
+"といった意味合いでタイトルを付けることも考えられますが、正確な訳はドキュメントの内容に依存します。もし更なる明確な指示があれば、それに基づいた翻訳を行うことができます。"
+
+#: ../../user-manual/import-export/csv-export.rst:218
+msgid ":ref:`clipboard-settings`"
+msgstr ":ref:`クリップボード設定`"
+
+#: ../../user-manual/import-export/csv-export.rst:220
+msgid "For general information on managing jobs and using the clipboard, see:"
+msgstr "ジョブの管理とクリップボードの使用に関する一般的な情報については、以下を参照してください："
+
+#: ../../user-manual/import-export/csv-export.rst:225
+msgid ""
+"When downloaded, the file will be compressed in a `ZIP`_ archive - there are"
+" many free utilities (likely there is one already included on your computer)"
+" that will allow you to \"unzip\" a ZIP file."
+msgstr ""
+"ダウンロードされると、ファイルは`ZIP`_アーカイブで圧縮されます - "
+"ZIPファイルを「解凍」することができる無料のユーティリティが多数あります（おそらく、お使いのコンピュータには既に含まれているものがあります）。"
+
+#: ../../user-manual/import-export/csv-export.rst:229
+#: ../../user-manual/import-export/csv-export.rst:265
+msgid "**To generate and download a CSV export of clipboard results:**"
+msgstr "**クリップボードの結果をCSV形式で生成してダウンロードするには：**"
+
+#: ../../user-manual/import-export/csv-export.rst:231
+msgid ""
+"The default descriptive template used by AtoM is ISAD(G) and any exports "
+"from your AtoM instance will use the ISAD(G) template. In this version of "
+"AtoM, users can now select to export their descriptions in RAD format, but "
+"this will need to be configured prior to exporting from the clipboard. To "
+"change the default template in your AtoM instance navigate to the Admin menu"
+" in the top right hand corner and from the drop down menu select 'Settings'"
+msgstr ""
+"AtoMにおけるデフォルトの記述テンプレートはISAD(G)であり、AtoMインスタンスからのあらゆるエクスポートはISAD(G)テンプレートを使用します。このバージョンのAtoMでは、ユーザーは記述をRADフォーマットでエクスポートすることを選択できるようになりましたが、クリップボードからエクスポートする前に設定する必要があります。AtoMインスタンスでデフォルトテンプレートを変更するには、右上隅にある「管理」メニューに移動し、ドロップダウンメニューから「設定」を選択します。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image Admin menu dropdown options."
+msgstr "画像「管理メニュー」のドロップダウンオプション。"
+
+#: ../../user-manual/import-export/csv-export.rst:243
+msgid ""
+"Once you are in the ‘Settings’ menu, on the left hand side, select ‘Default "
+"template’ and there you will find three options: Archival description, "
+"Authority record and Archival institutions. Go to the ‘Archival description’"
+" and from the dropdown menu select: ‘RAD, July 2008 version. Canadian "
+"Council of Archives’:"
+msgstr ""
+"「設定」メニューに入ったら、左側にある「デフォルトテンプレート」を選択し、そこには「アーカイブ記述」、「権威記録」、「アーカイブ機関」という3つのオプションがあります。それから「アーカイブ記述」に進み、ドロップダウンメニューから「RAD,"
+" 2008年7月バージョン。カナダのアーカイブ評議会」を選択してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image of the dropdown menue description template options."
+msgstr "ドロップダウンメニューの説明テンプレートオプションの画像。"
+
+#: ../../user-manual/import-export/csv-export.rst:253
+msgid ""
+"Once the selection has been made hit ‘Save’ and then when material is "
+"exported from the Clipboard or when the export function is used, the related"
+" csv exports will have a ``rad_`` prefix to indicate that the csv fields "
+"will conform with RAD."
+msgstr ""
+"選択が完了したら、「保存」をクリックし、クリップボードから資料がエクスポートされる際やエクスポート機能が使用される際には、関連するcsvエクスポートには、csvフィールドがRADに準拠することを示すために``rad_``プレフィックスが付けられます。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image of an export in RAD in a local environment."
+msgstr "ローカル環境でのRADにおけるエクスポートのイメージ。"
+
+#: ../../user-manual/import-export/csv-export.rst:262
+msgid ""
+"Once you have configured your instance then your description and your "
+"exports will use the RAD description template."
+msgstr "インスタンスを設定したら、記述とエクスポートにはRAD記述テンプレートが使用されます。"
+
+#: ../../user-manual/import-export/csv-export.rst:267
+msgid ""
+"You should first ensure that you have the results you would like to export "
+"already pinned to the Clipboard. For more information on using AtoM's "
+"Clipboard module, see: :ref:`clipboard`."
+msgstr ""
+"まず、エクスポートしたい結果をクリップボードにピン留めしていることを確認してください。AtoMのクリップボードモジュールの使用についての詳細は、次を参照してください:"
+" :ref:`clipboard`。"
+
+#: ../../user-manual/import-export/csv-export.rst:271
+msgid ""
+"Navigate to the :ref:`clipboard` page. You can get there via the |clip| "
+"**Clipboard** menu in the AtoM :term:`header bar` - open the menu, and "
+"select \"Go to Clipboard\"."
+msgstr ""
+":ref:`クリップボード`ページに移動します。AtoMの:term:`ヘッダーバー`にある |clip| **クリップボード** "
+"メニューから移動できます。メニューを開き、「クリップボードに移動」を選択してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:16
+msgid "clip"
+msgstr "申し訳ありませんが、ご依頼されたテキストが提供されていません。翻訳したいテキストを提供していただければ、日本語に翻訳いたします。"
+
+#: ../../user-manual/import-export/csv-export.rst:275
+msgid ""
+"AtoM will redirect you to the Clipboard page. Above the Clipboard results, "
+"there is a :term:`drop-down menu` that will allow you to change the "
+":term:`entity` type of the records being displayed. When you arrive, by "
+"default :term:`archival description` results will be shown, but you can use "
+"this menu to change the display to see other results. Make sure the record "
+"type you want to export is currently being displayed on the clipboard."
+msgstr ""
+"AtoMは、あなたをクリップボードページにリダイレクトします。クリップボードの結果の上には、表示されているレコードの:term:`entity`タイプを変更できる:term:`ドロップダウンメニュー`があります。ページに到着した時点では、デフォルトで:term:`アーカイブ記述`の結果が表示されますが、このメニューを使用して、他の結果の表示に変更できます。エクスポートしたいレコードタイプがクリップボード上に現在表示されていることを確認してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image of the Clipboard with results."
+msgstr "クリップボードに結果が表示された画像。"
+
+#: ../../user-manual/import-export/csv-export.rst:287
+msgid ""
+"Click on the \"Export\" link in the :term:`button block` at the bottom of "
+"the page."
+msgstr "ページ下部の :term:`button block` にある「エクスポート」リンクをクリックしてください。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An image of the button block on the Clipboard page"
+msgstr "クリップボードページにあるボタンブロックの画像"
+
+#: ../../user-manual/import-export/csv-export.rst:295
+msgid ""
+"AtoM will redirect you to a page where you can configure your export. Make "
+"sure the Format :term:`drop-down menu` is set to \"CSV\"."
+msgstr ""
+"AtoMは、エクスポートを設定できるページにリダイレクトします。フォーマットの:term:`ドロップダウンメニュー`が「CSV」に設定されていることを確認してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:298
+msgid ""
+"An :term:`archival description` CSV export will include additional "
+"configuration options. Public users can select whether only the current "
+"description should be exported or all descendants (i.e. lower-level "
+"records)."
+msgstr ""
+"アーカイブ記述のCSVエクスポートには、追加の設定オプションが含まれます。一般ユーザーは、現在の記述のみをエクスポートするか、あるいは全ての子孫（すなわち、下位レベルの記録）をエクスポートするかを選択することができます。"
+
+#: ../../user-manual/import-export/csv-export.rst:305
+msgid ""
+"AtoM also includes a setting that an :term:`administrator` can enable that "
+"will add an additional export configuration option to the clipboard, "
+"allowing users to download :term:`digital objects <digital object>` that are"
+" associated with :term:`archival descriptions <archival description>`."
+msgstr ""
+"AtoMには、管理者が有効にすることができる設定があり、それによってクリップボードに追加のエクスポート設定オプションが追加され、ユーザーはアーカイブ記述に関連付けられているデジタルオブジェクトをダウンロードすることができます。"
+
+#: ../../user-manual/import-export/csv-export.rst:310
+msgid "For more information, see below:"
+msgstr "詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/csv-export.rst:314
+msgid ""
+"If you want to include lower levels of description in your clipboard export,"
+" click the checkbox marked \"Include descendants\"."
+msgstr "あなたがクリップボードエクスポートにより詳細な記述レベルを含めたい場合は、「子孫を含む」のチェックボックスをクリックしてください。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "Configuration options for archival description CSV exports"
+msgstr "アーカイブ記述CSVエクスポートのための設定オプション"
+
+#: ../../user-manual/import-export/csv-export.rst:322
+msgid ""
+"Once checked, the checkbox to \"Include all levels of description\" will "
+"become available, and will be automatically checked. If you want all lower-"
+"level records to be included in the export, then leave this box checked. "
+"However, if desired, you can uncheck this box and select only the levels of "
+"description you want included in the export. To do so, first uncheck the box"
+" labelled \"Include all levels of description.\""
+msgstr ""
+"チェックが入った状態で、「説明の全レベルを含む」のチェックボックスが利用可能になり、自動的にチェックが入ります。エクスポートにすべての下位レベルのレコードを含めたい場合は、このボックスをチェックしたままにしてください。しかし、必要に応じて、このボックスのチェックを外してエクスポートに含めたい説明のレベルだけを選択することができます。そのためには、まず「説明の全レベルを含む」とラベル付けられたボックスのチェックを外してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:329
+msgid ""
+"AtoM will then display a list of all levels of description from the Levels "
+"of description :term:`taxonomy`. You can use your Control (Mac users: "
+"Command) and Shift keys to multi-select the levels you want included in the "
+"export."
+msgstr ""
+"その後、AtoMは「記述レベル:term:`タクソノミー`」からすべての記述レベルのリストを表示します。コントロールキー（Macユーザーの場合はコマンドキー）とシフトキーを使用して、エクスポートに含めたいレベルを複数選択できます。"
+
+#: ../../user-manual/import-export/csv-export.rst:339
+msgid ""
+"Finally, authenticated (i.e. logged in) users will also have the option to "
+"include :term:`draft <draft record>` records in the export. To include "
+"drafts, make sure that the \"Include drafts\" checkbox is selected."
+msgstr ""
+"最後に、認証された（つまりログインした）ユーザーは、エクスポートに :term:`ドラフト <draft record>` "
+"レコードを含めるオプションも利用できます。ドラフトを含めるには、「ドラフトを含める」チェックボックスが選択されていることを確認してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:345
+msgid ""
+"If you are selecting only certain levels of description for export, then "
+"descriptions that are descendants of levels not included in the export will "
+"**also** be excluded!"
+msgstr ""
+"ある特定の記述レベルのみをエクスポートするために選択している場合、エクスポートに含まれていないレベルの子孫にあたる記述も**同様に**除外されます！"
+
+#: ../../user-manual/import-export/csv-export.rst:349
+msgid ""
+"For example, let's say you want to export a :term:`collection` that has a "
+"child series, and the series has several child item-level descriptions. If "
+"you do not include \"series\" as a level of description, then the child "
+"items will also not be included in the exported CSV."
+msgstr ""
+"たとえば、子シリーズを持ち、そのシリーズにいくつかの子アイテムレベルの記述がある :term:`コレクション` "
+"をエクスポートしたいとします。もし「シリーズ」という記述レベルを含めなければ、子アイテムもエクスポートされるCSVに含まれなくなります。"
+
+#: ../../user-manual/import-export/csv-export.rst:354
+msgid ""
+"Once you have configured your export options, click the \"Export\" button in"
+" the :term:`button block` at the bottom of the page."
+msgstr ""
+"エクスポートオプションを設定したら、ページ下部の:term:`button block`にある「エクスポート」ボタンをクリックしてください。"
+
+#: ../../user-manual/import-export/csv-export.rst:357
+msgid ""
+"The CSV export of the clipboard results will be generated by the job "
+"scheduler. After clicking the \"Export\" button, AtoM will reload the page "
+"with a notification about the job at the top."
+msgstr ""
+"クリップボードの結果のCSVエクスポートは、ジョブスケジューラによって生成されます。\"エクスポート\"ボタンをクリックすると、AtoMはジョブに関する通知がページの上部に表示されるようにページを再読み込みします。"
+
+#: ../../user-manual/import-export/csv-export.rst:361
+msgid ""
+"For **authenticated users**, this will include a link to the :ref:`Jobs "
+"<manage-jobs>` page, where you can review the status of the export job, and "
+"download the ZIP file containing your CSV export when it is complete. Click "
+"on the link in the notification to go to the Jobs page."
+msgstr ""
+"**認証済みユーザー**の場合、エクスポートのジョブ状況を確認し、CSVエクスポートが完了した際にZIPファイルをダウンロードすることができる「:ref:`ジョブ管理"
+" <manage-jobs>`」ページへのリンクが含まれます。通知内のリンクをクリックしてジョブページにアクセスしてください。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "The notification message for authenticated users performing an export"
+msgstr "認証されたユーザーがエクスポートを行う際の通知メッセージ"
+
+#: ../../user-manual/import-export/csv-export.rst:371
+msgid ""
+"Authenticated users will be able to see in their exports a **slug** column "
+"which is a new feature in this release. This will help authenticated users "
+"with updating of digital object and descriptions."
+msgstr ""
+"認証されたユーザーは、エクスポートで新機能として追加された**スラッグ**列を確認できるようになります。これにより、認証されたユーザーはデジタルオブジェクトや記述の更新が容易になります。"
+
+#: ../../user-manual/import-export/csv-export.rst:375
+msgid ""
+"For **public users**, first a notification that the job has been initiated "
+"will be displayed, with a link that will refresh the page to see if there "
+"are updates. Users can use the **X** icon on the right of the notification "
+"to remove it. You can now navigate elsewhere in the application - another "
+"notification will be provided when the export is complete and ready for "
+"download."
+msgstr ""
+"**一般ユーザー**に対しては、まず作業が開始されたことを示す通知が表示され、更新内容を確認するためにページをリフレッシュするリンクが提供されます。ユーザーは通知の右側にある**X**アイコンを使って、それを消去できます。他の箇所へとアプリケーション内でナビゲートすることができるようになりました"
+" - エクスポートが完了し、ダウンロードの準備が整った時点で、別の通知が行われます。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "The first notification message for public users performing an export"
+msgstr "公共ユーザーがエクスポートを行う際の最初の通知メッセージ"
+
+#: ../../user-manual/import-export/csv-export.rst:387
+msgid ""
+"Once the export job has completed, AtoM will display another notification "
+"that includes a download link the next time the page is refreshed. Click the"
+" Download link to download the export."
+msgstr ""
+"エクスポートジョブが完了すると、ページが次に更新されたときにAtoMはダウンロードリンクが含まれた別の通知を表示します。エクスポートをダウンロードするには、ダウンロードリンクをクリックしてください。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid ""
+"The second notification message for public users performing an\n"
+"export"
+msgstr "公共ユーザーがエクスポートを行う際の二度目の通知メッセージ"
+
+#: ../../user-manual/import-export/csv-export.rst:397
+msgid ""
+"For public users, the download notification will remain visible as you "
+"navigate around AtoM until you click the \"**X**\" to remove the "
+"notifcation."
+msgstr ""
+"公開ユーザーの場合、通知を削除するために「**X**」をクリックするまで、AtoM内をナビゲートしている間、ダウンロード通知が表示され続けます。"
+
+#: ../../user-manual/import-export/csv-export.rst:400
+msgid ""
+"On the jobs page, authenticated users will find information about the export"
+" job, including a download link when the task is done. Check the \"Job "
+"status\" column - if it says \"Completed,\" then the job has successfully "
+"finished and you can now download your CSV. If it says \"Running,\" then the"
+" task is still being executed - try refreshing the page in a moment for an "
+"updated status. If the Job status column says \"Error,\" then the CSV export"
+" has failed for some reason - talk to your system administrator for "
+"assistance. See the :ref:`manage-jobs` page for more information."
+msgstr ""
+"ジョブページでは、認証済みユーザーはエクスポートジョブに関する情報を見ることができます。タスクが完了したときにはダウンロードリンクも含まれます。「ジョブステータス」列を確認してください"
+" - "
+"「完了」と表示されていれば、ジョブは正常に終了したことを意味し、CSVファイルをダウンロードすることができます。「実行中」と表示されている場合は、タスクがまだ実行されている状態です"
+" - "
+"ステータスが更新されるように、しばらくしてからページを更新してください。「エラー」とジョブステータス列に表示された場合は、なんらかの理由でCSVエクスポートが失敗したことを意味します。支援が必要な場合はシステム管理者に相談してください。詳細については、`:ref:`manage-"
+"jobs` ページをご覧ください。"
+
+#: ../../user-manual/import-export/csv-export.rst:430
+msgid "Including digital objects in a clipboard CSV export"
+msgstr "クリップボードのCSVエクスポートにデジタルオブジェクトを含める"
+
+#: ../../user-manual/import-export/csv-export.rst:432
+msgid ""
+"Some AtoM sites are :ref:`configured <clipboard-settings>` to enable users "
+"to include attached digital objects when exporting archival descriptions "
+"from the clipboard. In this case, the Export options screen will include a "
+"checkbox for \"Include digital objects\"."
+msgstr ""
+"一部のAtoMサイトは、クリップボードからアーカイブ記述をエクスポートする際に、関連付けられたデジタルオブジェクトを含めるように :ref:`設定 "
+"<clipboard-settings>` "
+"されています。この場合、エクスポートオプション画面には「デジタルオブジェクトを含める」のチェックボックスが含まれています。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "Export options with include digital objects selected"
+msgstr "選択したデジタルオブジェクトを含むエクスポートオプション"
+
+#: ../../user-manual/import-export/csv-export.rst:442
+msgid ""
+"If digital objects are included in the export, they will be contained in the"
+" same ZIP package as the CSV files."
+msgstr "デジタルオブジェクトがエクスポートに含まれている場合、それらはCSVファイルと同じZIPパッケージの中に格納されます。"
+
+#: ../../user-manual/import-export/csv-export.rst:445
+msgid ""
+"Note that if the \"Include digital objects\" checkbox is checked, it is no "
+"longer possible to include descendants in the export, and the \"Include "
+"descendents\" checkbox will be greyed out. This means you will need to "
+"individually add the descriptions with digital objects to the clipboard if "
+"you want to export them, rather than just adding a parent description."
+msgstr ""
+"「デジタルオブジェクトを含める」チェックボックスが選択されている場合、輸出に子孫を含めることはできなくなり、「子孫を含める」チェックボックスはグレーアウトされます。つまり、親の説明を追加するだけではなく、輸出したいデジタルオブジェクトがある説明をクリップボードに個別に追加する必要があるということです。"
+
+#: ../../user-manual/import-export/csv-export.rst:453
+msgid ":ref:`clipboard-do-export-setting` (Clipboard settings)"
+msgstr ":ref:`クリップボード-エクスポート-セッティング`（クリップボードの設定）"
+
+#: ../../user-manual/import-export/csv-export.rst:454
+msgid ":ref:`xml-export-clipboard-do`"
+msgstr ""
+"このテキストは、ドキュメント内で使用される特定の参照マークアップを示しています。通常、reStructuredText (reST) 形式のドキュメントで使用される、セクションやページを参照するためのラベルです。一般的な文章として直訳すると意味が通じないため、コンテキストが不足していますが、ドキュメント内の特定のセクションや機能を指すラベルであることが推測されます。\n"
+"\n"
+"ただし、実際の翻訳作業においては、ドキュメントの他の部分との関連や、この参照がどのように使用されているかを理解する必要があります。この情報がなければ、正確な翻訳はできません。以下は、一般的な日本語訳の一例ですが、特定のArchivematicaドキュメントのコンテキストに沿った正確な翻訳ではない点にご注意ください。\n"
+"\n"
+"「xml-export-clipboard-do の参照」\n"
+"\n"
+"実際のドキュメントでこのラベルが指している内容に基づいて、それに適切な日本語表現を選ぶ必要があります。"
+
+#: ../../user-manual/import-export/csv-export.rst:455
+msgid ":ref:`tools-expire` (command-line task)"
+msgstr ":ref:`tools-expire`（コマンドラインタスク）"
+
+#: ../../user-manual/import-export/csv-export.rst:462
+msgid "Export completed jobs in CSV format"
+msgstr "完了したジョブをCSV形式でエクスポート"
+
+#: ../../user-manual/import-export/csv-export.rst:464
+msgid ""
+"AtoM includes a job scheduler in order to execute certain long-running tasks"
+" asynchronously to guarantee that web requests are handled promptly and work"
+" loads can be distributed across multiple machines. This ensures time and/or"
+" resource-intensive tasks do not timeout when running via the web browser. "
+"For more information see, :ref:`manage-jobs`."
+msgstr ""
+"AtoMには、ジョブスケジューラが含まれており、特定の長時間実行されるタスクを非同期に実行することで、ウェブリクエストが迅速に処理され、作業負荷が複数のマシンに配分されることを保証します。これにより、ウェブブラウザ経由で実行する際に、時間と/またはリソース集中的なタスクがタイムアウトすることがありません。詳細については、:ref:`manage-"
+"jobs`を参照してください。"
+
+#: ../../user-manual/import-export/csv-export.rst:470
+msgid ""
+"In case users would like to clear completed jobs but keep a record outside "
+"of AtoM of previous jobs performed, a :term:`CSV` export of the Jobs table "
+"is available. Like the display table in the :term:`user interface`, the "
+"output contains columns for startDate, endDate, jobName, jobStatus, jobInfo,"
+" and jobUser."
+msgstr ""
+"ユーザーが完了したジョブをクリアしながら以前に実行したジョブの記録をAtoMの外部に保持したい場合、ジョブテーブルの:term:`CSV`エクスポートが利用可能です。:term:`ユーザーインターフェース`の表示テーブルと同様に、出力にはstartDate、endDate、jobName、jobStatus、jobInfo、jobUserの各列が含まれます。"
+
+#: ../../user-manual/import-export/csv-export.rst:-1
+msgid "An example image of the Jobs page CSV export"
+msgstr "ジョブページのCSVエクスポートのサンプル画像"
+
+#: ../../user-manual/import-export/csv-export.rst:481
+msgid ""
+"Simply navigate to the jobs page via |pencil| **Manage > Jobs**, and then "
+"click the \"Export history CSV\" button located in the :term:`button block` "
+"on the page. All jobs currently listed on the Jobs page will be included in "
+"the export."
+msgstr ""
+"ジョブページに移動するには、|pencil| **管理 > ジョブ** を選択し、ページ上の :term:`button block` "
+"に位置する「Export history "
+"CSV」ボタンをクリックしてください。ジョブページに現在リストされているすべてのジョブがエクスポートに含まれます。"
+
+#: ../../user-manual/import-export/csv-export.rst:13
+msgid "pencil"
+msgstr "鉛筆"
+
+#: ../../user-manual/import-export/csv-export.rst:488
+msgid ""
+"Only an :term:`administrator` can see all jobs initiated by all users in the"
+" system. Other users can only see jobs that they themselves have initiated -"
+" and will only be able to export a CSV of their own jobs. See the "
+":ref:`manage-jobs` page for more information on using the Jobs page."
+msgstr ""
+"システム内のすべてのユーザーが開始した全てのジョブを閲覧できるのは:term:`管理者`のみです。他のユーザーは自分自身が開始したジョブのみを閲覧でき、自分のジョブのCSVをエクスポートすることのみ可能です。ジョブページの使用方法についての詳細は、:ref:`manage-"
+"jobs` ページをご覧ください。"

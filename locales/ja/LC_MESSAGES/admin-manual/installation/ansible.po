@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/installation/ansible.rst:5
+msgid "Advanced configuration using Ansible"
+msgstr "Ansibleを使用した高度な設定"
+
+#: ../../admin-manual/installation/ansible.rst:7
+msgid ""
+"It is common to see high-demand scenarios where AtoM needs to be deployed in"
+" clusters composed by many machines. When this is necessary, it is "
+"convenient to employ configuration management tools like Chef, Puppet or "
+"Ansible in order to automate most of the processes involved."
+msgstr ""
+"高需要シナリオでは、多くのマシンで構成されたクラスター内にAtoMをデプロイすることがよくあります。このような状況が必要な場合、Chef、Puppet、Ansibleのような設定管理ツールを用いることで、関連するプロセスのほとんどを自動化することが望ましいです。"
+
+#: ../../admin-manual/installation/ansible.rst:12
+msgid ""
+"Ansible is our preferred choice because of its simplicity. Artefactual "
+"maintains a number of Ansible roles that will enable you to compose complex "
+"distributed environments. These roles could as well be used against a single"
+" server, in fact our Vagrant box is built using these Ansible roles."
+msgstr ""
+"Ansibleはそのシンプルさのために、私たちが好む選択肢です。Artefactualは、複雑な分散環境を構成するために使える多数のAnsibleロールを維持しています。これらのロールは、単一サーバーに対しても使用できます。実際、私たちのVagrantボックスはこれらのAnsibleロールを使用して構築されています。"
+
+#: ../../admin-manual/installation/ansible.rst:17
+msgid "We've built an example on how to deploy AtoM:"
+msgstr "AtoMのデプロイ方法に関する例を作成しました。"
+
+#: ../../admin-manual/installation/ansible.rst:19
+msgid ""
+"`AtoM + Ubuntu 20.04 (focal) <https://github.com/artefactual/deploy-"
+"pub/tree/master/playbooks/atom-focal>`_"
+msgstr ""
+"`AtoM + Ubuntu 20.04 (focal) <https://github.com/artefactual/deploy-pub/tree/master/playbooks/atom-focal>`_\n"
+"\n"
+"の部分を日本語に翻訳すると、\n"
+"\n"
+"`AtoM + Ubuntu 20.04 (フォーカル) <https://github.com/artefactual/deploy-pub/tree/master/playbooks/atom-focal>`_\n"
+"\n"
+"となります。なお、AtoMは特定のソフトウェア名なので、そのまま残し、Ubuntu 20.04のコードネーム \"focal\" はカタカナで表記しました。また、リンクはそのまま残してあります。"
+
+#: ../../admin-manual/installation/ansible.rst:21
+msgid ""
+"These examples use Vagrant to provision virtual machines. This is useful "
+"during the experimentation phase so you don't have to worry about the costs "
+"of hosting virtual machines in a provider. You could also create a new "
+"Vagrant setup where many virtual machines are involved. Check out `Vagrant's"
+" docs <https://www.vagrantup.com/docs/multi-machine/>`_."
+msgstr ""
+"これらの例では、Vagrantを使用して仮想マシンをプロビジョニングします。これは実験フェーズ中において便利です。なぜなら、プロバイダーで仮想マシンをホストするコストを心配する必要がないからです。また、多数の仮想マシンが関わる新しいVagrantセットアップを作成することもできます。`Vagrantのドキュメント"
+" <https://www.vagrantup.com/docs/multi-machine/>`_ をチェックしてみてください。"
+
+#: ../../admin-manual/installation/ansible.rst:26
+msgid ""
+"However, the same playbooks will scale well to more complex scenarios where "
+"many machines are involved."
+msgstr "しかし、同じプレイブックは、多数のマシンが関わるより複雑なシナリオにもうまくスケールアップします。"
+
+#: ../../admin-manual/installation/ansible.rst:37
+#, python-format
+msgid ""
+"Ryerson University Library & Archives leads the development of a similar "
+"solution targetting Chef. `Their repositories are open source "
+"<https://github.com/ryersonlibrary?utf8=%E2%9C%93&query=atom>`_."
+msgstr ""
+"ライアーソン大学図書館＆アーカイブズは、Chefを対象とした同様のソリューションの開発を主導しています。`彼らのリポジトリはオープンソースです "
+"<https://github.com/ryersonlibrary?utf8=%E2%9C%93&query=atom>`_。"

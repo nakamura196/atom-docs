@@ -1,0 +1,2733 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/access-content/search-atom.rst:5
+msgid "Search"
+msgstr "検索"
+
+#: ../../user-manual/access-content/search-atom.rst:44
+msgid ""
+"To help users locate and manage content, AtoM includes powerful search "
+"support, available anywhere in the application through the :term:`search "
+"box` located in the AtoM :term:`header bar`, or through one of the many "
+"dedicated search boxes for specific :term:`entities <entity>` or record "
+"types. AtoM uses `Elasticsearch <http://www.elasticsearch.org/>`__ to power "
+"its search functionality - Elasticsearch is an open source distributed "
+"search server based on Apache Lucene, which acts as AtoM's search and "
+"analytic engine."
+msgstr ""
+"ユーザーがコンテンツを見つけて管理するのを助けるために、AtoMには強力な検索サポートが含まれており、AtoMの :term:`ヘッダーバー` にある "
+":term:`検索ボックス` を通じて、または特定の :term:`エンティティ <entity>` "
+"や記録タイプ専用の多くの検索ボックスを通じて、アプリケーション内のどこからでも利用可能です。 "
+"AtoMの検索機能を提供するために、`Elasticsearch <http://www.elasticsearch.org/>`__ を使用しています"
+" - Elasticsearchは、Apache "
+"Luceneに基づくオープンソースの分散検索サーバーであり、AtoMの検索および分析エンジンとして機能します。"
+
+#: ../../user-manual/access-content/search-atom.rst:52
+msgid ""
+"This section of the User Manual will cover the features available in the "
+":term:`search box` (including faceted typeahead results, institutional "
+"search box delimiters, and filter tags), and it will walk users through how "
+"to search for archival descriptions. Additionally, an outline of each of the"
+" dedicated search bars available throughout the application is provided, "
+"with instructions on how to search for different record types in each."
+msgstr ""
+"このユーザーマニュアルのセクションでは、検索ボックスに利用可能な機能（ファセットタイプアヘッド結果、機関別検索ボックス区切り、フィルタータグを含む）について説明し、アーカイブ記述を検索する方法をユーザーに順を追って説明します。さらに、アプリケーション全体で利用できる専用の検索バーの概要と、それぞれで異なるレコードタイプを検索する方法の指示が提供されています。"
+
+#: ../../user-manual/access-content/search-atom.rst:59
+msgid ""
+"For more information on how the search in AtoM is configured, see "
+":ref:`advanced-search` - specifically, see: :ref:`advanced-search-via-"
+"searchbox`."
+msgstr ""
+"AtoMでの検索がどのように設定されているかの詳細については、:ref:`advanced-search` "
+"を参照してください。特に、:ref:`advanced-search-via-searchbox` を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:63
+msgid "**Below you will find an overview of:**"
+msgstr "**以下に、以下の概要を見つけることができます：**"
+
+#: ../../user-manual/access-content/search-atom.rst:65
+msgid ":ref:`atom-search-box`"
+msgstr ""
+":ref:`atom-search-box` (この参照タグは、特定のドキュメント内の「atom-search-"
+"box」というセクションまたはラベルを指し示すものであり、文章として翻訳するものではありません。この参照は他のコンテキスト、たとえばArchivematicaのユーザーマニュアル内で具体的な場所を指し示すために使用されます。翻訳が必要であれば、指し示されるセクションのタイトルが必要ですが、そのような情報は提供されていません。)"
+
+#: ../../user-manual/access-content/search-atom.rst:67
+#: ../../user-manual/access-content/search-atom.rst:117
+msgid ":ref:`search-typeahead`"
+msgstr ""
+"`:ref:`search-typeahead`` というマークアップは、特定のドキュメント生成ツールやウェブフレームワークで利用される参照ラベルです。そのため、この部分は直接的な対応する日本語訳を提供するというよりは、状況に応じて適切にローカライズする必要があります。具体的には、参照している部分が「タイプアヘッド検索」機能のドキュメントなので、それに言及している可能性が高いです。\n"
+"\n"
+"日本語でローカライズされたドキュメントに記載する場合は、以下のように参照部分を示すことができます:\n"
+"\n"
+"「タイプアヘッド検索については、こちらを参照してください。」\n"
+"\n"
+"ただし、実際の翻訳の際には、ドキュメントが使われるプラットフォームやツールのローカライゼーションの標準やガイドラインに従って、適切に参照リンクを設定する必要があります。上記のテキストは、参照リンクの設定方法やドキュメントの文脈により調整する必要があるかもしれません。"
+
+#: ../../user-manual/access-content/search-atom.rst:68
+#: ../../user-manual/access-content/search-atom.rst:118
+msgid ":ref:`search-box-delimiters`"
+msgstr ": ref: `検索ボックスの区切り文字`"
+
+#: ../../user-manual/access-content/search-atom.rst:69
+#: ../../user-manual/access-content/search-atom.rst:119
+msgid ":ref:`search-results-facets`"
+msgstr ":ref:`検索結果のファセット`"
+
+#: ../../user-manual/access-content/search-atom.rst:71
+msgid ":ref:`search-archival-descriptions`"
+msgstr "`アーカイバル記述の検索`"
+
+#: ../../user-manual/access-content/search-atom.rst:72
+msgid ":ref:`dedicated-search`"
+msgstr "`:ref:`専用検索``"
+
+#: ../../user-manual/access-content/search-atom.rst:74
+#: ../../user-manual/access-content/search-atom.rst:652
+msgid ":ref:`dedicated-search-authority`"
+msgstr ":ref:`専用検索権限`"
+
+#: ../../user-manual/access-content/search-atom.rst:75
+#: ../../user-manual/access-content/search-atom.rst:653
+msgid ":ref:`dedicated-search-accessions`"
+msgstr ""
+"このテキストは、Archivematicaというドキュメンテーション内の特定の参照を指しているようですが、その参照は恐らく「専用の検索エンジンを用いたアクセッションに関するセクション」を意味している可能性があります。ただし、完全なコンテキストが欠けているために正確な訳出が困難です。しかし、可能性のある訳として以下のように翻訳できます。\n"
+"\n"
+":ref:`専用の検索-アクセッション`\n"
+"\n"
+"この場合、文書内の特定の箇所へのリンクとなることが予想されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:76
+#: ../../user-manual/access-content/search-atom.rst:654
+msgid ":ref:`dedicated-search-institutions`"
+msgstr ":ref:`専用の検索機関`"
+
+#: ../../user-manual/access-content/search-atom.rst:77
+#: ../../user-manual/access-content/search-atom.rst:655
+msgid ":ref:`dedicated-search-terms`"
+msgstr ":ref:`専用検索用語`"
+
+#: ../../user-manual/access-content/search-atom.rst:78
+#: ../../user-manual/access-content/search-atom.rst:656
+msgid ":ref:`dedicated-search-donors`"
+msgstr "専用検索: 寄贈者"
+
+#: ../../user-manual/access-content/search-atom.rst:79
+#: ../../user-manual/access-content/search-atom.rst:657
+msgid ":ref:`dedicated-search-rights`"
+msgstr ""
+"`:ref:` 専用検索権限 ``\n"
+"(訳注: これはドキュメント内の参照リンクのテキストです。正確な訳出にはそのリンクが指している内容のコンテキストが必要ですが、その情報がないため、仮に「専用検索権限」と訳しておきます。実際には、ドキュメント内で定義された適切なタイトルやセクション名に置き換える必要があります。)"
+
+#: ../../user-manual/access-content/search-atom.rst:80
+#: ../../user-manual/access-content/search-atom.rst:658
+msgid ":ref:`dedicated-search-functions`"
+msgstr ":ref:`専用の検索機能`"
+
+#: ../../user-manual/access-content/search-atom.rst:81
+#: ../../user-manual/access-content/search-atom.rst:659
+msgid ":ref:`dedicated-search-users`"
+msgstr ":ref:`専用検索ユーザー`"
+
+#: ../../user-manual/access-content/search-atom.rst:82
+#: ../../user-manual/access-content/search-atom.rst:660
+msgid ":ref:`dedicated-search-storage`"
+msgstr ":ref:`専用検索用ストレージ`"
+
+#: ../../user-manual/access-content/search-atom.rst:86
+msgid ":ref:`Advanced search <advanced-search>`"
+msgstr ":ref:`高度な検索 <advanced-search>`"
+
+#: ../../user-manual/access-content/search-atom.rst:87
+msgid ":ref:`navigate`"
+msgstr ":ref:`ナビゲート`"
+
+#: ../../user-manual/access-content/search-atom.rst:88
+#: ../../user-manual/access-content/search-atom.rst:124
+msgid ":ref:`recurring-page-elements`"
+msgstr ":ref:`定期的なページ要素`"
+
+#: ../../user-manual/access-content/search-atom.rst:89
+#: ../../user-manual/access-content/search-atom.rst:123
+msgid ":ref:`browse-result-limits`"
+msgstr ""
+"`:ref:`browse-result-limits` ` の部分は、特定の参照ラベルまたはアンカーリンクの一部を示しています。もしドキュメントがSphinx や RST（reStructuredText）フォーマットで書かれている場合、これは特定のセクションまたはタイトルへの内部リンクになります。翻訳する際には、ドキュメントの構造とリンクとが正しく機能し続けるために、元のリンクの参照名（ここでは `browse-result-limits`）をそのまま残す必要があります。\n"
+"\n"
+"翻訳は次のようになるでしょう：\n"
+"\n"
+":ref:`ブラウズ結果の制限 <browse-result-limits>` \n"
+"\n"
+"注: 実際の翻訳にはドキュメント内のコンテキストが必要ですが、`browse-result-limits` は「ブラウズ結果の制限」と訳される可能性が高いと仮定しています。オリジナルの参照名は変更せずに保持してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:94
+msgid "The AtoM Search box |searchbox|"
+msgstr "AtoMの検索ボックス |searchbox|"
+
+#: ../../user-manual/access-content/search-atom.rst:96
+msgid "searchbox"
+msgstr "検索ボックス"
+
+#: ../../user-manual/access-content/search-atom.rst:99
+msgid ""
+"The search box is the primary means to find descriptions in AtoM that "
+"contain text matching a search query. The search box is located in the "
+":term:`header bar` on all AtoM pages, including the home page. By default, "
+"when a user enters text and presses enter, the results returned are for "
+":term:`archival descriptions <archival description>`. However, other record-"
+"type results can be discovered via the :term:`typeahead` results presented "
+"in the search box (see: :ref:`below <search-typeahead>`)."
+msgstr ""
+"検索ボックスは、検索クエリにマッチするテキストを含むAtoMの記述を見つけるための主要な手段です。この検索ボックスは、ホームページを含むすべてのAtoMページの`:term:`ヘッダーバー`に配置されています。デフォルトでは、ユーザーがテキストを入力してエンターキーを押すと、返される結果は`:term:`アーカイバル記述"
+" <archival "
+"description>`に関するものです。しかし、その他のレコードタイプの結果も、検索ボックスに表示される`:term:`タイプアヘッド`の結果を通じて発見することができます（参照：`:ref:`以下"
+" <search-typeahead>`）。"
+
+#: ../../user-manual/access-content/search-atom.rst:107
+msgid ""
+"Search terms entered in the search box are, by default, searched with an "
+"\"AND\" operator - that is to say, searching for ``kitty cat`` would by "
+"default search ``kitty AND cat``. AtoM supports a number of :term:`Boolean "
+"<boolean search>` operators - see: :ref:`Advanced search <advanced-search>`,"
+" specifically:"
+msgstr ""
+"検索ボックスに入力された検索用語は、デフォルトで「AND」オペレーターを使って検索されます。つまり、「kitty "
+"cat」と検索するとデフォルトでは「kitty AND cat」と検索されます。「:term:`Boolean <boolean "
+"search>`オペレーター」を多数サポートしています。詳しくは「:ref:`高度な検索 <advanced-search>`」を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:112
+msgid ":ref:`advanced-search-via-searchbox`"
+msgstr ":ref:`高度な検索-検索ボックス経由`"
+
+#: ../../user-manual/access-content/search-atom.rst:113
+msgid ":ref:`advanced-search-operators`"
+msgstr ":ref:`高度な検索演算子`"
+
+#: ../../user-manual/access-content/search-atom.rst:115
+msgid "**Jump to:**"
+msgstr "**移動先：**"
+
+#: ../../user-manual/access-content/search-atom.rst:129
+msgid "Typeahead and faceted search box results"
+msgstr "タイプアヘッドとファセット検索ボックスの結果"
+
+#: ../../user-manual/access-content/search-atom.rst:137
+msgid "Example of the typeahead in the search box"
+msgstr "検索ボックスでのタイプアヘッドの例"
+
+#: ../../user-manual/access-content/search-atom.rst:137
+msgid ""
+"As a user types, typeahead search suggestions appear below the search box."
+msgstr "ユーザーが入力すると、検索ボックスの下にタイプアヘッド検索の提案が表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:139
+msgid ""
+"Additionally, the AtoM search box also implements :term:`typeahead` - as a "
+"user enters text into the search box, one or more possible matches are found"
+" and presented to the user in a :term:`drop-down <drop-down menu>` below the"
+" search box, which continue to narrow as the user enters further text. This "
+"allows a user to dynamically view results and select a resource without "
+"necessarily having to enter its full name or title. The search box "
+":term:`typeahead` results are organized into record-type categories (or "
+":term:`facets <facet filter>`), including:"
+msgstr ""
+"さらに、AtoMの検索ボックスには「タイプアヘッド」機能が実装されています。ユーザーが検索ボックスにテキストを入力すると、一つ以上の可能性のあるマッチが見つかり、検索ボックスの下にある「ドロップダウンメニュー」に表示され、ユーザーがさらにテキストを入力するにつれて絞り込まれていきます。これにより、ユーザーは結果を動的に表示し、リソースの全名やタイトルを必ずしも入力することなく選択できるようになります。検索ボックスのタイプアヘッド結果は、レコードタイプのカテゴリー（または「ファセットフィルター」）に沿って整理されており、以下が含まれます："
+
+#: ../../user-manual/access-content/search-atom.rst:148
+msgid ":term:`Archival description`"
+msgstr ":term:`アーカイバルディスクリプション`"
+
+#: ../../user-manual/access-content/search-atom.rst:149
+msgid ":term:`Authority record`"
+msgstr ":term:`権威レコード`"
+
+#: ../../user-manual/access-content/search-atom.rst:150
+msgid ":term:`Archival institution`"
+msgstr ""
+":term:`Archival institution`\n"
+"\n"
+":term:`アーカイバル機関`"
+
+#: ../../user-manual/access-content/search-atom.rst:151
+msgid ":term:`Subject` access points"
+msgstr "件名アクセス・ポイント"
+
+#: ../../user-manual/access-content/search-atom.rst:152
+msgid ":term:`Place` access points"
+msgstr "用語: アクセスポイントを設置する"
+
+#: ../../user-manual/access-content/search-atom.rst:154
+msgid ""
+"When multiple results for a record type exist, the :term:`typeahead` drop-"
+"down includes an option to view all records for a particular record type - "
+"clicking the \"View all\" link for a particular type of record will redirect"
+" the user to a :ref:`browse page <page-type-browse>` of results."
+msgstr ""
+"レコードタイプに対して複数の結果が存在する場合、`:term:`typeahead`ドロップダウンには特定のレコードタイプに対するすべてのレコードを表示するオプションが含まれています。特定のレコードタイプに対して「すべて表示」リンクをクリックすると、ユーザーは結果の:ref:`ブラウズページ<page-"
+"type-browse>`にリダイレクトされます。"
+
+#: ../../user-manual/access-content/search-atom.rst:159
+msgid ""
+"The :term:`typeahead` is set by default to begin providing suggestions only "
+"after at least three characters have been entered - for example, entering "
+"\"a\" or \"an\" in the search box will not prompt suggestions, but entering "
+"\"ant\" might produce suggestions such as an authority record for a person "
+"named \"Anthony,\" etc."
+msgstr ""
+"デフォルトでは、`:term:`typeahead`は、少なくとも3文字が入力された後にのみ提案を提供し始めるように設定されています。たとえば、検索ボックスに「a」や「an」と入力しても提案は表示されませんが、「ant」と入力すると、「Anthony」という名前の人物に関する権威レコードなどの提案が表示される可能性があります。"
+
+#: ../../user-manual/access-content/search-atom.rst:167
+msgid ""
+"The :term:`typeahead` search results are intended as a navigational tool for"
+" quick searching of multiple :ref:`entity types <entity-types>`, but **by "
+"default pressing enter after entering a query in the search bar will load a "
+"results page for archival descriptions**. If you wish to search for an "
+":term:`authority record` or :term:`archival institution` using the main "
+"search box, you must either click it when it appears in the drop-down, or "
+"alternately select it from a browse page when clicking the \"all matching\" "
+"option below each search facet in the typeahead. At this time, the main "
+":term:`search box` cannot be configured to return other record types when "
+"pressing enter. However, there are also dedicated search bars for authority "
+"records and archival institutions -- see :ref:`below <dedicated-search>`."
+msgstr ""
+":term:`タイプアヘッド` 検索結果は、複数の :ref:`エンティティタイプ <entity-types>` "
+"をクイック検索するためのナビゲーションツールとして意図されていますが、**デフォルトでは、検索バーにクエリを入力して Enter "
+"キーを押すと、アーカイブ記述の結果ページがロードされます**。メインの検索ボックスを使用して :term:`権威レコード` や "
+":term:`アーカイブ機関` "
+"を検索したい場合は、ドロップダウンに表示された時にそれをクリックするか、またはタイプアヘッドの各検索ファセットの下にある「すべての一致」オプションをクリックして、ブラウズページから選択する必要があります。現時点では、メインの"
+" :term:`検索ボックス` は、Enter "
+"キーを押した時に他のレコードタイプを返すように設定することはできません。しかし、権威レコードとアーカイブ機関専用の検索バーもあります -- 詳細は "
+":ref:`以下 <dedicated-search>` を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:182
+msgid "Institutional search box delimiters"
+msgstr "機関検索ボックスの区切り文字"
+
+#: ../../user-manual/access-content/search-atom.rst:190
+msgid "Example of the search delimiters below the search box"
+msgstr "以下に検索ボックス下の検索区切り文字の例を示します。"
+
+#: ../../user-manual/access-content/search-atom.rst:190
+msgid ""
+"When viewing an archival description linked to an archival institution, or "
+"the institution record, the option to limit your search to the current "
+"institution appears as a radio button in a drop-down beneath the search box."
+msgstr ""
+"アーカイブ記述がアーカイブ機関にリンクされているか、または機関の記録を閲覧する際、検索ボックスの下にあるドロップダウン内で、現在の機関に検索を限定するオプションがラジオボタンとして表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:195
+msgid ""
+"To better support the use of AtoM as a :term:`multi-repository system`, AtoM"
+" provides users with an institutional search box delimiter that can be "
+"toggled between a global search setting and a setting restricted to the "
+":term:`holdings` of a particular :term:`archival institution`."
+msgstr ""
+"AtoMを:term:`複数リポジトリシステム`としてより良く利用支援するために、AtoMはユーザーに機関用の検索ボックスのデリミタを提供しており、これはグローバル検索設定と特定の:term:`アーカイブ機関`の:term:`蔵書`に限定した設定の間で切り替えが可能です。"
+
+#: ../../user-manual/access-content/search-atom.rst:200
+msgid ""
+"When a user has viewed an :term:`archival institution` record or an "
+":term:`archival description` related to an archival institution, clicking in"
+" the search box (in Bootstrap 2 themes) or clicking the gear icon (in "
+"Bootstrap 5 themes) will reveal a set of :term:`radio buttons <radio "
+"button>` that allow the user to limit the search results to the holdings of "
+"the most recently viewed :term:`archival institution`, or to search globally"
+" (i.e., across all records in the application)."
+msgstr ""
+"ユーザーが`:term:`アーカイブ施設`の記録やアーカイブ施設に関連する`:term:`アーカイブ記述`を閲覧した後、検索ボックス内をクリックする（Bootstrap"
+" 2のテーマの場合）または歯車アイコンをクリックする（Bootstrap 5のテーマの場合）と、`:term:`ラジオボタン<radio "
+"button>`のセットが表示されます。これにより、ユーザーは検索結果を最近閲覧した`:term:`アーカイブ施設`の所蔵品に限定するか、グローバルに検索する（すなわち、アプリケーション内のすべての記録を対象に検索する）かを選択することができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:209
+msgid ""
+"When the delimiter is set to limit search results to a specific "
+":term:`archival institution`, :term:`typeahead` search results for "
+":term:`archival descriptions <archival description>` will also be limited to"
+" the :term:`holdings` of that institution. However, other typehead results, "
+"such as :term:`authority record` and :term:`archival institution` "
+"suggestions, will **not** be limited (instead AtoM will continue to make "
+"suggestions from all records in the application for those types)."
+msgstr ""
+"デリミタが特定の「アーカイブ機関」に検索結果を限定するように設定されている場合、「アーカイブ記述」という用語のタイプアヘッド検索結果も、その機関が保有する「所蔵品」に限定されます。しかし、他のタイプヘッド結果、例えば「権威レコード」や「アーカイブ機関」の提案は**制限されません**（その代わり、AtoMはそれらのタイプのすべてのレコードから引き続き提案します）。"
+
+#: ../../user-manual/access-content/search-atom.rst:219
+msgid ""
+"If the :ref:`Institutional scoping <enable-scoping>` setting is turned on, "
+"then the the institutional search box delimiter is automatically turned off."
+" Users can search the :term:`holdings` of an institution via the dedicated "
+"search box provided in the :term:`institution block` that will appear when "
+"the setting is engaged."
+msgstr ""
+"「:ref:`機関スコーピング<enable-scoping>` "
+"設定がオンになっている場合、機関検索ボックスデリミターは自動的にオフになります。設定が有効になっている場合、表示される :term:`機関ブロック` "
+"内に提供されている専用の検索ボックスを通じて、ユーザーは機関の :term:`所蔵品` を検索することができます。」"
+
+#: ../../user-manual/access-content/search-atom.rst:225
+msgid "For more information, see: :ref:`enable-scoping`."
+msgstr "詳細については、以下を参照してください: :ref:`enable-scoping`。"
+
+#: ../../user-manual/access-content/search-atom.rst:230
+msgid "Filter tags"
+msgstr "フィルタータグ"
+
+#: ../../user-manual/access-content/search-atom.rst:232
+msgid ""
+"If a user enters a search query in the :term:`search box` while the "
+"delimiter is set to a particular :term:`repository` and presses enter, the "
+":ref:`search results <page-type-search>` page will include a :term:`filter "
+"tag` at the top of the results, to offer a visual cue to the user that the "
+"results are limited to those of a specific :term:`archival institution`. "
+"Clicking the \"**X**\" on the filter tag will remove it, and the results "
+"page will reload and display global search results. This offers two "
+"advantages to the user:"
+msgstr ""
+"ユーザーが特定の:term:`リポジトリ`に設定されたデリミターの状態で:term:`検索ボックス`に検索クエリを入力し、エンターキーを押すと、:ref:`検索結果"
+" <page-type-search>` "
+"ページには結果が特定の:term:`アーカイブ施設`に限定されていることをユーザーに視覚的な手がかりを提供するために、上部に:term:`フィルタータグ`が表示されます。フィルタータグ上の"
+" \"**X**\" "
+"をクリックすると、それは削除され、結果ページがリロードされ、グローバル検索結果が表示されます。これにより、ユーザーに以下の二つの利点を提供します:"
+
+#: ../../user-manual/access-content/search-atom.rst:240
+msgid ""
+"When a delimited search is performed, the user is given a clear visual "
+"indication (the filter tag bearing the :term:`repository` name)"
+msgstr ""
+"区切られた検索が行われると、ユーザーは明確な視覚的表示（フィルタータグには`:term:`リポジトリ`の名前が表示されます）を受け取ります。"
+
+#: ../../user-manual/access-content/search-atom.rst:242
+msgid ""
+"If a delimited search is performed *by accident* (i.e. the user meant to "
+"perform a global search), the filter can be removed without having to "
+"perform the search again."
+msgstr "誤って区切り検索が実行された場合（つまり、ユーザーが全体検索を意図していた場合）、検索を再度実行することなくフィルタを削除できます。"
+
+#: ../../user-manual/access-content/search-atom.rst:252
+msgid "Example of a filter tag on a search results page"
+msgstr "検索結果ページにおけるフィルタタグの一例"
+
+#: ../../user-manual/access-content/search-atom.rst:252
+msgid ""
+"An example of a search results page with a filter tag visible - in this "
+"instance, the user has performed a search limited to top-level descriptions "
+"from the holdings of the Wilfrid Laurier University Archives"
+msgstr ""
+"フィルタータグが表示されている検索結果ページの例 - この場合、ユーザーはWilfrid Laurier University "
+"Archivesの保有資料からトップレベルの記述に限定して検索を実行したものです。"
+
+#: ../../user-manual/access-content/search-atom.rst:259
+msgid "Using the Institutional search box delimiters"
+msgstr "「機関検索ボックスの区切り文字の使用」"
+
+#: ../../user-manual/access-content/search-atom.rst:261
+msgid ""
+"Navigate to an :term:`archival description` linked to an :term:`archival "
+"institution`, or to an archival institution's page. You can do this either "
+"by searching for the name of the institution or description, or by "
+":ref:`browsing <browse>`."
+msgstr ""
+"アーカイブ記述に関連付けられたアーカイブ機関、またはアーカイブ機関のページに移動します。これは、機関または記述の名前を検索するか、:ref:`ブラウズ "
+"<browse>`することによって行うことができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:265
+msgid ""
+"Place your cursor in the :term:`search box` located in the AtoM "
+":term:`header bar`. A :term:`drop-down menu` will appear beneath the search "
+"box with two radio buttons."
+msgstr ""
+"AtoM の :term:`ヘッダーバー` にある :term:`検索ボックス` "
+"内にカーソルを置いてください。検索ボックスの下には、二つのラジオボタンがある :term:`ドロップダウンメニュー` が表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:268
+msgid ""
+"By default, the radio button will be set to the related :term:`archival "
+"institution`. If you would like to search within the :term:`holdings` of "
+"that institution, you can begin typing your query."
+msgstr ""
+"デフォルトでは、ラジオボタンは関連する:term:`アーカイブ施設`に設定されています。その施設の:term:`所蔵品`内で検索したい場合、クエリの入力を開始できます。"
+
+#: ../../user-manual/access-content/search-atom.rst:271
+msgid ""
+"If you would like to search all records held in AtoM (i.e. globally), click "
+"the \"Global search\" radio button in the :term:`drop-down <drop-down "
+"menu>`. Begin typing your query."
+msgstr ""
+"AtoMで保持されている全ての記録（つまり、グローバルに）を検索したい場合は、:term:`ドロップダウンメニュー<drop-down "
+"menu>`内の「グローバル検索」ラジオボタンをクリックしてください。検索クエリを入力し始めます。"
+
+#: ../../user-manual/access-content/search-atom.rst:274
+msgid ""
+"If you see the result you are looking for appear in the :ref:`typeahead "
+"<search-typeahead>`, you can click it to go straight to the record - AtoM "
+"will redirect you to the selected description's :term:`view page`."
+msgstr ""
+"以下のように翻訳できます。\n"
+"\n"
+"検索中に求めている結果が :ref:`タイプアヘッド<search-typeahead>` に表示されたら、それをクリックして直接レコードにアクセスできます。AtoMは選択された記述の :term:`ビューページ` へとリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:277
+msgid ""
+"You can use \"quotations\", :term:`Boolean operators <boolean search>` such "
+"as AND, OR, and NOT, or special characters such as the ``*`` wildcard, to "
+"broaden or narrow your search. For more information, see: :ref:`advanced-"
+"search`"
+msgstr ""
+"「引用符」、AND、OR、NOT などの :term:`ブール演算子 <boolean search>`、または ``*`` "
+"ワイルドカードなどの特殊文字を使用して、検索範囲を広げたり絞り込んだりすることができます。詳細については、以下を参照してください: "
+":ref:`advanced-search`"
+
+#: ../../user-manual/access-content/search-atom.rst:281
+msgid ""
+"When you have entered your search term(s), press enter to submit and begin "
+"your search. AtoM will redirect you to a :ref:`search results <page-type-"
+"search>` page with descriptions that contain data that match your search "
+"query."
+msgstr ""
+"検索語を入力したら、エンターキーを押して検索を開始してください。AtoMは、検索クエリに一致するデータを含む説明が記載された :ref:`検索結果 "
+"<page-type-search>` ページにリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:285
+msgid ""
+"If you have used the institutional search box delimiter, a :term:`filter "
+"tag` will appear at the top of your search results, indicating that these "
+"results have been limited to the current :term:`repository`. If you wish to "
+"broaden the search results to all records in AtoM (i.e., if you did not "
+"intend to use the institutional search delimiter), you can click the "
+"\"**X**\" on the :term:`filter tag` to remove it; AtoM will reload global "
+"search results."
+msgstr ""
+"もし機関検索ボックス区切り文字を使用した場合、検索結果の上部に`:term:`フィルタータグ`が表示され、これらの結果が現在の`:term:`リポジトリ`に限定されていることを示します。もしAtoM内のすべての記録に対して検索結果を広げたい場合（つまり、機関検索区切り文字を使用する意図がなかった場合）、`:term:`フィルタータグ`にある\"**X**\"をクリックしてそれを削除することができます。するとAtoMはグローバル検索結果を再読み込みします。"
+
+#: ../../user-manual/access-content/search-atom.rst:292
+msgid ""
+"The search results page includes a number :term:`facet filters <facet "
+"filter>`, to help you sort through the results and find the content you are "
+"looking for. For more information on working with facet filters, see: "
+":ref:`recurring-facet-filters`."
+msgstr ""
+"検索結果ページには、結果を分類し、探しているコンテンツを見つけるのに役立つ多くの:term:`ファセットフィルタ<facet "
+"filter>`が含まれています。ファセットフィルタの使用方法の詳細については、以下を参照してください: :ref:`recurring-facet-"
+"filters`。"
+
+#: ../../user-manual/access-content/search-atom.rst:296
+msgid ""
+"Search results can be sorted either alphabetically, by most-recently "
+"updated, by reference code, or by date of creation using the :term:`sort "
+"button` available at the top-left side of the search results. For more "
+"information, see: :ref:`recurring-sort-button`."
+msgstr ""
+"検索結果は、左上にある「並び替えボタン(:term:`sort "
+"button`)」を使用して、アルファベット順、最も最近更新された順、参照コード順、または作成日順に並び替えることができます。詳細については、以下を参照してください："
+" :ref:`recurring-sort-button`。"
+
+#: ../../user-manual/access-content/search-atom.rst:301
+#: ../../user-manual/access-content/search-atom.rst:318
+#: ../../user-manual/access-content/search-atom.rst:552
+#: ../../user-manual/access-content/search-atom.rst:637
+#: ../../user-manual/access-content/search-atom.rst:932
+#: ../../user-manual/access-content/search-atom.rst:1138
+#: ../../user-manual/access-content/search-atom.rst:1350
+#: ../../user-manual/access-content/search-atom.rst:1506
+#: ../../user-manual/access-content/search-atom.rst:1602
+#: ../../user-manual/access-content/search-atom.rst:1699
+#: ../../user-manual/access-content/search-atom.rst:1785
+#: ../../user-manual/access-content/search-atom.rst:1877
+#: ../../user-manual/access-content/search-atom.rst:1943
+msgid ":ref:`Back to top <search-atom>`"
+msgstr "`:ref:`ページの上部に戻る <search-atom>`"
+
+#: ../../user-manual/access-content/search-atom.rst:306
+msgid "Search results and facet filters"
+msgstr "検索結果とファセットフィルター"
+
+#: ../../user-manual/access-content/search-atom.rst:308
+msgid ""
+"AtoM's search and browse pages include a number of :ref:`facet filters "
+"<recurring-facet-filters>` to enhance a user's ability to quickly sift "
+"through results and find specific records."
+msgstr ""
+"AtoMの検索およびブラウズページには、ユーザーが迅速に結果をふるいにかけ、特定の記録を見つけることができるように強化するための、多数の "
+":ref:`ファセットフィルタ <recurring-facet-filters>` が含まれています。"
+
+#: ../../user-manual/access-content/search-atom.rst:312
+msgid "**For more information on using the facet filters in AtoM, see:**"
+msgstr "AtoMでファセットフィルターを使用する方法の詳細については、以下を参照してください："
+
+#: ../../user-manual/access-content/search-atom.rst:314
+msgid ":ref:`Facet filters in AtoM (overview) <recurring-facet-filters>`"
+msgstr ":ref:`AtoM におけるファセットフィルター（概要）<recurring-facet-filters>`"
+
+#: ../../user-manual/access-content/search-atom.rst:315
+msgid ":ref:`facets-by-record-type`"
+msgstr ":ref:`レコードタイプ別ファセット`"
+
+#: ../../user-manual/access-content/search-atom.rst:316
+msgid ":ref:`using-facet-filters`"
+msgstr ":ref:`ファセットフィルタの使用`"
+
+#: ../../user-manual/access-content/search-atom.rst:323
+msgid "|desc| Search for archival descriptions"
+msgstr "|desc| アーカイブ記述の検索"
+
+#: ../../user-manual/access-content/search-atom.rst:7
+msgid "desc"
+msgstr ""
+"申し訳ありませんが、テキストが提供されていないため、翻訳を開始できません。どのテキストを翻訳すればよいかを教えていただけますか？それを受け取り次第、翻訳を行います。"
+
+#: ../../user-manual/access-content/search-atom.rst:325
+msgid ""
+"Searching for :term:`archival descriptions <archival description>` is "
+"accomplished using the :term:`search box` located in the AtoM :term:`header "
+"bar`, available anywhere in the application. Though other kinds of record "
+"results can be found using the :term:`typeahead` features of the general "
+"search box (see: :ref:`Typeahead <search-typeahead>`, above), when a user "
+"enters a search term and presses enter, by default the search box will "
+"return results for archival descriptions. The following will outline some of"
+" the steps involved in searching for :term:`archival descriptions <archival "
+"description>`."
+msgstr ""
+"アーカイバル・ディスクリプション`（アーカイブ記述）の検索は、アプリケーション内のどこからでも利用可能なAtoMの`ヘッダーバー`にある`検索ボックス`を使用して行われます。一般的な検索ボックスの`タイプアヘッド`機能を使って他の種類のレコード結果が見つかることもあります（上記：`タイプアヘッド<search-"
+"typeahead>`を参照）、検索語を入力してエンターキーを押すと、デフォルトでは検索ボックスはアーカイバル・ディスクリプションの結果を返します。以下に、アーカイバル・ディスクリプション`（アーカイブ記述）を検索する際の一部の手順を概説します。"
+
+#: ../../user-manual/access-content/search-atom.rst:337
+msgid ""
+"Only authenticated (i.e. logged in) users with :term:`access privileges "
+"<access privilege>` to view drafts will be able to see draft descriptions in"
+" search and browse results. For more information on draft vs. published, and"
+" changing the publication status of an :term:`archival description`, see: "
+":ref:`publish-archival-description`."
+msgstr ""
+"認証された（つまり、ログイン済の）ユーザーであり、ドラフトを閲覧するための:term:`アクセス権限 "
+"<アクセス権限>`を持っているユーザーのみが、検索結果やブラウズ結果の中でドラフト記述を見ることができます。ドラフトと公開された記述の違いや、:term:`アーカイブ記述`の公開状態を変更する方法については、こちらを参照してください:"
+" :ref:`publish-archival-description`。"
+
+#: ../../user-manual/access-content/search-atom.rst:345
+msgid ""
+"Trying to find a specific record inside a :term:`fonds`, :term:`collection`,"
+" or series? Check out the section below on our :ref:`treeview-search`."
+msgstr ""
+"特定の記録を :term:`分類群（fonds）`、:term:`コレクション`、またはシリーズの中で探していますか？下記の "
+":ref:`ツリービュー検索（treeview-search）`のセクションをご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:349
+msgid "**To search for archival descriptions in AtoM:**"
+msgstr "AtoMでアーカイブ記述を検索するには："
+
+#: ../../user-manual/access-content/search-atom.rst:351
+msgid ""
+"Place your cursor in the :term:`search box` located in the :term:`header "
+"bar` at the top of the page."
+msgstr "ページの上部にある :term:`ヘッダーバー` の :term:`検索ボックス` にカーソルを置いてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:353
+msgid ""
+"A :term:`drop-down menu` will appear. If you were viewing an :term:`archival"
+" institution`, or an :term:`archival description` linked to an archival "
+"institution when you placed your cursor in the :term:`search box`, the "
+":ref:`search box delimiter <search-box-delimiters>` will be set for the "
+"current related institution (otherwise, the only option will be \"Global "
+"search\"). If you wish to search **only** within the selected institution, "
+"leave the :term:`radio button` set to search the current institution. If you"
+" wish to search **all records** in AtoM (i.e. globally, across "
+"institutions), click the \"Global search\" radio button. The examples in "
+"these instructions will illustrate how to perform a global search - see "
+":ref:`above <search-using-delimiters>` for further instructions on using the"
+" search box delimiters to search within a single institution in a "
+":term:`multi-repository system`."
+msgstr ""
+"ドロップダウンメニューが表示されます。カーソルを検索ボックスに置いた時に、もしアーカイブ機関や、アーカイブ機関にリンクされたアーカイブ記述を表示していた場合、検索ボックス区切りは現在関連する機関に設定されます（そうでない場合は、唯一の選択肢は「グローバル検索」になります）。選択した機関内で**のみ**検索したい場合は、現在の機関を検索するために設定されたラジオボタンのままにしてください。AtoM内の**すべての記録**を（つまり、機関をまたいでグローバルに）検索したい場合は、「グローバル検索」のラジオボタンをクリックしてください。これらの指示の例は、グローバル検索の実行方法を示しています"
+" — 複数リポジトリシステム内の単一機関内を検索するために検索ボックス区切りを使用する追加の指示については、上記の`search-using-"
+"delimiters`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the search box delimiters"
+msgstr "検索ボックスの区切り文字の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:374
+msgid ""
+"When a user views a linked :term:`archival description` or an "
+":term:`archival institution` record, the :term:`search box` delimiter will "
+"**default to search within that institution**. If you would like to perform "
+"a global search (i.e. across all records in the application), switch the "
+"radio button to **Global search** before proceeding. See :ref:`above "
+"<search-using-delimiters>` for further instructions on using the search box "
+"delimiters."
+msgstr ""
+"ユーザーがリンクされた「アーカイブ記述」または「アーカイブ機関」のレコードを閲覧する際には、検索ボックスの区切り文字はその機関内での検索が**デフォルト**になります。アプリケーション内の全てのレコードを横断して全体検索（グローバル検索）を行いたい場合は、検索を進める前にラジオボタンを**グローバル検索**に切り替えてください。検索ボックスの区切り文字を使用する詳しい説明については、上記「search-"
+"using-delimiters」の章を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:382
+msgid ""
+"Begin to enter your search term. As you type, :term:`typeahead` results will"
+" begin to appear in the search box dropdown. For more information on "
+"typeahead in search, see above - :ref:`search-typeahead`. The results that "
+"appear as you type will be faceted by :term:`entity` - those with the "
+"|desc2| description icon next to them are :term:`archival descriptions "
+"<archival description>`."
+msgstr ""
+"検索語を入力し始めてください。入力するにつれて、サーチボックスのドロップダウンに:typeahead`の結果が表示されます。検索でのタイプアヘッドについての詳細は上記を参照してください"
+" - :ref:`search-typeahead`。入力するにつれて表示される結果は:term:`エンティティ`によってファセットされます - "
+"|desc2|の説明アイコンが隣にあるものは:term:`アーカイバル記述<archival description>`です。"
+
+#: ../../user-manual/access-content/search-atom.rst:11
+msgid "desc2"
+msgstr ""
+"I'm sorry, but you have not provided any text to translate into Japanese. If"
+" you provide the text you're referring to, I'll be happy to assist with the "
+"translation."
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image typeahead results as a user types in the search box"
+msgstr "ユーザーが検索ボックスに入力すると、画像タイプアヘッドが結果として表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:394
+msgid ""
+"If you see the record you are looking for in the faceted results provided by"
+" the :term:`typeahead`, click the title in the search box :term:`drop-down "
+"<drop-down menu>` to navigate to it. If you don't, or would like to see more"
+" results, finish entering your search term and press enter."
+msgstr ""
+"もし、`:term:`typeahead`によって提供される絞り込まれた結果の中に探している記録が見えたら、検索ボックス内の`:term:`ドロップダウン<ドロップダウンメニュー>`でタイトルをクリックして、それに移動してください。もし見つからない場合、またはさらに多くの結果を見たい場合は、検索語を完全に入力してエンターキーを押してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:399
+msgid ""
+"If you have pressed enter, AtoM will redirect you to a search results page. "
+"The following image has been annotated with letters (A-E in orange circles) "
+"to outline some of the features of the results page that will help you "
+"navigate, and narrow your search:"
+msgstr ""
+"Enterキーを押した場合、AtoMは検索結果ページにリダイレクトします。以下の画像には、検索をナビゲートし、絞り込むのに役立つ結果ページのいくつかの機能を説明するために、文字（オレンジの丸で"
+" A-E）が注釈として付されています："
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of an example search results page"
+msgstr "例の検索結果ページの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:409
+msgid ""
+"**A**: The number of relevant search results returned will be shown at the "
+"top of the screen, for context. Your search term(s) will be visible in the "
+"search bar - additionally, if you click to open the :term:`Advanced search "
+"panel`, your search query will be visible in the first Boolean field at the "
+"top of the panel. For more information on the advanced search panel and "
+"using the options it contains, see: :ref:`advanced-search`."
+msgstr ""
+"**A**: "
+"関連する検索結果の数は、文脈を理解するために画面の上部に表示されます。検索語句は検索バーに表示されます。さらに、:term:`詳細検索パネル` "
+"を開くと、検索クエリがパネル上部にある最初のブール項目フィールドに表示されるでしょう。詳細検索パネルの使用方法とそのオプションに関する詳しい情報については、:ref:`advanced-"
+"search`をご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:416
+msgid ""
+"**B**: This is the :term:`Advanced search panel`. Click to expand or "
+"collapse the panel. It contains a user interface for building :term:`Boolean"
+" search` queries, as well as a number of additional filters that can be used"
+" to refine search results. For more information, see: :ref:`advanced-"
+"search`."
+msgstr ""
+"**B**: "
+"これは「高度な検索パネル」です。パネルを展開したり折りたたんだりするにはクリックしてください。これには「ブール検索」クエリを作成するためのユーザーインターフェイスや、検索結果を絞り込むために使用できる多くの追加フィルタが含まれています。詳細については、次を参照してください：「高度な検索」。"
+
+#: ../../user-manual/access-content/search-atom.rst:421
+msgid ""
+"**C**: Results appear in the main column of the page - click on a result and"
+" AtoM will take you to a :term:`view page` for the related :term:`archival "
+"description`. Additionally, the results include helpful contextual "
+"information, including:"
+msgstr ""
+"**C**: 結果はページのメインカラムに表示されます - "
+"結果をクリックすると、AtoMは関連する:term:`アーカイバルディスクリプション`の:term:`ビューページ`に連れて行ってくれます。さらに、結果には役立つ文脈情報が含まれており、以下が含まれます："
+
+#: ../../user-manual/access-content/search-atom.rst:426
+msgid ""
+"*Level of description* - i.e. fonds, series, file, item, etc. The "
+":term:`level of description` will be diplayed next to the orange identifier,"
+" below the title of the record."
+msgstr ""
+"*記述レベル* - "
+"たとえば全集、シリーズ、ファイル、項目など。`:term:`記述レベル`は、レコードのタイトルの下、オレンジ色の識別子の隣に表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:429
+msgid ""
+"*Publication status* - if a description's :term:`publication status` is "
+"\"draft\" (i.e. it is not visible to public users), the draft status will be"
+" indicated in the stub record. You must be logged in to see the draft status"
+" displayed. If no status is displayed, the record is published, and visible "
+"to public (i.e. not logged in) users."
+msgstr ""
+"*公開ステータス* - "
+"ある記述の:term:`公開ステータス`が「下書き」（つまり、一般のユーザーには見えない）である場合、その下書きステータスはスタブレコードに表示されます。下書きステータスが表示されるのを見るには、ログインしている必要があります。ステータスが表示されていない場合、そのレコードは公開されており、一般（つまり、ログインしていない）ユーザーに見える状態になっています。"
+
+#: ../../user-manual/access-content/search-atom.rst:434
+msgid ""
+"*Description* - if a scope and content note has been included in the "
+"archival description, its first 2-3 lines will be visible here for greater "
+"context."
+msgstr "*説明* - アーカイブ記述に範囲及び内容の注記が含まれている場合、より文脈を理解するために、最初の2-3行がここに表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:437
+msgid ""
+"*Identifier* - if a reference code or other identifier has been added to the"
+" record, the results will display this in orange, beneath the title."
+msgstr "「識別子」－もし参照コードまたは他の識別子がレコードに追加されている場合、その結果はタイトルの下にオレンジ色で表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:439
+msgid ""
+"*Creation dates* - if dates of creation have been added to the record, these"
+" will display on the same line as the identifier and level of description."
+msgstr "「作成日」- レコードに作成日が追加されている場合、これらは識別子と記述レベルと同じ行に表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:441
+msgid ""
+"*Part of* - if the record is the :term:`child <child record>` of a "
+"hierarchical :term:`archival unit` (e.g. a file in a fonds, etc), the title "
+"of the :term:`parent record` will be displayed as a hyperlink beneath the "
+"identifier, level of description, and creation dates."
+msgstr ""
+"*一部* - もし記録が階層的な:term:`アーカイバル・ユニット` （例えば、フォンズ内のファイルなど）の:term:`子 <子記録>` "
+"である場合、:term:`親記録`のタイトルは、識別子、記述レベル、および作成日付の下にハイパーリンクとして表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:445
+msgid ""
+"*Creator name* - if a creator's :term:`authority record` has been linked to "
+"an archival description, the results stub will display the creator name "
+"below the scope and content summary."
+msgstr ""
+"*作成者名* - "
+"ある作成者の:term:`権威記録`がアーカイブ記述にリンクされている場合、検索結果の概要には、範囲および内容の要約の下に作成者名が表示されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of a search results stub"
+msgstr "検索結果スタブの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:454
+msgid ""
+"**D**: Search result pages include :term:`facet filters <facet filter>` to "
+"help you narrow your search further. For more information on facet filters "
+"and using them in AtoM, see :ref:`recurring-facet-filters`. By default, only"
+" those facets that relate to the results will be displayed - if a facet has "
+"0 or only 1 result, it will not be shown. Facets available on archival "
+"description search/browse pages can include:"
+msgstr ""
+"**D**: 検索結果ページには、検索をさらに絞り込むための :term:`ファセットフィルタ <facet filter>` "
+"が含まれています。ファセットフィルタの詳細とそれをAtoMで使用する方法については、:ref:`recurring-facet-filters` "
+"を参照してください。デフォルトでは、結果に関連するファセットのみが表示されます - "
+"ファセットが0または1つしか結果がない場合、表示されません。アーカイブ記述の検索/ブラウズページで利用できるファセットには次のものが含まれます："
+
+#: ../../user-manual/access-content/search-atom.rst:461
+msgid ""
+"**Language:** Filters for content in a different available language (i.e., "
+"if the content has been tranlsated into more than one language)"
+msgstr "**言語:** 別の利用可能な言語に翻訳されたコンテンツに対するフィルター（つまり、コンテンツが複数の言語に翻訳されている場合）"
+
+#: ../../user-manual/access-content/search-atom.rst:463
+msgid ""
+"**Part of:** Allows users to limit results to :term:`children <child "
+"record>` of the selected top-level description"
+msgstr ""
+"**所属:** ユーザーが選択した最上位記述の :term:`子レコード <child record>` に結果を限定することを可能にします。"
+
+#: ../../user-manual/access-content/search-atom.rst:465
+msgid ""
+"**Archival institution:** Limits results to only the holdings of the "
+"selected institution"
+msgstr "**アーカイブ機関：** 選択された機関の所蔵品のみの結果に限定します"
+
+#: ../../user-manual/access-content/search-atom.rst:467
+msgid ""
+"**Creator:** Limits results to only those where the :term:`name` matches "
+"that of the :term:`creator` associated with the :term:`archival description`"
+msgstr ""
+"**作成者:** 結果を、:term:`アーカイブ記述` に関連付けられた :term:`作成者` の :term:`名前` "
+"と一致するものに限定します。"
+
+#: ../../user-manual/access-content/search-atom.rst:469
+msgid ""
+"**Name:** Limits results to those with a matching :term:`name` added as a "
+"name :term:`access point` to an :term:`archival description`"
+msgstr ""
+"**名前:** 名前として追加された:term:`access point`が:term:`archival "
+"description`にマッチする結果に結果を限定します。"
+
+#: ../../user-manual/access-content/search-atom.rst:471
+msgid ""
+"**Place:** Limits results to those with a matching :term:`place` added as a "
+"place :term:`access point` to an :term:`archival description`"
+msgstr "**場所:** 結果を限定し、アーカイブ記述に場所アクセスポイントとして追加された一致する用語「場所」を持つものにします。"
+
+#: ../../user-manual/access-content/search-atom.rst:473
+msgid ""
+"**Subject:** Limits results to those with a matching :term:`subject` added "
+"as a subject :term:`access point` to an :term:`archival description`"
+msgstr "**件名:** アーカイブ記述に件名アクセスポイントとして追加された対応する用語「件名」に一致する結果に限定します"
+
+#: ../../user-manual/access-content/search-atom.rst:475
+msgid ""
+"**Level of description:** Limits results to those that match the selected "
+":term:`level of description` (e.g. fonds, collection, series, file, item, "
+"etc.). Also includes a top-level description filter, that will limit to all "
+":term:`parent <parent record>` records regardless of level of description."
+msgstr ""
+"**記述レベル：** "
+"選択された記述レベル（たとえば、全体記録、コレクション、シリーズ、ファイル、アイテムなど）に一致する結果に限定します。また、最上位の記述フィルターを含み、記述レベルに関わらず、全ての親レコードに限定されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:479
+msgid ""
+"**Genre:** Limits results to those with a matching genre/documentary form "
+"term added as an :term:`access point` to an :term:`archival description`"
+msgstr "**ジャンル:** 結果を、アクセスポイントとしてアーカイブ説明に追加された一致するジャンル/ドキュメンタリー形式の用語に限定します。"
+
+#: ../../user-manual/access-content/search-atom.rst:481
+msgid ""
+"**Media type:** Limits results to those with a :term:`digital object` "
+"attached that matches the selected media type (image, audio, text, video, or"
+" other)"
+msgstr ""
+"**メディアタイプ:** "
+"選択されたメディアタイプ（画像、オーディオ、テキスト、ビデオ、その他）に一致する:term:`デジタルオブジェクト`が添付されている結果に限定します。"
+
+#: ../../user-manual/access-content/search-atom.rst:485
+msgid ""
+"**E**: A count of the number of results with :term:`digital objects <digital"
+" object>` (i.e. an image, video, PDF, or other kind of attachment) is "
+"included at the top of the search results for context, and to help you sift "
+"through the results quickly. If you are searching for a description with a "
+":term:`digital object`, you can limit the results to show only those with "
+"digital objects with this filter. Click the \"Show results with digital "
+"objects\" link in the results header, and AtoM will reload the page. Results"
+" with digital objects include a :term:`thumbnail` in the results stub for "
+"context. A :term:`filter tag` (reading \"Only digital objects\") is included"
+" for context - you can click the **X** on the filter tag to remove it and "
+"return to all results (see :ref:`above <search-delimiter-filter-tag>` for "
+"more on filter tags):"
+msgstr ""
+"**E**：検索結果の上部には、デジタルオブジェクト（例えば、画像、ビデオ、PDF、その他の種類の添付ファイル）を含む結果の数が含まれており、これにより、文脈が把握でき、結果を迅速に精査できます。デジタルオブジェクトを含む説明を検索している場合、このフィルタを使用してデジタルオブジェクトがあるもののみを表示するように結果を限定することができます。結果ヘッダーの「デジタルオブジェクトが含まれる結果を表示」リンクをクリックすると、AtoMがページを再読み込みします。デジタルオブジェクトを含む結果には、文脈を提供するために結果の要約部分にサムネイルが含まれます。文脈を提供するために「デジタルオブジェクトのみ」と読むフィルタータグが含まれており、そのフィルタータグの**X**をクリックすると、除去され、全ての結果へ戻ることができます（フィルタータグについての詳細は、上記の`:ref:`search-"
+"delimiter-filter-tag`を参照してください）。"
+
+#: ../../user-manual/access-content/search-atom.rst
+msgid ""
+"An image of an example search results page limited to digital\n"
+"objects"
+msgstr "デジタルオブジェクトに限定された検索結果ページの例の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:506
+msgid ""
+"You can limit the digital object to a specific type of digital object "
+"(Image, Audio, Video, Text, or Other) using the Media Type :term:`facet "
+"filter` available on the left-hand column of the search results page. For "
+"more information on Facet filters in AtoM, see: :ref:`recurring-facet-"
+"filters`. There is also a general digital object filter inclued in the "
+":term:`Advanced search panel` - see :ref:`advanced-search`."
+msgstr ""
+"あなたは、検索結果ページの左側の列にあるメディアタイプ :term:`facet filter` "
+"を使用して、デジタルオブジェクトを特定のタイプのデジタルオブジェクト（画像、オーディオ、ビデオ、テキスト、その他）に限定することができます。AtoMでのファセットフィルタについての詳細情報は、:ref:`recurring-"
+"facet-filters`を参照してください。また、:term:`Advanced search panel` "
+"には一般的なデジタルオブジェクトフィルターも含まれています - 詳細は:ref:`advanced-search`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:514
+msgid ""
+"**F**: The :term:`Clipboard` icon appears on all archival description search"
+" and browse results. Click on the |clipboard| paperclip icon, and the result"
+" will be added to the Clipboard. You can use the :term:`Clipboard menu` at "
+"the top of the page. For more information, see :ref:`clipboard`"
+msgstr ""
+"**F**: "
+"すべてのアーカイブ記述検索結果およびブラウズ結果に:term:`クリップボード`アイコンが表示されます。クリップ|clipboard|アイコンをクリックすると、その結果がクリップボードに追加されます。ページの上部にある:term:`クリップボードメニュー`を使用することができます。詳しくは、:ref:`clipboard`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:41
+msgid "clipboard"
+msgstr "クリップボード"
+
+#: ../../user-manual/access-content/search-atom.rst:520
+msgid ""
+"If you are searching within the holdings of a particular :term:`archival "
+"institution`, consult the section above for guidance and tips on using the "
+"institutional search box delimiters: :ref:`search-using-delimiters`. There "
+"is also a Repository filter in the :term:`advanced search panel` that will "
+"allow you to limit the results to a specific institution - see "
+":ref:`advanced-search`."
+msgstr ""
+"特定の:term:`アーカイブ機関`の所蔵品の中で検索している場合は、機関検索ボックスの区切り文字を使用する際のガイダンスとヒントについて、上にあるセクションを参照してください：:ref:`search-"
+"using-delimiters`。また、:term:`高度な検索パネル`にはリポジトリフィルターがあり、これを使うと検索結果を特定の機関に限定できます"
+" - 詳細は：ref:`advanced-search`をご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:526
+msgid ""
+"When you have found the :term:`archival description` you are looking for, "
+"click on its title, and AtoM will take you to the description's :term:`view "
+"page`."
+msgstr ""
+"お探しの:term:`アーカイバルディスクリプション（アーカイブ記述）`が見つかったら、そのタイトルをクリックしてください。そうするとAtoMがあなたをその記述の:term:`ビューページ`に案内します。"
+
+#: ../../user-manual/access-content/search-atom.rst:529
+msgid ""
+"Note that you can use :term:`Boolean search` operators such as AND, OR, or "
+"NOT, as well as Boolean special characters such as the ``*`` wildcard symbol"
+" to improve your search results, directly from the global search box in the "
+"AtoM :term:`header bar`. For more information on available special "
+"characters and boolean searching in AtoM, see: :ref:`advanced-search`."
+msgstr ""
+"ご注意ください。AND、OR、またはNOTなどの:term:`ブール検索`オペレーターや、``*``ワイルドカード記号のようなブール特殊文字を使用して、AtoM"
+" "
+"の:term:`ヘッダーバー`にあるグローバル検索ボックスから直接、検索結果を改善することができます。AtoMにおける利用可能な特殊文字とブール検索についての詳細は、:ref:`advanced-"
+"search`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:535
+msgid ""
+"If you do not see the record you are looking for, you can use the pager "
+"included at the bottom of the page to keep browsing the results. **NOTE:** "
+"whether or not there is a pager included will depend on the number of "
+"results returned, and the \"Results per page\" setting in **Admin > Settings"
+" > Global > Results per page**. If it is set at the default 10 results per "
+"page, and your search has returned more than 10 results, you will see a "
+"pager at the bottom of the page like so:"
+msgstr ""
+"お探しのレコードが表示されない場合、ページの下部に含まれているページャーを使用して結果を引き続き閲覧することができます。**注意:** "
+"ページャーが含まれるか否かは、返された結果の数と、**管理 > 設定 > グローバル > 1ページあたりの結果数** "
+"の設定に依存します。もしそれがデフォルトの1ページあたり10件の結果に設定されており、検索結果が10件を超えている場合、ページの下部に次のようなページャーが表示されます："
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of a pager at the bottom of a search results page"
+msgstr "検索結果ページの下部にあるポケットベルの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:548
+msgid ""
+"If you still have not found the description you are searching for, you can "
+"try using the options in the :term:`Advanced search panel` to further refine"
+" your results. For more information, see: :ref:`advanced-search`."
+msgstr ""
+"まだお探しの説明が見つからない場合は、`:term:`Advanced search "
+"panel`（高度な検索パネル）`のオプションを使用して結果をさらに絞り込むことができます。詳細については、:ref:`advanced-"
+"search`をご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:557
+msgid "Treeview quick search"
+msgstr "ツリービュークイック検索"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the treeview quick search tab on an archival description"
+msgstr "アーカイブ記述におけるツリービュークイックサーチタブのイメージ"
+
+#: ../../user-manual/access-content/search-atom.rst:564
+msgid ""
+"In addition to AtoM's general search, the :term:`treeview` included in the "
+":term:`context menu` of an archival description :term:`view page` also "
+"includes a \"Quick search\" tab, to help users quickly locate specific "
+"descriptions in a deep hierarchy. This is especially useful when using AtoM "
+"for archival arrangement and description over several sessions, to quickly "
+"return to a specific record when a :term:`fonds` or :term:`collection` "
+"includes many lower levels of description."
+msgstr ""
+"AtoMの一般的な検索に加えて、アーカイブ記述の :term:`ビューページ` の :term:`コンテキストメニュー` に含まれる "
+":term:`ツリービュー` "
+"には、「クイック検索」タブもあります。これにより、利用者は深い階層構造の中で特定の記述を迅速に見つけることができます。これは、複数のセッションにわたってAtoMをアーカイブ整理および記述に使用する際、"
+" :term:`フォンズ` や :term:`コレクション` が多くの下位レベルの記述を含んでいる場合に、特定の記録に迅速に戻るために特に役立ちます。"
+
+#: ../../user-manual/access-content/search-atom.rst:572
+msgid ""
+"The treeview quick search can be accessed by navigating to an "
+":term:`archival description`, and clicking the \"Quick search\" tab above "
+"the :term:`treeview` in the left-hand :term:`context menu` of the "
+"description's :term:`view page`."
+msgstr ""
+"アーカイブ記述に移動し、その記述のビューページの左側のコンテキストメニューの中のツリービューの上にある「クイック検索」タブをクリックすることによって、ツリービュークイック検索を利用できます。"
+
+#: ../../user-manual/access-content/search-atom.rst:578
+msgid ":ref:`browse-hierarchy`"
+msgstr "参照：`階層の閲覧`"
+
+#: ../../user-manual/access-content/search-atom.rst:580
+msgid "**TO USE THE TREEVIEW QUICK SEARCH:**"
+msgstr "**ツリービュークイック検索の使用方法：**"
+
+#: ../../user-manual/access-content/search-atom.rst:582
+msgid ""
+"Navigate to a top-level :term:`archival description` (i.e. a :term:`fonds`, "
+":term:`collection`, series, etc.) with many :term:`child records <child "
+"record>` (lower levels of description). You can do so by :ref:`searching "
+"<search-archival-descriptions>` or :ref:`browsing <browse>` - see "
+":ref:`access-content` for more information on navigation in AtoM."
+msgstr ""
+"上位レベルの：term：`アーカイブ記述`（つまり、：term:`fond`、：term:`collection`、シリーズなど）へ移動し、多くの：term:`子レコード<child"
+" record>`（低レベルの記述）を含むものを検索してください。これは、：ref:`検索<search-archival-"
+"descriptions>`を行うか、：ref:`ブラウジング<browse>`することで行うことができます - "
+"AtoMでのナビゲーションに関する詳細は、：ref:`access-content`をご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the treeview quick search"
+msgstr "ツリービュークイック検索の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:593
+msgid ""
+"Once you've arrived at an :term:`archival description`, locate the "
+":term:`treeview` in the left-hand :term:`context menu` of the description's "
+":term:`view page`. Click the \"Quick search\" tab."
+msgstr ""
+"アーカイブ記述を確定したら、記述のビューページの左側にあるコンテキストメニュー内のツリービューを探します。\"クイック検索\"タブをクリックします。"
+
+#: ../../user-manual/access-content/search-atom.rst:596
+msgid ""
+"The treeview will disappear, and a search box will be shown in its place "
+"(note: you can return to the treeview at any time by clicking the "
+"\"Holdings\" tab)."
+msgstr ""
+"ツリービューは消えて、その場に検索ボックスが表示されます（注: 「保有資料」タブをクリックするといつでもツリービューに戻ることができます）。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the treeview quick search returning results"
+msgstr "ツリービューのクイック検索が結果を返す様子の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:605
+msgid ""
+"Type a search term and press enter. AtoM will look for matches in the titles"
+" and identifiers (reference codes) of descriptions in the collection."
+msgstr "検索用語を入力してエンターを押してください。AtoMは、コレクション内の説明のタイトルと識別子（参照コード）で一致するものを検索します。"
+
+#: ../../user-manual/access-content/search-atom.rst:607
+msgid ""
+"Note that you can use :term:`Boolean search` operators such as AND, OR, or "
+"NOT, as well as Boolean special characters such as the ``*`` wildcard symbol"
+" to improve your search results. For more information on available special "
+"characters and boolean searching in AtoM, see: :ref:`advanced-search`."
+msgstr ""
+"ご注意ください。AND、OR、またはNOTのような :term:`ブール検索` オペレーターや、``*`` "
+"ワイルドカード記号などのブール特殊文字を使用して、検索結果を向上させることができます。AtoMで利用可能な特殊文字やブール検索についての詳細は、:ref:`advanced-"
+"search` をご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:618
+msgid ""
+"Matching results will be returned as blue hyperlinks. Click a results title "
+"to navigate to the related description - AtoM will redirect you to a "
+":term:`view page` for the selected archival description."
+msgstr ""
+"検索結果は青いハイパーリンクとして返されます。関連する記述に移動するには、結果のタイトルをクリックしてください - "
+"AtoMは選択されたアーカイブ記述に関する「ビューページ」へとリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:621
+msgid ""
+"If you are unable to find a description you are searching for, you can also "
+"try using the Advanced search interface, which includes filters to be able "
+"to limit by :term:`archival institution` and top-level description (e.g. by "
+"a particular :term:`fonds`, :term:`collection`, series, etc.). For more "
+"information, see: :ref:`advanced-search`."
+msgstr ""
+"検索している記述を見つけられない場合は、:term:`アーカイブ施設`やトップレベルの記述（例えば特定の:term:`フォンズ`、:term:`コレクション`、シリーズなど）で絞り込むことができるフィルターを含む、高度な検索インターフェイスを利用することもできます。詳細については、:ref:`advanced-"
+"search`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:629
+msgid ""
+"If you'd like to view all the descriptive levels in a hierarchy in a "
+":ref:`browse page <page-type-browse>`, click the \"Browse all descriptions\""
+" button at the bottom of the Quick search results. AtoM will redirect you to"
+" a browse page, where you can use features such as the browse page's "
+":ref:`sort button <recurring-sort-button>` and :ref:`facet filters "
+"<recurring-facet-filters>` to navigate the descriptions. See: :ref:`browse-"
+"hierarchy-quick-search`."
+msgstr ""
+"階層内のすべての記述レベルを :ref:`ブラウズページ <page-type-browse>` "
+"で表示したい場合は、クイック検索結果の下部にある「すべての説明をブラウズ」ボタンをクリックしてください。AtoMはブラウズページにリダイレクトし、そこで"
+" :ref:`ソートボタン <recurring-sort-button>` や :ref:`ファセットフィルタ <recurring-facet-"
+"filters>` などの機能を使用して記述内容をナビゲートできます。参照： :ref:`browse-hierarchy-quick-search`。"
+
+#: ../../user-manual/access-content/search-atom.rst:642
+msgid "Dedicated search boxes"
+msgstr "専用の検索ボックス"
+
+#: ../../user-manual/access-content/search-atom.rst:644
+msgid ""
+"In addition to the faceted results presented in the general search box (see "
+":ref:`above <search-typeahead>`), AtoM also includes several dedicated "
+"search boxes for searching a specific :term:`entity` or record type. In "
+"general these are included on the :ref:`browse pages <page-type-browse>` for"
+" the related entity. Basic instructions for each are included below."
+msgstr ""
+"一般検索ボックス（:ref:`上記 <search-"
+"typeahead>`を参照）で表示されるファセット結果に加えて、AtoMには特定の:term:`エンティティ`や記録タイプのための専用検索ボックスがいくつか含まれています。これらは一般に、関連するエンティティの:ref:`参照ページ"
+" <page-type-browse>`に含まれています。以下に基本的な指示を示します。"
+
+#: ../../user-manual/access-content/search-atom.rst:650
+msgid "**Dedicated search boxes available in AtoM:**"
+msgstr "**AtoMで利用可能な専用検索ボックス：**"
+
+#: ../../user-manual/access-content/search-atom.rst:664
+msgid ""
+"Some of these searches will return results from all (or most) data entry "
+":term:`fields <field>` in the related records (i.e. full-text search), while"
+" others are currently only configured to return title matches. Details on "
+"each are included below. Dedicated search boxes that return more than just "
+"title matches currently include: :term:`authority records <authority "
+"record>` and :term:`archival institutions <archival institution>`.  These "
+"full-text search results have **not** been `weighted "
+"<http://dictionary.reference.com/browse/weighted+search>`__ to favor title "
+"matches, etc., **except for accessions**. If you see results without matches"
+" in the title (or name), it means the search term(s) appears somewhere in "
+"the body of the record. Note: with the release of 2.5, an advanced search "
+"screen is provided for :term:`authority records <authority record>`."
+msgstr ""
+"これらの検索の中には、関連する記録にある全て（またはほとんど）のデータ入力用:term:`フィールド<field>`から結果を返すもの（例：全文検索）もあれば、現在はタイトルの一致に限定されている検索もあります。それぞれの詳細は以下に含まれています。タイトルの一致以上の結果を返す専用の検索ボックスには現在、:term:`権威記録<authority"
+" record>`と:term:`アーカイブ施設<archival "
+"institution>`が含まれています。これらの全文検索結果は、アクセッションを除いて、タイトル一致などに重みを付ける`加重<http://dictionary.reference.com/browse/weighted+search>`__されている**わけではありません**。タイトル（または名前）に一致がない結果が表示された場合、検索語句が記録本文のどこかに現れることを意味しています。注意：2.5のリリースと共に、:term:`権威記録<authority"
+" record>`のための詳細検索画面が用意されています。"
+
+#: ../../user-manual/access-content/search-atom.rst:680
+msgid "|authicon| Authority records"
+msgstr "|authicon| 権威レコード"
+
+#: ../../user-manual/access-content/search-atom.rst:15
+msgid "authicon"
+msgstr ""
+"「authicon」は通常の英単語やフレーズではありませんが、おそらく文脈や特定のプロダクト名、機能名、もしくはブランド名を指している可能性があります。よって、直訳は適さない場合が多く、そのまま「authicon」と日本語テキストに記載するのが良いかもしれません。しかし、もしも「Authentication Icon」の略であれば、「認証アイコン」と訳すこともできます。\n"
+"\n"
+"ただし、実際に文書の翻訳を行うときは、文脈を考慮してAuthiconが何を指しているのかを正確に把握し、適切な日本語に置き換える必要があります。オリジナルの文書や周辺の文脈を確認なくては正しい翻訳はできません。"
+
+#: ../../user-manual/access-content/search-atom.rst:688
+msgid ""
+"When browsing :term:`authority records <authority record>` users have two "
+"options for searching: the dedicated search box and the advanced search "
+"options screen. All indexed fields can be searched in the dedicated search "
+"box including:"
+msgstr ""
+"閲覧中の:term:`権威レコード<authority "
+"record>`では、ユーザーは2つの検索方法を利用できます。専用の検索ボックスと、詳細検索オプション画面です。専用の検索ボックスでは、すべてのインデックスされたフィールドを検索することができます。これには以下が含まれます："
+
+#: ../../user-manual/access-content/search-atom.rst:693
+msgid "**All forms of name** in the Identity area as well as"
+msgstr "Identity領域における**すべての名称形式**および"
+
+#: ../../user-manual/access-content/search-atom.rst:694
+msgid ""
+"**All fields** in the Description area (Dates of existence, History, Places,"
+" Legal status, Functions occupations and activities, Mandates/sources of "
+"authority, General context)"
+msgstr "説明エリアの**全ての項目**（存在期間、歴史、場所、法的状態、機能・職業・活動、権限・権力の源泉、一般的な文脈）"
+
+#: ../../user-manual/access-content/search-atom.rst:697
+msgid "**Access points**: occupation and occupation notes, subjects, places"
+msgstr "**アクセスポイント**: 職業と職業に関するメモ、主題、場所"
+
+#: ../../user-manual/access-content/search-atom.rst:698
+msgid ""
+"**Dates of creation, revision, and deletion** and **Sources** in the Control"
+" area"
+msgstr "「作成、改訂、削除の日付」と「管理領域の情報源」"
+
+#: ../../user-manual/access-content/search-atom.rst:700
+msgid "**Related authority records** filtered by relationship type"
+msgstr "関連する権威レコード 関係タイプによりフィルターしています"
+
+#: ../../user-manual/access-content/search-atom.rst:702
+msgid ""
+"Further search options to filter results using the advanced search options:"
+msgstr "結果をフィルタリングするための、高度な検索オプションを使用したさらなる検索オプション："
+
+#: ../../user-manual/access-content/search-atom.rst:704
+msgid "**Repository**"
+msgstr "**リポジトリ**"
+
+#: ../../user-manual/access-content/search-atom.rst:705
+msgid "**Digital object available**"
+msgstr "デジタルオブジェクトが利用可能"
+
+#: ../../user-manual/access-content/search-atom.rst:706
+msgid "**Entity type**"
+msgstr "**エンティティタイプ**"
+
+#: ../../user-manual/access-content/search-atom.rst:707
+msgid "**Empty fields**"
+msgstr "**空白のフィールド**"
+
+#: ../../user-manual/access-content/search-atom.rst:709
+msgid ""
+"For more information on working with :term:`authority records <authority "
+"record>` in AtoM, see: :ref:`authority-records`. For information on working "
+"with particular fields in the authority record edit template, see: "
+":ref:`isaar-template`."
+msgstr ""
+"AtoMで:term:`権威レコード<authority record>`を操作する方法の詳細については、:ref:`authority-"
+"records`を参照してください。権威レコード編集テンプレートの特定のフィールドの操作についての情報は、:ref:`isaar-"
+"template`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:714
+msgid ""
+"**To search for authority records in AtoM using the dedicated search box:**"
+msgstr "AtoMで専用の検索ボックスを使用して権威レコードを検索するには："
+
+#: ../../user-manual/access-content/search-atom.rst:716
+msgid ""
+"Using the :term:`browse menu` (available as a :term:`drop-down menu` next to"
+" the :term:`search box` in the AtoM :term:`header bar` at the top of the "
+"page), navigate to **Browse > Authority records**"
+msgstr ""
+":term:`ブラウズ メニュー`（ページ上部のAtoM :term:`ヘッダー バー`内の、:term:`検索ボックス`の隣にある "
+":term:`ドロップダウン メニュー`として利用可能）を使用し、**ブラウズ > 権限記録** にナビゲートします。"
+
+#: ../../user-manual/access-content/search-atom.rst:722
+msgid ""
+"Depending on the default label and menu settings in your installation, the "
+":term:`authority records <authority record>` in your browse menu may appear "
+"under a different name (such as \"People & Organizations\" or another more "
+"user-friendly name). :term:`Administrators <administrator>` can change the "
+"default labels via **Admin > Settings > User interface label**, and the "
+"default menu labels can be changed via **Admin > Menus**. See the "
+":ref:`administer` section for more details."
+msgstr ""
+"インストール時のデフォルトのラベルやメニュー設定によっては、ブラウズメニュー内の:term:`権威記録<authority record>`が「人物 &"
+" 組織」など、よりユーザーフレンドリーな名前で表示されることがあります。:term:`管理者<administrator>`は、**管理 > 設定 > "
+"ユーザーインターフェースラベル**を経由してデフォルトラベルを変更し、**管理 > "
+"メニュー**を経由してデフォルトのメニューラベルを変更することができます。詳細は:ref:`administer`セクションを参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the authority record browse page"
+msgstr "権限記録閲覧ページの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:735
+msgid ""
+"Place your cursor in the :term:`authority record` search box at the top of "
+"the browse page. Type a search term and press enter, or use your mouse to "
+"click the |searchbutton| search button (represented by the magnifying glass "
+"icon to the right of the search box)."
+msgstr ""
+"ブラウズページの上部にある:term:`authority record` "
+"検索ボックス内でカーソルを配置します。検索語を入力してエンターキーを押すか、またはマウスを使用して検索ボックスの右にある拡大鏡アイコンで表される "
+"|searchbutton| 検索ボタンをクリックします。"
+
+#: ../../user-manual/access-content/search-atom.rst:682
+msgid "searchbutton"
+msgstr "検索ボタン"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the authority record dedicated search box"
+msgstr "権限レコードに専用検索ボックスの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:745
+msgid ""
+"AtoM will reload the page with results. If there are more than 10 results, a"
+" pager will be included at the bottom of the results page. Note that if an "
+":ref:`image has been uploaded for an authority record <add-edit-content>`, "
+"the thumbnail will appear in the search results, as will the first few lines"
+" of the history."
+msgstr ""
+"AtoMは検索結果を含むページを再読み込みします。結果が10件を超える場合、結果ページの下部にページャーが含まれます。権威レコードに画像がアップロードされている場合は、そのサムネイルが検索結果に表示されますし、歴史の最初の数行も表示されます。<add-"
+"edit-content> を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:753
+msgid ""
+"See :ref:`above <dedicated-search-authority>` for a list of :term:`fields "
+"<field>` that AtoM will search in an authority record. Results have not been"
+" weighted to favor title matches. If you see results without matches in the "
+"title (i.e. the authorized form of name), it means the search term(s) "
+"appears somewhere in the body of the record."
+msgstr ""
+"以下を参照してください :ref:`上記 <dedicated-search-authority>` "
+"で、権威記録内でAtoMが検索する:term:`フィールド "
+"<field>`のリストがあります。結果は、タイトルとの一致を優先するように重み付けされていません。タイトル（すなわち、公式の名称）に一致がない結果が表示される場合、それは検索語が記録の本文内のどこかに現れていることを意味します。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the authority record search results"
+msgstr "権限記録の検索結果の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:764
+msgid ""
+"The results page includes a :term:`sort button` (allowing you to sort "
+"results to show them in alphabetic order, or most recently created/updated) "
+"and a set of :term:`facet filters <facet filter>` to help you sift through "
+"results. For more information on these elements, see :ref:`recurring-sort-"
+"button` and :ref:`recurring-facet-filters`."
+msgstr ""
+"結果ページには、結果をアルファベット順や最も最近に作成・更新された順に表示するための「並び替えボタン」(:term:`sort "
+"button`)と、結果を絞り込むのに役立つ一連の「ファセットフィルター」(:term:`facet filters <facet "
+"filter>`)が含まれています。これらの要素に関する詳細情報は、`:ref:`recurring-sort-button` および "
+"`:ref:`recurring-facet-filters` をご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:772
+msgid ""
+"You can use :term:`Boolean search` operators such as AND, OR, or NOT, as "
+"well as Boolean special characters such as the ***** wildcard symbol to "
+"improve your search results. For more information on available special "
+"characters and boolean searching in AtoM, see: :ref:`advanced-search`."
+msgstr ""
+"以下のように、AND、OR、またはNOTなどの:term:`ブール検索`オペレーターや、検索結果を改善するための*****ワイルドカードシンボルなどのブール特殊文字を使用することができます。AtoMで利用可能な特殊文字やブール検索についての詳細は、:ref:`advanced-"
+"search`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:778
+#: ../../user-manual/access-content/search-atom.rst:1039
+#: ../../user-manual/access-content/search-atom.rst:1267
+#: ../../user-manual/access-content/search-atom.rst:1455
+#: ../../user-manual/access-content/search-atom.rst:1594
+#: ../../user-manual/access-content/search-atom.rst:1691
+#: ../../user-manual/access-content/search-atom.rst:1777
+#: ../../user-manual/access-content/search-atom.rst:1869
+#: ../../user-manual/access-content/search-atom.rst:1935
+msgid ""
+"You can click the |searchreset| button next to your search term in the "
+"dedicated search box to clear the field and begin a new search. Alternately,"
+" simply place the cursor in the search box and enter a new search term."
+msgstr ""
+"専用の検索ボックスで、検索語句の隣にある |searchreset| "
+"ボタンをクリックすると、フィールドがクリアされて新しい検索を開始することができます。または、検索ボックス内にカーソルを置き、新しい検索語句を入力してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:685
+msgid "searchreset"
+msgstr "検索リセット"
+
+#: ../../user-manual/access-content/search-atom.rst:782
+msgid ""
+"When you have found the record you are searching for, click on its title in "
+"the results, and AtoM will redirect you to the selected authority record's "
+":term:`view page`."
+msgstr ""
+"検索している記録を見つけた際には、結果の中でそのタイトルをクリックしてください。そうするとAtoMが選択した権威記録の「表示ページ」にリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:786
+msgid ""
+"**To search for authority records in AtoM using the advanced search "
+"options:**"
+msgstr "**AtoMで権威記録を高度な検索オプションを使用して検索するには：**"
+
+#: ../../user-manual/access-content/search-atom.rst:788
+msgid ""
+"Users can narrow their searches further using the Advanced search options. "
+"In this search screen users can:"
+msgstr "ユーザーは、高度な検索オプションを使用してさらに検索範囲を絞り込むことができます。この検索画面では、ユーザーは次のことができます："
+
+#: ../../user-manual/access-content/search-atom.rst:791
+msgid "Restrict results to certain specified fields"
+msgstr "特定の指定されたフィールドに結果を制限する"
+
+#: ../../user-manual/access-content/search-atom.rst:792
+msgid "Limit results by repository"
+msgstr "リポジトリで結果を絞る"
+
+#: ../../user-manual/access-content/search-atom.rst:793
+msgid "Find results that have digital objects attached"
+msgstr "添付されたデジタルオブジェクトを含む結果を見つける"
+
+#: ../../user-manual/access-content/search-atom.rst:794
+msgid "Find results by entity type"
+msgstr "エンティティタイプ別の検索結果"
+
+#: ../../user-manual/access-content/search-atom.rst:795
+msgid "Find results in which specified fields are empty"
+msgstr "指定されたフィールドが空である結果を検索する"
+
+#: ../../user-manual/access-content/search-atom.rst:796
+msgid "Find all related authority records"
+msgstr "関連する全ての権威レコードを検索する"
+
+#: ../../user-manual/access-content/search-atom.rst:797
+msgid "Find all related authority records, filtered by a relationship type"
+msgstr "関連する全ての権威記録を、関係タイプによってフィルターしてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:798
+msgid "Find all authority records that have a specific relationship type"
+msgstr "特定の関係タイプを持つすべての権威レコードを見つける"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "Authority record advanced search options"
+msgstr "権限レコード高度な検索オプション"
+
+#: ../../user-manual/access-content/search-atom.rst:809
+msgid "Search authority record relationships"
+msgstr "権限記録関係を検索"
+
+#: ../../user-manual/access-content/search-atom.rst:811
+msgid ""
+"Users can find related Authority records by searching on links that were "
+"made in the :ref:`Relationships area <link-two-authority-records>` on the "
+"Authority record create and edit templates."
+msgstr ""
+"ユーザーは、権限レコードの作成および編集テンプレートの「関連性のエリア<link-two-authority-"
+"records>`で作成されたリンクを検索することにより、関連する権限レコードを見つけることができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:815
+msgid ""
+"You can find the Related Authority Record field on the last row of the "
+"Authority record advanced search screen. When you begin to type in a value "
+"in this field, AtoM will auto-complete names from existing Authority records"
+" in its database."
+msgstr ""
+"関連する権威記録フィールドは、権威記録の詳細検索画面の最後の行にあります。このフィールドに値を入力し始めると、AtoMはデータベース内の既存の権威記録から名前を自動補完します。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "Related authority record auto-complete"
+msgstr "関連権威レコードの自動補完"
+
+#: ../../user-manual/access-content/search-atom.rst:824
+msgid ""
+"The user selects a relationship type from the existing :term:`taxonomy` of "
+"relations.AtoM comes with several pre-loaded :ref:`default terms in the "
+"Actor relation type taxonomy <default-actor-relation-types>`. You can add "
+"more relationship types by :ref:`editing this taxonomy <hierarchical-"
+"taxonomies>`."
+msgstr ""
+"ユーザーは、関連する既存の:term:`分類法`から関係タイプを選択します。AtoMには、事前にロードされたいくつかの:ref:`デフォルトの用語がアクター関係タイプの分類法に含まれています<default-"
+"actor-relation-types>`。この分類法を:ref:`編集することで<hierarchical-"
+"taxonomies>`、さらに関係タイプを追加することができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "Select Authority record relationship type"
+msgstr "権威レコードの関連タイプを選択"
+
+#: ../../user-manual/access-content/search-atom.rst:834
+msgid ""
+"This advanced search returned one hit where it found \"an associate of\" "
+"Waterloo Lutheran University."
+msgstr "このアドバンスドサーチは「an associate of」ウォータールー・ルーテル大学との関連を見つけ、1件のヒットを返しました。"
+
+#: ../../user-manual/access-content/search-atom.rst:842
+msgid "You can also leave the Relationship field empty and select **Search**."
+msgstr "関連性のフィールドを空のままにして、**検索**を選択することもできます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "Empty value for Authority record relationship type"
+msgstr "権威記録リレーションシップタイプの値が空です"
+
+#: ../../user-manual/access-content/search-atom.rst:849
+msgid ""
+"AtoM will then return hits for **all** the Authority records that have a "
+"relationship record linked to the selected Authority record."
+msgstr "アトムは、選択された権威レコードにリンクされた関係レコードを有する**すべての**権威レコードに対するヒットを返します。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "All relationships for an Authority record"
+msgstr "権限記録のすべての関連性"
+
+#: ../../user-manual/access-content/search-atom.rst:857
+msgid ""
+"In this case, Waterloo Lutheran University was linked to two other Authority"
+" records. You already know about the relationship to Waterloo Lutheran "
+"Seminary. If you follow the link to the related Wilfrid Laurier University "
+"Authority record and look in its relationship area, you see that it has a "
+"predecessor/successor relationship with Waterloo Lutheran University."
+msgstr ""
+"この場合、ウォータールー・ルーテル大学は他の2つの権威(オーソリティ)記録と関連付けられていました。ウォータールー・ルーテル神学校との関連については既にご存じのはずです。関連するウィルフリッド・ローリエ大学の権威記録のリンクをたどり、その関係エリアを見ると、ウォータールー・ルーテル大学との前身/後継関係があることがわかります。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "A predecessor relationship with Wilfrid Laurier University"
+msgstr "ウィルフリッド・ローリエ大学との先行関係"
+
+#: ../../user-manual/access-content/search-atom.rst:868
+msgid ""
+"You can also do an advanced search on a Relationship type (such as \"is the "
+"associate of\") and leave the Related Authority record field blank."
+msgstr "また、「関連する相手である」などの関連タイプを指定して高度な検索を行い、関連する権威レコードのフィールドを空白のままにすることもできます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "A relationship search with just a relationship type"
+msgstr "単一の関係タイプを使用した関係性検索"
+
+#: ../../user-manual/access-content/search-atom.rst:876
+msgid ""
+"AtoM will then return **all** the Authority records that have this type of "
+"relationship."
+msgstr "その後、AtoMはこのタイプの関係性を持つ**すべての**権限記録を返します。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "All is-the-associate-of relationships"
+msgstr "すべてのものは、関連付けの関係にある。"
+
+#: ../../user-manual/access-content/search-atom.rst:887
+msgid "Elasticsearch Authority record fields"
+msgstr "Elasticsearch 権限記録フィールド"
+
+#: ../../user-manual/access-content/search-atom.rst:889
+msgid ""
+"Below is a list of all indexed :term:`authority record` field names as they "
+"are found in Elasticsearch, the search index used in AtoM. Expert users can "
+"use the infomation below to target search queries to specific indexed "
+"fields, and implement search parameters otherwise not directly available via"
+" the :term:`user interface`. For more introductory information on syntax and"
+" basic use, see the Advanced search documentation - specifically, :ref:`es-"
+"fields-intro`. These must be used in the relevant dedicated search box to "
+"return results."
+msgstr ""
+"以下は、AtoMで使用される検索インデックスであるElasticsearchにおいて索引されているすべての「権威記録」フィールド名のリストです。専門ユーザーは、下記の情報を使用して特定の索引されたフィールドに検索クエリを対象とし、ユーザーインターフェースを通じて直接利用できない検索パラメータを実装することができます。構文と基本的な利用についてのより初歩の情報については、アドバンスド検索のドキュメントを参照してください。具体的には、「es-"
+"fields-intro」を参照してください。これらは、結果を返すために関連する専用の検索ボックスで使用する必要があります。"
+
+#: ../../user-manual/access-content/search-atom.rst:900
+#: ../../user-manual/access-content/search-atom.rst:1063
+#: ../../user-manual/access-content/search-atom.rst:1291
+#: ../../user-manual/access-content/search-atom.rst:1488
+msgid ""
+"Not all fields have been tested for their ability to be searched. In some "
+"cases, the parameter expected may be an internal ID value and not a string -"
+" for example, when searching for controlled terms that appear in a "
+":term:`drop-down menu` in the AtoM :term:`edit pages <edit page>`."
+msgstr ""
+"すべてのフィールドが検索可能かどうかをテストされたわけではありません。場合によっては、期待されるパラメータは文字列ではなく内部ID値の場合があります。たとえば、AtoMの編集ページにおいて、ドロップダウンメニューで表示される制御された用語を検索する場合などです。"
+
+#: ../../user-manual/access-content/search-atom.rst:937
+msgid "Accession records"
+msgstr "受入記録"
+
+#: ../../user-manual/access-content/search-atom.rst:942
+msgid ""
+"A dedicated search box for :term:`accession records <accession record>` has "
+"been provided on the accessions :ref:`browse page <page-type-browse>`. In "
+"AtoM 2.1 and later, full-text searching has been returned to the accession "
+"module, and for frequently-searched fields, weighting has been added to "
+"increase the relevance of matching results. Below is a list of indexed "
+"fields and their weighting:"
+msgstr ""
+"アクセッションレコードに特化した検索ボックスがアクセッションの参照ページに設定されました。AtoM "
+"2.1以降では、アクセッションモジュールにフルテキスト検索が再導入され、頻繁に検索されるフィールドでは、一致する結果の関連性を高めるためにウェイティングが追加されました。以下にインデックス化されたフィールドとそのウェイティングの一覧を示します。"
+
+#: ../../user-manual/access-content/search-atom.rst:950
+msgid "Field name"
+msgstr "フィールド名"
+
+#: ../../user-manual/access-content/search-atom.rst:950
+msgid "Weight"
+msgstr "重さ"
+
+#: ../../user-manual/access-content/search-atom.rst:952
+msgid "Accession number"
+msgstr "アクセッション番号"
+
+#: ../../user-manual/access-content/search-atom.rst:952
+#: ../../user-manual/access-content/search-atom.rst:953
+#: ../../user-manual/access-content/search-atom.rst:954
+#: ../../user-manual/access-content/search-atom.rst:955
+msgid "x10"
+msgstr ""
+"申し訳ありませんが、特定のテキストを指定されていないため、翻訳する内容がわかりません。もし翻訳を依頼したいテキストがあれば、具体的な文章や段落をご提供ください。その後、精確な日本語訳を提供できるように努めます。"
+
+#: ../../user-manual/access-content/search-atom.rst:953
+msgid "Donor name"
+msgstr "寄付者の名前"
+
+#: ../../user-manual/access-content/search-atom.rst:954
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/access-content/search-atom.rst:955
+msgid "Scope and content"
+msgstr "範囲と内容"
+
+#: ../../user-manual/access-content/search-atom.rst:956
+msgid "Location information"
+msgstr "ロケーション情報"
+
+#: ../../user-manual/access-content/search-atom.rst:956
+#: ../../user-manual/access-content/search-atom.rst:957
+#: ../../user-manual/access-content/search-atom.rst:958
+#: ../../user-manual/access-content/search-atom.rst:959
+msgid "x5"
+msgstr ""
+"すみませんが、ご提供いただいたテキスト「x5」には、翻訳に必要な情報が不足しています。もしこれが一部のテキストであれば、翻訳を行うための完全な文またはコンテキストを提供していただけますか？それとも、「x5」が特定の内容やコンセプトを表している場合、その詳細を教えてください。それに基づいて適切な翻訳を提供いたします。"
+
+#: ../../user-manual/access-content/search-atom.rst:957
+msgid "Processing notes"
+msgstr "処理ノート"
+
+#: ../../user-manual/access-content/search-atom.rst:958
+msgid "Immediate source of acquisition"
+msgstr "取得の直接的な情報源"
+
+#: ../../user-manual/access-content/search-atom.rst:959
+msgid "Archival/custodial history"
+msgstr "アーカイバル/保管履歴"
+
+#: ../../user-manual/access-content/search-atom.rst:960
+msgid "Appraisal, desctruction and scheduling"
+msgstr "鑑定、破棄、およびスケジューリング"
+
+#: ../../user-manual/access-content/search-atom.rst:961
+msgid "Physical condition"
+msgstr "物理的な状態"
+
+#: ../../user-manual/access-content/search-atom.rst:962
+msgid "Primary contact name"
+msgstr "プライマリコンタクト名"
+
+#: ../../user-manual/access-content/search-atom.rst:963
+msgid "Received extent units"
+msgstr "受け取った範囲の単位"
+
+#: ../../user-manual/access-content/search-atom.rst:966
+msgid ""
+"For more information on working with accession records in AtoM, see: "
+":ref:`accession-records`. See also: :ref:`deaccessions`."
+msgstr ""
+"AtoM での受け入れ記録の操作に関する詳細は、以下を参照してください： :ref:`accession-"
+"records`。また、以下も参照してください： :ref:`deaccessions`。"
+
+#: ../../user-manual/access-content/search-atom.rst:971
+msgid ""
+"In order to search by accession number, please use the prefix "
+"\"identifier:\" before the accession date (i.e. identifier:2015-12-28). This"
+" will pull up all accessions that begin with the accession date 2015-12-28. "
+"Do not use the rest of the accession number, as the backslash will break the"
+" search. This issue has been marked for resolution in the 2.3 release of "
+"AtoM."
+msgstr ""
+"アクセッション番号で検索を行う場合は、アクセッション日付の前に\"identifier:\"という接頭辞を使用してください（例：identifier:2015-12-28）。これにより、アクセッション日付が2015-12-28で始まるすべてのアクセッションが検索されます。アクセッション番号の残りの部分は使用しないでください。バックスラッシュが検索を妨げるためです。この問題は、AtoMのバージョン2.3リリースで解決される予定です。"
+
+#: ../../user-manual/access-content/search-atom.rst:980
+msgid ""
+"To view and search for :term:`accession records <accession record>` in AtoM "
+"you must be :ref:`logged in <log-in>` to a user account with sufficient "
+":term:`access privileges <access privilege>`, such as an :term:`editor` or "
+"an :term:`administrator`. For more information on user roles, see: "
+":ref:`user-roles`. For information on default permissions for user roles, "
+"see: :ref:`default-permissions-by-role`. For information on changing edit "
+"permissions, see: :ref:`edit-user-permissions`. See also: :ref:`manage-user-"
+"accounts`."
+msgstr ""
+"AtoMで :term:`受入記録 <accession record>`を閲覧または検索するには、:term:`編集者` や :term:`管理者` "
+"など、十分な :term:`アクセス権限 <access privilege>` を持つユーザーアカウントで :ref:`ログイン <log-in>` "
+"している必要があります。ユーザーロールに関する詳細情報については、:ref:`user-roles` "
+"をご覧ください。ユーザーロールのデフォルト権限に関する情報については、:ref:`default-permissions-by-role` "
+"をご覧ください。編集権限を変更する方法についての情報は、:ref:`edit-user-permissions` "
+"をご覧ください。また、:ref:`manage-user-accounts` も参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:989
+msgid "**To search for accession records in AtoM:**"
+msgstr "**AtoMで受け入れ記録を検索するには：**"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of a user selecting Accessions in the Manage menu"
+msgstr "ユーザーが管理メニューで「アクセッション」を選択している画像"
+
+#: ../../user-manual/access-content/search-atom.rst:996
+msgid ""
+"Navigate to the accession record :ref:`browse page <page-type-browse>` by "
+"clicking on the |edit| :ref:`Manage menu <main-menu-manage>` (located in the"
+" :term:`main menu` for logged-in users, in the top-right of the AtoM "
+":term:`header bar`) and choosing \"Accessions\" - i.e., **Manage > "
+"Accessions**."
+msgstr ""
+"アクセッション記録の参照ページ :ref:`browse page <page-type-browse>` "
+"に移動するには、ログインしているユーザーの右上にあるAtoM :term:`header bar`内の :term:`main menu` "
+"から、|edit| :ref:`Manage menu <main-menu-"
+"manage>`（管理メニュー）をクリックし、「Accessions」（アクセション）を選択します。つまり、**Manage > "
+"Accessions** の順に進みます。"
+
+#: ../../user-manual/access-content/search-atom.rst:939
+msgid "edit"
+msgstr "ごめんなさい、あなたが求めているテキストが見当たりません。もしテキストが提供されれば、翻訳をお手伝いいたします。"
+
+#: ../../user-manual/access-content/search-atom.rst:1001
+msgid ""
+"AtoM will redirect you to the :term:`accessions <accession record>` browse "
+"page. A list of your accessions will appear; if there are more than 10 "
+"results, a pager will be included. To begin searching for an accession, "
+"place your cursor in the the :term:`dedicated search box` at the top of the "
+"Accessions browse page."
+msgstr ""
+"AtoMはあなたを:term:`accessions <accession "
+"record>`の閲覧ページへリダイレクトします。登録された権利帯の一覧が表示されます。もし10以上の結果がある場合は、ページ送りが含まれます。権利帯を検索するためには、アクセッションの閲覧ページの上部にある:term:`専用検索ボックス`にカーソルを置いてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the Accessions browse page"
+msgstr "アクセッションズ閲覧ページのイメージ"
+
+#: ../../user-manual/access-content/search-atom.rst:1014
+#: ../../user-manual/access-content/search-atom.rst:1560
+#: ../../user-manual/access-content/search-atom.rst:1657
+#: ../../user-manual/access-content/search-atom.rst:1745
+#: ../../user-manual/access-content/search-atom.rst:1826
+#: ../../user-manual/access-content/search-atom.rst:1917
+msgid ""
+"An :term:`administrator` can change the number of results per page for "
+"browse and search result pages throughout AtoM via **Admin > Settings > "
+"Global > Results per page**. By default, the number is set to 10. For more "
+"information, see :ref:`settings`."
+msgstr ""
+"管理者は、AtoM全体の参照と検索結果ページの1ページあたりの結果数を、**管理 > 設定 > グローバル > "
+"表示結果数**から変更することができます。デフォルトでは、この数値は10に設定されています。詳細については、`:ref:`settings`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1019
+#: ../../user-manual/access-content/search-atom.rst:1565
+#: ../../user-manual/access-content/search-atom.rst:1662
+#: ../../user-manual/access-content/search-atom.rst:1750
+msgid ""
+"Type a search term into the :term:`dedicated search box` and press enter, or"
+" use your mouse to click the |searchbutton| search button (represented by "
+"the magnifying glass icon to the right of the search box)."
+msgstr ""
+"専用の検索ボックス :term:`dedicated search box` "
+"に検索語を入力してエンターキーを押すか、またはマウスを使用して検索ボックスの右にある虫眼鏡アイコンで表される |searchbutton| "
+"検索ボタンをクリックしてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the accession record dedicated search box"
+msgstr "アクセッション記録専用の検索ボックスの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1028
+#: ../../user-manual/access-content/search-atom.rst:1583
+#: ../../user-manual/access-content/search-atom.rst:1680
+#: ../../user-manual/access-content/search-atom.rst:1766
+msgid ""
+"AtoM will reload the page with results. If there are more than 10 results, a"
+" pager will be included at the bottom of the results page. The results page "
+"also includes a :term:`sort button` (allowing you to sort results to show "
+"them in alphabetic order, or most recently created/updated). For more "
+"information, see :ref:`recurring-sort-button`."
+msgstr ""
+"AtoMはページを再読み込みして結果を表示します。もし結果が10件を超える場合、結果ページの下部にページャーが含まれます。結果ページには、:term:`ソートボタン`（結果をアルファベット順や最新の作成/更新順に並べ替えることができます）も含まれています。詳細については、:ref:`recurring-"
+"sort-button`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the accession record search results"
+msgstr "帳簿記録の検索結果の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1043
+msgid ""
+"When you have found the record you are searching for, click on its title in "
+"the results, and AtoM will redirect you to the selected accession record's "
+":term:`view page`."
+msgstr ""
+"お探しのレコードを見つけたら、結果でそのタイトルをクリックしてください。そうするとAtoMが選択されたアクセッションレコードの`:term:`表示ページ`にリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:1050
+msgid "Elasticsearch Accession record fields"
+msgstr "Elasticsearch アクセッションレコード・フィールド"
+
+#: ../../user-manual/access-content/search-atom.rst:1052
+msgid ""
+"Below is a list of all indexed :term:`accession record` field names as they "
+"are found in Elasticsearch, the search index used in AtoM. Expert users can "
+"use the infomation below to target search queries to specific indexed "
+"fields, and implement search parameters otherwise not directly available via"
+" the :term:`user interface`. For more introductory information on syntax and"
+" basic use, see the Advanced search documentation - specifically, :ref:`es-"
+"fields-intro`. These must be used in the relevant dedicated search box to "
+"return results."
+msgstr ""
+"以下は、AtoMで使用されている検索インデックスであるElasticsearch内で、索引付けされた「アクセッションレコード」フィールド名の全リストです。経験豊富なユーザーは、以下の情報を使用して特定の索引フィールドに対する検索クエリをターゲットにし、ユーザーインターフェイスを通じて直接利用可能ではない検索パラメータを実装することができます。構文や基本的な使用に関するより初歩的な情報については、高度な検索のドキュメンテーションをご覧ください。具体的には、`es-"
+"fields-intro`セクションを参照してください。これらは結果を返すために、関連する専用の検索ボックスで使用する必要があります。"
+
+#: ../../user-manual/access-content/search-atom.rst:1143
+msgid "|repoicon| Archival institutions"
+msgstr "|repoicon| アーカイブ施設"
+
+#: ../../user-manual/access-content/search-atom.rst:34
+msgid "repoicon"
+msgstr ""
+"\"repoicon\"は、特定の文脈または文章がなければ、直接的な翻訳は存在しません。これはおそらく、\"repository icon\"（リポジトリのアイコン）を短縮した形かもしれません。この場合、リポジトリを指すアイコンやシンボルという意味になります。ただし、現在お手伝いしているのは翻訳作業であると理解しているため、単語をそのまま日本語に置き換えることは推奨されません。\n"
+"\n"
+"実際の文脈に即した翻訳を行うには、\"repoicon\"がどのように使われているか、またはその背景情報が必要になります。もしもそれがArchivematicaシステムにおける特定の機能や部品を指している場合は、その機能を説明する追加的な日本語の説明が必要かもしれません。もしその単語がテキスト内で意味を成す特定の概念や用語を指しているならば、その概念や用語に合わせた適切な訳語を探す作業が求められます。"
+
+#: ../../user-manual/access-content/search-atom.rst:1145
+msgid ""
+"A dedicated search box for :term:`archival institutions <archival "
+"institution>` has been provided on the archival institution :ref:`browse "
+"page <page-type-browse>`. All fields are indexed, but no weighting has been "
+"added to specific fields."
+msgstr ""
+"専用の検索ボックスが `アーカイブ機関 <archival institution>`_:term: 用に、アーカイブ機関の参照:ref:`ページ "
+"<page-type-browse>` "
+"上に提供されています。全てのフィールドがインデックスされていますが、特定のフィールドに重み付けは行われていません。"
+
+#: ../../user-manual/access-content/search-atom.rst:1150
+msgid ""
+"The archival institution browse page has 2 different views - a \"card\" "
+"based view, and a table view. Users can switch quickly between these two "
+"views via the view toggle button located next to the archival institution "
+":term:`dedicated search box`:"
+msgstr ""
+"アーカイブ機関の閲覧ページには、「カード」ベースのビューとテーブルビューの2つの異なる表示方法があります。ユーザーは、アーカイブ機関の:term:`専用検索ボックス`:の隣にあるビュー切り替えボタンを使用して、これらのビュー間を素早く切り替えることができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the view toggle button on the repository browse page"
+msgstr "リポジトリ閲覧ページ上のビュートグルボタンの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1160
+msgid ""
+"For more information on navigating the archival institution browse page, "
+"see: :ref:`Browse archival institutions <browse-institutions>`."
+msgstr ""
+"アーカイブ機関の閲覧ページの操作方法の詳細は、以下を参照してください： :ref:`アーカイブ機関の閲覧 <browse-institutions>`。"
+
+#: ../../user-manual/access-content/search-atom.rst:1163
+msgid ""
+"For more information on working with :term:`archival institution` records in"
+" AtoM, see: :ref:`archival-institutions`. For information on working with "
+"particular fields in the archival institution record edit template, see: "
+":ref:`isdiah-template`."
+msgstr ""
+"AtoMで:term:`アーカイバル機関`レコードを取り扱う方法の詳細については、以下をご覧ください： "
+":ref:`アーカイバル機関`。アーカイバル機関レコードの編集テンプレート内の特定のフィールドを取り扱う方法については、以下を参照してください： "
+":ref:`ISDIAHテンプレート`。"
+
+#: ../../user-manual/access-content/search-atom.rst:1168
+msgid "**To search for archival institutions in AtoM:**"
+msgstr "**AtoM でアーカイブ機関を検索するには：**"
+
+#: ../../user-manual/access-content/search-atom.rst:1170
+msgid ""
+"Using the :term:`browse menu` (available as a :term:`drop-down menu` next to"
+" the :term:`search box` in the AtoM :term:`header bar` at the top of the "
+"page), navigate to **Browse > Archival institutions**. The way the page will"
+" appear may depend on the default view set by an :term:`administrator` - "
+"there is a table view, and a card view, and users can toggle between the "
+"two:"
+msgstr ""
+"`:term:`ブラウズメニュー`（AtoM "
+":term:`ヘッダーバー`の上部にある:term:`検索ボックス`の隣にある:term:`ドロップダウンメニュー`として利用可能）を使い、**ブラウズ"
+" > アーカイバル機関** "
+"へと進んでください。このページの表示方法は、:term:`管理者`によって設定された既定のビューによって変わる場合があります。テーブルビューとカードビューがあり、ユーザーはこれらのビュー間で切り替えることができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid ""
+"An comparison of the card and table views of the repository browse page"
+msgstr "リポジトリの閲覧ページにおけるカードビューとテーブルビューの比較"
+
+#: ../../user-manual/access-content/search-atom.rst:1184
+msgid ""
+"Depending on the default label and menu settings in your installation, the "
+":term:`archival institution` label in your :term:`browse menu` may appear "
+"under a different name (such as \"Repositories,\" \"Archives,\" or another "
+"more user-friendly name). :term:`Administrators <administrator>` can change "
+"the default labels via **Admin > Settings > User interface label**, and the "
+"default menu labels can be changed via **Admin > Menus**. See the "
+":ref:`administer` section for more details."
+msgstr ""
+"インストール時のデフォルトのラベルとメニュー設定によっては、:term:`ブラウズメニュー`の:term:`アーカイブ機関`のラベルが異なる名前（「リポジトリ」、「アーカイブ」または別のユーザーフレンドリーな名前など）で表示されることがあります。:term:`管理者`は**管理"
+" > 設定 > ユーザーインターフェースラベル**からデフォルトのラベルを変更することができ、メニューラベルのデフォルトは**管理 > "
+"メニュー**から変更可能です。詳細については、:ref:`管理する`セクションをご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1192
+msgid ""
+"Place your cursor in the :term:`dedicated search box` at the top of the "
+":term:`archival institution` browse page. Type a search term and press "
+"enter, or use your mouse to click the |searchbutton| search button "
+"(represented by the magnifying glass icon to the right of the search box)."
+msgstr ""
+"アーカイブ機関のブラウズページの上部にある専用の検索ボックスにカーソルを置きます。検索語を入力してエンターキーを押すか、またはマウスを使って検索ボタン（検索ボックスの右側にある拡大鏡アイコンで表されている）をクリックします。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the archival institution dedicated search box"
+msgstr "アーカイブ機関専用検索ボックスの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1204
+msgid ""
+"You can use :term:`Boolean search` operators such as AND, OR, or NOT, as "
+"well as Boolean special characters such as \"quotations\" or the ***** "
+"wildcard symbol to improve your search results. For more information on "
+"available special characters and boolean searching in AtoM, see: "
+":ref:`advanced-search`."
+msgstr ""
+"次のような:term:`ブール検索`オペレーター（AND、OR、NOTなど）、あるいは\"引用符\"や*****ワイルドカード記号のようなブール特殊文字を使用して検索結果を向上させることができます。AtoMで利用可能な特殊文字とブール検索に関する詳細は、:ref:`advanced-"
+"search`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1210
+#: ../../user-manual/access-content/search-atom.rst:1430
+#: ../../user-manual/access-content/search-atom.rst:1861
+#: ../../user-manual/access-content/search-atom.rst:1927
+msgid ""
+"AtoM will reload the page with results. If there are more than 10 results, a"
+" pager will be included at the bottom of the results page."
+msgstr "AtoMは結果を表示するためにページを再読み込みします。もし10件を超える結果がある場合、結果ページの下部にページャが含まれます。"
+
+#: ../../user-manual/access-content/search-atom.rst:1215
+msgid ""
+"In the current release, results have not been weighted to favor title "
+"matches. If you see results without matches in the title (i.e. the "
+"authorized form of name), it means the search term(s) appears somewhere in "
+"the body of the record."
+msgstr ""
+"現行のリリースでは、結果はタイトルの一致を優遇するように加重されていません。タイトル（すなわち、公認された名称の形式）に一致がない結果が表示される場合、それは検索語がレコード本文のどこかに現れていることを意味します。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the archival institution search results, card view"
+msgstr "アーカイブ機関の検索結果の画像、カードビュー"
+
+#: ../../user-manual/access-content/search-atom.rst:1225
+msgid ""
+"Users can toggle between the table view and card view at any time during the"
+" search process, using the view toggle button to the right of the search "
+"box:"
+msgstr ""
+"ユーザーは、検索ボックスの右側にあるビュー切り替えボタンを使用して、検索プロセス中いつでもテーブルビューとカードビューを切り替えることができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the archival institution search results, table view"
+msgstr "アーカイブ機関の検索結果のイメージ、テーブルビュー"
+
+#: ../../user-manual/access-content/search-atom.rst:1234
+msgid ""
+"You can further refine your search with the advanced filters - click the "
+"\"Advanced\" button below the search box to display the advanced filters. "
+"Select the desired filters from the :term:`drop-down menus <drop-down "
+"menu>`, then click the \"Set filters\" button to refine the results:"
+msgstr ""
+"さらに詳細な検索を行うには、高度なフィルターを使用します - "
+"検索ボックスの下にある「高度」ボタンをクリックして、高度なフィルターを表示します。:term:`ドロップダウンメニュー <drop-down "
+"menu>`から望みのフィルターを選択し、その後「フィルターを設定」ボタンをクリックして結果を絞り込んでください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the archival institution search filters"
+msgstr "アーカイブ機関の検索フィルター画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1245
+msgid ""
+"AtoM will reload the page, with the results refined based on the Advanced "
+"search filters."
+msgstr "AtoMはページを再読み込みし、高度な検索フィルタに基づいて結果を絞り込んで表示します。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid ""
+"An image of the archival institution results after a search with\n"
+"filters"
+msgstr "検索フィルタを使用した後のアーカイブ機関の画像 결과"
+
+#: ../../user-manual/access-content/search-atom.rst:1256
+msgid ""
+"After a search, the advanced search filters will reset. You will have to re-"
+"apply them to perform the same search again."
+msgstr "検索後、高度な検索フィルターはリセットされます。同じ検索を再度実行するには、それらを再適用する必要があります。"
+
+#: ../../user-manual/access-content/search-atom.rst:1259
+msgid ""
+"Results in the table view can be sorted based on column - click on the "
+"column header to sort the results; click again to reverse the sort order. "
+"The results page also includes a :term:`sort button` (allowing you to sort "
+"results to show them in alphabetic order, by identifier, or by most recently"
+" created/updated), and a set of :term:`facet filters <facet filter>` to help"
+" you sift through results. For more information on these elements, see "
+":ref:`recurring-sort-button` and :ref:`recurring-facet-filters`."
+msgstr ""
+"テーブルビューの結果は、列に基づいて並べ替えることができます - 列のヘッダをクリックして結果を並べ替え; "
+"もう一度クリックすると並べ替えの順序が逆になります。結果ページには、:term:`ソートボタン`（結果をアルファベット順、識別子順、最新の作成/更新順に並べ替えるためのボタン）、および結果を整理するのに役立つ一連の:term:`ファセットフィルタ<facet"
+" filter>`も含まれています。これらの要素に関する詳細情報については、:ref:`recurring-sort-"
+"button`と:ref:`recurring-facet-filters`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1271
+msgid ""
+"When you have found the record you are searching for, click on its title in "
+"the results, and AtoM will redirect you to the selected archival "
+"institution's :term:`view page`."
+msgstr ""
+"検索している記録を見つけたら、結果に表示されたタイトルをクリックし、AtoMがあなたを選択したアーカイブ機関の`:term:`ビューページ`にリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:1278
+msgid "Elasticsearch Archival institution record fields"
+msgstr "Elasticsearch アーカイブ施設レコードのフィールド"
+
+#: ../../user-manual/access-content/search-atom.rst:1280
+msgid ""
+"Below is a list of all indexed :term:`repository` field names as they are "
+"found in Elasticsearch, the search index used in AtoM. Expert users can use "
+"the infomation below to target search queries to specific indexed fields, "
+"and implement search parameters otherwise not directly available via the "
+":term:`user interface`. For more introductory information on syntax and "
+"basic use, see the Advanced search documentation - specifically, :ref:`es-"
+"fields-intro`. These must be used in the relevant dedicated search box to "
+"return results."
+msgstr ""
+"以下は、AtoMで使用される検索インデックスであるElasticsearchで見つかる、インデックスされたすべての:term:`repository`フィールド名のリストです。熟練ユーザーは、以下の情報を使用して特定のインデックスされたフィールドに検索クエリを絞り込むことができ、:term:`user"
+" "
+"interface`を通じて直接利用できない検索パラメータを実装することができます。構文と基本的な使用方法についての初歩的な情報については、高度な検索ドキュメントをご覧ください。特に、:ref:`es-"
+"fields-intro`を参照してください。これらは、結果を返すために関連する専用の検索ボックスで使用する必要があります。"
+
+#: ../../user-manual/access-content/search-atom.rst:1355
+msgid "Terms"
+msgstr "用語"
+
+#: ../../user-manual/access-content/search-atom.rst:1361
+msgid ""
+"A dedicated search box for :term:`terms <term>` is available on the "
+":ref:`browse page <page-type-browse>` for each :term:`taxonomy`."
+msgstr ""
+"専用の検索ボックスは、各:term:`分類 <taxonomy>`の:ref:`参照ページ <page-type-browse>`に用意されています。"
+
+#: ../../user-manual/access-content/search-atom.rst:1364
+msgid ""
+"In the following example, the :term:`Places <place>` taxonomy has been used "
+"to demonstrate the search functionality, because it is one of the modules "
+"(along with Subjects) where the search box is available to both "
+"authenticated and public users. However, the same search box has been "
+"included on all :term:`taxonomy` pages (available to authenticated users "
+"with the proper permissions via |pencil| :ref:`Manage <main-menu-manage>` "
+"**> Taxonomies**, and then selecting a taxonomy)."
+msgstr ""
+"以下の例では、認証済みユーザーおよび公開ユーザーの両方が検索ボックスを利用できるモジュール（Subjectsと共に）の一つである「Places "
+"<place>」分類法を使用して検索機能を示しています。しかし、同じ検索ボックスは、適切な権限を持つ認証済みユーザーが|pencil|「管理 "
+"<main-menu-manage>」**> 分類法**から選択することでアクセスできる、すべての「taxonomy」ページに含まれています。"
+
+#: ../../user-manual/access-content/search-atom.rst:1357
+msgid "pencil"
+msgstr ""
+"\"Pencil\"は、そのまま日本語で「鉛筆」と訳されます。ただし、もしこれがArchivematicaのコンテキスト内で何か特定の用語を指しており、文脈が必要な場合は、より具体的な情報または文脈が提供されていないため適切に翻訳できません。詳細を提供していただけると助かります。"
+
+#: ../../user-manual/access-content/search-atom.rst:1374
+msgid ""
+"A place is a geographic location registered in a :term:`taxonomy` and used "
+"as an :term:`access point` in :term:`archival descriptions <archival "
+"description>`. For more information on managing places in AtoM, see: "
+":ref:`terms`. For information on adding access points to an :term:`archival "
+"description`, see: :ref:`add-term-fly`."
+msgstr ""
+"場所とは、:term:`分類法（taxonomy）`に登録された地理的な位置のことであり、:term:`アーカイブ記述（archival "
+"description）`における:term:`アクセスポイント（access "
+"point）`として利用されます。AtoMにおける場所の管理に関する詳細情報については、:ref:`terms`を参照してください。アーカイブ記述にアクセスポイントを追加する方法についての情報は、:ref:`add-"
+"term-fly`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1380
+msgid "**To search for terms in AtoM:**"
+msgstr "AtoMにおける用語の検索方法:"
+
+#: ../../user-manual/access-content/search-atom.rst:1382
+msgid ""
+"First, navigate to the relevant taxonomy. For **Places** and **Subjects**, "
+"use the :term:`browse menu` (available as a :term:`drop-down menu` next to "
+"the :term:`search box` in the AtoM :term:`header bar` at the top of the "
+"page), navigate to **Browse > Places** or **Browse > Subjects**. For all "
+"other taxonomies (available only to authenticated (i.e. logged in) users "
+"with the proper :term:`access privleges <access privilege>`), open the "
+"|pencil| :ref:`Manage <main-menu-manage>` menu located in the AtoM "
+":term:`header bar`, select \"Taxonomies\", and then choose the taxonomy you "
+"would like to search."
+msgstr ""
+"まず、関連する分類法（タクソノミー）に移動します。**場所**と**主題**のためには、:term:`ブラウズメニュー`（AtoM "
+":term:`ヘッダーバー`の:term:`検索ボックス`の隣にある:term:`ドロップダウンメニュー`として利用可能）を使用し、**ブラウズ > "
+"場所**または**ブラウズ > 主題**に移動します。その他の分類法（適切な:term:`アクセス権限 "
+"<アクセス権限>`を持つ認証済み（つまりログインした）ユーザーのみ利用可能）については、AtoM :term:`ヘッダーバー`にある|鉛筆| "
+":ref:`管理 <メインメニュー-管理>`メニューを開いて、「分類法」を選択し、検索したい分類法を選んでください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1392
+msgid ""
+"AtoM will redirect you to the related terms browse page. A list of your "
+":term:`terms <term>` will appear; if there are more than 10 results, a pager"
+" will be  included."
+msgstr ""
+"AtoMは関連する用語のブラウズページにリダイレクトされます。あなたの:term:`用語 "
+"<term>`のリストが表示されます。結果が10件を超える場合は、ページャーが含まれます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the places main page"
+msgstr "場所のメインページの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1401
+msgid ""
+"If desired, you can search either only for the preferred label (e.g. the "
+"formal name of the :term:`term` entered into the \"Name\" :term:`field` on "
+"the term :term:`edit page`), or for only the \"Use for\" (e.g. alternate, "
+"non-preferred names) labels associated with the term, using the :term:`drop-"
+"down menu` located on the left of the :term:`dedicated search box`. By "
+"default, AtoM will search All labels (e.g. both the preferred and 'Use for' "
+"labels) associated with a term."
+msgstr ""
+"必要に応じて、専用の検索ボックスの左側に配置されたドロップダウンメニューを使用して、望ましいラベル（例えば、用語編集ページの「名前」フィールドに入力された用語の正式な名前）のみ、または「代わりに使用」（例えば、代替の、優先されない名前）ラベルのみを検索することができます。デフォルトでは、AtoMは用語に関連するすべてのラベル（例えば、優先されるラベルと「代わりに使用」ラベルの両方）を検索します。"
+
+#: ../../user-manual/access-content/search-atom.rst:1411
+msgid ""
+"At the moment, only the labels associated with a term (e.g. its name, and "
+"any \"Use for\" names added) are searchable. Content in other fields (e.g. "
+"scope note, source note, etc) will not return results."
+msgstr ""
+"現時点では、用語に関連付けられたラベル（例：その名前や追加された「使用する名称」など）のみが検索可能です。他のフィールド（例：範囲注記、出典注記など）の内容は検索結果には表示されません。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the dropdown available on the terms search box"
+msgstr "利用可能なドロップダウン機能についての説明が含まれる検索ボックスの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1420
+msgid ""
+"Place your cursor in the :term:`dedicated search box` at the top of the "
+"browse page. Type a search term and press enter, or use your mouse to click "
+"the |searchbutton| search button (represented by the magnifying glass icon "
+"to the right of the search box)."
+msgstr ""
+"ブラウズページの上部にある :term:`専用の検索ボックス` "
+"にカーソルを置きます。検索語を入力し、エンターキーを押すか、またはマウスを使用して|searchbutton| "
+"検索ボタン（検索ボックスの右側にある虫眼鏡アイコンによって表されています）をクリックします。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the places dedicated search box"
+msgstr "専用検索ボックスの場所を示す画像"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the places search results"
+msgstr "検索結果の場所の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1438
+msgid ""
+"The results page includes :term:`sort buttons <sort button>` (allowing you "
+"to sort results to show them in alphabetic order or most recently "
+"created/updated) and a set of :term:`facet filters <facet filter>` to help "
+"you sift through results. For more information on these elements, see "
+":ref:`recurring-sort-button` and :ref:`recurring-facet-filters`."
+msgstr ""
+"結果ページには、結果をアルファベット順または最新に作成/更新された順に表示することができる「ソートボタン<sort "
+"button>」と、結果を掘り下げるための「ファセットフィルター<facet "
+"filter>」のセットが含まれています。これらの要素の詳細については、「recurring-sort-button」と「recurring-"
+"facet-filters」を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1444
+msgid ""
+"For more information on the :term:`user interface` elements available on "
+"term search and browse pages, see: :ref:`browse-subjects-places`"
+msgstr ""
+"詳しくは、検索ページとブラウズページで利用可能な :term:`ユーザーインターフェース` "
+"の要素について、以下を参照してください。:ref:`browse-subjects-places`"
+
+#: ../../user-manual/access-content/search-atom.rst:1449
+msgid ""
+"You can use :term:`Boolean search` operators such as AND, OR, or NOT, as "
+"well as Boolean special characters such as \"quotations\" or the ``*`` "
+"wildcard symbol to improve your search results. For more information on "
+"available special characters and boolean searching in AtoM, see: "
+":ref:`advanced-search`."
+msgstr ""
+"以下のように、AND、OR、またはNOTなどの :term:`ブーリアン検索` オペレーターや、引用符(\" "
+"\")やワイルドカード記号(``*``)などのブーリアン特殊文字を使用して、検索結果を向上させることができます。AtoMで利用可能な特殊文字とブーリアン検索の詳細については、:ref:`advanced-"
+"search`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1460
+msgid ""
+"When you have found the record you are searching for, click on its title in "
+"the results, and AtoM will redirect you to the selected term's :term:`view "
+"page`. The view page will include any further information available about "
+"the term (such as scope and source notes, related terms, etc), as well as "
+"tabs showing related :term:`archival description` and :term:`authority "
+"record` results that have been linked to the term."
+msgstr ""
+"あなたが探している記録を見つけたら、結果の中でそのタイトルをクリックしてください。そうするとAtoMが選択された用語の「ビューページ」へとリダイレクトします。ビューページには、用語に関するさらなる情報（範囲や出典ノート、関連用語など）が含まれており、用語にリンクされている関連する「アーカイブ記述」と「権威記録」の結果を表示するタブもあります。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of a term view page, with related results tabs at the top"
+msgstr "用語ビューページの画像で、上部に関連する結果のタブがあります。"
+
+#: ../../user-manual/access-content/search-atom.rst:1475
+msgid "Elasticsearch term fields"
+msgstr "Elasticsearch 項目フィールド"
+
+#: ../../user-manual/access-content/search-atom.rst:1477
+msgid ""
+"Below is a list of all indexed :term:`term` field names as they are found in"
+" Elasticsearch, the search index used in AtoM. Expert users can use the "
+"infomation below to target search queries to specific indexed fields, and "
+"implement search parameters otherwise not directly available via the "
+":term:`user interface`. For more introductory information on syntax and "
+"basic use, see the Advanced search documentation - specifically, :ref:`es-"
+"fields-intro`. These must be used in the relevant dedicated search box to "
+"return results."
+msgstr ""
+"以下は、AtoMで使用される検索インデックスであるElasticsearch内で見つかったすべてのインデックス化された：term：`term`フィールド名のリストです。専門ユーザーは、以下の情報を使用して特定のインデックス化されたフィールドに検索クエリを対象とすることができ、:term:`user"
+" "
+"interface`を介して直接利用可能ではない検索パラメータを実装することができます。構文と基本的な使用方法についてのより初歩的な情報については、高度な検索のドキュメント、具体的には：ref:`es-"
+"fields-intro`を参照してください。これらは結果を返すために関連する専用検索ボックスで使用しなければなりません。"
+
+#: ../../user-manual/access-content/search-atom.rst:1511
+msgid "Donors"
+msgstr "ドナー"
+
+#: ../../user-manual/access-content/search-atom.rst:1513
+msgid ""
+"A :term:`dedicated search box` for donor records has been provided on the "
+"Donors :ref:`browse page <page-type-browse>`. In AtoM 2.0, this search box "
+"will **only return title (i.e. Authorized form of name) matches** However, "
+"the search box is configured to return partial matches, so for example, a "
+"search for \"ju\" would return names such as Jules, Julie, June, Jude, etc. "
+"This allows the dedicated search box to be used as a navigational aid, "
+"allowing a user to quickly locate a specific record when there are many "
+"donor records saved in the system."
+msgstr ""
+"寄付者記録用の :term:`専用検索ボックス` が、寄付者の :ref:`閲覧ページ<page-type-browse>`に提供されています。AtoM"
+" 2.0では、この検索ボックスは "
+"**タイトル（つまり認可された名称の形式）の一致のみを返します**。ただし、検索ボックスは部分一致を返すように設定されているので、例えば「ju」と検索すると、Jules、Julie、June、Judeなどの名前が表示されます。これにより、専用検索ボックスをナビゲーション支援として使用でき、システムに多くの寄付者記録が保存されている場合に、ユーザーが特定の記録を迅速に見つけることができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:1522
+msgid ""
+"For more information on working with donor records in AtoM, see: "
+":ref:`donors`."
+msgstr "AtoMで寄贈者記録を扱う方法についての詳しい情報は、以下を参照してください：`寄贈者`。"
+
+#: ../../user-manual/access-content/search-atom.rst:1527
+msgid ""
+"To view and search for Donor records in AtoM you must be :ref:`logged in "
+"<log-in>` to a user account with sufficient :term:`access privileges <access"
+" privilege>`, such as an :term:`editor` or an :term:`administrator`. For "
+"more information on user roles, see: :ref:`user-roles`. For information on "
+"default permissions for user roles, see: :ref:`default-permissions-by-role`."
+" For information on changing edit permissions, see: :ref:`edit-user-"
+"permissions`. See also: :ref:`manage-user-accounts`."
+msgstr ""
+"AtoMで寄贈者の記録を表示および検索するには、:term:`編集者`や:term:`管理者`など、十分な:term:`アクセス権限 <access "
+"privilege>`を持つユーザーアカウントに :ref:`ログイン<log-in>` "
+"している必要があります。ユーザーロールについての詳細は、:ref:`user-"
+"roles`をご覧ください。ユーザーロールのデフォルト権限についての情報は、:ref:`default-permissions-by-"
+"role`をご覧ください。編集権限を変更する方法については、:ref:`edit-user-"
+"permissions`をご覧ください。また、:ref:`manage-user-accounts`も参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1536
+msgid "**To search for donor records in AtoM:**"
+msgstr "**AtoMで寄贈者記録を検索するには：**"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of a user selecting Donors in the Manage menu"
+msgstr "ユーザーが管理メニューで寄贈者を選択している画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1543
+msgid ""
+"Navigate to the donor record :ref:`browse page <page-type-browse>` by "
+"clicking on the |edit| :ref:`Manage menu <main-menu-manage>` (located in the"
+" :term:`main menu` for logged-in users, in the top-right of the AtoM "
+":term:`header bar`) and choosing \"Donors\" - i.e., **Manage > Donors**."
+msgstr ""
+"寄贈者記録の閲覧ページ :ref:`browse page <page-type-browse>` "
+"に移動するには、ログインしているユーザーの右上にあるAtoM :term:`header bar` の :term:`main menu` 内に位置する"
+" |edit| :ref:`管理メニュー <main-menu-manage>`（Manage "
+"menu）をクリックし、「寄贈者」を選択します。つまり、**管理 > 寄贈者**（Manage > Donors）を選びます。"
+
+#: ../../user-manual/access-content/search-atom.rst:1548
+msgid ""
+"AtoM will redirect you to the Donors browse page. A list of your donor "
+"records will appear; if there are more than 10 results, a pager will be "
+"included. To begin searching for a donor record, place your cursor in the "
+"the :term:`dedicated search box` at the top of the Donors browse page."
+msgstr ""
+"AtoMはあなたを寄贈者一覧ページにリダイレクトします。あなたの寄贈者記録のリストが表示されます。もし結果が10件を超える場合は、ページャーが含まれます。寄贈者記録を検索するためには、寄贈者一覧ページの上部にある`:term:`専用の検索ボックス`にカーソルを置いて開始します。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the Donors browse page"
+msgstr "ドナーのブラウズページの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the donor record dedicated search box"
+msgstr "ドナー記録専用検索ボックスの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1576
+msgid ""
+"In 2.0.0, AtoM will **only** search on the title (i.e. authorized form of "
+"name) of the donor record, but it will provide fuzzy matching - that is, "
+"instead of requiring an exact match on a title, it will return partial "
+"matches as well - so a search for \"way\" would return donor names such as "
+"Wayson, Wayne, and even Galloway, instead of failing to return any (as in an"
+" exact match search)."
+msgstr ""
+"バージョン2.0.0では、AtoMは寄贈者レコードのタイトル（つまり、認定された名称の形式）**のみ**に対して検索を行いますが、ファジーマッチングを提供します。つまり、タイトルに完全一致が必要な場合の代わりに、部分一致も返されることになります。ですから、「way」という検索には、WaysonやWayne、さらにはGallowayのような寄贈者名が返されることになり、完全一致検索の場合のように何も返されないということにはなりません。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the donor record search results"
+msgstr "提供者レコード検索結果の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1598
+msgid ""
+"When you have found the record you are searching for, click on its title in "
+"the results, and AtoM will redirect you to the selected donor record's "
+":term:`view page`."
+msgstr ""
+"検索しているレコードを見つけたら、結果の中でそのタイトルをクリックしてください。するとAtoMが選択された寄贈者レコードの「ビューページ」へリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:1607
+msgid "Rights holders"
+msgstr "権利保有者"
+
+#: ../../user-manual/access-content/search-atom.rst:1609
+msgid ""
+"A :term:`dedicated search box` for Rights holder records has been provided "
+"on the Rights holders :ref:`browse page <page-type-browse>`. In AtoM 2.0.0, "
+"this search box will **only return title (i.e. Authorized form of name) "
+"matches** However, the search box is configured to return partial matches, "
+"so for example, a search for \"un\" would return terms such as Underwood, "
+"United, and University, as well as Munn. This allows the dedicated search "
+"box to be used as a navigational aid, allowing a user to quickly locate a "
+"specific record when there are many rights holder records saved in the "
+"system."
+msgstr ""
+"専用の検索ボックスが、権利保持者レコード用に権利保持者の :ref:`ブラウズページ<page-type-browse>`に提供されています。AtoM "
+"2.0.0では、この検索ボックスは**タイトル（つまり、認可された形式の名前）に一致するもののみを返します**。しかし、この検索ボックスは部分一致を返すように設定されているので、例えば「un」と検索すると、Underwood、United、そしてUniversityのような用語や、Munnも返されます。これにより、専用の検索ボックスはナビゲーションの補助として使用することができ、ユーザーがシステム内に保存されている多くの権利保持者レコードの中から特定のレコードを迅速に見つけることができるようになります。"
+
+#: ../../user-manual/access-content/search-atom.rst:1618
+msgid ""
+"For more information on working with Rights and Rights holder records in "
+"AtoM, see: :ref:`rights`."
+msgstr "AtoMでの権利と権利所有者の記録の扱い方についての詳細は、:ref:`rights`を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1623
+msgid ""
+"To view and search for Rights holder records in AtoM you must be "
+":ref:`logged in <log-in>` to a user account with sufficient :term:`access "
+"privileges <access privilege>`, such as an :term:`editor` or an "
+":term:`administrator`. For more information on user roles, see: :ref:`user-"
+"roles`. For information on default permissions for user roles, see: "
+":ref:`default-permissions-by-role`. For information on changing edit "
+"permissions, see: :ref:`edit-user-permissions`. See also: :ref:`manage-user-"
+"accounts`."
+msgstr ""
+"AtoMで権利保有者レコードを閲覧・検索するには、:ref:`ログイン <log-in>`して、適切な:term:`アクセス権限 <access "
+"privilege>`を持つユーザーアカウントである必要があります。たとえば、:term:`編集者`や:term:`管理者`のようなユーザーです。ユーザー役割についての詳しい情報は、こちらを参照してください:"
+" :ref:`user-roles`。ユーザー役割のデフォルト権限についての情報は、こちらを参照してください: :ref:`default-"
+"permissions-by-role`。編集権限を変更する方法についての情報は、こちらを参照してください: :ref:`edit-user-"
+"permissions`。また、参照してください: :ref:`manage-user-accounts`。"
+
+#: ../../user-manual/access-content/search-atom.rst:1632
+msgid "**To search for rights holder records in AtoM:**"
+msgstr "**AtoMで権利保有者レコードを検索するには：**"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of a user selecting Rights holders in the Manage menu"
+msgstr "ユーザーが管理メニューで権利保有者を選択する画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1639
+msgid ""
+"Navigate to the rights holder record :ref:`browse page <page-type-browse>` "
+"by clicking on the |edit| :ref:`Manage menu <main-menu-manage>` (located in "
+"the :term:`main menu` for logged-in users, in the top-right of the AtoM "
+":term:`header bar`) and choosing \"Rights holders\" - i.e., **Manage > "
+"Rights holders**."
+msgstr ""
+"権利保有者レコードの参照ページ :ref:`閲覧ページ <page-type-browse>` に移動するには、ログインしているユーザー向けの "
+":term:`メインメニュー` の右上にある AtoM :term:`ヘッダーバー` の中で、|edit| :ref:`管理メニュー <main-"
+"menu-manage>`（**管理 > 権利保有者**）をクリックして、「権利保有者」を選択します。"
+
+#: ../../user-manual/access-content/search-atom.rst:1644
+msgid ""
+"AtoM will redirect you to the Rights holders browse page. A list of your "
+"rights holder records will appear; if there are more than 10 results, a "
+"pager will be included. To begin searching for a rights holder record, place"
+" your cursor in the the :term:`dedicated search box` at the top of the "
+"Rights holder browse page."
+msgstr ""
+"AtoMはあなたを権利保持者の閲覧ページにリダイレクトします。あなたの権利保持者レコードのリストが表示されるでしょう。もし結果が10件を超える場合は、ページャーが含まれます。権利保持者レコードの検索を開始するには、権利保持者の閲覧ページの上部にある専用の検索ボックスにカーソルを置いてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the Rights holders browse page"
+msgstr "権利保有者の閲覧ページの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the rights holder records dedicated search box"
+msgstr "権利保有者の記録専用の検索ボックスの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1673
+msgid ""
+"In 2.0.0, AtoM will **only** search on the title (i.e. authorized form of "
+"name) of the rights holder record, but it will provide fuzzy matching - that"
+" is, instead of requiring an exact match on a title, it will return partial "
+"matches as well - so a search for \"way\" would return donor names such as "
+"Wayson, Wayne, and even Galloway, instead of failing to return any (as in an"
+" exact match search)."
+msgstr ""
+"2.0.0では、AtoMは権利保持者レコードのタイトル（つまり、公認された名称形式）に**のみ**検索を行いますが、ファジーマッチングを提供します。つまり、タイトルに対する完全な一致を要求する代わりに、部分一致も返すことになります。そのため、「way」という検索であれば、Wayson、Wayne、さらにはGallowayのような寄贈者の名前が、完全一致検索で結果が返らない場合（失敗する場合）とは異なり返されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the rights holder record search results"
+msgstr "権利保有者記録の検索結果の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1695
+msgid ""
+"When you have found the record you are searching for, click on its title in "
+"the results, and AtoM will redirect you to the selected rights holder "
+"record's :term:`view page`."
+msgstr ""
+"検索している記録を見つけたら、結果の中のそのタイトルをクリックし、AtoMはあなたを選択された権利保有者の記録の`:term:`閲覧ページ`にリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:1704
+msgid "|functicon| Functions"
+msgstr "|機能| 機能"
+
+#: ../../user-manual/access-content/search-atom.rst:22
+msgid "functicon"
+msgstr ""
+"I'm sorry, but \"functicon\" doesn't appear to be a recognized English word "
+"or a common term in the field of digital preservation. It seems like it "
+"could be a typo or a misprint. If \"functicon\" is a specific term related "
+"to the Archivematica documentation you are referring to, please provide more"
+" context or the correct term so that I can assist you with the translation. "
+"If you need a translation related to digital preservation or Archivematica's"
+" functionality, please provide an accurate sentence or paragraph."
+
+#: ../../user-manual/access-content/search-atom.rst:1706
+msgid ""
+"A dedicated search box for :term:`functions <function>` has been provided on"
+" the functions :ref:`browse page <page-type-browse>`. In AtoM 2.0.0, this "
+"search box will **only return title (i.e. authorized form of name) matches**"
+" However, the search box is configured to return partial matches, so for "
+"example, a search for \"sing\" would return terms such as Singing, Singe, "
+"and Singular, as well as Licensing, Browsing, etc. This allows the dedicated"
+" search box to be used as a navigational aid, allowing a user to quickly "
+"locate a specific record when there are many function records saved in the "
+"system."
+msgstr ""
+"専用の機能用検索ボックスが、機能の参照ページに設置されています。AtoM "
+"2.0.0では、この検索ボックスは**タイトル（すなわち、公式な名称形式）の一致のみ**を返しますが、部分一致を返すように設定されているため、例えば「sing」と検索すると、Singing、Singe、Singularのような用語だけでなく、Licensing、Browsingなども結果として表示されます。これにより、専用の検索ボックスをナビゲーションの助けとして使用でき、システム内に多くの機能レコードが保存されている場合に、特定のレコードを迅速に見つけることができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:1716
+msgid ""
+"For more information on working with :term:`functions <function>` in AtoM, "
+"see: :ref:`functions`. For information on working with particular fields in "
+"the functions edit template, see: :ref:`isdf-template`."
+msgstr ""
+"AtoMでの:term:`関数 <function>` "
+"の利用に関する詳細情報は、:ref:`functions`を参照してください。関数編集テンプレート内の特定のフィールドの操作方法については、:ref:`isdf-"
+"template`をご覧ください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1720
+msgid "**To search for functions in AtoM:**"
+msgstr "AtoMでの機能検索方法:"
+
+#: ../../user-manual/access-content/search-atom.rst:1722
+msgid ""
+"Navigate to the functions :ref:`browse page <page-type-browse>` by clicking "
+"on the :term:`browse menu` (located in the AtoM :term:`header bar`, next to "
+"the general :term:`search box`) and selecting \"Functions\" from the "
+":term:`drop-down menu` that appears."
+msgstr ""
+"以下の機能の :ref:`ブラウズページ <page-type-browse>` に移動するには、:term:`ブラウズメニュー`（AtoM の "
+":term:`ヘッダーバー` にある、一般的な :term:`検索ボックス` の隣に位置しています）をクリックし、現れる "
+":term:`ドロップダウンメニュー` から「機能」を選択してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the browse menu, in which a user is selecting Functions"
+msgstr "ブラウズメニューの画像で、ユーザーが「機能(Function)」を選択しているところです。"
+
+#: ../../user-manual/access-content/search-atom.rst:1732
+msgid ""
+"AtoM will redirect you to the :term:`functions <function>` browse page. A "
+"list of your functions will appear; if there are more than 10 results, a "
+"pager will be included. To begin searching for an accession, place your "
+"cursor in the the :term:`dedicated search box` at the top of the Accessions "
+"browse page."
+msgstr ""
+"AtoMはあなたを「機能」ブラウズページにリダイレクトします。「機能」の一覧が表示されます。もし結果が10以上ある場合には、ページャーが含まれます。受入記録を検索を開始するには、カーソルをアクセッションブラウズページの上部にある専用検索ボックスに置いてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the Functions browse page"
+msgstr "関数ブラウズページの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the functions dedicated search box"
+msgstr "専用検索ボックスの機能の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1761
+msgid ""
+"In 2.0.0, AtoM will **only** search on the title (i.e. authorized form of "
+"name) of the function, but it will return partial matches - so a search for "
+"\"reg\" would return Regular, Registration, and Regulation, as well as "
+"Deregulation and Desegregation."
+msgstr ""
+"2.0.0では、AtoMは機能のタイトル（すなわち、公式の名称形式）にのみ検索を行いますが、部分一致の結果を返します - "
+"したがって、\"reg\"の検索はRegular、Registration、Regulationだけでなく、DeregulationやDesegregationも返すことになります。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the function search results"
+msgstr "機能検索結果の画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1781
+msgid ""
+"When you have found the record you are searching for, click on its title in "
+"the results, and AtoM will redirect you to the selected function's "
+":term:`view page`."
+msgstr ""
+"お探しの記録を見つけたら、結果に表示されているそのタイトルをクリックしてください。すると、AtoMが選択した機能の「ビューページ」にリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:1790
+msgid "Users"
+msgstr "ユーザー"
+
+#: ../../user-manual/access-content/search-atom.rst:1792
+msgid ""
+"A :term:`dedicated search box` for managing Users and user accounts has been"
+" added to the user :ref:`browse page <page-type-browse>`. This search box "
+"will **only return user name and email matches** However, the search box is "
+"configured to return partial matches, so for example, a search for \"ca\" "
+"would return Names such as Cameron, Cal, and also Bianca, as well as "
+"returning any user with an email that ends with \".ca\". This allows the "
+"dedicated search box to be used as a navigational aid, allowing an "
+":term:`administrator` to quickly locate a specific user when there are many "
+"user accounts saved in the system (particularly in a :term:`multi-repository"
+" system` such as a :term:`network` or portal site)."
+msgstr ""
+"Archivematicaのユーザー管理画面には、ユーザーおよびユーザーアカウントを管理するための:term:`専用検索ボックス`が追加されました。この検索ボックスは**ユーザー名と電子メールアドレスの一致のみを返します**。しかし、検索ボックスは部分一致の結果も返すように設定されており、例えば"
+" \"ca\" と検索すれば、CameronやCalなどの名前や、Biancaのように \"ca\" を含む名前を返しますし、\".ca\" "
+"で終わる電子メールアドレスを持つユーザーも返します。これにより、専用検索ボックスはナビゲーショナルエイドとして使用することができ、特に複数のリポジトリを持つシステム（例えば、:term:`ネットワーク`やポータルサイトといった:term:`マルチリポジトリシステム`）では、多くのユーザーアカウントが保存されている場合に、:term:`管理者`が特定のユーザーを迅速に見つけることが可能になります。"
+
+#: ../../user-manual/access-content/search-atom.rst:1803
+msgid ""
+"For more information on working with User accounts in AtoM, see: "
+":ref:`manage-user-accounts`. See also: :ref:`edit-user-permissions`."
+msgstr ""
+"AtoMでユーザーアカウントを操作する詳細情報については、次を参照してください： :ref:`manage-user-"
+"accounts`。また、次もご覧ください： :ref:`edit-user-permissions`。"
+
+#: ../../user-manual/access-content/search-atom.rst:1806
+msgid "**To search for user account records in AtoM:**"
+msgstr "**AtoMでユーザーアカウントレコードを検索するには：**"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the Admin menu, where Users is being selected."
+msgstr "管理メニューの画像で、「ユーザー」が選択されています。"
+
+#: ../../user-manual/access-content/search-atom.rst:1813
+msgid ""
+"Navigate to the Users :ref:`browse page <page-type-browse>` by clicking on "
+"the |gears| :ref:`Admin menu <main-menu-admin>` (located in the :term:`main "
+"menu` for logged-in :term:`administrators <administrator>`, in the top-right"
+" of the AtoM :term:`header bar`) and choosing \"Users\" - i.e., **Admin > "
+"Users**."
+msgstr ""
+"|gears| の :ref:`管理メニュー <main-menu-admin>`（ログインした :term:`管理者 <administrator>`"
+" にとって、AtoM の :term:`ヘッダーバー` の右上に位置しています）をクリックし、\"Users\" を選択することで、ユーザーの "
+":ref:`ブラウズページ <page-type-browse>` に移動します。つまり、**管理 > ユーザー**です。"
+
+#: ../../user-manual/access-content/search-atom.rst:19
+msgid "gears"
+msgstr "「ギアーズ」"
+
+#: ../../user-manual/access-content/search-atom.rst:1818
+msgid ""
+"AtoM will redirect you to the Users browse page. A list of the user accounts"
+" in your AtoM installation will appear;  if there are more than 10 results, "
+"a pager will be included. To begin searching for a specific user, place your"
+" cursor in the the :term:`dedicated search box` at the top of the page."
+msgstr ""
+"AtoMはあなたをユーザー閲覧ページにリダイレクトします。AtoMインストールにあるユーザーアカウントのリストが表示されます。もし結果が10以上ある場合は、ページャーが含まれます。特定のユーザーを検索を開始するには、ページの上部にある`:term:`専用検索ボックス`にカーソルを置きます。"
+
+#: ../../user-manual/access-content/search-atom.rst:1831
+msgid ""
+"Type a search term (such as a name or email) into the :term:`dedicated "
+"search box` and press enter, or use your mouse to click the |searchbutton| "
+"search button (represented by the magnifying glass icon to the right of the "
+"search box)."
+msgstr ""
+"検索用語（名前やメールアドレスなど）を専用の検索ボックスに入力してEnterキーを押すか、またはマウスを使用して検索ボックスの右側にある虫眼鏡アイコンで表される|searchbutton|"
+" 検索ボタンをクリックしてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the Active/inactive tabs in Users"
+msgstr "ユーザーのアクティブ/非アクティブタブの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1843
+msgid ""
+"Users marked \"Inactive\" will **not** be included in search results. To "
+"locate an inactive user, you will have to browse through the list of users "
+"who have been marked inactive. Use the blue tabs (sometimes called  "
+"\"pills\" due to their rounded shape) to switch from \"Show active only\" to"
+" \"Show inactive only\". For more information on users, see :ref:`manage-"
+"user-accounts`. For specific information on marking a user inactive, see: "
+":ref:`mark-user-inactive`."
+msgstr ""
+"「非アクティブ」に設定されたユーザーは、検索結果に**含まれません**。非アクティブなユーザーを見つけるには、非アクティブとマークされたユーザーリストを閲覧する必要があります。\"Show"
+" active only\"（アクティブのみ表示）から \"Show inactive "
+"only\"（非アクティブのみ表示）に切り替えるために、青いタブ（その丸みを帯びた形状から時々「錠剤」と呼ばれます）を使用してください。ユーザーに関する詳しい情報は"
+" :ref:`manage-user-accounts` を参照してください。ユーザーを非アクティブにする具体的な情報については :ref:`mark-"
+"user-inactive` を参照してください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1853
+msgid ""
+"In 2.0.1, AtoM will **only** search on the title (i.e. authorized form of "
+"name) of the rights holder record, but it will return partial matches - for "
+"example, a search for \"way\" would return donor names such as Wayson, "
+"Wayne, and even Galloway, instead of failing to return any (as in an exact "
+"match search). Similarly, a search for \"es\" would return names such as "
+"Esther and Reeves, as well as any email address ending in \".es\"."
+msgstr ""
+"2.0.1では、AtoMは権利所有者レコードのタイトル（すなわち、公式の名称形式）に**のみ**検索を行いますが、部分一致の結果も返します。例えば、「way」という検索では、完全一致の検索でなければ何も返されない代わりに、Wayson、Wayne、さらにはGallowayのような寄贈者の名前が結果として表示されます。同様に、「es」という検索では、EstherやReevesのような名前だけでなく、\".es\"で終わるメールアドレスも返されます。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of search results being returned on the User browse page."
+msgstr "ユーザー閲覧ページで検索結果が表示されている画像。"
+
+#: ../../user-manual/access-content/search-atom.rst:1873
+msgid ""
+"When you have found the user record you are searching for, click on its "
+"title (i.e. user name) in the results, and AtoM will redirect you to the "
+"selected user's :term:`profile <user profile>`."
+msgstr ""
+"検索しているユーザーレコードを見つけたら、結果に表示されるそのタイトル（つまりユーザー名）をクリックすると、AtoMは選択したユーザーの「プロファイル<ユーザープロファイル>」にリダイレクトします。"
+
+#: ../../user-manual/access-content/search-atom.rst:1882
+msgid "Physical storage"
+msgstr "物理的な保存"
+
+#: ../../user-manual/access-content/search-atom.rst:1884
+msgid ""
+"As of AtoM 2.1, a **basic** search of physical storage containers has been "
+"added to the physical storage module's :ref:`browse page <page-type-"
+"browse>`. Note that special characters for :term:`Boolean search` (e.g. the "
+"``*`` wildcard or ``~`` fuzzy search characters) are **not** supported in "
+"this search box. However, the  search box is configured to return partial "
+"matches, so for example, a search for  \"Box 1\" would return container "
+"names such as Box 10, Box 11, and Box 100, etc. This allows the dedicated "
+"search box to be used as a navigational aid, allowing an "
+":term:`administrator` to quickly locate a specific container when there are "
+"many containers saved in the system."
+msgstr ""
+"AtoM 2.1から、物理的な収納コンテナを簡易検索する機能が物理収納モジュールの参照ページ（:ref:`ブラウズページ <page-type-"
+"browse>`）に追加されました。:term:`ブール検索`の特殊文字（例えば、ワイルドカード「*」やファジー検索文字「~」）は、この検索ボックスでは**サポートされていない**ことに注意してください。しかし、検索ボックスは部分一致を返すように設定されているため、例えば「Box"
+" 1」と検索すると、Box 10、Box 11、Box "
+"100などのコンテナ名が返されます。これにより、専用の検索ボックスはナビゲーションの助けとして使用でき、:term:`管理者`がシステム内に多くのコンテナが保存されている場合、特定のコンテナをすばやく見つけることができます。"
+
+#: ../../user-manual/access-content/search-atom.rst:1894
+msgid ""
+"For more information on working with the Physical storage module in AtoM, "
+"see: :ref:`physical-storage`."
+msgstr "AtoMの物理的なストレージモジュールの使用に関する詳細情報については、次を参照してください。：ref:`物理的ストレージ`。"
+
+#: ../../user-manual/access-content/search-atom.rst:1897
+msgid "**To search for physical storage containers in AtoM:**"
+msgstr "AtoMで物理的保管コンテナを検索するには："
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of the Manage menu in the AtoM header bar"
+msgstr "AtoMヘッダーバーにある「管理」メニューの画像"
+
+#: ../../user-manual/access-content/search-atom.rst:1904
+msgid ""
+"Navigate to the Physical storage :ref:`browse page <page-type-browse>` by "
+"clicking on the |manage| :ref:`Manage menu <main-menu-manage>` (located in "
+"the :term:`main menu` for logged-in :term:`administrators <administrator>`, "
+"in the top-right of the AtoM :term:`header bar`) and choosing \"Physical "
+"storage\" - i.e., **Manage > Physical storage**."
+msgstr ""
+"管理するには、ログインしている :term:`管理者 <administrator>`のための :term:`メインメニュー`（AtoM "
+":term:`ヘッダーバー`の右上に位置）にある |manage| :ref:`管理メニュー <main-menu-manage>` "
+"をクリックし、「Physical storage」を選択してください。つまり、**管理 > 物理的保管**から :ref:`ブラウズページ <page-"
+"type-browse>` に移動します。"
+
+#: ../../user-manual/access-content/search-atom.rst:38
+msgid "manage"
+msgstr "管理"
+
+#: ../../user-manual/access-content/search-atom.rst:1909
+msgid ""
+"AtoM will redirect you to the Physical storage browse page. A list of the "
+"containers you have created in your AtoM installation will appear;  if there"
+" are more than 10 results, a pager will be included. To begin searching for "
+"a specific container, place your cursor in the the :term:`dedicated search "
+"box` at the top of the page."
+msgstr ""
+"AtoMはあなたを物理的保存スペースの閲覧ページにリダイレクトします。あなたのAtoMインストールで作成したコンテナのリストが表示されます。検索結果が10以上ある場合、ページャーが含まれます。特定のコンテナを検索し始めるには、ページの上部にある`:term:`専用検索ボックス`にカーソルを置いてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:1922
+msgid ""
+"Type a search term (i.e. a whole or partial container name) into the "
+":term:`dedicated search box` and press enter, or use your mouse to click the"
+" |searchbutton| search button (represented by the magnifying glass icon to "
+"the right of the search box)."
+msgstr ""
+"検索語（つまり、全体または部分的なコンテナ名）を:term:`専用の検索ボックス`に入力し、エンターキーを押すか、マウスを使用して|searchbutton|"
+" 検索ボタン（検索ボックスの右側にある虫眼鏡のアイコンで表されます）をクリックしてください。"
+
+#: ../../user-manual/access-content/search-atom.rst:-1
+msgid "An image of search results being returned in Physical storage."
+msgstr "物理的ストレージで返される検索結果の画像。"
+
+#: ../../user-manual/access-content/search-atom.rst:1939
+msgid ""
+"When you have found the user record you are searching for, click on its "
+"title (i.e. user name) in the results, and AtoM will redirect you to the "
+"selected container's :term:`view page`."
+msgstr ""
+"検索しているユーザーレコードを見つけたら、結果の中でそのタイトル（つまり、ユーザー名）をクリックします。そうすると、AtoMは選択したコンテナの「閲覧ページ」へリダイレクトします。"

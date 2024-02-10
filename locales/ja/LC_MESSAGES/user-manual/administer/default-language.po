@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/default-language.rst:5
+msgid "Default language"
+msgstr "デフォルト言語"
+
+#: ../../user-manual/administer/default-language.rst:7
+msgid ""
+":term:`Administrators <administrator>` can easily change the available "
+"languages in the :term:`Language menu <language menu>` in the  :ref:`Site "
+"settings <settings>`. When a user visits your AtoM site it will load the "
+"English interface by default. However, you may wish to have the site load in"
+" another language."
+msgstr ""
+"管理者は :ref:`サイト設定<settings>` にある :term:`言語メニュー<language menu>` "
+"で利用可能な言語を簡単に変更することができます。ユーザーがあなたのAtoMサイトにアクセスすると、デフォルトでは英語のインターフェースが読み込まれます。しかし、サイトを別の言語で読み込みたい場合もあるでしょう。"
+
+#: ../../user-manual/administer/default-language.rst:13
+msgid ""
+"This is done by making a change in the "
+":file:`/apps/qubit/config/settings.yml` file. This will have to be done by a"
+" system administrator who has access to the AtoM application files on your "
+"web server."
+msgstr ""
+"これは、`:file:`/apps/qubit/config/settings.yml` "
+"ファイルを変更することによって行われます。これは、Webサーバー上のAtoMアプリケーションファイルにアクセスできるシステム管理者により実行される必要があります。"
+
+#: ../../user-manual/administer/default-language.rst:25
+msgid ""
+"If you cannot find the setting :file:`default_culture`, add it under the "
+"section :file:`.settings`. The default value is \"en\", which can be "
+"replaced with any other `RFC 5646 code "
+"<https://tools.ietf.org/html/rfc5646>`_ for your preferred default language,"
+" e.g. \"fr\" for French, \"nl\" for Dutch, \"pt\" for Portuguese, \"es\" for"
+" Spanish, etc."
+msgstr ""
+"もし設定項目 :file:`default_culture` が見つからない場合は、セクション :file:`.settings` "
+"の下に追加してください。デフォルト値は \"en\" で、これは `RFC 5646 コード "
+"<https://tools.ietf.org/html/rfc5646>`_ "
+"に基づいた任意の他の言語コードに置き換えることができます。例えば、フランス語なら \"fr\"、オランダ語なら \"nl\"、ポルトガル語なら "
+"\"pt\"、スペイン語なら \"es\" などです。"
+
+#: ../../user-manual/administer/default-language.rst:31
+msgid ""
+"The AtoM configuration files use the YAML format, where the data structure "
+"hierarchy is maintained by outline indentation. The specific number of "
+"spaces in the indentation is unimportant as long as parallel elements have "
+"the same left justification and the hierarchically nested elements are "
+"indented further. Notice that strings do not require enclosure in "
+"quotations."
+msgstr ""
+"AtoMの設定ファイルはYAML形式を採用しており、データ構造の階層はアウトラインのインデントによって保たれます。インデントにおける空白の具体的な数は、並列要素が同じ左揃えを保っていて、階層的にネストされた要素がさらにインデントされている限り、重要ではありません。文字列を引用符で囲む必要がないことに注意してください。"
+
+#: ../../user-manual/administer/default-language.rst:37
+msgid ""
+"Once you make this change and save the settings.yml file, you will have to "
+":ref:`clear the cache <maintenance-clear-cache>` for this setting to take "
+"effect."
+msgstr ""
+"この変更を行い、settings.ymlファイルを保存した後、この設定が有効になるためには、:ref:`キャッシュをクリア<maintenance-"
+"clear-cache>`する必要があります。"
+
+#: ../../user-manual/administer/default-language.rst:40
+msgid ":ref:`Back to top <default-language>`"
+msgstr ":ref:`トップへ戻る <default-language>`"

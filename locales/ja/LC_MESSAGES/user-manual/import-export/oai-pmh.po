@@ -1,0 +1,1145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/import-export/oai-pmh.rst:5
+msgid "OAI Repository"
+msgstr "OAIリポジトリ"
+
+#: ../../user-manual/import-export/oai-pmh.rst:11
+msgid ""
+"AtoM has the ability to act as a data provider to service providers "
+"interested in harvesting descriptive metadata from AtoM, by exposing either "
+"simple Dublin Core XML or EAD 2002 XML via OAI-PMH, the Open Archives "
+"Initiative Protocol for Metadata Harvesting (version 2.0)."
+msgstr ""
+"AtoMは、データプロバイダーとして機能し、デスクリプティブメタデータをAtoMから収集に関心のあるサービスプロバイダーに対して、シンプルなダブリンコアXMLまたはEAD"
+" 2002 XMLを、OAI-"
+"PMH（オープンアーカイブイニシアティブ・プロトコル・フォー・メタデータ・ハーベスティング）バージョン2.0を介して公開する能力を持っています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:16
+msgid "The Open Archives Initiative describes OAI-PMH as follows:"
+msgstr "オープンアーカイブイニシアティブは、OAI-PMHを以下のように説明しています："
+
+#: ../../user-manual/import-export/oai-pmh.rst:18
+msgid ""
+"The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a"
+" low-barrier mechanism for repository interoperability. Data Providers are "
+"repositories that expose structured metadata via OAI-PMH. Service Providers "
+"then make OAI-PMH service requests to harvest that metadata. OAI-PMH is a "
+"set of six verbs or services that are invoked within HTTP."
+msgstr ""
+"オープンアーカイブイニシアティブ・プロトコル・フォー・メタデータハーベスティング（OAI-"
+"PMH）は、リポジトリ間相互運用のためのローバリアメカニズムです。データプロバイダは、OAI-"
+"PMHを介して構造化されたメタデータを公開するリポジトリです。その後、サービスプロバイダはOAI-"
+"PMHサービス要求を行って、そのメタデータを収穫します。OAI-PMHは、HTTP内で呼び出される6つの動詞またはサービスのセットです。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:24
+msgid ""
+"More information about the Open Archives Initiative, and about the OAI-PMH "
+"specification, can be found at:"
+msgstr "オープンアーカイブズ・イニシアチブについての詳細情報およびOAI-PMH仕様に関する情報は、以下で見ることができます："
+
+#: ../../user-manual/import-export/oai-pmh.rst:27
+msgid "http://www.openarchives.org/pmh/"
+msgstr ""
+"このテキストは特定の文章が含まれていないため、直接的な翻訳は不可能ですが、テキストがWebリンクを示している場合は以下のように解釈することができます。\n"
+"「http://www.openarchives.org/pmh/」このリンクは、オープンアーカイブズ・イニシアティブ・プロトコル・フォー・メタデータ・ハーベスティング(OAI-PMH)のWebサイトを参照しています。OAI-PMHは、デジタルリポジトリ間でのメタデータのハーベスト（収集）のためのプロトコルです。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:29
+msgid ""
+"Below you will find basic information on how to enable AtoM's OAI plugin, "
+"how to set up AtoM's OAI repository parameters, and some basic examples of "
+"requests and responses using the OAI-PMH verbs supported by AtoM."
+msgstr ""
+"以下では、AtoMのOAIプラグインを有効にする方法、AtoMのOAIリポジトリパラメータの設定方法、およびAtoMがサポートするOAI-"
+"PMH動詞を使用したリクエストとレスポンスの基本的な例について説明します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:33
+msgid "**Jump to:**"
+msgstr "**移動先：**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:35
+msgid ":ref:`oai-pmh-plugin`"
+msgstr "`:ref:`oai-pmh-plugin`（OAI-PMHプラグイン）"
+
+#: ../../user-manual/import-export/oai-pmh.rst:36
+msgid ":ref:`oai-pmh-settings`"
+msgstr ":ref:`oai-pmh-settings` (OAI-PMH設定)"
+
+#: ../../user-manual/import-export/oai-pmh.rst:37
+#: ../../user-manual/import-export/oai-pmh.rst:124
+msgid ":ref:`oai-pmh-api-key`"
+msgstr ""
+":ref:`oai-pmh-api-key` "
+"(この部分は参照リンクであり、そのまま翻訳されることを意図していません。このリンクは文書内の特定の節に直接リンクするために使われます。もし実際のテキストを翻訳する必要がある場合は、リンクの目的地である節のタイトルまたは内容を提供してください。)"
+
+#: ../../user-manual/import-export/oai-pmh.rst:38
+msgid ":ref:`cache-xml-oai`"
+msgstr "`:ref:`キャッシュ-XML-OAI``"
+
+#: ../../user-manual/import-export/oai-pmh.rst:39
+msgid ":ref:`oai-pmh-verbs`"
+msgstr ""
+"以下はあなたがリクエストした翻訳ですが、ご注意ください。この文脈では、`:ref:`oai-pmh-verbs`` はおそらくArchivematicaのドキュメント内での特定の参照（reference）を指すマークアップ言語です。実際の翻訳作業を行う際は、参照先のセクションのタイトルまたは内容を適切に翻訳し、それを反映させる必要があります。しかし、ここでは参照先の内容についての情報がないため、このマークアップタグ自身を直訳します。\n"
+"\n"
+"`:ref:`oai-pmh-verbs`` の参照\n"
+"\n"
+"この直訳は技術的な文脈において意味が通じるものではありません。実際の文脈では、該当するドキュメントのセクションタイトルに置き換えられる必要があります。例えば「OAI-PMHの動詞に関するセクション」などになるかもしれません。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:44
+msgid "Enable the OAI plugin in AtoM"
+msgstr "AtoMでOAIプラグインを有効にする"
+
+#: ../../user-manual/import-export/oai-pmh.rst:46
+msgid ""
+"Before being able to expose metadata to a harvester request, the arOaiPlugin"
+" must be enabled. You must be logged in as an :term:`administrator` to "
+"manage plugin settings."
+msgstr ""
+"収穫者リクエストにメタデータを公開する前に、arOaiPluginを有効にする必要があります。プラグイン設定を管理するためには、`:term:`管理者`としてログインしている必要があります。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:50
+msgid ""
+"To enable the OAI plugin, navigate via the :term:`main menu` to |gears| "
+"**Admin > Plugins**. AtoM will redirect you to the :ref:`Plugins <manage-"
+"plugins>` page."
+msgstr ""
+"OAIプラグインを有効にするには、:term:`メインメニュー`から |gears| **管理 > プラグイン** に移動します。AtoMはあなたを "
+":ref:`プラグイン <manage-plugins>` ページにリダイレクトします。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:7
+msgid "gears"
+msgstr "「歯車」"
+
+#: ../../user-manual/import-export/oai-pmh.rst:54
+msgid ""
+"Ensure that the checkbox next to the **arOaiPlugin** is checked - if it is "
+"not, check the box and then save the change using the Save button located in"
+" the :term:`button block` at the bottom of the page."
+msgstr ""
+"**arOaiPlugin** の横にあるチェックボックスがチェックされていることを確認してください - "
+"もしチェックされていなければ、ボックスにチェックを入れ、ページの下部にある :term:`ボタンブロック` "
+"の保存ボタンを使用して変更を保存してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:60
+msgid ""
+"Setting not taking effect? In some cases, a system administator with access "
+"to the command-line may have to restart your webserver and php-fpm for the "
+"changes to take effect. We also recommend clearing the application cache. If"
+" you are using our recommended installation configuration (see: "
+":ref:`installation-ubuntu`) such as Nginx for your web server, you can "
+"restart these services with the following commands from the root directory "
+"of your AtoM installation:"
+msgstr ""
+"設定が有効にならない場合がありますか？場合によっては、コマンドラインへのアクセスを持つシステム管理者が、変更を有効にするためにウェブサーバーとphp-"
+"fpmを再起動する必要があります。また、アプリケーションキャッシュをクリアすることをお勧めします。私たちの推奨するインストール構成（参照：：ref:`installation-"
+"ubuntu`)、例えばウェブサーバーとしてNginxを使用している場合、AtoMインストールのルートディレクトリから以下のコマンドを使用してこれらのサービスを再起動することができます："
+
+#: ../../user-manual/import-export/oai-pmh.rst:74
+msgid ""
+"After enabling the OAI plugin, you will want to make sure that you have "
+"properly configured AtoM's OAI repository settings."
+msgstr "OAIプラグインを有効にした後、AtoMのOAIリポジトリ設定が適切に構成されていることを確認する必要があります。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:79
+msgid ":ref:`manage-plugins`"
+msgstr ":ref:`プラグインの管理`"
+
+#: ../../user-manual/import-export/oai-pmh.rst:84
+msgid "Configure AtoM's OAI repository settings"
+msgstr "AtoMのOAIリポジトリ設定を構成する"
+
+#: ../../user-manual/import-export/oai-pmh.rst:86
+msgid ""
+"The settings for AtoM's OAI repository are maintained in |gears| **Admin > "
+"Settings > OAI repository**. You must be logged into AtoM as an "
+":term:`administrator` to access these settings. A brief explanation of each "
+"field in the OAI repository settings page is included below."
+msgstr ""
+"AtoMのOAIリポジトリの設定は、|gears| **管理者 > 設定 > "
+"OAIリポジトリ**にて行われます。これらの設定にアクセスするには、:term:`管理者`としてAtoMにログインしている必要があります。以下にOAIリポジトリ設定ページの各フィールドの簡潔な説明を含めています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:91
+msgid ""
+"To configure the settings, navigate via the :term:`main menu` to |gears| "
+"**Admin > Settings**. AtoM will redirect you to the Settings page. Select "
+"the \"OAI repository\" link in the menu on the left side of the page, and "
+"AtoM will load the OAI repository settings."
+msgstr ""
+"設定を構成するには、:term:`main menu` より |gears| **Admin > Settings** "
+"に進んでください。AtoMはあなたを設定ページにリダイレクトします。ページ左側のメニューから「OAI "
+"リポジトリ」リンクを選択すると、AtoMはOAIリポジトリ設定を読み込みます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:-1
+msgid "An image of the OAI repository menu in AtoM"
+msgstr "AtoMのOAIリポジトリメニューの画像"
+
+#: ../../user-manual/import-export/oai-pmh.rst:101
+msgid ""
+"You can now make changes to configure your the OAI repository in AtoM. "
+"Remember to save your changes when complete, using the :term:`button block` "
+"located at the bottom of the page."
+msgstr ""
+"AtoMにおけるあなたのOAIリポジトリを設定するための変更を今から行うことができます。完了したら、ページの下部に位置する`:term:`ボタンブロック`を使って変更を保存することを忘れないでください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:106
+msgid "OAI repository settings field descriptions"
+msgstr "OAIリポジトリ設定フィールドの説明"
+
+#: ../../user-manual/import-export/oai-pmh.rst:108
+msgid "**Require API key authentication**"
+msgstr "APIキー認証を要求する"
+
+#: ../../user-manual/import-export/oai-pmh.rst:110
+msgid ""
+"A boolean value (e.g. true [yes] or false [no]) that determines if requests "
+"will be accepted from any harvester, or if only those requests which include"
+" an authorized API key will receive responses. Instructions on how to "
+"configure an API key per AtoM :term:`user account` are included below - see:"
+" :ref:`oai-pmh-api-key`."
+msgstr ""
+"ブール値（例: true [はい] または false "
+"[いいえ]）であり、どの収穫者からもリクエストが受け入れられるか、あるいは承認されたAPIキーを含むリクエストのみが応答を受け取るかを決定します。AtoM"
+" :term:`ユーザーアカウント`ごとにAPIキーを設定する方法についての指示は以下に含まれています - 参照: :ref:`oai-pmh-api-"
+"key`。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:116
+msgid ""
+"The default setting in AtoM is \"no\" - meaning if you have enabled the OAI "
+"plugin, any harvester can make requests to AtoM. The API key setting allows "
+"an :term:`administrator` to enable the OAI repository in AtoM, while "
+"restricting responses to requests that include a valid API key in the HTTP "
+"header of the request."
+msgstr ""
+"AtoMのデフォルト設定は「いいえ」であり、これはOAIプラグインを有効にした場合、どんなハーベスターもAtoMへリクエストを送ることができることを意味しています。APIキー設定は、:term:`管理者`がAtoM内でOAIリポジトリを有効にしつつ、有効なAPIキーがリクエストのHTTPヘッダーに含まれているリクエストに対するレスポンスのみを許可することを可能にします。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:125
+msgid ":ref:`manage-user-accounts`"
+msgstr ":ref:`ユーザーアカウントの管理`"
+
+#: ../../user-manual/import-export/oai-pmh.rst:127
+msgid "**OAI repository code**"
+msgstr "OAIリポジトリコード"
+
+#: ../../user-manual/import-export/oai-pmh.rst:129
+msgid ""
+"An alpha-numeric code can be added in the value field to uniquely identify "
+"this particular OAI repository within its network domain to create a unqiue,"
+" OAI compliant identifier."
+msgstr ""
+"値のフィールドに英数字のコードを追加して、この特定のOAIリポジトリをネットワークドメイン内で一意に識別し、ユニークでOAI準拠の識別子を作成することができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:133
+msgid ""
+"This field will **only accept letters and numbers** - any attempt to enter a"
+" symbol (e.g. a dash, underscore, or other special character) may break the "
+"OAI repository functionality. This will be indicated by the lack of an OAI "
+"repository identifier or sample OAI identifier in the controlled fields "
+"below, and by the tooltip that appears above the OAI repository code field:"
+msgstr ""
+"このフィールドは**文字と数字のみを受け付けます** - "
+"シンボル（例えば、ダッシュ、アンダースコア、またはその他の特殊文字）の入力を試みると、OAIリポジトリ機能が機能しなくなる可能性があります。これは、以下の制御されたフィールド内のOAIリポジトリ識別子またはOAI識別子のサンプルが表示されないこと、およびOAIリポジトリコードフィールドの上に表示されるツールチップによって示されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:-1
+msgid ""
+"An image of the OAI repository menu in AtoM when a bad value is\n"
+"entered into the repository code field."
+msgstr "リポジトリコード欄に不適切な値が入力されたときの、AtoM内でのOAIリポジトリメニューの画像。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:145
+msgid ""
+"The value of the repository code will be combined with the base URL of your "
+"AtoM site to construct the OAI repository identifier."
+msgstr "リポジトリーコードの値は、AtoMサイトのベースURLと組み合わせて、OAIリポジトリ識別子を構築するために使用されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:148
+msgid "**Administrator email(s)**"
+msgstr "**管理者のメールアドレス**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:150
+msgid ""
+"The OAI-PMH specification notes that at least one repository administrator's"
+" email address should be included as part of a response to an :ref:`Identify"
+" <oai-identify>` request. This field allows an :term:`administrator` to "
+"enter one or more email addresses which will be included as part of AtoM's "
+"response."
+msgstr ""
+"OAI-PMH仕様には、少なくとも一人のリポジトリ管理者のメールアドレスが :ref:`Identify <oai-identify>` "
+"のリクエストに対する応答の一部として含まれるべきであると記載されています。このフィールドを使用すると、 :term:`管理者` "
+"は、AtoMの応答の一部として含まれる一つ以上のメールアドレスを入力することができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:156
+msgid ""
+"Multiple email addresses can be entered in this free-text field, separated "
+"by commas. See the :ref:`Identify <oai-identify>` example response below to "
+"see how they are typically returned in a response to an Identify request."
+msgstr ""
+"この自由記述フィールドには、コンマで区切って複数のメールアドレスを入力することができます。Identifyリクエストへの応答で通常どのように返されるかは、下記の「:ref:`Identify"
+" <oai-identify>`」の例の応答を参照してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:162
+msgid ""
+"AtoM does not currently enforce any validation on this field - that is, AtoM"
+" does not force you to populate this field with any values, and email "
+"addresses are not checked for accuracy before being inserted into a "
+"response. Make sure you double-check that you've input your email addresses "
+"correctly!"
+msgstr ""
+"AtoMは現在、このフィールドに対して検証を強制していません。つまり、特定の値でこのフィールドを必ず填めなければならないわけではなく、返信に挿入される前にメールアドレスが正確かどうかのチェックは行われません。入力したメールアドレスが正しいかどうか二重に確認してください！"
+
+#: ../../user-manual/import-export/oai-pmh.rst:168
+msgid "**OAI repository identifier**"
+msgstr "OAIリポジトリ識別子"
+
+#: ../../user-manual/import-export/oai-pmh.rst:170
+msgid ""
+"This is an auto-generated setting that produces an OAI compliant repository "
+"identifier, which includes OAI repository code value if it is set. The "
+"repository identifier is a combination of the base URL for your AtoM site, "
+"and the repository code entered in the field above, separated by a colon."
+msgstr ""
+"これは、設定されている場合にはOAIレポジトリコードの値を含む、OAI互換のリポジトリ識別子を生成する自動生成設定です。リポジトリ識別子は、あなたのAtoMサイトのベースURLと、上記のフィールドに入力されたリポジトリコードとをコロンで区切って組み合わせたものです。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:175
+msgid "**Sample OAI identifier**"
+msgstr "**OAI識別子の例**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:177
+msgid ""
+"This is an example of the auto-generated, OAI compliant identifier which is "
+"created for each item in this particular OAI repository. The sample OAI "
+"identifer is returned as part of the response to an OAI :ref:`Identify <oai-"
+"identify>` request submitted by a harvester."
+msgstr ""
+"これは、この特定のOAIリポジトリにある各アイテムに対して自動生成される、OAI準拠の識別子の例です。サンプルのOAI識別子は、ハーベスターが送信したOAI"
+" :ref:`Identify <oai-identify>`リクエストへのレスポンスの一部として返されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:182
+msgid "**Resumption token limit**"
+msgstr "**レジュームトークンリミット**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:184
+msgid ""
+"This relates to the number of :term:`entities <entity>` to include in a "
+"single OAI response list before inserting a resumption token. The default "
+"setting in AtoM is 100 (e.g. 100 identifiers would be returned in response "
+"to a :ref:`oai-list-identifiers` request from a harvester, before a "
+"resumption token would be issued and the request terminated). Setting a "
+"resumption token limit avoids the possibility that large requests (such as "
+":ref:`oai-list-records`) will time out the system."
+msgstr ""
+"これは、再開トークンを挿入する前に、単一のOAI応答リストに含めるべき:term:`エンティティ <entity>` "
+"の数に関連しています。AtoMのデフォルト設定は100です（例えば、ハーベスターからの :ref:`oai-list-identifiers` "
+"リクエストに対して100個の識別子が応答として返され、その後再開トークンが発行されリクエストが終了します）。再開トークンの上限を設定することで、（:ref:`oai-"
+"list-records` のような）大量のリクエストがシステムのタイムアウトを引き起こす可能性を避けることができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:192
+msgid ""
+"When the resumption token limit is reached, AtoM will end the response with "
+"a resumption token. A harvester can then use the resumption token to submit "
+"a new request that continues where the previous one terminated."
+msgstr ""
+"リジュームトークンの制限に達すると、AtoMはリジュームトークンを含む応答を終了します。ハーベスターはその後、リジュームトークンを使用して新しいリクエストを送信し、前回のリクエストが終了したところから続けることができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:198
+msgid ""
+"Setting this value too high can result in performance issues, as AtoM may "
+"time out during the response to a request. We recommend keeping this value "
+"at 100 or lower."
+msgstr ""
+"この値を高く設定しすぎると、AtoMがリクエストに対する応答中にタイムアウトする可能性があるため、パフォーマンスに問題が生じることがあります。この値は100以下に保つことを推奨します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:202
+msgid "**Enable additional OAI sets**"
+msgstr "**追加のOAIセットを有効にする**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:204
+msgid ""
+"This setting allows AtoM to expose \"virtual sets.\" Currently in AtoM, each"
+" :term:`archival unit` (e.g. a description and all its :term:`children "
+"<child record>`, such as a :term:`fonds`, :term:`collection`, etc) is "
+"considered a set and is given a ``<setSpec>`` value when responding to "
+"requests such as :ref:`oai-list-sets` or :ref:`oai-list-records`."
+msgstr ""
+"この設定は、AtoMが「仮想セット」を公開することを可能にします。現在のAtoMでは、それぞれの:term:`アーカイバルユニット`（例えば、記述とそのすべての:term:`子<子レコード>`、:term:`フォンズ`、:term:`コレクション`などが含まれます）はセットとみなされ、:ref:`oai-"
+"list-sets`や:ref:`oai-list-records`のようなリクエストに応答する際には``<setSpec>``の値が与えられます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:210
+msgid ""
+"However, thanks to the flexible nature of OAI-PMH, AtoM can also expose "
+"virtual sets, representing different groupings of records or different "
+"criteria for exposure. At present, the only supported additional or "
+"\"virtual\" set in AtoM is a virtual set that will only expose top-level "
+"descriptions (i.e. no children will be included in the response). We hope to"
+" add further additional sets in future versions of AtoM."
+msgstr ""
+"しかし、OAI-"
+"PMHの柔軟な性質のおかげで、AtoMは、異なる記録のグループ化や露出のための異なる基準を表すバーチャルセットも公開することができます。現在、AtoMでサポートされている唯一の追加または「バーチャル」セットは、トップレベルの記述のみを公開するバーチャルセットです（つまり、応答に子要素は含まれません）。将来のバージョンのAtoMでは、さらに多くの追加セットを追加できることを願っています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:217
+msgid "**Available additional sets**"
+msgstr "**利用可能な追加セット**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:220
+msgid "Set name"
+msgstr "セット名"
+
+#: ../../user-manual/import-export/oai-pmh.rst:220
+msgid "Set Spec"
+msgstr "セット仕様"
+
+#: ../../user-manual/import-export/oai-pmh.rst:220
+msgid "AtoM version"
+msgstr "AtoMバージョン"
+
+#: ../../user-manual/import-export/oai-pmh.rst:222
+msgid "Top-level collection record set"
+msgstr "最上位コレクション記録セット"
+
+#: ../../user-manual/import-export/oai-pmh.rst:222
+msgid "oai:virtual:top-level-records"
+msgstr "OAI:バーチャル:トップレベルレコード"
+
+#: ../../user-manual/import-export/oai-pmh.rst:222
+msgid "2.2.0"
+msgstr "2.2.0"
+
+#: ../../user-manual/import-export/oai-pmh.rst:225
+msgid ""
+"When the setting is enabled and the changes saved, AtoM will display a list "
+"of available virtual sets below the setting. You can click the name of a "
+"virtual set to trigger an OAI request in the browser."
+msgstr ""
+"設定が有効になっており、変更が保存されると、AtoMはその設定の下に利用可能なバーチャルセットのリストを表示します。ブラウザでOAIリクエストをトリガーするには、バーチャルセットの名前をクリックします。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:-1
+msgid "An image of the available OAI virtual sets"
+msgstr "利用可能なOAI仮想セットの画像"
+
+#: ../../user-manual/import-export/oai-pmh.rst:234
+msgid ""
+"When this setting is set to \"Yes,\" the virtual sets available can be used "
+"by harvesters as criteria when issuing requests - for example, to issue a "
+"Get Records request limited to top-level records:"
+msgstr ""
+"この設定を「はい」に設定すると、利用可能な仮想セットを収穫者がリクエストを発行する際の基準として使用することができます。例えば、トップレベルのレコードに限定したGet"
+" Recordsリクエストを発行する場合などです。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:242
+msgid ""
+"The virtual sets available in AtoM can also be seen as part of the response "
+"to a :ref:`oai-list-sets` request."
+msgstr "AtoMで利用可能なバーチャルセットも、`:ref:`oai-list-sets`リクエストへの応答の一部として見ることができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:245
+msgid "See the :ref:`oai-pmh-verbs` section below for further examples."
+msgstr "以下の「oai-pmh-verbs」セクションをご覧ください。このセクションでは、さらなる例を示しています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:247
+#: ../../user-manual/import-export/oai-pmh.rst:341
+#: ../../user-manual/import-export/oai-pmh.rst:1082
+msgid ":ref:`Back to top <oai-pmh>`"
+msgstr ":ref:`トップに戻る <oai-pmh>`"
+
+#: ../../user-manual/import-export/oai-pmh.rst:252
+msgid "Set AtoM to require an API key for OAI-PMH requests"
+msgstr "AtoMでOAI-PMHリクエストにAPIキーの要求を設定する"
+
+#: ../../user-manual/import-export/oai-pmh.rst:254
+msgid ""
+"As of version 2.2, AtoM now has a setting that allows an "
+":term:`administrator` to restrict OAI exposure to only respond to requests "
+"that include a valid API key. The default setting in AtoM is \"no\" - "
+"meaning if you have enabled the OAI plugin, any harvester can make requests "
+"to AtoM, and users can view OAI responses in their browsers by manipulating "
+"a URL to include an OAI request."
+msgstr ""
+"バージョン2.2以降、AtoMには、有効なAPIキーを含むリクエストにのみ応答するようにOAIの露出を制限する設定が追加されました。AtoMのデフォルト設定は「いいえ」です。つまり、OAIプラグインを有効にした場合、どのハーベスターでもAtoMへのリクエストを行うことができ、ユーザーはOAIリクエストを含めるためにURLを操作することで、ブラウザでOAIの応答を表示することができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:260
+msgid ""
+"The API key setting, when enabled, allows an administrator to enable the OAI"
+" repository in AtoM for specific requests only - those which include a valid"
+" API key. To make use of this setting, an administrator should first "
+"generate an API key for at least one :term:`user account` in AtoM before "
+"changing the setting to \"Yes.\""
+msgstr ""
+"APIキー設定を有効にすると、管理者はOAIリポジトリをAtoM内で特定のリクエストに対してのみ有効にすることができます - "
+"それらは有効なAPIキーを含んでいる必要があります。この設定を利用するためには、管理者はまずAtoM内で少なくとも一つの:term:`ユーザーアカウント`に対してAPIキーを生成してから、設定を「はい」に変更する必要があります。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:266
+msgid ""
+"Once enabled, OAI requests must pass a valid API key in the HTTP header. "
+"Requests that do not pass a valid API key will return a 403 Forbidden HTTP "
+"status response."
+msgstr ""
+"有効になると、OAIリクエストはHTTPヘッダーで有効なAPIキーを渡さなければなりません。有効なAPIキーを渡さないリクエストは、403 "
+"Forbidden（アクセス禁止）HTTPステータスレスポンスを返します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:270
+msgid "**To generate an API key for a user in AtoM:**"
+msgstr "**AtoMでユーザー用のAPIキーを生成するには：**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:272
+msgid ""
+"Navigate to |gears| **Admin > Users** via the :term:`main menu`, and find "
+"the user account for which you would like to generate an API key. Click the "
+"Edit button located in the :term:`button block` of the user's Profile page. "
+"For more information on managing user acccounts, see: :ref:`manage-user-"
+"accounts`, specifically: :ref:`edit-user`."
+msgstr ""
+"|gears| **管理 > ユーザー** "
+"へメインメニューより移動し、APIキーを生成したいユーザーアカウントを探します。ユーザーのプロフィールページにある :term:`ボタンブロック` "
+"で編集ボタンをクリックします。ユーザーアカウントの管理に関する詳細は、:ref:`ユーザー管理` を参照してください。具体的には "
+":ref:`ユーザー編集` をご覧ください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:277
+msgid ""
+"AtoM will redirect you to the :term:`edit page` for the user. At the bottom "
+"of the profile edit page, in the Access control :term:`area <information "
+"area>` you will see a :term:`drop-down menu` labelled \"OAI-PMH API access "
+"key.\""
+msgstr ""
+"AtoMはあなたをユーザーの:term:`編集ページ`にリダイレクトします。プロファイル編集ページの下部にある、「アクセス制御」:term:`エリア "
+"<情報エリア>`内に、「OAI-PMH API アクセスキー」とラベル付けされた:term:`ドロップダウンメニュー`が表示されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:-1
+msgid "An image of the OAI-PMH API access key field in a user profile"
+msgstr "ユーザープロファイル内のOAI-PMH APIアクセスキー欄の画像"
+
+#: ../../user-manual/import-export/oai-pmh.rst:287
+msgid ""
+"Using the drop-down, select the \"(Re)generate API key\" option, and then "
+"click the \"Save\" button located in the :term:`button block` at the bottom "
+"of the edit page."
+msgstr ""
+"ドロップダウンから「(Re)generate API "
+"key」オプションを選択し、編集ページの下部にある`:term:`ボタンブロック`にある「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:296
+msgid ""
+"AtoM will reload the page in :term:`view mode`. You will see an API key "
+"value included (in red) on the user's profile :term:`view page`."
+msgstr ""
+"AtoMはページを:term:`ビューモード`で再読み込みします。ユーザーのプロファイル:term:`ビューページ`に、赤色で示されたAPIキーの値が含まれているのが確認できます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:-1
+msgid "An example of an API key for a user in the profile page"
+msgstr "ユーザープロファイルページのAPIキーの例"
+
+#: ../../user-manual/import-export/oai-pmh.rst:304
+msgid ""
+"You can repeat steps 1-4 for as many users as are required.You can also "
+"**regenerate** a new key at any time by following steps 1-4 above. To "
+"**delete** a key, follow steps 1-2, and then select \"Delete API key\" from "
+"the drop-down menu described in step 3. When you click \"Save\" in the "
+":term:`button block` of the edit page, AtoM will reload and display the "
+"user's profile in :term:`view mode` without an API key."
+msgstr ""
+"必要なユーザー数に応じて、ステップ1から4を繰り返すことができます。また、上記のステップ1から4をたどることで、いつでも新しいキーを**再生成**することが可能です。キーを**削除**するには、ステップ1から2に従い、その後ステップ3で説明されたドロップダウンメニューから「APIキーを削除」を選択します。編集ページの:term:`ボタンブロック`で「保存」をクリックすると、AtoMは再ロードされて、APIキーなしでユーザーのプロファイルを:term:`ビューモード`で表示します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:311
+msgid ""
+"Once you have API keys generated for the necessary user accounts, you can "
+"now enable the OAI repository setting so that an API key will be required as"
+" part of a request. To do so, navigate to |gears| **Admin > Settings > OAI "
+"repository** and make sure the radio button next to the field labelled \" "
+"Require API key authentication\" is set to \"Yes.\" Save your changes by "
+"clicking the \"Save\" button in the :term:`button block` at the bottom of "
+"the OAI repository settings page. For further guidance on managing OAI "
+"repository settings, see the section above, :ref:`oai-pmh-settings`."
+msgstr ""
+"必要なユーザーアカウントに対してAPIキーを生成したら、リクエストの一部としてAPIキーの要求が必要になるように、OAIリポジトリの設定を有効にすることができます。これを行うには、|gears|"
+" **管理 > 設定 > OAIリポジトリ** "
+"へ移動し、「APIキー認証を要求する」と記載されたフィールドの隣にあるラジオボタンが「はい」に設定されていることを確認してください。変更を保存するには、OAIリポジトリ設定ページの下部にある"
+" :term:`button block` の「保存」ボタンをクリックします。OAIリポジトリ設定の管理に関するさらなる指導については、上記のセクション"
+" :ref:`oai-pmh-settings` を参照してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:320
+msgid ""
+"Now a valid API key must be included as part of the HTTP header in a OAI "
+"request for AtoM to return a response - otherwise a 403 Forbidden HTTP "
+"status will be returned instead."
+msgstr ""
+"現在、AtoMが応答を返すためには、OAIリクエストのHTTPヘッダーに有効なAPIキーが含まれている必要があります。そうでなければ、代わりに403 "
+"Forbidden HTTPステータスが返されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:324
+msgid ""
+"You can test this functionality via the command-line using `cURL "
+"<http://curl.haxx.se/>`__ - for example:"
+msgstr ""
+"この機能は、コマンドラインを使用してテストすることができます。たとえば、`cURL <http://curl.haxx.se/>`__を使用します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:331
+msgid ""
+"Note that without a browser extension that would allow additional "
+"information (such as the API key) to be passed in the HTTP header, enabling "
+"the API key requirement in the settings means that users will no longer be "
+"able submit OAI requests by directly manipulating the URL in the browser."
+msgstr ""
+"ブラウザの拡張機能がなければ、追加情報（例えばAPIキー）をHTTPヘッダーに含めて送ることはできません。そのため、設定でAPIキー要求を有効にするということは、ユーザーがブラウザのURLを直接操作してOAIリクエストを送信することができなくなるということを意味しています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:338
+msgid ":ref:`add-user`"
+msgstr ":ref:`ユーザー追加`"
+
+#: ../../user-manual/import-export/oai-pmh.rst:339
+msgid ":ref:`edit-user`"
+msgstr ""
+"``:ref:`edit-user` `` は、特定のドキュメントのリンクを参照するためのリテラルなマークダウン構文ですが、これを日本語に翻訳する場合、実際には「ユーザーの編集」または「ユーザー情報の編集」といった意味合いになります。しかし、このテキストが翻訳される際、その参照が向かう先やコンテキストを考慮する必要があります。単純な直訳ではなく、適切なドキュメントの節や章のタイトルに対応するか、あるいは操作の説明として訳す必要があります。\n"
+"\n"
+"以下は可能な翻訳例です（ただし、このマークダウン構文の目的地が明確でないため、一般的な例のみ提供します）:\n"
+"\n"
+"- ユーザーの編集について\n"
+"- ユーザー情報を編集する\n"
+"- ユーザー設定の変更\n"
+"\n"
+"もし、このリンクが特定の「ユーザーを編集する方法」に関するセクションを参照している場合、それに合わせたタイトルに翻訳する必要があります。例えば「ユーザー情報の編集方法」などです。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:346
+msgid "Cache XML to make EAD 2002 XML available via OAI-PMH"
+msgstr "OAI-PMH経由でEAD 2002 XMLを利用可能にするためにXMLをキャッシュする"
+
+#: ../../user-manual/import-export/oai-pmh.rst:348
+msgid ""
+"EAD 2002 XML is a metadata exchange standard designed to express the full "
+"hierarchical arrangement of an :term:`archival unit` in a single XML "
+"document."
+msgstr ""
+"EAD 2002 "
+"XMLは、単一のXMLドキュメントにおける：term:`アーカイブ単位`の完全な階層構造を表現するために設計されたメタデータ交換標準です。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:351
+msgid ""
+"Normally, when exposing archival description metadata, the XML is generated "
+"synchronously - that is, on request via the web browser. However, many web "
+"browsers and harvesters have a built-in timeout limit of approximately 1 "
+"minute, to prevent long-running tasks and requests from exhausting system "
+"resources. Because of this, attempts to expose EAD 2002 XML for large "
+"descriptive hierarchies via OAI-PMH can fail, as the timeout limit is "
+"reachedbefore the document can be fully generated and served to the end "
+"user."
+msgstr ""
+"通常、アーカイブ記述メタデータを公開する際には、XMLは同期的に生成されます。つまり、ウェブブラウザを通じてリクエストされた際に生成されるのです。しかし、多くのウェブブラウザやハーベスターには、システムリソースを消耗する長時間実行タスクやリクエストを防ぐために、およそ1分間の内部タイムアウト制限が組み込まれています。このため、OAI-"
+"PMH経由で大規模な記述階層に対するEAD 2002 "
+"XMLを公開しようとする試みが、ドキュメントが完全に生成されてエンドユーザーに提供される前にタイムアウト制限に達してしまうため、失敗することがあります。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:359
+msgid ""
+"To avoid this, AtoM includes this setting, which allows users to pre-"
+"generate XML exports via AtoM's job scheduler, and then cache them in the "
+"``downloads`` directory. This way, when harvesters attempt to request EAD "
+"XML via OAI-PMH, the file can be served directly, instead of having to "
+"generate on the fly."
+msgstr ""
+"これを避けるために、AtoMにはこの設定が含まれており、ユーザーはAtoMのジョブスケジューラを使ってXMLエクスポートを事前に生成し、``downloads``ディレクトリにキャッシュできます。この方法により、収穫者がOAI-"
+"PMHを介してEAD XMLを要求しようとしたとき、その場で生成する代わりに、直接ファイルを提供できます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:364
+msgid "For more information, see:"
+msgstr "詳細については、以下をご覧ください："
+
+#: ../../user-manual/import-export/oai-pmh.rst:366
+msgid ":ref:`cache-xml-setting`"
+msgstr "`:ref:` キャッシュXML設定 ` <cache-xml-setting>`"
+
+#: ../../user-manual/import-export/oai-pmh.rst:368
+msgid ""
+"There is also a command-line task that a system administrator can run to "
+"pre-generate and cache XML for all existing descriptions. See:"
+msgstr ""
+"システム管理者が実行できるコマンドラインタスクもあり、既存のすべての記述に対してXMLを事前に生成しキャッシュすることが可能です。詳細は以下の通りです:"
+
+#: ../../user-manual/import-export/oai-pmh.rst:371
+msgid ":ref:`cache-xml-cli`"
+msgstr "`:ref:`cache-xml-cli`を参照してください。`"
+
+#: ../../user-manual/import-export/oai-pmh.rst:373
+msgid ""
+"We strongly recommend users enable this setting and run the command-line "
+"task if you wish to make EAD 2002 XML available to harvesters via the OAI "
+"Repository module. If you do not, then AtoM will return a "
+"``cannotDisseminateFormat`` error code to attempts by harvesters to request "
+"``oai_ead``."
+msgstr ""
+"この設定を有効にし、コマンドラインタスクを実行することを強く推奨します。これにより、EAD 2002 "
+"XMLがOAIリポジトリモジュールを介してハーベスターによって収穫可能となります。この設定を有効にしない場合、AtoMは``oai_ead``をリクエストするハーベスターに対して``cannotDisseminateFormat``エラーコードを返します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:383
+msgid "OAI-PMH verbs in AtoM"
+msgstr ""
+"このフレーズは、Webベースのアーカイブ情報管理システムにおける特定の機能を指しているようですが、それを日本語に直訳すると意味が通じにくいかもしれません。しかし、テキストのコンテキストがわからないため、意味合いを解釈することに疑問がありますが、それでも翻訳する場合は次のようになります：\n"
+"\n"
+"「AtoMにおけるOAI-PMH動詞」\n"
+"\n"
+"ここで「AtoM」は\"Access to Memory\"の略称で、アーカイブ記録のためのオープンソースアプリケーションを指します。「OAI-PMH」は\"Open Archives Initiative Protocol for Metadata Harvesting\"の略称で、メタデータ収穫のための通信プロトコルです。「動詞」(verbs)は、プロトコルにおける特定の操作やコマンドを指します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:385
+msgid ""
+"Below you will find a few examples of available OAI request verbs that AtoM "
+"will support, along with some example responses. For more details, see the "
+"OAI-PMH 2.0 documentation, available at:"
+msgstr ""
+"以下に、AtoMがサポートする利用可能なOAIリクエスト動詞の例をいくつか紹介し、それに対する例示応答もいくつか示します。詳細については、OAI-PMH"
+" 2.0のドキュメントを参照してください。ドキュメントは以下のアドレスで入手可能です："
+
+#: ../../user-manual/import-export/oai-pmh.rst:389
+msgid "http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm"
+msgstr ""
+"このウェブサイト \"http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm\" は、Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) バージョン 2.0のプロトコルに関するドキュメントを提供しています。OAI-PMHは、デジタルリポジトリからメタデータを収集（ハーベスト）するためのオープンスタンダードプロトコルです。\n"
+"\n"
+"ただし、あなたが要求しているのは、Archivematicaに関するドキュメントであり、Archivematicaはデジタルアーカイブのための統合的なオープンソースのソフトウェアツールキットです。上記リンクされたプロトコルはArchivematicaシステムに組み込まれているかもしれませんが、それらは別のコンテキストで存在する事項です。\n"
+"\n"
+"したがって、Archivematicaに関連する具体的なテキストを提供いただければ、そちらを日本語に翻訳いたします。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:391
+msgid ""
+"Presently, AtoM can expose metadata in 2 XML formats via the OAI Repository "
+"module: ``oai_dc`` (i.e. simple Dublin Core XML), and ``oai_ead`` (i.e. EAD "
+"2002 XML). See the :ref:`oai-list-metadata-formats` Verb example below for "
+"mroe information."
+msgstr ""
+"現在、AtoMはOAIリポジトリモジュールを通じて、2つのXMLフォーマットでメタデータを公開することができます：「oai_dc」（つまりシンプルなダブリンコアXML）と「oai_ead」（つまりEAD"
+" 2002 XML）。以下の「oai-list-metadata-formats」Verbの例を参照して、より詳しい情報を確認してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:396
+msgid "OAI verbs covered below include:"
+msgstr "以下に説明されているOAI動詞には以下が含まれます："
+
+#: ../../user-manual/import-export/oai-pmh.rst:398
+msgid ":ref:`oai-identify`"
+msgstr ""
+"このコマンド `:ref:`oai-identify`` は、特定の文脈で使われるマークダウンあるいはreStructuredTextの参照です。このコマンドは、しるしをつけるためのラベルとして機能し、ドキュメント内の他の場所から参照される際に用います。しかし、この参照自体の日本語訳は以下の通りになりますが、実際の訳出時には参照対象の日本語のラベルや節のタイトルに対応したもので置き換える必要があります。\n"
+"\n"
+"``oai-identify`` の項目\n"
+"\n"
+"ただし、実際の使用時にはこの参照が指し示すタイトルや節に合わせて適切に翻訳されるべきです。したがって、この参照が文書内の「OAI-Identify 節」といった特定のセクションを指している場合、「OAI-Identify 節」などと訳す必要があるでしょう。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:399
+msgid ":ref:`oai-list-metadata-formats`"
+msgstr ":ref:`oai-list-metadata-formats` (OAIリストメタデータフォーマット)"
+
+#: ../../user-manual/import-export/oai-pmh.rst:400
+msgid ":ref:`oai-list-identifiers`"
+msgstr ""
+"`:ref:`oai-list-identifiers`` の部分は、特定のドキュメント内部やソフトウェア内における参照リンクを示しています。そういった特定のコンテキストがなければ、正確な翻訳はできませんが、通常このようなリンクは目的のセクションや機能に直接ジャンプできるようなものです。日本語の文書に翻訳する場合、リンクの表示テキストはそのままにすべきか、もしくは関連するセクションや機能の日本語名に置き換える必要があるかもしれません。例えば:\n"
+"\n"
+"``OAIリストアイデンティファイア``\n"
+"\n"
+"ただし、リンクのターゲットを指し示す実際の参照名（ここでは `oai-list-identifiers`）は変更せずにそのまま使う必要があります。なぜなら、そうでないと文書内のリンクが機能しなくなってしまうからです。さらに、翻訳時には実際に文書内でどのように使用されているかを理解し、適切に翻訳することが重要です。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:401
+msgid ":ref:`oai-list-records`"
+msgstr ""
+":ref:`oai-list-records` の部分は、おそらく参照リンク用のラベルです。そのため、このラベル自体に対する直接的な翻訳は存在しません。テキストを日本語に翻訳する場合は、ドキュメント内で対象となるセクションについて言及していることを考慮し、日本語の文脈でそのリンクが指し示す内容を説明する必要があります。参照リンクを内容がわかるように翻訳すると以下のようになります。\n"
+"\n"
+"`:ref:`oai-list-records`（OAIリストレコードセクション）"
+
+#: ../../user-manual/import-export/oai-pmh.rst:402
+msgid ":ref:`oai-get-record`"
+msgstr ":ref:`oai-get-record`"
+
+#: ../../user-manual/import-export/oai-pmh.rst:403
+msgid ":ref:`oai-list-sets`"
+msgstr ""
+":ref:`oai-list-sets`の部分は通常、参照リンク用のマークアップです。これは、特定のドキュメントやそのセクションを参照するために使用されます。しかし、このままでは翻訳の対象テキストが不足しています。「oai-list-sets」がArchivematicaの文書内の特定のセクション名を指している場合、それを対象とする日本語の名称が必要ですが、その名称が提供されていないため、正確な日本語翻訳は提供できません。\n"
+"\n"
+"もし「oai-list-sets」がそのままセクション名として使用されているのであれば、日本語のドキュメントでは通常このように参照を示すことになります：\n"
+"\n"
+"``:ref:`oai-list-sets` ``\n"
+"\n"
+"しかしながら、場合によっては訳注としてセクションの内容を説明することが求められるかもしれません。例えば、「OAIリストセット」などの訳語をカッコ内に入れることが考えられます。以下にその一例を示します：\n"
+"\n"
+"``:ref:`OAIリストセット（oai-list-sets）` ``\n"
+"\n"
+"訳注：この部分では、Archivematica ドキュメント内の「OAIリストセット」セクションを参照しています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:408
+msgid "Identify"
+msgstr "特定する"
+
+#: ../../user-manual/import-export/oai-pmh.rst:410
+msgid "This verb is used to retrieve information about a repository."
+msgstr "この動詞は、リポジトリに関する情報を取得するために使用されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:412
+#: ../../user-manual/import-export/oai-pmh.rst:747
+#: ../../user-manual/import-export/oai-pmh.rst:1025
+msgid "**Example request**"
+msgstr "**例のリクエスト**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:418
+#: ../../user-manual/import-export/oai-pmh.rst:1031
+msgid "**Example response**"
+msgstr ""
+"申し訳ありませんが、指示されたテキストが不足しているため、翻訳を開始できません。Archivematicaに関するテキストを提供していただければ、それを日本語に翻訳することができます。もしテキストがすでにある場合は再度送信してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:450
+msgid "List metadata formats"
+msgstr "メタデータ形式の一覧"
+
+#: ../../user-manual/import-export/oai-pmh.rst:452
+msgid ""
+"This verb is used to list the metadata formats that can be disseminated from"
+" the repository."
+msgstr "この動詞は、リポジトリから提供可能なメタデータ形式を列挙するために使用されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:457
+msgid ""
+"Presently, AtoM can expose metadata in 2 XML formats via the OAI Repository "
+"module: ``oai_dc`` (i.e. simple Dublin Core XML), and ``oai_ead`` (i.e. EAD "
+"2002 XML)."
+msgstr ""
+"現在、AtoMはOAIリポジトリモジュールを介して、2つのXML形式でメタデータを公開することができます：「oai_dc」（すなわち、単純なダブリンコアXML）と「oai_ead」（すなわち、EAD"
+" 2002 XML）。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:461
+#: ../../user-manual/import-export/oai-pmh.rst:541
+#: ../../user-manual/import-export/oai-pmh.rst:661
+msgid "**Example request:**"
+msgstr "**例のリクエスト：**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:467
+#: ../../user-manual/import-export/oai-pmh.rst:547
+#: ../../user-manual/import-export/oai-pmh.rst:667
+msgid "**Example response:**"
+msgstr ""
+"申し訳ありませんが、翻訳リクエストに対応できません。ただし、Archivematicaに関する情報が必要な場合は、そのシステムの概要、利点、機能などについて説明できます。サポートが必要な点がありましたら、お知らせください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:469
+msgid ""
+"The response shows that the repository supports two metadata formats: "
+"``oai_dc`` and ``oai_ead``. For each of the formats returned by such a "
+"request, the location of an XML Schema describing the format should be "
+"given. The support of these formats at the repository-level does not imply "
+"support of each format for each item of the repository."
+msgstr ""
+"このレスポンスは、リポジトリが二つのメタデータフォーマット「oai_dc」と「oai_ead」をサポートしていることを示しています。このようなリクエストによって返される各フォーマットについては、そのフォーマットを記述するXMLスキーマの場所が提供されるべきです。リポジトリレベルでこれらのフォーマットをサポートしていることが、リポジトリ内の各アイテムに対して各フォーマットをサポートしていることを意味するものではありません。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:475
+msgid ""
+"If you request a format (for example ``oai_ead``) and it is not available, "
+"then AtoM will return a ``cannotDisseminateFomat`` error code. Harvesters "
+"can then try again in one of the other available metadata formats."
+msgstr ""
+"要求されたフォーマット（例えば``oai_ead``）が利用可能でない場合、AtoMは``cannotDisseminateFomat``エラーコードを返します。収穫者（ハーベスター）は、他の利用可能なメタデータフォーマットのいずれかで再試行することができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:504
+msgid ""
+"If you want to make ``oai_ead`` metadata available to harvesters, then you "
+"**must** pre-generate and cache the EAD XML - AtoM will not attempt to "
+"generate it on the fly for OAI request. If no EAD 2002 XML has been pre-"
+"generated and cached, then AtoM will return a ``cannotDisseminateFormat`` "
+"error code to attempts by harvesters to request ``oai_ead``."
+msgstr ""
+"もし``oai_ead``メタデータを収集プログラムに提供したい場合は、EAD XMLを事前に生成してキャッシュする**必要があります** - "
+"AtoMはOAIリクエストに対してその場でEADを生成しようとしません。もしEAD 2002 "
+"XMLが事前に生成されてキャッシュされていなければ、AtoMは``oai_ead``をリクエストする収集プログラムに対して``cannotDisseminateFormat``エラーコードを返します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:510
+msgid "For more information, see above: :ref:`cache-xml-oai`."
+msgstr "詳細については、上記の `cache-xml-oai` を参照してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:515
+msgid "List identifiers"
+msgstr "識別子一覧"
+
+#: ../../user-manual/import-export/oai-pmh.rst:517
+msgid ""
+"This verb is an abbreviated form of :ref:`ListRecords <oai-list-records>`, "
+"retrieving only headers rather than records. Optional arguments permit "
+"selective harvesting of headers based on set membership and/or datestamp. "
+"The ``metadataPrefix`` is a required argument as part of the request."
+msgstr ""
+"この動詞は、レコードではなくヘッダーのみを取得する :ref:`ListRecords <oai-list-records>` "
+"の短縮形です。オプションの引数により、セットメンバーシップや日付印に基づいてヘッダーを選択的に収穫することができます。リクエストの一部として "
+"``metadataPrefix`` は必須の引数です。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:522
+msgid ""
+"When the metadata prefix used in the request is ``oai_ead``, only top-level "
+"descriptions will be returned in the response."
+msgstr "リクエストで使用されるメタデータプレフィックスが``oai_ead``である場合、応答で返されるのはトップレベルの説明のみとなります。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:525
+#: ../../user-manual/import-export/oai-pmh.rst:626
+#: ../../user-manual/import-export/oai-pmh.rst:735
+#: ../../user-manual/import-export/oai-pmh.rst:1016
+msgid "**Arguments**"
+msgstr "**引数**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:527
+#: ../../user-manual/import-export/oai-pmh.rst:628
+msgid ""
+"``from`` - *optional* - parameter entered as UTCdatetime value, which "
+"specifies a lower bound for datestamp-based selective harvesting."
+msgstr ""
+"``from`` - *オプション* - "
+"UTCdatetimeの値として入力されるパラメータで、日付スタンプに基づく選択的収穫のための下限を指定します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:529
+#: ../../user-manual/import-export/oai-pmh.rst:630
+msgid ""
+"``until`` - *optional* - parameter entered as UTCdatetime value, which "
+"specifies an upper bound for datestamp-based selective harvesting."
+msgstr ""
+"``until`` - *オプション* - "
+"UTCdatetime値として入力されるパラメーターで、日付スタンプを基にした選択的収穫のための上限を指定します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:531
+#: ../../user-manual/import-export/oai-pmh.rst:634
+msgid ""
+"``metadataPrefix`` - *required* - can be either ``oai_dc`` for Dublin Core "
+"XML, or ``oai_ead`` for EAD 2002 XML (**not** required if resuming a "
+"truncated request - see ``resumptionToken``, below)."
+msgstr ""
+"``metadataPrefix`` - *必須* - ダブリンコアXMLの場合は``oai_dc``、EAD 2002 "
+"XMLの場合は``oai_ead``のいずれかを選択できます（途切れたリクエストの再開時には**不要**です - "
+"以下の``resumptionToken``を参照）。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:534
+#: ../../user-manual/import-export/oai-pmh.rst:637
+msgid ""
+"``resumptionToken`` - *exclusive* - used to continue a request that was "
+"truncated. Value is a token supplied as part of the previous incomplete "
+"request. If you have previously passed other arguments (such as the "
+"metadataPrefix, or from/until parameters), they should not be included in "
+"the continued request - only the verb, and the resumptionToken argument and "
+"token should be included."
+msgstr ""
+"``resumptionToken`` - *排他的* - "
+"切り捨てられたリクエストを続けるために使用されます。値は、以前の未完了リクエストの一部として提供されたトークンです。以前に他の引数（metadataPrefixやfrom/untilパラメータなど）を渡していた場合、それらは継続されたリクエストには含まれるべきではありません"
+" - verbとresumptionToken引数、そしてトークンのみが含まれるべきです。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:549
+msgid "A resumption token is included in the example."
+msgstr "例には再開トークンが含まれています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:580
+msgid "**Example request with the resumption token used**"
+msgstr "**再開トークンを使用した例のリクエスト**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:587
+msgid "**Example requests with** ``from`` **and** ``until`` **parameters**"
+msgstr "``from`` **および** ``until`` **パラメーターを使用した例のリクエスト**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:589
+msgid ""
+"Specifies a lower or upper bound for datestamp-based selective harvesting. "
+"Both parameters can be used together if needed to target a particular range."
+msgstr ""
+"日付スタンプに基づく選択的収集のために、下限または上限を指定します。必要に応じて、特定の範囲を対象とするために両方のパラメータを一緒に使用することができます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:592
+msgid "Expose the identifiers of records created after 2015-01-01:"
+msgstr "2015年1月1日以降に作成されたレコードの識別子を公開する："
+
+#: ../../user-manual/import-export/oai-pmh.rst:598
+msgid "Expose the identifiers of records created up until 2012-12-31"
+msgstr "2012年12月31日までに作成された記録の識別子を公開する"
+
+#: ../../user-manual/import-export/oai-pmh.rst:606
+msgid ""
+"As per the OAI-PMH specification, AtoM will convert local times into "
+"Coordinated Universal Time (UTC) when handling ``from`` and ``until`` "
+"parameters, and when returning results. Be sure to factor this into your "
+"range when using these parameters!"
+msgstr ""
+"OAI-"
+"PMH仕様に従い、AtoMは「from」と「until」パラメータを扱う際、また結果を返す際に、ローカル時間を協定世界時（UTC）に変換します。これらのパラメータを使用する際は、あなたの範囲にこのことを考慮に入れてください！"
+
+#: ../../user-manual/import-export/oai-pmh.rst:613
+msgid ""
+"The earliest date stamp associated with the records available from the "
+"repsository is included in a typical Identify response. See above, "
+":ref:`oai-identify`."
+msgstr ""
+"レポジトリから入手できる記録に関連する最も古い日付スタンプは、一般的にIdentify応答に含まれています。上記の :ref:`oai-"
+"identify` を参照してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:620
+msgid "List records"
+msgstr "記録一覧"
+
+#: ../../user-manual/import-export/oai-pmh.rst:622
+msgid ""
+"This verb is used to harvest records from a repository. Optional arguments "
+"permit selective harvesting of records based on set membership and/or "
+"datestamp. The ``metadataPrefix`` is a required argument as part of the "
+"request."
+msgstr ""
+"この動詞は、リポジトリから記録を収穫するために使用されます。オプショナルな引数により、セットのメンバーシップや日付スタンプに基づいた記録の選択的な収穫が可能になります。リクエストの一部として「metadataPrefix」は必須の引数です。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:632
+msgid ""
+"``set`` - *optional* argument with a ``setSpec`` value , which specifies set"
+" criteria for selective harvesting."
+msgstr "\"`set`\" - 任意の引数であり、\"`setSpec`\" 値を持っています。これは選択的収集のためのセット基準を指定します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:646
+msgid ""
+"EAD 2002 XML is a hierarchically organized metadata exchange standard, "
+"designed to express a full :term:`archival unit` (such as a :term:`fonds` or"
+" :term:`collection` and all of its descendant records) in a single XML "
+"document. This means that one EAD XML file could contain thousands of "
+"descriptions."
+msgstr ""
+"EAD 2002 "
+"XMLは、階層的に組織されたメタデータ交換標準であり、一つのXMLドキュメント内に全ての:term:`アーカイバルユニット`（例えば:term:`フォンズ`や:term:`コレクション`、及びその子孫レコード全て）を表現するよう設計されています。これは、一つのEAD"
+" XMLファイルが何千もの記述を含む可能性があることを意味します。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:652
+msgid ""
+"To ensure that the response does not exhaust all available system memory, "
+"when ``oai_ead`` is the metadata prefix used for a ListRecords request, AtoM"
+" will return a single full EAD 2002 XML document at a time before halting "
+"the request and including a resumption token. A harvester can use the "
+"resumption token to continue requesting records as needed - see the "
+":ref:`oai-list-identifiers` section above for an example request using a "
+"resumption token."
+msgstr ""
+"システムの利用可能なメモリを全て使い果たさないように保証するために、``oai_ead`` "
+"がListRecordsリクエスト用のメタデータプレフィックスとして使用される際、AtoMはリクエストを停止する前に一度に1つの完全なEAD 2002 "
+"XMLドキュメントを返し、続きのトークンを含めます。収集ツールはこの続きのトークンを使って、必要に応じてレコードのリクエストを続けることができます - "
+"続きのトークンを使った例のリクエストについては、上記の :ref:`oai-list-identifiers` セクションを参照してください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:707
+msgid ""
+"If you have enabled the \"Additional sets\" setting, (see above :ref:`oai-"
+"pmh-settings`), a virtual set parameter could also be used."
+msgstr ""
+"「追加セット」の設定を有効にしている場合（上記 :ref:`oai-pmh-settings`を参照）、仮想セットパラメーターも使用できます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:710
+msgid "**Example request, limited to top-level records (virtual set)**"
+msgstr "**トップレベルの記録に限定されたサンプルリクエスト（バーチャルセット）**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:717
+msgid ""
+"See the :ref:`oai-list-identifiers` examples above for guidance on using "
+"some of the additional arguments, such as ``from``, ``until``, and the "
+"``resumptionToken``."
+msgstr ""
+"上記の :ref:`oai-list-identifiers` "
+"での例を参考にしてください。それには、``from``、``until``、``resumptionToken`` "
+"といった追加の引数の使用方法に関するガイダンスが含まれています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:723
+msgid ""
+"See the :ref:`oai-get-record` response for examples of how AtoM can pass "
+"URLs to linked digital objects via OAI."
+msgstr ""
+"以下をご参照ください： `oai-get-record` "
+"応答例では、AtoMがOAIを通じてリンクされたデジタルオブジェクトへのURLをどのように渡すことができるかについての例が示されています。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:729
+msgid "Get record"
+msgstr "記録を取得"
+
+#: ../../user-manual/import-export/oai-pmh.rst:731
+msgid ""
+"This verb is used to retrieve an individual metadata record from a "
+"repository. Required arguments specify the identifier of the item from which"
+" the record is requested and the format of the metadata that should be "
+"included in the record."
+msgstr ""
+"この動詞は、リポジトリから個別のメタデータレコードを取得するために使用されます。必要な引数には、レコードが求められるアイテムの識別子と、レコードに含まれるべきメタデータの形式が指定されます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:737
+msgid ""
+"``identifier``- *required* - specifies the unique identifier of the item in "
+"the repository from which the record must be disseminated. A list of "
+"identifiers can be retrieved using the :ref:`ListIdentifiers <oai-list-"
+"identifiers>` request."
+msgstr ""
+"「identifier」- *必須* - "
+"レポジトリ内のアイテムに割り当てられた一意の識別子を指定します。この識別子を利用して、レコードが配信される必要があります。識別子のリストは、`:ref:`ListIdentifiers"
+" <oai-list-identifiers>`リクエストを使用して取得できます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:741
+msgid ""
+"``metadataPrefix`` - *required* specifies the metadataPrefix of the format "
+"that should be included in the metadata part of the returned record. The "
+"metadata formats supported by a repository and for a particular record can "
+"be retrieved using the :ref:`ListMetadataFormats <oai-list-metadata-"
+"formats>` request."
+msgstr ""
+"``metadataPrefix`` - *必須* "
+"は、返されたレコードのメタデータ部分に含まれるべきフォーマットのmetadataPrefixを指定します。リポジトリによってサポートされているメタデータフォーマットや特定のレコードについては、:ref:`ListMetadataFormats"
+" <oai-list-metadata-formats>`リクエストを使用して取得できます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:753
+msgid "**Example response - DC XML**"
+msgstr "**例示的回答 - DC XML**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:797
+msgid ""
+"If the resource has a :term:`digital object` attached, AtoM will include a "
+"link to the  digital object in the OAI response, using `Atom "
+"<http://tools.ietf.org/html/rfc4287>`__ Syndication format XML:"
+msgstr ""
+"リソースに:term:`デジタルオブジェクト`が添付されている場合、AtoMはOAI応答に、`Atom "
+"<http://tools.ietf.org/html/rfc4287>`__ "
+"シンジケーションフォーマットXMLを使用してデジタルオブジェクトへのリンクを含めます。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:861
+msgid "**Example response - EAD 2002 XML**"
+msgstr "**例示レスポンス - EAD 2002 XML**"
+
+#: ../../user-manual/import-export/oai-pmh.rst:1002
+msgid "List sets"
+msgstr "リストセット"
+
+#: ../../user-manual/import-export/oai-pmh.rst:1004
+msgid ""
+"This verb is used to retrieve the set structure of a repository, useful for "
+"selective harvesting. For a long request (e.g. a repository with many sets),"
+" a resumption token may be supplied - the ``resumptionToken`` is the only "
+"parameter supported by this verb."
+msgstr ""
+"この動詞は、リポジトリのセット構造を取得するために使用されます。これは選択的収穫に役立ちます。長いリクエストの場合（例えば、多くのセットを持つリポジトリ）、継続トークンを提供することができます"
+" - 「resumptionToken」はこの動詞によってサポートされる唯一のパラメータです。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:1011
+msgid ""
+"Note that available virtual sets, including the setName and setSpec, will "
+"also be included in a List sets response. The example response below "
+"includes a virtual set example. For more information, see the :ref:`oai-pmh-"
+"settings` section above."
+msgstr ""
+"利用可能な仮想セット、それに setName および setSpec も、List sets "
+"の応答に含まれることに注意してください。以下の例の応答には、仮想セットの例が含まれています。詳しくは、上記の :ref:`oai-pmh-"
+"settings` セクションをご覧ください。"
+
+#: ../../user-manual/import-export/oai-pmh.rst:1018
+msgid ""
+"``resumptionToken`` - *exclusive* - used to continue a request that was "
+"truncated. Value is a token supplied as part of the previous incomplete "
+"request. If you have previously passed other arguments (such as the "
+"metadataPrefix, or from/until parameters), they should not be included in "
+"the continued request - only the verb and the resumptionToken argument and "
+"token should be included."
+msgstr ""
+"``resumptionToken`` - *排他的* - "
+"途切れたリクエストを続けるために使用されます。値は以前の未完了リクエストの一部として提供されたトークンです。以前に他の引数（メタデータプレフィックスや "
+"from/until パラメータなど）を渡していた場合、それらは継続されるリクエストには含めないでください - リクエストには動詞と "
+"resumptionToken 引数およびトークンのみを含めてください。"

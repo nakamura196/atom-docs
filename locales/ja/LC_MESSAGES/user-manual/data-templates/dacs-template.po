@@ -1,0 +1,1577 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/dacs-template.rst:5
+msgid ""
+"Describing Archives: A Content Standard (DACS 2013) data entry and CSV "
+"template"
+msgstr "アーカイブ記述：コンテンツ標準（DACS 2013）データ入力及びCSVテンプレート"
+
+#: ../../user-manual/data-templates/dacs-template.rst:7
+msgid "On this page you will find:"
+msgstr "このページには以下の内容が含まれています："
+
+#: ../../user-manual/data-templates/dacs-template.rst:9
+msgid ""
+"Link to downloadable CSV template using `ISAD(G) General International "
+"Standard Archival Description <http://www.ica.org/10207/standards/isadg-"
+"general-international-standard-archival-description-second-edition.html>`_"
+msgstr ""
+"ダウンロード可能なCSVテンプレートへのリンク： `ISAD(G) 国際標準アーカイブ記述（総記） "
+"<http://www.ica.org/10207/standards/isadg-general-international-standard-"
+"archival-description-second-edition.html>`_"
+
+#: ../../user-manual/data-templates/dacs-template.rst:11
+msgid ""
+"Description of fields used when entering or importing :term:`archival "
+"descriptions <archival description>` using DACS in a :term:`CSV` file or "
+"entering the data manually."
+msgstr ""
+"DACSDを使用してCSVファイルを使用してアーカイブ記述を入力またはインポートする際、またはデータを手動で入力する際に使用されるフィールドの説明。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:17
+msgid ":ref:`archival-descriptions`"
+msgstr "`:ref:'アーカイバル記述'`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:18
+msgid ":ref:`csv-import`"
+msgstr "「csv-import」(CSVインポート)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:19
+msgid ":ref:`import-xml`"
+msgstr ":ref:`xmlのインポート`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:20
+msgid ":ref:`export-xml`"
+msgstr ""
+"このテキストはreStructuredText (reST) 形式で参照リンクを作成するために使われているものと思われます。`export-xml`はおそらく特定のセクションやタイトルへのリンク名であり、実際の翻訳作業にはドキュメントのコンテキストが必要になります。しかしながら、この参照を直訳する必要があるか、それとも単純にリンクのラベルや名称を日本語版に置き換えるだけでよいかによって、翻訳のアプローチが異なります。\n"
+"\n"
+"ガイドラインに従うなら、原文の構造を維持して、次のように翻訳することができます（ただし、実際のターゲットセクション名がわかれば、それに合わせて変更する必要があります）:\n"
+"\n"
+"`:ref:`export-xml`` \n"
+"\n"
+"ただし、もし実際のセクションタイトルを「XMLのエクスポート」と仮定して翻訳する必要がある場合は、文書内で適切な日本語のセクションタイトルに修正してください。例えば:\n"
+"\n"
+"`:ref:`xmlのエクスポート``\n"
+"\n"
+"それでも、これはプレースホルダーあるいは特定のドキュメント構造を指しており、正しいコンテキストがないと正確な翻訳は不可能です。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:21
+msgid ":ref:`cli-import-export`"
+msgstr ""
+"このテキストはreStructuredText(reST)と呼ばれるドキュメント記法の内部リンクを参照しています。日本語に直訳する場合は参照リンクのラベルや名称をそのまま保持することが一般的です。したがって、次のようになります：\n"
+"\n"
+"``:ref:`cli-import-export` ``\n"
+"\n"
+"しかし、日本の読者向けにドキュメント全体を翻訳する場合は、チャプターやセクションのタイトルも翻訳する必要があります。個別のラベルが何を表しているのかに応じて、ラベル名の後に日本語のタイトルを括弧書きで付け加えることができます。たとえば、「CLIインポートおよびエクスポート」というセクションを参照している場合、次のようになります：\n"
+"\n"
+"``:ref:`cli-import-export`（CLIインポートおよびエクスポート）``\n"
+"\n"
+"ただし、実際にリンクを機能させるには、ドキュメント内で定義されている参照ラベル（ラベル名）を正確に使用する必要があります。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:25
+msgid "DACS and the ISAD CSV template"
+msgstr "DACSとISAD CSVテンプレート"
+
+#: ../../user-manual/data-templates/dacs-template.rst:27
+msgid ""
+"At present, there is no DACS-based CSV template for importing descriptions "
+"into  AtoM. However, because DACS maps so well to the `International Council"
+" on Archives <http://www.ica.org/>`_ ' ISAD(G) standard, the ISAD CSV "
+"template can be used.  The CSV mappings below will provide guidance on which"
+" ISAD CSV fields can be used to  import your DACS-based descriptions into "
+"AtoM."
+msgstr ""
+"現時点では、AtoMへの記述をインポートするためのDACSベースのCSVテンプレートは存在しません。しかし、DACSは`国際アーカイブズ評議会 "
+"<http://www.ica.org/>`_ の ISAD(G) 標準と非常によく対応しているため、ISAD "
+"CSVテンプレートを使用することができます。以下のCSVマッピングは、DACSベースの記述をAtoMにインポートするために使用できるISAD "
+"CSVフィールドに関するガイダンスを提供します。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:33
+msgid ""
+"To download the ISAD(G) CSV template for AtoM, please visit our wiki page:"
+msgstr "AtoM用のISAD(G) CSVテンプレートをダウンロードするには、私たちのウィキページを訪問してください："
+
+#: ../../user-manual/data-templates/dacs-template.rst:35
+msgid "https://wiki.accesstomemory.org/Resources/CSV_templates"
+msgstr ""
+"アクセストゥメモリーのリソース：CSVテンプレート\n"
+"\n"
+"https://wiki.accesstomemory.org/Resources/CSV_templates"
+
+#: ../../user-manual/data-templates/dacs-template.rst:38
+msgid "Field descriptions"
+msgstr "フィールドの説明"
+
+#: ../../user-manual/data-templates/dacs-template.rst:40
+msgid ""
+"DACS is maintained by the Society of American Archivists (`SAA "
+"<http://www2.archivists.org>`__), and the version used in AtoM is available "
+"at:"
+msgstr ""
+"DACSはアメリカのアーカイビスト協会（`SAA "
+"<http://www2.archivists.org>`__）によって維持されており、AtoMで使用されているバージョンは以下で入手できます："
+
+#: ../../user-manual/data-templates/dacs-template.rst:44
+msgid "https://files.archivists.org/pubs/DACS2E-2013_v0315.pdf"
+msgstr ""
+"すみませんが、私はウェブページの内容を移動したり、ダウンロードしたり、アクセスしたりする機能がないため、指定されたURLからのコンテンツの翻訳は行えません。しかし、Archivematicaやデジタルアーカイブに関するテキストや指定された特定の段落があれば、翻訳を手伝うことができます。必要なテキストを直接入力していただければ、それに対しての日本語訳を提供することは可能です。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:46
+msgid "Information below includes:"
+msgstr "以下の情報には以下が含まれます："
+
+#: ../../user-manual/data-templates/dacs-template.rst:48
+msgid "**Template field** refers to the default label for that field in AtoM"
+msgstr "「テンプレートフィールド」とは、AtoMでのそのフィールドのデフォルトラベルを指します。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:49
+msgid ""
+"**CSV Column** refers to the title of the related column in the ((ISAD) CSV "
+"template"
+msgstr "**CSV列** は関連する列のタイトルを指し、((ISAD) CSVテンプレート内にあります。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:51
+msgid ""
+"**DACS Rule** refers to the rule from the applicable standard and/or the "
+"instructions provided by AtoM."
+msgstr "**DACSルール** とは、適用可能な標準からの規則および/またはAtoMによって提供される指示を指します。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:53
+msgid "**EAD** refers to the field mapping to EAD"
+msgstr "**EAD** はEADへのフィールドマッピングを指します。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:54
+msgid ""
+"**Notes** includes any other information needed for successful data entry or"
+" CSV import."
+msgstr "「**メモ**には、データの入力やCSVのインポートを成功させるために必要なその他の情報が含まれます。」"
+
+#: ../../user-manual/data-templates/dacs-template.rst:57
+msgid "**Skip to**:"
+msgstr "**スキップ先**："
+
+#: ../../user-manual/data-templates/dacs-template.rst:59
+msgid ":ref:`dacs-identity`"
+msgstr ""
+"このテキストは参照リンクを意味していますが、独立した文章ではないため、単純な翻訳は不十分であり、文脈を提供する必要があります。しかし、リンクが「DACSアイデンティティ」に関連していることを考えると、日本語では次のようになる可能性があります：\n"
+"\n"
+":ref:`dacs-アイデンティティ`\n"
+"\n"
+"ただし、リンク先の詳細なタイトルや内容に応じて、適切な日本語訳が必要です。また、本テキストがどのように使用されるかにより、適切な訳語が異なる場合があります。したがって、これは仮訳であり、士文脈を理解した上での正確な翻訳が求められます。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:60
+msgid ":ref:`dacs-content-structure`"
+msgstr ""
+"`:ref:`dacs-content-structure`` は、明らかにリファレンスリンクですが、ここで与えられた情報だけでは正しい日本語訳を提供することはできません。\"-content-structure\" を参照としていますが、\"dacs\"が何を指しているのか、また、これがどの文脈でどのように使われるべきかによって、訳し方が変わってきます。\n"
+"\n"
+"もし \"dacs\" が \"Describing Archives: A Content Standard (アーカイブ記述のための内容標準)\" の略であると仮定した場合、リファレンスリンクは、その標準の \"コンテンツ構造\" についてのセクションを指していると考えられます。その場合、以下のように翻訳することができます。\n"
+"\n"
+"`:ref:`アーカイブ記述のための内容標準のコンテンツ構造``\n"
+"\n"
+"ただし、これはあくまで訳例であり、正しい翻訳を行うためには追加情報が必要です。実際のドキュメント内の使用に合わせて適切に翻訳してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:61
+msgid ":ref:`dacs-access-use-conditions`"
+msgstr ":ref:`dacs-アクセス利用条件`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:62
+msgid ":ref:`dacs-acquisition-appraisal`"
+msgstr ":ref:`dacs-取得-鑑定`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:63
+msgid ":ref:`dacs-related-materials`"
+msgstr ""
+"このテキストは、ドキュメント内の特定の参照に関係しているため、直訳することはできません。通常、`:ref:` という記法は、ドキュメント内で定義されたラベル（この場合は `dacs-related-materials`）への参照を意味します。そのため、日本語に翻訳するには、ドキュメント内の該当する箇所を指す日本語ラベルが必要です。\n"
+"\n"
+"しかし、もし「DACS-related materials」というフレーズを文脈を無視して単体で翻訳すると、「DACS関連資料」となります。DACSとは「Describing Archives: A Content Standard」の略で、アーカイブ資料の記述に関する標準です。したがって、ドキュメントの文脈に応じて適切な参照ラベルを付けながら、次のような文を日本語に翻訳することになるでしょう：\n"
+"\n"
+"参照：「DACS関連資料」"
+
+#: ../../user-manual/data-templates/dacs-template.rst:64
+msgid ":ref:`dacs-notes`"
+msgstr ""
+"`:ref:`dacs-notes`この部分は、リファレンスリンクや文脈に基づいた特定の節を指し示すマークアップタグであるため、そのまま直訳することはありません。このタグは、ドキュメント内の「dacs-notes」というラベルが付けられたセクションを参照するために設置されています。\n"
+"\n"
+"もしこの部分がドキュメントの一部として翻訳される必要がある場合、それはリンクされている内容のタイトルや節の名前を翻訳し、関連するテキストやコンテキストに応じて参照部分を適切に日本語に置き換える工程を含むでしょう。例えば、「DACSに関する注記」や「DACSに関する参考セクション」となるかもしれませんが、これは実際の文脈に応じて異なります。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:65
+msgid ":ref:`dacs-description-control`"
+msgstr ""
+"このコンテキストでは、具体的な文章がなく、ただの参照（リファレンス）ラベルが提供されているため、正確な翻訳はできませんが、もしこのラベルがArchivematicaのドキュメント内で使われているのであれば、それは「記述制御に関する米国記述規則(DACS)」というセクションを指している可能性があります。したがって、ある程度文脈を推測し、以下のように翻訳することができます。\n"
+"\n"
+"```\n"
+":ref:`dacs-description-control` -> :ref:`米国記述規則に関する記述制御`\n"
+"```\n"
+"\n"
+"このラベルがテキスト内でどのように使われるかによっても翻訳は変わる可能性があるため、実際の文脈が分かればより適切な翻訳を提供できるかもしれません。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:66
+msgid ":ref:`dacs-access-points`"
+msgstr ":ref:`dacs-アクセスポイント`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:67
+msgid ":ref:`dacs-administration`"
+msgstr ""
+"`:ref:`dacs-administration``は、具体的なテキストではなく、文書内の参照マークアップです。「dacs-administration」はおそらく特定の章、節、または文書のラベルを指しており、文脈によっては「DACS管理」と訳すことになるでしょうが、これだけの情報では正確な日本語翻訳に変換することはできません。\n"
+"\n"
+"この参照が指し示す具体的なセクション名やコンテンツを提供していただければ、それを日本語に翻訳できます。それがない場合、このマークアップ自体は「DACS管理」と仮訳して、書類内の参照先を識別するための特定のマーカーやタグとして理解して、そのまま残すことが一般的です。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:72
+msgid "Identity elements"
+msgstr "アイデンティティ要素"
+
+#: ../../user-manual/data-templates/dacs-template.rst:-1
+msgid "An image of the data entry fields in the DACS Identity elements."
+msgstr "DACSアイデンティティ要素におけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:82
+msgid "Identifier"
+msgstr "識別子"
+
+#: ../../user-manual/data-templates/dacs-template.rst:84
+msgid "**Template Field** Identifier"
+msgstr "**テンプレートフィールド** 識別子"
+
+#: ../../user-manual/data-templates/dacs-template.rst:86
+#: ../../user-manual/data-templates/dacs-template.rst:281
+msgid "**ISAD CSV Column** ``identifier``"
+msgstr "**ISAD CSVのカラム** ``識別子``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:88
+msgid ""
+"**DACS Rule**: At the highest level of a multilevel description or in a "
+"single level description, provide a unique identifier for the materials "
+"being described in accordance with the institution's administrative control "
+"system."
+msgstr ""
+"**DACSルール**：複数レベルの記述の最上位レベルまたは単一レベルの記述で、記述されている資料に対し、機関の行政管理システムに従ってユニークな識別子を提供してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:92
+msgid ""
+"Optionally, devise unique identifiers at lower levels of a multilevel "
+"description. (DACS 2.1.3) The country and repository code will be "
+"automatically added from the linked repository record to form a full "
+"reference code."
+msgstr ""
+"オプションとして、複数レベルの記述で下位レベルに固有の識別子を作成します。（DACS "
+"2.1.3）国と保管庫コードは、リンクされた保管庫の記録から自動的に追加され、完全な参照コードを形成します。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:97
+#: ../../user-manual/data-templates/dacs-template.rst:126
+#: ../../user-manual/data-templates/dacs-template.rst:147
+#: ../../user-manual/data-templates/dacs-template.rst:180
+#: ../../user-manual/data-templates/dacs-template.rst:200
+#: ../../user-manual/data-templates/dacs-template.rst:238
+#: ../../user-manual/data-templates/dacs-template.rst:261
+#: ../../user-manual/data-templates/dacs-template.rst:372
+#: ../../user-manual/data-templates/dacs-template.rst:391
+#: ../../user-manual/data-templates/dacs-template.rst:429
+#: ../../user-manual/data-templates/dacs-template.rst:449
+#: ../../user-manual/data-templates/dacs-template.rst:485
+#: ../../user-manual/data-templates/dacs-template.rst:510
+#: ../../user-manual/data-templates/dacs-template.rst:535
+#: ../../user-manual/data-templates/dacs-template.rst:556
+#: ../../user-manual/data-templates/dacs-template.rst:579
+#: ../../user-manual/data-templates/dacs-template.rst:617
+#: ../../user-manual/data-templates/dacs-template.rst:637
+#: ../../user-manual/data-templates/dacs-template.rst:658
+#: ../../user-manual/data-templates/dacs-template.rst:677
+#: ../../user-manual/data-templates/dacs-template.rst:713
+#: ../../user-manual/data-templates/dacs-template.rst:737
+#: ../../user-manual/data-templates/dacs-template.rst:759
+#: ../../user-manual/data-templates/dacs-template.rst:803
+#: ../../user-manual/data-templates/dacs-template.rst:837
+#: ../../user-manual/data-templates/dacs-template.rst:860
+#: ../../user-manual/data-templates/dacs-template.rst:924
+#: ../../user-manual/data-templates/dacs-template.rst:944
+#: ../../user-manual/data-templates/dacs-template.rst:964
+#: ../../user-manual/data-templates/dacs-template.rst:1014
+#: ../../user-manual/data-templates/dacs-template.rst:1040
+#: ../../user-manual/data-templates/dacs-template.rst:1074
+#: ../../user-manual/data-templates/dacs-template.rst:1109
+#: ../../user-manual/data-templates/dacs-template.rst:1176
+msgid "**EAD**"
+msgstr ""
+"EAD stands for Encoded Archival Description. It is a standard for encoding archival finding aids using XML. EAD is often used by archives to create structured descriptions of archival collections, facilitating better access and understanding of the materials held. These finding aids typically include information about the context and content of archival materials, usually organized hierarchically.\n"
+"\n"
+"The text \"EAD\" is actually an acronym and wouldn't normally be translated, as it refers to a specific technical standard that retains the same name in various languages, including Japanese. That said, if you were explaining the term to a Japanese audience, you might add a brief description:\n"
+"\n"
+"EADとは、エンコードされたアーカイヴ記述（Encoded Archival Description）の略称です。XMLを使用してアーカイブ検索支援ツールをエンコードするための標準です。アーカイブはEADを利用して、アーカイブコレクションの構造化された記述を作成し、所蔵する資料へのアクセスと理解を容易にします。これらの検索支援ツールには、通常、階層的に編成されたアーカイブ資料のコンテキストと内容に関する情報が含まれています。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:107
+msgid "Name and Location of Repository"
+msgstr "リポジトリの名称と所在地"
+
+#: ../../user-manual/data-templates/dacs-template.rst:109
+msgid "**Template Field** Name and location of repository"
+msgstr "**テンプレート フィールド** リポジトリの名前と場所"
+
+#: ../../user-manual/data-templates/dacs-template.rst:111
+msgid "**ISAD CSV Column** ``repository``"
+msgstr "**ISAD CSV列** ``リポジトリ``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:113
+msgid ""
+"**DACS Rule**: Explicitly state the name of the repository, including any "
+"parent bodies. (DACS 2.2.2)"
+msgstr "**DACSルール**: リポジトリの名前およびその上位機関の名前を明確に記述してください。(DACS 2.2.2)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:118
+msgid ""
+"Search for an existing name in the archival institution records by typing in"
+" the first few letters of the name into AtoM's autocomplete field. "
+"Alternatively, type a new name to create a stub :term:`repository` record "
+"and link it to the current description on save. For more general "
+"information, see:"
+msgstr ""
+"アーカイバル機関の記録内で既存の名前を検索するには、AtoMのオートコンプリートフィールドに名前の最初の数文字を入力して下さい。または、新しい名前を入力してスタブ"
+" :term:`レポジトリ` の記録を作成し、保存時に現在の記述にリンクしてください。より一般的な情報については、以下を参照してください："
+
+#: ../../user-manual/data-templates/dacs-template.rst:124
+msgid ":ref:`link-archival-institution`"
+msgstr ":ref:`リンク-アーカイブ機関`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:137
+msgid "Levels of Description"
+msgstr "説明のレベル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:139
+msgid "**Template Field** Levels of description"
+msgstr "**テンプレートフィールド** 記述レベル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:141
+#: ../../user-manual/data-templates/dacs-template.rst:293
+msgid "**ISAD CSV Column** ``levelOfDescription``"
+msgstr "**ISAD CSV 列:** ``levelOfDescription``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:143
+msgid ""
+"**DACS Rule**: Select a level of description from the drop-down menu. Follow"
+" any relevant local or institutional guidelines in selecting the proper "
+"level of description. See DACS (2013) Chapter 1 for further guidance."
+msgstr ""
+"**DACS規則**: "
+"ドロップダウンメニューから記述のレベルを選択します。適切な記述レベルを選択する際に、関連する地域または機関のガイドラインに従ってください。さらなるガイダンスについては、DACS"
+" (2013) 第1章を参照してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:149
+msgid "At the parent level:"
+msgstr "親レベルで："
+
+#: ../../user-manual/data-templates/dacs-template.rst:156
+msgid "At the child level:"
+msgstr "子レベルで："
+
+#: ../../user-manual/data-templates/dacs-template.rst:167
+#: ../../user-manual/data-templates/dacs-template.rst:300
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:169
+msgid "**Template Field** Title"
+msgstr "**テンプレートフィールド** タイトル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:171
+#: ../../user-manual/data-templates/dacs-template.rst:304
+msgid "**ISAD CSV Column** ``title``"
+msgstr "**ISAD CSVカラム** ``タイトル``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:173
+msgid ""
+"**DACS Rule**: In the absense of a meaningful formal title, compose a brief "
+"title that uniquely identifies the material, normally consisting of a name "
+"segment, a term indicating the nature of the unit being described, and "
+"optionally a topical segment."
+msgstr ""
+"**DACSの規則**: "
+"有意な正式なタイトルが欠如している場合は、通常、名称部分、記述されている単位の性質を示す用語、および任意でトピック部分から構成される、資料を一意に識別する簡潔なタイトルを作成します。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:178
+msgid "Do not enclose devised titles in square brackets. (DACS 2.3.3)"
+msgstr "角括弧を使って考案されたタイトルを囲まないこと。（DACS 2.3.3）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:190
+#: ../../user-manual/data-templates/dacs-template.rst:312
+msgid "Date"
+msgstr "日付"
+
+#: ../../user-manual/data-templates/dacs-template.rst:192
+msgid "**Template Field** Date(s)"
+msgstr "**テンプレートフィールド** 日付(群)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:194
+msgid ""
+"**ISAD CSV Columns** ``eventDates``, ``eventTypes``, ``eventStartDates``, "
+"``eventEndDates``"
+msgstr ""
+"**ISAD CSVの列** `eventDates`, `eventTypes`, `eventStartDates`, "
+"`eventEndDates`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:196
+msgid ""
+"**DACS Rule** Record dates of creation, record-keeping activity, "
+"publication, or broadcast (``eventTypes``) as appropriate to the materials "
+"being described. (DACS 2.4.3)"
+msgstr ""
+"**DACSルール** 記述されている資料に適した場合は、作成日、記録保持活動、出版または放送（``eventTypes``）などの日付を記録します。 "
+"(DACS 2.4.3)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:207
+#: ../../user-manual/data-templates/dacs-template.rst:779
+msgid "**Notes**"
+msgstr "**注意事項**"
+
+#: ../../user-manual/data-templates/dacs-template.rst:209
+msgid ""
+"The Date field (``eventDates``) can be used to enter free-text date "
+"information, including typographical marks to express approximation, "
+"uncertainty, or qualification."
+msgstr ""
+"日付フィールド（``eventDates``）は、おおよその日付、不確かさ、または特定の条件を表すためのタイポグラフィカルな記号を含む、自由形式のテキスト日付情報を入力するために使用できます。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:213
+msgid ""
+"Use the start and end fields (``eventStartDates`` and ``eventEndDates``) to "
+"make the dates searchable. Do not use any qualifiers or typographical "
+"symbols in the start and end fields. Acceptable date formats: YYYYMMDD, "
+"YYYY-MM-DD, YYYY-MM, YYYY."
+msgstr ""
+"以下の開始日と終了日のフィールド（``eventStartDates`` と "
+"``eventEndDates``）を使用して、日付を検索可能にします。開始日と終了日のフィールドには、修飾子や印刷記号を使用しないでください。許容される日付形式：YYYYMMDD、YYYY-"
+"MM-DD、YYYY-MM、YYYY。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:218
+msgid ""
+"For more on how the controlled start and end date fields are used in "
+"searching, see:"
+msgstr "制御された開始日と終了日のフィールドが検索でどのように使用されるかの詳細については、以下を参照してください："
+
+#: ../../user-manual/data-templates/dacs-template.rst:221
+msgid ":ref:`date-range-search`"
+msgstr "`:ref:`date-range-search` `の参照範囲は日付範囲検索です。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:226
+msgid "Extent"
+msgstr "範囲"
+
+#: ../../user-manual/data-templates/dacs-template.rst:228
+msgid "**Template Field** Extent"
+msgstr "**テンプレート フィールド** 範囲"
+
+#: ../../user-manual/data-templates/dacs-template.rst:230
+msgid "**ISAD CSV Column** ``extentAndMedium``"
+msgstr "**ISAD CSV列** 「extentAndMedium」"
+
+#: ../../user-manual/data-templates/dacs-template.rst:232
+msgid ""
+"**DACS Rule**: Record the quantity of the material in terms of its physical "
+"extent as linear or cubic feet, number of items, or number of containers or "
+"carriers. (DACS 2.5.4) Optionally, record the quantity in terms of the "
+"material type(s) (DACS 2.5.5), and/or qualify the statement of physical "
+"extent to hgihlight the existence of material types that are important. "
+"(DACS 2.5.6)"
+msgstr ""
+"**DACSルール**: 資料の数量を、線形または立方フィート、項目数、容器またはキャリアの数といった物理的な範囲で記録します。(DACS 2.5.4)"
+" オプションで、資料の種類に関して数量を記録することができます。(DACS 2.5.5) "
+"または、重要な資料の種類があることを強調して、物理的な範囲の声明を修飾することができます。(DACS 2.5.6)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:248
+msgid "Creator"
+msgstr "クリエーター"
+
+#: ../../user-manual/data-templates/dacs-template.rst:250
+msgid "**Template Field** Name of creator(s)"
+msgstr "**テンプレートフィールド** 作成者の名前"
+
+#: ../../user-manual/data-templates/dacs-template.rst:252
+msgid "**ISAD CSV Column** ``eventActors``"
+msgstr "ISAD CSV 列 ``eventActors``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:254
+msgid ""
+"**DACS Rule**: Record the name(s) of the creator(s) identified in the name "
+"elevent in the devised title of the materials using standardized "
+"vocabularies or with rules for formulating standardized names (DACS 2.6.4). "
+"Search for an existing name in the authority records by typing the first few"
+" characters of the name. Alternatively, type a new name to create and link "
+"to a new authority record."
+msgstr ""
+"**DACS規則**: "
+"資料の考案されたタイトルにある名前の要素で識別された作成者の名前を、標準化された語彙を使用するか、標準化された名前を形成するルールに従って記録します（DACS"
+" "
+"2.6.4）。権威レコードで既存の名前を検索するには、名前の最初の数文字を入力します。あるいは、新しい名前を入力して新しい権威レコードを作成し、リンクします。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:271
+msgid "Child levels"
+msgstr "階層下レベル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:273
+msgid ""
+"These fields can be used to add lower levels to a collection level "
+"description. Click \"Add new\" to create as many child levels as necessary."
+msgstr ""
+"これらのフィールドは、コレクションレベルの記述に下位レベルを追加するために使用できます。必要なだけ子レベルを作成するには、「新規追加」をクリックしてください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:277
+msgid "Child level identifier"
+msgstr "子レベル識別子"
+
+#: ../../user-manual/data-templates/dacs-template.rst:279
+msgid "**Template Field:** Identifier"
+msgstr "**テンプレート フィールド:** 識別子"
+
+#: ../../user-manual/data-templates/dacs-template.rst:283
+msgid ""
+"**DACS Rule**: Provide a unique identifier for the materials being described"
+" in accordance with the institution's administrative control system."
+msgstr "**DACS（記録記載基準）ルール**: 描述される資料に対して、機関の行政管理システムに準じた固有の識別子を提供する。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:286
+#: ../../user-manual/data-templates/dacs-template.rst:297
+msgid "**EAD** See the EAD mappings in the related fields."
+msgstr "**EAD** 関連するフィールドでのEADマッピングをご覧ください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:289
+msgid "Level of description"
+msgstr "説明のレベル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:291
+msgid "**Template Field:** Level"
+msgstr "**テンプレート フィールド:** レベル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:295
+msgid "**DACS Rule**: Record the level of this unit of description."
+msgstr "**DACS ルール**: この記述単位のレベルを記録してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:302
+msgid "**Template Field:** Title"
+msgstr "**テンプレート フィールド:** タイトル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:306
+msgid ""
+"**DACS Rule**: In the absence of a meaningful formal title, compose a brief "
+"title that uniquely identifies the material."
+msgstr "**DACS ルール**：意味のある正式なタイトルがない場合は、資料を一意に識別する簡潔なタイトルを作成してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:309
+#: ../../user-manual/data-templates/dacs-template.rst:336
+msgid "**EAD** See the EAD mappings in the related fields above."
+msgstr "**EAD** 上記の関連するフィールドでのEADマッピングを参照してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:314
+msgid "**Template Field:** Date"
+msgstr "**テンプレート フィールド:** 日付"
+
+#: ../../user-manual/data-templates/dacs-template.rst:316
+msgid "**ISAD CSV Column** ``eventDates``"
+msgstr "**ISAD CSV 列** ``eventDates``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:320
+msgid ""
+"To include child levels in the ISAD CSV for import, the ``parentId`` column "
+"must contain the legacy ID of the parent record. For example, if the parent "
+"record has the legacy ID *249* recorded in the ``legacyId`` column, the "
+"child record must have the number *249* in the ``parentId`` column, as shown"
+" in the table here:"
+msgstr ""
+"ISAD "
+"CSVへのインポートで子レベルを含めるには、「parentId」列には親レコードのレガシーIDが含まれていなければなりません。例えば、親レコードが「legacyId」列に*249*というレガシーIDを記録している場合、子レコードは以下の表に示すように「parentId」列に数字の*249*を持っている必要があります。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:327
+msgid "title"
+msgstr "タイトル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:327
+msgid "legacyId"
+msgstr "LegacyId (レガシーID)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:327
+msgid "parentId"
+msgstr "parentId"
+
+#: ../../user-manual/data-templates/dacs-template.rst:329
+msgid "DACS parent level"
+msgstr "DACS親レベル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:329
+#: ../../user-manual/data-templates/dacs-template.rst:331
+msgid "249"
+msgstr ""
+"この質問はコンテキストが不足していて、翻訳するための十分な内容が含まれていません。\"249\" "
+"は数字であり、これが何を指しているのか、あるいはどの文脈の中で使用されているのかについての追加情報が必要です。もしこれが文書の一部であれば、関連する文章や段落が必要になるでしょう。それに基づいて適切な翻訳を提供できます。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:331
+msgid "DACS child level"
+msgstr "DACSチャイルドレベル"
+
+#: ../../user-manual/data-templates/dacs-template.rst:331
+msgid "250"
+msgstr ""
+"ご提示いただいたテキスト「250」だけでは、翻訳に必要な情報が不足しています。デジタルデータの長期保存に関するドキュメントのコンテキストや具体的な文節が提供されていないため、この数字がどのような情報を含んでいるのか特定できません。\n"
+"\n"
+"「250」という数字は単体では多くの意味を持ち得ますが、これがページ数、セクション番号、または設定値など、特定の参照項目である可能性があります。もし翻訳が必要な文章やより詳細な情報があれば、それを提供していただくことで適切に翻訳を行うことができます。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:334
+msgid "**DACS Rule:** Record a date of creation."
+msgstr "**DACSルール：** 作成日を記録する。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:339
+#: ../../user-manual/data-templates/dacs-template.rst:398
+#: ../../user-manual/data-templates/dacs-template.rst:586
+#: ../../user-manual/data-templates/dacs-template.rst:684
+#: ../../user-manual/data-templates/dacs-template.rst:810
+#: ../../user-manual/data-templates/dacs-template.rst:897
+#: ../../user-manual/data-templates/dacs-template.rst:972
+#: ../../user-manual/data-templates/dacs-template.rst:1128
+#: ../../user-manual/data-templates/dacs-template.rst:1195
+msgid ":ref:`Back to the top <dacs-template>`"
+msgstr ":ref:`トップに戻る <dacs-template>`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:344
+msgid "Content and structure elements"
+msgstr "コンテンツと構造要素"
+
+#: ../../user-manual/data-templates/dacs-template.rst:352
+msgid "Data entry fields in the DACS content and structure elements."
+msgstr "DACSコンテンツおよび構造要素におけるデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:352
+msgid ""
+"The data entry fields for the content and structure elements of the DACS "
+"archival description edit template."
+msgstr "DACS文書記述編集テンプレートのコンテンツおよび構造要素のためのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:358
+msgid "Scope and content"
+msgstr "範囲と内容"
+
+#: ../../user-manual/data-templates/dacs-template.rst:360
+msgid "**Template Field** Scope and content"
+msgstr "**テンプレートフィールド** 範囲と内容"
+
+#: ../../user-manual/data-templates/dacs-template.rst:362
+msgid "**ISAD CSV Column** ``scopeAndContent``"
+msgstr "**ISAD CSV列** ``scopeAndContent``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:364
+msgid ""
+"**DACS Rule**: Record information about the nature of the materials and "
+"activities being reflected in the unit being described to enable users to "
+"judge its relevance, including information about functions, activities, "
+"transactions, and processes; documentary form(s) or intellectual "
+"characteristics; content dates; geographic areas and places; subject matter;"
+" completeness of the materials; or any other information that assists the "
+"user in evaluating the relevance of the materials. (DACS 3.1)"
+msgstr ""
+"**DACSルール**: "
+"説明対象の資料の性質や活動についての情報を記録し、利用者がその関連性を判断できるようにすること。記録すべき情報には、機能、活動、取引、プロセス；ドキュメンタリー形式あるいは知的特徴；コンテンツの日付；地理的エリアや場所；主題；資料の完全性；または利用者が資料の関連性を評価するのに役立つその他の情報が含まれます。(DACS"
+" 3.1)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:382
+msgid "System of Arrangement"
+msgstr "配置体系"
+
+#: ../../user-manual/data-templates/dacs-template.rst:384
+msgid "**Template Field** System of arrangement"
+msgstr "**テンプレートフィールド** 配置体系"
+
+#: ../../user-manual/data-templates/dacs-template.rst:386
+msgid "**ISAD CSV Column** ``arrangement``"
+msgstr "ISAD CSV列 ``配置``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:388
+msgid ""
+"**DACS Rule**: Describe the current arrangement of the materials in terms of"
+" the various aggregations within it and their relationships. (DACS 3.2.3)"
+msgstr "**DACS規則**：さまざまな集約とそれらの関係性において、資料の現在の配列について記述します。(DACS 3.2.3)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:403
+msgid "Conditions of access and use elements"
+msgstr "アクセスと使用の条件に関する要素"
+
+#: ../../user-manual/data-templates/dacs-template.rst:411
+msgid "Data entry fields in the DACS conditions of access and use elements"
+msgstr "DAC「アクセス条件および使用要素」のデータ入力フィールド"
+
+#: ../../user-manual/data-templates/dacs-template.rst:411
+msgid ""
+"The data entry fields for the conditions of access and use elements of the "
+"DACS archival description edit template."
+msgstr "DACSアーカイブ記述編集テンプレートのアクセス条件および利用条件要素のデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:417
+msgid "Conditions governing access"
+msgstr "アクセスに関する条件\n"
+
+#: ../../user-manual/data-templates/dacs-template.rst:419
+msgid "**Template Field** Conditions governing access"
+msgstr "**テンプレート フィールド** アクセスを管理する条件"
+
+#: ../../user-manual/data-templates/dacs-template.rst:421
+msgid "**ISAD CSV Column** ``accessConditions``"
+msgstr "**ISAD CSV列** ``accessConditions``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:423
+msgid ""
+"**DACS Rule**: Give information about any restrictions on access to the unit"
+" being described (or parts thereof) as a result of the nature of the "
+"information therein or statutory/contractual requirements. As appropriate, "
+"specify the details of the restriction. If there are no restrictions, state "
+"that fact. (DACS 4.1.5)"
+msgstr ""
+"**DACS ルール**: "
+"説明されている単位（またはその一部）へのアクセスに関する制限について、その情報の性質または法令上の/契約上の要求による結果として情報を提供します。適切であれば、制限の詳細を指定してください。制限がない場合は、その事実を述べてください。（DACS"
+" 4.1.5）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:439
+msgid "Physical access"
+msgstr "物理的アクセス"
+
+#: ../../user-manual/data-templates/dacs-template.rst:441
+msgid "**Template Field** Physical access"
+msgstr "**テンプレート フィールド** 物理的アクセス"
+
+#: ../../user-manual/data-templates/dacs-template.rst:443
+msgid "**ISAD CSV Column** ``physicalCharacteristics``"
+msgstr "**ISAD CSVのカラム** ``physicalCharacteristics``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:445
+msgid ""
+"**DACS Rule**: Provide information about the physical characteristics or "
+"condition of the unit being described that limit access to it or restrict "
+"its use. (DACS 4.2.5)"
+msgstr ""
+"**DACS規則**: 利用やアクセスに制限を与える、または制約をもたらす、説明対象の単位の物理的特性や状態に関する情報を提供すること。 (DACS "
+"4.2.5)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:459
+msgid "Technical access"
+msgstr "技術的アクセス"
+
+#: ../../user-manual/data-templates/dacs-template.rst:461
+msgid "**Template Field** Technical access"
+msgstr "**テンプレート・フィールド** 技術的アクセス"
+
+#: ../../user-manual/data-templates/dacs-template.rst:463
+msgid "**ISAD CSV Column** Not mapped to ISAD(G) CSV template"
+msgstr "**ISAD CSV列** ISAD(G) CSVテンプレートにはマッピングされていません"
+
+#: ../../user-manual/data-templates/dacs-template.rst:465
+msgid ""
+"**DACS Rule**: Provide information about any special equipment required to "
+"view or access the unit being described, if it is not clear from the Extent "
+"element. (DACS 4.3.5)"
+msgstr ""
+"**DACS規則**: "
+"描述されている単位を閲覧またはアクセスするために必要な特殊機材に関する情報を提供してください。それが範囲（エクステント）要素から明らかでない場合に限ります。（DACS"
+" 4.3.5）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:469
+#: ../../user-manual/data-templates/dacs-template.rst:777
+msgid "**EAD** Not mapped to EAD."
+msgstr "EADにマッピングされていません。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:474
+msgid "Conditions governing reproduction and use"
+msgstr "再生(再製作)と利用に関する条件"
+
+#: ../../user-manual/data-templates/dacs-template.rst:476
+msgid "**Template Field** Conditions governing reproduction and use"
+msgstr "**テンプレートフィールド** 複製と使用を規制する条件"
+
+#: ../../user-manual/data-templates/dacs-template.rst:478
+msgid "**ISAD CSV Column** ``reproductionConditions``"
+msgstr "**ISAD CSV 列** ``複製条件``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:480
+msgid ""
+"**DACS Rule**: Give information about copyright status and any other "
+"conditions governing the reproduction, publication, and further use (e.g., "
+"display, public screening, broadcast, etc.) of the unit being described "
+"after access has been provided. (DACS 4.4.5)"
+msgstr ""
+"**DACS規則**: "
+"アクセスが提供された後、記述されている単位の複製、公開、及びそれ以降の使用（例えば、展示、公開上映、放送など）について支配している著作権の状況やその他の条件についての情報を提供してください。（DACS"
+" 4.4.5）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:495
+msgid "Languages of the material"
+msgstr "資料の言語"
+
+#: ../../user-manual/data-templates/dacs-template.rst:497
+msgid "**Template Field** Languages of the material"
+msgstr "**テンプレートフィールド** 資料の言語"
+
+#: ../../user-manual/data-templates/dacs-template.rst:499
+msgid "**ISAD CSV Column** ``language``"
+msgstr "**ISAD CSV列** ``language``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:503
+msgid ""
+"Use a two-letter language code from `ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ when importing "
+"from CSV."
+msgstr ""
+"CSVからインポートする際には、`ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ "
+"から2文字の言語コードを使用してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:507
+msgid ""
+"**DACS Rule**: Record the language(s) of the materials being described. "
+"(DACS 4.5.2)"
+msgstr "**DACS規則**: 記述されている資料の言語を記録してください。(DACS 4.5.2)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:521
+msgid "Scripts of the material"
+msgstr "資料のスクリプト"
+
+#: ../../user-manual/data-templates/dacs-template.rst:523
+msgid "**Template Field** Scripts of the material"
+msgstr "**テンプレート フィールド** 材料のスクリプト"
+
+#: ../../user-manual/data-templates/dacs-template.rst:525
+msgid "**ISAD CSV Column** ``script``"
+msgstr "**ISAD CSV列** ``スクリプト``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:529
+msgid ""
+"Use a four-letter script code from `ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ when importing from "
+"CSV."
+msgstr ""
+"CSVからインポートするときは、`ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ "
+"から4文字のスクリプトコードを使用してください。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:533
+msgid "**DACS Rule**: Record the scripts(s) of the materials being described."
+msgstr "**DACSの規則**: 記述されている資料のスクリプトを記録しなさい。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:546
+msgid "Language and script notes"
+msgstr "言語および文字に関する注意事項"
+
+#: ../../user-manual/data-templates/dacs-template.rst:548
+msgid "**Template Field** Language and script notes"
+msgstr "**テンプレートフィールド** 言語とスクリプトのノート"
+
+#: ../../user-manual/data-templates/dacs-template.rst:550
+msgid "**ISAD CSV Column** ``languageNotes``"
+msgstr "**ISAD CSV列** ``languageNotes``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:552
+msgid ""
+"**DACS Rule**: Record information about any distinctive alphabets, scripts, "
+"symbol systems, or abbreviations employed (DACS 4.5.3). If there is no "
+"language content, record “no linguistic content.” (DACS 4.5.4)"
+msgstr ""
+"**DACSルール**: 使用されている特有のアルファベット、スクリプト、記号のシステム、または略語に関する情報を記録する（DACS "
+"4.5.3）。言語コンテンツが存在しない場合は、「言語コンテンツなし」と記録する。（DACS 4.5.4）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:566
+msgid "Finding aids"
+msgstr "目録ツール"
+
+#: ../../user-manual/data-templates/dacs-template.rst:568
+msgid "**Template Field** Finding aids"
+msgstr "**テンプレート フィールド** 検索支援ツール"
+
+#: ../../user-manual/data-templates/dacs-template.rst:570
+msgid "**ISAD CSV Column** ``findingAids``"
+msgstr "**ISAD CSV列** ``findingAids``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:572
+msgid ""
+"**DACS Rule**: Record information about any existing finding aids that "
+"provide information relating to the context and contents of the unit being "
+"described including any relevant information about its location or "
+"availability, and any other information necessary to assist the user in "
+"evaluating its usefulness. Include finding aids prepared by the creator "
+"(e.g., registers, indexes, etc.) that are part of the unit being described. "
+"(DACS 4.6.2)"
+msgstr ""
+"**DACSルール**: "
+"記述されている単位の文脈や内容に関する情報を提供する既存の索引類に関する情報を記録してください。それには、その位置や利用可能性に関する関連情報、およびユーザーがその有用性を評価するのに必要なその他の情報も含まれます。記述されている単位の一部である作成者によって準備された索引類（たとえば、登録簿、索引など）も含めてください。(DACS"
+" 4.6.2)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:591
+msgid "Acquisition and appraisal elements"
+msgstr "取得と評価要素"
+
+#: ../../user-manual/data-templates/dacs-template.rst:599
+msgid "Data entry fields in the DACS acquisition and appraisal elements"
+msgstr "DACs取得と評価要素におけるデータ入力フィールド"
+
+#: ../../user-manual/data-templates/dacs-template.rst:599
+msgid ""
+"The data entry fields for the acquisition and appraisal elements of the DACS"
+" archival description edit template."
+msgstr "DACSアーカイブ記述編集テンプレートの獲得(acquisition)および評価(appraisal)要素のためのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:605
+msgid "Custodial history"
+msgstr "保管歴史"
+
+#: ../../user-manual/data-templates/dacs-template.rst:607
+msgid "**Template Field** Custodial history"
+msgstr "**テンプレートフィールド** 保管履歴"
+
+#: ../../user-manual/data-templates/dacs-template.rst:609
+msgid "**ISAD CSV Column** ``archivalHistory``"
+msgstr "**ISAD CSV列** ``archivalHistory``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:611
+msgid ""
+"**DACS Rule**:  Record the successive transfers of ownership, "
+"responsibility, or custody or control of the unit being described from the "
+"time it left the possession of the creator until its acquisition by the "
+"repository, along with the dates thereof, insofar as this information can be"
+" ascertained and is significant to the user’s understanding of the "
+"authenticity. (DACS 5.1.3)"
+msgstr ""
+"**DACS規則**: "
+"記述している資料が作成者の手を離れてから、その所蔵機関に収集されるまでの間に起こった所有権、責任、または保管・管理の連続的な移転について、それが認識でき、かつ利用者の真正性理解にとって重要である限り、その日付と共に記録すること。"
+" (DACS 5.1.3)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:627
+msgid "Immediate source of acquisition or transfer"
+msgstr "直接の取得または移転の源"
+
+#: ../../user-manual/data-templates/dacs-template.rst:629
+msgid "**Template Field** Immediate source of acquisition or transfer"
+msgstr "**テンプレートフィールド** 直接の取得または譲渡の情報源"
+
+#: ../../user-manual/data-templates/dacs-template.rst:631
+msgid "**ISAD CSV Column** ``acquisition``"
+msgstr "**ISAD CSV 列** ``取得``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:633
+msgid ""
+"**DACS Rule**: Record the source(s) from which the materials being described"
+" were acquired, the date(s) of acquisition, and the method of acquisition, "
+"if this information is not confidential. (DACS 5.2.3)"
+msgstr ""
+"**DACSルール**: 記述されている資料が取得された情報源、取得の日付、および取得方法を記録します。この情報が機密でない場合に限ります。（DACS "
+"5.2.3）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:647
+msgid "Appraisal, destruction and scheduling information"
+msgstr "鑑定、廃棄およびスケジューリングに関する情報"
+
+#: ../../user-manual/data-templates/dacs-template.rst:649
+msgid "**Template Field** Appraisal, destruction and scheduling information"
+msgstr "**テンプレートフィールド** 鑑定、廃棄およびスケジューリング情報"
+
+#: ../../user-manual/data-templates/dacs-template.rst:651
+msgid "**ISAD CSV Column** ``appraisal``"
+msgstr "**ISAD CSV列** ``評価``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:653
+msgid ""
+"**DACS Rule**: Where the destruction or retention of archival materials has "
+"a bearing on the interpretation and use of the unit being described, provide"
+" information about the materials destroyed or retained and provide the "
+"reason(s) for the appraisal decision(s), where known. (DACS 5.3.4)"
+msgstr ""
+"**DACS規則**: "
+"アーカイブ資料の破棄または保持が説明対象の単位の解釈や使用に影響を及ぼす場合には、破棄または保持された資料に関する情報を提供し、鑑定決定の理由を、それが分かっている限り提供してください。(DACS"
+" 5.3.4)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:668
+msgid "Accruals"
+msgstr "アクルーアルズ (蓄積)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:670
+msgid "**Template Field** Accruals"
+msgstr "**テンプレートフィールド** 累積"
+
+#: ../../user-manual/data-templates/dacs-template.rst:672
+msgid "**ISAD CSV Column** ``accruals``"
+msgstr "**ISAD CSV列** ``accruals``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:674
+msgid ""
+"**DACS Rule**: If known, indicate whether or not further accruals are "
+"expected. When appropriate, indicate frequency and volume. (DACS 5.4.2)"
+msgstr ""
+"**DACS規則**: もし分かっている場合には、それ以上の蓄積が予想されるかどうかを示してください。適切な場合には、頻度と量を示してください。 "
+"(DACS 5.4.2)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:689
+msgid "Related materials elements"
+msgstr "関連資料要素"
+
+#: ../../user-manual/data-templates/dacs-template.rst:697
+msgid "An image of the data entry fields for the Related materials area."
+msgstr "関連資料エリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:697
+msgid "The data entry fields for the Related materials area."
+msgstr "関連資料エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:702
+msgid "Existence and location of originals"
+msgstr "原本の存在と所在地"
+
+#: ../../user-manual/data-templates/dacs-template.rst:704
+msgid "**Template Field** Existence and location of originals"
+msgstr "**テンプレートフィールド** オリジナルの存在と場所"
+
+#: ../../user-manual/data-templates/dacs-template.rst:706
+msgid "**ISAD CSV Column** ``locationOfOriginals``"
+msgstr "**ISAD CSV 列** ``locationOfOriginals``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:708
+msgid ""
+"**DACS Rule**: If the materials being described are reproductions and the "
+"originals are located elsewhere, give the location of the originals. (DACS "
+"6.1.4) Record any identifying numbers that may help in locating the "
+"originals in the cited location. (DACS 6.1.6)"
+msgstr ""
+"**DACSルール**: 説明する資料が複製品で、オリジナルが別の場所にある場合は、オリジナルの所在地を記載してください。（DACS "
+"6.1.4）引用された場所でオリジナルを見つけるのに役立つ可能性のある識別番号があれば、それらを記録してください。（DACS 6.1.6）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:723
+msgid "Existence and location of copies"
+msgstr "コピーの存在と場所"
+
+#: ../../user-manual/data-templates/dacs-template.rst:725
+msgid "**Template Field** Existence and location of copies"
+msgstr "**テンプレートフィールド** コピーの存在と場所"
+
+#: ../../user-manual/data-templates/dacs-template.rst:727
+msgid "**ISAD CSV Column** ``locationOfCopies``"
+msgstr "**ISAD CSV列** ``複製品の所在``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:729
+msgid ""
+"**DACS Rule**: If a copy of all or part of the material being described is "
+"available, in addition to the originals, record information about the medium"
+" and location of the copy, any identifying numbers, and any conditions on "
+"the use or availability of the copy. If a copy of only a part of the unit "
+"being described is available, indicate which part. If the materials being "
+"described are available via remote access (electronically or otherwise), "
+"provide the relevant information needed to access them. (DACS 6.2.3)"
+msgstr ""
+"**DACSルール**: "
+"説明されている資料の全部または一部の複製がオリジナルに加えて利用可能な場合は、複製の媒体、所在地、識別番号、および複製の使用または利用可能性に関する条件についての情報を記録してください。説明されているユニットの一部のみが複製として利用可能な場合は、どの部分が利用可能であるかを示してください。説明されている資料がリモートアクセス（電子的な方法を含む）で利用可能な場合は、それらにアクセスするのに必要な関連情報を提供してください。（DACS"
+" 6.2.3）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:747
+msgid "Related archival materials"
+msgstr "関連するアーカイブ資料"
+
+#: ../../user-manual/data-templates/dacs-template.rst:749
+msgid "**Template Field** Related archival materials"
+msgstr "**テンプレートフィールド** 関連するアーカイブ資料"
+
+#: ../../user-manual/data-templates/dacs-template.rst:751
+msgid "**ISAD CSV Column** ``relatedUnitsOfDescription``"
+msgstr "**ISAD CSV欄** ``関連する記述単位``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:753
+msgid ""
+"**DACS Rule**: If there are materials that have a direct and significant "
+"connection to those being described by reason of closely shared "
+"responsibility or sphere of activity, provide the title, location, and, "
+"optionally, the reference number(s) of the related materials and their "
+"relationship with the materials being described. (DACS 6.3.5)"
+msgstr ""
+"**DACS規則**: "
+"説明している資料と直接的で重要な関連性がある、共通の責任や活動領域を密接に共有している資料がある場合は、関連する資料のタイトル、所在地、およびオプションで参照番号を提供し、説明している資料との関係性について述べてください。（DACS"
+" 6.3.5）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:769
+msgid "Related descriptions"
+msgstr "関連する説明"
+
+#: ../../user-manual/data-templates/dacs-template.rst:771
+msgid "**Template Field** Related descriptions"
+msgstr "**テンプレートフィールド** 関連する説明"
+
+#: ../../user-manual/data-templates/dacs-template.rst:773
+#: ../../user-manual/data-templates/dacs-template.rst:852
+msgid "**ISAD CSV Column** N/A"
+msgstr "**ISAD CSV列** 該当なし"
+
+#: ../../user-manual/data-templates/dacs-template.rst:775
+msgid "**DACS Rule**: N/A"
+msgstr "**DACS ルール**: 該当なし"
+
+#: ../../user-manual/data-templates/dacs-template.rst:781
+msgid ""
+"To create a relationship between this :term:`archival description` and "
+"another description held in AtoM, begin typing the name of the related "
+"description and select it from the autocomplete :term:`drop-down menu` when "
+"it appears below. Multiple relationships can be created. For more "
+"information, see:"
+msgstr ""
+"この:term:`アーカイブ記述`とAtoMで保持されている他の記述との関係を作成するには、関連する記述の名前を入力し始め、それが下に現れた時に:term:`ドロップダウンメニュー`から選択してください。複数の関係を作成することができます。詳細については、以下を参照してください："
+
+#: ../../user-manual/data-templates/dacs-template.rst:786
+msgid ":ref:`link-related-descriptions`"
+msgstr ":ref:`関連する説明にリンクする`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:791
+msgid "Publication notes"
+msgstr "出版ノート"
+
+#: ../../user-manual/data-templates/dacs-template.rst:793
+msgid "**Template Field** Publication notes"
+msgstr "**テンプレートフィールド** 出版ノート"
+
+#: ../../user-manual/data-templates/dacs-template.rst:795
+msgid "**ISAD CSV Column** ``publicationNote``"
+msgstr "**ISAD CSV列** ``publicationNote``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:797
+msgid ""
+"**DACS Rule**: Record a citation to, or information about, a publication "
+"that is about or is based on the use, study, or analysis of the materials "
+"being described. Provide sufficient information to indicate the relationship"
+" between the publication and the unit being described. This includes "
+"annotated editions. (DACS 6.4.4)"
+msgstr ""
+"**DACSルール**: "
+"描述対象の資料の使用、研究、または分析に基づいている、もしくはそれに関する出版物への引用または情報を記録する。記述している単位と出版物の関連を示す十分な情報を提供すること。これには注釈付き版も含まれる。（DACS"
+" 6.4.4）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:815
+msgid "Notes elements"
+msgstr "ノート要素"
+
+#: ../../user-manual/data-templates/dacs-template.rst:823
+msgid "An image of the data entry fields for the Notes area."
+msgstr "データ入力フィールドのノートエリアの画像"
+
+#: ../../user-manual/data-templates/dacs-template.rst:823
+msgid "The data entry fields for the Notes area."
+msgstr "ノート領域のデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:828
+msgid "General note(s)"
+msgstr "一般的な注意事項"
+
+#: ../../user-manual/data-templates/dacs-template.rst:830
+msgid "**Template Field** General note(s)"
+msgstr "**テンプレートフィールド** 一般的な注意事項"
+
+#: ../../user-manual/data-templates/dacs-template.rst:832
+msgid "**ISAD CSV Column** ``generalNote``"
+msgstr "**ISAD CSV列** ``generalNote``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:834
+msgid ""
+"**DACS Rule**: Record, as needed, information not accommodated by any of the"
+" defined elements of description. (DACS 7.1.2)"
+msgstr "**DACS規則**: 定義された記述要素では収容できない情報が必要な場合、その情報を記録する。（DACS 7.1.2）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:848
+msgid "Specialized note(s)"
+msgstr "特記事項"
+
+#: ../../user-manual/data-templates/dacs-template.rst:850
+msgid "**Template Field** Specialized note(s)"
+msgstr "**テンプレート フィールド** 特記事項"
+
+#: ../../user-manual/data-templates/dacs-template.rst:854
+msgid ""
+"**DACS Rule**: Select a note type from the drop-down menu and record, as "
+"needed, specialized information not accommodated by any of the defined "
+"elements of description, including Conservation (DACS 7.1.3), Citation (DACS"
+" 7.1.5), Alphanumeric designation (DACS 7.1.6), Variant title information "
+"(DACS 7.1.7), or Processing information (DACS 7.1.8)."
+msgstr ""
+"**DACSルール**：ドロップダウンメニューからノートタイプを選択し、必要に応じて、定義された記述要素によって取り扱われない特殊な情報を記録します。これには、保存状態（DACS"
+" 7.1.3）、引用情報（DACS 7.1.5）、英数字指定（DACS 7.1.6）、異なるタイトル情報（DACS 7.1.7）、処理情報（DACS "
+"7.1.8）などが含まれます。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:862
+msgid "Conservation note:"
+msgstr "保存に関する注意事項："
+
+#: ../../user-manual/data-templates/dacs-template.rst:869
+msgid "Citation note:"
+msgstr "引用注記："
+
+#: ../../user-manual/data-templates/dacs-template.rst:876
+msgid "Alphanumeric designation note:"
+msgstr "英数字の指定ノート："
+
+#: ../../user-manual/data-templates/dacs-template.rst:883
+msgid "Variant title information note:"
+msgstr "バリアントタイトル情報ノート："
+
+#: ../../user-manual/data-templates/dacs-template.rst:890
+msgid "Processing information note:"
+msgstr "処理情報メモ："
+
+#: ../../user-manual/data-templates/dacs-template.rst:902
+msgid "Description control elements"
+msgstr "記述制御要素"
+
+#: ../../user-manual/data-templates/dacs-template.rst:910
+msgid "An image of the data entry fields for the Description control area."
+msgstr "説明管理エリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:910
+msgid "The data entry fields for the Description control area."
+msgstr "説明管理エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:915
+msgid "Sources used"
+msgstr "使用した情報源"
+
+#: ../../user-manual/data-templates/dacs-template.rst:917
+msgid "**Template Field** Sources used"
+msgstr "**テンプレートフィールド** 使用した情報源"
+
+#: ../../user-manual/data-templates/dacs-template.rst:919
+msgid "**ISAD CSV Column** ``sources``"
+msgstr "**ISAD CSV列** ``sources``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:921
+msgid ""
+"**DACS Rule**: Record relevant information about sources consulted in "
+"establishing or revising the description. (DACS 8.1.3)"
+msgstr "**DACS ルール**: 記述の確立または改訂において参照した情報源に関する関連情報を記録すること。(DACS 8.1.3)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:935
+msgid "Rules or conventions"
+msgstr "ルールまたは規約"
+
+#: ../../user-manual/data-templates/dacs-template.rst:937
+msgid "**Template Field** Rules or conventions"
+msgstr "**テンプレート フィールド** ルールまたは慣習"
+
+#: ../../user-manual/data-templates/dacs-template.rst:939
+msgid "**ISAD CSV Column** ``rules``"
+msgstr "**ISAD CSV列** ``規則``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:941
+msgid ""
+"**DACS Rule**: Record the international, national or local rules or "
+"conventions followed in preparing the description. (DACS 8.1.4)"
+msgstr "**DACSルール**: 説明を準備する際に従った国際的、国内的、または地域的な規則や慣習を記録します。（DACS 8.1.4）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:955
+msgid "Archivist and date"
+msgstr "アーキビストと日付"
+
+#: ../../user-manual/data-templates/dacs-template.rst:957
+msgid "**Template Field** Archivist and date"
+msgstr "**テンプレートフィールド** アーキビストと日付"
+
+#: ../../user-manual/data-templates/dacs-template.rst:959
+msgid "**ISAD CSV Column** ``archivistNote``"
+msgstr "**ISAD CSV列** ``archivistNote``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:961
+msgid ""
+"**DACS Rule**: Record the name(s) of the person(s) who created or revised "
+"the description, as well as the creation or revision date. (DACS 8.1.5)"
+msgstr "**DACS規則**: 説明を作成または改訂した人の名前と、作成または改訂の日付を記録します。（DACS 8.1.5）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:977
+msgid "Access points"
+msgstr "アクセスポイント"
+
+#: ../../user-manual/data-templates/dacs-template.rst:985
+msgid "An image of the data entry fields for the Access points area."
+msgstr "アクセスポイント領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:985
+msgid "The data entry fields for the Access points area."
+msgstr "アクセスポイント領域のデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:987
+msgid ""
+"The DACS standard does not include rules about access points, but it does "
+"include general high-level guidance on their use and where relevant "
+"information can be found when constructing controlled vocabulary terms (See "
+"pg xxiv in Describing ARchives: A Content Standard, Second Edition)."
+msgstr ""
+"DACS標準にはアクセスポイントに関する規則は含まれていませんが、それらの使用についての一般的な高レベルのガイダンス、および管理された語彙用語を構築する際に関連情報を見つける場所についての指針が含まれています（詳細については『アーカイブを記述する：コンテンツ標準、第2版』のxxivページを参照してください）。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:995
+msgid "Subject access points"
+msgstr "件名アクセスポイント"
+
+#: ../../user-manual/data-templates/dacs-template.rst:997
+msgid "**Template Field** Subject access points"
+msgstr "**テンプレートフィールド** 主題アクセスポイント"
+
+#: ../../user-manual/data-templates/dacs-template.rst:999
+msgid "**ISAD CSV Column** ``subjectAccessPoints``"
+msgstr "**ISAD CSV 列** ``subjectAccessPoints``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1001
+msgid ""
+"**DACS Rule**: The topical subject matter to which the records pertain is "
+"among the most important aspects of the archival materials. Terms suggesting"
+" topics that might be employed as access points may be found in the "
+"following areas of the descriptive record:"
+msgstr ""
+"**DACS規則**: "
+"記録の関連するトピカルな主題は、アーカイブ資料の中でもっとも重要な側面の一つです。アクセスポイントとして利用される可能性のあるトピックを示唆する用語は、記述記録の以下の領域で見つけることができます："
+
+#: ../../user-manual/data-templates/dacs-template.rst:1006
+#: ../../user-manual/data-templates/dacs-template.rst:1036
+#: ../../user-manual/data-templates/dacs-template.rst:1065
+#: ../../user-manual/data-templates/dacs-template.rst:1097
+msgid "Title Element (2.3)"
+msgstr "タイトル要素 (2.3)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1007
+#: ../../user-manual/data-templates/dacs-template.rst:1037
+#: ../../user-manual/data-templates/dacs-template.rst:1067
+#: ../../user-manual/data-templates/dacs-template.rst:1098
+msgid "Scope and Content Element (3.1)"
+msgstr "範囲と内容要素 (3.1)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1008
+#: ../../user-manual/data-templates/dacs-template.rst:1038
+#: ../../user-manual/data-templates/dacs-template.rst:1099
+msgid "Administrative/Biographical History Element (2.7)"
+msgstr "行政的/生涯的経歴要素 (2.7)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1010
+msgid ""
+"A variety of general and specialized subject thesauri, including the "
+"*Library of Congress Authorities*, may be employed as the source for "
+"standardized terminology."
+msgstr ""
+"さまざまな一般的および専門的な分野のシソーラスが使用されることがあり、その中には*アメリカ議会図書館の権威ファイル*が標準化された用語の出典として含まれています。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1024
+msgid "Place access points"
+msgstr "アクセスポイントを設置する"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1026
+msgid "**Template Field** Place access points"
+msgstr "**テンプレート フィールド** アクセスポイントを設置"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1028
+msgid "**ISAD CSV Column** ``placeAccessPoints``"
+msgstr "**ISAD CSV 表の列** ``placeAccessPoints``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1030
+msgid ""
+"**DACS Rule**: The names of places and geographic features to which the "
+"records pertain may be important to researchers. Geographic place-names that"
+" should be considered for use as access points may be found in the following"
+" parts of the descriptive record:"
+msgstr ""
+"**DACS（記述アーカイブ基準）ルール**: "
+"記録に関連する場所や地理的特徴の名称は、研究者にとって重要な意味を持つ可能性があります。記述記録の以下の部分で見つかる、アクセスポイントとして利用を考慮すべき地理的地名が存在します："
+
+#: ../../user-manual/data-templates/dacs-template.rst:1035
+#: ../../user-manual/data-templates/dacs-template.rst:1096
+msgid "Name of Creator(s) Element (2.6)"
+msgstr "クリエイター名要素（2.6）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1050
+msgid "Genre access points"
+msgstr "ジャンルアクセスポイント"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1052
+msgid "**Template Field** Genre access points"
+msgstr "**テンプレートフィールド** ジャンルアクセスポイント"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1054
+msgid "**ISAD CSV Column** ``genreAccessPoints``"
+msgstr "**ISAD CSV列** ``genreAccessPoints``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1056
+msgid ""
+"**DACS Rule**: Terms that indicate the documentary form(s) or intellectual "
+"characteristics of the records being described (e.g., minutes, diaries, "
+"reports, watercolors, or documentaries) provide the user with an indication "
+"of the content of the materials based on an understanding of the common "
+"properties of particular document types. For example, one can deduce the "
+"contents of ledgers because they are a standard form of accounting record, "
+"one that typically contains certain types of data. Documentary forms are "
+"most often noted in the following areas of the descriptive record:"
+msgstr ""
+"**DACSルール**：記述されている記録の文書形式（例：議事録、日記、報告書、水彩画、ドキュメンタリーなど）や知的特性を示す用語は、特定の文書タイプの共通の特性に基づいた資料内容の指標としてユーザーに提供されます。たとえば、帳簿は一般的な会計記録の標準形式であり、通常特定の種類のデータを含んでいるため、その内容を推測することができます。文書の形態は、通常、記述記録の以下の分野で注記されます："
+
+#: ../../user-manual/data-templates/dacs-template.rst:1066
+msgid "Extent Element (2.5)"
+msgstr "エクステント要素（2.5）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1069
+msgid ""
+"The *Art & Architecture Thesaurus*, the *Library of Congress Authorities*, "
+"or appropriate media-specific thesauri should be the first sources consulted"
+" for terms denoting documentary forms and literary genres."
+msgstr ""
+"*アート＆アーキテクチャー・シソーラス*、*アメリカ議会図書館権威ファイル*、あるいは適切なメディア固有のシソーラスは、文書形式や文学ジャンルを示す用語を探す際に最初に参照すべき情報源であるべきです。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1084
+msgid "Name access points"
+msgstr "アクセスポイントの名称"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1086
+msgid "**Template Field** Name access points (subjects)"
+msgstr "**テンプレートフィールド** 名前アクセスポイント（主題）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1088
+msgid "**ISAD CSV Column** ``nameAccessPoints``"
+msgstr "**ISAD CSV列名**：``nameAccessPoints``"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1090
+msgid ""
+"**DACS Rule**: The names of persons, families, and organizations that are "
+"associated with a body of archival materials, either as the creator or the "
+"subject of the records, constitute an important pathway by which researchers"
+" discover relevant materials. Names that are rendered as nominal access "
+"points can be found in several areas of the descriptive record:"
+msgstr ""
+"**DACSルール**: "
+"資料群に関連する人物、家族、組織の名前は、記録の作成者または主題として、研究者が関連資料を発見する重要な手がかりとなります。名前をアクセスポイントとして表現する場合、それらは記述記録のいくつかのエリアで見つけることができます。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1100
+msgid "Custodial History Element (5.1)"
+msgstr "保管履歴要素 (5.1)"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1101
+msgid "Immediate Source of Acquisition Element (5.2)"
+msgstr "取得情報の直接源（エレメント5.2）"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1103
+msgid ""
+"At a minimum, an access point should be made for every name included in the "
+"Name of Creator(s) Element in a single-level description or at the highest "
+"level in a multilevel description. Names found in other descriptive elements"
+" may be utilized as access points in accordance with local or consortial "
+"practice."
+msgstr ""
+"最低限、単一レベルの記述における「作成者名」要素に含まれるすべての名前や、多層レベルの記述における最上位レベルに対してアクセスポイントを設定するべきです。その他の記述要素で見つかった名前は、ローカルまたは共同体の慣習に従ってアクセスポイントとして利用されることがあります。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1118
+msgid ""
+"The DACS standard also recommends access points related to occupations, as "
+"well as functions and activities. In AtoM, this data can be captured on "
+"other :term:`entity` types, such as :term:`authority records <authority "
+"record>` (which allow the addition of Occupation access points) and "
+":term:`function` records. For more information, see:"
+msgstr ""
+"DACS基準では、職業に関連するアクセスポイントや、機能と活動にも推奨しています。AtoMでは、このデータは他の :term:`entity` "
+"タイプ（職業アクセスポイントの追加を許可する :term:`authority records <authority record>`（権限レコード）や"
+" :term:`function`（機能）レコードなど）でキャプチャすることができます。詳細は以下を参照してください："
+
+#: ../../user-manual/data-templates/dacs-template.rst:1124
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権威レコード`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1125
+msgid ":ref:`authority-access-points`"
+msgstr ":ref:`権限アクセスポイント`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1126
+msgid ":ref:`functions`"
+msgstr "`:ref:`機能`"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1133
+msgid "Administration area"
+msgstr "管理エリア"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1141
+msgid "An image of the data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1141
+msgid "The data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1146
+msgid "Display standard"
+msgstr "表示標準"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1148
+msgid "**Template field** Display standard"
+msgstr "**テンプレートフィールド** 表示標準"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1150
+msgid "**CSV column** N/A"
+msgstr "CSV列 N/A"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1152
+#: ../../user-manual/data-templates/dacs-template.rst:1174
+msgid "**DACS Rule** N/A"
+msgstr "**DACSルール** 該当なし"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1154
+msgid "**EAD** N/A"
+msgstr ""
+"EADは「Encoded Archival Description」を意味するアクロニムです。これはアーカイブ資料の記述や構成をコンピューター読み取り可能な形式で表すための国際的な標準です。EADには、N/A（Not Applicable）のような特定の状況において適用不可能または関連性がない場合に使用される用語も含まれます。\n"
+"\n"
+"もし、そのフレーズがArchivematicaのコンテキスト内で提供されたのであれば、「EAD N/A」という言葉は「Encoded Archival Description」が適用されない、または関連していない状況を指す可能性があります。ただし、全体としての文脈が提供されていないため、特定の翻訳はできません。もし特定の文脈やより広範な文章があれば、それをもとに正確な翻訳を提供できます。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1158
+msgid ""
+"This fields allows the user to choose a different display standard from the "
+":ref:`default template <default-templates>` for the shown archival "
+"description only, with the option to also change the display standard for "
+"all existing children of the description. See: :ref:`change-display-"
+"standard`."
+msgstr ""
+"このフィールドでは、ユーザーによって表示されるアーカイブ記述のデフォルトテンプレート :ref:`default template <default-"
+"templates>` から異なる表示基準を選択することができます。また、該当記述の全ての既存子孫の表示基準を変更するオプションもあります。参照： "
+":ref:`change-display-standard`。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1167
+msgid "Publication status"
+msgstr "公開ステータス"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1169
+msgid ""
+"**Template field** Publication status is available under the More tab "
+"located on the description :term:`view page`."
+msgstr "**テンプレートフィールド** 公開ステータスは、記述の:term:`ビューページ`にある「More」タブの下で利用可能です。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1172
+msgid "**CSV column** publicationsStatus"
+msgstr "CSV列：公開状態"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1185
+msgid ""
+"The :term:`publication status` refers to the public visibility of a "
+"description for unauthenticated (e.g. not logged in) users. The default "
+"terms available are \"Published\" (i.e. visible to public users), and "
+"\"Draft\" (e.g. not visible to public users). See: :ref:`publish-archival-"
+"description`."
+msgstr ""
+"用語「公開ステータス」は、未認証（例：ログインしていない）ユーザーに対する説明の公開可視性を指しています。デフォルトで使用可能な用語には、「公開済み」（すなわち、一般ユーザーに可視）と「下書き」（例：一般ユーザーに不可視）があります。参照：`アーカイバル記述の公開"
+" <publish-archival-description>`。"
+
+#: ../../user-manual/data-templates/dacs-template.rst:1190
+msgid ""
+"In the :ref:`Global Site Settings <global-settings>`, if the default "
+"publication status is set to draft, all imported descriptions will be set to"
+" draft and the EAD file will have the value \"draft\" in the <odd "
+"type=\"publicationStatus\"> tag."
+msgstr ""
+"グローバルサイト設定（:ref:`Global Site Settings <global-"
+"settings>`）で、デフォルトの公開ステータスがドラフトに設定されている場合、インポートされた全ての説明がドラフトに設定され、EADファイルは「ドラフト」という値を<odd"
+" type=\"publicationStatus\">タグの中に持つことになります。"

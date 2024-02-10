@@ -1,0 +1,475 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:5
+msgid "Asynchronous jobs and worker management"
+msgstr "非同期ジョブとワーカー管理"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:11
+msgid ""
+"AtoM relies on a job scheduler in order to execute certain long-running "
+"tasks asynchronously in the background (instead of synchronously via your "
+"web browser, making you wait until the task is done and the page loaded "
+"before continuing), to guarantee that web requests are handled promptly and "
+"work loads can be distributed across multiple machines. Example tasks in "
+"AtoM that use the job scheduler include:"
+msgstr ""
+"AtoMは、特定の長時間実行されるタスクを非同期的にバックグラウンドで実行するためにジョブスケジューラに依存しています（タスクが完了し、ページが読み込まれるまで待つのではなく、ウェブブラウザを介して同期的に実行する代わりに）。これにより、ウェブリクエストが迅速に処理され、作業負荷を複数のマシンに分散することが保証されます。ジョブスケジューラを使用するAtoMの例としては以下のタスクがあります："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:18
+msgid ":ref:`Generating finding aids <print-finding-aids>`"
+msgstr ":ref:`目録生成<print-finding-aids>`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:19
+msgid ":ref:`Importing records <import-export>` via the user interface"
+msgstr "ユーザーインターフェースを通じて記録をインポートする方法 :ref:`記録のインポートとエクスポート <import-export>`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:20
+msgid ":ref:`Exporting records <import-export>` via the Clipboard"
+msgstr "クリップボードを介した記録のエクスポート :ref:`記録のインポートとエクスポート <import-export>`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:21
+msgid ""
+"Using the :ref:`Move module <move-archival-description>` to reorganize "
+":term:`archival description` hierarchies"
+msgstr ""
+":ref:`移動モジュール <move-archival-description>` を使用して :term:`アーカイバル記述` 階層を再構成する"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:23
+msgid ":ref:`Ingesting DIPs from Archivematica <archivematica:upload-atom>`"
+msgstr ":ref:`ArchivematicaからDIPを取り込む <archivematica:upload-atom>`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:25
+msgid ""
+"We use Gearman as our job scheduler in AtoM. Gearman \"*provides a generic "
+"application framework to farm out work to other machines or processes that "
+"are better suited to do the work. It allows you to do work in parallel, to "
+"load balance processing, and to call functions between languages.*\""
+msgstr ""
+"AtoMではジョブスケジューラとしてGearmanを使用しています。Gearmanは「より適したマシンやプロセスに作業を外注するための汎用アプリケーションフレームワークを提供します。並行して作業を行うこと、処理の負荷分散を行うこと、異なる言語間で関数を呼び出すことができます。」"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:30
+msgid ""
+"You'll need a good understanding of all the components involved to find out "
+"what the best configuration and arrangement of services will be for you. You"
+" could configure it so every service runs in the same machine, or scale up "
+"to many machines across the network. You can always start small in a single-"
+"node environment and add more hardware later."
+msgstr ""
+"すべての構成要素をよく理解することが重要です。なぜなら、最適な設定やサービスの配置が何であるかを見つけ出すためです。すべてのサービスを同じマシンで稼働させるように設定することもできますし、ネットワーク全体にわたって多数のマシンにスケールアップすることも可能です。常にシングルノード環境で小規模に始めて、後からハードウェアを追加するという選択肢もあります。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:36
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:38
+msgid ":ref:`maintenance-job-server`"
+msgstr ":ref:`保守作業サーバー`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:39
+msgid ":ref:`maintenance-atom-worker`"
+msgstr ""
+"この特定のテキスト断片 `:ref:`maintenance-atom-worker`` は、マークアップ言語（恐らくreStructuredTextで使用される参照タグ）で書かれており、リファレンスやドキュメント内の特定のセクションへのリンクを貼るために使用されます。ただし、このテキスト自体には翻訳すべき内容がなく、それが指し示すのは「maintenance-atom-worker」というセクションまたはラベルです。\n"
+"\n"
+"それを翻訳文脈に組み込むために、日本語のドキュメントで同じセクションまたはラベルを参照する場合はそれに応じて翻訳する必要があります。たとえば、そのセクションが「AtoMワーカーのメンテナンス」というタイトルである場合、参照タグは次のようになります:\n"
+"\n"
+"```:ref:`AtoMワーカーのメンテナンス` ```\n"
+"\n"
+"しかし、この参照タグ自体やその構文は、機能を維持するために原文のまま保持されるべきです。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:40
+msgid ":ref:`maintenance-jobs`"
+msgstr "参照：`maintenance-jobs`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:44
+msgid "http://gearman.org/"
+msgstr ""
+"このテキストは実際にウェブサイトのURL（http://gearman.org/）を示しているだけで、本文が含まれていません。もし、このURLに関する説明や、Gearmanに関する情報を翻訳したい場合は、Gearmanについての概要または詳細を提供してください。それからそれを日本語に翻訳できます。そのままだと、単にウェブアドレスを翻訳するのは意味がありません。もし、追加の情報が必要であれば教えてください。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:45
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:57
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:114
+msgid ":ref:`installation-ubuntu-serve-workers`"
+msgstr ":ref:`installation-ubuntu-serve-workers` の節を参照してください。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:46
+msgid ":ref:`troubleshooting-restart-job-scheduler`"
+msgstr ":ref:`トラブルシューティング-ジョブスケジューラの再起動`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:47
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:235
+msgid ":ref:`manage-jobs`"
+msgstr ":ref:`ジョブ管理`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:52
+msgid "Gearman Job Server configuration"
+msgstr "Gearmanジョブサーバーの設定"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:54
+msgid ""
+"You should have completed the initial installation and configuration of "
+"Gearman as part of your AtoM installation process. For more information, "
+"see:"
+msgstr ""
+"お客様は、AtoMインストールプロセスの一環として、Gearmanの初期インストールおよび設定を完了している必要があります。詳細については、こちらをご覧ください："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:60
+msgid "Other considerations"
+msgstr "その他の考慮事項"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:62
+msgid ""
+"An AtoM worker needs to know where the job server is running, which is "
+"defined in an application setting under :file:`config/gearman.yml` and "
+"defaults to ``127.0.0.1:4730``."
+msgstr ""
+"AtoMワーカーは、ジョブサーバーがどこで動作しているかを知る必要があります。これは`:file:`config/gearman.yml`のアプリケーション設定で定義されており、デフォルトは``127.0.0.1:4730``です。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:66
+msgid ""
+"By default, Gearman's job queues are stored in memory. However you are free "
+"to deploy the queue storage in a different machine or replace it with a "
+"durable solution like MySQL or SQLite3. For more configuration options "
+"available, visit: http://gearman.org/manual/job_server/."
+msgstr ""
+"デフォルトでは、Gearmanのジョブキューはメモリ内に格納されます。しかし、キューストレージを別のマシンにデプロイするか、MySQLやSQLite3のような耐久性のあるソリューションに置き換える自由があります。使用可能なその他の設定オプションについては、http://gearman.org/manual/job_server/"
+" をご覧ください。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:71
+msgid ""
+"Note that the job server will perfectly handle multiple workers running "
+"simultaneously and the work load will be distributed across all available "
+"workers. If there are no workers available because they are busy completing "
+"other tasks, the job server will store the job in the queues and deliver "
+"them once a worker becomes available."
+msgstr ""
+"ジョブサーバーは複数のワーカーが同時に動作することを完璧に処理し、作業負荷は利用可能な全ワーカーに分散されます。もし利用可能なワーカーがいない場合（他のタスクを完了するのに忙しいため）、ジョブサーバーはジョブをキューに保存し、ワーカーが利用可能になり次第、そのジョブを配信します。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:77
+msgid ""
+"If you're planing to connect multiple AtoM instances to the same Gearman "
+"server, make sure to set a different string value for the ``workers_key`` "
+"setting located in :file:`config/app.yml`. This will avoid collisions "
+"between those instances and the workers will only take the jobs that belong "
+"to their related AtoM install."
+msgstr ""
+"複数のAtoMインスタンスを同じGearmanサーバーに接続する予定がある場合は、:file:`config/app.yml`にある``workers_key``設定の文字列の値を異なるものに設定してください。これにより、それぞれのインスタンス間での競合を回避でき、ワーカーは関連するAtoMインストールに属するジョブのみを処理します。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:83
+msgid ""
+"Whenever you change any of these settings, make sure that the Symfony cache "
+"is cleared and the workers are restarted."
+msgstr "これらの設定を変更する場合はいつでも、Symfonyキャッシュをクリアし、ワーカーを再起動することを確認してください。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:88
+msgid ":ref:`customization-config-files`"
+msgstr ":ref:`カスタマイズ-設定ファイル`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:89
+msgid ":ref:`maintenance-clear-cache`"
+msgstr ":ref:`メンテナンス-キャッシュのクリア`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:90
+msgid ":ref:`troubleshooting-restart-php-fpm`"
+msgstr ":ref:`トラブルシューティング-PHP-FPMの再起動`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:91
+msgid ":ref:`troubleshooting-restart-memcached`"
+msgstr "「:ref:`トラブルシューティング-メムキャッシュの再起動`」"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:93
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:225
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:297
+msgid ":ref:`Back to top <maintenance-asynchronous-jobs>`"
+msgstr ":ref:`トップに戻る <maintenance-asynchronous-jobs>`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:98
+msgid "Gearman Job Worker management"
+msgstr "ギアマンジョブワーカー管理"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:100
+msgid ""
+"In AtoM, a worker is just a CLI task that you can run in a terminal or "
+"supervise with specific tools like upstart, supervisord or circus. The "
+"worker will wait for jobs that are assigned by the job server."
+msgstr ""
+"AtoMで、ワーカーは端末で実行できるCLIタスクです。また、upstart、supervisord、circusのような特定のツールで監視することもできます。ワーカーはジョブサーバーによって割り当てられたジョブを待機します。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:104
+msgid "The simplest way to run a worker is from your terminal:"
+msgstr "ターミナルからワーカーを実行する最も簡単な方法は以下の通りです："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:110
+msgid ""
+"A better way to run a worker is to use a process supervisor like systemd. "
+"This is the recommended method documented in the Ubuntu AtoM installation "
+"guide. See:"
+msgstr ""
+"より良いワーカーの実行方法は、systemdのようなプロセススーパーバイザーを使用することです。これはUbuntuのAtoMインストールガイドに記載されている推奨される方法です。参照："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:117
+msgid ""
+"With this method, you can control the service execution status with the "
+"following commands:"
+msgstr "この方法を用いると、以下のコマンドでサービスの実行状態を管理することができます:"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:131
+msgid "Restarting the atom-worker"
+msgstr "atom-workerの再起動"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:133
+msgid ""
+"Restarting the ``atom-worker`` is often a useful troubleshooting step. You "
+"should consider restarting the atom-worker if:"
+msgstr ""
+"「atom-worker」を再起動することは、よく役立つトラブルシューティングのステップです。以下の場合には、atom-"
+"workerを再起動することを検討してください："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:136
+msgid ""
+"You have encountered a 500 error related to a task in AtoM supported by the "
+"job scheduler"
+msgstr "タスクに関連した500エラーがAtoMのジョブスケジューラで発生しました。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:138
+msgid "You have made changes to the worker configuration"
+msgstr "あなたはワーカーの設定を変更しました"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:139
+msgid "You have a job that never seems to complete in the queue"
+msgstr "キュー内で完了しないジョブがあります"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:143
+msgid ""
+"When encountering a 500 error, we recommend first consulting the webserver "
+"error log for more information. See:"
+msgstr ""
+"500エラーに遭遇した場合、まず最初にウェブサーバーのエラーログを参照して、より詳しい情報を得ることをお勧めします。詳細は以下を参照してください："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:146
+msgid ":ref:`maintenance-webserver`"
+msgstr "`:ref:`メンテナンス-ウェブサーバ`"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:148
+msgid ""
+"If you see the following message in the related error log output, it's "
+"likely that the 500 error can be resolved by restarting the ``atom-worker``:"
+msgstr ""
+"関連するエラーログ出力で以下のメッセージが表示される場合、「atom-worker」を再起動することで500エラーが解決される可能性が高いです。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:157
+msgid ""
+"The systemd service configuration also includes a start rate limit of 3 "
+"restarts in 24 hours of the ``atom-worker``, after which the the fail "
+"counter will need to be manually reset to be able to restart the worker. See"
+" below for more information:"
+msgstr ""
+"systemdサービスの設定には、「atom-"
+"worker」の再起動が24時間に3回に制限されており、それを超えると手動で失敗カウンターをリセットする必要があります。再起動するためには、詳細は以下を参照してください："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:162
+msgid ":ref:`maintenance-atom-worker-limit`"
+msgstr "`:ref:`maintenance-atom-worker-limit`（保守 - AtoMワーカーの制限）"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:167
+msgid "Atom-worker start rate limit"
+msgstr "アトムワーカーの起動レート制限"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:169
+msgid ""
+"The systemd service configuration file created during the Ubuntu "
+":ref:`installation process <installation-ubuntu-serve-workers>` includes "
+"several parameters that govern how the service will attempt to automatically"
+" restart itself following a failure. The following lines in the "
+"``[Service]`` section of the configuration block tell the service to attempt"
+" a restart in 30-second intervals following a failure:"
+msgstr ""
+"Ubuntuの :ref:`インストールプロセス<installation-ubuntu-serve-"
+"workers>`中に作成されるsystemdサービス設定ファイルには、障害が発生した後にサービスが自動的に再起動を試みる方法を制御するいくつかのパラメータが含まれています。設定ブロックの``[Service]``セクションの以下の行は、障害が起きた後に30秒間隔で再起動を試みるようサービスに指示します："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:181
+msgid ""
+"However, to prevent the service from being caught in a loop when restarting "
+"does not resolve the source cause of the failure, the configuration block "
+"also includes a restart attempt limit of 3 attempts in 24 hours, in the "
+"``[Unit]`` section:"
+msgstr ""
+"ただし、再起動が障害の原因を解決しない場合にサービスがループに陥るのを防ぐため、設定ブロックには``[Unit]``セクション内で、24時間に3回の再起動試行制限も含まれています："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:193
+msgid ""
+"If the worker hits the start rate limit (3 starts in 24h), the failed status"
+" will need to be manually cleared before the worker can be restarted. You "
+"can reset the fail counter with the following:"
+msgstr ""
+"作業者が開始率の制限値（24時間に3回の開始）に達した場合、作業者を再開する前に手動で失敗状態をクリアする必要があります。以下の操作で失敗回数をリセットできます："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:202
+msgid ""
+"If you see the following message when attempting to restart the ``atom-"
+"worker``, it is likely you have hit the start rate limit and will need to "
+"clear it before successfullly restarting:"
+msgstr ""
+"``atom-"
+"worker``を再起動しようとした際に以下のメッセージが表示された場合、起動のレート制限に達している可能性があり、成功裏に再起動する前に制限をクリアする必要があります："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:214
+msgid "Atom-worker journal"
+msgstr "Atom-workerジャーナル"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:216
+msgid ""
+"When configured via systemd, you can have access to the journal of the "
+"``atom-worker`` unit as follows:"
+msgstr "systemdを介して設定すると、以下のようにして``atom-worker``ユニットのジャーナルにアクセスすることができます："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:223
+msgid "This is useful in case you need to troubleshoot the worker."
+msgstr "これは、ワーカーのトラブルシューティングを行う必要がある場合に役立ちます。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:230
+msgid "Job and job scheduler management"
+msgstr "ジョブおよびジョブスケジューラ管理"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:232
+msgid ""
+"The status of individual jobs executed via the :term:`user interface` can be"
+" viewed via the |manage| **Manage > Jobs** page. For more information, see:"
+msgstr ""
+":term:`ユーザーインタフェース`を通じて実行された個々のジョブの状態は、|manage| **管理 > ジョブ** "
+"ページから確認することができます。詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:7
+msgid "manage"
+msgstr "管理"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:-1
+msgid "An image of the Jobs page"
+msgstr "ジョブページの画像"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:242
+msgid ""
+"All authenticated (e.g. logged in) users can access the Jobs page. However, "
+"most users will only see jobs and be able to clear jobs which they have "
+"started. Only an :term:`administrator` can see the status of all jobs - "
+"however, like all users, administrators can only clear jobs that belong to "
+"them via the user interface."
+msgstr ""
+"すべての認証された（例えば、ログインした）ユーザーはジョブページにアクセスすることができます。しかし、ほとんどのユーザーは自分が開始したジョブのみを見ることができ、ジョブをクリアすることが可能です。:term:`管理者`のみが全てのジョブの状態を確認できますが、他のすべてのユーザーと同様に、管理者もユーザーインターフェースを介して自分に属するジョブのみをクリアできます。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:247
+msgid ""
+"For system administrators with command-line access, AtoM has a task that can"
+" be used to clear **all jobs** from the queue as well as clear the job "
+"history of previous jobs from the database."
+msgstr ""
+"コマンドラインアクセスを持つシステム管理者のために、AtoMはキューから**すべてのジョブ**を消去し、データベースから以前のジョブのジョブ履歴を消去することができるタスクを備えています。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:253
+msgid ""
+"The following task clears *ALL* jobs, including those currently running and "
+"queued. This means you will need to manually restart any jobs you would like"
+" to continue after running this command!"
+msgstr ""
+"次のタスクは、現在実行中およびキューに入っているものを含む*すべて*のジョブをクリアします。これは、このコマンドを実行した後に続行させたい任意のジョブを手動で再開する必要があることを意味します！"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:257
+msgid ""
+"Note that the history of previous jobs is also cleared from the database. If"
+" you would like to preserve job history information before running this "
+"task, the :ref:`manage-jobs` page in the AtoM :term:`user interface` "
+"includes an option to download a CSV of the job history. For more "
+"information, see:"
+msgstr ""
+"データベースからは以前のジョブ履歴も削除されることに注意してください。このタスクを実行する前にジョブ履歴情報を保存したい場合は、AtoM "
+":term:`ユーザーインターフェイス`の :ref:`ジョブ管理` "
+"ページにジョブ履歴のCSVをダウンロードするオプションが含まれています。詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:262
+msgid ":ref:`jobs-button-block`"
+msgstr ""
+"通常、このテキストは具体的なコンテキスト内で使用されるレファレンスであり、そのままでは翻訳には向いていません。このレファレンスタグ `:ref:`jobs-button-block`` は、多くの場合ドキュメント内の特定のセクションを指し示すためのものであり、それ自体には直訳可能な内容が含まれていません。\n"
+"\n"
+"しかし、翻訳の目的を満たすために、テキストを次のように解釈し、日本語に翻訳することができます:\n"
+"\n"
+"「ジョブボタンブロックへの参照」\n"
+"\n"
+"この日本語の文章は、具体的なドキュメンテーションのコンテキストで対応するセクションのタイトルとして使われるか、またはしかるべき箇所にリンクとして挿入されます。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:264
+msgid ""
+"To clear all jobs and job history, run the following from AtoM's root "
+"installation directory:"
+msgstr "すべてのジョブとジョブ履歴をクリアするには、AtoMのルートインストールディレクトリから以下を実行します："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:274
+msgid "Troubleshooting jobs that will not complete"
+msgstr "完了しないジョブのトラブルシューティング"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:276
+msgid ""
+"Occasionally, a long-running or resource-intensive job can exhaust all "
+"available system resources - generally this will result in a job shown on "
+"the :ref:`manage-jobs` page of the AtoM :term:`user interface` that remains "
+"indefinitely stuck at the \"Running\" status."
+msgstr ""
+"たまに、長時間実行されるまたはリソースを多く消費するジョブが、利用可能なすべてのシステムリソースを使い果たすことがあります。一般的に、これはAtoM "
+":term:`ユーザーインターフェース` の :ref:`manage-jobs` "
+"ページに、「実行中」の状態で無期限に固まったままのジョブとして表示されます。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:281
+msgid ""
+"You can use the ``jobs:clear`` command-line task to clear all jobs if "
+"desired. This will terminate the stalled job, as well as any other jobs in "
+"the queue, and delete the prior job history from AtoM's database. Depending "
+"on the cause of the stall, you may need to restart the ``atom-worker`` after"
+" - see above:"
+msgstr ""
+"もし必要であれば、``jobs:clear`` "
+"コマンドラインタスクを使って、全てのジョブをクリアすることができます。これにより、停滞したジョブは終了されるだけでなく、キュー内の他のジョブも終了し、AtoMのデータベースから以前のジョブ履歴が削除されます。停滞の原因によっては、後述のように"
+" ``atom-worker`` を再起動する必要があるかもしれません："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:286
+msgid ":ref:`maintenance-atom-worker-restart`"
+msgstr ":ref:`maintenance-atom-worker-restart`（維持管理：ATOMワーカーの再起動）"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:288
+msgid ""
+"However, this approach means you will need to manually restart any "
+"previously queued jobs you would like to retry."
+msgstr "しかし、このアプローチを取ると、再試行したい以前にキューに入れられたジョブを手動で再起動する必要があります。"
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:291
+msgid ""
+"Alternatively, if you have access to the MySQL command-prompt, you can also "
+"use SQL to kill just a specific stalled job if you don't want to lose other "
+"jobs in the queue, and/or the job history. For more information, see:"
+msgstr ""
+"あるいは、MySQLコマンドプロンプトにアクセス可能な場合、キュー内の他のジョブを失いたくない、またはジョブ履歴を保持したい場合に、停滞している特定のジョブのみを終了させるためにSQLを使用することもできます。詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/asynchronous-jobs.rst:295
+msgid ":ref:`sql-kill-job`"
+msgstr ""
+"このテキストは特定の参照ラベルを表しており、正確な意味や文脈を理解するには追加情報が必要かもしれません。ただし、そのまま文字通りに翻訳すると以下のようになります。\n"
+"\n"
+":ref:`sql-kill-job`\n"
+"\n"
+"この参照マークを日本語に訳す際は、通常はそのままの形で扱い、日本語の文中で参照ラベルとしてそのまま使用されます。もし文脈がよりはっきりしていれば、それに応じた適切な訳語や説明を追加することができます。例えば、もし「sql-kill-job」がArchivematicaのドキュメントにおける特定の処理やコマンドを示すラベルであれば、実際のドキュメント内容に合わせて適切に訳出する必要があります。"

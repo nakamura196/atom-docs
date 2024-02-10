@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:5
+msgid "Elasticsearch"
+msgstr "Elasticsearch"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:7
+msgid ""
+"`Elasticsearch <http://www.elasticsearch.org/>`_ is a distributed search "
+"server based on Apache Lucene, which acts as the application’s search and "
+"analytic engine. Some solutions to common problems with Elasticsearch and "
+"AtoM are below."
+msgstr ""
+"Elasticsearch `<http://www.elasticsearch.org/>`_ はApache "
+"Luceneに基づく分散検索サーバーであり、アプリケーションの検索と分析エンジンとして機能します。ElasticsearchとAtoMにおける一般的な問題への解決策を以下に示します。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:13
+msgid ":ref:`maintenance-populate-search-index`"
+msgstr ":ref:`メンテナンス-検索インデックスの充実`"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:14
+msgid ":ref:`maintenance-troubleshooting`"
+msgstr ":ref:`メンテナンス・トラブルシューティング`"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:17
+msgid "Disable auto-discovery"
+msgstr "自動検出を無効にする"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:19
+msgid ""
+"To prevent Elasticsearch from auto-discovering other nodes on the network, "
+"add the following to /etc/elasticsearch/config/elasticsearch.yml"
+msgstr ""
+"ネットワーク上の他のノードをElasticsearchが自動的に検出するのを防ぐために、以下の内容を/etc/elasticsearch/config/elasticsearch.ymlに追加してください。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:27
+msgid "Check the status of your Elasticsearch index"
+msgstr "あなたのElasticsearchインデックスの状態を確認する"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:29
+msgid ""
+"AtoM includes a command-line task that will allow a system administrator to "
+"review the status of AtoM's Elasticsearch index without having to access any"
+" configuration files. The task output will include:"
+msgstr ""
+"AtoMには、システム管理者が設定ファイルにアクセスすることなく、AtoMのElasticsearchインデックスの状態を確認できるコマンドラインタスクが含まれています。タスクの出力には以下が含まれます："
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:33
+msgid "Search host"
+msgstr "検索ホスト"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:34
+msgid "Port"
+msgstr "\"ポート\""
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:35
+msgid "Index name"
+msgstr "インデックス名"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:36
+msgid ""
+"Document index status for all primary :term:`entity` types in AtoM "
+"(including Accession, Actor, AIP, Function, Information object, Repository, "
+"and Term)"
+msgstr ""
+"以下はAtoMにおけるすべての主要な用語「エンティティ」タイプ（アクセッション, アクター, AIP, 機能, 情報オブジェクト, リポジトリ, "
+"および用語を含む）のドキュメントインデックス状況です。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:39
+msgid ""
+"The task should be run from AtoM's root installation directory. It will not "
+"make any changes, but can provide useful information when troubleshooting "
+"issues or seeking support. To run the task:"
+msgstr ""
+"このタスクは、AtoMのルートインストールディレクトリから実行する必要があります。変更は行われませんが、問題をトラブルシューティングする際やサポートを求める際に役立つ情報を提供することができます。タスクを実行するには："
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:47
+msgid "Sample response:"
+msgstr ""
+"こちらはあくまで例文ですので、文脈や対象となるドキュメントに応じて適切な翻訳が必要になりますが、以下はそれに沿った一つの翻訳例です。\n"
+"\n"
+"---\n"
+"\n"
+"Archivematicaはデジタル保存プラットフォームであり、国際的な保存標準に即してデザインされています。このプラットフォームは、デジタル資料の取り込み、保存、アクセスを管理するために組織が使用できる一連のツールとして開発されました。\n"
+"\n"
+"特に、ArchivematicaはOAIS（Open Archival Information System）リファレンスモデルに即して設計されており、情報パッケージの作成から保存、アクセスに至るまでのプロセスが実装されています。これにはメタデータの標準化、変換、保存、デジタルオブジェクトの監査、レポート機能などが含まれます。\n"
+"\n"
+"Archivematicaはオープンソースソフトウェアであり、利用可能なベストプラクティスを用いて定期的に更新されています。そのため、保存機能はシームレスで持続可能であり、技術的な障壁を最小限に抑えることを目指して構築されています。\n"
+"\n"
+"このソリューションは多様な形式のデジタルコンテンツに適用可能であり、そのスケーラビリティにより、小規模な図書館から大規模な国立アーカイブ施設に至るまで、幅広い組織のニーズに合わせることが可能です。\n"
+"\n"
+"デジタル資産の長期保存にArchivematicaを活用することにより、組織は保存コストを削減し、リソースを最大限に活用しながら、資料の真正性、信頼性、アクセス性を確保することができます。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:-1
+msgid "An image of a typical response to the search:status task"
+msgstr "以下は、検索:ステータス タスクに対する典型的な応答の画像です。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:55
+msgid "Check cluster health"
+msgstr "クラスターの健全性を確認する"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:57
+msgid ""
+"See: "
+"http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/cluster-"
+"health.html"
+msgstr ""
+"参照：http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/cluster-"
+"health.html"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:64
+msgid "Sample output:"
+msgstr "サンプル出力："
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:82
+msgid "Find problem shards"
+msgstr "問題が発生しているシャードを見つける"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:84
+msgid ""
+"If the Cluster health returns as \"red\" or \"yellow\" you can find problem "
+"shards with:"
+msgstr "クラスターの健康状態が「赤」または「黄色」として返される場合、以下の方法で問題のあるシャードを見つけることができます:"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:92
+msgid ""
+"You can redirect the STDOUT to a text file and search for \"red\" or "
+"\"yellow\" to find the problem indexes/shards."
+msgstr ""
+"標準出力（STDOUT）をテキストファイルにリダイレクトし、「red」または「yellow」と検索することで、問題のあるインデックス／シャードを見つけることができます。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:96
+msgid "Cluster health is yellow"
+msgstr "クラスターの健康状態は黄色です"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:98
+msgid ""
+"If Cluster health returns as yellow, it \"means that the primary shard is "
+"allocated but replicas are not\" `[1] "
+"<http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/cluster-"
+"health.html#cluster-health>`_. This often means that you have do not have "
+"enough ES nodes in your cluster to support the desired number of replicas of"
+" an index. This happens when you have indexes with ``number_of_replicas`` > "
+"(the number of ES nodes you are running - 1). For instance if you only have "
+"1 ES node, ``number_of_replicas`` should be set to 0."
+msgstr ""
+"クラスターの健全性が黄色で返ってきた場合、これは「プライマリシャードが割り当てられていますが、レプリカは割り当てられていない」という意味です `[1] "
+"<http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/cluster-"
+"health.html#cluster-health>`_ 。これは、しばしば、索引の望ましいレプリカ数をサポートするための ES "
+"ノードがクラスター内に十分ではないことを意味します。これは、 ``number_of_replicas`` の値が (実行中の ES ノード数 - 1)"
+" よりも大きいときに発生します。例えば、ES ノードが1つしかない場合、 ``number_of_replicas`` は0に設定されるべきです。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:107
+msgid ""
+"In the default AtoM installation instructions, we only configure one node "
+"with no replicas, so the yellow cluster health is not surprising - and if "
+"the search index is lost, it can easily be repopulated from the database "
+"using the :ref:`maintenance-populate-search-index` task."
+msgstr ""
+"デフォルトのAtoMインストール手順では、レプリカがない一つのノードのみを設定するので、イエローのクラスター健康状態が表示されることは驚くことではありません。もし検索インデックスが失われた場合でも、`:ref:`maintenance-"
+"populate-search-index`タスクを使用してデータベースから簡単に再構築することができます。"
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:112
+msgid ""
+"However, to reduce (or increase) the number of replicas on an existing "
+"index, you can use:"
+msgstr "既存のインデックスのレプリカ数を減らす（または増やす）ためには、次の方法を使用できます："
+
+#: ../../admin-manual/maintenance/elasticsearch.rst:124
+msgid ":ref:`Back to the top <maintenance-elasticsearch>`"
+msgstr ":ref:`トップに戻る <maintenance-elasticsearch>`"

@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/overview/intro.rst:5
+msgid "What is AtoM?"
+msgstr ""
+"AtoMは、\"Access to Memory\" "
+"の略で、オンラインのアーカイブ情報管理のためのオープンソースのアプリケーションです。それは特に、アーカイブの記述基準への準拠を重視して設計されています。アーカイブ資源の詳細な記録、検索、および公表を容易にするための機能を備えており、研究者や一般のユーザーがアーカイブ資料に簡単にアクセスできるようにするためのツールとして開発されています。AtoMは、国際的なアーカイブ標準に対応しており、ISAD(G)、ISAAR(CPF)、ISDF、およびISDIAHなどの標準に準拠した記述出力を生成することが可能です。Archivematicaと組み合わせて使用することで、デジタル資産の保存とアクセスの両方で効率良く機能するアーカイブ環境を構築することができます。"
+
+#: ../../user-manual/overview/intro.rst:7
+msgid ""
+"**AtoM** stands for \"Access to Memory\". It is a web-based, open source "
+"application for standards-based archival description and access in a "
+"multilingual, :term:`multi-repository <multi-repository system>` "
+"environment."
+msgstr ""
+"**AtoM**は「Access to Memory」の略で、標準に基づいたアーカイブ記述と、多言語、:term:`多リポジトリ <multi-"
+"repository system>`環境でのアクセスを提供するウェブベースのオープンソースアプリケーションです。"
+
+#: ../../user-manual/overview/intro.rst:13
+msgid "Technical overview"
+msgstr "技術概要"
+
+#: ../../user-manual/overview/intro.rst:-1
+msgid "A diagram of AtoM's technical architecture"
+msgstr "AtoMの技術的アーキテクチャの図"
+
+#: ../../user-manual/overview/intro.rst:21
+msgid "**AtoM comprises:**"
+msgstr "**AtoMは以下から成り立っています：**"
+
+#: ../../user-manual/overview/intro.rst:23
+msgid ""
+"HTML pages served to a web browser from a web server. The team at "
+"`Artefactual <http://www.artefactual.com/>`__ (lead developers of the AtoM "
+"project) prefer `Nginx <http://wiki.nginx.org/Main>`_ in both development "
+"and production environments, but `Apache <https://httpd.apache.org/>`_ has "
+"been tested as well; other web servers might be used but they are not tested"
+" by AtoM :term:`developers <developer>`."
+msgstr ""
+"ウェブサーバーからウェブブラウザーに送信されるHTMLページ。 `Artefactual "
+"<http://www.artefactual.com/>`__ のチーム（AtoMプロジェクトの主要開発者）は、開発環境と製品環境の両方で "
+"`Nginx <http://wiki.nginx.org/Main>`_ を好むが、`Apache "
+"<https://httpd.apache.org/>`_ もテスト済みである。他のウェブサーバーも使用することは可能だが、AtoMの "
+":term:`開発者 <developer>` によってテストされてはいない。"
+
+#: ../../user-manual/overview/intro.rst:30
+msgid ""
+"A database on a database server. `MySQL "
+"<https://en.wikipedia.org/wiki/MySQL>`_ (8.0) is used in development but "
+"AtoM uses a database abstraction layer and is therefore potentially "
+"compatible with Postgres, SQLite, SQLServer, Oracle, etc. (other solutions "
+"are not tested by AtoM developers)"
+msgstr ""
+"データベースサーバー上のデータベースです。開発時には `MySQL "
+"<https://en.wikipedia.org/wiki/MySQL>`_（8.0）が使用されていますが、AtoMはデータベース抽象化レイヤーを利用しているため、理論上はPostgres、SQLite、SQLServer、Oracleなどとの互換性があります（ただし、AtoMの開発者によって他のソリューションはテストされていません）。"
+
+#: ../../user-manual/overview/intro.rst:36
+msgid ""
+"PHP 7.4 software code that manages requests and responses between the web "
+"clients, the application logic, and the application content stored in the "
+"database. AtoM also makes use of a number of PHP extensions; see: "
+":ref:`installation-requirements`."
+msgstr ""
+"Webクライアント、アプリケーションロジック、データベースに格納されたアプリケーションコンテンツ間のリクエストとレスポンスを管理するPHP "
+"7.4ソフトウェアコード。AtoMは多数のPHP拡張機能も使用しています。詳細は： :ref:`installation-"
+"requirements`を参照してください。"
+
+#: ../../user-manual/overview/intro.rst:41
+msgid ""
+"The Symfony (`1.4 <http://symfony.com/legacy>`_) framework that organizes "
+"the component parts using object orientation and best practice web design "
+"patterns."
+msgstr ""
+"Symfony (`1.4 <http://symfony.com/legacy>`_) "
+"フレームワークは、オブジェクト指向とベストプラクティスのWebデザインパターンを使用して、コンポーネントパーツを組織化します。"
+
+#: ../../user-manual/overview/intro.rst:45
+msgid ""
+"`Elasticsearch <http://www.elasticsearch.org/>`__ (5.x), a distributed "
+"search server based on Apache Lucene, which acts as the application's search"
+" and analytic engine. Elasticsearch is not integrated directly into AtoM "
+"code as a library, but as a service deployed in the same network which AtoM "
+"interacts with through a `REST "
+"<https://en.wikipedia.org/wiki/Representational_State_Transfer>`__ ful `API "
+"<https://en.wikipedia.org/wiki/API>`__."
+msgstr ""
+"Elasticsearch `<http://www.elasticsearch.org/>`__ (5.x) "
+"は、分散型の検索サーバーであり、Apache "
+"Luceneに基づいています。これは、アプリケーションの検索エンジンおよび分析エンジンとして機能します。Elasticsearchは、AtoMのコードにライブラリとして直接統合されているわけではなく、AtoMが"
+" `REST <https://en.wikipedia.org/wiki/Representational_State_Transfer>`__ "
+"形式の `API <https://en.wikipedia.org/wiki/API>`__ "
+"を通じてやり取りする、同じネットワーク内でデプロイされたサービスです。"
+
+#: ../../user-manual/overview/intro.rst:53
+msgid ""
+"To encourage application reliability (for example, the replacement of nodes "
+"in case of failure) and scalability (e.g. the ability to handle more "
+"traffic, requests, etc.), all elements of AtoM's core stack can be "
+"configured in a `distributed "
+"<https://en.wikipedia.org/wiki/Distributed_computing>`__ manner. For more "
+"information, see: :ref:`installation-ansible`."
+msgstr ""
+"アプリケーションの信頼性を促進するため（例えば、障害発生時のノードの交換）とスケーラビリティ（例えば、より多くのトラフィック、リクエストなどを処理する能力）のために、AtoMのコアスタックの全要素は、`分散"
+" <https://en.wikipedia.org/wiki/Distributed_computing>`__ "
+"コンピューティング方式で構成することができます。詳細については、:ref:`installation-ansible` を参照してください。"
+
+#: ../../user-manual/overview/intro.rst:60
+msgid "Web-based"
+msgstr "ウェブベース"
+
+#: ../../user-manual/overview/intro.rst:62
+msgid ""
+"All user interactions with the system (add, view, search, edit, and delete "
+"actions) take place through a web browser. Users access HTML pages on the "
+"web server; clicking a button or link triggers a PHP script that sends a "
+"command to the database and returns the output as HTML back to the user's "
+"browser."
+msgstr ""
+"システムとの全てのユーザーインタラクション（追加、閲覧、検索、編集、削除のアクション）はウェブブラウザを通じて行われます。ユーザーはウェブサーバー上のHTMLページにアクセスし、ボタンやリンクをクリックすることでPHPスクリプトがトリガーされ、データベースにコマンドを送信し、結果をHTMLとしてユーザーのブラウザに返します。"
+
+#: ../../user-manual/overview/intro.rst:68
+msgid ""
+"With the release of 2.0, AtoM will no longer support Internet Explorer (IE) "
+"8 or earlier versions. If possible, please upgrade your browser to IE9 or "
+"higher, or use a supported browser such as `Firefox "
+"<http://www.mozilla.org/en-US/firefox/fx/#desktop>`_, `Chrome "
+"<https://www.google.com/intl/en_uk/chrome/browser/>`_, `Opera "
+"<http://www.opera.com/browser/>`_, or `Safari "
+"<http://www.apple.com/safari/>`_."
+msgstr ""
+"バージョン2.0のリリースに伴い、AtoMはInternet Explorer (IE) "
+"8またはそれ以前のバージョンをサポートしなくなります。可能であれば、ブラウザをIE9以上にアップグレードするか、`Firefox "
+"<http://www.mozilla.org/en-US/firefox/fx/#desktop>`_、`Chrome "
+"<https://www.google.com/intl/en_uk/chrome/browser/>`_、`Opera "
+"<http://www.opera.com/browser/>`_、または`Safari "
+"<http://www.apple.com/safari/>`_などのサポートされているブラウザをご使用ください。"
+
+#: ../../user-manual/overview/intro.rst:76
+msgid ""
+"Please see :doc:`Technical requirements <technical-requirements>` for more "
+"information."
+msgstr "詳細については、:doc:`技術要件 <technical-requirements>` をご覧ください。"
+
+#: ../../user-manual/overview/intro.rst:81
+msgid "Open source"
+msgstr "オープンソース\n"
+
+#: ../../user-manual/overview/intro.rst:83
+msgid ""
+"AtoM is built with open source tools (NGINX, MySQL, PHP, Symfony, "
+"Elasticsearch) rather than proprietary software. The underlying AtoM code is"
+" itself open source, with the source code freely available for use or "
+"modification as users or other :term:`developers <developer>` see fit (under"
+" the `A-GPL version 3 <https://www.gnu.org/licenses/agpl-3.0.html>`_ "
+"license). Therefore **there is no cost to download any of the software "
+"required to run the AtoM application.**"
+msgstr ""
+"AtoMは、独占的なソフトウェアではなく、オープンソースツール(NGINX、MySQL、PHP、Symfony、Elasticsearch)を利用して構築されています。AtoMの基礎となるコード自体もオープンソースであり、ユーザーや他の`開発者"
+" <developer>`が適切と考える場合には、自由に使用や変更のためにソースコードを利用できます（`A-GPLバージョン3 "
+"<https://www.gnu.org/licenses/agpl-3.0.html>`_ "
+"ライセンスの下で）。したがって、**AtoMアプリケーションの実行に必要なソフトウェアをダウンロードするためのコストは一切かかりません。**"
+
+#: ../../user-manual/overview/intro.rst:91
+msgid ""
+"Our documentation is also freely available under a  Creative Commons "
+"Attribution-ShareAlike 3.0 Unported licence (`CC BY SA "
+"<http://creativecommons.org/licenses/by-sa/3.0/>`__), and we maintain a free"
+" public `User forum <https://groups.google.com/forum/#!forum/ica-atom-"
+"users>`__."
+msgstr ""
+"私たちの文書はクリエイティブ・コモンズ 表示 - 継承 3.0 非移植ライセンス（`CC BY-SA "
+"<http://creativecommons.org/licenses/by-"
+"sa/3.0/>`__）の下で自由に利用可能であり、また私たちは無料の公開 `ユーザーフォーラム "
+"<https://groups.google.com/forum/#!forum/ica-atom-users>`__も運営しています。"
+
+#: ../../user-manual/overview/intro.rst:96
+msgid "Find out more information on Open Source and Free Software from:"
+msgstr "オープンソースとフリーソフトウェアに関する詳しい情報は、以下からご覧になれます："
+
+#: ../../user-manual/overview/intro.rst:98
+msgid ""
+"The `Free Software Foundation <http://www.gnu.org/philosophy/free-sw.html>`_"
+msgstr ""
+"`Free Software Foundation <http://www.gnu.org/philosophy/free-sw.html>`_"
+
+#: ../../user-manual/overview/intro.rst:99
+msgid "The `Open Source Initiative <http://opensource.org/>`_"
+msgstr "`オープンソースイニシアティブ <http://opensource.org/>`_"
+
+#: ../../user-manual/overview/intro.rst:100
+msgid "`Wikipedia <https://en.wikipedia.org/wiki/Open-source_software>`_"
+msgstr "`ウィキペディア <https://ja.wikipedia.org/wiki/オープンソース・ソフトウェア>`_"
+
+#: ../../user-manual/overview/intro.rst:103
+msgid "Standards-based"
+msgstr "\"基準に基づいて\""
+
+#: ../../user-manual/overview/intro.rst:105
+msgid ""
+"AtoM was originally built around `International Council on Archives "
+"<http://www.ica.org>`_ (ICA) descriptive standards:"
+msgstr "AtoMは、もともと`国際アーカイブズ評議会 <http://www.ica.org>`_ (ICA)の記述標準に基づいて構築されました："
+
+#: ../../user-manual/overview/intro.rst:108
+msgid ""
+"General International Standard Archival Description (:ref:`ISAD <isad-"
+"template>`) - 2nd edition, 1999"
+msgstr "国際アーカイブ記述標準（:ref:`ISAD <isad-template>`） - 第2版, 1999年"
+
+#: ../../user-manual/overview/intro.rst:110
+msgid ""
+"International Standard Archival Authority Record (Corporate bodies, Persons,"
+" Families) (:ref:`ISAAR <isaar-template>`) - 2nd edition, 2003"
+msgstr "国際標準アーカイブ機関レコード（企業体、個人、家族）（:ref:`ISAAR <isaar-template>`） - 第2版、2003年"
+
+#: ../../user-manual/overview/intro.rst:112
+msgid ""
+"International Standard For Describing Institutions with Archival Holdings "
+"(:ref:`ISDIAH <isdiah-template>`) - 1st edition, March 2008"
+msgstr "国際標準 アーカイブ所蔵機関の記述 (:ref:`ISDIAH <isdiah-template>`) - 第1版, 2008年3月"
+
+#: ../../user-manual/overview/intro.rst:114
+msgid ""
+"International Standard For Describing Functions (:ref:`ISDF <isdf-"
+"template>`) - 1st edition, May 2007"
+msgstr "国際標準機能記述規格（:ref:`ISDF <isdf-template>`） - 第1版、2007年5月"
+
+#: ../../user-manual/overview/intro.rst:117
+msgid ""
+"AtoM supports Simple Knowledge Organization System (`SKOS "
+"<http://www.w3.org/2004/02/skos/>`_) - W3C Recommendation 18 August 2009."
+msgstr ""
+"AtoMは、シンプルな知識組織システム（`SKOS <http://www.w3.org/2004/02/skos/>`_） - "
+"W3C勧告2009年8月18日をサポートしています。"
+
+#: ../../user-manual/overview/intro.rst:120
+msgid ""
+"AtoM is designed to be flexible enough for adaptation to other descriptive "
+"standards; see :doc:`Descriptive standards <descriptive-standards>` for a "
+"full list of other standards currently supported."
+msgstr ""
+"AtoMは、他の記述標準にも対応できるように十分に柔軟性を持って設計されています。現在サポートされている他の規格の完全なリストについては、`:doc:`記述標準"
+" <descriptive-standards>`をご覧ください。"
+
+#: ../../user-manual/overview/intro.rst:127
+msgid "Multilingual"
+msgstr "多言語"
+
+#: ../../user-manual/overview/intro.rst:129
+msgid ""
+"All user interface elements and database content can be translated into "
+"multiple languages. AtoM comes with several translations installed, all of "
+"which are generously provided by volunteer translators from the AtoM User "
+"Community."
+msgstr ""
+"すべてのユーザーインターフェース要素とデータベースコンテンツは、複数の言語に翻訳することができます。AtoMには、いくつかの翻訳が既にインストールされており、それらはすべてAtoMユーザーコミュニティのボランティア翻訳者によって寛大に提供されています。"
+
+#: ../../user-manual/overview/intro.rst:134
+msgid ""
+"Want to help us translate the AtoM application into your language, or "
+"improve an existing translation? Find more information on how to contribute "
+"`here <https://wiki.accesstomemory.org/Resources/Translation>`__."
+msgstr ""
+"あなたの言語にAtoMアプリケーションを翻訳するお手伝いをしていただけませんか、または既存の翻訳の改善をお手伝いしていただけませんか？貢献する方法についての詳細情報は"
+" `こちら <https://wiki.accesstomemory.org/Resources/Translation>`__ でご確認いただけます。"
+
+#: ../../user-manual/overview/intro.rst:139
+msgid "Multi-repository"
+msgstr "マルチリポジトリ"
+
+#: ../../user-manual/overview/intro.rst:141
+msgid ""
+"AtoM can be used by a single institution for its own descriptions or it can "
+"be set up as a :term:`multi-repository <multi-repository system>` \"union "
+"list\" accepting descriptions from any number of contributing institutions."
+msgstr ""
+"AtoMは、単一の機関が自身の記述用に使用することもできますし、複数の寄稿機関からの記述を受け入れる「統合リスト」である:term:`マルチリポジトリ "
+"<multi-repository system>`として設定することもできます。"

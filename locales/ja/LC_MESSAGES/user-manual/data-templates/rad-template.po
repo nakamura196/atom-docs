@@ -1,0 +1,2946 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/rad-template.rst:5
+msgid "Rules for Archival Description (RAD) data entry and CSV template"
+msgstr "アーカイブ記述規則（RAD）データ入力およびCSVテンプレート"
+
+#: ../../user-manual/data-templates/rad-template.rst:7
+msgid "On this page you will find:"
+msgstr "このページには以下の情報が含まれています:"
+
+#: ../../user-manual/data-templates/rad-template.rst:9
+msgid ""
+"Link to downloadable CSV template using `Rules for Archival Description "
+"<http://www.cdncouncilarchives.ca/archdesrules.html>`_"
+msgstr ""
+"Archivematicaのドキュメント内での使用を想定した場合、以下のように翻訳することができます。\n"
+"\n"
+"```\n"
+"`アーカイバル・ディスクリプションのルール <http://www.cdncouncilarchives.ca/archdesrules.html>`_ を使用したダウンロード可能なCSVテンプレートへのリンク\n"
+"```\n"
+"\n"
+"ただし、ウェブページのリンクがマークダウン形式で書かれていることから、実際にドキュメントに掲載する際には、適切なハイパーテキストマークアップ言語（HTML）やその他のドキュメント用のマークアップ形式に変更する必要があります。"
+
+#: ../../user-manual/data-templates/rad-template.rst:11
+msgid ""
+"Description of fields used when entering or importing :term:`archival "
+"descriptions <archival description>` using Rules for Archival Description in"
+" a :term:`CSV` file or entering the data manually."
+msgstr ""
+"ルールに従ってアーカイバルディスクリプションを CSV "
+"ファイルを使用してインポートするか、または手動でデータを入力する際に使用されるフィールドの説明です。"
+
+#: ../../user-manual/data-templates/rad-template.rst:17
+msgid ":ref:`archival-descriptions`"
+msgstr "`アーカイバル・ディスクリプション <archival-descriptions>`_"
+
+#: ../../user-manual/data-templates/rad-template.rst:18
+msgid ":ref:`csv-import`"
+msgstr ""
+"`:ref:`csv-import`を訳す際に、具体的な文脈が存在しないため、正式な翻訳を行うことはできません。このテキストは、おそらくArchivematicaドキュメント内の特定のセクションを参照するためのリンクかリファレンスラベルを示しています。もし実際の文書が必要であれば、以下のように適切なセクション名を知る必要があります。\n"
+"\n"
+"「CSVインポート」または「CSVによるインポート」\n"
+"\n"
+"しかし、正確な翻訳を行うためには、この参照が指している文書またはセクションの実際のタイトルが必要です。その後、適切な翻訳を提供することができます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:19
+msgid ":ref:`import-xml`"
+msgstr ":ref:`xmlのインポート`"
+
+#: ../../user-manual/data-templates/rad-template.rst:20
+msgid ":ref:`export-xml`"
+msgstr "`XMLのエクスポート <export-xml>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:21
+msgid ":ref:`cli-import-export`"
+msgstr ":ref:`cli-import-export`（CLIインポート/エクスポート）"
+
+#: ../../user-manual/data-templates/rad-template.rst:24
+msgid "RAD CSV template"
+msgstr "RAD CSVテンプレート"
+
+#: ../../user-manual/data-templates/rad-template.rst:26
+msgid ""
+"To download the Rules for Archival Description CSV template for AtoM, please"
+" visit our wiki page:"
+msgstr "AtoMのアーカイブ記述ルール CSV テンプレートをダウンロードするには、当社のウィキページにアクセスしてください："
+
+#: ../../user-manual/data-templates/rad-template.rst:29
+msgid "https://wiki.accesstomemory.org/Resources/CSV_templates"
+msgstr "AccesstoMemory (AtoM) ウィキのリソースには、CSVテンプレートが含まれています。"
+
+#: ../../user-manual/data-templates/rad-template.rst:32
+msgid "Field descriptions"
+msgstr "フィールドの説明"
+
+#: ../../user-manual/data-templates/rad-template.rst:34
+msgid ""
+"RAD is maintained by the `Canadian Council of Archives "
+"<http://www.cdncouncilarchives.ca>`_ and is available at "
+"http://www.cdncouncilarchives.ca/archdesrules.html."
+msgstr ""
+"RADは「カナダのアーカイブ評議会（Canadian Council of Archives） "
+"<http://www.cdncouncilarchives.ca>」によって維持され、http://www.cdncouncilarchives.ca/archdesrules.html"
+" で利用可能です。"
+
+#: ../../user-manual/data-templates/rad-template.rst:38
+msgid "Information below includes:"
+msgstr "以下の情報を含みます："
+
+#: ../../user-manual/data-templates/rad-template.rst:40
+msgid "**Template field** refers to the default label for that field in AtoM"
+msgstr "「テンプレートフィールド」とは、AtoM内のそのフィールドの既定のラベルを指します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:41
+msgid "**CSV Column** refers to the title of the column in the CSV template"
+msgstr "CSVテンプレート内の列のタイトルを**CSV列**と言います。"
+
+#: ../../user-manual/data-templates/rad-template.rst:42
+msgid ""
+"**RAD Rule** refers to the rule from the applicable standard and/or the "
+"instructions provided by AtoM."
+msgstr "**RADルール**は、適用可能な標準のルール、およびAtoMによって提供される指示を指します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:44
+msgid "**EAD** refers to the field mapping to EAD"
+msgstr "EADはEADへのフィールドマッピングを指しています。"
+
+#: ../../user-manual/data-templates/rad-template.rst:45
+msgid ""
+"**Notes** includes any other information needed for successful data entry or"
+" CSV import."
+msgstr "**注記** は、データ入力やCSVインポートを成功させるために必要なその他の情報を含みます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:48
+msgid "**Skip to**:"
+msgstr "**スキップ先**:"
+
+#: ../../user-manual/data-templates/rad-template.rst:50
+msgid ":ref:`Title and statement of responsibility area <template-title>`"
+msgstr ":ref:`タイトルと責任表示エリア <template-title>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:51
+msgid ":ref:`Edition area <template-edition>`"
+msgstr ":ref:`テンプレート編集エリア <template-edition>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:52
+msgid ":ref:`Class of material specific details area <template-class>`"
+msgstr ":ref:`資料種別詳細領域 <template-class>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:53
+msgid ":ref:`Authority record fields <template-authority>`"
+msgstr ":ref:`権威レコード・フィールド <template-authority>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:54
+msgid ":ref:`Dates of creation area <template-dates>`"
+msgstr "「:ref:`作成日エリア <template-dates>`」"
+
+#: ../../user-manual/data-templates/rad-template.rst:55
+msgid ":ref:`Physical description area <template-physical>`"
+msgstr ":ref:`物理的記述領域 <template-physical>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:56
+msgid ":ref:`Publisher's series area <template-publishers>`"
+msgstr ":ref:`出版社シリーズ領域 <template-publishers>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:57
+msgid ":ref:`Archival description area <template-description>`"
+msgstr ":ref:`アーカイブ説明エリア <template-description>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:58
+msgid ":ref:`Notes area <template-notes>`"
+msgstr ":ref:`メモ欄 <template-notes>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:59
+msgid ":ref:`Standard number area <template-standard-number>`"
+msgstr ":ref:`標準番号エリア <template-standard-number>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:60
+msgid ":ref:`Access points <template-access>`"
+msgstr "参照：`アクセスポイント <template-access>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:61
+msgid ":ref:`Control area <template-control>`"
+msgstr ":ref:`コントロールエリア <template-control>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:62
+msgid ":ref:`Rights area <template-rights>`"
+msgstr ":ref:`権利エリア <template-rights>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:63
+msgid ":ref:`Administration area <template-admin>`"
+msgstr ":ref:`管理エリア <template-admin>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:68
+msgid "Title and statement of responsibility area"
+msgstr "タイトルおよび責任表示エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:76
+msgid ""
+"An image of the data entry fields for the Title and statement of "
+"responsibility area."
+msgstr "タイトルおよび責任表示領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:76
+msgid ""
+"The data entry fields for the Title and statement of responsibility area."
+msgstr "タイトルと責任表示エリアのためのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:79
+msgid "Title proper"
+msgstr "適切なタイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:81
+msgid "**Template field** Title proper"
+msgstr "**テンプレートフィールド** 正式なタイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:83
+msgid "**CSV Column** ``title``"
+msgstr "**CSV列** ``タイトル``"
+
+#: ../../user-manual/data-templates/rad-template.rst:85
+msgid ""
+"**RAD Rule** Enter the title proper, either transcribed or supplied (RAD "
+"1.1B)"
+msgstr "**RAD規則** 正題を、転写又は提供された形で記入する（RAD 1.1B）"
+
+#: ../../user-manual/data-templates/rad-template.rst:87
+#: ../../user-manual/data-templates/rad-template.rst:123
+#: ../../user-manual/data-templates/rad-template.rst:153
+#: ../../user-manual/data-templates/rad-template.rst:173
+#: ../../user-manual/data-templates/rad-template.rst:193
+#: ../../user-manual/data-templates/rad-template.rst:215
+#: ../../user-manual/data-templates/rad-template.rst:233
+#: ../../user-manual/data-templates/rad-template.rst:251
+#: ../../user-manual/data-templates/rad-template.rst:269
+#: ../../user-manual/data-templates/rad-template.rst:288
+#: ../../user-manual/data-templates/rad-template.rst:307
+#: ../../user-manual/data-templates/rad-template.rst:325
+#: ../../user-manual/data-templates/rad-template.rst:400
+#: ../../user-manual/data-templates/rad-template.rst:455
+#: ../../user-manual/data-templates/rad-template.rst:483
+#: ../../user-manual/data-templates/rad-template.rst:527
+#: ../../user-manual/data-templates/rad-template.rst:555
+#: ../../user-manual/data-templates/rad-template.rst:597
+#: ../../user-manual/data-templates/rad-template.rst:616
+#: ../../user-manual/data-templates/rad-template.rst:636
+#: ../../user-manual/data-templates/rad-template.rst:657
+#: ../../user-manual/data-templates/rad-template.rst:681
+#: ../../user-manual/data-templates/rad-template.rst:711
+#: ../../user-manual/data-templates/rad-template.rst:770
+#: ../../user-manual/data-templates/rad-template.rst:851
+#: ../../user-manual/data-templates/rad-template.rst:947
+#: ../../user-manual/data-templates/rad-template.rst:974
+#: ../../user-manual/data-templates/rad-template.rst:1057
+#: ../../user-manual/data-templates/rad-template.rst:1103
+#: ../../user-manual/data-templates/rad-template.rst:1125
+#: ../../user-manual/data-templates/rad-template.rst:1148
+#: ../../user-manual/data-templates/rad-template.rst:1173
+#: ../../user-manual/data-templates/rad-template.rst:1195
+#: ../../user-manual/data-templates/rad-template.rst:1219
+#: ../../user-manual/data-templates/rad-template.rst:1256
+#: ../../user-manual/data-templates/rad-template.rst:1287
+#: ../../user-manual/data-templates/rad-template.rst:1333
+#: ../../user-manual/data-templates/rad-template.rst:1355
+#: ../../user-manual/data-templates/rad-template.rst:1377
+#: ../../user-manual/data-templates/rad-template.rst:1397
+#: ../../user-manual/data-templates/rad-template.rst:1423
+#: ../../user-manual/data-templates/rad-template.rst:1453
+#: ../../user-manual/data-templates/rad-template.rst:1480
+#: ../../user-manual/data-templates/rad-template.rst:1505
+#: ../../user-manual/data-templates/rad-template.rst:1524
+#: ../../user-manual/data-templates/rad-template.rst:1549
+#: ../../user-manual/data-templates/rad-template.rst:1572
+#: ../../user-manual/data-templates/rad-template.rst:1603
+#: ../../user-manual/data-templates/rad-template.rst:1628
+#: ../../user-manual/data-templates/rad-template.rst:1656
+#: ../../user-manual/data-templates/rad-template.rst:1676
+#: ../../user-manual/data-templates/rad-template.rst:1695
+#: ../../user-manual/data-templates/rad-template.rst:1716
+#: ../../user-manual/data-templates/rad-template.rst:1737
+#: ../../user-manual/data-templates/rad-template.rst:1756
+#: ../../user-manual/data-templates/rad-template.rst:1775
+#: ../../user-manual/data-templates/rad-template.rst:1796
+#: ../../user-manual/data-templates/rad-template.rst:1821
+#: ../../user-manual/data-templates/rad-template.rst:1845
+#: ../../user-manual/data-templates/rad-template.rst:1865
+#: ../../user-manual/data-templates/rad-template.rst:1899
+#: ../../user-manual/data-templates/rad-template.rst:1932
+#: ../../user-manual/data-templates/rad-template.rst:1959
+#: ../../user-manual/data-templates/rad-template.rst:1990
+#: ../../user-manual/data-templates/rad-template.rst:2031
+#: ../../user-manual/data-templates/rad-template.rst:2095
+#: ../../user-manual/data-templates/rad-template.rst:2117
+#: ../../user-manual/data-templates/rad-template.rst:2137
+#: ../../user-manual/data-templates/rad-template.rst:2157
+#: ../../user-manual/data-templates/rad-template.rst:2184
+#: ../../user-manual/data-templates/rad-template.rst:2209
+#: ../../user-manual/data-templates/rad-template.rst:2235
+#: ../../user-manual/data-templates/rad-template.rst:2265
+#: ../../user-manual/data-templates/rad-template.rst:2296
+#: ../../user-manual/data-templates/rad-template.rst:2376
+msgid "**EAD**"
+msgstr "**エンコード済みアーカイバル記述（Encoded Archival Description）**"
+
+#: ../../user-manual/data-templates/rad-template.rst:89
+msgid "At a parent level:"
+msgstr "親レベルで："
+
+#: ../../user-manual/data-templates/rad-template.rst:98
+msgid "At a child level:"
+msgstr "子レベルで："
+
+#: ../../user-manual/data-templates/rad-template.rst:108
+msgid ""
+"The EAD tag ``<titleproper encodinganalog=\"title\">`` refers to the title "
+"of the finding aid, not the archival description."
+msgstr ""
+"EADタグ``<titleproper encodinganalog=\"title\">``は、アーカイブ記述ではなく、検索支援のタイトルを指します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:111
+#: ../../user-manual/data-templates/rad-template.rst:141
+#: ../../user-manual/data-templates/rad-template.rst:161
+#: ../../user-manual/data-templates/rad-template.rst:180
+#: ../../user-manual/data-templates/rad-template.rst:200
+#: ../../user-manual/data-templates/rad-template.rst:221
+#: ../../user-manual/data-templates/rad-template.rst:239
+#: ../../user-manual/data-templates/rad-template.rst:257
+#: ../../user-manual/data-templates/rad-template.rst:275
+#: ../../user-manual/data-templates/rad-template.rst:294
+#: ../../user-manual/data-templates/rad-template.rst:313
+#: ../../user-manual/data-templates/rad-template.rst:349
+#: ../../user-manual/data-templates/rad-template.rst:444
+#: ../../user-manual/data-templates/rad-template.rst:471
+#: ../../user-manual/data-templates/rad-template.rst:500
+#: ../../user-manual/data-templates/rad-template.rst:540
+#: ../../user-manual/data-templates/rad-template.rst:563
+#: ../../user-manual/data-templates/rad-template.rst:604
+#: ../../user-manual/data-templates/rad-template.rst:623
+#: ../../user-manual/data-templates/rad-template.rst:643
+#: ../../user-manual/data-templates/rad-template.rst:664
+#: ../../user-manual/data-templates/rad-template.rst:688
+#: ../../user-manual/data-templates/rad-template.rst:753
+#: ../../user-manual/data-templates/rad-template.rst:810
+#: ../../user-manual/data-templates/rad-template.rst:926
+#: ../../user-manual/data-templates/rad-template.rst:961
+#: ../../user-manual/data-templates/rad-template.rst:996
+#: ../../user-manual/data-templates/rad-template.rst:1026
+#: ../../user-manual/data-templates/rad-template.rst:1078
+#: ../../user-manual/data-templates/rad-template.rst:1113
+#: ../../user-manual/data-templates/rad-template.rst:1135
+#: ../../user-manual/data-templates/rad-template.rst:1158
+#: ../../user-manual/data-templates/rad-template.rst:1182
+#: ../../user-manual/data-templates/rad-template.rst:1205
+#: ../../user-manual/data-templates/rad-template.rst:1230
+#: ../../user-manual/data-templates/rad-template.rst:1263
+#: ../../user-manual/data-templates/rad-template.rst:1295
+#: ../../user-manual/data-templates/rad-template.rst:1340
+#: ../../user-manual/data-templates/rad-template.rst:1362
+#: ../../user-manual/data-templates/rad-template.rst:1384
+#: ../../user-manual/data-templates/rad-template.rst:1411
+#: ../../user-manual/data-templates/rad-template.rst:1438
+#: ../../user-manual/data-templates/rad-template.rst:1464
+#: ../../user-manual/data-templates/rad-template.rst:1487
+#: ../../user-manual/data-templates/rad-template.rst:1512
+#: ../../user-manual/data-templates/rad-template.rst:1537
+#: ../../user-manual/data-templates/rad-template.rst:1556
+#: ../../user-manual/data-templates/rad-template.rst:1583
+#: ../../user-manual/data-templates/rad-template.rst:1614
+#: ../../user-manual/data-templates/rad-template.rst:1635
+#: ../../user-manual/data-templates/rad-template.rst:1663
+#: ../../user-manual/data-templates/rad-template.rst:1683
+#: ../../user-manual/data-templates/rad-template.rst:1702
+#: ../../user-manual/data-templates/rad-template.rst:1723
+#: ../../user-manual/data-templates/rad-template.rst:1744
+#: ../../user-manual/data-templates/rad-template.rst:1763
+#: ../../user-manual/data-templates/rad-template.rst:1782
+#: ../../user-manual/data-templates/rad-template.rst:1808
+#: ../../user-manual/data-templates/rad-template.rst:1828
+#: ../../user-manual/data-templates/rad-template.rst:1852
+#: ../../user-manual/data-templates/rad-template.rst:1872
+#: ../../user-manual/data-templates/rad-template.rst:1906
+#: ../../user-manual/data-templates/rad-template.rst:1945
+#: ../../user-manual/data-templates/rad-template.rst:1971
+#: ../../user-manual/data-templates/rad-template.rst:2060
+#: ../../user-manual/data-templates/rad-template.rst:2102
+#: ../../user-manual/data-templates/rad-template.rst:2124
+#: ../../user-manual/data-templates/rad-template.rst:2145
+#: ../../user-manual/data-templates/rad-template.rst:2170
+#: ../../user-manual/data-templates/rad-template.rst:2197
+#: ../../user-manual/data-templates/rad-template.rst:2222
+#: ../../user-manual/data-templates/rad-template.rst:2252
+#: ../../user-manual/data-templates/rad-template.rst:2282
+#: ../../user-manual/data-templates/rad-template.rst:2311
+#: ../../user-manual/data-templates/rad-template.rst:2329
+#: ../../user-manual/data-templates/rad-template.rst:2344
+#: ../../user-manual/data-templates/rad-template.rst:2365
+#: ../../user-manual/data-templates/rad-template.rst:2395
+msgid ":ref:`Back to the top <rad-template>`"
+msgstr ":ref:`トップに戻る <rad-template>`"
+
+#: ../../user-manual/data-templates/rad-template.rst:114
+msgid "General material designation"
+msgstr "一般資料区分"
+
+#: ../../user-manual/data-templates/rad-template.rst:116
+msgid "**Template field** General material designation"
+msgstr "**テンプレートフィールド** 一般的な資料の種別"
+
+#: ../../user-manual/data-templates/rad-template.rst:118
+msgid "**CSV Column** ``radGeneralMaterialDesignation``"
+msgstr "**CSV列** ``radGeneralMaterialDesignation``"
+
+#: ../../user-manual/data-templates/rad-template.rst:120
+msgid ""
+"**RAD Rule** Select the General Material Designation at the highest level of"
+" description. If there are more than three, select \"multiple media.\" (RAD "
+"1.1C)"
+msgstr ""
+"**RADルール** 説明の最上位レベルで一般的な資料の表示を選択します。3つ以上ある場合は、「複数のメディア」を選択します。（RAD 1.1C）"
+
+#: ../../user-manual/data-templates/rad-template.rst:133
+msgid ""
+"Although the RAD standard specifies set values for General Material "
+"Designations, in AtoM these can be edited in the Material type "
+":term:`taxonomy` (see: :ref:`Add a new term <add-term>`). As of 2.2, the RAD"
+" template also has a separate Genre taxonomy, which uses the ``<genreform>``"
+" EAD element as well, but without the ``@source`` and ``@encodinganalog`` "
+"attributes."
+msgstr ""
+"RAD標準では、一般的な素材指定のための設定値が明示されていますが、AtoMにおいてはこれらは素材タイプの`分類体系`（taxonomy）で編集することができます（参照：`新しい用語の追加<add-"
+"term>`）。また、2.2版以降では、RADテンプレートに独立したジャンル分類体系が用意されており、``<genreform>`` "
+"EAD要素も使用されますが、``@source`` 属性と ``@encodinganalog`` 属性は使用されません。"
+
+#: ../../user-manual/data-templates/rad-template.rst:144
+msgid "Parallel title"
+msgstr "平行タイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:146
+msgid "**Template field** Parallel title"
+msgstr "**テンプレートフィールド** 並列タイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:148
+msgid "**CSV Column** ``alternateTitle``"
+msgstr "**CSV列** ``代替タイトル``"
+
+#: ../../user-manual/data-templates/rad-template.rst:150
+msgid ""
+"**RAD Rule** [W]hen applicable, transcribe parallel titles that appear in "
+"conjunction with the formal title proper...(RAD 1.1D)"
+msgstr "**RADルール** [適用可能な場合には]、正式なタイトルと共に現れる同等のタイトルを転記する...(RAD 1.1D)"
+
+#: ../../user-manual/data-templates/rad-template.rst:164
+msgid "Other title information"
+msgstr "その他のタイトル情報"
+
+#: ../../user-manual/data-templates/rad-template.rst:166
+msgid "**Template field** Other title information"
+msgstr "**テンプレート項目** その他のタイトル情報"
+
+#: ../../user-manual/data-templates/rad-template.rst:168
+msgid "**CSV Column** ``radOtherTitleInformation``"
+msgstr "**CSV列** ``radOtherTitleInformation``"
+
+#: ../../user-manual/data-templates/rad-template.rst:170
+msgid ""
+"**RAD Rule** Transcribe other title information that appears in conjunction "
+"with the formal title proper. (RAD 1.1E)"
+msgstr ""
+"**RAD（Rules for Archival Description）ルール** "
+"正式なタイトルに随伴して現れるその他のタイトル情報を転記してください。(RAD 1.1E)"
+
+#: ../../user-manual/data-templates/rad-template.rst:183
+msgid "Title statement of responsibility"
+msgstr "責任表示のタイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:185
+msgid "**Template field** Statements of responsibility"
+msgstr "**テンプレートフィールド** 責任の声明"
+
+#: ../../user-manual/data-templates/rad-template.rst:187
+msgid "**CSV Column** ``radTitleStatementOfResponsibility``"
+msgstr "**CSVカラム** ``radTitleStatementOfResponsibility``"
+
+#: ../../user-manual/data-templates/rad-template.rst:189
+msgid ""
+"**RAD Rule** \"At the item level of description, transcribe explicit "
+"statements of responsibility appearing in conjunction with the formal title "
+"proper in or on the chief source of information...\" (RAD 1.1F)"
+msgstr ""
+"**RADルール** "
+"「説明のアイテムレベルにおいて、主要情報源であるタイトルの正式な適切部分とともに現れる明確な責任表示については転記してください...」（RAD "
+"1.1F）"
+
+#: ../../user-manual/data-templates/rad-template.rst:203
+msgid "Title notes - Statements of responsibility"
+msgstr "タイトル注記 - 責任声明"
+
+#: ../../user-manual/data-templates/rad-template.rst:205
+msgid "**Template field** Title notes- Statements of responsibility"
+msgstr "**テンプレートフィールド** タイトルノート - 責任の表明"
+
+#: ../../user-manual/data-templates/rad-template.rst:207
+msgid "**CSV Column** ``radTitleStatementOfResponsibilityNote``"
+msgstr "**CSVのカラム** ``radTitleStatementOfResponsibilityNote``"
+
+#: ../../user-manual/data-templates/rad-template.rst:209
+msgid ""
+"**RAD Rule** \"Make notes on any statement(s) of responsibility that appear "
+"outside the chief source of information or that appear on the chief source, "
+"but not in conjunction with a formal title proper. Record statements of "
+"responsibility that appear on the chief source of information for a file or "
+"series, if applicable.\" (RAD 1.8B5)"
+msgstr ""
+"**RAD規則** "
+"「主な情報源の外部に現れる責任表示、または、正式な標題と関連しない形で主な情報源に現れる責任表示についての注記を行う。ファイルやシリーズに適用がある場合、主な情報源に現れる責任表示を記録する。」(RAD"
+" 1.8B5)"
+
+#: ../../user-manual/data-templates/rad-template.rst:224
+msgid "Title notes - Attributions and conjectures"
+msgstr "タイトル注記 - 帰属と推測"
+
+#: ../../user-manual/data-templates/rad-template.rst:226
+msgid "**Template field** Title notes- Attributions and conjectures"
+msgstr "**テンプレートフィールド** タイトル注記 - 帰属と推測"
+
+#: ../../user-manual/data-templates/rad-template.rst:228
+msgid "**CSV Column** ``radTitleAttributionsAndConjectures``"
+msgstr "**CSV列** ``radTitleAttributionsAndConjectures``"
+
+#: ../../user-manual/data-templates/rad-template.rst:230
+msgid ""
+"**RAD Rule** \"Make notes on authors to whom the unit being described has "
+"been attributed, and cite sources, if appropriate.\" (RAD 1.8B6)"
+msgstr "**RAD規則**「記述対象の単位に帰属された著者についてのメモを作成し、該当する場合はソースを引用する。」(RAD 1.8B6)"
+
+#: ../../user-manual/data-templates/rad-template.rst:242
+msgid "Title notes - Continuation of title"
+msgstr "タイトルノート - タイトルの続き"
+
+#: ../../user-manual/data-templates/rad-template.rst:244
+msgid "**Template field** Title notes- Continuation of title"
+msgstr "**テンプレートフィールド** タイトル注記 - タイトルの続き"
+
+#: ../../user-manual/data-templates/rad-template.rst:246
+msgid "**CSV Column** ``radTitleContinues``"
+msgstr "**CSV列** ``radTitleContinues``"
+
+#: ../../user-manual/data-templates/rad-template.rst:248
+msgid ""
+"**RAD Rule** \"Complete the transcription if the formal title proper and/or "
+"other title information was abridged in the description.\" (RAD 1.8B4)"
+msgstr "**RAD ルール** 「公式な正題や他のタイトル情報が記述で省略されている場合は、転記を完了すること。」(RAD 1.8B4)"
+
+#: ../../user-manual/data-templates/rad-template.rst:260
+msgid "Title notes - Source of title proper"
+msgstr "タイトルのメモ - 正当なタイトルの出典"
+
+#: ../../user-manual/data-templates/rad-template.rst:262
+msgid "**Template field** Title notes- Source of title proper"
+msgstr "**テンプレートフィールド** タイトル注記 - 正規タイトルの出典"
+
+#: ../../user-manual/data-templates/rad-template.rst:264
+msgid "**CSV Column** ``radTitleSourceOfTitleProper``"
+msgstr "**CSVカラム** ``radTitleSourceOfTitleProper``"
+
+#: ../../user-manual/data-templates/rad-template.rst:266
+msgid ""
+"**RAD Rule** \"Indicate the source of a title proper, when appropriate.\" "
+"(RAD 1.8B2)"
+msgstr "RADルール「適切な場合には、正題の出典を示すこと。」(RAD 1.8B2)"
+
+#: ../../user-manual/data-templates/rad-template.rst:278
+msgid "Title notes - Variations in title"
+msgstr "タイトル注記 - タイトルの変化"
+
+#: ../../user-manual/data-templates/rad-template.rst:280
+msgid "**Template field** Title notes- Variations in title"
+msgstr "**テンプレートフィールド** タイトル注記 - タイトルの変異"
+
+#: ../../user-manual/data-templates/rad-template.rst:282
+msgid "**CSV Column** ``radTitleVariationsInTitle``"
+msgstr "**CSV列** `radTitleVariationsInTitle`"
+
+#: ../../user-manual/data-templates/rad-template.rst:284
+msgid ""
+"**RAD Rule** \"Make notes on variant titles appearing outside the prescribed"
+" source of information. Make notes on titles by which the unit being "
+"described has been traditionally known other than the title proper.\" (RAD "
+"1.8B1)"
+msgstr ""
+"**RADルール**「情報提供予定の主要出典以外に現れる変種タイトルについて注記を記入してください。適切なタイトル以外で記述対象のユニットが一般的に知られているタイトルについても注記を行ってください。」(RAD"
+" 1.8B1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:297
+msgid "Title notes - Parallel titles and other title information"
+msgstr "タイトルノート - 並列タイトルおよびその他のタイトル情報"
+
+#: ../../user-manual/data-templates/rad-template.rst:299
+msgid ""
+"**Template field** Title notes- Parallel titles and other title information"
+msgstr "**テンプレートフィールド** タイトル注釈 - 並列タイトルおよびその他のタイトル情報"
+
+#: ../../user-manual/data-templates/rad-template.rst:301
+msgid "**CSV Column** ``radTitleParallelTitles``"
+msgstr "**CSV列** ``radTitleParallelTitles``"
+
+#: ../../user-manual/data-templates/rad-template.rst:303
+msgid ""
+"**RAD Rule** \"Make notes on parallel titles and other title information not"
+" recorded in the Title and statement of responsibility area if they are "
+"considered to be important.\" (RAD 1.8B3)"
+msgstr ""
+"**RAD規則**「タイトルと責任表示の領域に記録されていない並列タイトルやその他のタイトル情報について、それらが重要と考えられる場合はメモを取ってください。」（RAD"
+" 1.8B3）"
+
+#: ../../user-manual/data-templates/rad-template.rst:316
+msgid "Level of description"
+msgstr "説明のレベル"
+
+#: ../../user-manual/data-templates/rad-template.rst:318
+msgid "**Template field** Level of description"
+msgstr "**テンプレートフィールド** 記述のレベル"
+
+#: ../../user-manual/data-templates/rad-template.rst:320
+msgid "**CSV Column** ``levelOfDescription``"
+msgstr "**CSV 列** ``levelOfDescription``"
+
+#: ../../user-manual/data-templates/rad-template.rst:322
+msgid ""
+"**RAD Rule** Select a level of description from the drop-down menu. See RAD "
+"1.0A for rules and conventions on selecting levels of description."
+msgstr ""
+"**RADルール** ドロップダウンメニューから説明レベルを選択してください。説明レベルの選択に関するルールや規則についてはRAD "
+"1.0Aを参照してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:328
+msgid "At the parent level:"
+msgstr "親レベルでは："
+
+#: ../../user-manual/data-templates/rad-template.rst:335
+msgid "At the child level:"
+msgstr "子レベルで："
+
+#: ../../user-manual/data-templates/rad-template.rst:344
+msgid ""
+"An :term:`administrator` can edit the values in the Levels of description "
+":term:`taxonomy` (see: :ref:`Add a new term <add-term>`). In CSV import, if "
+"a term is used that is not already in the taxonomy, it will be added to the "
+"Levels of description taxonomy."
+msgstr ""
+"管理者は、説明レベルの分類法（:term:`taxonomy`）の値を編集することができます（参照: :ref:`新しい用語の追加 <add-"
+"term>`を参照）。CSVインポートでは、分類法にまだ存在しない用語が使用された場合、その用語は説明レベルの分類法に追加されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:352
+msgid "Add new child levels"
+msgstr "新しい子レベルを追加"
+
+#: ../../user-manual/data-templates/rad-template.rst:354
+msgid "**Template field** Identifier, Level, Title, Date"
+msgstr "**テンプレート フィールド** 識別子、レベル、タイトル、日付"
+
+#: ../../user-manual/data-templates/rad-template.rst:356
+msgid "**CSV Column** See notes below"
+msgstr "CSVカラム 下記の注釈を参照"
+
+#: ../../user-manual/data-templates/rad-template.rst:358
+msgid ""
+"**RAD Rule** *Identifier*: Enter an unambiguous code used to uniquely "
+"identify the description."
+msgstr "**RADルール** *識別子*：説明を一意に識別するために使用される明確なコードを入力してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:361
+msgid ""
+"*Level*: Select a level of description from the drop-down menu. See RAD 1.0A"
+" for rules and conventions on selecting levels of description."
+msgstr ""
+"*レベル*：ドロップダウンメニューから記述レベルを選択してください。記述レベルの選択に関する規則と慣例については、RAD 1.0Aを参照してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:364
+msgid ""
+"*Title*: Enter the title proper, either transcribed or supplied (RAD 1.1B)."
+msgstr "*タイトル*: 正題を転記または提供する形で入力してください（RAD 1.1B）。"
+
+#: ../../user-manual/data-templates/rad-template.rst:366
+msgid ""
+"*Date*: (Works similarly to the display date field when adding a date of "
+"creation; see :ref:`below <template-dates>` for more information in RAD)"
+msgstr ""
+"*日付*: （作成日を追加する際に利用する表示日付フィールドと同様に機能します。RADにおける詳細情報については、以下の :ref:`テンプレートの日付"
+" <template-dates>` を参照してください）"
+
+#: ../../user-manual/data-templates/rad-template.rst:369
+msgid "**EAD** N/A (see the related fields elsewhere in this page)"
+msgstr "EAD は適用なし（このページ内の他の関連フィールドを参照してください）"
+
+#: ../../user-manual/data-templates/rad-template.rst:373
+msgid ""
+"This widget has been added to help improve workflows when creating new "
+"descriptions via the :term:`user interface`.  When entering descriptions "
+"manually, users can add new :term:`child records <child record>` in this "
+"area while creating a parent record."
+msgstr ""
+"このウィジェットは、:term:`ユーザーインターフェース`を通じて新しい説明を作成する際のワークフローを改善するために追加されました。説明を手動で入力するとき、ユーザーはこのエリアで親レコードを作成しながら新しい:term:`子レコード<child"
+" record>`を追加することができます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:378
+msgid ""
+"The *dates* field corresponds to a date of creation - if you would like a "
+"different kind of date, you will have to either navigate to the child "
+"description after saving the new :term:`parent record`, and change the date "
+"type, or simply ignore the date field in the widget, and add the correct "
+"date type manually to the child record after saving the new parent record."
+msgstr ""
+"「*日付*フィールドは、作成日に対応しています。異なる種類の日付が必要な場合、新しい:term:`親レコード`を保存した後に子レコードの説明に移動して日付の種類を変更するか、ウィジェット内の日付フィールドを無視して、新しい親レコードを保存した後に手動で正しい日付の種類を子レコードに追加する必要があります。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:384
+msgid ""
+"In CSV import, adding child records can be achieved using the *legacyID* and"
+" *parentID* columns. See :ref:`csv-legacy-id-mapping`."
+msgstr ""
+"CSVインポートでは、*legacyID* および *parentID* 列を使用することで子レコードを追加することができます。詳細は "
+":ref:`csv-legacy-id-mapping` を参照してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:388
+msgid "Repository"
+msgstr "リポジトリ"
+
+#: ../../user-manual/data-templates/rad-template.rst:390
+msgid "**Template field** Repository"
+msgstr "**テンプレート項目** リポジトリ"
+
+#: ../../user-manual/data-templates/rad-template.rst:392
+msgid "**CSV Column** ``repository``"
+msgstr "**CSV列** ``リポジトリ``"
+
+#: ../../user-manual/data-templates/rad-template.rst:394
+msgid ""
+"**RAD Rule** Select the :term:`repository` that has custody and control of "
+"the archival material. The values in this field are drawn from the "
+"Authorized form of name field in archival institution records. Search for an"
+" existing name by typing the first few characters of the name. "
+"Alternatively, type a new name to create and link to a new archival "
+"institution."
+msgstr ""
+"**RAD規則** "
+"アーカイブ資料の保管と管理を行っている:term:`リポジトリ`を選択します。このフィールドの値は、アーカイブ機関の記録にある承認された機関名のフィールドから取得されます。既存の名前を検索するには、名前の最初の数文字を入力します。または、新しい名前を入力して新しいアーカイブ機関を作成し、リンクします。"
+
+#: ../../user-manual/data-templates/rad-template.rst:411
+msgid ""
+"When an address is included in the related :term:`archival institution` "
+"(i.e. added to the Contact area of the linked repository record), the "
+"address will also appear in the EAD at the parent level. Because EAD does "
+"not include attributes for the ``<addressline>`` element, these will not "
+"roundtrip properly when exported from one AtoM instance and into another - "
+"all the information will appear in one field of the Contact area upon re-"
+"import. Below is an example of the EAD with an address included:"
+msgstr ""
+"関連する:term:`アーカイブ機関`（すなわち、関連するリポジトリレコードのコンタクトエリアに追加された場合）にアドレスが含まれていると、そのアドレスはEADの親レベルにも表示されます。EADは``<addressline>``要素の属性を含んでいないため、AtoMインスタンスからエクスポートして別のAtoMインスタンスにインポートする際に、これらは適切にラウンドトリップされません"
+" - すべての情報がコンタクトエリアの1つのフィールドにインポートされます。以下にアドレスを含むEADの例を示します："
+
+#: ../../user-manual/data-templates/rad-template.rst:436
+msgid ""
+"When linking an :term:`archival institution` to an :term:`archival "
+"description`, You should only link at the highest level of description. AtoM"
+" will automatically inherit the repository name at lower levels. This "
+"conforms to RAD's General Rule 1.0A2d *Non-repetition of information*: \"Do "
+"not repeat information at a lower level of description that has already been"
+" given at a higher level....\" Linking a repository at all levels of "
+"description (instead of just at the parent level) in a large hierarchy can "
+"also impact performance."
+msgstr ""
+"アーカイブ機関（:term:`archival institution`）をアーカイブ記述（:term:`archival "
+"description`）にリンクする際は、説明の最上位レベルでのみリンクを行うべきです。AtoMは下位レベルでリポジトリ名を自動的に継承します。これはRAD（記録管理基準）の一般ルール1.0A2d「情報の非繰り返し」に準拠しています。:"
+" "
+"「上位のレベルで既に提供された情報を下位のレベルで繰り返すことは避けなさい...」大規模な階層において、全ての記述レベルでリポジトリをリンクする（親レベルだけではなく）と、パフォーマンスに影響を与える可能性があります。"
+
+#: ../../user-manual/data-templates/rad-template.rst:447
+msgid "Reference code"
+msgstr "参照コード"
+
+#: ../../user-manual/data-templates/rad-template.rst:449
+msgid "**Template field** Identifier"
+msgstr "**テンプレート フィールド** 識別子"
+
+#: ../../user-manual/data-templates/rad-template.rst:451
+msgid "**CSV Column** ``identifier``"
+msgstr "**CSVの列** ``identifier``"
+
+#: ../../user-manual/data-templates/rad-template.rst:453
+msgid ""
+"**RAD Rule** Enter an unambiguous code used to uniquely identify the "
+"description."
+msgstr "**RADルール** 記述を一意に識別するために使用される明確なコードを記入してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:464
+msgid ""
+"This field displays to non-logged in users as \"Reference code.\" While "
+"editing the record, the full reference code including any identifiers "
+":ref:`inherited <inherit-reference-code>` from higher levels will appear "
+"below the Identifier field. The ``@countrycode`` value is taken from the "
+"Country value entered into the Contact area of the related "
+":term:`repository`."
+msgstr ""
+"このフィールドは、ログインしていないユーザーには「参照コード」として表示されます。レコードの編集中には、Identifier（識別子）フィールドの下に、上位のレベルから"
+" :ref:`継承された <inherit-reference-code>` "
+"任意の識別子を含む完全な参照コードが表示されます。``@countrycode`` の値は関連する :term:`リポジトリ` "
+"の連絡先エリアに入力された国の値から取得されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:474
+msgid "Alternative identifier"
+msgstr "代替識別子"
+
+#: ../../user-manual/data-templates/rad-template.rst:476
+msgid ""
+"**Template field** Add alternative identifier(s) [link beneath identifier "
+"field]"
+msgstr "**テンプレートフィールド** 代替識別子を追加してください [識別子フィールドの下にリンク]"
+
+#: ../../user-manual/data-templates/rad-template.rst:479
+msgid ""
+"**CSV Columns** ``alternativeIdentifiers`` and "
+"``alternativeIdentifierLabels``"
+msgstr "**CSVの列** `alternativeIdentifiers` と `alternativeIdentifierLabels`"
+
+#: ../../user-manual/data-templates/rad-template.rst:481
+msgid "**RAD Rule** N/A (see note below)"
+msgstr "RADルール 適用なし（詳細は下記の注を参照してください）"
+
+#: ../../user-manual/data-templates/rad-template.rst:492
+msgid ""
+"The use of the alternative identifier fields is documented in full here:"
+msgstr "ここに代替識別子フィールドの使用に関する完全なドキュメントがあります："
+
+#: ../../user-manual/data-templates/rad-template.rst:494
+msgid ":ref:`add-alternative-id`"
+msgstr ""
+"\n"
+"\n"
+":ref:`代替IDを追加する`"
+
+#: ../../user-manual/data-templates/rad-template.rst:496
+msgid ""
+"In the CSV templates, the columns can accept multiple values, separated by a"
+" pipe ``|`` character. The label values will be matched 1:1 with the "
+"identifiers."
+msgstr ""
+"CSVテンプレートでは、カラムにはパイプ「|」文字で区切られた複数の値を入れることができます。ラベルの値は識別子と1:1で対応づけられます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:505
+msgid "Edition area"
+msgstr "エディションエリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:512
+msgid "An image of the data entry fields for the Edition area."
+msgstr "データ入力フィールドのエディション領域の画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:512
+msgid "The data entry fields for the Edition area."
+msgstr "エディションエリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:515
+msgid "Edition statement"
+msgstr "エディション声明"
+
+#: ../../user-manual/data-templates/rad-template.rst:517
+msgid "**Template field** Edition statement"
+msgstr "**テンプレートフィールド** 版声明"
+
+#: ../../user-manual/data-templates/rad-template.rst:519
+msgid "**CSV Column** ``radEdition``"
+msgstr "**CSVカラム** ``radEdition``"
+
+#: ../../user-manual/data-templates/rad-template.rst:521
+msgid ""
+"**RAD Rule** \"Transcribe the edition statement relating to the item being "
+"described.\" (RAD 1.2B1) \"If the item being described lacks an edition "
+"statement but is known to contain significant changes from other editions, "
+"supply a suitable brief statement in the language and script of the title "
+"proper and enclose it in square brackets.\" (RAD 1.2B3)"
+msgstr ""
+"**RADルール** 「記述対象のアイテムに関連する版表示を転写する。」 (RAD 1.2B1) "
+"「記述対象のアイテムに版表示がないが、他の版と比べて重要な変更があることが判明している場合は、適切な簡潔な陳述を元のタイトルの言語とスクリプトで記供し、角括弧で囲む。」"
+" (RAD 1.2B3)"
+
+#: ../../user-manual/data-templates/rad-template.rst:537
+msgid ""
+"This field also maps to the ``<editionstmt><edition>`` tag in "
+"``<eadheader><filedesc>``."
+msgstr ""
+"このフィールドは、``<eadheader><filedesc>``内の``<editionstmt><edition>``タグにも対応している。"
+
+#: ../../user-manual/data-templates/rad-template.rst:543
+msgid "Edition statement of responsibility"
+msgstr "責任表示の版"
+
+#: ../../user-manual/data-templates/rad-template.rst:545
+msgid "**Template field** Edition statement of responsibility"
+msgstr "**テンプレートフィールド** 責任表示の版声明"
+
+#: ../../user-manual/data-templates/rad-template.rst:547
+msgid "**CSV Column** ``radEditionStatementOfResponsibility``"
+msgstr "**CSV列** ``radEditionStatementOfResponsibility``"
+
+#: ../../user-manual/data-templates/rad-template.rst:549
+msgid ""
+"**RAD Rule** \"Transcribe a statement of responsibility relating to one or "
+"more editions, but not to all editions, of the item being described "
+"following the edition statement if there is one.\" (RAD 1.2.C1) \"When "
+"describing the first edition, give all statements of responsibility in the "
+"Title and statement of responsibility area.\" (RAD 1.2C2)"
+msgstr ""
+"**RAD規則** 「記述されているアイテムの一部の版（全ての版ではない）に関連する責任表示を、版表示がある場合はその後に記載する。」（RAD "
+"1.2.C1）「初版を記述する際は、タイトルおよび責任表示エリアにある全ての責任表示を記載する。」（RAD 1.2C2）"
+
+#: ../../user-manual/data-templates/rad-template.rst:568
+msgid "Class of materials specific details area"
+msgstr "資料特有の詳細事項エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:577
+msgid ""
+"An image of the data entry fields for the Class of materials specific\n"
+"details area."
+msgstr "特定の素材の種類に関する詳細エリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:577
+msgid ""
+"The data entry fields for the Class of materials specific details area."
+msgstr "資料の種別特有の詳細領域に関するデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:580
+msgid ""
+"RAD: \"1.3A. Preliminary rule: 1.3A1. Scope: For instructions regarding this"
+" area, refer to the chapters dealing with the class(es) of material that use"
+" it.\""
+msgstr ""
+"RAD:「1.3A. 予備規則: 1.3A1. 適用範囲: この領域に関する指示については、これを使用する資料のクラスに関する章を参照してください。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:586
+msgid "Statement of scale (cartographic)"
+msgstr "縮尺の表明（地図学的）"
+
+#: ../../user-manual/data-templates/rad-template.rst:588
+msgid "**Template field** Statement of scale (cartographic)"
+msgstr "**テンプレート項目** 縮尺の記述（地図学的）"
+
+#: ../../user-manual/data-templates/rad-template.rst:590
+msgid "**CSV Column** ``radStatementOfScaleCartographic``"
+msgstr "**CSVカラム** ``radStatementOfScaleCartographic``"
+
+#: ../../user-manual/data-templates/rad-template.rst:592
+msgid ""
+"**RAD Rule** \"Give the scale of the unit being described...as a "
+"representative fraction (RF) expressed as a ratio (1: ). Precede the ratio "
+"by Scale. Give the scale even if it is already recorded as part of the title"
+" proper or other title information.\" (RAD 5.3B1)"
+msgstr ""
+"**RADルール**「記載されている対象のスケールを、代表的な分数（RF）として比率（1: "
+"）で表現します。比率の前にスケールと明記してください。たとえそのスケールが適切なタイトルやその他のタイトル情報の一部として既に記録されている場合でも、スケールを記載します。」(RAD"
+" 5.3B1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:607
+msgid "Statement of projection (cartographic)"
+msgstr "投影法に関する声明（地図学的）"
+
+#: ../../user-manual/data-templates/rad-template.rst:609
+msgid "**Template field** Statement of projection (cartographic)"
+msgstr "**テンプレート項目** 投影法に関する説明（地図学的）"
+
+#: ../../user-manual/data-templates/rad-template.rst:611
+msgid "**CSV Column** ``radStatementOfProjection``"
+msgstr "**CSV列** ``radStatementOfProjection``"
+
+#: ../../user-manual/data-templates/rad-template.rst:613
+msgid ""
+"**RAD Rule** \"Give the statement of projection if it is found on the "
+"prescribed source(s) of information.\" (RAD 5.3C1)"
+msgstr "**RADルール** \"所定の情報源に記載がある場合は、投影法の記述を行うこと。\" (RAD 5.3C1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:626
+msgid "Statement of coordinates (cartographic)"
+msgstr "座標の表明（地図学的）"
+
+#: ../../user-manual/data-templates/rad-template.rst:628
+msgid "**Template field** Statement of coordinates (cartographic)"
+msgstr "**テンプレートフィールド** 座標に関する記述（地図学的）"
+
+#: ../../user-manual/data-templates/rad-template.rst:630
+msgid "**CSV Column** ``radStatementOfCoordinates``"
+msgstr "CSV列 ``radStatementOfCoordinates``"
+
+#: ../../user-manual/data-templates/rad-template.rst:632
+msgid ""
+"**RAD Rule** \"At the fonds, series or file levels, record coordinates for "
+"the maximum coverage provided by the materials in the unit, as long as they "
+"are reasonably contiguous.\" (RAD 5.3D)"
+msgstr ""
+"**RAD規則**「綱要、シリーズまたはファイルレベルにおいて、ユニットに含まれる資料によって提供される最大範囲の座標を、それらが合理的に連続している限り記録する。」(RAD"
+" 5.3D)"
+
+#: ../../user-manual/data-templates/rad-template.rst:646
+msgid "Statement of scale (architectural)"
+msgstr "規模の声明（建築的）"
+
+#: ../../user-manual/data-templates/rad-template.rst:648
+msgid "**Template field** Statement of scale (architectural)"
+msgstr "**テンプレートフィールド** スケール声明（建築）"
+
+#: ../../user-manual/data-templates/rad-template.rst:650
+msgid "**CSV Column** ``radStatementOfScaleArchitectural``"
+msgstr "**CSV列** ``radStatementOfScaleArchitectural``"
+
+#: ../../user-manual/data-templates/rad-template.rst:652
+msgid ""
+"**RAD Rule** \"Give in English the scale in the units of measure found on "
+"the unit being described. If there is no English equivalent for the name of "
+"the unit of measure, give the name, within quotation marks, as found on the "
+"unit being described.\" (RAD 6.3B)"
+msgstr ""
+"**RADルール**「記述対象の単位で見つかった計測単位のスケールを、英語で記載してください。計測単位の名称に英訳がない場合は、記述対象の単位に記載されている名称を引用符で囲んで記載します。」(RAD"
+" 6.3B)"
+
+#: ../../user-manual/data-templates/rad-template.rst:667
+msgid "Issuing jurisdiction and denomination (philatelic)"
+msgstr "発行管轄区域および額面（郵趣）"
+
+#: ../../user-manual/data-templates/rad-template.rst:669
+msgid "**Template field** Issuing jurisdiction and denomination (philatelic)"
+msgstr "**テンプレート項目** 発行地域及び額面（郵趣）"
+
+#: ../../user-manual/data-templates/rad-template.rst:671
+msgid "**CSV Column** ``radIssuingJurisdiction``"
+msgstr "**CSV列** ``radIssuingJurisdiction``"
+
+#: ../../user-manual/data-templates/rad-template.rst:673
+msgid ""
+"**RAD Rule** \"Give the name of the jurisdiction (e.g., government) "
+"responsible for issuing the philatelic records.\" (RAD 12.3B1) \"For all "
+"units possessing a denomination (e.g., postage stamps, revenue stamps, "
+"postal stationery items), give the denomination in a standardized format, "
+"recording the denomination number in arabic numerals followed by the name of"
+" the currency unit. Include a denomination statement even if the "
+"denomination is already recorded as part of the title proper or other title "
+"information.\" (RAD 12.3C1)"
+msgstr ""
+"「RADルール」 \"切手記録を発行する権限を持つ管轄区域（例：政府）の名称を記載すること。\" (RAD 12.3B1) "
+"\"額面を持つ全ての単位（例：郵便切手、収入印紙、郵便用紙類）については、額面を標準化された形式で記載し、アラビア数字で額面の数字を記録し、通貨単位の名称を続けて記述する。たとえ額面が正式なタイトルや他のタイトル情報の一部として既に記録されている場合でも、額面に関する記述を含めること。\""
+" (RAD 12.3C1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:693
+msgid "Authority record fields"
+msgstr "権威レコードのフィールド"
+
+#: ../../user-manual/data-templates/rad-template.rst:695
+msgid ""
+"These fields are found in the CSV template but when entering descriptions "
+"manually are found in the :term:`authority record`. However, the description"
+" can be linked to the authority record while entering the data manually."
+msgstr ""
+"これらのフィールドはCSVテンプレートで見つかりますが、説明を手動で入力する際には:term:`authority "
+"record`（権限記録）で見つけることができます。しかし、データを手動で入力する際には、説明を権限記録にリンクさせることができます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:700
+msgid "Creator"
+msgstr "作成者"
+
+#: ../../user-manual/data-templates/rad-template.rst:702
+msgid "**Template field** Creator"
+msgstr "**テンプレートフィールド** 作成者"
+
+#: ../../user-manual/data-templates/rad-template.rst:704
+msgid "**CSV Column** ``eventActors``"
+msgstr "**CSV列** ``eventActors``"
+
+#: ../../user-manual/data-templates/rad-template.rst:706
+msgid ""
+"**RAD Rule** Use the Actor name field to link an authority record to this "
+"description. Search for an existing name in the authority records by typing "
+"the first few characters of the name. Alternatively, type a new name to "
+"create and link to a new authority record."
+msgstr ""
+"**RAD規則** "
+"アクター名フィールドを使って、権威レコードをこの説明にリンクします。権威レコードに存在する名前を、名前の最初の数文字を入力して検索します。あるいは、新しい名前を入力することで新しい権威レコードを作成し、リンクします。"
+
+#: ../../user-manual/data-templates/rad-template.rst:720
+#: ../../user-manual/data-templates/rad-template.rst:2043
+msgid ""
+"This is the default export EAD when an Entity type has not been set for the "
+"actor on the related :term:`authority record`. The final EAD element can be "
+"more precise, if the user has entered an Entity type on the related "
+":term:`authority record`. When the Entity type is set to **Person**, the EAD"
+" will export using ``<persname>`` instead of  ``<name>``; when set to "
+"**Family**, the EAD will export using ``<famname>``  instead of ``<name>``; "
+"and when set to **Organization**, the EAD will export using ``<corpname>`` "
+"instead of ``<name>``. The ``<name>`` element is the default when no entity "
+"type is set. For more information on authority records and the ISAAR "
+"standard upon which the authority record template is based, see: "
+":ref:`authority-records` and :ref:`isaar-template`."
+msgstr ""
+"以下はアクターに関連する`:term:`authority "
+"record`（権威記録）でエンティティのタイプが設定されていない場合に、デフォルトでエクスポートされるEAD（Encoded Archival "
+"Description）です。関連する`:term:`authority "
+"record`（権威記録）にユーザーがエンティティのタイプを入力している場合、最終のEADエレメントはより正確なものになります。エンティティのタイプが**個人(Person)**に設定されている場合、EADは``<name>``の代わりに``<persname>``を使用してエクスポートされます。**家族(Family)**に設定されている場合は``<name>``の代わりに``<famname>``を使用してエクスポートされ、**組織(Organization)**に設定されている場合は``<name>``の代わりに``<corpname>``を使用してエクスポートされます。エンティティのタイプが設定されていない場合、デフォルトで``<name>``エレメントが使用されます。権威記録およびこれに基づく権威記録のテンプレートであるISAAR基準についての詳細は、以下を参照してください:"
+" :ref:`authority-records` および :ref:`isaar-template`。"
+
+#: ../../user-manual/data-templates/rad-template.rst:734
+#: ../../user-manual/data-templates/rad-template.rst:795
+msgid ""
+"In the CSV template, this column can accept multiple values, separated by a "
+"pipe ``|`` character. The label values will be matched 1:1 with the "
+"identifiers."
+msgstr ""
+"CSVテンプレートにおいて、この列はパイプ「|」文字で区切られた複数の値を受け入れることができます。ラベル値は識別子と1対1で対応付けられます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:739
+msgid ""
+"When entering the description manually, the Creator field is found in the "
+"RAD template  within the Dates of creation :term:`information area`, labeled"
+" as \"Actor name.\""
+msgstr ""
+"手動で説明を入力する際、「Actor "
+"name」とラベル付けされた「Creator」フィールドは、作成日に関する情報エリア(:term:`information "
+"area`)内のRADテンプレートにあります。"
+
+#: ../../user-manual/data-templates/rad-template.rst:745
+msgid ""
+"When linking a :term:`creator` to an :term:`archival description`, you "
+"should only link at the highest level of description. AtoM will "
+"automatically inherit the creator name at lower levels. This conforms to "
+"RAD's General Rule 1.0A2d *Non-repetition of information*: \"Do not repeat "
+"information at a lower level of description that has already been given at a"
+" higher level....\" Linking a repository at all levels of description "
+"(instead of just at the parent level) in a large hierarchy can also impact "
+"performance."
+msgstr ""
+"アーカイブ記述に「作成者」をリンクする際には、記述の最上位レベルでのみリンクすべきです。AtoMシステムでは、作成者の名前は下位レベルに自動的に継承されます。これはRADの一般规則1.0A2d「情報の繰り返し禁止」に準じたものです。この規則には「上位レベルで既に提供された情報を下位レベルで繰り返さないでください…」とあります。大規模な階層内で全ての記述レベルにリポジトリをリンクする（親レベルのみにするのではなく）と、パフォーマンスにも影響を及ぼす可能性があります。"
+
+#: ../../user-manual/data-templates/rad-template.rst:756
+msgid "Biographical history"
+msgstr "経歴歴"
+
+#: ../../user-manual/data-templates/rad-template.rst:758
+msgid "**Template field** Biographical history"
+msgstr "**テンプレート項目** 経歴履歴"
+
+#: ../../user-manual/data-templates/rad-template.rst:760
+msgid "**CSV Column** ``eventActorHistories``"
+msgstr "**CSVカラム** ``eventActorHistories``"
+
+#: ../../user-manual/data-templates/rad-template.rst:762
+msgid ""
+"**RAD Rule** \"Record in narrative form or as a chronology the main life "
+"events, activities, achievements and/or roles of the entity being described."
+" This may include information on gender, nationality, family and religious "
+"or political affiliations. Wherever possible, supply dates as an integral "
+"component of the narrative description.\" (ISAAR 5.2.2)"
+msgstr ""
+"**RAD規則** "
+"「記述される実体の主要な生涯の出来事、活動、成就および／または役割を物語形式または年表として記録してください。これには、性別、国籍、家族、宗教上または政治的なつながりに関する情報を含むことができます。可能な限り、物語の記述の不可欠な要素として日付を提供してください。」(ISAAR"
+" 5.2.2)"
+
+#: ../../user-manual/data-templates/rad-template.rst:768
+msgid "See also RAD section 1.7B1."
+msgstr "RADセクション1.7B1も参照してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:780
+msgid ""
+"When entering data manually, this field needs to be written in the "
+":term:`authority record`. If an authority record does not already exist, "
+"AtoM will create one when a new creator is entered, above. The user can then"
+" navigate to the authority record to enter the Biographical or "
+"Administrative history (see: :ref:`Authority records <authority-records>`)."
+msgstr ""
+"手動でデータを入力する際には、このフィールドは`:term:`権威レコード`に記載される必要があります。もし権威レコードがまだ存在していない場合、上記で新しい作成者が入力された際に、AtoMが自動的に一つ作成します。その後、ユーザーは権威レコードに移動して、伝記的または管理の歴史を入力することができます（参照：`:ref:`権威レコード"
+" <authority-records>`）。"
+
+#: ../../user-manual/data-templates/rad-template.rst:788
+msgid ""
+"When importing descriptions by CSV, by default this column will create a "
+"Biographical history in the :term:`authority record`, regardless of whether "
+"the creator is a person, family, or organization. To specify the entity type"
+" when importing creators, users would need to :ref:`import authority records"
+" <csv-import-authority-records>` or manually edit the authority record."
+msgstr ""
+"CSVを使用して説明をインポートする際、この列はデフォルトで：term:`authority "
+"record`において伝記歴史を作成します。これは、作成者が個人、家族、もしくは組織であるかにかかわらずです。作成者をインポートする際にエンティティタイプを指定するためには、ユーザーは：ref:`authority"
+" recordsのインポート <csv-import-authority-records>`を行うか、手動でauthority "
+"recordを編集する必要があります。"
+
+#: ../../user-manual/data-templates/rad-template.rst:800
+msgid ""
+"When roundtripping descriptions from one AtoM instance to another, creator "
+"names in the ``<origination>`` element are matched 1:1 in order with "
+"administrative or biographical histories included in ``<bioghist>``. It is "
+"therefore important that if some creators do not have related histories, "
+"they appear in the EAD **after** those that do, so the 1:1 mapping can work "
+"as expected. If an extra ``<bioghist>`` element is included that does not "
+"have a corresponding creator name, a stub :term:`authority record` will be "
+"created to hold the ``<bioghist>`` data."
+msgstr ""
+"AtoMインスタンス間で記述を移し替える際には、``<origination>``要素内の作成者名を、``<bioghist>``に含まれる管理情報または伝記歴と1:1で順序通りに対応させます。したがって、一部の作成者に関連する歴史がない場合は、1:1のマッピングが期待通りに機能するよう、それらがある作成者の**後に**EAD内で現れることが重要です。対応する作成者名がない余分な``<bioghist>``要素が含まれている場合、その``<bioghist>``データを保持するために、スタブ:term:`権威レコード`が作成されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:815
+msgid "Dates of creation area"
+msgstr "作成日時エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:817
+msgid ""
+"When entering data manually, the fields below are accessed by clicking \"Add"
+" new\" in the dates of creation area."
+msgstr "手動でデータを入力する際には、「作成日時」エリアで「新規追加」をクリックすることで、以下のフィールドにアクセスします。"
+
+#: ../../user-manual/data-templates/rad-template.rst:826
+msgid "An image of the data entry fields for the Dates of Creation area"
+msgstr "作成日時エリアのデータ入力フィールドの画像"
+
+#: ../../user-manual/data-templates/rad-template.rst:826
+msgid "The data entry fields for the Dates of Creation area"
+msgstr "創作年代エリアのデータ入力フィールド"
+
+#: ../../user-manual/data-templates/rad-template.rst:828
+msgid ""
+"Entering an actor's name will automatically insert the actor's biographical "
+"sketch or administrative history from the :term:`authority record`."
+msgstr "アクターの名前を入力すると、`:term:`権威記録`からアクターの略歴または管理歴史が自動的に挿入されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:832
+msgid ""
+"When entering data manually, users can choose an event type from a "
+":term:`drop-down menu`. The event types can be edited by an "
+":term:`administrator` in the Event types :term:`taxonomy` (see: :ref:`Add a "
+"new term <add-term>`). When importing descriptions via CSV, the event type "
+"defaults to Creation."
+msgstr ""
+"手動でデータを入力する際、利用者は`:term:`ドロップダウンメニュー`からイベントタイプを選択することができます。イベントタイプは、イベントタイプ`:term:`タクソノミー`にて`:term:`管理者`によって編集することができます(参照:"
+" :ref:`新しい用語を追加<add-"
+"term>`）。CSV経由で記述をインポートする際、イベントタイプはデフォルトで「Creation」（作成）になります。"
+
+#: ../../user-manual/data-templates/rad-template.rst:839
+msgid "Place"
+msgstr ""
+"申し訳ありませんが、いただいた「Place」という単語だけでは、どのような文脈で翻訳すべきかを判断するのが難しいです。もう少し詳細なコンテキストを提供していただけますか？それにより、より正確な翻訳を提供することができます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:841
+msgid "**Template field** Place"
+msgstr "**テンプレートフィールド** 場所"
+
+#: ../../user-manual/data-templates/rad-template.rst:843
+msgid "**CSV Column** N/A"
+msgstr "CSVの列 N/A"
+
+#: ../../user-manual/data-templates/rad-template.rst:845
+msgid ""
+"**RAD Rule** \"For an item, transcribe the place of publication, "
+"distribution, etc., in the form and grammatical case in which it appears.\" "
+"(RAD 1.4C1). Search for an existing term in the places taxonomy by typing "
+"the first few characters of the term name. Alternatively, type a new term to"
+" create and link to a new place term."
+msgstr ""
+"**RADルール** \"一つのアイテムに対して、公開・配布などの場所を、それが現れる形式及び文法的格で書き写してください。\" (RAD "
+"1.4C1)。所在地の分類表にある既存の用語を検索するために、用語名の最初の数文字を入力してください。または、新しい用語を入力して新しい所在地用語を作成し、リンクしてください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:860
+msgid ""
+"The above example assumes that the place was linked to a creator, as opposed"
+" to a publisher, broadcaster, or other role - the ``@role`` attribute value "
+"will depend on the type of event entered. An example ``@id`` is included in "
+"this example as well - atom will generate and use these to maintain the "
+"relationship between a creator name, date, and place when roundtripping."
+msgstr ""
+"上記の例では、場所が出版者や放送局、その他の役割ではなく、作成者にリンクされていると仮定しています。``@role``属性の値は入力されるイベントの種類に応じて異なります。この例には``@id``の例も含まれており、atomはこれらを生成して使用し、往復時に作成者の名前、日付、場所の間の関係を維持します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:867
+msgid "Date(s)"
+msgstr "日付(複数)"
+
+#: ../../user-manual/data-templates/rad-template.rst:869
+msgid "**Template field** Date"
+msgstr "**テンプレートフィールド** 日付"
+
+#: ../../user-manual/data-templates/rad-template.rst:871
+msgid "**CSV Column** ``eventDates`` and ``eventTypes``"
+msgstr "**CSV列** ``eventDates`` と ``eventTypes``"
+
+#: ../../user-manual/data-templates/rad-template.rst:873
+msgid ""
+"**RAD Rule** \"Give the date(s) of creation of the unit being described "
+"either as a single date, or range of dates (for inclusive dates and/or "
+"predominant dates). Always give the inclusive dates. When providing "
+"predominant dates, specify them as such, preceded by the word "
+"predominant...\" (1.4B2). Record probable and uncertain dates in square "
+"brackets, using the conventions described in RAD 1.4B5."
+msgstr ""
+"**RADルール** "
+"「説明されている単位の制作日を、単一の日付または日付の範囲（包括的な日付および／または主要な日付に対して）で示してください。常に包括的な日付を表示します。主要な日付を提供する場合は、それらを「主要」という言葉で先行させて特定してください...」（1.4B2）。従来の日付に対する可能性のあるもしくは確定していない日付は、RAD"
+" 1.4B5で説明されている規則を用いて、角括弧内に記録してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:880
+msgid "**EAD** (creator example)"
+msgstr "**EAD**（作成者例）"
+
+#: ../../user-manual/data-templates/rad-template.rst:889
+msgid ""
+"The CSV column in earlier versions prior to 2.2 was named \"creatorDates\" -"
+" it has been updated to clarify its relation to the creation event - not to "
+"the dates of existence of the creator. However, we have added fallback code,"
+" so if the old name is used, the import will still succeed."
+msgstr ""
+"以前のバージョン2.2以前では、CSVの列は\"creatorDates\"と名付けられていましたが、それは作成者の存在期間ではなく、作成イベントに関連することを明確にするために更新されました。ただし、旧名称を使用した場合にもインポートが成功するように、フォールバックコードを追加しました。"
+
+#: ../../user-manual/data-templates/rad-template.rst:896
+msgid ""
+"This field will display the date as intended by the editor of the archival "
+"description, in the language of the standard being used. The start and end "
+"date values, which must be ISO-formatted (YYYY-MM-DD), will populate the "
+"``@normal`` attribute. AtoM will also generate an ID to be able to link the "
+"creator name, place, and event date again when roundtripping from one AtoM "
+"instance to another."
+msgstr ""
+"このフィールドには、アーカイブ記述の編集者によって意図された日付が、使用されている標準の言語で表示されます。開始日付と終了日付の値はISOフォーマット（YYYY-"
+"MM-"
+"DD）でなければならず、「@normal」属性に入力されます。AtoMはまた、AtoMのインスタンス間で往復する際に、作成者の名前、場所、およびイベントの日付を再びリンクするために、IDを生成します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:903
+msgid ""
+"Users can also set the type of event, using the \"Event type\" :term:`drop-"
+"down menu`. In the RAD :term:`edit page`, the default terms in the drop-down"
+" menu for \"Event type\" are:"
+msgstr ""
+"ユーザーは、「イベントタイプ」の :term:`ドロップダウンメニュー` を使用してイベントの種類を設定することもできます。RAD "
+":term:`編集ページ` では、「イベントタイプ」のドロップダウンメニューのデフォルト項目は以下の通りです："
+
+#: ../../user-manual/data-templates/rad-template.rst:907
+msgid "Creation"
+msgstr "創造"
+
+#: ../../user-manual/data-templates/rad-template.rst:908
+msgid "Custody"
+msgstr "保管"
+
+#: ../../user-manual/data-templates/rad-template.rst:909
+msgid "Publication"
+msgstr "出版"
+
+#: ../../user-manual/data-templates/rad-template.rst:910
+msgid "Contribution"
+msgstr "寄与"
+
+#: ../../user-manual/data-templates/rad-template.rst:911
+msgid "Collection"
+msgstr "コレクション"
+
+#: ../../user-manual/data-templates/rad-template.rst:912
+msgid "Accumulation"
+msgstr "蓄積"
+
+#: ../../user-manual/data-templates/rad-template.rst:913
+msgid "Reproduction"
+msgstr "複製"
+
+#: ../../user-manual/data-templates/rad-template.rst:914
+msgid "Distribution"
+msgstr "配布"
+
+#: ../../user-manual/data-templates/rad-template.rst:915
+msgid "Broadcasting"
+msgstr "放送"
+
+#: ../../user-manual/data-templates/rad-template.rst:916
+msgid "Manufacturing"
+msgstr "製造"
+
+#: ../../user-manual/data-templates/rad-template.rst:918
+msgid ""
+"AtoM will also add a ``@datechar`` attribute for different types of events. "
+"Here is an example for a broadcasting event date in EAD XML:"
+msgstr ""
+"AtoMは、異なる種類のイベントに対して``@datechar``属性も追加します。EAD XMLにおける放送イベント日付の例を以下に示します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:929
+msgid "Dates of creation - Start"
+msgstr "作成日 - 開始"
+
+#: ../../user-manual/data-templates/rad-template.rst:931
+msgid "**Template field** Start"
+msgstr "**テンプレートフィールド** 開始"
+
+#: ../../user-manual/data-templates/rad-template.rst:933
+msgid "**CSV Column** ``eventStartDates``"
+msgstr "**CSVカラム** ``eventStartDates``"
+
+#: ../../user-manual/data-templates/rad-template.rst:937
+msgid ""
+"The CSV column in earlier versions prior to 2.2 was named "
+"\"creatorDatesStart\" - it has been updated to clarify its relation to the "
+"creation event - not to the dates of existence of the creator. However, we "
+"have added fallback code, so if the old name is used, the import will still "
+"succeed."
+msgstr ""
+"以前のバージョン2.2より前ではCSVの列は\"creatorDatesStart\"と名付けられていましたが、創造イベントに関連していることを明確にするために更新されました"
+" - 創作者の存在の日付ではありません。しかし、古い名前が使用された場合でもインポートが成功するように、フォールバックコードを追加しました。"
+
+#: ../../user-manual/data-templates/rad-template.rst:943
+msgid ""
+"**RAD Rule** Enter the start year. Do not use any qualifiers or "
+"typographical symbols to express uncertainty. Acceptable date formats: "
+"YYYYMMDD, YYYY-MM-DD, YYYY-MM, YYYY."
+msgstr ""
+"**RAD規則** "
+"開始年を入力してください。不確実性を表現するために限定詞や約物（タイポグラフィカルシンボル）は使用しないでください。受け入れ可能な日付形式：YYYYMMDD、YYYY-"
+"MM-DD、YYYY-MM、YYYY。"
+
+#: ../../user-manual/data-templates/rad-template.rst:956
+msgid ""
+"This field only displays while editing the description. If AtoM is able to "
+"interpret the start date from the Date(s) field, above, it will autopopulate"
+" upon entering. In the EAD, the start and end date values are added to the "
+"``@normal`` attribute of the corresponding ``<unitdate>`` element."
+msgstr ""
+"このフィールドは説明を編集している時のみ表示されます。もしAtoMが上記の「日付」フィールドから開始日を解釈できる場合、それは入力時に自動で設定されます。EADでは、開始日と終了日の値が対応する「<unitdate>」要素の「@normal」属性に追加されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:964
+msgid "Dates of creation - End"
+msgstr "作成日 - 終了"
+
+#: ../../user-manual/data-templates/rad-template.rst:966
+msgid "**Template field** Dates of creation - End"
+msgstr "**テンプレート項目** 作成日 - 終了"
+
+#: ../../user-manual/data-templates/rad-template.rst:968
+msgid "**CSV Column** ``eventEndDates``"
+msgstr "CSV列 ``イベント終了日``"
+
+#: ../../user-manual/data-templates/rad-template.rst:970
+msgid ""
+"**RAD Rule** Enter the end year. Do not use any qualifiers or typographical "
+"symbols to express uncertainty. Acceptable date formats: YYYYMMDD, YYYY-MM-"
+"DD, YYYY-MM, YYYY."
+msgstr ""
+"**RADルール** "
+"終了年を入力してください。不確実性を表現するための修飾語や印刷記号は使用しないでください。許容される日付の形式：YYYYMMDD、YYYY-MM-"
+"DD、YYYY-MM、YYYY。"
+
+#: ../../user-manual/data-templates/rad-template.rst:983
+msgid ""
+"The CSV column in earlier versions prior to 2.2 was named "
+"\"creatorDatesEnd\" - it has been updated to clarify its relation to the "
+"creation event - not to the dates of existence of the creator. However, we "
+"have added fallback code, so if the old name is used, the import will still "
+"succeed."
+msgstr ""
+"以前のバージョン2.2以前ではCSVの列の名前は「creatorDatesEnd」とされていましたが、作成者の存在期間ではなく作成イベントとの関連を明確にするために更新されました。しかしながら、旧名が使用された場合でもインポートが成功するようにフォールバックコードを追加しました。"
+
+#: ../../user-manual/data-templates/rad-template.rst:991
+msgid ""
+"This field only displays while editing the description. If AtoM is able to "
+"interpret the start date from the Date(s) field, above, it will autopopulate"
+" upon entering.In the EAD, the start and end date values are added to the "
+"``@normal`` attribute of the corresponding ``<unitdate>`` element."
+msgstr ""
+"このフィールドは説明を編集している間のみ表示されます。もしAtoMが上記の「日付」フィールドから開始日を解釈できた場合、入力時に自動的に値が入ります。EADでは、開始日および終了日の値は対応する``<unitdate>``要素の``@normal``属性に追加されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:999
+msgid "Dates of creation - Note"
+msgstr "作成日 - 注記"
+
+#: ../../user-manual/data-templates/rad-template.rst:1001
+msgid "**Template field** Event Note"
+msgstr "**テンプレートフィールド** イベントノート"
+
+#: ../../user-manual/data-templates/rad-template.rst:1003
+msgid "**CSV Column** ``eventDescriptions``"
+msgstr "**CSVの列** ``eventDescriptions``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1005
+msgid ""
+"**RAD Rule** \"Make notes on dates and any details pertaining to the dates "
+"of creation, publication, or distribution, of the unit being described that "
+"are not included in the Date(s) of creation, including publication, "
+"distribution, etc., area and that are considered to be important. \" (RAD "
+"1.8B8) \"Make notes on the date(s) of accumulation or collection of the unit"
+" being described.\" RAD 1.8B8a)"
+msgstr ""
+"**RADルール** "
+"「作成、出版、配布の日付や、説明される単位の「作成の日付、それに出版、配布など」の項目に含まれていない日付に関連する詳細について記録をつけてください。そして、それが重要と考えられる場合には、その情報を追加してください。」(RAD"
+" 1.8B8) 「説明される単位の蓄積または収集の日付について記録をつけてください。」(RAD 1.8B8a)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1014
+msgid ""
+"The CSV column in earlier versions prior to 2.2 was named "
+"\"creatorDatesNotes\" - it has been updated to clarify its relation to the "
+"creation event - not to the dates of existence of the creator. However, we "
+"have added fallback code, so if the old name is used, the import will still "
+"succeed."
+msgstr ""
+"以前のバージョン2.2より前ではCSVの列は「creatorDatesNotes」という名前でしたが、作成イベントに対する関連性を明確にするために更新されました"
+" - "
+"これは作成者の存在期間の日付とは関係ありません。しかし、互換性のためのフォールバックコードを追加しましたので、旧名を使用してもインポートは成功します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1022
+msgid "This field appears while editing as \"Event note.\""
+msgstr "このフィールドは編集中に「イベントノート」として表示されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1024
+#: ../../user-manual/data-templates/rad-template.rst:2355
+msgid "**EAD** N/A"
+msgstr ""
+"EADは「Encoded Archival "
+"Description」の略で、アーカイブ資料の所蔵情報や構造を議論するためのフォーマットです。しかし、ご提供いただいたテキストには詳細な説明や文脈が含まれていないため、「N/A」（Not"
+" "
+"Applicable：適用外）と記されていることから考えるに、このコンテキストでは特に翻訳が必要な文書や文章は提供されていないようです。したがって、直接的な日本語翻訳を提供することはできません。それでも何か特定のフレーズや段落の翻訳が必要であれば、詳しい内容を教えていただけますでしょうか。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1031
+msgid "Physical description area"
+msgstr "物理的記述領域"
+
+#: ../../user-manual/data-templates/rad-template.rst:1039
+msgid "An image of the data entry fields for the Physical description area."
+msgstr "データ入力フィールドの画像であり、物理的説明エリアに関するものです。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1039
+msgid "The data entry fields for the Physical description area."
+msgstr "物理的記述エリアのためのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1043
+msgid "Physical description"
+msgstr "物理的な説明"
+
+#: ../../user-manual/data-templates/rad-template.rst:1045
+msgid "**Template field** Physical description"
+msgstr "**テンプレートフィールド** 物理的記述"
+
+#: ../../user-manual/data-templates/rad-template.rst:1047
+msgid "**CSV Column** ``extentAndMedium``"
+msgstr "**CSV列** ``extentAndMedium``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1049
+msgid ""
+"**RAD Rule** \"At all levels record the extent of the unit being described "
+"by giving the number of physical units in arabic numerals and the specific "
+"material designation as instructed in subrule .5B in the chapter(s) dealing "
+"with the broad class(es) of material to which the unit being described "
+"belongs.\" (RAD 1.5B1) Include other physical details and dimensions as "
+"specified in RAD 1.5C and 1.5D. Separate multiple entries in this field with"
+" a carriage return (i.e. press the Enter key on your keyboard)."
+msgstr ""
+"**RADルール** "
+"「記述されている対象の範囲を、アラビア数字で物理的単位の数を記録し、対象が属する広範な資料クラスを扱う章のサブルール.5Bに従って特定の資料指定を行います。」"
+" (RAD 1.5B1) RAD "
+"1.5Cおよび1.5Dで指定されているその他の物理的詳細および寸法も含めます。このフィールドで複数のエントリーを区切るときは、改行を入れます（つまり、キーボードのEnterキーを押します）。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1066
+msgid ""
+"AtoM will allow users to add additional EAD subelements to :term:`field` in "
+"the :term:`edit page`, to accommodate all the possibilities in EAD for more "
+"granularity, such as ``<extent>``, ``<dimensions>``, ``<physfacet>``, and "
+"``<genreform>``. In the :term:`view page` the EAD tags will be hidden, but "
+"preserved during export and re-import."
+msgstr ""
+"AtoMでは、ユーザーが:term:`編集ページ`で:term:`フィールド`にさらなるEADのサブ要素を追加できるようになります。これにより、``<extent>``,"
+" ``<dimensions>``, ``<physfacet>``, および ``<genreform>`` "
+"など、EADでより細かな粒度を持たせる全ての可能性を収容できます。:term:`表示ページ`ではEADタグは隠されますが、エクスポートと再インポートの間は保存されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst
+msgid "A comparison of the edit and view pages for physical description"
+msgstr "物理的記述に関する編集ページと閲覧ページの比較"
+
+#: ../../user-manual/data-templates/rad-template.rst:1083
+msgid "Publisher's series area"
+msgstr "出版者シリーズ領域"
+
+#: ../../user-manual/data-templates/rad-template.rst:1091
+msgid "An image of the data entry fields for the Publisher's series area."
+msgstr "出版者シリーズ領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1091
+msgid "The data entry fields for the Publisher's series area."
+msgstr "出版社のシリーズ領域のデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1094
+msgid "Title proper of publisher's series"
+msgstr "出版社シリーズの適切なタイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:1096
+msgid "**Template field** Title proper of publisher's series"
+msgstr "**テンプレート フィールド** 出版者シリーズの正式なタイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:1098
+msgid "**CSV Column** ``radTitleProperOfPublishersSeries``"
+msgstr "**CSV列** ``radTitleProperOfPublishersSeries``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1100
+msgid ""
+"**RAD Rule** \"At the item level of description, transcribe a title proper "
+"of the publisher's series as instructed in 1.1B1.\" (RAD 1.6B)"
+msgstr ""
+"**RAD規則**「アイテムレベルの記述においては、1.1B1の指示に従って出版者シリーズの正式なタイトルを転記してください。」(RAD 1.6B)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1116
+msgid "Parallel titles of publisher's series"
+msgstr "出版社シリーズの並列タイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:1118
+msgid "**Template field** Parallel titles of publisher's series"
+msgstr "出版者シリーズの並列タイトル"
+
+#: ../../user-manual/data-templates/rad-template.rst:1120
+msgid "**CSV Column** ``radParallelTitlesOfPublishersSeries``"
+msgstr "**CSVカラム** ``radParallelTitlesOfPublishersSeries``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1122
+msgid ""
+"**RAD Rule** \"Transcribe parallel titles of a publisher's series as "
+"instructed in 1.1D.\" (RAD 1.6C1)"
+msgstr "**RAD規則**「出版社シリーズの平行タイトルは、1.1Dに記載の指示に従って転記する。」(RAD 1.6C1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1138
+msgid "Other title information of publisher's series"
+msgstr "出版者シリーズのその他のタイトル情報"
+
+#: ../../user-manual/data-templates/rad-template.rst:1140
+msgid "**Template field** Other title information of publisher's series"
+msgstr "**テンプレートフィールド** 出版社シリーズのその他のタイトル情報"
+
+#: ../../user-manual/data-templates/rad-template.rst:1142
+msgid "**CSV Column** ``radOtherTitleInformationOfPublishersSeries``"
+msgstr ""
+"**CSV列** ``出版者シリーズのその他のタイトル情報（radOtherTitleInformationOfPublishersSeries）``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1144
+msgid ""
+"**RAD Rule** \"Transcribe other title information of a publisher's series as"
+" instructed in 1.1E and only if considered necessary for identifying the "
+"publisher's series.\" (RAD 1.6D1)"
+msgstr ""
+"**RAD規則** "
+"「出版社のシリーズに関するその他のタイトル情報は、1.1Eに記載された指示に従って転記し、出版社のシリーズを識別するために必要と考えられる場合のみ行う。」(RAD"
+" 1.6D1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1162
+msgid "Statement of responsibility relating to publisher's series"
+msgstr "出版社のシリーズに関連する責任声明"
+
+#: ../../user-manual/data-templates/rad-template.rst:1164
+msgid ""
+"**Template field** Statement of responsibility relating to publisher's "
+"series"
+msgstr "**テンプレートフィールド** 出版社のシリーズに関連する責任声明"
+
+#: ../../user-manual/data-templates/rad-template.rst:1166
+msgid ""
+"**CSV Column** ``radStatementOfResponsibilityRelatingToPublishersSeries``"
+msgstr "CSV列 ``radStatementOfResponsibilityRelatingToPublishersSeries``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1168
+msgid ""
+"**RAD Rule** \"Transcribe explicit statements of responsibility appearing in"
+" conjunction with a formal title proper of a publisher's series as "
+"instructed in 1.1F and only if considered necessary for identifying the "
+"publisher's series.\" (RAD 1.6E1)"
+msgstr ""
+"**RAD規則**「出版社のシリーズの正式なタイトルと関連して表される責任についての明示的な記述は、1.1Fに記載されている指示に従って転写し、かつそれが出版社のシリーズを特定するために必要とみなされる場合のみ行う。」(RAD"
+" 1.6E1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1186
+msgid "Numbering within publisher's series"
+msgstr "出版者シリーズ内のナンバリング"
+
+#: ../../user-manual/data-templates/rad-template.rst:1188
+msgid "**Template field** Numbering within publisher's series"
+msgstr "**テンプレート フィールド** 出版社シリーズ内の通し番号"
+
+#: ../../user-manual/data-templates/rad-template.rst:1190
+msgid "**CSV Column** ``radNumberingWithinPublishersSeries``"
+msgstr "**CSV列** ``出版社シリーズ内の通し番号``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1192
+msgid ""
+"**RAD Rule** \"Give the numbering of the item within a publisher's series in"
+" the terms given in the item.\" (RAD 1.6F1)"
+msgstr "**RADルール** 「出版者シリーズ内のアイテムの番号付けは、アイテムに記載されている表現を用いて行います。」(RAD 1.6F1)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1208
+msgid "Note on publisher's series"
+msgstr "出版者のシリーズに関する注記"
+
+#: ../../user-manual/data-templates/rad-template.rst:1210
+msgid "**Template field** Note on publisher's series"
+msgstr "**テンプレートフィールド** 出版者シリーズに関する注意"
+
+#: ../../user-manual/data-templates/rad-template.rst:1212
+msgid "**CSV Column** ``radPublishersSeriesNote``"
+msgstr "**CSV列** ``radPublishersSeriesNote``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1214
+#: ../../user-manual/data-templates/rad-template.rst:1791
+msgid ""
+"**RAD Rule** \"Make notes on important details of publisher's series that "
+"are not included in the Publisher's series area, including variant series "
+"titles, incomplete series, and of numbers or letters that imply a series.\" "
+"(RAD 1.8B10)"
+msgstr ""
+"**RADルール** "
+"\"出版社シリーズ欄に含まれていない、変種シリーズタイトル、不完全なシリーズ、シリーズを示唆する番号や文字についての重要な詳細に注記をすること。\"（RAD"
+" 1.8B10）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1227
+msgid ""
+"This field maps to the same EAD field as the field in Notes area below, "
+"Other notes- Publisher's Series. Both notes refer to RAD 1.8B10."
+msgstr ""
+"このフィールドは、下記のメモエリアにある「その他のメモ- 出版社のシリーズ」と同じEADフィールドにマッピングされます。両方のメモはRAD "
+"1.8B10を参照しています。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1235
+msgid "Archival description area"
+msgstr "アーカイブ記述エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:1243
+msgid "An image of the data entry fields for the Archival description area."
+msgstr "アーカイブ記述エリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1243
+msgid "The data entry fields for the Archival description area."
+msgstr "アーカイバル記述エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1246
+msgid "Custodial history"
+msgstr "保管履歴"
+
+#: ../../user-manual/data-templates/rad-template.rst:1248
+msgid "**Template field** Custodial history"
+msgstr "**テンプレートフィールド** 保管履歴"
+
+#: ../../user-manual/data-templates/rad-template.rst:1250
+msgid "**CSV Column** ``archivalHistory``"
+msgstr "**CSV列** ``記録保管履歴``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1252
+msgid ""
+"**RAD Rule** \"Give the history of the custody of the unit being described, "
+"i.e., the successive transfers of ownership and custody or control of the "
+"material, along with the dates thereof, insofar as it can be ascertained.\" "
+"(RAD 1.7C)"
+msgstr ""
+"**RAD規則**「記述されている単位の保管歴を示す。つまり、資料の所有権や保管・管理権が移転した履歴とその日付を、確認できる限り記載する。」（RAD "
+"1.7C）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1266
+msgid "Scope and content"
+msgstr "範囲と内容"
+
+#: ../../user-manual/data-templates/rad-template.rst:1268
+msgid "**Template field** Scope and content"
+msgstr "**テンプレート フィールド** 範囲と内容"
+
+#: ../../user-manual/data-templates/rad-template.rst:1270
+msgid "**CSV Column** ``scopeAndContent``"
+msgstr "**CSVカラム**  ``scopeAndContent``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1272
+msgid ""
+"**RAD Rule** \"At the fonds, series, and collection levels of description, "
+"and when necessary at the file and the item levels of description, indicate "
+"the level being described and give information about the scope and the "
+"internal structure of or arrangement of the records, and about their "
+"contents.\" (RAD 1.7D)"
+msgstr ""
+"**RADルール** "
+"「総記録群、シリーズ、およびコレクションのレベルの説明において、そして必要に応じてファイルやアイテムのレベルの説明において、説明しているレベルを示し、記録の範囲、内部構造または配置、および内容についての情報を提供すること。」(RAD"
+" 1.7D)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1278
+msgid ""
+"\"For the scope of the unit being described, give information about the "
+"functions and/or kinds of activities generating the records, the period of "
+"time, the subject matter, and the geographical area to which they pertain. "
+"For the content of the unit being described, give information about its "
+"internal structure by indicating its arrangement, organization, and/or "
+"enumerating its next lowest level of description. Summarize the principal "
+"documentary forms (e.g., reports, minutes, correspondence, drawings, "
+"speeches).\" (RAD 1.7D1)"
+msgstr ""
+"説明対象の単位の範囲について、記録を生成している機能や／または活動の種類、期間、主題、およびそれらが関係する地理的範囲について情報を提供してください。説明されている単位の内容については、その内部構造について、その配置、組織、および／またはその次に低い記述レベルを列挙することによって情報を提供してください。主要な文書形式（例：報告書、議事録、連絡文書、図面、演説など）について要約してください。（RAD"
+" 1.7D1）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1300
+msgid "Notes area"
+msgstr "注意事項エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:-1
+msgid "An image of the first block of data entry fields for the notes area."
+msgstr "ノート領域の最初のデータ入力フィールド群の画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:-1
+msgid "An image of the second block of data entry fields for the notes area."
+msgstr "ノート領域のデータ入力フィールドの第2ブロックの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1320
+msgid "An image of the third block of data entry fields for the notes area."
+msgstr "ノート領域のためのデータ入力欄の第3ブロックの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1320
+msgid "The data entry fields for the Notes area."
+msgstr "注記エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1323
+msgid "Physical condition"
+msgstr "物理的な状態"
+
+#: ../../user-manual/data-templates/rad-template.rst:1325
+msgid "**Template field** Physical condition"
+msgstr "**テンプレート フィールド** 物理的状態"
+
+#: ../../user-manual/data-templates/rad-template.rst:1327
+msgid "**CSV Column** ``physicalCharacteristics``"
+msgstr "**CSV列** ``物理的特性``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1329
+msgid ""
+"**RAD Rule** \"Make notes on the physical condition of the unit being "
+"described if that condition materially affects the clarity or legibility of "
+"the records.\" (RAD 1.8B9a)"
+msgstr ""
+"**RAD規則** 「記録された単位の物理的な状態について、その状態が記録の明瞭さや判読性に大きな影響を与える場合はメモを記述すること。」 (RAD "
+"1.8B9a)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1343
+msgid "Immediate source of acquisition"
+msgstr "直接の入手元"
+
+#: ../../user-manual/data-templates/rad-template.rst:1345
+msgid "**Template field** Immediate source of acquisition"
+msgstr "**テンプレートフィールド** 直接の取得源"
+
+#: ../../user-manual/data-templates/rad-template.rst:1347
+msgid "**CSV Column** ``acquisition``"
+msgstr "**CSV列** ``取得``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1349
+msgid ""
+"**RAD Rule** \"Record the donor or source (i.e., the immediate prior "
+"custodian) from whom the unit being described was acquired, and the date and"
+" method of acquisition, as well as the source/donor's relationship to the "
+"material, if any or all of this information is not confidential. If the "
+"source/donor is unknown, record that information.\" (RAD 1.8B12)"
+msgstr ""
+"**RADルール** "
+"「記述対象の単位が取得されたドナーまたは情報源（すなわち、直前の保管者）について、取得日と取得方法を記録し、さらに情報源/ドナーと資料の関係がある場合はその情報も記録します。ただし、これらの情報が機密でない場合に限ります。情報源/ドナーが不明の場合は、その情報を記録してください。」"
+" (RAD 1.8B12)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1365
+msgid "Arrangement"
+msgstr "配置"
+
+#: ../../user-manual/data-templates/rad-template.rst:1367
+msgid "**Template field** Arrangement"
+msgstr "**テンプレートフィールド** 配置"
+
+#: ../../user-manual/data-templates/rad-template.rst:1369
+msgid "**CSV Column** ``arrangement``"
+msgstr "**CSV列** `配置`"
+
+#: ../../user-manual/data-templates/rad-template.rst:1371
+msgid ""
+"**RAD Rule** \"Make notes on the arrangement of the unit being described "
+"which contribute significantly to its understanding but cannot be put in the"
+" Scope and content (see 1.7D), e.g., about reorganisation(s) by the creator,"
+" arrangement by the archivist, changes in the classification scheme, or "
+"reconstitution of original order.\" (RAD 1.8B13)"
+msgstr ""
+"**RADルール** "
+"「説明している単位の構成についての注記を、その理解に大きく寄与するものであり、スコープと内容（1.7D項を参照）に記載することができない場合に記すこと。例えば、作成者による再編成、アーキビストによる配列、分類スキーマの変更、または元の順序の再構築について。」"
+" (RAD 1.8B13)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1387
+msgid "Language of material"
+msgstr "資料の言語"
+
+#: ../../user-manual/data-templates/rad-template.rst:1389
+msgid "**Template field** Language of material"
+msgstr "**テンプレートフィールド** 資料の言語"
+
+#: ../../user-manual/data-templates/rad-template.rst:1391
+msgid "**CSV Column** ``language``"
+msgstr "**CSV列** ``言語``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1393
+msgid ""
+"**RAD Rule** \"Record the language or languages of the unit being described,"
+" unless they are noted elsewhere or are apparent from other elements of the "
+"description.\" RAD (1.8.B14)."
+msgstr ""
+"**RADルール**「記述対象の単位の言語を記録します。ただし、それが他の場所で記載されているか、または説明の他の要素から明らかな場合はこの限りではありません。」RAD（1.8.B14）。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1407
+msgid ""
+"Use a two-letter language code from `ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ when importing "
+"from CSV."
+msgstr ""
+"CSVからインポートする際には、`ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ "
+"から二文字の言語コードを使用してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1414
+msgid "Script of material"
+msgstr "資料の台本"
+
+#: ../../user-manual/data-templates/rad-template.rst:1416
+msgid "**Template field** Script of material"
+msgstr "テンプレートフィールド 材料のスクリプト"
+
+#: ../../user-manual/data-templates/rad-template.rst:1418
+msgid "**CSV Column** ``script``"
+msgstr "**CSV列** ``スクリプト``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1420
+msgid ""
+"**RAD Rule** \"[N]ote any distinctive alphabets or symbol systems "
+"employed.\" RAD (1.8.B14)"
+msgstr "**RAD規則**「使用されている特有のアルファベットや記号体系について言及してください。」RAD (1.8.B14)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1434
+msgid ""
+"Use a four-letter script code from `ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ when importing from "
+"CSV."
+msgstr ""
+"CSVからインポートする際には、`ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ "
+"から4文字のスクリプトコードを使用してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1442
+msgid "Language and script note"
+msgstr "言語と表記についての注意"
+
+#: ../../user-manual/data-templates/rad-template.rst:1444
+msgid "**Template field** Language and script note"
+msgstr "**テンプレートフィールド** 言語および文字に関する注記"
+
+#: ../../user-manual/data-templates/rad-template.rst:1446
+msgid "**CSV Column** ``languageNote``"
+msgstr "**CSVカラム** ``languageNote``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1448
+msgid ""
+"**RAD Rule** \"Record the language or languages of the unit being described,"
+" unless they are noted elsewhere or are apparent from other elements of the "
+"description. Also note any distinctive alphabets or symbol systems "
+"employed.\" RAD (1.8.B14)."
+msgstr ""
+"**RADルール** "
+"\"説明されている単位の言語または言語を記録します。ただし、それらが他の場所で注記されているか、または説明の他の要素から明らかである場合は除きます。また、使用されている特有のアルファベットや記号システムについても注記してください。\""
+" RAD (1.8.B14)。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1462
+msgid "Not intended to duplicate information from language or script, above."
+msgstr "上記の言語またはスクリプトからの情報を重複させることは意図していません。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1468
+msgid "Location of originals"
+msgstr "原本の所在地"
+
+#: ../../user-manual/data-templates/rad-template.rst:1470
+msgid "**Template field** Location of originals"
+msgstr "**テンプレートフィールド** オリジナルの保管場所"
+
+#: ../../user-manual/data-templates/rad-template.rst:1472
+msgid "**CSV Column** ``locationOfOriginals``"
+msgstr "**CSV項目** ``locationOfOriginals``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1474
+msgid ""
+"**RAD Rule** \"If the unit being described is a reproduction and the "
+"location of the original material is known, give that location. Give, in "
+"addition, any identifying numbers that may help in locating the original "
+"material in the cited location. If the originals are known to be no longer "
+"extant, give that information.\" (RAD 1.8B15a)"
+msgstr ""
+"**RADルール**「説明される対象が複製品であり、オリジナルの資料の所在が分かっている場合は、その所在地を記載してください。さらに、引用された場所でオリジナルの資料を特定するのに役立つ可能性のある識別番号も記載してください。オリジナルがもはや存在しないことが分かっている場合は、その情報を提供してください。」(RAD"
+" 1.8B15a)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1491
+msgid "Availability of other formats"
+msgstr "他のフォーマットの利用可能性"
+
+#: ../../user-manual/data-templates/rad-template.rst:1493
+msgid "**Template field** Availability of other formats"
+msgstr "**テンプレート・フィールド** その他のフォーマットの可用性"
+
+#: ../../user-manual/data-templates/rad-template.rst:1495
+msgid "**CSV Column** ``locationOfCopies``"
+msgstr "**CSVの列** ``locationOfCopies``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1497
+msgid ""
+"**RAD Rule** \"If all or part of the unit being described is available "
+"(either in the institution or elsewhere) in another format(s), e.g., if the "
+"text being described is also available on microfilm; or if a film is also "
+"available on videocassette, make a note indicating the other format(s) in "
+"which the unit being described is available and its location, if that "
+"information is known. If only a part of the unit being described is "
+"available in another format(s), indicate which parts.\" (RAD 1.8B15b)"
+msgstr ""
+"**RADルール** "
+"「記述されている単位の全てもしくは一部が他の形式で（機関内もしくは外部で）利用可能な場合（たとえば、記述されているテキストがマイクロフィルムでも入手可能である場合や、映画がビデオカセットでも利用できる場合など）、その他の形式で利用可能であることとその場所を、情報が分かっている場合にはメモで示してください。記述されている単位の一部のみが他の形式で利用可能な場合は、どの部分が利用可能であるかを示してください。」（RAD"
+" 1.8B15b）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1515
+msgid "Restrictions on access"
+msgstr "アクセスに関する制限"
+
+#: ../../user-manual/data-templates/rad-template.rst:1517
+msgid "**Template field** Restrictions on access"
+msgstr "**テンプレートフィールド** アクセス制限"
+
+#: ../../user-manual/data-templates/rad-template.rst:1519
+msgid "**CSV Column** ``accessConditions``"
+msgstr "**CSV列** ``accessConditions``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1521
+msgid ""
+"**RAD Rule** \"Give information about any restrictions placed on access to "
+"the unit (or parts of the unit) being described.\" (RAD 1.8B16a)"
+msgstr ""
+"**RADルール**  「記述されている単位（またはその単位の一部）へのアクセスに課せられた制限に関する情報を提供すること。」 (RAD "
+"1.8B16a)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1533
+msgid ""
+":ref:`rights`, especially :ref:`rights-digital-object` and :ref:`rights-"
+"archival-description`."
+msgstr ":ref:`権利`、特に :ref:`デジタルオブジェクトの権利` と :ref:`アーカイブ記述の権利`について。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1540
+msgid "Terms governing use, reproduction, and publication"
+msgstr "使用、複製、および出版に関する規約"
+
+#: ../../user-manual/data-templates/rad-template.rst:1542
+msgid "**Template field** Terms governing use, reproduction, and publication"
+msgstr "**テンプレート フィールド** 利用、複製、及び出版に関する規定"
+
+#: ../../user-manual/data-templates/rad-template.rst:1544
+msgid "**CSV Column** ``reproductionConditions``"
+msgstr "**CSV列**``複製条件``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1546
+msgid ""
+"**RAD Rule** \"Give information on legal or donor restrictions that may "
+"affect use or reproduction of the material.\" (RAD 1.8B16c)"
+msgstr ""
+"**RAD規則** 「資料の使用または複製に影響を及ぼしうる、法的または寄贈者による制限に関する情報を提供すること。」 (RAD 1.8B16c)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1560
+msgid "Finding aids"
+msgstr "目録情報"
+
+#: ../../user-manual/data-templates/rad-template.rst:1562
+msgid "**Template field** Finding aids"
+msgstr "**テンプレート項目** 検索支援ツール"
+
+#: ../../user-manual/data-templates/rad-template.rst:1564
+msgid "**CSV Column** ``findingAids``"
+msgstr "**CSVカラム** ``目録案内``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1566
+msgid ""
+"**RAD Rule** \"Give information regarding the existence of any finding aids."
+" Include appropriate administrative and/or intellectual control tools over "
+"the material in existence at the time the unit is described, such as card "
+"catalogues, box lists, series lists, inventories, indexes, etc.\" (RAD "
+"1.8B17)"
+msgstr ""
+"**RADルール**「検索補助ツールの存在に関する情報を提供してください。記述される単位の時点で存在する物質に対する適切な行政的および/または知的管理ツールを含めます。例えば、カードカタログ、ボックスリスト、シリーズリスト、目録、索引などです。」(RAD"
+" 1.8B17)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1581
+msgid ":ref:`print-finding-aids`"
+msgstr ":ref:`プリント用のファインディング・エイド`"
+
+#: ../../user-manual/data-templates/rad-template.rst:1586
+msgid "Associated materials"
+msgstr "関連資料"
+
+#: ../../user-manual/data-templates/rad-template.rst:1588
+msgid "**Template field** Associated materials"
+msgstr "**テンプレート項目** 関連資料"
+
+#: ../../user-manual/data-templates/rad-template.rst:1590
+msgid "**CSV Column** ``relatedUnitsOfDescription``"
+msgstr "**CSVカラム** ``関連する記述単位``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1592
+msgid ""
+"**RAD Rule** For associated material, \"If records in another institution "
+"are associated with the unit being described by virtue of the fact that they"
+" share the same provenance, make a citation to the associated material at "
+"the fonds, series or collection level, or for discrete items, indicating its"
+" location if known.\" (RAD 1.8B18)."
+msgstr ""
+"**RAD規則** "
+"関連資料について、「別の機関にある記録が、同じ出所を共有するという事実によって、記述されている単位と関連している場合、所蔵している全体（fonds）、シリーズ、コレクションレベル、または特定の項目に関し、その場所が分かっている場合はそれを示して引用すること」(RAD"
+" 1.8B18)。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1598
+msgid ""
+"For related material, \"Indicate groups of records having some significant "
+"relationship by reason of shared responsibility or shared sphere of activity"
+" in one or more units of material external to the unit being described.\" "
+"(RAD 1.8B20)."
+msgstr ""
+"関連資料について、「（RAD "
+"1.8B20によると）記述されている単位の外部にある一つまたはそれ以上の資料群において、共有される責任や活動分野による重要な関係を有する記録群を示してください。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:1612
+msgid ":ref:`link-related-descriptions`"
+msgstr ":ref:`リンク関連の説明`"
+
+#: ../../user-manual/data-templates/rad-template.rst:1617
+msgid "Accruals"
+msgstr "なおしろ"
+
+#: ../../user-manual/data-templates/rad-template.rst:1619
+msgid "**Template field** Accruals"
+msgstr "**テンプレート フィールド** 増補資料"
+
+#: ../../user-manual/data-templates/rad-template.rst:1621
+msgid "**CSV Column** ``accruals``"
+msgstr "CSV列「accruals」"
+
+#: ../../user-manual/data-templates/rad-template.rst:1623
+msgid ""
+"**RAD Rule** \"When the unit being described is not yet complete, e.g., an "
+"open fonds or series, make a note explaining that further accruals are "
+"expected... If no further accruals are expected, indicate that the unit is "
+"considered closed.\" (RAD 1.8B19)"
+msgstr ""
+"**RAD規則** "
+"「記述されている単位がまだ完全ではない場合（例えば、未完のフォンズやシリーズなど）、それ以上の資料が追加されることが予想される旨の説明を記載してください..."
+" もし、これ以上の資料の追加が予想されない場合は、その単位は終了したものとみなされることを示してください。」 (RAD 1.8B19)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1643
+msgid "An image of the data entry fields for the other notes fields."
+msgstr "他のメモフィールドに関するデータ入力フィールドのイメージです。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1643
+msgid ""
+"The data entry fields for Other notes. Multiple notes can be added by "
+"clicking \"Add new\""
+msgstr "他のノートのためのデータ入力欄です。「新規追加」をクリックすると複数のノートを追加できます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1647
+msgid "Other notes - Accompanying material"
+msgstr "その他の注意事項 - 同梱資料"
+
+#: ../../user-manual/data-templates/rad-template.rst:1649
+msgid "**Template field** Other notes - Accompanying material"
+msgstr "**テンプレートフィールド** その他の注記 - 同封資料"
+
+#: ../../user-manual/data-templates/rad-template.rst:1651
+msgid "**CSV Column** ``radNoteAccompanyingMaterial``"
+msgstr "**CSVカラム** ``radNoteAccompanyingMaterial``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1653
+msgid ""
+"**RAD Rule** \"Give details of accompanying material not mentioned in the "
+"Physical description area (see 1.5E).\" (RAD 1.8B9c)"
+msgstr "**RAD規則** 「物理的記述領域に記載されていない付随する資料の詳細を記載してください（1.5Eを参照）。」（RAD 1.8B9c）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1666
+msgid "Other notes - Alpha-numeric designations"
+msgstr "その他のメモ - 英数字の指定"
+
+#: ../../user-manual/data-templates/rad-template.rst:1668
+msgid "**Template field** Other notes - Alpha-numeric designations"
+msgstr "**テンプレートフィールド** その他のメモ - 英数字の指定"
+
+#: ../../user-manual/data-templates/rad-template.rst:1670
+msgid "**CSV Column** ``radNoteAlphaNumericDesignation``"
+msgstr "**CSV列** ``radNoteAlphaNumericDesignation``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1672
+msgid ""
+"**RAD Rule** \"If desirable, make a note of any important numbers borne by "
+"the unit being described other than publisher's series numbers (see 1.6F) or"
+" standard numbers (see 1.9).\" (RAD 1.8 B11)"
+msgstr ""
+"**RADルール**「望ましい場合、説明されている単位に記載されている出版者シリーズ番号（1.6Fを参照）または標準番号（1.9を参照）以外の重要な番号について注記してください。」(RAD"
+" 1.8 B11)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1686
+msgid "Other notes - Cast note"
+msgstr "その他の注意事項 - キャストノート"
+
+#: ../../user-manual/data-templates/rad-template.rst:1688
+msgid "**Template field** Other notes - Cast note"
+msgstr "**テンプレート フィールド** その他の注記 - キャストノート"
+
+#: ../../user-manual/data-templates/rad-template.rst:1690
+msgid "**CSV Column** ``radNoteCast``"
+msgstr "**CSV列** ``radNoteCast``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1692
+msgid ""
+"**RAD Rule** \"List featured players, performers, presenters or other on-"
+"screen personnel.\" (Moving images - RAD 7.8B5b)"
+msgstr "**RADルール** 「主要な出演者、演奏者、プレゼンター、またはその他の画面上の人物をリストすること」（動画 - RAD 7.8B5b）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1699
+msgid ""
+"At this time, the RAD Cast note field in AtoM has not been mapped to the EAD"
+" import/export."
+msgstr "現時点で、AtoMのRAD CastノートフィールドはEADインポート/エクスポートにマッピングされていません。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1706
+msgid "Other notes - Conservation"
+msgstr "他の注記 - 保存措置"
+
+#: ../../user-manual/data-templates/rad-template.rst:1708
+msgid "**Template field** Other notes - Conservation"
+msgstr "**テンプレート項目** その他の注釈 - 保存対策"
+
+#: ../../user-manual/data-templates/rad-template.rst:1710
+msgid "**CSV Column** ``radNoteConservation``"
+msgstr "**CSVの列** ``radNoteConservation``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1712
+msgid ""
+"**RAD Rule** \"If the unit being described has received any specific "
+"conservation treatment, e.g., if repair work has been done on it, briefly "
+"indicate the nature of the work.\" (RAD 1.8B9b)"
+msgstr ""
+"**RADルール** 「記述対象の単位が何らかの具体的な保存処理、例えば、修復作業が行われた場合、作業の性質を簡潔に示すこと。」(RAD 1.8B9b)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1726
+msgid "Other notes - Credits note"
+msgstr "その他の注意事項 - クレジットノート"
+
+#: ../../user-manual/data-templates/rad-template.rst:1728
+msgid "**Template field** Other notes - Credits note"
+msgstr "**テンプレートフィールド** その他の注記 - クレジット表記"
+
+#: ../../user-manual/data-templates/rad-template.rst:1730
+msgid "**CSV Column** ``radNoteCredits``"
+msgstr "**CSVカラム**  ``radNoteCredits``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1732
+msgid ""
+"**RAD Rule** \"List persons (other than the cast) who have contributed to "
+"the artistic and/or technical production of a moving image document. Preface"
+" each name or group of names with a statement of function.\" (Moving images "
+"- RAD 7.8B5a)"
+msgstr ""
+"**RADルール**「キャスト以外で、動画資料の芸術的もしくは技術的な制作に貢献した人物をリストアップしてください。各名前または名前のグループの前に、その機能についての説明文を付け加えてください。」（動画資料"
+" - RAD 7.8B5a）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1741
+msgid ""
+"At this time, the RAD Credits note field in AtoM has not been mapped to the "
+"EAD import/export."
+msgstr "現時点では、AtoMにおけるRADクレジット注記フィールドは、EADのインポート/エクスポートにマッピングされていません。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1747
+msgid "Other notes - Edition"
+msgstr "その他の注意事項 - 版"
+
+#: ../../user-manual/data-templates/rad-template.rst:1749
+msgid "**Template field** Other notes - Edition"
+msgstr "**テンプレートの領域** その他の注記 - 版"
+
+#: ../../user-manual/data-templates/rad-template.rst:1751
+msgid "**CSV Column** ``radNoteEdition``"
+msgstr "**CSV列** ``radNoteEdition``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1753
+msgid ""
+"**RAD Rule** \"Make notes relating to the edition being described or of the "
+"relationship of the unit being described to other editions.\" (RAD 1.8B7)"
+msgstr "「説明されている版に関連するメモを作成するか、または説明されている単位が他の版との関係についてメモを記録する。」（RAD 1.8B7）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1766
+msgid "Other notes - Physical description"
+msgstr "他の注意事項 - 物理的な説明"
+
+#: ../../user-manual/data-templates/rad-template.rst:1768
+msgid "**Template field** Other notes - Physical description"
+msgstr "**テンプレートフィールド** その他の注記 - 物理的な説明"
+
+#: ../../user-manual/data-templates/rad-template.rst:1770
+msgid "**CSV Column** ``radNotePhysicalDescription``"
+msgstr "**CSV列** ``radNotePhysicalDescription``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1772
+msgid ""
+"**RAD Rule** \"Make notes relating to the physical description of the unit "
+"being described.\" (RAD 1.8B9)"
+msgstr "**RAD ルール** 「記述している単位の物理的特性に関連する注記を行うこと。」（RAD 1.8B9）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1785
+msgid "Other notes - Publisher's series"
+msgstr "他の注意事項 - 出版社のシリーズ"
+
+#: ../../user-manual/data-templates/rad-template.rst:1787
+msgid "**Template field** Other notes - Publisher's series"
+msgstr "テンプレート項目：その他の注記 - 出版社のシリーズ"
+
+#: ../../user-manual/data-templates/rad-template.rst:1789
+msgid "**CSV Column** ``radNotePublishersSeries``"
+msgstr "**CSV列** ``radNotePublishersSeries``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1805
+msgid ""
+"This column maps to the same EAD field as the column above, Note on "
+"Publishers Series. Both notes refer to RAD 1.8B10."
+msgstr ""
+"この列は、上記の列「出版社シリーズに関する注記」と同じEADフィールドにマッピングされています。両方の注記はRAD 1.8B10を参照しています。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1812
+msgid "Other notes- Rights"
+msgstr "他の注意事項 - 権利"
+
+#: ../../user-manual/data-templates/rad-template.rst:1814
+msgid "**Template field** Other notes- Rights"
+msgstr "**テンプレート項目** その他の備考 - 権利"
+
+#: ../../user-manual/data-templates/rad-template.rst:1816
+msgid "**CSV Column** ``radNoteRights``"
+msgstr "**CSV列** ``radNoteRights``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1818
+msgid ""
+"**RAD Rule** \"Indicate the copyright status, literary rights, patents or "
+"any other rights pertaining to the unit being described.\" (RAD 1.8B16b)"
+msgstr "RADルール：「記述対象の単位に関連する著作権の状態、文芸権、特許、またはその他の権利を示してください。」（RAD 1.8B16b）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1831
+msgid "Other notes- Signatures note"
+msgstr "その他の注意事項 - 署名に関する注意"
+
+#: ../../user-manual/data-templates/rad-template.rst:1833
+msgid "**Template field** Other notes- Signatures note"
+msgstr "**テンプレートフィールド** その他の注意事項 - シグネチャに関する注意"
+
+#: ../../user-manual/data-templates/rad-template.rst:1835
+msgid "**CSV Column** ``radNoteSignaturesInscriptions``"
+msgstr "**CSV列** ``radNoteSignaturesInscriptions``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1837
+msgid ""
+"**RAD Rule** \"Make notes on signatures, inscriptions, or monograms, etc., "
+"which appear on the unit being described. Indicate where such signatures and"
+" inscriptions appear.\"(RAD 3.8B6)"
+msgstr ""
+"**RADルール**「記述対象の単位に現れる署名、手書きの記述、モノグラムなどについての注釈を記載する。そのような署名や記述がどこに現れるかを示すこと。」(RAD"
+" 3.8B6)"
+
+#: ../../user-manual/data-templates/rad-template.rst:1841
+msgid ""
+"*See also*: RAD 4.8B7 (Graphic materials); RAD 5.8B6 (Cartographic "
+"materials); RAD 6.8B6 (Architecture and technical drawings); RAD 11.8B7 "
+"(Objects); and RAD 12.8B7 (Philatelic records)."
+msgstr ""
+"*関連項目*: RAD 4.8B7（グラフィック資料）；RAD 5.8B6（地図資料）；RAD 6.8B6（建築と技術図面）；RAD "
+"11.8B7（物品）；およびRAD 12.8B7（郵便切手記録）。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1849
+msgid ""
+"At this time, the RAD Signatures note field in AtoM has not been mapped to "
+"the EAD import/export."
+msgstr "現時点では、AtoM内のRAD Signaturesノートフィールドは、EADインポート／エクスポートにマッピングされていません。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1855
+msgid "Other notes - General note"
+msgstr "その他の注意事項 - 一般的な注意"
+
+#: ../../user-manual/data-templates/rad-template.rst:1857
+msgid "**Template field** Other notes - General note"
+msgstr "**テンプレートフィールド** その他の注記 - 一般的なメモ"
+
+#: ../../user-manual/data-templates/rad-template.rst:1859
+msgid "**CSV Column** ``generalNote``"
+msgstr "**CSVの列** `generalNote`"
+
+#: ../../user-manual/data-templates/rad-template.rst:1861
+msgid ""
+"**RAD Rule** \"Use this note to record any other descriptive information "
+"considered important but not falling within the definitions of the other "
+"notes. (RAD 1.8B21)."
+msgstr ""
+"**RADルール**「他のノートの定義に該当しないが重要と考えられるその他の記述情報を記録するためにこのノートを使用します。（RAD 1.8B21）。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:1877
+msgid "Standard number area"
+msgstr "標準番号エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:1885
+msgid "An image of the data entry fields for the Standard number area."
+msgstr "標準番号エリア用のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1885
+msgid "The data entry fields for the Standard number area."
+msgstr "標準番号エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1888
+msgid "Standard number"
+msgstr "標準番号"
+
+#: ../../user-manual/data-templates/rad-template.rst:1890
+msgid "**Template field** Standard number"
+msgstr "**テンプレート項目** 標準番号"
+
+#: ../../user-manual/data-templates/rad-template.rst:1892
+msgid "**CSV Column** ``radStandardNumber``"
+msgstr "**CSV列** ``radStandardNumber``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1894
+msgid ""
+"**RAD Rule** \"Give the International Standard Book Number (ISBN), "
+"International Standard Serial Number (ISSN), or any other internationally "
+"agreed standard number for the item being described. Give such numbers with "
+"the agreed abbreviation and with the standard spacing or hyphenation.\" (RAD"
+" 1.9B1)"
+msgstr ""
+"**RADルール**「説明されているアイテムのための国際標準図書番号（ISBN）、国際標準逐次刊行物番号（ISSN）、またはその他の国際的に合意された標準番号を記載してください。これらの番号は、合意された略語を用い、標準的な間隔またはハイフンを用いて記載します。」（RAD"
+" 1.9B1）"
+
+#: ../../user-manual/data-templates/rad-template.rst:1911
+msgid "Access points"
+msgstr "アクセスポイント"
+
+#: ../../user-manual/data-templates/rad-template.rst:1919
+msgid "An image of the data entry fields for Access points."
+msgstr "データエントリー項目のアクセスポイントの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1919
+msgid "The data entry fields for Access points."
+msgstr "アクセスポイントのためのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1922
+msgid "Subject access points"
+msgstr "主題アクセスポイント"
+
+#: ../../user-manual/data-templates/rad-template.rst:1924
+msgid "**Template field** Subject access points"
+msgstr "**テンプレート項目** 件名アクセスポイント"
+
+#: ../../user-manual/data-templates/rad-template.rst:1926
+msgid "**CSV Column** ``subjectAccessPoints``"
+msgstr "**CSV列** ``subjectAccessPoints``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1928
+msgid ""
+"**RAD Rule** \"Search for an existing term in the Subjects taxonomy by "
+"typing the first few characters of the term. Alternatively, type a new term "
+"to create and link to a new subject term.\""
+msgstr ""
+"**RADルール**「既存の用語をSubjects（主題）分類内で検索するには、用語の最初の数文字を入力してください。または、新しい用語を入力して新しい主題用語を作成し、リンクしてください。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:1941
+msgid ""
+"The values in this column/field will create :term:`terms <term>` in the "
+"subjects :term:`taxonomy` where those do not already exist."
+msgstr ""
+"この列/フィールドの値は、まだ存在しない場合には、主題の:term:`分類法<taxonomy>`に:term:`用語<term>`を作成します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1949
+msgid "Place access points"
+msgstr "アクセスポイントを設置する"
+
+#: ../../user-manual/data-templates/rad-template.rst:1951
+msgid "**Template field** Place access points"
+msgstr "**テンプレートフィールド** アクセスポイントを設定する"
+
+#: ../../user-manual/data-templates/rad-template.rst:1953
+msgid "**CSV Column** ``placeAccessPoints``"
+msgstr "**CSV列** ``placeAccessPoints``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1955
+msgid ""
+"**RAD Rule** \"Search for an existing term in the Places taxonomy by typing "
+"the first few characters of the term name. Alternatively, type a new term to"
+" create and link to a new place term.\""
+msgstr ""
+"**RADルール** "
+"\"場所の分類法において、既存の用語を探すには、用語名の最初の数文字を入力してください。または、新しい用語を入力して新しい地名用語を作成し、リンクしてください。\""
+
+#: ../../user-manual/data-templates/rad-template.rst:1968
+msgid ""
+"The values in this column/field will create :term:`terms <term>` in the "
+"places :term:`taxonomy` where those do not already exist."
+msgstr ""
+"このカラム/フィールドの値は、そこにまだ存在しない場合、場所:term:`分類 <taxonomy>`内に:term:`用語 "
+"<term>`を作成します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1974
+msgid "Genre access points"
+msgstr "ジャンルアクセスポイント"
+
+#: ../../user-manual/data-templates/rad-template.rst:1976
+msgid "**Template field** Genre access points"
+msgstr "**テンプレート フィールド** ジャンルアクセスポイント"
+
+#: ../../user-manual/data-templates/rad-template.rst:1978
+msgid "**CSV Column** ``genreAccessPoints``"
+msgstr "**CSV列** ``genreAccessPoints``"
+
+#: ../../user-manual/data-templates/rad-template.rst:1982
+msgid ""
+"The Genre taxonomy access points were added to AtoM in version 2.2. "
+"Currently the access point field is only available on the RAD template, "
+"though we hope to make it available on the :ref:`ISAD <isad-template>` and "
+":ref:`DACS <dacs-template>` in the future. At this time, it has not been "
+"added to the CSV import templates."
+msgstr ""
+"ジャンル分類のアクセスポイントはAtoMバージョン2.2で追加されました。現在、このアクセスポイントフィールドはRADテンプレートでのみ使用可能ですが、将来的にはISADテンプレートとDACSテンプレートにも対応させたいと考えています。現時点では、CSVインポートテンプレートには追加されていません。"
+
+#: ../../user-manual/data-templates/rad-template.rst:1988
+#: ../../user-manual/data-templates/rad-template.rst:2353
+#: ../../user-manual/data-templates/rad-template.rst:2374
+msgid "**RAD Rule** N/A"
+msgstr "RAD規則 適用なし"
+
+#: ../../user-manual/data-templates/rad-template.rst:1999
+msgid ""
+"The Genre taxonomy comes pre-populated in AtoM with genre/documentary form "
+"terms. All 45 terms included have been taken from the US Library of "
+"Congress' \"Basic Genre Terms for Cultural Heritage Materials,\" available "
+"at: http://memory.loc.gov/ammem/techdocs/genre.html. All terms can be edited"
+" or deleted by users, and new ones can be added. When using the Genre access"
+" point field in the RAD template, new values added in this field will create"
+" :term:`terms <term>` in the Genre :term:`taxonomy` where those do not "
+"already exist."
+msgstr ""
+"ジャンル分類法は、AtoMにジャンル/ドキュメンタリー形式の用語があらかじめ入力された状態で提供されています。含まれている45個の用語はすべて、アメリカ議会図書館の「文化遺産資料のための基本ジャンル用語」から取られており、以下のURLで入手可能です:"
+" "
+"http://memory.loc.gov/ammem/techdocs/genre.html。すべての用語はユーザーによって編集または削除することができ、新しい用語を追加することもできます。RADテンプレート内のジャンルアクセスポイントフィールドを使用する際、このフィールドに新たに追加された値は、ジャンル:term:`分類法`内でまだ存在しない場合、:term:`用語"
+" <term>`を生成します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2010
+msgid ""
+"The Genre terms can be used as a facet in the :ref:`browse` and :ref:`search"
+" <search-atom>` pages. The label on the facet can be customized by an "
+":term:`administrator` via **Admin > Settings > User interface labels**. See:"
+" :ref:`user-interface-labels`."
+msgstr ""
+"ジャンル用語は、:ref:`ブラウズ`ページと :ref:`検索 <search-atom>` "
+"ページでファセットとして使用できます。ファセットのラベルは、**管理者 > 設定 > ユーザーインターフェースラベル** から :term:`管理者` "
+"によってカスタマイズできます。参照：:ref:`user-interface-labels`。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2017
+msgid "Name access points"
+msgstr "アクセスポイント名"
+
+#: ../../user-manual/data-templates/rad-template.rst:2019
+msgid "**Template field** Name access points"
+msgstr "**テンプレートフィールド** 名前アクセスポイント"
+
+#: ../../user-manual/data-templates/rad-template.rst:2021
+msgid "**CSV Column** ``nameAccessPoints``"
+msgstr "**CSV列** ``nameAccessPoints``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2023
+msgid ""
+"**RAD Rule** \"Choose provenance, author and other non-subject access points"
+" from the archival description, as appropriate. All access points must be "
+"apparent from the archival description to which they relate.\" (RAD 21.0B) "
+"The values in this field are drawn from the Authorized form of name field in"
+" authority records. Search for an existing name by typing the first few "
+"characters of the name. Alternatively, type a new name to create and link to"
+" a new authority record."
+msgstr ""
+"**RADルール** "
+"「適切であれば、アーカイブ記述から出自、作者、その他の非主題アクセスポイントを選びます。すべてのアクセスポイントは、関連するアーカイブ記述から明らかでなければなりません。」（RAD"
+" 21.0B）このフィールドで使用される値は、権威レコード内の公認名（Authorized form of name "
+"field）から引き出されます。既存の名前を検索するには、名前の最初の数文字を入力します。あるいは、新しい名前を入力して新しい権威レコードを作成し、リンクします。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2033
+msgid ""
+"If the entity type of the actor is not defined as either a person, family, "
+"or corporate body:"
+msgstr "アクターのエンティティタイプが個人、家族、または法人体として定義されていない場合："
+
+#: ../../user-manual/data-templates/rad-template.rst:2055
+msgid ""
+"This field is an auto-complete - the :term:`drop-down <drop-down menu>` will"
+" suggest existing authority records as you type. Values in this column/field"
+" that are entered instead of selected from the drop-down will create new "
+":term:`authority records <authority record>`."
+msgstr ""
+"このフィールドはオートコンプリートです。タイプすると、既存の権威レコードがドロップダウンメニューで提案されます。この列/フィールドにドロップダウンから選択する代わりに入力された値は、新しい権威レコードを作成します。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2065
+msgid "Control area"
+msgstr "コントロールエリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:2073
+msgid "An image of the data entry fields for the Control area."
+msgstr "コントロール領域のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2073
+msgid ""
+"The data entry fields for the Control area. More fields continue below the "
+"screen shown."
+msgstr "制御領域のデータ入力フィールド。更に多くのフィールドが表示されている画面の下に続いています。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2076
+msgid ""
+"For more information on the use of fields in the control area, see "
+":ref:`control area <control-area>`."
+msgstr "フィールドの使用に関する詳細な情報については、:ref:`管理エリア <control-area>`を参照してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2081
+msgid "Description record identifier"
+msgstr "説明記録識別子"
+
+#: ../../user-manual/data-templates/rad-template.rst:2083
+msgid "**Template field** Description record identifier"
+msgstr "**テンプレートフィールド** 記述記録識別子"
+
+#: ../../user-manual/data-templates/rad-template.rst:2085
+msgid "**CSV Column** ``descriptionIdentifier``"
+msgstr "**CSV列** ``descriptionIdentifier``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2087
+msgid ""
+"**RAD Rule** \"Record a unique description identifier in accordance with "
+"local and/or national conventions. If the description is to be used "
+"internationally, record the code of the country in which the description was"
+" created in accordance with the latest version of ISO 3166- Codes for the "
+"representation of names of countries. Where the creator of the description "
+"is an international organisation, give the organisational identifier in "
+"place of the country code.\""
+msgstr ""
+"**RADルール** "
+"「地域または国の慣例に従って、ユニークな記述識別子を記録します。記述が国際的に使用される場合は、記述が作成された国のコードを、最新のISO 3166- "
+"国名コードの表示のためのコードに従って記録します。記述の作成者が国際機関の場合、国コードの代わりに組織識別子を記載します。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2106
+msgid "Institution identifier"
+msgstr "機関識別子"
+
+#: ../../user-manual/data-templates/rad-template.rst:2108
+msgid "**Template field** Institution identifier"
+msgstr "**テンプレートフィールド** 機関識別子"
+
+#: ../../user-manual/data-templates/rad-template.rst:2110
+msgid "**CSV Column** ``institutionIdentifier``"
+msgstr "**CSV列** `institutionIdentifier`"
+
+#: ../../user-manual/data-templates/rad-template.rst:2112
+msgid ""
+"**RAD Rule** \"Record the full, authorised form of name(s) of the "
+"agency(ies) responsible for creating, modifying, or disseminating the "
+"description, or, alternatively, record a code for the agency in accordance "
+"with the national or international agency code standard.\""
+msgstr ""
+"**RADルール**「記述の作成、変更、または流布に責任を持つ機関の、公式に認可された完全な名称を記録するか、あるいは国内外の機関コード標準に従って機関のコードを記録します。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2128
+msgid "Rules or conventions"
+msgstr "ルールまたは規約"
+
+#: ../../user-manual/data-templates/rad-template.rst:2130
+msgid "**Template field** Rules or conventions"
+msgstr "**テンプレートフィールド** ルールまたは規約"
+
+#: ../../user-manual/data-templates/rad-template.rst:2132
+msgid "**CSV Column** ``rules``"
+msgstr "**CSVカラム** ``ルール``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2134
+msgid ""
+"**RAD Rule** \"Record the international, national, and/or local rules or "
+"conventions followed in preparing the description.\""
+msgstr "**RADルール**「記述の準備に際して従った国際的、国内的、または地方的な規則や慣例を記録してください。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2148
+msgid "Status"
+msgstr "ステータス"
+
+#: ../../user-manual/data-templates/rad-template.rst:2150
+msgid "**Template field** Status"
+msgstr "**テンプレート フィールド** 状態"
+
+#: ../../user-manual/data-templates/rad-template.rst:2152
+msgid "**CSV Column** ``descriptionStatus``"
+msgstr "**CSVカラム** ``descriptionStatus``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2154
+msgid ""
+"**RAD Rule** \"Record the current status of the description, indicating "
+"whether it is a draft, finalized, and/or revised or deleted.\""
+msgstr "**RAD規則** 「説明の現在のステータスを記録し、それが草稿、最終版、そして/または改訂されたものか削除されたものかを示します。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2166
+msgid ""
+"AtoM uses a :term:`taxonomy` to determine the value of this field. The "
+"default terms are Final, Revised and Draft, but can be edited through the "
+":ref:`Manage taxonomy screen <add-term-taxonomy>`."
+msgstr ""
+"AtoMはこのフィールドの値を決定するために`:term:分類法（タクソノミー）`を使用します。デフォルトの用語は「Final（最終）」、「Revised（修正）」、「Draft（下書き）」ですが、`:ref:分類法管理画面<add-"
+"term-taxonomy>`を通じて編集することができます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2174
+msgid "Level of detail"
+msgstr "詳細度"
+
+#: ../../user-manual/data-templates/rad-template.rst:2176
+msgid "**Template field** Level of detail"
+msgstr "**テンプレート フィールド** 詳細のレベル"
+
+#: ../../user-manual/data-templates/rad-template.rst:2178
+msgid "**CSV Column** ``levelOfDetail``"
+msgstr "**CSVカラム** ``levelOfDetail``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2180
+msgid ""
+"**RAD Rule** \"Record whether the description consists of a minimal, "
+"partial, or full level of detail in accordance with relevant international "
+"and/or national guidelines and/or rules.\""
+msgstr ""
+"**RADルール** "
+"「関連する国際的または国内のガイドラインおよび/またはルールに従って、記述が最小限、部分的、または完全な詳細レベルであるかどうかを記録してください。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2193
+msgid ""
+"AtoM uses a :term:`taxonomy` to determine the value of this field. The "
+"default terms are Full, Partial and Minimal, but can be edited through the "
+":ref:`Manage taxonomy screen <add-term-taxonomy>`."
+msgstr ""
+"AtoMではこのフィールドの値を決定するために:term:`分類法`(taxonomy)が使用されます。デフォルトの用語は「Full（完全）」、「Partial（部分的）」、「Minimal（最小限）」ですが、:ref:`分類法管理画面"
+" <add-term-taxonomy>`を通じて編集することができます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2201
+msgid "Dates of creation, revision and deletion"
+msgstr "作成、改訂、および削除の日付"
+
+#: ../../user-manual/data-templates/rad-template.rst:2203
+msgid "**Template field** Dates of creation, revision and deletion"
+msgstr "**テンプレート フィールド** 作成、改訂、削除の日付"
+
+#: ../../user-manual/data-templates/rad-template.rst:2205
+msgid "**CSV Column** ``revisionHistory``"
+msgstr "CSV列 ``revisionHistory``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2207
+msgid "**RAD Rule** \"Record the date(s) the entry was prepared and/or revised.\""
+msgstr "「記録の作成または改訂が行われた日付を記録する。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2219
+msgid ""
+"This is a free text field, allowing users to also write narrative notes "
+"about the revision history of the description."
+msgstr "これは自由記入欄であり、ユーザーが説明の改訂履歴に関する記述的な注釈を書き込むこともできます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2226
+msgid "Language of description"
+msgstr "記述の言語"
+
+#: ../../user-manual/data-templates/rad-template.rst:2228
+msgid "**Template field** Language of description"
+msgstr "**テンプレート項目** 説明の言語"
+
+#: ../../user-manual/data-templates/rad-template.rst:2230
+msgid "**CSV Column** ``languageOfDescription``"
+msgstr "**CSV列** ``descriptionの言語``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2232
+msgid ""
+"**RAD Rule** \"Indicate the language(s) used to create the description of "
+"the archival material.\""
+msgstr "**RADルール**「アーカイブ資料の記述に使用される言語を明記すること。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2246
+msgid ""
+"In CSV import, use a two-letter language code from `ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ . When entering "
+"data manually, AtoM will offer an autocomplete drop-down list as you type, "
+"which will be generated as a three-letter language code in the EAD."
+msgstr ""
+"CSVインポートでは、`ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ "
+"から2文字の言語コードを使用してください。データを手入力する際には、AtoMがタイプするにつれて自動補完ドロップダウンリストを提供します。これはEADで3文字の言語コードとして生成されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2256
+msgid "Script of description"
+msgstr ""
+"Certainly, to translate the phrase \"Script of description\" into Japanese, you might say:\n"
+"\n"
+"説明のスクリプト\n"
+"\n"
+"However, if you're looking for a translation within the context of a document or tool like Archivematica, more context would be needed to provide a precise and accurate translation. For example, if \"Script of description\" refers to a script used to describe digital assets in the Archivematica system, the translation might need to address specific terminology used within the system. If you can provide more of the surrounding text or details on how the term is used, I can offer a more targeted translation."
+
+#: ../../user-manual/data-templates/rad-template.rst:2258
+msgid "**Template field** Script of description"
+msgstr "**テンプレートフィールド** 説明のスクリプト"
+
+#: ../../user-manual/data-templates/rad-template.rst:2260
+msgid "**CSV Column** ``scriptOfDescription``"
+msgstr "**CSV列** ``記述のスクリプト``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2262
+msgid ""
+"**RAD Rule** \"Indicate the script(s) used to create the description of the "
+"archival material.\""
+msgstr "**RAD ルール**「アーカイブ資料の説明を作成する際に使用されたスクリプトを示してください。」"
+
+#: ../../user-manual/data-templates/rad-template.rst:2276
+msgid ""
+"In CSV import, use a four-letter script code from `ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_. When entering data "
+"manually, AtoM will offer an autocomplete drop-down list as you type, which "
+"will be generated as a four-letter script code in the EAD."
+msgstr ""
+"CSVインポートでは、`ISO 15924 "
+"<http://www.unicode.org/iso15924/iso15924-codes.html>`_ "
+"から四文字のスクリプトコードを使用してください。手動でデータを入力する際には、AtoMがタイピングしている間に自動補完のドロップダウンリストを提供します。これはEAD内で四文字のスクリプトコードとして生成されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2286
+msgid "Sources"
+msgstr "参照情報源"
+
+#: ../../user-manual/data-templates/rad-template.rst:2288
+msgid "**Template field** Sources"
+msgstr "**テンプレートフィールド** ソース"
+
+#: ../../user-manual/data-templates/rad-template.rst:2290
+msgid "**CSV Column** ``sources``"
+msgstr "**CSV列** ``sources``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2292
+msgid ""
+"**RAD Rule** \"Record citations for any external sources used in the "
+"archival description (such as the Scope and Content, Custodial History, or "
+"Notes fields).\""
+msgstr ""
+"**RADのルール** "
+"\"アーカイブ記述に使用された外部のソース（スコープと内容、保管歴史、またはノートのフィールドなど）についての引用を記録してください。\""
+
+#: ../../user-manual/data-templates/rad-template.rst:2306
+msgid ""
+"If there are sources to cite used used in a biographical sketch or "
+"administrative history, record these in the sources field for the "
+":term:`authority record`."
+msgstr ""
+"伝記的スケッチまたは管理履歴に使用された参照資料がある場合、それらを:term:`authority "
+"record`（権威レコード）のsources（情報源）フィールドに記録してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2316
+msgid "Rights area"
+msgstr "権利情報エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:2318
+msgid ""
+"This area of the description allows users to enter a :term:`rights record` "
+"compliant with `PREMIS <http://www.loc.gov/standards/premis/>`_. These "
+"fields are separate from the RAD rights notes, above, and editing one area "
+"does not effect the other. Rights records cannot be imported with "
+"descriptions via CSV."
+msgstr ""
+"この説明の領域では、ユーザーが `PREMIS <http://www.loc.gov/standards/premis/>`_ に準拠した "
+":term:`権利記録` "
+"を入力することができます。これらのフィールドは上述のRAD権利ノートとは別のものであり、一方の領域を編集しても他方には影響しません。権利記録は、CSVを介して説明と共にインポートすることはできません。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2323
+msgid ""
+"At present, the PREMIS rights added to a record are only visible to "
+"authenticated (i.e. logged in) users."
+msgstr "現在、記録に追加されたPREMISの権利情報は、認証された（つまりログインしている）ユーザーにのみ表示されます。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2326
+msgid ""
+"For more information, see :ref:`rights`, especially :ref:`rights-archival-"
+"description`, and :ref:`premis-template`."
+msgstr ""
+"詳細は、特に「権利」（:ref:`rights`）、その中でも「権利・アーカイブ記述」（:ref:`rights-archival-"
+"description`）、および「PREMISテンプレート」（:ref:`premis-template`）を参照してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2334
+msgid "Administration area"
+msgstr "管理エリア"
+
+#: ../../user-manual/data-templates/rad-template.rst:2342
+msgid "An image of the data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールドの画像です。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2342
+msgid "The data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2347
+msgid "Display standard"
+msgstr "表示標準"
+
+#: ../../user-manual/data-templates/rad-template.rst:2349
+msgid "**Template field** Display standard"
+msgstr "**テンプレートフィールド** 表示標準"
+
+#: ../../user-manual/data-templates/rad-template.rst:2351
+msgid "**CSV column** N/A"
+msgstr "CSVカラム 該当なし"
+
+#: ../../user-manual/data-templates/rad-template.rst:2359
+msgid ""
+"This fields allows the user to choose a different display standard from the "
+":ref:`default template <default-templates>` for the shown archival "
+"description only, with the option to also change the display standard for "
+"all existing children of the description. See: :ref:`change-display-"
+"standard`."
+msgstr ""
+"このフィールドを使用すると、ユーザーは表示されているアーカイブ記述にのみ別の表示標準を選択できます。また、その記述の既存のすべての子項目に対する表示標準を変更するオプションもあります。詳細については、`:ref:`change-"
+"display-standard` を参照してください。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2368
+msgid "Publication status"
+msgstr "公開ステータス"
+
+#: ../../user-manual/data-templates/rad-template.rst:2370
+msgid ""
+"**Template field** Publication status is available under the More tab "
+"located on the object view screen."
+msgstr "**テンプレートフィールド** 出版ステータスは、オブジェクトビュースクリーンにある「その他」タブの下で利用可能です。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2372
+msgid "**CSV column** ``publicationsStatus``"
+msgstr "CSVカラム ``publicationsStatus``"
+
+#: ../../user-manual/data-templates/rad-template.rst:2385
+msgid ""
+"The :term:`publication status` refers to the public visibility of a "
+"description for unauthenticated (e.g. not logged in) users. The default "
+"terms available are \"Published\" (i.e. visible to public users), and "
+"\"Draft\" (e.g. not visible to public users). See: :ref:`publish-archival-"
+"description`."
+msgstr ""
+"用語「公開ステータス」は、認証されていない（例：ログインしていない）ユーザーに対して、説明の公開可視性を指します。デフォルトで利用可能な用語は、「公開」（すなわち、一般ユーザーに対して可視的）、および「ドラフト」（例：一般ユーザーに対して不可視）です。参照：「アーカイバル記述を公開する」。"
+
+#: ../../user-manual/data-templates/rad-template.rst:2390
+msgid ""
+"In the :ref:`Global Site Settings <global-settings>`, if the default "
+"publication status is set to draft, all imported descriptions will be set to"
+" draft and the EAD file will have the value \"draft\" in the <odd "
+"type=\"publicationStatus\"> tag."
+msgstr ""
+"`:ref:`グローバルサイト設定 <global-"
+"settings>`において、デフォルトの公開ステータスをドラフトに設定すると、すべてのインポートされた記述がドラフトに設定され、EADファイルは<odd"
+" type=\"publicationStatus\">タグにおいて「ドラフト」という値を持つことになります。"

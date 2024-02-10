@@ -1,0 +1,825 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/installation/upgrading.rst:5
+msgid "Upgrading"
+msgstr "アップグレード"
+
+#: ../../admin-manual/installation/upgrading.rst:7
+msgid ""
+"This guide explains how to upgrade from an earlier AtoM release (including "
+"ICA-AtoM versions 1.1 to 1.3.1 or newer) to |version|."
+msgstr ""
+"このガイドでは、以前のAtoMリリース（ICA-"
+"AtoMバージョン1.1から1.3.1またはそれ以降のバージョンを含む）から|version|へのアップグレード方法について説明しています。"
+
+#: ../../admin-manual/installation/upgrading.rst:12
+msgid ""
+"If you are on an earlier release of ICA-AtoM (older than 1.1), please "
+"upgrade to the latest ICA-AtoM release before following these instructions. "
+"Please see `Upgrading from ICA-AtoM 1.0.x "
+"<https://wiki.accesstomemory.org/Community/Community_resources/Documentation/Upgrading_from_ICA-"
+"AtoM_1.0.x>`_ on the AtoM wiki."
+msgstr ""
+"もしあなたがICA-AtoMの以前のリリース（1.1より古い）を使用している場合は、これらの指示に従う前に最新のICA-"
+"AtoMリリースへアップグレードしてください。AtoMウィキの「ICA-AtoM "
+"1.0.xからのアップグレード」をご覧ください。https://wiki.accesstomemory.org/Community/Community_resources/Documentation/Upgrading_from_ICA-"
+"AtoM_1.0.x"
+
+#: ../../admin-manual/installation/upgrading.rst:16
+msgid ""
+"While we have tried to make this document usable by readers with a broad "
+"range of technical knowledge, it may be too complex if you have no previous "
+"experience with installing web applications or using the Linux command line."
+msgstr ""
+"私たちは、さまざまな技術知識を持つ読者が利用できるようにこのドキュメントを作成しましたが、もしあなたがウェブアプリケーションのインストールやLinuxコマンドラインの使用経験がない場合には、内容が難しすぎる可能性があります。"
+
+#: ../../admin-manual/installation/upgrading.rst:20
+msgid ""
+"Additionally, consider disabling your web site during the upgrade. Redirect "
+"your users to a \"Down for maintenance\" page temporary using your web "
+"server redirection capabilities, or you can put your site in read-only mode "
+"while performing the upgrade."
+msgstr ""
+"また、アップグレード中はウェブサイトを無効にすることを検討してください。ウェブサーバーのリダイレクト機能を使用して、ユーザーを一時的に「メンテナンス中」ページにリダイレクトさせるか、アップグレードを実行している間、ウェブサイトをリードオンリーモードに設定することができます。"
+
+#: ../../admin-manual/installation/upgrading.rst:28
+msgid "Check minimum requirements"
+msgstr "最小要件を確認する"
+
+#: ../../admin-manual/installation/upgrading.rst:30
+msgid ""
+"Please refer to the :ref:`Minimum requirements <installation-requirements>` "
+"page to make sure that your system meets all the requirements. This is "
+"especially important if you are going to be upgrading from an older version "
+"of ICA-AtoM (1.1 - 1.3.1 or later), as there will be some new dependencies "
+"that we will install as part of the upgrade process."
+msgstr ""
+"以下の :ref:`最小要件 <installation-requirements>` "
+"ページを参照し、システムがすべての要件を満たしていることを確認してください。これは、古いバージョンのICA-AtoM（1.1 - "
+"1.3.1やそれ以降）からアップグレードする場合に特に重要です。なぜなら、アップグレードプロセスの一部として新しい依存関係をインストールすることになるからです。"
+
+#: ../../admin-manual/installation/upgrading.rst:39
+msgid "Read the release notes"
+msgstr "リリースノートを読む"
+
+#: ../../admin-manual/installation/upgrading.rst:41
+msgid ""
+"This is the opportunity to find out what has been changed in the new "
+"release, and if there are new features, enhancements and bug fixes that may "
+"be of interest to you and your organization."
+msgstr ""
+"この機会には、新しいリリースで何が変更されたのか、そして新機能、機能向上、バグ修正がある場合、それらがあなたやあなたの組織にとって興味のあるものかどうかを確認することができます。"
+
+#: ../../admin-manual/installation/upgrading.rst:45
+msgid "You can always find the full release notes on the AtoM wiki, here:"
+msgstr "AtoMウィキで完全なリリースノートをいつでもこちらで見つけることができます:"
+
+#: ../../admin-manual/installation/upgrading.rst:47
+msgid "https://wiki.accesstomemory.org/Releases/Release_announcements"
+msgstr ""
+"申し訳ありませんが、私は外部のウェブサイトを直接アクセスまたは閲覧する能力がありませんので、そのウェブサイトに掲載されているコンテンツを直接翻訳することはできません。しかし、一般的なリリース発表の文章を日本語に翻訳することは可能です。例えば、「Release Announcements」を日本語に翻訳したものは「リリース発表」となります。\n"
+"\n"
+"もしご指定のテキストに代わるものを提供いただければ、その内容を日本語に翻訳いたします。"
+
+#: ../../admin-manual/installation/upgrading.rst:49
+msgid ""
+"These often include additional details that can help you understand the "
+"purpose of the release and how best to install it."
+msgstr "これらには通常、リリースの目的を理解したり、最も適切にインストールする方法を把握するのに役立つ追加の詳細情報が含まれています。"
+
+#: ../../admin-manual/installation/upgrading.rst:55
+msgid "Make sure the dependencies are updated"
+msgstr "依存関係が更新されていることを確認してください。"
+
+#: ../../admin-manual/installation/upgrading.rst:57
+msgid ""
+"Since the 2.5 version, AtoM uses Elasticsearch 5.x. If you're upgrading from"
+" an earlier version, please make sure to upgrade your Elasticsearch "
+"installation. You don't need to backup your index data as it will be "
+"recreated from the database later in the upgrade."
+msgstr ""
+"バージョン2.5以降、AtoMはElasticsearch "
+"5.xを使用するようになりました。以前のバージョンからアップグレードする場合は、Elasticsearchのインストールをアップグレードすることを確認してください。インデックスデータのバックアップは必要ありません。アップグレードの後でデータベースから再作成されます。"
+
+#: ../../admin-manual/installation/upgrading.rst:62
+msgid ""
+"You will also need to upgrade to Java 8 if the system is using a previous "
+"version, as this is a requirement for Elasticsearch 5.x."
+msgstr ""
+"もしシステムが以前のバージョンを使用している場合は、Java 8にアップグレードする必要があります。これはElasticsearch "
+"5.xを使用するための要件です。"
+
+#: ../../admin-manual/installation/upgrading.rst:65
+msgid ""
+"Since the 2.6 version, AtoM requires MySQL 8.0. Bellow we'll explain the "
+"steps needed to move and upgrade the AtoM database to properly work with "
+"that version."
+msgstr ""
+"2.6バージョン以降、AtoMはMySQL "
+"8.0を必要とします。以下では、そのバージョンと適切に連携するためにAtoMデータベースを移行しアップグレードする必要なステップを説明します。"
+
+#: ../../admin-manual/installation/upgrading.rst:69
+msgid "Install the latest version of AtoM"
+msgstr "最新バージョンのAtoMをインストールしてください。"
+
+#: ../../admin-manual/installation/upgrading.rst:71
+msgid ""
+"Follow the instructions available in our documentation on "
+":ref:`installation` - our most comprehensive installation notes are included"
+" in the :ref:`Linux <installation-ubuntu>` section, with additional "
+"information for different operating systems and server configurations."
+msgstr ""
+"弊社のドキュメントにある :ref:`installation` の指示に従ってください - 一番包括的なインストールノートは :ref:`Linux "
+"<installation-ubuntu>` セクションに含まれており、異なるオペレーティングシステムやサーバー設定に関する追加情報もあります。"
+
+#: ../../admin-manual/installation/upgrading.rst:78
+msgid ""
+"Remember to create a **new** database for this installation. When you run "
+"the web installer, it will erase your previous data if you are using the "
+"same database!"
+msgstr ""
+"このインストールのために**新しい**データベースを作成することを忘れないでください。ウェブインストーラーを実行すると、同じデータベースを使用している場合は以前のデータが消去されます！"
+
+#: ../../admin-manual/installation/upgrading.rst:85
+msgid "Copy your old data"
+msgstr ""
+"以下のテキストを日本語に翻訳しています。\n"
+"\n"
+"古いデータをコピーしてください。"
+
+#: ../../admin-manual/installation/upgrading.rst:87
+msgid ""
+"At this point, you should have an |version| functional installation using a "
+"fresh database. Now we are going to copy the contents of the old uploads and"
+" downloads directories, as well as the database:"
+msgstr ""
+"この段階で、新しいデータベースを使った|version| "
+"機能インストールが完了しているはずです。次に、古いアップロードおよびダウンロードディレクトリの内容とデータベースをコピーします："
+
+#: ../../admin-manual/installation/upgrading.rst:91
+msgid ""
+"`rsync <https://rsync.samba.org/>`__ is a robust directory sync solution "
+"that we can use to copy the contents of your old uploads directory to the "
+"new one, even when both directories are in the same machine. Using the "
+"command-line, enter the following command:"
+msgstr ""
+"`rsync <https://rsync.samba.org/>`__ "
+"は堅牢なディレクトリ同期ソリューションであり、両方のディレクトリが同じマシン上にある場合でも、古いアップロードディレクトリの内容を新しいディレクトリにコピーするのに使用できます。コマンドラインを使用して、以下のコマンドを入力します："
+
+#: ../../admin-manual/installation/upgrading.rst:100
+msgid ""
+"Where ``icaatom_old`` is the name of your old installation. The path "
+"included for the new installation in this example "
+"(``/usr/share/nginx/atom``) is the path we recommend in our installation "
+"documentation."
+msgstr ""
+"``icaatom_old`` "
+"は旧インストールの名前です。この例で新しいインストールのために含まれているパス（``/usr/share/nginx/atom``）は、私たちがインストールドキュメントで推奨しているパスです。"
+
+#: ../../admin-manual/installation/upgrading.rst:104
+msgid ""
+"Alternatively, you can just use `cp "
+"<https://en.wikipedia.org/wiki/Cp_%28Unix%29>`__:"
+msgstr ""
+"または、以下のコマンドを使ってコピーすることもできます： `cp "
+"<https://ja.wikipedia.org/wiki/Cp_%28Unix%29>`__:"
+
+#: ../../admin-manual/installation/upgrading.rst:110
+msgid ""
+"We're going to want to do the same with the downloads directory as well - "
+"this is where :ref:`reports <reports-printing>`, :ref:`cached xml <cache-"
+"xml-setting>`, and downloads created by the job scheduler (such as "
+":ref:`clipboard exports <csv-export-clipboard>`) are kept."
+msgstr ""
+"ダウンロードディレクトリについても同様の処理を行いたいです。ダウンロードディレクトリは、:ref:`報告書 <reports-printing>`や "
+":ref:`キャッシュされたXML <cache-xml-"
+"setting>`、ジョブスケジューラによって作成されるダウンロード（例えば:ref:`クリップボードのエクスポート <csv-export-"
+"clipboard>`など）が保管されている場所です。"
+
+#: ../../admin-manual/installation/upgrading.rst:121
+msgid ""
+"You may choose to delete the contents of the ``jobs`` subdirectory after "
+"copying it over - this subdirectory in the downloads folder generally "
+"contains zip files of previous exports. As such, it is temporary data and "
+"does not need to be kept. We recommend leaving the ``jobs`` subdirectory "
+"itself in place, for future exports."
+msgstr ""
+"コピーが終わった後で、「jobs」サブディレクトリの内容を削除する選択肢があります。ダウンロードフォルダのこのサブディレクトリには通常、以前のエクスポートのzipファイルが含まれています。したがって、それは一時的なデータであり、保持する必要はありません。将来のエクスポートのために、「jobs」サブディレクトリ自体はそのままにしておくことをお勧めします。"
+
+#: ../../admin-manual/installation/upgrading.rst:127
+msgid ""
+"If you want to delete the contents of this directory, you can use the "
+"following command:"
+msgstr "このディレクトリの内容を削除したい場合は、次のコマンドを使用できます："
+
+#: ../../admin-manual/installation/upgrading.rst:134
+msgid ""
+"Alternatively, AtoM has a command-line task that can help remove unnecessary"
+" temporary data, including the content of the ``jobs`` subdirectory. For "
+"more information, see:"
+msgstr ""
+"また、AtoMにはコマンドラインタスクがあり、``jobs``サブディレクトリの内容を含む不必要な一時的なデータを削除するのに役立ちます。詳細については以下を参照してください："
+
+#: ../../admin-manual/installation/upgrading.rst:138
+msgid ":ref:`tools-expire`"
+msgstr ""
+"この特定のテキスト「:ref:`tools-expire`」は、文脈の中で具体的な命令や説明を参照するプレースホルダです。技術的なドキュメントでは、このようなプレースホルダはしばしば参照リンクやクロスリファレンスを示します。日本語に直訳すると、そのまま「:ref:`tools-expire`」となりますが、これは意味を成さないため、文脈に基づき適切な節やセクションのタイトルに置き換える必要があります。\n"
+"\n"
+"たとえば、もしこのプレースホルダが「ツールの有効期限設定」セクションを参照している場合は、次のようになります（デフォルトでは、Archivematicaのドキュメントにおける特有の節名を考慮せず一般的な表現にて訳しています）。\n"
+"\n"
+"``ツールの有効期限設定を参照してください。``\n"
+"\n"
+"実際の文書での使用に際しては、適切なセクション名に置き換えて文脈に合った訳を行う必要があります。"
+
+#: ../../admin-manual/installation/upgrading.rst:140
+msgid ""
+"For more general information on the structure of the ``uploads`` and "
+"``downloads`` directories in AtoM, see:"
+msgstr ""
+"AtoMの``uploads``ディレクトリと``downloads``ディレクトリの構造に関する一般的な情報については、以下を参照してください："
+
+#: ../../admin-manual/installation/upgrading.rst:143
+msgid "Data backup: :ref:`backup-uploads-downloads`"
+msgstr "データバックアップ: :ref:`backup-uploads-downloads`"
+
+#: ../../admin-manual/installation/upgrading.rst:145
+msgid ""
+"Dump the contents of your old database to a temporary file, change the "
+"database name if needed:"
+msgstr "古いデータベースの内容を一時ファイルにダンプし、必要に応じてデータベース名を変更します："
+
+#: ../../admin-manual/installation/upgrading.rst:152
+msgid ""
+"If you're upgrading from 2.5.x or lower to 2.6.x or higher make sure your "
+"data is on `utf8mb3` or `utf8` (the default if you followed the installation"
+" documentation) and that you are using MySQL 8.0 as that's a requirement "
+"since AtoM 2.6. During the upgrade task, your data will be transformed to "
+"the `utf8mb4` charset and the `utf8mb4_0900_ai_ci` collation."
+msgstr ""
+"2.5.x以下から2.6.x以上へのアップグレードを行う場合、データが`utf8mb3`またはインストールドキュメントに従っていればデフォルトの`utf8`であること、そしてMySQL"
+" 8.0を使用していることを確認してください。それは、AtoM "
+"2.6以降、要件となっています。アップグレード作業中に、データは`utf8mb4`文字セットと`utf8mb4_0900_ai_ci`照合順序へ変換されます。"
+
+#: ../../admin-manual/installation/upgrading.rst:158
+msgid "Re-create the database with the new charset and collation:"
+msgstr "新しい文字セットと照合順序でデータベースを再作成します："
+
+#: ../../admin-manual/installation/upgrading.rst:166
+msgid "Now, load the contents into the new database:"
+msgstr "現在、新しいデータベースに内容をロードしてください："
+
+#: ../../admin-manual/installation/upgrading.rst:175
+msgid "Run the upgrade task"
+msgstr "アップグレードタスクを実行する"
+
+#: ../../admin-manual/installation/upgrading.rst:177
+msgid ""
+"This is perhaps the most critical step in the upgrade process. If you "
+"encounter any errors, please consult our `User Forum "
+"<https://groups.google.com/forum/#!forum/ica-atom-users>`__, or if you don't"
+" find a solution, feel free to post a question there yourself. We will also "
+"be trying to add to our `FAQ <https://wiki.accesstomemory.org/AtoM-FAQ>`__ "
+"as we receive feedback, to help users troubleshoot any upgrading issues "
+"encountered."
+msgstr ""
+"これはアップグレードプロセスにおいて最も重要なステップかもしれません。もしエラーに遭遇した場合には、私たちの「ユーザーフォーラム」(https://groups.google.com/forum/#!forum/ica-"
+"atom-users) "
+"をご参照ください。または、解決策が見つからない場合は、そこに質問を投稿して自分自身で解決を試みることもできます。私たちはフィードバックを受けて、「FAQ」(https://wiki.accesstomemory.org/AtoM-"
+"FAQ) を追加することで、ユーザーがアップグレード時に遭遇する問題をトラブルシュートできるように助けを提供していきます。"
+
+#: ../../admin-manual/installation/upgrading.rst:185
+msgid "First, change the current directory:"
+msgstr "最初に、現在のディレクトリを変更します："
+
+#: ../../admin-manual/installation/upgrading.rst:191
+msgid "Now, run the upgrade-sql task:"
+msgstr "では、upgrade-sql タスクを実行してください。"
+
+#: ../../admin-manual/installation/upgrading.rst:195
+msgid ""
+"Depending on your database size this task may use a lot of memory, so we "
+"suggest running it without a memory limit."
+msgstr "データベースのサイズによっては、このタスクには多くのメモリが使用される可能性があるため、メモリ制限なしで実行することをお勧めします。"
+
+#: ../../admin-manual/installation/upgrading.rst:205
+msgid "Restore configuration changes"
+msgstr "設定変更の復元"
+
+#: ../../admin-manual/installation/upgrading.rst:207
+msgid ""
+"If you made any change to the old AtoM instace configuration files, like "
+"setting a custom session timeout or a Google Analitycs API key, make sure to"
+" bring those changes to the new instance if you want to keep them."
+msgstr ""
+"古いAtoMインスタンスの設定ファイルに変更を加えた場合、たとえばカスタムのセッションタイムアウトを設定したり、Google "
+"アナリティクスのAPIキーを設定したりした場合は、それらの変更を新しいインスタンスにも適用するようにしてください。それらを維持したい場合は、これが必要です。"
+
+#: ../../admin-manual/installation/upgrading.rst:214
+msgid "Migrate translations"
+msgstr "翻訳を移行する"
+
+#: ../../admin-manual/installation/upgrading.rst:218
+msgid ""
+"At this time, we are troubleshooting challenges in translation migration "
+"process from older releases to |version|. Please see issue `#5505 "
+"<https://projects.artefactual.com/issues/5505>`__ for progress - we will "
+"update this documentation with instructions when the tranlsation migration "
+"process has been optimized and tested. Thank you in advance for your "
+"patience."
+msgstr ""
+"現在、古いリリースから|version|への翻訳移行プロセスに関してトラブルシューティングを行っています。進行状況については、問題 `#5505 "
+"<https://projects.artefactual.com/issues/5505>`__ をご覧ください - "
+"移行プロセスが最適化されテストされ次第、このドキュメントに指示を更新してご案内いたします。ご理解とご協力に感謝いたします。"
+
+#: ../../admin-manual/installation/upgrading.rst:228
+msgid ""
+"Regenerate the digital object reference and thumbnail images (optional)"
+msgstr "デジタルオブジェクト参照とサムネイル画像を再生成する（オプション）"
+
+#: ../../admin-manual/installation/upgrading.rst:232
+msgid ""
+"If you are upgrading from version 1.3.1 or earlier, you may want to "
+"regenerate the :term:`digital object` :term:`reference <reference display "
+"copy>` and :term:`thumbnail` images. The thumbnail size was smaller in 1.x, "
+"so those images will often appear fuzzy in the redesigned digital object "
+"browse. A directory naming convention has also been added to make the "
+"location of the :term:`master digital object` more secure."
+msgstr ""
+"バージョン1.3.1以前からアップグレードする場合、:term:`デジタルオブジェクト`の:term:`参照表示用コピー<reference "
+"display "
+"copy>`および:term:`サムネイル`画像を再生成することをお勧めします。1.xのサムネイルサイズは小さかったため、リデザインされたデジタルオブジェクトブラウズでこれらの画像はしばしばぼやけて表示されます。また、:term:`マスターデジタルオブジェクト`の位置をより安全にするためのディレクトリ命名規則も追加されています。"
+
+#: ../../admin-manual/installation/upgrading.rst:239
+msgid ""
+"First, make sure you have not changed the directory "
+"(``/usr/share/nginx/atom``)."
+msgstr "まず、ディレクトリ（``/usr/share/nginx/atom``）を変更していないことを確認してください。"
+
+#: ../../admin-manual/installation/upgrading.rst:241
+msgid "Now, run the regen-derivatives task:"
+msgstr "現在、regen-derivativesタスクを実行しています："
+
+#: ../../admin-manual/installation/upgrading.rst:247
+msgid ""
+"For more information on this task and its available options, see: :ref:`cli-"
+"regenerate-derivatives`."
+msgstr ""
+"このタスクと利用可能なオプションに関する詳細情報は、以下を参照してください: :ref:`cli-regenerate-derivatives`。"
+
+#: ../../admin-manual/installation/upgrading.rst:252
+msgid ""
+"If you are upgrading from version 2.6.2 or earlier, we recommend that you "
+"regenerate derivatives for any video files you may have linked or uploaded "
+"as digital objects. Prior to `release 2.6.3`_, AtoM generated FLV "
+"derivatives as the :term:`reference display copy` for video digital objects,"
+" to be used in AtoM's previous Flash-based media player. After release "
+"2.6.3, Flash is no longer supported, and regenerating your video derivatives"
+" will replace any FLV files with MP4 derivatives instead, ensuring they will"
+" play as expected in the new media player."
+msgstr ""
+"バージョン2.6.2以前からアップグレードする場合は、デジタルオブジェクトとしてリンクまたはアップロードされたビデオファイルの派生ファイルを再生成することをお勧めします。`リリース2.6.3`_以前のAtoMでは、ビデオデジタルオブジェクトの:term:`reference"
+" display "
+"copy`としてFLV派生ファイルを生成し、以前のFlashベースのメディアプレーヤーで使用されていました。リリース2.6.3以降、Flashはサポートされなくなり、ビデオ派生ファイルの再生成を行うと、FLVファイルがMP4派生ファイルに置き換えられ、新しいメディアプレーヤーで期待通りに再生されるようになります。"
+
+#: ../../admin-manual/installation/upgrading.rst:261
+msgid ""
+"The regen-derivatives task supports a ``--media-type`` option that can be "
+"used to limit the regeneration to only videos if desired."
+msgstr ""
+"regen-derivativesタスクは``--media-"
+"type``オプションをサポートしており、希望に応じてビデオのみを再生成する範囲に限定することができます。"
+
+#: ../../admin-manual/installation/upgrading.rst:267
+msgid "Rebuild search index and clear cache"
+msgstr "検索インデックスの再構築とキャッシュのクリア"
+
+#: ../../admin-manual/installation/upgrading.rst:269
+msgid ""
+"To make all these changes take effect, you will need to re-index the files "
+"you've imported into your database, and clear the application cache."
+msgstr ""
+"これらの変更を有効にするには、データベースにインポートしたファイルを再インデックス化し、アプリケーションキャッシュをクリアする必要があります。"
+
+#: ../../admin-manual/installation/upgrading.rst:272
+msgid "First, rebuild the search index:"
+msgstr "まず、検索インデックスを再構築します："
+
+#: ../../admin-manual/installation/upgrading.rst:276
+msgid ""
+"Depending on your site content this task may use a lot of memory, so we "
+"suggest running it without memory limit."
+msgstr "サイトのコンテンツによっては、この作業で多くのメモリを使用する可能性がありますので、メモリ制限なしで実行することをお勧めします。"
+
+#: ../../admin-manual/installation/upgrading.rst:283
+msgid ""
+"For more information and options on this task, see: :ref:`maintenance-"
+"populate-search-index`."
+msgstr ""
+"このタスクに関する詳細情報とオプションについては、以下を参照してください: :ref:`maintenance-populate-search-"
+"index`。"
+
+#: ../../admin-manual/installation/upgrading.rst:286
+msgid ""
+"Then, clear your `cache "
+"<http://symfony.com/legacy/doc/book/1_0/en/12-Caching>`__ to remove any out-"
+"of-date data from the application:"
+msgstr ""
+"その後、以下のコマンドで `キャッシュ "
+"<http://symfony.com/legacy/doc/book/1_0/en/12-Caching>`__ "
+"をクリアし、アプリケーションから古いデータを削除します："
+
+#: ../../admin-manual/installation/upgrading.rst:293
+msgid "See :ref:`maintenance-clear-cache` for more detailed instructions."
+msgstr "より詳しい説明については、「:ref:`maintenance-clear-cache`」をご覧ください。"
+
+#: ../../admin-manual/installation/upgrading.rst:298
+msgid "Check the services configuration"
+msgstr "サービス設定を確認してください"
+
+#: ../../admin-manual/installation/upgrading.rst:300
+msgid ""
+"It's not usual, but sometimes we introduce changes in the related services "
+"configuration, like PHP-FPM, MySQL or the AtoM worker, to improve the "
+"behaviour and performance of the application. Check the installation "
+"documentation for your operating system to find those changes."
+msgstr ""
+"通常は行いませんが、アプリケーションの動作やパフォーマンスを向上させるために、PHP-"
+"FPM、MySQL、AtoMワーカーのような関連サービスの設定を変更することがあります。該当する変更点については、ご使用のオペレーティングシステムのインストールドキュメントをご確認ください。"
+
+#: ../../admin-manual/installation/upgrading.rst:306
+msgid "Restart services"
+msgstr "サービスを再起動する"
+
+#: ../../admin-manual/installation/upgrading.rst:308
+msgid ""
+"To ensure everything works correctly, you must restart your services after "
+"upgrading, including PHP-FPM, Memcached (if you're using it as cache "
+"engine), and the atom-workers managed by the job scheduler."
+msgstr ""
+"すべてが正しく動作するように、アップグレード後には、PHP-"
+"FPMやMemcached（キャッシュエンジンとして使用している場合）、およびジョブスケジューラーによって管理されているatom-"
+"workersを含むサービスを再起動する必要があります。"
+
+#: ../../admin-manual/installation/upgrading.rst:312
+msgid "**To restart PHP-FPM**:"
+msgstr "**PHP-FPMを再起動するには**："
+
+#: ../../admin-manual/installation/upgrading.rst:318
+msgid "**Optionally, to restart Memcached**:"
+msgstr "オプションで、Memcachedを再起動するには："
+
+#: ../../admin-manual/installation/upgrading.rst:324
+msgid "**To restart the atom-workers**:"
+msgstr "**atom-workersを再起動するには：**"
+
+#: ../../admin-manual/installation/upgrading.rst:333
+msgid "For further information on configuring the job scheduler, see:"
+msgstr "ジョブスケジューラの設定に関する詳細情報については、以下を参照してください。"
+
+#: ../../admin-manual/installation/upgrading.rst:335
+msgid ":ref:`maintenance-asynchronous-jobs`"
+msgstr ""
+"この翻訳では、特定のリファレンスラベルが用いられており、その部分を適切に訳出するためには、リファレンスラベルが指し示す実際の節や文章を知る必要があります。しかし、もしそれが可能である場合、テキストは日本語で次のようになるかもしれません：\n"
+"\n"
+":ref:`メンテナンス-非同期ジョブ`\n"
+"\n"
+"しかし、これは推測に基づいており、訳出したラベルが実際のドキュメント内で使われている正確なラベルと一致しているとは限りません。普通、ドキュメント内で使われている実際のラベルを正確に知るためには、それにアクセスして確認する必要があります。"
+
+#: ../../admin-manual/installation/upgrading.rst:341
+msgid "Set site base URL"
+msgstr "サイトのベースURLを設定する"
+
+#: ../../admin-manual/installation/upgrading.rst:343
+msgid ""
+"One final step is to set your site's base URL. This URL is used in XML "
+"exports to formulate absolute URLs referring to resources."
+msgstr ""
+"最後のステップとして、サイトのベースURLを設定してください。このURLは、リソースを参照する絶対URLを形成するためにXMLエクスポートで使用されます。"
+
+#: ../../admin-manual/installation/upgrading.rst:346
+msgid "To set the site base URL:"
+msgstr "サイトのベースURLを設定するには："
+
+#: ../../admin-manual/installation/upgrading.rst:352
+msgid ""
+"Click on the |gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main "
+"menu` located in the :term:`header bar` and select Settings."
+msgstr ""
+"|gears| アイコンをクリックし、:term:`ヘッダーバー`上に位置する:term:`メインメニュー`にある :ref:`管理者 <main-"
+"menu-admin>` メニューを選択し、設定を選んでください。"
+
+#: ../../admin-manual/installation/upgrading.rst:348
+msgid "gears"
+msgstr ""
+"ギア "
+"(この文脈では「アーカイブ・マティカ」というアプリケーションまたはシステムの一部を指しているかもしれませんが、文脈が不足しているので直訳しています。完全な文脈が提供されれば、さらに精確な訳が可能になるでしょう。)"
+
+#: ../../admin-manual/installation/upgrading.rst:355
+msgid ""
+"Click on or scroll down to Site information. Enter your site's base URL into"
+" the site base URL field. If your domain is \"townarchives.org\", for "
+"example, your base URL would normally be \"http://townarchives.org\"."
+msgstr ""
+"サイト情報までクリックするか、スクロールダウンします。サイトのベースURLをサイトのベースURLフィールドに入力してください。例えば、あなたのドメインが「townarchives.org」である場合、通常、ベースURLは「http://townarchives.org」となります。"
+
+#: ../../admin-manual/installation/upgrading.rst:361
+msgid ":ref:`Site information <site-information>`"
+msgstr ":ref:`サイト情報 <site-information>`"
+
+#: ../../admin-manual/installation/upgrading.rst:366
+msgid "Upgrading with a custom theme plugin"
+msgstr "カスタムテーマプラグインを使用したアップグレード"
+
+#: ../../admin-manual/installation/upgrading.rst:368
+msgid ""
+"If you have developed a custom theme plugin for your application (for more "
+"information, see :ref:`customization-custom-theme`), you may need to perform"
+" an additional step following an upgrade to ensure that all pages are styled"
+" correctly."
+msgstr ""
+"お手持ちのアプリケーションにカスタムテーマプラグインを開発されている場合（詳細については、:ref:`customization-custom-"
+"theme`を参照してください）、アップグレード後にすべてのページが正しくスタイリングされるように、追加の手順を実行する必要があるかもしれません。"
+
+#: ../../admin-manual/installation/upgrading.rst:375
+msgid "Bootstrap 5"
+msgstr "ブートストラップ 5"
+
+#: ../../admin-manual/installation/upgrading.rst:378
+msgid "Additional steps for tarball installations:"
+msgstr "ターボールインストールの追加ステップ："
+
+#: ../../admin-manual/installation/upgrading.rst:380
+msgid ""
+"If not already installed, first `download the node.js binary distributuion "
+"<https://nodejs.org/en/download>`_ and export the PATH variable."
+msgstr ""
+"もしまだインストールされていない場合は、まず「`node.jsのバイナリ配布をダウンロード "
+"<https://nodejs.org/en/download>`_」し、PATH変数をエクスポートしてください。"
+
+#: ../../admin-manual/installation/upgrading.rst:383
+msgid "The tarball is missing three required files for this:"
+msgstr "このためには、tarballが3つの必要なファイルを欠いています。"
+
+#: ../../admin-manual/installation/upgrading.rst:385
+msgid ""
+":version-"
+"ref:`package.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package.json>`"
+msgstr ""
+"以下のテキストを日本語に翻訳しています：\n"
+"\n"
+"version-ref:`package.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package.json>`"
+
+#: ../../admin-manual/installation/upgrading.rst:386
+msgid ""
+":version-ref:`package-"
+"lock.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package-"
+"lock.json>`"
+msgstr ""
+"以下のテキストを日本語に翻訳します。\n"
+"\n"
+":version-ref:`package-lock.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package-lock.json>`\n"
+"\n"
+"翻訳結果：\n"
+"\n"
+":version-ref:`package-lock.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package-lock.json>`"
+
+#: ../../admin-manual/installation/upgrading.rst:387
+msgid ""
+":version-ref:`webpack.config.js "
+"<https://github.com/artefactual/atom/blob/stable/{version}.x/webpack.config.js>`"
+msgstr ""
+":version-ref:`webpack.config.js "
+"<https://github.com/artefactual/atom/blob/stable/{version}.x/webpack.config.js>`"
+
+#: ../../admin-manual/installation/upgrading.rst:389
+msgid ""
+"Copy the above files from the *correct stable branch* (stable/|version|.x "
+"for AtoM |version|) of our `AtoM repo "
+"<https://github.com/artefactual/atom/>`_."
+msgstr ""
+"上記のファイルを、私たちの `AtoMリポジトリ <https://github.com/artefactual/atom/>`_ "
+"の*正しい安定版ブランチ*（AtoM |version|の場合は stable/|version|.x）からコピーしてください。"
+
+#: ../../admin-manual/installation/upgrading.rst:392
+msgid "Test that everything has been installed correctly:"
+msgstr "正しく全てがインストールされているかテストしてください："
+
+#: ../../admin-manual/installation/upgrading.rst:399
+msgid ""
+"If you encounter any issues at this point, we recommend resolving them by "
+"consulting the :ref:`maintenance-troubleshooting` documentation before "
+"continuing."
+msgstr ""
+"この段階で何か問題に遭遇した場合、続行する前に`:ref:`maintenance-troubleshooting` "
+"ドキュメントを参照して、それらを解決することをお勧めします。"
+
+#: ../../admin-manual/installation/upgrading.rst:403
+msgid "Rebuild BS5 theme assets:"
+msgstr "BS5テーマアセットを再構築する："
+
+#: ../../admin-manual/installation/upgrading.rst:413
+msgid ""
+"If you are still not seeing your changes take effect, remember to "
+":ref:`clear the Symfony cache <maintenance-clear-cache>` and your web "
+"browser's cache as well!"
+msgstr ""
+"変更が反映されていない場合は、Symfony キャッシュを :ref:`クリア<maintenance-clear-cache>` "
+"することを忘れずに、また、Webブラウザのキャッシュもクリアしてください！"
+
+#: ../../admin-manual/installation/upgrading.rst:419
+msgid "Bootstrap 2"
+msgstr ""
+"「Bootstrap "
+"2」はおそらくWeb開発のフレームワークであるBootstrapのバージョン2を指しています。しかし、これが文脈にどう関係しているのかが不明です。あなたが「Archivematicaに関するドキュメントを翻訳する」という要求に基づいて具体的な文脈を提供していただければ、より適切な日本語訳を提供できると思います。ただし、このフレーズ自体は特定の製品名を指しており、そのため通常は翻訳されません。日本語のドキュメントでは、そのまま「Bootstrap"
+" 2」と表記されることが一般的です。"
+
+#: ../../admin-manual/installation/upgrading.rst:423
+msgid ""
+"Bootstrap 2 themes have been deprecated and will be removed in a future "
+"release. Please consider switching to a Bootstrap 5 theme."
+msgstr ""
+"Bootstrap 2 のテーマは非推奨となり、将来のリリースで削除されます。Bootstrap 5 のテーマに切り替えることを検討してください。"
+
+#: ../../admin-manual/installation/upgrading.rst:426
+msgid ""
+"Specifically, :ref:`job-details` may not appear properly styled in a custom "
+"theme without an additional step. To ensure your Jobs pages properly inherit"
+" the base Dominion theming, you will need to add a call to import the "
+"``jobs.less`` CSS file to your theme plugin's ``main.less`` file. If you "
+"have followed our recommendations for creating a theme plugin, then you "
+"should find the ``main.less`` file for your plugin in "
+"``plugins/yourThemePluginName/css/main.less``. Here is an example of where "
+"you need to add a line in the ArchivesCanada theme plugin:"
+msgstr ""
+"特に、追加の手順を踏まなければ、カスタムテーマで `job-details` "
+"のスタイルが正しく表示されない場合があります。ジョブページが基本のDominionテーマを正しく継承するようにするためには、テーマプラグインの "
+"``main.less`` ファイルに ``jobs.less`` "
+"CSSファイルをインポートするための呼び出しを追加する必要があります。テーマプラグインを作成する際に私たちが推奨する手順に従っていれば、プラグインの "
+"``main.less`` ファイルは ``plugins/yourThemePluginName/css/main.less`` "
+"にあります。以下は、ArchivesCanadaテーマプラグインに行を追加する必要がある例です："
+
+#: ../../admin-manual/installation/upgrading.rst:435
+msgid ""
+"https://github.com/artefactual/atom/blob/HEAD/plugins/arArchivesCanadaPlugin/css/main.less#L78"
+msgstr ""
+"GitHub上のリンクを直接翻訳することはできませんが、提示されたテキストはURLであり、それが指し示しているのは、GitHub上でホストされているArtefactual社のArchivematica関連のプロジェクトである AtoM (Access to Memory) の一部のリポジトリ内に存在する特定のファイルと行番号を示しています。\n"
+"\n"
+"このURLが示しているのは、'arArchivesCanadaPlugin' という名称のプラグインに関連するCSSファイル（'main.less'）の78行目です。ただし、これは実際のテキスト内容ではなく、その場所にアクセスして具体的なコードやコメントを見る必要があります。したがって、翻訳するべき具体的なテキストが提供されていません。 \n"
+"\n"
+"要約すると、このURLの翻訳は:\n"
+"\n"
+"「GitHub上のArtefactualのAtoMプロジェクト内、\"arArchivesCanadaPlugin\" というプラグインのCSSファイル (\"main.less\") の78行目を指しています。」"
+
+#: ../../admin-manual/installation/upgrading.rst:437
+msgid "The line you will need to add is to import the base Jobs CSS, like so:"
+msgstr "追加する必要があります行は、ベースのジョブCSSを次のようにインポートすることです："
+
+#: ../../admin-manual/installation/upgrading.rst:443
+msgid ""
+"Additionally, if you intend to use AtoM's :ref:`privacy-notification` "
+"feature with a custom theme, and you have customized the "
+"``scaffolding.less`` file, you may need to update it. Changes are identified"
+" `here <https://goo.gl/d6HVVf>`__. If the theme has been customized, but the"
+" ``scaffolding.less`` file is being referenced from the ``arDominionPlugin``"
+" theme then no modifications are required. You should also check if "
+"``_header.php`` has been overridden in your custom theme. If so, the change "
+"highlighted in `this issue "
+"<https://github.com/artefactual/atom/commit/c65e84e809a5760c9814f8117a291bdb9a7491da#diff-e3a653026878cbc4745a5526934888d7R3>`__"
+" needs to be added to your custom ``_header.php`` file."
+msgstr ""
+"さらに、カスタムテーマを用いたAtoMの`:ref:`privacy-"
+"notification`機能を使用する予定があり、``scaffolding.less``ファイルをカスタマイズしている場合、更新が必要になるかもしれません。変更点は`こちら"
+" "
+"<https://goo.gl/d6HVVf>`__で確認できます。テーマがカスタマイズされているが、``scaffolding.less``ファイルが``arDominionPlugin``テーマから参照されている場合は変更の必要はありません。また、カスタムテーマ内で``_header.php``が上書きされているかどうかも確認してください。そうである場合には、`この問題"
+" "
+"<https://github.com/artefactual/atom/commit/c65e84e809a5760c9814f8117a291bdb9a7491da#diff-e3a653026878cbc4745a5526934888d7R3>`__で強調表示された変更をカスタムの``_header.php``ファイルに追加する必要があります。"
+
+#: ../../admin-manual/installation/upgrading.rst:453
+msgid ""
+"Finally, if your custom theme includes modifications to the static page "
+"files ``homeSuccess.php`` and ``indexSuccess.php`` (for example, if your "
+"theme includes a **custom homepage**), then you will also need to ensure "
+"that when displaying the page content, ``render_value`` calls in these files"
+" are updated to ``render_value_html``."
+msgstr ""
+"最後に、お客様のカスタムテーマに静的ページファイル ``homeSuccess.php`` と ``indexSuccess.php`` "
+"（例えば、テーマが**カスタムホームページ**を含む場合）への変更が含まれている場合、ページ内容を表示する際に、これらのファイル内の "
+"``render_value`` の呼び出しが ``render_value_html`` に更新されていることを確認する必要があります。"
+
+#: ../../admin-manual/installation/upgrading.rst:459
+msgid ""
+"Specifically, your modified files should be updated to match these lines:"
+msgstr "特に、修正されたファイルはこれらの行に合わせて更新されるべきです："
+
+#: ../../admin-manual/installation/upgrading.rst:461
+msgid ""
+"Line 18 in `indexSuccess.php "
+"<https://github.com/artefactual/atom/blob/HEAD/apps/qubit/modules/staticpage/templates/indexSuccess.php#L18>`__"
+msgstr ""
+"この行は、Archivematicaとは直接関連していませんが、AtoM (Access to Memory) ウェブアプリケーションのリポジトリのファイルを指しています。それでも、ご要望にしたがって、指定されたテキストを日本語に翻訳いたします。\n"
+"\n"
+"日本語訳:\n"
+"`indexSuccess.php <https://github.com/artefactual/atom/blob/HEAD/apps/qubit/modules/staticpage/templates/indexSuccess.php#L18>`__の18行目"
+
+#: ../../admin-manual/installation/upgrading.rst:463
+msgid ""
+"Line 28 in `homeSuccess.php "
+"<https://github.com/artefactual/atom/blob/HEAD/apps/qubit/modules/staticpage/templates/homeSuccess.php#L28>`__"
+msgstr ""
+"「homeSuccess.php」ファイルの28行目にあたる以下のテキストを日本語に翻訳します。\n"
+"\n"
+"```\n"
+"Line 28 in `homeSuccess.php <https://github.com/artefactual/atom/blob/HEAD/apps/qubit/modules/staticpage/templates/homeSuccess.php#L28>`__\n"
+"```\n"
+"\n"
+"日本語に翻訳して以下のようになります。\n"
+"\n"
+"```\n"
+"`homeSuccess.php` の 28行目 `<https://github.com/artefactual/atom/blob/HEAD/apps/qubit/modules/staticpage/templates/homeSuccess.php#L28>`__\n"
+"```"
+
+#: ../../admin-manual/installation/upgrading.rst:467
+msgid "Recompiling after making modifications"
+msgstr "変更を加えた後の再コンパイル"
+
+#: ../../admin-manual/installation/upgrading.rst:469
+msgid ""
+"After making any necessary updates to your custom theme, you should rebuild "
+"the CSS for the custom theme plugin, using the ``make`` command. Here is an "
+"example of rebuilding the CSS for the ArchivesCanada theme - you can swap in"
+" the name of your plugin:"
+msgstr ""
+"必要な更新をカスタムテーマに加えた後、``make`` "
+"コマンドを使ってカスタムテーマプラグインのCSSを再構築するべきです。以下はArchivesCanadaテーマのCSSを再構築する例ですが、プラグインの名前をご自身のものに置き換えることができます："
+
+#: ../../admin-manual/installation/upgrading.rst:478
+msgid ""
+"You will also want to clear the application cache, and restart PHP-FPM."
+msgstr "アプリケーションのキャッシュをクリアしてから、PHP-FPMを再起動することも必要です。"
+
+#: ../../admin-manual/installation/upgrading.rst:480
+msgid "To clear the application cache:"
+msgstr "アプリケーションキャッシュをクリアするには："
+
+#: ../../admin-manual/installation/upgrading.rst:486
+msgid "For more information, see: :ref:`maintenance-clear-cache`."
+msgstr "詳細については、以下を参照してください: :ref:`maintenance-clear-cache`。"
+
+#: ../../admin-manual/installation/upgrading.rst:488
+msgid "To restart PHP-FPM:"
+msgstr "PHP-FPMを再起動するには："
+
+#: ../../admin-manual/installation/upgrading.rst:494
+msgid "If you are using Memcached with AtoM, you may also want to restart it:"
+msgstr "AtoMをMemcachedと一環して使用している場合は、これも再起動することをお勧めします:"
+
+#: ../../admin-manual/installation/upgrading.rst:502
+msgid ""
+"If you are still not seeing your changes take effect, remember to clear your"
+" web browser's cache as well!"
+msgstr "変更がまだ反映されていない場合は、ウェブブラウザのキャッシュもクリアすることを忘れないでください！"
+
+#: ../../admin-manual/installation/upgrading.rst:506
+msgid "Start using the software!"
+msgstr "ソフトウェアの使用を開始してください！"
+
+#: ../../admin-manual/installation/upgrading.rst:508
+msgid ""
+"Congratulations! If you are reading this, it means that you have upgraded "
+"your data successfully. Now please check that everything is working fine."
+msgstr ""
+"おめでとうございます！これをお読みになっているということは、データのアップグレードに成功したということです。今は全てが正常に機能しているかどうかを確認してください。"
+
+#: ../../admin-manual/installation/upgrading.rst:513
+msgid ""
+"Before you put your site in production again, please take a look at your "
+"data and check that everything looks good and the data has imported "
+"correctly. We will continue to refine this documentation over time to make "
+"the upgrade process as smooth as possible, but we still think it is always "
+"important to double-check your work. Let us know if you encounter any "
+"problems!"
+msgstr ""
+"本番環境にサイトを再投入する前に、データを確認し、すべてが適切で、データが正しくインポートされていることを確認してください。私たちは時間をかけてこのドキュメントを洗練させ、アップグレードプロセスを可能な限りスムーズにするため努力を続けますが、作業をダブルチェックすることの重要性は常に認識しておくべきだと考えています。何か問題に遭遇した場合は、お知らせください！"
+
+#: ../../admin-manual/installation/upgrading.rst:521
+msgid ":ref:`Back to top <installation-upgrading>`"
+msgstr "`:ref:`トップに戻る <installation-upgrading>`"

@@ -1,0 +1,984 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/import-export/export-xml.rst:5
+msgid "Export XML"
+msgstr "XMLをエクスポート"
+
+#: ../../user-manual/import-export/export-xml.rst:10
+msgid ""
+"AtoM provides an export functionality that can be used to export "
+":term:`archival descriptions <archival description>` and :term:`authority "
+"records <authority record>` as XML data."
+msgstr ""
+"AtoMは、`アーカイブ記述<archival description>`と`権威記録<authority "
+"record>`をXMLデータとしてエクスポートするために使用できるエクスポート機能を提供しています。"
+
+#: ../../user-manual/import-export/export-xml.rst:14
+msgid "The following file types can be exported:"
+msgstr "以下のファイルタイプをエクスポートできます："
+
+#: ../../user-manual/import-export/export-xml.rst:16
+msgid "EAD 2002 XML (hierarchical archival descriptions)"
+msgstr "EAD 2002 XML（階層的なアーカイブ記述）"
+
+#: ../../user-manual/import-export/export-xml.rst:17
+msgid "Dublin Core XML, MODS XML (individual archival descriptions)"
+msgstr "ダブリンコアXML、MODS XML（個々のアーカイブ記述）"
+
+#: ../../user-manual/import-export/export-xml.rst:18
+msgid "EAC-CPF XML (authority records)"
+msgstr "EAC-CPF XML（権威レコード）"
+
+#: ../../user-manual/import-export/export-xml.rst:20
+msgid ""
+"In addition to individually exporting records from the :term:`view page` of "
+"the associated record, users can also export multiple records at once by "
+"first adding them to the :term:`clipboard` and then using the export options"
+" available there. Each export option will be explained below."
+msgstr ""
+"関連するレコードの:term:`view "
+"page`から個々のレコードをエクスポートすることに加えて、ユーザーはまずそれらを:term:`clipboard`に追加し、そこで利用可能なエクスポートオプションを使用することによって、複数のレコードを一度にエクスポートすることもできます。以下に各エクスポートオプションを説明します。"
+
+#: ../../user-manual/import-export/export-xml.rst:25
+msgid "**Jump to:**"
+msgstr "**移動先:**"
+
+#: ../../user-manual/import-export/export-xml.rst:27
+msgid ":ref:`ead-export-view`"
+msgstr ""
+":ref:`ead-export-view` の部分は、マークアップで参照リンクを指定しているテキストの一部であり、直訳は通常行われません。しかし、翻訳者がこれを適切に日本語の文脈に組み込む必要があります。「EADエクスポートビュー」などと訳すことができますが、実際の翻訳では参照している資料やコンテキストに応じて適切な表現で置き換えるべきです。\n"
+"\n"
+"もし、それが日本語のドキュメント内で参照される場合は、リンクのラベルを日本語に翻訳し、適切な日本語のドキュメントセクションへリンクが指向するように確認する必要があります。\n"
+"\n"
+"例えば:\n"
+"`EADエクスポートの表示 <ead-export-view>`_\n"
+"\n"
+"この例では、`EADエクスポートの表示`がリンクの新しいラベルであり、`ead-export-view`は参照先のセクションの名称です。翻訳時には、参照リンクが機能するように正しく置き換える必要があります。"
+
+#: ../../user-manual/import-export/export-xml.rst:28
+msgid ":ref:`dc-export-view`"
+msgstr ""
+":ref:`dc-export-view` の部分は、おそらくSphinxドキュメントジェネレータで使用されるラベル参照であることを考慮すると、直接的な翻訳は不要です。このような参照はテキスト内の特定の部分に対するリンクとして機能し、翻訳する際には、参照されているセクションのタイトルが何であるかを考慮しながらコンテキストに合わせて訳出する必要があります。しかし、具体的な文脈が提供されていないため、正確な日本語のセクションタイトルを提供することはできません。\n"
+"\n"
+"仮に \"dc-export-view\" が \"Dublin Core Export View\" のようなものを指しているとすれば、それは「ダブリン・コア・エクスポート・ビュー」として訳される可能性があります。\n"
+"\n"
+"ただし、元のテキストが単に参照リンクを示している場合、そのまま `:ref:`dc-export-view`` と記載し、翻訳の必要はありません。翻訳作業者はドキュメントの他の部分を見て、適切なタイトルに置き換えるかどうかを判断する必要があります。"
+
+#: ../../user-manual/import-export/export-xml.rst:29
+msgid ":ref:`mods-export-view`"
+msgstr ""
+"`:ref:`mods-export-view`は特定のドキュメントやソフトウェア内で参照を示しているマークアップです。このテキストが直接の翻訳対象ではなく、翻訳する際は文脈やこの参照が指している具体的なセクションや機能を理解し、適合する日本語のセクション名や機能名に置き換える必要があります。しかし、仮にこの参照そのものが翻訳対象だとすれば、以下のようになります：\n"
+"\n"
+"`:ref:`mods-export-view（MODSエクスポートビュー）`\n"
+"\n"
+"日本語でのドキュメントやソフトウェアの界面において、適切な名称があれば、それに合わせて変更する必要があります。なお、コロン（:）、バッククォート（`）やrefと言ったマークアップ関連の記号は、ドキュメントの構造に必要なものなので、原文のフォーマットを保持します。"
+
+#: ../../user-manual/import-export/export-xml.rst:30
+msgid ":ref:`eac-export-view`"
+msgstr ""
+"Since \":ref:`eac-export-view`\" appears to be a reference label used in documentation, it might link to a specific section that discusses the \"EAC (Encoded Archival Context) export view\" or similar content. However, without additional context, it's not exactly clear what the translated text should detail beyond this reference label. If we need to translate the reference label itself, it could be something that does not typically get translated because it represents a specific code element in the documentation source files. \n"
+"\n"
+"If required to provide a translation that maintains the integrity of the reference link while offering a hint to the Japanese reader about what it might link to, you could write something like this:\n"
+"\n"
+"```\n"
+":ref:`eac-export-view（EACエクスポートビュー）`\n"
+"```\n"
+"\n"
+"This will keep the original reference label intact for functionality within the documentation and provide a parenthetical translation of what the English might mean."
+
+#: ../../user-manual/import-export/export-xml.rst:31
+msgid ":ref:`xml-export-clipboard`"
+msgstr ""
+"このテキストは特定の文書の一部分（参照ラベル）を示していますが、文脈が不足しているため、直接的な日本語翻訳は提供できません。ただし、この参照が指しているであろうセクションのタイトルを翻訳することは可能です。仮にセクションのタイトルが \"XML Export Clipboard\" だとするならば、それは日本語に次のように翻訳できます：\n"
+"\n"
+"```\n"
+"XMLエクスポートクリップボード\n"
+"```\n"
+"参照ラベル自体（`:ref:`xml-export-clipboard`）は、マークアップ言語で文献内の特定の部分にリンクするためのものであり、通常は翻訳されません。しかし、文書内で参照されている対象（例えばヘルプセクションや命令セット）に基づいて、適切な日本語のセクション名に置き換えることがあるでしょう。"
+
+#: ../../user-manual/import-export/export-xml.rst:36
+msgid ":ref:`cli-bulk-export`"
+msgstr ""
+":ref:`cli-bulk-export` というテキスト自体は、おそらく文書内で特定の部分にリンクするための参照タグです。このタグは、特定のセクションやページへの参照（リンク）を示しているので、直接的な翻訳は不要です。しかし、もし「CLI Bulk Export」というセクションのタイトルを翻訳する必要がある場合は、次のようになります：\n"
+"\n"
+"`CLI一括エクスポート`"
+
+#: ../../user-manual/import-export/export-xml.rst:37
+msgid ":ref:`csv-export`"
+msgstr ""
+":ref:`csv-export` の部分は、おそらく特定のドキュメントの内部参照を示しています。これを直接的な日本語に翻訳することはできませんが、参照されているセクションが \"CSV Export\" というタイトルであると仮定すると、以下のように訳すことができます。\n"
+"\n"
+"```\n"
+":ref:`csvエクスポート`\n"
+"```\n"
+"\n"
+"これは、ドキュメント内の「CSVエクスポート」という部分へのリンクを意味します。ただし、実際のドキュメントのコンテキストや使用しているマークアップ言語に応じて、参照の正確な形式が異なる可能性があります。たとえば、Sphinx などのドキュメントツールを使用している場合、特定の参照構文が求められます。"
+
+#: ../../user-manual/import-export/export-xml.rst:38
+msgid ":ref:`import-export-skos`"
+msgstr ""
+":ref:`import-export-skos`は特定の参照やコマンド、セクション等を指している可能性があるため、適切な翻訳を行うには文脈が必要です。しかしながら、これが単なる節のタイトルやラベルの場合、それをそのまま日本語に置き換えることはできません。原文のまま使用され、文書の該当部分へのリンクを維持します。\n"
+"\n"
+"ただし、もしこのラベルが文脈内で直訳が可能なタイトルとして使用されている場合、「SKOSのインポートとエクスポート」または「SKOSの輸入と輸出」というように翻訳することもできます。この場合、SKOSは「Simple Knowledge Organization System（シンプル知識組織システム）」の略で、知識管理で使われるコンセプトです。ただし、ファイルやコマンドのラベル、ツールの名前など特定の固有名詞が含まれる場合、それらは通常翻訳されません。"
+
+#: ../../user-manual/import-export/export-xml.rst:39
+#: ../../user-manual/import-export/export-xml.rst:311
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイバル記述`"
+
+#: ../../user-manual/import-export/export-xml.rst:40
+#: ../../user-manual/import-export/export-xml.rst:312
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権限記録`"
+
+#: ../../user-manual/import-export/export-xml.rst:41
+#: ../../user-manual/import-export/export-xml.rst:328
+msgid ":ref:`clipboard`"
+msgstr ""
+"`:ref:`clipboard`` は、特定の文脈に基づいて岐路に立たされているため、直接的な日本語訳を提供するのが困難です。しかし、通常、このようなテキストは技術文書内で参照リンクを指示するために使用されるマークアップです。マークアップ自体に直接的な意味は無いため、その機能を説明する文脈がなければ、そのままの形で維持するのが適切です。\n"
+"\n"
+"もし、`:ref:`clipboard`` が文脈の中でArchivematicaのユーザーインターフェイス内の「クリップボード」機能の説明を指している場合には、その部分は日本語で「クリップボード」と訳せるでしょう。\n"
+"\n"
+"参照リンクとしての使用例を以下に示しますが、これは文脈に依存しますので、ここでの例が実際の文書の使用法と異なる可能性があります。\n"
+"\n"
+"英語の文書内での使用例:\n"
+"``For more details, see the Clipboard section (:ref:`clipboard`).``\n"
+"\n"
+"これを仮に日本語に翻訳すると以下のようになるでしょう:\n"
+"``詳細については、クリップボードのセクションをご覧ください（:ref:`クリップボード`）。``\n"
+"\n"
+"ただし、実際にこのテキストを翻訳する場合は、参照リンクの実際の扱いとArchivematicaの文書のスタイルガイドに従う必要があります。"
+
+#: ../../user-manual/import-export/export-xml.rst:42
+#: ../../user-manual/import-export/export-xml.rst:329
+msgid ":ref:`manage-jobs`"
+msgstr ""
+"このテキストはSphinxドキュメンテーションジェネレータのクロスリファレンス記号です。日本語に直訳する場合は参照リンクのタイトルに依存し、そのタイトルが提供されていないため、文字通りには翻訳できません。しかし、一般的な参照リンクを示す場合は以下のように翻訳することができます。\n"
+"\n"
+":ref:`ジョブの管理`\n"
+"\n"
+"これは実際の日本語訳の文脈に依存して、適切なタイトルに置き換える必要があります。また、実際のドキュメントで使用するには、正確なセクションタイトルやラベルが必要となります。"
+
+#: ../../user-manual/import-export/export-xml.rst:47
+msgid "EAD export from an archival description view page"
+msgstr "アーカイブ記述ビューページからのEADエクスポート"
+
+#: ../../user-manual/import-export/export-xml.rst:49
+msgid ""
+"All users can export EAD 2002 XML from the :term:`view page` of an "
+":term:`archival description`, via the export links available in the right-"
+"hand :term:`context menu`. For more information on the context menu and "
+"archival descriptions, see :ref:`Context menu <context-menu-descriptions>`."
+msgstr ""
+"すべてのユーザーは、:term:`アーカイブ記述`の:term:`ビューページ`から、右側の:term:`コンテキストメニュー`で利用可能なエクスポートリンクを介して、EAD"
+" 2002 XMLをエクスポートすることができます。コンテキストメニューおよびアーカイブ記述に関する詳細情報については、:ref:`コンテキストメニュー"
+" <context-menu-descriptions>`を参照してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Export EAD file from archival description page."
+msgstr "アーカイブ記述ページからEADファイルをエクスポートします。"
+
+#: ../../user-manual/import-export/export-xml.rst:59
+msgid ""
+"In the :term:`archival description` :term:`view page`, select EAD 2002 XML "
+"under Export. This will export the current archival description plus all its"
+" :term:`child records <child record>`."
+msgstr ""
+"アーカイブ記述のビューページで、「エクスポート」の下にある「EAD 2002 "
+"XML」を選択してください。これにより、現在のアーカイブ記述とそのすべての子レコードがエクスポートされます。"
+
+#: ../../user-manual/import-export/export-xml.rst:63
+msgid ""
+"By default, the export is created on-request via the web browser. However, "
+"for large hierarchies, this can lead to timeout issues in the browser before"
+" the full EAD 2002 XML file can be generated."
+msgstr ""
+"デフォルトでは、エクスポートはウェブブラウザを通じて要求された時に作成されます。しかし、大規模な階層に対しては、完全なEAD 2002 "
+"XMLファイルが生成される前に、ブラウザでタイムアウト問題が発生する可能性があります。"
+
+#: ../../user-manual/import-export/export-xml.rst:69
+#: ../../user-manual/import-export/export-xml.rst:167
+msgid ""
+"An :term:`administrator` does have the option of turning on a setting that "
+"will generate the XML for archival descriptions in advance on save, so that "
+"large files can be served up without needing to be generated on the fly. "
+"There is also a command-line task that will allow a system administator to "
+"generate cached XML for all existing descriptions."
+msgstr ""
+"管理者は、保存時にあらかじめアーカイブ記述用のXMLを生成する設定を有効にするオプションがあります。これにより、大きなファイルも即時生成することなく提供することができます。また、システム管理者が既存のすべての記述のキャッシュされたXMLを生成することを可能にするコマンドラインタスクもあります。"
+
+#: ../../user-manual/import-export/export-xml.rst:75
+#: ../../user-manual/import-export/export-xml.rst:173
+msgid ""
+"Note that pre-generated, cached XML files never contain :term:`draft <draft "
+"record>` descriptions."
+msgstr ""
+"生成済みのキャッシュされたXMLファイルには、:term:`下書き<draft record>`の説明が含まれることはありませんのでご注意ください。"
+
+#: ../../user-manual/import-export/export-xml.rst:78
+#: ../../user-manual/import-export/export-xml.rst:176
+msgid "For more information, see:"
+msgstr "詳細につきましては、以下をご覧ください："
+
+#: ../../user-manual/import-export/export-xml.rst:80
+#: ../../user-manual/import-export/export-xml.rst:178
+msgid ":ref:`cache-xml-setting`"
+msgstr "`:ref:`cache-xml-setting`（キャッシュXML設定）"
+
+#: ../../user-manual/import-export/export-xml.rst:81
+#: ../../user-manual/import-export/export-xml.rst:179
+msgid ":ref:`cache-xml-cli`"
+msgstr ""
+":ref:`cache-xml-cli` (この参照リンクは特定の文書のセクションを指していますが、その具体的なタイトルはテキストに含まれていないため、正確な日本語の訳出は行えません。翻訳時には文書のコンテキストに従ったタイトルに置き換える必要があります。以下は一般的な訳例です。)\n"
+"\n"
+":ref:`キャッシュ-XML-CLI` \n"
+"\n"
+"実際の文書内でこれが参照しているセクションのタイトルに合わせて、上記の訳を適宜修正してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:83
+msgid ""
+"Public users will not see :term:`draft <draft record>` descriptions in the "
+"EAD XML provided. For authenticated (i.e. logged in) users, all descriptions"
+" will be included in the EAD 2002 XML export from the description view page,"
+" regardless of publication status."
+msgstr ""
+"公開ユーザーには、提供されるEAD "
+"XMLに「下書き<下書き記録>」の記述が表示されません。認証された（つまりログイン済みの）ユーザーの場合、公開状態に関わらず、説明表示ページからのEAD"
+" 2002 XMLエクスポートにすべての記述が含まれます。"
+
+#: ../../user-manual/import-export/export-xml.rst:88
+msgid ""
+"Additionally, if an :term:`administrator` has used the :term:`visible "
+"elements` to hide the display of :term:`physical storage` data, then this "
+"information will also be excluded from public EAD 2002 XML exports."
+msgstr ""
+"さらに、:term:`管理者`が :term:`表示要素` を使用して :term:`物理的保管` データの表示を隠している場合、この情報は公開される "
+"EAD 2002 XML エクスポートからも除外されます。"
+
+#: ../../user-manual/import-export/export-xml.rst:94
+msgid ""
+"The :ref:`inherit-reference-code` setting also determines how the "
+"``<unitid>`` element in the EAD XML is populated. If the inheritance is "
+"turned on, then AtoM will populate all descendant records in the EAD XML "
+"with the full inherited reference code. If inheritance is turned off, AtoM "
+"will only add the identifier for that record in the ``<unitid>`` on export. "
+"This allows users exporting to a different source system that does not have "
+"a reference code inheritance setting to maintain a full reference code at "
+"all levels in the target system. **However, if you are exporting from one "
+"AtoM instance to another** (for example, from a local institution to a "
+"portal site), you might want to consider how this will impact your record "
+"display in the target system - if you have reference code inheritance turned"
+" on when you export, and the target AtoM instance *also* has the setting "
+"turned on, you may end up with duplication in the display!"
+msgstr ""
+"「:ref:`inherit-reference-code` 設定は、EAD XML内の ``<unitid>`` "
+"要素の埋められ方も決定します。継承がオンになっている場合、AtoMはEAD "
+"XMLのすべての子孫レコードに、完全に継承された参照コードを埋め込みます。継承がオフになっている場合、AtoMはエクスポート時にそのレコードの識別子のみを"
+" ``<unitid>`` "
+"に追加します。これにより、参照コードの継承設定がない別のソースシステムにエクスポートするユーザーは、ターゲットシステムのすべてのレベルで完全な参照コードを維持することができます。**ただし、あるAtoMインスタンスから別のAtoMインスタンスへエクスポートする場合**（例えば、地域の機関からポータルサイトへ）、ターゲットシステムでのレコード表示にどのような影響があるかを考慮することをお勧めします"
+" - "
+"エクスポート時に参照コードの継承をオンにして、ターゲットAtoMインスタンスが*同じく*その設定をオンにしている場合、表示において重複が発生する可能性があります！"
+
+#: ../../user-manual/import-export/export-xml.rst:108
+msgid "**To export EAD 2002 XML from an archival description view page**"
+msgstr "**アーカイブ記述ビューページからEAD 2002 XMLをエクスポートするには**"
+
+#: ../../user-manual/import-export/export-xml.rst:110
+#: ../../user-manual/import-export/export-xml.rst:183
+msgid ""
+"Navigate to the :term:`archival unit` you wish to export. You  can do this "
+"by :ref:`browsing <browse>` or :ref:`searching <search-atom>` for the "
+":term:`archival description` - see :ref:`access-content` for more "
+"information on navigation in AtoM."
+msgstr ""
+"アーカイブ単位のエクスポートを希望する場合、:term:`archival unit` に移動します。これを行うには、:ref:`閲覧<browse>`"
+" または :term:`archival description` に対する :ref:`検索<search-atom>` を利用できます - "
+"AtoMでのナビゲーション方法についての詳細は :ref:`access-content` をご覧ください。"
+
+#: ../../user-manual/import-export/export-xml.rst:114
+#: ../../user-manual/import-export/export-xml.rst:187
+msgid ""
+"On the view page of the top-level :term:`archival description` for the "
+"hierarchy you wish to export, locate the Export links in the right-hand "
+":term:`context menu`."
+msgstr ""
+"階層構造の最上位に位置する :term:`アーカイブ記述` の表示ページにて、エクスポートしたい階層を選択します。右側にある "
+":term:`コンテキストメニュー` 内のエクスポートリンクを探してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:117
+msgid "Click the export option for \"EAD 2002 XML\"."
+msgstr "「EAD 2002 XML」のエクスポートオプションをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Export button for EAD 2002 XML on the archival description view page"
+msgstr "アーカイブ記述ビューページのEAD 2002 XMLエクスポートボタン"
+
+#: ../../user-manual/import-export/export-xml.rst:124
+msgid ""
+"AtoM will reload the page, and present you with the EAD 2002 XML data. To "
+"save the data locally, right-click on the page and use the \"Save as\" "
+"option in your web browser."
+msgstr ""
+"AtoMはページを再読み込みし、EAD "
+"2002のXMLデータを表示します。このデータをローカルに保存するには、ページ上で右クリックをして、ウェブブラウザーの「名前をつけて保存」オプションを使用してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:130
+#: ../../user-manual/import-export/export-xml.rst:203
+msgid ""
+"We have noticed that in some cases the Safari browser will only save as "
+"HTML. Try using Firefox, IE, or Chrome to \"Save page as\" XML."
+msgstr ""
+"私たちは、Safariブラウザを使用していると、一部のケースでHTMLとしてのみ保存されることに気づきました。XMLとして「ページを名前を付けて保存」するために、Firefox、IE、またはChromeの使用を試みてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:133
+#: ../../user-manual/import-export/export-xml.rst:206
+#: ../../user-manual/import-export/export-xml.rst:288
+msgid "To exit the XML export file, click on your browser's back button."
+msgstr "XMLエクスポートファイルを終了するには、ブラウザの「戻る」ボタンをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:135
+#: ../../user-manual/import-export/export-xml.rst:208
+#: ../../user-manual/import-export/export-xml.rst:290
+#: ../../user-manual/import-export/export-xml.rst:505
+#: ../../user-manual/import-export/export-xml.rst:537
+msgid ":ref:`Back to top <export-xml>`"
+msgstr ":ref:`トップに戻る <export-xml>`"
+
+#: ../../user-manual/import-export/export-xml.rst:140
+msgid "Dublin Core XML export from an archival description view page"
+msgstr "アーカイブ記述ビューページからのダブリンコアXMLエクスポート"
+
+#: ../../user-manual/import-export/export-xml.rst:142
+msgid ""
+"In addition to supporting EAD 2002 XML exports from the :term:`view page` of"
+" an :term:`archival description`, AtoM can also export individual records in"
+" DC XML format."
+msgstr ""
+"アーカイブ記述の「ビューページ」からEAD 2002 XMLのエクスポートに加えて、AtoMは個々のレコードをDC "
+"XML形式でエクスポートすることもできます。"
+
+#: ../../user-manual/import-export/export-xml.rst:146
+msgid ""
+"In the :term:`archival description` :term:`view page`, select Dublin Core "
+"1.1 XML under Export. This will export the current archival description as "
+"DC XML."
+msgstr ""
+"アーカイブ記述ビューページで、エクスポートの下にあるDublin Core 1.1 XMLを選択してください。これにより、現在のアーカイブ記述がDC "
+"XMLとしてエクスポートされます。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Export Dublin Core file from archival description page."
+msgstr "アーカイブ記述ページからダブリンコアファイルをエクスポートします。"
+
+#: ../../user-manual/import-export/export-xml.rst:156
+msgid ""
+"The DC XML export is **not hierarchical** - that is, :term:`child records "
+"<child record>` and lower descendants (such as series and items beneath a "
+"collection) will not be included in the DC XML export of a top-level "
+"description. To capture the full hierarchy of an :term:`archival unit`, we "
+"recommend using the EAD 2002 XML export. See :ref:`above <ead-export-view>` "
+"for more information."
+msgstr ""
+"DC XMLエクスポートは**階層型ではありません**。つまり、:term:`子レコード<child "
+"record>`やそれ以下の下位の子孫（コレクションの下にあるシリーズやアイテムなど）は、トップレベルの記述のDC "
+"XMLエクスポートには含まれません。:term:`アーカイブ単位`の完全な階層をキャプチャするには、EAD 2002 "
+"XMLエクスポートの使用を推奨します。詳細については、:ref:`上記<ead-export-view>`を参照してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:163
+msgid "By default, the export is created on-request via the web browser."
+msgstr "デフォルトでは、エクスポートはウェブブラウザを介してリクエストに応じて作成されます。"
+
+#: ../../user-manual/import-export/export-xml.rst:181
+msgid "**To export DC XML from an archival description view page**"
+msgstr "**アーカイブ記述ビューページからDC XMLをエクスポートするには**"
+
+#: ../../user-manual/import-export/export-xml.rst:190
+msgid "Click the export option for \"Dublin Core 1.1 XML\"."
+msgstr "「Dublin Core 1.1 XML」のエクスポートオプションをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Export button for DC XML on the archival description view page"
+msgstr "アーカイバル記述ビューページのDC XMLエクスポートボタン"
+
+#: ../../user-manual/import-export/export-xml.rst:197
+msgid ""
+"AtoM will reload the page, and present you with the DC XML data. To save the"
+" data locally, right-click on the page and use the \"Save as\" option in "
+"your web browser."
+msgstr ""
+"AtoMはページをリロードし、DC "
+"XMLデータを表示します。データをローカルに保存するには、ページ上で右クリックし、Webブラウザの「名前を付けて保存」オプションを使用します。"
+
+#: ../../user-manual/import-export/export-xml.rst:213
+msgid "MODS XML export from an archival description view page"
+msgstr "アーカイブ記述ビューページからのMODS XMLエクスポート"
+
+#: ../../user-manual/import-export/export-xml.rst:215
+msgid ""
+"If the administrator has set the default :term:`archival description` "
+"template to MODS, then a MODS XML button will also appear in the right-hand "
+":term:`context menu` as an export option. For more information on changing "
+"the display template, see:"
+msgstr ""
+"管理者がデフォルトの「アーカイバル記述」テンプレートをMODSに設定している場合、右側の「コンテキストメニュー」にもMODS "
+"XMLボタンがエクスポートオプションとして表示されます。ディスプレイテンプレートの変更方法についての詳細は以下を参照してください："
+
+#: ../../user-manual/import-export/export-xml.rst:220
+msgid ":ref:`default-templates`"
+msgstr ":ref:`デフォルトのテンプレート`"
+
+#: ../../user-manual/import-export/export-xml.rst:221
+msgid ":ref:`change-display-standard`"
+msgstr ""
+"`:ref:`change-display-standard`` は、Sphinxドキュメントジェネレーターに使用される書式です。これは他の部分の文書にリンクを作成する際に使われます。翻訳の文脈においては、具体的な文章や段落がないため、直訳することはできませんが、参照している部分のタイトルを翻訳することは可能です。\n"
+"\n"
+"もし「change-display-standard」がセクションのタイトルであれば、それを日本語に翻訳すると、「表示標準の変更」となるでしょう。しかし、このコードそのものは技術的な参照用であり、ドキュメント内では通常ユーザーには見えない形で存在しています。\n"
+"\n"
+"したがって、もし実際の文章やドキュメントのセクションを翻訳する必要がある場合、そのセクションの具体的な内容が必要になります。それに基づいて、適切な日本語訳を提供できます。"
+
+#: ../../user-manual/import-export/export-xml.rst:225
+msgid ""
+"Don't want to change the display standard to get the MODS export? You can "
+"temporarily change the view of the record by appending ``;mods`` to the URL "
+"and pressing enter. AtoM will reload the page, displaying the archival "
+"description using the MODS template, and the MODS export option should be "
+"visible."
+msgstr ""
+"MODSエクスポートを取得するために表示標準を変更したくないですか？URLの末尾に「;mods」と追加してエンターキーを押すことで、レコードの表示を一時的に変更することができます。AtoMはページを再読み込みし、MODSテンプレートを使用してアーカイブ記述を表示し、MODSエクスポートオプションが表示されるはずです。"
+
+#: ../../user-manual/import-export/export-xml.rst:231
+msgid ""
+"In the :term:`archival description` :term:`view page`, in the right-hand "
+":term:`context menu`, select MODS 3.5 XML under Export. This will export the"
+" current archival description."
+msgstr ""
+"アーカイブ説明のビューページ内で、右側のコンテキストメニューから、「エクスポート」の下にある「MODS 3.5 "
+"XML」を選択してください。これにより、現在のアーカイブ説明がエクスポートされます。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Export MODS file from archival description page."
+msgstr "アーカイブ記述ページからMODSファイルをエクスポートします。"
+
+#: ../../user-manual/import-export/export-xml.rst:242
+msgid ""
+"The MODS XML export is **not hierarchical** - that is, :term:`child records "
+"<child record>` and lower descendants (such as series and items beneath a "
+"collection) will not be included in the DC XML export of a top-level "
+"description. The titles and identifiers of immediate parent and child "
+"records will be included, but URLs to these resources are not, nor is "
+"further descriptive metadata."
+msgstr ""
+"MODS XMLエクスポートは**階層的ではありません**。つまり、`子レコード <child "
+"record>`やさらに下位の階層（コレクションの下にあるシリーズやアイテムなど）は、トップレベルの記述のDC "
+"XMLエクスポートには含まれません。直接の親レコードと子レコードのタイトルおよび識別子は含まれますが、これらのリソースへのURLやそれ以上の記述メタデータは含まれていません。"
+
+#: ../../user-manual/import-export/export-xml.rst:249
+msgid ""
+"To capture the full hierarchy of an :term:`archival unit`, we recommend "
+"using the EAD 2002 XML export. See :ref:`above <ead-export-view>` for more "
+"information."
+msgstr ""
+"アーカイブ単位（:term:`archival unit`）の完全な階層構造を捉えるには、EAD 2002 "
+"XMLエクスポートの使用を推奨します。詳細については、上記の :ref:`EAD エクスポートに関するセクション <ead-export-view>` "
+"を参照してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:256
+msgid "EAC-CPF XML export from an authority record view page"
+msgstr "権威レコードビューページからのEAC-CPF XMLエクスポート"
+
+#: ../../user-manual/import-export/export-xml.rst:258
+msgid ""
+"Metadata about actors - represented in AtoM via an :term:`authority record` "
+"- can be exported as EAC-CPF XML. For more information on working with "
+"authority records, see: :ref:`authority-records`. All users (both public and"
+" logged in) can export EAC-CPF XML data from the right-hand context menu of "
+"an authority record's :term:`view page`."
+msgstr ""
+"アクターに関するメタデータは、AtoMでは「権威記録」(:term:`authority record`)を介して表現され、EAC-CPF "
+"XMLとしてエクスポートすることができます。権威記録の操作方法の詳細については、こちらを参照してください：:ref:`authority-"
+"records`。すべてのユーザー（公開ユーザー及びログインユーザー）は、権威記録の「閲覧ページ」(:term:`view "
+"page`)の右側にあるコンテキストメニューからEAC-CPF XMLデータをエクスポートすることができます。"
+
+#: ../../user-manual/import-export/export-xml.rst:264
+msgid "**To export EAC-CPF XML from an authority record:**"
+msgstr "権威記録からEAC-CPF XMLをエクスポートするには："
+
+#: ../../user-manual/import-export/export-xml.rst:266
+msgid ""
+"Navigate to the :term:`authority record` you wish to export. You can do this"
+" by :ref:`browsing <browse>` or :ref:`searching <search-atom>` for the "
+"authority record - see :ref:`access-content` for more information on "
+"navigation in AtoM."
+msgstr ""
+"次の用語の権威レコードをエクスポートしたい場合は、その権威レコードに移動します。これは、権威レコードの閲覧や検索を行うことで実現できます - "
+"AtoMでのナビゲーションの詳細については、アクセスコンテンツのセクションを参照してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:270
+msgid ""
+"On the :term:`view page` of the authority record you wish to export, locate "
+"the Export links in the right-hand :term:`context menu`."
+msgstr "ご希望の権威レコードの「ビューページ」にて、右側の「コンテキストメニュー」で「エクスポート」リンクを探してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:272
+msgid "Click the export option for \"EAC\"."
+msgstr "\"EAC\"のエクスポートオプションをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Export EAC file from authority record page."
+msgstr "権限記録ページからEACファイルをエクスポートします。"
+
+#: ../../user-manual/import-export/export-xml.rst:279
+msgid ""
+"AtoM will reload the page, and present you with the EAC-CPF XML data. To "
+"save the data locally, right-click on the page and use the \"Save as\" "
+"option in your web browser."
+msgstr ""
+"AtoMはページを再読み込みし、EAC-CPF "
+"XMLデータを表示します。データをローカルに保存するには、ページ上で右クリックし、Webブラウザの「名前を付けて保存」オプションを使用してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:285
+msgid ""
+"We have noticed that in some cases the Safari browser will only save as "
+"HTML. Try using Firefox, Edge, or Chrome to \"Save page as\" XML."
+msgstr ""
+"私たちは、一部のケースにおいてSafariブラウザではHTMLとしてのみ保存されることに気づきました。「ページを名前をつけて保存」でXMLとして保存するには、Firefox、Edge、またはChromeの使用を試みてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:295
+msgid "Export multiple XML files using the Clipboard"
+msgstr "クリップボードを使用して複数のXMLファイルをエクスポートする"
+
+#: ../../user-manual/import-export/export-xml.rst:299
+msgid ""
+"AtoM includes a :term:`clipboard` that allows users to \"pin\" results to it"
+" for review or further action. For more information, see: :ref:`clipboard`."
+msgstr ""
+"AtoMには、ユーザーが結果をレビューやさらなるアクションのために「ピン留め」できる「クリップボード」という機能が含まれています。詳細については、次を参照してください：「クリップボード」。"
+
+#: ../../user-manual/import-export/export-xml.rst:302
+msgid ""
+"Any user can generate XML exports of :term:`Clipboard` results, where the "
+"format is supported. The XML exports, after they are generated generated, "
+"are made available for download from the :ref:`Jobs <manage-jobs>` page. For"
+" public users who do not have access to the Jobs page, a notification will "
+"be displayed with a direct link to the download when the export is ready."
+msgstr ""
+"どのユーザーでも、対応するフォーマットがある場合には、:term:`クリップボード`の結果をXMLエクスポートとして生成することができます。XMLエクスポートは生成された後、:ref:`ジョブ"
+" <manage-"
+"jobs>`ページからダウンロード可能になります。ジョブページにアクセス権を持たない公開ユーザーの場合、エクスポートが準備できたときにダウンロードへの直接リンクを表示する通知が表示されます。"
+
+#: ../../user-manual/import-export/export-xml.rst:308
+msgid ""
+"Currently users can export the following :term:`entity` types from the "
+"clipboard in XML format:"
+msgstr "現在、利用者はクリップボードから次の:term:`entity`タイプをXMLフォーマットでエクスポートできます："
+
+#: ../../user-manual/import-export/export-xml.rst:316
+msgid ""
+"You can also perform CSV exports from the clipboard. For more information, "
+"see: :ref:`csv-export-clipboard`."
+msgstr ""
+"クリップボードからCSVエクスポートを実行することもできます。詳細については、以下を参照してください： :ref:`csv-export-"
+"clipboard`。"
+
+#: ../../user-manual/import-export/export-xml.rst:319
+msgid ""
+"Depending on the settings enabled by an :term:`administrator`, it may also "
+"be possible for users to download :term:`digital objects <digital object>` "
+"associated with archival descriptions from the clipboard. See:"
+msgstr ""
+"管理者によって有効にされた設定によっては、アーカイブ記述に関連付けられたデジタルオブジェクトをクリップボードからダウンロードすることもユーザーには可能です。詳細は以下を参照してください："
+
+#: ../../user-manual/import-export/export-xml.rst:323
+#: ../../user-manual/import-export/export-xml.rst:405
+msgid ":ref:`xml-export-clipboard-do`"
+msgstr ""
+"このテキストは、特定の構造に基づいた参照マークアップを含んでいるようです。これは、文脈を考慮していないため、直訳するのは難しいです。しかし、Archivematicaのドキュメントの一部として考える場合、おそらく特定のセクションや機能を参照している場合があります。\n"
+"\n"
+"例えば、もしこれがArchivematicaのユーザーガイドからの断片で、「XML Export Clipboard」機能のドキュメントを参照していると仮定すると、「:ref:`xml-export-clipboard-do`」はおそらく以下のようなタイトルのセクションへのリンクです。\n"
+"\n"
+"「XMLエクスポートクリップボードについて」\n"
+"\n"
+"しかし、「:ref:`xml-export-clipboard-do`」が特定の機能やセクションの正確なタイトルを示すテキストではない限り、正確な翻訳を提供することは困難です。ドキュメントの他の部分との関連性を理解する必要があります。もし正確なセクションタイトルがわかるのであれば、そのタイトルを日本語に翻訳することができます。"
+
+#: ../../user-manual/import-export/export-xml.rst:324
+msgid ":ref:`clipboard-settings`"
+msgstr ""
+"このテキストはreStructuredText（reST）形式の参照リンクを示しているため、直接的な翻訳はできません。ただし、もし文書内の「clipboard-settings」セクションを指しているのであれば、参照ラベルを日本語に翻訳することで対応するセクションのタイトルを示すことができます。\n"
+"\n"
+"例えば、「clipboard-settings」が「クリップボード設定」というセクションに対応している場合、日本語での参照は次のようになります：\n"
+"\n"
+":ref:`クリップボード設定`\n"
+"\n"
+"ただし、実際にドキュメント内でこの参照が機能するかどうかは、使用されているソフトウェアや設定によります。ドキュメント内で一貫した参照システムを保つために、通常は原文の参照ラベルを変更せずにそのまま使用します。"
+
+#: ../../user-manual/import-export/export-xml.rst:326
+msgid "For general information on managing jobs and using the clipboard, see:"
+msgstr "ジョブの管理とクリップボードの使用に関する一般的な情報については、以下を参照してください："
+
+#: ../../user-manual/import-export/export-xml.rst:331
+msgid ""
+"When downloaded, the XML files will be compressed in a `ZIP`_ archive - "
+"there are many free utilities (likely there is one already included on your "
+"computer) that will allow you to \"unzip\" a ZIP file."
+msgstr ""
+"ダウンロードされた際、XMLファイルは`ZIP`_アーカイブで圧縮されています - "
+"ZIPファイルを「解凍」することを可能にする無料のユーティリティが多数あります（お使いのコンピュータには既にそのようなユーティリティが含まれている可能性が高いです）。"
+
+#: ../../user-manual/import-export/export-xml.rst:337
+msgid ""
+"XML exports performed via the :term:`clipboard` are stored in the ``jobs`` "
+"subdirectory of the AtoM ``downloads`` directory. These packages are **not**"
+" automatically deleted after download, meaning a system administrator should"
+" periodically remove unnecessary older packages to conserve disk space, such"
+" as during upgrades. For more information on the structure of the "
+"``downloads`` directory, see:"
+msgstr ""
+":term:`クリップボード`を通じて実行されるXMLエクスポートは、AtoMの``downloads``ディレクトリ内の``jobs``サブディレクトリに保存されます。これらのパッケージはダウンロード後に**自動的に削除されません**。これは、ディスクスペースを節約するため、システム管理者は定期的に不要な古いパッケージを削除する必要があることを意味しており、アップグレードの際などがその時です。``downloads``ディレクトリの構造についての詳細は、以下を参照してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:344
+msgid ":ref:`backup-uploads-downloads`"
+msgstr ""
+"このコンテキストでは「:ref:`backup-uploads-downloads`」はドキュメント内の特定のセクションへの参照を表しています。これ自体を直訳すると意味が伝わらないため、通常はそのセクションのタイトルに基づいた訳を提供する必要があります。ただし、実際のセクションタイトルを知らないため、代わりの一般的な訳を以下に示します。\n"
+"\n"
+"``:ref:`backup-uploads-downloads`のセクションへの参照``\n"
+"\n"
+"実際に翻訳する場合は「backup-uploads-downloads」に相当するセクションのタイトルを適切に日本語に訳してリンクテキストとして使用します。例えば、そのセクションが「アップロードとダウンロードのバックアップ」に関するものなら、以下のようになります。\n"
+"\n"
+"``「アップロードとダウンロードのバックアップ」のセクションへの参照``\n"
+"\n"
+"RST（reStructuredText）文書フォーマットでは、このような参照は文書内の他の部分へのクロス参照として使用されます。"
+
+#: ../../user-manual/import-export/export-xml.rst:346
+msgid ""
+"Note that AtoM also has a command-line task that can be used by a system "
+"administrator to manage and delete the contents of the ``jobs`` "
+"subdirectory. For more information, see:"
+msgstr ""
+"AtoMには、システム管理者が「jobs」サブディレクトリの内容を管理および削除するために使用できるコマンドラインタスクもあることに注意してください。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/export-xml.rst:350
+msgid ":ref:`tools-expire`"
+msgstr ""
+"`:ref:`tools-expire`` というテキストのコンテキストが不足しています。これが通常のプレーンテキストのドキュメントであれば、そのまま日本語に直接翻訳することは意味を成しません。これはおそらく、リファレンスリンクやアンカーを示す reStructuredText（reST）というマークアップ言語の構文の一部であると考えられます。その場合、そのテキストはドキュメント内の特定のセクションまたはツールにリンクするために使われている可能性があります。\n"
+"\n"
+"そのため、`tools-expire` がリンクする内容に基づき、適切な日本語の名称を選ぶ必要があります。たとえば、`tools-expire` が「期限切れツール」というセクションを指している場合には、次のように翻訳されるかもしれません：\n"
+"\n"
+"``ツールの有効期限``\n"
+"\n"
+"ただし、翻訳する際は原文の構造を保持する必要があるため、reStructuredText マークアップ内での正確な使用法に応じて、以下のように日本語訳を挿入する必要があります：\n"
+"\n"
+"``:ref:`ツールの有効期限<tools-expire>` ``\n"
+"\n"
+"この場合、`ツールの有効期限`は表示テキストであり、`<tools-expire>`は具体的なリファレンスターゲットです。もし実際の日本語セクションタイトルがわかっていれば、それを使用する方が望ましいでしょう。"
+
+#: ../../user-manual/import-export/export-xml.rst:352
+msgid "**To generate and download XML exports of clipboard results:**"
+msgstr "**クリップボード結果のXMLエクスポートを生成してダウンロードするには：**"
+
+#: ../../user-manual/import-export/export-xml.rst:354
+msgid ""
+"You should first ensure that you have the results you would like to export "
+"already pinned to the Clipboard. For more information on using AtoM's "
+"Clipboard module, see: :ref:`clipboard`."
+msgstr ""
+"最初に、エクスポートしたい結果をクリップボードにピン留めしていることを確認してください。AtoMのクリップボードモジュールの使用方法についての詳細は、こちらを参照してください：:ref:`clipboard`。"
+
+#: ../../user-manual/import-export/export-xml.rst:358
+msgid ""
+"Navigate to the :ref:`clipboard` page. You can get there via the |clip| "
+"**Clipboard** menu in the AtoM :term:`header bar` - open the menu, and "
+"select \"Go to Clipboard\"."
+msgstr ""
+":ref:`クリップボード` ページに移動してください。AtoM :term:`ヘッダーバー` の |clip| **クリップボード** "
+"メニューから移動できます。メニューを開き、「クリップボードへ移動」を選択してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:7
+msgid "clip"
+msgstr ""
+"クリップ\n"
+"\n"
+"もしもっと長いテキストがあれば、翻訳を続けることができます。"
+
+#: ../../user-manual/import-export/export-xml.rst:362
+msgid ""
+"AtoM will redirect you to the Clipboard page. Above the Clipboard results, "
+"there is a :term:`drop-down menu` that will allow you to change the "
+":term:`entity` type of the records being displayed. When you arrive, by "
+"default :term:`archival description` results will be shown, but you can use "
+"this menu to change the display to see other results. Make sure the record "
+"type you want to export is currently being displayed on the clipboard."
+msgstr ""
+"AtoMはクリップボードページにリダイレクトします。クリップボードの結果の上には、表示されているレコードの：用語：`エンティティ`タイプを変更することができる：用語：`ドロップダウンメニュー`があります。あなたが到着したとき、デフォルトでは：用語：`アーカイバルデスクリプション`の結果が表示されますが、このメニューを使用して他の結果の表示に切り替えることができます。エクスポートしたいレコードタイプが現在クリップボードに表示されていることを確認してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "An image of the Clipboard with results."
+msgstr "クリップボードの結果を示す画像。"
+
+#: ../../user-manual/import-export/export-xml.rst:374
+msgid ""
+"Click on the \"Export\" link in the :term:`button block` at the bottom of "
+"the page."
+msgstr "ページの下部にある「ボタンブロック」にある「エクスポート」リンクをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "An image of the button block on the Clipboard page"
+msgstr "クリップボードページのボタンブロックの画像"
+
+#: ../../user-manual/import-export/export-xml.rst:382
+msgid ""
+"AtoM will redirect you to a page where you can configure your export. Make "
+"sure the Format :term:`drop-down menu` is set to \"XML\"."
+msgstr ""
+"AtoMは、エクスポートの設定を行うページにリダイレクトします。フォーマットの選択メニューが「XML」に設定されていることを確認してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:385
+msgid ""
+"An :term:`archival description` XML export will include additional "
+"configuration options. Public users can select whether only the current "
+"description should be exported or all descendants (i.e. lower-level "
+"records). Currently the only type of XML export supported on the Clipboard "
+"is EAD 2002 XML."
+msgstr ""
+"アーカイブ記述のXMLエクスポートには、追加の構成オプションが含まれます。一般ユーザーは、現在の記述のみをエクスポートするか、またはすべての子孫（すなわち、下位レベルの記録）をエクスポートするかを選択できます。現時点でクリップボードでサポートされているXMLエクスポートの唯一のタイプは、EAD"
+" 2002 XMLです。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Configuration options for archival description XML exports"
+msgstr "アーカイバル記述XMLエクスポートのための設定オプション"
+
+#: ../../user-manual/import-export/export-xml.rst:398
+msgid ""
+"AtoM also includes a setting that an :term:`administrator` can enable that "
+"will add an additional export configuration option to the clipboard, "
+"allowing users to download :term:`digital objects <digital object>` that are"
+" associated with :term:`archival descriptions <archival description>`."
+msgstr ""
+"AtoMには、:term:`管理者`が有効にすることができる設定も含まれており、これによりクリップボードに追加のエクスポート設定オプションが追加され、ユーザーは:term:`アーカイブ記述"
+" <アーカイブ記述>`に関連付けられた:term:`デジタルオブジェクト <デジタルオブジェクト>`をダウンロードすることができます。"
+
+#: ../../user-manual/import-export/export-xml.rst:403
+msgid "For more information, see below:"
+msgstr "詳細については、下記をご覧ください："
+
+#: ../../user-manual/import-export/export-xml.rst:408
+msgid ""
+"If you want to include lower levels of description as well, click the "
+"checkbox marked \"Include descendants\"."
+msgstr ""
+"もし、より低いレベルの記述も含めたい場合は、「Include descendants」とマークされたチェックボックスをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:411
+msgid ""
+"Once checked, the checkbox to \"Include all levels of description\" will "
+"become available, and will be automatically checked. If you want all lower-"
+"level records to be included in the export, then leave this box checked. "
+"However, if desired, you can uncheck this box and select only the levels of "
+"description you want included in the export. To do so, first uncheck the box"
+" labelled \"Include all levels of description.\""
+msgstr ""
+"一度チェックされると、「すべての記述レベルを含む」のチェックボックスが利用可能になり、自動的にチェックされます。エクスポートにすべての下位レベルの記録を含めたい場合は、このボックスのチェックをそのままにしておいてください。しかし、必要に応じて、エクスポートに含めたい記述レベルだけを選択するためにこのボックスのチェックを外すことができます。それを行うには、まず「すべての記述レベルを含む」のラベルがついたボックスのチェックを外してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:418
+msgid ""
+"AtoM will then display a list of all levels of description from the Levels "
+"of description :term:`taxonomy`. You can use your Control (Mac users: "
+"Command) and Shift keys to multi-select the levels you want included in the "
+"export."
+msgstr ""
+"その後、AtoMは「記述レベル：term:`タクソノミー`」からのすべての記述レベルのリストを表示します。コントロールキー（Macユーザーはコマンドキー）とシフトキーを使用して、エクスポートに含めたいレベルを複数選択できます。"
+
+#: ../../user-manual/import-export/export-xml.rst:428
+msgid ""
+"Finally, authenticated (i.e. logged in) users will also have the option to "
+"include :term:`draft <draft record>` records in the export. To include "
+"drafts, make sure that the \"Include drafts\" checkbox is selected."
+msgstr ""
+"最終的に、認証済み（つまりログインしている）ユーザーは、エクスポートに:term:`下書き <draft record>` "
+"レコードを含めるオプションも持っています。下書きを含めるには、「下書きを含める」チェックボックスが選択されていることを確認してください。"
+
+#: ../../user-manual/import-export/export-xml.rst:434
+msgid ""
+"If you are selecting only certain levels of description for export, then "
+"descriptions that are descendants of levels not included in the export will "
+"**also** be excluded!"
+msgstr "エクスポートする記述のレベルを選択している場合、エクスポートに含まれないレベルの子孫である説明文も**同様に**除外されます！"
+
+#: ../../user-manual/import-export/export-xml.rst:438
+msgid ""
+"For example, let's say you want to export a :term:`collection` that has a "
+"child series, and the series has several child item-level descriptions. If "
+"you do not include \"series\" as a level of description, then the child "
+"items will also not be included in the exported EAD 2002 XML."
+msgstr ""
+"たとえば、子シリーズがある:term:`コレクション`をエクスポートしたいとしましょう。そしてそのシリーズには、いくつかの子アイテムレベルの説明があります。もし「シリーズ」を説明のレベルとして含めない場合、それらの子アイテムもエクスポートされるEAD"
+" 2002 XMLに含まれないことになります。"
+
+#: ../../user-manual/import-export/export-xml.rst:443
+msgid ""
+"Once you have configured your export options, click the \"Export\" button in"
+" the :term:`button block` at the bottom of the page."
+msgstr ""
+"エクスポートオプションの設定が完了したら、ページ下部の:term:`button block`にある「エクスポート」ボタンをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:446
+msgid ""
+"The XML export of the clipboard results will be generated by the job "
+"scheduler. After clicking the \"Export\" button, AtoM will reload the page "
+"with a notification about the job at the top."
+msgstr ""
+"クリップボードの結果のXMLエクスポートは、ジョブスケジューラによって生成されます。「エクスポート」ボタンをクリックすると、AtoMはページをリロードし、上部にジョブに関する通知が表示されます。"
+
+#: ../../user-manual/import-export/export-xml.rst:450
+msgid ""
+"For **authenticated users**, this will include a link to the :ref:`Jobs "
+"<manage-jobs>` page, where you can review the status of the export job, and "
+"download the ZIP file containing your CSV export when it is complete. Click "
+"on the link in the notification to go to the Jobs page."
+msgstr ""
+"**認証済みユーザー**の場合、エクスポートジョブの状態を確認し、完了時にCSVエクスポートを含むZIPファイルをダウンロードできる「:ref:`Jobs"
+" <manage-jobs>`」ページへのリンクが含まれます。通知内のリンクをクリックしてJobsページに移動します。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid ""
+"The notification message for authenticated users performing an\n"
+"export"
+msgstr "認証済みユーザーがエクスポートを実行する際の通知メッセージ"
+
+#: ../../user-manual/import-export/export-xml.rst:461
+msgid ""
+"For **public users**, first a notification that the job has been initiated "
+"will be displayed, with a link that will refresh the page to see if there "
+"are updates. Users can use the **X** icon on the right of the notification "
+"to remove it. You can now navigate elsewhere in the application - another "
+"notification will be provided when the export is complete and ready for "
+"download."
+msgstr ""
+"**一般ユーザー**向けに、まずジョブが開始されたことを示す通知が表示され、更新があるかどうかを確認するためにページを更新するリンクが付いています。ユーザーは通知の右側にある**X**アイコンを使用して、それを削除することができます。アプリケーション内の他の場所に移動することもできます"
+" - エクスポートが完了しダウンロードの準備ができたときには、別の通知が提供されます。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "The first notification message for public users performing an export"
+msgstr "パブリックユーザーがエクスポートを行う際の最初の通知メッセージ"
+
+#: ../../user-manual/import-export/export-xml.rst:473
+msgid ""
+"Once the export job has completed, AtoM will display another notification "
+"that includes a download link the next time the page is refreshed. Click the"
+" Download link to download the export."
+msgstr ""
+"エクスポートジョブが完了すると、ページを次に更新したときに、ダウンロードリンクが含まれた別の通知がAtoMに表示されます。エクスポートをダウンロードするには、ダウンロードリンクをクリックしてください。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid ""
+"The second notification message for public users performing an\n"
+"export"
+msgstr "公共ユーザーがエクスポートを実行する際の、二回目の通知メッセージ"
+
+#: ../../user-manual/import-export/export-xml.rst:483
+msgid ""
+"For public users, the download notification will remain visible as you "
+"navigate around AtoM until you click the \"**X**\" to remove the "
+"notifcation."
+msgstr "一般ユーザーの方へ、AtoM内を移動している間、ダウンロード通知は「**X**」をクリックして通知を消去するまで表示され続けます。"
+
+#: ../../user-manual/import-export/export-xml.rst:486
+msgid ""
+"On the jobs page, authenticated users will find information about the export"
+" job, including a download link when the task is done. Check the \"Job "
+"status\" column - if it says \"Completed,\" then the job has successfully "
+"finished and you can now download your ZIP file of the XML exports. If it "
+"says \"Running,\"then the task is still being executed - try refreshing the "
+"page in a moment for an updated status. If the Job status column says "
+"\"Error,\" then the XML export has failed for some reason - talk to your "
+"system administrator for assistance. See the :ref:`manage-jobs` page for "
+"more information."
+msgstr ""
+"ジョブページには、認証されたユーザーがエクスポートジョブについての情報を見ることができ、タスクが完了したときにはダウンロードリンクが表示されます。\"ジョブステータス\"の列をチェックしてください"
+" - "
+"もしそこに「完了」と表示されていれば、ジョブは正常に終了したということで、XMLエクスポートのZIPファイルをダウンロードすることができます。もし「実行中」と表示されていれば、タスクはまだ実行されていますので、後ほどページを更新してステータスを確認してください。ジョブステータスの列に「エラー」と表示されている場合、何らかの理由でXMLエクスポートが失敗していますので、システム管理者に連絡してサポートを求めてください。詳細については"
+" :ref:`manage-jobs` ページをご覧ください。"
+
+#: ../../user-manual/import-export/export-xml.rst:496
+msgid ""
+"When the job is complete, click on the Download link in the \"Info\" column,"
+" and the XML files, compressed in a ZIP file, will be downloaded to your "
+"computer."
+msgstr ""
+"作業が完了したら、「情報」列の「ダウンロード」リンクをクリックしてください。そして、ZIPファイルで圧縮されたXMLファイルがコンピュータにダウンロードされます。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "An image of the jobs page after an XML export has been executed"
+msgstr "実行されたXMLエクスポート後のジョブページのイメージ"
+
+#: ../../user-manual/import-export/export-xml.rst:510
+msgid "Including digital objects with an XML clipboard export"
+msgstr "XMLクリップボードエクスポートにデジタルオブジェクトを含める"
+
+#: ../../user-manual/import-export/export-xml.rst:512
+msgid ""
+"Some AtoM sites are :ref:`configured <clipboard-settings>` configured to "
+"enable users to include attached digital objects when exporting archival "
+"descriptions from the clipboard. In this case, the Export options screen "
+"will include a checkbox for \"Include digital objects\"."
+msgstr ""
+"一部のAtoMサイトでは、クリップボードからのアーカイブ記述のエクスポート時に、添付されたデジタルオブジェクトを含めることを可能にするように "
+":ref:`設定 <clipboard-settings>` "
+"が行われています。この場合、エクスポートオプション画面には「デジタルオブジェクトを含む」のチェックボックスが含まれています。"
+
+#: ../../user-manual/import-export/export-xml.rst:-1
+msgid "Export options with include digital objects selected"
+msgstr "選択されたデジタルオブジェクトを含むエクスポートオプション"
+
+#: ../../user-manual/import-export/export-xml.rst:522
+msgid ""
+"If digital objects are included in the export, they will be contained in the"
+" same ZIP package as the XML files."
+msgstr "デジタルオブジェクトがエクスポートに含まれる場合、それらはXMLファイルと同じZIPパッケージ内に含まれます。"
+
+#: ../../user-manual/import-export/export-xml.rst:525
+msgid ""
+"Note that if the \"Include digital objects\" checkbox is checked, it is no "
+"longer possible to include descendants in the export, and the \"Include "
+"descendents\" checkbox will be greyed out. This means you will need to "
+"individually add the descriptions with digital objects to the clipboard if "
+"you want to export them, rather than just adding a parent description."
+msgstr ""
+"「デジタルオブジェクトを含む」のチェックボックスにチェックが入っている場合、エクスポートに子孫を含むことはできなくなり、「子孫を含む」のチェックボックスはグレーアウトされます。これは、親の説明を追加するだけではなく、エクスポートしたいデジタルオブジェクトがある説明を個々にクリップボードに追加する必要があることを意味します。"
+
+#: ../../user-manual/import-export/export-xml.rst:533
+msgid ":ref:`clipboard-do-export-setting` (Clipboard settings)"
+msgstr ":ref:`クリップボード-エクスポート-設定`（クリップボード設定）"
+
+#: ../../user-manual/import-export/export-xml.rst:534
+msgid ":ref:`csv-export-clipboard-do`"
+msgstr ""
+"`:ref:`csv-export-clipboard-do`は、参照リンクまたは参照ラベルを指すマークアップであり、文脈に応じた適切な翻訳を行う必要があります。ただし、このテキストが何を参照しているか（例えば、ドキュメントの特定の節や機能など）が不明確であるため、直接的な翻訳はできません。通常、このような参照は翻訳する際にドキュメント内の該当する部分にリンクするように調整します。\n"
+"\n"
+"もしリンクテキストに対応する日本語の節のタイトルがわかる場合、以下のように翻訳することができます：\n"
+"\n"
+"「CSVエクスポートクリップボード機能については、こちらをご覧ください。」\n"
+"\n"
+"しかし、実際にどのようなラベルが使用されているかに基づいて、リンクテキストや参照部分を適切に日本語に変換する必要があります。IMUMI 翻訳プロジェクトや特定のガイドラインがある場合は、その指示に従ってください。"
+
+#: ../../user-manual/import-export/export-xml.rst:535
+msgid ":ref:`tools-expire` (command-line task)"
+msgstr ":ref:`tools-expire` (コマンドラインタスク)"

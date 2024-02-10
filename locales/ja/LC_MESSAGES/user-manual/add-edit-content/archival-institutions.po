@@ -1,0 +1,2194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:5
+msgid "Archival Institutions"
+msgstr "アーカイバル機関"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:11
+msgid ""
+":term:`Archival institutions <archival institution>` are one of the core "
+":doc:`entity types <../overview/entity-types>` in AtoM and provide users "
+"with the means of managing information about :term:`repositories "
+"<repository>` and other institutions and organizations that hold archival "
+"materials or other cultural heritage items and artifacts."
+msgstr ""
+"「:term:`アーカイブ機関 <archival institution>`は、AtoMにおける中心的な:doc:`エンティティタイプ "
+"<../overview/entity-types>`の一つであり、ユーザーには:term:`リポジトリ "
+"<repository>`やその他の機関・組織がアーカイブ資料やその他の文化遺産アイテムや工芸品を保有している情報を管理する手段を提供します。」"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:17
+msgid ""
+"In AtoM, :term:`archival institution` descriptions are structured into "
+":term:`information areas <information area>` based on the `ICA's "
+"<http://www.ica.org/>`__ *International Standard for Describing Institutions"
+" with Archival Holdings* (:ref:`ISDIAH <isdiah-template>`). The ISDIAH "
+"glossary describes an archival institution as: *\"An organization which "
+"keeps and preserves archival material and makes it accessible to the "
+"public.\"* While generally targeted at institutions whose primary function "
+"is to collect and keep archives and make them publicly available, the ISDIAH"
+" introduction goes on to note that:"
+msgstr ""
+"AtoMでは、`:term:「アーカイブ機関」<archival institution>`の説明は、`ICA (国際アーカイブ評議会) "
+"<http://www.ica.org/>`__ の*国際標準であるArchival Holdingsを有する機関の記述(ISDIAH)* "
+"(:ref:`ISDIAH <isdiah-template>`)に基づいて、`:term:`情報領域<information "
+"area>`に構造化されています。ISDIAH用語集では、アーカイブ機関を以下のように説明しています：*「アーカイブ資料を保管し、保存する組織であり、それを一般に公開する。」*"
+" 一般的には、資料を集め、保存し、公開することを主要な機能とする機関を対象としていますが、ISDIAH序文ではさらに次のように述べています："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:28
+msgid ""
+"*...other entities such as cultural institutions (libraries, museums), "
+"businesses, families or individuals may hold archives. This standard, or an "
+"appropriate subset of its elements, can be applied to all entities which "
+"provide access to the records they hold.*"
+msgstr ""
+"他のエンティティ、たとえば文化施設（図書館、博物館）、企業、家族、個人などがアーカイブを保持している場合もあります。この標準、またはその要素の適切なサブセットは、自らが保持する記録へのアクセスを提供する全てのエンティティに適用することができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:33
+msgid ""
+"Information captured in the :term:`archival institution` description "
+"template is comprehensive, but relates specifically to the "
+":term:`repository's <repository>` role collecting and providing access to "
+"cultural heritage materials. In addition to capturing identity and history "
+"information, the ISDIAH standard provides information areas to record "
+"information about collection policies,services offered, buildings, "
+"accessibility, and more. Consequently, the :term:`archival institution` "
+"record should be considered distinct from, but complementary to, that of an "
+":term:`authority record`. The ISDIAH Introduction notes that:"
+msgstr ""
+"「アーカイブ機関」の説明テンプレートにキャプチャされた情報は包括的ですが、具体的には、文化遺産資料の収集とアクセス提供の役割を果たしている「リポジトリ」の役割に関連しています。身元や歴史情報を収集することに加えて、ISDIAH基準では、コレクションポリシー、提供されるサービス、建物、アクセス可能性などについて情報を記録する情報領域を提供しています。その結果、「アーカイブ機関」の記録は、「権限レコード」のそれとは区別されるべきであるものの、補完的なものと見なされるべきです。ISDIAHイントロダクションには次のように記されています。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:43
+msgid ""
+"*As corporate bodies, persons or families, the holders of archival materials"
+" may be described in ISAAR(CPF) compliant authority records including the "
+"appropriate elements of description as indicated in ISDIAH. Otherwise, the "
+"description of holders may be included in separate authority files.*"
+msgstr ""
+"企業体、個人または家族など、アーカイブ資料を保持する主体は、ISAAR(CPF)に準拠した権威レコードで記述され、ISDIAHに示されているような適切な記述要素が含まれている場合があります。そうでない場合は、保持者の記述は別の権威ファイルに含めることもできます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:49
+msgid ""
+"In **AtoM**, :term:`archival descriptions <archival description>` can be "
+"linked to :term:`archival institutions <archival institution>` and the "
+"holdings of an institution can be browsed even when AtoM is used as a "
+":term:`multi-repository system`. On all related :term:`archival description`"
+" :term:`view pages <view page>`, the institution's name and logo will appear"
+" as hyperlinks to the :term:`archival institution` record; similarly, an "
+"archival institution's page will list its holdings as hyperlinks to related "
+"archival descriptions. Institutions can also be themed in AtoM - when a "
+"background color is added to the :term:`archival institution`, the same "
+"background color will appear behind all related :term:`archival descriptions"
+" <archival description>` to highlight the relationship."
+msgstr ""
+"**AtoM**では、:term:`アーカイブ記述 <archival description>`は:term:`アーカイブ機関 <archival "
+"institution>`とリンクすることができ、AtoMが:term:`マルチリポジトリシステム`として使用されている場合でも、機関の保有資料を閲覧することができます。すべての関連する:term:`アーカイブ記述`の:term:`ビューページ"
+" <view "
+"page>`には、機関の名前とロゴが:term:`アーカイブ機関`の記録へのハイパーリンクとして表示されます；同様に、アーカイブ機関のページではその所蔵品が関連するアーカイブ記述に対するハイパーリンクとしてリストアップされます。AtoMでは機関をテーマにすることもできます"
+" - :term:`アーカイブ機関`に背景色が追加されると、その背景色は関連するすべての:term:`アーカイブ記述 <archival "
+"description>`の背後にも現れ、関係性を強調します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An example of a themed archival institution page"
+msgstr "テーマ別アーカイブ機関のページの一例"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:66
+msgid ""
+"**Below are instructions for using the Archival institution module in AtoM "
+"to:**"
+msgstr "**以下は、AtoM内のArchival institutionモジュールを使用するための指示です：**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:69
+msgid ":ref:`Add a new archival institution <add-archival-institution>`"
+msgstr ":ref:`新しいアーカイブ機関を追加する<add-archival-institution>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:70
+msgid ""
+":ref:`Edit an existing archival institution <edit-archival-institution>`"
+msgstr "「:ref:`既存のアーカイブ機関を編集する <edit-archival-institution>`」"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:71
+msgid ":ref:`institution-access-points`"
+msgstr ""
+":ref:`institution-access-points` \n"
+"\n"
+"の参照は、特定のセクションやドキュメントへのリンクを示していますが、ここでは具体的なコンテンツが示されていません。正確な翻訳を行うためには、参照先のセクション名またはタイトルが必要です。しかし、一般的な直訳を行うと次のようになります。\n"
+"\n"
+"```\n"
+":ref:`機関アクセスポイント`\n"
+"```\n"
+"\n"
+"このコードは、文書内の「機関アクセスポイント」というセクションやラベルへの参照を示すものとなるでしょう。実際の翻訳では、文書内で定められている参照名に従う必要があります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:72
+msgid ":ref:`link-archival-institution`"
+msgstr ":ref:`リンク-アーカイブ施設`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:73
+msgid ""
+":ref:`Edit the theme of an archival institution page <edit-institution-"
+"theme>`"
+msgstr "アーカイバル機関ページのテーマを編集する <edit-institution-theme>"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:75
+#: ../../user-manual/add-edit-content/archival-institutions.rst:682
+msgid ":ref:`Change the background color <change-institution-background>`"
+msgstr ":ref:`背景色を変更する <change-institution-background>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:77
+msgid ":ref:`Add/Edit a logo <add-institution-logo>`"
+msgstr ":ref:`ロゴの追加/編集 <add-institution-logo>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:79
+#: ../../user-manual/add-edit-content/archival-institutions.rst:684
+msgid ":ref:`Add/edit a banner <add-institution-banner>`"
+msgstr ":ref:`バナーの追加・編集 <add-institution-banner>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:81
+msgid ""
+":ref:`Add/edit a custom description of the institution <add-institution-"
+"custom-content>`"
+msgstr ":ref:`機関のカスタム説明を追加/編集する<add-institution-custom-content>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:83
+#: ../../user-manual/add-edit-content/archival-institutions.rst:686
+msgid ":ref:`Add a Google map <add-map>`"
+msgstr ":ref:`Google マップを追加する <add-map>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:85
+msgid ""
+":ref:`Set a digital object upload limit for an archival institution <upload-"
+"limit>`"
+msgstr "アーカイブ機関用デジタルオブジェクトのアップロード制限を設定する <upload-limit>"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:86
+msgid ":ref:`Delete an archival institution <delete-archival-institution>`"
+msgstr ":ref:`アーカイバル機関を削除する <delete-archival-institution>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:88
+msgid ""
+"For information on working with specific fields with AtoM's archival "
+"institution :term:`edit page`, see:"
+msgstr "AtoMのアーカイブ機関の :term:`編集ページ` で特定のフィールドを操作する方法についての情報は、こちらを参照してください："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:91
+msgid ""
+"International Standard for Describing Institutions with Archival Holdings "
+"(:ref:`ISDIAH <isdiah-template>`)"
+msgstr "国際標準アーカイブ所蔵機関記述（ISDIAH）（:ref:`ISDIAH <isdiah-template>`）"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:96
+msgid ":ref:`browse-institutions`"
+msgstr ":ref:`機関を閲覧する`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:97
+msgid ":ref:`browse-holdings`"
+msgstr ":ref:`所蔵品の閲覧`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:98
+msgid ":ref:`enable-scoping`"
+msgstr "``enable-scoping``(有効なスコーピング)"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:99
+msgid ":ref:`Archival descriptions <archival-descriptions>`"
+msgstr ":ref:`アーカイブ記述 <archival-descriptions>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:100
+msgid ":ref:`Authority records <authority-records>`"
+msgstr ":ref:`権威レコード <authority-records>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:101
+msgid ":ref:`formatting`"
+msgstr ""
+"このコマンド `:ref:`formatting`` "
+"は、特定のドキュメントシステムやマークアップ言語において、内部リファレンス（内部参照）を示しており、そのまま翻訳することは適しません。このコマンドは通常、特定のセクションやラベルへリンクする際に使用されます。もし、関連するドキュメントセクションの翻訳が必要であれば、セクションのタイトルやコンテキストを提供してください。それに基づいて、適切な日本語の翻訳を提供することができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:102
+msgid ":ref:`Access content <access-content>`"
+msgstr ":ref:`コンテンツへのアクセス <access-content>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:103
+msgid ":ref:`User roles <user-roles>`"
+msgstr ":ref:`ユーザーロール <user-roles>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:104
+msgid ":ref:`Entity types <entity-types>`"
+msgstr ":ref:`エンティティタイプ <entity-types>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:105
+msgid ":ref:`Log in <log-in>`"
+msgstr ":ref:`ログイン<log-in>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:106
+msgid ":ref:`Exit edit mode <exit-edit-mode>`"
+msgstr ":ref:`編集モードを終了する <exit-edit-mode>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:110
+msgid ""
+"By default, only an authenticated (i.e. logged in) :term:`administrator` can"
+" add, edit, update or delete an :term:`archival institution`. For more "
+"information on edit privileges and user roles see: :ref:`User roles <user-"
+"roles>`. For information on logging in, see: :ref:`Log in <log-in>`. "
+"Administrators can also change the :term:`access privleges <access "
+"privilege>` associated with a :term:`user account` - for more information, "
+"see: :ref:`Edit user permissions <edit-user-permissions>`."
+msgstr ""
+"デフォルトでは、認証された（つまりログインした）:term:`administrator`（管理者）のみが:term:`archival "
+"institution`（アーカイブ機関）を追加、編集、更新、または削除することができます。編集権限とユーザーロールに関する詳細は、:ref:`User"
+" roles <user-roles>`（ユーザーロール）を参照してください。ログインに関する情報は、:ref:`Log in <log-"
+"in>`（ログイン）を参照してください。管理者はまた、:term:`user "
+"account`（ユーザーアカウント）に関連付けられた:term:`access privileges <access "
+"privilege>`（アクセス権限）を変更することもできます - 詳細については、:ref:`Edit user permissions <edit-"
+"user-permissions>`（ユーザー権限の編集）を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:118
+#: ../../user-manual/add-edit-content/archival-institutions.rst:321
+#: ../../user-manual/add-edit-content/archival-institutions.rst:384
+#: ../../user-manual/add-edit-content/archival-institutions.rst:656
+#: ../../user-manual/add-edit-content/archival-institutions.rst:688
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1272
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1361
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1402
+msgid ":ref:`Back to top <archival-institutions>`"
+msgstr ":ref:`トップに戻る <archival-institutions>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:123
+msgid "Add a new archival institution"
+msgstr "新しいアーカイブ機関を追加"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:125
+msgid ""
+"This section contains instructions on how to Add a new :term:`archival "
+"institution` in AtoM. There are three main ways to add an archival "
+"institution record in AtoM - doing so via the |plus| :ref:`\"Add\" <main-"
+"menu-add>` menu is the easiest, but to accommodate different workflows, "
+"archival institution records can also be added from an :term:`archival "
+"description` or from the :term:`view page` of another archival institution. "
+"Below are instructions to add a new archival institution:"
+msgstr ""
+"このセクションには、AtoMで新しい:term:`アーカイブ機関`を追加する方法についての説明が含まれています。AtoMにアーカイブ機関のレコードを追加する主な方法は3つあります。|plus|"
+" :ref:`「追加」<main-menu-add>` "
+"メニューを使用するのが最も簡単ですが、異なるワークフローに対応するため、アーカイブ機関のレコードは:term:`アーカイブ記述`から、または別のアーカイブ機関の:term:`閲覧ページ`からも追加することができます。以下に新しいアーカイブ機関を追加するための手順を示します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:147
+msgid "plus"
+msgstr ""
+"I'm sorry, but you haven't provided any text to translate into Japanese. "
+"Could you please provide the English text you would like to be translated?"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:133
+msgid ":ref:`From the Add menu <add-institution-main>`"
+msgstr ":ref:`「追加」メニューから <add-institution-main>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:134
+msgid ""
+":ref:`From the archival description edit page <add-institution-description-"
+"edit>`"
+msgstr ":ref:`アーカイブ記述編集ページから <add-institution-description-edit>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:136
+msgid ":ref:`From the archival institution view page <add-institution-view>`."
+msgstr ":ref:`アーカイブ機関ビューページから <add-institution-view>`。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:138
+msgid ""
+"For specific information on the :term:`fields <field>` in the archival "
+"institution's :term:`edit page`, see: :ref:`ISDIAH template <isdiah-"
+"template>`"
+msgstr "特定の情報については、アーカイバル機関の編集ページにある項目に関しては、以下を参照してください：「ISDIAH テンプレート」"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:145
+msgid "Add a new archival institution from the main menu"
+msgstr "メインメニューから新しいアーカイブ機関を追加してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:155
+msgid ""
+"A new archival institution can be added at any time, from anywhere in the "
+"application, via the :term:`main menu`."
+msgstr "アプリケーション内のどこからでも、`:term:`メインメニュー`を通じて、新しいアーカイブ機関をいつでも追加することができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:160
+msgid ""
+":term:`Administrators <administrator>` must be logged-in in order to add a "
+"new :term:`archival institution`. For more information on logging in, see: "
+":ref:`Log in <log-in>`. See :ref:`User roles <user-roles>` for more "
+"information on groups and default permissions in AtoM."
+msgstr ""
+"管理者は、新しいアーカイブ機関を追加するためにログインしている必要があります。ログインについての詳細は、次を参照してください：「ログインする<log-"
+"in>」。AtoMのグループとデフォルト権限についての詳細は、「ユーザーロール<user-roles>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:165
+msgid "**To create a new archival institution:**"
+msgstr "**新しいアーカイブ機関を作成するには：**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:167
+msgid ""
+"In the :term:`main menu` located in the :term:`header bar`, click the |plus|"
+" :ref:`\"Add\" <main-menu-add>` menu and select \"Archival institution\" "
+"from the :term:`drop-down menu`."
+msgstr ""
+"ヘッダーバーにある :term:`メインメニュー` で、|plus| :ref:`「追加」 <main-menu-add>` "
+"メニューをクリックし、:term:`ドロップダウンメニュー` から「アーカイブ機関」を選択します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:170
+msgid "AtoM takes you to a blank :term:`edit page` for data entry."
+msgstr "AtoMはデータ入力用の空白の:term:`編集ページ`に移動します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of a new archival institution edit page"
+msgstr "新しいアーカイブ機関編集ページの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:177
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an "
+":term:`information area` to access the :term:`fields <field>` grouped under "
+"it. Enter data as required."
+msgstr ""
+"ロード時に、:term:`編集ページ`は全ての:term:`情報エリア<information "
+"area>`を閉じた状態でレコードを表示します。:term:`情報エリア`をクリックして、それにグループ化された:term:`フィールド<field>`にアクセスします。必要に応じてデータを入力してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:181
+msgid ""
+"You can quit the process at any time by clicking the \"Cancel\" button in "
+"the :term:`button block`; any data already entered will not be saved and no "
+"new record will be added. Note that simply navigating away from the page by "
+"any other means, **without first clicking \"Create\"** will also result in "
+"no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで処理を中止できます。これは "
+":term:`ボタンブロック`で見つけることができます。既に入力されているデータは保存されず、新しいレコードは追加されません。また、**「作成」をクリックせずに**他の方法でページから移動しただけでは、新しいレコードは作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:186
+msgid ""
+"To save a new record, click the :term:`\"Create\" button <Create button>` in"
+" the :term:`button block` at the bottom of the record."
+msgstr ""
+"新しい記録を保存するには、記録の下にある :term:`ボタンブロック<button block>` 内の :term:`「作成」ボタン<Create "
+"button>` をクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "Click create to save your new archival institution"
+msgstr "新しいアーカイブ機関を保存するには、「作成」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:194
+#: ../../user-manual/add-edit-content/archival-institutions.rst:316
+msgid ""
+"Once the new :term:`archival institution` is saved, you will be redirected "
+"to the record’s :term:`view page`, where you can review your work. Clicking "
+"\"Edit\" in the :term:`button block` at the bottom of the record will re-"
+"open the archival institution in :term:`edit mode`."
+msgstr ""
+"新しく保存された:term:`アーカイブ施設`については、作業内容をレビューできるよう、レコードの:term:`表示ページ`にリダイレクトされます。レコードの下部にある:term:`ボタンブロック`で「編集」をクリックすると、:term:`編集モード`でアーカイブ施設を再度開くことができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:202
+msgid "Add a new archival instituion from an archival description edit page"
+msgstr "アーカイブ記述の編集ページから新しいアーカイブ機関を追加"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:204
+msgid ""
+"A new archival institution can be generated from an :term:`archival "
+"description` record at any time; it does not first have to be created "
+"separately."
+msgstr ""
+"新しいアーカイブ機関は、いつでも:term:`アーカイブ記述` レコードから生成することができます。それを別途最初に作成する必要はありません。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:207
+msgid ""
+"An :term:`archival institution` can be added via a value list that appears "
+"in a :term:`drop-down menu` - as you type data into the \"Repository\" "
+":term:`field`, the value list will narrow its options to present related "
+"suggestions. If the archival institution already exists, you can select the "
+"name from the values and a link will be created."
+msgstr ""
+"アーカイブ機関は、ドロップダウンメニューに表示される値リストを通じて追加することができます。\"リポジトリ\" "
+"フィールドにデータを入力すると、関連する提案を表示するために値リストが選択肢を絞り込みます。もしアーカイブ機関が既に存在している場合は、値から名前を選択し、リンクが作成されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:213
+msgid ""
+"If the archival institution does not already exist, however, new names can "
+"be added \"on the fly\" by typing and entering the name of the archival "
+"institution in the designated :term:`field`; an archival institution record "
+"will be automatically created once you click the :term:`\"Create\" button "
+"<Create button>` in the :term:`button block` at the bottom of the record."
+msgstr ""
+"もしアーカイブ機関がまだ存在していない場合は、新しい名前をその場で追加することができます。専用の：term:`フィールド`にアーカイブ機関の名前を入力し、レコードの最下部にある：term:`ボタンブロック`の：term:`「作成」ボタン"
+" <Create button>`をクリックすると、アーカイブ機関のレコードが自動的に作成されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:219
+msgid ""
+"Whenever a new :term:`archival institution` is added to an :term:`archival "
+"description`, a new record for that name will be generated when the archival"
+" description is saved. Because each edit template uses different labels for "
+"the :term:`field` to add a new archival institution, template specific "
+"instructions have been included below."
+msgstr ""
+"新しい:term:`archival institution`が:term:`archival "
+"description`に追加されると、その記録はアーカイブ説明が保存される際に新しいレコードが生成されます。それぞれの編集テンプレートが新しいアーカイバル機関を加えるための:term:`field`に異なるラベルを使用しているため、テンプレートに特有の指示を以下に記載しました。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:225
+msgid "**ISAD(G) edit template**"
+msgstr "**ISAD(G) 編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:227
+msgid ""
+"In the \"Context area\" :term:`information area` of the :ref:`ISAD(G) "
+"template <isad-template>`, navigate to the \"Repository\" :term:`field` and "
+"enter a new name."
+msgstr ""
+"「コンテキストエリア」：用語「情報エリア」にある :ref:`ISAD(G) テンプレート <isad-template>` "
+"の中で、「リポジトリ」：用語「フィールド」に進んで新しい名前を入力してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:230
+#: ../../user-manual/add-edit-content/archival-institutions.rst:238
+#: ../../user-manual/add-edit-content/archival-institutions.rst:246
+#: ../../user-manual/add-edit-content/archival-institutions.rst:254
+#: ../../user-manual/add-edit-content/archival-institutions.rst:262
+msgid ""
+"The name will be saved as a new archival institution when you save the "
+"archival description."
+msgstr "アーカイブ記述を保存する際に、その名前は新しいアーカイブ機関として保存されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:233
+msgid "**Rules for Archival Description (RAD) edit template**"
+msgstr "**アーカイブ記述規則（RAD）編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:235
+msgid ""
+"In the \"Title and statement of responsibility area\" :term:`information "
+"area` of the :ref:`RAD template <rad-template>`, navigate to the "
+"\"Repository\" :term:`field` and enter a new institution name."
+msgstr ""
+"「タイトル及び責任表示領域」:term:`情報領域`内の :ref:`RADテンプレート<rad-"
+"template>`では、「リポジトリ」:term:`フィールド`へ移動し、新しい機関名を入力してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:241
+msgid "**Describing Archives: A Content Standard (DACS) edit template**"
+msgstr "**アーカイブ記述：コンテンツ基準（DACS）編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:243
+msgid ""
+"In the \"Identity elements\" :term:`information area` of the :ref:`DACS "
+"template <dacs-template>`, navigate to the \"Name and location of "
+"repository\" :term:`field` and enter a new name."
+msgstr ""
+"\"「識別要素」:term:`情報エリア`内の :ref:`DACSテンプレート<dacs-"
+"template>`において、「リポジトリの名称と所在地」:term:`フィールド`に移動し、新しい名称を入力してください。\""
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:249
+msgid "**Dublin Core Version 1.1 (DC) edit template**"
+msgstr "**ダブリンコア バージョン 1.1（DC）編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:251
+msgid ""
+"In the \"Elements area\" :term:`information area` of the :ref:`Dublin Core "
+"template <dc-template>`, navigate to the \"Relation(isLocatedAt)\" "
+":term:`field` and enter a new name."
+msgstr ""
+"「エレメントエリア」:term:`information area` の :ref:`Dublin Core テンプレート <dc-template>`"
+" 内において、「Relation(isLocatedAt)」:term:`フィールド` へ移動し、新しい名前を入力します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:257
+msgid "**Metadata Object Description Schema (MODS) edit template**"
+msgstr "**メタデータオブジェクト記述スキーマ（MODS）編集テンプレート**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:259
+msgid ""
+"In the \"Elements area\" :term:`information area` of the :ref:`MODS template"
+" <mods-template>`, navigate to the \"Repository\" :term:`field` and enter a "
+"new name."
+msgstr ""
+"「エレメントエリア」：用語「インフォメーションエリア」の :ref:`MODSテンプレート <mods-template>` "
+"において、「リポジトリ」：用語「フィールド」へ移動し、新しい名前を入力してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:265
+msgid ""
+"The newly created archival institution will then have to be edited to "
+"include necessary data. To edit the archival institution record, see the "
+":ref:`Edit an existing archival institution <edit-archival-institution>` "
+"section of this page."
+msgstr ""
+"新しく作成されたアーカイブ機関には、必要なデータを含めるために編集が必要です。アーカイブ機関の記録を編集するには、このページの「既存のアーカイブ機関を編集する<edit-"
+"archival-institution>」セクションを参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:273
+msgid "Add a new archival institution from the view page"
+msgstr "表示ページから新しいアーカイブ機関を追加"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:275
+msgid ""
+"A new :term:`archival institution` can also be added to AtoM from the "
+":term:`view page` of any other archival institution via the :term:`Add new "
+"button` in the :term:`button block`. To do so:"
+msgstr ""
+"新しい「アーカイブ機関」も、他のアーカイブ機関の「閲覧ページ」から、:term:`ボタンブロック`内の「新規追加ボタン」を通じてAtoMに追加することができます。そのためには以下の手順を行います："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:279
+msgid ""
+"Navigate to an existing :term:`archival institution` in AtoM. You can do "
+"this by :doc:`browsing <../access-content/browse>` or by :doc:`searching "
+"<../access-content/search-atom>` for a specific archival institution - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"AtoMの既存の:term:`アーカイブ機関`に移動します。これは:doc:`ブラウズ <../access-"
+"content/browse>`または特定のアーカイブ機関を:doc:`検索 <../access-content/search-"
+"atom>`することで実行できます。AtoM内でのナビゲーションに関する詳細は、:ref:`アクセスコンテンツ <access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:284
+msgid ""
+"At the bottom of the archival institution :term:`view page`, you will see "
+"the :term:`button block` with several options (Edit, Delete, and Add new). "
+"Click the :term:`Add new button`."
+msgstr ""
+"アーカイブ機関の :term:`view page` の下部には、いくつかのオプション（編集、削除、新規追加）が含まれる :term:`button "
+"block` が表示されます。:term:`Add new button` をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "Click Add new to create a new repository"
+msgstr "新しいリポジトリを作成するには「新規追加」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:293
+msgid ""
+"AtoM takes you to a blank :term:`edit page` for data entry. On loading, the "
+"edit page displays the record with all :term:`information areas <information"
+" area>` closed; click on an information area to access the "
+":term:`fields<field>` grouped under it. Enter data as required."
+msgstr ""
+"AtoMはデータ入力のための空の:term:`編集ページ`へと導きます。読み込み時に、編集ページはすべての:term:`情報エリア<information"
+" "
+"area>`が閉じた状態でレコードを表示します。アクセスするには、情報エリアをクリックし、それにまとめられた:term:`フィールド<field>`にデータを入力してください。必要に応じてデータを入力します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:303
+msgid ""
+"You can quit the creation process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new record will be created. Note that simply navigating away "
+"from the page by any other means, **without first clicking \"Create\"** will"
+" also result in no new record being created."
+msgstr ""
+"作成プロセスは、:term:`ボタンブロック`にある「キャンセル」ボタンをクリックすることでいつでも中止することができます。すでに入力されたデータは保存されず、新しい記録も作成されません。**まず「作成」をクリックせずに**他の方法でページからナビゲートしてしまった場合も、新しい記録は作成されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:308
+msgid ""
+"To save the new record, click the :term:`\"Create\" button <Create button>` "
+"located in the :term:`button block` at the bottom of the record."
+msgstr ""
+"新しい記録を保存するには、記録の下部にある`:term:`ボタンブロック <button block>`に位置する`:term:`\"作成\"ボタン "
+"<Create button>`をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:326
+msgid "Edit an existing archival institution"
+msgstr "既存のアーカイブ機関を編集する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:328
+msgid ""
+"This section contains instructions on how to edit an existing "
+":term:`archival institution`, after it has been :ref:`created <add-archival-"
+"institution>`. For information on how to theme your archival institution, "
+"see :ref:`below <edit-institution-theme>`."
+msgstr ""
+"このセクションでは、:term:`アーカイブ機関`が :ref:`作成された<add-archival-institution>` "
+"あとで、既存のアーカイブ機関を編集する方法について説明します。アーカイブ機関のテーマについての情報は、:ref:`以下を参照してください<edit-"
+"institution-theme>`。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:334
+msgid ""
+"Only an authenticated (i.e. logged in) :term:`administrator` user can edit "
+"or update an archival institution. For more information on edit privileges "
+"and user roles see: :ref:`User roles <user-roles>`."
+msgstr ""
+"認証された（つまりログインした）:term:`administrator`（管理者）ユーザーのみが、アーカイブ機関の編集や更新を行うことができます。編集権限やユーザー役割についての詳細は、:ref:`User"
+" roles <user-roles>`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:338
+msgid "An archival institution's description can be edited at any time."
+msgstr "アーカイバル機関の説明はいつでも編集できます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:340
+msgid "**To edit an existing archival institution:**"
+msgstr "**既存のアーカイブ機関を編集するには：**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:342
+msgid ""
+"First, navigate to the :term:`archival institution` you wish to edit. You "
+"can do this by :ref:`browsing <browse>` or :ref:`searching <search-atom>` "
+"for the :term:`archival institution` by name. See :ref:`access content "
+"<access-content>` for more information on navigation in AtoM."
+msgstr ""
+"まず、編集したい :term:`archival institution`（アーカイブ施設）に移動します。これは、名前で :term:`archival"
+" institution`（アーカイブ施設）を :ref:`browsing <browse>`（ブラウジング）や :ref:`searching "
+"<search-atom>`（検索）することによって行うことができます。AtoMでのナビゲーションの詳細については、:ref:`access "
+"content <access-content>`（コンテンツへのアクセス）をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:347
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking the "
+":term:`\"Edit\" button <Edit button>` in the :term:`button block` located at"
+" the bottom of the record, or by clicking on one of the :term:`information "
+"area` headings; this takes you to the record's :term:`edit page`."
+msgstr ""
+"「表示モード」から「編集モード」に切り替えるには、レコードの下部にある「ボタンブロック」に配置されている「編集」ボタンをクリックするか、情報エリアの見出しのいずれかをクリックします。これによりレコードの「編集ページ」に移動します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:357
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an information"
+" area to access the :term:`fields <field>` grouped under it."
+msgstr ""
+"読み込み時に、:term:`編集ページ`はすべての:term:`情報エリア <information "
+"area>`を閉じた状態でレコードを表示します。情報エリアをクリックして、そこにまとめられた:term:`フィールド "
+"<field>`にアクセスしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "On loading, all information areas are closed; click one to expand"
+msgstr "読み込み時、すべての情報エリアは閉じられています。展開するには、そのエリアをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:366
+msgid ""
+"Add and/or revise data as required. See :ref:`ISDIAH template <isdiah-"
+"template>` for field-specific guidance."
+msgstr ""
+"必要に応じてデータを追加または修正してください。項目固有のガイダンスについては、:ref:`ISDIAHテンプレート <isdiah-"
+"template>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:368
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved. Note"
+" that simply navigating away from the page by any other means, **without "
+"first clicking \"Save\"** will also result in no changes being saved to the "
+"archival institution."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを終了できます。これは:term:`button "
+"block`にあります。変更された内容は保存されません。ただし、まず「保存」をクリックせずに、他の方法でページから離れると、アーカイブ機関に変更が保存されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:373
+msgid ""
+"To save your edits, click the \"Save\" button located in the :term:`button "
+"block` at the bottom of the record."
+msgstr "編集内容を保存するには、レコードの下部にある`:term:`ボタンブロック`に位置する「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "Click to save your new archival institution"
+msgstr "クリックして新しいアーカイブ機関を保存"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:381
+msgid ""
+"You will be redirected to the :term:`view page` for the edited "
+":term:`archival institution`, where you can review your work."
+msgstr "編集した:term:`アーカイブ機関`の:term:`ビューページ`にリダイレクトされます。そこであなたの作業内容を確認できます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:389
+msgid "Add access points to your archival institution"
+msgstr "あなたのアーカイブ機関にアクセスポイントを追加する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:391
+msgid ""
+"To improve browsing in a :term:`multi-repository system` and to enhance the "
+"information available to end-users about your institution, you can add "
+"custom :term:`access points <access point>` to your :term:`archival "
+"institution` via the :term:`edit page` of your repository."
+msgstr ""
+"多リポジトリシステムでのナビゲーションを向上させ、利用者にあなたの機関についての情報を豊かに提供するために、リポジトリの編集ページを通じて、カスタムアクセスポイントをあなたのアーカイブ機関に追加することができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:396
+msgid ""
+"AtoM includes 5 :term:`facets <facet filter>` drawn from data added to your "
+"archival institution:"
+msgstr ""
+"AtoMには、アーカイブ機関に追加されたデータから引き出される5つの:term:`ファセット<facet filter>`が含まれています："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:399
+msgid ""
+"**Archive type:** Limits results to those with a type matching data in the "
+"\"Type\" :term:`field` in the Identity :term:`area <information area>` of "
+"the :ref:`ISDIAH <isdiah-template>` archival institution edit template"
+msgstr ""
+"**アーカイブの種類：** 結果を、Identity :term:`area <information area>` "
+"のISDIAHアーカイブ機関編集テンプレート内の「Type」:term:`field` に記入されたデータと一致するタイプに限定します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:402
+msgid ""
+"**Geographic region:** Limits results to those matching data entered into "
+"the \"Region/province\" :term:`field` in the physical location tab of the "
+"contact dialogue (available in the \"Contact\" :term:`area <information "
+"area>` of the :ref:`ISDIAH <isdiah-template>` archival institution edit "
+"template)"
+msgstr ""
+"**地理的地域:** "
+"連絡先ダイアログの物理的所在地タブで「地域/州」:term:`フィールド`に入力されたデータと一致する結果に制限します（この項目は、:ref:`ISDIAH"
+" <isdiah-template>`アーカイブ機関の編集テンプレートの「連絡先」:term:`エリア <information "
+"area>`で利用可能です）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:406
+msgid ""
+"**Geographic subregion:** Limits results to those institutions with a "
+"matching :term:`access point` added to the \"Geographic subregion\" "
+":term:`field` in the Access points :term:`area <information area>` of the "
+":ref:`ISDIAH <isdiah-template>` archival institution record"
+msgstr ""
+"**地理的なサブリージョン:** 検索結果を、\"地理的なサブリージョン\" :term:`フィールド`がアクセスポイント "
+":term:`エリア<インフォメーションエリア>`内で追加され、それに一致する :term:`アクセスポイント` を持つ機関に限定します。これは "
+":ref:`ISDIAH <isdiah-template>` アーカイブ機関レコードにおける情報です。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:410
+msgid ""
+"**Locality:** Limits results to those matching data entered into the "
+"\"City\" (e.g. city, town, etc) :term:`field` in the physical location tab "
+"of the contact dialogue (available in the \"Contact\" :term:`area "
+"<information area>` of the :ref:`ISDIAH <isdiah-template>` archival "
+"institution edit template)"
+msgstr ""
+"**地域性:** "
+"連絡先ダイアログの物理的な場所タブにある「市（例：都市、町など）」という項目に入力されたデータと一致する結果に限定します（これは、`ISDIAH "
+"<isdiah-template>`アーカイブ施設編集テンプレートの「連絡先」項目`情報エリア <information area>`で利用可能です）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:415
+msgid ""
+"**Thematic area:** Limits results to those institutions with a matching "
+":term:`access point` added to the \"Thematic area\" :term:`field` in the "
+"Access points :term:`area <information area>` of the :ref:`ISDIAH <isdiah-"
+"template>` archival institution record"
+msgstr ""
+"**テーマ領域:** "
+"結果を限定し、アクセスポイント領域のISDIAH（国際アーカイブ施設記録標準）に関するアーカイブ施設記録の「情報エリア」内にある「アクセスポイント」フィールドにマッチングするテーマ領域が追加された機関のみを対象にします。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:422
+#: ../../user-manual/add-edit-content/archival-institutions.rst:567
+msgid ":ref:`browse`"
+msgstr ""
+"「:ref:`browse`」はreStructuredText（reST）で使われる文法の一つです。これはあるドキュメント内の特定のセクションへのリファレンス（参照）を作成するために用いられます。この場合、`browse` はリファレンスのターゲットとして設定された名前であり、ドキュメントの別の場所に定義されたラベルを指しています。ただし、翻訳する際にはリファレンス自体の翻訳ではなく、リンク先のコンテンツのタイトルと文脈に基づいた適切な日本語訳が必要になります。\n"
+"\n"
+"もし「browse」がセクションのタイトルとして設定されていて、翻訳する必要がある場合は、日本語で「閲覧」や「ブラウズ」と訳すことができます。しかし、正確な翻訳をするためには文脈が必要です。\n"
+"\n"
+"全体的な文脈がないので、正規のテキストの翻訳を提供することはできませんが、リファレンスタグ自体の例を以下に示します。\n"
+"\n"
+"参照：`閲覧`\n"
+"\n"
+"上記は参照タグを日本語訳に変換した例ですが、実際にどのような文脈で使用されるかによって翻訳は異なる場合があります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:423
+#: ../../user-manual/add-edit-content/archival-institutions.rst:568
+msgid ":ref:`recurring-facet-filters`"
+msgstr "`:ref:`定期的なファセットフィルター``"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:425
+msgid ""
+"The **Geographic region** and **Locality** facets are automatically "
+"populated based on data entered into the contact information fields "
+"available in the Contact :term:`area <information area>` of the archival "
+"institution :term:`edit page`, and the **Archive type** facet is similarly "
+"automatically populated based on data entered into the \"Type\" "
+":term:`field` in the Identity :term:`area <information area>`."
+msgstr ""
+"**地理的地域** および **ローカリティ** ファセットは、アーカイブ機関の :term:`編集ページ` にある連絡先情報 :term:`エリア "
+"<情報エリア>` のフィールドに入力されたデータに基づいて自動的に生成されます。また、**アーカイブの種類** ファセットも同様に、アイデンティティ "
+":term:`エリア <情報エリア>` 内の \"タイプ\" :term:`フィールド` に入力されたデータに基づいて自動的に生成されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the Contact information fields that will populate facets"
+msgstr "連絡先情報フィールドのイメージは、ファセットが補完されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:437
+msgid ""
+"The **Geographic subregion** and **Thematic area** facets are managed as "
+":term:`access points <access point>`, and must be manually added in the "
+"Access points :term:`area <information area>` of the archival institiution "
+":term:`edit page`. Similar to the :term:`place` and :term:`subject` access "
+"point fields available on :term:`archival descriptions <archival "
+"description>`, all access points included by default or added by users are "
+"managed as :term:`terms <term>` in a :term:`taxonomy`, which users can "
+"manage directly via |pencil| **Manage > Taxonomies**. For more information "
+"on working with terms and taxonomies in AtoM, see: :ref:`terms`."
+msgstr ""
+"**地理的サブリージョン**と**テーマ領域**のファセットは:term:`アクセスポイント <access "
+"point>`として管理され、アーカイブ施設の:term:`編集ページ <edit page>`にあるアクセスポイント:term:`領域 "
+"<information area>`で手動で追加する必要があります。:term:`アーカイブ記述 <archival "
+"description>`で利用可能な:term:`場所 <place>`や:term:`主題 "
+"<subject>`アクセスポイントフィールドと同様に、デフォルトで含まれているものやユーザーが追加した全てのアクセスポイントは、ユーザーが "
+"|pencil| **管理 > タクソノミー**から直接管理できる:term:`用語 <term>`の:term:`分類体系 "
+"<taxonomy>`として管理されます。AtoMにおける用語や分類体系の操作についての詳細は、以下を参照してください: :ref:`terms`。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:151
+msgid "pencil"
+msgstr "「鉛筆」"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:447
+msgid ""
+"The **Geographic subregion** access point is intended to support better "
+"regional browsing in a :term:`multi-repository system`, especially in state,"
+" regional, or provincial union catalogues or :term:`networks <network>` "
+"where Region is not specific  enough. For example, *Southern Alberta*, "
+"*Northern Alberta*, and *Central Alberta* might be terms used in a province-"
+"wide union catalogue for Alberta, a province in Canada. AtoM does not "
+"include any default terms in this taxonomy. Users can add new terms directly"
+" to the taxonomy (see: :ref:`add-term-taxonomy`), or by entering new terms "
+"to the Geographic subregion field in the archival institution edit template "
+"(instructions on how to do this below)."
+msgstr ""
+"**地理的サブリージョン** アクセスポイントは、特に州、地方、または州のユニオンカタログやリージョンが十分に具体的でない "
+":term:`ネットワーク<network>` "
+"などでの地域別ブラウジングをよりサポートすることを意図しています。例えば、カナダの州であるアルバータ州の州全体のユニオンカタログでは、*南アルバータ*、*北アルバータ*、*中央アルバータ*"
+" "
+"などの用語が使用されるかもしれません。AtoMには、この分類法にデフォルトの用語は含まれていません。ユーザーは新しい用語を分類法に直接追加することができます（参照：:ref:`add-"
+"term-"
+"taxonomy`）、または、アーカイブ機関の編集テンプレートの地理的サブリージョンフィールドに新しい用語を入力して追加することができます（以下にその方法を説明します）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:458
+msgid ""
+"The **Thematic area** access point is intended to assist users in "
+"identifying major collecting areas of an archival institution by offering "
+"them a sense of the subject matter addressed in the :term:`holdings` of the "
+"institution. AtoM includes a number of default terms (included in both "
+"French and English) in the Thematic area :term:`taxonomy`, derived from the "
+"terms used in the Canadian Council of Archives' Directory of Archives:"
+msgstr ""
+"**テーマ領域** "
+"アクセスポイントは、アーカイブ機関の主要な収集領域を利用者が識別できるように支援するために設けられており、機関の保有する資料の対象となるテーマ内容を提供します。AtoMには、カナダのアーカイブ協会のアーカイブディレクトリで使用される用語から派生した、テーマ領域の**分類学**に関するデフォルトの用語がいくつか含まれており（フランス語および英語の両方で含まれています）："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:471
+msgid "An image of CCA's Directory of Archives"
+msgstr "CCAのアーカイブディレクトリの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:471
+msgid ""
+"An image of the CCA's Directory of Archives, showing the Theme terms that "
+"were used to create the default terms in AtoM's Thematic area taxonomy."
+msgstr ""
+"CCA（カナダ建築センター）のアーカイブディレクトリーの画像で、AtoMのテーマ領域分類におけるデフォルト用語を作成するために使用されたテーマ用語が示されています。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:474
+msgid ""
+"All default *Thematic area* terms can be edited or deleted by users with the"
+" appropriate edit permissions, and new terms can be added directly to the "
+"taxonomy (see: :ref:`add-term-taxonomy`), or by entering new terms to the "
+"Thematic area field in the archival institution edit template (instructions "
+"on how to do this below)."
+msgstr ""
+"既定の*テーマ領域*用語は、適切な編集権限を持つユーザーによって編集または削除することができ、新しい用語は分類体系に直接追加することができます（参照：`add-"
+"term-"
+"taxonomy`）、またはアーカイブ機関の編集テンプレートのテーマ領域フィールドに新しい用語を入力することで追加できます（以下の方法についての説明を参照してください）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:480
+msgid "**To add new Geographic subregion or Thematic area access points:**"
+msgstr "**新しい地理的な亜地域やテーマエリアのアクセスポイントを追加するには:**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:482
+msgid ""
+"Navigate to the :term:`archival institution` to which you would like to add "
+"a new :term:`access point`. You can do this either by :ref:`searching "
+"<search-atom>` or :ref:`browsing <browse>` - for more information on "
+"navigation in AtoM, see :ref:`access-content`."
+msgstr ""
+"移動してください :term:`archival institution` に、あなたが新しい :term:`access point` "
+"を追加したい場所です。これは、:ref:`searching <search-atom>` または :ref:`browsing <browse>` "
+"を通じて行うことができます - AtoM でのナビゲーションについての詳細は、:ref:`access-content` を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:486
+msgid ""
+"At the bottom of the archival institution's :term:`view page`, you will see "
+"the :term:`button block` with several options. Click the \"Edit\" button, or"
+" click on any of the information area :term:`headers <area header>`, to "
+"enter :term:`edit mode`."
+msgstr ""
+"アーカイブ機関の :term:`ビューページ` の下部には、いくつかのオプションを含んだ :term:`ボタンブロック` "
+"が表示されています。\"編集\"ボタンをクリックするか、情報エリアの :term:`ヘッダー<エリアヘッダー>` "
+"のいずれかをクリックして、:term:`編集モード` に入ります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:497
+msgid "An image of the button block on an archival institution"
+msgstr "アーカイブ機関におけるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:497
+msgid "The button block available on an archival institution"
+msgstr "アーカイブ施設で利用可能なボタンブロック"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:499
+msgid ""
+"Navigate to the Access points :term:`information area` at the bottom of the "
+":term:`edit page`, and begin typing  your :term:`access point` into the "
+"relevant :term:`field`. Wait a moment and do not press enter immediately - "
+"the access point fields will auto-complete any matching terms in a "
+":term:`drop-down menu`, allowing you to see if your access point already "
+"exists."
+msgstr ""
+"アクセスポイントにある「情報エリア」へ移動し、編集ページの最下部にあります。関連するフィールドにあなたのアクセスポイントを入力し始めてください。すぐにエンターキーを押さずに少々待ってください。アクセスポイントのフィールドは、一致する用語をドロップダウンメニューで自動補完し、あなたのアクセスポイントが既に存在するかどうかを確認することができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:512
+msgid "An image of adding an access point to an archival institution"
+msgstr "アーカイブ機関へアクセスポイントを追加する画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:512
+msgid ""
+"When you begin typing in an access point field, the drop-down will provide "
+"matching suggestions - select from the list to use an existing term, or "
+"enter a new term. Be careful: if you type the full name of an existing term "
+"and press enter (instead of selecting from the list), you could accidentally"
+" create a duplicate term!"
+msgstr ""
+"アクセスポイントフィールドに入力を開始すると、ドロップダウンが一致する提案を表示します - "
+"既存の用語を使用するためにリストから選択するか、新しい用語を入力してください。注意してください：既存の用語の全名を入力してエンターを押すと（リストから選択する代わりに）、誤って重複した用語を作成してしまう可能性があります！"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:518
+msgid ""
+"If a matching term *DOES* exist, select from the drop-down list and save the"
+" :term:`archival institution` by using the \"save\" button in the "
+":term:`button block` at the bottom of the :term:`edit page`."
+msgstr ""
+"一致する用語が存在する場合は、ドロップダウンリストから選択し、`:term:`編集ページ` の下部にある :term:`ボタンブロック` "
+"の「保存」ボタンを使用して :term:`アーカイブ機関` を保存してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:524
+msgid ""
+"If you are not careful, it is easy to accidentally create duplicate terms! "
+"To avoid duplication, matching terms **must** be selected from the auto-"
+"complete :term:`drop-down <drop-down menu>` - otherwise, even exact matches "
+"will create duplicates when the user presses enter."
+msgstr ""
+"注意しないと、うっかり重複した用語を作成してしまうことがあります！重複を避けるためには、一致する用語はオートコンプリートの "
+":term:`ドロップダウン<ドロップダウンメニュー>` から**必ず**選択しなければなりません - "
+"そうでなければ、ユーザーがエンターキーを押した時に正確に一致しても重複が作成されることになります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:529
+msgid ""
+"If a matching term does *not* exist, press the Tab key to exit the field, or"
+" use your cursor. A new term will be created in the related :term:`taxonomy`"
+" (e.g. Geographic subregion or Thematic area) when the archival institution "
+"is saved."
+msgstr ""
+"対応する用語が*存在しない*場合は、Tabキーを押してフィールドから抜けるか、カーソルを使用してください。関連する:term:`分類法`（例：地理的な小地域やテーマ領域）に、アーカイブ施設を保存する際に新しい用語が作成されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:533
+msgid ""
+"You can add multiple terms at a time - when you exit the :term:`field` with "
+"your cursor, AtoM will provide a new blank field. Repeat steps 4-5 as "
+"necessary. If you need to **edit** or **remove** a term you have just added,"
+" place your cursor to the left of the term - an **X** icon will appear in "
+"place of the bullet next to the term. You can click the **X** to remove the "
+"term."
+msgstr ""
+"一度に複数の用語を追加することができます。カーソルを`:term:`フィールド`から移動させると、AtoMが新しい空白のフィールドを提供します。必要に応じて、ステップ4から5を繰り返してください。追加したばかりの用語を**編集**または**削除**する必要がある場合は、用語の左側にカーソルを配置してください。そうすると、用語の隣の箇条書きの記号の代わりに**X**アイコンが表示されます。**X**をクリックしてその用語を削除できます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:546
+msgid "An image of removing an access point"
+msgstr "アクセスポイントを取り除くイメージ"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:546
+msgid ""
+"Place your cursor to the left of a term to see the option to remove it - the"
+" bullet icon will change to an **X** icon. Click to remove the term."
+msgstr ""
+"用語の左側にカーソルを置くと、その用語を削除するオプションが表示されます - "
+"弾丸アイコンが**X**アイコンに変わります。クリックして用語を削除します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:549
+msgid ""
+"At the bottom of the institution's :term:`edit page`, click the \"Save\" "
+"button in the :term:`button block` when you are done editing. AtoM will "
+"reload the :term:`archival institution` in :term:`view mode`, and your new "
+"access point(s) will appear in the Access points :term:`information area`."
+msgstr ""
+"機関の「編集ページ」の下部にある「ボタンブロック」内の「保存」ボタンをクリックして編集を完了してください。AtoMは「アーカイブ機関」を「表示モード」で再ロードし、新しいアクセスポイントがアクセスポイント「情報エリア」に表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:560
+msgid "An image of access points on an institution view page"
+msgstr "機関ビューページ上のアクセスポイントの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:560
+msgid ""
+"An image of access points on an archival institution's view page, after "
+"saving. Note how each is qualified with the related taxonomy in parentheses "
+"after the term."
+msgstr ""
+"保存後のアーカイブ機関のビューページに表示されるアクセスポイントの画像。各項目の後に括弧内に関連した分類法を記載していることに注目してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:564
+msgid ""
+"Your access points can now be used as :term:`facet filters <facet filter>` "
+"on the archival institution browse page. For more information see:"
+msgstr ""
+"あなたのアクセスポイントは現在、アーカイブ機関のブラウズページで:term:`ファセットフィルター<facet "
+"filter>`として使用することができます。詳細については、次を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the Geographic subregion and Thematic area facets"
+msgstr "地理的小地域およびテーマ領域の側面の画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:578
+msgid "Link an archival description to an archival institution"
+msgstr "アーカイバル記述をアーカイブ機関にリンクする"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:580
+msgid ""
+"Links between existing archival institution and existing archival "
+"descriptions can be added at any time by an authenticated (i.e. logged in) "
+":term:`administrator` with sufficient edit permissions. For more information"
+" on types of users and edit permissions, see :ref:`User roles <user-roles>`."
+" You will need to create the link from the :term:`archival description` you "
+"wish to link."
+msgstr ""
+"既存のアーカイブ機関と既存のアーカイブ記述との間のリンクは、編集権限を十分に持つ認証済み（つまりログインしている）の:term:`管理者`によって、いつでも追加することができます。ユーザーの種類と編集権限の詳細については、:ref:`ユーザーの役割"
+" <user-roles>`をご覧ください。リンクしたい:term:`アーカイブ記述`からリンクを作成する必要があります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:589
+msgid ""
+"When linking a repository to an archival description, link only at the top "
+"level of description (e.g. :term:`fonds`, :term:`collection`, etc)- AtoM "
+"will automatically inherit the repository to lower levels of description "
+"(e.g. :term:`children <child record>`). If you link at all levels, it can "
+"not only impact performance, but it will also mean that each lower-level "
+"description will appear in the :term:`holdings` list, instead of just the "
+":term:`parent <parent record>` description. For more on the holdings list, "
+"see: :ref:`browse-holdings`."
+msgstr ""
+"アーカイバル・デスクリプションにリポジトリをリンクする際は、最上位のデスクリプションレベル（例：`:term:`資料群`, "
+":term:`コレクション`, "
+"など）にのみリンクしてください。AtoMは自動的にそのリポジトリを下位のデスクリプションレベル（例：`:term:`子記録 <child "
+"record>`）に継承します。全てのレベルにリンクすると、パフォーマンスに影響を及ぼすだけでなく、`:term:`保有資料 "
+"<holdings>`リストに下位レベルのデスクリプションが表示されることを意味し、`:term:`親記録 <parent "
+"record>`デスクリプションだけが表示されるのではなくなります。保有資料リストの詳細については、こちらをご覧ください: :ref:`browse-"
+"holdings`。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:598
+msgid "**To link an archival description to an archival institution:**"
+msgstr "アーカイブ記述をアーカイブ機関にリンクするためには："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:600
+msgid ""
+"First, navigate to the :term:`archival description` you wish to edit. You "
+"can do this by :doc:`browsing <../access-content/browse>` or :doc:`searching"
+" <../access-content/search-atom>` for the :term:`archival description` - see"
+" :ref:`Access content <access-content>` for more information on navigation "
+"in AtoM."
+msgstr ""
+"まず、編集したい:term:`アーカイブ記述`に移動します。これは、:doc:`ブラウジング <../access-"
+"content/browse>`または:doc:`検索 <../access-content/search-"
+"atom>`を利用して、:term:`アーカイブ記述`を探すことで行えます - "
+"AtoMでのナビゲーションの詳細については、:ref:`アクセスコンテンツ <access-content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:605
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking "
+":term:`\"Edit\" button <edit button>` in the :term:`button block`, or by "
+"clicking on one of the :term:`information area` headings; this takes you to "
+"the record’s :term:`edit page`."
+msgstr ""
+"「表示モード」から「編集モード」への切り替えは、「ボタンブロック」内の「編集」ボタンをクリックすること、または情報エリアの見出しのいずれかをクリックすることで行えます。これにより、レコードの「編集ページ」に移動します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "Click edit to enter edit mode and link your repository"
+msgstr "編集モードに入るには編集をクリックし、リポジトリをリンクしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:615
+msgid ""
+"To create a link to an archival institution, follow the steps above for "
+":ref:`\"adding a new archival institution\" <add-institution-main>` - "
+"however, instead of entering a new name, begin typing the name of the "
+":term:`archival institution` to which you would like to create a link. The "
+"name :term:`field` is an auto-complete - as you type, matching results will "
+"load in a :term:`drop-down menu` below the field. When you see the "
+":term:`archival institution` you would like to link, click on it to select "
+"it."
+msgstr ""
+"アーカイブ機関へのリンクを作成するためには、上記の「新しいアーカイブ機関を追加する」についてのステップに従ってくださいが、新しい名前を入力するのではなく、リンクを作成したい:term:`アーカイブ機関`の名前を入力し始めます。名前:term:`フィールド`は自動補完機能があり"
+" - "
+"入力するにつれて、一致する結果がフィールドの下の:term:`ドロップダウンメニュー`に読み込まれます。リンクする:term:`アーカイブ機関`が表示されたら、それをクリックして選択してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An example of using the autocomplete to link a repository"
+msgstr "リポジトリをリンクするためにオートコンプリートを使用する一例"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:631
+msgid ""
+"This method makes use of  an `auto-complete <https://en.wikipedia.org/wiki "
+"/Auto-complete>`__ field to find the right :term:`archival institution` as "
+"you begin to type its name/title. **Be sure** to pick the record from the "
+":term:`drop-down <drop-down menu>` when it appears - if you type the full "
+"name and press enter, a new archival institution will be generated instead "
+"of a link being created to an existing one! If, however, you wish to add a "
+"new archival institution from the archival description's :term:`edit page`, "
+"see :ref:`above <add-institution-description-edit>`."
+msgstr ""
+"この方法では、その名前/タイトルを入力し始めると `自動補完 <https://ja.wikipedia.org/wiki/オートコンプリート>`__ "
+"フィールドを利用して、適切な :term:`アーカイブ機関` を見つけます。**必ず**、:term:`ドロップダウン <ドロップダウンメニュー>` "
+"メニューが表示されたら、その記録を選択してください。全名を打ち込んでエンターキーを押すと、既存のものにリンクが作成されるのではなく、新しいアーカイブ機関が生成されてしまいます！ただし、アーカイブ記述の"
+" :term:`編集ページ` から新しいアーカイブ機関を追加したい場合は、:ref:`上記 <add-institution-description-"
+"edit>` を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:640
+msgid ""
+"When you are done editing the record, save the :term:`archival description` "
+"by scrolling down and pressing \"Save\" in the :term:`button block`."
+msgstr ""
+"レコードの編集が終了したら、スクロールダウンして「ボタンブロック」にある「保存」を押して、`:term:`アーカイブ記述`を保存してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "Click to save your edited archival description"
+msgstr "編集したアーカイブ記述を保存するにはクリックしてください"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:649
+msgid ""
+"The :term:`archival description` will reload in :term:`view mode`. You "
+"should be able to see the archival institution as a hyperlink on the "
+"archival description. Follow the link to ensure you have linked to the "
+"proper :term:`archival institution`. The linked archival description will "
+"also appear in the \"Holdings\" section of the :ref:`Context menu "
+"<recurring-context-menu>` of the archival institution’s :term:`view page`."
+msgstr ""
+"アーカイバル記述は閲覧モードで再読み込みされます。アーカイブ機関がアーカイバル記述上のハイパーリンクとして表示されることを確認してください。適切なアーカイブ機関にリンクされていることを確認するために、そのリンクをたどってください。リンクされたアーカイバル記述も、アーカイブ機関の閲覧ページのコンテキストメニューの「保有資料」セクションに表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:661
+msgid "Edit the theme for an existing archival institution"
+msgstr "既存のアーカイブ機関のテーマを編集する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:663
+msgid ""
+"AtoM 2.0 introduces a new design feature for users that allows them to "
+"customize their archival institution's page by adding/editing an institution"
+" logo and/or banner, as well as choose a specific background color for their"
+" institution's page. Once added, the background color and logo will appear "
+"on all of the institution's related :term:`archival descriptions <archival "
+"description>` (see :ref:`above <link-archival-institution>` for information "
+"on how to create a link between an :term:`archival description` and an "
+":term:`archival institution`)."
+msgstr ""
+"AtoM "
+"2.0は、利用者がアーカイブ機関のページをカスタマイズするための新しいデザイン機能を導入しました。これにより、機関のロゴやバナーを追加・編集したり、機関のページの背景色を特定の色に設定することができます。一度追加すると、背景色やロゴはその機関の関連する「アーカイバル記述（archival"
+" description）」(:ref:`上記 <link-archival-"
+"institution>`に「アーカイバル記述」と「アーカイブ機関」とをリンクする方法に関する情報があります) のすべてに表示されるようになります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:671
+msgid ""
+"Additionally, users can add custom `HTML "
+"<https://en.wikipedia.org/wiki/Html>`__ and inline `CSS "
+"<https://en.wikipedia.org/wiki/CSS>`__ to a description area for specific "
+"highlighted content. These features can be especially useful in a "
+":term:`multi-repository system` as they help users visually identify where "
+":term:`archival descriptions <archival description>` are held, and allow for"
+" an institution in a multi-repository system such a network or "
+"provincial/state portal to better match their institution's local branding. "
+"Editing the theme of your :term:`archival institution` is comprised of four "
+"main elements:"
+msgstr ""
+"さらに、ユーザーは、特定の強調表示されたコンテンツのための説明エリアにカスタムの `HTML "
+"<https://en.wikipedia.org/wiki/Html>`__ とインライン `CSS "
+"<https://en.wikipedia.org/wiki/CSS>`__ を追加することができます。これらの機能は、ユーザーが "
+":term:`archival descriptions <archival "
+"description>`（アーカイブ記述）が保持されている場所を視覚的に識別するのを助け、ネットワークや州/省のポータルのような多機関リポジトリシステムにある機関が、その機関のローカルブランディングにより適合させるのに特に役立ちます。あなたの"
+" :term:`archival institution`（アーカイブ機関）のテーマを編集することは、4つの主要な要素から成り立っています："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:683
+msgid ":ref:`Add/edit a logo <add-institution-logo>`"
+msgstr ":ref:`ロゴの追加/編集 <add-institution-logo>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:685
+msgid ":ref:`Add/edit a custom description <add-institution-custom-content>`"
+msgstr ":ref:`カスタム説明の追加/編集 <add-institution-custom-content>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:693
+msgid "Change the background color of an archival institution"
+msgstr "アーカイブ機関の背景色を変更する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:695
+msgid ""
+"This new design feature allows authenticated (i.e. logged in) "
+":term:`administrators <administrator>` to customize their archival "
+"institution record by changing the background color of the page. Users can "
+"choose and modify (i.e. hue, tint) a color from a pre-determined color "
+"pallette. Changing the background color in an archival institution "
+":term:`edit page` will automatically change the background color of all the "
+":term:`archival description` pages linked to that specific institution."
+msgstr ""
+"この新しいデザイン機能により、認証済み（つまりログインしている）:term:`管理者<administrator>`は、ページの背景色を変更することで、自分の所属するアーカイブ機関のレコードをカスタマイズすることができます。ユーザーは、あらかじめ決められたカラーパレットから色を選択し、変更（つまり、色相、色合い）することができます。アーカイブ機関の:term:`編集ページ`で背景色を変更すると、その特定の機関にリンクされたすべての:term:`アーカイバルディスクリプション`のページの背景色も自動的に変更されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:703
+msgid "**To change the background color of an archival institution page:**"
+msgstr "アーカイブ機関のページの背景色を変更するには："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:705
+msgid ""
+"First, navigate to the :term:`archival institution` whose theme you wish to "
+"edit. You can do this by :doc:`browsing <../access-content/browse>` or "
+":doc:`searching <../access-content/search-atom>` for the :term:`archival "
+"institution` by name. See :ref:`access content <access-content>` for more "
+"information on navigation in AtoM."
+msgstr ""
+"まず、編集したい:term:`アーカイバル機関`に移動します。これは、:doc:`閲覧 <../access-content/browse>` や "
+":doc:`検索 <../access-content/search-"
+"atom>`により、:term:`アーカイバル機関`の名称で行うことができます。AtoMにおけるナビゲーションの詳細については、:ref:`アクセスコンテンツ"
+" <access-content>`をご覧ください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:710
+msgid ""
+"Click on the \"Edit theme\" button in the :term:`button block` at the bottom"
+" of the archival institution's :term:`edit page`."
+msgstr "アーカイブ機関の:term:`編集ページ`の下部にある:term:`ボタンブロック`の「Edit theme」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the edit theme button in the button block"
+msgstr "ボタンブロックのテーマ編集ボタンの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:718
+msgid ""
+"AtoM will reload load the institutions theme :term:`edit page`. From here, "
+"authenticated users can change the background color, upload a logo and/or "
+"banner, and add custom content."
+msgstr ""
+"AtoMは、機関のテーマ:term:`編集ページ`を再読み込みします。ここから、認証されたユーザーは、背景色を変更したり、ロゴやバナーをアップロードしたり、カスタムコンテンツを追加することができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the theme edit page in AtoM"
+msgstr "AtoMのテーマ編集ページの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:727
+msgid ""
+"In the \"Style\" area, click on the Background color (you can click on the "
+"title, the color swatch, or text box showing the :term:`hex color code`). A "
+":term:`color picker` will appear as a :term:`drop-down menu`."
+msgstr ""
+"「スタイル」エリアで、背景色をクリックしてください（タイトル、カラースウォッチ、または：term:`hex color "
+"code`を示すテキストボックスをクリックできます）。：term:`color picker`が：term:`drop-down "
+"menu`として表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the color picker in the Edit Theme page"
+msgstr "「編集テーマ」ページのカラーピッカーの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An closeup of the color picker in the Edit Theme page"
+msgstr "テーマ編集ページのカラーピッカーのクローズアップ"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:741
+msgid ""
+"Select the color that you would like to use as the background for your "
+":term:`archival institution` record. This color will appear as the "
+"background for all related :term:`archival descriptions <archival "
+"description>` as well. Use the slider on the right of the :term:`color "
+"picker` drop-down to select a **hue** - you can click or drag the slider bar"
+" to dynamically change the color in the pallette. Use the pallette to select"
+" a **tint** - you can click or drag in the pallette to dynamically change "
+"the color. There is also a text-box provided where you can manually enter a "
+":term:`hex color code` if you with. The selected color will be displayed in "
+"the small preview box next to the :term:`hex color code` text-box. You can "
+"click anywhere outside of the the :term:`color picker` to hide the "
+":term:`drop-down <drop-down menu>`."
+msgstr ""
+"あなたの:term:`アーカイブ機関`の記録に使用したい背景色を選択してください。この色は関連するすべての:term:`アーカイブ記述<アーカイブ記述>`の背景としても表示されます。:term:`カラーピッカー`のドロップダウンの右にあるスライダーを使用して**色相**を選択します"
+" - スライダーバーをクリックまたはドラッグすることで、パレット内の色をダイナミックに変更できます。パレットを使用して**色合い**を選択します - "
+"パレット内をクリックまたはドラッグして色をダイナミックに変更できます。また、希望する場合は:term:`16進数カラーコード`を手動で入力できるテキストボックスも用意されています。選択した色は、:term:`16進数カラーコード`のテキストボックスの隣にある小さなプレビューボックスに表示されます。:term:`カラーピッカー`の外側をどこでもクリックすると:term:`ドロップダウン<ドロップダウンメニュー>`が隠れます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:753
+#: ../../user-manual/add-edit-content/archival-institutions.rst:834
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1025
+msgid ""
+"You can quit the theming process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved. Note"
+" that simply navigating away from the page by any other means, **without "
+"first clicking \"Save\"** will also result in no changes being saved to the "
+"archival institution."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることにより、テーマ設定プロセスを終了することができます。これが:term:`button "
+"block`にあり、行われた変更は保存されません。また、「保存」をクリックせずに、他の方法でページから移動した場合も、変更は保存されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:758
+msgid ""
+"When you have selected your new background color, click \"Save\" in the "
+":term:`button block` at the bottom of the page. AtoM will reload the "
+":term:`archival institution` in :term:`view mode`, where you can review how "
+"the new color looks. If needed, you can repeat steps 2-6 until you are happy"
+" with the selection."
+msgstr ""
+"新しい背景色を選択したら、ページの下部にある「ボタンブロック」(:term:`button block`) 内の「保存」(:term:`Save`) "
+"をクリックしてください。AtoMは「アーカイブ機関」(:term:`archival institution`) "
+"を「表示モード」(:term:`view mode`) "
+"で再読み込みし、選択した新しい色がどのように見えるのかを確認することができます。必要に応じて、手順2から6を繰り返し、満足のいく色選びができるまで調整してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of an archival institution with a custom color"
+msgstr "アーカイブ機関のカスタムカラーのイメージ"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:771
+msgid ""
+"Be sure to check the appearance of titles, text, and hyperlinks on your "
+":term:`archival institution` page and on any related :term:`archival "
+"descriptions <archival description>`. Some color choices make decrease "
+"accessibility, and make titles, text, and hyperlinks harder for users to "
+"read."
+msgstr ""
+"タイトル、テキスト、ハイパーリンクの表示が、あなたの:term:`アーカイブ施設`ページおよび関連する:term:`アーカイブ記述 "
+"<アーカイブ記述>`において適切であることを確認してください。色の選択によってはアクセシビリティが低下し、タイトル、テキスト、ハイパーリンクがユーザーにとって読みにくくなることがあります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:780
+msgid "Add/edit a logo to an existing archival institution"
+msgstr "既存のアーカイブ機関にロゴを追加・編集する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:782
+msgid ""
+"Authenticated (i.e. logged in) :term:`administrators <administrator>` also "
+"have the option to customize the :term:`archival institution` record by "
+"adding a logo to the institution's page. Below are instructions to :ref:`add"
+" a logo <add-logo>` and :ref:`edit and/or delete an exisiting logo <edit-"
+"logo>` for an archival institution."
+msgstr ""
+"認証された（つまり、ログインした）:term:`管理者 "
+"<administrator>`は、アーカイブ機関のページにロゴを追加することで、:term:`アーカイブ機関`の記録をカスタマイズするオプションも持っています。以下に、アーカイブ機関にロゴを:ref:`追加する方法"
+" <add-logo>`及び:ref:`既存のロゴを編集または削除する方法 <edit-logo>`についての指示があります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:791
+msgid "Add a logo for an archival institution"
+msgstr "アーカイブ機関のロゴを追加する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:793
+msgid ""
+"First, navigate to the :term:`archival institution` you wish to edit. You "
+"can do this by :doc:`browsing <../access-content/browse>` or :doc:`searching"
+" <../access-content/search-atom>` for the archival institution - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"まず、編集したい:term:`archival institution`(アーカイブ機関)へと移動します。これは、:doc:`ブラウジング "
+"<../access-content/browse>`や、アーカイブ機関の:doc:`検索 <../access-content/search-"
+"atom>`を行うことで実施できます - AtoMでのナビゲーションに関する詳細は、:ref:`アクセスコンテンツ <access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:798
+#: ../../user-manual/add-edit-content/archival-institutions.rst:879
+#: ../../user-manual/add-edit-content/archival-institutions.rst:929
+#: ../../user-manual/add-edit-content/archival-institutions.rst:988
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1052
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1096
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1153
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking \"Edit "
+"theme\" button in the :term:`button block`."
+msgstr "「ビューモード」から「編集モード」へは、`:term:`ボタンブロック`」内の「テーマを編集」ボタンをクリックすることで切り替えます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:806
+msgid ""
+"From here, authenticated users can upload a logo. In the \"Style\" area, "
+"under the \"Logo\" :term:`field`, click the \"Browse\" button."
+msgstr ""
+"ここから、認証されたユーザーはロゴをアップロードすることができます。\"スタイル\" エリアの \"ロゴ\" :term:`フィールド` "
+"の下で、\"参照\" ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the logo upload in the Style area"
+msgstr "スタイル領域でのロゴアップロードの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:814
+msgid ""
+"A separate window will open; select the image on your computer that you'd "
+"like to add as the logo for the institution. Note that AtoM supports only "
+"specific sizing requirements with regards to the logo images (:ref:`See "
+"below <logo-size-requirements>`)."
+msgstr ""
+"別のウィンドウが開きます。コンピュータ上の、機関のロゴとして追加したい画像を選択してください。AtoMはロゴ画像のサイズ要件について特定の制限を支持していることに注意してください（詳細は下記を参照：`logo-"
+"size-requirements`）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:823
+msgid ""
+"AtoM requires that the image uploaded as the institution logo be in **PNG "
+"format**. The image cannot exceed **256k in size**. If the image selected "
+"for upload does not meet these requirements, you will receive an error "
+"message below the \"Logo\" :term:`field` after clicking the \"Save\" button,"
+" and your upload will **not** be saved."
+msgstr ""
+"AtoMでは、機関のロゴとしてアップロードされた画像が**PNG形式**であることが求められます。画像のサイズは**256キロバイトを超えてはいけません**。アップロードしようとした画像がこれらの要件を満たしていない場合、「保存」ボタンをクリックした後に「ロゴ」:term:`フィールド`の下にエラーメッセージが表示され、アップロードは**保存されません**。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:829
+msgid ""
+"Ideally, the image size should be between **200x200** and **270x270 pixels "
+"square**. If the image you upload does not meet these sizing specifications,"
+" it will be automatically cropped by :ref:`ImageMagick <other-dependencies>`"
+" to meet the requirements listed above."
+msgstr ""
+"理想的には、画像サイズは**200x200ピクセル**から**270x270ピクセルの正方形**の間であるべきです。アップロードする画像がこれらのサイズ仕様を満たしていない場合、上記の要件を満たすように`:ref:`ImageMagick"
+" <other-dependencies>`によって自動的にトリミングされます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:839
+msgid ""
+"When you have selected your logo, click \"Save\" in the :term:`button block`"
+" at the bottom of the page. AtoM will reload the :term:`archival "
+"institution` in :term:`view mode`, where you can review the logo. If needed,"
+" you can repeat step 2 through 4 until you are happy with the selection."
+msgstr ""
+"ロゴを選択したら、ページの下部にある「ボタンブロック」の「保存」をクリックします。するとAtoMは「表示モード」の「アーカイバル機関」にリロードし、ロゴが確認できます。必要であれば、満足するまでステップ2から4を繰り返すことができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of a user uploading a logo"
+msgstr "ユーザーがロゴをアップロードする様子の画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:849
+msgid ""
+"Once uploaded, the logo will appear above the \"Upload limit\" section of "
+"the :ref:`Context menu <recurring-context-menu>`, in the top left-hand "
+"corner of the archival institution’s :term:`view page`. This logo will also "
+"appear when :doc:`browsing <../access-content/browse>` archival institutions"
+" in AtoM, appearing above the name of the archival institution, as well as "
+"on any :term:`archival description` page linked to the archival institution."
+msgstr ""
+"アップロードされると、ロゴは「アップロード制限」セクションの上に、アーカイブ機関の:term:`ビューページ`左上隅にある:ref:`コンテキストメニュー"
+" <recurring-context-menu>`の上に表示されます。このロゴは、AtoM内でアーカイブ機関を:doc:`閲覧 <../access-"
+"content/browse>`する際にも表示され、アーカイブ機関の名前の上に現れるほか、アーカイブ機関にリンクされた任意の:term:`アーカイブ記述`ページにも表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of an archival institution with an uploaded logo"
+msgstr "アーカイブ機関の画像およびアップロードされたロゴ"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:864
+msgid "Edit/remove an exisiting logo for an archival institution"
+msgstr "既存のアーカイブ機関のロゴを編集・削除する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:866
+msgid "**To edit an exisiting logo:**"
+msgstr "既存のロゴを編集するために："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:868
+#: ../../user-manual/add-edit-content/archival-institutions.rst:924
+#: ../../user-manual/add-edit-content/archival-institutions.rst:977
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1047
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1091
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1303
+msgid ""
+"Navigate to the :term:`archival institution` you wish to edit. You can do "
+"this by :doc:`browsing <../access-content/browse>` or :doc:`searching "
+"<../access-content/search-atom>` for the archival institution - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"アーカイブ機関を編集したい場合は、その機関に移動してください。これには、「:doc:`閲覧 <../access-"
+"content/browse>`」または「:doc:`検索 <../access-content/search-"
+"atom>`」の機能を使ってアーカイブ機関を探すことができます。AtoMでのナビゲーションの詳細については、「:ref:`アクセスコンテンツ "
+"<access-content>`」のセクションをご確認ください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:887
+msgid ""
+"From here, navigate to the \"Style\" area, under the \"Logo\" :term:`field`,"
+" click the \"Browse\" button under the exisiting logo."
+msgstr ""
+"ここから、「ロゴ」という :term:`フィールド`の下にある「スタイル」エリアに移動し、既存のロゴの下にある「ブラウズ」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "Selecting the \"Browse\" button to upload a new logo"
+msgstr "「参照」ボタンを選択して、新しいロゴをアップロードする"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:895
+msgid ""
+"A separate window will open; select the image on your computer that you'd "
+"like to replace the existing logo with. See the :ref:`previous section "
+"<logo-size-requirements>` for direction on AtoM **sizing requirements** for "
+"logo images."
+msgstr ""
+"別のウィンドウが開きます。コンピューター上の既存のロゴと置き換えたい画像を選択してください。AtoMのロゴ画像に対する**サイズ要件**に関する指示は、:ref:`前のセクション"
+" <logo-size-requirements>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:899
+#: ../../user-manual/add-edit-content/archival-institutions.rst:946
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1107
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1180
+msgid ""
+"You can quit the theming process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved and "
+"the existing logo will remain as such. Note that simply navigating away from"
+" the page by any other means, **without first clicking \"Save\"** will also "
+"result in no changes being saved to the archival institution."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることでテーマ設定プロセスを終了できます。それは:term:`button "
+"block`で見つけることができます。変更された内容は保存されず、既存のロゴはそのまま残ります。また、他の手段でページから移動してしまうだけでは、**「保存」をクリックしていない限り**、同じく変更は保存されないため、注意してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:904
+msgid ""
+"Once you've selected your logo, **check the box** next to \"Remove the "
+"current file\", located below the existing logo, and click \"Save\" in the "
+":term:`button block` at the bottom of the page. AtoM will reload the "
+":term:`archival institution` in :term:`view mode`."
+msgstr ""
+"ロゴを選択したら、既存のロゴの下にある「現在のファイルを削除する」の横にあるチェックボックスにチェックを入れ、ページ下部の「ボタンブロック」にある「保存」をクリックしてください。AtoMは「ビューモード」で「アーカイブ機関」を再読み込みします。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "A image of the institution after a successful logo change"
+msgstr "機関のロゴ変更が成功した後の画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:916
+msgid ""
+"You must **refresh your browser** in order to see the changes made to "
+"archival institution's logo!"
+msgstr "アーカイブ機関のロゴに加えた変更を表示するには、**ブラウザを更新**する必要があります！"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:919
+msgid ""
+"If needed, you can repeat step 2 through 4 until you are happy with the "
+"selection of your logo."
+msgstr "必要であれば、ロゴの選択に満足するまでステップ2から4を繰り返すことができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:922
+msgid "**To remove an existing logo:**"
+msgstr "既存のロゴを削除するには："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:937
+msgid ""
+"From here, navigate to the \"Logo\" :term:`field` under the \"Style\" area; "
+"**check the box** next to \"Remove the current file\", located under the "
+"current logo image."
+msgstr ""
+"ここから、「スタイル」エリア内の「ロゴ」:term:`フィールド` "
+"へと進みます。現在のロゴ画像の下にある「現在のファイルを削除する」の横にある**ボックスにチェックを入れて**ください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the checkbox to remove a logo"
+msgstr "ロゴを削除するためのチェックボックスの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:951
+msgid ""
+"Once you've checked the box, click \"Save\" in the :term:`button block` at "
+"the bottom of the page. AtoM will reload the :term:`archival institution` in"
+" :term:`view mode`, where the logo will have been removed."
+msgstr ""
+"ボックスにチェックを入れたら、ページ下部の`:term:`button "
+"block`で「Save」をクリックしてください。AtoMは`:term:`archival institution`を`:term:`view "
+"mode`でリロードし、ロゴは削除された状態で表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:955
+msgid ""
+"A new logo can be added again at any time. See :ref:`Add a new logo <add-"
+"institution-logo>`."
+msgstr ""
+"新しいロゴはいつでも再度追加することができます。詳しくは「新しいロゴの追加 <add-institution-logo>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:961
+msgid "Add/edit a banner to an existing archival institution"
+msgstr "既存のアーカイブ施設にバナーを追加／編集"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:963
+msgid ""
+"Authenticated (i.e. logged in) :term:`administrators <administrator>` can "
+"further customize their :term:`archival institution` page by adding a "
+"banner. Once uploaded, the banner will appear on the archival institution's "
+":term:`view page`, below the institution's name. Unlike the institution's "
+"logo, the banner will *not* appear on any :term:`archival description` pages"
+" linked to the archival institution. Below are instructions to :ref:`add a "
+"banner <add-banner>` and :ref:`edit and/or delete an exisiting banner <edit-"
+"banner>` for an archival institution."
+msgstr ""
+"認証済み（つまりログインしている）の:term:`管理者<administrator>`は、バナーを追加することによって彼らの:term:`アーカイブ機関`ページをさらにカスタマイズすることができます。アップロードされると、バナーはアーカイブ機関の名前の下にある:term:`ビューページ`上に表示されます。しかし、バナーはアーカイブ機関にリンクされた:term:`アーカイブ記述`ページでは*表示されません*。以下に、アーカイブ機関のバナーを:ref:`追加する<add-"
+"banner>`方法と、既存のバナーを:ref:`編集または削除する<edit-banner>`方法の手順を記載します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:975
+msgid "Add a banner for an archival institution"
+msgstr "アーカイブ機関のバナーを追加する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An example of an institution without a banner"
+msgstr "横断幕がない機関の例"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:996
+msgid ""
+"From here, authenticated users can upload a banner. In the \"Style\" area, "
+"under the \"Banner\" :term:`field`, click the \"Choose file\" button."
+msgstr ""
+"こちらから、認証されたユーザーはバナーをアップロードすることができます。\"Style\" エリアで \"Banner\" :term:`field` "
+"の下にある \"Choose file\" ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the upload banner area in the edit theme page"
+msgstr "編集テーマページのアップロードバナーエリアの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1004
+msgid ""
+"A separate window will open; select the image on your computer that you'd "
+"like to add as the banner for the institution. Note that AtoM supports only "
+"specific sizing requirements with regards to the banner images (:ref:`See "
+"below <banner-size-requirements>`)."
+msgstr ""
+"別のウィンドウが開くので、自分のコンピュータから機関のバナーとして追加したい画像を選択してください。バナー画像に関してAtoMが特定のサイズ要件のみをサポートしていることに注意してください（:ref:`以下を参照<banner-"
+"size-requirements>`）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1013
+msgid ""
+"AtoM requires that the image uploaded as the banner be in **PNG format**. "
+"The image cannot exceed **256k in size**. If the image selected for upload "
+"does not meet these requirements, you will receive an error message reading "
+"*\"Invalid mime type\"* will appear below the \"Banner\" :term:`field` after"
+" clicking the \"Save\" button."
+msgstr ""
+"AtoMでは、バナーとしてアップロードされる画像が**PNG形式**であることが必要です。画像サイズは**256kを超えてはなりません**。アップロードする画像がこれらの要件を満たしていない場合、\"保存\"ボタンをクリックした後、\"バナー\":term:`フィールド`の下に*\"無効なMIMEタイプ\"*というエラーメッセージが表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1019
+msgid ""
+"Ideally, the image size should be between **100 and 300 pixels** in height, "
+"and should not exceed a **800 pixels** width. If the image you upload does "
+"not meet these sizing specifications, it will be automatically cropped by "
+":ref:`ImageMagick <other-dependencies>` to meet the requirements listed "
+"above."
+msgstr ""
+"理想的には、画像のサイズは高さが**100ピクセルから300ピクセル**の間であり、幅は**800ピクセル**を超えてはなりません。アップロードする画像がこれらのサイズ仕様を満たしていない場合、:ref:`ImageMagick"
+" <other-dependencies>`によって自動的に上記の要件を満たすように切り取られます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1030
+msgid ""
+"When you have selected your banner, click \"Save\" in the :term:`button "
+"block` at the bottom of the page. AtoM will reload the :term:`archival "
+"institution` in :term:`view mode`, where you can review the banner. If "
+"needed, you can repeat step 2 through 4 until you are happy with the "
+"selection."
+msgstr ""
+"選択したバナーを決めたら、ページの下部にある「ボタンブロック」で「保存」をクリックしてください。AtoMは「アーカイバル機関」の「ビューモード」で再度読み込まれ、選んだバナーを確認することができます。必要であれば、満足するまでステップ2から4を繰り返すことができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of an institution with a banner added"
+msgstr "機関の画像にバナーが追加されました"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1043
+msgid "Edit/remove an existing banner for an archival institution"
+msgstr "既存のアーカイブ機関のバナーを編集・削除する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1045
+msgid "**To edit an existing banner:**"
+msgstr "既存のバナーを編集するには："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1060
+msgid ""
+"From here, navigate to the \"Style\" area, under the \"Logo\" :term:`field`,"
+" click the \"Choose file\" button under the exisiting logo."
+msgstr ""
+"ここから、「ロゴ」：term:`field`の下にある「スタイル」エリアへと進み、既存のロゴの下にある「ファイルを選択」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1062
+msgid ""
+"A separate window will open; select the image on your computer that you'd "
+"like to replace the existing banner with. See the :ref:`previous section "
+"<banner-size-requirements>` for direction on AtoM **sizing requirements** "
+"for banner images."
+msgstr ""
+"別のウィンドウが開きます。コンピューター上の既存のバナーと置き換えたい画像を選択してください。AtoMのバナー画像の**サイズ要件**については、:ref:`前のセクション"
+" <banner-size-requirements>`を参照して方向性を確認してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1066
+msgid ""
+"You can quit the theming process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved and "
+"the existing banner will remain as such. Note that simply navigating away "
+"from the page by any other means, **without first clicking \"Save\"** will "
+"also result in no changes being saved to the archival institution."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで、テーマ設定プロセスを中止できます。このボタンは:term:`button "
+"block`にあります。変更が保存されることはなく、既存のバナーはそのまま維持されます。また、**「保存」をクリックせずに** "
+"他の方法でページから移動することも、変更が保存されない結果となることに注意してください。これにより、アーカイブ機関に変更は保存されません。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1071
+msgid ""
+"Once you've selected your banner, **check the box** next to \"Remove the "
+"current file\", located below the existing banner, and click \"Save\" in the"
+" :term:`button block` at the bottom of the page. AtoM will reload the "
+":term:`archival institution` in :term:`view mode`."
+msgstr ""
+"バナーを選択したら、既存のバナーの下にある「現在のファイルを削除する」の隣にある**チェックボックス**をオンにし、「保存」をページの最下部にある:term:`ボタンブロック`でクリックしてください。AtoMは:term:`ビューモード`で:term:`アーカイブ機関`を再読込みします。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the checkbox to remove the current banner"
+msgstr "現在のバナーを削除するためのチェックボックスの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1083
+msgid ""
+"You must **refresh your browser** in order to see the changes made to "
+"archival institution's banner!"
+msgstr "アーカイブ機関のバナーに加えられた変更を表示するためには、**ブラウザを更新**する必要があります！"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1086
+msgid ""
+"If needed, you can repeat step 2 through 4 until you are happy with the "
+"selection of your banner."
+msgstr "必要であれば、バナーの選択に満足するまで、ステップ2から4を繰り返すことができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1089
+msgid "**To remove an existing banner:**"
+msgstr "既存のバナーを削除するには："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1098
+msgid ""
+"From here, navigate to the \"Banner\" :term:`field` under the \"Style\" "
+"area; **check the box** next to \"Remove the current file\", located under "
+"the current banner image."
+msgstr ""
+"ここから、「スタイル」エリア内の「バナー」:term:`フィールド`に移動します。現在のバナー画像の下にある「現在のファイルを削除する」の隣にある**ボックスにチェックを入れてください**。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1112
+msgid ""
+"Once you've checked the box, click \"Save\" in the :term:`button block` at "
+"the bottom of the page. AtoM will reload the :term:`archival institution` in"
+" :term:`view mode`, where the banner will have been removed."
+msgstr ""
+"ボックスにチェックを入れたら、ページの下部にある「ボタンブロック」内の「保存」をクリックしてください。AtoMは「表示モード」で「アーカイバル機関」を再読み込みし、バナーが削除されていることを確認できます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the save button in the button block"
+msgstr "ボタンブロック内の保存ボタンの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1121
+msgid ""
+"A new banner can be added again at any time. See :ref:`Add a new banner "
+"<add-institution-banner>`."
+msgstr ""
+"新しいバナーはいつでも再度追加することができます。詳しくは「新しいバナーの追加<add-institution-banner>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1127
+msgid "Add a custom description to an archival institution"
+msgstr "アーカイブ機関にカスタムの説明を追加する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1129
+msgid ""
+"Users can also add custom HTML and inline CSS to an archival institution "
+"page, to further customize its content and display. This can be used to add "
+"important information (e.g. holiday hours; emergency closures) either "
+"temporarily or permanently; to embed external content such as a YouTube "
+"video or a locally hosted image; to add shortcuts to custom searches "
+"(especially in a :term:`multi-repository system` such as a network or portal"
+" site); and more."
+msgstr ""
+"ユーザーは、アーカイブ機関のページにカスタムHTMLとインラインCSSを追加して、その内容と表示をさらにカスタマイズすることができます。これは、重要な情報（例：休日の営業時間；緊急閉鎖）を一時的にまたは恒久的に追加するため、YouTube動画やローカルでホストされた画像などの外部コンテンツを埋め込むため、カスタム検索へのショートカットを追加するため（特にネットワークやポータルサイトのような`:term:`複数リポジトリシステム`では）、その他多くの用途に使用できます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1143
+msgid "An example of customized content on a repository page"
+msgstr "リポジトリページのカスタマイズされたコンテンツの一例"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1143
+msgid ""
+"The Guelph Public Library Archives has extensively customized their content "
+"in *Archeion*, the Archives Association of Ontario's portal site. See it "
+"`here <http://www.archeion.ca/guelph-public-library-archives>`__."
+msgstr ""
+"\n"
+"ゲルフ公共図書館アーカイブズは、オンタリオ州アーカイブズ協会のポータルサイトである *Archeion* のコンテンツを広範囲にわたってカスタマイズしています。こちらで確認できます `こちら <http://www.archeion.ca/guelph-public-library-archives>`__。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1147
+msgid "**To add a custom description to an archival institution**"
+msgstr "**アーカイブ施設にカスタム描述を追加するために**"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1149
+msgid ""
+"Navigate to the :term:`archival institution` you wish to edit. You can do "
+"this by :ref:`browsing <browse>` or :ref:`searching <search-atom>` for the "
+"archival institution - see :ref:`Access content <access-content>` for more "
+"information on navigation in AtoM."
+msgstr ""
+"ご希望の:term:`archival institution`を編集するために、その場所に移動してください。これは、:ref:`browsing "
+"<browse>` または :ref:`searching <search-atom>` "
+"を通じて行うことができます。AtoMでのナビゲーションに関する詳細情報は、:ref:`Access content <access-"
+"content>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1161
+msgid ""
+"From here, users can add custom HTML and in-line CSS to personalize their "
+"archival institution page. Scroll down to the :term:`information area` named"
+" \"Page content\", where you will find a field named \"Description.\""
+msgstr ""
+"ここから、ユーザーはカスタムHTMLとインラインCSSを追加して、彼らのアーカイブ機関ページをパーソナライズすることができます。\"ページコンテンツ\"という名前の:term:`情報エリア`まで下にスクロールします。そこに「説明」というフィールドが見つかります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the edit field for adding custom content to a repository"
+msgstr "リポジトリにカスタムコンテンツを追加するための編集フィールドの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1170
+msgid ""
+"Begin adding you custom HTML and in-line CSS. Content that is added to this "
+"area will appear, when saved, **below** an uploaded banner, and **above** "
+"the institution's description :term:`information areas <information area>`."
+msgstr ""
+"独自のHTMLおよびインラインCSSの追加を開始してください。このエリアに追加されたコンテンツは、保存された時点で、アップロードされたバナーの**下に**、および機関の説明:term:`情報エリア<information"
+" area>`の**上に**表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of adding content to the description field"
+msgstr "説明フィールドにコンテンツを追加する画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1185
+msgid ""
+"When you have finished adding your custom content, click \"Save\" in the "
+":term:`button block` at the bottom of the page. AtoM will reload the "
+":term:`archival institution` in :term:`view mode`, where you can review your"
+" work. If needed, you can repeat steps 2 through 4 until you are happy with "
+"the outcome."
+msgstr ""
+"カスタムコンテンツの追加が完了したら、ページの下部にある「ボタンブロック」に示されている「保存」をクリックしてください。AtoMは「視覚モード」で「アーカイブ機関」を再読み込みし、あなたの作業内容を確認することができます。必要であれば、ステップ2から4を繰り返して、結果に満足するまで調整を重ねることができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An example of custom content added to a repository view page"
+msgstr "リポジトリビューページへ追加されたカスタムコンテンツの一例"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1200
+msgid "Add a Google map to an archival institution"
+msgstr "アーカイブ機関にGoogleマップを追加する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1202
+msgid ""
+"Users can add a Google map to the :term:`view page` for an archival "
+"institution showing the location of the institution. These instructions "
+"require an :term:`administrator` who can make changes to AtoM's settings via"
+" the :term:`user interface`."
+msgstr ""
+"ユーザーは、アーカイブ施設の場所を示すGoogleマップを、その施設の:term:`view "
+"page`に追加することができます。この操作には、AtoMの設定を:term:`user "
+"interface`を通じて変更できる:term:`administrator`が必要です。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1213
+msgid "Institution view page with Google map"
+msgstr "機関ビューページ（Googleマップ付き）"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1216
+msgid ""
+"First, you will need to set up a `Google account "
+"<https://accounts.google.com>`_ if you do not already have one."
+msgstr ""
+"まず、まだお持ちでない場合は`Google アカウント <https://accounts.google.com>`_ を設定する必要があります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1220
+msgid ""
+"Next, request an `API key "
+"<https://developers.google.com/maps/documentation/javascript/get-api-key>`__"
+" from Google."
+msgstr ""
+"次に、Googleから`API キー "
+"<https://developers.google.com/maps/documentation/javascript/get-api-key>`__"
+" をリクエストしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1224
+msgid ""
+"Navigate to |gears| **Admin > Settings** and scroll down to near the bottom "
+"of the Global settings page. Add your Maps API key to the field marked "
+"\"Google Maps Javascript API key setting.\" For more information, see: "
+":ref:`maps-api-key`. Don't forget to save your settings after making "
+"changes, using the :term:`button block` at the bottom of the Settings page."
+msgstr ""
+"|gears| **管理 > 設定** に移動して、グローバル設定ページのほぼ最下部までスクロールします。\"Google Maps "
+"Javascript API key setting.\" "
+"とマークされたフィールドに、マップAPIキーを追加してください。詳細については、:ref:`maps-api-key` "
+"を参照してください。設定を変更した後は、設定ページの最下部にある :term:`ボタンブロック` を使用して設定を保存することを忘れないでください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:7
+msgid "gears"
+msgstr "ギア（または、文脈によっては「歯車」）"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1230
+msgid ""
+"Maps will only appear on an institution's :term:`view page` if the latitude "
+"and longitude coordinates are added to the Contact information for the "
+"repository. For more information on how to edit your :term:`repository` "
+"record, see: :ref:`edit-archival-institution`."
+msgstr ""
+"地図は、保存庫に関する連絡先情報に緯度と経度の座標が追加されている場合にのみ、機関の:term:`ビューページ`に表示されます。:term:`リポジトリ`レコードの編集方法についての詳細は、次を参照してください:"
+" :ref:`edit-archival-institution`。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1237
+msgid ""
+"For **all** latitude and longitude :term:`fields <field>` in AtoM, you need "
+"to use the Signed degrees format (e.g. DDD.dddd) for the data to work! "
+"Degree/minute/second (DMS) and cardinal based formats (e.g. DDD MM SS + "
+"compass direction) **will not work** and the map will not be generated "
+"properly."
+msgstr ""
+"AtoM内の**全ての**緯度と経度に関する:term:`フィールド "
+"<field>`については、データが機能するためには符号付き度数形式（例：DDD.dddd）を使用する必要があります！度/分/秒（DMS）や基点に基づく形式（例：DDD"
+" MM SS + 方位）は**機能せず**、地図は適切に生成されません。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1243
+msgid ""
+"When only one field is provided, latitude values should be entered first, "
+"followed by a comma before the longitude values."
+msgstr "一つのフィールドしか提供されない場合、緯度の値を先に入力し、続けて経度の値の前にコンマを入れてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1246
+msgid ""
+"Here is an example of the latitude and longitude for Vancouver, BC, Canada:"
+msgstr "こちらはカナダ・ブリティッシュコロンビア州バンクーバーの緯度と経度の例です："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1248
+msgid "**Correct format:** (signed degrees)"
+msgstr "**正しい形式：**（符号付き度数）"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1250
+msgid "49.246292, -123.116226"
+msgstr ""
+"49.246292, -123.116226 は、緯度と経度の座標を示しており、これ自体は翻訳する必要はありません。ただし、これを文脈に応じて説明するならば、以下のような日本語の文章になります：\n"
+"\n"
+"これは、北緯49.246292度、西経123.116226度の地理的座標です。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1252
+msgid "**Will not work in AtoM:** (DMS cardinal)"
+msgstr "**AtoMでは動作しません:** (DMS cardinal)"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1254
+msgid "49° 14' 46.6512\" N, 123° 6' 58.4136\" W"
+msgstr "北緯49度14分46.6512秒、西経123度6分58.4136秒"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1256
+msgid ""
+"When the :term:`archival institution` record is saved with the latitude and "
+"longitude coordinates added to the Contact area, the map will appear at the "
+"top of the :term:`view page`."
+msgstr "アーカイブ機関記録が連絡先エリアへの緯度と経度の座標を追加して保存されると、地図が表示ページの上部に表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1262
+msgid ""
+"There is also a command-line tool that can be run by a system administrator "
+"that will use repository contact information and address data to "
+"automatically populate all latitude and longitude fields. This can be really"
+" useful in a :term:`multi-repository system` when you want to enable this "
+"maps feature, but don't want to manually find and add all of the latitude "
+"and longitude coordinates. For more information, see:"
+msgstr ""
+"システム管理者が実行できるコマンドラインツールもあり、リポジトリの連絡先情報や住所データを使用して、緯度と経度のフィールドを自動的に埋めることができます。これは、地図機能を有効にしたいが、全ての緯度と経度の座標を手動で見つけて追加するのが面倒な場合に、:term:`multi-"
+"repository system`（複数リポジトリシステム）において非常に便利です。詳細については、次を参照してください："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1269
+msgid ":ref:`repository-lat-long`"
+msgstr ""
+"\n"
+"\n"
+"リポジトリの緯度経度"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1277
+msgid "Set digital object upload limit for an archival institution"
+msgstr "アーカイブ機関のデジタルオブジェクトアップロード制限を設定する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1279
+msgid ""
+"When viewing an :term:`archival institution` in AtoM, an \"Upload limit\" "
+"bar is displayed in the :ref:`context menu <recurring-context-menu>` on the "
+"the left-hand side of the institution's page."
+msgstr ""
+"AtoMで:term:`archival institution`を表示する際に、その機関のページの左側にある:ref:`context menu "
+"<recurring-context-menu>`に「Upload limit」というバーが表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1285
+msgid ""
+"By default, only authenticated (i.e. logged in) users can *view* the "
+"\"Upload limit\" bar, and only an authenticated :term:`administrator` can "
+"*edit* the upload limit. For more information on edit privileges and user "
+"roles see: :ref:`User roles <user-roles>`. For information on logging in, "
+"see: :ref:`Log in <log-in>`."
+msgstr ""
+"デフォルトでは、認証された（つまりログインした）ユーザーのみが「アップロード制限」バーを*閲覧*することができ、認証された:term:`管理者`のみがアップロード制限を*編集*することが可能です。編集権限とユーザー役割についての詳細は、:ref:`ユーザー役割"
+" <user-roles>` を参照してください。ログインについての情報は、:ref:`ログイン <log-in>` を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1291
+msgid ""
+"Note that an administrator can also disable the display of this widget, "
+"which can sometimes be useful for improving page load performance. See "
+"above:"
+msgstr ""
+"管理者は、このウィジェットの表示を無効にすることもできます。これは、ページの読み込みパフォーマンスを向上させるために時々有効です。上記参照："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1294
+msgid ":ref:`repository-upload-setting`"
+msgstr ""
+"この場合において、特定のテキストの翻訳は不要である場合があります。`:ref:`repository-upload-setting``は文書内の特定の参照や設定項目のラベルを示している可能性があり、実際には文書をローカライズする際にはその参照の名称そのものは原文のまま保持されることが一般的です。\n"
+"\n"
+"しかし、仮に文書内でこのラベルがユーザーに対して読まれるテキストとして表示される場合には、以下のように翻訳することが出来ます。\n"
+"\n"
+"``リポジトリアップロード設定``\n"
+"\n"
+"それでも、正確な翻訳には文脈が必要です。このラベルがどのように使用されているか、または文書内で具体的な説明を必要としているかどうかによって翻訳は異なる可能性があります。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1296
+msgid ""
+"Additionally, note that a system administrator can configure a global upload"
+" limit - see:"
+msgstr "さらに、システム管理者はグローバルアップロードの限界を設定できることに注意してください。詳しくは、以下を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1299
+msgid ":ref:`total-upload-space`"
+msgstr ""
+"この参照部分はリファレンスタグを意味しているので、そのまま「:ref:`total-upload-"
+"space`」として文脈に応じてマニュアルやドキュメント内で使用されます。ただし、テキストの内容そのものを翻訳するならば、「総アップロードスペース」となります。これは総アップロードスペースへの参照を指していると解釈されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1301
+msgid ""
+"**To set the digital object upload limit for an archival institution:**"
+msgstr "アーカイブ機関のデジタルオブジェクトアップロード制限を設定するには："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1308
+msgid ""
+"Click the \"Edit\" link located below the \"Upload limit\" bar on the left-"
+"hand side of the page."
+msgstr "ページ左側にある「Upload limit」バーの下にある「Edit」リンクをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the archival institution upload limit settings"
+msgstr "アーカイバル機関のアップロード制限設定の画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1316
+msgid "A dialogue box will apear that will allow for 1 of 3 options:"
+msgstr "ダイアログボックスが表示され、以下の3つのオプションから1つを選択できます："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1318
+msgid ""
+"**Disable uploads** will prevent users from uploading any :term:`digital "
+"objects <digital object>`."
+msgstr ""
+"**アップロードを無効にする** は、利用者がいかなる :term:`デジタルオブジェクト <digital object>` "
+"のアップロードも行えないようにします。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1320
+msgid ""
+"**Limit uploads to _____ GB** will allow an administrator to set a specific "
+"upload limit per :term:`archival institution`."
+msgstr ""
+"**アップロードを_____ GBに制限する** ことで、管理者は:term:`アーカイブ機関`ごとに特定のアップロード制限を設定することができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1322
+msgid ""
+"**Allow unlimited uploads** is the default setting in AtoM that places no "
+"restrictions on an authenticated user's digital object uploads."
+msgstr ""
+"「**無制限のアップロードを許可**」はAtoMでのデフォルト設定であり、認証されたユーザーによるデジタルオブジェクトのアップロードに制限を設けない設定です。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An image of the upload limit dialog"
+msgstr "アップロード制限のダイアログの画像"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1330
+msgid ""
+"You can quit the process at any time by clicking the \"Cancel\" button, or "
+"the exiting (i.e. clicking \"X\") the window. Any changes made will not be "
+"saved."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックするか、ウィンドウを閉じる（つまり、「X」をクリックする）ことで、プロセスを終了することができます。変更された内容は保存されません。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1332
+msgid ""
+"When you've made your selection, click the \"Save\" button. The "
+":term:`archival institution's <archival institution>` :term:`view page` will"
+" display your changes made according to :"
+msgstr ""
+"選択を完了したら、「保存」ボタンをクリックしてください。アーカイブ機関のビューページは、あなたの変更を表示します。これは、以下の基準に従って行われます："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1336
+msgid ""
+"If you selected **Disable uploads**, the Upload limit bar will automatically"
+" be removed and the Upload limit section will indicate that the uploads have"
+" been disabled."
+msgstr ""
+"もし**アップロードを無効にする**を選択した場合、アップロード制限のバーは自動的に削除され、アップロード制限のセクションにはアップロードが無効にされたことが表示されます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1339
+msgid ""
+"If you selected **Allow unlimited uploads**, the Upload limit bar will "
+"automatically be removed and the Upload limit section will indicate the "
+"institution's current uploaded amount, as well as the limit, which will be "
+"*Unlimited* (e.g. \"2.65 GB of *Unlimited*\")."
+msgstr ""
+"「**無制限のアップロードを許可**」を選択した場合、アップロード制限バーは自動的に消去され、アップロード制限セクションには機関が現在アップロードしている量と、「*無制限*」となる制限が表示されます（例えば、「2.65"
+" GB of *無制限*」）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1343
+msgid ""
+"If you selected a specific number of GB as an upload limit, that number will"
+" appear below the Upload limit bar, alongside the institution's current "
+"uploaded amount (e.g. \"2.56 of 10 GB\")."
+msgstr ""
+"アップロードの上限として特定のGB数を設定した場合、その数字はアップロード上限バーの下に表示され、機関が現在アップロードしている量と並んで表示されます（例：「10GB中2.56GB」）。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1347
+msgid ""
+"Additional changes to the Upload limit can be made at any time by following "
+"the steps 2 through 5."
+msgstr "アップロード制限に対する追加的な変更は、ステップ2から5を実行することでいつでも行うことができます。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1352
+msgid ""
+"The limits set here are different than the execution limits set by your "
+"system administrator. For more information, see: :ref:`Execution limits "
+"<installation-execution-limits>`."
+msgstr ""
+"ここで設定された制限は、システム管理者によって設定された実行制限とは異なります。詳しくは、以下を参照してください。:ref:`実行制限 "
+"<installation-execution-limits>`。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1356
+msgid "**For more information on managing digital objects, see also:**"
+msgstr "デジタルオブジェクトの管理に関する詳細は、以下も参照してください："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1358
+msgid ":ref:`Upload digital objects <upload-digital-object>`"
+msgstr ":ref:`デジタルオブジェクトのアップロード <upload-digital-object>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1359
+msgid ":ref:`Manage digital object storage <manage-digital-object-storage>`"
+msgstr ":ref:`デジタルオブジェクトのストレージ管理 <manage-digital-object-storage>`"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1366
+msgid "Delete an archival institution"
+msgstr "アーカイブ機関を削除する"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1368
+msgid ""
+"Follow the instructions below to delete an archival institution in AtoM:"
+msgstr "次の指示に従って、AtoMでアーカイブ機関を削除してください："
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1370
+msgid ""
+"Navigate to the :term:`archival institution` record you want to delete. You "
+"can do this by :doc:`browsing <../access-content/browse>` or :doc:`Search "
+"<../access-content/search-atom>` for the :term:`archival description` - see "
+":ref:`Access content <access-content>` for more information on navigation in"
+" AtoM."
+msgstr ""
+"アーカイブ機関の記録を削除したい場合は、その記録へ移動します。これは、:doc:`ブラウジング<../access-"
+"content/browse>`や:doc:`AtoM内でのナビゲーション方法については、<access-"
+"content>アクセスコンテンツ</access-content>を参照してください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1375
+msgid ""
+"Scroll to the bottom of the institution’s :term:`view page` and click the "
+":term:`Delete button` in the :term:`button block`."
+msgstr "機関の「ビューページ」の最下部までスクロールし、「ボタンブロック」内の「削除ボタン」をクリックします。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An example of the archival institution button block"
+msgstr "アーカイブ機関のボタンブロックの例"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1383
+msgid ""
+"AtoM will provide a warning and prompts you to confirm that you really wish "
+"to delete the institution. To delete the record, click the :term:`Delete "
+"button`."
+msgstr ""
+"AtoMは警告を提供し、その機関を本当に削除したいかどうかを確認するためのプロンプトを表示します。レコードを削除するには、`:term:`削除ボタン`をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:-1
+msgid "An example of a delete confirmation request"
+msgstr "削除確認リクエストの例"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1392
+msgid ""
+"AtoM deletes the record and opens the :term:`archival institution` browse "
+"results page."
+msgstr "AtoMはその記録を削除し、:term:`archival institution`のブラウズ結果ページを表示します。"
+
+#: ../../user-manual/add-edit-content/archival-institutions.rst:1397
+msgid ""
+"Deleting the :term:`archival institution` record removes the :term:`archival"
+" institution` from the repository :term:`field` in linked :term:`archival "
+"descriptions <archival description>` but does not remove the archival "
+"descriptions themselves."
+msgstr ""
+"「アーカイブ機関」レコードを削除すると、リンクされた「アーカイブ記述<アーカイブ記述>」のリポジトリ「フィールド」から「アーカイブ機関」が削除されますが、アーカイブ記述自体は削除されません。"

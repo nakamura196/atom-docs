@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/maintenance/data-backup.rst:5
+msgid "Data backup"
+msgstr "データバックアップ"
+
+#: ../../admin-manual/maintenance/data-backup.rst:7
+msgid ""
+"A data backup plan and schedule is critical for disaster recovery (e.g. hard"
+" drive failure, data corruption). Make sure to backup all important data on "
+"a regular basis. We also recommend backing up your data before making any "
+"changes to AtoM or the underlying database, such as a software upgrade, etc."
+msgstr ""
+"データバックアップ計画とスケジュールは、災害復旧（例えば、ハードドライブの故障、データの破損など）において極めて重要です。すべての重要なデータを定期的にバックアップすることを忘れないでください。また、AtoMや基盤となるデータベースに何らかの変更（ソフトウェアのアップグレードなど）を加える前に、データをバックアップすることをお勧めします。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:14
+#: ../../admin-manual/maintenance/data-backup.rst:43
+msgid ":ref:`installation-upgrading`"
+msgstr ":ref:`インストールとアップグレード`"
+
+#: ../../admin-manual/maintenance/data-backup.rst:15
+msgid ":ref:`maintenance-troubleshooting`"
+msgstr ":ref:`メンテナンス・トラブルシューティング`"
+
+#: ../../admin-manual/maintenance/data-backup.rst:16
+msgid ":ref:`common-atom-queries`"
+msgstr "`common-atom-queries`（一般的なAtoMクエリ）"
+
+#: ../../admin-manual/maintenance/data-backup.rst:17
+msgid ":ref:`maintenance-cli-tools`"
+msgstr ""
+"このコマンドは、Archivematicaのドキュメント内の参照リンクです。ドキュメント内で参照している特定のセクションやヘルプ項目にジャンプするためのものです。日本語に翻訳するとき、そのままの参照リンクを維持するのが一般的ですが、もし実際のセクションタイトルを翻訳する必要があれば、例えば次のようになるでしょう：\n"
+"\n"
+":ref:`メンテナンスCLIツール`\n"
+"\n"
+"ただし、上記の翻訳は参照リンクの機能を失わせてしまいます。正確な翻訳と参照リンクの機能を保持するためには、参照先の文書の対象セクションがどのようにタイトルされているかに依存します。そのため、翻訳者が対応するセクションの日本語タイトルを知る必要があります。\n"
+"\n"
+"もしこのリンクが単に参照用であり、読者にはリンクテキストそのものが表示されない場合は、そのままの形式で翻訳されます。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:20
+msgid "Database backup - overview of options"
+msgstr "データベースバックアップ - 選択肢の概要"
+
+#: ../../admin-manual/maintenance/data-backup.rst:26
+msgid ""
+"We recommend reviewing the overview linked below provided by Wordpress for "
+"backing up AtoM data, as both applications use MySQL:"
+msgstr ""
+"私たちは、AtoMデータのバックアップについて、以下のリンクで提供されているWordpressの概要を確認することをお勧めします。なぜなら、両方のアプリケーションがMySQLを使用しているからです："
+
+#: ../../admin-manual/maintenance/data-backup.rst:29
+msgid ""
+"`Backing up your database <https://wordpress.org/support/article/backing-up-"
+"your-database/>`_"
+msgstr ""
+"あなたのデータベースのバックアップ<https://wordpress.org/support/article/backing-up-your-"
+"database/>"
+
+#: ../../admin-manual/maintenance/data-backup.rst:30
+msgid ""
+"`Restoring from a backup <https://wordpress.org/support/article/backing-up-"
+"your-database/#restoring-from-a-backup>`_"
+msgstr ""
+"バックアップからの復元 `<https://wordpress.org/support/article/backing-up-your-"
+"database/#restoring-from-a-backup>`_"
+
+#: ../../admin-manual/maintenance/data-backup.rst:32
+msgid ""
+"You can follow these instructions using either the `MySQL CLI tool`_, "
+"`phpMyAdmin`_, or `MySQL Workbench`_."
+msgstr ""
+"以下の手順は、`MySQL CLIツール`_、`phpMyAdmin`_、または`MySQL Workbench`_を使用して行うことができます。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:35
+msgid ""
+"For more detailed instructions on using the `MySQL CLI tool`_ to back up "
+"AtoM's database, see:"
+msgstr ""
+"AtoMのデータベースをバックアップするための`MySQL CLIツール`_ の使用についてのより詳細な指示については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/data-backup.rst:38
+msgid ":ref:`cli-access-mysql`"
+msgstr ""
+"このような参照リンクは文脈がなく、一般的な文章とは異なるため、直訳は適切ではない場合があります。しかし、おそらくドキュメント内で特定のセクションへの参照を示しています。したがって、もし日本語のドキュメントに同等のセクションが存在する場合、以下のような形で翻訳することができます：\n"
+"\n"
+"`:ref:`cli-access-mysql`を参照してください`\n"
+"\n"
+"ただし、そのままの参照タグ（`:ref:`cli-access-mysql`）は、マークダウンやreStructuredTextなどのドキュメント作成ツールにおいて、特定の節や章をリンクするための標記であることに注意してください。翻訳時には、リンク先の目的地が日本語ドキュメント内の正しいセクションを指していることを確認する必要があります。もし日本語版のドキュメントに相当するセクションがあるならば、タグ内の「cli-access-mysql」の部分を対応する日本語ドキュメントのセクション名に置き換える必要があります。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:39
+msgid ":ref:`cli-backup-db`"
+msgstr ""
+"`:ref:`cli-backup-db`` はリファレンスリンクを指し示しているマークダウン、もしくはreStructuredText（reST）の形式で書かれたテキストの一部です。これを直訳すると、「CLIバックアップデータベースの参照」となりますが、こちらはドキュメント内での具体的な参照先として機能します。\n"
+"\n"
+"ただし、この文脈はおそらくドキュメント内で使われる記法の一例でしょう。通常のテキストとしての翻訳が求められている場合は、翻訳者はリファレンスリンクが指し示す実際のドキュメントタイトルやセクションを見つけて翻訳する必要があります。現在の情報だけでは実際に何を参照しているのかが不明なので、具体的なタイトルに変更することはできません。完全な翻訳を行うためには、ドキュメント全体の文脈を理解する必要があります。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:48
+msgid "Uploads and Downloads"
+msgstr "アップロードとダウンロード"
+
+#: ../../admin-manual/maintenance/data-backup.rst:50
+msgid ""
+"AtoM stores user uploads and downloads in two directories found just below "
+"the root AtoM installation directory."
+msgstr ""
+"AtoMは、ユーザーがアップロードしたファイルとダウンロードしたファイルを、ルートAtoMインストールディレクトリの直下にある2つのディレクトリに保存します。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:53
+msgid "**Uploads**"
+msgstr "**アップロード**"
+
+#: ../../admin-manual/maintenance/data-backup.rst:55
+msgid ""
+"The ``uploads`` directory is used to store :term:`digital objects <digital "
+"object>`."
+msgstr "``uploads``ディレクトリは、:term:`デジタルオブジェクト<digital object>`を保存するために使用されます。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:57
+msgid ""
+"The uploads directory typically has one main subdirectory called ``r``. "
+"Inside this, the next subdirectories are based on the authorized form of "
+"name of :term:`repository` records in the AtoM instance. If users have "
+"themed the repositories, then a repository directory will contain a ``conf``"
+" subdirectory, in which you'll find uploaded banners and logos."
+msgstr ""
+"アップロードディレクトリには通常、「r」という名前の主要なサブディレクトリが一つあります。「r」内部の次のサブディレクトリは、AtoMインスタンスにおける:term:`リポジトリ`レコードの承認された形式の名称に基づいています。ユーザーがリポジトリにテーマを設定した場合、リポジトリディレクトリには「conf」というサブディレクトリが含まれており、その中にアップロードされたバナーやロゴを見つけることができます。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:63
+msgid ""
+"Lower subdirectories after this are used to house :term:`digital objects "
+"<digital object>`. For each uploaded or linked object, AtoM will add a "
+"SHA-256 hash of the object and then, to avoid collisions and aid in "
+"retrieval, it will create a specific set of subdirectories based on this "
+"hash - 3 subdirectories named after the first 3 characters in the hash, "
+"followed by a final nested subdirectory named after the remaining hash "
+"characters."
+msgstr ""
+"この下のサブディレクトリは、:term:`デジタルオブジェクト<digital "
+"object>`を収納するために使用されます。アップロードまたはリンクされた各オブジェクトについて、AtoMはそのオブジェクトのSHA-256ハッシュを追加し、衝突を避け、検索を容易にするために、このハッシュに基づいて特定のサブディレクトリセットを作成します。ハッシュの最初の3文字に基づいた3つのサブディレクトリに続いて、ハッシュの残りの文字に基づいた最終的な入れ子になったサブディレクトリです。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:72
+msgid ""
+"Older versions of AtoM used only 2 initial subdirectories before creating a "
+"final subdirectory with the remaining hash characters."
+msgstr ""
+"以前のAtoMのバージョンは、残りのハッシュ文字を含む最終的なサブディレクトリを作成する前に、最初の2つのサブディレクトリのみを使用していました。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:75
+msgid "The resulting structure looks like so when viewed in a file explorer:"
+msgstr "結果として得られる構造は、ファイルエクスプローラーで見たとき以下のようになります："
+
+#: ../../admin-manual/maintenance/data-backup.rst:-1
+msgid "An image of the uploads directory's organization"
+msgstr "アップロードディレクトリの組織構造の画像"
+
+#: ../../admin-manual/maintenance/data-backup.rst:82
+msgid ""
+"If your database includes :term:`digital objects <digital object>`, you will"
+" want backup the files in ``/uploads`` on a regular basis."
+msgstr ""
+"データベースに`:term:`デジタルオブジェクト <digital "
+"object>`が含まれている場合、定期的に``/uploads``内のファイルをバックアップすることが望ましいです。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:85
+msgid "An example of creating a zipped tarball of your uploads directory:"
+msgstr "以下は、アップロードディレクトリの圧縮tarボールを作成する例です："
+
+#: ../../admin-manual/maintenance/data-backup.rst:93
+msgid "**Downloads**"
+msgstr "**ダウンロード**"
+
+#: ../../admin-manual/maintenance/data-backup.rst:95
+msgid ""
+"AtoM's ``downloads`` directory is where :ref:`reports <reports-printing>`, "
+":ref:`cached xml <cache-xml-setting>`, generated and uploaded :ref:`finding "
+"aids <print-finding-aids>` and downloads created by the :ref:`job scheduler "
+"<maintenance-asynchronous-jobs>` (such as :ref:`clipboard exports <csv-"
+"export-clipboard>`) are kept:"
+msgstr ""
+"AtoMの「downloads」ディレクトリは、:ref:`レポート <reports-printing>`、:ref:`キャッシュされたxml "
+"<cache-xml-setting>`、生成されたりアップロードされたりする:ref:`検索支援ツール <print-finding-"
+"aids>`や、:ref:`ジョブスケジューラ <maintenance-asynchronous-"
+"jobs>`によって作成されたダウンロード（例えば:ref:`クリップボードエクスポート <csv-export-"
+"clipboard>`など）が保管される場所です："
+
+#: ../../admin-manual/maintenance/data-backup.rst:-1
+msgid "An image of the downloads directory's organization"
+msgstr "ダウンロードディレクトリの構成の画像"
+
+#: ../../admin-manual/maintenance/data-backup.rst:106
+msgid ""
+"While previous exports might be considered transitory data not worth "
+"keeping, you may want to back up the rest of the contents of this directory."
+msgstr ""
+"以前のエクスポートは、保持する価値のない一時的なデータと考えられるかもしれませんが、このディレクトリの残りの内容はバックアップしたいでしょう。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:111
+msgid ""
+"You may choose to delete the contents of the ``jobs`` subdirectory before "
+"backing up the ``downloads`` directory - this subdirectory generally "
+"contains zip files of previous exports. As such, it is temporary data and "
+"may not need to be kept. We recommend leaving the ``jobs`` subdirectory "
+"itself in place, for future exports."
+msgstr ""
+"バックアップを行う前に、「downloads」ディレクトリ内の「jobs」サブディレクトリの内容を削除することを選択してもよいでしょう。このサブディレクトリには通常、以前のエクスポートのzipファイルが含まれています。そのため、これは一時的なデータであり、保持する必要がないかもしれません。ただし、「jobs」サブディレクトリ自体は将来的なエクスポートのためにそのままにしておくことをお勧めします。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:117
+msgid ""
+"If you want to delete the contents of this directory, you can use the "
+"following command:"
+msgstr "このディレクトリの内容を削除したい場合は、以下のコマンドを使用できます："
+
+#: ../../admin-manual/maintenance/data-backup.rst:124
+msgid ""
+"Alternatively, AtoM has a command-line task that can help remove unnecessary"
+" temporary data, including the content of the ``jobs`` subdirectory. For "
+"more information, see:"
+msgstr ""
+"もしくは、AtoMには不要な一時的なデータを削除するのに役立つコマンドラインタスクがあります。これには``jobs``サブディレクトリの内容も含まれます。詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/data-backup.rst:128
+msgid ":ref:`tools-expire`"
+msgstr ""
+"このテキストは、特定の文脈やフォーマットが示されていないため、直訳すると以下のようになります：\n"
+"\n"
+"```\n"
+":ref:`ツールの有効期限`\n"
+"```\n"
+"\n"
+"ただし、これはおそらくreStructuredText（reST）形式で書かれた文書の参照タグです。このタグは文書内の特定のセクションへの参照を示しています。実際の翻訳時には、ドキュメント内で参照されているセクションのタイトルを正しく翻訳し、参照タグの中にその日本語タイトルを入れる必要があります。たとえば、もし参照されているセクションが \"Tools Expire\" というタイトルであれば、タグは以下のようになるかもしれません：\n"
+"\n"
+"```\n"
+":ref:`ツールの有効期限について`\n"
+"```\n"
+"\n"
+"ドキュメント中で一貫した参照を保つため、正確なセクション名を使用する必要があります。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:130
+msgid "An example of creating a zipped tarball of your downloads directory:"
+msgstr "ダウンロードディレクトリの圧縮tarballを作成する例："
+
+#: ../../admin-manual/maintenance/data-backup.rst:139
+msgid "Translations backup"
+msgstr "翻訳のバックアップ"
+
+#: ../../admin-manual/maintenance/data-backup.rst:141
+msgid ""
+"Each public AtoM release includes new :term:`user interface` translations "
+"supplied by the global AtoM translation community. However, users with "
+"sufficient :term:`permissions <access privilege>` can also add local user "
+"interface translations directly via AtoM's user inteface. For more "
+"information, see:"
+msgstr ""
+"各公開AtoMリリースには、グローバルなAtoM翻訳コミュニティによって提供される新しい:term:`user "
+"interface`の翻訳が含まれています。しかし、十分な:term:`permissions <access "
+"privilege>`を持つユーザーは、AtoMのユーザーインターフェイスを介して直接ローカルのユーザーインターフェイス翻訳を追加することもできます。詳細については、以下を参照してください："
+
+#: ../../admin-manual/maintenance/data-backup.rst:147
+msgid ":ref:`translate-interface`"
+msgstr ""
+"このテキスト \":ref:`translate-interface`\" は、通常ドキュメント内で使われる、特定のセクションへの参照を示します。ただし、この参照テキストが指している内容が不明ですので、正確な翻訳を提供するにはコンテキストが必要になります。ただし、直訳すると「インターフェースの翻訳」となりますが、これは参照先の実際のセクションタイトルかもしれません。\n"
+"\n"
+"そのため、文書の具体的なコンテンツに基づいた適切な翻訳を行うためには、もう少し情報が必要です。参照先のセクションタイトルまたは周辺のテキストが提供されると、より適切な翻訳が可能になります。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:149
+msgid ""
+"If you are actively translating the application interface, you will also "
+"need to backup the translation files in the ``/apps/qubit/i18n`` directory."
+msgstr ""
+"アプリケーションインターフェースの翻訳作業を行っている場合は、``/apps/qubit/i18n`` "
+"ディレクトリにある翻訳ファイルのバックアップも必要になります。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:154
+msgid ""
+"At this time, we are troubleshooting challenges in the translation migration"
+" process from older releases to |version|. Please see issue `#5505 "
+"<https://projects.artefactual.com/issues/5505>`__ for progress - we will "
+"update this documentation with instructions when the tranlsation migration "
+"process has been optimized and tested. Thank you in advance for your "
+"patience."
+msgstr ""
+"現在、古いリリースから|version|への翻訳移行プロセスに関する課題をトラブルシューティングしています。進捗状況については、問題`#5505 "
+"<https://projects.artefactual.com/issues/5505>`__をご覧ください。翻訳移行プロセスが最適化およびテストされ次第、このドキュメントを更新し、指示を掲載いたします。ご理解とご協力に感謝いたします。"
+
+#: ../../admin-manual/maintenance/data-backup.rst:161
+msgid ":ref:`Back to the top <maintenance-data-backup>`"
+msgstr ":ref:`トップに戻る <maintenance-data-backup>`"

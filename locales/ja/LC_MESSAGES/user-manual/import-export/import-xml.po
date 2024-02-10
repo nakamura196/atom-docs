@@ -1,0 +1,1331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/import-export/import-xml.rst:5
+msgid "Import XML"
+msgstr "XMLのインポート"
+
+#: ../../user-manual/import-export/import-xml.rst:7
+msgid ""
+"This page describes how to import :term:`archival description` and "
+":term:`authority record` data in XML format via the :term:`user interface`. "
+"For descriptions, this includes:"
+msgstr ""
+"このページでは、:term:`ユーザーインターフェース`経由でXML形式の:term:`アーカイバル記述`と:term:`権限記録`データをインポートする方法について説明します。記述には以下が含まれます："
+
+#: ../../user-manual/import-export/import-xml.rst:11
+msgid "EAD 2002 XML"
+msgstr ""
+"EAD 2002 XMLは、アーカイブの記述標準の一つである「エンコード・アーカイブ記述」（Encoded Archival "
+"Description）のバージョンを表しています。EADは、アーカイブ資料の構造とコンテキストを記述するための、国際的なXMLベースの標準です。EAD"
+" 2002は、その具体的なバージョンを指していることがあります。"
+
+#: ../../user-manual/import-export/import-xml.rst:12
+msgid "Dublin Core XML"
+msgstr "ダブリン・コアXML"
+
+#: ../../user-manual/import-export/import-xml.rst:13
+msgid "MODS XML"
+msgstr "「MODS XML」"
+
+#: ../../user-manual/import-export/import-xml.rst:15
+msgid "For authority records, this includes EAC-CPF XML."
+msgstr "権威レコードについては、これにはEAC-CPF XMLが含まれます。"
+
+#: ../../user-manual/import-export/import-xml.rst:19
+msgid ""
+"AtoM can also import SKOS RDF XML and CSV files. For more information, see:"
+msgstr "AtoMはSKOS RDF XMLファイルやCSVファイルもインポートすることができます。詳細については、以下をご覧ください："
+
+#: ../../user-manual/import-export/import-xml.rst:21
+msgid ":ref:`import-export-skos`"
+msgstr ""
+":ref:`import-export-skos` の部分は、特定の参照リンクを指していると思われるため、直訳するとその参照の意味が失われる可能性があります。一般的に文脈に基づいた翻訳をする場合、ドキュメント内のその参照が指しているタイトルやセクションを翻訳する必要があるでしょう。ただし、ここではその文脈が与えられていないため、参照リンク自体はコードとして保持し、それが指す内容（たとえばセクション名）のみを翻訳します。\n"
+"\n"
+"仮に参照が「SKOS形式のインポートとエクスポート」というセクションを指していたとすれば、以下のように翻訳することができます：\n"
+"\n"
+":ref:`SKOS形式のインポートとエクスポート`\n"
+"\n"
+"しかし、正確な翻訳を行うためには文脈が必要ですので、該当するセクション名やタイトルがわからない限り、参照コードの翻訳は行うべきではありません。"
+
+#: ../../user-manual/import-export/import-xml.rst:22
+msgid ":ref:`csv-import`"
+msgstr ""
+"このテキストはreStructuredText (reST) 形式で記載された、参照ラベルの例です。このラベルは、ドキュメント内の別のセクションを指し示しています。ただし、テキスト自体は `csv-import` という具体的なセクション名、またはタイトルを参照しています。reSTでは、このようなラベルを使用してドキュメント内のクロスリファレンスを作成できます。\n"
+"\n"
+"ただし、このラベルを日本語に直訳する必要はあまりありませんが、日本語のドキュメント内で同様の参照を作成する場合、以下のように記述することが想定されます：\n"
+"\n"
+"```:ref:`csv-import`（CSVインポート）```\n"
+"\n"
+"ここで、「CSVインポート」は参照されるセクションの日本語での名前に置き換えられるものとします。なお、実際の翻訳時には、対象のセクションの正確な日本語名を調べ、それを適切にラベルに組み込む必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:24
+msgid ""
+"XML imports in AtoM are are executed as :term:`jobs <job>` and performed "
+"asynchronously in the background to avoid timeouts in the browser. Jobs in "
+"AtoM are handled by `Gearman <http://gearman.org>`__, and the status of AtoM"
+" jobs can be seen in the :term:`user interface` via the **Manage > Jobs** "
+"page. For more information, see: :ref:`manage-jobs` and :ref:`maintenance-"
+"asynchronous-jobs`."
+msgstr ""
+"AtoMにおけるXMLインポートは、ブラウザのタイムアウトを避けるために、:term:`ジョブ <job>` "
+"として実行され、バックグラウンドで非同期に行われます。AtoM内のジョブは `Gearman <http://gearman.org>`__ "
+"によって管理されており、AtoMジョブの状態は :term:`ユーザーインターフェース` の **管理 > ジョブ** "
+"ページから確認することができます。詳細については、:ref:`manage-jobs` と :ref:`maintenance-"
+"asynchronous-jobs` を参照してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:31
+msgid ""
+"To import XML files, a user must be logged in as an :term:`administrator`. "
+"For more information on user groups and permissions, see:"
+msgstr ""
+"XMLファイルをインポートするためには、ユーザーは:term:`管理者`としてログインしている必要があります。ユーザーグループと権限についての詳細は、下記を参照してください："
+
+#: ../../user-manual/import-export/import-xml.rst:34
+msgid ":ref:`user-roles`"
+msgstr ""
+"このテキストは、文脈に依存するため、リファレンス（参照）を指していますが、単体では完全な文章や段落にはなりません。ただし、翻訳のためにテキスト片として扱えば、\n"
+"\n"
+"`:ref:`user-roles``\n"
+"\n"
+"日本語に訳すと以下のようになります：\n"
+"\n"
+"`:ref:`ユーザー役割``\n"
+"\n"
+"ただし、この訳はコードやドキュメント内のリンクとして機能するリファレンスマーカーです。実際の翻訳では、文書やソフトウェアの具体的なコンテキストに応じて修正が必要になるかもしれません。また、マークアップ言語であるReStructuredTextの一部と仮定しています。これを適切に翻訳して文書内で使う際は、リンク先のセクション名も正しく翻訳して対応づける必要があるでしょう。"
+
+#: ../../user-manual/import-export/import-xml.rst:35
+msgid ":ref:`manage-user-accounts`"
+msgstr ":ref:`ユーザーアカウントの管理`"
+
+#: ../../user-manual/import-export/import-xml.rst:36
+msgid ":ref:`edit-user-permissions`"
+msgstr ":ref:`ユーザー権限の編集`"
+
+#: ../../user-manual/import-export/import-xml.rst:38
+msgid ""
+"In addition to importing new records, AtoM can also attempt to identify "
+"matches on existing records and delete the matches before importing the new "
+"records as replacements. This functionality is currently only available for "
+"EAD 2002 and EAC-CPF XML imports. It will be described in greater detail "
+"below, along other import options."
+msgstr ""
+"新しい記録のインポートに加えて、AtoMは既存の記録にマッチするものを識別し、新しい記録を代替としてインポートする前にマッチする記録を削除する試みも行えます。この機能は現在、EAD"
+" 2002およびEAC-CPF XMLインポートにのみ利用可能です。これについては、下記の他のインポートオプションと一緒に、より詳細に説明されます。"
+
+#: ../../user-manual/import-export/import-xml.rst:44
+#: ../../user-manual/import-export/import-xml.rst:124
+#: ../../user-manual/import-export/import-xml.rst:613
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../user-manual/import-export/import-xml.rst:46
+msgid ":ref:`import-description-xml`"
+msgstr ""
+":ref:`import-description-xml` のテキストは参照タグであり、特定の文書やガイド内の節や章を指している可能性があります。このタグ自体は直接翻訳する内容を含んでおらず、コンテキストに応じた日本語の節や章のタイトルに置き換える必要があります。ただし、仮に「import-description-xml」という節が存在する場合には、日本語では以下のように翻訳することになるかもしれません。\n"
+"\n"
+"「インポート説明書のXML」"
+
+#: ../../user-manual/import-export/import-xml.rst:47
+msgid ":ref:`import-actor-xml`"
+msgstr ""
+"`:ref:`import-actor-xml`はマークアップ言語の一部であり、テキストの特定の部分にリンクや参照を追加するために使われます。このテキストがArchivematicaの文書内でどのように使われているのかを知るために、実際の文脈が必要です。もしこの`:ref:``import-actor-xml`が参照タグを表すならば、日本語ではそのままの形式で使用し、具体的な参照先のタイトルには翻訳を施します。ただし、ここで提供されたテキストのみでは正確な翻訳は不可能ですが、あくまで一例として、もし参照先が「アクターXMLのインポート」というセクションだとすれば、以下のようになるでしょう：\n"
+"\n"
+"``:ref:`アクターXMLのインポート` ``\n"
+"\n"
+"注意すべきは、実際に文書内でこの参照が機能するようにするためには、適切な参照ラベルが設定されている必要があるということです。通常、これはマークダウンやreStructuredTextといった文書作成ツールで行います。"
+
+#: ../../user-manual/import-export/import-xml.rst:52
+msgid "Import archival description XML files"
+msgstr "アーカイブ記述XMLファイルをインポート"
+
+#: ../../user-manual/import-export/import-xml.rst:54
+msgid ""
+"AtoM supports the import of EAD 2002, MODS, and simple Dublin Core XML files"
+" for :term:`archival description` data. EAD 2002 XML generally contains an "
+"entire descriptive hierarchy, while MODS and DC XML files are limited to "
+"single descriptions."
+msgstr ""
+"AtoMは、:term:`アーカイブ記述`データのためのEAD "
+"2002、MODS、およびシンプルなダブリン・コアXMLファイルのインポートをサポートしています。EAD 2002 "
+"XMLは通常、記述階層全体を含んでいるのに対し、MODSとDC XMLファイルは単一の記述に限られます。"
+
+#: ../../user-manual/import-export/import-xml.rst:59
+msgid ""
+"With all XML imports, it is important to be aware of the available fields in"
+" the AtoM templates, as not all fields supported by the related metadata "
+"standards will necessarily have an equivalent in the current version of the "
+"corresponding AtoM templates. Additionally, because EAD 2002 is a very "
+"flexible metadata standard that offers users many different but valid ways "
+"of representing the same data, not all possible EAD representations will "
+"necessarily import as expected into AtoM."
+msgstr ""
+"XMLインポートを行う際には、AtoMテンプレートで利用可能なフィールドを把握しておくことが重要です。なぜなら、関連するメタデータ標準でサポートされているすべてのフィールドが、必ずしも現行のAtoMテンプレートにおいて対応しているわけではないからです。さらに、EAD"
+" "
+"2002は非常に柔軟なメタデータ標準であり、ユーザーが同じデータを表現するためにさまざまな方法を正当に利用できるため、すべての可能なEAD表現がAtoMに期待通りにインポートされるとは限りません。"
+
+#: ../../user-manual/import-export/import-xml.rst:67
+msgid ""
+"For this reason, it is **strongly recommended** that you review the AtoM "
+"edit templates and the :ref:`data entry <data-entry>` pages in the AtoM "
+"documentation, and that you perform a couple test imports of representative "
+"samples prior to importing descriptive data into your production AtoM "
+"instance. See:"
+msgstr ""
+"このため、AtoM編集テンプレートとAtoMドキュメント内の`:ref:`データ入力<data-"
+"entry>`ページを確認し、本番のAtoMインスタンスに記述データをインポートする前に、代表的なサンプルを数回テストインポートしてみることを**強く推奨**します。参照："
+
+#: ../../user-manual/import-export/import-xml.rst:73
+msgid ":ref:`archival-descriptions`"
+msgstr "`アーカイバル記述 <archival-descriptions>`"
+
+#: ../../user-manual/import-export/import-xml.rst:74
+msgid ":ref:`ISAD(G) template <isad-template>`"
+msgstr ":ref:`ISAD(G) テンプレート <isad-template>`"
+
+#: ../../user-manual/import-export/import-xml.rst:75
+msgid ":ref:`DACS template <dacs-template>`"
+msgstr ":ref:`DACSテンプレート <dacs-template>`"
+
+#: ../../user-manual/import-export/import-xml.rst:76
+msgid ":ref:`RAD template <rad-template>`"
+msgstr ":ref:`RAD テンプレート <rad-template>`"
+
+#: ../../user-manual/import-export/import-xml.rst:77
+msgid ":ref:`Dublin Core template <dc-template>`"
+msgstr ":ref:`ダブリンコア テンプレート <dc-template>`"
+
+#: ../../user-manual/import-export/import-xml.rst:78
+msgid ":ref:`MODS template <mods-template>`"
+msgstr ":ref:`MODSテンプレート <mods-template>`"
+
+#: ../../user-manual/import-export/import-xml.rst:80
+msgid ""
+"For **EAD 2002 XML** :term:`archival description` imports, AtoM can also "
+"attempt to identify existing top level description records that match the "
+"import record, and then delete them before importing the EAD XML as a new "
+"record. Further details on this can be found in the section below, "
+":ref:`ead-delete-replace`. On new EAD 2002 imports, AtoM can also search for"
+" matches on the top-level import and skip the import if a match is found - "
+"this can be useful as a sanity check prior to import to ensure you are not "
+"accidentally creating duplicate records.  In both cases, skipped records are"
+" reported in the :ref:`Job details <job-details>` page of the related import"
+" job (see: :ref:`manage-jobs` for more information)."
+msgstr ""
+"**EAD 2002 XML** "
+":term:`アーカイブ記述`のインポートにおいて、AtoMは既存のトップレベルの記述レコードがインポートレコードと一致するかどうかを特定しようと試み、一致するものがあればそれを削除してから、EAD"
+" XMLを新しいレコードとしてインポートすることができます。これについての詳細は、以下のセクション`ead-delete-"
+"replace`で見つけることができます。新しいEAD "
+"2002のインポートでは、AtoMはトップレベルのインポートに対する一致を検索し、一致が見つかった場合はインポートをスキップすることができます - "
+"これは、誤って重複したレコードを作成してしまわないように、インポート前の正気のチェック（sanity "
+"check）として役立ちます。どちらの場合も、スキップされたレコードは関連するインポートジョブの`ジョブ詳細 <job-"
+"details>`ページに報告されます（詳細については、`ジョブの管理 <manage-jobs>`を参照してください）。"
+
+#: ../../user-manual/import-export/import-xml.rst:93
+msgid ""
+"This match checking is **only** made against the top-level description in "
+"the EAD file. Because the :term:`user interface` currently only supports 1 "
+"XML import at a time, this effectively means that if a match is found and "
+"the user has enabled the \"Skip\" option, then the entire import will not "
+"proceed."
+msgstr ""
+"この照合チェックは、EADファイル内の最上位レベルの記述に**のみ**対して行われます。現在の:term:`ユーザーインターフェイス`は一度に1つのXMLインポートのみをサポートしているため、これは実質的に、照合が見つかり、ユーザーが「スキップ」オプションを有効にしている場合は、インポート全体が進行しないことを意味します。"
+
+#: ../../user-manual/import-export/import-xml.rst:99
+msgid ""
+"For more information on the matching criteria used for existing archival "
+"descriptions, see :ref:`below <ead-description-matching>`."
+msgstr ""
+"既存のアーカイブ記述に使用される照合基準の詳細については、以下を参照してください :ref:`以下 <ead-description-"
+"matching>`。"
+
+#: ../../user-manual/import-export/import-xml.rst:104
+msgid ""
+"XML data can contain other related :term:`entities <entity>` - for example, "
+"an EAD 2002 XML :term:`archival description` may contain references to a "
+":term:`repository`, creator name (which will be managed as an "
+":term:`authority record` in AtoM), place/subject/genre :term:`access points "
+"<access point>`. On import, AtoM will attempt to match these other entities "
+"to existing records (criteria for this will be explained in greater detail "
+":ref:`below <xml-description-matching>`) and link them. Where it does not "
+"find a match, AtoM will create new related entities."
+msgstr ""
+"XMLデータは、関連する他の:term:`エンティティ<entity>`を含むことがあります。たとえば、EAD 2002 XML "
+":term:`アーカイブ記述`は、:term:`リポジトリ`、作成者名（AtoMでは:term:`オーソリティレコード`として管理されます）、場所/主題/ジャンルの:term:`アクセスポイント<access"
+" "
+"point>`への参照を含むことがあります。インポート時、AtoMはこれらの他のエンティティを既存のレコードにマッチさせようと試み（この基準については以下の:ref:`xml-"
+"description-"
+"matching`でより詳しく説明します）そしてリンクさせます。一致するものが見つからない場合、AtoMは新たな関連エンティティを作成します。"
+
+#: ../../user-manual/import-export/import-xml.rst:113
+msgid ""
+"This means that your XML description import could end up linking to existing"
+" terms, repositories, and authority records, **or** creating new access "
+"point, repository, and authority record data in addition to the "
+"descriptions."
+msgstr ""
+"これは、XML記述のインポートにより、既存の用語、リポジトリ、権限レコードへのリンクが形成されるだけでなく、記述に加えて、新しいアクセスポイント、リポジトリ、権限レコードデータの作成が行われる可能性があることを意味します。"
+
+#: ../../user-manual/import-export/import-xml.rst:118
+msgid ""
+"Please review the matching criteria :ref:`below <xml-description-matching>` "
+"closely prior to import, and be sure to review the results of your import "
+"carefully after it is complete. We strongly recommend performing a test "
+"import into a separate test instance of AtoM prior to importing directly "
+"into your production AtoM site."
+msgstr ""
+"以下のマッチング基準について、:ref:`以下の<xml-description-"
+"matching>`の部分をインポートする前に注意深く確認し、インポートが完了した後はその結果を慎重にレビューしてください。本番環境のAtoMサイトへ直接インポートする前に、別のテストインスタンスのAtoMにテストインポートを行うことを強くお勧めします。"
+
+#: ../../user-manual/import-export/import-xml.rst:126
+msgid ":ref:`xml-description-matching`"
+msgstr "`xml-description-matching`（XML記述の照合）"
+
+#: ../../user-manual/import-export/import-xml.rst:127
+msgid ":ref:`xml-description-import-ui`"
+msgstr "`xml-description-import-ui`（XML説明のインポートUI）"
+
+#: ../../user-manual/import-export/import-xml.rst:128
+msgid ":ref:`ead-delete-replace`"
+msgstr ""
+":ref:`ead-delete-replace` の部分は参照リンクを示していますが、それ自体は実際のテキストではありません。このリンクを翻訳するためには、その参照先の内容を知る必要があります。ただ、その参照先が何を指しているのかは文脈からは不明です。参照先の文脈がわからない場合、リンクテキストは通常そのまま使用されます。したがって、文脈が提供されない限り、このリンクは次のように翻訳されるかもしれません：\n"
+"\n"
+":ref:`ead-delete-replace` (EADの削除と置換)\n"
+"\n"
+"ここで、\"EAD\"はEncoded Archival Descriptionの略で、アーカイブ資料の構造と内容の記述を標準化するためのXML標準です。しかし、リンクが実際に何を指しているかに基づいて翻訳者は適切な訳語を選ぶ必要があるため、より多くの文脈が必要です。"
+
+#: ../../user-manual/import-export/import-xml.rst:133
+msgid "Matching critera for description XML imports"
+msgstr "説明 XML インポートのための一致基準"
+
+#: ../../user-manual/import-export/import-xml.rst:135
+msgid ""
+"As an archival management system, AtoM's data model has many different "
+"entity types, which can be linked in a number of ways. This supports the "
+"reusability of information - for example, rather than recreating the "
+"biographical history of a creator in every different collection they are "
+"responsible for creating, we can create a single :term:`authority record` to"
+" capture this information and then link it to multiple archival "
+"descriptions. You can read more about entity types in AtoM here: "
+":ref:`entity-types`."
+msgstr ""
+"アーカイブ管理システムであるAtoMのデータモデルには、多くの異なるエンティティタイプがあり、それらは様々な方法でリンクすることができます。これにより情報の再利用性がサポートされます。例えば、ある創作者が作成した異なるコレクションのたびにその創作者の伝記歴史を再び作成するのではなく、この情報を捉えるための単一の「権威レコード」を作成し、それを複数のアーカイブ記述にリンクすることができます。AtoMにおけるエンティティタイプの詳細についてはこちらをご覧ください：「エンティティタイプ」。"
+
+#: ../../user-manual/import-export/import-xml.rst:143
+msgid ""
+"XML imports can contain data that AtoM treats as a different :term:`entity` "
+"- meaning that on import, AtoM must decide if if should link these elements "
+"to existing entities that seem to match the incoming data, or whether it "
+"should use the available data to create new records."
+msgstr ""
+"XMLインポートには、AtoMが異なる`:term:`エンティティ`として扱うデータが含まれている可能性があります。つまり、インポート時にAtoMは、入ってくるデータに一致する既存のエンティティにこれらの要素をリンクすべきか、あるいは利用可能なデータを使用して新しいレコードを作成すべきかを決定する必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:148
+msgid "With description XML imports, these elements might include:"
+msgstr "説明XMLインポートでは、これらの要素には以下のものが含まれる場合があります："
+
+#: ../../user-manual/import-export/import-xml.rst:150
+msgid "creator information (which AtoM stores as an :term:`authority record`)"
+msgstr "作成者情報（AtoMはこれを「権威記録」として保存します）"
+
+#: ../../user-manual/import-export/import-xml.rst:151
+msgid ""
+"repository information (which AtoM stores as an :term:`archival institution`"
+" record)"
+msgstr "リポジトリ情報（AtoMは`:term:`archival institution` レコードとして保存します）"
+
+#: ../../user-manual/import-export/import-xml.rst:153
+msgid ""
+":term:`subject`, :term:`place`, and genre :term:`access points <access "
+"point>` (which AtoM maintains as :term:`terms <term>` in a :term:`taxonomy`)"
+msgstr ""
+"「:term:`subject`, :term:`place`,そしてジャンル :term:`access points <access "
+"point>`（これらはAtoMが:term:`terms <term>`として:term:`taxonomy`内に維持する）」"
+
+#: ../../user-manual/import-export/import-xml.rst:156
+msgid ":term:`name` access points (which AtoM stores as authority records)"
+msgstr "用語:`name` アクセスポイント（AtoMは権威レコードとして保存します）"
+
+#: ../../user-manual/import-export/import-xml.rst:158
+msgid ""
+"When importing a record, the **authorized form of name** of existing records"
+" of other entity types is typically used as the matching criteria. For "
+"example, if you import a description that includes a :term:`subject` access "
+"point for \"automobiles\", and the term \"automobiles\" already exists in "
+"AtoM's Subjects taxonomy, then AtoM will re-use the existing term and link "
+"to it instead of creating a new subject term. Note that any difference - "
+"\"automobile\" vs \"automobiles\" (pluralized) will result in a failure to "
+"match. When no exact match is found, AtoM will create a new stub record with"
+" the available data (generally just the authorized form of name), which you "
+"can then supplement later by editing it via the :term:`user interface`."
+msgstr ""
+"レコードのインポート時に、他のエンティティタイプの既存のレコードにおける**公式の名称**が通常、照合の基準として使用されます。例えば、「自動車」という:term:`主題`アクセスポイントを含む説明をインポートする場合、そして用語「自動車」がすでにAtoMの主題タクソノミーに存在する場合、AtoMは既存の用語を再利用してリンクし、新しい主題用語を作成するのではなく、そこに接続します。任意の差異"
+" – "
+"「自動車」と「自動車」（複数形）がある場合、一致に失敗する結果となります。正確な一致が見つからない場合、AtoMは利用可能なデータ（一般的には公式の名称のみ）を用いて新しいスタブレコードを作成し、後で:term:`ユーザーインターフェース`を通じて編集することで情報を追加することができます。"
+
+#: ../../user-manual/import-export/import-xml.rst:169
+msgid ""
+"Because EAD 2002 files are generally more complex, used more frequently for "
+"XML description imports into AtoM than other description XML types, and "
+"because they also include the \"Delete and replace\" import option "
+"(described :ref:`below <ead-delete-replace>`), they are given special "
+"attention in the following sub-sections:"
+msgstr ""
+"EAD "
+"2002ファイルは一般的に複雑であり、AtoMにおけるXML記述のインポートでは他の記述XMLタイプよりも頻繁に使用されます。また、「削除して置き換え」のインポートオプション（以下で説明されています：ref:`ead-"
+"delete-replace`）を含むため、以下の小節で特別な注意が払われています："
+
+#: ../../user-manual/import-export/import-xml.rst:175
+msgid ":ref:`ead-actors-import`"
+msgstr "`ead-actors-import` の参照"
+
+#: ../../user-manual/import-export/import-xml.rst:176
+msgid ":ref:`ead-description-matching`."
+msgstr ":ref:`ead-description-matching`に関するドキュメントを翻訳してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:181
+msgid "On Authority records and EAD imports"
+msgstr "権威レコードとEADインポートについて"
+
+#: ../../user-manual/import-export/import-xml.rst:183
+msgid ""
+"AtoM tries to support the reusability of actor information through the "
+"maintenance of :term:`authority records <authority record>` that can be "
+"linked to :term:`archival descriptions <archival description>` and other "
+"entities. This, and the rationale for this, is outlined in greater detail in"
+" the following sections:"
+msgstr ""
+"AtoMは、:term:`権威記録 <authority record>`の保守を通じて、:term:`アーカイブ記述 <archival "
+"description>`やその他のエンティティにリンク可能な俳優情報の再利用を支援しようとしています。これとその根拠については、以下のセクションでより詳細に説明されています："
+
+#: ../../user-manual/import-export/import-xml.rst:189
+msgid ":ref:`authority-bioghist-access`"
+msgstr ":ref:`権限-伝記歴史-アクセス`"
+
+#: ../../user-manual/import-export/import-xml.rst:190
+msgid ":ref:`term-name-vs-subject`"
+msgstr ":ref:`用語名対主題`"
+
+#: ../../user-manual/import-export/import-xml.rst:192
+msgid ""
+"This also affects how actor names are handled during an EAD XML import. Some"
+" of the key behaviors are outlined below:"
+msgstr "これは、EAD XMLインポート中にアクター名がどのように扱われるかにも影響します。いくつかの主な挙動は以下の通りです："
+
+#: ../../user-manual/import-export/import-xml.rst:195
+msgid "**Creating new actor records on import**"
+msgstr "インポート時に新しいアクターレコードを作成"
+
+#: ../../user-manual/import-export/import-xml.rst:197
+msgid ""
+"AtoM looks for creator names in the ``<origination>`` EAD element, and "
+":term:`access point` names (used as subjects) in ``<controlaccess>`` during "
+"an EAD import."
+msgstr ""
+"AtoMはEADインポート時に、``<origination>`` EAD要素内の作成者名と、``<controlaccess>`` "
+"内のアクセスポイント名（主題として使用される）を検索します。"
+
+#: ../../user-manual/import-export/import-xml.rst:200
+msgid ""
+"Similarly, any Administrative / biographical history data in an archival "
+"description `EAD <http://www.loc.gov/ead/>`__ import (i.e. data contained in"
+" the ``<bioghist>`` EAD element) will be mapped to the \"History\" "
+":term:`field` (ISAAR-CPF 5.2.2) in the related :term:`authority record`, "
+"(generated from the data contained in the ``<origination>`` element of the "
+"EAD) and then is presented in AtoM in any related descriptions where the "
+"entity is listed as a creator."
+msgstr ""
+"同様に、アーカイブ記述での管理上の/伝記的歴史データ（つまり、EAD要素``<bioghist>``に含まれるデータ）は、関連する権威記録の「履歴」:term:`field`（ISAAR-"
+"CPF "
+"5.2.2）にマッピングされます。この権威記録は、EADの``<origination>``要素に含まれるデータから生成され、その後AtoM内の関連する記述において、エンティティが作成者としてリストされている場合に表示されます。"
+
+#: ../../user-manual/import-export/import-xml.rst:207
+msgid ""
+"Where multiple creator names and histories are included in an import, "
+"``<origination>`` and ``<bioghist>`` elements are matched 1:1 in the  order "
+"they appear in the EAD."
+msgstr ""
+"複数の作成者の名前や履歴がインポートに含まれている場合、``<origination>`` および ``<bioghist>`` "
+"要素は、EADに表示される順番で1:1に対応付けられます。"
+
+#: ../../user-manual/import-export/import-xml.rst:210
+msgid ""
+"If a ``<bioghist>`` element is included in an EAD import, but no creator "
+"name is included, AtoM will still automatically generate a stub "
+":term:`authority record` and map the ``<bioghist>`` data to the \"History\" "
+":term:`field` (ISAAR-CPF 5.2.2) - the authority record will be left "
+"untitled, until the user manually adds the appropriate :term:`name` to the "
+"authority record. Similarly, if there are more ``<bioghist>`` elements "
+"included in an import than  creator names included in ``<origination>`` "
+"elements, the final biographical/administrative history will be mapped to an"
+" untitled authority record."
+msgstr ""
+"EADインポートに``<bioghist>``要素が含まれているが、作成者名が含まれていない場合、AtoMは自動的に暫定の:term:`権威レコード`を生成し、``<bioghist>``のデータを「履歴」:term:`フィールド`"
+" （ISAAR-CPF 5.2.2）にマッピングします - "
+"権威レコードにはタイトルがつけられず、ユーザーが手動で適切な:term:`名前`を権威レコードに追加するまでそのままになります。同様に、インポート時に含まれる``<bioghist>``要素が、``<origination>``要素に含まれる作成者名よりも多い場合、最終的な伝記的/行政的履歴はタイトルのない権威レコードにマッピングされます。"
+
+#: ../../user-manual/import-export/import-xml.rst:220
+msgid "**Attempting to match to existing authority records**"
+msgstr "**既存の権威記録に合致させようと試みる**"
+
+#: ../../user-manual/import-export/import-xml.rst:222
+msgid ""
+"AtoM will attempt to find matches for current authority records. However, to"
+" avoid collisions, or situations in which multiple imports overwrite the "
+"same authority record in a :term:`multi-repository system`, the approach is "
+"conservative - for a match to be made and a link to an existing record added"
+" instead of a new record being created, there must be an *exact* match on "
+"the authorized form of name."
+msgstr ""
+"AtoMは現在の権威レコードに一致するものを見つけようと試みます。しかし、複数のインポートが同じ権威レコードに上書きされるといった衝突、または:term:`マルチリポジトリシステム`の状況を避けるため、アプローチは慎重です"
+" - 既存のレコードへのリンクが作成され、新しいレコードが生成されないようにするためには、認定された名前のフォームに*完全な*一致がなければなりません。"
+
+#: ../../user-manual/import-export/import-xml.rst:228
+msgid ""
+"If there is no exact match, then AtoM will create a new actor record. Since "
+"AtoM does not currently have the capacity to suspend the import and ask the "
+"user whether to update an existing authority record or ignore it and create "
+"a new one, this method was chosen as the least destructive. However, this "
+"means that administrative or biographical histories CANNOT be updated via an"
+" import."
+msgstr ""
+"正確な一致がない場合、AtoMは新たなアクターレコードを作成します。AtoMは現在、インポートを中断し、ユーザーに既存の権限レコードを更新するか、それを無視して新しいレコードを作成するかを選択させる機能を持っていませんので、この方法が最も破壊的でないと考えられました。しかしながら、これはインポートを通じて管理上の履歴や伝記的歴史を更新することができないことを意味します。"
+
+#: ../../user-manual/import-export/import-xml.rst:234
+msgid ""
+"When using the \"Delete and replace\" update method during an EAD import "
+"(described further in the section :ref:`below <ead-delete-replace>`), AtoM "
+"will **also** check for an exact match on any existing actor's "
+"biographical/administrative history before linking the incoming "
+"description's creator to an existing authority record. If the incoming "
+"history in the  ``<bioghist>`` element of the EAD XML import file, as well "
+"as the authorized form of name (captured in the ``<origination>`` element of"
+" the incoming EAD record) are not exact matches, then AtoM will create a new"
+" authority record instead of linking to the existing one. This is to avoid "
+"accidentally overwriting existing authority record data in the case of an "
+"undesired match."
+msgstr ""
+"EADインポート中に「削除して置き換える」更新方法を使用する場合（以下のセクション :ref:`以下 <ead-delete-"
+"replace>`でさらに説明します）、AtoMは、受信する記述の作成者を既存の権威レコードにリンクする前に、既存のアクターの伝記的/行政的歴史に完全一致があるかどうかも**同時に**チェックします。EAD"
+" "
+"XMLインポートファイルの``<bioghist>``要素内の受信歴史および認証された名前の形式（受信するEADレコードの``<origination>``要素に記録されている）が完全一致でない場合、AtoMは既存のものにリンクする代わりに新しい権威レコードを作成します。これは、望まれないマッチの場合に既存の権威レコードデータを誤って上書きするのを避けるためです。"
+
+#: ../../user-manual/import-export/import-xml.rst:245
+msgid ""
+"This means that the \"Delete and replace\" update method **cannot** be used "
+"to update existing authority records."
+msgstr "これは、「削除して置き換える」という更新方法は、既存の権限レコードを更新するために**使用できない**ということを意味します。"
+
+#: ../../user-manual/import-export/import-xml.rst:247
+msgid ""
+"This also means that **users should be careful to double check authority "
+"linking behaviors in AtoM following an import**, and manually perform any "
+"desired adjustments where needed."
+msgstr ""
+"これはまた、インポート後にAtoMで権威リンクの動作を二重に確認する必要があることを意味しており、必要に応じて望ましい調整を手動で行うべきです。"
+
+#: ../../user-manual/import-export/import-xml.rst:253
+msgid ":ref:`csv-actors-import`"
+msgstr ""
+":ref:`csv-actors-import` (このテキストは、ドキュメント内他の部分への参照として使用されるラベルです。日本語の翻訳には通常、ラベルのテキストを変更する必要はありませんが、文脈に応じて適切な日本語の参照名に変更することが可能です。その場合、参照先の日本語ドキュメント内で同じラベル名を使用することが重要です。\"CSVアクターインポート\"のような可能な日本語訳の一例を以下に挙げます。)\n"
+"\n"
+":ref:`csv-アクターインポート`"
+
+#: ../../user-manual/import-export/import-xml.rst:258
+msgid "Skipping records and finding archival description matches"
+msgstr "レコードのスキップとアーカイブ記述の一致の検索"
+
+#: ../../user-manual/import-export/import-xml.rst:260
+msgid ""
+"With EAD 2002 XML imports, users have a few additional options. For imports "
+"of new records, users can select an option to \"Skip matched records\". "
+"Additionally, AtoM can attempt to identify top-level matches and then delete"
+" them before importing the new EAD XML as a replacement. For more details, "
+"see below, :ref:`ead-delete-replace`."
+msgstr ""
+"EAD 2002 "
+"XMLインポートを使用する場合、ユーザーはいくつか追加のオプションを利用できます。新しいレコードのインポート時には、「一致したレコードをスキップする」というオプションを選択できます。さらに、AtoMはトップレベルの一致を特定しようとし、新たなEAD"
+" XMLをインポートする前にこれらを削除することができます。詳細については、以下をご覧ください： :ref:`ead-delete-replace`。"
+
+#: ../../user-manual/import-export/import-xml.rst:266
+msgid ""
+"When identifying :term:`archival description` matches among existing "
+"records, AtoM will look for a match on the **title, identifier, and the "
+"associated repository's authorized form of name**. If all of these criteria "
+"are not matched - e.g. if the identifier is different - then the record will"
+" not be considered a match, and depending on other user import settings, the"
+" incoming EAD file will either be skipped, or will be imported as a new "
+"record without deleting the previous record. This conservative approach is "
+"to avoid accidentally deleting near matches in a :term:`multi-repository "
+"system`."
+msgstr ""
+"既存の記録の中から**タイトル、識別子、関連リポジトリの認可された名称**に一致する`:term:`アーカイブ記述`のマッチを識別する際、AtoMはこれらの基準に一致するものを探します。これらの基準が一致しない場合―たとえば、識別子が異なる場合―その記録はマッチとはみなされず、他のユーザーインポート設定によっては、入ってくるEADファイルはスキップされるか、または新しい記録としてインポートされ既存の記録は削除されません。この慎重なアプローチは、`:term:`マルチリポジトリシステム`でほぼマッチするものを誤って削除することを避けるためのものです。"
+
+#: ../../user-manual/import-export/import-xml.rst:275
+msgid ""
+"This means that you cannot use the \"Delete and replace\" method described "
+":ref:`below <ead-delete-replace>` to update the title, identifier, or "
+"related repository of an :term:`archival unit`. If the update file contains "
+"different information for these fields, then AtoM will fail to identify a "
+"match."
+msgstr ""
+"これは、:term:`archival "
+"unit`（アーカイバルユニット）のタイトル、識別子、関連するリポジトリを更新するために、後ほど説明される「削除して置き換える」(:ref:`以下を参照"
+" <ead-delete-replace>`) "
+"方法を使用することはできないという意味です。更新ファイルがこれらのフィールドに異なる情報を含んでいる場合、AtoMは一致する項目を識別できなくなります。"
+
+#: ../../user-manual/import-export/import-xml.rst:284
+msgid "Import new description XML records"
+msgstr "新しい記述XMLレコードをインポート"
+
+#: ../../user-manual/import-export/import-xml.rst:286
+msgid ""
+"You can import EAD 2002 XML, MODS XML, or DC XML via the :term:`user "
+"interface`. To do so, you must be logged in as an :term:`administrator`."
+msgstr ""
+"EAD 2002 XML、MODS XML、またはDC XMLを :term:`ユーザーインターフェース` "
+"を通してインポートすることができます。これを行うには、 :term:`管理者` としてログインしている必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:289
+msgid "**To import description XML records:**"
+msgstr "**説明XMLレコードをインポートするには：**"
+
+#: ../../user-manual/import-export/import-xml.rst:291
+#: ../../user-manual/import-export/import-xml.rst:432
+#: ../../user-manual/import-export/import-xml.rst:698
+#: ../../user-manual/import-export/import-xml.rst:817
+msgid "Click on the import menu menu, then click on XML."
+msgstr "インポートメニューをクリックしてから、XMLをクリックしてください。"
+
+#: ../../user-manual/import-export/import-xml.rst:-1
+msgid "The import menu"
+msgstr "インポートメニュー"
+
+#: ../../user-manual/import-export/import-xml.rst:298
+#: ../../user-manual/import-export/import-xml.rst:439
+#: ../../user-manual/import-export/import-xml.rst:705
+#: ../../user-manual/import-export/import-xml.rst:824
+msgid "AtoM will redirect you to the XML import page:"
+msgstr "AtoMはXMLインポートページにリダイレクトします："
+
+#: ../../user-manual/import-export/import-xml.rst:-1
+msgid "The XML import page in AtoM"
+msgstr "AtoMのXMLインポートページ"
+
+#: ../../user-manual/import-export/import-xml.rst:305
+msgid ""
+"Use the \"Type\" :term:`drop-down menu` to select the XML type you are "
+"importing. For archival descriptions, available types are EAD 2002, MODS, "
+"and DC."
+msgstr ""
+"「タイプ」:term:`ドロップダウンメニュー` "
+"を使用して、インポートするXMLのタイプを選択します。アーカイブ記述のために利用可能なタイプには、EAD 2002、MODS、DCがあります。"
+
+#: ../../user-manual/import-export/import-xml.rst:309
+msgid ""
+"If you are importing EAD 2002 XML, then AtoM contains some additional import"
+" options, described in steps 5-6 below. If you are importing MODS or DC XML,"
+" you can skip ahead to step 7."
+msgstr ""
+"EAD 2002 XMLをインポートする場合、AtoMには以下のステップ5-6で説明する追加のインポートオプションが含まれています。MODSやDC "
+"XMLをインポートする場合は、ステップ7に進んでください。"
+
+#: ../../user-manual/import-export/import-xml.rst:313
+msgid ""
+"For imports of **new** EAD 2002 XML descriptions, make sure that the "
+"\"Update behaviors\" :term:`drop-down menu` is set to \"Ignore matches and "
+"import as new.\""
+msgstr ""
+"新しいEAD 2002 "
+"XML記述のインポートの際には、「アップデートの挙動」:term:`ドロップダウンメニュー`が「一致を無視して新規にインポート」と設定されていることを確認してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:317
+msgid ""
+"AtoM can check for existing records that seem to match the EAD 2002 XML top-"
+"level description you are about to import, and skip these record if desired "
+"- they will be reported in the :ref:`Job details <job-details>` page of the "
+"related import job (see: :ref:`manage-jobs` for more information). To enable"
+" this option and skip matched records, click the checkbox labelled \"Skip "
+"matched records.\""
+msgstr ""
+"AtoMは、インポートしようとしているEAD 2002 "
+"XMLのトップレベル記述に一致する既存のレコードがあるかどうかをチェックし、希望に応じてこれらのレコードをスキップすることができます。スキップされたレコードは、関連するインポートジョブの「ジョブ詳細<job-"
+"details>」ページに報告されます（詳細については、「ジョブの管理<manage-"
+"jobs>」を参照してください）。このオプションを有効にして一致するレコードをスキップするには、「一致するレコードをスキップする」とラベル付けされたチェックボックスをクリックします。"
+
+#: ../../user-manual/import-export/import-xml.rst:324
+#: ../../user-manual/import-export/import-xml.rst:486
+#: ../../user-manual/import-export/import-xml.rst:726
+#: ../../user-manual/import-export/import-xml.rst:864
+msgid ""
+"If you do not want your files indexed during the import, you can click the "
+"checkbox labelled \"Do not index imported items.\" This will prevent the new"
+" records from automatically being added to AtoM's search index."
+msgstr ""
+"インポート中にファイルをインデックス化したくない場合は、「インポートされたアイテムをインデックスに追加しない」とラベル付けされたチェックボックスをクリックしてください。これにより、新しいレコードが自動的にAtoMの検索インデックスに追加されるのを防ぎます。"
+
+#: ../../user-manual/import-export/import-xml.rst:330
+#: ../../user-manual/import-export/import-xml.rst:492
+#: ../../user-manual/import-export/import-xml.rst:732
+#: ../../user-manual/import-export/import-xml.rst:870
+msgid ""
+"If you do not index your records during import, they will not be "
+"discoverable via search or browse in the user interface! You will need to "
+"know the exact URL to reach them. To make them visible in the interface "
+"again, a system administrator will need to rebuild the search index. See: "
+":ref:`maintenance-populate-search-index`."
+msgstr ""
+"インポート時に記録をインデックス化しない場合、ユーザーインターフェースでの検索や閲覧を通じて見つけることはできません！それらにアクセスするためには正確なURLを知っている必要があります。インターフェース上で再度それらを表示させるには、システム管理者が検索インデックスを再構築する必要があります。詳細は：`:ref:`maintenance-"
+"populate-search-index`を参照してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:336
+#: ../../user-manual/import-export/import-xml.rst:498
+#: ../../user-manual/import-export/import-xml.rst:738
+#: ../../user-manual/import-export/import-xml.rst:876
+msgid ""
+"When you have configured your import options, click the \"Browse\" button to"
+" open a window on your local computer. Select the XML file that you would "
+"like to import."
+msgstr ""
+"インポートオプションを設定したら、「Browse」ボタンをクリックしてローカルコンピュータのウィンドウを開きます。インポートしたいXMLファイルを選択してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:-1
+msgid "Clicking the \"Browse\" button in the XML import page"
+msgstr "XMLインポートページで「ブラウズ」ボタンをクリックすると"
+
+#: ../../user-manual/import-export/import-xml.rst:345
+#: ../../user-manual/import-export/import-xml.rst:507
+#: ../../user-manual/import-export/import-xml.rst:747
+#: ../../user-manual/import-export/import-xml.rst:885
+msgid ""
+"When you have selected the file from your device, its name will appear next "
+"to the \"Browse\" button. Click the \"Import\" button located in the "
+":term:`button block` to begin your import."
+msgstr ""
+"デバイスからファイルを選択したら、その名前が「ブラウズ」ボタンの隣に表示されます。インポートを開始するには、`:term:`button "
+"block`にある「インポート」ボタンをクリックします。"
+
+#: ../../user-manual/import-export/import-xml.rst:-1
+msgid "The import button on the XML import page"
+msgstr "XMLインポートページ上のインポートボタン"
+
+#: ../../user-manual/import-export/import-xml.rst:356
+#: ../../user-manual/import-export/import-xml.rst:518
+#: ../../user-manual/import-export/import-xml.rst:758
+#: ../../user-manual/import-export/import-xml.rst:896
+msgid ""
+"Depending on the size of your XML import, this can take some time to "
+"complete. Be patient! Remember, you can always check on the status of an "
+"import by reviewing the :ref:`Job details <job-details>` page of the related"
+" import job - see: :ref:`manage-jobs` for more information."
+msgstr ""
+"XMLインポートのサイズによっては、完了するまでに時間がかかる場合があります。忍耐強くお待ちください！インポートの状態は、関連するインポートジョブの「ジョブ詳細<job-"
+"details>」ページを確認することでいつでもチェックできます - 詳細については、「ジョブの管理<manage-jobs>」を参照してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:361
+#: ../../user-manual/import-export/import-xml.rst:523
+#: ../../user-manual/import-export/import-xml.rst:763
+#: ../../user-manual/import-export/import-xml.rst:901
+msgid ""
+"After your import has begun, AtoM will indicate that the import has been "
+"initiated. A notification at the top of the page will also provide you with "
+"a link to the :ref:`Job details <job-details>` page of the related import "
+"job. Alternatively, you can click the \"Back\" button in the :term:`button "
+"block` at the bottom of the page to return to the XML import page, or "
+"navigate elsewhere in the application."
+msgstr ""
+"インポートが開始されると、AtoMはインポートが開始されたことを示します。ページの上部にある通知には、関連するインポートジョブの「:ref:`ジョブ詳細"
+" <job-"
+"details>`」ページへのリンクも提供されます。または、ページ下部の:term:`ボタンブロック`にある「戻る」ボタンをクリックして、XMLインポートページに戻るか、アプリケーション内の他の場所に移動することができます。"
+
+#: ../../user-manual/import-export/import-xml.rst:-1
+msgid "When an XML import has been initiated in AtoM"
+msgstr "AtoMでXMLインポートが開始されたとき"
+
+#: ../../user-manual/import-export/import-xml.rst:375
+#: ../../user-manual/import-export/import-xml.rst:537
+msgid ""
+"Want to find your recent imports? You can use the :ref:`sort button "
+"<recurring-sort-button>` located in the top-right hand side of the archival "
+"description browse page to change the results display to be ordered by "
+"\"Most recent\" if it is not already - that way, the most recently added or "
+"edited descriptions will appear at the top of the results. If you have come "
+"directly here after importing your descriptions, they should appear at the "
+"top of the results."
+msgstr ""
+"最近のインポートを見つけたいですか？アーカイブ記述のブラウズページの右上にある :ref:`ソートボタン<recurring-sort-button>`"
+" を使用して、結果の表示がまだそうなっていない場合は \"最新の順\" "
+"に変更できます。そうすると、最近追加または編集された記述が結果の一番上に表示されるようになります。記述をインポートした直後にこのページに直接来た場合は、それらが結果の一番上に表示されるはずです。"
+
+#: ../../user-manual/import-export/import-xml.rst
+msgid "The browse page following an XML import"
+msgstr "XMLインポート後の閲覧ページ"
+
+#: ../../user-manual/import-export/import-xml.rst:392
+msgid "Import EAD XML as a replacement for existing records"
+msgstr "既存の記録に代わるEAD XMLをインポートする"
+
+#: ../../user-manual/import-export/import-xml.rst:394
+msgid ""
+"AtoM can attempt to identify existing top-level :term:`archival description`"
+" records that match the incoming EAD 2002 XML import, and then delete those "
+"records before proceeding with the import. This can be a useful way to "
+"replace updated records. For more information on the criteria used to "
+"identify matches, see above: :ref:`ead-description-matching`."
+msgstr ""
+"AtoMは、インポートされるEAD 2002 "
+"XMLと一致する既存のトップレベルの:term:`アーカイブ記述`レコードを識別しようとし、その後、インポートを続行する前にそれらのレコードを削除することができます。これは、更新されたレコードを置換する便利な方法となることがあります。一致するレコードを特定するための基準の詳細については、上記の:ref:`ead-"
+"description-matching`をご覧ください。"
+
+#: ../../user-manual/import-export/import-xml.rst:402
+msgid ""
+"This method is currently only available for EAD 2002 XML imports. It will "
+"not work with MODS or DC XML imports."
+msgstr "この方法は現在、EAD 2002 XMLインポートにのみ利用可能です。MODSやDC XMLインポートでは機能しません。"
+
+#: ../../user-manual/import-export/import-xml.rst:405
+#: ../../user-manual/import-export/import-xml.rst:790
+msgid ""
+"CSV imports have 2 methods of performing update imports. For more "
+"information, see:"
+msgstr "CSVインポートには、更新インポートを行うための2つの方法があります。詳細については、以下を参照してください："
+
+#: ../../user-manual/import-export/import-xml.rst:408
+msgid ":ref:`csv-descriptions-updates`"
+msgstr ""
+"This is a reference tag typically used in documentation to link to a specific section or part of a document. As such, while the tag itself is not translated, the title or the heading of the section it refers to would be. If \"CSV Descriptions Updates\" is the title of the section, a possible Japanese translation might be:\n"
+"\n"
+":ref:`CSV記述の更新` \n"
+"\n"
+"However, the specific translation would depend on the context within the document and how that section has been titled in Japanese."
+
+#: ../../user-manual/import-export/import-xml.rst:410
+msgid ""
+"Note that related :term:`entities <entity>` such as linked authority "
+"records, terms (such as subject, place, and genre access points), repository"
+" records, physical storage locations, etc. **are not deleted during this "
+"process**. The link between them and the deleted archival description(s) is "
+"removed, but the related entities are left intact. If you want these removed"
+" as well, they will need to be manually deleted via the :term:`user "
+"interface`."
+msgstr ""
+"関連する:term:`エンティティ<entity>`（リンクされた権限レコード、用語（例：主題、場所、ジャンルアクセスポイント）、リポジトリレコード、物理的な保管場所など）は、このプロセス中に**削除されません**。削除されたアーカイブ記述とのリンクは削除されますが、関連するエンティティはそのまま残ります。これらも削除したい場合は、:term:`ユーザーインタフェース`を経由して手動で削除する必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:417
+msgid ""
+"Note as well that the links previously established are also **not guaranteed"
+" to be re-established during the replacement import**. Once the matched "
+"description is deleted, AtoM proceeds with the EAD 2002 XML import as a new "
+"record. This means that it will link to existing entities or create new "
+"linked entities based on the same criteria used for all imports - these are "
+"described above: :ref:`xml-description-matching`."
+msgstr ""
+"また、以前に確立されたリンクも、**置換インポートの際に再確立されるとは限らない**ことに注意してください。一致する説明が削除されると、AtoMは新しい記録としてEAD"
+" 2002 "
+"XMLインポートを進めます。これは、既存のエンティティへのリンクや、すべてのインポートに使用される同じ基準に基づいて新しいリンクされたエンティティの作成を行うことを意味しています"
+" - これらの基準は上で述べられています::ref:`xml-description-matching`。"
+
+#: ../../user-manual/import-export/import-xml.rst:426
+#: ../../user-manual/import-export/import-xml.rst:811
+msgid ""
+"When using the \"Delete and replace\" method, we strongly suggest testing "
+"the results in a clone of your AtoM site prior to performing the replacement"
+" import in a production system."
+msgstr ""
+"「削除して置き換え」方法を使用する場合は、本番システムで置き換えインポートを実行する前に、まずAtoMサイトのクローンで結果をテストすることを強くお勧めします。"
+
+#: ../../user-manual/import-export/import-xml.rst:430
+msgid "**To delete matches and import EAD XML replacement records:**"
+msgstr "**一致するデータを削除し、EAD XMLの置換レコードをインポートするには：**"
+
+#: ../../user-manual/import-export/import-xml.rst:446
+msgid "Use the \"Type\" :term:`drop-down menu` to select EAD 2002."
+msgstr "「タイプ」:term:`ドロップダウンメニュー`を使用して、EAD 2002を選択します。"
+
+#: ../../user-manual/import-export/import-xml.rst:448
+#: ../../user-manual/import-export/import-xml.rst:834
+msgid ""
+"Set the \"Update behaviors\" :term:`drop-down menu` to \"Delete matches and "
+"replace with imports.\""
+msgstr "「更新動作」:term:`ドロップダウンメニュー` を「一致するものを削除してインポートで置き換える」に設定します。"
+
+#: ../../user-manual/import-export/import-xml.rst:451
+msgid ""
+"AtoM's default behavior when it cannot find a match during a \"Delete and "
+"replace\" import is to import the XML as new records. However, if you are "
+"**only** importing updates and don't want to accidentally create duplicate "
+"new records when no match is found, you can check the \"Skip unmatched "
+"records\" checkbox. Any unmatched records will not be imported - instead, "
+"skipped records will be reported in the :ref:`Job details <job-details>` "
+"page of the related import job (see: :ref:`manage-jobs` for more "
+"information)."
+msgstr ""
+"AtoMが「削除して置き換え」のインポートで一致するものが見つからない場合のデフォルトの動作は、XMLを新しいレコードとしてインポートすることです。しかし、**更新のみ**をインポートしており、一致するレコードが見つからない場合に誤って新しい重複レコードを作成しないようにしたい場合は、「一致しないレコードをスキップする」チェックボックスを選択できます。一致しないレコードはインポートされず、スキップされたレコードは関連するインポートジョブの「ジョブ詳細」ページ（詳細は「ジョブ管理」を参照）で報告されます。"
+
+#: ../../user-manual/import-export/import-xml.rst:-1
+msgid ""
+"The Match options available on the archival description XML import\n"
+"page when EAD is used and \"Delete and replace\" is selected"
+msgstr "EADを使用し、「削除して置き換える」が選択された際にアーカイブ記述XMLインポートページで利用可能なマッチオプション"
+
+#: ../../user-manual/import-export/import-xml.rst:466
+msgid ""
+"To improve the default matching behavior (described in detail above: "
+":ref:`ead-description-matching`), you can provide further criteria to help "
+"AtoM find the correct match. You can limit the matches to either the "
+":term:`holdings` of a specific :term:`repository`, or if you are updating a "
+"single :term:`archival unit`, you can limit matches to a specific top-level "
+"description. To prevent contradictory options, these limiters are mutually "
+"exclusive - you cannot pick a repository AND a top-level description."
+msgstr ""
+"デフォルトのマッチング動作を改善するため（上記で詳細に説明されています：:ref:`ead-description-"
+"matching`）、AtoMが正しい一致を見つけるのを助けるために、さらに基準を提供することができます。マッチするものを特定の:term:`リポジトリ`の:term:`所蔵品`に限定するか、あるいは単一の:term:`アーカイバル単位`を更新している場合は、特定のトップレベルの記述にマッチするよう限定することができます。矛盾するオプションを防ぐため、これらの制限は相互に排他的です"
+" - リポジトリとトップレベルの記述の両方を選ぶことはできません。"
+
+#: ../../user-manual/import-export/import-xml.rst:474
+msgid ""
+"To limit your matches to the holdings of a specifc :term:`archival "
+"institution`, use the :term:`drop-down menu` to select the name of the "
+"related institution"
+msgstr ""
+"特定の:term:`アーカイブ機関`の所蔵品に一致を限定するには、関連する機関の名前を選択するために:term:`ドロップダウンメニュー`を使用します。"
+
+#: ../../user-manual/import-export/import-xml.rst:478
+msgid ""
+"To limit your matches to a specific top-level description, place your cursor"
+" in the \"Top-level description\" field and begin to slowly type the name of"
+" the top-level description. This :term:`field` is an autcomplete menu - as "
+"you begin to type, AtoM will display matching records in the :term:`drop-"
+"down menu` that will appear below. When you see the top-level description "
+"you want to use as a match limit, click on it in the drop-down menu to "
+"select it."
+msgstr ""
+"特定のトップレベル記述にマッチするものに限定するには、\"トップレベル記述\"フィールドにカーソルを置き、ゆっくりとトップレベル記述の名前を打ち始めてください。この`:term:`フィールド`はオートコンプリートメニューです。タイプを始めると、AtoMは直下に表示される`:term:`ドロップダウンメニュー`で一致する記録を表示します。マッチする限りに使用したいトップレベル記述を見つけたら、ドロップダウンメニュー内でそれをクリックして選択してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:550
+#: ../../user-manual/import-export/import-xml.rst:775
+#: ../../user-manual/import-export/import-xml.rst:913
+msgid ":ref:`Back to top <import-xml>`"
+msgstr ":ref:`トップに戻る <import-xml>`"
+
+#: ../../user-manual/import-export/import-xml.rst:555
+msgid "Importing authority record XML files"
+msgstr "権威レコードXMLファイルのインポート"
+
+#: ../../user-manual/import-export/import-xml.rst:557
+msgid ""
+"AtoM supports the import of EAC-CPF XML as a means of creating "
+":term:`authority record` data. As with most XML standards, EAC-CPF is a "
+"flexible standard with many different but valid implementations possible - "
+"not all of which will be supported by AtoM's import module. For this reason,"
+" we strongly recommend that you review the available :term:`fields <field>` "
+"in the AtoM authority record edit template, which is based on the "
+"International Council on Archive's ISAAR-CPF standard. See:"
+msgstr ""
+"AtoMはEAC-CPF "
+"XMLのインポートをサポートしており、これは`:term:`権威レコード`のデータを作成する手段としています。ほとんどのXML標準同様、EAC-"
+"CPFは柔軟な標準であり、多くの異なるが有効な実装が可能ですが、それら全てがAtoMのインポートモジュールによってサポートされているわけではありません。このため、国際アーカイブズ評議会のISAAR-"
+"CPF標準に基づいたAtoM権威レコード編集テンプレートにある利用可能な`:term:`フィールド "
+"<field>`を確認することを強くお勧めします。参照："
+
+#: ../../user-manual/import-export/import-xml.rst:565
+msgid ":ref:`authority-records`"
+msgstr ":ref:`権限記録`"
+
+#: ../../user-manual/import-export/import-xml.rst:566
+msgid ":ref:`ISAAR-CPF template <isaar-template>`"
+msgstr ":ref:`ISAAR-CPF テンプレート <isaar-template>`"
+
+#: ../../user-manual/import-export/import-xml.rst:568
+msgid ""
+"AtoM can also attempt to identify existing authority records that match the "
+"import record, and then delete them before importing the EAC-CPF XML as a "
+"new record. Further details on this can be found in the section below, "
+":ref:`delete-replace-actor-xml`. On new EAC-CPF imports, AtoM can also "
+"search for existing matches and skip the import if a match is found - this "
+"can be useful as a sanity check prior to import to ensure you are not "
+"accidentally creating duplicate records.  In both cases, skipped records are"
+" reported in the :ref:`Job details <job-details>` page of the related import"
+" job (see: :ref:`manage-jobs` for more information)."
+msgstr ""
+"AtoMは、インポートレコードに一致する既存の権威レコードを識別しようとすることもでき、新しいレコードとしてEAC-CPF "
+"XMLをインポートする前にそれらを削除することもできます。これに関する詳細は、以下の節「:ref:`delete-replace-actor-"
+"xml`」に記載されています。新しいEAC-"
+"CPFインポートでは、AtoMは既存の一致を検索し、一致が見つかった場合はインポートをスキップすることもできます。これは、重複したレコードを誤って作成することがないよう、インポート前に実施する健全性チェックとして役立ちます。どちらの場合も、スキップされたレコードは関連するインポートジョブの「:ref:`ジョブ詳細"
+" <job-details>`」ページで報告されます（詳しくは「:ref:`manage-jobs`」をご覧ください）。"
+
+#: ../../user-manual/import-export/import-xml.rst:580
+msgid ""
+"XML data can contain other related :term:`entities <entity>` - for example, "
+"an EAC-CPF XML :term:`authority record` may contain references to other "
+"related authority records, or linked :term:`archival description` records. "
+"The import might also contain :term:`access point` data such as an Actor "
+"Occupation access point. In most cases, on import AtoM will attempt to match"
+" these other entities to existing records (criteria for this will be "
+"explained in greater detail :ref:`below <actor-xml-matching>`) and link "
+"them. Where it does not find a match, AtoM will create new related entities."
+msgstr ""
+"XMLデータには、他の関連する:term:`エンティティ<entity>`が含まれていることがあります。例えば、EAC-CPF XML "
+":term:`権威レコード`には、他の関連する権威レコードやリンクされた:term:`アーカイブ記述`レコードへの参照が含まれていることがあります。インポートには、アクターの職業アクセスポイントなどの:term:`アクセスポイント`データも含まれている場合があります。ほとんどの場合、インポート時にAtoMはこれらの他のエンティティを既存のレコードと照合し（この基準については:ref:`以下<actor-"
+"xml-matching>`でより詳しく説明します）、リンクします。一致するものが見つからない場合、AtoMは新しい関連エンティティを作成します。"
+
+#: ../../user-manual/import-export/import-xml.rst:589
+msgid ""
+"For links to related archival descriptions, AtoM **does not have the ability"
+" to look for existing matches**, and will therefore create new stub archival"
+" description records on import if there is information about related "
+"descriptions in your import EAC-CPF XML."
+msgstr ""
+"関連するアーカイブ記述へのリンクについて、AtoMは**既存の一致を探す機能がありません**ので、インポート時にEAC-CPF "
+"XMLに関連記述についての情報がある場合、新しいスタブ・アーカイブ記述レコードを作成します。"
+
+#: ../../user-manual/import-export/import-xml.rst:594
+msgid ""
+"This means that your XML description import could end up linking to existing"
+" terms, repositories, and authority records, **and/or** creating new records"
+" for various entity types on import!"
+msgstr ""
+"これは、XML記述のインポートによって、既存の用語、リポジトリ、権威レコードへのリンクが行われる可能性があるとともに、インポート時にさまざまなエンティティタイプの新しいレコードを作成することもあるという意味です！"
+
+#: ../../user-manual/import-export/import-xml.rst:598
+msgid ""
+"Please review the matching criteria :ref:`below <actor-xml-matching>` "
+"closely prior to import, and be sure to review the results of your import "
+"carefully after it is complete. We strongly recommend performing a test "
+"import into a separate test instance of AtoM prior to importing directly "
+"into your production AtoM site. We also suggest removing any references to "
+"related archival descriptions from the EAC-CPF prior to import. If you want "
+"to import and link authority records and descriptions, import the authority "
+"records first, and then the archival descriptions - you can see the linking "
+"criteria from archival descriptions to authority records in the section on "
+"archival description imports above: :ref:`ead-actors-import`."
+msgstr ""
+"インポートの前に、マッチング基準を参照する `下記 <actor-xml-matching>` "
+"を入念に確認してください。また、インポートが完了した後、その結果を注意深く確認することをお勧めします。AtoMの本番サイトへ直接インポートする前に、別のテストインスタンスにてテストインポートを行うことを強く推奨します。EAC-"
+"CPFから関連アーカイブ記述への参照をインポート前に削除することも提案します。権威レコードと記述をインポートしてリンクさせたい場合は、まず権威レコードをインポートし、その後でアーカイブ記述をインポートしてください"
+" - アーカイブ記述から権威レコードへのリンク基準については、上記のアーカイブ記述インポートに関するセクション :ref:`ead-actors-"
+"import` をご覧ください。"
+
+#: ../../user-manual/import-export/import-xml.rst:609
+msgid ""
+"Below you'll find information on the matching criteria for authority record "
+"imports, how to import new authority record data, and how to identify and "
+"delete an existing authority record to replace it with an EAC CPF XML "
+"import."
+msgstr ""
+"以下では、権限レコードのインポートにおけるマッチング基準、新しい権限レコードデータのインポート方法についての情報、および既存の権限レコードを識別して削除し、EAC"
+" CPF XMLインポートに置き換える方法について説明します。"
+
+#: ../../user-manual/import-export/import-xml.rst:615
+msgid ":ref:`actor-xml-matching`"
+msgstr ""
+"このテキストは、具体的な内容を含む文章ではなく、おそらくドキュメント内の参照タグです。通常、これはドキュメント内の特定のセクションや図表などにリンクする際に使用される書式です。そのため、直訳することはできませんが、もし参照している内容が「Actor XML Matching」というタイトルのセクションだと仮定すると、そのセクションのタイトルを日本語に翻訳することはできます。その場合、日本語では以下のようになるかもしれません：\n"
+"\n"
+":ref:`アクターXMLマッチング`\n"
+"\n"
+"ただし、「actor」と「XML matching」が何を指すのかによって、適切な翻訳は変わる可能性があるため、コンテキストを確認する必要があります。もし具体的な説明が必要であれば、ドキュメントの詳細な内容に基づいて適切な訳語を選んでください。"
+
+#: ../../user-manual/import-export/import-xml.rst:616
+msgid ":ref:`import-actor-xml-ui`"
+msgstr ""
+"`:ref:`import-actor-xml-ui` ` という文は、おそらく文書内の特定のセクションへの参照を示しています。これは、マークアップ言語（例えばreStructuredText）において使用される記法です。\n"
+"\n"
+"日本語に翻訳するためには、セクションのタイトルを知る必要があります。しかし、与えられた文脈だけではセクションのタイトルが何であるかはわからないため、正確な翻訳は提供できません。\n"
+"\n"
+"もし仮にセクションのタイトルが「Import Actor XML via User Interface」であったとすると、以下のような翻訳となるでしょう：\n"
+"\n"
+"`:ref:`インポート・アクターXML（ユーザーインターフェース経由）``\n"
+"\n"
+"但し、この翻訳はセクションの仮想的なタイトルに基づいており、実際のドキュメントにおいてこのテキストが何を参照しているのかを特定するためには、文書の完全な文脈を確認する必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:617
+msgid ":ref:`delete-replace-actor-xml`"
+msgstr ""
+"「:ref:`delete-replace-actor-xml`」は参照用のテキストです。特定のコンテキストでの使用方法に従って、それに対応する日本語のドキュメントのタイトルやセクション名に翻訳する必要があります。もし該当するドキュメントのセクション名が「アクターXMLの削除と置換」であれば、以下のように翻訳することができます。\n"
+"\n"
+":ref:`アクターXMLの削除と置換`"
+
+#: ../../user-manual/import-export/import-xml.rst:621
+msgid "Authority records can also be imported and updated as CSV data - see:"
+msgstr "権限記録もCSVデータとしてインポートおよび更新することができます - 詳しくは以下をご覧ください："
+
+#: ../../user-manual/import-export/import-xml.rst:623
+msgid ":ref:`csv-import-authority-records`"
+msgstr ":ref:`csv-import-authority-records`（CSVインポート権限記録）"
+
+#: ../../user-manual/import-export/import-xml.rst:624
+msgid ":ref:`csv-import-authority-records-gui`"
+msgstr ""
+":ref:`csv-import-authority-records-gui` は独特のリンク参照であり、原文のまま使用されることが普通ですが、ドキュメント全体の流れに合わせるために、次のように日本語に訳すことができます。\n"
+"\n"
+":ref:`csv-import-authority-records-gui（CSVを使った権限レコードのインポート-グラフィカルユーザーインターフェース）`\n"
+"\n"
+"この参照は、実際のドキュメント内の特定のセクションや機能を指しているため、ドキュメントの該当部分の正確なタイトルまたはラベルに翻訳が一致していることを確認することが重要です。それは、参照が機能するためには、原文と同じアンカーが翻訳されたドキュメントにも設定されている必要があるからです。また、技術的な文脈では、リファレンスを原文のまま残すことも多いです。"
+
+#: ../../user-manual/import-export/import-xml.rst:625
+#: ../../user-manual/import-export/import-xml.rst:793
+msgid ":ref:`csv-update-actors`"
+msgstr ":ref:`csv-俳優情報の更新`"
+
+#: ../../user-manual/import-export/import-xml.rst:627
+msgid ""
+"You can also import EAC-CPF XML data in bulk via the command-line. For more "
+"information, see in the Administrator's manual:"
+msgstr ""
+"コマンドラインを介して、EAC-CPF XMLデータを一括でインポートすることもできます。詳細については、管理者マニュアルを参照してください："
+
+#: ../../user-manual/import-export/import-xml.rst:630
+msgid ":ref:`cli-bulk-import-xml`"
+msgstr ""
+"`:ref:`cli-bulk-import-xml` の部分は、特定の形式の命令や参照を含むマークアップ言語の一部です。これは、文書の中の特定のセクションを参照しています。通常、これは技術文書やガイド内の特定の参照ラベルを指していますが、このままでは何を指しているのか具体的にはわかりません。翻訳には文脈が必要です。\n"
+"\n"
+"しかし、日本語の文書に置き換えるためには、通常のテキストとして以下のように訳すことができます：\n"
+"\n"
+"`「CLIでの一括インポートXML」の節を参照`\n"
+"\n"
+"ただし、これは単にテキストを訳したものであり、実際には原文書内で適切に機能するために適切なリンクや参照ラベルに置換する必要があることに注意してください。該当する文書システムで正確な参照を作成するためには、元の文書の構造と使用されているマークアップ言語に精通している必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:636
+msgid "Matching criteria for EAC-CPF XML imports"
+msgstr "EAC-CPF XMLインポートのための照合基準"
+
+#: ../../user-manual/import-export/import-xml.rst:638
+msgid ""
+"AtoM can attempt to identify existing authority records that match the "
+"import record, and then delete them before importing the EAC-CPF XML as a "
+"new record. Further details on using this can be found in the section below,"
+" :ref:`delete-replace-actor-xml`. On new EAC-CPF imports, AtoM can also "
+"search for existing matches and skip the import if a match is found - this "
+"can be useful as a sanity check prior to import to ensure you are not "
+"accidentally creating duplicate records.  In both cases, skipped records are"
+" reported in the :ref:`Job details <job-details>` page of the related import"
+" job (see: :ref:`manage-jobs` for more information)."
+msgstr ""
+"AtoMは既存の権威記録がインポート記録と一致するかどうかを試みて、それからEAC-CPF "
+"XMLを新しい記録としてインポートする前に、それらを削除することができます。これを使用する上でのさらなる詳細は以下のセクション、:ref:`delete-"
+"replace-actor-xml`に記載されています。新しいEAC-"
+"CPFのインポートにおいて、AtoMは既存のマッチを検索し、一致が見つかった場合はインポートをスキップすることもできます - "
+"これは、偶然に重複した記録を作成してしまわないように、インポートする前に正気を保つためのチェックとして役立ちます。両場合において、スキップされた記録は関連するインポートジョブの:ref:`ジョブの詳細"
+" <job-details>`ページに報告されます（より多くの情報については:ref:`manage-jobs`を参照してください）。"
+
+#: ../../user-manual/import-export/import-xml.rst:648
+msgid ""
+"To identify matching authority records, AtoM uses compares the **authorized "
+"form of name** of the existing authority records against the import data. "
+"This means that the \"Delete and replace\" method will fail to identify a "
+"match if you are attempting to use it to update the authorized form of name "
+"of an authority record."
+msgstr ""
+"権威レコードの一致する記録を識別するために、AtoMは既存の権威レコードの**権限ある名前の形式**をインポートデータと比較して使用します。これは、「削除して置き換える」方法が、権威レコードの権限ある名前の形式を更新しようと試みている場合は一致するレコードを識別できないということを意味しています。"
+
+#: ../../user-manual/import-export/import-xml.rst:654
+msgid ""
+"You can also add an additional criteria to improve the likelihood of finding"
+" the correct match. If you have linked your :term:`authority record` to a "
+":term:`repository` as its maintainer, then you can set this as a limiting "
+"option on the match. In this case, AtoM will check for a match on the "
+"authorized form of name of existing authority records, and then will also "
+"check to see if any matches are also linked to the selected repository. For "
+"more information on linking an authority record to an :term:`archival "
+"institution` (a.k.a. a repository), see:"
+msgstr ""
+"追加の条件を設定して、正しい一致を見つける可能性を向上させることもできます。用語「権威レコード」を、その保守者として用語「リポジトリ」にリンクしている場合、一致に制限オプションを設定できます。この場合、AtoMは既存の権威レコードの承認された名前の形式に一致するかどうかをチェックし、次に選択されたリポジトリにリンクされている任意の一致が存在するかどうかも確認します。権威レコードを用語「アーカイブ施設」（リポジトリとも呼ばれます）にリンクする方法の詳細については、次を参照してください："
+
+#: ../../user-manual/import-export/import-xml.rst:663
+msgid ":ref:`link-repo-actor`"
+msgstr ":ref:`リンク-リポジトリ-アクター`"
+
+#: ../../user-manual/import-export/import-xml.rst:665
+msgid ""
+"If there are other related :term:`entities <entity>` in the incoming EAC-CPF"
+" XML (such as Occupation :term:`access point` terms), then AtoM will look "
+"for existing terms based on the authorized form of name - if none are found,"
+" AtoM will create new records for these related entities."
+msgstr ""
+"入ってくるEAC-CPF "
+"XMLに他の関連する:term:`エンティティ<entity>`が含まれている場合（例えば職業:term:`アクセスポイント`用語など）、AtoMは認証済みの名称の形式に基づいて既存の用語を検索します"
+" - 見つからない場合、AtoMはこれらの関連エンティティについて新しいレコードを作成します。"
+
+#: ../../user-manual/import-export/import-xml.rst:672
+msgid ""
+"Currently AtoM **does not** check for existing matches on related "
+":term:`archival descriptions <archival description>`. If your EAC-CPF XML "
+"includes information on related descriptions, AtoM will end up creating stub"
+" archival description records based on the data in the EAC-CPF record, even "
+"if there is an exact match on title among your existing descriptions!"
+msgstr ""
+"現在、AtoMは関連する:term:`archival descriptions <archival "
+"description>`に対して既存の一致を**チェックしません**。もしあなたのEAC-CPF "
+"XMLが関連する記述に関する情報を含んでいる場合、AtoMは既存の記述の中に正確なタイトルが一致しているものがあっても、EAC-"
+"CPFレコードのデータに基づいてスタブのアーカイバル記述レコードを作成してしまいます。"
+
+#: ../../user-manual/import-export/import-xml.rst:678
+msgid ""
+"We strongly recommend performing a test import into a separate test instance"
+" of AtoM prior to importing directly into your production AtoM site. We also"
+" suggest removing any references to related archival descriptions from the "
+"EAC-CPF prior to import. If you want to import and link authority records "
+"and descriptions, import the authority records first, and then the archival "
+"descriptions - you can see the linking criteria from archival descriptions "
+"to authority records in the section on archival description imports above: "
+":ref:`ead-actors-import`."
+msgstr ""
+"私たちは、本番用AtoMサイトへの直接インポート前に、AtoMの別のテストインスタンスへのテストインポートを強くお勧めします。また、インポート前にEAC-"
+"CPFから関連するアーカイブ記述への参照を削除することを提案します。権威レコードと記述をインポートしてリンクしたい場合は、まず権威レコードをインポートし、次にアーカイブ記述をインポートしてください"
+" - アーカイブ記述から権威レコードへのリンク基準については、上記のアーカイブ記述インポートのセクションにあります： :ref:`ead-actors-"
+"import`。"
+
+#: ../../user-manual/import-export/import-xml.rst:691
+msgid "Importing new authority record XML files"
+msgstr "新しい権威レコードXMLファイルのインポート"
+
+#: ../../user-manual/import-export/import-xml.rst:693
+msgid ""
+"You can import EAC-CPF XML via the :term:`user interface`. To do so, you "
+"must be logged in as an :term:`administrator`."
+msgstr ""
+"EAC-CPF "
+"XMLは、:term:`ユーザーインターフェース`を通じてインポートすることができます。これを行うには、:term:`管理者`としてログインしている必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:696
+msgid "**To import authority record XML records:**"
+msgstr "**権威レコードXMLレコードをインポートするには：**"
+
+#: ../../user-manual/import-export/import-xml.rst:712
+#: ../../user-manual/import-export/import-xml.rst:831
+msgid ""
+"Use the \"Type\" :term:`drop-down menu` to select the XML type you are "
+"importing. For authority records, select \"EAC CPF\" from the menu."
+msgstr ""
+"\"Type\" :term:`ドロップダウンメニュー`を使用して、インポートするXMLのタイプを選択してください。権限記録には、メニューから「EAC "
+"CPF」を選択してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:715
+msgid ""
+"For imports of **new** EAC-CPF XML data, make sure that the \"Update "
+"behaviors\" :term:`drop-down menu` is set to \"Ignore matches and import as "
+"new.\""
+msgstr ""
+"新しいEAC-CPF XMLデータのインポートについては、「更新動作」:term:`ドロップダウンメニュー` "
+"が「一致を無視して新規としてインポート」に設定されていることを確認してください。"
+
+#: ../../user-manual/import-export/import-xml.rst:719
+msgid ""
+"AtoM can check for existing records that seem to match the EAC-CPF XML "
+"authority record you are about to import, and skip the import if a match is "
+"found - it will be reported in the :ref:`Job details <job-details>` page of "
+"the related import job (see: :ref:`manage-jobs` for more information). To "
+"enable this option and skip matched records, click the checkbox labelled "
+"\"Skip matched records.\""
+msgstr ""
+"AtoMは、インポートしようとしているEAC-CPF "
+"XML権威レコードと一致する既存のレコードがあるかどうかをチェックし、一致するレコードが見つかった場合にはインポートをスキップします。この情報は関連するインポートジョブの「ジョブ詳細（job-"
+"details）」ページに報告されます（詳細は「ジョブの管理（manage-"
+"jobs）」を参照してください）。一致するレコードをスキップするためにこのオプションを有効にするには、「一致するレコードをスキップする」のチェックボックスをクリックします。"
+
+#: ../../user-manual/import-export/import-xml.rst:780
+msgid "Import EAC-CPF XML as a replacement for an existing authority record"
+msgstr "既存の権威レコードの代わりにEAC-CPF XMLをインポートする"
+
+#: ../../user-manual/import-export/import-xml.rst:782
+msgid ""
+"AtoM can attempt to identify existing authority records that match the "
+"incoming EAC-CPF XML import, and then delete the existing matched record "
+"before proceeding with the import. This can be a useful way to replace "
+"updated records. For more information on the criteria used to identify "
+"matches, see above: :ref:`actor-xml-matching`."
+msgstr ""
+"AtoMは、入力されるEAC-CPF "
+"XMLインポートに一致する既存の権威レコードを特定しようと試みた後、インポートを続行する前に一致した既存レコードを削除することができます。これは更新されたレコードを置き換える便利な方法となり得ます。一致を識別するために使用される基準に関する詳細情報については、上記の「アクターXMLマッチング」を参照してください:"
+" :ref:`actor-xml-matching`。"
+
+#: ../../user-manual/import-export/import-xml.rst:795
+msgid ""
+"Note that related :term:`entities <entity>` such as linked authority "
+"records, terms (such as subject, place, and genre access points), repository"
+" records, or archival descriptions, etc. **are not deleted during this "
+"process**. The link between them and the deleted authority record is "
+"removed, but the related entities are left intact. If you want these removed"
+" as well, they will need to be manually deleted via the :term:`user "
+"interface`."
+msgstr ""
+"関連する:term:`実体 "
+"<entity>`について注意してください。連携する権威レコード、用語（主題、場所、ジャンルなどのアクセスポイント）、リポジトリレコード、アーカイブ記述などがありますが、これらは**このプロセス中に削除されません**。削除された権威レコードとのリンクは解除されますが、関連する実体はそのまま残されます。これらも削除したい場合には、:term:`ユーザーインターフェース`を介して手動で削除する必要があります。"
+
+#: ../../user-manual/import-export/import-xml.rst:802
+msgid ""
+"Note as well that the links previously established are also **not guaranteed"
+" to be re-established during the replacement import**. Once the matched "
+"authority record is deleted, AtoM proceeds with the EAC-CPF XML import as a "
+"new record. This means that it will link to existing entities or create new "
+"linked entities based on the same criteria used for all imports - these are "
+"described above: :ref:`actor-xml-matching`."
+msgstr ""
+"また、以前に確立されたリンクも、**置換インポート中の再確立は保証されません**ことに注意してください。一致する権威レコードが削除されると、AtoMはEAC-"
+"CPF "
+"XMLインポートを新しいレコードとして進めます。これは、既存のエンティティにリンクするか、あるいはすべてのインポートに使用される同じ基準に基づいて新しいリンクされたエンティティを作成することを意味します"
+" - これらの基準は上記で説明されています： :ref:`actor-xml-matching`。"
+
+#: ../../user-manual/import-export/import-xml.rst:815
+msgid "**To delete matches and import EAC-CPF XML replacement records:**"
+msgstr "**一致するレコードを削除し、EAC-CPF XMLの置換レコードをインポートするには：**"
+
+#: ../../user-manual/import-export/import-xml.rst:837
+msgid ""
+"AtoM's default behavior when it cannot find a match during a \"Delete and "
+"replace\" import is to import the EAC-CPF XML as a new record. However, if "
+"you are **only** importing updates and don't want to accidentally create a "
+"duplicate new record when no match is found, you can check the \"Skip "
+"unmatched records\" checkbox. Any unmatched records will not be imported - "
+"instead, skipped records will be reported in the :ref:`Job details <job-"
+"details>` page of the related import job (see: :ref:`manage-jobs` for more "
+"information)."
+msgstr ""
+"AtoMが「削除して置き換え」インポート中に一致するデータが見つからない場合のデフォルトの挙動は、EAC-CPF "
+"XMLを新しいレコードとしてインポートすることです。ただし、更新のみをインポートし、一致するデータが見つからなかった場合に誤って重複した新規レコードを作成しないようにしたい場合は、「一致しないレコードをスキップする」チェックボックスをオンにすることができます。一致しないレコードはインポートされず、代わりにスキップされたレコードは関連するインポートジョブの「ジョブ詳細」ページで報告されます（詳細については、「ジョブの管理」を参照してください）。"
+
+#: ../../user-manual/import-export/import-xml.rst:-1
+msgid ""
+"The Match options available on the authority record XML import\n"
+"page when EAC CPF is used and \"Delete and replace\" is selected"
+msgstr "権限レコードXMLインポートページ上でEAC CPFが使用されており、「削除して置き換え」が選択された場合に利用可能なマッチングオプション"
+
+#: ../../user-manual/import-export/import-xml.rst:852
+msgid ""
+"To improve the default matching behavior (described in detail above: "
+":ref:`actor-xml-matching`), you can provide further criteria to help AtoM "
+"find the correct match. You can limit the authority record matches to only "
+"those which have been linked to a specifc :term:`archival institution` as "
+"the maintainer - records that have no link to a repository, or to a "
+"different :term:`repository`, will be ignored. For more information on "
+"linking an authority record to a repository, see: :ref:`link-repo-actor`."
+msgstr ""
+"デフォルトのマッチング動作を改善するために（上記で詳述： :ref:`actor-xml-"
+"matching`）、AtoMが正しいマッチを見つけるのを助けるために、さらなる基準を提供できます。維持者として特定の:term:`アーカイブ機関`にのみリンクされている権威レコードにマッチさせることで、リポジトリにリンクしていないレコードや異なる:term:`リポジトリ`にリンクしているレコードは無視されます。権威レコードをリポジトリにリンクする方法の詳細については、こちらをご覧ください:"
+" :ref:`link-repo-actor`。"
+
+#: ../../user-manual/import-export/import-xml.rst:860
+msgid ""
+"To limit your matches to authority records maintained by a specifc "
+":term:`archival institution`, use the :term:`drop-down menu` to select the "
+"name of the related institution."
+msgstr ""
+"特定の:term:`アーカイブ機関`によって維持されている権限記録にマッチを制限するためには、関連する機関の名前を選択するために:term:`ドロップダウンメニュー`を使用してください。"

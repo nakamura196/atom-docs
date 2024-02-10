@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/customization/watermarking.rst:5
+msgid "Watermarking"
+msgstr "ウォーターマーキング"
+
+#: ../../admin-manual/customization/watermarking.rst:9
+msgid ""
+"A digital watermark is generally understood as a kind of marker embedded in "
+"a digital object (such as an image, text, video, or audio file), typically "
+"used to indicate ownership and/or to prevent unauthorized use. For images, "
+"the watermark is often a text layer or image identifying the owner of the "
+"digital object."
+msgstr ""
+"デジタルウォーターマークは、一般的にデジタルオブジェクト（画像、テキスト、ビデオ、オーディオファイルなど）に埋め込まれた種類のマーカーとして理解されており、通常、所有権を示すためや無許可使用を防止するために使用されます。画像の場合、ウォーターマークはデジタルオブジェクトの所有者を識別するテキストレイヤーや画像がよく使用されます。"
+
+#: ../../admin-manual/customization/watermarking.rst:14
+msgid ""
+"AtoM supports basic digital watermarking functionality for images and text "
+"files such as PDFs, since the preview image (aka the :term:`reference "
+"display copy`) for a text file is a JPG image. The watermark **does not "
+"alter or affect** the :term:`master digital object`. Similarly, thumbnail "
+"images, used in search and browse results, are also unaffected. Only the "
+":term:`reference display copy`, used on the :term:`view page` of an "
+":term:`archival description`, will show the watermark."
+msgstr ""
+"AtoMは画像やPDFなどのテキストファイルに対する基本的なデジタルウォーターマーク機能をサポートしており、テキストファイルのプレビュー画像（いわゆる「参照表示コピー」）はJPGイメージです。ウォーターマークは「マスターデジタルオブジェクト」に**変更や影響を与えません**。同様に、検索結果や閲覧結果に使用されるサムネイル画像も影響を受けません。ウォーターマークが表示されるのは、「アーカイブ記述」の「閲覧ページ」で使用される「参照表示コピー」のみです。"
+
+#: ../../admin-manual/customization/watermarking.rst:24
+#: ../../admin-manual/customization/watermarking.rst:69
+msgid ":ref:`upload-digital-object`"
+msgstr ":ref:`デジタルオブジェクトのアップロード`"
+
+#: ../../admin-manual/customization/watermarking.rst:25
+msgid ":ref:`rights-digital-object`"
+msgstr ":ref:`rights-digital-object`（デジタルオブジェクトの権利）"
+
+#: ../../admin-manual/customization/watermarking.rst:26
+msgid ":ref:`copyright-pop-up`"
+msgstr ""
+"`:ref:`copyright-pop-up`` というマークアップテキストは、特定のドキュメントやガイド内の参照リンクを示していますが、これは原文のコンテキストに依存するため、そのまま日本語に直訳することはできません。\n"
+"\n"
+"ただし、ドキュメントの翻訳においては、このような参照リンクを保持することが重要です。もし具体的なタイトルやセクション名が与えられている場合は、それを日本語に翻訳してリンクを更新する必要があります。例えば、「copyright-pop-up」が「著作権ポップアップ」というセクションを指す場合、以下のように翻訳するかもしれません：\n"
+"\n"
+"``著作権ポップアップのセクションを参照してください。``\n"
+"\n"
+"しかし、これは仮の翻訳であり、実際の文脈に応じて適切なセクション名に置き換える必要があります。また、ドキュメントの翻訳作業を行う際は、原文のマークアップやフォーマットを適切に保持し、リンクが正しく機能するように注意することが重要です。"
+
+#: ../../admin-manual/customization/watermarking.rst:28
+msgid ""
+"AtoM's default behavior is to composite (a.k.a. \"tile\") new reference "
+"images with the watermark file. For best results, we recommend using a "
+"format for your watermark that supports alpha compositing, such as a PNG "
+"image file. The watermark will work best if the background is transparent or"
+" white - AtoM will render images used as a watermark transparent, so they "
+"need not be transparent to begin with."
+msgstr ""
+"AtoMのデフォルトの動作は、ウォーターマークファイルを組み合わせて（別名「タイル化」）、新しい参照画像を作成することです。最適な結果を得るために、アルファ合成がサポートされているフォーマット（例えばPNG画像ファイル）をウォーターマーク用に使用することを推奨します。ウォーターマークは背景が透明もしくは白い場合に最も効果的です"
+" - AtoMはウォーターマークとして使用される画像を透明に表示するので、初めから透明である必要はありません。"
+
+#: ../../admin-manual/customization/watermarking.rst:37
+msgid ""
+"You must have Imagemagick properly installed and configured for digital "
+"watermarking to work in AtoM. For more information, see:"
+msgstr ""
+"デジタルウォーターマーキングがAtoMで機能するためには、Imagemagickが適切にインストール及び設定されている必要があります。詳細については、以下をご覧ください："
+
+#: ../../admin-manual/customization/watermarking.rst:40
+msgid ":ref:`Requirements: other dependencies <other-dependencies>`"
+msgstr ":ref:`要求事項: その他の依存関係 <other-dependencies>`"
+
+#: ../../admin-manual/customization/watermarking.rst:41
+msgid ""
+":ref:`Installation: other packages <installation-ubuntu-dependencies-other-"
+"packages>`"
+msgstr ""
+":ref:`インストール: その他のパッケージ <installation-ubuntu-dependencies-other-packages>`"
+
+#: ../../admin-manual/customization/watermarking.rst:47
+msgid "Applying a watermark in AtoM"
+msgstr "AtoMでのウォーターマークの適用"
+
+#: ../../admin-manual/customization/watermarking.rst:49
+msgid ""
+"First you will need to choose your watermark. You can use an institution "
+"logo, or create a simple text-based image. There are also many tutorials "
+"available online on how to create watermark images using open source tools "
+"such as `GIMP <https://www.gimp.org/>`__. Choose something that won't be too"
+" visually busy, so the underlying photo can still be seen clearly. Try to "
+"ensure the image background is white or transparent for best results. You "
+"also need to use an image format that supports alpha compositing - we "
+"recommend using images in a PNG format for best results."
+msgstr ""
+"まず、ウォーターマークを選ぶ必要があります。機関のロゴを使用することも、シンプルなテキストベースのイメージを作成することもできます。また、`GIMP "
+"<https://www.gimp.org/>`__ "
+"のようなオープンソースツールを使用してウォーターマーク画像を作成する方法に関する多くのチュートリアルがオンラインで利用可能です。下地となる写真がはっきりと見えるように、視覚的に忙しくないものを選んでください。画像の背景は白または透明であると最も良い結果が得られます。また、アルファコンポジットをサポートする画像形式を使用する必要があります"
+" - 最良の結果を得るためにPNG形式の画像の使用を推奨します。"
+
+#: ../../admin-manual/customization/watermarking.rst:58
+msgid ""
+"Additionally, because AtoM will tile the watermark until the entire "
+"reference image is covered, we recommend choosing an image no larger than "
+"250 x 250px."
+msgstr ""
+"また、AtoM はウォーターマークをタイリングして参照画像全体をカバーするため、250 x 250ピクセルを超えない画像を選択することをお勧めします。"
+
+#: ../../admin-manual/customization/watermarking.rst:61
+msgid ""
+"Save your chosen watermark file as ``watermark.png`` and place it in your "
+"root AtoM directory."
+msgstr "選択したウォーターマークファイルを「watermark.png」として保存し、ルートのAtoMディレクトリに配置してください。"
+
+#: ../../admin-manual/customization/watermarking.rst:63
+msgid ""
+"That's it! Now any images uploaded in the future will have the watermark "
+"applied. If you wish to stop having watermarks applied, remove the "
+"``watermark.png`` from AtoM's root directory."
+msgstr ""
+"これで完了です！これからアップロードする全ての画像にはウォーターマークが適用されます。ウォーターマークの適用を停止したい場合は、AtoMのルートディレクトリから``watermark.png``を削除してください。"
+
+#: ../../admin-manual/customization/watermarking.rst:67
+msgid ""
+"For more information on uploading and managing digital objects in AtoM, see:"
+msgstr "AtoMにデジタルオブジェクトをアップロード及び管理するに関する詳細情報については、以下を参照してください："
+
+#: ../../admin-manual/customization/watermarking.rst:72
+msgid "Example output"
+msgstr "サンプル出力"
+
+#: ../../admin-manual/customization/watermarking.rst:74
+msgid ""
+"For the following example watermarked image, the watermark used was a 250 x "
+"250 pixel PNG image of the AtoM logo on a white background. The reference "
+"image to which it was applied (available in the AtoM demo site, `here`_) was"
+" approximately 480 x 317px:"
+msgstr ""
+"以下の例で使用されるウォーターマーク画像は、白い背景にAtoMロゴが描かれた250 x "
+"250ピクセルのPNG画像でした。ウォーターマークが適用された基準画像（AtoMのデモサイトで`こちら`_で利用可能）のサイズは約480 x "
+"317ピクセルでした。"
+
+#: ../../admin-manual/customization/watermarking.rst:-1
+msgid "An exmaple reference image with a watermark applied"
+msgstr "透かしを適用した例示参照画像"
+
+#: ../../admin-manual/customization/watermarking.rst:87
+msgid "Applying a watermark to existing images"
+msgstr "既存の画像にウォーターマークを適用する"
+
+#: ../../admin-manual/customization/watermarking.rst:89
+msgid ""
+"If you have followed the steps above, you can use the digital object "
+"derivative regeneration command-line task to regenerate your existing "
+"derivatives. As they are regenerated, AtoM will apply the watermark to any "
+"images generated for use as the reference display copy."
+msgstr ""
+"上記の手順に従っている場合は、デジタルオブジェクトの派生ファイル再生成コマンドラインタスクを使用して、既存の派生ファイルを再生成することができます。再生成される際に、AtoMは参照表示用コピーとして使用されるすべてのイメージにウォーターマークを適用します。"
+
+#: ../../admin-manual/customization/watermarking.rst:98
+msgid "For more information on using this task, see:"
+msgstr "このタスクの使用方法についての詳細は、以下を参照してください："
+
+#: ../../admin-manual/customization/watermarking.rst:100
+msgid ":ref:`cli-regenerate-derivatives`"
+msgstr ""
+"CLI派生物の再生成\n"
+"\n"
+"このセクションのタイトルは「CLI派生物の再生成」と翻訳されていますが、これはコンテキストに依存します。「:ref:`cli-regenerate-derivatives`」はドキュメント内で参照またはリンクされる見出しやセクションを指示するために使われるマークアップ言語（reStructuredText、またはrST）の構文です。したがって、実際の翻訳作業では、参照先の見出しまたはセクションが日本語に翻訳される場合、その日本語のタイトルに置き換えられるべきです。\n"
+"\n"
+"例えば、もし「CLI派生物の再生成」がドキュメント内の特定のセクションのタイトルであれば、そのセクションへの参照は以下のように翻訳される可能性があります。\n"
+"\n"
+"`:ref:`CLI派生物の再生成``\n"
+"\n"
+"ただし、この表記法は通常、実際のドキュメントには表示されず、特定の参照標識（anchor）やリンクを生成するために内部的に使われます。そのため、最終的なドキュメントでは、「CLI派生物の再生成」というフレーズがそのまま使われるか、または完全に翻訳されたドキュメント内の関連するセクションへのリンクとして表現されるでしょう。"
+
+#: ../../admin-manual/customization/watermarking.rst:104
+msgid ""
+"When running the ``regen-derivatives`` task, **all** of your current "
+"derivatives for the targeted digital objects will be deleted - meaning ALL "
+"of them if you provide no further criteria. They will be replaced  with new "
+"derivatives after the task has finished running. If you have manually "
+"changed the :term:`thumbnail` or :term:`reference display copy` of a digital"
+" object via the user interface (see: :ref:`edit-digital-object`), these two "
+"will be replaced with digital object derivatives created from the "
+":term:`master digital object`."
+msgstr ""
+"``regen-derivatives`` "
+"タスクを実行する際、対象のデジタルオブジェクトの現在の派生物は**すべて**削除されます。つまり、追加の基準を設定しなければ、それらは全て削除されるということです。タスクの実行完了後、新たな派生物に置き換えられます。ユーザーインターフェースを介してデジタルオブジェクトの"
+" :term:`サムネイル` や :term:`参照表示コピー` を手動で変更した場合（参照: :ref:`edit-digital-"
+"object`）、これらも :term:`マスターデジタルオブジェクト` から作成されたデジタルオブジェクトの派生物に置き換えられます。"
+
+#: ../../admin-manual/customization/watermarking.rst:113
+msgid ":ref:`Back to top <customization-watermarking>`"
+msgstr ":ref:`トップに戻る <customization-watermarking>`"

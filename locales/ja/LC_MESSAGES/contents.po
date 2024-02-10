@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../contents.rst:5
+msgid "AtoM documentation contents"
+msgstr "AtoM ドキュメントの内容"
+
+#: ../../contents.rst:15
+msgid "Indices and tables"
+msgstr "インデックスとテーブル"
+
+#: ../../contents.rst:17
+msgid ":ref:`genindex`"
+msgstr ":ref:`総索引`"
+
+#: ../../contents.rst:18
+msgid ":ref:`Search <search>`"
+msgstr ":ref:`検索 <search>`"
+
+#: ../../contents.rst:19
+msgid ":ref:`glossary`"
+msgstr ""
+"`:ref:`glossary`' は、通常、文書内における用語集（glossary）セクションへの参照を示すreStructuredText (reST) 形式の記法です。ただし、この記法はそのままでは日本語に直訳できません。デジタルデータの長期保存に関するドキュメントの翻訳の際には、この参照を適切に翻訳するために、実際のドキュメントの構造や用語集の位置を確認する必要があります。\n"
+"\n"
+"もし、ただ単にテキスト自体を日本語に翻訳する指示であれば、次のように言い換えることができます：\n"
+"\n"
+"「用語集への参照」\n"
+"\n"
+"これをドキュメント内での具体的な参照として翻訳する場合は、まずそのドキュメントが用語集をどのように参照しているか、またそのドキュメントがどのような形式（Markdown, reStructuredText, HTML等）で書かれているかに基づき、適切なリンク形式や参照方法を使う必要があります。例えば、Markdown形式だった場合は、[用語集](#glossary) のように変更するかもしれません。"

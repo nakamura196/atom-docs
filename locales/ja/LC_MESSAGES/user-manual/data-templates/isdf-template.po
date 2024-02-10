@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/isdf-template.rst:5
+msgid "International Standard for Describing Functions (ISDF)"
+msgstr "国際機能記述標準 (ISDF)"
+
+#: ../../user-manual/data-templates/isdf-template.rst:7
+msgid ""
+"On this page you will find guidance for data entry in AtoM, using the ISDF "
+"template for describing functions."
+msgstr "このページでは、機能を記述するためのISDFテンプレートを使用して、AtoMでのデータ入力に関する指導を見つけることができます。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:10
+msgid ""
+"The ISDF template is based on the guidelines found in the *International "
+"Standard For Describing Functions* (ISDF). ISDF is maintained by the "
+"International Council on Archives (`ICA <http://www.ica.org/>`__), and is "
+"available at:"
+msgstr ""
+"ISDFテンプレートは、*国際機能記述標準*（ISDF）に見られるガイドラインに基づいています。ISDFは国際アーカイブス評議会（`ICA "
+"<http://www.ica.org/>`__）によって維持され、以下のウェブサイトで入手可能です："
+
+#: ../../user-manual/data-templates/isdf-template.rst:14
+msgid "http://www.ica.org/en/isdf-international-standard-describing-functions"
+msgstr ""
+"以下は、Webサイトのリンクに対する日本語の翻訳です。\n"
+"\n"
+"http://www.ica.org/en/isdf-international-standard-describing-functions\n"
+"\n"
+"国際アーカイブ評議会ウェブサイトでのISDF（国際機能記述標準）"
+
+#: ../../user-manual/data-templates/isdf-template.rst:18
+msgid ":ref:`functions`"
+msgstr ""
+"`:ref:`functions`` はreStructuredText（reST）における参照ラベルです。このテキストはそのままでは適切な日本語訳になりません。ドキュメント内で既に定義されたラベル `functions` に対する参照を作ることを意味しているため、コンテキストに依存します。もし `functions` ラベルが日本語ドキュメント内で `機能` などと訳されている場合、適切な日本語訳は次のようになる可能性があります：\n"
+"\n"
+"`:ref:`機能``\n"
+"\n"
+"ただし、これを日本語ドキュメントに組み込む場合は、正しいラベルを参照するように確認する必要があり、そのラベルが文書内に既に定義されている必要があります。その上で、markdownやreStructuredTextでの参照として機能するようになります。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:20
+msgid "**Skip to:**"
+msgstr "**次へ進む：**"
+
+#: ../../user-manual/data-templates/isdf-template.rst:22
+msgid ":ref:`isdf-identity-area`"
+msgstr ":ref:`isdf-identity-area`（ISDFアイデンティティ領域）"
+
+#: ../../user-manual/data-templates/isdf-template.rst:23
+msgid ":ref:`isdf-context-area`"
+msgstr ""
+":ref:`isdf-context-area` の部分は、特定のドキュメントまたはテキスト内の参照ラベルである可能性が高く、これを直訳することは意味をなしません。一般的には、ドキュメント内で使用される参照やクロスリファレンスを示すためにマークアップ言語（例えばSphinxやreStructuredText）で使用されます。\n"
+"\n"
+"日本語に翻訳する際は、参照先の実際のセクションや題材に合わせて適切な日本語のタイトルや説明に置き換える必要があります。そのため、このラベルが指している具体的なセクションまたはコンテキストを知らない限り、適切な翻訳を提供することはできません。\n"
+"\n"
+"もし `isdf-context-area` が \"Information Systems Digital Forensics (ISDF) コンテキスト領域\" などの特定のセクションを指している場合、日本語ではそれに相当するセクションのタイトルを参照ラベルとして使い、文脈に応じた翻訳を行う必要があります。例えば:\n"
+"\n"
+"```\n"
+":ref:`情報システムデジタルフォレンジック（ISDF）のコンテキスト領域`\n"
+"```\n"
+"\n"
+"ただし、このラベルの正確な翻訳には、参照されているドキュメントの内容を理解する必要があります。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:24
+msgid ":ref:`isdf-relationships-area`"
+msgstr "`:ref:`isdf-relationships-area`（ISDF 関係性エリア）"
+
+#: ../../user-manual/data-templates/isdf-template.rst:25
+msgid ":ref:`isdf-control-area`"
+msgstr ""
+"「:ref:`isdf-control-area`」というテキストは、明らかに特定のドキュメント内の参照（リファレンス）を指しています。これは、Archivematicaまたは関連するドキュメントにおける特定のセクション、あるいはコントロール領域への内部リンクを示しています。MarkDownやreStructuredTextなどの文書フォーマットで使われる一般的な記法です。しかし、これは技術的なマークアップであって、通常のテキストとして直訳することはできません。\n"
+"\n"
+"文脈が不明なため、直接的な日本語の翻訳は提供できません。しかしながら、日本語ドキュメントへこの参照を組み込む場合は、対応するセクションの名称やIDを日本語に適切に変換し、同じ参照スタイルを維持する必要があります。例えば、日本語のドキュメント内で「ISDFコントロールエリア」がセクションのタイトルであれば、参照は次のようになるかもしれません：\n"
+"\n"
+"```\n"
+":ref:`isdf-コントロールエリア`\n"
+"```\n"
+"\n"
+"ただし、実際には文書の作成者が正しい参照リンクの設定を行う必要があります。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:30
+msgid "Identity area"
+msgstr "アイデンティティ領域"
+
+#: ../../user-manual/data-templates/isdf-template.rst:38
+msgid "An image of the data entry fields in the ISDF Identity area."
+msgstr "ISDFアイデンティティ領域内のデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:38
+msgid "The data entry fields for the Identity area of the ISDF edit template."
+msgstr "ISDF編集テンプレートの「Identity（ID）」エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:41
+msgid "Type"
+msgstr "タイプ"
+
+#: ../../user-manual/data-templates/isdf-template.rst:43
+msgid ""
+"**Rule:** \"Specify whether the description is a function or one of its "
+"subdivisions.\" (ISDF 5.1.1) Select the type from the drop-down menu; these "
+"values are drawn from the ISDF Function Types :term:`taxonomy`."
+msgstr ""
+"**ルール：**「記述対象が機能であるかその下位区分であるかを明記する。」（ISDF "
+"5.1.1）ドロップダウンメニューからタイプを選択します。これらの値はISDF機能タイプのタクソノミーから取得されます。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:49
+msgid ""
+"Like nearly all :term:`terms <term>` used throughout AtoM in :term:`drop-"
+"down menus <drop-down menu>`, the default terms are maintained in a "
+":term:`taxonomy` (ISDF Function Types), which can be managed by users with "
+"sufficient :term:`edit privileges <access privilege>`. See: :ref:`terms` for"
+" more information. To learn more about default edit privileges, see: "
+":ref:`user-roles`. To change default permissions, see: :ref:`edit-user-"
+"permissions`. However, note that the existing terms are drawn directly from "
+"ISDF recommended terms - if you want your function description to remain "
+"standards-compliant, we don't recommend editing these terms or adding new "
+"ones!"
+msgstr ""
+"AtoMの中で広く使用されるほぼ全ての:term:`用語 <term>`は、:term:`ドロップダウンメニュー <drop-down "
+"menu>`によって表示されるデフォルト用語であり、これらは:term:`分類体系`（ISDF機能タイプ）で管理されています。これは、十分な:term:`編集権限"
+" <access "
+"privilege>`を持つユーザーによって管理できます。詳細については、:ref:`terms`をご覧ください。デフォルトの編集権限についての詳細は、:ref:`user-"
+"roles`をご覧ください。デフォルト権限を変更する方法については、:ref:`edit-user-"
+"permissions`をご覧ください。ただし、既存の用語はISDFの推奨用語から直接引き出されたものであることに注意してください - "
+"もし機能の説明を標準準拠に保ちたいのであれば、これらの用語を編集したり新しい用語を追加することはお勧めしません！"
+
+#: ../../user-manual/data-templates/isdf-template.rst:61
+msgid "Authorized form of name"
+msgstr "正式な名称"
+
+#: ../../user-manual/data-templates/isdf-template.rst:63
+msgid ""
+"**Rule:** \"Record the authorised form(s) of name of the function. Use the "
+"territorial or administrative scope of the function, the name of the "
+"institution which performed it and other qualifiers as appropriate to "
+"distinguish the function from other functions with similar names. This "
+"element is to be used in conjunction with the Function description "
+"identifier element (5.4.1). (ISDF 5.1.2)"
+msgstr ""
+"**規則:** "
+"「機能の公式な名称を記録してください。機能の地域的または行政的な範囲、それを実行した機関の名称、および適切な場合はその他の修飾子を使用して、同様の名称を持つ他の機能と区別してください。この要素は、機能説明識別子要素（ISDF"
+" 5.4.1）と併用されます。（ISDF 5.1.2）」"
+
+#: ../../user-manual/data-templates/isdf-template.rst:72
+msgid ""
+"Authorized form of name is a required field in the ISDF standard, though "
+"AtoM will allow you to save the record without including one. However, once "
+"saved, the :term:`slug` (e.g. the unique part of the URL leading to the "
+"function description) will be created based on the Authorized form of name. "
+"If you do not include one, AtoM will auto-generate an alpha-numeric slug for"
+" the description, and editing the authorized form of name will not change "
+"the slug."
+msgstr ""
+"ISDF標準において、「認証形式の名称」は必須項目ですが、AtoMではその項目を含めずにレコードを保存することができます。しかし、保存されると、用語「スラッグ」（例：機能説明に至るURLの一意な部分）は、「認証形式の名称」に基づいて作成されます。もし「認証形式の名称」を含めなかった場合、AtoMは説明のためにアルファベット数字のスラッグを自動生成し、認証形式の名称を編集してもスラッグは変更されません。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:79
+msgid ""
+"For more information on slugs in AtoM, see: :ref:`slugs-in-atom`. A system "
+"administrator with access to the command-line interface can regenerate slugs"
+" in AtoM - see: :ref:`cli-generate-slugs`."
+msgstr ""
+"AtoMのスラッグに関する詳細情報については、:ref:`slugs-in-"
+"atom`を参照してください。コマンドラインインターフェースへのアクセス権を持つシステム管理者は、AtoM内でスラッグを再生成することができます - "
+"詳しくは:ref:`cli-generate-slugs`をご覧ください。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:84
+msgid "Parallel form(s) of name"
+msgstr "名称の平行形式"
+
+#: ../../user-manual/data-templates/isdf-template.rst:86
+msgid ""
+"**Rule:** \"*Purpose:* To indicate the various forms in which the authorised"
+" form(s) of name occurs in other languages or scripts. *Rule:* Record the "
+"parallel form(s) of name in accordance with any relevant national or "
+"international conventions or rules applied by the archival institution that "
+"created the description, including any necessary subelements and/or "
+"qualifiers required by those conventions or rules. Specify in the Rules "
+"and/or conventions used element (5.4.3.) which rules have been applied.\" "
+"(ISDF 5.1.3)"
+msgstr ""
+"**ルール：**「目的：権威ある形式の名前が他言語またはスクリプトにおいてどのような形で存在するかを示すために。ルール：説明を作成したアーカイブ機関によって適用される国内外の関連する慣習やルールに従って、名前の並列形式を記録します。これにはそれらの慣習やルールに必要なサブエレメントや修飾子の使用を含みます。適用されたルールが何であるかをルールおよび/または慣習が使用された要素（5.4.3）で特定してください。」（ISDF"
+" 5.1.3）"
+
+#: ../../user-manual/data-templates/isdf-template.rst:96
+msgid ""
+"This is a repeatable :term:`field` in AtoM. As you exit the field (by either"
+" pressing the Tab key, or clicking out of the field with your mouse), AtoM "
+"will add a new field below, so you can enter multiple parallel names if "
+"required."
+msgstr ""
+"これはAtoM内で繰り返し使用可能な :term:`フィールド` "
+"です。フィールドから離れるとき（Tabキーを押すか、またはマウスでフィールド外をクリックするかによって）、必要に応じて複数の並行した名前を入力できるように、AtoMは下に新しいフィールドを追加します。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:100
+#: ../../user-manual/data-templates/isdf-template.rst:117
+#: ../../user-manual/data-templates/isdf-template.rst:134
+#: ../../user-manual/data-templates/isdf-template.rst:151
+msgid ":ref:`Back to top <isdf-template>`"
+msgstr ":ref:`トップに戻る <isdf-template>`"
+
+#: ../../user-manual/data-templates/isdf-template.rst:105
+msgid "Context area"
+msgstr "コンテキスト領域"
+
+#: ../../user-manual/data-templates/isdf-template.rst:113
+msgid "An image of the data entry fields in the ISDF Context area."
+msgstr "ISDFコンテキスト領域におけるデータ入力フィールドのイメージ。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:113
+msgid "The data entry fields for the Context area of the ISDF edit template."
+msgstr "ISDF編集テンプレートのコンテキスト領域に対するデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:115
+#: ../../user-manual/data-templates/isdf-template.rst:132
+#: ../../user-manual/data-templates/isdf-template.rst:149
+msgid "TO DO"
+msgstr ""
+"何を実行したいか、具体的な文書の内容が不足しているため、この状況で「TO DO」というフレーズを翻訳する最適な方法を教えていただけますか？通常、「TO "
+"DO」はタスクリストやアクション項目のリストのタイトルとして使用され、何かを行う必要があることを示しています。もし具体的な翻訳が必要であれば、より多くの文脈を提供していただけると幸いです。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:122
+msgid "Relationships area"
+msgstr "関連性エリア"
+
+#: ../../user-manual/data-templates/isdf-template.rst:130
+msgid "An image of the data entry fields in the ISDF Relationships area."
+msgstr "ISDF関係領域におけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:130
+msgid ""
+"The data entry fields for the Relationships area of the ISDF edit template."
+msgstr "ISDF編集テンプレートの「関係性」エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:139
+msgid "Control area"
+msgstr "制御領域"
+
+#: ../../user-manual/data-templates/isdf-template.rst:147
+msgid "An image of the data entry fields in the ISDF Control area."
+msgstr "ISDFコントロールエリアにあるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/isdf-template.rst:147
+msgid "The data entry fields for the Control area of the ISDF edit template."
+msgstr "ISDF編集テンプレートの管理領域のデータ入力フィールド。"

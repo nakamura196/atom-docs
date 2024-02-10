@@ -1,0 +1,700 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/donors.rst:5
+msgid "Donor records"
+msgstr "ドナー記録"
+
+#: ../../user-manual/add-edit-content/donors.rst:7
+msgid ""
+"The `SAA Glossary <http://www2.archivists.org/glossary>`__ defines a donor "
+"as \"*An individual or organization who gives property or money to another "
+"without reciprocal compensation,*\" adding that in many instances, "
+"\"*individuals who donate collections are not the provenance of the "
+"collection.*\" This implies that a donor is not nessarily the "
+":term:`creator` of the materials being donated to a :term:`repository` - "
+"rather, they are the last legal custodian of the records before they are "
+"passed to a :term:`repository` for long-term preservation."
+msgstr ""
+"SAA用語集 `<http://www2.archivists.org/glossary>`__ "
+"は、寄贈者について「*対価を求めずに財産またはお金を他者に与える個人または組織*」と定義しており、多くの場合「*コレクションを寄贈する個人は、そのコレクションの出所ではありません。*」と付け加えています。これは、:term:`リポジトリ`に長期保存のために提供される資料の"
+" "
+":term:`作成者`が必ずしも寄贈者であるとは限らないことを意味しています。むしろ、彼らは記録が:term:`リポジトリ`に渡される前の最後の法的保管者です。"
+
+#: ../../user-manual/add-edit-content/donors.rst:16
+msgid ""
+"In AtoM, donor records can be used more generically than the SAA Glossary "
+"defintion - they can be used to manage records of all individuals who supply"
+" records and other materials to a repository, whether freely or with the "
+"expectation of compensation. Donor records are a way to maintain a record of"
+" the provenance of :ref:`accessions <accession-records>`, so that donors can"
+" be contacted in the future if necessary. Donor records can be created "
+"independently; more often they are added while creating an :term:`accession "
+"record` via the :term:`donor dialog` that is available in the accession "
+"record edit template."
+msgstr ""
+"AtoMでは、ドナー（寄贈者）記録はSAA用語集の定義よりも一般的に使用されることができます。それらは、資料やその他の素材をリポジトリに無償で、あるいは報酬を期待して提供する全ての個人の記録を管理するために使用できます。ドナー記録は、:ref:`アクセス権記録"
+" <accession-"
+"records>`の出所を記録する方法であり、将来必要に応じてドナーに連絡を取ることができます。ドナー記録は独立して作成することができますが、より一般的には、アクセッション記録編集テンプレート内で利用可能な:term:`ドナーダイアログ`を通じて、:term:`アクセス権記録`を作成しながら追加されます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of an example Donor record"
+msgstr "例の寄贈者記録のイメージ"
+
+#: ../../user-manual/add-edit-content/donors.rst:31
+msgid "**Below are instructions for using the Donors module in AtoM to:**"
+msgstr "以下は、AtoM内のDonorsモジュールを使用するための指示です："
+
+#: ../../user-manual/add-edit-content/donors.rst:33
+msgid ":ref:`Add a new donor record <add-donor-record>`"
+msgstr ":ref:`新しい寄贈者記録を追加する<add-donor-record>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:34
+msgid ":ref:`Edit an existing donor record <edit-donor-record>`"
+msgstr ":ref:`既存の寄贈者レコードを編集する<edit-donor-record>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:35
+msgid ":ref:`Link a donor record to an accession <link-donor-accession>`"
+msgstr ":ref:`寄贈者の記録をアクセッションにリンクする <link-donor-accession>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:36
+msgid ":ref:`Delete a donor record <delete-donor-record>`"
+msgstr ":ref:`ドナー記録を削除する <delete-donor-record>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:40
+msgid ":ref:`Accessions <accession-records>`"
+msgstr ":ref:`アクセッション <accession-records>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:45
+msgid "Add a new donor record"
+msgstr "新しい寄贈者の記録を追加"
+
+#: ../../user-manual/add-edit-content/donors.rst:47
+msgid "In AtoM, there are currently 2 ways to add a new Donor record:"
+msgstr "AtoMでは、現在新しい寄贈者レコードを追加する方法が2つあります。"
+
+#: ../../user-manual/add-edit-content/donors.rst:49
+msgid ""
+":ref:`Using the donor dialog in the accessions template <add-donor-via-"
+"accession>`"
+msgstr ":ref:`受贈者ダイアログを利用してアクセッションテンプレートに追加する <add-donor-via-accession>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:51
+msgid ":ref:`From another donor record <add-donor-via-donor>`"
+msgstr ":ref:`他のドナー記録から <add-donor-via-donor>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:55
+msgid ""
+"Want a quicker way to add a new donor? AtoM menus are customizable; you can "
+"add a link to Donors in the :term:`main menu` under **Add > Donor**. To do "
+"so, you will require an :term:`administrator` account - navigate to **Admin "
+"> Menus**, and click the \"Add new\" button at the bottom of the page. Add "
+"the following information to each field in the menu template:"
+msgstr ""
+"新しい寄贈者を追加するより速い方法をお求めですか？AtoMのメニューはカスタマイズ可能で、`:term:`メインメニュー`にある **追加 > "
+"寄贈者** へのリンクを追加できます。これを行うには、`:term:`管理者`アカウントが必要です - **管理 > メニュー** "
+"へ移動し、ページ下部にある「新規追加」ボタンをクリックします。次に、メニューテンプレートの各フィールドに以下の情報を追加します："
+
+#: ../../user-manual/add-edit-content/donors.rst:61
+msgid "**Name:** addDonor"
+msgstr "**名称：** 寄贈者追加"
+
+#: ../../user-manual/add-edit-content/donors.rst:62
+msgid "**Label:** Donor"
+msgstr "**ラベル：** 寄贈者"
+
+#: ../../user-manual/add-edit-content/donors.rst:63
+msgid "**Parent:** --add"
+msgstr "「親」：--add"
+
+#: ../../user-manual/add-edit-content/donors.rst:64
+msgid "**Path:** donor/add"
+msgstr "**パス：** 寄贈者/追加"
+
+#: ../../user-manual/add-edit-content/donors.rst:66
+msgid ""
+"A link to a new Donor record edit template will now appear in the "
+":term:`main menu` under **Add > Donor**. For more information on working "
+"with menus in AtoM, see: :ref:`Manage menus <manage-menus>`."
+msgstr ""
+"新しい寄贈者記録編集テンプレートへのリンクが、**追加 > 寄贈者** の下の :term:`メインメニュー` "
+"に表示されるようになりました。AtoMのメニュー操作についての詳細は、:ref:`メニューの管理 <manage-menus>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:74
+msgid "Using the donor dialog in the accessions template"
+msgstr "アクセッションテンプレートにおける寄贈者ダイアログの使用"
+
+#: ../../user-manual/add-edit-content/donors.rst:76
+msgid ""
+"Begin creating a new :term:`accession record`, or navigate to an existing "
+"accession record and enter :term:`edit mode`. Please see the :ref:`Accession"
+" records <accession-records>` page for more information on :ref:`creating a "
+"new accession <add-new-accession>` or :ref:`editing an existing accession "
+"record <edit-accession-record>`."
+msgstr ""
+"新しい:term:`受入記録`を作成するか、既存の受入記録に移動し、:term:`編集モード`に入ります。:ref:`受入記録 <accession-"
+"records>` ページを参照して、:ref:`新しい受入を作成する <add-new-"
+"accession>`方法や:ref:`既存の受入記録を編集する <edit-accession-record>`方法の詳細についてご覧ください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Manage menu"
+msgstr "管理メニューの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:87
+#: ../../user-manual/add-edit-content/donors.rst:344
+msgid ""
+"In the :term:`accession record` :term:`edit page`, Navigate to the "
+"\"Donor/Trasferring body\" :term:`information area` and click the \"Add "
+"new\" button."
+msgstr "「受入記録」の「編集ページ」で、「寄贈者/譲渡機関」の「情報エリア」に移動し、「新規追加」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Donor/Transferring body area in an accession"
+msgstr "寄贈者／譲渡機関エリアのアクセッションに関する画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:96
+msgid ""
+"A dialog will pop up and you can enter the names and contact information for"
+" related donors using the :term:`donor dialog`. The dialog allows you to "
+"include the donor name and give an alternative contact person. Enter data as"
+" required."
+msgstr ""
+"ダイアログが表示されたら、`:term:`寄付者ダイアログ`を使用して関連する寄付者の名前と連絡先情報を入力できます。ダイアログでは、寄付者名を含め、代わりになる連絡先を指定できます。必要に応じてデータを入力してください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the donor dialog in the accession edit template"
+msgstr "アクセッション編集テンプレートにおける寄贈者ダイアログの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:107
+msgid ""
+"Fields in the donor dialog are organized into 3 tabs - Main, Physical "
+"location, and Other details. Be sure to click on each tab and complete the "
+"related fields in the dialog as needed. Fields available in the :term:`donor"
+" dialog` include:"
+msgstr ""
+"ドナー・ダイアログにあるフィールドは「メイン」、「物理的位置」、「その他の詳細」という3つのタブに整理されています。必要に応じて各タブをクリックし、ダイアログ内の関連フィールドを完了させてください。ドナー・ダイアログには以下のフィールドが用意されています:"
+
+#: ../../user-manual/add-edit-content/donors.rst:112
+msgid ""
+"**Name** - an autcomplete field where you can link to an existing donor "
+"record or enter a new name to create a new donor record."
+msgstr ""
+"**名前** - 既存の寄贈者レコードにリンクするための自動補完フィールド、または新しい寄贈者レコードを作成するために新しい名前を入力できます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:114
+msgid "**Main tab:**"
+msgstr "**メインタブ：**"
+
+#: ../../user-manual/add-edit-content/donors.rst:116
+msgid "Contact person"
+msgstr "連絡担当者"
+
+#: ../../user-manual/add-edit-content/donors.rst:117
+msgid "Telephone"
+msgstr "電話"
+
+#: ../../user-manual/add-edit-content/donors.rst:118
+msgid "Fax"
+msgstr "ファックス"
+
+#: ../../user-manual/add-edit-content/donors.rst:119
+msgid "Email"
+msgstr "メール"
+
+#: ../../user-manual/add-edit-content/donors.rst:120
+msgid "URL"
+msgstr ""
+"URLは「Uniform Resource "
+"Locator」の略で、インターネット上のリソースの場所を指定するために使用される文字列のことです。インターネット上でウェブページやファイルなどのリソースにアクセスするために、ウェブブラウザなどのソフトウェアに入力されます。一般的なURLの構造には、プロトコル（例えばhttpやhttps）、ドメイン名（あるいはIPアドレス）、そしてリソースのパス（ディレクトリやファイル名など）が含まれます。例えば、「https://www.example.com/path/to/file.html」は一つのURLです。"
+
+#: ../../user-manual/add-edit-content/donors.rst:122
+msgid "**Physical location tab:**"
+msgstr "物理的所在地タブ"
+
+#: ../../user-manual/add-edit-content/donors.rst:124
+msgid "Street address"
+msgstr "住所"
+
+#: ../../user-manual/add-edit-content/donors.rst:125
+msgid "Region/province"
+msgstr "地域/県"
+
+#: ../../user-manual/add-edit-content/donors.rst:126
+msgid "Country"
+msgstr "国"
+
+#: ../../user-manual/add-edit-content/donors.rst:127
+msgid "Postal code"
+msgstr "郵便番号"
+
+#: ../../user-manual/add-edit-content/donors.rst:128
+msgid "City"
+msgstr "市 (し)"
+
+#: ../../user-manual/add-edit-content/donors.rst:129
+msgid "Latitude"
+msgstr "緯度"
+
+#: ../../user-manual/add-edit-content/donors.rst:130
+msgid "Longitude"
+msgstr "経度"
+
+#: ../../user-manual/add-edit-content/donors.rst:132
+msgid "**Other details tab:**"
+msgstr "**その他の詳細 タブ：**"
+
+#: ../../user-manual/add-edit-content/donors.rst:134
+msgid "Contact type"
+msgstr "連絡先タイプ"
+
+#: ../../user-manual/add-edit-content/donors.rst:135
+msgid "Note"
+msgstr "注意"
+
+#: ../../user-manual/add-edit-content/donors.rst:137
+msgid ""
+"When new information is entered into the :term:`donor dialog`, a new Donor "
+"record is created. Alternatively, if you have selected an existing donor "
+"using the autcomplete values in the Name field, you can edit the existing "
+"contact information."
+msgstr ""
+"新しい情報を「寄贈者ダイアログ」に入力すると、新しい寄贈者の記録が作成されます。または、名前フィールドのオートコンプリート値を使用して既存の寄贈者を選択した場合、既存の連絡先情報を編集することができます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:142
+msgid ""
+"Once you have completed entering the donor information, click on the "
+"\"Submit\" button to save and return to the :term:`accession record` edit "
+"template."
+msgstr ""
+"ドナー情報の入力が完了したら、「Submit」ボタンをクリックして保存し、:term:`アクセッションレコード`の編集テンプレートに戻ります。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Submit button in the donor dialog"
+msgstr "ドナー・ダイアログの「送信」ボタンの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:151
+msgid ""
+"You can add multiple donors to a single accession record by repeating steps "
+"2-4 if desired. If you need to edit the donor information, click the pencil "
+"icon next to the donor name in the \"Donor/Transferring body area\" of the "
+"accession record's :term:`edit page`; the :term:`donor dialog` will re-open "
+"and you can make changes. Clicking the \"**X**\" icon next to a donor name "
+"in the \"Donor/Transferring body area\" will remove the Donor from the "
+":term:`accession record`."
+msgstr ""
+"所望であれば、ステップ2から4を繰り返して、単一のアクセッションレコードに複数の寄贈者を追加することができます。寄贈者情報を編集する必要がある場合は、「Donor/Transferring"
+" body "
+"area」にあるアクセッションレコードの:term:`編集ページ`;で、寄贈者名の隣にある鉛筆アイコンをクリックすることで:term:`寄贈者ダイアログ`;が再度開き、変更を加えることができます。「Donor/Transferring"
+" body "
+"area」で寄贈者名の隣にある\"**X**\"アイコンをクリックすると、その寄贈者が:term:`アクセッションレコード`から削除されます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Donor/Transferring body area in the accession record"
+msgstr "寄贈者/移転元エリアの画像、所蔵記録内"
+
+#: ../../user-manual/add-edit-content/donors.rst:164
+msgid ""
+"Continue adding and/or editing data in the accession record as needed. When "
+"you are finished, click the \"Create\" (if you are creating a new accession "
+"record) or \"Save\" (if editing an existing accession record) button in the "
+":term:`button block` of the accession record to complete adding the new "
+"donor."
+msgstr ""
+"必要に応じて、アクセスレコード内のデータの追加や編集を続けてください。終了したら、新しい寄贈者の追加を完了するために、アクセスレコードの`:term:`ボタンブロック`にある「作成」（新しいアクセスレコードを作成する場合）または「保存」（既存のアクセスレコードを編集する場合）ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the button block"
+msgstr "ボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:175
+msgid ""
+"AtoM will exit :term:`edit mode` and take you to the :term:`accession "
+"record` :term:`view page`. The related Donor's name will appear as a "
+"hyperlink in the \"Donor/Transferring body\" :term:`information area` of the"
+" :term:`accession record`. You can click the hyperlink to navigate to the "
+"related Donor record. Alternately, you can view all donor records via the "
+":term:`main menu` by navigating to **Manage > Donors**."
+msgstr ""
+"AtoMは「編集モード」を終了し、あなたを「アクセッション記録」の「閲覧ページ」へと移動します。関連するドナーの名前は、「アクセッション記録」の「ドナー/譲渡機関」情報エリア内でハイパーリンクとして表示されます。このハイパーリンクをクリックすると、関連するドナー記録へ移動できます。または、**管理"
+" > ドナー**へと進むことで、メインメニューからすべてのドナー記録を閲覧することもできます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:185
+msgid "From another donor record"
+msgstr "別の寄付者レコードから"
+
+#: ../../user-manual/add-edit-content/donors.rst:187
+msgid ""
+"Depending upon your workflow, you might want to add donors to AtoM during "
+"the accession process or you might want to add donors to AtoM as a separate "
+"process. The first approach (:ref:`above <add-donor-via-accession>`) is the "
+"easiest and most logical. This second approach requires you to create the "
+"donor and then add the donor to the accession record - this approach also "
+"requires that you have donors existing in the database, otherwise you cannot"
+" browse the list and \"add a new\" donor."
+msgstr ""
+"ワークフローによっては、アクセッションプロセス中にAtoMへの寄贈者を追加したい場合もあれば、寄贈者をAtoMに追加する作業を別のプロセスとして行いたい場合もあります。最初のアプローチ（:ref:`先に述べた"
+" <add-donor-via-accession> "
+"方法）は最も簡単で論理的です。この2つ目のアプローチでは、まず寄贈者を作成し、その後でその寄贈者をアクセッション記録に追加する必要があります - "
+"このアプローチでは、既にデータベースに寄贈者が存在していることが必要で、そうでなければリストを閲覧し、「新しい寄贈者を追加」することができません。"
+
+#: ../../user-manual/add-edit-content/donors.rst:195
+msgid ""
+"In the :term:`main menu` (located in AtoM's :term:`header bar`), navigate to"
+" **Manage > Donors**."
+msgstr ""
+":term:`main menu`（AtoMの:term:`header bar`に位置する）にて、**Manage > "
+"Donors**へと進んでください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:197
+msgid ""
+"AtoM takes you to a Browse menu listing all Donor records. Click on the "
+"hyperlink of an existing Donor name."
+msgstr "AtoMは、全てのドナー記録がリストされたブラウズメニューにあなたを案内します。既存のドナー名のハイパーリンクをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Donors browse page"
+msgstr "寄贈者ブラウズページの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:205
+msgid ""
+"AtoM takes you to the Donor record :term:`view page`. At the bottom of the "
+"record, click on the \"Add new\" button in the :term:`button block`."
+msgstr ""
+"AtoMはあなたを寄贈者の記録 :term:`ビューページ` に案内します。記録の一番下にある :term:`ボタンブロック` "
+"の中の「新規追加」ボタンをクリックしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of a Donor view page"
+msgstr "ドナー・ビュー・ページの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:213
+msgid ""
+"AtoM will redirect you to a blank Donor record in :term:`edit mode`. Enter "
+"the new donor name and select \"Add new\" under the contact area to enter "
+"contact information about your new donor. Click \"Submit\" to close the "
+"contact information dialog and return to the donor record. When you are "
+"finished adding data, click on the :term:`Create button` in the "
+":term:`button block` to save the new Donor record."
+msgstr ""
+"AtoMはあなたを「編集モード」にある空のドナーレコードにリダイレクトします。新しいドナーの名前を入力し、コンタクトエリアの下にある「新規追加」を選択して新しいドナーのコンタクト情報を入力してください。コンタクト情報ダイアログを閉じてドナーレコードに戻るには「提出する」をクリックします。データの追加が終わったら、新しいドナーレコードを保存するためにボタンブロック内の「作成ボタン」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of a new blank Donor record in edit mode"
+msgstr "新しい空白の寄贈者レコードを編集モードで表示した画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:225
+msgid ""
+"If you want to link the new Donor record to an accession record, see below, "
+":ref:`Link a donor record to an accession <link-donor-accession>`."
+msgstr ""
+"新しい寄贈者レコードをアクセッションレコードにリンクしたい場合は、下記を参照してください：:ref:`寄贈者レコードをアクセッションにリンクする "
+"<link-donor-accession>`。"
+
+#: ../../user-manual/add-edit-content/donors.rst:228
+#: ../../user-manual/add-edit-content/donors.rst:292
+#: ../../user-manual/add-edit-content/donors.rst:412
+#: ../../user-manual/add-edit-content/donors.rst:460
+msgid ":ref:`Back to top <donors>`"
+msgstr ":ref:`トップに戻る <donors>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:233
+msgid "Edit an existing donor record"
+msgstr "既存の寄贈者レコードを編集する"
+
+#: ../../user-manual/add-edit-content/donors.rst:235
+msgid ""
+"Using the :term:`main menu` located in the AtoM :term:`header bar`, navigate"
+" to **Manage > Donors**."
+msgstr "AtoMの:term:`ヘッダーバー`にある:term:`メインメニュー`を使用して、**管理 > 寄贈者**へと移動します。"
+
+#: ../../user-manual/add-edit-content/donors.rst:237
+msgid ""
+"AtoM takes you to a Browse menu listing all Donor records. With a long list "
+"(multiple pages) of donors, you can type the donor name into the dedicated "
+"search box, to locate a name quickly and avoid scrolling through numerous "
+"pages. You can also sort the list of Donors alphabetically, or by most "
+"recently updated."
+msgstr ""
+"AtoMは、すべてのドナーレコードが掲載されたブラウズメニューへと移動します。ドナーのリストが長い（複数ページにわたる）場合は、専用の検索ボックスにドナー名を入力して、迅速に名前を見つけ出し、多数のページをスクロールすることを避けることができます。また、ドナーのリストをアルファベット順や、最近更新された順に並べ替えることも可能です。"
+
+#: ../../user-manual/add-edit-content/donors.rst:248
+msgid ""
+"When you have located the Donor record you wish to edit in the Browse page, "
+"click on the hyperlinked Donor name."
+msgstr "ご希望の寄贈者記録をBrowseページで見つけたら、ハイパーリンクされた寄贈者名をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:250
+msgid ""
+"AtoM takes you to the Donor record :term:`view page`. Click the \"Edit\" "
+"button in the :term:`button block` located at the bottom of the record."
+msgstr ""
+"AtoMはあなたを寄贈者記録の:term:`表示ページ`へと導きます。記録の下部に位置する:term:`ボタンブロック`内の「編集」ボタンをクリックします。"
+
+#: ../../user-manual/add-edit-content/donors.rst:258
+msgid ""
+"AtoM will open the Donor record in :term:`edit mode`. Add/revise data as "
+"required. You can edit existing information in the Contact "
+":term:`information area` by clicking on the pencil icon - AtoM will open the"
+" contact dialog. ***Note that there are three tabs** in the Contact dialog "
+"for data entry - make changes or additions as required. To close the Contact"
+" dialog and save your changes, click the \"Submit\" button. Note that your "
+"changes will not be saved until you save the Donor record."
+msgstr ""
+"AtoMは寄贈者記録を`:term:`編集モード`'で開きます。必要に応じてデータを追加・修正してください。連絡先`:term:`情報エリア`'の既存の情報は鉛筆のアイコンをクリックすることで編集できます"
+" - AtoMは連絡先ダイアログを開きます。***データ入力のための連絡先ダイアログには三つのタブがあることに注意してください** - "
+"必要に応じて変更や追加を行ってください。連絡先ダイアログを閉じて変更を保存するには、「送信」ボタンをクリックします。ただし、寄贈者記録を保存するまで変更は保存されないことに注意してください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of a Donor edit page"
+msgstr "ドナー編集ページの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:271
+msgid ""
+"When you have made all necessary changes, click \"Save\" in the "
+":term:`button block`."
+msgstr "必要な変更をすべて行ったら、`:term:`ボタンブロック`で「保存」をクリックしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the button block in edit mode"
+msgstr "編集モードにおけるボタンブロックの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:279
+msgid ""
+"After saving the Donor record, AtoM takes you to the Donor record "
+":term:`view page` where you can review your changes."
+msgstr ""
+"寄贈者レコードを保存した後、AtoMはあなたを寄贈者レコードの:term:`ビューページ`に案内します。そこであなたは行った変更を確認できます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:284
+msgid ""
+"If your Donor record is linked to an :term:`accession record`, you can also "
+"arrive at a Donor record for editing by navigating to the related "
+":term:`accession record` and clicking on the Donor name in the "
+"\"Donor/Transferring body\" :term:`information area` - AtoM will redirect "
+"you to the related Donor record. Follow steps 4-7 above. For more "
+"information on locating accession records see: :ref:`Edit an existing "
+"accession record <edit-accession-record>` and :ref:`access-content`."
+msgstr ""
+"もし寄贈者記録が:term:`アクセッション記録`にリンクされている場合は、関連する:term:`アクセッション記録`にナビゲートし、\"Donor/Transferring"
+" body\" "
+":term:`情報エリア`の寄贈者名をクリックすることで、編集のための寄贈者記録に辿り着くことができます。AtoMは関連する寄贈者記録へとリダイレクトします。上記のステップ4から7に従ってください。アクセッション記録の検索方法の詳細は、:ref:`既存のアクセッション記録を編集する<edit-"
+"accession-record>`および:ref:`access-content`を参照してください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:297
+msgid "Link a donor record to an accession"
+msgstr "寄贈記録をアクセッションにリンクする"
+
+#: ../../user-manual/add-edit-content/donors.rst:299
+msgid ""
+"Donor records created independently of accessions can be linked to an "
+"accession at a later date; a single donor can also be related to multiple "
+"accessions, and multiple donors can be related to a single accession. At "
+"this time, however, **this linking cannot be done from the Donor record** - "
+"instead, you will have to create the link from the :term:`accession record` "
+"that you would like to associate with the donor. To do so:"
+msgstr ""
+"独立して作成された寄贈者記録は、後日アクセッションにリンクされることがあります。また、単一の寄贈者が複数のアクセッションと関連付けられることもありますし、複数の寄贈者が単一のアクセッションと関連付けられる場合もあります。しかし、現時点では、**このリンクは寄贈者記録から行うことはできません**"
+" - 代わりに、ドナーと関連付けたいと思う :term:`アクセッション記録` からリンクを作成する必要があります。そのためには："
+
+#: ../../user-manual/add-edit-content/donors.rst:306
+msgid ""
+"Navigate to the :term:`accession record` you want to link to a donor record."
+" You can do this via the :term:`main menu` in the AtoM :term:`header bar`, "
+"by clicking on **Manage > Accessions**. For more information on navigation "
+"in AtoM, see: :ref:`Access content <access-content>`"
+msgstr ""
+"寄贈記録にリンクしたいアクセッションレコードに移動します。AtoMのヘッダーバーにあるメインメニューから**管理 > "
+"アクセッション**をクリックすることでこれを行うことができます。AtoMでのナビゲーションの詳細については、以下を参照してください： "
+":ref:`コンテンツへのアクセス <access-content>`。"
+
+#: ../../user-manual/add-edit-content/donors.rst:316
+msgid ""
+"AtoM will redirect you to the accession record :ref:`browse page <page-type-"
+"browse>`. Select the record you want by clicking on the hyperlink "
+"Identifier. You can also search for an :term:`accession record` with the "
+"accession records :term:`search box` located at the top of the browse page. "
+"For more information on searching for :term:`accession records <accession "
+"record>` in AtoM, see: :ref:`Searching for accession records <dedicated-"
+"search-accessions>`"
+msgstr ""
+"AtoMは、あなたを引取記録（アクセッションレコード）の :ref:`閲覧ページ <page-type-browse>` "
+"にリダイレクトします。ハイパーリンク「識別子」をクリックして、必要な記録を選択します。また、閲覧ページの上部にある引取記録の "
+":term:`検索ボックス` を利用して :term:`引取記録` を検索することもできます。AtoMでの :term:`引取記録 <accession"
+" record>` の検索方法の詳細については、以下を参照してください：:ref:`引取記録の検索 <dedicated-search-"
+"accessions>`"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of searching for an accession record"
+msgstr "受入記録を検索する画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:329
+msgid ""
+"Once you have selected an :term:`accession record`, you will be redirected "
+"to the selected record's :term:`view page`. To enter :term:`edit mode`, you "
+"can either click the \"Edit\" button in the :term:`button block` at the "
+"bottom of the :term:`view page`, or click on any of the :term:`information "
+"area` headings in the accession record. The accession record will reload in "
+"edit mode."
+msgstr ""
+"選択した:term:`アクセッション記録`を選択すると、選ばれた記録の:term:`閲覧ページ`にリダイレクトされます。:term:`編集モード`に入るには、:term:`閲覧ページ`の下部にある:term:`ボタンブロック`の「編集」ボタンをクリックするか、アクセッション記録内の任意の:term:`情報エリア`の見出しをクリックします。アクセッション記録は編集モードでリロードされます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the button block on an acccession record"
+msgstr "アクセッション記録におけるボタンブロックのイメージ"
+
+#: ../../user-manual/add-edit-content/donors.rst:341
+msgid ""
+"On loading, the :term:`edit page` displays the record with all "
+":term:`information areas <information area>` closed; click on an information"
+" area to access the :term:`fields <field>` grouped under it."
+msgstr ""
+"読み込み時に、:term:`edit page`は全ての:term:`information areas <information "
+"area>`を閉じた状態でレコードを表示します。それぞれの情報エリアをクリックして、その下にグループ化されている:term:`fields "
+"<field>`にアクセスしてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:353
+msgid ""
+"The :term:`donor dialog` will appear. Place your cursor in the \"Name\" "
+":term:`field` of the donor dialog, and begin typing the name of the related "
+"donor. The name :term:`field` is an auto-complete - as you type, matching "
+"results will load in a :term:`drop-down menu` below the field. When you see "
+"the donor name you would like to link, click on it to select it."
+msgstr ""
+"「:term:`寄贈者ダイアログ`が表示されます。寄贈者ダイアログの\"Name\" "
+":term:`フィールド`にカーソルを置き、関連する寄贈者の名前を入力し始めてください。名前の:term:`フィールド`は自動補完機能です - "
+"入力すると、一致する結果がそのフィールドの下にある:term:`ドロップダウンメニュー`にロードされます。リンクしたい寄贈者の名前が表示されたら、それをクリックして選択してください。」"
+
+#: ../../user-manual/add-edit-content/donors.rst:366
+msgid ""
+"This method makes use of  an `auto-complete <https://en.wikipedia.org/wiki "
+"/Auto-complete>`__ field to find the related donor record as you begin to "
+"type its name/title. **Be sure** to pick the record from the :term:`drop-"
+"down <drop-down menu>` when it appears - if you type the full name and press"
+" enter, a new donor record will be generated instead of a link being created"
+" to an existing one!"
+msgstr ""
+"この方法は、名前やタイトルを入力し始めると関連する寄贈者レコードを見つけるための「オートコンプリート<https://ja.wikipedia.org/wiki/オートコンプリート>」フィールドを使用します。ドロップダウン<ドロップダウンメニュー>が表示されたら、**必ず**"
+" "
+"そのレコードを選択してください。完全な名前を入力してエンターキーを押すと、既存のものへのリンクが作成される代わりに、新しい寄贈者レコードが生成されます！"
+
+#: ../../user-manual/add-edit-content/donors.rst
+msgid "An image of the Donor dialog using autocomplete"
+msgstr "ドナー・ダイアログのオートコンプリートを使用した画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:378
+msgid ""
+"If the related Donor record already has the correct contact information, you"
+" do not need to add it to the remaining fields in the :term:`donor dialog` -"
+" it will appear in the related fields when you select the Donor name from "
+"the autocomplete :term:`field` for the related Name. Alternatively, if you "
+"need to make edits to the existing contact information, you can do so now. "
+"When you're ready, click \"Submit\"in the donor dialog."
+msgstr ""
+"関連する寄贈者レコードに既に正しい連絡先情報が含まれている場合、残りのフィールドにそれを追加する必要はありません。関連する名前の自動補完フィールドから寄贈者名を選択すると、関連するフィールドに情報が表示されます。または、既存の連絡先情報を編集する必要がある場合は、今すぐ行うことができます。準備ができたら、「送信」をクリックして寄贈者ダイアログを完了させてください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Donor dialog submit button"
+msgstr "ドナー（寄贈者）ダイアログの送信ボタンの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:391
+msgid ""
+"To create links to multiple donor records, you can repeat this process as "
+"needed. When you are done editing the record, save the :term:`accession "
+"record` by scrolling down and pressing \"Save\" in the :term:`button block`."
+msgstr ""
+"複数の寄贈者記録へのリンクを作成するには、必要に応じてこのプロセスを繰り返すことができます。記録の編集が完了したら、下にスクロールして「保存」ボタンを押し、`:term:`accession"
+" record`（受入記録）を保存してください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Donor/transferring body area in an accession"
+msgstr "アクセッションにおける寄贈者/譲渡主体エリアの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:401
+msgid ""
+"AtoM will reload the :term:`accession record` in :term:`view mode` - the "
+"related Donor's name will now appear as a hyperlink in the "
+"\"Donor/Transferring body\" :term:`information area` of the :term:`accession"
+" record`. Clicking on the hyperlink donor name will take you to the related "
+"donor."
+msgstr ""
+"AtoMは`:term:`アクセッション記録`を`:term:`ビューモード`で再読込みします - "
+"関連する寄贈者の名前がアクセッション記録の\"寄贈者/移譲者\" "
+":term:`情報領域`内にハイパーリンクとして表示されるようになります。ハイパーリンクされた寄贈者の名前をクリックすると、関連する寄贈者の情報ページへと移動します。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the Donor information area in an Accession record"
+msgstr "アクセッション記録におけるドナー情報エリアの画像"
+
+#: ../../user-manual/add-edit-content/donors.rst:417
+msgid "Delete a donor record"
+msgstr "ドナー記録を削除する"
+
+#: ../../user-manual/add-edit-content/donors.rst:419
+msgid ""
+"Navigate to the Donor record you would like to delete. You can do this by "
+"using the :term:`main menu` located in the AtoM :term:`header bar` and "
+"navigating to **Manage > Donors** and then selecting Donor record from the "
+"browse list (or searching for it with the dedicated search bar for Donor "
+"records provided on the Browse page). Alternately, if your donor record is "
+"linked to an :term:`accession record`, you can navigate to the related "
+"accession record and use the hyperlinked Donor name to redirect AtoM to the "
+"desired Donor record."
+msgstr ""
+"あなたが削除したい寄贈者記録に移動します。これは、AtoMの :term:`ヘッダーバー` にある :term:`メインメニュー` を使用して **管理"
+" > 寄贈者** "
+"に移動し、閲覧リストから寄贈者記録を選択するか（あるいは、寄贈者記録の専用検索バーを使用して検索することで行うことができます）。または、もしあなたの寄贈者記録が"
+" :term:`寄託記録` "
+"にリンクされている場合、関連する寄託記録に移動し、ハイパーリンクされた寄贈者名を使ってAtoMに所望の寄贈者記録にリダイレクトさせることができます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:435
+msgid ""
+"For more information on locating Donor records, see above, :ref:`Edit an "
+"existing donor record <edit-donor-record>`. For information on locating "
+":term:`accession records <accession record>`, see: :ref:`Edit an existing "
+"accession record <edit-accession-record>`. For general information on "
+"navigation in AtoM, see: :ref:`Access content <access-content>`"
+msgstr ""
+"記録の提供者に関する記録の検索方法の詳細については、上記の「既存の提供者記録を編集する<edit-donor-"
+"record>」を参照してください。アクセッション記録<accession "
+"record>の検索方法については、「既存のアクセッション記録を編集する<edit-accession-"
+"record>」を参照してください。AtoMでの一般的なナビゲーション情報については、「コンテンツへのアクセス<access-"
+"content>」を参照してください。"
+
+#: ../../user-manual/add-edit-content/donors.rst:441
+msgid ""
+"When you have arrived at the Donor record's :term:`view page`, click on the "
+":term:`Delete button` located in the :term:`button block` located at the "
+"bottom of the record."
+msgstr "ドナーレコードの「ビューページ」に到達したら、レコードの下部にある「ボタンブロック」内に位置する「削除ボタン」をクリックします。"
+
+#: ../../user-manual/add-edit-content/donors.rst:450
+msgid ""
+"AtoM will ask you to confirm that you want to delete the Donor record. Click"
+" the \"Delete\" button to delete, or the \"Cancel\" button to return to the "
+"Donor record :term:`view page`. If you click \"Delete,\" the Donor record "
+"will be permanently deleted."
+msgstr ""
+"AtoMは、ドナー記録を削除しても良いか確認を求めてきます。削除するには「Delete」ボタンを、ドナー記録の:term:`view "
+"page`に戻るには「Cancel」ボタンをクリックしてください。もし「Delete」をクリックすると、ドナー記録は完全に削除されます。"
+
+#: ../../user-manual/add-edit-content/donors.rst:-1
+msgid "An image of the confirmation page for a Donor deletion"
+msgstr "ドナー削除の確認ページの画像"

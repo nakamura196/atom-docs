@@ -1,0 +1,477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/customization/theming.rst:5
+msgid "Theming"
+msgstr "テーマ設定"
+
+#: ../../admin-manual/customization/theming.rst:7
+msgid ""
+"AtoM themes can be customized by editing the appropriate css/scss and .php "
+"files, or you can create a custom theme."
+msgstr ""
+"AtoMのテーマは、該当するcss/scssや.phpファイルを編集することでカスタマイズすることができます。また、カスタムテーマを作成することも可能です。"
+
+#: ../../admin-manual/customization/theming.rst:10
+msgid ""
+"Please note AtoM 2.7 introduced a new version of the Bootstrap (“BS5”) web "
+"framework, and shipped with a theme based on BS5."
+msgstr ""
+"AtoM "
+"2.7では新しいバージョンのBootstrap（「BS5」と呼ばれる）ウェブフレームワークが導入され、BS5に基づいたテーマが搭載されていることにご注意ください。"
+
+#: ../../admin-manual/customization/theming.rst:14
+msgid "Bootstrap 2 Deprecation Notice"
+msgstr "Bootstrap 2 廃止通知"
+
+#: ../../admin-manual/customization/theming.rst:16
+#: ../../admin-manual/customization/theming.rst:173
+msgid ""
+"Bootstrap 2 themes have been deprecated and will be removed in a future "
+"release. Please consider switching to a Bootstrap 5 theme."
+msgstr ""
+"Bootstrap 2 のテーマは廃止予定であり、将来のリリースで削除される予定です。Bootstrap 5 "
+"のテーマに切り替えることを検討してください。"
+
+#: ../../admin-manual/customization/theming.rst:21
+msgid ":ref:`Change theme <themes-change-theme>`"
+msgstr ":ref:`テーマの変更 <themes-change-theme>`"
+
+#: ../../admin-manual/customization/theming.rst:22
+msgid ":ref:`Create a custom theme <customization-custom-theme>`"
+msgstr ":ref:`カスタムテーマの作成 <customization-custom-theme>`"
+
+#: ../../admin-manual/customization/theming.rst:25
+msgid "Customize how an AtoM theme looks"
+msgstr "AtoMテーマの外観をカスタマイズする"
+
+#: ../../admin-manual/customization/theming.rst:27
+msgid ""
+"Revise website name, tagline and logo in apps/qubit/templates/layout.php."
+msgstr "apps/qubit/templates/layout.php 内でウェブサイト名、タグライン、およびロゴを修正してください。"
+
+#: ../../admin-manual/customization/theming.rst:29
+msgid "Add new logo image to web/images."
+msgstr "ウェブのimagesフォルダに新しいロゴ画像を追加してください。"
+
+#: ../../admin-manual/customization/theming.rst:31
+msgid ""
+"Revise website name & logo section in graphic.css to style new website name,"
+" tagline and logo"
+msgstr ""
+"グラフィック.cssにおけるウェブサイト名とロゴのセクションを改訂し、新しいウェブサイト名、キャッチフレーズ、およびロゴのスタイルを設定する"
+
+#: ../../admin-manual/customization/theming.rst:34
+msgid "Replace favicon.ico in /web."
+msgstr "/webにあるfavicon.icoを置き換えなさい。"
+
+#: ../../admin-manual/customization/theming.rst:36
+msgid ""
+"Change website meta tags (e.g. title, description, keywords) in "
+"apps/qubit/config/view.yml."
+msgstr ""
+"アプリケーションのqubit/config/view.ymlで、ウェブサイトのメタタグ（例：タイトル、説明、キーワードなど）を変更してください。"
+
+#: ../../admin-manual/customization/theming.rst:39
+msgid ""
+"Change the homepage and about page content in staticPages.yml or in the user"
+" interface- see :ref:`manage-static-pages`."
+msgstr ""
+"ホームページと「アバウト」ページの内容は、staticPages.yml "
+"またはユーザーインターフェースで変更できます。詳細は「:ref:`manage-static-pages`」を参照してください。"
+
+#: ../../admin-manual/customization/theming.rst:42
+msgid ""
+"Change default user interface labels in siteSettings.yml or in the user "
+"interface- see :ref:`user-interface-labels`."
+msgstr ""
+"サイト設定のデフォルトユーザーインターフェースラベルは、siteSettings.yml またはユーザーインターフェース内で変更可能です - 詳細は "
+":ref:`user-interface-labels` を参照してください。"
+
+#: ../../admin-manual/customization/theming.rst:45
+msgid ""
+"Change the default templates for each module in siteSettings.yml or in the "
+"user interface- see :ref:`default-templates`."
+msgstr ""
+"各モジュールのデフォルトテンプレートは、siteSettings.ymlまたはユーザーインターフェイスで変更してください。詳しくは「default-"
+"templates」を参照してください。"
+
+#: ../../admin-manual/customization/theming.rst:48
+msgid ""
+"Revise default drop-down/picklist values as well as menu options and labels "
+"in the user interface- see :ref:`manage-menus`."
+msgstr ""
+"ユーザーインターフェイスのデフォルトのドロップダウン/ピックリストの値やメニューオプション、ラベルを見直してください。詳細は `manage-"
+"menus`を参照してください。"
+
+#: ../../admin-manual/customization/theming.rst:55
+msgid "Create a custom theme"
+msgstr "カスタムテーマを作成する"
+
+#: ../../admin-manual/customization/theming.rst:57
+msgid ""
+"In most cases, it's probably enough to build a custom theme upon an existing"
+" one and preferably to use one that relies on our base theme Dominion, so "
+"you don't have to get your hands too dirty. It's in the details where most "
+"of the complexities are found. Dominion is the result of a cyclic process of"
+" testing and refining by a large community of users, try not to "
+"underestimate that!"
+msgstr ""
+"ほとんどの場合、既存のテーマをもとにカスタムテーマを構築するだけで十分であり、できれば私たちのベーステーマであるDominionに依存しているものを使用することをおすすめします。それによって、あまり手を汚さなくても済みます。複雑さはほとんどの場合、細部に潜んでいます。Dominionは、大規模なユーザーコミュニティによるテストと洗練の循環プロセスの結果です。それを過小評価しないようにしてください！"
+
+#: ../../admin-manual/customization/theming.rst:63
+msgid ""
+"AtoM bundles three themes: arDominionPlugin, arDominionB5Plugin and "
+"arArchivesCanadaPlugin. Their names follow the naming convention of Symfony "
+"1.x plugins, because that is how themes are implemented in AtoM. You may "
+"want to read more about Symfony plugins later following `one of their guides"
+" <http://symfony.com/legacy/doc/gentle-introduction/1_4/en/17-Extending-"
+"Symfony#chapter_17_plug_ins>`_."
+msgstr ""
+"AtoMは、arDominionPlugin、arDominionB5Plugin、arArchivesCanadaPluginという3つのテーマを組み込んでいます。それらの名前はSymfony"
+" "
+"1.xプラグインの命名規則に従っています。なぜなら、AtoMではテーマがプラグインとして実装されているからです。Symfonyプラグインについてもっと学びたい場合は、後ほど`彼らのガイドの一つ"
+" <http://symfony.com/legacy/doc/gentle-introduction/1_4/en/17-Extending-"
+"Symfony#chapter_17_plug_ins>`_ を参照すると良いでしょう。"
+
+#: ../../admin-manual/customization/theming.rst:68
+msgid ""
+"arDominionB5Plugin is the default theme, i.e. the theme that will be used in"
+" a fresh installation. arArchivesCanadaPlugin was developed as an extension "
+"of the former and the following instructions will show you how to create "
+"your custom theme as we did with arArchivesCanadaPlugin."
+msgstr ""
+"arDominionB5Pluginはデフォルトのテーマ、つまり新規インストール時に使用されるテーマです。arArchivesCanadaPluginはその拡張として開発されました。以下の指示に従って、arArchivesCanadaPluginを作成した時と同じ方法であなたのカスタムテーマを作成する方法を示します。"
+
+#: ../../admin-manual/customization/theming.rst:75
+msgid ""
+"The following instructions assume you already have an AtoM development "
+"environment set up locally. If not, we have two development-friendly "
+"environments for AtoM - see:"
+msgstr ""
+"以下の指示は、すでにAtoM開発環境をローカルにセットアップしていることを前提としています。そうでない場合は、AtoM向けに2つの開発に優しい環境があります"
+" - 詳細は次を参照してください："
+
+#: ../../admin-manual/customization/theming.rst:78
+msgid ":ref:`dev-env-vagrant`"
+msgstr ""
+"この \":ref:`dev-env-vagrant`\" はReStructuredText (reST) 形式のクロスリファレンスを意味しています。クロスリファレンス内の `dev-env-vagrant`は特定の開発環境に関するセクションまたはドキュメントを参照している可能性があります。翻訳にあたってはそのままの形で残し、周辺テキストを提供していただければ精確に翻訳することが可能です。ただし、出力される文書は、参照先が日本語に翻訳されているかどうかによっても変わります。\n"
+"\n"
+"そのため、ReStructuredTextマークアップを持つテキストの翻訳を依頼された場合、そのリファレンスが指し示す具体的な内容を把握しておくことが重要です。情報が不足している場合、クロスリファレンスは翻訳作業中に所定の位置に保留するか、または対応する翻訳済みセクションのタイトルに置き換えることが求められます。そのため、ここではこのクロスリファレンスを単体で日本語に適切に翻訳することができません。"
+
+#: ../../admin-manual/customization/theming.rst:79
+msgid ":ref:`dev-env-compose`"
+msgstr ""
+"このテキストは、ドキュメントやマニュアル内で参照リンクを指すマークアップ用の短いコードのようです。このコード自体には直接的な日本語訳はありませんが、ドキュメント内におけるその機能に基づいて日本語で説明を加えることができます。テキストが参照している内容が「開発環境のDocker Compose設定」に関係している場合、以下のように訳すことができます：\n"
+"\n"
+"```:ref:`dev-env-compose` のセクションを参照してください。```\n"
+"\n"
+"これにより、日本語のドキュメントを読む人が参照セクションに簡単にアクセスできるようになります。実際の翻訳では、参照しているセクションの正確な日本語のタイトルに合わせて置き換える必要があります。"
+
+#: ../../admin-manual/customization/theming.rst:83
+msgid "Custom Bootstrap 5 Theme"
+msgstr "カスタム Bootstrap 5 テーマ"
+
+#: ../../admin-manual/customization/theming.rst:85
+msgid ""
+"With the new BS5 framework, creating a custom theme that is an extension of "
+"the default arDominionB5Plugin theme has become significantly easier. A "
+"skeleton for an empty AtoM theme plugin that extends arDominionB5Plugin "
+"without any modifications can be found in this `arThemeB5Plugin repository "
+"<https://github.com/artefactual-labs/arThemeB5Plugin>`_."
+msgstr ""
+"新しいBS5フレームワークにより、デフォルトのarDominionB5Pluginテーマを拡張するカスタムテーマを作成することが大幅に簡単になりました。何の変更も加えずにarDominionB5Pluginを拡張する空のAtoMテーマプラグインの骨格は、この"
+" `arThemeB5Pluginリポジトリ <https://github.com/artefactual-"
+"labs/arThemeB5Plugin>`_ で見つけることができます。"
+
+#: ../../admin-manual/customization/theming.rst:92
+msgid "Additional steps for tarball installations:"
+msgstr "ターボールインストールの追加手順："
+
+#: ../../admin-manual/customization/theming.rst:94
+msgid ""
+"If not already installed, first `download the node.js binary distributuion "
+"<https://nodejs.org/en/download>`_ and export the PATH variable."
+msgstr ""
+"まだインストールされていない場合は、まず `node.js のバイナリ配布を<https://nodejs.org/en/download>`_ "
+"からダウンロードして、PATH変数をエクスポートしてください。"
+
+#: ../../admin-manual/customization/theming.rst:97
+msgid "The tarball is missing three required files for this:"
+msgstr "このために、tarball が3つの必要なファイルを欠いています:"
+
+#: ../../admin-manual/customization/theming.rst:99
+msgid ""
+":version-"
+"ref:`package.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package.json>`"
+msgstr ""
+":version-ref:`package.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package.json>`の翻訳は以下の通りです。\n"
+"\n"
+"バージョン参照:`package.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package.json>`"
+
+#: ../../admin-manual/customization/theming.rst:100
+msgid ""
+":version-ref:`package-"
+"lock.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package-"
+"lock.json>`"
+msgstr ""
+":version-ref:`package-lock.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package-lock.json>`の日本語訳は以下のようになります。\n"
+"\n"
+":バージョン参照:`package-lock.json<https://github.com/artefactual/atom/blob/stable/{version}.x/package-lock.json>`"
+
+#: ../../admin-manual/customization/theming.rst:101
+msgid ""
+":version-ref:`webpack.config.js "
+"<https://github.com/artefactual/atom/blob/stable/{version}.x/webpack.config.js>`"
+msgstr ""
+"以下のテキストを日本語に翻訳しています。\n"
+"\n"
+":version-ref:`webpack.config.js <https://github.com/artefactual/atom/blob/stable/{version}.x/webpack.config.js>` \n"
+"\n"
+"このテキストは、特定の GitHub リンクをバージョン番号で参照するマークダウンのフレーズです。`{version}` は、翻訳プロセスの一部として固有のバージョン番号に置き換えるべきプレースホルダーです。以下に日本語の翻訳例を示しますが、バージョン番号は具体的なものに置き換える必要があります。\n"
+"\n"
+"バージョン参照：`webpack.config.js <https://github.com/artefactual/atom/blob/stable/{バージョン番号}.x/webpack.config.js>`\n"
+"\n"
+"なお、文脈によっては、”バージョン参照” の前に追加の文言が必要になる場合があります。例えば、\"以下のリンクから特定のバージョンの\" などです。また、特定の翻訳プロジェクトによっては、リンク形式やフォーマットが異なる可能性がありますので、ご留意ください。"
+
+#: ../../admin-manual/customization/theming.rst:103
+msgid ""
+"Copy the above files from the *correct stable branch* (stable/|version|.x "
+"for AtoM |version|) of our `AtoM repo "
+"<https://github.com/artefactual/atom/>`_."
+msgstr ""
+"上記のファイルを、私たちの`AtoMリポジトリ <https://github.com/artefactual/atom/>`_ "
+"の*正しい安定したブランチ*（AtoM |version|の場合はstable/|version|.x）からコピーしてください。"
+
+#: ../../admin-manual/customization/theming.rst:106
+msgid "Test that everything has been installed correctly:"
+msgstr "正しくインストールされたことを確認するテストを行います："
+
+#: ../../admin-manual/customization/theming.rst:113
+msgid ""
+"If you encounter any issues at this point, we recommend resolving any issues"
+" by consulting the :ref:`maintenance-troubleshooting` documentation before "
+"continuing."
+msgstr ""
+"この段階で何か問題に遭遇した場合、続行する前に :ref:`メンテナンストラブルシューティング` "
+"のドキュメントを参照して問題を解決することをお勧めします。"
+
+#: ../../admin-manual/customization/theming.rst:117
+msgid "Let's begin creating our new BS5 Theme:"
+msgstr "それでは新しいBS5テーマの作成を始めましょう："
+
+#: ../../admin-manual/customization/theming.rst:125
+msgid ""
+"Here, we've cloned the repo directly into the `atom/plugins` directory, "
+"renaming the theme to `arCustomThemeB5Plugin`, and removed the git related "
+"files."
+msgstr ""
+"ここでは、リポジトリを`atom/plugins`ディレクトリに直接クローンし、テーマの名前を`arCustomThemeB5Plugin`に変更し、gitに関連するファイルを削除しました。"
+
+#: ../../admin-manual/customization/theming.rst:133
+msgid ""
+"To configure the theme plugin, we've renamed the config filename to match "
+"the plugin name. Next, we need to change the `class name "
+"<https://github.com/artefactual-"
+"labs/arThemeB5Plugin/blob/main/config/arThemeB5PluginConfiguration.class.php#L23>`_"
+" to match the new config filename (`arCustomThemeB5PluginConfiguration` for "
+"this example)."
+msgstr ""
+"テーマプラグインを設定するために、設定ファイルの名前をプラグインの名前に合わせて変更しました。次に、新しい設定ファイルの名前（この例では "
+"`arCustomThemeB5PluginConfiguration`）に合わせて `クラス名 "
+"<https://github.com/artefactual-"
+"labs/arThemeB5Plugin/blob/main/config/arThemeB5PluginConfiguration.class.php#L23>`_"
+" を変更する必要があります。"
+
+#: ../../admin-manual/customization/theming.rst:138
+msgid ""
+"Optionally, you can update the theme summary and version within the config "
+"file and change the theme image thumbnail by replacing "
+"`arCustomThemeB5Plugin/images/image.png`."
+msgstr ""
+"オプションとして、設定ファイル内のテーマ概要とバージョンをアップデートすることができます。また、`arCustomThemeB5Plugin/images/image.png`"
+" を置き換えることでテーマ画像のサムネイルを変更することもできます。"
+
+#: ../../admin-manual/customization/theming.rst:141
+msgid ""
+"To change the logo for BS5 themes, add the logo to "
+"`plugins/arCustomThemeB5Plugin/images/logo.png`. Style changes can be made "
+"directly to, or linked in, the `main SCSS file "
+"<https://github.com/artefactual-"
+"labs/arThemeB5Plugin/blob/main/scss/main.scss>`_. Custom javascripts can be "
+"added to the js directory and linked in the `main js file "
+"<https://github.com/artefactual-"
+"labs/arThemeB5Plugin/blob/main/js/main.js>`_."
+msgstr ""
+"BS5テーマのロゴを変更するには、`plugins/arCustomThemeB5Plugin/images/logo.png` "
+"にロゴを追加してください。スタイルの変更は、`main SCSS file <https://github.com/artefactual-"
+"labs/arThemeB5Plugin/blob/main/scss/main.scss>`_ "
+"に直接行うか、リンクを追加して行うことができます。カスタムJavascriptは、jsディレクトリに追加して `main js file "
+"<https://github.com/artefactual-labs/arThemeB5Plugin/blob/main/js/main.js>`_"
+" にリンクすることにより追加できます。"
+
+#: ../../admin-manual/customization/theming.rst:145
+msgid ""
+"For additional functionlity modifications, copy files required into the new "
+"`plugins/arCustomThemeB5Plugin` directory for overwriting. Due to file "
+"precedence, when copying files, first check the `plugins/arDominionB5Plugin`"
+" for the required file, and only copy from `apps/qubit` when the file is not"
+" found in `plugins/arDominionB5Plugin`. Files copied should have the same "
+"file path with `plugin/arCustomThemeB5Plugin` replacing `apps/qubit` or "
+"`plugins/arDominionB5Plugin`."
+msgstr ""
+"追加の機能変更には、新しい `plugins/arCustomThemeB5Plugin` "
+"ディレクトリに上書きするために必要なファイルをコピーしてください。ファイルの優先順位により、ファイルをコピーする際にはまず "
+"`plugins/arDominionB5Plugin` で必要なファイルをチェックし、そのファイルが "
+"`plugins/arDominionB5Plugin` に見つからない場合のみ `apps/qubit` "
+"からコピーしてください。コピーされるファイルは、`apps/qubit` や `plugins/arDominionB5Plugin` を "
+"`plugin/arCustomThemeB5Plugin` で置き換えた同じファイルパスを持つべきです。"
+
+#: ../../admin-manual/customization/theming.rst:158
+msgid ""
+"Once you've made all the required changes to your theme, build the theme "
+"assets, and you should now be able to use your new theme!"
+msgstr "テーマに必要な変更をすべて行ったら、テーマのアセットをビルドしてください。これで新しいテーマを使用できるようになるはずです！"
+
+#: ../../admin-manual/customization/theming.rst:163
+msgid ""
+"If you are still not seeing your changes take effect, remember to "
+":ref:`clear the Symfony cache <maintenance-clear-cache>` and your web "
+"browser's cache as well!"
+msgstr ""
+"まだ変更が反映されていない場合は、Symfonyキャッシュをクリアすることを忘れずに :ref:`Symfonyキャッシュのクリア<メンテナンス-"
+"キャッシュのクリア>` さらに、あなたのウェブブラウザのキャッシュもクリアしてください！"
+
+#: ../../admin-manual/customization/theming.rst:169
+msgid "Custom Bootstrap 2 Theme"
+msgstr "カスタム Bootstrap 2 テーマ"
+
+#: ../../admin-manual/customization/theming.rst:176
+msgid ""
+"Let's start building the plugin structure from the command line. Our theme "
+"is going to be called Corcovado (arCorcovadoPlugin). We are going to track "
+"its contents with git and publish them in a remote repository hosted by "
+"GitHub so we can enable others to contribute in the development. The "
+"repository is open source so you can use it for your own reference, see "
+"https://github.com/artefactual-labs/atom-theme-corcovado. You can also "
+"`create your own repository <https://help.github.com/articles/create-a-"
+"repo/>`_."
+msgstr ""
+"コマンドラインからプラグインの構造を構築し始めましょう。私たちのテーマは「Corcovado（arCorcovadoPlugin）」と呼ぶことにします。その内容をgitで追跡し、GitHubにホストされたリモートリポジトリに公開することで、他の開発者が貢献できるようにします。リポジトリはオープンソースなので、あなた自身の参照用に使用することができます。詳細は"
+" https://github.com/artefactual-labs/atom-theme-corcovado "
+"をご覧ください。また、`自分自身のリポジトリを作成する <https://help.github.com/articles/create-a-"
+"repo/>`_ こともできます。"
+
+#: ../../admin-manual/customization/theming.rst:183
+msgid "Let's begin to do some real work:"
+msgstr "それでは、実際の作業を始めましょう："
+
+#: ../../admin-manual/customization/theming.rst:196
+msgid ""
+"We've created an empty directory where our plugin is going to be contained, "
+"made a git repository of it, tracked our first file and published our work "
+"to GitHub! However, our plugin does not meet the needed requirements for "
+"AtoM to recognize it and allow us to enable it. Let's make that happen:"
+msgstr ""
+"私たちはプラグインが含まれる空のディレクトリーを作成し、それをgitリポジトリーにし、最初のファイルをトラッキングして、作業をGitHubに公開しました！しかしながら、私たちのプラグインはAtoMが認識して有効にできるようにするために必要な条件を満たしていません。それを実現させましょう："
+
+#: ../../admin-manual/customization/theming.rst:207
+msgid ""
+"Create a new file :file:`arCorcovadoPluginConfiguration.class.php` with the "
+"following contents:"
+msgstr "新しいファイル `arCorcovadoPluginConfiguration.class.php` を以下の内容で作成します："
+
+#: ../../admin-manual/customization/theming.rst:247
+msgid ""
+"You may also have to :ref:`clear the Symfony cache <maintenance-clear-"
+"cache>`, depending on the configuration of your environment but it's not "
+"necessary in our Vagrant box. Now open the theme manager in AtoM found under"
+" the Admin menu. The new arCorcovadoPlugin should appear and you can enable "
+"it now. We have not defined our stylesheets yet so you will basically see a "
+"bunch of text and links on a blank page. We are going to fix that now."
+msgstr ""
+"環境の設定によっては :ref:`Symfonyキャッシュをクリア<maintenance-clear-"
+"cache>`する必要があるかもしれませんが、私たちのVagrantボックスでは必要ありません。さあ、AtoMの管理メニューの下にあるテーママネージャを開きます。そこに新しいarCorcovadoPluginが表示されるはずですので、今すぐそれを有効にすることができます。まだスタイルシートを定義していないので、基本的には白紙のページにテキストとリンクがずらりと並んだ状態を見ることになります。それをこれから修正しましょう。"
+
+#: ../../admin-manual/customization/theming.rst:254
+msgid "Download the reference stylesheet and compile it:"
+msgstr "参照用のスタイルシートをダウンロードして、コンパイルしてください。"
+
+#: ../../admin-manual/customization/theming.rst:264
+msgid ""
+"Now try to visit your AtoM site again from your browser. The aspect of "
+"Corcovado is a bit unusual and buggy but you can have an idea of how much "
+"you can achieve with just a small number of CSS selectors and expressions. "
+"Additionally, you can take advantage of the extra sugar supported by the "
+"`Less CSS pre-processor <http://lesscss.org>`_, e.g. variables, functions, "
+"includes, etc..."
+msgstr ""
+"では、ブラウザから再度AtoMサイトにアクセスしてみてください。Corcovadoの外観は少し変わっておりバグもありますが、僅かな数のCSSセレクタや式を使うだけでどれだけ多くのことが達成できるかのイメージがわかるでしょう。さらに、`Less"
+" CSS プリプロセッサ <http://lesscss.org>`_ がサポートしている追加の機能、例えば変数、関数、インクルードなどを利用できます。"
+
+#: ../../admin-manual/customization/theming.rst:270
+msgid ""
+"The `arCorcovadoPlugin repository <https://github.com/artefactual-labs/atom-"
+"theme-corcovado>`_ includes a Makefile that simplifies the compilation of "
+"the final stylesheet artifact which you could track in your git repository "
+"or build when needed. We prefer the latter but you may prefer to avoid "
+"having to install Less and its dependencies in production."
+msgstr ""
+"`arCorcovadoPlugin リポジトリ <https://github.com/artefactual-labs/atom-theme-"
+"corcovado>`_ には、最終的なスタイルシート成果物のコンパイルを簡略化する Makefile が含まれています。これは、Git "
+"リポジトリで追跡するか、必要に応じてビルドすることができます。私たちは後者を好みますが、本番環境で Less "
+"とその依存関係をインストールすることを避けたい場合は、前者を好むかもしれません。"
+
+#: ../../admin-manual/customization/theming.rst:276
+msgid ""
+"In `Dominion "
+"<https://github.com/artefactual/atom/tree/stable/2.7.x/plugins/arDominionPlugin>`_,"
+" we use the `Gulp build system <http://gulpjs.com/>`_ in order to "
+"automatically build the final CSS file when we make changes in our "
+"stylesheets, saving us from running that extra step. It's a tiny improvement"
+" that really counts when you spend hours building a theme. Gulp can do much "
+"more than that, like refreshing our browser or doing live reload each time "
+"we make a change, but that's something that we haven't tried yet."
+msgstr ""
+"Dominion（<https://github.com/artefactual/atom/tree/stable/2.7.x/plugins/arDominionPlugin>）では、スタイルシートに変更を加えた時に最終的なCSSファイルを自動的に構築するために、Gulpビルドシステム（<http://gulpjs.com/>）を使用しています。これにより、その余分なステップを実行する必要がなくなるため、テーマを構築する際に何時間もかけると本当に大きな改善となります。Gulpはそれ以上のこともできます。例えば、私たちが変更を加えるたびにブラウザをリフレッシュしたり、ライブリロードを行うなどですが、それはまだ試していないことです。"
+
+#: ../../admin-manual/customization/theming.rst:284
+msgid ""
+"Symfony plugins allow you to do much more. For example, you could include "
+"and use custom images, add your own templates or override the original ones "
+"provided by AtoM, inject new controllers, filters, or signal callbacks, and "
+"much more. Take a look at our `arArchivesCanadaPlugin "
+"<https://github.com/artefactual/atom/tree/stable/2.7.x/plugins/arArchivesCanadaPlugin>`_."
+" This theme overrides the original homepage template as well as the search "
+"box and the main header template. Other plugins in the same repository may "
+"give you more ideas of what's possible - we've built much more than simple "
+"application themes through plugins, e.g. our metadata templates or our "
+"initial HTTP API work are Symfony plugins too."
+msgstr ""
+"Symfonyプラグインを使用すると、さらに多くのことを行うことができます。たとえば、独自の画像を含めて使用したり、オリジナルのテンプレートに自分のテンプレートを追加したり、AtoMによって提供されているもともとのテンプレートを上書きしたり、新しいコントローラー、フィルター、またはシグナルコールバックを注入したりすることができます。そしてさらに多くのことが可能です。私たちの`arArchivesCanadaPlugin"
+" "
+"<https://github.com/artefactual/atom/tree/stable/2.7.x/plugins/arArchivesCanadaPlugin>`_を見てみてください。このテーマは、オリジナルのホームページテンプレートだけでなく、検索ボックスやメインヘッダーテンプレートも上書きします。同じリポジトリ内の他のプラグインも、何が可能かのアイデアをもっと提供してくれるかもしれません"
+" - 私たちは単純なアプリケーションテーマを通じてより多くのものを作り上げてきました。例えば、私たちのメタデータテンプレートや初期のHTTP "
+"API作業もSymfonyプラグインです。"
+
+#: ../../admin-manual/customization/theming.rst:295
+msgid ":ref:`Back to the top <customization-theming>`"
+msgstr "参照： `トップに戻る <customization-theming>`"

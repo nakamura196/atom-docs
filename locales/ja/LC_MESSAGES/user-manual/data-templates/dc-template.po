@@ -1,0 +1,1059 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/data-templates/dc-template.rst:5
+msgid "Dublin Core Metadata Element Set, Version 1.1 (DC)"
+msgstr "ダブリンコアメタデータ要素セット・バージョン1.1 (DC)"
+
+#: ../../user-manual/data-templates/dc-template.rst:7
+msgid "On this page you will find:"
+msgstr "このページで以下の内容が見つかります："
+
+#: ../../user-manual/data-templates/dc-template.rst:9
+msgid ""
+"Link to downloadable CSV template using `ISAD(G) General International "
+"Standard Archival Description <http://www.ica.org/10207/standards/isadg-"
+"general-international-standard-archival-description-second-edition.html>`_"
+msgstr ""
+"ダウンロード可能なCSVテンプレートへのリンク `ISAD(G) 国際標準アーカイブ記述 "
+"<http://www.ica.org/10207/standards/isadg-general-international-standard-"
+"archival-description-second-edition.html>`_"
+
+#: ../../user-manual/data-templates/dc-template.rst:11
+msgid ""
+"Description of fields used when entering or importing :term:`archival "
+"descriptions <archival description>` using DC in a :term:`CSV` file or "
+"entering the data manually."
+msgstr ""
+"DCを使用して:term:`CSV`ファイルから:term:`archival descriptions <archival "
+"description>`を入力またはインポートする際に使用されるフィールドの説明。または、データを手動で入力する場合。"
+
+#: ../../user-manual/data-templates/dc-template.rst:17
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイブ記述`"
+
+#: ../../user-manual/data-templates/dc-template.rst:18
+msgid ":ref:`csv-import`"
+msgstr ""
+"このテキストは、Archivematicaドキュメントにおけるリファレンスリンクの書式です。そのままの形では自然な日本語にはなりませんので、日本語ドキュメントに合わせた適切な形に修正する必要があります。\n"
+"\n"
+"もし、このリンクが「CSVインポート機能」の節を参照していると仮定すれば、日本語で次のように表すことができます:\n"
+"\n"
+"```\n"
+"`CSVインポート` セクションを参照してください。\n"
+"```\n"
+"\n"
+"ただし、実際の章や節のタイトルは日本語のドキュメントの内容に応じて異なる場合があるため、実際にはドキュメントの該当部分の正確な名称を使用してください。また、reStructuredTextフォーマットにおいては、バックティック (`) と角括弧やref指令を使ってリンクを作成しますが、日本語に訳す際にはドキュメントの具体的な参照リンク方式に従う必要があります。\n"
+"\n"
+"完全な文を提供するためには、ドキュメントの他部分との整合性を取る必要があるので、一時的な翻訳として上記のものを提案しますが、正確な翻訳にはドキュメントのコンテキストが必要です。"
+
+#: ../../user-manual/data-templates/dc-template.rst:19
+msgid ":ref:`import-xml`"
+msgstr ""
+":ref:`import-xml` の参照は、具体的なセクションやドキュメントを指していると思われますが、文脈が不足しているため、適切な翻訳を提供することは難しいです。しかし、もし単純にタイトルやセクションの名前を翻訳するだけならば、「XMLのインポート」という意味になりますが、これは標準的な筆記体フォーマットやマークアップ言語 (SphinxやreStructuredTextなど) で使用される参照ラベルかもしれません。\n"
+"\n"
+"実際の文脈での適切な翻訳にはドキュメントの全体的な理解が必要になります。もし、完全なテキストや追加の情報があれば、より正確な翻訳を提供することができます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:20
+msgid ":ref:`export-xml`"
+msgstr ""
+":ref:`export-xml` という指示は、特定の参照リンクや関連ドキュメントを指し示していると見られますが、そのままでは、この短い断片からどのような文脈や詳細な情報を翻訳すべきか明確ではありません。テキストの内容を把握するためにも、もう少し補足説明が必要です。\n"
+"\n"
+"しかし、仮定としてこのテキストが文書内の「export-xml」セクションを参照しているとしたら、単純な日本語翻訳としては、以下のようになります：\n"
+"\n"
+":ref:`エクスポート-XML`\n"
+"\n"
+"ただし、これは指示の翻訳であり、具体的な説明や命令ではないことに注意してください。文脈に応じた適切な翻訳や記述に修正が必要な場合があります。"
+
+#: ../../user-manual/data-templates/dc-template.rst:21
+msgid ":ref:`cli-import-export`"
+msgstr ":ref:`CLIインポート-エクスポート`"
+
+#: ../../user-manual/data-templates/dc-template.rst:26
+msgid "Dublin Core and the ISAD CSV template"
+msgstr "ダブリンコアおよびISAD CSVテンプレート"
+
+#: ../../user-manual/data-templates/dc-template.rst:28
+msgid ""
+"At present, there is no DC-based CSV template for importing descriptions "
+"into  AtoM. However, because AtoM was originally based on the `ICA's "
+"<http://www.ica.org/>`_  ISAD(G) standard (see: :ref:`ISAD <isad-"
+"template>`), the ISAD CSV template can be used for import, as all templates "
+"have been crosswalked in AtoM where possible."
+msgstr ""
+"現時点では、AtoMに記述をインポートするためのDC基準のCSVテンプレートは存在しません。しかし、AtoMはもともと`ICA "
+"<http://www.ica.org/>`_ のISAD(G)標準（参照：:ref:`ISAD <isad-"
+"template>`）に基づいていたので、ISAD "
+"CSVテンプレートをインポート用に使用することができ、可能な限りAtoMでテンプレートのクロスウォークが実施されています。"
+
+#: ../../user-manual/data-templates/dc-template.rst:34
+msgid ""
+"To test this, we recommend creating a full DC description in AtoM, and then "
+"changing the display template to DC, to determine where field in DC map to "
+"ISAD. For more information on changing the display template for a "
+"description, see: :ref:`change-display-standard`. If desired, all templates "
+"in AtoM can be changed at the  same time using the *Default template* "
+"setting available in **Admin > Settings** - see :ref:`default-templates`."
+msgstr ""
+"これをテストするために、AtoMで完全なDC記述を作成し、それから表示テンプレートをDCに変更して、DCのどのフィールドがISADに対応しているかを確認することを推奨します。記述の表示テンプレートを変更する方法の詳細については、:ref:`change-"
+"display-standard` を参照してください。もし望むなら、AtoM内のすべてのテンプレートを**管理 > "
+"設定**で利用可能な*既定のテンプレート*設定を使用して同時に変更することができます - 詳細は :ref:`default-templates` "
+"を見てください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:41
+msgid ""
+"The CSV mappings below will provide guidance on which ISAD CSV fields can be"
+" used to import your DC-based descriptions into AtoM."
+msgstr ""
+"以下のCSVマッピングは、どのISAD CSVフィールドを使用して、DCベースの記述をAtoMにインポートするかに関するガイダンスを提供します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:44
+msgid ""
+"To download the ISAD(G) CSV template for AtoM, please visit our wiki page:"
+msgstr "AtoM用のISAD(G) CSVテンプレートをダウンロードするには、弊社のウィキページをご訪問ください："
+
+#: ../../user-manual/data-templates/dc-template.rst:46
+msgid "https://wiki.accesstomemory.org/Resources/CSV_templates"
+msgstr "アクセス・トゥ・メモリーのウィキの「CSVテンプレート」リソースページへのリンクです。"
+
+#: ../../user-manual/data-templates/dc-template.rst:49
+msgid "Field descriptions"
+msgstr "フィールドの説明"
+
+#: ../../user-manual/data-templates/dc-template.rst:51
+msgid ""
+"AtoM implements unqualified `Dublin Core Metadata Element Set, Version 1.1 "
+"<http://dublincore.org/documents/dces/>`_, which is maintained by the "
+"`Dublin Core Metadata Initiative <http://dublincore.org>`__."
+msgstr ""
+"AtoMは、`Dublin Core Metadata Initiative <http://dublincore.org>`__ "
+"によって維持されている非修飾の`Dublin Core Metadata Element Set, Version 1.1 "
+"<http://dublincore.org/documents/dces/>`_を実装しています。"
+
+#: ../../user-manual/data-templates/dc-template.rst:55
+msgid "Information below includes:"
+msgstr "以下の情報が含まれます："
+
+#: ../../user-manual/data-templates/dc-template.rst:57
+msgid "**Template field** refers to the default label for that field in AtoM"
+msgstr "**テンプレートフィールド**はAtoMでそのフィールドのデフォルトラベルを指します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:58
+msgid ""
+"**CSV Column** refers to the title of the related column in the (ISAD) CSV "
+"template"
+msgstr "CSVカラムは、(ISAD) CSVテンプレート内の関連する列のタイトルを指します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:60
+msgid ""
+"**DC Rule** refers to the rule from the applicable standard and/or the "
+"instructions provided by AtoM."
+msgstr "DCルールとは、適用可能な標準またはAtoMが提供する指示に基づくルールを指します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:62
+msgid "**DC XML** refers to the field mapping to MODS XML for import/export"
+msgstr "DC XMLは、インポート/エクスポートのためのMODS XMLへのフィールドマッピングを指します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:63
+msgid ""
+"**Notes** includes any other information needed for successful data entry or"
+" CSV import."
+msgstr "**ノート** は、データ入力またはCSVインポートを成功させるために必要なその他の情報を含みます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:69
+msgid "DC Elements area"
+msgstr "DCエレメント領域"
+
+#: ../../user-manual/data-templates/dc-template.rst:77
+msgid "An image of the data entry fields in the DC elements."
+msgstr "DC要素におけるデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/dc-template.rst:77
+msgid ""
+"The data entry fields for the Dublin Core archival description edit "
+"template."
+msgstr "ダブリンコアアーカイブ記述編集テンプレートのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dc-template.rst:82
+msgid "Identifier"
+msgstr "識別子"
+
+#: ../../user-manual/data-templates/dc-template.rst:84
+msgid "**Template field**: Identifier"
+msgstr "**テンプレート項目**: 識別子"
+
+#: ../../user-manual/data-templates/dc-template.rst:86
+msgid "**CSV Column**: ``identifier``"
+msgstr "**CSVカラム**: ``識別子``"
+
+#: ../../user-manual/data-templates/dc-template.rst:88
+msgid ""
+"**DC Rule**: In Dublin Core, an identifier is \"an unambiguous reference to "
+"the resource within a given context. Recommended best practice is to "
+"identify the resource by means of a string conforming to a formal "
+"identification system.\""
+msgstr ""
+"**DC ルール**: "
+"ダブリン・コアにおいて、識別子は「与えられた文脈内で資源を一意に参照するもの」です。推奨されるベストプラクティスは、形式的な識別システムに従って構成された文字列を用いて資源を識別することです。"
+
+#: ../../user-manual/data-templates/dc-template.rst:92
+msgid "**DC XML**"
+msgstr ""
+"\"DC XML\" を直訳すると、「DC XML」となります。これは、\"Dublin Core "
+"XML\"（ダブリン・コアXML）の略称であり、デジタルアーカイブでよく利用されるメタデータ標準の一つをXML形式で記述したものを指します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:100
+msgid ""
+"An administrator can set the reference code to inherit from higher levels of"
+" description via **Admin > Settings** - see: :ref:`inherit-reference-code` "
+"for more information. However, since DC simple records are not designed for "
+"hierarchical information, engaging this setting will **not** change how the "
+"identifier is handled during export - only the identifier for the current "
+":term:`level of description` will be exported."
+msgstr ""
+"管理者は、**管理 > 設定** を通じて、より高い説明レベルから参照コードを継承するように設定することができます。詳細については、 "
+":ref:`inherit-reference-code` "
+"をご覧ください。ただし、DCシンプルレコードは階層情報を扱うように設計されていないため、この設定を有効にしても、エクスポート時の識別子の扱いは**変わりません**。現在の"
+" :term:`記述レベル` の識別子のみがエクスポートされます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:111
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../user-manual/data-templates/dc-template.rst:113
+msgid "**Template field**: Title"
+msgstr "テンプレートフィールド：タイトル"
+
+#: ../../user-manual/data-templates/dc-template.rst:115
+msgid "**CSV column**: ``title``"
+msgstr "**CSV列**: ``タイトル``"
+
+#: ../../user-manual/data-templates/dc-template.rst:117
+msgid ""
+"**DC Rule**: \"A name given to the resource. Typically, a Title will be a "
+"name by which the resource is formally known.\""
+msgstr "**DCルール**:「リソースに与えられた名前です。通常、タイトルはリソースが正式に知られている名前になります。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:120
+#: ../../user-manual/data-templates/dc-template.rst:163
+#: ../../user-manual/data-templates/dc-template.rst:217
+#: ../../user-manual/data-templates/dc-template.rst:273
+#: ../../user-manual/data-templates/dc-template.rst:302
+#: ../../user-manual/data-templates/dc-template.rst:346
+#: ../../user-manual/data-templates/dc-template.rst:410
+#: ../../user-manual/data-templates/dc-template.rst:436
+#: ../../user-manual/data-templates/dc-template.rst:464
+#: ../../user-manual/data-templates/dc-template.rst:492
+#: ../../user-manual/data-templates/dc-template.rst:543
+#: ../../user-manual/data-templates/dc-template.rst:581
+msgid "**DC XML**:"
+msgstr "**DC XML**を日本語に訳すと「**ダブリンコアXML**」になります。"
+
+#: ../../user-manual/data-templates/dc-template.rst:128
+msgid ""
+"AtoM will use the title of a :term:`description <archival description>` to "
+"generate a :term:`slug` used in the permanent URL for the resource. For more"
+" information, see: :ref:`slugs-in-atom`."
+msgstr ""
+"AtoMは、リソースの永続的なURLに使用される:term:`スラッグ`を生成するために、:term:`記述<アーカイブ記述>`のタイトルを使用します。詳細については、以下を参照してください:"
+" :ref:`atom内のスラッグ`。"
+
+#: ../../user-manual/data-templates/dc-template.rst:135
+msgid "Names and dates"
+msgstr "名称と日付"
+
+#: ../../user-manual/data-templates/dc-template.rst:138
+msgid "Name(s)"
+msgstr "名前(名)"
+
+#: ../../user-manual/data-templates/dc-template.rst:-1
+msgid "An image of the data entry fields in the DC name elements"
+msgstr "DC名要素のデータ項目フィールドのイメージ"
+
+#: ../../user-manual/data-templates/dc-template.rst:145
+msgid ""
+"**Template field**: \"Name(s)\" in the :term:`view page`; \"Creator\" in the"
+" :term:`view page`"
+msgstr "**テンプレートフィールド**:「名前」は:term:`ビューページ`にて；「作成者」は:term:`ビューページ`にて"
+
+#: ../../user-manual/data-templates/dc-template.rst:148
+#: ../../user-manual/data-templates/dc-template.rst:196
+msgid "**CSV Columns**:"
+msgstr "**CSVカラム**:"
+
+#: ../../user-manual/data-templates/dc-template.rst:150
+msgid ""
+"``creators`` - Creator name(s) - multiple names can be entered, and "
+"separated by the ``|`` pipe character."
+msgstr "「creators」 - 作成者名 - 複数の名前を入力でき、「|」パイプ文字で区切ることができます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:152
+msgid ""
+"``creationDatesType`` - creation event type. (creation, contribution, or "
+"publication)"
+msgstr "``creationDatesType`` - 作成イベントタイプ。(作成、寄与、または出版)"
+
+#: ../../user-manual/data-templates/dc-template.rst:154
+msgid "**DC Rule**:"
+msgstr "**DCルール**："
+
+#: ../../user-manual/data-templates/dc-template.rst:156
+msgid ""
+"*Creator:* \"An entity primarily responsible for making the resource. "
+"Examples of a Creator include a person, an organization, or a service.\""
+msgstr "*作成者:* \"リソースを主に作成する責任を持つエンティティです。作成者の例には個人、組織、またはサービスなどが含まれます。\""
+
+#: ../../user-manual/data-templates/dc-template.rst:158
+msgid ""
+"*Contributor:* \"An entity responsible for making contributions to the "
+"resource. Examples of a Contributor include a person, an organization, or a "
+"service.\""
+msgstr "*貢献者：*「リソースへの貢献を行うための実体。貢献者の例としては、個人、組織、またはサービスが含まれる。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:160
+msgid ""
+"*Publisher:* \"An entity responsible for making the resource available. "
+"Examples of a Publisher include a person, an organization, or a service.\""
+msgstr "*出版者:* \"リソースを利用可能にする責任を持つ実体。出版者の例として、個人、組織、またはサービスが挙げられる。\""
+
+#: ../../user-manual/data-templates/dc-template.rst:165
+msgid "Creator: ``<dc:creator>``"
+msgstr "作成者: ``<dc:creator>``"
+
+#: ../../user-manual/data-templates/dc-template.rst:166
+msgid "Contributor: ``<dc:contributor>``"
+msgstr "貢献者: ``<dc:contributor>``"
+
+#: ../../user-manual/data-templates/dc-template.rst:167
+msgid "Publisher: ``<dc:publisher>``"
+msgstr "出版者：``<dc:publisher>``"
+
+#: ../../user-manual/data-templates/dc-template.rst:169
+#: ../../user-manual/data-templates/dc-template.rst:223
+#: ../../user-manual/data-templates/dc-template.rst:308
+#: ../../user-manual/data-templates/dc-template.rst:352
+#: ../../user-manual/data-templates/dc-template.rst:470
+#: ../../user-manual/data-templates/dc-template.rst:498
+#: ../../user-manual/data-templates/dc-template.rst:549
+#: ../../user-manual/data-templates/dc-template.rst:587
+msgid "**Notes**:"
+msgstr "**ノート**:"
+
+#: ../../user-manual/data-templates/dc-template.rst:171
+msgid ""
+"In the \"Actor name\" field enter the first few letters of the the actor's "
+"name. A list of names will appear in the drop-down menu (generated from the "
+"names of existing authority records). If the name does not appear in the "
+"menu, type the name and a new :term:`authority record` will be created."
+msgstr ""
+"「アクター名」フィールドにアクターの名前の最初の数文字を入力します。ドロップダウンメニューに名前のリストが表示されます（既存の権限レコードの名前から生成されます）。もしメニューに名前が表示されない場合は、名前をタイプすると新しい「権限レコード」が作成されます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:176
+msgid ""
+"You can leave the \"Actor name\" field blank. Lower levels inherit creator "
+"information from higher levels: use only if the creator is different at the "
+"lower and higher levels. At the highest level of description, you should "
+"always include the creator."
+msgstr ""
+"「アクター名」のフィールドは空白のままにしてもかまいません。下位レベルでは、上位レベルから作成者情報を引き継ぐため、下位レベルと上位レベルで作成者が異なる場合にのみ使用してください。説明の最上位レベルでは、常に作成者を含めるべきです。"
+
+#: ../../user-manual/data-templates/dc-template.rst:181
+msgid ""
+"Select the type of event from the drop-down menu: creation, contribution or "
+"publication. The value list is drawn from the event types :term:`taxonomy` "
+"and can be edited by an :term:`administrator` or :term:`editor`. For more "
+"information, see: :ref:`terms`."
+msgstr ""
+"ドロップダウンメニューからイベントのタイプを選択してください：作成、貢献、または公開。値リストはイベントタイプの:term:`タクソノミー`から引き出され、:term:`管理者`や:term:`エディター`によって編集することができます。詳細については、以下を参照してください：:ref:`terms`。"
+
+#: ../../user-manual/data-templates/dc-template.rst:187
+msgid "Date(s)"
+msgstr "日付(複数対応)"
+
+#: ../../user-manual/data-templates/dc-template.rst:-1
+msgid "An image of the data entry fields in the DC dates elements"
+msgstr "DCデータエントリフィールドの画像"
+
+#: ../../user-manual/data-templates/dc-template.rst:194
+msgid "**Template field**: Date(s)"
+msgstr "**テンプレートフィールド**: 日付(群)"
+
+#: ../../user-manual/data-templates/dc-template.rst:198
+msgid ""
+"``creationDates`` - display date for creation events (what the public users "
+"will see in the :term:`view page`)."
+msgstr "``creationDates`` - 作成イベントの表示日付（:term:`view page`で公開ユーザーが見ることになる日付）。"
+
+#: ../../user-manual/data-templates/dc-template.rst:200
+msgid ""
+"``creationDatesStart`` - start date - ISO-formatted (YYYY-MM-DD). Not "
+"visible to public users."
+msgstr "``creationDatesStart`` - 開始日 - ISO形式（YYYY-MM-DD）。一般ユーザーには表示されません。"
+
+#: ../../user-manual/data-templates/dc-template.rst:202
+msgid ""
+"``creationDatesEnd`` - end date - ISO-formatted (YYYY-MM-DD). Not visible to"
+" public users."
+msgstr "``creationDatesEnd`` - 終了日 - ISO形式 (YYYY-MM-DD)。公開ユーザーには表示されません。"
+
+#: ../../user-manual/data-templates/dc-template.rst:207
+msgid ""
+"The CSV columns in earlier versions prior to 2.2 was named ``creatorDates``,"
+" ``creatorDatesStart``, and ``creatorDatesEnd`` - they have been updated to "
+"clarify the relation to the creation event - not to the dates of existence "
+"of the creator. However, we have added fallback code, so if the old names "
+"are used, the import will still succeed."
+msgstr ""
+"以前のバージョン2.2より前では、CSVの列は``creatorDates``、``creatorDatesStart``、および``creatorDatesEnd``と名付けられていましたが、創造者の存在期間ではなく、創作イベントとの関連性を明確にするために更新されました。しかし、古い名前が使用された場合でもインポートが成功するように、フォールバックコードを追加しました。"
+
+#: ../../user-manual/data-templates/dc-template.rst:213
+msgid ""
+"**DC Rule**: In Dublin Core 1.1, The date field corresponds to a \"date "
+"associated with an event in the life cycle of the resource. Typically, Date "
+"will be associated with the creation or availability of the resource.\""
+msgstr ""
+"**DC ルール**：ダブリンコア "
+"1.1において、日付フィールドは「リソースのライフサイクルにおけるイベントに関連する日付」と対応します。通常、日付はリソースの作成または利用可能になった時間と関連付けられます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:225
+msgid ""
+"Enter the date range as you want it to appear in view mode in the Date "
+"field."
+msgstr "日付フィールドに、ビューモードで表示されるようにしたい期間を入力してください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:227
+msgid ""
+"If desired, add any additional text to qualify date range (e.g. \"ca. "
+"1940-1980\" or \"[1940]-1980, predominant 1973-1980\")."
+msgstr ""
+"必要に応じて、日付範囲を特定する追加テキストを加えてください（例：「約1940-1980年」もしくは「[1940年]-1980年、主に1973-1980年」）。"
+
+#: ../../user-manual/data-templates/dc-template.rst:230
+msgid ""
+"If a date range is given, AtoM will try to parse the DC date field into the "
+"start/end event dates. It will only do so if both dates are present and "
+"separated by '|' or ' - '."
+msgstr ""
+"日付範囲が与えられた場合、AtoMはDC日付フィールドを開始日/終了日のイベント日付に解析しようとします。日付が両方存在し、'|'か' - "
+"'で区切られている場合にのみ、この処理を行います。"
+
+#: ../../user-manual/data-templates/dc-template.rst:236
+msgid ""
+"These fields only display while editing the description. If AtoM is able to "
+"interpret the start and end date from the value entered into the Date field,"
+" it will autopopulate upon entering - but you can still edit the auto-"
+"populated values as needed."
+msgstr ""
+"これらのフィールドは、説明を編集している間のみ表示されます。AtoMが日付フィールドに入力された値から開始日と終了日を解釈できる場合、入力時に自動的に事前設定されますが、必要に応じて自動設定された値を編集することもできます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:241
+msgid ""
+"When editing the Start and End dates, do not use any qualifiers here (e.g. "
+"\"ca.\") or typographical symbols (e.g. \"[194?]\") to express uncertainty. "
+"If the start and end years are the same, enter data only in the Start field "
+"and leave the End field blank. These values should be ISO 8601 acceptable "
+"formats: YYYY, YYYY-MM, YYYY-MM-DD, or YYYYMMDD."
+msgstr ""
+"開始年と終了年を編集する際には、確実性を表現するための限定語（例: \"ca.\"）や、表記記号（例: "
+"\"[194?]\"）を使用しないでください。開始年と終了年が同じ場合は、開始フィールドにのみデータを入力し、終了フィールドは空白のままにしてください。これらの値はISO"
+" 8601が受け入れ可能な形式である必要があります：YYYY、YYYY-MM、YYYY-MM-DD、またはYYYYMMDD。"
+
+#: ../../user-manual/data-templates/dc-template.rst:247
+msgid ""
+"Complete at lower levels of description even if you are leaving the creator "
+"name field blank (e.g. when describing a series, you do not need to repeat "
+"the creator name from the fonds description, but you do need to enter the "
+"date range of the series)."
+msgstr ""
+"詳細の低いレベルにおいても、創作者名のフィールドを空白にしていたとしても、記述を完了してください（例：シリーズを記述する際に、総記録（フォンズ）の説明から創作者名を繰り返す必要はありませんが、シリーズの日付範囲は入力する必要があります）。"
+
+#: ../../user-manual/data-templates/dc-template.rst:252
+msgid ""
+"Whereas Start and End fields are used internally for database searching and "
+"sorting purposes, the Date field is for display purposes. However, if you do"
+" not enter anything into the Date field, the Start and End fields will "
+"appear as a date range when the record is saved."
+msgstr ""
+"スタートフィールドとエンドフィールドは、内部的にデータベースの検索や並べ替えの目的で使用されますが、デートフィールドは表示目的のためのものです。しかし、デートフィールドに何も入力しなかった場合、レコードが保存されるとスタートフィールドとエンドフィールドが日付範囲として表示されます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:257
+msgid ""
+"You can add multiple dates as needed. Click the \"Add new\" hyperlink to add"
+" another date row."
+msgstr "必要に応じて複数の日付を追加することができます。別の日付の行を追加するには、「新規追加」のハイパーリンクをクリックしてください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:263
+msgid "Description"
+msgstr "説明"
+
+#: ../../user-manual/data-templates/dc-template.rst:265
+msgid "**Template field**: Description"
+msgstr "**テンプレートフィールド**: 説明"
+
+#: ../../user-manual/data-templates/dc-template.rst:267
+msgid "**CSV Column**: ``scopeAndContent``"
+msgstr "**CSV列**: ``scopeAndContent``"
+
+#: ../../user-manual/data-templates/dc-template.rst:269
+msgid ""
+"**DC Rule**: \"An account of the resource. Description may include but is "
+"not limited to: an abstract, a table of contents, a graphical "
+"representation, or a free-text account of the resource.\""
+msgstr ""
+"**DCルール**:「リソースの説明。説明には、限定されませんが、要約、目次、グラフィカルな表現、またはリソースに関する自由形式の記述が含まれることがあります。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:279
+msgid ""
+"**Notes**: You can click and drag the bottom of the :term:`field` to expand "
+"it, in case you are writing a long description and require more room."
+msgstr ""
+"**メモ**: "
+"説明を長く書く必要がある場合、より多くのスペースが必要な場合には、`:term:`フィールド`の下部をクリックしてドラッグすると、拡張することができます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:284
+msgid ""
+"This element will map to Scope and Content in equivalent archival standards "
+"such as :ref:`RAD <rad-template>`, :ref:`DACS <dacs-template>`, and "
+":ref:`ISAD(G) <isad-template>`."
+msgstr ""
+"この要素は、:ref:`RAD <rad-template>`、:ref:`DACS <dacs-template>`、および "
+":ref:`ISAD(G) <isad-template>` など同等のアーカイブ基準の「範囲と内容」に対応します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:291
+msgid "Subject"
+msgstr "件名"
+
+#: ../../user-manual/data-templates/dc-template.rst:293
+msgid "**Template field**: Subject"
+msgstr "**テンプレート フィールド**: 件名"
+
+#: ../../user-manual/data-templates/dc-template.rst:295
+msgid "**CSV Column**: ``subjectAccessPoints``"
+msgstr "**CSV列**: ``subjectAccessPoints``"
+
+#: ../../user-manual/data-templates/dc-template.rst:297
+msgid ""
+"**DC Rule**: \"The topic of the resource. Typically, the subject will be "
+"represented using keywords, key phrases, or classification codes. "
+"Recommended best practice is to use a controlled vocabulary. To describe the"
+" spatial or temporal topic of the resource, use the Coverage element.\""
+msgstr ""
+"**DCルール**：\"リソースの主題。通常、主題はキーワード、重要なフレーズ、または分類コードを使用して表されます。推奨されるベストプラクティスは、管理された語彙を使用することです。リソースの空間的または時間的な主題を記述するには、カバレッジ要素を使用してください。\""
+
+#: ../../user-manual/data-templates/dc-template.rst:310
+msgid ""
+"Click on the \"Subject\" field and enter the first few letters of the term. "
+"If the subject term does not appear on the list, type it in and a new "
+"subject term will be created."
+msgstr ""
+"「件名」フィールドをクリックし、用語の最初の数文字を入力します。リストに件名用語が表示されない場合は、その用語を入力すると新しい件名用語が作成されます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:316
+msgid ""
+"If you are not careful, it is easy to accidentally create duplicate terms! "
+"To avoid duplication, matching terms **must** be selected from the auto-"
+"complete :term:`drop-down <drop-down menu>` - otherwise, even exact matches "
+"will create duplicates when the user presses enter."
+msgstr ""
+"注意が行き届かなければ、偶然にも重複する用語を作成してしまうことが容易です。重複を避けるためには、一致する用語はオートコンプリートされた用語 "
+":term:`ドロップダウン <ドロップダウン・メニュー>` から選ばれ**なければなりません** - "
+"さもなければ、ユーザーがエンターキーを押したときであっても、正確に一致する用語であっても重複を作成してしまいます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:321
+msgid ""
+"You can add multiple subjects, as desired. As you exit the :term:`field`, "
+"AtoM will automatically add a new field below. If you wish to remove an "
+"access point, hover your cursor over the bullet point next to the term - it "
+"will transform into an \"**X**\". You can click the **X** to remove the "
+"term."
+msgstr ""
+"必要に応じて複数の主題を追加することができます。`:term:`field`を終了すると、AtoMは自動的に下に新しいフィールドを追加します。アクセスポイントを削除したい場合は、用語の隣にある箇条書きポイント上にカーソルを置くと、それが"
+" \"**X**\" に変わります。**X** をクリックすると、その用語を削除できます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:328
+#: ../../user-manual/data-templates/dc-template.rst:567
+msgid ":ref:`terms`"
+msgstr ":ref:`用語集`"
+
+#: ../../user-manual/data-templates/dc-template.rst:329
+#: ../../user-manual/data-templates/dc-template.rst:568
+msgid ":ref:`add-term-fly`"
+msgstr ""
+":ref:`add-term-fly` はリファレンスリンクのマークアップであり、特定の文脈で定義されている用語またはセクションに対する内部リンクを示します。翻訳の中で、このリファレンスが指している対象を考え、適切な日本語の用語やセクション名に置き換える必要があります。ただし、ここではリファレンスが何を指しているのかが分からないため、単にリファレンスのマークアップを日本語に翻訳するというのは不適切です。それを考慮に入れた上で、仮にそのリンクが「用語の追加」セクションにリンクされていると仮定すると、日本語での翻訳は次のようになるかもしれません。\n"
+"\n"
+"`:ref:`用語の追加-fly``\n"
+"\n"
+"しかし、これはあくまで例であり、実際にはリファレンスが指している対象を具体的に知る必要があります。その情報に基づいて適切に文書の中でリンクを再構築する必要があります。"
+
+#: ../../user-manual/data-templates/dc-template.rst:334
+msgid "Type"
+msgstr "タイプ"
+
+#: ../../user-manual/data-templates/dc-template.rst:336
+msgid "**Template field**: Type"
+msgstr "**テンプレートフィールド**: 種類"
+
+#: ../../user-manual/data-templates/dc-template.rst:338
+msgid "**CSV Column**: N/A"
+msgstr "**CSV列**: 該当なし"
+
+#: ../../user-manual/data-templates/dc-template.rst:340
+msgid ""
+"**DC Rule**: \"The nature or genre of the resource. Recommended best "
+"practice is to use a controlled vocabulary such as the DCMI Type Vocabulary "
+"[DCMITYPE]. To describe the file format, physical medium, or dimensions of "
+"the resource, use the Format element.\" For more information on the Dublin "
+"Core type taxonomy, see http://dublincore.org/documents/dcmi-type-"
+"vocabulary/."
+msgstr ""
+"**DCルール**：\"リソースの性質またはジャンルです。推奨されるベストプラクティスは、DCMIタイプ語彙 [DCMITYPE] "
+"のような統制された語彙を使用することです。リソースのファイルフォーマット、物理的な媒体、または寸法を記述するには、フォーマット要素を使用してください。\""
+" ダブリンコアタイプ分類法の詳細については、http://dublincore.org/documents/dcmi-type-vocabulary/ "
+"を参照してください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:354
+msgid ""
+"Select a value from the :term:`drop-down menu`. The values are drawn from "
+"the \"Dublin Core Types\" :term:`taxonomy`. AtoM comes with the DCMI TYPE "
+"terms prepopulated in the taxonomy. Users with the proper edit "
+":term:`permissions <access privilege>` can edit or delete :term:`terms "
+"<term>`, or add new ones - however, to remain compliant, we recommend using "
+"the supplied values."
+msgstr ""
+"ドロップダウンメニューから値を選択してください。値は\"Dublin Core Types\" タクソノミーから取得されます。AtoMはDCMI "
+"TYPEの用語が予めタクソノミーに入力された状態で提供されます。適切な編集アクセス権限を持つユーザーは、用語を編集したり削除したり、新しい用語を追加することができますが、規則に準拠しているため、提供された値の使用を推奨します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:361
+msgid ""
+"You can add multiple values as needed - they will appear above the drop-down"
+" menu as you select them. To remove a value, simply click on it - AtoM will "
+"remove the term."
+msgstr ""
+"必要に応じて複数の値を追加することができます - "
+"選択すると、それらはドロップダウンメニューの上に表示されます。値を削除するには、単にその値をクリックしてください - AtoMが用語を削除します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:368
+msgid "Child levels"
+msgstr "子階層"
+
+#: ../../user-manual/data-templates/dc-template.rst:370
+msgid ""
+"These two fields can be used to add lower levels to a collection level "
+"description. Click \"Add new\" to create as many child levels as necessary."
+msgstr ""
+"これらの2つのフィールドは、コレクションレベルの記述に下位レベルを追加するために使用できます。必要なだけの子レベルを作成するために「新規追加」をクリックしてください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:374
+msgid ""
+"**Identifier:** The unambiguous reference code used to uniquely identify the"
+" child-level resource."
+msgstr "**識別子：** 子レベル資源を唯一無二に特定するために使用される明確な参照コード。"
+
+#: ../../user-manual/data-templates/dc-template.rst:377
+msgid "**Title:** The name given to the child-level resource."
+msgstr "**タイトル:** 子レベルのリソースに与えられた名前。"
+
+#: ../../user-manual/data-templates/dc-template.rst:379
+msgid ""
+"See :ref:`dc-identifier` and :ref:`dc-title`, above, for more information on"
+" the use of each field."
+msgstr ""
+"上記の「:ref:`dc-identifier`」および「:ref:`dc-title`」を参照して、各フィールドの使用に関する詳細情報をご覧ください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:384
+msgid ""
+"Dublin Core simple XML is not designed for hierarchical description. "
+"Exporting DC XML in AtoM from the :term:`parent record` (or top level of "
+"description, such as a collection with many items), will **not** include "
+"child descriptions in the DC XML generated as you would normally find in the"
+" EAD XML, for example."
+msgstr ""
+"ダブリンコア・シンプルXMLは、階層的な記述には設計されていません。AtoMから`:term:`親レコード`（または、多くのアイテムが含まれたコレクションなどの記述の最上位レベル）でDC"
+" XMLをエクスポートする際、EAD XMLで通常見られるような子の記述が生成されたDC XMLには**含まれない**ことに注意してください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:389
+msgid ""
+"If you require hierarchical XML, consider using either the EAD XML, or flip "
+"the template to :ref:`MODS <mods-template>` and use the MODS XML export - in"
+" MODS, each record is exported individually, but the XML will contain links "
+"referencing parent and/or child descriptions. To change the display "
+"template, see: :ref:`change-display-standard`."
+msgstr ""
+"階層的なXMLが必要な場合は、EAD XMLを使用するか、テンプレートを:ref:`MODS <mods-template>`に切り替えてMODS "
+"XMLエクスポートを使用してください。MODSでは、各レコードが個別にエクスポートされますが、XML内には親や子の記述を参照するリンクが含まれます。表示テンプレートを変更する方法については、:ref:`change-"
+"display-standard`を参照してください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:398
+msgid "Format"
+msgstr "フォーマット"
+
+#: ../../user-manual/data-templates/dc-template.rst:400
+msgid "**Template field**: Format"
+msgstr "**テンプレート フィールド**: フォーマット"
+
+#: ../../user-manual/data-templates/dc-template.rst:402
+msgid "**CSV Column**: ``extentAndMedium``"
+msgstr "**CSVカラム**: ``extentAndMedium``"
+
+#: ../../user-manual/data-templates/dc-template.rst:404
+msgid ""
+"**DC Rule**: \"The file format, physical medium, or dimensions of the "
+"resource. Examples of dimensions include size and duration. Format may be "
+"used to determine the software, hardware or other equipment needed to "
+"display or operate the resource.Recommended best practice is to use a "
+"controlled vocabulary such as the list of Internet Media Types [MIME].\""
+msgstr ""
+"**DCルール**: "
+"「リソースのファイルフォーマット、物理的媒体、または寸法を指します。寸法の例には、サイズや持続時間が含まれます。フォーマットは、リソースを表示または操作するために必要なソフトウェア、ハードウェア、またはその他の設備を決定するために使用することができます。推奨されるベストプラクティスは、インターネットメディアタイプ"
+" [MIME] リストのような統制された語彙を使用することです。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:416
+msgid ""
+"**Notes**: This field crosswalks from Extent and medium in the :ref:`ISAD "
+"<isad-template>` template, Extent in the :ref:`DACS <dacs-template>`, and "
+"Physical description in the :ref:`RAD <rad-template>` template. As such, "
+"while DCMI recommends the use of a controlled vocabulary for this metadata, "
+"AtoM's DC Format is a free-text field."
+msgstr ""
+"**注記**: このフィールドは、:ref:`ISAD <isad-template>` テンプレートの「範囲および媒体」、:ref:`DACS "
+"<dacs-template>` の「範囲」、および :ref:`RAD <rad-template>` "
+"テンプレートの「物理的記述」からクロスウォークします。そのため、DCMI ではこのメタデータに対して管理された語彙の使用を推奨していますが、AtoM の"
+" DC フォーマットはフリーテキストフィールドです。"
+
+#: ../../user-manual/data-templates/dc-template.rst:425
+msgid "Source"
+msgstr ""
+"Certainly, to provide you with a translation I'll need the specific text you"
+" want translated into Japanese. Could you please share the text from the "
+"Archivematica documentation that you need help with?"
+
+#: ../../user-manual/data-templates/dc-template.rst:427
+msgid "**Template field**: Source"
+msgstr "**テンプレート分野**: ソース"
+
+#: ../../user-manual/data-templates/dc-template.rst:429
+msgid "**CSV Column**: ``locationOfOriginals``"
+msgstr "**CSVの列**: ``オリジナルの位置``"
+
+#: ../../user-manual/data-templates/dc-template.rst:431
+msgid ""
+"**DC Rule**: \"A related resource from which the described resource is "
+"derived. The described resource may be derived from the related resource in "
+"whole or in part. Recommended best practice is to identify the related "
+"resource by means of a string conforming to a formal identification "
+"system.\""
+msgstr ""
+"**DCルール**:「記述されたリソースが派生した関連リソース。説明されたリソースは、関連リソースから全体的にも部分的にも派生している可能性がある。推奨されるベストプラクティスは、形式的な識別システムに従って文字列によって関連リソースを識別することである。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:442
+msgid ""
+"**Notes**: This field crosswalks from Existence and location of originals in"
+" the :ref:`ISAD <isad-template>` and :ref:`DACS <dacs-template>` templates, "
+"and Locations of originals in the :ref:`RAD <rad-template>` template."
+msgstr ""
+"**備考**: このフィールドは、:ref:`ISAD <isad-template>` および :ref:`DACS <dacs-template>`"
+" テンプレートの原本の存在と位置、また :ref:`RAD <rad-template>` テンプレートの原本の位置から対応付けられます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:449
+msgid "Language"
+msgstr "言語"
+
+#: ../../user-manual/data-templates/dc-template.rst:451
+msgid "**Template field**: Language"
+msgstr "**テンプレート フィールド**: 言語"
+
+#: ../../user-manual/data-templates/dc-template.rst:453
+msgid "**CSV Column**: ``language``"
+msgstr "**CSVカラム**: ``言語``"
+
+#: ../../user-manual/data-templates/dc-template.rst:457
+msgid ""
+"Use a two-letter language code from `ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ when importing "
+"from CSV."
+msgstr ""
+"CSVからインポートする際には、`ISO 639-1 "
+"<http://www.loc.gov/standards/iso639-2/php/code_list.php>`_ "
+"から取られた2文字の言語コードを使用してください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:461
+msgid ""
+"**DC Rule**: \"A language of the resource. Recommended best practice is to "
+"use a controlled vocabulary such as RFC 4646.\""
+msgstr "**DC ルール**:「リソースの言語。推奨されるベストプラクティスは、RFC 4646のような制御された語彙を使用することです。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:472
+msgid ""
+"Click on the field and begin to enter the first few letters of the target "
+"language. A :term:`drop-down menu` will appear with matching results from a "
+"controlled list of ISO languages (pre-loaded in AtoM) as you type. When you "
+"see the matching language in the drop-down, click on it - AtoM will add the "
+"selection above the drop-down menu. You can do this as many times as you "
+"like to enter multiple languages. To remove a selection, hover your cursor "
+"over the :term:`term` - the bullet next to the language will change into an "
+"**X**. Click on the term to remove it."
+msgstr ""
+"対象言語の最初の数文字を入力するためにフィールドをクリックします。入力すると、AtoMに事前にロードされた制御されたISO言語のリストと一致する結果を含む"
+" :term:`ドロップダウンメニュー` "
+"が表示されます。ドロップダウンに一致する言語が表示されたら、それをクリックします。AtoMはドロップダウンメニューの上に選択した言語を追加します。複数の言語を入力するために、この操作を好きなだけ繰り返すことができます。選択を削除するには、カーソルを"
+" :term:`用語` の上に持っていきます。言語の隣の点が**X**に変わります。その用語をクリックして削除します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:484
+msgid "Relation (isLocatedAt)"
+msgstr "関係（所在地）"
+
+#: ../../user-manual/data-templates/dc-template.rst:486
+msgid "**Template field**: Relation (isLocatedAt)"
+msgstr "**テンプレートフィールド**: 関係（位置する場所）"
+
+#: ../../user-manual/data-templates/dc-template.rst:488
+msgid "**CSV Column**: ``repository``"
+msgstr "**CSVカラム**: ``リポジトリ``"
+
+#: ../../user-manual/data-templates/dc-template.rst:490
+#: ../../user-manual/data-templates/dc-template.rst:623
+msgid "**DC Rule**: N/A"
+msgstr "**DCルール**: 該当なし"
+
+#: ../../user-manual/data-templates/dc-template.rst:500
+msgid ""
+"This field is used for indicating which :term:`archival institution` (i.e. "
+":term:`repository`) holds the record(s) being described. Select an archival "
+"institution only at the highest :term:`level of description`; leave this "
+"field blank at the lower levels if they are all held by the same "
+"institution."
+msgstr ""
+"このフィールドは、記述されている記録（レコード）を所蔵している:term:`アーカイブ施設`（つまり:term:`リポジトリ`) "
+"を示すために使用されます。:term:`記述のレベル`が最も高い場合のみアーカイブ施設を選択し、もし同じ施設が全てを所蔵している場合は、より低いレベルのこのフィールドは空白のままにしてください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:507
+msgid ""
+"To improve the description workflow and to respect the convention in most "
+"archival standards not to repeat information at lower levels, AtoM will "
+"inherit the name of the :term:`repository` from the highest level of "
+"description, unless a different repository is explicitly added."
+msgstr ""
+"説明のワークフローを改善し、ほとんどのアーカイブ基準の慣例に敬意を示して、下位レベルでの情報の繰り返しを避けるために、AtoMは最上位の説明レベルから:term:`repository`（リポジトリ）の名前を継承することになっています。ただし、明示的に異なるリポジトリが追加された場合はその限りではありません。"
+
+#: ../../user-manual/data-templates/dc-template.rst:512
+msgid ""
+"Click on the Relation (isLocatedAt) field and type the first few letters of "
+"the archival institution that holds the archival material being described. "
+"The names are drawn from pre-existing archival institution records. If the "
+"name of the institution does not appear in this list, you can type it in and"
+" a new archival institution record will be created."
+msgstr ""
+"「関連性（isLocatedAt）フィールドをクリックし、説明されているアーカイブ資料を所持しているアーカイブ施設の最初の数文字を入力してください。名前は既存のアーカイブ施設の記録から引き出されます。もし施設の名前がこのリストに現れない場合は、入力して新しいアーカイブ施設の記録を作成することができます。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:520
+msgid ""
+"If you are not careful, it is easy to accidentally create duplicate "
+"repositories! To avoid duplication, matching terms **must** be selected from"
+" the auto-complete :term:`drop-down <drop-down menu>` - otherwise, even "
+"exact matches will create duplicates when the user presses enter."
+msgstr ""
+"注意していないと、簡単に重複したリポジトリを作成してしまうことがあります！重複を避けるためには、オートコンプリートされた:term:`ドロップダウン "
+"<ドロップダウン "
+"メニュー>`から一致する用語を**必ず**選択する必要があります。そうでないと、ユーザーがエンターキーを押すと、正確に一致していても重複が作成されてしまいます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:527
+msgid ":ref:`archival-institutions`"
+msgstr ":ref:`アーカイブ機関`"
+
+#: ../../user-manual/data-templates/dc-template.rst:528
+msgid ":ref:`link-archival-institution`"
+msgstr ":ref:`リンク-アーカイブ機関`"
+
+#: ../../user-manual/data-templates/dc-template.rst:533
+msgid "Coverage"
+msgstr "範囲"
+
+#: ../../user-manual/data-templates/dc-template.rst:535
+msgid "**Template field**: Coverage (spatial)"
+msgstr "**テンプレート項目**: カバレッジ（空間的）"
+
+#: ../../user-manual/data-templates/dc-template.rst:537
+msgid "**CSV Column**: ``placeAccessPoints``"
+msgstr "**CSV列**: ``placeAccessPoints``"
+
+#: ../../user-manual/data-templates/dc-template.rst:539
+msgid ""
+"**DC Rule**: \"The spatial or temporal topic of the resource, the spatial "
+"applicability of the resource, or the jurisdiction under which the resource "
+"is relevant.\""
+msgstr "**DCルール**：\"リソースの空間的または時間的トピック、リソースの空間的適用性、またはリソースが関連する管轄区域。\""
+
+#: ../../user-manual/data-templates/dc-template.rst:551
+msgid ""
+"Click on the \"Coverage (spatial)\" field and type the first few letters of "
+"the place. If the place term does not appear on the list, type it in and a "
+"new place term will be created (note that this works only if you have "
+"taxonomy edit permission)."
+msgstr ""
+"「Coverage "
+"(spatial)」フィールドをクリックして、場所の最初の数文字を入力してください。リストに場所の項目が表示されない場合は、それを入力すると新しい場所の項目が作成されます（この操作が可能なのは、分類編集の権限がある場合のみです）。"
+
+#: ../../user-manual/data-templates/dc-template.rst:558
+msgid ""
+"This field is an auto-complete - as you type, AtoM will suggest matches with"
+" :term:`terms <term>` already in the related :term:`taxonomy`. If you do not"
+" explicitly pick a value from the :term:`drop-down menu` that appears, AtoM "
+"will create a new term in the taxonomy. **Warning**: this means if you are "
+"not careful, it is easy to accidentally create duplicate terms (e.g. by "
+"pressing enter instead of selecting the match from the drop-down)."
+msgstr ""
+"このフィールドはオートコンプリートです - 入力すると、AtoMは関連する:term:`タクソノミー <term>`ですでに存在する:term:`用語 "
+"<term>`との一致を提案します。表示される:term:`ドロップダウンメニュー`から明示的に値を選択しない場合、AtoMはタクソノミーに新しい用語を作成します。**警告**:"
+" "
+"不注意により、ドロップダウンからの一致を選択する代わりにエンターを押してしまうなど、誤って重複した用語を作成してしまうことが簡単に起こりえることを意味します。"
+
+#: ../../user-manual/data-templates/dc-template.rst:571
+msgid "Rights"
+msgstr "権利"
+
+#: ../../user-manual/data-templates/dc-template.rst:573
+msgid "**Template field**: Rights"
+msgstr "**テンプレートフィールド**: 権利"
+
+#: ../../user-manual/data-templates/dc-template.rst:575
+msgid "**CSV Column**: ``accessConditions``"
+msgstr "**CSVカラム**: ``accessConditions``"
+
+#: ../../user-manual/data-templates/dc-template.rst:577
+msgid ""
+"**DC Rule**: \"Information about rights held in and over the resource. "
+"Typically, rights information includes a statement about various property "
+"rights associated with the resource, including intellectual property "
+"rights.\""
+msgstr ""
+"**DC規則**:「リソースに対して保持されている権利に関する情報。通常、権利情報にはリソースに関連するさまざまな財産権、知的財産権を含む、権利についての声明が含まれています。」"
+
+#: ../../user-manual/data-templates/dc-template.rst:589
+msgid ""
+"This field maps to \"Conditions governing access\" in the :ref:`ISAD <isad-"
+"template>` and :ref:`DACS <dacs-template>` templates, \"Restrictions on "
+"access\" in the :ref:`RAD <rad-template>` template, and \"Access condition\""
+" in the :ref:`MODS <mods-template>` template."
+msgstr ""
+"このフィールドは、:ref:`ISAD <isad-template>`および:ref:`DACS <dacs-"
+"template>`テンプレートでの「アクセス管理条件」、:ref:`RAD <rad-"
+"template>`テンプレートでの「アクセス制限」、および:ref:`MODS <mods-"
+"template>`テンプレートでの「アクセス条件」に対応しています。"
+
+#: ../../user-manual/data-templates/dc-template.rst:596
+msgid ""
+":ref:`rights`, especially :ref:`rights-digital-object` and :ref:`rights-"
+"archival-description`."
+msgstr ""
+":ref:`著作権`、特に :ref:`デジタルオブジェクトの権利<rights-digital-object>` 及び "
+":ref:`アーカイブ記述の権利<rights-archival-description>` に関連しています。"
+
+#: ../../user-manual/data-templates/dc-template.rst:599
+#: ../../user-manual/data-templates/dc-template.rst:665
+msgid ":ref:`Back to the top <dc-template>`"
+msgstr ":ref:`トップに戻る <dc-template>`"
+
+#: ../../user-manual/data-templates/dc-template.rst:604
+msgid "Administration area"
+msgstr "管理エリア"
+
+#: ../../user-manual/data-templates/dc-template.rst:612
+msgid "An image of the data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールドの画像。"
+
+#: ../../user-manual/data-templates/dc-template.rst:612
+msgid "The data entry fields for the Administration area."
+msgstr "管理エリアのデータ入力フィールド。"
+
+#: ../../user-manual/data-templates/dc-template.rst:617
+msgid "Display standard"
+msgstr "表示標準"
+
+#: ../../user-manual/data-templates/dc-template.rst:619
+msgid "**Template field**: Display standard"
+msgstr "**テンプレートフィールド**: 表示規格"
+
+#: ../../user-manual/data-templates/dc-template.rst:621
+msgid "**CSV column**: N/A"
+msgstr "CSVカラム: 該当なし"
+
+#: ../../user-manual/data-templates/dc-template.rst:625
+msgid "**DC XML**: N/A"
+msgstr "DC XML: 該当なし"
+
+#: ../../user-manual/data-templates/dc-template.rst:629
+msgid ""
+"This fields allows the user to choose a different display standard from the "
+":ref:`default template <default-templates>` for the shown archival "
+"description only, with the option to also change the display standard for "
+"all existing children of the description. See: :ref:`change-display-"
+"standard`."
+msgstr ""
+"このフィールドでは、表示されているアーカイブ記述に対して :ref:`デフォルトテンプレート <default-templates>` "
+"から異なる表示標準を選択することができます。また、その記述の全ての既存の子要素に対して表示標準を変更するオプションもあります。参照： "
+":ref:`表示標準の変更 <change-display-standard>`。"
+
+#: ../../user-manual/data-templates/dc-template.rst:638
+msgid "Publication status"
+msgstr "出版状態"
+
+#: ../../user-manual/data-templates/dc-template.rst:640
+msgid ""
+"**Template field** Publication status is available under the More tab "
+"located on the object view screen."
+msgstr "**テンプレートフィールド** 公開状況は、オブジェクトビュー画面にある[その他]タブの下で利用可能です。"
+
+#: ../../user-manual/data-templates/dc-template.rst:642
+msgid "**CSV column** publicationsStatus"
+msgstr "CSV列 publicationsStatus"
+
+#: ../../user-manual/data-templates/dc-template.rst:644
+msgid "**RAD Rule** N/A"
+msgstr "RADルール 適用なし"
+
+#: ../../user-manual/data-templates/dc-template.rst:646
+msgid "**EAD**"
+msgstr ""
+"**EAD**とは「Encoded Archival "
+"Description」の略で、アーカイブ資料の説明をコンピュータ上で取り扱えるようにするための規格です。アーカイブ業界で使われるXML標準の一つで、資料の構造、内容、及び文脈を表現するために利用されます。"
+
+#: ../../user-manual/data-templates/dc-template.rst:655
+msgid ""
+"The :term:`publication status` refers to the public visibility of a "
+"description for unauthenticated (e.g. not logged in) users. The default "
+"terms available are \"Published\" (i.e. visible to public users), and "
+"\"Draft\" (e.g. not visible to public users). See: :ref:`publish-archival-"
+"description`."
+msgstr ""
+"「:term:`publication "
+"status`（公開ステータス）」とは、未認証のユーザー（例：ログインしていないユーザー）に対する記述の公開可視性に関することを指します。デフォルトの用語としては、「Published」（すなわち、公開ユーザーに対して可視）と「Draft」（例：公開ユーザーに対して不可視）があります。詳しくは、:ref:`publish-"
+"archival-description`を参照してください。"
+
+#: ../../user-manual/data-templates/dc-template.rst:660
+msgid ""
+"In the :ref:`Global Site Settings <global-settings>`, if the default "
+"publication status is set to draft, all imported descriptions will be set to"
+" draft and the EAD file will have the value \"draft\" in the <odd "
+"type=\"publicationStatus\"> tag."
+msgstr ""
+"`:ref:`グローバルサイト設定<global-"
+"settings>`では、デフォルトの公開ステータスがドラフトに設定されている場合、すべてのインポートされた記述がドラフトとして設定され、EADファイルは<odd"
+" type=\"publicationStatus\">タグ内で\"ドラフト\"の値を持つことになります。"

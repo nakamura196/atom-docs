@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/manage-menus.rst:5
+msgid "Manage Menus"
+msgstr "メニューの管理"
+
+#: ../../user-manual/administer/manage-menus.rst:11
+msgid ""
+"AtoM includes a menu customization feature that allows authenticated (i.e. "
+"logged-in) :term:`administrators <administrator>` to manage menu labels; "
+"menus can be edited, created, moved menus to different positions on the "
+"page, deleted as necessary."
+msgstr ""
+"AtoMには、認証された（つまりログインした）:term:`管理者 "
+"<administrator>`がメニューラベルを管理できるメニューカスタマイズ機能が含まれています。必要に応じて、メニューの編集、作成、ページ上の異なる位置への移動、削除が可能です。"
+
+#: ../../user-manual/administer/manage-menus.rst:16
+msgid ""
+"To view a list of menus, click the |gears| :ref:`Admin <main-menu-admin>` "
+"menu in the :term:`main menu` located in the :term:`header bar` and select "
+"\"Menus\" from the :term:`drop-down menu`."
+msgstr ""
+"メニュー一覧を表示するには、:term:`ヘッダーバー` にある :term:`メインメニュー` の |gears| :ref:`管理 <main-"
+"menu-admin>` メニューをクリックし、:term:`ドロップダウンメニュー` から「メニュー」を選択します。"
+
+#: ../../user-manual/administer/manage-menus.rst:7
+msgid "gears"
+msgstr ""
+"\"ギアーズ\" "
+"(ただし、この単語がコンテキストなしで与えられた場合、正確な翻訳はコンテキストに依存します。例えば、機械的な歯車を指す場合は「歯車」、動作やプロセスの部分を指すメタフォリックな使い方であれば「部品」や「要素」が適切な翻訳になります。)"
+
+#: ../../user-manual/administer/manage-menus.rst:-1
+msgid "An image of menus list in AtoM"
+msgstr "AtoMのメニューリストの画像"
+
+#: ../../user-manual/administer/manage-menus.rst:25
+msgid "Below, you will find instructions on how to:"
+msgstr "以下では、以下の手順について説明します："
+
+#: ../../user-manual/administer/manage-menus.rst:27
+msgid ":ref:`Add a new menu <add-menu>`"
+msgstr ":ref:`新しいメニューを追加 <add-menu>`"
+
+#: ../../user-manual/administer/manage-menus.rst:28
+msgid ":ref:`Edit an existing menu <edit-menu>`"
+msgstr ":ref:`既存のメニューを編集する <edit-menu>`"
+
+#: ../../user-manual/administer/manage-menus.rst:29
+msgid ":ref:`Move a menu <move-menu>`"
+msgstr ":ref:`メニューを移動する <move-menu>`"
+
+#: ../../user-manual/administer/manage-menus.rst:30
+msgid ":ref:`Delete a menu <delete-menu>`"
+msgstr ":ref:`メニューを削除する<delete-menu>`"
+
+#: ../../user-manual/administer/manage-menus.rst:34
+msgid ":ref:`static-pages-menu`"
+msgstr ""
+"残念ながら、指定されたテキスト「:ref:`static-pages-menu`」は、翻訳のための完全な文またはフレーズではなく、文書内の参照（リンク）を示している可能性があります。通常、このような参照は、特定のセクションや文書のタイトルにリンクするために使われます。\n"
+"\n"
+"もし、「static-pages-menu」というセクションがある場合、それに対応する日本語訳は次のようになります：\n"
+"\n"
+"```\n"
+"固定ページメニュー\n"
+"```\n"
+"\n"
+"ただし、このテキストが文脈に即しているかどうかは、文書の全体像を見なければ判断できません。もしもっと具体的な内容や周囲の文脈があれば、より適切な翻訳を提供することが可能です。"
+
+#: ../../user-manual/administer/manage-menus.rst:39
+msgid "Add a new menu"
+msgstr "新しいメニューを追加"
+
+#: ../../user-manual/administer/manage-menus.rst:41
+msgid ""
+"An authenticated (i.e. logged in) :term:`administrator` with edit privileges"
+" can edit or update a menu type at any time. Users may add new menus to link"
+" to items such as new static pages or external URLs. Users could also add "
+"menus to link to new actions or modules (such as new edit templates), but "
+"such actions or modules would need to be created first by developers working"
+" directly with the code."
+msgstr ""
+"認証された（つまりログインしている）編集権限を持つ:term:`管理者`は、いつでもメニュータイプを編集または更新することができます。新しい静的ページや外部URLなどのアイテムにリンクする新しいメニューをユーザーが追加することができます。ユーザーは新しいアクションやモジュール（例えば新しい編集テンプレートなど）へのリンクとしてメニューを追加することもできますが、このようなアクションやモジュールは、開発者が直接コードで作成する必要があるでしょう。"
+
+#: ../../user-manual/administer/manage-menus.rst:47
+msgid ""
+"For more information on edit privileges and user roles see: :ref:`User roles"
+" <user-roles>`. For information on logging in, see: :ref:`Log in <log-in>`."
+msgstr ""
+"編集権限とユーザーロールに関する詳細情報については、こちらを参照してください： :ref:`ユーザーロール <user-"
+"roles>`。ログインする方法については、こちらを参照してください： :ref:`ログイン <log-in>`。"
+
+#: ../../user-manual/administer/manage-menus.rst:50
+msgid "**To add a menu in AtoM:**"
+msgstr "AtoMでメニューを追加するには："
+
+#: ../../user-manual/administer/manage-menus.rst:52
+#: ../../user-manual/administer/manage-menus.rst:91
+msgid ""
+"Navigate to the menu list: click on the |gears| :ref:`Admin <main-menu-"
+"admin>` menu in the :term:`main menu` located in the :term:`header bar` and "
+"select \"Menus\" from the :term:`drop-down menu`. AtoM will direct you to "
+"the \"Site menu list\" :term:`view page`."
+msgstr ""
+"メニュー一覧への移動： :term:`ヘッダーバー`にある :term:`メインメニュー` の中にある |gears| :ref:`管理 <main-"
+"menu-admin>` メニューをクリックし、 :term:`ドロップダウンメニュー` から「メニュー」を選択します。AtoM "
+"は「サイトメニュー一覧」 :term:`ビューページ` にあなたを誘導します。"
+
+#: ../../user-manual/administer/manage-menus.rst:56
+msgid ""
+"Scroll to the bottom of thepage and click on the :term:`Add new button` in "
+"the :term:`button block`."
+msgstr "ページの最下部までスクロールして、`:term:`ボタンブロック`にある`:term:`新規追加ボタン`をクリックしてください。"
+
+#: ../../user-manual/administer/manage-menus.rst:58
+msgid ""
+"AtoM takes you to a blank :term:`edit page` for data entry. On loading, the "
+":term:`edit page` displays all the :term:`information areas <information "
+"area>`."
+msgstr "AtoMはデータ入力のための空白の「編集ページ」にあなたを案内します。ローディング時に、編集ページはすべての「情報領域」を表示します。"
+
+#: ../../user-manual/administer/manage-menus.rst:61
+msgid ""
+"Enter data in the blank :term:`field <field>` located below the information "
+"area headings."
+msgstr "情報エリアの見出しの下にある空白の :term:`フィールド <field>` にデータを入力してください。"
+
+#: ../../user-manual/administer/manage-menus.rst:64
+msgid "In the \"Name\" :term:`field`, enter a name for the menu."
+msgstr "\"Name\" :term:`フィールド`に、メニューの名前を入力してください。"
+
+#: ../../user-manual/administer/manage-menus.rst:65
+msgid ""
+"In the \"Label\" :term:`field`, enter a label (this does not need to be the "
+"same as the \"Name\")."
+msgstr "「ラベル」:term:`フィールド`には、ラベルを入力します（「名前」と同じである必要はありません）。"
+
+#: ../../user-manual/administer/manage-menus.rst:67
+msgid ""
+"In the \"Parent\" :term:`field`, select a parent menu from the :term:`drop-"
+"down menu`."
+msgstr "「親」:term:`field`では、:term:`ドロップダウンメニュー`から親メニューを選択します。"
+
+#: ../../user-manual/administer/manage-menus.rst:69
+msgid "In the \"Path\" :term:`field`, enter the URL for the menu."
+msgstr "「パス」:term:`フィールド`に、メニューのURLを入力してください。"
+
+#: ../../user-manual/administer/manage-menus.rst:70
+msgid ""
+"In the \"Description\" :term:`field`, enter descriptive information about "
+"the menu if desired."
+msgstr "「説明」:term:`field`に、希望があれば、そのメニューについての記述情報を入力してください。"
+
+#: ../../user-manual/administer/manage-menus.rst:73
+msgid ""
+"You can quit the creation process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new menu will be created. Note that simply navigating away "
+"from the page by any other means, **without first clicking \"Create\"** will"
+" also result in no new record being created."
+msgstr ""
+"あなたは、いつでも「ボタンブロック」:term:`button "
+"block`にある「キャンセル」ボタンをクリックすることで作成プロセスを中止できます。すでに入力されているデータは保存されず、新しいメニューは作成されません。また、**「作成」をクリックする前に**"
+" 他の手段でページから単にナビゲート離脱した場合も、新しい記録は作成されないことに注意してください。"
+
+#: ../../user-manual/administer/manage-menus.rst:78
+msgid ""
+"To save the new menu, click the \"Save\" button in the :term:`button block`."
+msgstr "新しいメニューを保存するには、`:term:`ボタンブロック`内の「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/administer/manage-menus.rst:79
+msgid ""
+"AtoM will redirect you to the main page. The new menu should be visible and "
+"should link to your static page or external URL."
+msgstr ""
+"AtoMはあなたをメインページにリダイレクトします。新しいメニューが表示されるはずで、それはあなたの静的ページまたは外部URLにリンクするべきです。"
+
+#: ../../user-manual/administer/manage-menus.rst:82
+#: ../../user-manual/administer/manage-menus.rst:109
+#: ../../user-manual/administer/manage-menus.rst:134
+#: ../../user-manual/administer/manage-menus.rst:161
+msgid ":ref:`Back to top <manage-menus>`"
+msgstr ":ref:`トップに戻る <manage-menus>`"
+
+#: ../../user-manual/administer/manage-menus.rst:87
+msgid "Edit an existing menu"
+msgstr "既存のメニューを編集する"
+
+#: ../../user-manual/administer/manage-menus.rst:89
+msgid "To edit an existing menu in AtoM:"
+msgstr "AtoMで既存のメニューを編集するには："
+
+#: ../../user-manual/administer/manage-menus.rst:95
+msgid ""
+"Click on the blue menu name you wish to edit to be directed to that menu's "
+":term:`edit page`."
+msgstr "編集したい青色のメニュー名をクリックすると、そのメニューの:term:`編集ページ`に移動します。"
+
+#: ../../user-manual/administer/manage-menus.rst:97
+msgid ""
+"On loading, the :term:`edit page` displays the menu name with all "
+":term:`information areas <information area>` and editable :term:`fields "
+"<field>` grouped under them."
+msgstr ""
+"読み込み時に、`:term:`編集ページ`は、すべての`:term:`情報エリア "
+"<情報エリア>`とそれらの下にグループ化された編集可能な`:term:`フィールド <フィールド>`とともにメニュー名を表示します。"
+
+#: ../../user-manual/administer/manage-menus.rst:100
+msgid "Add or edit data as required."
+msgstr "必要に応じてデータを追加または編集してください。"
+
+#: ../../user-manual/administer/manage-menus.rst:101
+msgid ""
+"You can quit the create process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any changes made will not be saved. Note"
+" that simply navigating away from the page by any other means, **without "
+"first clicking \"Save\"** will also result in no changes being saved to the "
+"menu type."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを中止することができます。このボタンは:term:`button "
+"block`にあります。これにより行われた変更は保存されません。ただし、**先に「保存」をクリックせずに** "
+"他の方法でページから移動すると、メニュータイプへの変更も保存されないことに注意してください。"
+
+#: ../../user-manual/administer/manage-menus.rst:106
+msgid ""
+"To save your edits, click the \"Save\" button located in the :term:`button "
+"block` at the bottom of the record. You will be redirected to the main page."
+msgstr ""
+"編集内容を保存するには、レコードの下部にある「ボタンブロック」に位置する「保存」ボタンをクリックしてください。メインページにリダイレクトされます。"
+
+#: ../../user-manual/administer/manage-menus.rst:114
+msgid "Move an existing menu"
+msgstr "既存のメニューを移動する"
+
+#: ../../user-manual/administer/manage-menus.rst:116
+msgid ""
+"There are two ways to move an existing menu in AtoM. Start by navigating to "
+"the menu list page. You can do this by clicking on the |gears| :ref:`Admin "
+"<main-menu-admin>` menu in the :term:`main menu` located in the "
+":term:`header bar` and select \"Menus\" from the :term:`drop-down menu`. "
+"AtoM will direct you to the \"Site menu list\" :term:`view page`."
+msgstr ""
+"AtoMで既存のメニューを移動する方法は2つあります。まず、メニューリストページに移動します。これは、:term:`ヘッダーバー`内に位置する:term:`メインメニュー`の中にある|gears|"
+" :ref:`管理<main-menu-"
+"admin>`メニューをクリックし、:term:`ドロップダウンメニュー`から「メニュー」を選択することで行うことができます。するとAtoMはあなたを「サイトメニューリスト」:term:`ビューページ`に案内します。"
+
+#: ../../user-manual/administer/manage-menus.rst:122
+msgid "From here you can either:"
+msgstr "ここからは以下の操作が可能です："
+
+#: ../../user-manual/administer/manage-menus.rst:124
+msgid "Click on the up or down arrow located to the left of each menu link;"
+msgstr "各メニューリンクの左にある上矢印または下矢印をクリックしてください。"
+
+#: ../../user-manual/administer/manage-menus.rst:126
+msgid "**or**"
+msgstr "\"**または**\""
+
+#: ../../user-manual/administer/manage-menus.rst:128
+msgid ""
+"Click on the blue menu name you wish to edit to be directed to that menu's "
+":term:`edit page` where you can change the \"Parent\" :term:`field` to "
+"select a new parent menu. For example, if you wish to make the \"Archival "
+"institution\" menu a sub-menu of the admin menu in the main menu, select "
+"\"Admin\" from the :term:`drop-down menu`."
+msgstr ""
+"編集したい青いメニュー名をクリックすると、そのメニューの「編集ページ」に移動します。そこで、「親」のフィールドを変更し、新しい親メニューを選択できます。たとえば、メインメニュー内の「アーカイバル機関」メニューを管理メニューのサブメニューにする場合は、ドロップダウンメニューから「管理」を選択します。"
+
+#: ../../user-manual/administer/manage-menus.rst:139
+msgid "Delete an existing menu"
+msgstr "既存のメニューを削除する"
+
+#: ../../user-manual/administer/manage-menus.rst:141
+msgid "To delete an existing menu:"
+msgstr "既存のメニューを削除するには："
+
+#: ../../user-manual/administer/manage-menus.rst:143
+msgid ""
+"Navigate to the menu list by clicking on the |gears| :ref:`Admin <main-menu-"
+"admin>` menu in the :term:`main menu` located in the :term:`header bar` and "
+"selecting \"Menus\" from the :term:`drop-down menu`. AtoM will direct you to"
+" the \"Site menu list\" :term:`view page`."
+msgstr ""
+"|gears| :ref:`管理者 <main-menu-admin>` メニューをクリックしてメニューリストに移動し、:term:`ヘッダーバー` "
+"にある :term:`メインメニュー` から \"メニュー\" を選択してください。すると、AtoMがあなたを \"サイトメニューリスト\" "
+":term:`ビューページ` に案内します。"
+
+#: ../../user-manual/administer/manage-menus.rst:147
+msgid ""
+"Click on the blue menu name you wish to delete to be directed to that menu's"
+" :term:`edit page`."
+msgstr "削除したい青いメニュー名をクリックすると、そのメニューの`:term:`編集ページ`へと移動します。"
+
+#: ../../user-manual/administer/manage-menus.rst:149
+msgid ""
+"Scroll to the bottom of the :term:`edit page` and click the :term:`delete "
+"button` in the :term:`button block`."
+msgstr ""
+":term:`編集ページ` の一番下までスクロールし、:term:`ボタンブロック` にある :term:`削除ボタン` をクリックしてください。"
+
+#: ../../user-manual/administer/manage-menus.rst:151
+msgid ""
+"AtoM will provide a warning and prompts you to confirm that you really wish "
+"to delete the institution. To delete the record, click the :term:`delete "
+"button`."
+msgstr ""
+"AtoMは警告を表示し、本当にその機関を削除したいかどうかの確認を促します。レコードを削除するには、`:term:`delete "
+"button`（削除ボタン）をクリックしてください。"
+
+#: ../../user-manual/administer/manage-menus.rst:154
+msgid "AtoM will delete the record and opens the menu list page."
+msgstr "AtoMはその記録を削除し、メニューリストページを開きます。"
+
+#: ../../user-manual/administer/manage-menus.rst:158
+msgid ""
+"This action cannot be undone. However, the menu can be restored as a new "
+"menu. For more information, see :ref:`add a new menu <add-menu>`."
+msgstr ""
+"この操作は元に戻すことができません。しかし、メニューは新しいメニューとして復元することができます。詳細については、:ref:`add a new "
+"menu <add-menu>`を参照してください。"

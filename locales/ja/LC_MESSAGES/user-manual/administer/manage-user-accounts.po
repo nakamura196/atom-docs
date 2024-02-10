@@ -1,0 +1,1411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:5
+msgid "Manage user accounts and user groups"
+msgstr "ユーザーアカウントとユーザーグループの管理"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:7
+msgid ""
+"This section describes how to manage **User accounts** and **User groups** "
+"in AtoM. User accounts and user groups are used to define :term:`user roles "
+"<user role>`, which define levels of access, or :term:`access privileges "
+"<access privilege>` to functions in AtoM, ranging from view-only access to "
+"full administration rights. Anyone who wishes to use and interact with AtoM "
+"*must* have a user account, and only an authenticated (i.e. logged-in) "
+":term:`administrator` can add, edit and delete a user or a group in AtoM."
+msgstr ""
+"このセクションでは、AtoMで**ユーザーアカウント**と**ユーザーグループ**を管理する方法について説明します。ユーザーアカウントとユーザーグループは、閲覧のみから完全な管理権限まで、AtoMの機能に対するアクセスのレベルを定義する:term:`ユーザーロール<user"
+" role>`や:term:`アクセス権限<access "
+"privilege>`を定義するために使用されます。AtoMを使用および操作したいすべての人は*必ず*ユーザーアカウントを持っていなければならず、認証された（つまり、ログインした）:term:`管理者`のみがAtoMでユーザーやグループを追加、編集、削除することができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:15
+msgid "**Below you'll find instructions on how to:**"
+msgstr "以下では、以下の方法についての説明を見つけることができます："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:17
+msgid ":ref:`Add a new user <add-user>`"
+msgstr ":ref:`新しいユーザーを追加する <add-user>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:18
+msgid ":ref:`Edit an existing user <edit-user>`"
+msgstr ":ref:`既存のユーザーを編集する <edit-user>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:19
+msgid ":ref:`Add a new group <add-group>`"
+msgstr ":ref:`新しいグループを追加 <add-group>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:20
+msgid ":ref:`Edit an existing group <edit-group>`"
+msgstr ":ref:`既存のグループを編集する <edit-group>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:21
+msgid ":ref:`Mark a user \"Inactive\" <mark-user-inactive>`"
+msgstr ":ref:`ユーザーを「非アクティブ」にする <mark-user-inactive>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:22
+msgid ":ref:`Delete a user <delete-user>`"
+msgstr ""
+"以下のテキストを日本語に翻訳しました。\n"
+"\n"
+":ref:`ユーザーを削除する <delete-user>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:23
+msgid ":ref:`Delete a group <delete-group>`"
+msgstr ":ref:`グループを削除する <delete-group>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:24
+msgid ":ref:`Change login security <login-security>`"
+msgstr ":ref:`ログインセキュリティの変更 <login-security>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:28
+msgid ":ref:`Edit user permissions <edit-user-permissions>`"
+msgstr ":ref:`ユーザー権限の編集 <edit-user-permissions>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:29
+msgid ":ref:`User roles <user-roles>`"
+msgstr ":ref:`ユーザーロール <user-roles>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:30
+msgid ":ref:`oai-pmh-api-key`"
+msgstr ""
+"「:ref:`oai-pmh-api-key`」というテキストは、具体的な文脈がなければ直接的な翻訳はできませんが、これはおそらくドキュメント内での参照リンク（reference link）を指している可能性が高いです。ドキュメント内でこのテキストが使われている場面に応じて、適切なセクションや項目名を日本語に翻訳します。例えば、もし「OAI-PMH API キー」が該当するセクションや項目のタイトルであれば、以下のように翻訳されるかもしれません。\n"
+"\n"
+"``:ref:`oai-pmh-api-キー` ``\n"
+"\n"
+"ただし、実際のドキュメント内でこの参照がどのように使用されているかにより、適切な翻訳は異なる可能性があるため、正確な翻訳をするためには文脈が必要です。もし「OAI-PMH API Key」が特定のキーを指す場合は、そのキーの名称はそのまま、リファレンスの標記はドキュメントのマークアップ言語に従って適切に翻訳・適応される必要があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:31
+msgid ":ref:`api-intro-auth-key`"
+msgstr ""
+"このようなマークアップ言語を直接翻訳することはできませんが、これは通常Sphinxドキュメンテーション生成ツールで使用されるreStructuredText (reST) の参照タグの一例です。対応する日本語の文章またはタイトルが必要な場合、それは以下のようになります：\n"
+"\n"
+"「API イントロダクション: 認証とキー」"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:36
+msgid "Add a new user"
+msgstr "新しいユーザーを追加"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:50
+msgid ""
+"This section contains instructions on how to Add a new user in AtoM. There "
+"are two ways to add a new user in AtoM - doing so via the |gears| "
+":ref:`Admin <main-menu-admin>` menu is the easiest, but to accommodate "
+"different workflows, users can also be added from the :term:`view page` of "
+"another :term:`user's profile <user profile>`. Below are instructions to add"
+" a new user:"
+msgstr ""
+"このセクションでは、AtoMに新しいユーザーを追加する方法についての説明が含まれています。AtoMに新しいユーザーを追加する方法は2つあります。|gears|"
+" :ref:`Admin <main-menu-admin>` "
+"メニューから追加することが最も簡単ですが、異なるワークフローに対応するために、ユーザーは他の :term:`ユーザープロファイル <user "
+"profile>` の :term:`ビューページ` からも追加することができます。以下に新しいユーザーを追加するための指示を記載します："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:38
+msgid "gears"
+msgstr ""
+"できるかぎり情報を提供いたしますが、追加の文脈がなければ、\"gears\" "
+"という単語は単に「歯車」と翻訳されます。もし、この単語が特定の技術的な文脈や具体的な文章の中で使用されている場合は、適切に翻訳するためのその文脈を提供してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:57
+msgid ":ref:`From the main menu <add-user-main>`"
+msgstr ":ref:`メインメニューから <add-user-main>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:58
+msgid ":ref:`From the user profile view page <add-user-view>`"
+msgstr ":ref:`ユーザープロフィール表示ページから <add-user-view>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:60
+msgid ""
+"Every user who wishes to add, edit, or delete content within the database "
+"must have a registered :term:`user account`. Only an authenticated (i.e. "
+"logged in) :term:`administrator` can add a new user account."
+msgstr ""
+"データベース内のコンテンツを追加、編集、または削除したい各ユーザーは、登録済みの`:term:`ユーザーアカウント`を持っていなければなりません。新しいユーザーアカウントを追加できるのは認証された（つまりログインしている）`:term:`管理者`のみです。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:64
+msgid "For more information on user roles, see: :ref:`user-roles`."
+msgstr "ユーザーロールに関する詳細情報については、以下を参照してください： :ref:`ユーザーロール`。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:69
+msgid "Add a new user from the main menu"
+msgstr "メインメニューから新しいユーザーを追加"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:71
+msgid ""
+"A new user can be added in AtoM at any time, from anywhere in the "
+"application, via the :term:`main menu`."
+msgstr "アプリケーション内のどこからでも、`:term:`main menu`を通じて、新しいユーザーをAtoMにいつでも追加することができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:74
+msgid "**To add a new user in AtoM:**"
+msgstr "AtoMに新しいユーザーを追加するには："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:76
+#: ../../user-manual/administer/manage-user-accounts.rst:252
+#: ../../user-manual/administer/manage-user-accounts.rst:441
+msgid ""
+"In the :term:`main menu` located in the :term:`header bar`, click the "
+"|gears| :ref:`Admin <main-menu-admin>` menu and select \"Users\" from the "
+":term:`drop-down menu`. This will take you to a list of current user "
+"accounts."
+msgstr ""
+"ヘッダーバーにある「メインメニュー」に移動し、|ギア| アイコンの「管理 <main-menu-"
+"admin>」メニューをクリックして、ドロップダウンメニューから「ユーザー」を選択してください。これにより、現在のユーザーアカウントのリストが表示されます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the Admin menu"
+msgstr "管理メニューの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:86
+#: ../../user-manual/administer/manage-user-accounts.rst:262
+#: ../../user-manual/administer/manage-user-accounts.rst:451
+msgid ""
+"AtoM will redirect you to the List users page, where you can find, edit, and"
+" delete existing users, as well as add new users."
+msgstr ""
+"AtoMは、既存のユーザーを探したり、編集したり、削除したりすることができ、また新しいユーザーを追加することができる「ユーザー一覧」ページへとリダイレクトします。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the List users page"
+msgstr "ユーザーリストページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:96
+#: ../../user-manual/administer/manage-user-accounts.rst:538
+msgid ""
+"The List users page has two presentation options: \"Show Active only\" and "
+"\"Show Inactive only\" which allow the :term:`administrator` to view active "
+"users and inactive users in the system. For more information on inactive "
+"users, see below, :ref:`mark-user-inactive`."
+msgstr ""
+"「ユーザー一覧」ページには、「アクティブのみを表示」と「非アクティブのみを表示」という2つの表示オプションがあります。これにより、:term:`管理者`はシステム内のアクティブなユーザーと非アクティブなユーザーを確認できます。非アクティブなユーザーに関する詳細は以下を参照してください。:ref:`mark-"
+"user-inactive`。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+#: ../../user-manual/administer/manage-user-accounts.rst
+msgid "An image of Active/Inactive tabs in the Browse users page"
+msgstr "ブラウズユーザーページにおけるアクティブ/非アクティブタブの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:106
+msgid ""
+"Scroll to the bottom of the \"List users\" page and click the \"Add new\" "
+"button in the :term:`button block`. AtoM will direct you to a blank User "
+":term:`edit page`."
+msgstr ""
+"「ユーザー一覧」ページの最下部までスクロールし、「ボタンブロック」内の「新規追加」ボタンをクリックします。するとAtoMは、空白のユーザー「編集ページ」へとあなたを誘導します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of a new User page in edit mode"
+msgstr "編集モードの新しいユーザーページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:115
+msgid "In the \"Basic info\" :term:`information area`, enter the following data:"
+msgstr "「基本情報」:term:`情報エリア`に、以下のデータを入力します："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:117
+msgid "In :term:`\"Username\" <Username>`, enter the user's name;"
+msgstr "用語「\"ユーザー名\" <Username>」で、ユーザーの名前を入力してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:118
+msgid ""
+"In \"Email\", enter the user's email address. The email address (rather than"
+" the username) is used when logging in. For more information on logging in, "
+"see: :ref:`log in <log-in>`;"
+msgstr ""
+"「メールアドレス」には、ユーザーのメールアドレスを入力します。ログイン時には、ユーザー名ではなくメールアドレスが使用されます。ログイン方法の詳細については、以下を参照してください："
+" :ref:`ログイン <log-in>`;"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:121
+msgid ""
+"In :term:`\"Password\" <Password>`, enter the user's default password. Users"
+" can later change their own password. For more information, see: "
+":ref:`change-password`."
+msgstr ""
+"用語「\"パスワード\" "
+"<Password>」には、ユーザーのデフォルトパスワードを入力してください。ユーザーは後で自分のパスワードを変更することができます。詳細については、以下を参照してください：`パスワードの変更"
+" <change-password>`。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:124
+msgid "In \"Confirm password\" enter the :term:`password` again."
+msgstr "「パスワードの確認」に、:term:`パスワード` を再度入力してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:128
+msgid ""
+"Although only an authenticated (i.e. logged-in) :term:`administrator` can "
+"edit a user's profile, users can view their own :term:`profiles <user "
+"profile>` and change their :term:`passwords <password>`) by going through "
+"the :term:`header bar`. For more information, see: :ref:`Change password "
+"<change-password>`."
+msgstr ""
+"認証された（つまりログインしている）:term:`管理者`のみがユーザーのプロファイルを編集することができますが、ユーザーは自分の:term:`プロファイル"
+" <ユーザープロファイル>`を表示し、:term:`ヘッダーバー`を経由して自分の:term:`パスワード "
+"<パスワード>`を変更することができます。詳細については、:ref:`パスワード変更 <change-password>`を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:137
+msgid ""
+"If your AtoM site has :ref:`CAS single sign-on <cas-enabling>` enabled then "
+"users will not be able to update their credentials from the profile page. An"
+" AtoM administrator will not be able to make username, email or password "
+"changes either. To do so, you need to contact your CAS administrator."
+msgstr ""
+"もしAtoMサイトに`:ref:`CASシングルサインオン <cas-"
+"enabling>`が有効になっている場合、ユーザーはプロフィールページから自分の認証情報を更新することができません。AtoMの管理者も、ユーザー名、メールアドレス、パスワードの変更を行うことはできません。変更を行うには、CASの管理者に連絡する必要があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:142
+msgid ""
+"In the \"Access control\" information area, type the appropriate \"User "
+"groups\". As you type, matching results will load in a :term:`drop-down "
+"menu` below the field. See :ref:`below <add-group>` for more information on "
+"user groups."
+msgstr ""
+"「アクセス制御」情報エリアで、適切な「ユーザーグループ」を入力します。入力すると、フィールドの下にある :term:`ドロップダウンメニュー` "
+"に一致する結果が表示されます。ユーザーグループの詳細については、下記の :ref:`追加情報 <add-group>` をご覧ください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:149
+msgid ""
+"The user group, or :term:`user role` determines the user's :term:`access "
+"privileges <access privilege>`. This will control the way the user can "
+"interact with AtoM. The user role of a specific user can be changed at any "
+"time by an authenticated (i.e. logged-in) :term:`administrator`. For more "
+"information on user roles, see: :ref:`User roles <user-roles>`. For more "
+"information on editing user :term:`access privileges <access privilege>` and"
+" a list of the default permissions per group, see :ref:`Edit user "
+"permissions <edit-user-permissions>`."
+msgstr ""
+"ユーザーグループ、または :term:`ユーザーロール` はユーザーの :term:`アクセス権限 <access privilege>` "
+"を決定します。これはユーザーがAtoMとどのようにやり取りできるかを制御します。特定のユーザーのユーザーロールは、認証された（すなわちログインしている）"
+" :term:`管理者` によっていつでも変更することができます。ユーザーロールの詳細については、こちらを参照してください: :ref:`ユーザーロール"
+" <user-roles>`。ユーザーの :term:`アクセス権限 <access privilege>` "
+"を編集する方法と、グループごとのデフォルトの権限リストについての詳細は、こちらを参照してください :ref:`ユーザー権限の編集 <edit-user-"
+"permissions>`。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:160
+msgid ""
+"If your AtoM site has :ref:`CAS single sign-on <cas-enabling>` 3.0 enabled "
+"then making changes to group membership will not take effect. You will need "
+"to contact your CAS administrator to make any group membership changes."
+msgstr ""
+"もしAtoMサイトが:ref:`CASシングルサインオン<cas-enabling>` "
+"3.0を有効にしている場合、グループメンバーシップの変更は有効になりません。グループメンバーシップの変更を行うためには、CAS管理者に連絡して変更してもらう必要があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:166
+#: ../../user-manual/administer/manage-user-accounts.rst:583
+msgid ""
+"If you are using the :ref:`OAI repository <oai-pmh>` functionality in AtoM, "
+"you can also generate an API key per user account in this \"Access control\""
+" area. For more information, see: :ref:`oai-pmh-api-key`."
+msgstr ""
+"AtoMの「OAIリポジトリ <oai-"
+"pmh>」機能を使用している場合、この「アクセスコントロール」エリアでユーザーアカウントごとにAPIキーを生成することもできます。詳細については、以下を参照してください：「oai-"
+"pmh-api-key」。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:170
+msgid ""
+"Under the \"Allowed languages for translation\" section, type the "
+"appropriate \"language\" for translation. As you type, matching results will"
+" load in a :term:`drop-down menu` below the field. For more information on "
+"adding/removing languages, see: :ref:`Add/Remove languages <add-remove-"
+"languages>`. For more information on translating, see: :ref:`translate`."
+msgstr ""
+"\"翻訳可能な言語\"セクションにおいて、翻訳のための適切な「言語」を入力してください。入力すると、フィールドの下にある:term:`ドロップダウンメニュー`に一致する結果が表示されます。言語の追加や削除の詳細については、:ref:`言語の追加/削除"
+" <add-remove-languages>`を参照してください。翻訳に関する詳細は、:ref:`翻訳`を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:179
+msgid ""
+"Multiple :term:`user roles <user role>` and languages can be added to one "
+"user. A user may need to have both :term:`editor` and :term:`translator` "
+":term:`access privileges <access privilege>`, or may be able to translate in"
+" both \"English\" and \"Spanish\"."
+msgstr ""
+"一人のユーザーに複数の:term:`ユーザー役割<user "
+"role>`と言語を追加することができます。ユーザーは、:term:`編集者`と:term:`翻訳者`の:term:`アクセス権限<access "
+"privilege>`の両方を持つ必要があるかもしれませんし、「英語」および「スペイン語」の両方で翻訳ができる可能性があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:184
+msgid ""
+"Once one user role has been selected, it will appear in bullet form under "
+"\"User groups\" and a second group can then be added. To remove a selected "
+"user group, simply hover over the user group you would like to select; click"
+" on the \"**X**\" that will appear next the group name. The same "
+"instructions can be applied to the \"Allowed languages for translation\" "
+":term:`information area`."
+msgstr ""
+"一旦ユーザーロールが選択されると、\"ユーザーグループ\" "
+"の下に箇条書きで表示され、2つ目のグループを追加することができます。選択されたユーザーグループを削除するには、削除したいユーザーグループの上にカーソルを合わせ、グループ名の隣に現れる"
+" \"**X**\" をクリックします。同じ指示が「翻訳可能言語」:term:`情報エリア` にも適用されます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:191
+msgid ""
+"You can quit the creation process at any time by clicking the \"Cancel\" "
+"button, or exiting (i.e. clicking \"**X**\") the window. Any changes made "
+"will not be saved."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックするか、ウィンドウを閉じる（つまり、「**X**」をクリックする）ことで作成プロセスを終了できます。行われた変更は保存されません。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:194
+msgid ""
+"When you have completed entering all information for your new user, click "
+"the :term:`\"Create\" button <Create button>` in the :term:`button block`."
+msgstr ""
+"新しいユーザーの全ての情報の入力が完了したら、`:term:`ボタンブロック`にある`:term:`「作成」ボタン <Create "
+"button>`をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the button block on an edit page"
+msgstr "編集ページのボタンブロックの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:202
+#: ../../user-manual/administer/manage-user-accounts.rst:316
+msgid ""
+"Once the new user has been saved, AtoM will direct you to the :term:`user's "
+"profile <user profile>` :term:`view page`, where you can review your work. "
+"Clicking \"Edit\" in the :term:`button block` at the bottom of the user "
+"profile will re-open the user's profile in :term:`edit mode`."
+msgstr ""
+"新規ユーザーが保存されると、AtoMはあなたを「ユーザープロファイル」の「ビューページ」へと案内します。そこでは、あなたの作業を確認することができます。ユーザープロファイルの下部にある「ボタンブロック」の「編集」をクリックすると、ユーザープロファイルが「編集モード」で再度開かれます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of a User page in view mode"
+msgstr "閲覧モードでのユーザーページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:212
+#: ../../user-manual/administer/manage-user-accounts.rst:326
+msgid ""
+"The user profile will also display the following permission "
+":term:`information areas <information area>`: \"Information object "
+"permissions\", \"Actor permissions\", \"Taxonomy permissions\", and "
+"\"Archival institution permissions\". You can navigate through these "
+"sections to customize the user's :term:`access privileges <access "
+"privilege>` if you are not satisfied with those established by the user "
+"group, or if a user group was not selected. For more information on user "
+"permissions, see :ref:`Edit user permissions <edit-user-permissions>`."
+msgstr ""
+"ユーザープロファイルには、以下の権限に関する`:term:`情報エリア <information "
+"area>`も表示されます：「情報オブジェクトの権限」、「アクターの権限」、「タクソノミーの権限」、及び「アーカイバル機関の権限」です。ユーザーグループによって設定されたものに満足していない場合や、ユーザーグループが選択されていない場合に、これらのセクションをナビゲートしてユーザーの`:term:`アクセス権限"
+" <access privilege>`をカスタマイズすることができます。ユーザー権限についての詳細は、:ref:`ユーザー権限の編集 <edit-"
+"user-permissions>`をご覧ください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the permissions tabs on a user view page"
+msgstr "ユーザービューページにおける権限タブの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:228
+msgid ""
+"By default, the user will be automatically *Active* once the new user "
+"account has been created. You must enter :term:`edit mode` and un-check the "
+"box next to \"Active\" |Inactive| in order to make a user \"Inactive\". For "
+"more information, see: :ref:`mark-user-inactive`."
+msgstr ""
+"デフォルトでは、新しいユーザーアカウントが作成されたら、そのユーザーは自動的に*アクティブ*状態となります。ユーザーを「非アクティブ」にするには、:term:`編集モード`"
+" に入り、「アクティブ」の横にあるチェックボックスを外す |Inactive| 必要があります。詳細は、:ref:`mark-user-"
+"inactive` をご覧ください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:46
+msgid "Inactive"
+msgstr ""
+"申し訳ありませんが、「Inactive」という言葉だけでは、文脈を理解することが困難です。Archivematicaに関連する文書の一部として、もっと情報を提供していただけますか？それに応じて正確な日本語訳を提供することができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst
+msgid "An image of the Active checkbox on a user page in edit mode"
+msgstr "ユーザーページの編集モードにおける「アクティブ」チェックボックスの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:238
+msgid ""
+"For more on user roles, see :ref:`user roles <user-roles>`. For more "
+"information on user role (e.g. group) default permissions and how to "
+"customize user :term:`access privleges <access privilege>`, see: :ref:`edit-"
+"user-permissions`."
+msgstr ""
+"ユーザー役割についての詳細は、:ref:`ユーザー役割 <user-"
+"roles>`をご覧ください。ユーザー役割（例えばグループ）のデフォルト権限やユーザーの:term:`アクセス権限 <access "
+"privilege>`のカスタマイズ方法についての詳細は、:ref:`edit-user-permissions`をご覧ください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:246
+msgid "Add a new user from a user's profile view page"
+msgstr "ユーザーのプロフィール表示ページから新しいユーザーを追加する"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:248
+msgid ""
+"A new user can also be added to AtoM from the :term:`view page` of any other"
+" :term:`user's profile <user profile>` :term:`view page` via the :term:`Add "
+"new button` in the :term:`button block`. To do so:"
+msgstr ""
+"新しいユーザーは、別のユーザーのプロファイルの閲覧ページからも、ボタンブロック内の「新規追加」ボタンを通じてAtoMに追加することができます。そのためには："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:270
+#: ../../user-manual/administer/manage-user-accounts.rst:459
+msgid ""
+"Select a user from the list that appears on the page by clicking on the "
+":term:`username`. AtoM will direct you to that :term:`user's profile <user "
+"profile>` :term:`view page`."
+msgstr ""
+"ページに表示されるリストから、:term:`username`をクリックしてユーザーを選択します。AtoMはその:term:`user's "
+"profile <user profile>` :term:`view page`へと案内します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:279
+msgid ""
+"At the bottom of the user's profile :term:`view page`, you will see the "
+":term:`button block` with several options (Edit, Delete, and Add new). Click"
+" the :term:`Add new button`."
+msgstr ""
+"ユーザープロファイルの:term:`view page`の下に、いくつかのオプション（編集、削除、新規追加）が含まれる:term:`button "
+"block`が表示されます。:term:`Add new button`をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the button block on a user page"
+msgstr "ユーザーページのボタンブロックの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:290
+msgid ""
+"If your AtoM site has :ref:`CAS single sign-on <cas-enabling>` enabled then "
+"you will not be able to add new users. You will need to contact your CAS "
+"administrator to create new user accounts."
+msgstr ""
+"もしAtoMサイトが`:ref:`CASシングルサインオン <cas-"
+"enabling>`を有効にしている場合、新しいユーザーを追加することはできません。新しいユーザーアカウントを作成するには、CAS管理者に連絡する必要があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:294
+msgid ""
+"AtoM takes you to a blank :term:`edit page` for data entry. Enter data as "
+"required. For further guidance on specific fields, see steps 4-6 in the "
+"section :ref:`above <add-user-main>`."
+msgstr ""
+"AtoMは、データ入力のための空白の「編集ページ」にあなたを導きます。必要に応じてデータを入力してください。特定のフィールドに関するさらなるガイダンスについては、上記セクション「add-"
+"user-main」のステップ4-6を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:303
+msgid ""
+"You can quit the creation process at any time by clicking the “Cancel” "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new user record will be created. Note that simply navigating "
+"away from the page by any other means, **without first clicking \"Create\"**"
+" will also result in no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを終了することができます。これは、:term:`ボタンブロック`内にあります; "
+"既に入力されたデータは保存されず、新しいユーザーレコードも作成されません。また、**「作成」をクリックせずに**他の手段でページから離れるだけでは、新しいレコードは作成されないことに注意してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:308
+#: ../../user-manual/administer/manage-user-accounts.rst:748
+msgid ""
+"To save the new user record, click the :term:`\"Create\" button <Create "
+"button>` located in the :term:`button block` at the bottom of the record."
+msgstr ""
+"新しいユーザーレコードを保存するには、レコードの下部にある :term:`ボタンブロック <button block>` 内の "
+":term:`「作成」ボタン <Create button>` をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:340
+#: ../../user-manual/administer/manage-user-accounts.rst:496
+#: ../../user-manual/administer/manage-user-accounts.rst:587
+#: ../../user-manual/administer/manage-user-accounts.rst:761
+#: ../../user-manual/administer/manage-user-accounts.rst:822
+#: ../../user-manual/administer/manage-user-accounts.rst:910
+#: ../../user-manual/administer/manage-user-accounts.rst:958
+#: ../../user-manual/administer/manage-user-accounts.rst:996
+msgid ":ref:`Back to top <manage-user-accounts>`"
+msgstr "`トップへ戻る <manage-user-accounts>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:345
+msgid "View a user's description modification history"
+msgstr "ユーザーの記述変更履歴を見る"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:347
+msgid ""
+"AtoM has a basic audit log for archival descriptions that can be enabled by "
+"an :term:`administrator` in |gears| **Admin > Settings > Global**. Once "
+"enabled, AtoM will capture basic information (including date, type, "
+"associated user, and/or associated description) when archival descriptions "
+"are created or modified."
+msgstr ""
+"AtoMは、:term:`管理者`が|gears| **管理 > 設定 > "
+"グローバル**で有効にすることができる、アーカイブ記述の基本的な監査ログを有しています。一度有効にすると、AtoMはアーカイブ記述が作成されたり変更されたりした際の基本情報（日付、タイプ、関連するユーザー、および/または関連する記述を含む）を記録します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:355
+msgid ""
+"For :term:`archival description` modifications to be tracked by AtoM, an "
+":term:`administrator` must **first** have enabled the :ref:`enable-audit-"
+"logging` setting. Any description creation or modification events prior to "
+"enabling the setting will not be tracked."
+msgstr ""
+"アトミック（AtoM）によってアーカイバル・デスクリプション（archival "
+"description）の変更が追跡されるためには、まず管理者（administrator）が監査ログ（audit "
+"logging）を有効にする設定を有効化する必要があります。この設定を有効にする前に行われたデスクリプションの作成や変更イベントは追跡されません。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:360
+msgid ""
+"Authenticated (i.e. logged in) users can see their own modification history "
+"by navigating to their profile page. Additionally, an :term:`administrator` "
+"can see the description modification history of any user by navigating to "
+"their :term:`user profile` page."
+msgstr ""
+"認証された（つまり、ログインした）ユーザーは、自己のプロファイルページに移動することで、自分の変更履歴を見ることができます。さらに、`:term:`管理者`は任意のユーザーの説明変更履歴を、そのユーザーの`:term:`ユーザープロファイル`ページに移動することで確認できます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:365
+msgid "**Jump to:**"
+msgstr "**ジャンプ先：**"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:367
+msgid ":ref:`view-own-mod-history`"
+msgstr "`:ref:`view-own-mod-history`を見る`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:368
+msgid ":ref:`view-user-mod-history`"
+msgstr ""
+"`:ref:`view-user-mod-history`` という参照が示されていますが、これはドキュメント内の特定のセクションやラベルへのリンクを示すマークアップです。単独で意味を成す文ではなく、具体的な文脈を知らずに翻訳することはできません。しかしながら、この参照が指し示すセクションのタイトルが「ユーザーの変更履歴を見る」であると想定すると、その日本語訳は次のようになります：\n"
+"\n"
+"``ユーザーの変更履歴を見る``\n"
+"\n"
+"もし、詳しい文脈やタイトルがわかる場合には、それに合わせて適切な日本語訳を提供することができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:372
+msgid ":ref:`enable-audit-logging`"
+msgstr ":ref:`監査ログを有効にする`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:373
+msgid ":ref:`view-modification-history`"
+msgstr ":ref:`変更履歴の表示`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:378
+msgid "Viewing your own modification history"
+msgstr "自分自身の変更履歴を閲覧する"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:380
+msgid ""
+"If you are logged in, and the audit log has been enabled by an "
+":term:`administrator` in |gears| **Admin > Settings > Global**, then you can"
+" view a log of all your creation and modification events associated with "
+"archival descriptions in AtoM. To do so:"
+msgstr ""
+"ログインしていて、かつ管理者が|gears| **Admin > Settings > Global** "
+"にて監査ログを有効にしていれば、AtoMにおけるアーカイブ記述に関連するすべての作成および変更イベントのログを閲覧することができます。そのためには以下の手順を行います："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:385
+msgid ""
+"Click your :term:`username` in the :term:`header bar`, at the upper right-"
+"hand corner of the page"
+msgstr "ページの右上隅にある :term:`ヘッダーバー` の :term:`ユーザー名` をクリックしてください"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:387
+msgid ""
+"A :term:`drop-down menu` will appear with the option to log out, or navigate"
+" to your :term:`user profile` - click on \"Profile\""
+msgstr ""
+"ドロップダウンメニューが表示され、ログアウトするオプションやユーザープロファイルへのナビゲーションオプションがあります。「プロファイル」をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of a user clicking on the Profile option"
+msgstr "ユーザーがプロファイルオプションをクリックしている様子の画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:395
+msgid ""
+"You will be redirected to your user profile :term:`view page`. If "
+"description logging has been enabled, then you will see a section at the "
+"bottom of the profile labelled \"Editing history\" - click the heading to "
+"expand the section."
+msgstr ""
+"あなたはユーザープロファイルの:term:`ビューページ`にリダイレクトされます。もし記述ログが有効になっていれば、プロファイルの下部に「編集履歴」とラベル付けされたセクションが表示されます"
+" - 見出しをクリックしてセクションを展開してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:399
+msgid ""
+"When expanded, the Editing history :term:`area <information area>` will "
+"display information about recent creation and modification events associated"
+" with your :term:`username`, organized into a table. The Title column will "
+"include a hyperlink to the related description. The Date column will show "
+"the date and time the modification was made. The Type column has 2 possible "
+"values - \"creation\" and \"modification.\""
+msgstr ""
+"展開すると、「編集履歴 "
+":term:`エリア（情報エリア）`」には、利用者の:term:`ユーザー名`に関連する最近の作成および修正イベントに関する情報が表にまとめて表示されます。タイトル列には関連する説明へのハイパーリンクが含まれます。日付列には、修正が行われた日時が表示されます。タイプ列には「creation（作成）」と「modification（修正）」の2つの可能な値があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the Editing history of a user account"
+msgstr "ユーザーアカウントの編集履歴の画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:413
+#: ../../user-manual/administer/manage-user-accounts.rst:479
+msgid ""
+"The date and time values are determined based on the PHP time zone settings,"
+" which can be modified by a system administrator in the "
+"``apps/qubit/config/settings.yml`` configuration file. For more information,"
+" see:"
+msgstr ""
+"日付と時刻の値は、PHPのタイムゾーン設定に基づいて決定されます。これはシステム管理者によって``apps/qubit/config/settings.yml``設定ファイルで変更することができます。詳細については、以下を参照してください："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:418
+#: ../../user-manual/administer/manage-user-accounts.rst:484
+msgid ":ref:`customization-config-files`"
+msgstr ":ref:`カスタマイズ設定ファイル`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:420
+#: ../../user-manual/administer/manage-user-accounts.rst:486
+msgid ""
+"The number of results included in the Editing history pane is determined by "
+"the :ref:`results-page` setting in **Admin > Settings > Global**. If there "
+"are more results than the results per page setting, AtoM will display "
+"\"Previous\" and \"Next\" buttons at the bottom of the table for navigation."
+msgstr ""
+"編集履歴ペインに含まれる結果の数は、**管理 > 設定 > グローバル**の`:ref:`results-"
+"page`設定によって決まります。ページごとの結果数を超える結果がある場合には、AtoMはテーブルの下部に「前へ」と「次へ」のボタンを表示し、ナビゲーションを提供します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:434
+msgid "Viewing other user's modification histories"
+msgstr "他のユーザーの変更履歴を表示する"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:436
+msgid ""
+"If the audit log has been enabled by an :term:`administrator` in |gears| "
+"**Admin > Settings > Global**, then an administrator can view the "
+":term:`archival description` editing history of any :term:`user account` in "
+"AtoM. To do so:"
+msgstr ""
+"監査ログが|gears| **管理者 > 設定 > "
+"グローバル**において:term:`管理者`によって有効にされている場合、管理者はAtoM内の任意の:term:`ユーザーアカウント`の:term:`アーカイブ記述`の編集履歴を閲覧することができます。そのためには次の手順に従ってください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:462
+msgid ""
+"If description logging has been enabled, then at the bottom of the user's "
+"profile :term:`view page`, you will see a section labelled \"Editing "
+"history\" - click the heading to expand the section."
+msgstr ""
+"説明ログが有効になっている場合は、ユーザーのプロファイル:term:`view "
+"page`の下部に「編集履歴」とラベル付けされたセクションが表示されます。セクションを展開するには、見出しをクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:465
+msgid ""
+"When expanded, the Editing history :term:`area <information area>` will "
+"display information about recent creation and modification events associated"
+" with the selected user, organized into a table. The Title column will "
+"include a hyperlink to the related description. The Date column will show "
+"the date and time the modification was made. The Type column has 2 possible "
+"values - \"creation\" and \"modification.\""
+msgstr ""
+"展開すると、「編集履歴 :term:`エリア<information "
+"area>`」には、選択されたユーザーに関連する最近の作成および変更イベントについての情報が表示され、これらがテーブル形式で整理されます。タイトル列には関連する記述へのハイパーリンクが含まれます。日付列では、変更が行われた日時が表示されます。タイプ列には2つの可能な値、「作成」と「変更」があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:501
+msgid "Edit an existing user"
+msgstr "既存のユーザーを編集する"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:503
+msgid ""
+"This section contains instructions on how to edit an existing user, after "
+"they have been :ref:`created <add-user>`."
+msgstr ""
+"このセクションには、ユーザーが :ref:`作成された <add-user>` 後に既存のユーザーを編集する方法に関する指示が含まれています。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:508
+msgid ""
+"Only an authenticated (i.e. logged in) :term:`administrator` user can edit "
+"or update a user. For more information on edit privileges and user roles "
+"see: :ref:`user-roles`."
+msgstr ""
+"認証された（つまり、ログインしている）:term:`管理者`ユーザーのみがユーザーを編集または更新することができます。編集権限とユーザーロールに関する詳細情報については、:ref:`user-"
+"roles`を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:512
+msgid "A user can be edited at any time by an authenticated administrator."
+msgstr "認証済みの管理者はいつでもユーザーを編集することができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:514
+msgid "**To edit a user in AtoM:**"
+msgstr "AtoMでユーザーを編集するには："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:516
+msgid ""
+"First, navigate to an existing user in AtoM. You can do this by click the "
+"|gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main menu` located"
+" in the :term:`header bar` and selecting \"Users\" from the :term:`drop-down"
+" menu`. This will take you to a list of current user groups."
+msgstr ""
+"まず、AtoM内の既存のユーザーに移動します。これを行うには、:term:`ヘッダーバー`にある :term:`メインメニュー` の |gears| "
+":ref:`管理 <main-menu-admin>` "
+"メニューをクリックし、:term:`ドロップダウンメニュー`から「ユーザー」を選択します。これにより、現在のユーザーグループのリストに移動します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:526
+msgid ""
+"Select the user you wish to edit from the list of users that appears on the "
+"page. If you have many users, AtoM may limit the results per page; you can "
+"navigate through the list of users by scrolling to the bottom of the \"List "
+"users\" page and clicking through the page numbers."
+msgstr ""
+"編集したいユーザーを、ページに表示されているユーザーリストから選択してください。多くのユーザーがいる場合、AtoMは1ページあたりの結果を制限する場合があります。ユーザーリストをナビゲートするには、「ユーザー一覧」ページの下までスクロールし、ページ番号をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:548
+msgid ""
+"By clicking on the :term:`username` of the user you wish to edit, AtoM will "
+"direct you to that :term:`user's profile <user profile>` :term:`view page`."
+msgstr ""
+"利用を編集したいユーザーの:term:`username`（ユーザー名）をクリックすることで、AtoMはその:term:`user's profile "
+"<user profile>`（ユーザープロフィール）の:term:`view page`（表示ページ）へとあなたを誘導します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:556
+#: ../../user-manual/administer/manage-user-accounts.rst:866
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking the "
+":term:`\"Edit\" button <Edit button>` in the :term:`button block`, or by "
+"clicking on the \"User details\" heading; this takes you to the user's "
+":term:`edit page`."
+msgstr ""
+"「表示モード」から「編集モード」への切り替えは、「ボタンブロック」にある「編集」ボタンをクリックするか、「ユーザー詳細」の見出しをクリックすることで行えます。これにより、ユーザーの「編集ページ」に移動します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:561
+msgid ""
+"On loading, the :term:`edit page` displays the :term:`user profile` "
+":term:`information areas <information area>`; add and/or revise data as "
+"required."
+msgstr ""
+"読み込み時に、`:term:`編集ページ`は`:term:`ユーザープロファイル`の`:term:`情報エリア <information "
+"area>`を表示します。必要に応じてデータを追加または修正してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:564
+#: ../../user-manual/administer/manage-user-accounts.rst:885
+msgid ""
+"You can quit the process at any time by clicking the \"Cancel\" button in "
+"the :term:`button block`; any changes made will not be saved. Note that "
+"simply navigating away from the page by any other means, **without first "
+"clicking \"Save\"** will also result in no changes being saved to the user "
+"profile."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることでプロセスを終了できます。このボタンは:term:`button "
+"block`にあります。変更された内容は保存されません。ただし、「保存」をクリックせずに、他の方法でページから移動した場合も、変更はユーザープロファイルに保存されませんのでご注意ください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:569
+#: ../../user-manual/administer/manage-user-accounts.rst:810
+#: ../../user-manual/administer/manage-user-accounts.rst:890
+msgid ""
+"To save your edits, click the \"Save\" button located in the :term:`button "
+"block`."
+msgstr "編集内容を保存するには、`:term:`ボタンブロック``にある「保存」ボタンをクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:577
+msgid ""
+"You will be redirected to the :term:`view page` for the edited user where "
+"you can review your work. Follow steps 3 through 6 if you are not satisfied "
+"with your changes."
+msgstr ""
+"編集したユーザーの「表示ページ」へリダイレクトされます。そこで変更内容を確認することができます。変更に満足していない場合は、ステップ3から6を再度実行してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:592
+msgid "Add a new group"
+msgstr "新しいグループを追加"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:594
+msgid ""
+"This section contains instructions on how to Add a new user group in AtoM. "
+"There are two ways to add a new user group in AtoM - doing so via the "
+"|gears| :ref:`Admin <main-menu-admin>` menu is the easiest, but to "
+"accommodate different workflows, user groups can also be added from the "
+":term:`view page` of another group's :term:`view page`. Below are "
+"instructions on how to add a new group:"
+msgstr ""
+"このセクションには、AtoMで新しいユーザー・グループを追加する方法についての説明が含まれています。AtoMで新しいユーザー・グループを追加する方法は2つあります"
+" - |gears| :ref:`管理 <main-menu-admin>` "
+"メニューから追加することが最も簡単ですが、異なるワークフローに対応するために、他のグループの :term:`ビューページ` の "
+":term:`ビューページ` からユーザー・グループを追加することもできます。以下は新しいグループを追加する方法についての指示です："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:601
+msgid ":ref:`From the main menu <add-group-main>`"
+msgstr ":ref:`メインメニューから <add-group-main>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:602
+msgid ":ref:`From the group view page <add-group-view>`"
+msgstr ":ref:`グループビューページから<add-group-view>`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:604
+msgid ""
+"In AtoM, only an authenticated (i.e. logged in) :term:`administrator` may "
+"add a new \"Group\" or \"user group\" to the database. Administrators are "
+"then able to link these groups with  users, either at the point a user is "
+":ref:`created <add-user>` or at a later time, by :ref:`editing the user "
+"<edit-user>`. These user groups determine user :term:`access privileges "
+"<access privilege>`; linking a user to a specific user group thus "
+"establishes the user's :term:`access privileges <access privilege>` within "
+"AtoM. This will control the way the user can interact with the system."
+msgstr ""
+"AtoMでは、新しい「グループ」または「ユーザーグループ」をデータベースに追加することができるのは認証された（すなわちログインしている）:term:`管理者`のみです。その後、管理者はこれらのグループをユーザーと関連付けることができます。これはユーザーが"
+" :ref:`作成される<add-user>` 時点であったり、後からユーザーを :ref:`編集する<edit-user>` "
+"ことによっても可能です。これらのユーザーグループはユーザーの :term:`アクセス権限<access privilege>` "
+"を定め、特定のユーザーグループにユーザーを関連付けることで、AtoM内でのユーザーの :term:`アクセス権限<access privilege>` "
+"が確立されます。これにより、ユーザーがシステムとどのようにやり取りするかが制御されます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:613
+msgid ""
+"The following 5 :term:`user roles <user role>` are established as default "
+"\"Groups\" in AtoM:"
+msgstr "次の5つの:term:`ユーザーロール<user role>`がAtoMにおけるデフォルトの\"グループ\"として確立されています:"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:616
+msgid ":term:`Researcher`"
+msgstr ":term:`研究者`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:617
+msgid ":term:`Administrator`"
+msgstr "`:term:`管理者``"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:618
+msgid ":term:`Editor`"
+msgstr "用語: `エディター`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:619
+msgid ":term:`Contributor`"
+msgstr "用語: `寄稿者`"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:620
+msgid ":term:`Translator`"
+msgstr "翻訳者"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:622
+msgid ""
+"When :ref:`creating a new user <add-user>` in AtoM, :term:`administrators "
+"<administrator>` can select from these 5 groups by default, as well as other"
+" \"Groups\" that may have been added by an administrator. These default "
+"\"Groups\" contain default :term:`access privileges <access privilege>` that"
+" define levels of access to functions in AtoM; for more information on "
+"these, see :ref:`edit-user-permissions`."
+msgstr ""
+"AtoMで :ref:`新しいユーザーを作成 <add-user>`する際に、:term:`管理者 "
+"<administrator>`は既定でこれら5つのグループから選択することができます。また、管理者によって追加されたかもしれないその他の「グループ」も選択できます。これらのデフォルトの「グループ」には、AtoMの機能へのアクセスレベルを定義する既定の"
+" :term:`アクセス権限 <access privilege>`が含まれています。これらについての詳細情報は、:ref:`edit-user-"
+"permissions`をご覧ください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:629
+msgid ""
+"These default groups can be deleted at any time by an authenticated (i.e. "
+"logged-in) administrator, and new user groups can also be added at any time."
+msgstr ""
+"これらのデフォルトグループは、認証された（つまり、ログインしている）管理者によっていつでも削除することができます。また、新しいユーザーグループもいつでも追加することが可能です。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:633
+msgid ""
+"For more information on user roles, see: :ref:`User roles <user-roles>`."
+msgstr "ユーザーロールについての詳細情報は、以下を参照してください： :ref:`ユーザーロール <user-roles>`。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:638
+msgid "Add a new user group from the main menu"
+msgstr "メインメニューから新しいユーザーグループを追加"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:640
+msgid ""
+"A new group can be added in AtoM at any time, from anywhere in the "
+"application, via the :term:`main menu`. To do so, follow these instructions:"
+msgstr ""
+"AtoMでは、アプリケーションのどこからでも、`:term:`メインメニュー`を通じて、いつでも新しいグループを追加することができます。それを行うには、以下の指示に従ってください："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:643
+msgid ""
+"In the :term:`main menu` located in the :term:`header bar`, click the "
+"|gears| :ref:`Admin <main-menu-admin>` menu and select \"Groups\" from the "
+":term:`drop-down menu`."
+msgstr ""
+"ヘッダーバーにある :term:`メインメニュー` で、|gears| :ref:`管理 <main-menu-admin>` メニューをクリックし、 "
+":term:`ドロップダウンメニュー` から「グループ」を選択します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:652
+msgid ""
+"AtoM will redirect you to a list of current groups and the number of members"
+" within each group."
+msgstr "AtoMは、現在のグループとそれぞれのグループ内のメンバー数の一覧にあなたをリダイレクトします。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the List groups page"
+msgstr "リストグループのページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:660
+msgid ""
+"Scroll to the bottom of the \"List groups\" page and click the \"Add new\" "
+"button in the :term:`button block`. AtoM will direct you to a blank Group "
+":term:`edit page`."
+msgstr ""
+"「リストグループ」ページの最下部までスクロールし、`:term:`ボタンブロック`の「新規追加」ボタンをクリックしてください。AtoMはあなたを空白のグループ:term:`編集ページ`にリダイレクトします。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of a blank edit page for a new Group"
+msgstr "新規グループ用の空の編集ページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:669
+msgid ""
+"In the \"Main area\" :term:`information area`, enter the \"Name\" and the "
+"\"Description\" of the group, and select whether or not the group will have "
+"the :term:`access privilege` permission to \"Translate\". For more "
+"information on user roles, see: :ref:`user-roles`."
+msgstr ""
+"「メインエリア」:term:`情報エリア`では、「名前」およびグループの「説明」を入力し、グループが「翻訳」する権限 :term:`アクセス権限` "
+"を持つかどうかを選択します。ユーザーロールに関する詳細は、:ref:`ユーザーロール` を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:679
+msgid ""
+"You can quit the process at any time by clicking the \"Cancel\" button, or "
+"exiting (i.e. clicking \"**X**\") the browser tab. Any changes made will not"
+" be saved."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックするか、またはブラウザのタブを閉じる（つまり『**X**』をクリックする）ことでプロセスを終了することができます。行われた変更は保存されません。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:682
+msgid ""
+"When you have completed your data entry, click the :term:`\"Create\" button "
+"<Create button>` in the :term:`button block` at the bottom of the page. AtoM"
+" will be direct you to a :term:`view page` where the new :term:`user "
+"profile` will be displayed. Clicking \"Edit\" in the :term:`button block` at"
+" the bottom of the group profile will re-open the group in :term:`edit mode`"
+" if you need to make changes."
+msgstr ""
+"データ入力が完了したら、ページの下部にある`:term:`\"作成\"ボタン <Create "
+"button>`の:term:`ボタンブロック`をクリックしてください。AtoM "
+"はあなたを:term:`ビューページ`にリダイレクトし、そこで新しい:term:`ユーザープロファイル`が表示されます。グループプロファイルの下部にある:term:`ボタンブロック`で「編集」をクリックすると、変更が必要な場合にグループを:term:`編集モード`で再開することができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the view page for a new Group"
+msgstr "新しいグループのビューページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:694
+msgid ""
+"The group profile will also display the following permission "
+":term:`information areas <information area>`: \"Information object "
+"permissions\", \"Actor permissions\", \"Taxonomy permissions\", and "
+"\"Archival institution permissions\". Navigate through these sections to "
+"customize the group's :term:`access privileges <access privilege>`. For more"
+" information on user permissions, see :ref:`Edit user permissions <edit-"
+"user-permissions>`."
+msgstr ""
+"グループプロファイルには、以下の権限:term:`情報領域<information "
+"area>`も表示されます：「情報オブジェクト権限」、「アクター権限」、「タクソノミー権限」、および「アーカイブ機関権限」。これらのセクションをナビゲートして、グループの:term:`アクセス権限<access"
+" privilege>`をカスタマイズします。ユーザー権限についての詳細は、:ref:`ユーザー権限を編集<edit-user-"
+"permissions>`を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the Group permissions tabs"
+msgstr "グループ権限タブの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:709
+msgid "Add a new group from the view page"
+msgstr "ビューページから新しいグループを追加"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:711
+msgid ""
+"A new group can also be added to AtoM from the :term:`view page` of any "
+"other user group via the :term:`Add new button` in the :term:`button block`."
+" To do so:"
+msgstr ""
+"AtoMから新しいグループを追加するには、他のユーザーグループの:term:`ビューページ`から:term:`ボタンブロック`内の:term:`新規追加ボタン`を経由して行うこともできます。そのためには以下の手順を実行します："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:714
+msgid ""
+"Navigate to an existing group in AtoM. You can do this by click the |gears| "
+":ref:`Admin <main-menu-admin>` menu in the :term:`main menu` located in the "
+":term:`header bar` and selecting \"Groups\" from the :term:`drop-down menu`."
+" This will take you to a list of current user groups."
+msgstr ""
+"AtoM内の既存のグループに移動します。これを行うには、:term:`ヘッダーバー`にある:term:`メインメニュー`の|gears| "
+":ref:`管理者 <main-menu-"
+"admin>`メニューをクリックし、:term:`ドロップダウンメニュー`から「グループ」を選択します。これにより、現在のユーザーグループのリストが表示されます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:724
+msgid ""
+"Select a group from the list that appears on the page by clicking on the "
+"group name. AtoM will direct you to that user group's :term:`view page`."
+msgstr ""
+"表示されるリストからグループ名をクリックしてグループを選択します。AtoMはあなたをそのユーザーグループの`:term:`表示ページ``に案内します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:726
+msgid ""
+"At the bottom of the group's :term:`view page`, you will see the "
+":term:`button block` with several options (Edit, Delete, Add new, and Return"
+" to group list). Click the :term:`Add new button`."
+msgstr ""
+"グループの:term:`view "
+"page`の下部には、いくつかのオプション（編集、削除、新規追加、グループリストに戻る）が含まれた:term:`button "
+"block`が表示されています。:term:`Add new button`をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "Clicking the Add new button from a group view page"
+msgstr "グループ表示ページから「新規追加」ボタンをクリックする"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:735
+msgid ""
+"AtoM takes you to a blank :term:`edit page` for data entry. Enter data as "
+"required."
+msgstr "AtoMはデータ入力のための空白の:term:`edit page`に誘導します。必要に応じてデータを入力してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:743
+msgid ""
+"You can quit the creation process at any time by clicking the \"Cancel\" "
+"button in the :term:`button block`; any data already entered will not be "
+"saved, and no new user record will be created. Note that simply navigating "
+"away from the page by any other means, **without first clicking \"Create\"**"
+" will also result in no new record being created."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることで作成プロセスを終了することができます。これは`:term:`button "
+"block`内にあります。既に入力されたデータは保存されず、新しいユーザーレコードも作成されません。**最初に「作成」をクリックせずに**他の方法でページから離れた場合も、新しいレコードは作成されないことに注意してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the button block on a new Group edit page"
+msgstr "新しいグループ編集ページにあるボタンブロックの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:756
+msgid ""
+"Once the new user has been saved, AtoM will direct you to the :group's "
+":term:`view page`, where you can review your work. Clicking \"Edit\" in the "
+":term:`button block` at the bottom of the user profile will re-open the user"
+" in :term:`edit mode`."
+msgstr ""
+"新しいユーザーが保存されると、AtoMはあなたを「グループ」の「閲覧ページ」に案内します。ここであなたは作業を確認できます。ユーザープロファイルの下部にある「ボタンブロック」の「編集」をクリックすると、再度「編集モード」でユーザーを開くことができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:766
+msgid "Edit an existing user group"
+msgstr "既存のユーザーグループを編集する"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:768
+msgid ""
+"This section contains instructions on how to edit an existing group, after "
+"they have been :ref:`created <add-group>` in AtoM."
+msgstr "このセクションには、AtoMで :ref:`作成 <add-group>` された後の既存グループの編集方法に関する指示が含まれています。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:772
+msgid ""
+"Only an authenticated (i.e. logged in) :term:`administrator` user can edit "
+"or update a user group. For more information on edit privileges and user "
+"roles see: :ref:`user-roles`."
+msgstr ""
+"認証された（つまりログインした）:term:`管理者`ユーザーのみがユーザーグループを編集または更新することができます。編集権限とユーザーロールに関する詳細は、:ref:`user-"
+"roles`を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:776
+msgid ""
+"A user group can be edited at any time by an authenticated administrator."
+msgstr "認証済みの管理者は、いつでもユーザーグループを編集することができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:778
+msgid "**To edit a group in AtoM:**"
+msgstr "AtoMでグループを編集するには："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:780
+msgid ""
+"First, navigate to an existing group in AtoM. You can do this by click the "
+"|gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main menu` located"
+" in the :term:`header bar` and selecting \"Groups\" from the :term:`drop-"
+"down menu`. This will take you to a list of current user groups."
+msgstr ""
+"まず、AtoMで既存のグループに移動します。これを行うには、:term:`ヘッダーバー`にある:term:`メインメニュー`の|gears| "
+":ref:`管理<メインメニュー管理>`メニューをクリックし、:term:`ドロップダウンメニュー`から「グループ」を選択します。これにより、現在のユーザーグループのリストに移動します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:790
+msgid ""
+"Select the user group you wish to edit from the list that appears on the "
+"page by clicking on the group name. AtoM will direct you to that user "
+"group's :term:`view page`."
+msgstr ""
+"表示されているリストから編集したいユーザーグループをクリックしてグループ名を選択してください。AtoMはあなたをそのユーザーグループの「ビューページ」へと導きます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:793
+msgid ""
+"Switch from :term:`view mode` to :term:`edit mode` by clicking the "
+":term:`\"Edit\" button <Edit button>` in the :term:`button block`, or by "
+"clicking on the \"Group details\" heading; this takes you to the group's "
+":term:`edit page`."
+msgstr ""
+"「表示モード」から「編集モード」に切り替えるには、ボタンブロックの「編集」ボタンをクリックするか、または「グループ詳細」の見出しをクリックします。これにより、グループの編集ページに移動します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:797
+msgid ""
+"On loading, the :term:`edit page` displays the user group's "
+":term:`information areas <information area>`; add and/or revise data as "
+"required."
+msgstr ""
+"読み込み時に、:term:`編集ページ`はユーザーグループの:term:`情報領域<information "
+"area>`を表示します。必要に応じてデータを追加または修正してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of a Group edit page"
+msgstr "グループ編集ページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:806
+msgid ""
+"You can quit the process at any time by clicking the \"Cancel\" button in "
+"the :term:`button block`; any changes made will not be saved. Note that "
+"simply navigating away from the page by any other means, **without first "
+"clicking \"Save\"** will also result in no changes being saved."
+msgstr ""
+"いつでも「キャンセル」ボタンをクリックすることにより、プロセスを中止できます。これは、:term:`ボタンブロック`内にあります。変更は保存されません。**まず「保存」をクリックせずに**他の手段でページから移動しても、変更は保存されないことに注意してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the button block on a Group edit page"
+msgstr "グループ編集ページにおけるボタンブロックの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:818
+msgid ""
+"You will be redirected to the :term:`view page` for the edited user group "
+"where you can review your work. Follow steps 3 through 6 if you are not "
+"satisfied with your changes."
+msgstr ""
+"編集したユーザーグループの「表示ページ」へリダイレクトされます。そこであなたの作業内容を確認することができます。変更に満足していない場合は、ステップ3から6を再度実行してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:827
+msgid "Mark a user \"Inactive\""
+msgstr "ユーザーを「非活動」としてマーク"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:829
+msgid ""
+"By default, all users created in AtoM are set as \"Active\" users. Marking a"
+" user as \"Inactive\" will block the user from being able to access the "
+"system (i.e. he/she will not be able to sign in to AtoM). An authenticated "
+"(i.e. logged-in) :term:`administrator` may still edit that :term:`user's "
+"profile <user profile>`, and the user can be changed back to an \"Active\" "
+"status at any time."
+msgstr ""
+"デフォルトでは、AtoMで作成された全てのユーザーは「アクティブ」ユーザーとして設定されています。ユーザーを「非アクティブ」とマークすると、そのユーザーはシステムへのアクセスができなくなります（つまり、AtoMにサインインすることができません）。認証済み（すなわち、ログインしている）の:term:`管理者`は、その:term:`ユーザーのプロファイル<user"
+" profile>`を引き続き編集することができ、ユーザーはいつでも「アクティブ」状態に戻すことが可能です。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:835
+msgid ""
+"Users can either be marked as \"Inactive\" at the point that their "
+":term:`profile <user profile>` is :ref:`created <add-user>`, or later, by "
+"navigating to that user's :term:`edit page`. A user can only be marked as "
+"\"Active\" or \"Inactive\" by an authenticated (i.e. logged-in) "
+":term:`administrator` user. For more information on user roles, see: "
+":ref:`user-roles`."
+msgstr ""
+"ユーザーは、その:term:`プロフィール<user profile>`が:ref:`作成される<add-"
+"user>`時点で「非アクティブ」としてマークされるか、あるいは後から、そのユーザーの:term:`編集ページ`に移動して行うことができます。ユーザーを「アクティブ」または「非アクティブ」としてマークできるのは、認証された（つまりログインしている）:term:`アドミニストレーター`ユーザーのみです。ユーザーロールに関する詳細は、次を参照してください:"
+" :ref:`user-roles`。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:841
+msgid "**To mark a user \"Inactive\" in AtoM:**"
+msgstr "**AtoMでユーザーを「非アクティブ」にするには：**"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:843
+msgid ""
+"First, navigate to the In the :term:`main menu` located in the :term:`header"
+" bar`, click the |gears| :ref:`Admin <main-menu-admin>` menu and select "
+"\"Users\" from the :term:`drop-down menu`. This will take you to a list of "
+"current users accounts (i.e. the \"List users\" page). By default, the list "
+"that appears will be of all \"Active\" users (i.e. \"Show Active only\")."
+msgstr ""
+"まず、:term:`ヘッダーバー`にある:term:`メインメニュー`に移動し、|gears| :ref:`管理 <main-menu-"
+"admin>`メニューをクリックして、:term:`ドロップダウンメニュー`から「ユーザー」を選択します。これにより、現在のユーザーアカウントの一覧（すなわち、「ユーザーリスト」ページ）に移動します。デフォルトでは、表示されるリストはすべての「アクティブ」ユーザー（すなわち、「アクティブのみ表示」）になります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of List users page"
+msgstr "ユーザー一覧ページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:854
+msgid ""
+"Select the user you wish to mark as \"Inactive\" from the list of users that"
+" appears on the page. You can navigate through the list of users by "
+"scrolling to the bottom of the \"List users\" page and clicking through the "
+"page numbers."
+msgstr ""
+"表示されるユーザー一覧から「非アクティブ」に設定したいユーザーを選択してください。「ユーザー一覧」ページの最下部にスクロールし、ページ番号をクリックしてユーザーのリストをナビゲートすることができます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:863
+msgid ""
+"Click on the :term:`username` of the user you wish to mark as \"Inactive\"; "
+"AtoM will direct you to that :term:`user's profile <user profile>` "
+":term:`view page`."
+msgstr ""
+"利用者を「非アクティブ」としてマークしたい場合は、その利用者の:term:`ユーザー名`をクリックします。AtoMはあなたをその:term:`利用者のプロファイル<ユーザープロファイル>`"
+" :term:`表示ページ`に案内します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:870
+msgid ""
+"Mark the user as \"Inactive\" by unchecking the box next to \"Active\" "
+"|Inactive| in the \"Basic info\" :term:`information area` of the "
+":term:`user's profile <user profile>`; a blank box will set that user's "
+"status as \"Inactive\"."
+msgstr ""
+"\"基本情報\" :term:`情報エリア` の :term:`ユーザープロフィール <user profile>` "
+"内で、「アクティブ」の横にあるチェックボックスを外してユーザーを「非アクティブ」に設定します。チェックボックスが空白の状態でそのユーザーのステータスは「非アクティブ」となります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of marking an existing user inactive"
+msgstr "既存ユーザーを非アクティブにする操作の画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:881
+msgid ""
+"To mark a new user as \"Inactive\" at the point that their :term:`profile "
+"<user profile>` is :ref:`created <add-user>`, follow the instructions in "
+"**Step 5**."
+msgstr ""
+"新しいユーザーの:term:`プロフィール <user profile>`が:ref:`作成された時点 <add-"
+"user>`でそのユーザーを「非アクティブ」にするには、**ステップ5**の指示に従ってください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the button block on a User edit page"
+msgstr "ユーザー編集ページのボタンブロックの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:898
+msgid ""
+"AtoM will be redirected to the :term:`view page` for the edited user where "
+"you can review your work. You'll note the big red warning at the top of the "
+"page indicating that the user is now inactive. Inactive users will no longer"
+" be able to log in with their existing credentials, until an administrator "
+"marks their account as active again. Follow steps 3 through 7 if you would "
+"like to reverse the changes made."
+msgstr ""
+"AtoMは編集したユーザーの:term:`ビューページ`へリダイレクトされます。そこであなたの作業内容をレビューできます。ページの上部にある大きな赤い警告に注意してください。それはユーザーが現在非アクティブであることを示しています。非アクティブなユーザーは、管理者がそのアカウントを再びアクティブとマークするまで、既存の認証情報を使用してログインすることはできません。変更を元に戻したい場合は、ステップ3から7を追ってください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of an inactive user's profile view page"
+msgstr "非アクティブユーザーのプロフィール表示ページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:915
+msgid "Delete a user"
+msgstr "ユーザーの削除"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:917
+msgid "Follow the instructions below to delete a user in AtoM:"
+msgstr "次の指示に従って、AtoMでユーザーを削除してください："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:921
+msgid ""
+"If you delete a user from AtoM, you are deleting them **permanently** from "
+"the system; both the user and the :term:`user profile` will be deleted. It "
+"might be better suited to render a user's status as \"Inactive\" rather than"
+" deleting them from AtoM permanently. For more information on marking a "
+"user's status as \"Inactive\", see: :ref:`mark-user-inactive`."
+msgstr ""
+"AtoMからユーザーを削除する場合、そのユーザーはシステムから**永久に**削除されます。つまり、ユーザーと:term:`ユーザープロファイル`の両方が削除されます。ユーザーをAtoMから永久に削除するよりも、ユーザーのステータスを「非アクティブ」とする方がより適切かもしれません。「非アクティブ」としてユーザーのステータスをマークする方法の詳細については、:ref:`mark-"
+"user-inactive`を参照してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:927
+msgid ""
+"Navigate to the user you wish to delete from AtoM. You can do this by "
+"clicking the |gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main "
+"menu` located in the :term:`header bar`, and selecting \"Users\" from the "
+":term :`drop-down menu`. This will take you to a list of current users "
+"accounts (i.e. the \"List users\" page)."
+msgstr ""
+"AtoMから削除したいユーザーに移動してください。これを行うには、:term:`ヘッダーバー`にある :term:`メインメニュー` の中の "
+"|gears| :ref:`管理 <main-menu-admin>` "
+"メニューをクリックし、:term:`ドロップダウンメニュー`から「ユーザー」を選択します。これにより、現在のユーザーアカウントのリスト（つまり「ユーザー一覧」ページ）に移動します。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the list user page"
+msgstr "ユーザー一覧ページの画像"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:938
+msgid ""
+"Select whether you wish to view \"Active\" users (i.e. \"Show Active only\")"
+" or \"Inactive\" users (i.e. \"Show Inactive only\")."
+msgstr ""
+"「アクティブ」なユーザーを表示するか（つまり「アクティブのみ表示」を選択）、または「非アクティブ」なユーザーを表示するか（つまり「非アクティブのみ表示」を選択）を選択してください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:940
+msgid ""
+"The list will appear in alphabetical order. Find and click on the "
+":term:`username` of the user you wish to delete. You can navigate through "
+"the list of users by scrolling to the bottom of the \"List users\" page and "
+"clicking through the page numbers."
+msgstr ""
+"リストはアルファベット順に表示されます。削除したいユーザーの :term:`ユーザー名` "
+"を見つけてクリックしてください。「ユーザー一覧」ページの下にスクロールして、ページ番号をクリックすることでユーザーリストをナビゲートできます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:944
+msgid ""
+"Once you click on the username, AtoM will direct you to the :term:`user's "
+"profile <user profile>` :term:`view page`. To **delete** the user, click the"
+" :term:`Delete button` in the :term:`button block`."
+msgstr ""
+"ユーザー名をクリックすると、AtoMはあなたを「ユーザープロファイル:user's profile」という用語の「ビューページ:view "
+"page」へと案内します。ユーザーを**削除**するには、「ボタンブロック:button block」内の「削除ボタン:Delete "
+"button」をクリックします。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:947
+msgid ""
+"AtoM prompts you to confirm the delete request: click \"Delete\" to proceed "
+"(or you can click \"Cancel\" to return to the user's profile :term:`view "
+"page`)."
+msgstr ""
+"AtoMは削除リクエストの確認を促します。続行するには「削除」をクリックしてください（または、ユーザープロファイルの :term:`表示ページ` "
+"に戻るには「キャンセル」をクリックしてください）。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:-1
+msgid "An image of the confirmation message when deleting a user"
+msgstr "ユーザー削除時の確認メッセージのイメージ"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:956
+msgid "AtoM will delete the user and redirect you to the \"List users\" page."
+msgstr "AtoMはそのユーザーを削除し、「ユーザー一覧」ページにリダイレクトします。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:963
+msgid "Delete a group"
+msgstr "グループを削除する"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:965
+msgid "Follow the instructions below to delete a user group in AtoM:"
+msgstr "以下の指示に従って、AtoMでユーザーグループを削除してください："
+
+#: ../../user-manual/administer/manage-user-accounts.rst:969
+msgid ""
+"Deleting a user group in AtoM will remove that group from any :term:`user "
+"profile` it has been linked to. Be careful, as this might alter a user's "
+":term:`access privileges <access privilege>` in AtoM."
+msgstr ""
+"AtoMでユーザーグループを削除すると、それがリンクされていたすべての：term:`user "
+"profile`からそのグループが除去されます。注意してください、これはAtoMでのユーザーの：term:`アクセス権限 <access "
+"privilege>`を変更する可能性があります。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:973
+msgid ""
+"Navigate to the group you wish to delete from AtoM. You can do this by "
+"clicking the |gears| :ref:`Admin <main-menu-admin>` menu in the :term:`main "
+"menu` located in the :term:`header bar`, and selecting \"Groups\" from the "
+":term:`drop-down menu`. This will take you to a list of current groups (i.e."
+" the \"List groups\" page)."
+msgstr ""
+"AtoMから削除したいグループに移動します。これを行うには、:term:`header bar`にある :term:`main menu` の "
+"|gears| :ref:`Admin <main-menu-admin>` メニューをクリックし、:term:`drop-down "
+"menu`から「グループ」を選択します。これにより、現在のグループの一覧（すなわち、「グループ一覧」ページ）が表示されます。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:978
+msgid "Click on the name of the group you wish to delete."
+msgstr "削除したいグループの名前をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:979
+msgid ""
+"AtoM will direct you to the group's :term:`view page`. To **delete** the "
+"group, click the :term:`Delete button` in the :term:`button block`."
+msgstr ""
+"AtoMはあなたをグループの「閲覧ページ」へと導きます。グループを**削除**するには、「ボタンブロック」内の「削除ボタン」をクリックしてください。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:981
+msgid ""
+"AtoM prompts you to confirm the delete request: click \"Delete\" to proceed "
+"(or you can click \"Cancel\" to return to the group's :term:`view page`)."
+msgstr ""
+"AtoMは削除リクエストの確認を求めます：「削除」をクリックして進む（または「キャンセル」をクリックしてグループの:term:`表示ページ`に戻ることができます）。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:983
+msgid "AtoM will delete the user and redirect you to the \"List groups\" page."
+msgstr "AtoMはユーザーを削除し、「グループ一覧」ページにリダイレクトします。"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:988
+msgid "Login security features"
+msgstr "ログインセキュリティ機能"
+
+#: ../../user-manual/administer/manage-user-accounts.rst:990
+msgid ""
+":term:`Administrators <administrator>` have the ability require logged-in "
+"users to have strong passwords, as well as limit administrator functionality"
+" by IP address or require SSL for all administrator functionality. These "
+"settings are found in Admin -> Settings -> Security. See :ref:`Security "
+"panel <security-panel>` for more information."
+msgstr ""
+"「管理者<administrator>は、ログインしているユーザーに強力なパスワードを要求することができるだけでなく、IPアドレスによって管理者機能を制限したり、すべての管理者機能にSSLを要求したりすることもできます。これらの設定は、管理者"
+" -> 設定 -> セキュリティにあります。詳細については、セキュリティパネル<security-panel>を参照してください。」"

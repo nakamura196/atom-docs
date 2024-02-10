@@ -1,0 +1,504 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../admin-manual/security/csp-headers.rst:5
+msgid "Content Security Policy Headers"
+msgstr "コンテンツセキュリティポリシーヘッダー"
+
+#: ../../admin-manual/security/csp-headers.rst:7
+msgid ""
+"Content Security Policy (`CSP`_) headers are a critical component of web "
+"security, serving as a robust defense against a wide range of online "
+"threats. These headers, which are implemented on web servers and embedded "
+"within web pages, define a set of directives that instruct a browser on how "
+"to handle and restrict the execution of various web resources, such as "
+"scripts, stylesheets, and images."
+msgstr ""
+"コンテンツセキュリティポリシー（`CSP`_）ヘッダーは、Webセキュリティにおいて極めて重要な要素であり、幅広いオンライン脅威に対する強固な防御策として機能します。これらのヘッダーは、Webサーバーに実装され、Webページ内に組み込まれ、ブラウザに対してスクリプト、スタイルシート、画像などの様々なWebリソースの処理や実行を制限する指示を行うディレクティブのセットを定義します。"
+
+#: ../../admin-manual/security/csp-headers.rst:14
+msgid ""
+"The primary function of CSP headers is to mitigate the risks associated with"
+" cross-site scripting (`XSS`_) attacks, data injection attacks, and other "
+"malicious activities that exploit the trust model of web applications. By "
+"specifying which sources of content are permitted, CSP headers help prevent "
+"unauthorized code execution and reduce the attack surface, enhancing the "
+"overall security posture of web applications."
+msgstr ""
+"CSPヘッダーの主な機能は、クロスサイトスクリプティング(`XSS`_)攻撃、データインジェクション攻撃、およびウェブアプリケーションの信頼モデルを悪用するその他の悪意のある活動に関連するリスクを軽減することです。どのコンテンツのソースが許可されているかを指定することで、CSPヘッダーは無許可のコード実行を防ぎ、攻撃表面を減少させ、ウェブアプリケーションの全体的なセキュリティ姿勢を高めるのに役立ちます。"
+
+#: ../../admin-manual/security/csp-headers.rst:21
+msgid ""
+"Starting in AtoM 2.8, AtoM has built in support for CSP headers when "
+"Bootstrap 5 based themes are in use. When installing AtoM 2.8 from scratch, "
+"there's a pre-configured CSP directive setting in place which is set to "
+"report-only mode by default. These default settings serve as a foundation "
+"compatible with the upgraded Bootstrap 5 based Dominion theme and can be "
+"used as a base for custom themes based on Dominion."
+msgstr ""
+"AtoM 2.8から、Bootstrap 5ベースのテーマを使用している場合に限り、AtoMにはCSPヘッダーの組み込みサポートがあります。AtoM "
+"2.8をゼロからインストールする際には、デフォルトでレポート専用モードに設定されたCSPディレクティブの設定がプリコンフィギュレーションされています。これらのデフォルト設定は、アップグレードされたBootstrap"
+" 5ベースのDominionテーマと互換性がある基盤として機能し、Dominionに基づいたカスタムテーマのベースとして使用することができます。"
+
+#: ../../admin-manual/security/csp-headers.rst:31
+msgid "Content Security Policy headers"
+msgstr "コンテンツセキュリティポリシーヘッダー"
+
+#: ../../admin-manual/security/csp-headers.rst:33
+msgid ""
+"In a high-level example of web security using Content Security Policy (CSP),"
+" let's consider a scenario. When a user's web browser sends a request to a "
+"server for a particular web page, the server responds by generating the page"
+" response and including a CSP header. This CSP header specifies trusted "
+"sources from which scripts, stylesheets, images, and other assets can be "
+"loaded and executed. Additionally, the server generates a unique nonce "
+"(number used once) and adds it to all inline scripts and other assets within"
+" the response."
+msgstr ""
+"WebセキュリティでContent Security "
+"Policy（CSP）を利用する高水準の例を考えてみましょう。ユーザーのウェブブラウザが特定のウェブページを要求するためにサーバーにリクエストを送るシナリオを想定します。サーバーはページの応答を生成し、CSPヘッダーを含めて応答します。このCSPヘッダーは、スクリプト、スタイルシート、イメージ、およびその他のアセットをロードして実行できる信頼できるソースを指定します。さらに、サーバーは一意のノンス（一度だけ使用される番号）を生成し、応答内の全てのインラインスクリプトやその他のアセットに追加します。"
+
+#: ../../admin-manual/security/csp-headers.rst:41
+msgid ""
+"Once the response is sent to the user's browser, the browser acts as a "
+"security enforcer. It checks each requested resource and script against the "
+"CSP directive. If any resource or script does not match the trusted sources "
+"specified in the CSP header or lacks the correct nonce, the browser rejects "
+"those elements, preventing them from loading or executing. This strict "
+"validation process ensures that only content from trusted sources, as "
+"defined by the CSP, is allowed to run on the webpage. In doing so, CSP "
+"effectively protects against cross-site scripting (`XSS`_) attacks and other"
+" security threats, making the user's browsing experience safer and more "
+"secure."
+msgstr ""
+"ユーザーのブラウザに応答が送信されると、ブラウザはセキュリティを強化する役割を果たします。ブラウザは、要求された各リソースとスクリプトをCSPディレクティブに対してチェックします。リソースやスクリプトがCSPヘッダで指定された信頼できるソースと一致しない場合、または正しいノンスが欠けている場合、ブラウザはそれらの要素を拒否し、ロードや実行を阻止します。この厳格な検証プロセスにより、CSPによって定義された信頼できるソースからのコンテンツのみがウェブページ上で実行を許可されます。このようにして、CSPは効果的にクロスサイトスクリプティング（`XSS`）攻撃などのセキュリティ脅威から保護し、ユーザーのブラウジング体験をより安全で安心なものにします。"
+
+#: ../../admin-manual/security/csp-headers.rst:-1
+msgid ""
+"An image describing the use of CSP headers to validate a requested page."
+msgstr "要求されたページを検証するためにCSPヘッダーを使用することを説明する画像。"
+
+#: ../../admin-manual/security/csp-headers.rst:59
+msgid "AtoM's CSP configuration"
+msgstr "AtoMのCSP設定"
+
+#: ../../admin-manual/security/csp-headers.rst:61
+msgid ""
+"This is the default configuration you'll find in AtoM's :ref:`config-app-"
+"yml` file:"
+msgstr "これは、AtoMの `config-app-yml` ファイルにおいて見つかるデフォルト設定です:"
+
+#: ../../admin-manual/security/csp-headers.rst:72
+msgid ""
+"This directive includes sources from Google to support AtoMs's Google "
+"Analytics and Google Maps integrations. If these are not needed, it is "
+"possible to remove the Google sources from the default directive. If at some"
+" future time it was desired to activate Google Analytics or Google Maps, "
+"these sources would need to be re-added to the directive."
+msgstr ""
+"このディレクティブには、AtoMのGoogle AnalyticsとGoogle "
+"Mapsの統合をサポートするためのGoogleからのソースが含まれています。これらが必要でない場合は、デフォルトディレクティブからGoogleのソースを削除することが可能です。将来的にGoogle"
+" AnalyticsやGoogle Mapsをアクティブにしたい場合は、これらのソースをディレクティブに再度追加する必要があります。"
+
+#: ../../admin-manual/security/csp-headers.rst:77
+msgid ""
+"The CSP ``repsonse_header`` setting is used to set the CSP header type and "
+"can have one of two values:"
+msgstr ""
+"CSPの``response_header``設定は、CSPヘッダータイプを設定するために使用され、2つの値のうちの1つを持つことができます："
+
+#: ../../admin-manual/security/csp-headers.rst:80
+msgid ""
+"**Content-Security-Policy**: This setting will enforce the defined policy. "
+"When set, the browser will block any resources (scripts, images, "
+"stylesheets, etc.) that violate the policy directives."
+msgstr ""
+"**Content-Security-Policy（コンテンツセキュリティポリシー）**: "
+"この設定は定義されたポリシーを実施します。設定すると、ブラウザはポリシーの指示に違反するリソース（スクリプト、画像、スタイルシートなど）をブロックします。"
+
+#: ../../admin-manual/security/csp-headers.rst:84
+msgid ""
+"**Content-Security-Policy-Report-Only**: This header works similarly to the "
+"``Content-Security-Policy`` but does not block any resources allowing "
+"developers to test and monitor potential violations without affecting the "
+"functionality of the web page. This is useful for testing a new policy or "
+"changes to an existing policy without risking breakage. Violations will be "
+"reported to the browser's console. This setting is the default."
+msgstr ""
+"**コンテント・セキュリティ・ポリシー・レポート・オンリー**: このヘッダーは``Content-Security-"
+"Policy``と同様に機能しますが、リソースのブロックはせず、ウェブページの機能に影響を与えることなく、開発者が潜在的な違反をテストして監視することを可能にします。これは、新しいポリシーをテストしたり、既存のポリシーに変更を加える際に、機能の損傷をリスクにすることなく役立ちます。違反はブラウザのコンソールに報告されます。この設定はデフォルトです。"
+
+#: ../../admin-manual/security/csp-headers.rst:92
+msgid ""
+"In order to activate CSP header protection, you will need to update the CSP "
+"``response_header`` from ``Content-Security-Policy-Report-Only`` to "
+"``Content-Security-Policy`` in your app.yml file."
+msgstr ""
+"CSPヘッダー保護を有効にするためには、app.ymlファイル内でCSP `response_header`を`Content-Security-"
+"Policy-Report-Only`から`Content-Security-Policy`に更新する必要があります。"
+
+#: ../../admin-manual/security/csp-headers.rst:96
+msgid ""
+"The CSP ``directives`` setting contains the CSP policy that will be sent in "
+"the CSP header. The value for the ``directives`` setting above is the "
+"default when the Dominion theme is in use. Multiple directives get "
+"delineated with a semicolon (``;``)."
+msgstr ""
+"CSP 「directives」 "
+"設定には、CSPヘッダーで送信されるCSPポリシーが含まれています。上記の「directives」設定の値は、Dominionテーマを使用しているときのデフォルトです。複数のディレクティブはセミコロン（``;``）で区切られます。"
+
+#: ../../admin-manual/security/csp-headers.rst:101
+msgid ""
+"The value ``nonce`` in the above example is a placeholder and will be "
+"replaced with a generated unique value when AtoM generates the page "
+"response."
+msgstr ""
+"上記の例における「nonce」の値はプレースホルダーであり、AtoMがページのレスポンスを生成する際に、生成された一意の値に置き換えられます。"
+
+#: ../../admin-manual/security/csp-headers.rst:104
+msgid "The specific directives defined in the defaults above are as follows:"
+msgstr "上記のデフォルトで定義されている具体的な指示は以下の通りです："
+
+#: ../../admin-manual/security/csp-headers.rst:106
+msgid ""
+"default-src: If resources aren't mentioned in other sections, this policy is"
+" applied."
+msgstr "デフォルト-src：他のセクションで言及されていないリソースには、このポリシーが適用されます。"
+
+#: ../../admin-manual/security/csp-headers.rst:107
+msgid "font-src: Stipulates which fonts can be loaded."
+msgstr "font-src: どのフォントがロード可能かを規定します。"
+
+#: ../../admin-manual/security/csp-headers.rst:108
+msgid "img-src: Stipulates which images can be loaded."
+msgstr "img-src: どの画像を読み込むことができるかを規定します。"
+
+#: ../../admin-manual/security/csp-headers.rst:109
+msgid "script-src: Stipulates which scripts can be loaded."
+msgstr "スクリプト-src: どのスクリプトを読み込むことができるかを規定します。"
+
+#: ../../admin-manual/security/csp-headers.rst:110
+msgid "style-src: Stipulates which styles or CSS can be loaded."
+msgstr "style-src: どのスタイルまたはCSSがロード可能かを規定します。"
+
+#: ../../admin-manual/security/csp-headers.rst:111
+msgid ""
+"worker-src: Defines valid sources for web workers and nested browsing "
+"contexts loaded using elements such as <frame> and <iframe>."
+msgstr ""
+"worker-src: <frame> や <iframe> "
+"などの要素を使用して読み込まれるウェブワーカーやネストされたブラウズコンテキストの有効なソースを定義します。"
+
+#: ../../admin-manual/security/csp-headers.rst:112
+msgid ""
+"connect-src: Specifies the URLs that the application can connect to using "
+"script interfaces like XMLHttpRequest, fetch, WebSocket, and EventSource."
+msgstr ""
+"connect-src: XMLHttpRequest, Fetch, WebSocket, EventSource "
+"などのスクリプトインターフェースを使用して、アプリケーションが接続できるURLを指定します。"
+
+#: ../../admin-manual/security/csp-headers.rst:113
+msgid ""
+"frame-ancestors 'self': Determines which domains can embed the page as a "
+"frame. This directive restricts who can embed the page in frames, iframes, "
+"embeds, or objects."
+msgstr ""
+"frame-ancestors 'self': "
+"どのドメインがページをフレームとして埋め込むことができるかを決定します。この指示は、誰がフレーム、iframe、embed、またはobjectとしてページを埋め込むことができるかを制限します。"
+
+#: ../../admin-manual/security/csp-headers.rst:115
+msgid ""
+"Specifying ``self`` ensures that only trusted resources from the *same "
+"origin* are loaded and executed."
+msgstr "「``self``を指定することで、*同一オリジン*からの信頼できるリソースのみが読み込まれ、実行されることが保証されます。」"
+
+#: ../../admin-manual/security/csp-headers.rst:118
+msgid ""
+"Updating these settings will require restarting :ref:`PHP-FPM "
+"<troubleshooting-restart-php-fpm>`."
+msgstr ""
+"これらの設定を更新するには、:ref:`PHP-FPM <troubleshooting-restart-php-fpm>` の再起動が必要になります。"
+
+#: ../../admin-manual/security/csp-headers.rst:123
+msgid ""
+"CSP headers will only be applied to a response if a Bootstrap 5 based theme "
+"is in use. See:"
+msgstr "CSPヘッダーは、Bootstrap 5ベースのテーマが使用されている場合にのみ、レスポンスに適用されます。参照："
+
+#: ../../admin-manual/security/csp-headers.rst:123
+msgid ":ref:`customization-theming`"
+msgstr ":ref:`カスタマイズ-テーマ設定`"
+
+#: ../../admin-manual/security/csp-headers.rst:124
+msgid ":ref:`themes`"
+msgstr ":ref:`テーマ`"
+
+#: ../../admin-manual/security/csp-headers.rst:126
+msgid ""
+"CSP headers can be deactivated by deleting the CSP section from the "
+":ref:`config-app-yml` file, saving the file, and restarting :ref:`PHP-FPM "
+"<troubleshooting-restart-php-fpm>`."
+msgstr ""
+"CSPヘッダーは、:ref:`config-app-yml` ファイルからCSPセクションを削除して、ファイルを保存し、:ref:`PHP-FPM "
+"<troubleshooting-restart-php-fpm>` を再起動することで無効にすることができます。"
+
+#: ../../admin-manual/security/csp-headers.rst:132
+msgid "Implementing a Content Security Policy For Your Custom Theme"
+msgstr "カスタムテーマのためのコンテンツセキュリティポリシーの実装"
+
+#: ../../admin-manual/security/csp-headers.rst:134
+msgid "Begin with a basic CSP directive."
+msgstr "基本的なCSP（Content Security Policy）ディレクティブから始めます。"
+
+#: ../../admin-manual/security/csp-headers.rst:136
+msgid ""
+"If your custom theme is derived from AtoM's Dominion Bootstrap 5 theme, "
+"begin with the baseline CSP directive from AtoM's :ref:`config-app-yml`:"
+msgstr ""
+"お使いのカスタムテーマがAtoMのDominion Bootstrap 5テーマから派生している場合、AtoMの `config-app-yml` "
+"の基本的なCSPディレクティブから始めてください："
+
+#: ../../admin-manual/security/csp-headers.rst:143
+#: ../../admin-manual/security/csp-headers.rst:161
+msgid "In app.yml this would look like:"
+msgstr "app.ymlでは以下のようになります："
+
+#: ../../admin-manual/security/csp-headers.rst:153
+msgid ""
+"For those who have crafted a custom theme, but haven't used AtoM's default "
+"Bootstrap 5 Dominion theme as a foundation, it's recommended to start with a"
+" more restrictive `content-security-policy` header:"
+msgstr ""
+"カスタムテーマを作成したけれども、AtoMのデフォルトのBootstrap 5 "
+"Dominionテーマを基盤として使用していない方に対して、より制限的な`content-security-"
+"policy`ヘッダーから始めることをお勧めします："
+
+#: ../../admin-manual/security/csp-headers.rst:171
+msgid ""
+"These examples reference the ``Content-Security-Policy-Report-Only`` header "
+"- this header will log violations in Chrome's Developer Tools but will not "
+"prevent a script from loading and running. This is helpful when developing a"
+" policy so that the pages and all scripts still load properly - while "
+"ensuring all violations will be seen in the console log. When the policy "
+"definition is ready to go live this CSP header type can be changed to "
+"``Content-Security-Policy`` to activate enforcement."
+msgstr ""
+"これらの例では、「Content-Security-Policy-Report-"
+"Only」ヘッダーに言及しています。このヘッダーは、Chromeの開発者ツール内で違反をログに記録しますが、スクリプトの読み込みと実行を妨げることはありません。これは、ページとすべてのスクリプトが正しく読み込まれるようにしながら、コンソールログで全ての違反が確認できるようにするために有用です。ポリシーの定義が公開用に準備できたら、このCSPヘッダータイプを「Content-"
+"Security-Policy」に変更して施行を有効にできます。"
+
+#: ../../admin-manual/security/csp-headers.rst:179
+msgid "Monitor in the browser watching for CSP violations."
+msgstr "ブラウザでCSP違反を監視します。"
+
+#: ../../admin-manual/security/csp-headers.rst:181
+msgid ""
+"In Chrome's Developer Tools, click on the \"Console\" tab. This tab displays"
+" logs, errors, and warnings related to the webpage you are inspecting."
+msgstr ""
+"Chromeのデベロッパーツールで、「Console」タブをクリックします。このタブには、検証しているウェブページに関連するログ、エラー、警告が表示されます。"
+
+#: ../../admin-manual/security/csp-headers.rst:184
+msgid ""
+"In the Console, look for messages that begin with ``Content Security "
+"Policy``. These messages indicate CSP violations. CSP violation messages "
+"typically include information about what part of the policy was violated and"
+" what resource was blocked."
+msgstr ""
+"コンソールで「Content Security "
+"Policy」と始まるメッセージを探します。これらのメッセージはCSP違反を示しています。CSP違反メッセージには通常、どのポリシーのどの部分が違反されたか、そしてどのリソースがブロックされたかに関する情報が含まれています。"
+
+#: ../../admin-manual/security/csp-headers.rst:188
+msgid ""
+"Look for and fix any violations by adding nonce to inline script, style, "
+"etc."
+msgstr "インラインスクリプト、スタイルなどに nonce を追加することにより、違反があれば検索して修正してください。"
+
+#: ../../admin-manual/security/csp-headers.rst:190
+msgid ""
+"Alongside each CSP violation message in the Console, Chrome provides the "
+"source file's name and the line number where the violation occurred. This "
+"information is useful for pinpointing the exact part of your code "
+"responsible for the violation."
+msgstr ""
+"コンソールで各CSP違反メッセージの隣には、違反が発生したソースファイルの名前と行番号が表示されます。この情報は、違反の原因となっているコードの正確な部分を特定するのに役立ちます。"
+
+#: ../../admin-manual/security/csp-headers.rst:194
+msgid ""
+"Use \"view source\" to find the implicated line and find the violation in "
+"the underlying code. Most of these are going to be inline assets - scripts, "
+"styles, etc. See: :ref:`csp-allow-inline-sources`."
+msgstr ""
+"「ソースを表示」を使い、問題となっている行を探し、基本となるコード内での違反を見つけてください。これらのほとんどはインラインアセット―スクリプト、スタイルなど―であることが多いです。参照："
+" :ref:`csp-allow-inline-sources`。"
+
+#: ../../admin-manual/security/csp-headers.rst:198
+msgid "Activate policy enforcement."
+msgstr "ポリシーの適用を有効にする。"
+
+#: ../../admin-manual/security/csp-headers.rst:200
+msgid ""
+"Once you are convinced you've caught all the violations, activate "
+"enforcement of the CSP policy by changing the header from ``Content-"
+"Security-Policy-Report-Only`` to ``Content-Security-Policy``."
+msgstr ""
+"すべての違反を検出したと確信したら、ヘッダーを「Content-Security-Policy-Report-Only」から「Content-"
+"Security-Policy」へ変更して、CSPポリシーの強制を有効にしてください。"
+
+#: ../../admin-manual/security/csp-headers.rst:207
+msgid "Safely Allowing Inline Sources"
+msgstr "安全にインライン・ソースを許可する"
+
+#: ../../admin-manual/security/csp-headers.rst:209
+msgid "If your application has inline scripts there are 4 choices:"
+msgstr "もしアプリケーションにインラインスクリプトが存在する場合、4つの選択肢があります："
+
+#: ../../admin-manual/security/csp-headers.rst:211
+msgid "Usage of ``unsafe-inline`` should be avoided."
+msgstr "``unsafe-inline``の使用は避けるべきです。"
+
+#: ../../admin-manual/security/csp-headers.rst:213
+msgid ""
+"Allowing ``unsafe-inline`` in a CSP directive permits inline scripts or "
+"styles from any source to run. While it offers design flexibility, it's "
+"discouraged due to heightened risk of XSS attacks. This setting can expose "
+"web applications to malicious script injections, undermining CSP's security "
+"benefits and so using ``unsafe-inline`` should be avoided."
+msgstr ""
+"CSPディレクティブで``unsafe-"
+"inline``を許可すると、任意のソースからのインラインスクリプトやスタイルを実行することができます。設計の柔軟性は高まりますが、XSS攻撃のリスクが高まるため、推奨されません。この設定を使うと、ウェブアプリケーションが悪意のあるスクリプト注入に晒され、CSPのセキュリティメリットを損なうことになるので、``unsafe-"
+"inline``の使用は避けるべきです。"
+
+#: ../../admin-manual/security/csp-headers.rst:219
+msgid "Add the hash of the script to the CSP directive."
+msgstr "スクリプトのハッシュをCSPディレクティブに追加してください。"
+
+#: ../../admin-manual/security/csp-headers.rst:221
+msgid ""
+"Adding a script's hash to the CSP directive allows for specific inline "
+"scripts to execute based on their hashed content. While this method ensures "
+"only the approved script runs, it's fragile because any change to the "
+"script's content requires recalculating and updating its hash in the CSP. "
+"This can be cumbersome and error-prone, especially with frequent script "
+"modifications."
+msgstr ""
+"CSPディレクティブにスクリプトのハッシュを追加することで、ハッシュされた内容に基づいて特定のインラインスクリプトが実行されることを許可できます。この方法は承認されたスクリプトだけが実行されることを保証しますが、スクリプトの内容が変更されるたびにハッシュを再計算し、CSPで更新する必要があり、そのため脆弱です。これは、特に頻繁にスクリプトを変更する場合に、煩雑でエラーを起こしやすい作業となり得ます。"
+
+#: ../../admin-manual/security/csp-headers.rst:227
+msgid ""
+"In addition, if there are a large number of violations, there could mean a "
+"lot of hashes to add, creating a very messy CSP directive."
+msgstr ""
+"さらに、違反が多数存在する場合、多数のハッシュを追加する必要があるかもしれず、それによって非常に乱雑なCSPディレクティブが作成されることになります。"
+
+#: ../../admin-manual/security/csp-headers.rst:230
+msgid ""
+"For a given request generate a random nonce value to be returned in the CSP "
+"header directive and on each inline script, style etc tag."
+msgstr ""
+"特定のリクエストに対して、CSPヘッダーディレクティブに返されるランダムなノンス値を生成し、各インラインスクリプト、スタイルなどのタグにそれを適用してください。"
+
+#: ../../admin-manual/security/csp-headers.rst:233
+msgid ""
+"Each inline script or style has to be flagged as 'ok' with a nonce (a random"
+" token) value that is uniquely generated for a specific request/response "
+"pair. This nonce must be included in the Header directive, and in each "
+"inline script (or style, font, img source) tag. If your application has lots"
+" of inline scripts, styles and whatnot this could be a lot of work, but it "
+"will be more robust than using script hashes."
+msgstr ""
+"各インラインスクリプトまたはスタイルは、特定のリクエスト/レスポンスペアに対してユニークに生成されたnonce（ランダムなトークン）値で「ok」としてマークする必要があります。このnonceは、ヘッダディレクティブと各インラインスクリプト（またはスタイル、フォント、画像ソース）のタグに含める必要があります。お使いのアプリケーションにインラインスクリプトやスタイルなどが多く含まれている場合、これは多くの作業を必要とするかもしれませんが、スクリプトハッシュを使用するよりも堅牢な方法になります。"
+
+#: ../../admin-manual/security/csp-headers.rst:244
+msgid ""
+"Remove the inline asset! Refactor the code to move the inline asset to the "
+"script and style bundle. If it's an inline style can it be replaced with a "
+"Bootstrap 5 equivalent?"
+msgstr ""
+"インラインアセットを削除してください！ "
+"インラインアセットをスクリプトとスタイルのバンドルに移動するためにコードをリファクタリングします。インラインスタイルであれば、それをBootstrap "
+"5に相当するものに置き換えることができますか？"
+
+#: ../../admin-manual/security/csp-headers.rst:248
+msgid ""
+"Work completed to make the Dominion theme compatible with CSP headers can be"
+" viewed in this `AtoM CSP commit`_. This commit provides examples of how to "
+"refer to the nonce value generated by AtoM from your theme templates, and "
+"examples of refactoring code to remove inline styles in favour of Bootstrap "
+"5 equivalents."
+msgstr ""
+"CSPヘッダーに対応させるために行ったドミニオンテーマの作業は、この「AtoM "
+"CSPコミット」で確認できます。このコミットには、AtoMによって生成されたノンス値をテーマテンプレートから参照する方法や、インラインスタイルをBootstrap"
+" 5の同等のコードにリファクタリングする例が含まれています。"
+
+#: ../../admin-manual/security/csp-headers.rst:256
+msgid "Allowing External Sources"
+msgstr "外部ソースを許可する"
+
+#: ../../admin-manual/security/csp-headers.rst:258
+msgid ""
+"If for example the application makes use of Gravatar assets, we could allow "
+"them by adding:"
+msgstr "たとえばアプリケーションがGravatarアセットを利用している場合、以下を追加することでそれらを許可することができます："
+
+#: ../../admin-manual/security/csp-headers.rst:265
+msgid ""
+"Note it is good to be as specific as possible without creating a "
+"maintainance headache when specifying the domain. E.g. if all assets are "
+"loaded from the ``avatar`` endpoint, then it is better to be more specific "
+"than allow scripts to be run from the entire ``https://www.gravatar.com`` "
+"domain."
+msgstr ""
+"メンテナンスの手間を増やさない範囲で、ドメインを指定する際にはできるだけ具体的であることが望ましいことに注意してください。例えば、すべてのアセットが「avatar」エンドポイントからロードされる場合、スクリプトを「https://www.gravatar.com」ドメイン全体から実行できるようにするよりも、より具体的にする方が良いです。"
+
+#: ../../admin-manual/security/csp-headers.rst:270
+msgid ""
+"If your theme makes use of other services beyond Google Analytics, or the "
+"Maps API, then you may need to whitelist additional sources. We recommend "
+"consulting the vendor's documentation for this. For example, Matomo "
+"Analytics provides the following configuration tips:"
+msgstr ""
+"もしあなたのテーマがGoogle AnalyticsやMaps "
+"APIを超えて他のサービスを利用している場合、追加のソースをホワイトリストに登録する必要があるかもしれません。この場合、ベンダーのドキュメントを参照することを推奨します。例えば、Matomo"
+" Analyticsは以下の設定ヒントを提供しています："
+
+#: ../../admin-manual/security/csp-headers.rst:275
+msgid "https://matomo.org/faq/general/faq_20904/"
+msgstr ""
+"申し訳ありませんが、著作権で保護されたウェブサイトのコンテンツを翻訳することはできません。ただし、Archivematicaについての一般的な説明や関連情報を提供することはできます。Archivematicaに関する情報が必要でしたら、その内容について教えてください。"
+
+#: ../../admin-manual/security/csp-headers.rst:279
+msgid ""
+"Additional AtoM documentation links related to Google service integrations:"
+msgstr "Google サービス統合に関連する追加のAtoMドキュメントリンク："
+
+#: ../../admin-manual/security/csp-headers.rst:281
+msgid ":ref:`maintenance-web-analytics`"
+msgstr ""
+":ref:`maintenance-web-analytics` "
+"のセクションは、Archivematicaのドキュメントの中の参照リンクを示していますが、実際の翻訳を行う前に、具体的なテキスト内容が必要です。この参照リンクだけでは、対応するテキストを翻訳できません。もし具体的なテキストがあれば、それを提供していただければ、翻訳を行うことができます。"
+
+#: ../../admin-manual/security/csp-headers.rst:282
+msgid ":ref:`maps-api-key`"
+msgstr ""
+":ref:`maps-api-key` (この部分は参照マークアップであり、通常は文書内の特定のセクションや項目を指すために使用されます。日本語訳をする場合、関連するセクションや項目の日本語のタイトルに置き換える必要がありますが、具体的なコンテキストがないため、直訳はできません。参照として使われる対象のタイトルを知る必要があります。仮にそれが「Maps API キー」というセクションを指しているとすると、次のように訳すことができます。)\n"
+"\n"
+":ref:`maps-api-キー`"

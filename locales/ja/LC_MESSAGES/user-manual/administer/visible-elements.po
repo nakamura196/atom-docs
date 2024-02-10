@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/administer/visible-elements.rst:5
+msgid "Visible elements"
+msgstr "可視要素"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "An image of the Visible elements option in the Admin menu"
+msgstr "管理メニュー内の「表示要素オプション」の画像"
+
+#: ../../user-manual/administer/visible-elements.rst:20
+msgid ""
+":term:`Visible elements <visible elements>` enables an :term:`administrator`"
+" to \"hide\" specific :term:`fields <field>` in the database from the public"
+" (i.e., unauthorized users, or users who are not logged in). It also allows "
+"administrators to hide :term:`digital object` metadata (such as file size, "
+"name, upload date, etc) for uploaded or linked content, and  related "
+":ref:`Physical storage <physical-storage>` information."
+msgstr ""
+"可視要素（Visible "
+"elements）は、管理者（administrator）がデータベース内の特定のフィールド（fields）を公開から「隠す」ことを可能にします（すなわち、権限のないユーザーやログインしていないユーザーから）。また、アップロードされたりリンクされたコンテンツに関するデジタルオブジェクト（digital"
+" object）のメタデータ（ファイルサイズ、名前、アップロード日など）や、関連する物理的保存（Physical "
+"storage）情報を隠すこともできます。"
+
+#: ../../user-manual/administer/visible-elements.rst:27
+msgid ""
+"To access the visible elements menu, click on the |gears| :ref:`Admin <main-"
+"menu-admin>` menu in the :term:`main menu` located in the :term:`header bar`"
+" and select \"Visible elements\" from the :term:`drop-down menu`. Each "
+"visible elements area will appear collapsed when the page first loads - "
+"click on one of the areas to expand it and view the available fields listed "
+"below."
+msgstr ""
+"可視要素メニューにアクセスするには、:term:`ヘッダーバー`にある:term:`メインメニュー`の中の |gears| :ref:`管理 "
+"<main-menu-admin>` "
+"メニューをクリックし、:term:`ドロップダウンメニュー`から「可視要素」を選択します。各可視要素エリアは、ページが最初に読み込まれたときに折りたたまれた状態で表示されます"
+" - エリアの一つをクリックして展開し、下記にリストされている利用可能なフィールドを表示してください。"
+
+#: ../../user-manual/administer/visible-elements.rst:7
+msgid "gears"
+msgstr "ギア (直訳が適切でないまたは文脈が必要な場合は、詳細を教えていただければ、より適切な訳語をご提供します。)"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "An image of the Visible elements menu in AtoM"
+msgstr "AtoMの「表示要素」メニューの画像"
+
+#: ../../user-manual/administer/visible-elements.rst:39
+msgid ""
+"Each visible elements area includes a list of :term:`fields <field>` with "
+"check boxes next to them. When an element's checkbox is |check| **checked**,"
+" that element will be VISIBLE to public users. When it is |uncheck| "
+"**unchecked**, it will NOT be visible to public users (e.g. those not logged"
+" in)."
+msgstr ""
+"各表示要素エリアには、それぞれの隣にチェックボックスがある:term:`フィールド "
+"<field>`のリストが含まれています。要素のチェックボックスが|check| "
+"**チェック済み**の場合、その要素は公開ユーザーに対して表示されます。チェックボックスが|uncheck| "
+"**未チェック**の場合、公開ユーザー（例えばログインしていないユーザー）には表示されません。"
+
+#: ../../user-manual/administer/visible-elements.rst:11
+msgid "check"
+msgstr ""
+"申し訳ありませんが、翻訳するテキストが提供されていません。\"check\"という単語のみが記載されています。どのような文脈で使用されるテキストを翻訳してほしいか、具体的な内容を教えていただけますか？それによって翻訳内容が変わってきます。"
+
+#: ../../user-manual/administer/visible-elements.rst:13
+msgid "uncheck"
+msgstr "チェックを外す"
+
+#: ../../user-manual/administer/visible-elements.rst:46
+msgid ""
+"ALL authenticated users, from contributers to adminstrators, **will** be "
+"able to see those elements hidden from the public via the hidden elements "
+"module. If you are logged in, the Visible Elements module is not in "
+"operation."
+msgstr ""
+"すべての認証済みのユーザー、貢献者から管理者に至るまで、「非表示要素」モジュールを通じて一般公開から隠された要素を閲覧することが**できます**。ログインしている場合、「表示要素」モジュールは動作しません。"
+
+#: ../../user-manual/administer/visible-elements.rst:51
+msgid "Below you will find a brief outline of each Visible elements area:"
+msgstr "以下に各「Visible elements area」の簡単な概要を示します："
+
+#: ../../user-manual/administer/visible-elements.rst:53
+msgid ":ref:`visible-elements-global`"
+msgstr ""
+":ref:`visible-elements-global` (リファレンスを日本語に直訳すると不自然なため、通常はそのまま残し、説明を加えます。)\n"
+"\n"
+":ref:`グローバルに表示される要素 <visible-elements-global>` \n"
+"\n"
+"上記のように、リンク先に対応する見出しへの参照を表すために翻訳時に見出しの日本語訳を追加することがあります。"
+
+#: ../../user-manual/administer/visible-elements.rst:54
+msgid ":ref:`visible-elements-headers`"
+msgstr ""
+"Visible Elements - Headers\n"
+"\n"
+"注: このテキストはコードやドキュメント内のラベルのように見えます。単独では完全な文章としては機能しませんが、もし文脈が与えられていれば、より適した翻訳を提供することができます。 上記のテキストが参照タグ (:ref:`visible-elements-headers`) であると仮定して、次のように翻訳できます：\n"
+"\n"
+"参照：`表示要素 - ヘッダー`"
+
+#: ../../user-manual/administer/visible-elements.rst:55
+msgid ":ref:`visible-elements-fields`"
+msgstr ""
+"`:ref:`visible-elements-fields``は、リンクまたは参照先の意図されたテキストがないため、文脈を正確に判断することはできません。通常、このような表記はドキュメント内の特定のセクションへの参照を意味しています。この表記がドキュメントの中でどのようなタイトルやセクション名に対応するのかに応じて、日本語で適切な訳を用意する必要があります。\n"
+"\n"
+"しかし、`visible-elements-fields` を指す可能なテキストとして、私が提示できる仮の翻訳は以下の通りです：\n"
+"\n"
+"``参照: `表示要素とフィールド` ``\n"
+"\n"
+"ここでの「表示要素とフィールド」というフレーズは、ドキュメント内の特定のセクションのタイトルとして想定されています。実際のタイトルが何であるか、またそのコンテキストに応じて適切な翻訳に調整することが重要です。"
+
+#: ../../user-manual/administer/visible-elements.rst:56
+msgid ":ref:`visible-elements-digital-object`"
+msgstr ":ref:`デジタルオブジェクトの表示要素`"
+
+#: ../../user-manual/administer/visible-elements.rst:57
+msgid ":ref:`visible-elements-storage`"
+msgstr ":ref:`可視要素-ストレージ`"
+
+#: ../../user-manual/administer/visible-elements.rst:63
+msgid ":ref:`archival-descriptions`"
+msgstr ":ref:`アーカイブ記述`"
+
+#: ../../user-manual/administer/visible-elements.rst:64
+msgid ":ref:`isad-template`"
+msgstr ""
+"このテキストは特定のリファレンスや文脈なしで日本語に直訳することは難しいですが、「:ref:`isad-template`」という表記は、多くのドキュメントやマニュアルで使用される参照（リファレンス）タグに似ています。このタグは通常、同じドキュメント内の特定のセクションを指し示すのに使われるものです。\n"
+"\n"
+"`:ref:` は参照を始めるためのマークアップで、`isad-template`は参照先のラベルあるいは識別名です。ISAD(G)は国際標準アーカイブ記述（International Standard Archival Description (General)）の略で、アーカイブ文書の記述標準です。\n"
+"\n"
+"したがって、もしこのテキストを日本語の文脈に合わせて翻訳する場合、ドキュメント内の「ISAD(G)テンプレート」というセクションへの参照を意味するラベルや参照先として扱うことになるでしょう。ただし、実際の翻訳作業では、ドキュメントの全体的な構造やその他のセクションのタイトルに応じて適切な名前に変更する必要があります。"
+
+#: ../../user-manual/administer/visible-elements.rst:65
+msgid ":ref:`rad-template`"
+msgstr ""
+"`:ref:`rad-template`` は、テキストの一部であり、特定の参照や定義にリンクするために使用される reStructuredText (reST) のマークアップ言語で使用される特殊な構文です。原文ドキュメントにおいて、これは他のドキュメントやドキュメント内の特定の節を参照する際に使われることがあります。\n"
+"\n"
+"これをそのまま翻訳する場合、リンクされている先の文脈や標題に基づいて正しい日本語表現が必要になるかもしれません。ただし、構文自体は翻訳の対象ではなく、そのまま使用されます。なので、リンク先の適切な日本語訳のタイトルが分かる場合には以下のように翻訳されるかもしれません：\n"
+"\n"
+"`ラジオ暗黙テンプレート参照 <rad-template>`\n"
+"\n"
+"しかし、上記の具体的なリンク先の文脈がこの情報だけでは分からないため、もし翻訳対象となる文章が文書や章を参照している場合は、その部分に適切なタイトルを付けて翻訳する必要があります。また、仮にリンク先が存在しない場合は、リンクを削除し、文脈に沿った翻訳を行う必要があります。"
+
+#: ../../user-manual/administer/visible-elements.rst:66
+msgid ":ref:`dacs-template`"
+msgstr ""
+"`:ref:`dacs-template``はreStructuredTextの文法を用いた参照標記です。reStructuredTextはMarkdownに似た文章構造の文書形式で、特にプログラミング言語のドキュメント生成に使用されます。このマークアップは、通常、Archivematicaに関するドキュメントの中で高度に構造化された参照やリンクを作成する際に使用されます。ただし、直接の日本語訳が要求されているのであれば、参照する対象の実際のタイトルや説明がないと、意味のある訳にすることは難しいです。例えば、`:ref:`dacs-template``が「DACSテンプレート」という節を参照しているならば、次のような日本語翻訳が考えられるでしょう：\n"
+"\n"
+"「DACSテンプレート」\n"
+"\n"
+"それでも、これはコンテキストが必要です。エディタやドキュメントの他の部分が見られないと、適切な翻訳を提供することは困難です。利用環境に応じた翻訳が必要である場合、もっと具体的な情報を提供してください。"
+
+#: ../../user-manual/administer/visible-elements.rst:67
+#: ../../user-manual/administer/visible-elements.rst:266
+msgid ":ref:`physical-storage`"
+msgstr ":ref:`物理的保存`"
+
+#: ../../user-manual/administer/visible-elements.rst:68
+msgid ":ref:`upload-digital-object`"
+msgstr ":ref:`デジタルオブジェクトのアップロード`"
+
+#: ../../user-manual/administer/visible-elements.rst:69
+msgid ":ref:`log-in`"
+msgstr ""
+"このコンテキストでは、`:ref:`log-in``はおそらくリンクまたは参照ラベルであり、特定のセクションまたはドキュメントへの参照を示しています。日本語の翻訳では、参照の目的を保持する必要があるため、そのままにしてリンクやラベルのトークンとして機能させます。ただし、`log-in`の部分は日本語に翻訳しても良いです。以下に示します：\n"
+"\n"
+":ref:`ログイン`"
+
+#: ../../user-manual/administer/visible-elements.rst:74
+msgid "Hide or show the login button"
+msgstr "ログインボタンを非表示または表示する"
+
+#: ../../user-manual/administer/visible-elements.rst:76
+msgid ""
+"An :term:`administrator` can hide the login button for public users. The "
+"default setting allows the login button to be visible to all users. To "
+"change this so that the login button is hidden to public users, an "
+":term:`administrator` can click the Global section of Visible Elements and "
+"uncheck the login button. Click \"Save\", and exit Visible Elements. The "
+"login button will still be visible for authenticated (i.e. logged in) users,"
+" but hidden for unauthenticated users."
+msgstr ""
+"管理者は、一般ユーザー向けのログインボタンを非表示にすることができます。デフォルト設定では、ログインボタンはすべてのユーザーに対して見えるようになっています。この設定を変更して、公開ユーザーに対してログインボタンを隠すには、管理者は「Visible"
+" Elements」の「Global」セクションをクリックし、ログインボタンのチェックを外します。「Save」をクリックして、「Visible "
+"Elements」を終了します。ログインボタンは認証されたユーザー（つまりログインしているユーザー）には引き続き表示されますが、未認証のユーザーには隠されます。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "An image of the Global Visible Elements"
+msgstr "グローバルな可視要素の画像"
+
+#: ../../user-manual/administer/visible-elements.rst:89
+msgid ""
+"Note that the login screen can be accessed by adding 'user/login' at the end"
+" of the site URL."
+msgstr "ログイン画面は、サイトのURLの末尾に'user/login'を追加することでアクセスできることに注意してください。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "An image of forcing the login screen"
+msgstr "強制ログインスクリーンのイメージ"
+
+#: ../../user-manual/administer/visible-elements.rst:99
+msgid ""
+"A system administrator can also fully disable the ability to log into AtoM, "
+"if you are using a version of AtoM as a read-only access site. See:"
+msgstr ""
+"システム管理者は、読み取り専用アクセスサイトとしてAtoMのバージョンを使用している場合、AtoMへのログイン機能を完全に無効にすることもできます。詳しくは以下を参照してください："
+
+#: ../../user-manual/administer/visible-elements.rst:102
+msgid ":ref:`read-only-mode`"
+msgstr ":ref:`リードオンリーモード`"
+
+#: ../../user-manual/administer/visible-elements.rst:107
+msgid "Hide or show Information area headers"
+msgstr "情報エリアのヘッダーを隠すか表示する"
+
+#: ../../user-manual/administer/visible-elements.rst:109
+msgid ""
+"AtoM :term:`archival description` data entry templates are based on "
+"international and national content standards for description - more "
+"information on the standards currently supported in AtoM can be found here: "
+":ref:`descriptive-standards`."
+msgstr ""
+"AtoMの用語「アーカイブ記述」のデータ入力テンプレートは、国際的な及び国内の記述内容の標準に基づいています。AtoMで現在サポートされている標準についての詳細は、こちらのリンクを参照してください：「記述標準」。"
+
+#: ../../user-manual/administer/visible-elements.rst:114
+msgid ""
+"Most content standards are organized into sections or areas. In AtoM, these "
+"are expressed in the :term:`view <view page>` and :term:`edit <edit page>` "
+"pages as :term:`information areas <information area>`. Information areas "
+"appear on :term:`view pages <view page>` and :term:`edit pages <edit page>` "
+"of any standards-based description template in AtoM, and group related "
+":term:`fields <field>` based on the organization of elements of description "
+"in `ICA <http://www.ica.org/>`__ (or other supported) descriptive standards."
+" They are comprised of a number of :term:`fields <field>` in the body of the"
+" information area, and an :term:`area header`, whose name is drawn from the "
+"related area or section of the standard upon which the descriptive template "
+"is based."
+msgstr ""
+"ほとんどのコンテンツ基準は、セクションまたは領域に分かれています。AtoMでは、これらは：term:`view <view "
+"page>`（閲覧）ページと：term:`edit <edit page>`（編集）ページにおいて：term:`information areas "
+"<information area>`（情報領域）として表現されます。情報領域は任意の基準に基づいた記述テンプレートの：term:`view pages"
+" <view page>`（閲覧ページ）及び：term:`edit pages <edit "
+"page>`（編集ページ）に現れ、関連する：term:`fields <field>`（フィールド）を、国際アーカイブズ評議会（`ICA "
+"<http://www.ica.org/>`__）またはその他のサポートされる記述基準の要素の組織に基づいてグループ化します。情報領域は、情報領域の本文内の多数のフィールドと、標準の関連領域またはセクションから引き出された名前を持つ：term:`area"
+" header`（領域ヘッダー）で構成されています。記述テンプレートはその基礎となる標準に基づいています。"
+
+#: ../../user-manual/administer/visible-elements.rst:126
+msgid ""
+"While these area headers are useful to archivists working with content "
+"standards for archival description, they may not be meaningful to public "
+"users. If desired, an :term:`administrator` can choose to hide the various "
+":term:`area headers <area header>` for the :ref:`RAD <rad-template>`, "
+":ref:`DACS <dacs-template>`, and :ref:`ISAD <isad-template>` templates."
+msgstr ""
+"これらのエリアヘッダーは、アーカイブ記述のための内容基準を用いて作業するアーカイビストにとって有用ですが、一般のユーザーにとって意味がない可能性があります。望むならば、:term:`管理者`は、:ref:`RAD"
+" <rad-template>`、:ref:`DACS <dacs-template>`、及び :ref:`ISAD <isad-"
+"template>`テンプレートの各:term:`エリアヘッダー <area header>`を非表示に設定することができます。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "Visible elements menu with checkboxes for area headers."
+msgstr "エリアヘッダー用のチェックボックス付きの可視要素メニュー。"
+
+#: ../../user-manual/administer/visible-elements.rst:137
+msgid ""
+"To hide an :term:`area header` from public view, simply uncheck the checkbox"
+" next to the header name. Remember to click \"Save\" in the :term:`button "
+"block` at the bottom of the page when you are finished."
+msgstr ""
+"公開ビューから:term:`エリアヘッダー`を隠すには、単にヘッダー名の横にあるチェックボックスのチェックを外してください。完了したら、ページの下部にある:term:`ボタンブロック`の「保存」をクリックすることを忘れないでください。"
+
+#: ../../user-manual/administer/visible-elements.rst:141
+msgid ""
+"For illustration, below is an example description, displayed using the "
+":ref:`ISAD template <isad-template>`, with all :term:`area headers <area "
+"header>` visible (i.e. all check boxes |check| checked):"
+msgstr ""
+"以下は、すべての :term:`エリアヘッダー <area header>` が表示されている（つまり、すべてのチェックボックス |check| "
+"がチェックされている）:ref:`ISADテンプレート <isad-template>` を使用して表示される例示的な説明です。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "An example description with Area headers visible."
+msgstr "エリアヘッダーが見える例の説明。"
+
+#: ../../user-manual/administer/visible-elements.rst:151
+msgid ""
+"Here is the same description with all :term:`area headers <area header>` "
+"hidden (i.e. all check boxes |uncheck| unchecked):"
+msgstr ""
+"こちらは、全ての:term:`領域ヘッダ<area "
+"header>`を非表示にした（すなわち、全てのチェックボックス|uncheck|が未選択になった）同じ説明です。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "An example description with Area headers hidden."
+msgstr "エリアヘッダーが非表示の説明例。"
+
+#: ../../user-manual/administer/visible-elements.rst:159
+#: ../../user-manual/administer/visible-elements.rst:204
+#: ../../user-manual/administer/visible-elements.rst:239
+#: ../../user-manual/administer/visible-elements.rst:268
+msgid ":ref:`Back to top <visible-elements>`"
+msgstr ":ref:`トップに戻る <visible-elements>`"
+
+#: ../../user-manual/administer/visible-elements.rst:164
+msgid "Hide or show metadata fields"
+msgstr "メタデータフィールドを非表示または表示"
+
+#: ../../user-manual/administer/visible-elements.rst:166
+msgid ""
+"Within the :ref:`ISAD <isad-template>`, :ref:`RAD <rad-template>`, and "
+":ref:`DACS <dacs-template>` templates for :term:`archival descriptions "
+"<archival description>`, specific :term:`fields <field>` can also be hidden "
+"from public users if desired."
+msgstr ""
+":ref:`ISAD <isad-template>`、:ref:`RAD <rad-template>`、そして:ref:`DACS <dacs-"
+"template>`における:term:`アーカイブ記述 <archival "
+"description>`のテンプレートでは、特定の:term:`フィールド "
+"<field>`を必要に応じて一般のユーザーから見えないようにすることができます。"
+
+#: ../../user-manual/administer/visible-elements.rst:171
+msgid ""
+"The names of each field available in the ISAD, RAD, and DACS elements areas "
+"are taken directly from field names in AtoM's data entry templates - which "
+"are themselves drawn directly from the related content standards. For "
+"specific information on each field, see: :ref:`data-entry`."
+msgstr ""
+"各ISAD、RAD、DACS要素領域で利用可能なフィールド名は、AtoMのデータ入力テンプレートのフィールド名から直接引用されているものです。これらのフィールド名は、それぞれ関連する内容標準に直接基づいています。各フィールドの具体的な情報については、次を参照してください："
+" :ref:`data-entry`。"
+
+#: ../../user-manual/administer/visible-elements.rst:176
+msgid ""
+"An authenticated (logged-in) :term:`administrator` can |check| check the "
+"checkboxes to reveal the :term:`field`, while an |uncheck| unchecked box "
+"hides the field. To review which fields can be hidden from the public, "
+"select the ISAD template, the RAD template, and/or the DACS template as "
+"applicable. Whether you choose to hide or show elements from the ISAD, RAD, "
+"and/or DACS area depends on which :ref:`default template <default-"
+"templates>` you are using."
+msgstr ""
+"認証された（ログインしている）:term:`管理者`は、チェックボックスに|check| マークを入れることで :term:`フィールド` "
+"を表示させることができ、チェックボックスが |uncheck| "
+"オフの状態ではフィールドを隠します。一般に見せないフィールドを確認するために、適用される場合はISADテンプレート、RADテンプレート、またはDACSテンプレートを選択してください。ISAD、RAD、および/またはDACS領域から要素を隠すか表示するかは、どの"
+" :ref:`デフォルトテンプレート <default-templates>` を使用しているかによって異なります。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "Visible elements menu with checkboxes."
+msgstr "チェックボックス付きの可視要素メニュー。"
+
+#: ../../user-manual/administer/visible-elements.rst:188
+#: ../../user-manual/administer/visible-elements.rst:233
+#: ../../user-manual/administer/visible-elements.rst:255
+msgid ""
+"When you have made your changes, remember to click \"Save\" in the "
+":term:`button block` at the bottom of the page."
+msgstr "変更を行った際には、ページの下部にある「ボタンブロック」で「保存」をクリックすることを忘れないでください。"
+
+#: ../../user-manual/administer/visible-elements.rst:193
+msgid ""
+"Elements (e.g. :term:`fields <field>`) that are hidden via the Visible "
+"elements module will not be visible to public users in the interface. "
+"However, the data will still be contained in the EAD XML download available "
+"to end users! Note that physical storage information, described below, is "
+"different - because location information can be a security concern for some "
+"users, when physical storage information is hidden via the Visible elements "
+"module, it is also removed from the EAD XML export for public users."
+msgstr ""
+"例えば、Visible elementsモジュールを通じて非表示にされた要素（:term:`フィールド "
+"<field>`など）は、インターフェースの公開ユーザーには見えません。しかし、そのデータは末端ユーザーがダウンロード可能なEAD "
+"XMLに依然として含まれています！ただし、下記に説明される物理的な保存情報は異なります。この情報にはセキュリティに関する懸念がある場合があるため、Visible"
+" elementsモジュールを通じて物理的な保存情報が非表示にされた場合、それは公開ユーザー向けのEAD XMLエクスポートからも削除されます。"
+
+#: ../../user-manual/administer/visible-elements.rst:201
+msgid "For more information on EAD XML export, see: :ref:`export-xml`"
+msgstr "EAD XMLエクスポートの詳細については、以下を参照してください： :ref:`export-xml`"
+
+#: ../../user-manual/administer/visible-elements.rst:209
+msgid "Hide or show digital object metadata fields"
+msgstr "デジタルオブジェクトのメタデータフィールドを非表示または表示する"
+
+#: ../../user-manual/administer/visible-elements.rst:211
+msgid ""
+"In AtoM, when a :term:`digital object` is uploaded and associated with an "
+":term:`archival description`, a new :term:`information area` will appear at "
+"the bottom of the description with metadata about the associated digital "
+"object:"
+msgstr ""
+"AtoMでは、:term:`デジタルオブジェクト`がアップロードされ、:term:`アーカイブ記述`に関連付けられると、関連するデジタルオブジェクトについてのメタデータを含む新しい:term:`情報エリア`が記述の下部に表示されます。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "An image of the digital object metadata area on a description"
+msgstr "デジタルオブジェクトのメタデータエリアに関する説明の画像"
+
+#: ../../user-manual/administer/visible-elements.rst:221
+msgid ""
+"An :term:`administrator` can choose to hide some or all of these fields from"
+" unauthenticated (e.g. not logged in) users via the Visible elements module."
+msgstr ""
+"管理者は、「表示要素」モジュールを使用して、認証されていない（例：ログインしていない）ユーザーからこれらのフィールドの一部または全部を隠すことができます。"
+
+#: ../../user-manual/administer/visible-elements.rst:224
+msgid ""
+"In the Digital object metadata :term:`area <information area>`, |check| "
+"check a :term:`field` to make it visible to public users, or |uncheck| "
+"uncheck it to hide the field from public users."
+msgstr ""
+"デジタルオブジェクトメタデータ :term:`エリア <information area>` では、|check| である :term:`フィールド` "
+"をチェックして一般ユーザーに表示させるか、または |uncheck| でチェックを外して一般ユーザーからそのフィールドを隠します。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "Visible elements menu for digital object metadata"
+msgstr "デジタルオブジェクトのメタデータのための可視要素メニュー"
+
+#: ../../user-manual/administer/visible-elements.rst:236
+msgid ""
+"For more information on uploading digital objects in AtoM, see: "
+":ref:`upload-digital-object`."
+msgstr ""
+"AtoMでデジタルオブジェクトをアップロードする詳細に関しては、以下を参照してください：:ref:`upload-digital-object`。"
+
+#: ../../user-manual/administer/visible-elements.rst:244
+msgid "Hide or show Physical storage"
+msgstr "物理的な保存場所を非表示にするか表示する"
+
+#: ../../user-manual/administer/visible-elements.rst:246
+msgid ""
+"Administrators can select whether Physical storage information is visible to"
+" unauthorized (not logged-in) users or not by clicking on Physical storage "
+"area, and |check| checking or |uncheck| unchecking the Physical storage "
+"button."
+msgstr ""
+"管理者は、物理ストレージエリアをクリックし、物理ストレージボタンを|check|チェックするか|uncheck|チェックを外すことで、物理ストレージ情報を未認証の（ログインしていない）ユーザーに対して見えるようにするかどうかを選択できます。"
+
+#: ../../user-manual/administer/visible-elements.rst:-1
+msgid "Visible elements menu for physical storage"
+msgstr "物理的な記憶媒体のための可視要素メニュー"
+
+#: ../../user-manual/administer/visible-elements.rst:260
+msgid ""
+"If physical storage is hidden to unauthorized users, the physical storage "
+"information will also be missing from exported EAD XML file, if exported by "
+"a non-authenticated user. For more information on export and physical "
+"storage, see:"
+msgstr ""
+"物理ストレージが無許可ユーザーに対して非表示に設定されている場合、認証されていないユーザーによってエクスポートされた場合、エクスポートされたEAD "
+"XMLファイルからも物理ストレージ情報が欠落していることになります。エクスポートおよび物理ストレージに関する詳細情報については、以下を参照してください："
+
+#: ../../user-manual/administer/visible-elements.rst:265
+msgid ":ref:`export-xml`"
+msgstr ""
+"`:ref:`export-xml`` は reStructuredText または Sphinx ドキュメントで使用される参照(リファレンス)記述の一部であるため、これ自体を直接翻訳することは適していません。この記述はドキュメント内で定義された特定のセクションまたはタイトル「export-xml」へのリンクを作成するために使われます。\n"
+"\n"
+"しかし、テキストを日本語のドキュメントに組み込む場合、参照している部分の日本語のタイトルに適切に変更して、リファレンスを機能させる必要があります。例えば、もし「export-xml」セクションが日本語では「XMLのエクスポート」というタイトルになるのであれば、そのセクションへのリファレンスは以下のようになります：\n"
+"\n"
+"``:ref:`xml-no-ekusupooto` ``\n"
+"\n"
+"ただし、日本語のタイトルがドキュメント内で実際にどのようにラベル付けされるかは、そのドキュメントの編集者やライターによって異なることに注意してください。日本語タイトルへの正確なリファレンス名は、そのラベルが文書内でどのように設定されているかに依存します。"

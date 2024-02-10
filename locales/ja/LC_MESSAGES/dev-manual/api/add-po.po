@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../dev-manual/api/add-po.rst:5
+msgid "Add physical object endpoint"
+msgstr "物理オブジェクトのエンドポイントを追加"
+
+#: ../../dev-manual/api/add-po.rst:7
+msgid "**POST /api/physicalobjects**"
+msgstr ""
+"「POST /api/physicalobjects」はAPIエンドポイントの識別子です。テキストそのものに具体的な情報は含まれておらず、単にプログラムへの指示を表しています。そのため、これを日本語に直訳するとその意味が損なわれてしまうかもしれませんが、もし直訳するとすれば以下の通りです。\n"
+"\n"
+"**POST /api/物理オブジェクト**\n"
+"\n"
+"ただし、これはAPIの操作としての「POST」というHTTPメソッドを指し、「/api/physicalobjects」というエンドポイントに物理オブジェクトに関するデータを送信することを意図しています。日本語の文脈で説明する場合は、より技術的な内容を含めて説明する必要があります。例えば:\n"
+"\n"
+"APIの「POST /api/physicalobjects」というエンドポイントは、新しい物理オブジェクトのデータをサーバーに送信するために使用されます。"
+
+#: ../../dev-manual/api/add-po.rst:9
+msgid "This endpoint will allow adding a :term:`physical object`."
+msgstr "このエンドポイントでは`:term:`物理的オブジェクト``の追加が可能です。"
+
+#: ../../dev-manual/api/add-po.rst:14
+msgid "Example request"
+msgstr "例のリクエスト"
+
+#: ../../dev-manual/api/add-po.rst:23
+msgid "Example response"
+msgstr ""
+"ごめんなさい、あなたが提供した「Example "
+"response」というテキストについて、具体的なコンテキストが提供されていないため、どのように翻訳すればよいかわかりません。何か特定の文章や段落があれば、それを翻訳のために提供していただけますか？それに基づき、適切に日本語に翻訳いたします。"
+
+#: ../../dev-manual/api/add-po.rst:25
+msgid "Example response is truncated and edited for readability."
+msgstr ""
+"Certainly, I can translate the provided text for you. However, you haven't "
+"included the text that needs to be translated into Japanese. Could you "
+"please provide the specific text from the Archivematica documentation that "
+"you need help with?"
+
+#: ../../dev-manual/api/add-po.rst:38
+msgid ":ref:`Back to top <api-add-po>`"
+msgstr ":ref:`トップへ戻る <api-add-po>`"

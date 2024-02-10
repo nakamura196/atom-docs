@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Artefactual Systems Inc
+# This file is distributed under the same license as the AtoM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AtoM 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 21:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:5
+msgid "Exit edit mode"
+msgstr "編集モードを終了"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:11
+msgid ""
+":term:`Edit mode <edit mode>` allows the user to add, modify, or delete the "
+"contents of :term:`archival descriptions <archival description>`, "
+":term:`authority records <authority record>`, :term:`archival institutions "
+"<archival institution>`, :term:`terms <term>`, and other database content "
+"using :term:`edit pages <edit page>`. In edit mode, AtoM displays all fields"
+" in a :term:`record` for data entry."
+msgstr ""
+"編集モード<edit mode>を使用すると、ユーザーは編集ページ<edit page>を使って、アーカイブ記述<archival "
+"description>、権威記録<authority record>、アーカイブ機関<archival "
+"institution>、用語<term>、その他のデータベース内容を追加、変更、削除することができます。編集モードで、AtoMはデータ入力用にレコード<record>内のすべてのフィールドを表示します。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:18
+msgid ""
+"Usually, when first viewing a page, a :term:`record` will be displayed in "
+":term:`view mode`, and the user will have to enter :term:`edit mode` by "
+"either clicking the \"Edit\" button in the :term:`button block`, or by "
+"clicking on an :term:`area header` above an :term:`information area` (the "
+"exception is when a new record is being created via the |plus| :ref:`Add "
+"menu <main-menu-add>` - in this case the user is redirected to a blank "
+"record already in :term:`edit mode`."
+msgstr ""
+"通常、ページを初めて表示したときには、:term:`record` が :term:`view mode` で表示されますが、ユーザーは "
+":term:`button block` にある「編集」ボタンをクリックするか、または :term:`information area` の上にある "
+":term:`area header` をクリックすることで :term:`edit mode` に入る必要があります（例外として、|plus| "
+":ref:`Add menu <main-menu-add>` "
+"を通じて新しいレコードが作成されている場合、ユーザーは編集モードの空のレコードにリダイレクトされます）。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:7
+msgid "plus"
+msgstr ""
+"申し訳ありませんが、翻訳するテキストが提供されていません。Archivematicaに関するドキュメントや、翻訳を希望する具体的なパラグラフがある場合は、そのテキストを提示してください。それに基づいて日本語への翻訳を行います。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:26
+msgid "**TO EXIT EDIT MODE**"
+msgstr "**編集モードを終了するには**"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:28
+msgid ""
+"The two primary ways to exit edit mode are to either **save** or **cancel** "
+"the record (or changes made to an existing record), using the buttons found "
+"in the :term:`button block` at the bottom of the record."
+msgstr ""
+"編集モードを終了する主な方法は2つあります。1つ目は、記録の下部にある :term:`ボタンブロック` "
+"にあるボタンを使用して、新規または既存の記録に対して行った変更を**保存**することです。2つ目は、変更を**キャンセル**することです。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:34
+msgid ""
+"The **ONLY** way to save any changes made to a record is by using the "
+"\"Save\" or \"Create\" (if it is a new record) button in the :term:`button "
+"block`. All other methods will result in all changes to the record being "
+"lost."
+msgstr ""
+"レコードに加えられた変更を保存する**唯一の**方法は、`:term:`ボタンブロック`にある「保存」または（新しいレコードの場合は）「作成」ボタンを使用することです。他の方法を用いた場合、レコードへの全ての変更が失われます。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:39
+msgid ""
+"If you do not wish you preserve your changes, you can simply navigate away "
+"from the current record; no changes will be saved. Any of the following "
+"example methods will result in no changes being saved:"
+msgstr ""
+"変更を保存したくない場合は、現在のレコードから単に移動してください。変更は保存されません。以下の例のいずれかの方法を使っても、変更は保存されません："
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:43
+msgid ""
+"Click \"Cancel\" in the :term:`button block` - AtoM will reload the record "
+"in :term:`view mode` without saving any changes. For more information on the"
+" button block, see: :ref:`recurring-button-block`."
+msgstr ""
+"「キャンセル」をクリックしてください（:term:`ボタンブロック`内） - "
+"AtoMは、変更を保存せずに記録を:term:`表示モード`で再読み込みします。ボタンブロックの詳細については、次を参照してください：:ref:`recurring-"
+"button-block`。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:46
+msgid ""
+"Click the logo for the associated :term:`archival institution` in the "
+"context menu - AtoM will redirect you to the archival institution "
+":term:`view page`. See: :ref:`recurring-institution-logos`."
+msgstr ""
+"コンテキストメニューにある関連する:term:`アーカイブ施設`のロゴをクリックしてください。AtoMはあなたをアーカイブ施設の:term:`ビューページ`にリダイレクトします。参照：:ref:`recurring-"
+"institution-logos`。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:49
+msgid ""
+"Click the :term:`site logo` in the upper left-hand corner of the AtoM "
+":term:`header bar` - AtoM will redirect you to the :term:`home page`. See: "
+":ref:`Site logo <site-logo-element>`."
+msgstr ""
+"上部左側にあるArchivematicaの:term:`サイトロゴ`をクリックしてください。そうすると、AtoMはあなたを:term:`ホームページ`にリダイレクトします。詳細は:ref:`サイトロゴ"
+" <site-logo-element>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:52
+msgid ""
+"Open the :term:`browse menu` in the :term:`header bar` and select a type of "
+"record to browse - AtoM will redirect you to a browse page. See: the "
+":ref:`Browse menu <browse-menu>` and :ref:`Browse <browse>`."
+msgstr ""
+"ヘッダーバーの「ブラウズメニュー」を開き、閲覧するレコードのタイプを選択してください。AtoMはブラウズページにリダイレクトします。参照：「ブラウズメニュー」と「ブラウズ」。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:55
+msgid ""
+"Use the :term:`search box` to perform a search - AtoM will return a search "
+"results page. See: the :ref:`Search box <search-box>`, and :doc:`Search "
+"<../access-content/search-atom>`."
+msgstr ""
+"検索を実行するには :term:`検索ボックス` を使用してください - AtoMは検索結果ページを返します。詳細については、:ref:`検索ボックス "
+"<search-box>`および:doc:`検索 <../access-content/search-atom>`を参照してください。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:58
+msgid ""
+"Click a link in the :term:`main menu`, located in the AtoM :term:`header "
+"bar`, to perform some other action. For more information on the main menu, "
+"see: :ref:`main-menu`."
+msgstr ""
+"AtoM の :term:`ヘッダーバー` にある :term:`メインメニュー` "
+"のリンクをクリックして、他のアクションを実行します。メインメニューについての詳細は、:ref:`main-menu` をご覧ください。"
+
+#: ../../user-manual/add-edit-content/exit-edit-mode.rst:62
+msgid "Return to :ref:`Add/edit content <add-edit-content>`"
+msgstr "戻る： :ref:`コンテンツの追加/編集 <add-edit-content>`"
