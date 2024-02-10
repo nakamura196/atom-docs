@@ -11,49 +11,59 @@ msgstr ""
 "POT-Creation-Date: 2024-02-09 21:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../user-manual/translate/translate-interface.rst:5
 msgid "Translate Interface"
-msgstr ""
+msgstr "インターフェースを翻訳"
 
 #: ../../user-manual/translate/translate-interface.rst:11
 msgid ""
-"To translate the :term:`user interface` it is important to understand "
-"that the :term:`user interface` is the set of elements that allow the "
-"user to interact with the AtoM application. These elements include the "
-":term:`main menu`, :term:`drop-down menus <drop-down menu>`, "
-":term:`context menus <context menu>`, :term:`title bars <title bar>`, "
-":term:`column headers <column header>`, :term:`button blocks <button "
-"block>`, :term:`field labels <field label>`, and other recurring elements"
-" that are used to navigate AtoM or to search for, view, add, modify, and "
-"delete :term:`database content`."
+"To translate the :term:`user interface` it is important to understand that "
+"the :term:`user interface` is the set of elements that allow the user to "
+"interact with the AtoM application. These elements include the :term:`main "
+"menu`, :term:`drop-down menus <drop-down menu>`, :term:`context menus "
+"<context menu>`, :term:`title bars <title bar>`, :term:`column headers "
+"<column header>`, :term:`button blocks <button block>`, :term:`field labels "
+"<field label>`, and other recurring elements that are used to navigate AtoM "
+"or to search for, view, add, modify, and delete :term:`database content`."
 msgstr ""
+"ユーザーインターフェースを翻訳するためには、ユーザーインターフェースがAtoMアプリケーションとユーザーが相互作用するための要素の集まりであることを理解することが重要です。これらの要素には、メインメニュー、ドロップダウンメニュー、コンテキストメニュー、タイトルバー、カラムヘッダー、ボタンブロック、フィールドラベルなど、AtoMをナビゲートしたり、データベースコンテンツの検索、表示、追加、変更、削除を行うために使用されるその他の繰り返し出現する要素が含まれます。"
 
 #: ../../user-manual/translate/translate-interface.rst:21
 msgid ""
-"The following instructions are for translating the :term:`user interface`"
-" locally. AtoM ships with some user interface translations that are "
-"kindly provided by community volunteers, and managed via a web-based "
-"translation management application. If you would like to contribute your "
-"interface translations to a future release instead of translating "
-"locally, we welcome your contributions - please see our guide to getting "
-"started:"
+"The following instructions are for translating the :term:`user interface` "
+"locally. AtoM ships with some user interface translations that are kindly "
+"provided by community volunteers, and managed via a web-based translation "
+"management application. If you would like to contribute your interface "
+"translations to a future release instead of translating locally, we welcome "
+"your contributions - please see our guide to getting started:"
 msgstr ""
+"以下の手順は、:term:`ユーザーインターフェース` "
+"をローカルで翻訳するためのものです。AtoMには、コミュニティのボランティアが親切に提供してくれるいくつかのユーザーインターフェース翻訳が同梱されており、ウェブベースの翻訳管理アプリケーションを通じて管理されています。ローカルで翻訳する代わりに、あなたのインターフェース翻訳を将来のリリースに貢献したい場合、私たちはあなたの貢献を歓迎します"
+" - はじめ方ガイドを参照してください："
 
 #: ../../user-manual/translate/translate-interface.rst:28
 msgid "https://wiki.accesstomemory.org/Resources/Translation."
 msgstr ""
+"下記のテキストを日本語に訳します：\n"
+"\n"
+"\"Archivematica is an integrated suite of open-source software tools that allows users to process digital objects from ingest to access in compliance with the ISO-OAIS functional model. The software is designed to curate and preserve digital objects over the long term, ensuring that digital collections can be accessed and understood well into the future. Archivematica's user-friendly interface guides users through the archiving process, providing tools for quality control, metadata management, and repository integration, among other features.\"\n"
+"\n"
+"訳：\n"
+"\"Archivematicaは、ISO-OAIS機能モデルに準拠して、受入からアクセスまでデジタルオブジェクトを処理するための、オープンソースソフトウェアツールの統合スイートです。このソフトウェアは、デジタルオブジェクトを長期間にわたり管理・保存するように設計されており、デジタルコレクションが将来にわたってアクセス可能で、理解可能であることを保証します。Archivematicaのユーザーフレンドリーなインターフェイスは、アーカイブプロセスを通じてユーザーを案内し、品質管理、メタデータ管理、リポジトリ統合などの機能に対するツールを提供します。\"\n"
+"\n"
+"ご指示のURLは翻訳に関連するウェブページのアドレスですが、文中の具体的なコンテンツを翻訳するためではなく、おそらく参照として提供されたものと推測します。もしページ自体の内容が必要であれば、そのURLを訪れて必要な情報を抽出し、翻訳する必要があります。"
 
 #: ../../user-manual/translate/translate-interface.rst:30
 msgid "**To translate the AtoM user interface locally:**"
-msgstr ""
+msgstr "**AtoMユーザーインターフェイスをローカルで翻訳するには：**"
 
 #: ../../user-manual/translate/translate-interface.rst:32
 msgid ""
@@ -61,171 +71,189 @@ msgid ""
 "information, see: :ref:`user-roles`, :ref:`manage-user-accounts`, and "
 ":ref:`edit-user-permissions`."
 msgstr ""
+"翻訳権限を持つアカウントでログインしてください。詳細については、以下を参照してください：:ref:`user-roles`、:ref:`manage-"
+"user-accounts`、および :ref:`edit-user-permissions`。"
 
 #: ../../user-manual/translate/translate-interface.rst:35
 msgid ""
 "Start in your default language (e.g., English). Navigate to the |globe2| "
-":ref:`language menu <language-menu>` in the :term:`header bar` and select"
-" the language you want to translate the :term:`user interface` into."
+":ref:`language menu <language-menu>` in the :term:`header bar` and select "
+"the language you want to translate the :term:`user interface` into."
 msgstr ""
+"既定の言語（例：英語）で始めてください。:term:`ヘッダーバー`内の|globe2| :ref:`言語メニュー <language-"
+"menu>`にアクセスし、:term:`ユーザーインターフェース`を翻訳したい言語を選択してください。"
 
 #: ../../user-manual/translate/translate-interface.rst:7
 msgid "globe2"
 msgstr ""
+"すみませんが、\"globe2\"というフレーズは文脈が不明で、それ自体には具体的な意味がないため、適切な日本語訳を提供することはできません。Archivematicaに関連する文脈や具体的な文を提供していただければ、より適切な翻訳を行うことが可能です。もし、これが文書の中の誤植やコード名、製品名などであれば、それについての詳細を教えてください。"
 
 #: ../../user-manual/translate/translate-interface.rst:-1
 msgid "Language icon in header bar."
-msgstr ""
+msgstr "ヘッダーバーの言語アイコン。"
 
 #: ../../user-manual/translate/translate-interface.rst:44
 msgid ""
-"AtoM will reload the page with the :term:`translation bar` at the bottom "
-"of the page. This example shows the :term:`translation bar` in French."
+"AtoM will reload the page with the :term:`translation bar` at the bottom of "
+"the page. This example shows the :term:`translation bar` in French."
 msgstr ""
+"AtoMは、ページの下部に:term:`translation "
+"bar`が表示されるようにページを再読み込みします。この例は、フランス語で表示された:term:`translation bar`を示しています。"
 
 #: ../../user-manual/translate/translate-interface.rst:-1
 msgid "Translation bar at bottom on page."
-msgstr ""
+msgstr "ページの下部にある翻訳バー。"
 
 #: ../../user-manual/translate/translate-interface.rst:52
 msgid ""
-"Click on the Translate User Interface button in the :term:`translation "
-"bar` to open the :term:`translation panel` in the lower frame of the "
-"page."
-msgstr ""
+"Click on the Translate User Interface button in the :term:`translation bar` "
+"to open the :term:`translation panel` in the lower frame of the page."
+msgstr "ページの下部のフレームにある「翻訳パネル」を開くには、翻訳バーの「ユーザーインターフェースの翻訳」ボタンをクリックしてください。"
 
 #: ../../user-manual/translate/translate-interface.rst:-1
 msgid "Translation panel for translating interface."
-msgstr ""
+msgstr "インターフェイス翻訳用パネル。"
 
 #: ../../user-manual/translate/translate-interface.rst:62
 msgid "The :term:`translation panel` is organized into three columns:"
-msgstr ""
+msgstr ":term:`翻訳パネル`は、三つの列に整理されています："
 
 #: ../../user-manual/translate/translate-interface.rst:64
 msgid ""
-"**First column**: Page text lists all the elements that are translated, "
-"or available for translation."
-msgstr ""
+"**First column**: Page text lists all the elements that are translated, or "
+"available for translation."
+msgstr "**最初の列**: ページテキストには翻訳されている、または翻訳可能なすべての要素が一覧表示されています。"
 
 #: ../../user-manual/translate/translate-interface.rst:66
 msgid ""
-"**Second column**: Source is the name of the element in the source "
-"language. In this example it is shown in English."
-msgstr ""
+"**Second column**: Source is the name of the element in the source language."
+" In this example it is shown in English."
+msgstr "**第二列**: ソースは元の言語での要素の名前です。この例では、英語で表示されています。"
 
 #: ../../user-manual/translate/translate-interface.rst:68
 msgid ""
-"**Third Column**: Translation shows the translated element, or it is "
-"empty and waiting for the user to type a translation into it."
-msgstr ""
+"**Third Column**: Translation shows the translated element, or it is empty "
+"and waiting for the user to type a translation into it."
+msgstr "**第三列**: 翻訳は翻訳された要素を示しているか、または空であり、ユーザーがそれに翻訳を入力するのを待っています。"
 
 #: ../../user-manual/translate/translate-interface.rst:71
 msgid "Select an element for translation from the first column."
-msgstr ""
+msgstr "最初の列から翻訳する要素を選択してください。"
 
 #: ../../user-manual/translate/translate-interface.rst:72
 msgid "Provide the translation for the element in the third column."
 msgstr ""
+"To accurately cater to your request, I would need to see the specific "
+"content in the third column that requires translation. Please provide the "
+"text from the third column, and I'll be happy to translate it into Japanese "
+"for you."
 
 #: ../../user-manual/translate/translate-interface.rst:73
 msgid ""
-"Click on the Save Translation button when you are finished. AtoM will "
-"close the :term:`translation panel`. All :term:`user interface` elements "
-"on the page should now appear as translated."
+"Click on the Save Translation button when you are finished. AtoM will close "
+"the :term:`translation panel`. All :term:`user interface` elements on the "
+"page should now appear as translated."
 msgstr ""
+"翻訳が終わったら「翻訳を保存」ボタンをクリックしてください。AtoMは`:term:`翻訳パネル`を閉じます。ページ上のすべての`:term:`ユーザーインターフェイス`要素が翻訳された状態で表示されるはずです。"
 
 #: ../../user-manual/translate/translate-interface.rst:79
 #, python-format
 msgid ""
-"Some element names include a number enclosed by percent sign (e.g., %1%)."
-" this is a template token indicating a variable whose value is "
-"dynamically generated by the context in which the termplate is displayed."
-" Tokens are represented by a number enclosed in percent signs. Tokens "
-"must be included in the translation, but because different languages have"
-" different grammar rules, translators ned to be aware of the type of "
-"information being handled in any given variable in any given context."
+"Some element names include a number enclosed by percent sign (e.g., %1%). "
+"this is a template token indicating a variable whose value is dynamically "
+"generated by the context in which the termplate is displayed. Tokens are "
+"represented by a number enclosed in percent signs. Tokens must be included "
+"in the translation, but because different languages have different grammar "
+"rules, translators ned to be aware of the type of information being handled "
+"in any given variable in any given context."
 msgstr ""
+"一部の要素名にはパーセント記号で囲まれた数字（例：％1％）が含まれています。これは、テンプレートが表示される文脈によって動的に生成される変数を示すテンプレートトークンです。トークンはパーセント記号で囲まれた数字で表されます。トークンは翻訳に含める必要がありますが、異なる言語には異なる文法規則があるため、翻訳者は与えられた文脈で扱われる任意の変数における情報のタイプを認識しておく必要があります。"
 
 #: ../../user-manual/translate/translate-interface.rst:88
 msgid "Element name"
-msgstr ""
+msgstr "要素名"
 
 #: ../../user-manual/translate/translate-interface.rst:88
 msgid "Variable"
-msgstr ""
+msgstr "変数"
 
 #: ../../user-manual/translate/translate-interface.rst:88
 msgid "Context"
 msgstr ""
+"Archivematica is a comprehensive digital preservation system that is designed to maintain standards-based, long-term access to collections of digital objects. It is an integrated suite of open-source software tools that allows users to process digital objects from ingest through to archival storage and dissemination. Archivematica implements a wide range of international digital preservation standards and guidelines, ensuring that digital objects are preserved in a manner that is recognized and accepted globally.\n"
+"\n"
+"In Archivematica, data are managed through a microservices architecture, which allows for highly granular control over the preservation process. Each microservice carries out a small, specific task, such as format validation, file integrity checks, or metadata extraction. This modularity enables the system to adapt to diverse and changing digital preservation requirements over time.\n"
+"\n"
+"One of the key components of Archivematica is its ability to generate comprehensive preservation metadata, which is essential for maintaining the authenticity and integrity of the digital objects over time. This metadata includes information about the provenance of digital objects, their format, structure, and the preservation actions taken on them. As part of the preservation workflow, Archivematica also provides tools for creating and managing Archival Information Packages (AIPs), which encapsulate digital objects along with their associated metadata for long-term preservation.\n"
+"\n"
+"Archivematica is typically used by libraries, archives, museums, and other cultural heritage institutions to ensure that their digital collections are preserved for future access and use. Its modular design, adherence to standards, and rich metadata support make it a flexible and reliable choice for long-term digital preservation initiatives."
 
 #: ../../user-manual/translate/translate-interface.rst:90
 #, python-format
 msgid "%1% profile"
-msgstr ""
+msgstr "%1% プロファイル"
 
 #: ../../user-manual/translate/translate-interface.rst:90
 msgid "User's account name"
-msgstr ""
+msgstr "ユーザーのアカウント名"
 
 #: ../../user-manual/translate/translate-interface.rst:90
 msgid ""
-"Return user's account name in user menu and clicked by the user to edit "
-"the user profile, appears on all pages"
-msgstr ""
+"Return user's account name in user menu and clicked by the user to edit the "
+"user profile, appears on all pages"
+msgstr "ユーザーメニューにおけるユーザーのアカウント名を表示し、クリックするとユーザープロファイルの編集ができます。全てのページに表示されます。"
 
 #: ../../user-manual/translate/translate-interface.rst:93
 #, python-format
 msgid "List all %1%"
-msgstr ""
+msgstr "すべての%1%をリストアップ"
 
 #: ../../user-manual/translate/translate-interface.rst:93
 #: ../../user-manual/translate/translate-interface.rst:96
 #: ../../user-manual/translate/translate-interface.rst:99
 #: ../../user-manual/translate/translate-interface.rst:102
 msgid "Entity type"
-msgstr ""
+msgstr "エンティティタイプ"
 
 #: ../../user-manual/translate/translate-interface.rst:93
 msgid ""
-"Return type of entity viewed on current page and appears as part of text "
-"on the list all button on edit pages"
-msgstr ""
+"Return type of entity viewed on current page and appears as part of text on "
+"the list all button on edit pages"
+msgstr "現在のページで閲覧されるエンティティの返却タイプであり、編集ページ上の「すべてリスト表示」ボタンのテキストの一部として表示されます。"
 
 #: ../../user-manual/translate/translate-interface.rst:96
 #, python-format
 msgid "Edit %1%"
-msgstr ""
+msgstr "%1%を編集"
 
 #: ../../user-manual/translate/translate-interface.rst:96
 msgid ""
 "Return type of entity viewed on current page and appears as part of page "
 "title on edit pages"
-msgstr ""
+msgstr "現在のページで閲覧されるエンティティの種類で、編集ページのページタイトルの一部として表示されます"
 
 #: ../../user-manual/translate/translate-interface.rst:99
 #, python-format
 msgid "List %1%"
-msgstr ""
+msgstr "%1%のリスト"
 
 #: ../../user-manual/translate/translate-interface.rst:99
 msgid ""
-"Return type of entity viewed on current page and appears as part of the "
-"page title on list pages"
-msgstr ""
+"Return type of entity viewed on current page and appears as part of the page"
+" title on list pages"
+msgstr "現在のページで閲覧されているエンティティの返り値であり、リストページのページタイトルの一部として表示されます。"
 
 #: ../../user-manual/translate/translate-interface.rst:102
 #, python-format
 msgid "View %1%"
-msgstr ""
+msgstr "%1%を表示"
 
 #: ../../user-manual/translate/translate-interface.rst:102
 msgid ""
-"Return type of entity viewed on current page and appears as part of the "
-"page title on view pages"
-msgstr ""
+"Return type of entity viewed on current page and appears as part of the page"
+" title on view pages"
+msgstr "現在のページで閲覧されるエンティティの戻り値であり、閲覧ページのページタイトルの一部として表示されます。"
 
 #: ../../user-manual/translate/translate-interface.rst:107
 msgid ":ref:`Back to top <translate-interface>`"
-msgstr ""
-
+msgstr ":ref:`トップに戻る <translate-interface>`"

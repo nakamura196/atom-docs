@@ -11,117 +11,131 @@ msgstr ""
 "POT-Creation-Date: 2024-02-09 21:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:5
 msgid "File and item list reports and printing"
-msgstr ""
+msgstr "ファイルおよび項目リストのレポートと印刷"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:14
 msgid ""
 "AtoM offers users the ability to generate lists of files and items "
-"associated with an :term:`archival unit`. Both public users and logged-in"
-" users have access to these reports, and can generate new ones on demand."
+"associated with an :term:`archival unit`. Both public users and logged-in "
+"users have access to these reports, and can generate new ones on demand."
 msgstr ""
+"AtoMは、ユーザーに:term:`アーカイブユニット`に関連付けられたファイルやアイテムのリストを生成する機能を提供します。公開ユーザーとログインユーザーの両方がこれらのレポートにアクセスし、必要に応じて新しいレポートを生成することができます。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:18
 msgid ""
-"Reports can be generated in either CSV format, or as HTML - in both "
-"cases, files are available to users for download. The HTML files can also"
-" be opened in a web browser and used for printing."
+"Reports can be generated in either CSV format, or as HTML - in both cases, "
+"files are available to users for download. The HTML files can also be opened"
+" in a web browser and used for printing."
 msgstr ""
+"レポートはCSV形式またはHTML形式で生成することができ、どちらの場合もファイルはユーザーがダウンロードできる状態で提供されます。HTMLファイルはWebブラウザで開くこともでき、印刷用として使用することも可能です。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:22
 msgid ""
 "Report generation is managed by AtoM's job scheduler, so it is performed "
-"asynchronously in the background. To work, a system administrator must "
-"have installed and configured all job scheduler requirements - for more "
+"asynchronously in the background. To work, a system administrator must have "
+"installed and configured all job scheduler requirements - for more "
 "information, see: :ref:`maintenance-asynchronous-jobs`."
 msgstr ""
+"レポート生成はAtoMのジョブスケジューラによって管理されており、バックグラウンドで非同期に実行されます。これが機能するには、システム管理者は全てのジョブスケジューラの要件をインストールし、設定していなければなりません。詳しくは、以下を参照してください：:ref:`maintenance-"
+"asynchronous-jobs`。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:27
 msgid ""
 "Once generated, reports are saved in a ``reports`` subdirectory of the "
 "``downloads`` directory, until new reports are generated to replace them."
 msgstr ""
+"生成されたレポートは、新しいレポートがそれらを置き換えるまで、``downloads``ディレクトリの``reports``サブディレクトリに保存されます。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:30
 msgid ""
-"An :term:`administrator` can also determine whether or not reports should"
-" include Retrieval information - that is, any :term:`physical storage` "
-"information associated with the file or item, such as container name, "
-"type, and location. For more information on configuring this setting, "
-"see: :ref:`reports-public-setting`."
+"An :term:`administrator` can also determine whether or not reports should "
+"include Retrieval information - that is, any :term:`physical storage` "
+"information associated with the file or item, such as container name, type, "
+"and location. For more information on configuring this setting, see: "
+":ref:`reports-public-setting`."
 msgstr ""
+"システム管理者は、レポートに取得情報を含めるべきかどうかも決定できます。つまり、ファイルやアイテムに関連する物理的な保管情報、たとえばコンテナ名、種類、および場所などです。この設定の構成方法の詳細については、以下を参照してください："
+" :ref:`reports-public-setting`。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:38
 msgid ""
-"For more information on linking :term:`physical storage` information to "
-"an :term:`archival description`, see:"
-msgstr ""
+"For more information on linking :term:`physical storage` information to an "
+":term:`archival description`, see:"
+msgstr "詳細については、「物理的な保管」情報を「アーカイブ記述」にリンクする方法については、以下を参照してください："
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:41
 msgid ":ref:`physical-storage`"
-msgstr ""
+msgstr ":ref:`物理的保管`"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:43
 msgid ""
-"The following will outline how to generate file and item-level reports. "
-"Note that for an authenticated (i.e. logged in) :term:`administrator`, "
-"there are other report options (for physical locations and box label CSV "
-"creation). For more information on these options, see: :ref:`create-"
-"physical-storage-report`."
+"The following will outline how to generate file and item-level reports. Note"
+" that for an authenticated (i.e. logged in) :term:`administrator`, there are"
+" other report options (for physical locations and box label CSV creation). "
+"For more information on these options, see: :ref:`create-physical-storage-"
+"report`."
 msgstr ""
+"以下では、ファイルレベルとアイテムレベルのレポートを生成する方法について説明します。認証済み（つまりログインしている）:term:`管理者`の場合、その他のレポートオプション（物理的な場所やボックスラベルCSVの作成用）があります。これらのオプションについての詳細は、:ref:`create-"
+"physical-storage-report`を参照してください。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:50
 msgid ""
-"There are numerous other options for exploring the lower-level records of"
-" an :term:`archival unit` hierarchy in AtoM. Some of these need to be "
+"There are numerous other options for exploring the lower-level records of an"
+" :term:`archival unit` hierarchy in AtoM. Some of these need to be "
 "configured in advance by an Administrator, while others can be accessed "
 "immediately. To explore more of these options, see:"
 msgstr ""
+"AtoMで:term:`アーカイブ単位`階層の下位レコードを探索するための他に多くのオプションがあります。これらのいくつかは事前に管理者によって設定される必要がある一方で、他のオプションには直ちにアクセスが可能です。これらのオプションについてさらに探究するには、以下を参照してください："
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:55
 msgid ":ref:`browse-hierarchy`"
-msgstr ""
+msgstr ":ref:`階層をブラウズする`"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:57
 msgid ""
-"Reports are generated based on where in an archival unit's hierarchy they"
-" are triggered. For example, a file-list report generated from the "
+"Reports are generated based on where in an archival unit's hierarchy they "
+"are triggered. For example, a file-list report generated from the "
 ":term:`view page` of a Series-level :term:`archival description` will "
 "**only** include files from that series - not from the entire "
 ":term:`archival unit`. If there are **no** files beneath the selected "
-"series, then the option to generate a file-level report will not be "
-"shown."
+"series, then the option to generate a file-level report will not be shown."
 msgstr ""
+"レポートは、アーカイブ単位の階層内のどの位置でトリガーされるかに基づいて生成されます。例えば、シリーズレベルの「アーカイブ記述」の「ビューページ」から生成されたファイルリストレポートは、そのシリーズに含まれるファイルのみを含むものになり、全ての「アーカイブ単位」からのファイルは含まれません。選択されたシリーズの下にファイルが**一切ない**場合、ファイルレベルのレポートを生成するオプションは表示されません。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:66
 msgid ""
 "AtoM's file and item list reports are hard-coded to use the \"File\" and "
-"\"Item\" level of description :term:`term` in the \"Levels of "
-"description\" :term:`taxonomy`. If you have edited or removed the "
-"\"File\" or \"Item\" term from the taxonomy, the report may not work!"
+"\"Item\" level of description :term:`term` in the \"Levels of description\" "
+":term:`taxonomy`. If you have edited or removed the \"File\" or \"Item\" "
+"term from the taxonomy, the report may not work!"
 msgstr ""
+"AtoMのファイルおよびアイテムリストのレポートは、「記述のレベル」のタクソノミーで「ファイル」と「アイテム」という用語：用語「term」を使用するようにハードコードされています。タクソノミーから「ファイル」または「アイテム」用語を編集または削除した場合、レポートは機能しない可能性があります！"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:71
 msgid "**To generate a file or item report:**"
-msgstr ""
+msgstr "**ファイルまたはアイテムのレポートを生成するには:**"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:73
 msgid ""
 "Navigate to the :term:`parent record` description for which you wish to "
 "generate a report. For example, if you wish to see all the items in a "
-"particular series, then navigate to the :term:`view page` of that series "
-"- but if you wish to see an item-level report for all items in the top-"
-"level :term:`fonds`, then navigate to the view page of the fonds."
+"particular series, then navigate to the :term:`view page` of that series - "
+"but if you wish to see an item-level report for all items in the top-level "
+":term:`fonds`, then navigate to the view page of the fonds."
 msgstr ""
+"レポートを生成したい :term:`親レコード` の説明に移動してください。たとえば、特定のシリーズ内のすべてのアイテムを見たい場合は、そのシリーズの "
+":term:`ビューページ` に移動します。しかし、最上位レベルの :term:`フォンズ` "
+"内のすべてのアイテムについてアイテムレベルのレポートを見たい場合は、フォンズのビューページに移動してください。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:79
 msgid ""
@@ -129,170 +143,200 @@ msgid ""
 "<search-atom>` or :ref:`browsing <browse>` - for more information on "
 "navigation in AtoM, see: :ref:`access-content`."
 msgstr ""
+"親記述へのナビゲートは、:ref:`検索 <search-atom>` または :ref:`閲覧 <browse>` "
+"を通じて行うことができます。AtoMでのナビゲーションの詳細については、こちらを参照してください: :ref:`アクセス-コンテンツ`。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:83
 msgid ""
-"In the right-hand :term:`context menu`, in the \"Explore\" section, find "
-"the |report| Reports hyperlink, and click on it. AtoM will redirect you "
-"to the Reports page."
+"In the right-hand :term:`context menu`, in the \"Explore\" section, find the"
+" |report| Reports hyperlink, and click on it. AtoM will redirect you to the "
+"Reports page."
 msgstr ""
+"右側の：用語`コンテキストメニュー`で、「エクスプローラ」セクションを見つけ、|report| "
+"レポートというハイパーリンクを探し、クリックしてください。AtoM はあなたをレポートページにリダイレクトします。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:7
 msgid "report"
 msgstr ""
+"To translate the word \"report\" into Japanese, we can use the term "
+"\"レポート\". If you would like more context or a longer sentence or paragraph "
+"to be translated, please provide the full text."
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:86
 msgid "The Reports page is loaded for public users:"
-msgstr ""
+msgstr "公開ユーザー向けにレポートページがロードされます："
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "Reports view to the public user."
-msgstr ""
+msgstr "一般ユーザーに向けたレポートビュー。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:94
 msgid ""
-"Alternatively, if you are logged-in as an :term:`administrator`, AtoM "
-"will load the page with additional report options: physical storage "
-"locations and box label :term:`CSV`. For more information on these "
-"options, see:"
+"Alternatively, if you are logged-in as an :term:`administrator`, AtoM will "
+"load the page with additional report options: physical storage locations and"
+" box label :term:`CSV`. For more information on these options, see:"
 msgstr ""
+"また、:term:`管理者`としてログインしている場合、AtoMは追加のレポートオプションとして、物理的な保存場所とボックスラベルの:term:`CSV`をページに読み込みます。これらのオプションの詳細については、以下を参照してください："
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:98
 msgid ":ref:`create-physical-storage-report`"
-msgstr ""
+msgstr ":ref:`物理的ストレージレポートの作成`"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "Reports view to the logged-in user with Admin privileges"
-msgstr ""
+msgstr "管理者権限を持つログインユーザーに対してレポートビューを表示"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:105
 msgid ""
-"If there are existing reports that have already been generated, they will"
-" be listed above the report generation options. The type of report (file "
-"or item list), and the format of the report (:term:`CSV` or HTML) will be"
-" included. To download one of the existing reports, simply click on it."
+"If there are existing reports that have already been generated, they will be"
+" listed above the report generation options. The type of report (file or "
+"item list), and the format of the report (:term:`CSV` or HTML) will be "
+"included. To download one of the existing reports, simply click on it."
 msgstr ""
+"すでに生成されたレポートがある場合、それらはレポート生成オプションの上にリストされます。レポートのタイプ（ファイルまたはアイテムリスト）、およびレポートの形式（:term:`CSV`"
+" または HTML）が含まれます。既存のレポートのいずれかをダウンロードするには、単にそれをクリックします。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "An image of existing reports in the Reports area"
-msgstr ""
+msgstr "既存のレポートの画像がレポートエリアにあります。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:115
 msgid ""
-"If you prefer to generate a new report, ensure that the :term:`radio "
-"button` is set to your preferred report type - \"File list\" or \"Item "
-"list.\" Click on the Continue button, and AtoM presents a report criteria"
-" page for the public user, which provides the following sort options: "
-"reference code, title and date (based on start date)."
+"If you prefer to generate a new report, ensure that the :term:`radio button`"
+" is set to your preferred report type - \"File list\" or \"Item list.\" "
+"Click on the Continue button, and AtoM presents a report criteria page for "
+"the public user, which provides the following sort options: reference code, "
+"title and date (based on start date)."
 msgstr ""
+"もし新しいレポートを生成したい場合、希望するレポートタイプである「ファイルリスト」または「アイテムリスト」を選択する :term:`ラジオボタン` "
+"が設定されていることを確認してください。続けるボタンをクリックすると、AtoMは一般ユーザー向けのレポート基準ページを表示し、以下のソートオプションを提供します：参照コード、タイトル、および日付（開始日に基づく）。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "Report criteria view to the public user."
-msgstr ""
+msgstr "公開ユーザーに対するレポート基準ビュー。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:128
 msgid ""
 "If you are logged-in, an additional sort option is presented - sort by "
 "Retrieval information (i.e. :term:`physical storage` information)."
 msgstr ""
+"ログインしている場合、追加の並び替えオプションとして、「取り出し情報による並び替え」（すなわち、`:term:`物理的保管`情報）が表示されます。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "Report criteria view to the logged-in user with Admin privileges."
-msgstr ""
+msgstr "ログイン中の管理者権限を持つユーザーにレポート条件ビューを表示します。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:138
 msgid ""
-"There is a setting in |gears| **Admin > Settings > Global** that "
-"determines whether or not Retrieval information - i.e. :term:`physical "
-"storage` container name, type, and location information - is included in "
-"the reports. For more information, see: :ref:`reports-public-setting`."
+"There is a setting in |gears| **Admin > Settings > Global** that determines "
+"whether or not Retrieval information - i.e. :term:`physical storage` "
+"container name, type, and location information - is included in the reports."
+" For more information, see: :ref:`reports-public-setting`."
 msgstr ""
+"|gears| **管理 > 設定 > グローバル** には、レポートに回収情報、つまり :term:`物理的な保存` "
+"コンテナ名、タイプ、および位置情報を含めるかどうかを決定する設定があります。詳細については、次を参照してください： :ref:`reports-"
+"public-setting`。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:10
 msgid "gears"
-msgstr ""
+msgstr "ギア (または歯車)"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:143
 msgid ""
-"If the report is set to generate as a public user (i.e. setting is set to"
-" \"Yes\", so that physical storage information is excluded), then sorting"
-" by Retrieval information won't do anything! Be aware of this as you "
-"configure your report options."
+"If the report is set to generate as a public user (i.e. setting is set to "
+"\"Yes\", so that physical storage information is excluded), then sorting by "
+"Retrieval information won't do anything! Be aware of this as you configure "
+"your report options."
 msgstr ""
+"レポートが一般ユーザーとして生成されるように設定されている場合（つまり、物理的な保存情報が除外されるように設定が「はい」に設定されている場合）、取り出し情報による並べ替えは何も行わないでしょう！レポートオプションを設定する際には、この点に注意してください。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:148
 msgid ""
-"Choose your preference for sorting the list by clicking on the "
-"appropriate :term:`radio button`. This determines which column in the "
-"report will be used to order the contents of the list generated."
+"Choose your preference for sorting the list by clicking on the appropriate "
+":term:`radio button`. This determines which column in the report will be "
+"used to order the contents of the list generated."
 msgstr ""
+"適切な:term:`ラジオボタン`をクリックしてリストの並び順を選択します。これにより、生成されるリストの内容を並べ替えるために使用される列が決定されます。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:152
 msgid ""
-"Select your preferred format: available options are :term:`CSV` or HTML. "
-"The CSV option can be viewed as raw data in a text editor, or as "
-"structured data in a spreadsheet application such as LibreOffice Calc or "
-"Microsoft Excel. The HTML version can also be looked at in a text editor,"
-" or as a print layout by opening it with your web browser."
+"Select your preferred format: available options are :term:`CSV` or HTML. The"
+" CSV option can be viewed as raw data in a text editor, or as structured "
+"data in a spreadsheet application such as LibreOffice Calc or Microsoft "
+"Excel. The HTML version can also be looked at in a text editor, or as a "
+"print layout by opening it with your web browser."
 msgstr ""
+"お好みの形式を選択してください。利用可能なオプションは、`:term:`CSV`またはHTMLです。CSVオプションはテキストエディタで生データとして、またはLibreOffice"
+" CalcやMicrosoft "
+"Excelのようなスプレッドシートアプリケーションで構造化データとして表示することができます。HTMLバージョンもテキストエディタで見ることができ、またお使いのウェブブラウザで開くことにより印刷レイアウトとして確認することも可能です。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:158
 msgid ""
-"Finally, if there are :term:`digital objects <digital object>` associated"
-" with the files or items, you can choose to include a :term:`thumbnail` "
-"column in the report produced - **note**: this option only works with the"
-" HTML report."
+"Finally, if there are :term:`digital objects <digital object>` associated "
+"with the files or items, you can choose to include a :term:`thumbnail` "
+"column in the report produced - **note**: this option only works with the "
+"HTML report."
 msgstr ""
+"最終的に、ファイルやアイテムに関連する`:term:`デジタルオブジェクト<digital "
+"object>`がある場合、生成されるレポートに`:term:`サムネイル`の列を含めることを選択できます - **注意**: "
+"このオプションはHTMLレポートでのみ機能します。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:163
 msgid ""
-"When you are finished configuring the report, click the Continue button "
-"in the :term:`button block` at the bottom of the page."
-msgstr ""
+"When you are finished configuring the report, click the Continue button in "
+"the :term:`button block` at the bottom of the page."
+msgstr "レポートの設定が完了したら、ページの下部にある「ボタンブロック」で「続ける」ボタンをクリックしてください。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:166
 msgid ""
-"Once submitted, AtoM will reload the page and return you to the "
-":term:`view page` for the related :term:`archival description`. A "
-"notification will appear at the top of the page, letting you know that "
-"report generation has started."
+"Once submitted, AtoM will reload the page and return you to the :term:`view "
+"page` for the related :term:`archival description`. A notification will "
+"appear at the top of the page, letting you know that report generation has "
+"started."
 msgstr ""
+"提出後、AtoMはページを再読み込みし、関連する「アーカイバルデスクリプション」の「ビューページ」に戻ります。ページの上部には通知が表示され、レポート生成が開始されたことをお知らせします。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "The notification shown after generating a report"
-msgstr ""
+msgstr "生成したレポートの後に表示される通知"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:176
 msgid ""
-"To check on the status and retrieve your report when it is ready, you can"
-" either click on the |report| Reports button in the right-hand "
-":term:`context menu` again, or you can use the link to the reports page "
-"provided in the notification. When completed, your reports will appear in"
-" the \"Existing reports\" section of the Reports page, as shown in Step "
-"5."
+"To check on the status and retrieve your report when it is ready, you can "
+"either click on the |report| Reports button in the right-hand :term:`context"
+" menu` again, or you can use the link to the reports page provided in the "
+"notification. When completed, your reports will appear in the \"Existing "
+"reports\" section of the Reports page, as shown in Step 5."
 msgstr ""
+"レポートの状況を確認し、準備ができたらレポートを取得するには、右側にある:term:`context menu`の|report| "
+"レポートボタンを再度クリックするか、または通知で提供されたレポートページへのリンクを使用することができます。完了すると、あなたのレポートはレポートページの「既存のレポート」セクションに表示され、ステップ5で示されているようになります。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:184
 msgid ""
-"Logged in users can always check on the status of any job by navigating "
-"to the **Manage > Jobs** page. For more information, see: :ref:`manage-"
-"jobs`."
+"Logged in users can always check on the status of any job by navigating to "
+"the **Manage > Jobs** page. For more information, see: :ref:`manage-jobs`."
 msgstr ""
+"ログインしているユーザーはいつでも、**管理 > "
+"ジョブ**ページにアクセスすることでジョブのステータスを確認することができます。詳細については、以下を参照してください: :ref:`manage-"
+"jobs`。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:187
 msgid ""
 "For HTML reports, clicking them will open them immediately in your web "
-"browser. You can use the \"Back\" button to return to the reports page, "
-"and if you wish to save a local copy, Right-click anywhere on the page "
-"and use the \"Save as\" option in your browser to save a local copy."
+"browser. You can use the \"Back\" button to return to the reports page, and "
+"if you wish to save a local copy, Right-click anywhere on the page and use "
+"the \"Save as\" option in your browser to save a local copy."
 msgstr ""
+"HTMLレポートについては、クリックすると直ちにWebブラウザで開きます。レポートページに戻るには「戻る」ボタンを使用してください。ローカルコピーを保存したい場合は、ページ内の任意の場所で右クリックし、ブラウザの「名前を付けて保存」オプションを使用してローカルコピーを保存してください。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:192
 msgid ""
 "For CSV reports, clicking them will trigger a download. You will need a "
-"local application to view the file - we recommend a spreadsheet "
-"application such as LibreOffice Calc."
+"local application to view the file - we recommend a spreadsheet application "
+"such as LibreOffice Calc."
 msgstr ""
+"CSVレポートの場合、それらをクリックするとダウンロードが開始されます。ファイルを閲覧するためにはローカルアプリケーションが必要になります - "
+"私たちはLibreOffice Calcのようなスプレッドシートアプリケーションの使用をお勧めします。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:196
 msgid ""
@@ -301,25 +345,30 @@ msgid ""
 "\"Yes\" (so retrieval information is excluded), and sorted by "
 ":term:`reference code`:"
 msgstr ""
+"以下の例は、HTMLで生成された、サムネイル付きのアイテムリストレポートを示しています。これは`:ref:`reports-public-"
+"setting`管理者設定が「はい」（つまり、取得情報が除外される）に設定され、:term:`reference "
+"code`によって並べ替えられています："
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "Print preview to the public user."
-msgstr ""
+msgstr "公開ユーザーへの印刷プレビュー。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:205
 msgid ""
 "Now here is the same item list report, but with the :ref:`reports-public-"
-"setting` Admin setting set to \"No\" (so retrieval information is "
-"*included* this time), and sorted by Retrieval information. Notice the "
-"addtional column to the right, called \"Retrieval information,\" that "
-"includes :term:`physical storage` information:"
+"setting` Admin setting set to \"No\" (so retrieval information is *included*"
+" this time), and sorted by Retrieval information. Notice the addtional "
+"column to the right, called \"Retrieval information,\" that includes "
+":term:`physical storage` information:"
 msgstr ""
+"こちらは同じアイテムリストレポートですが、管理者設定の :ref:`reports-public-setting` "
+"が「いいえ」に設定されています（つまり、今回は取得情報が*含まれています*）。そして、「取得情報」によってソートされています。右側の追加の列「取得情報」に注目してください。これには"
+" :term:`物理的保管` 情報が含まれています："
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:-1
 msgid "Print preview to the logged-in user with Admin privileges."
-msgstr ""
+msgstr "管理者権限を持つログインユーザーへのプリントプレビュー。"
 
 #: ../../user-manual/reports-printing/file-item-reports.rst:216
 msgid ":ref:`Back to top <file-item-reports>`"
-msgstr ""
-
+msgstr ":ref:`トップに戻る <file-item-reports>`"

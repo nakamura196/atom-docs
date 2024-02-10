@@ -11,90 +11,109 @@ msgstr ""
 "POT-Creation-Date: 2024-02-09 21:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:5
 msgid "Generate, upload, download, and print finding aids"
-msgstr ""
+msgstr "生成、アップロード、ダウンロード、および目録の印刷"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:23
 msgid ""
-"AtoM allows logged-in users to generate printer-friendly :term:`finding "
-"aids <finding aid>` in either PDF or RTF format. The format and some "
-"other parameters can be set by :term:`administrators <administrator>` in "
-"the :ref:`finding aid settings <finding-aid>`. Alternatively, "
-"authenticated users can choose to upload locally created finding aids "
-"instead of generating them from existing descriptions. Once the finding "
-"aid is generated or uploaded, it can be downloaded by any user, via a "
-"link provided in the right-hand :term:`context menu`."
+"AtoM allows logged-in users to generate printer-friendly :term:`finding aids"
+" <finding aid>` in either PDF or RTF format. The format and some other "
+"parameters can be set by :term:`administrators <administrator>` in the "
+":ref:`finding aid settings <finding-aid>`. Alternatively, authenticated "
+"users can choose to upload locally created finding aids instead of "
+"generating them from existing descriptions. Once the finding aid is "
+"generated or uploaded, it can be downloaded by any user, via a link provided"
+" in the right-hand :term:`context menu`."
 msgstr ""
+"AtoMでは、ログインしたユーザーは、PDFまたはRTF形式でプリンターに優しい：用語「調査支援資料 <finding "
+"aid>」を生成することができます。形式やその他のパラメーターは、：用語「管理者 "
+"<administrator>」によって、：ref:`調査支援資料の設定 <finding-"
+"aid>`で設定することができます。または、認証を受けたユーザーは、既存の記述から生成する代わりに、ローカルに作成された調査支援資料をアップロードすることを選択することもできます。調査支援資料が生成されたりアップロードされたりすると、右手側の：用語「コンテキストメニュー」に提供されるリンクを通じて、任意のユーザーがダウンロードすることができます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:34
 msgid ":ref:`file-item-reports`"
 msgstr ""
+"`:ref:`file-item-reports`` の部分は通常、文書内におけるクロスリファレンス（相互参照）や参照ラベルを示しています。これは特定のドキュメントセクションのタイトルやアイデンティファイアー (identifier) になっていることが多く、厳密な翻訳ではなく文脈に合わせて適切なセクションへの参照として扱われるべきです。\n"
+"\n"
+"もしこれを単純に日本語に翻訳する必要がある場合、「`ファイルアイテムレポート`の参照」のようになる可能性があります。ただし、技術的なドキュメントやマニュアルでは、このような参照をそのまま残し、参照されているセクションのタイトルを日本語で適切に翻訳することが一般的です。実際のマークアップでそのセクションがどのように示されているかに基づき、翻訳後のドキュメントで適切にリンクが機能するように調整する必要があります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:35
 msgid ":ref:`archival-descriptions`"
-msgstr ""
+msgstr ":ref:`アーカイバル・ディスクリプション`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:36
 msgid ":ref:`manage-jobs`"
-msgstr ""
+msgstr ":ref:`ジョブの管理`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:37
 msgid ":ref:`context-menu`"
-msgstr ""
+msgstr ":ref:`コンテキストメニュー`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:38
 msgid ":ref:`cli-finding-aid-generate` (command line tool)"
-msgstr ""
+msgstr ":ref:`cli-finding-aid-generate`（コマンドラインツール）"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:40
 msgid ""
-"Finding aids in AtoM are generated asynchronously in the background using"
-" `Gearman <http://gearman.org>`__, AtoM's job manager. You will need to "
-"make sure that Gearman is properly configured during installation to be "
-"able to generate finding aids - for more information, see: :ref"
-":`maintenance-asynchronous-jobs`. Additional information about the status"
-" of any Finding aid generation :term:`job` can also be seen via |edit| "
-"**Manage > Jobs** - for more information on the Job management page in "
-"AtoM, see: :ref:`manage-jobs`."
+"Finding aids in AtoM are generated asynchronously in the background using "
+"`Gearman <http://gearman.org>`__, AtoM's job manager. You will need to make "
+"sure that Gearman is properly configured during installation to be able to "
+"generate finding aids - for more information, see: :ref:`maintenance-"
+"asynchronous-jobs`. Additional information about the status of any Finding "
+"aid generation :term:`job` can also be seen via |edit| **Manage > Jobs** - "
+"for more information on the Job management page in AtoM, see: :ref:`manage-"
+"jobs`."
 msgstr ""
+"AtoMにおけるファインディングエイドは、AtoMのジョブマネージャーである `Gearman <http://gearman.org>`__ "
+"を使用して、バックグラウンドで非同期に生成されます。ファインディングエイドを生成するためには、インストール時にGearmanが適切に設定されていることを確認する必要があります。詳細については、以下を参照してください:"
+" :ref:`maintenance-asynchronous-jobs`。ファインディングエイドの生成に関する任意の :term:`ジョブ` "
+"の状態についての追加情報は、|edit| **管理 > "
+"ジョブ**からも確認できます。AtoMにおけるジョブ管理ページについての詳細は、以下を参照してください: :ref:`manage-jobs`。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:11
 msgid "edit"
 msgstr ""
+"To provide an accurate translation, I need the text you'd like to have "
+"translated into Japanese. Please provide the specific content related to "
+"Archivematica."
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:50
 msgid ""
-"At this time, the finding aids being generated have only been formatted "
-"to use the Canadian Rules for Archival Description (RAD) template. If you"
-" are using another template, you can still generate finding aids - but "
-"they will be formatted according to the RAD standard. We hope to be able "
-"to add further options in the future. For more information on the RAD "
-"standard, see: :ref:`Rules for Archival Description <rad-template>`. For "
-"an overview of all data entry templates in AtoM, see: :ref:`data-entry` "
-"and :ref:`descriptive-standards`."
+"At this time, the finding aids being generated have only been formatted to "
+"use the Canadian Rules for Archival Description (RAD) template. If you are "
+"using another template, you can still generate finding aids - but they will "
+"be formatted according to the RAD standard. We hope to be able to add "
+"further options in the future. For more information on the RAD standard, "
+"see: :ref:`Rules for Archival Description <rad-template>`. For an overview "
+"of all data entry templates in AtoM, see: :ref:`data-entry` and "
+":ref:`descriptive-standards`."
 msgstr ""
+"現時点では、作成される検索支援ツールは、カナダのアーカイブ記述規則（RAD）のテンプレートを使用してフォーマットされています。もしあなたが他のテンプレートを使用している場合でも、検索支援ツールを生成することは可能ですが、それらはRAD標準に従ってフォーマットされます。将来的にさらに多くのオプションを追加できることを願っています。RAD標準に関する詳細は、以下を参照してください:"
+" :ref:`アーカイブ記述規則 <rad-template>`。AtoMのすべてのデータ入力テンプレートの概要については、以下を参照してください: "
+":ref:`data-entry` および :ref:`descriptive-standards`。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:59
 msgid ""
-"Below you'll find information on how to configure the finding aid "
-"settings, generate or upload a finding aid, view information on the "
-"status of your finding aid generation request, and how users can view the"
-" finding aid after it has been successfully generated or uploaded."
+"Below you'll find information on how to configure the finding aid settings, "
+"generate or upload a finding aid, view information on the status of your "
+"finding aid generation request, and how users can view the finding aid after"
+" it has been successfully generated or uploaded."
 msgstr ""
+"以下では、目録設定の構成方法、目録の生成またはアップロード、目録生成リクエストの状態に関する情報の表示方法、および目録が正常に生成またはアップロードされた後、ユーザーが目録を確認する方法について説明します。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:64
 #: ../../user-manual/reports-printing/print-finding-aid.rst:502
 msgid "**Jump to:**"
-msgstr ""
+msgstr "**移動先:**"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:66
 #: ../../user-manual/reports-printing/print-finding-aid.rst:535
@@ -103,158 +122,185 @@ msgstr ""
 #: ../../user-manual/reports-printing/print-finding-aid.rst:634
 #: ../../user-manual/reports-printing/print-finding-aid.rst:665
 msgid ":ref:`print-finding-aid-settings`"
-msgstr ""
+msgstr ":ref:`print-finding-aid-settings` (プリント・ファインディング・エイド設定)"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:67
 msgid ":ref:`generate-finding-aid`"
-msgstr ""
+msgstr ":ref:`作成支援-ファインディングエイド`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:68
 msgid ":ref:`delete-finding-aid`"
-msgstr ""
+msgstr ":ref:`削除-調査支援資料`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:69
 msgid ":ref:`finding-aid-layout`"
-msgstr ""
+msgstr ":ref:`検索支援のレイアウト`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:70
 msgid ":ref:`finding-aid-troubleshoot`"
-msgstr ""
+msgstr ":ref:`調査支援トラブルシュート`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 #: ../../user-manual/reports-printing/print-finding-aid.rst:75
 msgid "Finding aid settings"
-msgstr ""
+msgstr "アーカイブヘルプ設定"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:77
 msgid ""
-"Before generating your finding aids, you will want to carefully review "
-"the settings for finding-aid generation. These can be accessed by an "
+"Before generating your finding aids, you will want to carefully review the "
+"settings for finding-aid generation. These can be accessed by an "
 ":term:`administrator` by navigating to |gears| **Admin > Settings**, and "
 "clicking on \"Finding aid\" in the settings menu on the left side of the "
 "page."
 msgstr ""
+"所蔵資料目録を作成する前に、目録作成の設定を注意深く確認したいでしょう。これらは、|gears| **管理者 > "
+"設定**に移動し、ページの左側にある設定メニューで「所蔵資料目録」をクリックすることで、:term:`管理者`がアクセスすることができます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:7
 msgid "gears"
-msgstr ""
+msgstr "ギア\n"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:87
 msgid ""
-"**Finding aids enabled**: This setting will enable or disable the finding"
-" aid upload and generation functionality in AtoM. When disabled, finding "
-"aid links (and options for authenticated users) are not displayed in "
-"archival description :term:`view pages <view page>`, finding aid "
-"generation is disabled, and the Finding aid search filter in the archival"
-" description :term:`advanced search panel` is hidden. Additionally, other"
-" settings on this page will be hidden until the feature is re-enabled."
+"**Finding aids enabled**: This setting will enable or disable the finding "
+"aid upload and generation functionality in AtoM. When disabled, finding aid "
+"links (and options for authenticated users) are not displayed in archival "
+"description :term:`view pages <view page>`, finding aid generation is "
+"disabled, and the Finding aid search filter in the archival description "
+":term:`advanced search panel` is hidden. Additionally, other settings on "
+"this page will be hidden until the feature is re-enabled."
 msgstr ""
+"**検索補助機能の有効化**: "
+"この設定により、AtoM内での検索補助文書のアップロードおよび生成機能を有効または無効にします。無効にすると、アーカイブ記述の:term:`view "
+"pages <view "
+"page>`内における検索補助文書へのリンク（認証されたユーザー向けのオプションを含む）が表示されなくなり、検索補助文書の生成が無効になり、アーカイブ記述の:term:`advanced"
+" search panel`内の検索補助文書用フィルターが隠されます。さらに、この機能が再び有効にされるまで、このページの他の設定も隠されます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:97
 msgid ""
-"For additional :term:`advanced search panel` fields that can be hidden "
-"via settings changes, see: :ref:`default-page-elements`."
-msgstr ""
+"For additional :term:`advanced search panel` fields that can be hidden via "
+"settings changes, see: :ref:`default-page-elements`."
+msgstr "設定の変更により非表示にできる追加の「高度な検索パネル」フィールドについては、次を参照してください：「デフォルトページ要素」。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:100
 msgid ""
-"**Finding aid format**: AtoM can generate finding aids in either Portable"
-" Document Format (PDF), or in Rich Text Format (RTF). Choose whether you "
+"**Finding aid format**: AtoM can generate finding aids in either Portable "
+"Document Format (PDF), or in Rich Text Format (RTF). Choose whether you "
 "would like :term:`finding aids <finding aid>` generated in PDF or RTF - "
-"essentially, if you would like users to have the ability to easily edit "
-"your finding aids locally after download, choose RTF, and users should be"
-" able to open the finding aid with any common document editor such as "
-"LibreOffice or Microsoft Word. If you prefer that the finding aids remain"
-" static and cannot be as easily edited by users, PDF will be a better "
-"choice. Note that most modern browsers include a PDF reader (meaning that"
-" once a user clicks the download button for a PDF-formatted finding aid, "
-"the finding aid will usually open in a new tab and be visible immediately"
-" to the user), while RTF finding aids will require local download to "
-"access, and will need to be opened in a separate application."
+"essentially, if you would like users to have the ability to easily edit your"
+" finding aids locally after download, choose RTF, and users should be able "
+"to open the finding aid with any common document editor such as LibreOffice "
+"or Microsoft Word. If you prefer that the finding aids remain static and "
+"cannot be as easily edited by users, PDF will be a better choice. Note that "
+"most modern browsers include a PDF reader (meaning that once a user clicks "
+"the download button for a PDF-formatted finding aid, the finding aid will "
+"usually open in a new tab and be visible immediately to the user), while RTF"
+" finding aids will require local download to access, and will need to be "
+"opened in a separate application."
 msgstr ""
+"**調査支援書類のフォーマット**: "
+"AtoMは、ポータブルドキュメントフォーマット（PDF）、またはリッチテキストフォーマット（RTF）のいずれかで調査支援書類を生成することができます。PDFまたはRTFで生成される:term:`調査支援書類<finding"
+" "
+"aid>`か選択してください。基本的に、ダウンロード後にユーザーが調査支援書類を簡単にローカルで編集できるようにする場合はRTFを選択し、ユーザーはLibreOfficeやMicrosoft"
+" "
+"Wordなど一般的なドキュメントエディターで調査支援書類を開くことができるはずです。ユーザーによる編集をあまり簡単にできないように、調査支援書類を静的な状態に保ちたい場合はPDFがより良い選択です。ほとんどの最新ブラウザにはPDFリーダーが含まれているため（つまり、ユーザーがPDF形式の調査支援書類のダウンロードボタンをクリックすると、通常、調査支援書類が新しいタブで開き、ユーザーにすぐに表示されます）、一方、RTF形式の調査支援書類はアクセスにローカルダウンロードが必要であり、別のアプリケーションで開く必要があります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:115
 msgid ""
-"Even if you are uploading pre-existing finding aids instead of generating"
-" them from your descriptions, you will need to set the format. During the"
-" upload process, AtoM will check that the uploaded format matches this "
+"Even if you are uploading pre-existing finding aids instead of generating "
+"them from your descriptions, you will need to set the format. During the "
+"upload process, AtoM will check that the uploaded format matches this "
 "setting, and will not allow you to upload other formats."
 msgstr ""
+"既存の検索支援システムをアップロードする場合でも、説明から生成する場合と同様に、フォーマットを設定する必要があります。アップロード処理中に、AtoMはアップロードされたフォーマットがこの設定に合致しているかをチェックし、他のフォーマットのアップロードは許可されません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:120
 msgid ""
-"**Finding aid model**: At present, this setting will change how lower-"
-"level descriptions (e.g. :term:`children <child record>`, such as files "
-"and items) are presented in the finding aid. You can choose between "
-"\"Full details\" and \"Inventory summary.\" Hover your cursor over the "
-"Finding aid model field label to see a brief tooltip:"
+"**Finding aid model**: At present, this setting will change how lower-level "
+"descriptions (e.g. :term:`children <child record>`, such as files and items)"
+" are presented in the finding aid. You can choose between \"Full details\" "
+"and \"Inventory summary.\" Hover your cursor over the Finding aid model "
+"field label to see a brief tooltip:"
 msgstr ""
+"**ファインディングエイドモデル**: 現時点でこの設定は、下位レベルの説明（例：`子レコード<child "
+"record>`といったファイルやアイテムなど）がファインディングエイド内でどのように表示されるかを変更します。\"フルディテール\"と\"インベントリ概要\"の間で選択することができます。ファインディングエイドモデルのフィールドラベル上にカーソルを置くと、簡単なツールチップが表示されます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "Finding aid settings with tooltip displayed"
-msgstr ""
+msgstr "ツールチップが表示されるファインディングエイドの設定"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:131
 msgid ""
 "The \"Inventory summary\" option is best used when your lower-level "
 "descriptions do  not include a lot of detail - it includes lower-level "
 "descriptions (such as files  and items) in a summary table beneath each "
-":term:`parent record`, such as a series,  sub-series, subfonds, etc. When"
-" lower-level descriptions include more detail, such as a scope and "
-"content description, you may want to include this information  in the "
-"finding aid - choose \"Full details,\" and each level of description will"
-"  display all fields available. A comparison image is included below, "
-"with the  Inventory summary on the left, and a sample item description "
-"with full details on the right:"
+":term:`parent record`, such as a series,  sub-series, subfonds, etc. When "
+"lower-level descriptions include more detail, such as a scope and content "
+"description, you may want to include this information  in the finding aid - "
+"choose \"Full details,\" and each level of description will  display all "
+"fields available. A comparison image is included below, with the  Inventory "
+"summary on the left, and a sample item description with full details on the "
+"right:"
 msgstr ""
+"「インベントリ要約」オプションは、下位レベルの説明に多くの詳細が含まれていない場合に最も適しています。これは、シリーズ、サブシリーズ、サブフォンドなど各:term:`親レコード`の下にある要約表に下位レベルの説明（ファイルや項目など）を含みます。下位レベルの説明に範囲や内容の説明などの詳細が含まれる場合は、この情報を目録または検索支援に含めることをお勧めします"
+" - "
+"「完全な詳細」を選択し、説明の各レベルで利用可能なすべてのフィールドが表示されます。以下に、左にインベントリ要約、右に完全な詳細を含むサンプル項目の説明を示す比較画像を掲載しています："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "Finding aid details comparison - Full details vs Inventory summary"
-msgstr ""
+msgstr "見つけ出しツール詳細の比較 - 全詳細と在庫要約"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:146
 msgid ""
-"**Generate Finding Aid as public user**: This setting determines whether "
-"or not :term:`Draft <draft record>` records are included in the PDF "
-"generated, as well as :term:`physical storage` information, depending on "
-"your Visible elements settings for physical storage."
+"**Generate Finding Aid as public user**: This setting determines whether or "
+"not :term:`Draft <draft record>` records are included in the PDF generated, "
+"as well as :term:`physical storage` information, depending on your Visible "
+"elements settings for physical storage."
 msgstr ""
+"**一般ユーザーとして調査資料を生成**: "
+"この設定は、生成されるPDFに「ドラフト記録」や「物理的保存場所」の情報が含まれるかどうかを決定します。これは、物理的保存場所に関する「可視要素設定」に応じて異なります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:151
 msgid ""
-"When set to \"Yes,\" draft descriptions are excluded from the finding "
-"aids generated.  If you have hidden physical storage information via the "
-"Visible elements module,  it will also be excluded from new finding aids "
-"generated."
+"When set to \"Yes,\" draft descriptions are excluded from the finding aids "
+"generated.  If you have hidden physical storage information via the Visible "
+"elements module,  it will also be excluded from new finding aids generated."
 msgstr ""
+"「はい」と設定された場合、下書きの説明は生成される検索支援ツールから除外されます。可視要素モジュールを通じて物理的な保管情報を隠している場合、それも新たに生成される検索支援ツールから除外されます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:155
 msgid ""
-"For more information on the :term:`publication status` and setting "
-"records as draft or public, see: :ref:`publish-archival-description`. For"
-" more information on using the Visible elements module, see: :ref"
-":`visible-elements`."
+"For more information on the :term:`publication status` and setting records "
+"as draft or public, see: :ref:`publish-archival-description`. For more "
+"information on using the Visible elements module, see: :ref:`visible-"
+"elements`."
 msgstr ""
+"公開状態及びレコードを下書きまたは公開に設定する方法に関する詳細情報は、:ref:`publish-archival-"
+"description`を参照してください。Visible elementsモジュールの使用方法についての詳細は、:ref:`visible-"
+"elements`をご覧ください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:161
 msgid ""
 "At this time, no other Visible elements settings are affected by this "
 "finding aid setting - only physical storage information. This means that "
-"even with the public setting engaged, any other fields you have hidden "
-"via the Visible elements module will still be included in your finding "
-"aid! Be sure to review your finding aids carefully."
+"even with the public setting engaged, any other fields you have hidden via "
+"the Visible elements module will still be included in your finding aid! Be "
+"sure to review your finding aids carefully."
 msgstr ""
+"この時点で、このファインディングエイドの設定によって影響を受けるのは物理的な保管情報のみであり、他の可視要素の設定は影響を受けません。つまり、公開設定が有効になっていても、可視要素モジュールを通じて非表示にしている他のフィールドは、あなたのファインディングエイドに依然として含まれます！ファインディングエイドを慎重に確認するようにしてください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:169
 msgid ""
 "If you have the \"Generate Finding Aid as public user\" setting set to "
 "\"Yes,\" the option to generate a finding aid will **not appear** on any "
-":term:`draft <draft record>` descriptions in AtoM. You will have to "
-"publish the description before you can generate a finding aid. You will "
-"still have the option to upload a finding aid - but remember, if the "
-"associated description is in Draft mode, users won't be able to access "
-"it, or your uplaoded finding aid until it's published."
+":term:`draft <draft record>` descriptions in AtoM. You will have to publish "
+"the description before you can generate a finding aid. You will still have "
+"the option to upload a finding aid - but remember, if the associated "
+"description is in Draft mode, users won't be able to access it, or your "
+"uplaoded finding aid until it's published."
 msgstr ""
+"「パブリックユーザーとして目録を生成する」設定を「はい」に設定すると、AtoMの :term:`下書き<draft record>` "
+"説明で目録を生成するオプションは**表示されません**。目録を生成するには、説明を公開する必要があります。目録のアップロードオプションは引き続き利用できますが、関連する説明が下書きモードの場合、それが公開されるまで、ユーザーはその説明やアップロードされた目録にアクセスすることができないことに注意してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:177
 #: ../../user-manual/reports-printing/print-finding-aid.rst:379
@@ -262,78 +308,90 @@ msgstr ""
 #: ../../user-manual/reports-printing/print-finding-aid.rst:484
 #: ../../user-manual/reports-printing/print-finding-aid.rst:716
 msgid ":ref:`Back to top <print-finding-aids>`"
-msgstr ""
+msgstr ":ref:`トップに戻る <print-finding-aids>`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:182
 msgid "Generate or upload a finding aid"
-msgstr ""
+msgstr "目録を生成またはアップロードする"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:184
 msgid ""
 "Once you have configured the finding aid settings, you can now begin to "
 "either generate or upload :term:`finding aids <finding aid>` for your "
-":term:`archival descriptions <archival description>`. While the settings "
-"can only be configured by an :term:`administrator`, at present **any "
-"authenticated user** can generate or upload a finding aid for a "
-"description they have permission to view. An administrator can review all"
-" finding aid generation requests via the Jobs page - for more information"
-" on managing :term:`jobs <job>` in AtoM, see: :ref:`manage-jobs`."
+":term:`archival descriptions <archival description>`. While the settings can"
+" only be configured by an :term:`administrator`, at present **any "
+"authenticated user** can generate or upload a finding aid for a description "
+"they have permission to view. An administrator can review all finding aid "
+"generation requests via the Jobs page - for more information on managing "
+":term:`jobs <job>` in AtoM, see: :ref:`manage-jobs`."
 msgstr ""
+"設定のガイドを設定したら、これであなたの :term:`アーカイブ記述 <archival description>`に対して、:term:`検索支援 "
+"<finding "
+"aid>`の生成またはアップロードを開始することができます。設定は:term:`管理者`のみが設定できますが、現時点では**認証された全ユーザー**が閲覧権限を持つ記述に対して検索支援を生成またはアップロードできます。管理者は、ジョブページを通じて全ての検索支援生成リクエストをレビューできます"
+" - AtoMで:term:`ジョブ <job>`を管理するための詳細情報については、:ref:`manage-jobs`を参照してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:195
 msgid ""
 "It's possible to add an institutional logo to the cover page of your "
 "generated finding aids. For more information, see below:"
-msgstr ""
+msgstr "生成されたファインディングエイドの表紙に、機関のロゴを追加することが可能です。詳しくは、以下をご覧ください："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:198
 msgid ":ref:`generate-finding-aid-logo`"
-msgstr ""
+msgstr ":ref:`検索支援ツール用ロゴの生成`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:200
 msgid "**To generate or upload a finding aid:**"
-msgstr ""
+msgstr "**遺産目録を生成またはアップロードするには：**"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:202
 msgid ""
 "Navigate to the :term:`archival description` for which you would like to "
 "generate a finding aid. You can do this by :ref:`browsing <browse>` or "
-":ref:`searching <search-atom>` for the :term:`archival description` - see"
-" :ref:`access-content` for more information on navigation in AtoM."
+":ref:`searching <search-atom>` for the :term:`archival description` - see "
+":ref:`access-content` for more information on navigation in AtoM."
 msgstr ""
+"あなたが作成したい所蔵案内を生成するためには、:term:`アーカイブ記述` に移動します。これは、:ref:`閲覧<browse>` や "
+":ref:`検索<search-atom>` を通じて :term:`アーカイブ記述` を見つけることができます - "
+"AtoMでのナビゲーションに関する詳細は :ref:`アクセス-コンテンツ<access-content>` を参照してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:209
 msgid ""
-"You can only generate or upload one finding aid per :term:`archival unit`"
-" (that is, one descriptive hierarchy), but you can generate or upload "
-"from any level of description in the hierarchy, not just the "
-":term:`parent <parent record>` description."
+"You can only generate or upload one finding aid per :term:`archival unit` "
+"(that is, one descriptive hierarchy), but you can generate or upload from "
+"any level of description in the hierarchy, not just the :term:`parent "
+"<parent record>` description."
 msgstr ""
+"あなたは一つの:term:`archival "
+"unit`（つまり、一つの記述階層）あたり、発見支援ツールを一つだけ生成またはアップロードすることができますが、:term:`parent "
+"<parent record>`記述だけでなく、階層内の任意の記述レベルから生成またはアップロードすることができます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:214
 msgid ""
 "In the right-hand :term:`context menu`, you will see a section titled "
 "\"Finding aid\". For logged-in users, this menu may include status "
-"information, and if a finding aid has already been generated or uploaded,"
-" a download button for the current finding aid. Status messages are never"
-" shown to public users - the finding aid section will only appear in the "
-"context menu if a finding aid has been successfully generated or "
-"uploaded."
+"information, and if a finding aid has already been generated or uploaded, a "
+"download button for the current finding aid. Status messages are never shown"
+" to public users - the finding aid section will only appear in the context "
+"menu if a finding aid has been successfully generated or uploaded."
 msgstr ""
+"右側の:term:`コンテキストメニュー`には、「ファインディングエイド」と題されたセクションがあります。ログインしているユーザーの場合、このメニューには状態情報が含まれており、ファインディングエイドが既に生成された場合やアップロードされた場合には、現在のファインディングエイドのダウンロードボタンが表示されます。ステータスメッセージは公開ユーザーには決して表示されません"
+" - "
+"ファインディングエイドのセクションは、ファインディングエイドが正常に生成された場合、またはアップロードされた場合にのみコンテキストメニューに表示されます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst
 msgid "Finding aid status messages in the context menu and their meanings"
-msgstr ""
+msgstr "コンテキストメニューにおける所在調査状態メッセージとその意味"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:226
 msgid "**Finding aid statuses and their meanings**"
-msgstr ""
+msgstr "**目録案内のステータスとその意味**"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:228
 msgid ""
 "*No status*: No finding aid has been generated or uploaded for this "
 "description."
-msgstr ""
+msgstr "*ステータスなし*：この記述のために生成された目録やアップロードされた目録はありません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:230
 msgid ""
@@ -341,14 +399,17 @@ msgid ""
 "being uploaded. Refresh the page for an updated status, and/or visit the "
 "Jobs page - see: :ref:`manage-jobs`"
 msgstr ""
+"*進行中*: "
+"仕事は進行中で、作成中またはアップロード中のファインディングエイドです。更新されたステータスを確認するためにページを更新するか、またはジョブページを訪れてください"
+" - 参照: :ref:`manage-jobs`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:233
 msgid "*Generated*: A finding aid that has been generated is available."
-msgstr ""
+msgstr "*生成された*: 生成された目録が利用可能です。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:234
 msgid "*Uploaded*: A finding aid that has been uploaded is available."
-msgstr ""
+msgstr "*アップロード済み*: アップロードされた検索支援ツールは利用可能です。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:235
 msgid ""
@@ -356,185 +417,210 @@ msgid ""
 ":ref:`finding-aid-troubleshoot` section below, and try generating a new "
 "finding aid."
 msgstr ""
+"*エラー*：目録作成に問題が発生しました。下記の :ref:`finding-aid-troubleshoot` "
+"セクションを参照し、新しい目録を生成してみてください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:241
 #: ../../user-manual/reports-printing/print-finding-aid.rst:588
 msgid ""
-"Don't see the option to generate a finding in the right-hand context "
-"menu? It could be  because your :term:`archival description` is still in "
+"Don't see the option to generate a finding in the right-hand context menu? "
+"It could be  because your :term:`archival description` is still in "
 ":term:`draft <draft record>` status, and your Finding aid :ref:`settings "
-"<print-finding-aid-settings>` are set to \"Generate Finding Aid as public"
-" user.\" AtoM will hide the link to generate finding aids from any draft "
+"<print-finding-aid-settings>` are set to \"Generate Finding Aid as public "
+"user.\" AtoM will hide the link to generate finding aids from any draft "
 "descriptions when this setting is engaged. You can either change your "
-"settings (see above), or you can publish the description - see: :ref"
-":`publish-archival-description`. You'll still be able to upload a finding"
-" aid to a draft description, but remember: your public users will not be "
-"able to see the descriptions or the finding aid until the descriptions "
+"settings (see above), or you can publish the description - see: "
+":ref:`publish-archival-description`. You'll still be able to upload a "
+"finding aid to a draft description, but remember: your public users will not"
+" be able to see the descriptions or the finding aid until the descriptions "
 "are published!"
 msgstr ""
+"右側のコンテキストメニューに「所見を生成する」オプションが表示されない場合、それはあなたの`:term:`アーカイブ記述`がまだ`:term:`下書き<draft"
+" record>`状態にあるからかもしれませんし、また、所見補助の:ref:`設定<print-finding-aid-"
+"settings>`が「一般ユーザーとして所見補助を生成する」に設定されているためかもしれません。AtoMは、この設定が有効な場合、すべての下書き記述から所見補助を生成するリンクを隠します。設定を変更する（上記参照）、あるいは記述を公開する（:ref:`アーカイブ記述を公開する<publish-"
+"archival-"
+"description>`を参照）のどちらかを行うことができます。下書き記述に所見補助をアップロードすることは可能ですが、公開するまでは一般のユーザーは記述や所見補助を見ることができないことを忘れないでください！"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:253
 msgid ""
 "To **generate** a finding aid from your archival descriptions, click the "
-"\"Generate\" link in the Finding aid section of the right-hand context "
-"menu. AtoM will reload the page, and the Finding aid section will display"
-" a status message of \"In progress\"."
+"\"Generate\" link in the Finding aid section of the right-hand context menu."
+" AtoM will reload the page, and the Finding aid section will display a "
+"status message of \"In progress\"."
 msgstr ""
+"アーカイブ記述から目録補助を**生成**するには、右側のコンテキストメニュー内の目録補助セクションにある「生成」リンクをクリックしてください。AtoMはページをリロードし、目録補助セクションには「進行中」というステータスメッセージが表示されます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of the Finding aid generating status message"
-msgstr ""
+msgstr "検索補助生成ステータスメッセージの画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:263
 msgid ""
-"To **upload** a finding aid, click the \"Upload\" link in the Finding aid"
-" section of the right-hand context menu. AtoM will redirect you to a page"
-" where you can select a finding aid from your local computer. When ready,"
-" click the \"Upload\" button. After upload, AtoM will redirect you to the"
-" archival description view page - you'll see the status message in the "
-"finding aid section of the right-hand :term:`context menu` will read \"In"
-" progress\" as your finding aid is uploaded."
+"To **upload** a finding aid, click the \"Upload\" link in the Finding aid "
+"section of the right-hand context menu. AtoM will redirect you to a page "
+"where you can select a finding aid from your local computer. When ready, "
+"click the \"Upload\" button. After upload, AtoM will redirect you to the "
+"archival description view page - you'll see the status message in the "
+"finding aid section of the right-hand :term:`context menu` will read \"In "
+"progress\" as your finding aid is uploaded."
 msgstr ""
+"見つけた助けを**アップロード**するには、右側のコンテキストメニューの「Finding "
+"aid」セクションにある「Upload」リンクをクリックしてください。AtoMはあなたをローカルコンピュータから見つけた助けを選択できるページにリダイレクトします。準備ができたら、「Upload」ボタンをクリックしてください。アップロード後、AtoMはあなたをアーカイブ記述のビューページにリダイレクトします"
+" - 右側の:term:`context menu`の見つけた助けセクションにあるステータスメッセージは、見つけた助けがアップロードされると「In "
+"progress」と読まれます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of the Finding aid upload selection page"
-msgstr ""
+msgstr "発見援助アップロード選択ページの画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:276
 msgid ""
 "To update the status and determine if your finding aid was successfully "
-"generated or uploaded, wait a moment for the process to execute, and then"
-" refresh the browser. Alternately, you can navigate to the jobs page for "
-"more details about the status of a job - see: :ref:`manage-jobs` for more"
-" information."
+"generated or uploaded, wait a moment for the process to execute, and then "
+"refresh the browser. Alternately, you can navigate to the jobs page for more"
+" details about the status of a job - see: :ref:`manage-jobs` for more "
+"information."
 msgstr ""
+"ステータスを更新し、作成中のファインディングエイドが正常に生成またはアップロードされたかどうかを判断するためには、プロセスが実行されるのを少し待ってから、ブラウザをリフレッシュしてください。あるいは、ジョブのステータスの詳細については、ジョブページに移動することもできます。詳しくは、:ref:`manage-"
+"jobs` をご覧ください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:282
 msgid ""
-"If the finding aid has failed to generate, you will see an \"Error\" "
-"status message in the right-hand context menu. You can also navigate to "
-"|edit| **Manage > Jobs** to see if further details on the cause of the "
-"error are available. See the troubleshooting section :ref:`below "
-"<finding-aid-troubleshoot>` for suggestions on how to resolve errors."
+"If the finding aid has failed to generate, you will see an \"Error\" status "
+"message in the right-hand context menu. You can also navigate to |edit| "
+"**Manage > Jobs** to see if further details on the cause of the error are "
+"available. See the troubleshooting section :ref:`below <finding-aid-"
+"troubleshoot>` for suggestions on how to resolve errors."
 msgstr ""
+"検索支援が生成に失敗した場合、右側のコンテキストメニューに「エラー」というステータスメッセージが表示されます。また、エラーの原因の詳細が利用可能かどうかを確認するために、|edit|"
+" **管理 > ジョブ** に移動することもできます。エラーを解決するための提案については、トラブルシューティングセクション :ref:`以下 "
+"<finding-aid-troubleshoot>` を参照してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of an error message in the Finding aid section"
-msgstr ""
+msgstr "ファインディングエイドセクションのエラーメッセージの画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:294
 msgid ""
 "If the finding aid has generated successfully, you will see a Download "
 "button when you refresh the page. The status message (visible only to "
-"logged-in users) will indicate if the existing finding aid was generated "
-"or uploaded. Click on the Download button to view your finding aid. If "
-"your description is published, unauthenticated (e.g. public) users will "
-"now be able to see this Download link as well - they will not see the "
-"status messages or delete options, however."
+"logged-in users) will indicate if the existing finding aid was generated or "
+"uploaded. Click on the Download button to view your finding aid. If your "
+"description is published, unauthenticated (e.g. public) users will now be "
+"able to see this Download link as well - they will not see the status "
+"messages or delete options, however."
 msgstr ""
+"検索支援が正常に生成された場合、ページを更新するとダウンロードボタンが表示されます。ステータスメッセージ（ログインしているユーザーにのみ表示されます）は、既存の検索支援が生成されたのか、アップロードされたのかを示します。ダウンロードボタンをクリックして検索支援を表示します。説明が公開されている場合、認証されていないユーザー（例：一般公開ユーザー）もこのダウンロードリンクを見ることができるようになりますが、彼らはステータスメッセージや削除オプションは見ることができません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of a status message for a generated finding aid"
-msgstr ""
+msgstr "生成されたファインディング・エイドのステータスメッセージの画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:307
 msgid ""
 "You can re-generate or re-upload a new finding aid at any time by first "
 "deleting the existing finding aid (covered :ref:`below <delete-finding-"
-"aid>`, and then following steps 1-6 again. This can be useful if you make"
-" :ref:`edits <edit-archival-description>` to your :term:`archival "
-"description` or its :term:`children <child record>`, or if you change the"
-" format of the finding aid in the settings. **The finding aids are not "
-"automatically updated when you make edits to your descriptions**. Be sure"
-" to re-upload or regenerate a new finding aid if you have made changes."
+"aid>`, and then following steps 1-6 again. This can be useful if you make "
+":ref:`edits <edit-archival-description>` to your :term:`archival "
+"description` or its :term:`children <child record>`, or if you change the "
+"format of the finding aid in the settings. **The finding aids are not "
+"automatically updated when you make edits to your descriptions**. Be sure to"
+" re-upload or regenerate a new finding aid if you have made changes."
 msgstr ""
+"いつでも既存のファインディングエイドを削除（後述：ref:`以下 <delete-finding-"
+"aid>`を参照）し、ステップ1から6を再度実行することで、新しいファインディングエイドを再生成または再アップロードすることができます。アーカイブ記述に対して変更を加えた場合（ref:`編集"
+" <edit-archival-description>`参照）や、その記述の:term:`子レコード <child "
+"record>`を変更した場合、または設定でファインディングエイドのフォーマットを変更した場合に役立ちます。**記述を編集してもファインディングエイドは自動的に更新されません**。変更を加えた場合は、ファインディングエイドを再アップロードまたは再生成することを忘れないでください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:319
 msgid ""
-"In addition to providing a button to view the finding aid in the right-"
-"hand :term:`context menu`, AtoM will also automatically add a link in the"
-" body of the related description, appearing below the free-text \"Finding"
-" aids\" :term:`field`. The link description text will also specify "
-"whether the finding aid is uploaded or generated. Here is an example of a"
-" generated finding aid link in the :term:`view page` of an archival "
-"description:"
+"In addition to providing a button to view the finding aid in the right-hand "
+":term:`context menu`, AtoM will also automatically add a link in the body of"
+" the related description, appearing below the free-text \"Finding aids\" "
+":term:`field`. The link description text will also specify whether the "
+"finding aid is uploaded or generated. Here is an example of a generated "
+"finding aid link in the :term:`view page` of an archival description:"
 msgstr ""
+"右側の:term:`コンテキストメニュー`に「目録を見る」ボタンを提供するだけでなく、AtoMは関連する記述の本文内にも自動的にリンクを追加します。これは、フリーテキストの「目録」:term:`フィールド`の下に表示されます。リンクの説明テキストでは、目録がアップロードされたものなのか、生成されたものなのかも明記されます。ここに、アーカイブ記述の:term:`ビューページ`における生成された目録リンクの例を示します："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst
 msgid "An image of a finding aid link for a Generated finding aid"
-msgstr ""
+msgstr "生成されたファインディング・エイドのリンクの画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:331
 msgid "And here is an example of an uploaded finding aid link:"
-msgstr ""
+msgstr "こちらはアップロードされた目録リンクの一例です："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst
 msgid "An image of a finding aid link for an Uploaded finding aid"
-msgstr ""
+msgstr "アップロードされたファインディング・エイドのリンク画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:341
 msgid "Include a repository logo in a generated finding aid"
-msgstr ""
+msgstr "生成された目録にリポジトリのロゴを含める"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:343
 msgid ""
 "It's possible to have a logo included on the cover page of a generated "
-":term:`finding aid`, such as the logo of your :term:`archival "
-"institution`."
-msgstr ""
+":term:`finding aid`, such as the logo of your :term:`archival institution`."
+msgstr "生成される:term:`ファインディング・エイド`の表紙に、:term:`アーカイブ機関`のロゴなどを含めることが可能です。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:346
 msgid ""
 "To do so, you will need a logo, and access to the root installation "
 "directory of your Atom installation."
 msgstr ""
+"それを行うためには、あなたはロゴが必要になるでしょうし、あなたのAtomインストールのルートインストールディレクトリへのアクセスも必要になります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:349
 msgid ""
 "The finding logo filesize and format should follow the requirements for "
 ":term:`repository` logos:"
-msgstr ""
+msgstr "発見されたロゴのファイルサイズとフォーマットは、:term:`リポジトリ` ロゴの要求仕様に従うべきです："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:352
 msgid "No larger than 256 KB in size"
-msgstr ""
+msgstr "サイズは256KB以下"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:353
 msgid "PNG format"
-msgstr ""
+msgstr "PNG形式"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:354
 msgid "Dimensions between 200 x 200 to 270 x 270px"
-msgstr ""
+msgstr "寸法は200 x 200ピクセルから270 x 270ピクセルまでです。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:356
 msgid ""
 "The logo must be named ``pdf-logo.png``, and be placed in the ``images`` "
-"directory, which is found just below the root AtoM installation "
-"directory."
+"directory, which is found just below the root AtoM installation directory."
 msgstr ""
+"ロゴは「pdf-"
+"logo.png」と命名し、「images」ディレクトリに配置する必要があります。そのディレクトリは、ルートのAtoMインストールディレクトリの直下にあります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:359
 msgid ""
-"Once added the logo will appear on any PDF finding aid you generate in "
-"the future. It will **not** be retroactively added to existing finding "
-"aids."
+"Once added the logo will appear on any PDF finding aid you generate in the "
+"future. It will **not** be retroactively added to existing finding aids."
 msgstr ""
+"ロゴを追加すると、将来生成するPDFファインディングエイドにロゴが表示されるようになります。既存のファインディングエイドには**遡って追加されることはありません**。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:362
 msgid "Example output:"
-msgstr ""
+msgstr "例示出力："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of a generated PDF finding aid cover page with a logo"
-msgstr ""
+msgstr "生成されたPDFファインディングエイド表紙の画像、ロゴ付き"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:371
 msgid ""
-"At this time, only one logo can be added to the ``images`` directory for "
-"use in finding aid generation, and it applies globally to all finding "
-"aids generated after it has been added."
+"At this time, only one logo can be added to the ``images`` directory for use"
+" in finding aid generation, and it applies globally to all finding aids "
+"generated after it has been added."
 msgstr ""
+"現時点では、``images`` "
+"ディレクトリに追加できるロゴは1つのみで、それは追加された後に生成される全てのファインディングエイドに対して全体的に適用されます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:375
 msgid ""
@@ -542,208 +628,244 @@ msgid ""
 "separate :term:`archival institution` logos in a :term:`multi-repository "
 "system`."
 msgstr ""
+"これは、現在、個別の:term:`archival institution`(アーカイバル機関)のロゴを含む検索支援ツールを、:term:`multi-"
+"repository system`(複数リポジトリシステム)で生成することができないことを意味します。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:384
 msgid "Delete an existing finding aid"
-msgstr ""
+msgstr "既存のファインディング・エイドを削除する"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:386
 msgid ""
-"Each :term:`archival unit` (i.e. descriptive hierarchy) can only have one"
-" finding aid associated with it, and finding aids are not automatically "
-"updated when descriptions are edited. If you wish to generate or upload a"
-" new finding aid to an archival unit that already has a finding aid, you "
-"will need to delete the existing finding aid first. You must be "
-"authenticated (e.g. logged in) to be able to delete existing finding aids"
-" or add new ones."
+"Each :term:`archival unit` (i.e. descriptive hierarchy) can only have one "
+"finding aid associated with it, and finding aids are not automatically "
+"updated when descriptions are edited. If you wish to generate or upload a "
+"new finding aid to an archival unit that already has a finding aid, you will"
+" need to delete the existing finding aid first. You must be authenticated "
+"(e.g. logged in) to be able to delete existing finding aids or add new ones."
 msgstr ""
+"各アーカイブ単位（記述的階層）には、関連付けられる調査支援資料（ファインディングエイド）は1つのみとなります。また、説明が編集された時に、調査支援資料は自動的に更新されません。すでに調査支援資料が関連付けられているアーカイブ単位に新しい調査支援資料を生成したりアップロードしたりする場合は、まず既存の調査支援資料を削除する必要があります。既存の調査支援資料を削除したり、新しいものを追加したりするには、認証（例：ログイン）されている必要があります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:393
 msgid "**To delete an existing finding aid:**"
-msgstr ""
+msgstr "**既存のファインディングエイドを削除するには：**"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:395
 msgid ""
-"Navigate to the :term:`archival unit` whose finding aid you wish to "
-"delete, and locate the Finding aid section in the right-hand "
-":term:`context menu`. You can do this from any level of description in "
-"the hierarchy."
+"Navigate to the :term:`archival unit` whose finding aid you wish to delete, "
+"and locate the Finding aid section in the right-hand :term:`context menu`. "
+"You can do this from any level of description in the hierarchy."
 msgstr ""
+"ご希望の案内資料を削除したい :term:`アーカイブ単位` に移動し、右側の :term:`コンテキストメニュー` "
+"にある案内資料セクションを探します。これは、階層内の任意の記述レベルから行うことができます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:399
 msgid ""
-"The Finding aid section will include a status message indicating whether "
-"the current finding aid was uploaded or generated, a Delete link, and a "
+"The Finding aid section will include a status message indicating whether the"
+" current finding aid was uploaded or generated, a Delete link, and a "
 "Download button to view the current finding aid:"
 msgstr ""
+"「ファインディング・エイド」セクションには、現在のファインディング・エイドがアップロードされたのか、生成されたのかを示すステータスメッセージ、「削除」リンク、および現在のファインディング・エイドを閲覧するための「ダウンロード」ボタンが含まれます："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of a status message for an uploaded finding aid"
-msgstr ""
+msgstr "アップロードされた目録の状況メッセージの画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:408
 msgid "In the Finding aid section, click on the \"Delete\" link."
-msgstr ""
+msgstr "「ファインディング・エイド」セクションにて、「削除」リンクをクリックしてください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid ""
 "An image of a user clicking on the delete link in the finding aid\n"
 "section of the right-hand context menu"
-msgstr ""
+msgstr "ユーザーが右側のコンテキストメニューの検索支援セクションで削除リンクをクリックしている画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:416
 msgid ""
-"AtoM will redirect you to a confirmation page. Click the \"Delete\" "
-"button if you are certain you would like to delete the existing finding "
-"aid. Alternatively, you can click the \"Cancel\" button to abort the "
-"delete operation."
+"AtoM will redirect you to a confirmation page. Click the \"Delete\" button "
+"if you are certain you would like to delete the existing finding aid. "
+"Alternatively, you can click the \"Cancel\" button to abort the delete "
+"operation."
 msgstr ""
+"AtoMは確認ページにリダイレクトします。「削除」ボタンをクリックすれば、既存のファインディングエイドを削除することができます。また、削除操作を中止する場合は、「キャンセル」ボタンをクリックしてください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of the delete confirmation page when deleting a finding aid"
-msgstr ""
+msgstr "削除する際の確認ページの画像、案内を削除するとき"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:426
 msgid ""
 "After clicking \"Delete,\" AtoM will redirect you to the archival "
-"description :term:`view page`. You can now upload or generate a new "
-"finding aid, following the instructions in the section :ref:`above "
-"<generate-finding-aid>`."
+"description :term:`view page`. You can now upload or generate a new finding "
+"aid, following the instructions in the section :ref:`above <generate-"
+"finding-aid>`."
 msgstr ""
+"「削除」をクリックすると、AtoMはアーカイブ記述の:term:`ビューページ`にリダイレクトします。ここで、上記のセクション:ref:`above "
+"<generate-finding-aid>` に従って、新しい目録をアップロードするか、生成することができます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:435
 msgid "Finding aid layout"
-msgstr ""
+msgstr "目録レイアウト"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:437
 msgid ""
 "AtoM's finding aid generation includes a simple cover page, a table of "
 "contents, and some basic styling to separate areas of the finding aid."
-msgstr ""
+msgstr "AtoMの目録作成機能には、シンプルな表紙、目次、目録の各セクションを区別するための基本的なスタイリングが含まれています。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:440
 msgid ""
 "The **cover page** includes the name of the :term:`archival institution` "
-"linked to the description, the title of the archival unit (e.g.title of "
-"the :term:`fonds`, :term:`collection`, etc), The date the finding aid was"
-" generated, the language of the description, the address of the archival "
+"linked to the description, the title of the archival unit (e.g.title of the "
+":term:`fonds`, :term:`collection`, etc), The date the finding aid was "
+"generated, the language of the description, the address of the archival "
 "institution, and the URL from which the source description originates in "
 "AtoM. An example cover is pictured below:"
 msgstr ""
+"表紙には、説明にリンクされたアーカイブ施設の名前、アーカイブ単位（例えば、フォンズやコレクションのタイトルなど）のタイトル、目録作成日、説明の言語、アーカイブ施設の住所、およびAtoMにおける情報源の記述が起源するURLが含まれています。下記に表紙の例を示します："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of a sample finding aid cover"
-msgstr ""
+msgstr "サンプルの所見助け表紙の画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:452
 msgid ""
 "The **table of contents** will be automatically generated, and includes "
-"hyperlinks to the related section. In a PDF, this means that bookmarks to"
-" each main section of the finding aid are included by default."
+"hyperlinks to the related section. In a PDF, this means that bookmarks to "
+"each main section of the finding aid are included by default."
 msgstr ""
+"目次は自動的に生成され、関連するセクションへのハイパーリンクが含まれます。PDFの場合、これはファインディングエイドの各主要セクションへのブックマークがデフォルトで含まれていることを意味します。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:458
 msgid ""
-"The numbering of the table of contents has been known to display "
-"occasional problems when generated in RTF and then viewed in Microsoft "
-"Word. This is a problem with Word's display of RTF rather than a problem "
-"with the file. The table of contents displays in other document viewers "
-"correctly, such as OpenOffice and LibreOffice."
+"The numbering of the table of contents has been known to display occasional "
+"problems when generated in RTF and then viewed in Microsoft Word. This is a "
+"problem with Word's display of RTF rather than a problem with the file. The "
+"table of contents displays in other document viewers correctly, such as "
+"OpenOffice and LibreOffice."
 msgstr ""
+"目次の番号付けは、RTFで生成された後にMicrosoft "
+"Wordで表示されると、時々問題が発生することが知られています。これはWordのRTF表示の問題であり、ファイル自体の問題ではありません。目次はOpenOfficeやLibreOfficeなどの他のドキュメントビューアでは正しく表示されます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:464
 msgid ""
-"Each page includes a simple **header** and **footer**. The header "
-"includes the title of the archival unit, and the identifier. The footer "
-"includes the name of the related :term:`archival institution`, and a page"
-" number."
+"Each page includes a simple **header** and **footer**. The header includes "
+"the title of the archival unit, and the identifier. The footer includes the "
+"name of the related :term:`archival institution`, and a page number."
 msgstr ""
+"各ページにはシンプルな**ヘッダー**と**フッター**が含まれています。ヘッダーには、アーカイブ単位のタイトルと識別子が含まれます。フッターには関連する:term:`アーカイブ機関`の名称とページ番号が含まれます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:468
 msgid ""
-"At present, AtoM has two primary layout options for the printable finding"
-" aids: \"Full details,\" and \"Inventory summary.\" These options are "
-"managed via the Finding aid settings - see: :ref:`print-finding-aid-"
-"settings`."
+"At present, AtoM has two primary layout options for the printable finding "
+"aids: \"Full details,\" and \"Inventory summary.\" These options are managed"
+" via the Finding aid settings - see: :ref:`print-finding-aid-settings`."
 msgstr ""
+"現在、AtoMには、「フルディテール」と「インベントリサマリー」の2つの主要なレイアウトオプションがあり、印刷可能なファインディングエイドに利用できます。これらのオプションは、ファインディングエイドの設定を通じて管理されています。詳細については、以下を参照してください：:ref:`print-"
+"finding-aid-settings`。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:472
 msgid ""
-"The **Inventory summary** option is best used when there has been minimal"
-" description added to lower levels, such as file and item-level records. "
-"AtoM will display these lower levels in a summary table beneath each "
-"parent series (or sub-series, etc). The **Full details** will treat each "
-"lower-level record similar to the higher-level ones, and all fields will "
-"be displayed. A sample first few pages of each, minus the cover page, has"
-" been included in an image below for comparison."
+"The **Inventory summary** option is best used when there has been minimal "
+"description added to lower levels, such as file and item-level records. AtoM"
+" will display these lower levels in a summary table beneath each parent "
+"series (or sub-series, etc). The **Full details** will treat each lower-"
+"level record similar to the higher-level ones, and all fields will be "
+"displayed. A sample first few pages of each, minus the cover page, has been "
+"included in an image below for comparison."
 msgstr ""
+"「**インヴェントリサマリー**」オプションは、ファイルレベルやアイテムレベルの記録への説明が最小限に留められている場合に最適です。AtoMはこれらの下位レベルを、それぞれの親シリーズ（またはサブシリーズなど）の下にあるサマリーテーブル内に表示します。**フルディテール**では、各下位レベルの記録が上位レベルの記録と同様に扱われ、すべてのフィールドが表示されます。カバーページを除く、両方のサンプルの最初の数ページが比較用に下の画像に含まれています。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An image of the two different finding aid layouts, side by side"
-msgstr ""
+msgstr "二つの異なる資料検索ツールのレイアウトが並んだ画像"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:489
 msgid "Troubleshooting finding aid issues"
-msgstr ""
+msgstr "トラブルシューティング：ファインディングエイドの問題解決"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:491
 msgid ""
 "Below are a few common questions and problems users might encounter in "
 "generating finding aids, and some suggestions on how to address them."
-msgstr ""
+msgstr "以下は、利用者が検索支援ツールを作成する際に遭遇する可能性のある一般的な質問や問題と、それらに対処するためのいくつかの提案です。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:494
 msgid ""
 "Before proceeding, make sure that you have followed all the installation "
-"requirements for job scheduling in AtoM - for more information, see: :ref"
-":`maintenance-asynchronous-jobs`."
+"requirements for job scheduling in AtoM - for more information, see: "
+":ref:`maintenance-asynchronous-jobs`."
 msgstr ""
+"進む前に、AtoMでのジョブスケジューリングに関するすべてのインストール要件が満たされていることを確認してください。詳細については、以下を参照してください："
+" :ref:`maintenance-asynchronous-jobs`。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:498
 msgid ""
 "The AtoM Jobs page can possibly supply you with more information on any "
 "errors encountered, as finding aid generation is a :term:`job` handled "
-"asynchronously in AtoM. For more information on the Jobs page, see: :ref"
-":`manage-jobs`."
+"asynchronously in AtoM. For more information on the Jobs page, see: "
+":ref:`manage-jobs`."
 msgstr ""
+"AtoMジョブページでは、発生したエラーに関するより多くの情報を得ることができるかもしれません。なぜなら、ファインディングエイドの生成は、AtoMで非同期に処理される"
+" :term:`ジョブ` であるためです。ジョブページに関する詳細については、以下を参照してください：:ref:`manage-jobs`。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:504
 msgid ":ref:`fa-trouble-storage-excluded`"
 msgstr ""
+":ref:`fa-trouble-storage-excluded`の部分はreStructuredText（reST）形式での参照用ラベルです。これをそのまま日本語に翻訳するわけではありませんが、文脈に応じて適切な日本語の節タイトルやラベルに置き換える必要があります。翻訳するドキュメント内でこのラベルが指しているセクションが「ストレージの問題 - 除外された項目」というタイトルである場合は、以下のように翻訳することができます：\n"
+"\n"
+":ref:`ストレージの問題 - 除外された項目`\n"
+"\n"
+"ただし、この置き換えは文脈に依存するため、実際のドキュメント内でのタイトルや内容を見て決定する必要があります。また、reST参照ラベルは翻訳対象のテキストそのものではないので、ドキュメントの翻訳者はこのラベルが文書内のどの部分を指しているかを理解して適切に対応する必要があることに注意してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:505
 msgid ":ref:`fa-trouble-storage-included`"
 msgstr ""
+":ref:`fa-trouble-storage-included` の部分は、ドキュメント内の特定のセクションやラベルへの参照であり、実際のテキストとは異なります。この参照は、ドキュメント内で定義された「fa-trouble-storage-included」というラベルを指しています。しかし、この参照に具体的なテキストが含まれていないため、実際に何と訳すべきかは、ラベルが指し示すセクションの内容に依存します。\n"
+"\n"
+"通常、翻訳する際は、その参照が文脈内でどのような内容を指しているかを理解する必要があります。ここで提供された情報のみでは、正確な翻訳が不可能です。そのため、具体的なテキストが提供された場合にのみ、適切な日本語訳を提供することが可能です。\n"
+"\n"
+"仮に、ドキュメント内で \"fa-trouble-storage-included\" が「ストレージに関する一般的なトラブルシューティング」とでもラベル付けされているならば、日本語では次のようになるかもしれません：\n"
+"\n"
+"``「ストレージにおけるトラブルシューティング」に関する参照``\n"
+"\n"
+"しかし、具体的なトピックの内容が分からないため、これは単なる一例です。実際の翻訳には正確な文脈が必要となります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:506
 msgid ":ref:`fa-trouble-drafts-included`"
-msgstr ""
+msgstr "参照：`fa-trouble-drafts-included`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:507
 msgid ":ref:`fa-trouble-no-generate-link`"
-msgstr ""
+msgstr ":ref:`fa-trouble-no-generate-link`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:508
 msgid ":ref:`fa-trouble-fields-excluded`"
-msgstr ""
+msgstr ":ref:`fa-trouble-fields-excluded (参照：トラブルシューティング時の除外フィールド)`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:509
 msgid ":ref:`fa-trouble-ead-export-failed`"
 msgstr ""
+":ref:`fa-trouble-ead-export-failed`は参照リンクのマークアップです。ただし、リテラルな翻訳は意味をなさず、通常、これは文脈内での適切なリソースやセクションへの参照として機能します。そのため、日本語のドキュメント内で適切な日本語のセクションタイトルや資料名に置き換えて、次のように翻訳する必要があります。\n"
+"\n"
+"`:ref:`fa-trouble-ead-export-failed``（EADエクスポート失敗に関するトラブルシューティング）\n"
+"\n"
+"ここでは、「EADエクスポート失敗に関するトラブルシューティング」はその参照部分の実際のタイトルに置き換える必要があります。もし、実際のタイトルがわからない場合、そのままの参照コードを使用し、ドキュメントの文脈で適切に修正される必要があります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:514
 msgid "Physical storage information is not included in my finding aid"
-msgstr ""
+msgstr "私のファインディングエイドには物理的な保存情報が含まれていません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:516
 #: ../../user-manual/reports-printing/print-finding-aid.rst:542
 msgid "Physical storage information is excluded from the Finding aid if:"
-msgstr ""
+msgstr "所蔵情報は、次の場合には目録表から除外されます:"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:518
 #: ../../user-manual/reports-printing/print-finding-aid.rst:544
 msgid "The \"Generate Finding Aid as public user\" setting is set to YES, **and**"
-msgstr ""
+msgstr "「一般ユーザーとしてファインディングエイドを生成」設定が「はい」に設定されています。**および**"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:519
 #: ../../user-manual/reports-printing/print-finding-aid.rst:545
@@ -751,20 +873,25 @@ msgid ""
 "The Visible elements module for your template is set to hide physical "
 "storage information from public users (e.g. the box is unchecked)."
 msgstr ""
+"テンプレート用の「見える要素」モジュールは、物理的な保存情報を一般ユーザーから隠すように設定されています（例: チェックボックスがオフになっています）。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:522
 msgid ""
-"If you have included physical storage information with your descriptions "
-"via AtoM's Physical storage module, and would like it included in your "
-"finding aids, you will also need to display it in the public :term:`view "
-"pages <view page>` for your descriptions. To do so, navigate to |gears| "
-"**Admin > Visible elements** and make sure that the Physical storage "
-"option is |check| checked."
+"If you have included physical storage information with your descriptions via"
+" AtoM's Physical storage module, and would like it included in your finding "
+"aids, you will also need to display it in the public :term:`view pages <view"
+" page>` for your descriptions. To do so, navigate to |gears| **Admin > "
+"Visible elements** and make sure that the Physical storage option is |check|"
+" checked."
 msgstr ""
+"AtoMの物理的保管モジュールを使用して説明に物理的な保管情報を含め、それを所見調査報告書に含めたい場合は、その情報を説明の公開用:term:`閲覧ページ<view"
+" page>`にも表示する必要があります。これを行うには、|gears| **管理 > "
+"表示要素**に移動し、物理的保管オプションが|check|チェックされていることを確認してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:15
 msgid "check"
 msgstr ""
+"お問い合わせいただいた内容を確認したいのですが、「check」という単語のみを提供いただいた状態です。翻訳するには文脈が必要です。もし具体的な文章や文脈があれば、それを提供していただければ、日本語に翻訳します。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:528
 #: ../../user-manual/reports-printing/print-finding-aid.rst:560
@@ -775,71 +902,85 @@ msgid ""
 "Now you can re-generate your finding aids, following the steps above, "
 ":ref:`generate-finding-aid`."
 msgstr ""
+"これで、上記の手順に従って、目録支援ツールの生成を再度行うことができます。詳細は、:ref:`generate-finding-"
+"aid`を参照してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:533
 #: ../../user-manual/reports-printing/print-finding-aid.rst:565
 msgid ":ref:`visible-elements`"
-msgstr ""
+msgstr ":ref:`可視要素`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:534
 #: ../../user-manual/reports-printing/print-finding-aid.rst:566
 msgid ":ref:`physical-storage`"
-msgstr ""
+msgstr ":ref:`物理的保管`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:540
 msgid "I don't want to display physical storage information in my finding aid"
-msgstr ""
+msgstr "私は目録に物理的な保管情報を表示したくありません"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:548
 msgid ""
-"If you have included physical storage information with your descriptions "
-"via AtoM's Physical storage module, and **do not** want it included in "
-"your finding aids, you will also need to hide it in the public "
-":term:`view pages <view page>` for your descriptions via AtoM's Visible "
-"elements module. To do so, navigate to |gears| **Admin > Visible "
-"elements** and make sure that the Physical storage option is |uncheck| "
-"unchecked."
+"If you have included physical storage information with your descriptions via"
+" AtoM's Physical storage module, and **do not** want it included in your "
+"finding aids, you will also need to hide it in the public :term:`view pages "
+"<view page>` for your descriptions via AtoM's Visible elements module. To do"
+" so, navigate to |gears| **Admin > Visible elements** and make sure that the"
+" Physical storage option is |uncheck| unchecked."
 msgstr ""
+"AtoMの物理的保管モジュールを介してあなたの説明と共に物理的な保管情報を含めており、それを探索補助資料に含めたく**ない**場合は、AtoMの表示要素モジュールを使用して公開される:term:`ビューページ<view"
+" page>`からそれを隠す必要もあります。これを行うには、|gears| **管理 > 表示要素** "
+"に移動し、物理的保管オプションが|uncheck| チェックされていないことを確認してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:19
 msgid "uncheck"
-msgstr ""
+msgstr "チェックを外す"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:555
 msgid ""
-"You will then need to check the finding aid settings, and make sure that "
-"the \"Generate Finding Aid as public user\" option is set to \"yes\". See"
-" :ref:`above <print-finding-aid-settings>` for more details on the "
-"finding aid settings."
+"You will then need to check the finding aid settings, and make sure that the"
+" \"Generate Finding Aid as public user\" option is set to \"yes\". See "
+":ref:`above <print-finding-aid-settings>` for more details on the finding "
+"aid settings."
 msgstr ""
+"その後、目録支援設定を確認し、「公開ユーザーとして目録支援を生成」オプションが「はい」に設定されていることを確認する必要があります。目録支援設定の詳細については、上記の「プリント目録支援設定」を参照してください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:572
 msgid "Draft descriptions are being shown in my finding aid"
-msgstr ""
+msgstr "ドラフトの記述が私の調査支援ツールに表示されています"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:574
 msgid ""
-"If you don't want draft descriptions shown in your finding aid, navigate "
-"to |gears| **Admin > Settings**, and click the \"Finding aid\" section in"
-" the menu on the left. AtoM will load the finding aid settings, described"
-" in detail :ref:`above <print-finding-aid-settings>`."
+"If you don't want draft descriptions shown in your finding aid, navigate to "
+"|gears| **Admin > Settings**, and click the \"Finding aid\" section in the "
+"menu on the left. AtoM will load the finding aid settings, described in "
+"detail :ref:`above <print-finding-aid-settings>`."
 msgstr ""
+"あなたがファインディング・エイドで下書きの説明を表示したくない場合は、|gears| **管理 > 設定** "
+"に進み、左メニューの「ファインディング・エイド」セクションをクリックしてください。AtoMはファインディング・エイドの設定を読み込みます。これについては"
+" :ref:`上記 <print-finding-aid-settings>` で詳しく説明されています。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:579
 msgid ""
-"Make sure that the \"Generate Finding Aid as public user\" option is set "
-"to \"yes\", and remember to click the \"Save\" button in the "
-":term:`button block` if you make any changes."
+"Make sure that the \"Generate Finding Aid as public user\" option is set to "
+"\"yes\", and remember to click the \"Save\" button in the :term:`button "
+"block` if you make any changes."
 msgstr ""
+"「Generate Finding Aid as public "
+"user」オプションが「yes」に設定されていることを確認し、変更を加えた場合には:term:`button "
+"block`にある「Save」ボタンをクリックすることを忘れないでください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:603
 #: ../../user-manual/reports-printing/print-finding-aid.rst:635
 msgid ":ref:`publish-archival-description`"
 msgstr ""
+"`:ref:`publish-archival-description`は特定の参照タグかもしれませんが、それは通常、マークアップ言語（例えば、reStructuredTextやHTML）で使用され、別の文書部分や外部リソースへの参照を作成します。これを直接的なテキストに翻訳することはできませんが、「出版されたアーカイブ記述」という意味を持つ文章に置き換えることができます。それにもとづいて次のように翻訳することができます：\n"
+"\n"
+"`出版されたアーカイブ記述を参照してください。`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:608
 msgid "There's no option in the context menu to generate a finding aid"
-msgstr ""
+msgstr "コンテキストメニューには、検索支援を生成するオプションがありません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:610
 msgid ""
@@ -847,127 +988,149 @@ msgid ""
 "<draft record>`, and the Finding aid settings are set to generate as a "
 "public user."
 msgstr ""
+"これは、アーカイブ記述が「下書きモード<draft "
+"record>」にあるため、または利用案内の設定が一般ユーザーとして生成するように設定されているためかもしれません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:614
 msgid ""
 "If you have the \"Generate Finding Aid as public user\" setting set to "
 "\"Yes,\" the option to generate a finding aid will **not appear** on any "
-":term:`draft <draft record>` descriptions in AtoM. You will have to "
-"publish the description before you can generate a finding aid, or change "
-"the setting."
+":term:`draft <draft record>` descriptions in AtoM. You will have to publish "
+"the description before you can generate a finding aid, or change the "
+"setting."
 msgstr ""
+"「一般ユーザーとして所見ヘルプを生成する」設定を「はい」に設定している場合、AtoMの:term:`ドラフト<draft "
+"record>`説明に所見ヘルプを生成するオプションは**表示されません**。所見ヘルプを生成する前に説明を公開するか、設定を変更する必要があります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:619
 msgid ""
 "The finding aid generation in AtoM has **not** been tied to the "
 ":term:`permissions <access privilege>` module at all - the module that "
-"allows an :term:`administrator` to limit access for users and groups "
-"(see: :ref:`edit-user-permissions` for more information). However, by "
-"hiding the link on draft descriptions, an administrator can therefore "
-"restrict finding aid generation for drafts to only those users who have "
-"publish privileges, as the description must be published before the link "
-"will reappear."
+"allows an :term:`administrator` to limit access for users and groups (see: "
+":ref:`edit-user-permissions` for more information). However, by hiding the "
+"link on draft descriptions, an administrator can therefore restrict finding "
+"aid generation for drafts to only those users who have publish privileges, "
+"as the description must be published before the link will reappear."
 msgstr ""
+"AtoMにおける検索支援ツールの生成は、全く:term:`permissions <access "
+"privilege>`モジュール（利用者やグループのアクセスを制限するために:term:`administrator`が使用するモジュール）と結びつけられて**いません**（詳細は:ref:`edit-"
+"user-"
+"permissions`を参照してください）。しかし、下書きの説明でリンクを非表示にすることにより、管理者は下書きの検索支援ツールの生成を出版権限を持つユーザーのみに制限できます。なぜなら、リンクが再び表示される前に説明が出版されなければならないからです。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:627
 msgid ""
-"Note that you will still have the option to upload a finding aid to a "
-"draft archival description - but remember, your public users will not be "
-"able to see the archival descriptions or the related finding aid until "
-"the :term:`archival unit` is published."
+"Note that you will still have the option to upload a finding aid to a draft "
+"archival description - but remember, your public users will not be able to "
+"see the archival descriptions or the related finding aid until the "
+":term:`archival unit` is published."
 msgstr ""
+"ご注意ください。下書きのアーカイブ記述に目録をアップロードするオプションは引き続き利用できますが、 :term:`アーカイブ単位` "
+"が公開されるまで、公開ユーザーはアーカイブ記述や関連する目録を見ることはできません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:636
 msgid ":ref:`edit-user-permissions`"
-msgstr ""
+msgstr "`ユーザー権限の編集`"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:641
-msgid "My scope and content is not included for file and item level descriptions"
-msgstr ""
+msgid ""
+"My scope and content is not included for file and item level descriptions"
+msgstr "私の範囲と内容は、ファイルおよび項目レベルの記述に含まれていません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:643
 msgid ""
-"This could be because you have selected the \"Inventory summary\" option "
-"in the \"Finding aid model\" settings. AtoM has two different stylesheets"
-" for finding aids. One includes only an inventory table with minimal "
-"details for lower-level descriptions such as files and items (the "
-"\"Inventory summary\" option); the other includes full details at all "
-"levels of description. A comparison image is included below, with the "
-"Inventory summary on the left, and a sample item description with full "
-"details on the right:"
+"This could be because you have selected the \"Inventory summary\" option in "
+"the \"Finding aid model\" settings. AtoM has two different stylesheets for "
+"finding aids. One includes only an inventory table with minimal details for "
+"lower-level descriptions such as files and items (the \"Inventory summary\" "
+"option); the other includes full details at all levels of description. A "
+"comparison image is included below, with the Inventory summary on the left, "
+"and a sample item description with full details on the right:"
 msgstr ""
+"これは、「Finding aid model」の設定で「Inventory "
+"summary」オプションを選択しているためかもしれません。AtoMには、ファインディングエイド用の異なるスタイルシートが2つあります。1つは、ファイルやアイテムなどの下位レベルの説明に対して最小限の詳細のみを含む在庫表を含むもの（「Inventory"
+" "
+"summary」オプション）で、もう1つは、すべての説明レベルでの全詳細を含みます。下には比較画像が含まれており、左側に在庫概要、右側に全詳細を含むサンプルのアイテム説明が表示されています："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:656
 msgid ""
 "If you want all fields present in your lower-level descriptions to be "
-"available in the finding aid you generate, we suggest changing this "
-"setting to \"Full details.\" Remember to save your changes after making "
-"settings changes."
+"available in the finding aid you generate, we suggest changing this setting "
+"to \"Full details.\" Remember to save your changes after making settings "
+"changes."
 msgstr ""
+"下位レベルの説明に含まれるすべてのフィールドを、生成される検索支援ツールで使用可能にしたい場合は、この設定を「詳細情報」に変更することをお勧めします。設定を変更した後は、変更内容を保存することを忘れないでください。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:670
 msgid ""
-"Finding aid generation error; the jobs page says that \"Exporting EAD has"
-" failed\""
-msgstr ""
+"Finding aid generation error; the jobs page says that \"Exporting EAD has "
+"failed\""
+msgstr "所見助成の生成エラー；ジョブページには「EADのエクスポートに失敗しました」と記載されています。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:672
 msgid ""
-"First, check if you have a working internet connection. AtoM will attempt"
-" to reach the EAD XML DTD kept at "
+"First, check if you have a working internet connection. AtoM will attempt to"
+" reach the EAD XML DTD kept at "
 "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd and if there is no "
-"internet connection the task may fail, with a message like this in the "
-"Job details page:"
+"internet connection the task may fail, with a message like this in the Job "
+"details page:"
 msgstr ""
+"まず、インターネット接続が正常に機能しているかどうかを確認してください。AtoMは、http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"
+" に保持されているEAD XML "
+"DTDにアクセスしようとしますが、インターネット接続がない場合、タスクは失敗する可能性があります。その際、ジョブの詳細ページには次のようなメッセージが表示されます："
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:-1
 msgid "An example of a failed finding aid generation in the Jobs page"
-msgstr ""
+msgstr "ジョブページにおける案内ツール生成の失敗例"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:683
 msgid ""
-"If you restore your internet connection, you can try again - the issue "
-"may now be resolved."
-msgstr ""
+"If you restore your internet connection, you can try again - the issue may "
+"now be resolved."
+msgstr "インターネット接続を復旧させた後、再度お試しいただけます - 問題が解決している可能性があります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:686
 msgid ""
-"If not, it may have to do with the content you have added to your "
-"archival description."
-msgstr ""
+"If not, it may have to do with the content you have added to your archival "
+"description."
+msgstr "それでなければ、それはあなたがアーカイブ記述に追加した内容に関係しているかもしれません。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:689
 msgid ""
-"AtoM generates its PDF finding aids by first exporting the "
-":term:`archival description` as `EAD XML "
-"<http://www.loc.gov/ead/tglib/index.html>`__, and then transforming that "
-"EAD XML using an `XSLT <https://en.wikipedia.org/wiki/XSLT>`__ into the "
-"desired format (PDF or RFT)."
+"AtoM generates its PDF finding aids by first exporting the :term:`archival "
+"description` as `EAD XML <http://www.loc.gov/ead/tglib/index.html>`__, and "
+"then transforming that EAD XML using an `XSLT "
+"<https://en.wikipedia.org/wiki/XSLT>`__ into the desired format (PDF or "
+"RFT)."
 msgstr ""
+"AtoMは、まず`:term:`アーカイブ記述`を`EAD XML "
+"<http://www.loc.gov/ead/tglib/index.html>`__としてエクスポートし、その後、`XSLT "
+"<https://en.wikipedia.org/wiki/XSLT>`__を使ってEAD "
+"XMLを所望の形式（PDFまたはRFT）に変換して、PDFファインディングエイドを生成します。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:694
 msgid ""
-"For this process to work, the EAD XML must first be able to export - "
-"which means it must first be valid `XML "
-"<https://en.wikipedia.org/wiki/XML>`__."
+"For this process to work, the EAD XML must first be able to export - which "
+"means it must first be valid `XML <https://en.wikipedia.org/wiki/XML>`__."
 msgstr ""
+"このプロセスが動作するためには、EAD XMLはまずエクスポート可能である必要があります。つまり、それはまず有効な`XML "
+"<https://ja.wikipedia.org/wiki/XML>`__である必要があります。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:697
 msgid "This means your EAD may fail to export properly if:"
-msgstr ""
+msgstr "これは、以下の場合にはEADが正しくエクスポートされない可能性があることを意味します:"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:699
 msgid ""
-"You've used unescaped special characters, such as ampersands ``&`` or "
-"``<`` and ``>``."
-msgstr ""
+"You've used unescaped special characters, such as ampersands ``&`` or ``<`` "
+"and ``>``."
+msgstr "使用している特殊文字にエスケープ処理がされていません。たとえば、「&」や「<」、「>」などが含まれています。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:701
 msgid ""
-"You've used inline HTML elements to style the display of some fields in "
-"AtoM - for example, using ``<em>`` or ``<i>`` elements for emphasis or "
-"italics."
+"You've used inline HTML elements to style the display of some fields in AtoM"
+" - for example, using ``<em>`` or ``<i>`` elements for emphasis or italics."
 msgstr ""
+"AtoMの一部のフィールドの表示をスタイルするためにインラインHTMLエレメントを使用しています。たとえば、強調やイタリック体に``<em>``や``<i>``エレメントを使用しています。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:703
 msgid ""
@@ -976,13 +1139,18 @@ msgid ""
 "applications like Microsoft Word, instead of the standard `UTF-8 "
 "<https://en.wikipedia.org/wiki/UTF-8>`__ straight quotes ``\"``"
 msgstr ""
+"AtoMに非UTF-8エンコードされた文字をコピー＆ペーストしました。一般的な例としては、Microsoft "
+"Wordなどの多くのワードプロセッシングアプリケーションで使用されるカーブィー（曲がった）引用符の代わりに、標準の `UTF-8 "
+"<https://ja.wikipedia.org/wiki/UTF-8>`__ ストレート引用符 ``\"`` が挙げられます。"
 
 #: ../../user-manual/reports-printing/print-finding-aid.rst:708
 msgid ""
-"We suggest you try reviewing your description(s) in :term:`edit mode` and"
-" look for some of these common errors that can affect EAD export. Remove "
-"any HTML you have added inside AtoM's edit fields. Make sure that you "
-"replace any non-standard punctuation cut and pasted from common word "
-"processor applications."
+"We suggest you try reviewing your description(s) in :term:`edit mode` and "
+"look for some of these common errors that can affect EAD export. Remove any "
+"HTML you have added inside AtoM's edit fields. Make sure that you replace "
+"any non-standard punctuation cut and pasted from common word processor "
+"applications."
 msgstr ""
-
+"以下はArchivematicaに関する文書からの抜粋を日本語に翻訳したものです。\n"
+"\n"
+"私たちは、EADエクスポートに影響を与える可能性がある一般的なエラーを見つけるために、:term:`編集モード`での記述のレビューを試みることをお勧めします。AtoMの編集フィールド内に追加されたHTMLはすべて削除してください。一般的なワードプロセッサアプリケーションからコピー＆ペーストされた非標準の句読点を置換してください。"

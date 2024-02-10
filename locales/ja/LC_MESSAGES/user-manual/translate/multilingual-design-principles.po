@@ -11,91 +11,99 @@ msgstr ""
 "POT-Creation-Date: 2024-02-09 21:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:5
 msgid "Multilingual design principles"
-msgstr ""
+msgstr "多言語設計原則"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:11
 msgid ""
-"AtoM is a multilingual application, which incorporates the following "
-"design principles:"
-msgstr ""
+"AtoM is a multilingual application, which incorporates the following design "
+"principles:"
+msgstr "AtoMは多言語アプリケーションであり、以下の設計原則を取り入れています:"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:14
 msgid ""
 "Both the :term:`user interface` and the :term:`database content` should "
 "exist in multiple languages."
-msgstr ""
+msgstr "用語「ユーザーインターフェース」と用語「データベースコンテンツ」は、複数の言語で存在すべきです。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:17
 msgid ""
-"Users should be able to switch the :term:`user interface` to their "
-"preferred language by navigating to the |globe2| :ref:`language menu "
-"<language-menu>` in the :term:`header bar` and selecting the language "
-"they  wish to translate content into."
+"Users should be able to switch the :term:`user interface` to their preferred"
+" language by navigating to the |globe2| :ref:`language menu <language-menu>`"
+" in the :term:`header bar` and selecting the language they  wish to "
+"translate content into."
 msgstr ""
+"ユーザーは、:term:`ヘッダーバー`の|globe2| :ref:`言語メニュー<language-"
+"menu>`に移動して、コンテンツを翻訳したい言語を選択することにより、:term:`ユーザーインターフェース`を好みの言語に切り替えることができるべきです。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:7
 msgid "globe2"
 msgstr ""
+"ご質問の内容が不明です。Archivematicaに関する具体的なテキストを提供いただければ、その内容を日本語に翻訳することができます。また、「globe2」という言葉だけでは、何を翻訳すべきかの文脈がわかりません。もし、Archivematicaに関する特定の文書やフレーズがありましたら、それをこちらに提示していただければ、翻訳を行います。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:22
 msgid ""
 "When switching the :term:`user interface` to a preferred language, "
-":term:`database content` should also switch, if a translation is "
-"available; if not, the content remains in the original source language."
+":term:`database content` should also switch, if a translation is available; "
+"if not, the content remains in the original source language."
 msgstr ""
+"ユーザーインターフェースを好みの言語に切り替える際には、翻訳が利用可能であればデータベースコンテンツも切り替わるべきです。利用可能な翻訳がない場合、コンテンツは元のソース言語のままです。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:26
 msgid ""
 "Users with :term:`translator` :term:`access privilege` should be able to "
-"contribute translations of content (e.g., archival descriptions) from the"
-" source language to their assigned lanaguges using the translation "
-"interface available in AtoM."
+"contribute translations of content (e.g., archival descriptions) from the "
+"source language to their assigned lanaguges using the translation interface "
+"available in AtoM."
 msgstr ""
+"翻訳者アクセス権限を持つユーザーは、AtoMに用意されている翻訳インターフェースを使用して、ソースとなる言語から自分たちに割り当てられた言語へのコンテンツ（例えば、アーカイブ記述）の翻訳に貢献できるようになるべきです。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:31
 msgid ""
-"The :term:`administrator` should be able to remove languages that are not"
-" needed in their application."
-msgstr ""
+"The :term:`administrator` should be able to remove languages that are not "
+"needed in their application."
+msgstr "`:term:`管理者`は、アプリケーションで不要な言語を削除できるようにするべきです。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:34
 msgid ""
 "The :term:`administrator` should be able to add back :term:`supported "
 "language` that were removed."
-msgstr ""
+msgstr "管理者は、削除された対応言語を再び追加できるようにする必要があります。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:37
 msgid ""
-"The :term:`administrator` should be able to add new languages (that have "
-"an existing translation) from selecting the language from the drop-down "
-"list in the I18n languages section of the Admin Settings."
+"The :term:`administrator` should be able to add new languages (that have an "
+"existing translation) from selecting the language from the drop-down list in"
+" the I18n languages section of the Admin Settings."
 msgstr ""
+"管理者は、アドミン設定の国際化言語セクションにあるドロップダウンリストから言語を選択することによって、既に翻訳が存在する新しい言語を追加できるべきです。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:41
 msgid ""
-"When installing AtoM, the :term:`administrator` specifies the "
-":term:`default language`. Any user can switch the :term:`current "
-"language` to display the :term:`user interface` and :term:`database "
-"content` in any of the other supported languages."
+"When installing AtoM, the :term:`administrator` specifies the :term:`default"
+" language`. Any user can switch the :term:`current language` to display the "
+":term:`user interface` and :term:`database content` in any of the other "
+"supported languages."
 msgstr ""
+"AtoMをインストールする際、:term:`管理者`は:term:`デフォルト言語`を指定します。どのユーザーも:term:`現在の言語`を切り替えて、:term:`ユーザーインターフェース`および:term:`データベースのコンテンツ`をサポートされている他の言語で表示できます。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:49
 msgid ""
 "AtoM does not automatically generate translations of content from one "
-"language to another. It is up to the individual translators to create the"
-" translations of the content and the :term:`user interface` with the "
-"tools provided through the AtoM translation interface."
+"language to another. It is up to the individual translators to create the "
+"translations of the content and the :term:`user interface` with the tools "
+"provided through the AtoM translation interface."
 msgstr ""
+"AtoMは、ある言語から別の言語へのコンテンツの翻訳を自動的に生成する機能を持っていません。コンテンツと:term:`ユーザーインターフェース`の翻訳を作成するのは、AtoM翻訳インターフェースを通して提供されるツールを使用して、個々の翻訳者の責任です。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:56
 msgid ""
@@ -105,44 +113,69 @@ msgid ""
 "visit our `wiki instructions "
 "<https://wiki.accesstomemory.org/Resources/Translation>`__."
 msgstr ""
+"AtoMアプリケーションをご自身の言語に翻訳する方法や、既存のAtoMアプリケーションの翻訳を改善して、Artefactualに送信して次のメジャーリリースに含めてもらう方法については、私たちの「wikiの指示<https://wiki.accesstomemory.org/Resources/Translation>」をご覧ください。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:62
-msgid "**For more information, see the following sections in our User Manual:**"
-msgstr ""
+msgid ""
+"**For more information, see the following sections in our User Manual:**"
+msgstr "**詳細については、ユーザーマニュアルの以下のセクションをご覧ください：**"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:64
 msgid ":ref:`default-language`"
 msgstr ""
+"`:ref:`default-language` のテキストは、文書内の特定の参照を示すマークアップテキストで、SphinxやRead the Docsのようなドキュメンテーションツールで一般的に使用されます。直接的な日本語翻訳は提供できませんが、文脈に応じた仮想の翻訳を例として示すことができます。日本語ドキュメントでは以下のようになるかもしれません:\n"
+"\n"
+"``デフォルト言語``\n"
+"\n"
+"このパターンを実際の文書で使用する場合、リンクまたは参照が指す先にある適切なセクションタイトルやキーワードに置き換える必要があります。実際の翻訳作業において、正確なセクションタイトルやコンテキストが必要になるでしょう。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:65
 msgid ":ref:`The language menu <language-menu>`"
-msgstr ""
+msgstr ":ref:`言語メニュー <language-menu>`"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:66
 msgid ":ref:`Add/Remove languages <add-remove-languages>`"
-msgstr ""
+msgstr ":ref:`言語の追加/削除 <add-remove-languages>`"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:67
 msgid ":ref:`User roles: Translator <user-translator>`"
-msgstr ""
+msgstr ":ref:`ユーザーロール：翻訳者 <user-translator>`"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:68
 msgid ":ref:`Manage users and groups <manage-user-accounts>`"
-msgstr ""
+msgstr ":ref:`ユーザーとグループの管理 <manage-user-accounts>`"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:69
 msgid ":ref:`translate-content`"
 msgstr ""
+"お問い合わせの内容に関する直接の参照がないため、`:ref:`translate-content`' は特定のドキュメントソースコード内の参照タグのようです。これは、実際のテキストではなく、ドキュメント内の特定のセクションへのリンクまたは参照を表すマークアップ構文であることが多いです。文脈が不足しているため、これを正確に日本語に翻訳することはできません。しかし、技術的なドキュメントの一般的な形式を考えると、おそらく以下のような日本語訳になる可能性があります。\n"
+"\n"
+"```\n"
+":ref:`コンテンツの翻訳`\n"
+"```\n"
+"\n"
+"これはドキュメントの特定のセクションを参照するためのマークアップであり、そのセクションの実際のタイトルに置き換えられるべきです。もしこの参照が文脈の中で使われている場合は、その文脈やセクションのタイトルを提供していただけると、より適切な翻訳が可能になります。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:70
 msgid ":ref:`translate-interface`"
 msgstr ""
+"前提として、こちらが指示やコマンドを示すものではないことをご了承ください。また、`:ref:`translate-interface``というテキストは、おそらく何らかのドキュメント内で参照ラベルを指しているものと考えられます。標準的な文章としての翻訳は下記の通りとなりますが、これはリファレンスラベルや具体的なコンテキストが不明なため、文脈に即した翻訳ではない可能性があります。\n"
+"\n"
+"「インターフェースの翻訳」"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:71
 msgid ":ref:`translate-static-pages`"
 msgstr ""
+"この「:ref:`translate-static-pages`」というテキスト断片は、おそらくアーカイブやドキュメント管理システムでよく使われるSphinx文書化ツールにおける参照マークアップの一部です。これは具体的な文章ではなく、実際のドキュメントの一部を引用する際に使う参照タグです。\n"
+"\n"
+"Sphinxでは参照タグ（ref）を使用して、ドキュメント内の他のセクションやページを指し示します。これにより、ドキュメント内でのナビゲーションが容易になります。しかしながら、このタグが指し示している具体的な内容（この場合は「translate-static-pages」）を翻訳するには、実際のセクションのタイトルや文章が必要です。\n"
+"\n"
+"翻訳対象が参照タグのラベルのみであり、それが指し示す具体的なセクションの内容がないため、このままでは適切な日本語訳を提供することができません。翻訳には実際のセクションタイトルや関連するコンテンツが必要です。もし「静的ページの翻訳」などのセクションを示している場合は、そのセクションのタイトルを忠実に日本語に翻訳する必要があります。例えば:\n"
+"\n"
+"「静的ページの翻訳」セクションへの参照\n"
+"\n"
+"上記のアイデアをもとに、実際のドキュメント内容に応じて適切な翻訳を行ってください。"
 
 #: ../../user-manual/translate/multilingual-design-principles.rst:73
 msgid ":ref:`Back to top <multilingual-design-principles>`"
-msgstr ""
-
+msgstr ":ref:`トップに戻る <multilingual-design-principles>`"

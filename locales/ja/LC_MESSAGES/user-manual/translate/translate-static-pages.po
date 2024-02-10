@@ -11,19 +11,18 @@ msgstr ""
 "POT-Creation-Date: 2024-02-09 21:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../user-manual/translate/translate-static-pages.rst:5
 msgid "Translate static pages"
-msgstr ""
+msgstr "静的ページを翻訳する"
 
 #: ../../user-manual/translate/translate-static-pages.rst:11
 msgid ":ref:`Back to top <translate-static-pages>`"
-msgstr ""
-
+msgstr ":ref:`トップへ戻る <translate-static-pages>`"

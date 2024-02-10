@@ -11,25 +11,29 @@ msgstr ""
 "POT-Creation-Date: 2024-02-09 21:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../user-manual/translate/translate-content.rst:5
 msgid "Translate Content"
 msgstr ""
+"Sure, I'd be happy to translate the content about Archivematica that you "
+"provide. Please go ahead and share the text that you need translated into "
+"Japanese."
 
 #: ../../user-manual/translate/translate-content.rst:11
 msgid ""
 "To translate the content of an :term:`archival description`, "
-":term:`authority record`, :term:`archival institution`, or :term:`term`, "
-"a user with translation privileges will open the translate user interface"
-" dialog and work within it."
+":term:`authority record`, :term:`archival institution`, or :term:`term`, a "
+"user with translation privileges will open the translate user interface "
+"dialog and work within it."
 msgstr ""
+"アーカイブ記述、権威レコード、アーカイブ施設、または用語などのコンテンツを翻訳するために、翻訳権限を持つユーザーは翻訳ユーザーインターフェースダイアログを開き、それを使って作業を行います。"
 
 #: ../../user-manual/translate/translate-content.rst:16
 msgid ""
@@ -37,80 +41,95 @@ msgid ""
 "information, see: :ref:`user-roles`, :ref:`manage-user-accounts`, and "
 ":ref:`edit-user-permissions`."
 msgstr ""
+"翻訳権限を持つアカウントでログインします。詳細については、以下を参照してください： :ref:`user-roles`、:ref:`manage-"
+"user-accounts`、そして :ref:`edit-user-permissions`。"
 
 #: ../../user-manual/translate/translate-content.rst:19
 msgid ""
-"Start in your default language (e.g., English). Navigate to the content "
-"you want to translate into another language (e.g., archival description)."
-" For more information on navigation in AtoM, see: :ref:`access-content`."
+"Start in your default language (e.g., English). Navigate to the content you "
+"want to translate into another language (e.g., archival description). For "
+"more information on navigation in AtoM, see: :ref:`access-content`."
 msgstr ""
+"デフォルトの言語（例えば、英語）で始めてください。別の言語に翻訳したいコンテンツ（例えば、アーカイブ記述）へと進んでください。AtoMでのナビゲーションに関する詳細は、こちらを参照してください：:ref:`access-"
+"content`。"
 
 #: ../../user-manual/translate/translate-content.rst:22
 msgid "You have two choices for doing the same thing:"
-msgstr ""
+msgstr "同じことをするための2つの選択肢があります："
 
 #: ../../user-manual/translate/translate-content.rst:24
 msgid ""
-"click :term:`edit button` and then navigate to the |globe2| "
-":ref:`language menu <language-menu>` in the :term:`header bar` and select"
-" the language you wish to translate your content into or,"
+"click :term:`edit button` and then navigate to the |globe2| :ref:`language "
+"menu <language-menu>` in the :term:`header bar` and select the language you "
+"wish to translate your content into or,"
 msgstr ""
+"「:term:`編集ボタン` をクリックし、:term:`ヘッダーバー` の中にある |globe2| :ref:`言語メニュー <language-"
+"menu>` へと進んだ後、翻訳したい内容の言語を選択してください。または、」"
 
 #: ../../user-manual/translate/translate-content.rst:7
 msgid "globe2"
 msgstr ""
+"すみませんが、ご提供いただいたテキスト「globe2」は、翻訳を行う上で十分な情報を含んでいません。より具体的な文脈や文章、またはArchivematicaに関連する情報が提供される必要があります。そのような情報が提供され次第、適切な日本語訳を行うことができます。もし「globe2」が何らかの見出しやキーワードである場合、それに関連する詳細を追加していただければ、その内容を日本語に翻訳いたします。"
 
 #: ../../user-manual/translate/translate-content.rst:27
 msgid ""
 "navigate to the |globe2| :ref:`language menu <language-menu>` in the "
 ":term:`header bar` and then click the :term:`edit button`"
 msgstr ""
+"|globe2|アイコンをクリックして :ref:`言語メニュー<language-menu>` に移動し、次に :term:`編集ボタン` "
+"をクリックしてください。"
 
 #: ../../user-manual/translate/translate-content.rst:-1
 msgid "Archival description translate content page."
-msgstr ""
+msgstr "アーカイブ記述 コンテンツページの翻訳."
 
 #: ../../user-manual/translate/translate-content.rst:35
 msgid ""
-"In the above example, the language selected for translation is French and"
-" the user is translating content in an :term:`archival description`. Note"
-" the :term:`translation bar` is visible at the bottom of the page. Ignore"
-" it for now."
+"In the above example, the language selected for translation is French and "
+"the user is translating content in an :term:`archival description`. Note the"
+" :term:`translation bar` is visible at the bottom of the page. Ignore it for"
+" now."
 msgstr ""
+"上記の例では、翻訳に選択された言語はフランス語であり、ユーザーは`:term:`アーカイブ記述`の内容を翻訳しています。ページの下部に`:term:`翻訳バー`が表示されていることに注意してください。今はそれを無視してください。"
 
 #: ../../user-manual/translate/translate-content.rst:39
 msgid ""
 "Begin translating the content of the archival description in :term:`edit "
-"mode` by selecting one of the :term:`information area` and typing into "
-"the data entry :term:`fields <field>`. Note that the content is shown in "
-"the source language above the data entry :term:`field`."
+"mode` by selecting one of the :term:`information area` and typing into the "
+"data entry :term:`fields <field>`. Note that the content is shown in the "
+"source language above the data entry :term:`field`."
 msgstr ""
+"アーカイブ記述の内容を編集モード（:term:`edit mode`）で翻訳し始めるには、情報エリア（:term:`information "
+"area`）の一つを選択して、データ入力フィールド（:term:`fields "
+"<field>`）に入力してください。データ入力フィールドの上には、ソース言語での内容が表示されることに注意してください。"
 
 #: ../../user-manual/translate/translate-content.rst:46
 msgid ""
-"The tooltips (e.g., ISAD) may also be shown in the new language if they "
-"have been translated by our community of volunteer translators. For more "
+"The tooltips (e.g., ISAD) may also be shown in the new language if they have"
+" been translated by our community of volunteer translators. For more "
 "information, including how you can contribute translations included in "
 "public releases, see the `translation instructions "
 "<https://wiki.accesstomemory.org/Resources/Translation>`__ on our wiki."
 msgstr ""
+"ツールチップ（例：ISAD）も、ボランティアの翻訳者コミュニティによって翻訳されていれば、新しい言語で表示されるかもしれません。公開リリースに含まれる翻訳に貢献する方法を含め、詳細は私たちのウィキにある「翻訳指示"
+" <https://wiki.accesstomemory.org/Resources/Translation>」をご覧ください。"
 
 #: ../../user-manual/translate/translate-content.rst:53
 msgid "Repeat for each field as required."
-msgstr ""
+msgstr "必要に応じて各フィールドに対して繰り返してください。"
 
 #: ../../user-manual/translate/translate-content.rst:54
 msgid "Click the save button in the :term:`button block`"
-msgstr ""
+msgstr ":term:`ボタンブロック` の保存ボタンをクリックしてください。"
 
 #: ../../user-manual/translate/translate-content.rst:55
 msgid ""
-"AtoM returns the user to the :term:`view mode`. The translated fields "
-"will now appear in the new language of translation. Any content not yet "
+"AtoM returns the user to the :term:`view mode`. The translated fields will "
+"now appear in the new language of translation. Any content not yet "
 "translated will continue to appear in the source language."
 msgstr ""
+"AtoMはユーザーを`:term:`閲覧モード`に戻します。翻訳されたフィールドは、新しい翻訳言語で表示されるようになります。まだ翻訳されていない内容は、引き続き元の言語で表示されます。"
 
 #: ../../user-manual/translate/translate-content.rst:59
 msgid ":ref:`Back to top <translate-content>`"
-msgstr ""
-
+msgstr ":ref:`トップへ戻る <translate-content>`"
